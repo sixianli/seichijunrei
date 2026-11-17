@@ -1,0 +1,1561 @@
+{
+ "works": [
+  {
+   "id": "slamdunk",
+   "title": "SLAM DUNK",
+   "mediaType": "anime",
+   "year": 1993,
+   "creator": "西沢信孝 / 東映動画",
+   "tint": "#E64A2E",
+   "aliases": [
+    "Slam Dunk",
+    "スラムダンク",
+    "スラダン",
+    "灌篮高手",
+    "灌籃高手",
+    "슬램덩크",
+    "井上雄彦",
+    "湘北",
+    "Shohoku"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "灌篮高手",
+     "creator": "西泽信孝 / 东映动画",
+     "synopsis": "不良少年樱木花道为了追女生赤木晴子加入湘北高中篮球队，从零开始学习篮球。在队长赤木刚宪、天才流川枫等队友身边，他一步步成长，向全国大赛发起挑战。"
+    },
+    "zh-Hant": {
+     "title": "灌籃高手"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "赤木晴子に一目惚れした不良少年・桜木花道は、彼女の誘いで湘北高校バスケットボール部に入部する。ド素人ながら持ち前の身体能力と負けん気で、仲間たちとともに全国制覇を目指していく。"
+    },
+    "en": {
+     "title": "Slam Dunk",
+     "creator": "Nobutaka Nishizawa / Toei Animation",
+     "synopsis": "Delinquent Hanamichi Sakuragi joins the Shohoku High basketball team to impress Haruko Akagi, despite never having played the game. Raw talent and sheer stubbornness carry him alongside his new teammates as they chase the national championship."
+    },
+    "ko": {
+     "title": "슬램덩크",
+     "creator": "니시자와 노부타카 / 토에이 애니메이션",
+     "synopsis": "채소연에게 첫눈에 반한 불량아 강백호는 그녀의 권유로 북산고 농구부에 들어간다. 농구라고는 해 본 적도 없는 초보지만, 타고난 운동 신경과 근성으로 동료들과 함께 전국 제패를 향해 달려간다."
+    }
+   }
+  },
+  {
+   "id": "yurucamp",
+   "title": "ゆるキャン△",
+   "mediaType": "anime",
+   "year": 2018,
+   "creator": "京極義昭 / C-Station",
+   "tint": "#3E8E5E",
+   "officialURL": "https://yurucamp.jp/",
+   "aliases": [
+    "Laid-Back Camp",
+    "Yuru Camp",
+    "Yurucamp",
+    "ゆるキャン",
+    "摇曳露营",
+    "搖曳露營",
+    "摇曳露营△",
+    "搖曳露營△",
+    "유루캠",
+    "유루캠△",
+    "あfろ"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "摇曳露营△",
+     "creator": "京极义昭 / C-Station",
+     "synopsis": "喜欢一个人冬季露营的志摩凛，在富士山脚下的湖畔认识了刚从静冈搬来山梨的各务原抚子。两人和“野外活动社”的伙伴们一起，慢悠悠地享受着露营、美食和山梨的风景。"
+    },
+    "zh-Hant": {
+     "title": "搖曳露營△"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "冬のソロキャンプを愛する志摩リンと、静岡から山梨に引っ越してきた各務原なでしこ。富士山の見える湖畔での出会いをきっかけに、野クルの仲間たちとゆるく楽しいキャンプの日々が始まる。"
+    },
+    "en": {
+     "title": "Laid-Back Camp",
+     "creator": "Yoshiaki Kyogoku / C-Station",
+     "synopsis": "Rin Shima loves camping alone in winter; Nadeshiko Kagamihara has just moved to Yamanashi and wants to see Mt. Fuji. A chance meeting on a lakeshore pulls them, and the school's Outdoor Activities Club, into a relaxed life of tents, hot food and big views."
+    },
+    "ko": {
+     "title": "유루캠△",
+     "creator": "쿄고쿠 요시아키 / C-Station",
+     "synopsis": "겨울 솔로 캠핑을 즐기는 시마 린과 시즈오카에서 야마나시로 이사 온 카가미하라 나데시코. 후지산이 보이는 호숫가에서 우연히 만난 두 사람은 야외활동 동아리 친구들과 함께 느긋한 캠핑 생활을 시작한다."
+    }
+   }
+  },
+  {
+   "id": "eupho",
+   "title": "響け！ユーフォニアム",
+   "mediaType": "anime",
+   "year": 2015,
+   "creator": "石原立也 / 京都アニメーション",
+   "tint": "#C9A227",
+   "officialURL": "https://anime-eupho.com/",
+   "aliases": [
+    "Sound! Euphonium",
+    "Hibike! Euphonium",
+    "Hibike Euphonium",
+    "ユーフォ",
+    "吹响吧！上低音号",
+    "吹響吧！上低音號",
+    "吹响上低音号",
+    "上低音号",
+    "울려라! 유포니엄",
+    "京アニ",
+    "京都アニメーション",
+    "Kyoto Animation"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "吹响吧！上低音号",
+     "creator": "石原立也 / 京都动画",
+     "synopsis": "升入北宇治高中的黄前久美子加入了实力平平的吹奏乐部，继续吹奏上低音号。新来的顾问泷升宣布目标是全国大赛，部员们在严格的练习、人际摩擦与各自的心事中，一点点改变。"
+    },
+    "zh-Hant": {
+     "title": "吹響吧！上低音號"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "北宇治高校に入学した黄前久美子は、弱小の吹奏楽部でユーフォニアムを続けることに。新顧問・滝昇が掲げた「全国大会」という目標のもと、部員たちは厳しい練習やすれ違いを経て少しずつ変わっていく。"
+    },
+    "en": {
+     "title": "Sound! Euphonium",
+     "creator": "Tatsuya Ishihara / Kyoto Animation",
+     "synopsis": "Kumiko Oumae starts at Kitauji High in Uji and keeps playing the euphonium in its mediocre concert band. When the new adviser, Noboru Taki, sets the goal of reaching the national competition, practice gets tough and every member has to decide how much they really want it."
+    },
+    "ko": {
+     "title": "울려라! 유포니엄",
+     "creator": "이시하라 타츠야 / 쿄토 애니메이션",
+     "synopsis": "키타우지 고등학교에 입학한 오마에 쿠미코는 약체 취주악부에서 유포니엄을 계속 불게 된다. 새 고문 타키 노보루가 '전국 대회'를 목표로 내걸면서, 부원들은 혹독한 연습과 갈등 속에서 조금씩 달라져 간다."
+    }
+   }
+  },
+  {
+   "id": "lovelive",
+   "title": "ラブライブ！",
+   "mediaType": "anime",
+   "year": 2013,
+   "creator": "京極尚彦 / サンライズ",
+   "tint": "#E4007F",
+   "officialURL": "https://www.lovelive-anime.jp/",
+   "aliases": [
+    "Love Live!",
+    "Love Live! School Idol Project",
+    "LoveLive",
+    "ラブライブ",
+    "ラブライブ！School idol project",
+    "μ's",
+    "Muse",
+    "Love Live! 学园偶像计划",
+    "Love Live! 學園偶像計畫",
+    "러브 라이브!",
+    "러브라이브"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "Love Live! 学园偶像计划",
+     "creator": "京极尚彦 / 日升动画",
+     "synopsis": "东京秋叶原附近的音乃木坂学院因学生减少面临废校。二年级的高坂穗乃果决定当“学园偶像”来吸引新生，和伙伴们组成了九人团体 μ's，在歌舞与汗水中守护自己的学校。"
+    },
+    "zh-Hant": {
+     "title": "Love Live! 學園偶像計畫"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "秋葉原と神田の間にある音ノ木坂学院に、生徒数減少による廃校の危機が訪れる。2年生の高坂穂乃果は学校を救うため「スクールアイドル」を始めることを決意し、9人のグループ μ's が生まれる。"
+    },
+    "en": {
+     "title": "Love Live! School Idol Project",
+     "creator": "Takahiko Kyogoku / Sunrise",
+     "synopsis": "Otonokizaka Academy, near Akihabara, is set to close because too few students are enrolling. Second-year Honoka Kosaka decides to save it by becoming a school idol, and the nine-member group μ's is born."
+    },
+    "ko": {
+     "title": "러브 라이브!",
+     "creator": "쿄고쿠 타카히코 / 선라이즈",
+     "synopsis": "아키하바라 근처의 오토노키자카 학원이 학생 수 감소로 폐교 위기에 놓인다. 2학년 코사카 호노카는 학교를 지키기 위해 '스쿨 아이돌'이 되기로 하고, 9인조 그룹 μ's가 탄생한다."
+    }
+   }
+  },
+  {
+   "id": "anohana",
+   "title": "あの日見た花の名前を僕達はまだ知らない。",
+   "mediaType": "anime",
+   "year": 2011,
+   "creator": "長井龍雪 / A-1 Pictures",
+   "tint": "#8CC152",
+   "officialURL": "https://www.anohana.jp/",
+   "aliases": [
+    "Anohana",
+    "AnoHana",
+    "Anohana: The Flower We Saw That Day",
+    "あの花",
+    "あのはな",
+    "未闻花名",
+    "未聞花名",
+    "我们仍未知道那天所看见的花的名字",
+    "그날 본 꽃의 이름을 우리는 아직 모른다",
+    "아노하나",
+    "超平和バスターズ",
+    "Super Peace Busters",
+    "秩父"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "未闻花名",
+     "creator": "长井龙雪 / A-1 Pictures",
+     "synopsis": "小时候一起玩耍的“超和平 Busters”，在一个夏天之后渐渐疏远。闭门不出的高中生仁太某天突然看见了已经不在人世的青梅竹马芽衣子，她说自己有一个愿望还没实现——于是，散落各处的伙伴们再一次聚到了一起。"
+    },
+    "zh-Hant": {
+     "title": "未聞花名"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "子どもの頃いつも一緒に遊んでいた「超平和バスターズ」は、ある夏の出来事を境にばらばらになった。高校に行かず引きこもっていた仁太の前に、ある日亡くなったはずの幼なじみ・めんまが現れ、「お願いを叶えてほしい」と言う。"
+    },
+    "en": {
+     "title": "Anohana: The Flower We Saw That Day",
+     "creator": "Tatsuyuki Nagai / A-1 Pictures",
+     "synopsis": "As kids, six friends called themselves the Super Peace Busters, until one summer pulled them apart. Years later, shut-in Jinta starts seeing Menma, the childhood friend who died, and she asks him to grant a wish she never got to make come true."
+    },
+    "ko": {
+     "title": "그날 본 꽃의 이름을 우리는 아직 모른다",
+     "creator": "나가이 타츠유키 / A-1 Pictures",
+     "synopsis": "어릴 적 늘 함께 놀던 '초평화 버스터즈'는 어느 여름의 일을 계기로 뿔뿔이 흩어졌다. 학교에 가지 않고 틀어박혀 지내던 진타 앞에 세상을 떠난 소꿉친구 멘마가 나타나, 소원을 이루어 달라고 부탁한다."
+    }
+   }
+  },
+  {
+   "id": "luckystar",
+   "title": "らき☆すた",
+   "mediaType": "anime",
+   "year": 2007,
+   "creator": "武本康弘 / 京都アニメーション",
+   "tint": "#B48EE0",
+   "officialURL": "https://www.lucky-ch.com/",
+   "aliases": [
+    "Lucky Star",
+    "Lucky☆Star",
+    "らきすた",
+    "らき☆すた",
+    "幸运星",
+    "幸運☆星",
+    "幸運星",
+    "러키☆스타",
+    "러키스타",
+    "京アニ",
+    "京都アニメーション",
+    "Kyoto Animation",
+    "鷲宮"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "幸运星",
+     "creator": "武本康弘 / 京都动画",
+     "synopsis": "爱看动画、爱打游戏的高中女生泉此方，和柊镜、柊司这对双胞胎姐妹以及高良美幸一起，过着吃吃聊聊、吐槽不断的日常。没有大事件，只有一段段让人会心一笑的闲聊。"
+    },
+    "zh-Hant": {
+     "title": "幸運☆星"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "アニメとゲームが大好きな女子高生・泉こなたと、柊かがみ・つかさの双子姉妹、高良みゆき。4人の何気ない会話とゆるい日常を、たっぷりの小ネタとともに描く。"
+    },
+    "en": {
+     "title": "Lucky☆Star",
+     "creator": "Yasuhiro Takemoto / Kyoto Animation",
+     "synopsis": "Otaku high schooler Konata Izumi hangs out with twins Kagami and Tsukasa Hiiragi and their classmate Miyuki Takara. Nothing much happens, and that is the point: the show is built on everyday chatter, running gags and pop-culture jokes."
+    },
+    "ko": {
+     "title": "러키☆스타",
+     "creator": "타케모토 야스히로 / 쿄토 애니메이션",
+     "synopsis": "애니메이션과 게임을 좋아하는 여고생 이즈미 코나타와 히이라기 카가미·츠카사 쌍둥이 자매, 그리고 타카라 미유키. 네 친구의 별것 없는 수다와 느긋한 일상을 깨알 같은 개그와 함께 그린다."
+    }
+   }
+  },
+  {
+   "id": "keion",
+   "title": "けいおん!",
+   "mediaType": "anime",
+   "year": 2009,
+   "creator": "山田尚子 / 京都アニメーション",
+   "tint": "#F4A0B5",
+   "officialURL": "https://www.tbs.co.jp/anime/k-on/",
+   "aliases": [
+    "K-On!",
+    "K-ON",
+    "Keion",
+    "けいおん",
+    "轻音少女",
+    "輕音少女",
+    "輕音部",
+    "케이온!",
+    "케이온",
+    "放課後ティータイム",
+    "HTT",
+    "京アニ",
+    "京都アニメーション",
+    "Kyoto Animation",
+    "山田尚子"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "轻音少女",
+     "creator": "山田尚子 / 京都动画",
+     "synopsis": "樱丘高中的轻音部只剩下最后几个人，差点就要被废部。完全不会乐器的平泽唯阴差阳错地加入，和澪、律、䌷一起喝茶、吃点心、偶尔认真练习，组成了乐队“放学后茶会”。"
+    },
+    "zh-Hant": {
+     "title": "輕音少女"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "廃部寸前の桜が丘高校軽音部に、楽器経験ゼロの平沢唯が入部する。澪・律・紬とお茶とお菓子を楽しみながら、ときどき本気で練習して、バンド「放課後ティータイム」として歩み始める。"
+    },
+    "en": {
+     "title": "K-On!",
+     "creator": "Naoko Yamada / Kyoto Animation",
+     "synopsis": "Sakuragaoka High's light music club is about to be shut down when Yui Hirasawa, who has never touched an instrument, joins on a whim. With Mio, Ritsu and Mugi she spends more time over tea and cake than practising, yet the band After School Tea Time slowly comes together."
+    },
+    "ko": {
+     "title": "케이온!",
+     "creator": "야마다 나오코 / 쿄토 애니메이션",
+     "synopsis": "폐부 직전인 사쿠라가오카 고교 경음부에 악기라고는 만져 본 적도 없는 히라사와 유이가 들어온다. 미오, 리츠, 츠무기와 함께 차와 과자를 즐기며 가끔은 진지하게 연습하면서, 밴드 '방과 후 티타임'이 시작된다."
+    }
+   }
+  },
+  {
+   "id": "haruhi",
+   "title": "涼宮ハルヒの憂鬱",
+   "mediaType": "anime",
+   "year": 2006,
+   "creator": "石原立也 / 京都アニメーション",
+   "tint": "#F2C14E",
+   "officialURL": "https://www.haruhi.tv/",
+   "aliases": [
+    "The Melancholy of Haruhi Suzumiya",
+    "Haruhi Suzumiya",
+    "Haruhi",
+    "ハルヒ",
+    "涼宮ハルヒ",
+    "凉宫春日的忧郁",
+    "涼宮春日的憂鬱",
+    "凉宫春日",
+    "스즈미야 하루히의 우울",
+    "SOS団",
+    "SOS Brigade",
+    "京アニ",
+    "京都アニメーション",
+    "Kyoto Animation",
+    "西宮"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "凉宫春日的忧郁",
+     "creator": "石原立也 / 京都动画",
+     "synopsis": "高中开学第一天，凉宫春日在自我介绍时宣布：“我对普通人没有兴趣。”坐在她前面的阿虚莫名其妙被拉进了她创立的 SOS 团，团员个个来历不凡，平凡的校园生活从此变得一点也不平凡。"
+    },
+    "zh-Hant": {
+     "title": "涼宮春日的憂鬱"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "高校入学初日の自己紹介で「ただの人間には興味ありません」と言い放った涼宮ハルヒ。前の席のキョンは、彼女が立ち上げた「SOS団」に巻き込まれ、ちっとも普通ではない団員たちと騒がしい日々を送ることになる。"
+    },
+    "en": {
+     "title": "The Melancholy of Haruhi Suzumiya",
+     "creator": "Tatsuya Ishihara / Kyoto Animation",
+     "synopsis": "On the first day of high school, Haruhi Suzumiya announces she has no interest in ordinary humans. Kyon, who sits in front of her, gets dragged into her new SOS Brigade, whose members turn out to be anything but ordinary."
+    },
+    "ko": {
+     "title": "스즈미야 하루히의 우울",
+     "creator": "이시하라 타츠야 / 쿄토 애니메이션",
+     "synopsis": "고교 입학 첫날 자기소개에서 \"평범한 인간에게는 관심 없습니다\"라고 선언한 스즈미야 하루히. 그녀의 앞자리에 앉은 쿈은 하루히가 만든 'SOS단'에 휘말리고, 전혀 평범하지 않은 단원들과 소란스러운 나날을 보내게 된다."
+    }
+   }
+  },
+  {
+   "id": "lovelive-sunshine",
+   "title": "ラブライブ！サンシャイン!!",
+   "mediaType": "anime",
+   "year": 2016,
+   "creator": "酒井和男 / サンライズ",
+   "tint": "#00A0E9",
+   "officialURL": "https://www.lovelive-anime.jp/uranohoshi/",
+   "aliases": [
+    "Love Live! Sunshine!!",
+    "LoveLive Sunshine",
+    "ラブライブサンシャイン",
+    "サンシャイン",
+    "Aqours",
+    "LoveLive! Sunshine!!",
+    "Love Live! Sunshine!! 学园偶像计划",
+    "러브 라이브! 선샤인!!",
+    "러브라이브 선샤인",
+    "沼津",
+    "内浦"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "LoveLive! Sunshine!!",
+     "creator": "酒井和男 / 日升动画",
+     "synopsis": "静冈县沼津市内浦的海边小镇上，浦之星女学院二年级的高海千歌被 μ's 的光芒打动，决心在自己的学校也组建学园偶像团体。她拉上青梅竹马和从东京转学来的少女，Aqours 就此起步。"
+    },
+    "zh-Hant": {
+     "title": "LoveLive! Sunshine!!"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "静岡県沼津市の海辺の町・内浦。浦の星女学院の2年生・高海千歌は、μ'sの輝きに心を奪われ、自分たちの学校でもスクールアイドルを始めようと決意する。幼なじみや東京からの転校生を巻き込み、Aqoursが動き出す。"
+    },
+    "en": {
+     "title": "Love Live! Sunshine!!",
+     "creator": "Kazuo Sakai / Sunrise",
+     "synopsis": "In Uchiura, a seaside corner of Numazu in Shizuoka, Uranohoshi Girls' High student Chika Takami is dazzled by μ's and decides her own school needs a school idol group too. With her childhood friend and a transfer student from Tokyo, Aqours takes its first steps."
+    },
+    "ko": {
+     "title": "러브 라이브! 선샤인!!",
+     "creator": "사카이 카즈오 / 선라이즈",
+     "synopsis": "시즈오카현 누마즈시의 바닷가 마을 우치우라. 우라노호시 여학원 2학년 타카미 치카는 μ's의 반짝임에 마음을 빼앗겨 자기 학교에서도 스쿨 아이돌을 시작하기로 한다. 소꿉친구와 도쿄에서 온 전학생을 끌어들이며 Aqours가 움직이기 시작한다."
+    }
+   }
+  },
+  {
+   "id": "garupan",
+   "title": "ガールズ&パンツァー",
+   "mediaType": "anime",
+   "year": 2012,
+   "creator": "水島努 / アクタス",
+   "tint": "#5E6E3A",
+   "officialURL": "https://girls-und-panzer.jp/",
+   "aliases": [
+    "Girls und Panzer",
+    "GuP",
+    "ガルパン",
+    "ガールズアンドパンツァー",
+    "少女与战车",
+    "少女與戰車",
+    "걸즈 앤 판처",
+    "걸즈 운트 판처",
+    "걸판",
+    "大洗",
+    "Oarai",
+    "水島努"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "少女与战车",
+     "creator": "水岛努 / ACTAS",
+     "synopsis": "在这个世界里，驾驶战车进行比赛的“战车道”是淑女的传统修养。为了逃离战车道而转学到茨城县大洗女子学园的西住美穗，却被学生会硬拉进了刚复活的战车道队，和伙伴们一起挑战全国大赛。"
+    },
+    "zh-Hant": {
+     "title": "少女與戰車"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "戦車を使った武道「戦車道」が乙女のたしなみとされる世界。戦車道から逃れるように茨城県の大洗女子学園へ転校した西住みほは、生徒会に押し切られて復活した戦車道チームに加わり、仲間とともに全国大会に挑む。"
+    },
+    "en": {
+     "title": "Girls und Panzer",
+     "creator": "Tsutomu Mizushima / Actas",
+     "synopsis": "In this world, tankery, fighting mock battles in real tanks, is a traditional art for young women. Miho Nishizumi transfers to Ōarai Girls' Academy in Ibaraki to get away from it, only for the student council to push her into its newly revived team and a run at the national tournament."
+    },
+    "ko": {
+     "title": "걸즈 앤 판처",
+     "creator": "미즈시마 츠토무 / 액타스",
+     "synopsis": "전차를 몰고 겨루는 무도 '전차도'가 숙녀의 교양으로 여겨지는 세계. 전차도를 피해 이바라키현의 오아라이 여자학원으로 전학 온 니시즈미 미호는 학생회에 떠밀려 부활한 전차도 팀에 들어가고, 동료들과 함께 전국 대회에 도전한다."
+    }
+   }
+  },
+  {
+   "id": "hyouka",
+   "title": "氷菓",
+   "mediaType": "anime",
+   "year": 2012,
+   "creator": "武本康弘 / 京都アニメーション",
+   "tint": "#7A5FA8",
+   "officialURL": "https://www.kyotoanimation.co.jp/works/hyouka/",
+   "aliases": [
+    "Hyouka",
+    "Hyoka",
+    "氷菓",
+    "冰菓",
+    "빙과",
+    "古典部シリーズ",
+    "Classic Literature Club",
+    "米澤穂信",
+    "京アニ",
+    "京都アニメーション",
+    "Kyoto Animation",
+    "飛騨高山",
+    "高山"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "冰菓",
+     "creator": "武本康弘 / 京都动画",
+     "synopsis": "信奉“不必要的事不做，必要的事尽快做”的节能主义者折木奉太郎，被姐姐要求加入即将废部的古典部。好奇心旺盛的千反田爱瑠一句“我很好奇！”，让他不得不一次次解开校园和小城里的日常谜题。"
+    },
+    "zh-Hant": {
+     "title": "冰菓"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "「やらなくてもいいことなら、やらない」がモットーの省エネ主義者・折木奉太郎は、姉の勧めで廃部寸前の古典部に入部する。好奇心の塊のような千反田えるの「わたし、気になります！」に押され、身近な謎を解き明かしていく。"
+    },
+    "en": {
+     "title": "Hyouka",
+     "creator": "Yasuhiro Takemoto / Kyoto Animation",
+     "synopsis": "Energy-conserving Hōtarō Oreki never does anything he doesn't have to, until his sister makes him join the dying Classic Literature Club. There, the endlessly curious Eru Chitanda keeps saying \"I'm curious!\", and he finds himself solving the small mysteries of school and his hometown."
+    },
+    "ko": {
+     "title": "빙과",
+     "creator": "타케모토 야스히로 / 쿄토 애니메이션",
+     "synopsis": "'하지 않아도 되는 일은 하지 않는다'가 신조인 에너지 절약주의자 오레키 호타로는 누나의 권유로 폐부 직전의 고전부에 들어간다. 호기심 덩어리 치탄다 에루의 \"저, 궁금해요!\"에 떠밀려, 학교와 마을의 일상 속 수수께끼를 풀어 나간다."
+    }
+   }
+  },
+  {
+   "id": "bocchi",
+   "title": "ぼっち・ざ・ろっく！",
+   "mediaType": "anime",
+   "year": 2022,
+   "creator": "斎藤圭一郎 / CloverWorks",
+   "tint": "#EE6FA8",
+   "officialURL": "https://bocchi.rocks/",
+   "aliases": [
+    "Bocchi the Rock!",
+    "Bocchi the Rock",
+    "ぼっち・ざ・ろっく",
+    "ぼざろ",
+    "ぼっちちゃん",
+    "孤独摇滚！",
+    "孤獨搖滾！",
+    "孤独摇滚",
+    "波奇酱",
+    "봇치 더 록!",
+    "봇치 더 록",
+    "結束バンド",
+    "Kessoku Band",
+    "下北沢",
+    "Shimokitazawa"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "孤独摇滚！",
+     "creator": "斋藤圭一郎 / CloverWorks",
+     "synopsis": "极度怕生的高中生后藤一里在网上是小有名气的吉他手，现实里却连朋友都交不到。一次偶然，她被伊地知虹夏拉进了下北泽的乐队“结束乐队”，从 Live House STARRY 开始，笨拙地踏上了乐队之路。"
+    },
+    "zh-Hant": {
+     "title": "孤獨搖滾！"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "ネットでは人気ギタリストなのに、現実では極度の人見知りで友達ゼロの後藤ひとり。ある日、伊地知虹夏に声をかけられ、下北沢のライブハウス STARRY を拠点とする「結束バンド」に加わることになる。"
+    },
+    "en": {
+     "title": "Bocchi the Rock!",
+     "creator": "Keiichirō Saitō / CloverWorks",
+     "synopsis": "Hitori Gotō is a popular guitarist online but so painfully shy she has never made a friend. When drummer Nijika Ijichi pulls her into Kessoku Band, based at the Shimokitazawa live house STARRY, she has to face real stages and real people."
+    },
+    "ko": {
+     "title": "봇치 더 록!",
+     "creator": "사이토 케이이치로 / CloverWorks",
+     "synopsis": "인터넷에서는 인기 기타리스트지만 현실에서는 낯을 심하게 가려 친구 하나 없는 고토 히토리. 어느 날 이지치 니지카의 손에 이끌려, 시모키타자와의 라이브 하우스 STARRY를 거점으로 하는 '결속밴드'에 들어가게 된다."
+    }
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "slamdunk-kamakurakokomae",
+   "workID": "slamdunk",
+   "latitude": 35.30706,
+   "longitude": 139.50213,
+   "sceneHeading": 184,
+   "scenePitch": -5,
+   "arrivalRadius": 35,
+   "spoiler": false,
+   "sourceURL": "https://www.openstreetmap.org/node/3937261506",
+   "photo": "File:Kamakura koukou mae Fumikiri - 02.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "江之电 镰仓高校前1号道口（神奈川·镰仓）",
+     "sceneTitle": "道口对面挥手的晴子",
+     "episode": "TV 动画 · 片头",
+     "highlight": "从坡道上望下去，道口、江之电和湘南的大海叠在同一个画面里。片头里晴子在这里挥手，这个构图成了《灌篮高手》最有代表性的风景。",
+     "story": "TV 版片头里，绿色车厢的江之电沿着湘南海岸缓缓驶过，道口另一侧的赤木晴子朝樱木花道挥手。对花道来说，晴子是让他走进篮球馆的理由；对观众来说，这一幕就是湘北热血青春的入口。站在通往镰仓高校的“日坂”上往下看，道口、电车与远处的海平线和动画几乎一模一样。三十年过去，这里依然是全世界粉丝心中的“灌篮高手道口”。",
+     "access": "江之电「镰仓高校前」站出站即到，步行约1分钟，沿道口北侧坡道往上走几十米即是机位。",
+     "bestTime": "晴天的上午到午后，海面最蓝；傍晚逆光也很有氛围。周末与假期人极多，平日清早最从容。",
+     "tips": "道口是正在使用的铁路与车道，请勿站在铁轨或马路上拍照，等车时靠边排队；附近为住宅区和高中，请小声、勿乱丢垃圾。"
+    },
+    "ja": {
+     "placeName": "江ノ電 鎌倉高校前1号踏切（神奈川県鎌倉市）",
+     "sceneTitle": "踏切の向こうで手を振る晴子",
+     "episode": "TVアニメ・オープニング",
+     "highlight": "坂の上から見下ろすと、踏切と江ノ電、そして湘南の海がひとつの画面に収まる。オープニングで晴子が手を振ったこの構図は、『SLAM DUNK』を象徴する風景になった。",
+     "story": "TVアニメのオープニングでは、緑の江ノ電が湘南の海沿いをゆっくり走り抜け、踏切の向こうで赤木晴子が桜木花道に手を振る。花道にとって晴子はバスケ部の扉を開けたきっかけであり、視聴者にとってはこの一枚が湘北の熱い青春への入口だった。鎌倉高校へ続く「日坂」から見下ろすと、踏切も電車も水平線もアニメそのまま。放送から30年以上経った今も、世界中のファンが「スラムダンクの踏切」を目指してやって来る。",
+     "access": "江ノ電「鎌倉高校前」駅からすぐ。踏切の北側の坂を数十メートル上がったあたりが撮影ポイント。",
+     "bestTime": "海がいちばん青く見える晴れた日の午前〜昼過ぎ。夕方の逆光も雰囲気がある。土日祝は大混雑なので平日の早朝がおすすめ。",
+     "tips": "踏切は現役の線路と車道。線路内や車道に立ち止まっての撮影は絶対にしないこと。住宅街と高校のそばなので、大声やゴミのポイ捨ても控えよう。"
+    },
+    "en": {
+     "placeName": "Enoden Kamakura-Kōkōmae Crossing No. 1 (Kamakura, Kanagawa)",
+     "sceneTitle": "Haruko Waving Across the Tracks",
+     "episode": "TV anime · Opening",
+     "highlight": "Looking down the slope, the level crossing, the Enoden train and the Shonan sea all line up in one frame. Haruko waves from here in the opening, and the shot became the defining image of Slam Dunk.",
+     "story": "In the TV opening, a green Enoden car rolls along the Shonan coast while Haruko Akagi waves to Hanamichi Sakuragi from the far side of the crossing. For Hanamichi she is the reason he ever set foot in the gym; for viewers, this frame is the doorway into Shohoku's hot-blooded youth. Stand on Hisaka, the slope that climbs toward Kamakura High, and the crossing, the train and the horizon match the anime almost exactly. Three decades on, fans from all over the world still come to find \"the Slam Dunk crossing.\"",
+     "access": "Right outside Kamakura-Kōkōmae Station on the Enoden line; walk a few dozen metres up the slope on the north side of the crossing.",
+     "bestTime": "Sunny mornings to early afternoon, when the sea is bluest; dusk backlight is moody too. Weekends are packed, so try an early weekday.",
+     "tips": "This is a live railway crossing and a public road. Never stand on the tracks or in the street for a photo; queue along the side. It's next to homes and a high school, so keep your voice down and take your rubbish with you."
+    },
+    "ko": {
+     "placeName": "에노덴 가마쿠라코코마에 1호 건널목 (가나가와현 가마쿠라)",
+     "sceneTitle": "건널목 건너편에서 손 흔드는 채소연",
+     "episode": "TV 애니메이션 · 오프닝",
+     "highlight": "비탈길 위에서 내려다보면 건널목과 에노덴, 쇼난 바다가 한 화면에 담긴다. 오프닝에서 채소연이 손을 흔들던 이 구도는 '슬램덩크'를 상징하는 풍경이 되었다.",
+     "story": "TV판 오프닝에서 초록색 에노덴이 쇼난 해안을 따라 천천히 지나가고, 건널목 건너편의 채소연이 강백호에게 손을 흔든다. 강백호에게 채소연은 농구부의 문을 두드리게 한 이유였고, 시청자에게 이 장면은 북산고의 뜨거운 청춘으로 들어가는 입구였다. 가마쿠라 고교로 이어지는 '히사카' 언덕에서 내려다보면 건널목도, 전철도, 수평선도 애니메이션 그대로다. 방영 30여 년이 지난 지금도 전 세계 팬들이 '슬램덩크 건널목'을 찾아온다.",
+     "access": "에노덴 '가마쿠라코코마에' 역에서 바로. 건널목 북쪽 비탈길을 수십 미터 올라간 곳이 촬영 포인트.",
+     "bestTime": "바다가 가장 파랗게 보이는 맑은 날 오전~이른 오후. 해 질 녘 역광도 분위기 있다. 주말은 매우 붐비니 평일 이른 아침 추천.",
+     "tips": "실제로 열차와 차가 다니는 건널목입니다. 선로 안이나 차도에 서서 촬영하지 말고 길가에 줄을 서 주세요. 주택가와 고등학교 옆이니 소란을 피우거나 쓰레기를 버리지 마세요."
+    }
+   }
+  },
+  {
+   "id": "yurucamp-motosu",
+   "workID": "yurucamp",
+   "latitude": 35.47273,
+   "longitude": 138.57501,
+   "sceneHeading": 132,
+   "scenePitch": 5,
+   "arrivalRadius": 80,
+   "spoiler": false,
+   "sourceURL": "https://www.yamanashi-kankou.jp/special/sp_yurucamp/story1.html",
+   "photo": "File:本栖湖から富士山を見る - panoramio.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "本栖湖 浩庵露营场（山梨·身延町）",
+     "sceneTitle": "月光下的富士山与咖喱面",
+     "episode": "第1话",
+     "highlight": "两位主角在这里第一次相遇。湖对岸的富士山正是千元日币背面的那个角度，一碗咖喱杯面换来了整部作品的“露营之友”。",
+     "story": "冬天，喜欢独自露营的志摩凛来到本栖湖畔支起帐篷，享受没人打扰的时光。另一边，刚搬来山梨的各务原抚子骑自行车来看富士山，却因为云多没看到，在厕所旁的长椅上睡着了，醒来时天已全黑、又迷了路。凛犹豫再三，还是分给她一碗咖喱杯面。两人捧着热乎乎的面，看着云散后月光下浮现的富士山——这次偶遇，让一个人的露营慢慢变成了一群人的露营。",
+     "access": "公共交通班次很少，建议自驾（国道300号旁）。也可乘富士急巴士到本栖湖周边，出发前务必确认时刻表。",
+     "bestTime": "空气清澈的11月至次年2月，清晨最容易看到完整的富士山；晴朗的夜晚还能看到月光与星空。",
+     "tips": "浩庵露营场为私营设施，露营或进入营地需按规定付费；冬季湖边夜间非常冷，注意防寒，请把垃圾带走。"
+    },
+    "ja": {
+     "placeName": "本栖湖 浩庵キャンプ場（山梨県身延町）",
+     "sceneTitle": "月明かりの富士山とカレーめん",
+     "episode": "第1話",
+     "highlight": "リンとなでしこが初めて出会った場所。湖の向こうの富士山は千円札の裏と同じアングルで、ひとつのカレーめんから二人の「キャンプ仲間」としての縁が始まった。",
+     "story": "冬のソロキャンプが好きな志摩リンは、本栖湖のほとりにテントを張って一人の時間を楽しんでいた。一方、山梨に越してきたばかりの各務原なでしこは富士山を見に自転車でやって来たものの、雲で見えずにトイレ脇のベンチで眠り込み、目覚めると真っ暗で帰り道もわからない。迷った末にリンが差し出したのは、カップのカレーめん。湯気の向こうで雲が晴れ、月明かりに富士山が浮かび上がる——一人のキャンプが、少しずつみんなのキャンプになっていく始まりの夜だ。",
+     "access": "公共交通は本数が少ないため車が便利（国道300号沿い）。富士急バスで本栖湖周辺まで行けるが、事前に時刻表を確認しよう。",
+     "bestTime": "空気が澄む11月〜2月。早朝は富士山が全景で見えやすく、晴れた夜は月明かりや星空も楽しめる。",
+     "tips": "浩庵キャンプ場は民営施設。キャンプや場内利用は規定の料金を払って。冬の湖畔の夜はかなり冷え込むので防寒をしっかり。ゴミは必ず持ち帰ろう。"
+    },
+    "en": {
+     "placeName": "Koan Campground, Lake Motosu (Minobu, Yamanashi)",
+     "sceneTitle": "Moonlit Fuji and Curry Noodles",
+     "episode": "Episode 1",
+     "highlight": "This is where Rin and Nadeshiko first meet. Mt. Fuji across the lake is the same view printed on the back of the 1,000-yen note, and a single cup of curry noodles starts a whole friendship.",
+     "story": "Rin Shima, who loves camping alone in winter, has pitched her tent on the shore of Lake Motosu to enjoy some peace. Meanwhile Nadeshiko Kagamihara, newly moved to Yamanashi, cycles out to see Mt. Fuji, finds it hidden by cloud, and dozes off on a bench by the toilets. She wakes in the dark with no idea how to get home. After some hesitation, Rin hands her a cup of curry noodles. As the clouds clear and Fuji appears under the moon, a solo trip quietly turns into the start of camping together.",
+     "access": "Public transport is sparse, so driving is easiest (on Route 300). Fujikyu buses reach the Lake Motosu area; check timetables before you go.",
+     "bestTime": "November to February, when the air is clearest. Early morning gives the best chance of a cloud-free Fuji; clear nights bring moonlight and stars.",
+     "tips": "Koan is a private campground, so pay the posted fee to camp or use the grounds. Winter nights by the lake are bitterly cold; dress warmly and pack out all your rubbish."
+    },
+    "ko": {
+     "placeName": "모토스호 고안 캠핑장 (야마나시현 미노부)",
+     "sceneTitle": "달빛 아래 후지산과 카레 컵라면",
+     "episode": "제1화",
+     "highlight": "린과 나데시코가 처음 만난 곳. 호수 건너편 후지산은 1000엔 지폐 뒷면과 같은 구도이고, 카레 컵라면 하나에서 두 사람의 '캠핑 친구' 인연이 시작되었다.",
+     "story": "겨울 솔로 캠핑을 좋아하는 시마 린은 모토스호 호숫가에 텐트를 치고 혼자만의 시간을 즐기고 있었다. 한편 야마나시로 막 이사 온 카가미하라 나데시코는 후지산을 보러 자전거를 타고 왔지만 구름에 가려 보지 못하고, 화장실 옆 벤치에서 잠들어 버린다. 눈을 떠 보니 사방은 캄캄하고 돌아갈 길도 모른다. 망설이던 린이 건넨 것은 카레 컵라면 하나. 김이 오르는 사이 구름이 걷히고 달빛 아래 후지산이 모습을 드러낸다. 혼자였던 캠핑이 조금씩 함께하는 캠핑으로 바뀌는 첫날 밤이다.",
+     "access": "대중교통은 운행 편수가 적어 자동차가 편리하다(국도 300호 변). 후지큐 버스로 모토스호 근처까지 갈 수 있으니 시간표를 꼭 확인하자.",
+     "bestTime": "공기가 맑은 11월~2월. 이른 아침에 후지산 전체가 잘 보이고, 맑은 밤에는 달빛과 별도 즐길 수 있다.",
+     "tips": "고안 캠핑장은 민간 시설이므로 캠핑이나 시설 이용 시 정해진 요금을 내야 합니다. 겨울 호숫가의 밤은 매우 추우니 방한에 신경 쓰고, 쓰레기는 반드시 가져가세요."
+    }
+   }
+  },
+  {
+   "id": "yurucamp-fumotoppara",
+   "workID": "yurucamp",
+   "latitude": 35.39905,
+   "longitude": 138.56705,
+   "sceneHeading": 106,
+   "scenePitch": 5,
+   "arrivalRadius": 150,
+   "spoiler": false,
+   "sourceURL": "https://www.yamanashi-kankou.jp/special/sp_yurucamp/story3.html",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "麓（ふもとっぱら）露营场（静冈·富士宫）",
+     "sceneTitle": "富士山脚下的担担饺子锅",
+     "episode": "第3话",
+     "highlight": "一望无际的草原正对着富士山，抚子第一次“跟着凛去露营”，用一锅担担饺子锅把冬夜变得热闹起来。",
+     "story": "第一次露营之后，抚子一直惦记着再和凛一起看富士山。得知凛要去富士山西麓的大草原独自露营，她搭着姐姐的车追了过来，傍晚在营地里找到了凛，还从背包里变出了做担担饺子锅的食材。两人围着小锅边吃边聊，看着夜色里轮廓分明的富士山。结果第二天早上两人都睡过了头，错过了日出，只好补拍一张合照。凛开始发现，有人陪着的露营好像也不坏。",
+     "access": "基本需要自驾：位于静冈县富士宫市麓，国道139号旁，从富士宫市区开车约40分钟。",
+     "bestTime": "11月至次年3月空气最通透，清晨和傍晚富士山的颜色变化最美；夏季多云，富士山常被遮住。",
+     "tips": "这是收费的私营露营场，日间参观也请先到管理处登记；冬季夜间气温常在零下，注意防寒；请勿在草地上乱扔垃圾。"
+    },
+    "ja": {
+     "placeName": "ふもとっぱらキャンプ場（静岡県富士宮市）",
+     "sceneTitle": "富士山のふもとで担々餃子鍋",
+     "episode": "第3話",
+     "highlight": "富士山と真正面から向き合う大草原。なでしこが初めてリンのキャンプに押しかけ、担々餃子鍋で冬の夜をにぎやかにした場所だ。",
+     "story": "初めてのキャンプ以来、もう一度リンと富士山を見たいと思っていたなでしこ。リンが富士山西麓の草原でソロキャンプをすると知り、姉の車に乗せてもらって後を追う。夕暮れのキャンプ場でリンを見つけると、リュックから担々餃子鍋の材料を取り出した。小さな鍋をつつきながら、夜空にくっきりと浮かぶ富士山を眺める二人。翌朝はそろって寝坊して日の出を見逃し、記念写真で埋め合わせることに。誰かと一緒のキャンプも悪くない——リンがそう感じ始めた一夜だった。",
+     "access": "車での来訪が基本。静岡県富士宮市麓、国道139号沿い。富士宮市街から車で約40分。",
+     "bestTime": "空気が澄む11月〜3月。朝夕は富士山の色が刻々と変わって美しい。夏は雲で隠れがち。",
+     "tips": "有料の民営キャンプ場なので、見学だけでもまず管理棟へ。冬の夜は氷点下になることが多いので防寒対策を。ゴミは必ず持ち帰ろう。"
+    },
+    "en": {
+     "placeName": "Fumotoppara Campsite (Fujinomiya, Shizuoka)",
+     "sceneTitle": "Dandan Gyoza Hot Pot Below Fuji",
+     "episode": "Episode 3",
+     "highlight": "A vast meadow facing Mt. Fuji head-on. Here Nadeshiko crashes Rin's solo trip for the first time and turns a cold winter night lively with a dandan gyoza hot pot.",
+     "story": "Ever since their first night at Lake Motosu, Nadeshiko has wanted to see Fuji with Rin again. When she learns Rin is solo camping on the grasslands at Fuji's western foot, she gets her sister to drive her over, finds Rin at dusk and pulls the ingredients for a spicy dandan gyoza hot pot out of her backpack. They eat from one small pot while Fuji stands sharp against the night sky. The next morning both oversleep and miss the sunrise, so they settle for a photo together. Rin begins to think that camping with someone isn't so bad after all.",
+     "access": "You really need a car: Fumoto, Fujinomiya, along Route 139, about 40 minutes' drive from central Fujinomiya.",
+     "bestTime": "November to March, when the air is clearest; Fuji changes colour beautifully at dawn and dusk. Summer clouds often hide it.",
+     "tips": "This is a paid private campsite; even if you're only looking around, check in at the office first. Winter nights often drop below freezing, so dress warmly. Leave no rubbish on the grass."
+    },
+    "ko": {
+     "placeName": "후모톳파라 캠핑장 (시즈오카현 후지노미야)",
+     "sceneTitle": "후지산 아래의 탄탄 교자 나베",
+     "episode": "제3화",
+     "highlight": "후지산을 정면으로 마주한 넓은 초원. 나데시코가 처음으로 린의 캠핑에 찾아가, 탄탄 교자 나베로 겨울밤을 북적이게 만든 곳이다.",
+     "story": "첫 캠핑 이후로 린과 다시 후지산을 보고 싶었던 나데시코. 린이 후지산 서쪽 기슭의 초원에서 솔로 캠핑을 한다는 걸 알고 언니 차를 얻어 타고 뒤쫓아 간다. 해 질 녘 캠핑장에서 린을 찾아낸 그녀는 배낭에서 탄탄 교자 나베 재료를 꺼낸다. 작은 냄비를 나눠 먹으며 밤하늘에 또렷이 떠오른 후지산을 바라보는 두 사람. 다음 날 아침에는 둘 다 늦잠을 자 일출을 놓치고, 대신 기념사진을 남긴다. 누군가와 함께하는 캠핑도 나쁘지 않다고 린이 느끼기 시작한 밤이다.",
+     "access": "기본적으로 자동차가 필요하다. 시즈오카현 후지노미야시 후모토, 국도 139호 변이며 후지노미야 시내에서 차로 약 40분.",
+     "bestTime": "공기가 맑은 11월~3월. 아침저녁으로 후지산의 색이 시시각각 변해 아름답다. 여름에는 구름에 가려지기 쉽다.",
+     "tips": "유료 민간 캠핑장이므로 구경만 하더라도 먼저 관리동에 들러 주세요. 겨울밤은 영하로 내려가는 일이 많으니 방한 준비를 하고, 쓰레기는 꼭 가져가세요."
+    }
+   }
+  },
+  {
+   "id": "eupho-daikichiyama",
+   "workID": "eupho",
+   "latitude": 34.89294,
+   "longitude": 135.81293,
+   "sceneHeading": 270,
+   "scenePitch": -5,
+   "arrivalRadius": 30,
+   "spoiler": false,
+   "sourceURL": "https://www.openstreetmap.org/node/4907314281",
+   "photo": "File:Mt.Daikichi.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "大吉山展望台（京都·宇治）",
+     "sceneTitle": "县祭之夜的山顶合奏",
+     "episode": "第8话",
+     "highlight": "白裙的丽奈和背着上低音号的久美子在夜色中的宇治街景前合奏，丽奈说出“想要变得特别”——这是两人关系真正改变的一夜。",
+     "story": "县祭当晚，宇治街头挤满了人。高坂丽奈约黄前久美子避开人潮，一起登上大吉山——还特意要她带上沉重的上低音号。气喘吁吁爬到展望台后，眼前是宇治川和灯火点点的街景。丽奈坦白自己讨厌和别人一样，“想要变得特别”，也说出了自己一直在意久美子的原因。两人在夜风里一起吹奏《爱を見つけた場所》，久美子第一次觉得自己被丽奈真正看见。之后，两人成了彼此最重要的同伴。",
+     "access": "京阪宇治线「宇治」站步行约20分钟（过朝雾桥后沿山路登山约15分钟）。",
+     "bestTime": "日落到入夜：宇治街景亮起灯火时最接近动画画面；6月上旬的县祭前后最有氛围。",
+     "tips": "山路较陡且无路灯，夜间请结伴并携带照明；展望台空间不大，请勿长时间占位或大声演奏。"
+    },
+    "ja": {
+     "placeName": "大吉山展望台（京都府宇治市）",
+     "sceneTitle": "県祭りの夜、山頂の二重奏",
+     "episode": "第8話",
+     "highlight": "白いワンピースの麗奈と、ユーフォを背負った久美子。宇治の夜景を前に麗奈が「特別になりたい」と打ち明けた、二人の関係が変わった夜。",
+     "story": "県祭りの夜、宇治の街は人であふれていた。高坂麗奈は黄前久美子を誘って人混みを抜け出し、大吉山に登る——しかも重いユーフォニアムを持ってくるように言って。息を切らして展望台にたどり着くと、宇治川と街の灯りが目の前に広がる。麗奈は、周りと同じなのが嫌で「特別になりたい」のだと打ち明け、久美子のことがずっと気になっていた理由も口にする。夜風の中で二人は「愛を見つけた場所」を吹く。久美子が初めて麗奈に本当の自分を見てもらえたと感じた夜であり、ここから二人はかけがえのない相棒になっていく。",
+     "access": "京阪宇治線「宇治」駅から徒歩約20分（朝霧橋を渡り、山道を約15分登る）。",
+     "bestTime": "日没から夜にかけて、宇治の街に灯りがともる頃がアニメに近い。6月上旬の県祭りの頃はとくに雰囲気がある。",
+     "tips": "山道は急で街灯がないので、夜は複数人で明かりを持って行こう。展望台は狭いので、長時間の場所取りや楽器の演奏は控えて。"
+    },
+    "en": {
+     "placeName": "Daikichiyama Observation Deck (Uji, Kyoto)",
+     "sceneTitle": "A Duet on the Festival Night",
+     "episode": "Episode 8",
+     "highlight": "Reina in a white dress and Kumiko with her euphonium on her back play together above the lights of Uji, and Reina admits she wants to be \"special.\" It is the night their relationship truly changes.",
+     "story": "On the night of the Agata Festival, Uji's streets are packed. Reina Kousaka asks Kumiko Oumae to slip away from the crowds and climb Mt. Daikichi with her, and to bring her heavy euphonium along. Out of breath at the observation deck, they look down on the Uji River and the glittering town. Reina confesses that she hates being like everyone else and wants to be special, and tells Kumiko why she has always been drawn to her. Together they play \"Ai wo Mitsuketa Basho\" in the night breeze. Kumiko feels truly seen for the first time, and from here the two become each other's closest partner.",
+     "access": "About 20 minutes on foot from Keihan Uji Station: cross Asagiri Bridge, then about 15 minutes up a mountain path.",
+     "bestTime": "Sunset into night, when Uji's lights come on, is closest to the anime; around the Agata Festival in early June is especially atmospheric.",
+     "tips": "The path is steep and unlit, so go with others and bring a light after dark. The deck is small: don't hog the railing or play instruments loudly."
+    },
+    "ko": {
+     "placeName": "다이키치야마 전망대 (교토부 우지)",
+     "sceneTitle": "아가타 축제 밤, 산꼭대기의 합주",
+     "episode": "제8화",
+     "highlight": "흰 원피스의 레이나와 유포니엄을 멘 쿠미코가 우지의 야경 앞에서 함께 연주하고, 레이나가 '특별해지고 싶다'고 털어놓는다. 두 사람의 관계가 바뀐 밤이다.",
+     "story": "아가타 축제가 열린 밤, 우지 거리는 사람들로 북적인다. 코사카 레이나는 오마에 쿠미코에게 인파를 피해 다이키치야마에 오르자고 한다. 그것도 무거운 유포니엄을 가지고 오라면서. 숨을 헐떡이며 전망대에 다다르자 우지강과 마을의 불빛이 눈앞에 펼쳐진다. 레이나는 남들과 똑같은 게 싫어서 '특별해지고 싶다'고 고백하고, 쿠미코가 계속 마음에 걸렸던 이유도 털어놓는다. 밤바람 속에서 두 사람은 '사랑을 찾은 곳'을 함께 분다. 쿠미코가 처음으로 레이나에게 진짜 자신을 보여 줬다고 느낀 밤이며, 이때부터 둘은 서로에게 가장 소중한 파트너가 된다.",
+     "access": "게이한 우지선 '우지' 역에서 도보 약 20분(아사기리바시를 건너 산길로 약 15분).",
+     "bestTime": "해 질 녘부터 밤까지, 우지 시내에 불이 켜질 무렵이 애니메이션과 가장 비슷하다. 6월 초 아가타 축제 무렵은 특히 분위기가 좋다.",
+     "tips": "산길이 가파르고 가로등이 없으니 밤에는 여럿이 함께 조명을 챙겨 가세요. 전망대가 좁으므로 오래 자리를 차지하거나 악기를 크게 연주하지 마세요."
+    }
+   }
+  },
+  {
+   "id": "eupho-ujibashi",
+   "workID": "eupho",
+   "latitude": 34.89295,
+   "longitude": 135.80625,
+   "sceneHeading": 225,
+   "scenePitch": 0,
+   "arrivalRadius": 50,
+   "spoiler": false,
+   "sourceURL": "https://www.openstreetmap.org/way/429118673",
+   "photo": "File:View of Uji River from Uji Bridge 20260922c.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "宇治桥（京都·宇治）",
+     "sceneTitle": "“好想变得更厉害！”",
+     "episode": "第12话",
+     "highlight": "久美子哭着冲上宇治桥，一遍又一遍喊出“好想变得更厉害”。这份不甘心，让一个总是随波逐流的女孩第一次真正爱上了上低音号。",
+     "story": "比赛临近，泷老师判断久美子还吹不好那段高难度乐句，要求她在那里停吹。一直以来对什么都不太认真的久美子，第一次因为技术不够被拿下而难过得说不出话。回家路上，她沿着宇治川越跑越快，冲上宇治桥，带着眼泪大喊“好想变得更厉害！好想变得更厉害！”——声音被河风吹散，却在她心里扎了根。从这一刻起，久美子开始真正为自己的上低音号拼命练习。",
+     "access": "京阪宇治线「宇治」站出站即到，步行约1分钟；JR奈良线「宇治」站步行约8分钟。",
+     "bestTime": "傍晚夕阳照在宇治川上时最有那一幕的情绪；春季樱花和秋季红叶时河岸也很美。",
+     "tips": "宇治桥是车流较多的主干道桥梁，请走人行道，勿在桥上奔跑或长时间堵住通道；桥中央上游侧的“三之间”是观景好位置。"
+    },
+    "ja": {
+     "placeName": "宇治橋（京都府宇治市）",
+     "sceneTitle": "「上手くなりたい！」",
+     "episode": "第12話",
+     "highlight": "泣きながら宇治橋へ駆け上がり、何度も「上手くなりたい」と叫ぶ久美子。流されがちだった少女が、初めて本気でユーフォを好きになった瞬間だ。",
+     "story": "コンクールを目前に、滝先生は難しいパッセージを吹ききれない久美子に「そこは吹かないでください」と告げる。何事にも本気になりきれなかった久美子が、実力不足で外されることの悔しさを初めて思い知る。帰り道、宇治川沿いを走るうちに足はどんどん速くなり、宇治橋の上で涙をこぼしながら「上手くなりたい！上手くなりたい！」と叫ぶ。川風にかき消されたその声は、彼女の中に確かに残った。ここから久美子は、自分のために本気で練習を始める。",
+     "access": "京阪宇治線「宇治」駅からすぐ（徒歩約1分）。JR奈良線「宇治」駅から徒歩約8分。",
+     "bestTime": "宇治川に夕日が差す夕方がいちばんあの場面の気持ちに近い。春の桜、秋の紅葉の頃も川沿いが美しい。",
+     "tips": "車通りの多い幹線道路の橋なので歩道を歩き、橋の上で走ったり長時間立ち止まって通行を妨げたりしないこと。橋の中ほど上流側の「三の間」は眺めのいいポイント。"
+    },
+    "en": {
+     "placeName": "Uji Bridge (Uji, Kyoto)",
+     "sceneTitle": "\"I Want to Get Better!\"",
+     "episode": "Episode 12",
+     "highlight": "Kumiko runs onto Uji Bridge in tears and shouts \"I want to get better!\" again and again. It is the moment a girl who usually drifts along finally falls in love with her instrument.",
+     "story": "With the competition close, Mr. Taki decides Kumiko still can't play a difficult passage and tells her to sit it out. Kumiko, who has never let herself care too much about anything, feels for the first time what it is to be cut for not being good enough. On the way home she starts running along the Uji River, faster and faster, until she is on Uji Bridge, crying and shouting \"I want to get better! I want to get better!\" The river wind carries the words away, but they stay with her. From here on she practises in earnest, for herself.",
+     "access": "Right by Keihan Uji Station (about 1 minute on foot); about 8 minutes from JR Uji Station on the Nara Line.",
+     "bestTime": "Late afternoon, with the sun low over the river, best matches the mood of the scene; cherry blossom and autumn leaves also make the banks beautiful.",
+     "tips": "This is a busy road bridge, so stay on the footway and don't run or block the path. The San-no-ma balcony on the upstream side mid-bridge is the best viewpoint."
+    },
+    "ko": {
+     "placeName": "우지바시 다리 (교토부 우지)",
+     "sceneTitle": "\"잘하고 싶어!\"",
+     "episode": "제12화",
+     "highlight": "울면서 우지바시로 달려 올라가 몇 번이고 '잘하고 싶어'라고 외치는 쿠미코. 늘 흐름에 몸을 맡기던 소녀가 처음으로 진심으로 유포니엄을 좋아하게 된 순간이다.",
+     "story": "콩쿠르를 앞두고 타키 선생님은 어려운 패시지를 제대로 불지 못하는 쿠미코에게 그 부분은 불지 말라고 말한다. 무엇에도 진심이 되지 못했던 쿠미코는 실력이 부족해 빠지게 되는 분함을 처음으로 맛본다. 돌아가는 길, 우지강을 따라 걷던 발걸음은 점점 빨라지고, 우지바시 위에서 눈물을 흘리며 \"잘하고 싶어! 잘하고 싶어!\"라고 외친다. 강바람에 흩어진 그 목소리는 그녀 안에 분명히 남았다. 이때부터 쿠미코는 자신을 위해 진심으로 연습하기 시작한다.",
+     "access": "게이한 우지선 '우지' 역에서 바로(도보 약 1분). JR 나라선 '우지' 역에서 도보 약 8분.",
+     "bestTime": "우지강에 석양이 비치는 늦은 오후가 그 장면의 감정과 가장 가깝다. 봄 벚꽃, 가을 단풍 시기의 강변도 아름답다.",
+     "tips": "차량 통행이 많은 간선도로 다리이므로 보도로 다니고, 다리 위에서 뛰거나 오래 멈춰 통행을 막지 마세요. 다리 중간 상류 쪽 '산노마'가 전망 포인트입니다."
+    }
+   }
+  },
+  {
+   "id": "lovelive-kanda-myojin",
+   "workID": "lovelive",
+   "latitude": 35.7014,
+   "longitude": 139.7684,
+   "sceneHeading": 286,
+   "scenePitch": 15,
+   "arrivalRadius": 30,
+   "spoiler": false,
+   "sourceURL": "https://www.openstreetmap.org/way/53162444",
+   "photo": "File:Myojin Otoko-zaka in Soto-Kanda, Chiyoda, Tokyo, Japan, 2024 May.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "神田明神 男坂（东京·外神田）",
+     "sceneTitle": "晨练的男坂石阶",
+     "episode": "TV 第1期 · 多集",
+     "highlight": "μ's 每天清晨在这段陡峭的石阶上来回奔跑练体力。从这里开始的汗水，是一群普通高中生变成学园偶像的起点。",
+     "story": "音乃木坂学院即将废校，高坂穗乃果决定靠“学园偶像”吸引新生。可光有热情不够——园田海未定下了严格的训练计划，大家每天一早来到神田明神，在男坂的石阶上一趟趟往上冲，跑到喘不过气。在神社做巫女打工的东条希常常在一旁笑着看她们，后来也成了 μ's 的一员。这段石阶见证了成员一个个加入、九人终于聚齐的过程，至今仍是粉丝心中的“训练圣地”。",
+     "access": "JR「御茶之水」站圣桥口步行约7分钟；JR「秋叶原」站电气街口步行约8分钟。从坡下的小路仰望即是机位。",
+     "bestTime": "清晨人少、光线柔和，最像晨练的气氛；傍晚坡上的路灯亮起也很漂亮。",
+     "tips": "石阶共68级且很陡，请靠边行走、不要在台阶中间停留拍照；参拜请遵守神社礼仪，痛绘马请挂在指定地点。"
+    },
+    "ja": {
+     "placeName": "神田明神 男坂（東京都千代田区外神田）",
+     "sceneTitle": "朝練の男坂",
+     "episode": "TV第1期・複数話",
+     "highlight": "μ'sが毎朝体力づくりのために駆け上がった急な石段。普通の女子高生たちがスクールアイドルになるための汗は、ここから始まった。",
+     "story": "廃校の危機にある音ノ木坂学院を救うため、スクールアイドルを始めた高坂穂乃果。しかし気持ちだけでは歌も踊りも続かない。園田海未が組んだ厳しい練習メニューのもと、メンバーは毎朝神田明神に集まり、男坂の石段を何度も駆け上がる。神社で巫女のアルバイトをしている東條希は、そんな彼女たちをいつも笑顔で見守り、やがて自身もμ'sの一員になる。仲間が一人また一人と加わり、9人がそろうまでを見届けたこの石段は、今もファンにとっての「練習の聖地」だ。",
+     "access": "JR「御茶ノ水」駅聖橋口から徒歩約7分、JR「秋葉原」駅電気街口から徒歩約8分。坂下の路地から見上げるのが撮影ポイント。",
+     "bestTime": "人が少なく光のやわらかい早朝が朝練の雰囲気にぴったり。夕方、坂の街灯がともる頃もきれい。",
+     "tips": "全68段の急な石段なので端を歩き、段の途中で立ち止まっての撮影は控えて。参拝は神社のマナーを守り、痛絵馬は所定の場所に奉納しよう。"
+    },
+    "en": {
+     "placeName": "Myōjin Otokozaka Stairs, Kanda Myōjin (Sotokanda, Tokyo)",
+     "sceneTitle": "Morning Training on the Stairs",
+     "episode": "TV Season 1 · several episodes",
+     "highlight": "μ's run up and down these steep stone stairs every morning to build stamina. The sweat that turns ordinary schoolgirls into school idols starts here.",
+     "story": "Otonokizaka Academy is facing closure, and Honoka Kosaka has decided to save it by becoming a school idol. Enthusiasm alone won't carry a song and dance, though, so Umi Sonoda draws up a strict training plan: every morning the girls meet at Kanda Myōjin and sprint up the Otokozaka stairs until they can barely breathe. Nozomi Tojo, who works part-time as a shrine maiden here, watches them with a smile and eventually joins μ's herself. These stairs saw the members gather one by one until all nine were together, and fans still call them the group's training ground.",
+     "access": "About 7 minutes on foot from the Hijiri-bashi exit of JR Ochanomizu Station, or 8 minutes from the Electric Town exit of JR Akihabara. Look up from the lane at the bottom.",
+     "bestTime": "Early morning, when it's quiet and the light is soft, feels most like their training runs; dusk, when the lamps on the stairs light up, is pretty too.",
+     "tips": "The 68 steps are steep: keep to the side and don't stop mid-flight for photos. Follow shrine etiquette, and hang any anime-art ema only in the designated place."
+    },
+    "ko": {
+     "placeName": "간다묘진 오토코자카 계단 (도쿄 소토칸다)",
+     "sceneTitle": "아침 훈련의 오토코자카",
+     "episode": "TV 1기 · 여러 화",
+     "highlight": "μ's가 매일 아침 체력을 기르기 위해 뛰어오르던 가파른 돌계단. 평범한 여고생들이 스쿨 아이돌이 되기 위한 땀은 여기서 시작되었다.",
+     "story": "폐교 위기에 놓인 오토노키자카 학원을 지키기 위해 스쿨 아이돌을 시작한 코사카 호노카. 하지만 열정만으로는 노래도 춤도 버틸 수 없다. 소노다 우미가 짠 혹독한 훈련 계획에 따라 멤버들은 매일 아침 간다묘진에 모여 오토코자카 돌계단을 몇 번이고 뛰어오른다. 신사에서 무녀 아르바이트를 하는 토죠 노조미는 그런 그녀들을 늘 웃으며 지켜보다가 결국 μ's의 일원이 된다. 멤버가 한 명씩 늘어 아홉 명이 모일 때까지를 지켜본 이 계단은 지금도 팬들에게 '훈련의 성지'다.",
+     "access": "JR '오차노미즈' 역 히지리바시 출구에서 도보 약 7분, JR '아키하바라' 역 전기상가 출구에서 도보 약 8분. 계단 아래 골목에서 올려다보는 곳이 촬영 포인트.",
+     "bestTime": "사람이 적고 빛이 부드러운 이른 아침이 아침 훈련 분위기에 딱 맞다. 해 질 녘 계단의 가로등이 켜질 때도 예쁘다.",
+     "tips": "68단의 가파른 계단이니 가장자리로 다니고 계단 중간에 멈춰 촬영하지 마세요. 참배 예절을 지키고, 이타에마(애니 그림 에마)는 정해진 곳에 걸어 주세요."
+    }
+   }
+  },
+  {
+   "id": "anohana-chichibubashi",
+   "workID": "anohana",
+   "latitude": 36.01868,
+   "longitude": 139.08644,
+   "sceneHeading": 300,
+   "scenePitch": 0,
+   "arrivalRadius": 40,
+   "spoiler": false,
+   "sourceURL": "https://matcha-jp.com/jp/4056",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "旧秩父桥（埼玉·秩父）",
+     "sceneTitle": "超和平 Busters 走过的桥",
+     "episode": "TV 动画 · 多集",
+     "highlight": "连接秩父街区与对岸山林“秘密基地”的老桥，在片中反复出现。走在桥上回头望，就像走进了仁太他们的那个夏天。",
+     "story": "童年玩伴“超和平 Busters”曾每天穿过这座桥，跑去河对岸山林里的秘密基地。芽衣子离开之后，伙伴们各自长大、渐渐疏远，谁也不再提起那个夏天。直到只有仁太看得见的芽衣子突然出现，说还有一个愿望没实现——为了找出那个愿望，大家又一次沿着这座桥走向秘密基地，也不得不面对各自藏在心里多年的愧疚和心事。秩父的山、河与老桥，就这样成了这段故事的底色。",
+     "access": "秩父铁道「大野原」站步行约10分钟；西武秩父站步行约35分钟，也可在站前租自行车。",
+     "bestTime": "初夏到盛夏的傍晚最有片中的气氛；晴天可从桥上远眺武甲山，11月前后红叶也很美。",
+     "tips": "旧秩父桥现为步行者专用桥，请勿骑车高速通过；河滩夏季水流可能突然变急，下到河边时务必注意安全。"
+    },
+    "ja": {
+     "placeName": "旧秩父橋（埼玉県秩父市）",
+     "sceneTitle": "超平和バスターズが渡った橋",
+     "episode": "TVアニメ・複数話",
+     "highlight": "秩父の街と、対岸の山にある「秘密基地」を結ぶ古い橋。作中に何度も登場し、橋の上に立つと仁太たちの夏に入り込んだような気持ちになる。",
+     "story": "幼い頃の「超平和バスターズ」は、毎日のようにこの橋を渡って川向こうの山の秘密基地へ駆けていった。めんまがいなくなってから仲間たちはそれぞれ大人びて離ればなれになり、あの夏のことは誰も口にしなくなる。ところが、仁太にだけ見えるめんまが現れ、「叶えてほしいお願いがある」と言う。その願いを探すため、仲間たちは再びこの橋を渡って秘密基地へ向かい、何年も胸にしまってきた後悔や想いと向き合うことになる。秩父の山と川と古い橋は、この物語の背景そのものだ。",
+     "access": "秩父鉄道「大野原」駅から徒歩約10分。西武秩父駅からは徒歩約35分で、駅前のレンタサイクルも便利。",
+     "bestTime": "初夏から真夏の夕方が作中の雰囲気に近い。晴れた日は橋から武甲山が望め、11月頃の紅葉も見事。",
+     "tips": "旧秩父橋は歩行者専用。自転車でスピードを出して通らないこと。河原は夏に急に増水することがあるので、川辺に下りる際は十分注意を。"
+    },
+    "en": {
+     "placeName": "Old Chichibu Bridge (Chichibu, Saitama)",
+     "sceneTitle": "The Busters' Bridge",
+     "episode": "TV anime · several episodes",
+     "highlight": "This old bridge links Chichibu town with the wooded hills across the river where the secret base hides, and it appears again and again. Stand on it and look back, and you are in Jinta's summer.",
+     "story": "As kids, the Super Peace Busters crossed this bridge almost every day to reach their secret base in the hills on the far bank. After Menma was gone, they grew up and drifted apart, and nobody spoke of that summer again. Then Menma appears, visible only to Jinta, saying there is a wish she still wants granted. To find out what it is, the old friends walk across this bridge to the base once more, and each has to face the guilt and feelings they have kept hidden for years. Chichibu's mountains, river and old bridge become the backdrop of the whole story.",
+     "access": "About 10 minutes on foot from Ōnohara Station on the Chichibu Railway; about 35 minutes from Seibu-Chichibu Station, where rental bikes are available.",
+     "bestTime": "Summer evenings feel most like the show; on clear days you can see Mt. Bukō from the bridge, and the autumn colours around November are lovely.",
+     "tips": "The old bridge is for pedestrians only, so don't race across on a bike. The river can rise quickly in summer; take care if you go down to the bank."
+    },
+    "ko": {
+     "placeName": "구 치치부바시 다리 (사이타마현 치치부)",
+     "sceneTitle": "초평화 버스터즈가 건넌 다리",
+     "episode": "TV 애니메이션 · 여러 화",
+     "highlight": "치치부 시내와 강 건너 산속 '비밀기지'를 잇는 오래된 다리로, 작품에 몇 번이고 등장한다. 다리 위에 서면 진타 일행의 여름 속으로 들어간 듯하다.",
+     "story": "어린 시절 '초평화 버스터즈'는 거의 매일 이 다리를 건너 강 건너 산속의 비밀기지로 달려갔다. 멘마가 떠난 뒤 친구들은 각자 자라며 멀어졌고, 그 여름 이야기는 아무도 꺼내지 않게 되었다. 그런데 진타에게만 보이는 멘마가 나타나 '이뤄 줬으면 하는 소원이 있다'고 말한다. 그 소원을 찾기 위해 친구들은 다시 이 다리를 건너 비밀기지로 향하고, 오랫동안 가슴에 묻어 둔 후회와 마음을 마주하게 된다. 치치부의 산과 강, 그리고 오래된 다리는 이 이야기의 배경 그 자체다.",
+     "access": "지치부 철도 '오노하라' 역에서 도보 약 10분. 세이부치치부 역에서는 도보 약 35분이며 역 앞 대여 자전거도 편리하다.",
+     "bestTime": "초여름부터 한여름의 저녁이 작품 분위기와 가장 비슷하다. 맑은 날에는 다리에서 부코산이 보이고, 11월 무렵 단풍도 멋지다.",
+     "tips": "구 치치부바시는 보행자 전용 다리이니 자전거로 빠르게 지나가지 마세요. 여름에는 강물이 갑자기 불어날 수 있으니 강가로 내려갈 때 조심하세요."
+    }
+   }
+  },
+  {
+   "id": "anohana-jorinji",
+   "workID": "anohana",
+   "latitude": 36.00555,
+   "longitude": 139.0842,
+   "sceneHeading": 7,
+   "scenePitch": 5,
+   "arrivalRadius": 35,
+   "spoiler": false,
+   "sourceURL": "https://allabout.co.jp/gm/gc/467224/2/",
+   "photo": "File:Jorin-ji (Chichibu, Saitama) 03.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "定林寺（秩父札所17号）（埼玉·秩父）",
+     "sceneTitle": "捉迷藏的寺院",
+     "episode": "TV 动画 · 回忆场景等多集",
+     "highlight": "超和平 Busters 小时候一次次在这里集合、玩捉迷藏。带回廊的观音堂和石阶，一看就是仁太和芽衣子躲藏过的地方。",
+     "story": "在仁太的回忆里，六个孩子总是在这座小寺院集合，然后一哄而散地玩捉迷藏——仁太和芽衣子就曾躲在观音堂四面敞开的回廊下。那时谁也想不到，快乐的日子会在某个夏天戛然而止。长大后的伙伴们再次回到这里，熟悉的石阶和本堂没有变，变的是他们自己。也正因为这样，定林寺成了片中最让人鼻酸的场景之一，寺里至今挂着许多粉丝留下的绘马。",
+     "access": "秩父铁道「秩父」站步行约12分钟；西武秩父站步行约20分钟。",
+     "bestTime": "白天参拜时间内前往；夏季午后蝉声阵阵，最有童年回忆的感觉。",
+     "tips": "这是仍在使用的札所寺院，有巡礼者前来参拜，请保持安静，不要在本堂周围奔跑或模仿捉迷藏；绘马请在寺方授与处购买。"
+    },
+    "ja": {
+     "placeName": "定林寺（秩父札所17番）（埼玉県秩父市）",
+     "sceneTitle": "かくれんぼのお寺",
+     "episode": "TVアニメ・回想シーンほか複数話",
+     "highlight": "超平和バスターズが子どもの頃に何度も集まり、かくれんぼをした場所。吹き放しの回廊がある観音堂と石段は、仁太とめんまが隠れたあの場所そのものだ。",
+     "story": "仁太の記憶の中で、6人はいつもこの小さなお寺に集まり、わっと散らばってかくれんぼを始めた。仁太とめんまが身を潜めたのは、四方が吹き放しになった観音堂の回廊の下。楽しい日々がある夏に突然終わってしまうなんて、あの頃は誰も思っていなかった。成長した仲間たちが再びここを訪れると、石段も本堂も昔のまま。変わってしまったのは自分たちの方だった。だからこそ定林寺は作中でもいちばん胸に迫る場所のひとつで、境内には今もファンの絵馬がたくさん奉納されている。",
+     "access": "秩父鉄道「秩父」駅から徒歩約12分、西武秩父駅から徒歩約20分。",
+     "bestTime": "日中の参拝時間内に。夏の午後、蝉の声が響く頃がいちばん子ども時代の記憶に近い。",
+     "tips": "巡礼者が訪れる現役の札所なので静かに。本堂のまわりを走り回ったり、かくれんぼを真似したりしないこと。絵馬はお寺の授与所で受けよう。"
+    },
+    "en": {
+     "placeName": "Jōrin-ji, Chichibu Temple No. 17 (Chichibu, Saitama)",
+     "sceneTitle": "The Hide-and-Seek Temple",
+     "episode": "TV anime · flashbacks and several episodes",
+     "highlight": "The Super Peace Busters met here again and again as kids to play hide-and-seek. The Kannon hall with its open veranda and the stone steps are exactly where Jinta and Menma hid.",
+     "story": "In Jinta's memories, the six children always gathered at this little temple and then scattered for hide-and-seek; he and Menma once crouched together under the open veranda of the Kannon hall. None of them imagined that those happy days would end so suddenly one summer. When the friends come back years later, the steps and the hall look just the same. It's the friends who have changed, and that's why Jōrin-ji is one of the show's most heartbreaking places. The temple still holds plenty of ema plaques left by fans.",
+     "access": "About 12 minutes on foot from Chichibu Station on the Chichibu Railway; about 20 minutes from Seibu-Chichibu Station.",
+     "bestTime": "During daytime temple hours. A summer afternoon, loud with cicadas, feels most like a childhood memory.",
+     "tips": "This is an active pilgrimage temple, so keep quiet. Don't run around the hall or act out hide-and-seek, and get any ema from the temple office."
+    },
+    "ko": {
+     "placeName": "조린지 (지치부 순례 17번 사찰) (사이타마현 치치부)",
+     "sceneTitle": "숨바꼭질하던 절",
+     "episode": "TV 애니메이션 · 회상 장면 등 여러 화",
+     "highlight": "초평화 버스터즈가 어린 시절 몇 번이고 모여 숨바꼭질을 하던 곳. 사방이 트인 회랑이 있는 관음당과 돌계단은 진타와 멘마가 숨었던 바로 그 장소다.",
+     "story": "진타의 기억 속에서 여섯 아이는 늘 이 작은 절에 모였다가 와르르 흩어져 숨바꼭질을 시작했다. 진타와 멘마가 숨은 곳은 사방이 트인 관음당 회랑 아래. 즐거운 날들이 어느 여름 갑자기 끝나 버릴 줄은 그때 아무도 몰랐다. 어른이 되어 가는 친구들이 다시 이곳을 찾았을 때 돌계단도 본당도 예전 그대로였고, 변한 것은 그들 자신이었다. 그래서 조린지는 작품에서 가장 가슴 아픈 장소 중 하나이며, 경내에는 지금도 팬들이 남긴 에마가 많이 걸려 있다.",
+     "access": "지치부 철도 '지치부' 역에서 도보 약 12분, 세이부치치부 역에서 도보 약 20분.",
+     "bestTime": "낮 참배 시간에 방문하자. 매미 소리가 울리는 여름 오후가 어린 시절의 기억과 가장 닮았다.",
+     "tips": "순례자가 찾는 현역 사찰이니 조용히 해 주세요. 본당 주변을 뛰어다니거나 숨바꼭질을 흉내 내지 말고, 에마는 절의 수여소에서 받으세요."
+    }
+   }
+  },
+  {
+   "id": "luckystar-washinomiya",
+   "workID": "luckystar",
+   "latitude": 36.10013,
+   "longitude": 139.6569,
+   "sceneHeading": 265,
+   "scenePitch": 5,
+   "arrivalRadius": 40,
+   "spoiler": false,
+   "sourceURL": "https://commons.wikimedia.org/wiki/File:Washinomiya_Shrine_-_new_gate.jpg",
+   "photo": "File:Washinomiya Shrine - new gate.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "鹫宫神社 大鸟居前（埼玉·久喜）",
+     "sceneTitle": "柊家姐妹的神社",
+     "episode": "TV 动画 · 片头等多集",
+     "highlight": "片头里出现的鸟居和参道就在这里。它是“鹰宫神社”的原型，也是日本动画圣地巡礼文化最早出圈的地方之一。",
+     "story": "柊镜和柊司这对双胞胎姐妹的家就是一座神社，过年时两人会换上巫女服帮忙，泉此方她们也会跑来凑热闹。片中“鹰宫神社”的原型正是鹫宫神社。2007 年播出后，大批粉丝来到这座关东最古老的神社之一参拜、挂上画着角色的痛绘马，当地商会也和粉丝一起办活动、做周边，后来还有了“幸运星神轿”。一部日常动画就这样改变了一座小镇，也让“圣地巡礼”这个词广为人知。",
+     "access": "东武伊势崎线「鹫宫」站步行约5分钟，出站后向北走即可看到鸟居。",
+     "bestTime": "新年初诣期间最热闹，也最像片中的过年场景；平日白天人少，适合慢慢拍。",
+     "tips": "片中出现的木制大鸟居已于2018年老化倒塌，现在看到的是重建后的鸟居。参道旁是车道，拍照时注意来车；请遵守参拜礼仪。"
+    },
+    "ja": {
+     "placeName": "鷲宮神社 大鳥居前（埼玉県久喜市）",
+     "sceneTitle": "柊姉妹の神社",
+     "episode": "TVアニメ・オープニングほか",
+     "highlight": "オープニングに登場する鳥居と参道がここ。「鷹宮神社」のモデルであり、アニメ聖地巡礼が広く知られるきっかけになった場所のひとつ。",
+     "story": "柊かがみ・つかさの双子姉妹の家は神社で、お正月には二人が巫女姿で手伝い、こなたたちも遊びにやって来る。作中の「鷹宮神社」のモデルがこの鷲宮神社だ。2007年の放送後、関東最古級といわれるこの神社には多くのファンが訪れ、キャラクターを描いた痛絵馬を奉納するようになった。地元の商工会もファンと一緒にイベントやグッズ作りに取り組み、やがて「らき☆すた神輿」まで登場する。ひとつの日常アニメが町を変え、「聖地巡礼」という言葉を世に広めた。",
+     "access": "東武伊勢崎線「鷲宮」駅から徒歩約5分。駅から北へ歩くと鳥居が見えてくる。",
+     "bestTime": "作中の正月シーンそのままのにぎわいを味わうなら初詣の時期。ゆっくり撮るなら人の少ない平日の日中。",
+     "tips": "作中に描かれた木造の大鳥居は2018年に老朽化で倒壊し、現在の鳥居は再建されたもの。参道の脇は車道なので撮影時は車に注意し、参拝のマナーを守ろう。"
+    },
+    "en": {
+     "placeName": "Washinomiya Shrine, Great Torii (Kuki, Saitama)",
+     "sceneTitle": "The Hiiragi Twins' Shrine",
+     "episode": "TV anime · opening and several episodes",
+     "highlight": "The torii and approach seen in the opening are right here. This is the model for Takanomiya Shrine and one of the places that made anime pilgrimage a household idea in Japan.",
+     "story": "Twins Kagami and Tsukasa Hiiragi live at a shrine, help out in shrine-maiden robes at New Year, and get regular visits from Konata and friends. Their Takanomiya Shrine is modelled on Washinomiya, said to be one of the oldest shrines in the Kantō region. After the 2007 broadcast, fans poured in to pray and hang ema plaques painted with the characters. The local chamber of commerce teamed up with them on events and merchandise, and a Lucky Star portable shrine eventually joined the town festival. A slice-of-life comedy changed a small town and helped the word \"seichi junrei\" go mainstream.",
+     "access": "About 5 minutes on foot from Washinomiya Station on the Tobu Isesaki Line; walk north and the torii comes into view.",
+     "bestTime": "Hatsumōde, the New Year shrine visit season, is busiest and closest to the show's New Year episodes; quiet weekday daytimes are best for photos.",
+     "tips": "The wooden great torii shown in the anime collapsed from age in 2018; the one you see now is a rebuild. The approach runs beside a road, so watch for cars, and follow shrine etiquette."
+    },
+    "ko": {
+     "placeName": "와시노미야 신사 큰 도리이 앞 (사이타마현 구키)",
+     "sceneTitle": "히이라기 자매의 신사",
+     "episode": "TV 애니메이션 · 오프닝 등 여러 화",
+     "highlight": "오프닝에 나오는 도리이와 참배길이 바로 여기다. '타카노미야 신사'의 모델이자, 애니메이션 성지순례 문화가 널리 알려지는 계기가 된 곳 중 하나.",
+     "story": "히이라기 카가미와 츠카사 쌍둥이 자매의 집은 신사로, 설날이면 두 사람이 무녀복을 입고 일을 돕고 코나타 일행도 놀러 온다. 작중 '타카노미야 신사'의 모델이 바로 이 와시노미야 신사다. 2007년 방영 후, 간토에서 가장 오래된 신사 중 하나로 꼽히는 이곳에 많은 팬이 찾아와 캐릭터를 그린 이타에마를 걸기 시작했다. 지역 상공회도 팬들과 함께 행사와 굿즈를 만들었고, 마침내 '러키☆스타 가마'까지 등장했다. 일상 애니메이션 한 편이 작은 마을을 바꾸고 '성지순례'라는 말을 세상에 알렸다.",
+     "access": "도부 이세사키선 '와시노미야' 역에서 도보 약 5분. 역에서 북쪽으로 걸으면 도리이가 보인다.",
+     "bestTime": "작품 속 설날 분위기를 느끼려면 하쓰모데 시기. 여유롭게 촬영하려면 사람이 적은 평일 낮.",
+     "tips": "작품에 그려진 목조 큰 도리이는 2018년 노후로 무너졌고, 지금의 도리이는 재건된 것입니다. 참배길 옆이 차도이니 촬영 시 차를 조심하고 참배 예절을 지켜 주세요."
+    }
+   }
+  },
+  {
+   "id": "keion-toyosato",
+   "workID": "keion",
+   "latitude": 35.20374,
+   "longitude": 136.2322,
+   "sceneHeading": 125,
+   "scenePitch": 5,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "sourceURL": "https://www.gltjp.com/zh-hans/directory/item/10908/",
+   "photo": "File:Toyosato Elementary School old building. May, 2015.A.JPG",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "丰乡小学旧校舍群（滋贺·丰乡町）",
+     "sceneTitle": "樱丘高中的白色校舍",
+     "episode": "TV 动画 · 第1期、第2期",
+     "highlight": "白色的近代主义校舍几乎就是樱丘高中本身。楼梯扶手上的“龟兔赛跑”铜像、通往音乐教室的阶梯，都能在这里亲眼看到。",
+     "story": "唯、澪、律、䌷，以及后来加入的梓，在樱丘高中的音乐准备室里喝茶、吃蛋糕、聊天，偶尔认真练习，一起度过了三年的放学后时光。这座建于1937年、由沃里斯设计的校舍，就是樱高的原型：正门前的圆形花坛、长长的走廊、扶手上一只兔子追着一只乌龟的铜像，都和动画里一模一样。校舍曾面临拆除，后来被保留下来作为町民设施，粉丝们也在这里重现了轻音部的活动室。",
+     "access": "近江铁道「丰乡」站步行约10分钟；JR「彦根」站或「河濑」站乘出租车约15分钟。",
+     "bestTime": "春天正门前樱花盛开时最像樱丘高中；平日白天参观人少，可以慢慢看。",
+     "tips": "一般参观免费，开放时间约9:00–17:00（以现场公告为准）；部分区域为图书馆等町民设施，请保持安静，遵守室内拍照规定。"
+    },
+    "ja": {
+     "placeName": "豊郷小学校旧校舎群（滋賀県豊郷町）",
+     "sceneTitle": "桜が丘高校の白い校舎",
+     "episode": "TVアニメ・第1期／第2期",
+     "highlight": "白いモダニズム校舎は、ほぼ桜が丘高校そのもの。階段の手すりの「うさぎとかめ」の像や、音楽準備室へ続く階段を実際に目にできる。",
+     "story": "唯、澪、律、紬、そして後から入部した梓。5人は桜が丘高校の音楽準備室でお茶とケーキを囲み、おしゃべりをして、ときどき本気で練習しながら3年間の放課後を過ごした。1937年に建てられたヴォーリズ設計のこの校舎が、桜高のモデルだ。正門前の円形花壇、長い廊下、手すりの上でかめを追いかけるうさぎの像まで、アニメそのままの景色が残っている。一時は取り壊しの危機もあったが町の施設として保存され、ファンの手で軽音部の部室も再現された。",
+     "access": "近江鉄道「豊郷」駅から徒歩約10分。JR「彦根」駅または「河瀬」駅からタクシーで約15分。",
+     "bestTime": "正門前の桜が咲く春は桜高らしさ満点。平日の日中は人が少なくゆっくり見学できる。",
+     "tips": "一般見学は無料で、開館はおおむね9:00〜17:00（現地の案内を確認）。図書館など町民施設も入っているので静かに過ごし、館内の撮影ルールに従おう。"
+    },
+    "en": {
+     "placeName": "Former Toyosato Elementary School Buildings (Toyosato, Shiga)",
+     "sceneTitle": "Sakuragaoka High's White School",
+     "episode": "TV anime · Seasons 1 and 2",
+     "highlight": "This white modernist school is essentially Sakuragaoka High. You can see the rabbit-and-tortoise statues on the stair handrail and the staircase up to the music room with your own eyes.",
+     "story": "Yui, Mio, Ritsu, Mugi and later Azusa spend three years of after-school hours in Sakuragaoka High's music prep room, drinking tea, eating cake, chatting, and every so often practising seriously. The model for their school is this building, designed by William Merrell Vories and completed in 1937. The round flowerbed by the front entrance, the long corridors, even the bronze rabbit chasing a tortoise along the handrail are just as they appear in the anime. Once threatened with demolition, it was saved as a community facility, and fans have recreated the light music club's room inside.",
+     "access": "About 10 minutes on foot from Toyosato Station on the Ohmi Railway; about 15 minutes by taxi from JR Hikone or Kawase stations.",
+     "bestTime": "Spring, when the cherry trees by the entrance bloom, feels most like Sakuragaoka; weekday daytimes are quiet for a slow look around.",
+     "tips": "General admission is free, roughly 9:00–17:00 (check notices on site). Part of the building is a library and community centre, so keep quiet and follow the indoor photo rules."
+    },
+    "ko": {
+     "placeName": "도요사토 초등학교 옛 교사 (시가현 도요사토)",
+     "sceneTitle": "사쿠라가오카 고교의 하얀 교사",
+     "episode": "TV 애니메이션 · 1기·2기",
+     "highlight": "하얀 모더니즘 교사는 사실상 사쿠라가오카 고교 그 자체다. 계단 난간의 '토끼와 거북이' 동상과 음악 준비실로 이어지는 계단을 직접 볼 수 있다.",
+     "story": "유이, 미오, 리츠, 츠무기, 그리고 나중에 들어온 아즈사. 다섯 명은 사쿠라가오카 고교 음악 준비실에서 차와 케이크를 즐기고 수다를 떨며, 가끔은 진지하게 연습하면서 3년간의 방과 후를 보냈다. 1937년에 지어진 보리스 설계의 이 교사가 사쿠라고의 모델이다. 정문 앞 둥근 화단, 긴 복도, 난간 위에서 거북이를 쫓는 토끼 동상까지 애니메이션 그대로의 풍경이 남아 있다. 한때 철거 위기도 있었지만 마을 시설로 보존되었고, 팬들의 손으로 경음부 부실도 재현되었다.",
+     "access": "오미 철도 '도요사토' 역에서 도보 약 10분. JR '히코네' 역 또는 '가와세' 역에서 택시로 약 15분.",
+     "bestTime": "정문 앞 벚꽃이 피는 봄이 가장 사쿠라고답다. 평일 낮에는 사람이 적어 여유롭게 둘러볼 수 있다.",
+     "tips": "일반 견학은 무료이며 대략 9:00~17:00 개방(현지 안내 확인). 도서관 등 주민 시설도 있으니 조용히 하고 실내 촬영 규칙을 지켜 주세요."
+    }
+   }
+  },
+  {
+   "id": "haruhi-kitakou",
+   "workID": "haruhi",
+   "latitude": 34.7614,
+   "longitude": 135.31395,
+   "sceneHeading": 308,
+   "scenePitch": 8,
+   "arrivalRadius": 80,
+   "spoiler": false,
+   "sourceURL": "https://www.kobe-np.co.jp/news/sougou/202211/sp/0015817409.shtml?pg=amp",
+   "photo": "File:県立西宮北高等学校 - panoramio (2).jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "原西宫北高中 校门前坡道（兵库·西宫）",
+     "sceneTitle": "通往北高的漫长坡道",
+     "episode": "TV 动画 · 多集",
+     "highlight": "阿虚每天一边爬一边在心里吐槽的那段上坡路。和春日、SOS 团有关的一切离奇日常，都从坡顶那所“县立北高”开始。",
+     "story": "阿虚每天都要从车站爬上这段又长又陡的坡道去上学，一路走一路在心里抱怨。就在坡顶的县立北高，他遇见了开学第一天就宣布“对普通人没有兴趣”的凉宫春日，被拉进了她创立的 SOS 团——团员里有外星人、未来人和超能力者，而春日本人对此一无所知。片中的校舍、坡道和校门都以西宫北高中为原型。学校在2025年与另一所高中合并为西宫苦乐园高中，但校舍仍在原址继续使用。",
+     "access": "阪急甲阳线「甲阳园」站步行约20分钟，全程上坡；也可乘阪急巴士在「苦乐园」附近下车。",
+     "bestTime": "春天樱花季或初夏放学前后的午后，最有阿虚上学路的感觉。",
+     "tips": "这是一所正在使用的高中，请勿进入校园，不要拍摄学生或在校门前聚集；坡道是生活道路，注意来车。"
+    },
+    "ja": {
+     "placeName": "旧西宮北高校 校門前の坂（兵庫県西宮市）",
+     "sceneTitle": "北高へ続く長い坂道",
+     "episode": "TVアニメ・複数話",
+     "highlight": "キョンが毎朝、心の中でぼやきながら登る坂。ハルヒとSOS団にまつわる非日常は、坂の上の「県立北高」から始まった。",
+     "story": "キョンは毎日、駅からこの長くて急な坂を登って登校し、そのたびに心の中で文句を言う。坂の上の県立北高で出会ったのが、入学初日に「ただの人間には興味ありません」と言い放った涼宮ハルヒ。彼女の作ったSOS団に引きずり込まれると、団員は宇宙人に未来人に超能力者——しかもハルヒ本人だけがそれを知らない。作中の校舎や坂、校門のモデルは兵庫県立西宮北高校。2025年に統合されて西宮苦楽園高校となったが、校舎は同じ場所で使われ続けている。",
+     "access": "阪急甲陽線「甲陽園」駅から徒歩約20分、ずっと上り坂。阪急バスで「苦楽園」付近まで行くこともできる。",
+     "bestTime": "桜の季節や初夏の午後が、キョンの通学路らしい雰囲気。",
+     "tips": "現役の高校なので校内には入らず、生徒の撮影や校門前でのたむろは厳禁。坂は生活道路なので車に注意しよう。"
+    },
+    "en": {
+     "placeName": "Slope to the Former Nishinomiya Kita High School (Nishinomiya, Hyōgo)",
+     "sceneTitle": "The Long Climb to North High",
+     "episode": "TV anime · several episodes",
+     "highlight": "The hill Kyon trudges up every morning while grumbling in his head. Everything strange about Haruhi and the SOS Brigade begins at \"North High\" at the top.",
+     "story": "Every day Kyon climbs this long, steep hill from the station to school, complaining silently all the way. At North High on top, he meets Haruhi Suzumiya, who announced on day one that she has no interest in ordinary humans, and gets dragged into her SOS Brigade, whose members are an alien, a time traveller and an esper, though Haruhi herself has no idea. The school, slope and gate in the anime are modelled on Hyōgo Prefectural Nishinomiya Kita High School. It merged into Nishinomiya Kurakuen High School in 2025, but the buildings on this site are still in use.",
+     "access": "About 20 minutes uphill on foot from Kōyōen Station on the Hankyu Kōyō Line; Hankyu buses also run to the Kurakuen area.",
+     "bestTime": "Cherry blossom season or an early-summer afternoon feels most like Kyon's daily commute.",
+     "tips": "This is a working high school: do not enter the grounds, photograph students or gather at the gate. The slope is a residential road, so watch for cars."
+    },
+    "ko": {
+     "placeName": "옛 니시노미야키타 고교 교문 앞 언덕 (효고현 니시노미야)",
+     "sceneTitle": "북고로 이어지는 긴 언덕길",
+     "episode": "TV 애니메이션 · 여러 화",
+     "highlight": "쿈이 매일 아침 속으로 투덜대며 오르는 언덕길. 하루히와 SOS단의 비일상은 언덕 위 '현립 북고'에서 시작되었다.",
+     "story": "쿈은 매일 역에서 이 길고 가파른 언덕을 올라 등교하며 속으로 불평을 늘어놓는다. 언덕 위 현립 북고에서 만난 사람이 입학 첫날 \"평범한 인간에게는 관심 없습니다\"라고 선언한 스즈미야 하루히. 그녀가 만든 SOS단에 끌려 들어가 보니 단원은 외계인, 미래인, 초능력자였고, 정작 하루히 본인만 그 사실을 모른다. 작중 교사와 언덕, 교문의 모델은 효고 현립 니시노미야키타 고교다. 2025년 통합되어 니시노미야 쿠라쿠엔 고교가 되었지만 교사는 같은 자리에서 계속 쓰이고 있다.",
+     "access": "한큐 고요선 '고요엔' 역에서 도보 약 20분, 내내 오르막이다. 한큐 버스로 '쿠라쿠엔' 부근까지 갈 수도 있다.",
+     "bestTime": "벚꽃 시즌이나 초여름 오후가 쿈의 등굣길 분위기와 가장 비슷하다.",
+     "tips": "실제 운영 중인 고등학교이니 교내에 들어가지 말고, 학생 촬영이나 교문 앞에 모여 있는 일은 삼가 주세요. 언덕길은 생활 도로이니 차를 조심하세요."
+    }
+   }
+  },
+  {
+   "id": "lovelive-sunshine-mitohama",
+   "workID": "lovelive-sunshine",
+   "latitude": 35.02065,
+   "longitude": 138.89725,
+   "sceneHeading": 330,
+   "scenePitch": 0,
+   "arrivalRadius": 50,
+   "spoiler": false,
+   "sourceURL": "https://ameblo.jp/taki-032069/entry-12518956428.html",
+   "photo": "File:Mount Fuji and Awashima Island (36597945924).jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "三津浜海水浴场·栈桥（静冈·沼津内浦）",
+     "sceneTitle": "四月的海，跳下去的少女",
+     "episode": "第1话",
+     "highlight": "千歌和梨子初次相遇的地方：穿着音乃木坂制服的少女要在四月跳海，千歌冲上去拉住她，两人一起掉进了冰冷的海里。",
+     "story": "被 μ's 打动、一心想组学园偶像团体的高海千歌，在家门口的海边看见一个穿着东京音乃木坂学院制服的女孩，正要从栈桥上跳进四月还很冷的海里。千歌慌忙冲过去拉住她，结果两人一起掉进海中。上岸后才知道，女孩叫樱内梨子，弹钢琴遇到瓶颈，想听听“大海的声音”。听说她来自 μ's 的母校，千歌眼睛都亮了——不久后，梨子作为转学生出现在浦之星，也成了 Aqours 的重要一员。",
+     "access": "JR「沼津」站南口乘伊豆箱根巴士（往江梨、长冈方向）约35分钟，在「三津」或「伊豆・三津シーパラダイス」下车，步行约3分钟。",
+     "bestTime": "晴朗的冬季清晨，淡岛背后的富士山最清楚；夏季是海水浴季节，海边更热闹。",
+     "tips": "栈桥是游船码头，禁止擅自进入和跳水；对面的安田屋旅馆（千歌家“十千万”的原型）是正在营业的旅馆，非住客请勿进入。"
+    },
+    "ja": {
+     "placeName": "三津浜海水浴場・桟橋（静岡県沼津市内浦）",
+     "sceneTitle": "4月の海に飛び込む少女",
+     "episode": "第1話",
+     "highlight": "千歌と梨子が初めて出会った海。音ノ木坂の制服を着た少女が4月の海に飛び込もうとし、止めに入った千歌も一緒に冷たい海へ落ちてしまう。",
+     "story": "μ'sに心を奪われ、スクールアイドルを始めたくてたまらない高海千歌。家の前の海で、東京・音ノ木坂学院の制服を着た少女が、まだ冷たい4月の海へ桟橋から飛び込もうとしているのを見かける。慌てて止めに走った千歌は、彼女と一緒に海へ落ちてしまう。少女の名前は桜内梨子。ピアノに行き詰まり、「海の音」を聴きたかったのだという。μ'sの母校から来たと知って千歌の目は輝く——やがて梨子は転校生として浦の星に現れ、Aqoursに欠かせない仲間になっていく。",
+     "access": "JR「沼津」駅南口から伊豆箱根バス（江梨・長岡方面）で約35分、「三津」または「伊豆・三津シーパラダイス」下車、徒歩約3分。",
+     "bestTime": "空気の澄んだ冬の晴れた朝は、淡島の向こうに富士山がくっきり。夏は海水浴シーズンでにぎやか。",
+     "tips": "桟橋は遊覧船の乗り場なので、無断で立ち入ったり飛び込んだりしないこと。向かいの安田屋旅館（千歌の家「十千万」のモデル）は営業中の旅館なので、宿泊客以外は立ち入らないで。"
+    },
+    "en": {
+     "placeName": "Mitohama Beach and Pier (Uchiura, Numazu, Shizuoka)",
+     "sceneTitle": "The Girl Who Jumped into the April Sea",
+     "episode": "Episode 1",
+     "highlight": "Where Chika and Riko first meet: a girl in an Otonokizaka uniform is about to jump into the cold April sea, Chika rushes to stop her, and both end up in the water.",
+     "story": "Chika Takami, dazzled by μ's and itching to start a school idol group, spots a girl in the uniform of Tokyo's Otonokizaka Academy on the pier outside her family's inn, about to leap into the still-freezing April sea. Chika runs to grab her and they both tumble in. Dripping on the shore, the girl introduces herself as Riko Sakurauchi: stuck on her piano, she wanted to hear \"the sound of the sea.\" Learning that Riko comes from μ's own school, Chika lights up. Soon Riko turns up at Uranohoshi as a transfer student and becomes a key member of Aqours.",
+     "access": "From the south exit of JR Numazu Station, take an Izu Hakone bus toward Ena or Nagaoka (about 35 minutes) to Mito or Izu-Mito Sea Paradise, then walk about 3 minutes.",
+     "bestTime": "Clear winter mornings, when Mt. Fuji rises sharply behind Awashima; summer brings swimmers and a livelier beach.",
+     "tips": "The pier is a sightseeing-boat landing: don't walk out on it uninvited, and never jump in. Yasudaya Ryokan across the road, the model for Chika's family inn Tochiman, is a working inn, so stay out unless you're a guest."
+    },
+    "ko": {
+     "placeName": "미토하마 해수욕장·잔교 (시즈오카현 누마즈 우치우라)",
+     "sceneTitle": "4월의 바다에 뛰어들려던 소녀",
+     "episode": "제1화",
+     "highlight": "치카와 리코가 처음 만난 바다. 오토노키자카 교복을 입은 소녀가 4월의 바다에 뛰어들려 하고, 말리러 간 치카까지 함께 차가운 바다에 빠지고 만다.",
+     "story": "μ's에 마음을 빼앗겨 스쿨 아이돌을 시작하고 싶어 견딜 수 없는 타카미 치카. 집 앞 바다에서 도쿄 오토노키자카 학원 교복을 입은 소녀가 아직 차가운 4월 바다로 잔교에서 뛰어들려는 것을 본다. 허둥지둥 말리러 달려간 치카는 그녀와 함께 바다에 빠져 버린다. 소녀의 이름은 사쿠라우치 리코. 피아노가 막혀서 '바다의 소리'를 듣고 싶었다고 한다. μ's의 모교에서 왔다는 말에 치카의 눈이 반짝인다. 얼마 뒤 리코는 전학생으로 우라노호시에 나타나 Aqours에 없어서는 안 될 멤버가 된다.",
+     "access": "JR '누마즈' 역 남쪽 출구에서 이즈하코네 버스(에나·나가오카 방면)로 약 35분, '미토' 또는 '이즈·미토 시파라다이스'에서 내려 도보 약 3분.",
+     "bestTime": "공기가 맑은 겨울 맑은 아침에는 아와시마 너머로 후지산이 또렷하다. 여름은 해수욕 시즌이라 북적인다.",
+     "tips": "잔교는 유람선 승강장이므로 함부로 들어가거나 뛰어들지 마세요. 맞은편 야스다야 여관(치카네 집 '토치만'의 모델)은 영업 중인 여관이니 숙박객이 아니면 들어가지 마세요."
+    }
+   }
+  },
+  {
+   "id": "garupan-isosaki-jinja",
+   "workID": "garupan",
+   "latitude": 36.31527,
+   "longitude": 140.5884,
+   "sceneHeading": 307,
+   "scenePitch": 15,
+   "arrivalRadius": 40,
+   "spoiler": false,
+   "sourceURL": "https://www.airtrip.jp/travel-column/20565",
+   "photo": "File:Oarai Isosaki Shrine stairs at night.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "大洗矶前神社 参道石阶（茨城·大洗町）",
+     "sceneTitle": "冲下石阶的 IV 号战车",
+     "episode": "TV 动画 · 剧场版（大洗市区战）",
+     "highlight": "比赛打进大洗街区时，美穗她们的 IV 号战车沿着通往本殿的长石阶一路冲下来。真实的神社几乎原样出现在画面里，也成了全町欢迎粉丝的象征。",
+     "story": "在大洗女子学园的比赛中，战场并不只在演习场——战车会开进大洗的街道，穿过商店街、海边，甚至沿着大洗矶前神社的石阶一路冲下。片中的神社境内和入口石阶几乎是照着实景画的。对于美穗她们来说，这是在自己生活的小镇上并肩作战；对于大洗町来说，这部动画带来了源源不断的粉丝。如今神社里挂满了粉丝的痛绘马，海边岩礁上的“神矶鸟居”也成了人气打卡点。",
+     "access": "鹿岛临海铁道「大洗」站乘大洗町循环巴士「海游号」约15分钟，在「大洗矶前神社下」下车即到；从车站步行约30分钟。",
+     "bestTime": "清晨可以先去海边看神矶鸟居的日出，再登石阶参拜；11月的“大洗鮟鱇祭”期间全町都有《少女与战车》活动。",
+     "tips": "石阶又陡又长，请靠边慢行，勿在台阶中央停留拍照；神社门前就是车道，在鸟居下取景时注意来车。"
+    },
+    "ja": {
+     "placeName": "大洗磯前神社 参道の石段（茨城県大洗町）",
+     "sceneTitle": "石段を駆け下りるIV号戦車",
+     "episode": "TVアニメ・劇場版（大洗市街戦）",
+     "highlight": "試合が大洗の市街地に入ると、みほたちのIV号戦車が本殿へ続く長い石段を一気に駆け下りる。実在の神社がほぼそのまま描かれ、町ぐるみでファンを迎える象徴になった。",
+     "story": "大洗女子学園の試合は演習場だけでは終わらない。戦車は大洗の町なかへなだれ込み、商店街や海沿いを抜け、ついには大洗磯前神社の石段まで駆け下りていく。作中の境内や入口の石段は、ほぼ実際の景色のまま。みほたちにとっては自分たちの暮らす町での戦いであり、大洗町にとってはこの作品が多くのファンを呼び込むきっかけになった。今では境内にファンの痛絵馬がずらりと並び、海の岩礁に立つ「神磯の鳥居」も人気の撮影スポットだ。",
+     "access": "鹿島臨海鉄道「大洗」駅から大洗町循環バス「海遊号」で約15分、「大洗磯前神社下」下車すぐ。駅から徒歩なら約30分。",
+     "bestTime": "早朝に神磯の鳥居から昇る朝日を見てから石段を上るのがおすすめ。11月の「大洗あんこう祭」は町じゅうがガルパン一色に。",
+     "tips": "石段は急で長いので端をゆっくり歩き、段の途中で立ち止まっての撮影は控えて。鳥居の前はすぐ車道なので、撮影時は車に注意しよう。"
+    },
+    "en": {
+     "placeName": "Ōarai Isosaki Shrine Stairs (Ōarai, Ibaraki)",
+     "sceneTitle": "The Panzer IV Down the Shrine Steps",
+     "episode": "TV anime & film · Ōarai town battle",
+     "highlight": "When a match spills into Ōarai's streets, Miho's Panzer IV barrels down the long stone stairs from the shrine. The real shrine appears almost unchanged on screen and became a symbol of a town that welcomed its fans.",
+     "story": "Ōarai Girls' Academy's matches don't stay on the training ground. The tanks roll into the town itself, through the shopping streets and along the seafront, and even down the stone steps of Ōarai Isosaki Shrine. The shrine grounds and entrance stairs are drawn almost exactly as they are. For Miho and her friends, it's a fight on their own home turf; for Ōarai, the show brought a steady stream of fans. Today the shrine is hung with anime-art ema, and the Kamiiso torii standing on the rocks in the sea has become a favourite photo spot.",
+     "access": "From Ōarai Station on the Kashima Rinkai Railway, take the Kaiyū-gō town loop bus about 15 minutes to Ōarai Isosaki Jinja-shita; about 30 minutes on foot.",
+     "bestTime": "Catch sunrise at the Kamiiso torii first thing, then climb the stairs. During the Anglerfish Festival in November the whole town goes Girls und Panzer.",
+     "tips": "The stairs are long and steep: walk slowly at the side and don't stop mid-flight for photos. The torii stands right by a road, so watch for traffic when framing your shot."
+    },
+    "ko": {
+     "placeName": "오아라이 이소사키 신사 참배길 돌계단 (이바라키현 오아라이)",
+     "sceneTitle": "돌계단을 내달리는 4호 전차",
+     "episode": "TV 애니메이션·극장판 · 오아라이 시가전",
+     "highlight": "경기가 오아라이 시가지로 넘어오자 미호 일행의 4호 전차가 본전으로 이어지는 긴 돌계단을 단숨에 내달려 내려온다. 실제 신사가 거의 그대로 그려졌고, 마을 전체가 팬을 맞이하는 상징이 되었다.",
+     "story": "오아라이 여자학원의 경기는 연습장에서 끝나지 않는다. 전차는 오아라이 시내로 밀려 들어가 상점가와 바닷가를 지나, 마침내 오아라이 이소사키 신사의 돌계단까지 달려 내려온다. 작품 속 경내와 입구 돌계단은 실제 풍경 거의 그대로다. 미호 일행에게는 자신들이 사는 마을에서의 싸움이고, 오아라이 마을에게는 이 작품이 수많은 팬을 불러들이는 계기가 되었다. 지금은 경내에 팬들의 이타에마가 줄지어 걸려 있고, 바다 암초 위에 선 '가미이소 도리이'도 인기 촬영 명소다.",
+     "access": "가시마 임해철도 '오아라이' 역에서 오아라이 순환버스 '가이유호'로 약 15분, '오아라이 이소사키 진자시타'에서 내리면 바로. 역에서 걸으면 약 30분.",
+     "bestTime": "이른 아침 가미이소 도리이에서 일출을 본 뒤 돌계단을 오르는 코스를 추천. 11월 '오아라이 아귀 축제' 때는 마을 전체가 걸판 분위기다.",
+     "tips": "돌계단이 가파르고 기니 가장자리로 천천히 다니고, 계단 중간에 멈춰 촬영하지 마세요. 도리이 앞은 바로 차도이니 촬영 시 차를 조심하세요."
+    }
+   }
+  },
+  {
+   "id": "garupan-sakanaya",
+   "workID": "garupan",
+   "latitude": 36.31518,
+   "longitude": 140.57436,
+   "sceneHeading": 210,
+   "scenePitch": 0,
+   "arrivalRadius": 30,
+   "spoiler": false,
+   "sourceURL": "https://www.airtrip.jp/travel-column/20565",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "割烹旅馆 肴屋本店（茨城·大洗町 曲松）",
+     "sceneTitle": "冲进旅馆的玛蒂尔达",
+     "episode": "第4话",
+     "highlight": "与圣葛罗莉安娜的练习赛打进大洗街区，一辆玛蒂尔达 II 一头撞进这家老字号旅馆——最出人意料的一幕，让一家百年旅馆成了全国知名的圣地。",
+     "story": "刚复活的大洗战车道队迎来第一场练习赛，对手是由大吉岭率领的强校圣葛罗莉安娜女学院。美穗想出的作战让比赛从郊外一路打进大洗街区：战车在窄巷里互相追逐，商店街的居民在路边加油。混战中，一辆玛蒂尔达 II 猛地冲进了曲松路口这栋旅馆的建筑里。这家明治初年创业的割烹旅馆因此一夜成名，后来也一直热情地欢迎来访的粉丝。",
+     "access": "鹿岛临海铁道「大洗」站步行约15分钟；或乘循环巴士「海游号」在「曲松」下车即到。",
+     "bestTime": "白天商店街营业时最热闹，可以顺便逛逛周边挂着角色立牌的店铺。",
+     "tips": "肴屋本店是正在营业的旅馆兼料亭，非顾客请勿进入建筑或停车场；在路口拍照时请站在人行道上，注意车辆。"
+    },
+    "ja": {
+     "placeName": "割烹旅館 肴屋本店（茨城県大洗町 曲がり松）",
+     "sceneTitle": "旅館に突っ込むマチルダ",
+     "episode": "第4話",
+     "highlight": "聖グロリアーナとの練習試合が大洗の市街地に及び、マチルダIIが老舗旅館に頭から突っ込む。いちばん意外なこの場面で、明治から続く旅館は一躍全国区の聖地になった。",
+     "story": "復活したばかりの大洗女子学園戦車道チームの初陣は、ダージリン率いる強豪・聖グロリアーナ女学院との練習試合。みほの作戦で戦いは郊外から大洗の市街地へとなだれ込み、戦車が細い路地で追いかけ合い、商店街の人たちが沿道から声援を送る。その混戦のさなか、1両のマチルダIIが曲がり松の交差点に建つこの旅館へ勢いよく突っ込んだ。明治初期創業の割烹旅館はこの一幕で一躍有名になり、以来ずっと訪れるファンを温かく迎えている。",
+     "access": "鹿島臨海鉄道「大洗」駅から徒歩約15分。循環バス「海遊号」で「曲松」下車すぐ。",
+     "bestTime": "商店街の店が開いている日中がにぎやか。キャラクターパネルを飾った周辺のお店めぐりも楽しい。",
+     "tips": "肴屋本店は営業中の旅館・料亭なので、利用客以外は建物や駐車場に入らないこと。交差点で撮影するときは歩道に立ち、車に十分注意して。"
+    },
+    "en": {
+     "placeName": "Sakanaya Honten Ryokan (Magarimatsu, Ōarai, Ibaraki)",
+     "sceneTitle": "The Matilda That Crashed into the Inn",
+     "episode": "Episode 4",
+     "highlight": "When the practice match against St. Gloriana reaches Ōarai's streets, a Matilda II ploughs straight into this old inn. It's the show's most unexpected moment, and it turned a long-running ryokan into a famous pilgrimage stop.",
+     "story": "The newly revived Ōarai tankery team's first outing is a practice match against powerhouse St. Gloriana, led by Darjeeling. Miho's plan drags the fight from the outskirts right into Ōarai: tanks chase each other through narrow lanes while shopkeepers cheer from the pavement. In the chaos, a Matilda II smashes into this inn on the Magarimatsu corner. The kappō ryokan, in business since the early Meiji era, became famous overnight and has welcomed visiting fans warmly ever since.",
+     "access": "About 15 minutes on foot from Ōarai Station on the Kashima Rinkai Railway, or take the Kaiyū-gō loop bus to Magarimatsu.",
+     "bestTime": "Daytime, when the shopping street is open; nearby shops display character standees worth a wander.",
+     "tips": "Sakanaya Honten is a working inn and restaurant: unless you're a customer, stay out of the building and car park. Photograph from the pavement and watch the traffic at the junction."
+    },
+    "ko": {
+     "placeName": "갓포 료칸 사카나야 본점 (이바라키현 오아라이 마가리마쓰)",
+     "sceneTitle": "료칸으로 돌진한 마틸다",
+     "episode": "제4화",
+     "highlight": "성 글로리아나와의 연습 경기가 오아라이 시가지로 번지고, 마틸다 II가 노포 료칸에 정면으로 처박힌다. 가장 뜻밖의 이 장면으로 메이지 시대부터 이어진 료칸은 단숨에 전국적인 성지가 되었다.",
+     "story": "막 부활한 오아라이 여자학원 전차도 팀의 첫 무대는 다즐링이 이끄는 강호 성 글로리아나 여학원과의 연습 경기. 미호의 작전으로 싸움은 교외에서 오아라이 시가지로 밀려 들어가고, 전차들이 좁은 골목에서 쫓고 쫓기는 동안 상점가 사람들은 길가에서 응원을 보낸다. 그 혼전 속에서 마틸다 II 한 대가 마가리마쓰 교차로의 이 료칸 건물로 힘차게 돌진한다. 메이지 초기에 창업한 갓포 료칸은 이 장면으로 단번에 유명해졌고, 그 뒤로도 찾아오는 팬들을 따뜻하게 맞이하고 있다.",
+     "access": "가시마 임해철도 '오아라이' 역에서 도보 약 15분. 순환버스 '가이유호'로 '마가리마쓰'에서 내리면 바로.",
+     "bestTime": "상점가가 문을 여는 낮이 활기차다. 캐릭터 패널을 세워 둔 주변 가게를 둘러보는 것도 즐겁다.",
+     "tips": "사카나야 본점은 영업 중인 료칸 겸 요릿집이므로 이용객이 아니면 건물이나 주차장에 들어가지 마세요. 교차로에서 촬영할 때는 보도에 서서 차를 조심하세요."
+    }
+   }
+  },
+  {
+   "id": "hyouka-kajibashi",
+   "workID": "hyouka",
+   "latitude": 36.1431,
+   "longitude": 137.25795,
+   "sceneHeading": 165,
+   "scenePitch": 0,
+   "arrivalRadius": 40,
+   "spoiler": false,
+   "sourceURL": "https://www.hidatakayama.or.jp/lsc/upfile/pamphlet/0000/0020/20_1_file.pdf",
+   "photo": "File:Miyagawa River from Kajibashi Bridge (south).JPG",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "锻冶桥与宫川（岐阜·高山）",
+     "sceneTitle": "神山市的河与桥",
+     "episode": "片头 · 第18话等",
+     "highlight": "片头里古典部四人身后的城市，就是飞驒高山。栏杆上立着“手长”“足长”铜像的锻冶桥和缓缓流过的宫川，是“神山市”最好认的风景。",
+     "story": "《冰菓》的舞台“神山市”以作者米泽穗信的家乡岐阜县高山市为原型。折木奉太郎他们上学、放学、去千反田家、为一个个小谜题奔走时，常常经过宫川边的老街和几座桥。锻冶桥连接着车站一侧和古街一侧，桥中央的“手长”“足长”像是高山祭传说里的人物，在片头和正片里都能认出来。站在桥上往上游看，宫川朝市的摊子沿着河岸排开，这就是奉太郎嘴上嫌麻烦、却一直生活着的那座小城。",
+     "access": "JR高山本线「高山」站步行约10分钟，沿国道158号往东走即到。",
+     "bestTime": "清晨宫川朝市开市时最热闹；春秋高山祭期间和冬季雪景也很有片中的季节感。",
+     "tips": "锻冶桥是交通繁忙的国道桥，请走人行道并注意车辆；朝市摊位是当地人的生意，拍摄摊主前请先打招呼。"
+    },
+    "ja": {
+     "placeName": "鍛冶橋と宮川（岐阜県高山市）",
+     "sceneTitle": "神山市の川と橋",
+     "episode": "オープニング・第18話ほか",
+     "highlight": "オープニングで古典部の4人の背後に広がる街は飛騨高山。欄干に「手長」「足長」の像が立つ鍛冶橋と、ゆったり流れる宮川は「神山市」でいちばんわかりやすい風景だ。",
+     "story": "『氷菓』の舞台「神山市」のモデルは、原作者・米澤穂信の故郷である岐阜県高山市。折木奉太郎たちが登下校したり、千反田家へ向かったり、小さな謎を追いかけたりするとき、宮川沿いの古い町並みといくつもの橋がたびたび登場する。駅側と古い町並み側をつなぐ鍛冶橋の中央には、高山祭の伝承に由来する「手長」「足長」の像があり、オープニングや本編でも見つけられる。橋の上から上流を眺めると、川岸に宮川朝市の店が並ぶ。「面倒だ」と言いながら奉太郎が暮らしている、あの町の景色だ。",
+     "access": "JR高山本線「高山」駅から徒歩約10分。国道158号を東へ進むとすぐ。",
+     "bestTime": "宮川朝市が開く朝がいちばんにぎやか。春と秋の高山祭や冬の雪景色も、作中の季節感が味わえる。",
+     "tips": "鍛冶橋は交通量の多い国道の橋なので歩道を歩き、車に注意。朝市は地元の方の商いの場なので、お店の人を撮るときはひと声かけよう。"
+    },
+    "en": {
+     "placeName": "Kajibashi Bridge and the Miya River (Takayama, Gifu)",
+     "sceneTitle": "Kamiyama's River and Bridge",
+     "episode": "Opening · Episode 18 and others",
+     "highlight": "The town behind the Classic Literature Club in the opening is Hida-Takayama. Kajibashi, with its long-armed and long-legged Tenaga and Ashinaga statues on the railings, and the slow Miya River are the easiest landmarks of \"Kamiyama City\" to recognise.",
+     "story": "Hyouka's Kamiyama City is modelled on Takayama in Gifu, author Honobu Yonezawa's hometown. As Hōtarō Oreki and his friends walk to school, head to the Chitanda house or chase small mysteries, the old streets along the Miya River and their bridges keep appearing. Kajibashi links the station side with the old town, and the Tenaga and Ashinaga figures at its centre, drawn from Takayama Festival folklore, can be spotted in the opening and the episodes. Look upstream from the bridge and the stalls of the Miyagawa Morning Market line the bank: this is the little town Hōtarō complains about but lives in all the same.",
+     "access": "About 10 minutes on foot from JR Takayama Station; head east along Route 158.",
+     "bestTime": "Early morning, when the Miyagawa Morning Market opens. The spring and autumn Takayama Festivals and winter snow also bring out the show's seasonal feel.",
+     "tips": "Kajibashi carries busy main-road traffic, so stay on the footway. The market stalls are locals' livelihoods; ask before photographing stallholders."
+    },
+    "ko": {
+     "placeName": "가지바시 다리와 미야강 (기후현 다카야마)",
+     "sceneTitle": "카미야마시의 강과 다리",
+     "episode": "오프닝 · 제18화 등",
+     "highlight": "오프닝에서 고전부 네 사람 뒤로 펼쳐지는 마을이 바로 히다 다카야마다. 난간에 '데나가'와 '아시나가' 동상이 선 가지바시와 느긋하게 흐르는 미야강은 '카미야마시'에서 가장 알아보기 쉬운 풍경이다.",
+     "story": "'빙과'의 무대 '카미야마시'의 모델은 원작자 요네자와 호노부의 고향인 기후현 다카야마시다. 오레키 호타로 일행이 등하교하거나 치탄다 가로 향하거나 작은 수수께끼를 쫓을 때, 미야강 변의 옛 거리와 다리들이 자주 등장한다. 역 쪽과 옛 거리 쪽을 잇는 가지바시 한가운데에는 다카야마 축제 전설에서 유래한 '데나가'와 '아시나가' 동상이 있어 오프닝과 본편에서도 찾아볼 수 있다. 다리 위에서 상류를 바라보면 강가를 따라 미야가와 아침시장 노점이 늘어서 있다. 귀찮다면서도 호타로가 살아가는 바로 그 마을의 풍경이다.",
+     "access": "JR 다카야마 본선 '다카야마' 역에서 도보 약 10분. 국도 158호를 따라 동쪽으로 가면 바로다.",
+     "bestTime": "미야가와 아침시장이 열리는 아침이 가장 활기차다. 봄·가을 다카야마 축제와 겨울 설경도 작품 속 계절감을 느끼기 좋다.",
+     "tips": "가지바시는 통행량이 많은 국도 다리이니 보도로 다니고 차를 조심하세요. 아침시장은 지역 주민의 생업 현장이므로 상인을 찍을 때는 먼저 양해를 구하세요."
+    }
+   }
+  },
+  {
+   "id": "hyouka-minashi-jinja",
+   "workID": "hyouka",
+   "latitude": 36.08618,
+   "longitude": 137.25092,
+   "sceneHeading": 134,
+   "scenePitch": 0,
+   "arrivalRadius": 50,
+   "spoiler": true,
+   "sourceURL": "https://tabi-mag.jp/ikibina/",
+   "photo": "File:Torii of Minashi Shrine (Hida-Ichinomiya) in a snow day.JPG",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "飞驒一宫水无神社（岐阜·高山 一之宫町）",
+     "sceneTitle": "绕远路的雏人偶",
+     "episode": "第22话（最终话）",
+     "highlight": "千反田扮成“活雏人偶”走在游行队伍里，奉太郎为她撑伞。最终话的这场祭典，是两人关系最安静、也最动人的一刻。",
+     "story": "神山市的“生雏祭”上，由真人扮成雏人偶列队游行，今年的人偶由千反田担任，她请奉太郎来当撑伞的人。原定的路线因为一座桥施工而被迫绕远路，奉太郎察觉其中另有隐情，又一次解开了小小的谜题。祭典结束后，两人在开着樱花的回家路上并肩而行，千反田谈起自己将来想为这片土地做些什么。奉太郎心里有一句话已经准备好了，最终却没有说出口——故事就在这份含蓄里画上了句号。现实中，水无神社每年4月3日举办“生雏祭”。",
+     "access": "JR高山本线「飞驒一之宫」站步行约8分钟；从高山站乘电车约10分钟。",
+     "bestTime": "每年4月3日“生雏祭”当天最能重温最终话；4月中下旬附近的“臥龙樱”盛开时也很美。",
+     "tips": "生雏祭当天人多且有交通管制，请听从工作人员指挥，勿妨碍队伍；平日参拜请保持神社礼仪。"
+    },
+    "ja": {
+     "placeName": "飛騨一宮水無神社（岐阜県高山市一之宮町）",
+     "sceneTitle": "遠まわりする雛",
+     "episode": "第22話（最終話）",
+     "highlight": "「生き雛」として行列を歩く千反田と、その傘を持つ奉太郎。最終話のこの祭りは、二人の関係がいちばん静かに、いちばん美しく描かれる場面だ。",
+     "story": "神山市の「生き雛祭り」では、人が雛人形に扮して行列を作る。今年の雛は千反田えるが務め、奉太郎は彼女に頼まれて傘持ちを引き受ける。予定していた行列の道筋が橋の工事で遠回りになり、奉太郎はその裏にある事情に気づいて、またひとつ小さな謎を解く。祭りのあと、桜の咲く帰り道を並んで歩きながら、千反田はこの土地のために自分がしたいことを語る。奉太郎の胸には言うべき言葉が用意されていたが、結局それは口にされない——物語はその余韻のまま幕を下ろす。現実の水無神社でも、毎年4月3日に「生きびな祭」が行われている。",
+     "access": "JR高山本線「飛騨一ノ宮」駅から徒歩約8分。高山駅から電車で約10分。",
+     "bestTime": "最終話を追体験するなら毎年4月3日の生きびな祭当日。4月中旬〜下旬、近くの「臥龍桜」が咲く頃も美しい。",
+     "tips": "生きびな祭の日は人出が多く交通規制もあるので、係の人の指示に従い行列の妨げにならないように。普段の参拝も神社のマナーを守ろう。"
+    },
+    "en": {
+     "placeName": "Hida Ichinomiya Minashi Shrine (Ichinomiya, Takayama, Gifu)",
+     "sceneTitle": "The Doll Who Took the Long Way Round",
+     "episode": "Episode 22 (finale)",
+     "highlight": "Eru walks in the procession as a living hina doll while Hōtarō holds her parasol. This festival in the finale is the quietest and most moving moment between them.",
+     "story": "At Kamiyama's Living Hina Festival, people dressed as hina dolls parade through town. This year Eru Chitanda plays the doll, and she asks Hōtarō to be her parasol bearer. Construction on a bridge forces the procession onto a longer route, and Hōtarō realises there is more to it than meets the eye, solving one last small mystery. Afterwards, walking home together under cherry blossoms, Eru talks about what she wants to do for this land one day. Hōtarō has the words ready, but in the end he doesn't say them, and the story closes on that unspoken feeling. The real Minashi Shrine holds its Ikibina Festival every year on 3 April.",
+     "access": "About 8 minutes on foot from Hida-Ichinomiya Station on the JR Takayama Line, around 10 minutes by train from Takayama.",
+     "bestTime": "3 April, the day of the Ikibina Festival, if you want to relive the finale; mid-to-late April, when the nearby Garyū cherry tree blooms, is beautiful too.",
+     "tips": "Festival day is crowded and roads are restricted, so follow the stewards and don't block the procession. On ordinary days, observe normal shrine etiquette."
+    },
+    "ko": {
+     "placeName": "히다 이치노미야 미나시 신사 (기후현 다카야마 이치노미야)",
+     "sceneTitle": "멀리 돌아가는 히나",
+     "episode": "제22화 (최종화)",
+     "highlight": "'살아 있는 히나 인형'이 되어 행렬을 걷는 치탄다와 그녀의 우산을 받쳐 드는 호타로. 최종화의 이 축제는 두 사람의 관계가 가장 조용하고 아름답게 그려지는 장면이다.",
+     "story": "카미야마시의 '이키비나 축제'에서는 사람이 히나 인형으로 분장해 행렬을 이룬다. 올해의 히나는 치탄다 에루가 맡았고, 호타로는 그녀의 부탁으로 우산 드는 역할을 맡는다. 예정된 행렬 경로가 다리 공사로 멀리 돌아가게 되자, 호타로는 그 뒤에 숨은 사정을 알아채고 또 하나의 작은 수수께끼를 푼다. 축제가 끝난 뒤 벚꽃이 핀 귀갓길을 나란히 걸으며, 치탄다는 이 땅을 위해 앞으로 하고 싶은 일을 이야기한다. 호타로의 가슴속에는 해야 할 말이 준비되어 있었지만 끝내 입 밖으로 꺼내지 않는다. 이야기는 그 여운 속에서 막을 내린다. 실제 미나시 신사에서도 매년 4월 3일 '이키비나 축제'가 열린다.",
+     "access": "JR 다카야마 본선 '히다이치노미야' 역에서 도보 약 8분. 다카야마 역에서 기차로 약 10분.",
+     "bestTime": "최종화를 다시 느끼고 싶다면 매년 4월 3일 이키비나 축제 당일. 4월 중하순 근처의 '가류 벚나무'가 필 무렵도 아름답다.",
+     "tips": "축제 당일에는 사람이 많고 교통 통제도 있으니 안내 요원의 지시에 따르고 행렬을 방해하지 마세요. 평소 참배 때도 신사 예절을 지켜 주세요."
+    }
+   }
+  },
+  {
+   "id": "bocchi-shimokitazawa-shelter",
+   "workID": "bocchi",
+   "latitude": 35.66153,
+   "longitude": 139.66972,
+   "sceneHeading": 270,
+   "scenePitch": 0,
+   "arrivalRadius": 30,
+   "spoiler": false,
+   "sourceURL": "https://www.mapple.net/original/480262/",
+   "photo": "File:SHELTER.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "下北泽 SHELTER（STARRY 原型）（东京·世田谷）",
+     "sceneTitle": "通往 STARRY 的地下楼梯",
+     "episode": "第1话起",
+     "highlight": "结束乐队的大本营 Live House “STARRY”以这家下北泽老牌 Live House 为原型，外观和通往地下的楼梯几乎原样出现在动画里。",
+     "story": "被虹夏从公园拉来的波奇，第一次走下这段窄窄的楼梯，来到虹夏姐姐星歌经营的 Live House STARRY。乐队的吉他手临阵逃跑，波奇被迫顶上，紧张到只能躲在芒果纸箱里演奏——结束乐队就这样诞生了。之后的打工、练习、试演和一次次登台，几乎都在这里发生。现实中的下北泽 SHELTER 于1991年开业，是许多乐队起步的地方，门口的楼梯和招牌和动画里一模一样。",
+     "access": "小田急线／京王井之头线「下北泽」站东口步行约4分钟，沿茶泽通往南走即到。",
+     "bestTime": "傍晚开场前后最有 Live House 的氛围；想安静拍外观可选白天，但请勿妨碍店家进货。",
+     "tips": "官方曾呼吁粉丝不要成群聚集、堵住通道或大声喧哗；楼梯是演出观众和工作人员的通道，请勿坐卧拍照。最好的巡礼方式是买票看一场演出。"
+    },
+    "ja": {
+     "placeName": "下北沢SHELTER（STARRYのモデル）（東京都世田谷区）",
+     "sceneTitle": "STARRYへ続く地下への階段",
+     "episode": "第1話〜",
+     "highlight": "結束バンドの拠点・ライブハウス「STARRY」のモデルが、この下北沢の老舗ライブハウス。外観も地下へ降りる階段も、ほぼそのままアニメに描かれている。",
+     "story": "公園から虹夏に連れてこられたぼっちが、初めてこの狭い階段を降りて訪れたのが、虹夏の姉・星歌が営むライブハウスSTARRY。逃げ出したギタリストの代わりに急きょステージに立つことになったぼっちは、緊張のあまり完熟マンゴーの段ボールに入って演奏する——こうして結束バンドが生まれた。その後のバイトも練習もオーディションもライブも、ほとんどがここで起きる。実在の下北沢SHELTERは1991年オープン。多くのバンドが巣立った場所で、入口の階段も看板もアニメそのままだ。",
+     "access": "小田急線・京王井の頭線「下北沢」駅東口から徒歩約4分。茶沢通りを南へ。",
+     "bestTime": "開場前後の夕方がいちばんライブハウスらしい雰囲気。外観を静かに撮るなら日中だが、搬入の邪魔にならないように。",
+     "tips": "公式からも、集団で集まる・通路をふさぐ・大声で騒ぐといった行為を控えるよう呼びかけがあった。階段は観客とスタッフの通路なので座り込んでの撮影は厳禁。いちばんの聖地巡礼はチケットを買ってライブを観ること。"
+    },
+    "en": {
+     "placeName": "Shimokitazawa SHELTER, Model for STARRY (Setagaya, Tokyo)",
+     "sceneTitle": "The Stairs Down to STARRY",
+     "episode": "From Episode 1",
+     "highlight": "STARRY, Kessoku Band's home live house, is modelled on this long-running Shimokitazawa venue. Its facade and the stairs leading underground appear in the anime almost unchanged.",
+     "story": "Dragged in from the park by Nijika, Bocchi walks down these narrow stairs for the first time into STARRY, the live house run by Nijika's sister Seika. The band's guitarist has run off, so Bocchi has to fill in, and she is so nervous she plays from inside a mango box. That is how Kessoku Band is born. Shifts, rehearsals, the audition and gig after gig all happen here. The real Shimokitazawa SHELTER opened in 1991 and has launched countless bands; the entrance stairs and sign look just like the show.",
+     "access": "About 4 minutes on foot from the east exit of Shimokitazawa Station (Odakyu and Keio Inokashira lines); head south along Chazawa-dori.",
+     "bestTime": "Early evening around doors-open feels most like a live house; daytime is quieter for exterior shots, but stay clear of load-ins.",
+     "tips": "The anime's official account has asked fans not to gather in groups, block the walkway or make noise. The stairs are the route for audiences and staff, so never sit on them for photos. The best pilgrimage is buying a ticket and seeing a show."
+    },
+    "ko": {
+     "placeName": "시모키타자와 SHELTER (STARRY의 모델) (도쿄 세타가야)",
+     "sceneTitle": "STARRY로 내려가는 지하 계단",
+     "episode": "제1화부터",
+     "highlight": "결속밴드의 거점인 라이브 하우스 'STARRY'의 모델이 바로 이 시모키타자와의 노포 라이브 하우스다. 외관도, 지하로 내려가는 계단도 거의 그대로 애니메이션에 그려졌다.",
+     "story": "공원에서 니지카에게 끌려온 봇치가 처음 이 좁은 계단을 내려가 찾은 곳이 니지카의 언니 세이카가 운영하는 라이브 하우스 STARRY다. 도망친 기타리스트 대신 급히 무대에 서게 된 봇치는 너무 긴장한 나머지 망고 상자 안에 들어가 연주한다. 이렇게 결속밴드가 탄생했다. 그 뒤의 아르바이트도, 연습도, 오디션도, 라이브도 대부분 이곳에서 벌어진다. 실제 시모키타자와 SHELTER는 1991년에 문을 연 곳으로 수많은 밴드가 거쳐 갔으며, 입구 계단과 간판도 애니메이션 그대로다.",
+     "access": "오다큐선·게이오 이노카시라선 '시모키타자와' 역 동쪽 출구에서 도보 약 4분. 차자와 거리를 따라 남쪽으로.",
+     "bestTime": "개장 전후의 저녁이 가장 라이브 하우스다운 분위기. 외관을 조용히 찍으려면 낮이 좋지만 반입 작업을 방해하지 마세요.",
+     "tips": "공식 측에서도 무리 지어 모이거나 통로를 막거나 큰 소리로 떠들지 말아 달라고 당부했습니다. 계단은 관객과 스태프의 통로이니 앉아서 촬영하지 마세요. 최고의 성지순례는 티켓을 사서 공연을 보는 것입니다."
+    }
+   }
+  },
+  {
+   "id": "bocchi-matsunoki-park",
+   "workID": "bocchi",
+   "latitude": 35.6949,
+   "longitude": 139.6465,
+   "sceneHeading": 80,
+   "scenePitch": 0,
+   "arrivalRadius": 30,
+   "spoiler": false,
+   "sourceURL": "https://www.mapple.net/original/480262/",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "松之木儿童游园（东京·杉并）",
+     "sceneTitle": "秋千上背着吉他的少女",
+     "episode": "第1话",
+     "highlight": "一个人坐在秋千上的波奇，被路过的虹夏一眼看到背上的吉他——“你会弹吉他？”这句搭话，改变了她的整个人生。",
+     "story": "初中三年都没交到朋友的后藤一里，上了高中依然每天背着吉他去学校，盼着有人来搭话，结果还是没人理她。放学后她独自坐在小公园的秋千上发呆，这时，正在发愁的伊地知虹夏路过，看见了她的吉他：乐队的吉他手跑了，当天的演出没人顶上。虹夏几乎是硬拉着波奇走向下北泽的 STARRY。对波奇来说，这是她第一次被人需要的瞬间，也是“孤独摇滚”真正开始的地方。",
+     "access": "东京Metro丸之内线「新高圆寺」站步行约6分钟。",
+     "bestTime": "傍晚放学时分最像第1话的光线；清晨或白天孩子少时更适合安静参观。",
+     "tips": "这是住宅区里的小型儿童游乐场，请勿长时间占用秋千，不要拍摄在玩耍的孩子和附近住户，保持安静，短暂停留即可。"
+    },
+    "ja": {
+     "placeName": "松ノ木児童遊園（東京都杉並区）",
+     "sceneTitle": "ブランコに座るギターの少女",
+     "episode": "第1話",
+     "highlight": "ひとりブランコに座っていたぼっちの背中のギターに、通りがかった虹夏が気づく。「それ、ギター？」——その一言が彼女の人生を変えた。",
+     "story": "中学3年間友達ができなかった後藤ひとりは、高校でも誰かに話しかけてもらえるのを期待して毎日ギターを背負って登校するが、結局誰にも声をかけられない。放課後、小さな公園のブランコにひとり座っていると、困り果てた様子の伊地知虹夏が通りかかり、そのギターに目を留める。バンドのギタリストが逃げてしまい、今日のライブに出る人がいないのだ。ほとんど強引に、虹夏はぼっちを下北沢のSTARRYへ連れていく。ぼっちにとって初めて誰かに必要とされた瞬間であり、物語が本当に始まる場所だ。",
+     "access": "東京メトロ丸ノ内線「新高円寺」駅から徒歩約6分。",
+     "bestTime": "放課後の夕方の光が第1話にいちばん近い。静かに見学するなら子どもの少ない朝や日中に。",
+     "tips": "住宅街の小さな児童遊園なので、ブランコを長時間占領しないこと。遊んでいる子どもや近隣の住宅は撮影せず、静かに短時間で。"
+    },
+    "en": {
+     "placeName": "Matsunoki Children's Playground (Suginami, Tokyo)",
+     "sceneTitle": "The Girl with a Guitar on the Swing",
+     "episode": "Episode 1",
+     "highlight": "Bocchi sits alone on a swing until Nijika, passing by, spots the guitar on her back. \"Is that a guitar?\" Those few words change her life.",
+     "story": "Hitori Gotō made no friends in three years of middle school, so in high school she carries her guitar every day hoping someone will start a conversation. Nobody does. After school she sits alone on the swing in a tiny park, until Nijika Ijichi walks by in a panic and notices the guitar: her band's guitarist has run off and there's no one to play tonight's gig. Nijika all but drags Bocchi to STARRY in Shimokitazawa. For Bocchi it is the first time anyone has ever needed her, and the moment the story really begins.",
+     "access": "About 6 minutes on foot from Shin-Kōenji Station on the Tokyo Metro Marunouchi Line.",
+     "bestTime": "Late afternoon light after school is closest to Episode 1; mornings or quiet daytimes are best for a calm visit.",
+     "tips": "This is a tiny playground in a residential area. Don't hog the swings, never photograph children or neighbouring homes, keep quiet and keep your visit short."
+    },
+    "ko": {
+     "placeName": "마쓰노키 어린이 놀이터 (도쿄 스기나미)",
+     "sceneTitle": "그네 위 기타를 멘 소녀",
+     "episode": "제1화",
+     "highlight": "혼자 그네에 앉아 있던 봇치의 등에 멘 기타를 지나가던 니지카가 알아본다. \"그거 기타야?\" 그 한마디가 그녀의 인생을 바꿨다.",
+     "story": "중학교 3년 내내 친구를 사귀지 못한 고토 히토리는 고등학교에서는 누군가 말을 걸어 주길 바라며 매일 기타를 메고 등교하지만, 결국 아무도 말을 걸지 않는다. 방과 후 작은 공원의 그네에 혼자 앉아 있는데, 곤란한 표정의 이지치 니지카가 지나가다 그 기타를 발견한다. 밴드의 기타리스트가 도망쳐서 오늘 라이브에 설 사람이 없었던 것이다. 니지카는 거의 억지로 봇치를 시모키타자와의 STARRY로 데려간다. 봇치에게는 처음으로 누군가에게 필요한 존재가 된 순간이며, 이야기가 진짜로 시작되는 곳이다.",
+     "access": "도쿄 메트로 마루노우치선 '신코엔지' 역에서 도보 약 6분.",
+     "bestTime": "방과 후 저녁 햇살이 제1화와 가장 비슷하다. 조용히 둘러보려면 아이들이 적은 아침이나 낮에.",
+     "tips": "주택가의 작은 어린이 놀이터입니다. 그네를 오래 차지하지 말고, 노는 아이들과 주변 주택은 촬영하지 말며, 조용히 짧게 머물러 주세요."
+    }
+   }
+  }
+ ]
+}

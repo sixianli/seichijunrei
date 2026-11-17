@@ -381,5 +381,170 @@
    }
   }
  ],
- "spots": []
+ "spots": [
+  {
+   "id": "kiminonawa-suga-shrine",
+   "workID": "your-name",
+   "latitude": 35.68518,
+   "longitude": 139.72345,
+   "sceneHeading": 216,
+   "scenePitch": 12,
+   "arrivalRadius": 40,
+   "spoiler": true,
+   "sourceURL": "https://www.timeout.jp/tokyo/ja/things-to-do/suga-jinjya",
+   "photo": "File:Escalier Your name.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "須賀神社 男坂（东京·四谷）",
+     "sceneTitle": "阶梯上的重逢",
+     "episode": "剧场版 · 结尾",
+     "highlight": "全片最后一个镜头：红色扶手的石阶上，两个寻找了彼此多年的人终于擦肩、回头，同时问出那句“你的名字是？”。这一段台阶也因此成为新海诚作品最著名的聖地。",
+     "story": "彗星事件过去多年，已经长大成人的泷和三叶依旧在东京各自生活，心里总觉得在寻找“某个人”，却想不起那是谁。某个春日早晨，两人在并行的电车上透过车窗看见了彼此，于是各自在下一站下车，拼命在街巷间奔跑寻找对方，最终在这段红色扶手的石阶上相遇——三叶在上，泷在下。两人一言不发地擦肩而过，走出几步后，泷终于回过头开口：“我们是不是在哪里见过？”三叶转身，眼泪涌了出来。两人同时问出了那句话：你的名字是？",
+     "access": "东京地铁丸之内线「四谷三丁目」站步行约7分钟；JR／东京地铁「四谷」站步行约10分钟",
+     "bestTime": "春天上午光线柔和；想避开人潮可在工作日清晨前来",
+     "tips": "石阶在住宅区内，请保持安静，不要坐在台阶上或长时间占据中间拍照，给居民和参拜者让路。顺道去坡上的須賀神社参拜吧。"
+    },
+    "ja": {
+     "placeName": "須賀神社 男坂（東京・四谷）",
+     "sceneTitle": "階段での再会",
+     "episode": "劇場版・ラスト",
+     "highlight": "物語を締めくくるラストシーン。赤い手すりの石段で、何年も互いを探し続けてきた二人がすれ違い、振り返り、同時に「君の、名前は」と問いかける。新海作品でもっとも有名な聖地のひとつ。",
+     "story": "彗星の災害から何年も経ち、大人になった瀧と三葉は東京でそれぞれの日々を送りながら、いつも「誰か」を探しているような気持ちを抱えている。ある春の朝、並走する電車の窓越しに互いの姿を見つけた二人は、次の駅で飛び降り、街を必死に走って相手を探す。そしてこの赤い手すりの石段で、上に三葉、下に瀧——ついに巡り会う。言葉もなくすれ違い、数段進んだところで瀧が振り返る。「あの……俺、君をどこかで」。振り向いた三葉の目には涙があふれ、二人は同時に口を開く。君の、名前は。",
+     "access": "東京メトロ丸ノ内線「四谷三丁目」駅から徒歩約7分、JR・東京メトロ「四ツ谷」駅から徒歩約10分",
+     "bestTime": "春の午前中、やわらかい光の時間帯がおすすめ。混雑を避けるなら平日の早朝に",
+     "tips": "住宅街の中の階段なので、静かに。段に座り込んだり、真ん中を長時間占領して撮影したりせず、住民や参拝者に道を譲ろう。坂の上の須賀神社にもぜひお参りを。"
+    },
+    "en": {
+     "placeName": "Suga Shrine “Otokozaka” stairs (Yotsuya, Tokyo)",
+     "sceneTitle": "Reunion on the Stairs",
+     "episode": "Film · Final scene",
+     "highlight": "The film's final shot: on these stone steps with the red handrail, two people who have searched for each other for years pass, turn around and ask at the same moment, “What's your name?” It is the most famous pilgrimage spot of any Shinkai film.",
+     "story": "Years after the comet disaster, a grown-up Taki and Mitsuha are living separate lives in Tokyo, both haunted by the feeling that they are looking for someone they cannot remember. One spring morning they glimpse each other through the windows of two trains running side by side. Each jumps off at the next station and runs through the streets, until they finally meet on these steps — Mitsuha at the top, Taki at the bottom. They pass without a word. A few steps later Taki turns and says, “Haven't we met somewhere before?” Mitsuha turns too, tears welling up, and they ask together: what's your name?",
+     "access": "About 7 minutes' walk from Yotsuya-sanchome Station (Marunouchi Line), or 10 minutes from Yotsuya Station (JR / Tokyo Metro)",
+     "bestTime": "Spring mornings for soft light; come early on a weekday to avoid crowds",
+     "tips": "The steps are in a quiet residential area. Keep your voice down, don't sit on the steps or block the middle for long photo sessions, and let residents and worshippers pass. Pay a visit to Suga Shrine at the top while you're here."
+    },
+    "ko": {
+     "placeName": "스가 신사 오토코자카 계단 (도쿄 요쓰야)",
+     "sceneTitle": "계단 위의 재회",
+     "episode": "극장판 · 마지막 장면",
+     "highlight": "영화의 마지막 장면. 빨간 난간이 있는 이 돌계단에서, 몇 년 동안 서로를 찾아 헤맨 두 사람이 스쳐 지나가고, 뒤돌아보고, 동시에 “너의 이름은?” 하고 묻는다. 신카이 작품 중 가장 유명한 성지다.",
+     "story": "혜성 사건으로부터 여러 해가 지나 어른이 된 타키와 미츠하는 도쿄에서 각자의 삶을 살면서도, 기억나지 않는 ‘누군가’를 늘 찾고 있다는 느낌을 지우지 못한다. 어느 봄날 아침, 나란히 달리는 전철 창 너머로 서로를 발견한 두 사람은 다음 역에서 뛰어내려 거리를 정신없이 달린다. 그리고 이 돌계단에서 마침내 마주친다. 위에는 미츠하, 아래에는 타키. 말없이 스쳐 지나간 뒤 몇 걸음 만에 타키가 뒤돌아본다. “저기… 우리 어디서 만난 적 있지 않아?” 돌아선 미츠하의 눈에 눈물이 차오르고, 두 사람은 동시에 묻는다. 너의 이름은?",
+     "access": "도쿄 메트로 마루노우치선 요쓰야산초메역에서 도보 약 7분, JR·도쿄 메트로 요쓰야역에서 도보 약 10분",
+     "bestTime": "빛이 부드러운 봄날 오전. 붐비지 않을 때 오려면 평일 이른 아침에",
+     "tips": "주택가 안의 계단이니 조용히 해 주세요. 계단에 앉거나 한가운데를 오래 차지하고 촬영하지 말고, 주민과 참배객에게 길을 비켜 주세요. 계단 위 스가 신사에도 들러 보세요."
+    }
+   }
+  },
+  {
+   "id": "kiminonawa-hida-furukawa",
+   "workID": "your-name",
+   "latitude": 36.23734,
+   "longitude": 137.18899,
+   "sceneHeading": 130,
+   "scenePitch": -10,
+   "arrivalRadius": 50,
+   "spoiler": true,
+   "sourceURL": "https://www.knt.co.jp/meito/sp/kiminonaha/chubu.html",
+   "photo": "File:Hida-Furukawa platform in snow.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "JR 飞驒古川站 跨线天桥（岐阜·飞驒市）",
+     "sceneTitle": "寻找糸守町",
+     "episode": "剧场版 · 中段",
+     "highlight": "泷凭着一张手绘风景画来到飞驒，站台、车站前的环岛都被原样画进了电影。从车站北侧的跨线天桥俯瞰站台，就是片中那个“终于来到她的世界”的镜头。",
+     "story": "互换身体的现象毫无征兆地中断了，三叶的电话也再也打不通。泷放不下，只凭着记忆里画下的小镇风景，和好友司、打工前辈奥寺一起坐上了开往飞驒的列车。三人在飞驒古川站下车，拿着画在车站一带四处打听，却没人认得出这是哪里。正当泷快要放弃时，一家拉面店的老板看了画，低声说出了答案——那是糸守町，三年前被彗星碎片击中、整个消失了的小镇。泷这才意识到，自己和三叶之间隔着的不只是距离。",
+     "access": "JR高山本线「飞驒古川」站下车即到；天桥在车站北侧，从站前或站后均可上桥（自由通道）",
+     "bestTime": "冬季雪后最有片中氛围；白天有列车进站时拍照效果最好",
+     "tips": "天桥是居民日常通行的道路，拍照时别堵住通道，也不要在桥上使用三脚架。附近的飞驒市图书馆同为取景地，馆内拍照需先在柜台申请。"
+    },
+    "ja": {
+     "placeName": "JR飛騨古川駅 跨線橋（岐阜県飛騨市）",
+     "sceneTitle": "糸守町を探して",
+     "episode": "劇場版・中盤",
+     "highlight": "記憶を頼りに描いた風景画だけを手に、瀧が飛騨へやって来る場面。ホームも駅前ロータリーもほぼそのまま描かれ、駅北側の跨線橋からホームを見下ろす構図は作中のカットそのもの。",
+     "story": "入れ替わりは何の前触れもなく途絶え、三葉の電話にはつながらなくなった。どうしても気になる瀧は、記憶だけを頼りに描いた町の風景画を持ち、友人の司とバイト先の先輩・奥寺とともに飛騨行きの列車に乗る。飛騨古川駅で降りた三人は、絵を見せながら駅の周りで聞き込みをするが、誰もその場所を知らない。諦めかけたとき、一軒のラーメン屋の主人が絵を見てつぶやく——それは糸守町。3年前、彗星の破片が落ちて消えてしまった町だった。瀧はようやく、自分と三葉を隔てているものが距離だけではないことに気づく。",
+     "access": "JR高山本線「飛騨古川」駅すぐ。跨線橋は駅の北側にあり、駅前・駅裏どちらからも上がれる自由通路",
+     "bestTime": "雪の積もった冬が作品の雰囲気にいちばん近い。日中、列車が停車しているタイミングを狙って",
+     "tips": "跨線橋は地元の人の生活道路。通行の邪魔にならないよう、三脚の使用や長時間の占有は控えよう。近くの飛騨市図書館も舞台のひとつ（館内撮影はカウンターで申請が必要）。"
+    },
+    "en": {
+     "placeName": "Footbridge at JR Hida-Furukawa Station (Hida, Gifu)",
+     "sceneTitle": "Searching for Itomori",
+     "episode": "Film · Middle",
+     "highlight": "Taki arrives in Hida with nothing but a sketch of a town he remembers from his dreams. The platforms and station roundabout are drawn almost exactly as they are, and the view down from the footbridge north of the station matches the film shot.",
+     "story": "The body swaps stop without warning, and Mitsuha's phone no longer connects. Unable to let it go, Taki boards a train to Hida with his friend Tsukasa and his co-worker Okudera, carrying sketches of a town he can only remember. They get off at Hida-Furukawa and ask around the station, but no one recognises the place. Just as Taki is about to give up, the owner of a ramen shop looks at the drawing and quietly names it: Itomori — the town wiped out three years ago when a fragment of the comet struck. Only then does Taki realise that what separates him from Mitsuha is more than distance.",
+     "access": "Right at JR Hida-Furukawa Station (Takayama Line). The footbridge is just north of the station and can be reached from either side of the tracks",
+     "bestTime": "Winter after snowfall feels most like the film; aim for a moment when a train is stopped at the platform",
+     "tips": "The footbridge is an everyday path for locals — don't block it or set up a tripod. The nearby Hida City Library also appears in the film; ask at the counter before taking photos inside."
+    },
+    "ko": {
+     "placeName": "JR 히다후루카와역 육교 (기후현 히다시)",
+     "sceneTitle": "이토모리 마을을 찾아서",
+     "episode": "극장판 · 중반",
+     "highlight": "기억을 더듬어 그린 풍경화 한 장만 들고 타키가 히다에 도착하는 장면. 승강장과 역 앞 로터리가 거의 그대로 그려졌고, 역 북쪽 육교에서 승강장을 내려다보는 구도가 영화 속 장면과 같다.",
+     "story": "몸이 바뀌는 일은 아무런 예고 없이 끊기고, 미츠하에게는 전화도 닿지 않는다. 마음을 놓을 수 없던 타키는 기억만으로 그린 마을 풍경화를 들고, 친구 츠카사와 아르바이트 선배 오쿠데라와 함께 히다행 열차에 오른다. 히다후루카와역에 내린 세 사람은 그림을 보여 주며 역 주변을 수소문하지만 아무도 그곳을 알지 못한다. 포기하려던 순간, 한 라멘 가게 주인이 그림을 보고 조용히 말한다. 그곳은 이토모리, 3년 전 혜성 파편이 떨어져 사라진 마을이라고. 타키는 그제야 자신과 미츠하 사이를 가로막은 것이 거리만이 아니었음을 깨닫는다.",
+     "access": "JR 다카야마 본선 히다후루카와역 바로 앞. 육교는 역 북쪽에 있으며 선로 양쪽에서 올라갈 수 있는 자유 통로",
+     "bestTime": "눈 쌓인 겨울이 영화 분위기에 가장 가깝다. 낮에 열차가 정차해 있을 때를 노려 보자",
+     "tips": "육교는 주민들이 매일 다니는 길입니다. 통행을 막거나 삼각대를 세우지 마세요. 근처 히다시 도서관도 작품 속 배경이며, 관내 촬영은 카운터에 미리 신청해야 합니다."
+    }
+   }
+  },
+  {
+   "id": "kiminonawa-shinanomachi-footbridge",
+   "workID": "your-name",
+   "latitude": 35.67953,
+   "longitude": 139.71975,
+   "sceneHeading": 280,
+   "scenePitch": 5,
+   "arrivalRadius": 40,
+   "spoiler": true,
+   "sourceURL": "https://livejapan.com/ja/article-a0000790/",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "信濃町站前人行天桥（东京·新宿）",
+     "sceneTitle": "天桥上仰望天空",
+     "episode": "剧场版 · 多次出现",
+     "highlight": "片中反复出现的东京日常风景：远处高耸的NTT docomo代代木大楼、天桥上的栏杆与天空，构成了泷所在的“东京”。成年后的泷在这里停下脚步仰望天空的一幕，让人心头一紧。",
+     "story": "这座横跨外苑东通的天桥，是泷每天在东京生活的背景，在片中以不同的季节和时刻反复出现。故事后段，彗星事件已过去多年，泷成了一名为求职奔波的大学生，穿着西装一次又一次面试落选。走过这座天桥时，他总会不自觉地停下来望向天空，仿佛在寻找什么重要的东西，却怎么也想不起来。这份说不清的空落感，一直延续到电影的最后。",
+     "access": "JR中央·总武线「信濃町」站出站即到，天桥就在站前",
+     "bestTime": "晴天傍晚，西边天空泛起晚霞、代代木大楼成剪影时最像电影",
+     "tips": "天桥较窄，行人和推婴儿车、坐轮椅的人都会经过，请贴边拍照、不要停留过久。桥下是车流量很大的马路，切勿探身越过栏杆。"
+    },
+    "ja": {
+     "placeName": "信濃町駅前歩道橋（東京都新宿区）",
+     "sceneTitle": "歩道橋から見上げる空",
+     "episode": "劇場版・複数のシーン",
+     "highlight": "作中に何度も登場する、瀧の暮らす「東京」を象徴する風景。遠くにそびえるNTTドコモ代々木ビルと歩道橋の手すり、そして空。大人になった瀧がここで足を止め、空を見上げる姿は胸に残る。",
+     "story": "外苑東通りをまたぐこの歩道橋は、瀧が毎日を過ごす東京の背景として、季節や時間を変えて作中に何度も描かれる。物語の後半、彗星の災害から数年が経ち、瀧は就職活動中の大学生になっている。スーツ姿で面接に落ち続ける日々、この歩道橋を渡るたびに、瀧はふと立ち止まって空を見上げる。何か大切なものを探している気がするのに、それが何なのか思い出せない——その言葉にならない喪失感は、物語の最後まで続いていく。",
+     "access": "JR中央・総武線「信濃町」駅を出てすぐ、駅前にかかる歩道橋",
+     "bestTime": "晴れた日の夕方。西の空が染まり、代々木のビルがシルエットになる頃が作品の雰囲気に近い",
+     "tips": "歩道橋は幅が狭く、ベビーカーや車いすの人も通る。端に寄って手短に撮影を。交通量の多い道路の上なので、手すりから身を乗り出さないこと。"
+    },
+    "en": {
+     "placeName": "Footbridge in front of Shinanomachi Station (Shinjuku, Tokyo)",
+     "sceneTitle": "Looking Up from the Footbridge",
+     "episode": "Film · Several scenes",
+     "highlight": "One of the film's recurring images of Taki's Tokyo: the railing of the footbridge, the sky, and the NTT Docomo Yoyogi Building rising in the distance. The grown-up Taki stopping here to stare at the sky is a quietly aching moment.",
+     "story": "This footbridge over Gaien-higashi-dori is part of the everyday Tokyo Taki lives in, and it returns again and again in the film in different seasons and light. Later in the film, years after the comet, Taki is a university student in a suit, going from one failed job interview to the next. Each time he crosses this bridge he stops without meaning to and looks up at the sky, as if searching for something important he cannot remember. That nameless sense of loss stays with him right up to the final scene.",
+     "access": "Right outside JR Shinanomachi Station (Chuo-Sobu Line) — the footbridge is in front of the station",
+     "bestTime": "A clear evening, when the western sky glows and the Yoyogi tower turns into a silhouette",
+     "tips": "The footbridge is narrow and used by people with prams and wheelchairs, so stand to the side and keep it brief. There is heavy traffic below — never lean over the railing."
+    },
+    "ko": {
+     "placeName": "시나노마치역 앞 육교 (도쿄 신주쿠)",
+     "sceneTitle": "육교 위에서 올려다본 하늘",
+     "episode": "극장판 · 여러 장면",
+     "highlight": "영화 속에 몇 번이고 등장하는, 타키가 사는 ‘도쿄’를 상징하는 풍경. 멀리 솟은 NTT 도코모 요요기 빌딩과 육교 난간, 그리고 하늘. 어른이 된 타키가 이곳에 멈춰 서서 하늘을 올려다보는 모습이 오래 남는다.",
+     "story": "가이엔히가시 거리를 가로지르는 이 육교는 타키가 매일 살아가는 도쿄의 배경으로, 계절과 시간을 바꿔 가며 영화 속에 여러 번 등장한다. 이야기 후반, 혜성 사건으로부터 몇 년이 흐른 뒤 타키는 취업 준비 중인 대학생이 되어 있다. 정장을 입고 면접에서 계속 떨어지던 나날, 이 육교를 건널 때마다 타키는 자기도 모르게 멈춰 서서 하늘을 올려다본다. 무언가 소중한 것을 찾고 있는 것 같은데 그게 무엇인지 떠오르지 않는다. 그 말로 할 수 없는 상실감은 영화의 마지막까지 이어진다.",
+     "access": "JR 주오·소부선 시나노마치역을 나오면 바로 앞에 있는 육교",
+     "bestTime": "맑은 날 해 질 무렵. 서쪽 하늘이 물들고 요요기의 빌딩이 실루엣이 될 때가 영화와 가장 닮았다",
+     "tips": "육교가 좁고 유모차나 휠체어도 지나다니니 한쪽으로 비켜서 짧게 촬영하세요. 아래는 차량 통행이 많은 도로이니 난간 밖으로 몸을 내밀지 마세요."
+    }
+   }
+  }
+ ]
 }
