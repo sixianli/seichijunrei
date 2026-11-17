@@ -77,7 +77,7 @@ final class CameraController: NSObject, AVCapturePhotoCaptureDelegate {
     func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto,
                      error: Error?) {
         guard error == nil, let data = photo.fileDataRepresentation(), let image = UIImage(data: data) else {
-            DispatchQueue.main.async { self.statusMessage = "拍照失败" }
+            DispatchQueue.main.async { self.statusMessage = L("camera.failed") }
             return
         }
         UIImageWriteToSavedPhotosAlbum(image, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
@@ -86,7 +86,7 @@ final class CameraController: NSObject, AVCapturePhotoCaptureDelegate {
     @objc private func image(_ image: UIImage, didFinishSavingWithError error: Error?,
                              contextInfo: UnsafeMutableRawPointer?) {
         DispatchQueue.main.async {
-            self.statusMessage = error == nil ? "已保存到相册 📸" : "保存失败：请在设置中允许访问相册"
+            self.statusMessage = error == nil ? L("camera.saved") : L("camera.saveFailed")
         }
     }
 

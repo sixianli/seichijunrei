@@ -24,12 +24,12 @@ struct CelebrationView: View {
 
             VStack(spacing: 14) {
                 Spacer()
-                Text("✨ 就是这个画面！✨")
+                Text(L("celebrate.title"))
                     .font(.system(size: 30, weight: .heavy, design: .rounded))
                     .accessibilityIdentifier("celebrationTitle")
-                Text("此刻，你就是《\(spot.work)》的主角")
+                Text(L("celebrate.subtitle", spot.workTitle))
                     .font(.headline)
-                Text("「\(spot.sceneTitle)」")
+                Text(spot.quotedSceneTitle)
                     .font(.title3.bold())
                     .foregroundStyle(spot.tintColor)
                     .padding(.horizontal, 12).padding(.vertical, 4)
@@ -37,12 +37,12 @@ struct CelebrationView: View {
                 Spacer()
                 HStack(spacing: 14) {
                     Button(action: onCapture) {
-                        Label("拍照留念", systemImage: "camera.fill")
+                        Label(L("celebrate.photo"), systemImage: "camera.fill")
                             .padding(.horizontal, 18).padding(.vertical, 12)
                             .background(spot.tintColor, in: Capsule())
                     }
                     Button(action: onClose) {
-                        Text("继续欣赏")
+                        Text(L("celebrate.continue"))
                             .padding(.horizontal, 18).padding(.vertical, 12)
                             .background(.ultraThinMaterial, in: Capsule())
                     }

@@ -1,0 +1,7 @@
+/* 由 tools/l10n.py 生成，请勿手动修改 */
+"CFBundleDisplayName" = "Seichi Junrei";
+"NSLocationWhenInUseUsageDescription" = "Used to find pilgrimage spots near you and to tell when you're standing at a scene's spot.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Lets the app alert you when you're near a pilgrimage spot, even when it isn't open.";
+"NSCameraUsageDescription" = "Used at a scene's spot to line up the camera with the same shot as in the story.";
+"NSMotionUsageDescription" = "Uses the gyroscope and compass to tell which way you're facing and guide you to the scene's view.";
+"NSPhotoLibraryAddUsageDescription" = "Saves the photos you take at pilgrimage spots to your library.";

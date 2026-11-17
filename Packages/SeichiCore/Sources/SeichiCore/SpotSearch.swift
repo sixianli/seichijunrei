@@ -45,14 +45,16 @@ public enum SpotSearch {
 
     /// 作品名层面的匹配分（作品名、中文名、别名）。
     static func workScore(_ spot: Spot, query q: String) -> Int {
-        ([spot.work] + [spot.workLocalized].compactMap { $0 } + spot.aliases)
+        ([spot.work] + [spot.workLocalized].compactMap { $0 } + spot.aliases
+            + spot.translations.values.compactMap(\.workLocalized))
             .map { fieldScore($0, query: q, exact: 100, prefix: 80, contains: 60) }
             .max() ?? 0
     }
 
     /// 名场面层面的匹配分（场景标题、地点名）。
     static func sceneScore(_ spot: Spot, query q: String) -> Int {
-        [spot.sceneTitle, spot.placeName]
+        ([spot.sceneTitle, spot.placeName]
+            + spot.translations.values.flatMap { [$0.sceneTitle, $0.placeName].compactMap { $0 } })
             .map { fieldScore($0, query: q, exact: 50, prefix: 40, contains: 30) }
             .max() ?? 0
     }

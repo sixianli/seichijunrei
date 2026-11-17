@@ -122,7 +122,7 @@ struct SceneModeView: View {
         } else {
             VStack(spacing: 12) {
                 ProgressView().tint(.white)
-                Text("正在校准方向…\n请把手机竖起，在空中画几次 ∞ 字").multilineTextAlignment(.center)
+                Text(L("scene.calibrating")).multilineTextAlignment(.center)
             }
             .foregroundStyle(.white)
         }
@@ -136,7 +136,7 @@ struct SceneModeView: View {
                         .frame(width: 40, height: 40)
                         .background(.ultraThinMaterial, in: Circle())
                 }
-                .accessibilityLabel("关闭")
+                .accessibilityLabel(L("common.close"))
                 .accessibilityIdentifier("closeScene")
                 Spacer()
                 VStack(alignment: .trailing, spacing: 2) {
@@ -153,7 +153,7 @@ struct SceneModeView: View {
 
             HStack(spacing: 16) {
                 Button { showStory = true } label: {
-                    Label("剧情", systemImage: "book").padding(12)
+                    Label(L("scene.story"), systemImage: "book").padding(12)
                         .background(.ultraThinMaterial, in: Capsule())
                 }
                 if arrived {
@@ -168,7 +168,7 @@ struct SceneModeView: View {
                 Button {
                     copyCalibrationSnippet()
                 } label: {
-                    Label("记录机位", systemImage: "scope").padding(12)
+                    Label(L("scene.recordSpot"), systemImage: "scope").padding(12)
                         .background(.ultraThinMaterial, in: Capsule())
                 }
                 #endif
@@ -254,16 +254,16 @@ private struct ApproachLayer: View {
                 VStack(spacing: 6) {
                     Text(NearbySearch.formatDistance(d))
                         .font(.system(size: 48, weight: .bold, design: .rounded).monospacedDigit())
-                    Text(heading == nil ? "圣地在你的\(GeoMath.compassName(b))方"
+                    Text(heading == nil ? L("scene.spotDirection", Compass.name(b))
                                         : hint(relative: relative ?? 0))
                         .font(.title3)
-                    Text("走到距离机位 \(Int(spot.arrivalRadius)) 米以内，就会开启名场面取景")
+                    Text(L("scene.walkCloser", Int(spot.arrivalRadius)))
                         .font(.footnote).opacity(0.7)
                 }
                 .multilineTextAlignment(.center)
             } else {
                 ProgressView().tint(.white)
-                Text("正在获取你的位置…")
+                Text(L("scene.locating"))
             }
             Spacer()
             Spacer()
@@ -274,9 +274,9 @@ private struct ApproachLayer: View {
 
     private func hint(relative: Double) -> String {
         let a = abs(relative)
-        if a < 20 { return "朝前方直走" }
-        if a > 150 { return "在你身后，请转身" }
-        return relative > 0 ? "向右前方前进" : "向左前方前进"
+        if a < 20 { return L("scene.straightAhead") }
+        if a > 150 { return L("scene.behind") }
+        return relative > 0 ? L("scene.aheadRight") : L("scene.aheadLeft")
     }
 }
 
@@ -374,7 +374,7 @@ private struct GuidanceHUD: View {
             .frame(width: 220, height: 6)
 
             if accuracy < 0 || accuracy > 20 {
-                Text("罗盘信号较弱，远离金属物体或画 ∞ 字校准").font(.caption2).opacity(0.8)
+                Text(L("scene.weakCompass")).font(.caption2).opacity(0.8)
             }
         }
         .foregroundStyle(.white)

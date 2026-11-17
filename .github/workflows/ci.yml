@@ -12,6 +12,10 @@ jobs:
     container: swift:6.0
     steps:
       - uses: actions/checkout@v4
+      - name: Check localization tables
+        run: |
+          apt-get update -qq && apt-get install -y -qq python3 > /dev/null
+          python3 tools/l10n.py check
       - run: swift test
         working-directory: Packages/SeichiCore
 

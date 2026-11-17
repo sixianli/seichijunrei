@@ -1,0 +1,7 @@
+/* 由 tools/l10n.py 生成，请勿手动修改 */
+"CFBundleDisplayName" = "聖地巡礼";
+"NSLocationWhenInUseUsageDescription" = "近くの聖地を見つけ、名シーンの撮影位置に立っているかを判定するために使用します。";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "許可すると、アプリを開いていなくても聖地に近づいたときに通知します。";
+"NSCameraUsageDescription" = "撮影位置でカメラを使い、作中と同じ構図に合わせるために使用します。";
+"NSMotionUsageDescription" = "ジャイロとコンパスで向いている方向を判定し、名シーンの視点へ案内します。";
+"NSPhotoLibraryAddUsageDescription" = "聖地で撮った「名シーン再現」写真を写真ライブラリに保存します。";

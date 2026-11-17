@@ -4,6 +4,7 @@ options:
   deploymentTarget:
     iOS: "17.0"
   createIntermediateGroups: true
+  developmentLanguage: en
 settings:
   base:
     SWIFT_VERSION: "5.0"
@@ -28,14 +29,14 @@ targets:
         INFOPLIST_KEY_LSRequiresIPhoneOS: YES
         TARGETED_DEVICE_FAMILY: "1"
         GENERATE_INFOPLIST_FILE: YES
-        INFOPLIST_KEY_CFBundleDisplayName: 圣地巡礼
+        INFOPLIST_KEY_CFBundleDisplayName: Seichi Junrei
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
-        INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: 用于发现你附近的动画圣地，并判断你是否已经站在名场面的机位上。
-        INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription: 开启后，当你靠近动画圣地时会收到提醒，即使 App 没有打开。
-        INFOPLIST_KEY_NSCameraUsageDescription: 在名场面机位上通过相机取景，帮你对准动画中的同一个画面。
-        INFOPLIST_KEY_NSMotionUsageDescription: 通过陀螺仪和指南针判断你面朝的方向，引导你转向名场面的视角。
-        INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription: 把你在圣地拍下的“名场面重现”照片保存到相册。
+        INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: "Used to find pilgrimage spots near you and to tell when you're standing at a scene's spot."
+        INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription: "Lets the app alert you when you're near a pilgrimage spot, even when it isn't open."
+        INFOPLIST_KEY_NSCameraUsageDescription: "Used at a scene's spot to line up the camera with the same shot as in the story."
+        INFOPLIST_KEY_NSMotionUsageDescription: "Uses the gyroscope and compass to tell which way you're facing and guide you to the scene's view."
+        INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription: "Saves the photos you take at pilgrimage spots to your library."
       configs:
         Debug:
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: DEBUG

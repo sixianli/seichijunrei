@@ -34,9 +34,10 @@ final class GeoMathTests: XCTestCase {
     func testCircularMean() {
         XCTAssertEqual(GeoMath.circularMean([350, 10])!, 0, accuracy: 1e-9)
         XCTAssertNil(GeoMath.circularMean([]))
-        XCTAssertEqual(GeoMath.compassName(44), "东北")
-        XCTAssertEqual(GeoMath.compassName(359), "北")
-        XCTAssertEqual(GeoMath.compassName(200), "南")
+        XCTAssertEqual(GeoMath.compassIndex(44), 1)
+        XCTAssertEqual(GeoMath.compassIndex(359), 0)
+        XCTAssertEqual(GeoMath.compassIndex(200), 4)
+        XCTAssertEqual(GeoMath.compassIndex(315), 7)
     }
 }
 
@@ -45,7 +46,7 @@ final class SceneGuidanceTests: XCTestCase {
         let g = SceneGuidance.compute(deviceHeading: 0, devicePitch: nil, sceneHeading: 90, scenePitch: nil)
         XCTAssertEqual(g.turn, .right)
         XCTAssertEqual(g.yawDelta, 90)
-        XCTAssertEqual(g.instruction, "向右转 90°")
+        XCTAssertEqual(g.yawDegrees, 90)
 
         let l = SceneGuidance.compute(deviceHeading: 30, devicePitch: nil, sceneHeading: 300, scenePitch: nil)
         XCTAssertEqual(l.turn, .left)
@@ -63,7 +64,7 @@ final class SceneGuidanceTests: XCTestCase {
         XCTAssertEqual(g.turn, .aligned)
         XCTAssertEqual(g.tilt, .up)
         XCTAssertFalse(g.isAligned)
-        XCTAssertEqual(g.instruction, "方向对了，再稍微抬头 35°")
+        XCTAssertEqual(g.pitchDegrees, 35)
     }
 
     func testPoorCompassWidensTolerance() {
@@ -148,6 +149,15 @@ final class CatalogTests: XCTestCase {
         XCTAssertEqual(Set(SpotSearch.search("新海诚", in: spots).map(\.work)),
                        ["君の名は。", "天気の子", "秒速5センチメートル"])
         XCTAssertEqual(SpotSearch.search("ゆーふぉ", in: spots).first?.spots.count, 2)
+        // 多语言：每个圣地都有 4 种语言的翻译，且可以用各语言的作品名搜索
+        for s in spots {
+            XCTAssertEqual(Set(s.translations.keys), ["zh-Hant", "ja", "en", "ko"], s.id)
+            XCTAssertNotEqual(s.localized(to: "en").story, s.story, "\(s.id) 缺少英文剧情")
+        }
+        XCTAssertEqual(SpotSearch.search("너의 이름은", in: spots).first?.work, "君の名は。")
+        XCTAssertEqual(SpotSearch.search("Laid-Back Camp", in: spots).first?.work, "ゆるキャン△")
+        XCTAssertEqual(SpotSearch.search("灌籃高手", in: spots).first?.work, "SLAM DUNK")
+        XCTAssertNil(spots[0].localized(to: "ja").workLocalized)
         for type in MediaType.allCases {
             XCTAssertFalse(SpotSearch.search("", in: spots, mediaType: type).isEmpty, "缺少 \(type) 类型的示例")
         }
@@ -304,5 +314,51 @@ final class SpotSearchTests: XCTestCase {
         XCTAssertEqual(box.minLat, 35.68); XCTAssertEqual(box.maxLat, 36.24)
         XCTAssertEqual(box.minLon, 137.19); XCTAssertEqual(box.maxLon, 139.72)
         XCTAssertNil(SpotSearch.boundingBox(of: []))
+    }
+}
+
+final class LocalizationTests: XCTestCase {
+    let spot = Spot(id: "k", work: "君の名は。", workLocalized: "你的名字。", placeName: "須賀神社（东京）",
+                    sceneTitle: "阶梯上的重逢", episode: "剧场版", story: "中文剧情", trivia: "中文贴士",
+                    coordinate: .init(latitude: 35, longitude: 139), sceneHeading: 0,
+                    translations: [
+                        "en": SpotTranslation(workLocalized: "Your Name.", placeName: "Suga Shrine",
+                                              sceneTitle: "Reunion on the stairs", story: "English story"),
+                        "ja": SpotTranslation(workLocalized: "", sceneTitle: "階段での再会"),
+                        "ko": SpotTranslation(workLocalized: "너의 이름은."),
+                    ])
+
+    func testLocalizedReplacesOnlyProvidedFields() {
+        let en = spot.localized(to: "en")
+        XCTAssertEqual(en.workLocalized, "Your Name.")
+        XCTAssertEqual(en.sceneTitle, "Reunion on the stairs")
+        XCTAssertEqual(en.story, "English story")
+        XCTAssertEqual(en.trivia, "中文贴士")              // 没有翻译的字段沿用基础内容
+        XCTAssertEqual(en.translations.count, 3)            // 翻译保留，供搜索使用
+
+        let ja = spot.localized(to: "ja")
+        XCTAssertNil(ja.workLocalized)                      // 日语环境下不显示译名
+        XCTAssertEqual(ja.sceneTitle, "階段での再会")
+        XCTAssertEqual(ja.displayWork, "君の名は。")
+
+        XCTAssertEqual(spot.localized(to: "zh-Hans"), spot)
+        XCTAssertEqual(spot.localized(to: "fr"), spot)      // 没有该语言时不变
+        XCTAssertEqual(spot.localized(to: "en-GB").sceneTitle, "Reunion on the stairs")
+    }
+
+    func testLanguageFamily() {
+        XCTAssertEqual(Spot.languageFamily("en-US"), "en")
+        XCTAssertEqual(Spot.languageFamily("zh-Hant-TW"), "zh-Hant")
+        XCTAssertEqual(Spot.languageFamily("zh-TW"), "zh-Hant")
+        XCTAssertEqual(Spot.languageFamily("zh-CN"), "zh-Hans")
+        XCTAssertEqual(Spot.languageFamily("ja_JP"), "ja")
+    }
+
+    func testSearchMatchesTranslatedTitles() {
+        XCTAssertEqual(SpotSearch.search("너의 이름은", in: [spot]).first?.work, "君の名は。")
+        XCTAssertEqual(SpotSearch.search("reunion", in: [spot]).first?.spots.count, 1)
+        // 编码往返保留翻译
+        let data = try! JSONEncoder().encode([spot])
+        XCTAssertEqual(try! SpotCatalog.decode(data), [spot])
     }
 }

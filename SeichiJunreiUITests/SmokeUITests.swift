@@ -11,8 +11,10 @@ final class SmokeUITests: XCTestCase {
 
     /// 启动 App：位置固定在「須賀神社」（《君の名は。》，名场面朝向 270°、仰角 10°）的机位，
     /// 可选地注入摄像头朝向（模拟器没有罗盘）。
-    func launch(heading: Double? = nil, pitch: Double? = nil) {
+    func launch(heading: Double? = nil, pitch: Double? = nil, language: String = "zh-Hans") {
         app = XCUIApplication()
+        let locale = ["zh-Hans": "zh_CN", "zh-Hant": "zh_TW", "ja": "ja_JP", "en": "en_US", "ko": "ko_KR"][language] ?? "en_US"
+        app.launchArguments += ["-AppleLanguages", "(\(language))", "-AppleLocale", locale]
         app.launchEnvironment["SEICHI_SIM_LAT"] = "35.68540"
         app.launchEnvironment["SEICHI_SIM_LON"] = "139.72265"
         if let heading { app.launchEnvironment["SEICHI_SIM_HEADING"] = String(heading) }
@@ -129,5 +131,31 @@ final class SmokeUITests: XCTestCase {
         XCTAssertTrue(title.waitForExistence(timeout: 6), "对准并保持后应出现庆祝画面")
         sleep(1)
         snapshot("08-scene-celebration")
+    }
+
+    /// 英语界面：标题、搜索提示、转身指引、名场面内容都应切换为英语
+    func testEnglishLocalization() throws {
+        launch(heading: 200, pitch: 10, language: "en")
+        XCTAssertTrue(app.navigationBars["Seichi Junrei"].waitForExistence(timeout: 10), "导航标题应为英语")
+        XCTAssertEqual(app.searchFields.firstMatch.placeholderValue, "Search anime, films, TV dramas")
+        snapshot("09-en-map")
+        enterSceneFromBanner()
+        XCTAssertTrue(app.staticTexts["Turn right 70°"].waitForExistence(timeout: 5))
+        snapshot("10-en-scene")
+    }
+
+    /// 日语界面：转身指引与列表
+    func testJapaneseLocalization() throws {
+        launch(heading: 200, pitch: 10, language: "ja")
+        XCTAssertTrue(app.navigationBars["聖地巡礼"].waitForExistence(timeout: 10), "导航标题应为日语")
+        let open = app.buttons["openList"]
+        XCTAssertTrue(open.waitForExistence(timeout: 5))
+        open.tap()
+        XCTAssertTrue(app.staticTexts["すべての名シーン"].waitForExistence(timeout: 5))
+        snapshot("11-ja-list")
+        app.buttons["完了"].tap()
+        enterSceneFromBanner()
+        XCTAssertTrue(app.staticTexts["右に70°回って"].waitForExistence(timeout: 5))
+        snapshot("12-ja-scene")
     }
 }

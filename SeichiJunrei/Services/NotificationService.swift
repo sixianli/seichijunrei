@@ -22,7 +22,8 @@ final class NotificationService: NSObject, UNUserNotificationCenterDelegate {
         guard let url = Bundle.main.url(forResource: "spots", withExtension: "json"),
               let data = try? Data(contentsOf: url),
               let spots = try? SpotCatalog.decode(data) else { return [:] }
-        return Dictionary(uniqueKeysWithValues: spots.map { ($0.id, $0) })
+        let language = AppLanguage.current
+        return Dictionary(uniqueKeysWithValues: spots.map { ($0.id, $0.localized(to: language)) })
     }()
 
     func requestAuthorization() {
@@ -34,8 +35,8 @@ final class NotificationService: NSObject, UNUserNotificationCenterDelegate {
     func notifyArrival(spotID: String) {
         guard let spot = spotsByID[spotID] else { return }
         let content = UNMutableNotificationContent()
-        content.title = "你已来到《\(spot.work)》的圣地"
-        content.body = "「\(spot.sceneTitle)」就在附近，打开 App 寻找名场面的视角吧！"
+        content.title = L("notif.title", spot.workTitle)
+        content.body = L("notif.body", spot.quotedSceneTitle)
         content.sound = .default
         content.userInfo = ["spotID": spotID]
         let request = UNNotificationRequest(identifier: "arrival-\(spotID)", content: content, trigger: nil)

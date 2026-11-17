@@ -63,16 +63,10 @@ public struct SceneGuidance: Equatable, Sendable {
                              alignment: alignment)
     }
 
-    /// 给用户看的一句话提示。
-    public var instruction: String {
-        switch (turn, tilt) {
-        case (.aligned, .level): return "就是这里！你正站在名场面之中"
-        case (.aligned, .up): return "方向对了，再稍微抬头 \(Int(abs(pitchDelta ?? 0).rounded()))°"
-        case (.aligned, .down): return "方向对了，再稍微低头 \(Int(abs(pitchDelta ?? 0).rounded()))°"
-        case (.left, _): return "向左转 \(Int(abs(yawDelta).rounded()))°"
-        case (.right, _): return "向右转 \(Int(abs(yawDelta).rounded()))°"
-        }
-    }
+    /// 需要转动的角度（取整，绝对值）
+    public var yawDegrees: Int { Int(abs(yawDelta).rounded()) }
+    /// 需要调整的俯仰角度（取整，绝对值）
+    public var pitchDegrees: Int { Int(abs(pitchDelta ?? 0).rounded()) }
 }
 
 /// 防抖：连续对准一段时间才触发“成就”，偏离较多才取消，避免在阈值边缘反复闪烁。

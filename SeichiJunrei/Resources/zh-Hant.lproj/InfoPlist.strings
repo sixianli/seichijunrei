@@ -1,0 +1,7 @@
+/* 由 tools/l10n.py 生成，请勿手动修改 */
+"CFBundleDisplayName" = "聖地巡禮";
+"NSLocationWhenInUseUsageDescription" = "用於發現你附近的動畫聖地，並判斷你是否已經站在名場面的機位上。";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "開啟後，當你靠近動畫聖地時會收到提醒，即使 App 沒有打開。";
+"NSCameraUsageDescription" = "在名場面機位上透過相機取景，幫你對準動畫中的同一個畫面。";
+"NSMotionUsageDescription" = "透過陀螺儀和指南針判斷你面朝的方向，引導你轉向名場面的視角。";
+"NSPhotoLibraryAddUsageDescription" = "把你在聖地拍下的「名場面重現」照片儲存到相簿。";

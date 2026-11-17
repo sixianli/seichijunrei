@@ -69,11 +69,11 @@ struct MapHomeView: View {
         }
         .safeAreaInset(edge: .top) { topPanel }
         .safeAreaInset(edge: .bottom) { carousel }
-        .navigationTitle("圣地巡礼")
+        .navigationTitle(L("map.title"))
         .navigationBarTitleDisplayMode(.inline)
         .searchable(text: $query, isPresented: $isSearching,
                     placement: .navigationBarDrawer(displayMode: .always),
-                    prompt: "搜索动画、电影、电视剧的名字")
+                    prompt: Text(L("map.searchPrompt")))
         .searchSuggestions { suggestions }
         .onSubmit(of: .search) {
             guard !suppressSubmit else { return }
@@ -82,8 +82,8 @@ struct MapHomeView: View {
                 focusOn(results[0])
             } else if !results.isEmpty {
                 let spots = results.flatMap(\.spots)
-                setFocus(MapFocus(title: "「\(query)」的搜索结果",
-                                  subtitle: "\(results.count) 部作品 · \(spots.count) 个名场面",
+                setFocus(MapFocus(title: L("map.queryResults", query),
+                                  subtitle: L("map.queryResultsCount", results.count, spots.count),
                                   spots: spots, tint: .accentColor))
             }
         }
@@ -107,7 +107,7 @@ struct MapHomeView: View {
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Button { showList = true } label: { Image(systemName: "list.bullet") }
-                    .accessibilityLabel("全部名场面")
+                    .accessibilityLabel(L("map.allScenes"))
                     .accessibilityIdentifier("openList")
             }
         }
@@ -132,7 +132,7 @@ struct MapHomeView: View {
         }
         .overlay {
             if let err = store.loadError {
-                ContentUnavailableView("数据加载失败", systemImage: "exclamationmark.triangle", description: Text(err))
+                ContentUnavailableView(L("data.loadFailedTitle"), systemImage: "exclamationmark.triangle", description: Text(err))
                     .background(.regularMaterial)
             }
         }
@@ -159,9 +159,9 @@ struct MapHomeView: View {
 
     @ViewBuilder private var suggestions: some View {
         if searchResults.isEmpty {
-            Text("没有找到「\(query)」相关的名场面").foregroundStyle(.secondary)
+            Text(L("map.noResults", query)).foregroundStyle(.secondary)
         } else {
-            Section(query.isEmpty ? "全部作品" : "搜索结果") {
+            Section(query.isEmpty ? L("map.allWorks") : L("map.searchResults")) {
                 ForEach(searchResults) { match in
                     Button { focusOn(match) } label: { WorkMatchRow(match: match) }
                         .accessibilityIdentifier("work-\(match.work)")
@@ -172,11 +172,11 @@ struct MapHomeView: View {
 
     @ViewBuilder private var carousel: some View {
         if focus != nil || mediaFilter != nil {
-            NearbyCarousel(title: focus?.title ?? "\(mediaFilter?.label ?? "")的名场面",
+            NearbyCarousel(title: focus?.title ?? L("map.typeScenes", mediaFilter?.label ?? ""),
                            items: store.items(for: mapSpots)) { selected = $0 }
         } else {
             let within = store.nearbyWithinRadius
-            NearbyCarousel(title: within.isEmpty ? "离你最近的名场面" : "附近的名场面",
+            NearbyCarousel(title: within.isEmpty ? L("map.nearestScenes") : L("map.nearbyScenes"),
                            items: within.isEmpty ? Array(store.nearby.prefix(10)) : within) { selected = $0 }
         }
     }
@@ -194,9 +194,9 @@ struct MapHomeView: View {
     private func focusOn(_ match: SpotSearch.WorkMatch) {
         suppressSubmit = true
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) { suppressSubmit = false }
-        let names = match.workLocalized.map { "\(match.work)（\($0)）" } ?? match.work
-        setFocus(MapFocus(title: "《\(names)》",
-                          subtitle: "\(match.mediaType.label) · \(match.spots.count) 个名场面",
+        let names = match.workLocalized.map { L("format.workWithLocalized", match.work, $0) } ?? match.work
+        setFocus(MapFocus(title: L("format.workTitle", names),
+                          subtitle: L("map.focusSubtitle", match.mediaType.label, match.spots.count),
                           spots: match.spots,
                           tint: match.spots.first?.tintColor ?? .accentColor))
     }
@@ -233,7 +233,7 @@ private struct MediaFilterBar: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 8) {
-                chip(title: "全部", symbol: "square.grid.2x2", value: nil)
+                chip(title: L("map.all"), symbol: "square.grid.2x2", value: nil)
                 ForEach(MediaType.allCases, id: \.self) { type in
                     chip(title: type.label, symbol: type.symbolName, value: type)
                 }
@@ -273,7 +273,7 @@ private struct FocusChip: View {
             Button(action: onClear) {
                 Image(systemName: "xmark.circle.fill").font(.title3).foregroundStyle(.secondary)
             }
-            .accessibilityLabel("显示全部名场面")
+            .accessibilityLabel(L("map.showAll"))
         }
         .padding(10)
         .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 14))
@@ -372,8 +372,8 @@ private struct ArrivalBanner: View {
                     .font(.title2)
                     .symbolEffect(.pulse, options: .repeating)
                 VStack(alignment: .leading, spacing: 2) {
-                    Text("你就站在名场面里！").font(.headline)
-                    Text("《\(nearby.spot.work)》「\(nearby.spot.sceneTitle)」")
+                    Text(L("map.arrivedTitle")).font(.headline)
+                    Text(nearby.spot.workTitle + " " + nearby.spot.quotedSceneTitle)
                         .font(.subheadline).lineLimit(1)
                 }
                 Spacer()
@@ -399,7 +399,7 @@ private struct PermissionBanner: View {
             Button {
                 if let url = URL(string: UIApplication.openSettingsURLString) { UIApplication.shared.open(url) }
             } label: {
-                Label("需要定位权限才能发现附近的圣地，点此前往设置", systemImage: "location.slash")
+                Label(L("map.needLocation"), systemImage: "location.slash")
                     .font(.footnote)
                     .padding(10)
                     .frame(maxWidth: .infinity)
@@ -409,14 +409,14 @@ private struct PermissionBanner: View {
         case .authorizedWhenInUse where !dismissedAlwaysPrompt:
             HStack(spacing: 6) {
                 Button { location.requestAlwaysAuthorization() } label: {
-                    Label("开启“始终允许”定位，靠近圣地时提醒你", systemImage: "bell.badge")
+                    Label(L("map.alwaysPrompt"), systemImage: "bell.badge")
                         .font(.caption)
                         .frame(maxWidth: .infinity, alignment: .leading)
                 }
                 Button { dismissedAlwaysPrompt = true } label: {
                     Image(systemName: "xmark").font(.caption.bold()).foregroundStyle(.secondary)
                 }
-                .accessibilityLabel("不再提示")
+                .accessibilityLabel(L("map.dontShowAgain"))
             }
             .buttonStyle(.plain)
             .padding(8)

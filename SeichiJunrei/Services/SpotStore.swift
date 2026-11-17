@@ -21,12 +21,14 @@ final class SpotStore {
         guard spots.isEmpty else { return }
         do {
             guard let url = bundle.url(forResource: "spots", withExtension: "json") else {
-                loadError = "找不到 spots.json"; return
+                loadError = L("data.missing"); return
             }
-            spots = try SpotCatalog.decode(Data(contentsOf: url))
+            // 按当前界面语言替换文案（翻译保留，搜索时可匹配所有语言）
+            let language = AppLanguage.current
+            spots = try SpotCatalog.decode(Data(contentsOf: url)).map { $0.localized(to: language) }
             if let p = userPoint { recompute(from: p) }
         } catch {
-            loadError = "圣地数据解析失败：\(error.localizedDescription)"
+            loadError = L("data.parseFailed", error.localizedDescription)
         }
     }
 

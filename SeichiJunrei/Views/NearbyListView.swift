@@ -17,8 +17,8 @@ struct NearbyListView: View {
     var body: some View {
         NavigationStack {
             List {
-                Picker("类型", selection: $mediaFilter) {
-                    Text("全部").tag(MediaType?.none)
+                Picker(L("list.type"), selection: $mediaFilter) {
+                    Text(L("map.all")).tag(MediaType?.none)
                     ForEach(MediaType.allCases, id: \.self) { Text($0.label).tag(MediaType?.some($0)) }
                 }
                 .pickerStyle(.segmented)
@@ -44,11 +44,11 @@ struct NearbyListView: View {
                 }
             }
             .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always),
-                        prompt: "动画 / 电影 / 电视剧名称")
-            .navigationTitle("全部名场面")
+                        prompt: Text(L("list.searchPrompt")))
+            .navigationTitle(L("map.allScenes"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .confirmationAction) { Button("完成") { dismiss() } }
+                ToolbarItem(placement: .confirmationAction) { Button(L("common.done")) { dismiss() } }
             }
         }
     }

@@ -27,7 +27,7 @@ struct SpotDetailView: View {
                 sceneImageControls
 
                 VStack(alignment: .leading, spacing: 6) {
-                    Text(spot.displayWork)
+                    Text(spot.displayWorkLocalized)
                         .font(.subheadline.bold())
                         .foregroundStyle(spot.tintColor)
                     Text(spot.sceneTitle).font(.title.bold())
@@ -39,21 +39,21 @@ struct SpotDetailView: View {
                 }
 
                 if arrived {
-                    Label("你就站在这个名场面的机位上", systemImage: "figure.stand")
+                    Label(L("detail.atSpot"), systemImage: "figure.stand")
                         .font(.callout.bold())
                         .foregroundStyle(spot.tintColor)
                 } else if let info, info.distance.isFinite {
                     HStack {
                         Image(systemName: "location.north.fill")
                             .rotationEffect(.degrees(info.bearing))
-                        Text("距离 \(NearbySearch.formatDistance(info.distance)) · 在你的\(GeoMath.compassName(info.bearing))方")
+                        Text(L("detail.distance", NearbySearch.formatDistance(info.distance), Compass.name(info.bearing)))
                     }
                     .font(.callout.monospacedDigit())
                     .foregroundStyle(.secondary)
                 }
 
                 Button(action: onEnterScene) {
-                    Label(arrived ? "进入名场面！" : "开启方向指引",
+                    Label(arrived ? L("detail.enterScene") : L("detail.startGuide"),
                           systemImage: arrived ? "camera.viewfinder" : "location.north.circle")
                         .font(.headline)
                         .frame(maxWidth: .infinity)
@@ -66,14 +66,14 @@ struct SpotDetailView: View {
                 Section {
                     Text(spot.story).font(.body).lineSpacing(5)
                 } header: {
-                    SectionHeader(title: "剧情背景", systemImage: "book")
+                    SectionHeader(title: L("detail.story"), systemImage: "book")
                 }
 
                 if let trivia = spot.trivia {
                     Section {
                         Text(trivia).font(.callout).foregroundStyle(.secondary)
                     } header: {
-                        SectionHeader(title: "巡礼小贴士", systemImage: "lightbulb")
+                        SectionHeader(title: L("detail.tips"), systemImage: "lightbulb")
                     }
                 }
 
@@ -82,19 +82,19 @@ struct SpotDetailView: View {
                     item.name = spot.placeName
                     item.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeWalking])
                 } label: {
-                    Label("在地图 App 中导航", systemImage: "figure.walk")
+                    Label(L("detail.openMaps"), systemImage: "figure.walk")
                         .frame(maxWidth: .infinity)
                 }
                 .buttonStyle(.bordered)
 
                 if !spot.verified {
-                    Label("该地点的机位坐标与朝向为参考值，尚未经过实地校准。", systemImage: "info.circle")
+                    Label(L("detail.unverified"), systemImage: "info.circle")
                         .font(.caption2)
                         .foregroundStyle(.tertiary)
                 }
 
                 #if DEBUG
-                Button("（调试）模拟站在这个机位") {
+                Button(L("detail.debugSimulate")) {
                     location.simulate(at: spot.coordinate)
                 }
                 .font(.caption)
@@ -112,7 +112,7 @@ private extension SpotDetailView {
         VStack(alignment: .leading, spacing: 6) {
             HStack(spacing: 10) {
                 PhotosPicker(selection: $pickedPhoto, matching: .images) {
-                    Label(SceneImageStore.shared.hasImage(for: spot.id) ? "更换名场面截图" : "添加名场面截图",
+                    Label(SceneImageStore.shared.hasImage(for: spot.id) ? L("detail.changeImage") : L("detail.addImage"),
                           systemImage: "photo.badge.plus")
                 }
                 if SceneImageStore.shared.hasImage(for: spot.id) {
@@ -121,19 +121,19 @@ private extension SpotDetailView {
                     } label: {
                         Image(systemName: "trash")
                     }
-                    .accessibilityLabel("删除名场面截图")
+                    .accessibilityLabel(L("detail.deleteImage"))
                 }
                 Spacer()
                 Button {
                     if let url = imageSearchURL { openURL(url) }
                 } label: {
-                    Label("网上搜这一幕", systemImage: "magnifyingglass")
+                    Label(L("detail.searchWeb"), systemImage: "magnifyingglass")
                 }
             }
             .font(.footnote.weight(.semibold))
             .buttonStyle(.bordered)
 
-            Text(imageMessage ?? "截图只保存在你的手机上，到达机位后会叠加在相机画面中，帮你对准同一个构图。")
+            Text(imageMessage ?? L("detail.imageHint"))
                 .font(.caption2)
                 .foregroundStyle(.secondary)
         }
@@ -143,9 +143,9 @@ private extension SpotDetailView {
                 let data = try? await item.loadTransferable(type: Data.self)
                 await MainActor.run {
                     if let data, SceneImageStore.shared.save(data, for: spot.id) {
-                        imageMessage = "已设置名场面截图 ✓"
+                        imageMessage = L("detail.imageSet")
                     } else {
-                        imageMessage = "图片读取失败，请换一张试试"
+                        imageMessage = L("detail.imageFailed")
                     }
                     pickedPhoto = nil
                 }
@@ -157,7 +157,8 @@ private extension SpotDetailView {
         var c = URLComponents(string: "https://www.google.com/search")
         c?.queryItems = [
             URLQueryItem(name: "tbm", value: "isch"),
-            URLQueryItem(name: "q", value: "\(spot.work) \(spot.placeName.components(separatedBy: "（").first ?? spot.placeName) 聖地巡礼"),
+            // 用作品原名 + 地点名 + “聖地巡礼” 搜索，日文资料最丰富
+            URLQueryItem(name: "q", value: "\(spot.work) \(spot.placeName.components(separatedBy: CharacterSet(charactersIn: "（(")).first ?? spot.placeName) 聖地巡礼"),
         ]
         return c?.url
     }

@@ -60,10 +60,9 @@ public enum GeoMath {
         return normalize(degrees(atan2(s, c)))
     }
 
-    /// 方位角转为八方位中文简称。
-    public static func compassName(_ bearing: Double) -> String {
-        let names = ["北", "东北", "东", "东南", "南", "西南", "西", "西北"]
-        let idx = Int((normalize(bearing) + 22.5) / 45) % 8
-        return names[idx]
+    /// 八方位：0 北、1 东北、2 东、3 东南、4 南、5 西南、6 西、7 西北。
+    /// 只返回序号，具体文字由 App 层按界面语言本地化。
+    public static func compassIndex(_ bearing: Double) -> Int {
+        Int((normalize(bearing) + 22.5) / 45) % 8
     }
 }

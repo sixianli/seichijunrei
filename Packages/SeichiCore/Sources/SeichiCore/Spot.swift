@@ -6,14 +6,22 @@ public enum MediaType: String, Codable, CaseIterable, Sendable {
     case animeFilm    // 动画电影
     case film         // 真人电影
     case drama        // 电视剧
+}
 
-    public var label: String {
-        switch self {
-        case .anime: return "动画"
-        case .animeFilm: return "动画电影"
-        case .film: return "电影"
-        case .drama: return "电视剧"
-        }
+/// 某种语言下的圣地文案。字段为空表示沿用基础（简体中文）内容。
+public struct SpotTranslation: Codable, Hashable, Sendable {
+    /// 作品在该语言中的通用译名；空字符串表示不显示译名（如日语环境下原名即可）
+    public var workLocalized: String?
+    public var placeName: String?
+    public var sceneTitle: String?
+    public var episode: String?
+    public var story: String?
+    public var trivia: String?
+
+    public init(workLocalized: String? = nil, placeName: String? = nil, sceneTitle: String? = nil,
+                episode: String? = nil, story: String? = nil, trivia: String? = nil) {
+        self.workLocalized = workLocalized; self.placeName = placeName; self.sceneTitle = sceneTitle
+        self.episode = episode; self.story = story; self.trivia = trivia
     }
 }
 
@@ -54,13 +62,16 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
     public var verified: Bool
     /// 主题色（十六进制），用于卡片和地图标记
     public var tint: String?
+    /// 其他语言的文案，键为语言代码（zh-Hant / ja / en / ko …）。基础字段为简体中文。
+    public var translations: [String: SpotTranslation]
 
     public init(id: String, work: String, workLocalized: String? = nil,
                 mediaType: MediaType = .anime, aliases: [String] = [], placeName: String,
                 sceneTitle: String, episode: String? = nil, story: String, trivia: String? = nil,
                 coordinate: GeoPoint, sceneHeading: Double, scenePitch: Double? = nil,
                 arrivalRadius: Double = 25, sceneImage: String? = nil, sourceURL: String? = nil,
-                verified: Bool = false, tint: String? = nil) {
+                verified: Bool = false, tint: String? = nil,
+                translations: [String: SpotTranslation] = [:]) {
         self.id = id; self.work = work; self.workLocalized = workLocalized
         self.mediaType = mediaType; self.aliases = aliases
         self.placeName = placeName; self.sceneTitle = sceneTitle; self.episode = episode
@@ -68,12 +79,13 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         self.sceneHeading = sceneHeading; self.scenePitch = scenePitch
         self.arrivalRadius = arrivalRadius; self.sceneImage = sceneImage
         self.sourceURL = sourceURL; self.verified = verified; self.tint = tint
+        self.translations = translations
     }
 
     enum CodingKeys: String, CodingKey {
         case id, work, workLocalized, mediaType, aliases, placeName, sceneTitle, episode, story, trivia
         case latitude, longitude, sceneHeading, scenePitch, arrivalRadius
-        case sceneImage, sourceURL, verified, tint
+        case sceneImage, sourceURL, verified, tint, translations
     }
 
     public init(from decoder: Decoder) throws {
@@ -102,6 +114,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         sourceURL = try c.decodeIfPresent(String.self, forKey: .sourceURL)
         verified = try c.decodeIfPresent(Bool.self, forKey: .verified) ?? false
         tint = try c.decodeIfPresent(String.self, forKey: .tint)
+        translations = try c.decodeIfPresent([String: SpotTranslation].self, forKey: .translations) ?? [:]
     }
 
     public func encode(to encoder: Encoder) throws {
@@ -125,11 +138,39 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         try c.encodeIfPresent(sourceURL, forKey: .sourceURL)
         try c.encode(verified, forKey: .verified)
         try c.encodeIfPresent(tint, forKey: .tint)
+        if !translations.isEmpty { try c.encode(translations, forKey: .translations) }
     }
 }
 
 public extension Spot {
     var displayWork: String { workLocalized.map { "\(work)（\($0)）" } ?? work }
+
+    /// 基础内容所用的语言
+    static let baseLanguage = "zh-Hans"
+
+    /// 返回把文案替换为指定语言后的圣地（没有对应翻译的字段保留基础内容）。
+    /// `translations` 会原样保留，以便搜索仍能匹配所有语言。
+    func localized(to language: String?) -> Spot {
+        guard let language, language != Self.baseLanguage,
+              let t = translations[language] ?? translations[Self.languageFamily(language)] else { return self }
+        var s = self
+        if let w = t.workLocalized { s.workLocalized = w.isEmpty ? nil : w }
+        if let v = t.placeName, !v.isEmpty { s.placeName = v }
+        if let v = t.sceneTitle, !v.isEmpty { s.sceneTitle = v }
+        if let v = t.episode, !v.isEmpty { s.episode = v }
+        if let v = t.story, !v.isEmpty { s.story = v }
+        if let v = t.trivia, !v.isEmpty { s.trivia = v }
+        return s
+    }
+
+    /// "en-US" → "en"，"zh-Hant-TW" → "zh-Hant"，"ja_JP" → "ja"
+    static func languageFamily(_ code: String) -> String {
+        let parts = code.replacingOccurrences(of: "_", with: "-").split(separator: "-").map(String.init)
+        guard let first = parts.first else { return code }
+        if first == "zh", parts.count > 1, ["Hans", "Hant"].contains(parts[1]) { return "zh-\(parts[1])" }
+        if first == "zh" { return parts.contains(where: { ["TW", "HK", "MO"].contains($0) }) ? "zh-Hant" : "zh-Hans" }
+        return first
+    }
 }
 
 public enum SpotCatalog {
