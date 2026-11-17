@@ -10,6 +10,7 @@
 "media.anime" = "日漫";
 "media.animeFilm" = "日漫";
 "media.film" = "日影";
+"media.filmForeign" = "电影";
 "media.drama" = "日剧";
 "format.workTitle" = "《%@》";
 "format.sceneTitle" = "「%@」";

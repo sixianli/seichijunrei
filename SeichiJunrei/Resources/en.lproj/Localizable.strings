@@ -10,6 +10,7 @@
 "media.anime" = "Anime";
 "media.animeFilm" = "Anime film";
 "media.film" = "Film";
+"media.filmForeign" = "Film";
 "media.drama" = "J-drama";
 "format.workTitle" = "%@";
 "format.sceneTitle" = "“%@”";

@@ -122,6 +122,8 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
     public var synopsis: String?
     /// 作品官网
     public var officialURL: String?
+    /// 作品出品国家（ISO 代码），nil 表示日本
+    public var country: String?
 
     public init(id: String, work: String, workLocalized: String? = nil,
                 mediaType: MediaType = .anime, aliases: [String] = [], placeName: String,
@@ -132,7 +134,8 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
                 translations: [String: SpotTranslation] = [:], workID: String? = nil,
                 highlight: String? = nil, access: String? = nil, bestTime: String? = nil,
                 spoiler: Bool = false, photo: SpotPhoto? = nil, year: Int? = nil,
-                creator: String? = nil, synopsis: String? = nil, officialURL: String? = nil) {
+                creator: String? = nil, synopsis: String? = nil, officialURL: String? = nil,
+                country: String? = nil) {
         self.id = id; self.workID = workID ?? work; self.work = work; self.workLocalized = workLocalized
         self.mediaType = mediaType; self.aliases = aliases
         self.placeName = placeName; self.sceneTitle = sceneTitle; self.episode = episode
@@ -144,13 +147,14 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         self.highlight = highlight; self.access = access; self.bestTime = bestTime
         self.spoiler = spoiler; self.photo = photo; self.year = year
         self.creator = creator; self.synopsis = synopsis; self.officialURL = officialURL
+        self.country = country
     }
 
     enum CodingKeys: String, CodingKey {
         case id, work, workLocalized, mediaType, aliases, placeName, sceneTitle, episode, story, trivia
         case latitude, longitude, sceneHeading, scenePitch, arrivalRadius
         case sceneImage, sourceURL, verified, tint, translations
-        case workID, highlight, access, bestTime, spoiler, photo, year, creator, synopsis, officialURL
+        case workID, highlight, access, bestTime, spoiler, photo, year, creator, synopsis, officialURL, country
     }
 
     public init(from decoder: Decoder) throws {
@@ -190,6 +194,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         creator = try c.decodeIfPresent(String.self, forKey: .creator)
         synopsis = try c.decodeIfPresent(String.self, forKey: .synopsis)
         officialURL = try c.decodeIfPresent(String.self, forKey: .officialURL)
+        country = try c.decodeIfPresent(String.self, forKey: .country)
     }
 
     public func encode(to encoder: Encoder) throws {
@@ -224,6 +229,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         try c.encodeIfPresent(creator, forKey: .creator)
         try c.encodeIfPresent(synopsis, forKey: .synopsis)
         try c.encodeIfPresent(officialURL, forKey: .officialURL)
+        try c.encodeIfPresent(country, forKey: .country)
     }
 }
 
@@ -306,6 +312,7 @@ struct CatalogFile: Decodable {
         var tint: String?
         var aliases: [String]?
         var officialURL: String?
+        var country: String?
         var text: [String: WorkText]
     }
     struct SpotText: Decodable {
@@ -367,7 +374,8 @@ struct CatalogFile: Decodable {
                         verified: r.verified ?? false, tint: w.tint, translations: translations,
                         workID: w.id, highlight: t.highlight, access: t.access, bestTime: t.bestTime,
                         spoiler: r.spoiler ?? false, photo: r.photo, year: w.year,
-                        creator: wt?.creator ?? w.creator, synopsis: wt?.synopsis, officialURL: w.officialURL)
+                        creator: wt?.creator ?? w.creator, synopsis: wt?.synopsis, officialURL: w.officialURL,
+                        country: w.country == "JP" ? nil : w.country)
         }
     }
 }

@@ -1,0 +1,385 @@
+{
+ "works": [
+  {
+   "id": "your-name",
+   "title": "君の名は。",
+   "mediaType": "animeFilm",
+   "year": 2016,
+   "creator": "新海誠 / コミックス・ウェーブ・フィルム",
+   "tint": "#2E6BE6",
+   "aliases": ["Your Name.", "Your Name", "Kimi no Na wa", "君の名は", "你的名字", "你的名字。", "너의 이름은", "新海诚", "新海誠", "Makoto Shinkai", "신카이 마코토"],
+   "officialURL": "https://www.kiminona.com/",
+   "text": {
+    "zh-Hans": {
+     "title": "你的名字。",
+     "creator": "新海诚 / CoMix Wave Films",
+     "synopsis": "住在山间小镇糸守的高中女生三叶，和东京的高中男生泷，在梦里莫名互换了身体。两个素未谋面的人靠手机留言磨合彼此的生活，却渐渐发现这场互换背后藏着更大的秘密。"
+    },
+    "zh-Hant": {"title": "你的名字。"},
+    "ja": {
+     "title": "",
+     "synopsis": "山深い町・糸守に暮らす女子高校生の三葉と、東京の男子高校生・瀧。会ったこともない二人は、夢の中で身体が入れ替わるようになる。スマホのメモで互いの生活をなんとか守りながら、二人は入れ替わりの奥にある秘密に近づいていく。"
+    },
+    "en": {
+     "title": "Your Name.",
+     "creator": "Makoto Shinkai / CoMix Wave Films",
+     "synopsis": "Mitsuha, a high-school girl in the mountain town of Itomori, and Taki, a high-school boy in Tokyo, start waking up in each other's bodies. Leaving notes on each other's phones, two strangers learn to live each other's lives, until they realise something much bigger lies behind the swaps."
+    },
+    "ko": {
+     "title": "너의 이름은.",
+     "creator": "신카이 마코토 / 코믹스 웨이브 필름",
+     "synopsis": "산골 마을 이토모리에 사는 여고생 미츠하와 도쿄의 남고생 타키는 꿈속에서 서로의 몸이 바뀌기 시작한다. 휴대폰 메모로 서로의 일상을 지켜 나가던 두 사람은, 이 신기한 일 뒤에 더 큰 비밀이 숨어 있다는 걸 알게 된다."
+    }
+   }
+  },
+  {
+   "id": "weathering-with-you",
+   "title": "天気の子",
+   "mediaType": "animeFilm",
+   "year": 2019,
+   "creator": "新海誠 / コミックス・ウェーブ・フィルム",
+   "tint": "#4FA3E0",
+   "aliases": ["Weathering with You", "Tenki no Ko", "天气之子", "天氣之子", "날씨의 아이", "新海诚", "新海誠", "Makoto Shinkai", "신카이 마코토"],
+   "officialURL": "https://www.tenkinoko.com/",
+   "text": {
+    "zh-Hans": {
+     "title": "天气之子",
+     "creator": "新海诚 / CoMix Wave Films",
+     "synopsis": "离岛离家出走的高中生帆高来到连日阴雨的东京，在一家小编辑社打工糊口。他遇见了一个只要祈祷、就能让天空放晴的少女阳菜，两人做起了“出租晴天”的小生意。"
+    },
+    "zh-Hant": {"title": "天氣之子"},
+    "ja": {
+     "title": "",
+     "synopsis": "離島から家出してきた高校生・帆高は、雨が降り続く東京で小さな編集プロダクションに転がり込む。やがて彼は、祈るだけで空を晴れにできる少女・陽菜と出会い、二人で「晴れ女」の仕事を始める。"
+    },
+    "en": {
+     "title": "Weathering with You",
+     "creator": "Makoto Shinkai / CoMix Wave Films",
+     "synopsis": "Hodaka runs away from his island home to a Tokyo drowning in endless rain and scrapes by at a tiny occult magazine. There he meets Hina, a girl who can clear the sky just by praying, and the two start a little business selling sunshine."
+    },
+    "ko": {
+     "title": "날씨의 아이",
+     "creator": "신카이 마코토 / 코믹스 웨이브 필름",
+     "synopsis": "외딴섬에서 가출한 고등학생 호다카는 비가 그치지 않는 도쿄에서 작은 편집 사무소에 얹혀 지낸다. 그러다 기도만으로 하늘을 맑게 만드는 소녀 히나를 만나, 둘은 ‘맑음 소녀’ 아르바이트를 시작한다."
+    }
+   }
+  },
+  {
+   "id": "five-centimeters",
+   "title": "秒速5センチメートル",
+   "mediaType": "animeFilm",
+   "year": 2007,
+   "creator": "新海誠 / コミックス・ウェーブ・フィルム",
+   "tint": "#F2A7C3",
+   "aliases": ["5 Centimeters per Second", "Byosoku 5 Centimeter", "Byōsoku Go Senchimētoru", "秒速5厘米", "秒速五厘米", "秒速5公分", "초속 5센티미터", "新海诚", "新海誠", "Makoto Shinkai", "신카이 마코토"],
+   "text": {
+    "zh-Hans": {
+     "title": "秒速5厘米",
+     "creator": "新海诚 / CoMix Wave Films",
+     "synopsis": "由《樱花抄》《宇航员》《秒速5厘米》三个短篇组成，讲述少年贵树从小学到成年的心路。分隔两地的初恋、说不出口的暗恋，被铁路、樱花和距离一点点拉开。"
+    },
+    "zh-Hant": {"title": "秒速5公分"},
+    "ja": {
+     "title": "",
+     "synopsis": "「桜花抄」「コスモナウト」「秒速5センチメートル」の三つの短編で、少年・遠野貴樹の小学生時代から大人になるまでを描く。離ればなれになった初恋、言えないままの片思い——線路と桜と距離が、少しずつ人と人を隔てていく。"
+    },
+    "en": {
+     "title": "5 Centimeters per Second",
+     "creator": "Makoto Shinkai / CoMix Wave Films",
+     "synopsis": "Three short chapters — “Cherry Blossom”, “Cosmonaut” and “5 Centimeters per Second” — follow Takaki from primary school into adulthood. A first love separated by distance and an unspoken crush play out along railway lines and under falling cherry blossoms."
+    },
+    "ko": {
+     "title": "초속 5센티미터",
+     "creator": "신카이 마코토 / 코믹스 웨이브 필름",
+     "synopsis": "「벚꽃 이야기」「코스모나우트」「초속 5센티미터」 세 편의 단편으로 소년 타카키의 초등학생 시절부터 어른이 되기까지를 그린다. 멀리 떨어진 첫사랑과 말하지 못한 짝사랑이 철길과 벚꽃, 그리고 거리 속에서 조금씩 멀어진다."
+    }
+   }
+  },
+  {
+   "id": "garden-of-words",
+   "title": "言の葉の庭",
+   "mediaType": "animeFilm",
+   "year": 2013,
+   "creator": "新海誠 / コミックス・ウェーブ・フィルム",
+   "tint": "#5E9E6E",
+   "aliases": ["The Garden of Words", "Kotonoha no Niwa", "言叶之庭", "言葉之庭", "언어의 정원", "新海诚", "新海誠", "Makoto Shinkai", "신카이 마코토"],
+   "text": {
+    "zh-Hans": {
+     "title": "言叶之庭",
+     "creator": "新海诚 / CoMix Wave Films",
+     "synopsis": "梦想做鞋匠的高中生孝雄，每逢下雨的早晨就翘掉第一节课，躲进新宿御苑画鞋子的设计图。在那里，他遇见了一位独自喝着啤酒的神秘女性。只在雨天相见的两人，慢慢走进了彼此的心。"
+    },
+    "zh-Hant": {"title": "言葉之庭"},
+    "ja": {
+     "title": "",
+     "synopsis": "靴職人を目指す高校生・タカオは、雨の朝になると午前の授業をサボり、新宿御苑で靴のスケッチを描いている。そこで出会ったのは、ひとりでビールを飲む謎めいた年上の女性・ユキノ。雨の日だけの逢瀬が、二人の心を少しずつ近づけていく。"
+    },
+    "en": {
+     "title": "The Garden of Words",
+     "creator": "Makoto Shinkai / CoMix Wave Films",
+     "synopsis": "Takao, a teenager who dreams of making shoes, skips morning classes whenever it rains to sketch in Shinjuku Gyoen. There he keeps meeting Yukino, an older woman drinking beer alone. Meeting only on rainy days, the two slowly open up to each other."
+    },
+    "ko": {
+     "title": "언어의 정원",
+     "creator": "신카이 마코토 / 코믹스 웨이브 필름",
+     "synopsis": "구두 장인을 꿈꾸는 고등학생 타카오는 비 오는 아침이면 수업을 빼먹고 신주쿠 교엔에서 구두 스케치를 한다. 그곳에서 혼자 맥주를 마시는 수수께끼의 여성 유키노를 만나고, 비 오는 날에만 이어지는 만남 속에서 두 사람은 서서히 마음을 열어 간다."
+    }
+   }
+  },
+  {
+   "id": "suzume",
+   "title": "すずめの戸締まり",
+   "mediaType": "animeFilm",
+   "year": 2022,
+   "creator": "新海誠 / コミックス・ウェーブ・フィルム",
+   "tint": "#E07B39",
+   "aliases": ["Suzume", "Suzume no Tojimari", "Suzume's Door-Locking", "铃芽之旅", "铃芽户缔", "鈴芽之旅", "스즈메의 문단속", "新海诚", "新海誠", "Makoto Shinkai", "신카이 마코토"],
+   "officialURL": "https://suzume-tojimari-movie.jp/",
+   "text": {
+    "zh-Hans": {
+     "title": "铃芽之旅",
+     "creator": "新海诚 / CoMix Wave Films",
+     "synopsis": "九州小镇的高中生铃芽，在废墟中打开了一扇不可思议的门。为了关上散落在日本各地、会招来灾难的“门”，她和被变成椅子的“闭门师”草太一路北上，展开一场跨越日本的旅程。"
+    },
+    "zh-Hant": {"title": "鈴芽之旅"},
+    "ja": {
+     "title": "",
+     "synopsis": "九州の静かな町で暮らす17歳の鈴芽は、廃墟で不思議な扉を開けてしまう。日本各地で災いを呼ぶ「後ろ戸」を閉じるため、椅子の姿に変えられた「閉じ師」の草太とともに、鈴芽の戸締まりの旅が始まる。"
+    },
+    "en": {
+     "title": "Suzume",
+     "creator": "Makoto Shinkai / CoMix Wave Films",
+     "synopsis": "Seventeen-year-old Suzume opens a mysterious door in the ruins near her quiet Kyushu town. To close the doors that let disaster into Japan, she sets off across the country with Souta, a door-closer who has been turned into a child's chair."
+    },
+    "ko": {
+     "title": "스즈메의 문단속",
+     "creator": "신카이 마코토 / 코믹스 웨이브 필름",
+     "synopsis": "규슈의 조용한 마을에 사는 열일곱 살 스즈메는 폐허에서 신비한 문을 열어 버린다. 일본 곳곳에서 재앙을 부르는 문을 닫기 위해, 의자로 변해 버린 ‘문 닫는 자’ 소타와 함께 일본을 가로지르는 여정에 나선다."
+    }
+   }
+  },
+  {
+   "id": "girl-who-leapt-through-time",
+   "title": "時をかける少女",
+   "mediaType": "animeFilm",
+   "year": 2006,
+   "creator": "細田守 / マッドハウス",
+   "tint": "#F5B841",
+   "aliases": ["The Girl Who Leapt Through Time", "Toki wo Kakeru Shoujo", "Tokikake", "時かけ", "穿越时空的少女", "跳跃吧！时空少女", "跳躍吧！時空少女", "시간을 달리는 소녀", "细田守", "細田守", "Mamoru Hosoda", "호소다 마모루"],
+   "text": {
+    "zh-Hans": {
+     "title": "穿越时空的少女",
+     "creator": "细田守 / MADHOUSE",
+     "synopsis": "大大咧咧的高二女生真琴，在一次意外后发现自己能“跳跃”回过去。她用这能力重来考试、多吃布丁、躲开麻烦，和好友千昭、功介的夏天似乎可以无限重来——直到她发现，时间并不会白白让人改写。"
+    },
+    "zh-Hant": {"title": "跳躍吧！時空少女"},
+    "ja": {
+     "title": "",
+     "synopsis": "高校2年生の真琴は、ある日を境に過去へ「タイムリープ」できるようになる。テストをやり直し、プリンを取り返し、千昭や功介と過ごす夏を何度でも繰り返す真琴。けれど、時間を巻き戻すことには思いがけない代償があった。"
+    },
+    "en": {
+     "title": "The Girl Who Leapt Through Time",
+     "creator": "Mamoru Hosoda / Madhouse",
+     "synopsis": "After a strange accident, carefree high-schooler Makoto discovers she can leap back in time. She uses it to redo tests, rescue her pudding and replay summer days with her friends Chiaki and Kosuke — until she learns that rewriting time always costs something."
+    },
+    "ko": {
+     "title": "시간을 달리는 소녀",
+     "creator": "호소다 마모루 / 매드하우스",
+     "synopsis": "털털한 고등학교 2학년 마코토는 어떤 사고 이후 과거로 ‘타임리프’할 수 있게 된다. 시험을 다시 보고, 푸딩을 되찾고, 치아키·고스케와의 여름날을 몇 번이고 되풀이하지만, 시간을 되돌리는 일에는 생각지 못한 대가가 따른다."
+    }
+   }
+  },
+  {
+   "id": "summer-wars",
+   "title": "サマーウォーズ",
+   "mediaType": "animeFilm",
+   "year": 2009,
+   "creator": "細田守 / マッドハウス",
+   "tint": "#E94B3C",
+   "aliases": ["Summer Wars", "Sama Uozu", "夏日大作战", "夏日大作戰", "썸머 워즈", "썸머워즈", "细田守", "細田守", "Mamoru Hosoda", "호소다 마모루"],
+   "officialURL": "https://s-wars.jp/",
+   "text": {
+    "zh-Hans": {
+     "title": "夏日大作战",
+     "creator": "细田守 / MADHOUSE",
+     "synopsis": "数学天才少年健二被学姐夏希拉去长野上田的老家，假扮她的未婚夫，给曾祖母荣庆祝九十大寿。就在大家族热热闹闹团聚时，席卷全世界的虚拟空间“OZ”突然陷入混乱。"
+    },
+    "zh-Hant": {"title": "夏日大作戰"},
+    "ja": {
+     "title": "",
+     "synopsis": "数学が得意な高校生・健二は、憧れの先輩・夏希に頼まれ、長野県上田にある彼女の実家へ。曾祖母・栄の90歳の誕生日を祝う大家族の中で「婚約者」のふりをすることになるが、同じころ世界中がつながる仮想世界「OZ」に異変が起きていた。"
+    },
+    "en": {
+     "title": "Summer Wars",
+     "creator": "Mamoru Hosoda / Madhouse",
+     "synopsis": "Maths whiz Kenji is talked into joining his senior Natsuki at her family's old home in Ueda, Nagano, posing as her fiancé for her great-grandmother Sakae's 90th birthday. While the huge Jinnouchi clan gathers, the global virtual world OZ is thrown into chaos."
+    },
+    "ko": {
+     "title": "썸머 워즈",
+     "creator": "호소다 마모루 / 매드하우스",
+     "synopsis": "수학 천재 고등학생 켄지는 선배 나츠키의 부탁으로 나가노현 우에다에 있는 그녀의 본가에 가서, 증조할머니 사카에의 아흔 번째 생일 동안 약혼자 행세를 하게 된다. 대가족이 모여 떠들썩한 그때, 전 세계를 잇는 가상 세계 ‘OZ’에 이변이 일어난다."
+    }
+   }
+  },
+  {
+   "id": "wolf-children",
+   "title": "おおかみこどもの雨と雪",
+   "mediaType": "animeFilm",
+   "year": 2012,
+   "creator": "細田守 / スタジオ地図",
+   "tint": "#7A9A57",
+   "aliases": ["Wolf Children", "Ookami Kodomo no Ame to Yuki", "Wolf Children Ame and Yuki", "狼的孩子雨和雪", "狼之子雨与雪", "늑대아이", "细田守", "細田守", "Mamoru Hosoda", "호소다 마모루"],
+   "officialURL": "https://www.ookamikodomo.jp/",
+   "text": {
+    "zh-Hans": {
+     "title": "狼的孩子雨和雪",
+     "creator": "细田守 / 地图工作室",
+     "synopsis": "大学生花爱上了一个“狼人”，生下了既是人又是狼的姐弟雪和雨。为了让孩子们不被旁人发现、自由选择成为人还是狼，花带着他们离开东京，搬进了深山里的一座老房子。"
+    },
+    "zh-Hant": {"title": "狼的孩子雨和雪"},
+    "ja": {
+     "title": "",
+     "synopsis": "大学生の花は「おおかみおとこ」と恋に落ち、人間とおおかみの二つの顔をもつ姉弟・雪と雨を授かる。子どもたちが人目を気にせず、人として生きるかおおかみとして生きるかを選べるように、花は東京を離れ、山あいの古民家へ移り住む。"
+    },
+    "en": {
+     "title": "Wolf Children",
+     "creator": "Mamoru Hosoda / Studio Chizu",
+     "synopsis": "College student Hana falls in love with a wolf man and has two children, Yuki and Ame, who can turn into wolves. So they can grow up free to choose between being human or wolf, she leaves Tokyo and moves them into an old farmhouse in the mountains."
+    },
+    "ko": {
+     "title": "늑대아이",
+     "creator": "호소다 마모루 / 스튜디오 지도",
+     "synopsis": "대학생 하나는 ‘늑대인간’과 사랑에 빠져 사람과 늑대 두 모습을 가진 남매 유키와 아메를 낳는다. 아이들이 남의 눈을 피해 사람으로 살지 늑대로 살지 스스로 고를 수 있도록, 하나는 도쿄를 떠나 산골의 오래된 집으로 이사한다."
+    }
+   }
+  },
+  {
+   "id": "belle",
+   "title": "竜とそばかすの姫",
+   "mediaType": "animeFilm",
+   "year": 2021,
+   "creator": "細田守 / スタジオ地図",
+   "tint": "#E05A8A",
+   "aliases": ["Belle", "Ryu to Sobakasu no Hime", "龙与雀斑公主", "龍與雀斑公主", "용과 주근깨 공주", "细田守", "細田守", "Mamoru Hosoda", "호소다 마모루"],
+   "officialURL": "https://ryu-to-sobakasu-no-hime.jp/",
+   "text": {
+    "zh-Hans": {
+     "title": "龙与雀斑公主",
+     "creator": "细田守 / 地图工作室",
+     "synopsis": "住在高知乡下的17岁少女铃，自从小时候失去母亲，就再也唱不出歌来。可当她以“Belle”的身份进入拥有五十亿用户的虚拟世界“U”，歌声却一夜之间传遍全世界。"
+    },
+    "zh-Hant": {"title": "龍與雀斑公主"},
+    "ja": {
+     "title": "",
+     "synopsis": "高知の田舎町で暮らす17歳のすずは、幼いころに母を亡くして以来、歌うことができなくなっていた。しかし50億人が集う仮想世界〈U〉で「ベル」として歌うと、その歌声はたちまち世界中を魅了していく。"
+    },
+    "en": {
+     "title": "Belle",
+     "creator": "Mamoru Hosoda / Studio Chizu",
+     "synopsis": "Suzu, a 17-year-old living in rural Kochi, hasn't been able to sing since she lost her mother as a child. But inside U, a virtual world of five billion users, she becomes “Belle” — and her voice captivates the whole world overnight."
+    },
+    "ko": {
+     "title": "용과 주근깨 공주",
+     "creator": "호소다 마모루 / 스튜디오 지도",
+     "synopsis": "고치현 시골 마을에 사는 열일곱 살 스즈는 어릴 적 엄마를 잃은 뒤로 노래를 부르지 못한다. 그런데 50억 명이 모이는 가상 세계 ‘U’에서 ‘벨’이 되어 노래하자, 그 목소리가 순식간에 전 세계를 사로잡는다."
+    }
+   }
+  },
+  {
+   "id": "a-silent-voice",
+   "title": "聲の形",
+   "mediaType": "animeFilm",
+   "year": 2016,
+   "creator": "山田尚子 / 京都アニメーション",
+   "tint": "#7FC8D6",
+   "aliases": ["A Silent Voice", "Koe no Katachi", "The Shape of Voice", "声の形", "声之形", "聲之形", "목소리의 형태", "山田尚子", "Naoko Yamada", "야마다 나오코", "京都动画", "京アニ", "Kyoto Animation", "大垣"],
+   "officialURL": "https://koenokatachi-movie.com/",
+   "text": {
+    "zh-Hans": {
+     "title": "声之形",
+     "creator": "山田尚子 / 京都动画",
+     "synopsis": "小学时，将也带头欺负转学来的听障少女硝子，后来自己也被孤立，从此封闭了内心。升上高中的他学会了手语，决定去见硝子一面。改编自大今良时的同名漫画。"
+    },
+    "zh-Hant": {"title": "聲之形"},
+    "ja": {
+     "title": "",
+     "synopsis": "小学生の将也は、転校してきた聴覚障害の少女・硝子へのいじめの中心になり、やがて自分も孤立して心を閉ざす。高校生になった将也は手話を覚え、もう一度硝子に会いに行く。大今良時の漫画を原作とする劇場アニメ。"
+    },
+    "en": {
+     "title": "A Silent Voice",
+     "creator": "Naoko Yamada / Kyoto Animation",
+     "synopsis": "In primary school, Shoya led the bullying of Shoko, a deaf transfer student, and was then shunned himself. Years later, now in high school and having learned sign language, he sets out to see her again. Based on Yoshitoki Oima's manga."
+    },
+    "ko": {
+     "title": "목소리의 형태",
+     "creator": "야마다 나오코 / 교토 애니메이션",
+     "synopsis": "초등학생 쇼야는 전학 온 청각장애 소녀 쇼코를 괴롭히는 데 앞장섰다가, 결국 자신도 따돌림을 당하며 마음을 닫는다. 고등학생이 되어 수어를 익힌 쇼야는 다시 쇼코를 만나러 간다. 오이마 요시토키의 만화가 원작이다."
+    }
+   }
+  },
+  {
+   "id": "tamako-love-story",
+   "title": "たまこラブストーリー",
+   "mediaType": "animeFilm",
+   "year": 2014,
+   "creator": "山田尚子 / 京都アニメーション",
+   "tint": "#EF8FA5",
+   "aliases": ["Tamako Love Story", "Tamako Rabu Sutori", "たまこまーけっと", "Tamako Market", "玉子爱情故事", "玉子愛情故事", "타마코 러브 스토리", "山田尚子", "Naoko Yamada", "야마다 나오코", "京都动画", "Kyoto Animation", "出町桝形商店街"],
+   "text": {
+    "zh-Hans": {
+     "title": "玉子爱情故事",
+     "creator": "山田尚子 / 京都动画",
+     "synopsis": "电视动画《玉子市场》的剧场版续作。年糕店“玉屋”的女儿玉子升上高三，从小一起长大、住在街对面的饼藏，终于下定决心要把心意说出口。"
+    },
+    "zh-Hant": {"title": "玉子愛情故事"},
+    "ja": {
+     "title": "",
+     "synopsis": "TVアニメ『たまこまーけっと』の続編となる劇場作品。うさぎ山商店街の餅屋「たまや」の娘・たまこは高校3年生に。向かいの餅屋の幼なじみ・もち蔵は、ずっと胸にしまってきた想いを伝えようと決意する。"
+    },
+    "en": {
+     "title": "Tamako Love Story",
+     "creator": "Naoko Yamada / Kyoto Animation",
+     "synopsis": "The feature-length sequel to the TV anime Tamako Market. Tamako, daughter of the Tamaya mochi shop, starts her final year of high school, and Mochizo — her childhood friend from the rival shop across the street — finally resolves to tell her how he feels."
+    },
+    "ko": {
+     "title": "타마코 러브 스토리",
+     "creator": "야마다 나오코 / 교토 애니메이션",
+     "synopsis": "TV 애니메이션 『타마코 마켓』의 극장판 속편. 떡집 ‘타마야’의 딸 타마코가 고3이 되고, 길 건너 떡집에 사는 소꿉친구 모치조는 오랫동안 품어 온 마음을 전하기로 결심한다."
+    }
+   }
+  },
+  {
+   "id": "boy-and-the-beast",
+   "title": "バケモノの子",
+   "mediaType": "animeFilm",
+   "year": 2015,
+   "creator": "細田守 / スタジオ地図",
+   "tint": "#B5562F",
+   "aliases": ["The Boy and the Beast", "Bakemono no Ko", "怪物之子", "怪物的孩子", "괴물의 아이", "细田守", "細田守", "Mamoru Hosoda", "호소다 마모루", "渋谷"],
+   "officialURL": "https://www.bakemono-no-ko.jp/",
+   "text": {
+    "zh-Hans": {
+     "title": "怪物之子",
+     "creator": "细田守 / 地图工作室",
+     "synopsis": "失去母亲、无处可去的九岁少年莲，在涩谷街头遇见了熊一样的怪物熊彻，跟着他闯进了怪物的世界“涩天街”。粗暴又笨拙的熊彻收他为徒，给他取名“九太”，一对不像样的师徒就此开始了修行。"
+    },
+    "zh-Hant": {"title": "怪物的孩子"},
+    "ja": {
+     "title": "",
+     "synopsis": "母を亡くし、ひとりぼっちになった9歳の少年・蓮は、渋谷の街でクマのようなバケモノ・熊徹と出会い、バケモノの世界「渋天街」へ迷い込む。乱暴で不器用な熊徹の弟子となり「九太」と名付けられた少年の、奇妙な師弟の日々が始まる。"
+    },
+    "en": {
+     "title": "The Boy and the Beast",
+     "creator": "Mamoru Hosoda / Studio Chizu",
+     "synopsis": "After losing his mother, nine-year-old Ren runs away and wanders the streets of Shibuya, where he meets Kumatetsu, a bear-like beast, and follows him into the beast world of Jutengai. Renamed Kyuta, he becomes the gruff, clumsy beast's apprentice."
+    },
+    "ko": {
+     "title": "괴물의 아이",
+     "creator": "호소다 마모루 / 스튜디오 지도",
+     "synopsis": "엄마를 잃고 혼자가 된 아홉 살 소년 렌은 시부야 거리에서 곰 같은 괴물 쿠마테츠를 만나, 괴물들의 세계 ‘쥬텐가이’로 따라 들어간다. 거칠고 서툰 쿠마테츠의 제자가 되어 ‘큐타’라는 이름을 얻은 소년의 기묘한 사제 생활이 시작된다."
+    }
+   }
+  }
+ ],
+ "spots": []
+}

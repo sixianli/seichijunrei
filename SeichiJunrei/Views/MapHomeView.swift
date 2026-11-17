@@ -348,7 +348,7 @@ struct WorkMatchRow: View {
                 // 当前语言的名字在上，原名在下（日语环境只显示原名）
                 HStack(spacing: 6) {
                     Text(match.workLocalized ?? match.work).font(.headline).lineLimit(1)
-                    Text(match.mediaType.label)
+                    Text(match.spots.first?.mediaLabel ?? match.mediaType.label)
                         .font(.caption2.bold())
                         .padding(.horizontal, 5).padding(.vertical, 1)
                         .background(.quaternary, in: Capsule())

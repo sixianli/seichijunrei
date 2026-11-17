@@ -22,6 +22,7 @@ python3 tools/catalog.py build                              # 合并全部来源
 | `tint` | 主题色 `#RRGGBB`，取作品代表色 |
 | `aliases` | 搜索用别名：英文名、罗马字、各语言常用译名、简称、导演/主演名 |
 | `officialURL` | 可选，官方网站 |
+| `country` | 可选，出品国家（ISO 两位代码），不是日本作品时必填，如《非诚勿扰》写 `CN`（界面上不会叫它“日影”） |
 | `text` | 各语言文案，键 `zh-Hans` `zh-Hant` `ja` `en` `ko`，见下 |
 
 `text.<lang>`：

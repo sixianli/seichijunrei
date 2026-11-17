@@ -216,7 +216,7 @@ struct SpotDetailView: View {
                         if let original = spot.originalWorkName {
                             Text(original).font(.subheadline).foregroundStyle(.secondary)
                         }
-                        Text([spot.mediaType.label, spot.year.map(String.init), spot.creator]
+                        Text([spot.mediaLabel, spot.year.map(String.init), spot.creator]
                                 .compactMap { $0 }.joined(separator: " · "))
                             .font(.caption)
                             .foregroundStyle(.secondary)

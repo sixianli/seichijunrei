@@ -27,6 +27,7 @@ S = {
   "media.anime": ("日漫", "動漫", "アニメ", "Anime", "애니"),
   "media.animeFilm": ("日漫", "動漫", "アニメ映画", "Anime film", "극장판 애니"),
   "media.film": ("日影", "日片", "映画", "Film", "일본 영화"),
+  "media.filmForeign": ("电影", "電影", "映画", "Film", "영화"),
   "media.drama": ("日剧", "日劇", "ドラマ", "J-drama", "일드"),
   # 通用格式
   "format.workTitle": ("《%@》", "《%@》", "『%@』", "%@", "「%@」"),

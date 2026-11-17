@@ -10,6 +10,7 @@
 "media.anime" = "애니";
 "media.animeFilm" = "극장판 애니";
 "media.film" = "일본 영화";
+"media.filmForeign" = "영화";
 "media.drama" = "일드";
 "format.workTitle" = "「%@」";
 "format.sceneTitle" = "‘%@’";

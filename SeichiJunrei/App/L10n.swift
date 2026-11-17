@@ -118,8 +118,13 @@ extension Spot {
     var workName: String { workLocalized ?? work }
     /// 作品原名；与当前语言的名称相同时为 nil（例如日语环境）
     var originalWorkName: String? { workLocalized == nil || workLocalized == work ? nil : work }
+    /// 作品类型的叫法：在日本取景的外国电影（如《非诚勿扰》）不能叫“日影”
+    var mediaLabel: String {
+        if mediaType == .film, let country, country != "JP" { return L("media.filmForeign") }
+        return mediaType.label
+    }
     /// “日漫《龙猫》” / “アニメ『となりのトトロ』” / “Anime · My Neighbor Totoro”
-    var workBadge: String { L("format.workBadge", mediaType.label, workName) }
+    var workBadge: String { L("format.workBadge", mediaLabel, workName) }
     /// 「场景名」/“Scene title”
     var quotedSceneTitle: String { L("format.sceneTitle", sceneTitle) }
     /// 作品原名 +（本地化译名）

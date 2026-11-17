@@ -46,6 +46,7 @@ def check_work(w, r):
     if w.get("mediaType") not in MEDIA: r.err(where, f"mediaType 必须是 {sorted(MEDIA)}")
     if not isinstance(w.get("year"), int) or not 1900 <= w.get("year", 0) <= 2030: r.err(where, "year 不合法")
     if not re.match(r"^#[0-9A-Fa-f]{6}$", w.get("tint", "")): r.err(where, "tint 必须是 #RRGGBB")
+    if "country" in w and not re.match(r"^[A-Z]{2}$", w["country"]): r.err(where, "country 必须是两位大写国家代码")
     text = w.get("text", {})
     for lang in AUTHORED:
         t = text.get(lang)
