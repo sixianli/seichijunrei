@@ -375,28 +375,103 @@ def concept_P3():
     person(d, S*0.70, S*0.98, S*0.40, (12, 10, 26), pack=(70, 160, 240))
     return img
 
+def figure_mask(cx, feet, h):
+    """精致的背影人物剪影（遮罩）：齐肩短发、过膝外套、小背包、双手自然垂下、重心在右腿。
+    坐标以身高为单位：脚底 y=0，头顶 y=-1（约 6.5 头身）。"""
+    m = Image.new("L", (S, S), 0)
+    d = ImageDraw.Draw(m)
+    P = lambda x, y: (cx + x * h, feet + y * h)
+    poly = lambda pts: d.polygon([P(x, y) for x, y in pts], fill=255)
+    ell = lambda x0, y0, x1, y1: d.ellipse((*P(x0, y0), *P(x1, y1)), fill=255)
+    rr = lambda x0, y0, x1, y1, r: d.rounded_rectangle((*P(x0, y0), *P(x1, y1)), radius=r * h, fill=255)
+
+    # 头与齐肩短发（发梢略微外翘、左右不完全对称，显得自然）
+    ell(-0.074, -1.000, 0.074, -0.846)
+    poly([(-0.078, -0.940), (-0.090, -0.880), (-0.098, -0.826), (-0.104, -0.800), (-0.074, -0.806),
+          (-0.040, -0.818), (0.040, -0.818), (0.078, -0.804), (0.108, -0.810), (0.096, -0.870), (0.080, -0.940)])
+    # 脖子
+    poly([(-0.028, -0.830), (0.028, -0.830), (0.030, -0.790), (-0.030, -0.790)])
+    # 过膝外套：从脖子顺滑落下的斜肩 → 微收腰 → 下摆展开
+    poly([(-0.150, -0.712), (-0.136, -0.748), (-0.104, -0.774), (-0.050, -0.796), (0.050, -0.796),
+          (0.104, -0.774), (0.136, -0.748), (0.150, -0.712), (0.150, -0.680),
+          (0.128, -0.560), (0.140, -0.420), (0.156, -0.322), (-0.156, -0.322), (-0.140, -0.420),
+          (-0.128, -0.560), (-0.150, -0.680)])
+    # 手臂：从肩线自然垂下，向手腕逐渐变细，手在大腿旁
+    poly([(-0.152, -0.716), (-0.136, -0.748), (-0.118, -0.700), (-0.134, -0.590), (-0.150, -0.470),
+          (-0.176, -0.470), (-0.174, -0.596), (-0.168, -0.690)])
+    ell(-0.181, -0.486, -0.145, -0.436)
+    poly([(0.136, -0.748), (0.152, -0.716), (0.168, -0.690), (0.176, -0.596), (0.178, -0.474),
+          (0.152, -0.474), (0.138, -0.590), (0.118, -0.700)])
+    ell(0.147, -0.490, 0.183, -0.440)
+    # 腿：右腿承重伸直，左腿微屈稍向内
+    poly([(-0.096, -0.330), (-0.018, -0.330), (-0.026, -0.180), (-0.038, -0.040), (-0.080, -0.040), (-0.086, -0.180)])
+    poly([(0.018, -0.330), (0.100, -0.330), (0.094, -0.180), (0.090, -0.040), (0.046, -0.040), (0.036, -0.180)])
+    # 鞋（扁平的鞋形）
+    rr(-0.094, -0.050, -0.020, 0.000, 0.022)
+    rr(0.036, -0.050, 0.110, 0.000, 0.022)
+    return m
+
 def concept_P4():
-    """海上大鸟居：夕阳下立在海中的朱红大鸟居和倒影，小人站在岸边"""
+    """海上大鸟居：夕阳下立在海中的朱红大鸟居和倒影，旅人背影静静眺望（逆光剪影 + 轮廓光）"""
     img = vgradient([(0, (255, 140, 90)), (0.56, (255, 206, 140)), (0.57, (230, 140, 110)), (1, (120, 80, 130))])
     img = glow(img, (0.38, 0.40, 0.62, 0.64), (255, 238, 190), strength=220, blur=0.03)
     d = ImageDraw.Draw(img)
     vermilion = (226, 60, 40)
     red_torii(d, S*0.46, S*0.24, S*0.62, S*0.33, vermilion)
-    # 倒影（压扁、半透明感）
     refl = Image.new("RGBA", (S, S), (0, 0, 0, 0))
     rd = ImageDraw.Draw(refl)
     red_torii(rd, S*0.46, S*0.24, S*0.62, S*0.33, (226, 60, 40, 255), dark=(60, 30, 30, 255))
     refl = refl.transpose(Image.FLIP_TOP_BOTTOM).resize((S, int(S*0.6)))
-    alpha = refl.split()[3].point(lambda a: int(a * 0.35))
-    refl.putalpha(alpha)
+    refl.putalpha(refl.split()[3].point(lambda a: int(a * 0.35)))
     img.paste(refl, (0, int(S*0.57 - S*0.6*0.43)), refl)
     d = ImageDraw.Draw(img)
     for i in range(10):  # 水面波纹
         y = S*0.62 + i * S*0.035
         d.line([(S*0.12 + i*20, y), (S*0.80 - i*15, y)], fill=(255, 220, 190), width=4)
-    # 岸边
-    d.polygon([(0, S*0.88), (S*0.55, S*0.92), (S, S*0.86), (S, S), (0, S)], fill=(60, 40, 60))
-    person(d, S*0.76, S*0.95, S*0.38, (40, 26, 44), pack=(250, 210, 90))
+
+    # 湿润的沙滩：从暖紫过渡，靠近水边反射天光
+    shore = vgradient([(0, (150, 96, 120)), (0.86, (150, 96, 120)), (0.90, (112, 70, 104)), (1, (70, 44, 76))])
+    shore_mask = Image.new("L", (S, S), 0)
+    ImageDraw.Draw(shore_mask).polygon([(0, S*0.875), (S*0.55, S*0.905), (S, S*0.86), (S, S), (0, S)], fill=255)
+    img = Image.composite(shore, img, shore_mask)
+    d = ImageDraw.Draw(img)
+    d.line([(0, S*0.875), (S*0.55, S*0.905), (S, S*0.86)], fill=(255, 196, 150), width=6)   # 水线高光
+
+    cx, feet, h = S*0.765, S*0.965, S*0.44
+    fig = figure_mask(cx, feet, h)
+
+    # 1) 湿沙上的倒影（压扁、模糊、半透明）
+    refl_fig = fig.transpose(Image.FLIP_TOP_BOTTOM)
+    refl_fig = refl_fig.crop((0, int(S - feet), S, S)).resize((S, int((feet) * 0.16)))
+    rlayer = Image.new("L", (S, S), 0)
+    rlayer.paste(refl_fig, (0, int(feet)))
+    rlayer = rlayer.filter(ImageFilter.GaussianBlur(S*0.006)).point(lambda a: int(a * 0.45))
+    img = Image.composite(Image.new("RGB", (S, S), (84, 48, 82)), img, rlayer)
+
+    # 2) 周身柔和的夕阳光晕
+    halo = fig.filter(ImageFilter.GaussianBlur(S*0.03)).point(lambda a: int(a * 0.28))
+    img = Image.composite(Image.new("RGB", (S, S), (255, 196, 140)), img, halo)
+
+    # 3) 朝向夕阳一侧（左侧）的轮廓光：剪影向左偏移后与原形相减
+    shifted = Image.new("L", (S, S), 0)
+    shifted.paste(fig, (-int(S*0.0045), -int(S*0.0015)))
+    rim = Image.composite(Image.new("L", (S, S), 0), shifted, fig)       # shifted 减去 fig
+    rim = rim.filter(ImageFilter.GaussianBlur(S*0.0015))
+    img = Image.composite(Image.new("RGB", (S, S), (255, 214, 160)), img, rim)
+
+    # 4) 剪影本体：自上而下由暖紫到深紫（与岸边、倒影同一色系）
+    body = vgradient([(0, (118, 70, 96)), (0.55, (118, 70, 96)), (0.75, (92, 52, 82)), (1, (58, 34, 62))])
+    img = Image.composite(body, img, fig)
+
+    # 5) 小背包：同色系、略亮一点，并带一道轮廓光
+    d = ImageDraw.Draw(img)
+    bx0, by0, bx1, by1 = cx - h*0.088, feet - h*0.752, cx + h*0.088, feet - h*0.540
+    d.rounded_rectangle((bx0, by0, bx1, by1), radius=h*0.036, fill=(134, 84, 106))
+    d.rounded_rectangle((bx0, by0 + h*0.024, bx0 + h*0.007, by1 - h*0.024), radius=h*0.004, fill=(236, 176, 138))
+    d.rounded_rectangle((bx0 + h*0.03, by0 + h*0.10, bx1 - h*0.03, by1 - h*0.03), radius=h*0.02, fill=(122, 74, 98))
+    # 背包肩带
+    d.line([(cx - h*0.070, by0 + h*0.005), (cx - h*0.095, feet - h*0.790)], fill=(134, 84, 106), width=int(h*0.014))
+    d.line([(cx + h*0.070, by0 + h*0.005), (cx + h*0.095, feet - h*0.790)], fill=(134, 84, 106), width=int(h*0.014))
     return img
 
 def concept_P5():
