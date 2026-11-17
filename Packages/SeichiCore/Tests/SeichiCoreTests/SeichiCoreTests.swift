@@ -362,3 +362,44 @@ final class LocalizationTests: XCTestCase {
         XCTAssertEqual(try! SpotCatalog.decode(data), [spot])
     }
 }
+
+final class MonetizationTests: XCTestCase {
+    let cal = Calendar(identifier: .gregorian)
+    func day(_ d: Int) -> Date { cal.date(from: DateComponents(timeZone: TimeZone(identifier: "UTC"), year: 2026, month: 11, day: d, hour: 12))! }
+
+    func testPassExpiryStacksConsecutivePurchases() {
+        XCTAssertNil(AccessPolicy.passExpiry([], calendar: cal))
+        XCTAssertEqual(AccessPolicy.passExpiry([.init(purchaseDate: day(1), days: 7)], calendar: cal), day(8))
+        // 第 3 天再买 7 天：从第 8 天顺延到第 15 天
+        XCTAssertEqual(AccessPolicy.passExpiry([.init(purchaseDate: day(3), days: 7),
+                                                .init(purchaseDate: day(1), days: 7)], calendar: cal), day(15))
+        // 过期后再买：从购买当天重新计算
+        XCTAssertEqual(AccessPolicy.passExpiry([.init(purchaseDate: day(1), days: 7),
+                                                .init(purchaseDate: day(20), days: 30)], calendar: cal),
+                       cal.date(byAdding: .day, value: 30, to: day(20)))
+    }
+
+    func testEntitlementPriority() {
+        XCTAssertEqual(AccessPolicy.entitlement(now: day(5), hasLifetime: true, passExpiry: nil, freeUsed: 9), .lifetime)
+        XCTAssertEqual(AccessPolicy.entitlement(now: day(5), hasLifetime: false, passExpiry: day(8), freeUsed: 3), .pass(until: day(8)))
+        XCTAssertEqual(AccessPolicy.entitlement(now: day(9), hasLifetime: false, passExpiry: day(8), freeUsed: 1), .free(remaining: 2))
+        XCTAssertEqual(AccessPolicy.entitlement(now: day(9), hasLifetime: false, passExpiry: nil, freeUsed: 5), .free(remaining: 0))
+    }
+
+    func testFreeAllowanceCountsDistinctSpots() {
+        var a = FreeSceneAllowance(limit: 2)
+        XCTAssertTrue(a.consume("a"))
+        XCTAssertTrue(a.consume("a"))        // 重复进入不扣次数
+        XCTAssertTrue(a.consume("b"))
+        XCTAssertEqual(a.remaining, 0)
+        XCTAssertFalse(a.canEnter("c"))
+        XCTAssertFalse(a.consume("c"))
+        XCTAssertTrue(a.canEnter("a"))       // 体验过的仍可再进
+        XCTAssertTrue(a.canEnter("c", entitlement: .lifetime))
+        XCTAssertTrue(a.canEnter("c", entitlement: .pass(until: day(30))))
+        XCTAssertFalse(a.canEnter("c", entitlement: .free(remaining: 0)))
+        // 持久化往返
+        let data = try! JSONEncoder().encode(a)
+        XCTAssertEqual(try! JSONDecoder().decode(FreeSceneAllowance.self, from: data), a)
+    }
+}

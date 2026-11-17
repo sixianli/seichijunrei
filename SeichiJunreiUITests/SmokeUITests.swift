@@ -11,12 +11,16 @@ final class SmokeUITests: XCTestCase {
 
     /// 启动 App：位置固定在「須賀神社」（《君の名は。》，名场面朝向 270°、仰角 10°）的机位，
     /// 可选地注入摄像头朝向（模拟器没有罗盘）。
-    func launch(heading: Double? = nil, pitch: Double? = nil, language: String = "zh-Hans") {
+    /// - entitlement: "lifetime"（默认，避免测试之间共享免费额度状态）/ "free"
+    func launch(heading: Double? = nil, pitch: Double? = nil, language: String = "zh-Hans",
+                entitlement: String = "lifetime", freeUsed: Int? = nil) {
         app = XCUIApplication()
         let locale = ["zh-Hans": "zh_CN", "zh-Hant": "zh_TW", "ja": "ja_JP", "en": "en_US", "ko": "ko_KR"][language] ?? "en_US"
         app.launchArguments += ["-AppleLanguages", "(\(language))", "-AppleLocale", locale]
         app.launchEnvironment["SEICHI_SIM_LAT"] = "35.68540"
         app.launchEnvironment["SEICHI_SIM_LON"] = "139.72265"
+        app.launchEnvironment["SEICHI_ENTITLEMENT"] = entitlement
+        if let freeUsed { app.launchEnvironment["SEICHI_FREE_USED"] = String(freeUsed) }
         if let heading { app.launchEnvironment["SEICHI_SIM_HEADING"] = String(heading) }
         if let pitch { app.launchEnvironment["SEICHI_SIM_PITCH"] = String(pitch) }
         app.launch()
@@ -30,6 +34,28 @@ final class SmokeUITests: XCTestCase {
         banner.tap()
         dismissSystemAlerts(timeout: 4)   // 相机权限弹窗
         XCTAssertTrue(app.buttons["closeScene"].waitForExistence(timeout: 8))
+    }
+
+    /// 免费额度用完：到达机位后显示锁定层，点按钮弹出付费墙（含恢复购买）
+    func testFreeLimitShowsPaywall() throws {
+        launch(heading: 270, pitch: 10, entitlement: "free", freeUsed: 3)
+        enterSceneFromBanner()
+        XCTAssertTrue(app.otherElements["sceneLocked"].waitForExistence(timeout: 5)
+                      || app.buttons["showPaywall"].waitForExistence(timeout: 1), "额度用完应显示锁定层")
+        XCTAssertFalse(app.staticTexts["celebrationTitle"].exists, "锁定时不应进入取景")
+        snapshot("13-scene-locked")
+        app.buttons["showPaywall"].tap()
+        XCTAssertTrue(app.staticTexts["解锁全部名场面"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["restorePurchases"].exists, "付费墙必须提供恢复购买")
+        snapshot("14-paywall")
+    }
+
+    /// 免费用户还有额度：可以正常进入取景并对准
+    func testFreeUserWithAllowanceCanEnter() throws {
+        launch(heading: 272, pitch: 8, entitlement: "free", freeUsed: 2)
+        enterSceneFromBanner()
+        XCTAssertTrue(app.staticTexts["celebrationTitle"].waitForExistence(timeout: 6), "还有免费额度时应能体验")
+        XCTAssertFalse(app.buttons["showPaywall"].exists)
     }
 
     /// 处理定位、通知等系统权限弹窗（模拟器为英文环境，也兼容中文）。

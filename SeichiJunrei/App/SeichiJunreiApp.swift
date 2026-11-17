@@ -5,13 +5,16 @@ import SeichiCore
 struct SeichiJunreiApp: App {
     @State private var store = SpotStore()
     @State private var location = LocationService()
+    @State private var storeKit = StoreService.shared
 
     var body: some Scene {
         WindowGroup {
             RootView()
                 .environment(store)
                 .environment(location)
+                .environment(storeKit)
                 .task {
+                    storeKit.start()
                     store.load()
                     location.start()
                     #if DEBUG

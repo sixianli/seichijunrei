@@ -12,6 +12,8 @@ struct SceneModeView: View {
     let spot: Spot
 
     @Environment(LocationService.self) private var location
+    @Environment(StoreService.self) private var store
+    @State private var showPaywall = false
     @Environment(\.dismiss) private var dismiss
 
     @State private var orientation = OrientationService()
@@ -31,6 +33,11 @@ struct SceneModeView: View {
         return d <= spot.arrivalRadius + min(max(location.lastLocation?.horizontalAccuracy ?? 0, 0), 20)
     }
 
+    /// 是否可以使用取景模式（已购买，或仍有免费额度 / 已体验过这一处）
+    private var canUseScene: Bool {
+        store.allowance.canEnter(spot.id, entitlement: store.entitlement)
+    }
+
     private var guidance: SceneGuidance? {
         guard let h = orientation.heading else { return nil }
         return SceneGuidance.compute(deviceHeading: h, devicePitch: orientation.pitch,
@@ -42,7 +49,9 @@ struct SceneModeView: View {
         GeometryReader { geo in
             ZStack {
                 background
-                if arrived {
+                if arrived && !canUseScene {
+                    SceneLockedOverlay(tint: spot.tintColor) { showPaywall = true }
+                } else if arrived {
                     alignmentLayer(size: geo.size)
                 } else {
                     ApproachLayer(spot: spot, distance: distance, bearing: bearingToSpot,
@@ -62,8 +71,13 @@ struct SceneModeView: View {
         .onDisappear(perform: stop)
         .onReceive(ticker) { _ in tick() }
         .onChange(of: arrived) { _, isArrived in
-            if isArrived { camera.start(); haptics.success() }
+            if isArrived { beginSceneIfAllowed(); haptics.success() }
         }
+        .onChange(of: store.entitlement) { _, _ in
+            // 在锁定页完成购买后，直接开始取景
+            if arrived { beginSceneIfAllowed() }
+        }
+        .sheet(isPresented: $showPaywall) { PaywallView() }
         .sheet(isPresented: $showStory) {
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
@@ -78,7 +92,7 @@ struct SceneModeView: View {
     // MARK: - Layers
 
     @ViewBuilder private var background: some View {
-        if arrived && camera.isAuthorized {
+        if arrived && canUseScene && camera.isAuthorized {
             CameraPreview(session: camera.session)
         } else {
             LinearGradient(colors: [.black, spot.tintColor.opacity(0.6)], startPoint: .top, endPoint: .bottom)
@@ -197,7 +211,14 @@ struct SceneModeView: View {
         orientation.compassFallback = { [location] in (location.compassHeading, location.headingAccuracy) }
         orientation.start()
         haptics.prepare()
-        if arrived { camera.start() }
+        if arrived { beginSceneIfAllowed() }
+    }
+
+    /// 到达机位后：有权限则记录一次体验（免费用户扣额度）并打开相机
+    private func beginSceneIfAllowed() {
+        guard canUseScene else { return }
+        store.recordSceneEntry(spot.id)
+        camera.start()
     }
 
     private func stop() {
@@ -207,7 +228,7 @@ struct SceneModeView: View {
     }
 
     private func tick() {
-        guard arrived, let g = guidance else { return }
+        guard arrived, canUseScene, let g = guidance else { return }
         if !latch.isLocked { haptics.tick(alignment: g.alignment) }
         if latch.update(guidance: g, at: CACurrentMediaTime()) {
             haptics.success()

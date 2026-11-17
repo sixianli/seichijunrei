@@ -14,6 +14,8 @@ struct MapFocus: Equatable {
 struct MapHomeView: View {
     @Environment(SpotStore.self) private var store
     @Environment(LocationService.self) private var location
+    @Environment(StoreService.self) private var storeKit
+    @State private var showPaywall = false
 
     @State private var camera: MapCameraPosition = .userLocation(
         fallback: .region(MKCoordinateRegion(
@@ -105,6 +107,13 @@ struct MapHomeView: View {
             }
         }
         .toolbar {
+            ToolbarItem(placement: .topBarLeading) {
+                Button { showPaywall = true } label: {
+                    Image(systemName: storeKit.entitlement.isUnlimited ? "ticket.fill" : "ticket")
+                }
+                .accessibilityLabel(L("paywall.title"))
+                .accessibilityIdentifier("openPaywall")
+            }
             ToolbarItem(placement: .topBarTrailing) {
                 Button { showList = true } label: { Image(systemName: "list.bullet") }
                     .accessibilityLabel(L("map.allScenes"))
@@ -127,6 +136,7 @@ struct MapHomeView: View {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) { selected = spot }
             }
         }
+        .sheet(isPresented: $showPaywall) { PaywallView() }
         .fullScreenCover(item: $sceneSpot) { spot in
             SceneModeView(spot: spot)
         }

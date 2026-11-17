@@ -1,0 +1,63 @@
+{
+  "identifier" : "5B6A2E61",
+  "nonRenewingSubscriptions" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "6739000001",
+      "localizations" : [
+        {
+          "description" : "Unlimited scene view for 7 days. Does not auto-renew.",
+          "displayName" : "7-day Trip Pass",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.example.seichijunrei.pass7",
+      "referenceName" : "Trip Pass 7 days",
+      "type" : "NonRenewingSubscription"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "6739000002",
+      "localizations" : [
+        {
+          "description" : "Unlimited scene view for 30 days. Does not auto-renew.",
+          "displayName" : "30-day Trip Pass",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.example.seichijunrei.pass30",
+      "referenceName" : "Trip Pass 30 days",
+      "type" : "NonRenewingSubscription"
+    }
+  ],
+  "products" : [
+    {
+      "displayPrice" : "14.99",
+      "familyShareable" : true,
+      "internalID" : "6739000003",
+      "localizations" : [
+        {
+          "description" : "Unlock every scene forever.",
+          "displayName" : "Lifetime Unlock",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.example.seichijunrei.lifetime",
+      "referenceName" : "Lifetime Unlock",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [ ]
+  },
+  "subscriptionGroups" : [ ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

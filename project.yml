@@ -58,11 +58,28 @@ targets:
         GENERATE_INFOPLIST_FILE: YES
         PRODUCT_BUNDLE_IDENTIFIER: com.example.seichijunrei.uitests
         TEST_TARGET_NAME: SeichiJunrei
+  SeichiJunreiTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: SeichiJunreiTests
+      - path: SeichiJunrei.storekit
+        buildPhase: resources
+    dependencies:
+      - target: SeichiJunrei
+      - sdk: StoreKitTest.framework
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.seichijunrei.tests
 schemes:
   SeichiJunrei:
     build:
       targets:
         SeichiJunrei: all
+    run:
+      storeKitConfiguration: SeichiJunrei.storekit
     test:
       targets:
+        - SeichiJunreiTests
         - SeichiJunreiUITests
