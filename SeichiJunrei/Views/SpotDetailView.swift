@@ -57,6 +57,7 @@ struct SpotDetailView: View {
                         .background(spot.tintColor.gradient, in: RoundedRectangle(cornerRadius: 14))
                         .foregroundStyle(.white)
                 }
+                .accessibilityIdentifier("enterScene")
 
                 Section {
                     Text(spot.story).font(.body).lineSpacing(5)
@@ -93,6 +94,7 @@ struct SpotDetailView: View {
                     location.simulate(at: spot.coordinate)
                 }
                 .font(.caption)
+                .accessibilityIdentifier("debugSimulate")
                 #endif
             }
             .padding()

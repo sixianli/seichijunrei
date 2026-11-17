@@ -94,6 +94,8 @@ struct MapHomeView: View {
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Button { showList = true } label: { Image(systemName: "list.bullet") }
+                    .accessibilityLabel("全部名场面")
+                    .accessibilityIdentifier("openList")
             }
         }
         .sheet(item: $selected) { spot in
@@ -149,6 +151,7 @@ struct MapHomeView: View {
             Section(query.isEmpty ? "全部作品" : "搜索结果") {
                 ForEach(searchResults) { match in
                     Button { focusOn(match) } label: { WorkMatchRow(match: match) }
+                        .accessibilityIdentifier("work-\(match.work)")
                 }
             }
         }
@@ -259,6 +262,8 @@ private struct FocusChip: View {
         }
         .padding(10)
         .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 14))
+        .accessibilityElement(children: .contain)
+        .accessibilityIdentifier("focusChip")
     }
 }
 
@@ -365,6 +370,7 @@ private struct ArrivalBanner: View {
             .shadow(radius: 6)
         }
         .buttonStyle(.plain)
+        .accessibilityIdentifier("arrivalBanner")
     }
 }
 
@@ -413,7 +419,11 @@ private struct NearbyCarousel: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack(spacing: 12) {
                     ForEach(items) { item in
-                        SpotCard(item: item).onTapGesture { onSelect(item.spot) }
+                        SpotCard(item: item)
+                            .onTapGesture { onSelect(item.spot) }
+                            .accessibilityElement(children: .combine)
+                            .accessibilityAddTraits(.isButton)
+                            .accessibilityIdentifier("card-\(item.spot.id)")
                     }
                 }
                 .padding(.horizontal)

@@ -45,10 +45,23 @@ targets:
         CFBundleShortVersionString: $(MARKETING_VERSION)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         UIRequiredDeviceCapabilities: [gps, magnetometer]
+  SeichiJunreiUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: SeichiJunreiUITests
+    dependencies:
+      - target: SeichiJunrei
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.seichijunrei.uitests
+        TEST_TARGET_NAME: SeichiJunrei
 schemes:
   SeichiJunrei:
     build:
       targets:
         SeichiJunrei: all
     test:
-      targets: []
+      targets:
+        - SeichiJunreiUITests

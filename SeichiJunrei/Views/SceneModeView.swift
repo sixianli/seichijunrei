@@ -133,6 +133,8 @@ struct SceneModeView: View {
                         .frame(width: 40, height: 40)
                         .background(.ultraThinMaterial, in: Circle())
                 }
+                .accessibilityLabel("关闭")
+                .accessibilityIdentifier("closeScene")
                 Spacer()
                 VStack(alignment: .trailing, spacing: 2) {
                     Text(spot.work).font(.caption).opacity(0.8)

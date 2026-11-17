@@ -30,3 +30,42 @@ jobs:
           xcodebuild -project SeichiJunrei.xcodeproj -scheme SeichiJunrei \
             -destination 'generic/platform=iOS Simulator' \
             CODE_SIGNING_ALLOWED=NO build | tail -n 80
+
+  ios-ui-tests:
+    name: iOS UI smoke tests (simulator)
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install XcodeGen
+        run: brew install xcodegen
+      - name: Generate project
+        run: xcodegen generate
+      - name: Boot simulator at a pilgrimage spot
+        run: |
+          UDID=$(xcrun simctl list devices available -j | python3 -c "
+          import json, sys
+          devs = json.load(sys.stdin)['devices']
+          ios = sorted((k for k in devs if 'iOS' in k), reverse=True)
+          print(next(d['udid'] for k in ios for d in devs[k] if d['name'].startswith('iPhone')))")
+          echo "UDID=$UDID" >> "$GITHUB_ENV"
+          xcrun simctl boot "$UDID"
+          xcrun simctl bootstatus "$UDID" -b
+          # 須賀神社（《君の名は。》）的机位
+          xcrun simctl location "$UDID" set 35.68540,139.72265
+      - name: Run UI tests
+        run: |
+          set -o pipefail
+          xcodebuild test -project SeichiJunrei.xcodeproj -scheme SeichiJunrei \
+            -destination "id=$UDID" -resultBundlePath UITests.xcresult \
+            CODE_SIGNING_ALLOWED=NO 2>&1 | tail -n 150
+      - name: Export screenshots
+        if: always()
+        run: |
+          mkdir -p screenshots
+          xcrun xcresulttool export attachments --path UITests.xcresult --output-path screenshots || true
+          ls -la screenshots
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ui-screenshots
+          path: screenshots

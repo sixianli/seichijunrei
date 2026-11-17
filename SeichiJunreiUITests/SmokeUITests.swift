@@ -1,0 +1,88 @@
+import XCTest
+
+/// 端到端冒烟测试：在模拟器里走一遍主要流程，并在每一步截图。
+/// CI 会先把模拟器定位设到「須賀神社」的机位附近，所以启动后应该出现“到达横幅”。
+final class SmokeUITests: XCTestCase {
+    var app: XCUIApplication!
+
+    override func setUpWithError() throws {
+        continueAfterFailure = false
+        app = XCUIApplication()
+        app.launch()
+        dismissSystemAlerts()
+    }
+
+    /// 处理定位、通知等系统权限弹窗（模拟器为英文环境，也兼容中文）。
+    func dismissSystemAlerts(timeout: TimeInterval = 8) {
+        let springboard = XCUIApplication(bundleIdentifier: "com.apple.springboard")
+        let labels = ["Allow While Using App", "Allow", "Allow Once", "OK",
+                      "使用App时允许", "允许", "好"]
+        let deadline = Date().addingTimeInterval(timeout)
+        while Date() < deadline {
+            var tapped = false
+            for label in labels {
+                let button = springboard.alerts.buttons[label]
+                if button.exists { button.tap(); tapped = true; break }
+            }
+            if !tapped {
+                if !springboard.alerts.firstMatch.waitForExistence(timeout: 1.5) { return }
+            }
+        }
+    }
+
+    func snapshot(_ name: String) {
+        let shot = XCTAttachment(screenshot: app.screenshot())
+        shot.name = name
+        shot.lifetime = .keepAlways
+        add(shot)
+    }
+
+    func testMainFlow() throws {
+        // 1. 地图首页 + 到达横幅（模拟器定位在須賀神社）
+        let banner = app.buttons["arrivalBanner"]
+        XCTAssertTrue(banner.waitForExistence(timeout: 20), "站在机位附近时应显示到达横幅")
+        snapshot("01-map-arrived")
+
+        // 2. 按作品名搜索
+        let search = app.searchFields.firstMatch
+        XCTAssertTrue(search.waitForExistence(timeout: 5))
+        search.tap()
+        search.typeText("your name")
+        let workRow = app.buttons["work-君の名は。"]
+        XCTAssertTrue(workRow.waitForExistence(timeout: 5), "搜索 your name 应找到《君の名は。》")
+        snapshot("02-search-suggestions")
+        workRow.tap()
+        XCTAssertTrue(app.otherElements["focusChip"].waitForExistence(timeout: 5)
+                      || app.staticTexts["《君の名は。（你的名字。）》"].waitForExistence(timeout: 2),
+                      "选择作品后应显示聚焦提示")
+        snapshot("03-work-focused")
+
+        // 3. 打开名场面详情
+        let card = app.buttons["card-kiminonawa-suga-shrine"]
+        XCTAssertTrue(card.waitForExistence(timeout: 5))
+        card.tap()
+        let enter = app.buttons["enterScene"]
+        XCTAssertTrue(enter.waitForExistence(timeout: 5), "详情页应有进入名场面的按钮")
+        snapshot("04-detail")
+
+        // 4. 进入名场面模式（模拟器没有相机/罗盘，应优雅降级而不是崩溃）
+        enter.tap()
+        let close = app.buttons["closeScene"]
+        XCTAssertTrue(close.waitForExistence(timeout: 8), "应进入全屏名场面模式")
+        sleep(2)
+        snapshot("05-scene-mode")
+        close.tap()
+        XCTAssertTrue(app.searchFields.firstMatch.waitForExistence(timeout: 5), "关闭后应回到地图")
+    }
+
+    func testListBrowseAndFilter() throws {
+        let open = app.buttons["openList"]
+        XCTAssertTrue(open.waitForExistence(timeout: 10))
+        open.tap()
+        XCTAssertTrue(app.staticTexts["全部名场面"].waitForExistence(timeout: 5))
+        app.buttons["电视剧"].firstMatch.tap()
+        XCTAssertTrue(app.staticTexts["月台栏杆上的白手帕"].waitForExistence(timeout: 5),
+                      "电视剧筛选应显示《东京爱情故事》的名场面")
+        snapshot("06-list-drama")
+    }
+}
