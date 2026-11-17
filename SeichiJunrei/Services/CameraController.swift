@@ -80,8 +80,14 @@ final class CameraController: NSObject, AVCapturePhotoCaptureDelegate {
             DispatchQueue.main.async { self.statusMessage = "拍照失败" }
             return
         }
-        UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
-        DispatchQueue.main.async { self.statusMessage = "已保存到相册 📸" }
+        UIImageWriteToSavedPhotosAlbum(image, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
+    }
+
+    @objc private func image(_ image: UIImage, didFinishSavingWithError error: Error?,
+                             contextInfo: UnsafeMutableRawPointer?) {
+        DispatchQueue.main.async {
+            self.statusMessage = error == nil ? "已保存到相册 📸" : "保存失败：请在设置中允许访问相册"
+        }
     }
 
     func clearStatus() { statusMessage = nil }

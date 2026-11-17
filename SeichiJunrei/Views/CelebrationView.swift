@@ -62,7 +62,8 @@ struct CelebrationView: View {
 /// 轻量级彩纸动画（TimelineView + Canvas，无需第三方库）。
 struct ConfettiView: View {
     let colors: [Color]
-    private let pieces: [Piece] = (0..<90).map { _ in Piece() }
+    // 用 @State 保存，避免父视图每帧重建时彩纸位置被重新随机
+    @State private var pieces: [Piece] = (0..<90).map { _ in Piece() }
     @State private var start = Date()
 
     struct Piece {
@@ -76,19 +77,20 @@ struct ConfettiView: View {
     }
 
     var body: some View {
-        TimelineView(.animation) { timeline in
+        TimelineView(.animation(minimumInterval: nil, paused: Date().timeIntervalSince(start) > 4)) { timeline in
             Canvas { ctx, size in
                 let t = timeline.date.timeIntervalSince(start)
                 for p in pieces {
                     let life = t - p.delay
                     guard life > 0 else { continue }
-                    let y = life * p.speed * size.height - 20
+                    let y = CGFloat(life * p.speed) * size.height - 20
                     guard y < size.height + 20 else { continue }
-                    let x = p.x * size.width + sin(life * 3 + p.x * 10) * p.sway
+                    let x = CGFloat(p.x) * size.width + CGFloat(sin(life * 3 + p.x * 10) * p.sway)
                     var c = ctx
                     c.translateBy(x: x, y: y)
                     c.rotate(by: .radians(life * p.spin))
-                    let rect = CGRect(x: -p.size / 2, y: -p.size / 4, width: p.size, height: p.size / 2)
+                    let s = CGFloat(p.size)
+                    let rect = CGRect(x: -s / 2, y: -s / 4, width: s, height: s / 2)
                     c.fill(Path(rect), with: .color(colors[p.colorIndex % colors.count]))
                 }
             }

@@ -95,8 +95,8 @@ struct SceneModeView: View {
                 if let p = projected, abs(p.x) < 2.5 {
                     SceneFrame(spot: spot, alignment: g.alignment, locked: latch.isLocked)
                         .frame(width: size.width * 0.78, height: size.width * 0.78 * 9 / 16)
-                        .position(x: size.width / 2 + p.x * size.width / 2,
-                                  y: size.height / 2 - p.y * size.height / 2)
+                        .position(x: size.width / 2 + CGFloat(p.x) * size.width / 2,
+                                  y: size.height / 2 - CGFloat(p.y) * size.height / 2)
                         .animation(.interactiveSpring(response: 0.25), value: p.x)
                 }
                 // 画面中央的取景框
@@ -176,7 +176,7 @@ struct SceneModeView: View {
                 Text(msg).font(.callout.bold()).padding(10)
                     .background(.ultraThinMaterial, in: Capsule())
                     .padding(.top, 110)
-                    .task {
+                    .task(id: msg) {
                         try? await Task.sleep(for: .seconds(2))
                         camera.clearStatus()
                     }
@@ -302,7 +302,9 @@ private struct ViewfinderReticle: View {
 
     var body: some View {
         GeometryReader { geo in
-            let w = geo.size.width, h = geo.size.height, l: CGFloat = 26
+            let w: CGFloat = geo.size.width
+            let h: CGFloat = geo.size.height
+            let l: CGFloat = 26
             Path { p in
                 let corners: [(CGFloat, CGFloat, CGFloat, CGFloat)] = [(0, 0, 1, 1), (w, 0, -1, 1), (0, h, 1, -1), (w, h, -1, -1)]
                 for (x, y, dx, dy) in corners {
@@ -372,7 +374,7 @@ private struct GuidanceHUD: View {
         }
         .foregroundStyle(.white)
         .padding(.horizontal, 20).padding(.vertical, 14)
-        .background(.ultraThinMaterial.opacity(0.9), in: RoundedRectangle(cornerRadius: 18))
+        .background(Material.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 18))
         .animation(.default, value: guidance.turn)
     }
 }

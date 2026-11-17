@@ -63,41 +63,14 @@ struct MapHomeView: View {
             MapCompass()
             MapScaleView()
         }
-        .safeAreaInset(edge: .top) {
-            VStack(spacing: 8) {
-                MediaFilterBar(selection: $mediaFilter)
-                if let focus {
-                    FocusChip(focus: focus) { clearFocus() }
-                        .transition(.move(edge: .top).combined(with: .opacity))
-                }
-                PermissionBanner()
-                if let arrived = arrivedSpot {
-                    ArrivalBanner(nearby: arrived) { sceneSpot = arrived.spot }
-                        .transition(.move(edge: .top).combined(with: .opacity))
-                }
-            }
-            .padding(.horizontal)
-            .padding(.top, 4)
-            .animation(.spring, value: arrivedSpot?.id)
-            .animation(.spring, value: focus)
-        }
+        .safeAreaInset(edge: .top) { topPanel }
         .safeAreaInset(edge: .bottom) { carousel }
         .navigationTitle("圣地巡礼")
         .navigationBarTitleDisplayMode(.inline)
         .searchable(text: $query, isPresented: $isSearching,
                     placement: .navigationBarDrawer(displayMode: .always),
                     prompt: "搜索动画、电影、电视剧的名字")
-        .searchSuggestions {
-            if searchResults.isEmpty {
-                Text("没有找到「\(query)」相关的名场面").foregroundStyle(.secondary)
-            } else {
-                Section(query.isEmpty ? "全部作品" : "搜索结果") {
-                    ForEach(searchResults) { match in
-                        Button { focusOn(match) } label: { WorkMatchRow(match: match) }
-                    }
-                }
-            }
-        }
+        .searchSuggestions { suggestions }
         .onSubmit(of: .search) {
             let results = searchResults
             if results.count == 1 {
@@ -135,7 +108,8 @@ struct MapHomeView: View {
         .sheet(isPresented: $showList) {
             NearbyListView { spot in
                 showList = false
-                selected = spot
+                // 等列表 sheet 收起后再弹出详情
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) { selected = spot }
             }
         }
         .fullScreenCover(item: $sceneSpot) { spot in
@@ -145,6 +119,37 @@ struct MapHomeView: View {
             if let err = store.loadError {
                 ContentUnavailableView("数据加载失败", systemImage: "exclamationmark.triangle", description: Text(err))
                     .background(.regularMaterial)
+            }
+        }
+    }
+
+    private var topPanel: some View {
+        VStack(spacing: 8) {
+            MediaFilterBar(selection: $mediaFilter)
+            if let focus {
+                FocusChip(focus: focus) { clearFocus() }
+                    .transition(.move(edge: .top).combined(with: .opacity))
+            }
+            PermissionBanner()
+            if let arrived = arrivedSpot {
+                ArrivalBanner(nearby: arrived) { sceneSpot = arrived.spot }
+                    .transition(.move(edge: .top).combined(with: .opacity))
+            }
+        }
+        .padding(.horizontal)
+        .padding(.top, 4)
+        .animation(.spring, value: arrivedSpot?.id)
+        .animation(.spring, value: focus)
+    }
+
+    @ViewBuilder private var suggestions: some View {
+        if searchResults.isEmpty {
+            Text("没有找到「\(query)」相关的名场面").foregroundStyle(.secondary)
+        } else {
+            Section(query.isEmpty ? "全部作品" : "搜索结果") {
+                ForEach(searchResults) { match in
+                    Button { focusOn(match) } label: { WorkMatchRow(match: match) }
+                }
             }
         }
     }
@@ -345,7 +350,7 @@ private struct ArrivalBanner: View {
             HStack(spacing: 12) {
                 Image(systemName: "figure.stand")
                     .font(.title2)
-                    .symbolEffect(.bounce, options: .repeating)
+                    .symbolEffect(.pulse, options: .repeating)
                 VStack(alignment: .leading, spacing: 2) {
                     Text("你就站在名场面里！").font(.headline)
                     Text("《\(nearby.spot.work)》「\(nearby.spot.sceneTitle)」")
