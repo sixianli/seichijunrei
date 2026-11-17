@@ -16,6 +16,8 @@ jobs:
         run: |
           apt-get update -qq && apt-get install -y -qq python3 > /dev/null
           python3 tools/l10n.py check
+      - name: Check scene data sources
+        run: python3 tools/catalog.py check
       - run: swift test
         working-directory: Packages/SeichiCore
 
@@ -72,7 +74,11 @@ jobs:
           xcrun simctl boot "$UDID"
           xcrun simctl bootstatus "$UDID" -b
           # 須賀神社（《君の名は。》）的机位
-          xcrun simctl location "$UDID" set 35.68540,139.72265
+          xcrun simctl location "$UDID" set 35.68518,139.72345
+          # 预先授予权限，避免系统弹窗在测试中途出现、挡住点击
+          for service in location-always photos-add motion; do
+            xcrun simctl privacy "$UDID" grant "$service" com.xianlisi.seichijunrei || true
+          done
       - name: Run UI tests
         run: |
           set -o pipefail

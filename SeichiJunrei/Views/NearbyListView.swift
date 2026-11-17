@@ -8,18 +8,18 @@ struct NearbyListView: View {
     let onSelect: (Spot) -> Void
 
     @State private var query = ""
-    @State private var mediaFilter: MediaType?
+    @State private var mediaFilter: MediaCategory?
 
     private var results: [SpotSearch.WorkMatch] {
-        SpotSearch.search(query, in: store.spots, mediaType: mediaFilter)
+        SpotSearch.search(query, in: store.spots, category: mediaFilter)
     }
 
     var body: some View {
         NavigationStack {
             List {
                 Picker(L("list.type"), selection: $mediaFilter) {
-                    Text(L("map.all")).tag(MediaType?.none)
-                    ForEach(MediaType.allCases, id: \.self) { Text($0.label).tag(MediaType?.some($0)) }
+                    Text(L("map.all")).tag(MediaCategory?.none)
+                    ForEach(MediaCategory.allCases, id: \.self) { Text($0.label).tag(MediaCategory?.some($0)) }
                 }
                 .pickerStyle(.segmented)
                 .listRowBackground(Color.clear)
@@ -33,13 +33,7 @@ struct NearbyListView: View {
                             row(item)
                         }
                     } header: {
-                        HStack {
-                            Label(match.work, systemImage: match.mediaType.symbolName)
-                            if let cn = match.workLocalized {
-                                Text(cn).foregroundStyle(.secondary)
-                            }
-                        }
-                        .lineLimit(1)
+                        WorkHeader(match: match)
                     }
                 }
             }
@@ -56,7 +50,7 @@ struct NearbyListView: View {
     private func row(_ item: NearbySpot) -> some View {
         Button { onSelect(item.spot) } label: {
             HStack {
-                SceneArtwork(spot: item.spot, compact: true)
+                SceneArtwork(spot: item.spot, compact: true, useLocationPhoto: true)
                     .frame(width: 56, height: 56)
                     .clipShape(RoundedRectangle(cornerRadius: 8))
                 VStack(alignment: .leading) {
@@ -71,5 +65,27 @@ struct NearbyListView: View {
             }
         }
         .buttonStyle(.plain)
+    }
+}
+
+/// 作品分组标题：封面 + 当前语言的作品名（上）+ 原名（下）
+private struct WorkHeader: View {
+    let match: SpotSearch.WorkMatch
+
+    var body: some View {
+        HStack(spacing: 10) {
+            if let first = match.spots.first { WorkCover(spot: first, size: 30) }
+            VStack(alignment: .leading, spacing: 1) {
+                Text(match.spots.first?.workBadge ?? match.work)
+                    .font(.subheadline.bold())
+                    .foregroundStyle(.primary)
+                if let original = match.spots.first?.originalWorkName {
+                    Text(original).font(.caption).foregroundStyle(.secondary)
+                }
+            }
+            .lineLimit(1)
+            .textCase(nil)
+        }
+        .padding(.vertical, 2)
     }
 }

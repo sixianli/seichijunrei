@@ -1,0 +1,1591 @@
+{
+ "works": [
+  {
+   "id": "your-name",
+   "title": "君の名は。",
+   "mediaType": "animeFilm",
+   "year": 2016,
+   "creator": "新海誠 / コミックス・ウェーブ・フィルム",
+   "tint": "#2E6BE6",
+   "aliases": [
+    "Your Name.",
+    "Your Name",
+    "Kimi no Na wa",
+    "君の名は",
+    "你的名字",
+    "你的名字。",
+    "너의 이름은",
+    "新海诚",
+    "新海誠",
+    "Makoto Shinkai",
+    "신카이 마코토"
+   ],
+   "officialURL": "https://www.kiminona.com/",
+   "text": {
+    "zh-Hans": {
+     "title": "你的名字。",
+     "creator": "新海诚 / CoMix Wave Films",
+     "synopsis": "住在山间小镇糸守的高中女生三叶，和东京的高中男生泷，在梦里莫名互换了身体。两个素未谋面的人靠手机留言磨合彼此的生活，却渐渐发现这场互换背后藏着更大的秘密。"
+    },
+    "zh-Hant": {
+     "title": "你的名字。"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "山深い町・糸守に暮らす女子高校生の三葉と、東京の男子高校生・瀧。会ったこともない二人は、夢の中で身体が入れ替わるようになる。スマホのメモで互いの生活をなんとか守りながら、二人は入れ替わりの奥にある秘密に近づいていく。"
+    },
+    "en": {
+     "title": "Your Name.",
+     "creator": "Makoto Shinkai / CoMix Wave Films",
+     "synopsis": "Mitsuha, a high-school girl in the mountain town of Itomori, and Taki, a high-school boy in Tokyo, start waking up in each other's bodies. Leaving notes on each other's phones, two strangers learn to live each other's lives, until they realise something much bigger lies behind the swaps."
+    },
+    "ko": {
+     "title": "너의 이름은.",
+     "creator": "신카이 마코토 / 코믹스 웨이브 필름",
+     "synopsis": "산골 마을 이토모리에 사는 여고생 미츠하와 도쿄의 남고생 타키는 꿈속에서 서로의 몸이 바뀌기 시작한다. 휴대폰 메모로 서로의 일상을 지켜 나가던 두 사람은, 이 신기한 일 뒤에 더 큰 비밀이 숨어 있다는 걸 알게 된다."
+    }
+   }
+  },
+  {
+   "id": "weathering-with-you",
+   "title": "天気の子",
+   "mediaType": "animeFilm",
+   "year": 2019,
+   "creator": "新海誠 / コミックス・ウェーブ・フィルム",
+   "tint": "#4FA3E0",
+   "aliases": [
+    "Weathering with You",
+    "Tenki no Ko",
+    "天气之子",
+    "天氣之子",
+    "날씨의 아이",
+    "新海诚",
+    "新海誠",
+    "Makoto Shinkai",
+    "신카이 마코토"
+   ],
+   "officialURL": "https://www.tenkinoko.com/",
+   "text": {
+    "zh-Hans": {
+     "title": "天气之子",
+     "creator": "新海诚 / CoMix Wave Films",
+     "synopsis": "离岛离家出走的高中生帆高来到连日阴雨的东京，在一家小编辑社打工糊口。他遇见了一个只要祈祷、就能让天空放晴的少女阳菜，两人做起了“出租晴天”的小生意。"
+    },
+    "zh-Hant": {
+     "title": "天氣之子"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "離島から家出してきた高校生・帆高は、雨が降り続く東京で小さな編集プロダクションに転がり込む。やがて彼は、祈るだけで空を晴れにできる少女・陽菜と出会い、二人で「晴れ女」の仕事を始める。"
+    },
+    "en": {
+     "title": "Weathering with You",
+     "creator": "Makoto Shinkai / CoMix Wave Films",
+     "synopsis": "Hodaka runs away from his island home to a Tokyo drowning in endless rain and scrapes by at a tiny occult magazine. There he meets Hina, a girl who can clear the sky just by praying, and the two start a little business selling sunshine."
+    },
+    "ko": {
+     "title": "날씨의 아이",
+     "creator": "신카이 마코토 / 코믹스 웨이브 필름",
+     "synopsis": "외딴섬에서 가출한 고등학생 호다카는 비가 그치지 않는 도쿄에서 작은 편집 사무소에 얹혀 지낸다. 그러다 기도만으로 하늘을 맑게 만드는 소녀 히나를 만나, 둘은 ‘맑음 소녀’ 아르바이트를 시작한다."
+    }
+   }
+  },
+  {
+   "id": "five-centimeters",
+   "title": "秒速5センチメートル",
+   "mediaType": "animeFilm",
+   "year": 2007,
+   "creator": "新海誠 / コミックス・ウェーブ・フィルム",
+   "tint": "#F2A7C3",
+   "aliases": [
+    "5 Centimeters per Second",
+    "Byosoku 5 Centimeter",
+    "Byōsoku Go Senchimētoru",
+    "秒速5厘米",
+    "秒速五厘米",
+    "秒速5公分",
+    "초속 5센티미터",
+    "新海诚",
+    "新海誠",
+    "Makoto Shinkai",
+    "신카이 마코토"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "秒速5厘米",
+     "creator": "新海诚 / CoMix Wave Films",
+     "synopsis": "由《樱花抄》《宇航员》《秒速5厘米》三个短篇组成，讲述少年贵树从小学到成年的心路。分隔两地的初恋、说不出口的暗恋，被铁路、樱花和距离一点点拉开。"
+    },
+    "zh-Hant": {
+     "title": "秒速5公分"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "「桜花抄」「コスモナウト」「秒速5センチメートル」の三つの短編で、少年・遠野貴樹の小学生時代から大人になるまでを描く。離ればなれになった初恋、言えないままの片思い——線路と桜と距離が、少しずつ人と人を隔てていく。"
+    },
+    "en": {
+     "title": "5 Centimeters per Second",
+     "creator": "Makoto Shinkai / CoMix Wave Films",
+     "synopsis": "Three short chapters — “Cherry Blossom”, “Cosmonaut” and “5 Centimeters per Second” — follow Takaki from primary school into adulthood. A first love separated by distance and an unspoken crush play out along railway lines and under falling cherry blossoms."
+    },
+    "ko": {
+     "title": "초속 5센티미터",
+     "creator": "신카이 마코토 / 코믹스 웨이브 필름",
+     "synopsis": "「벚꽃 이야기」「코스모나우트」「초속 5센티미터」 세 편의 단편으로 소년 타카키의 초등학생 시절부터 어른이 되기까지를 그린다. 멀리 떨어진 첫사랑과 말하지 못한 짝사랑이 철길과 벚꽃, 그리고 거리 속에서 조금씩 멀어진다."
+    }
+   }
+  },
+  {
+   "id": "garden-of-words",
+   "title": "言の葉の庭",
+   "mediaType": "animeFilm",
+   "year": 2013,
+   "creator": "新海誠 / コミックス・ウェーブ・フィルム",
+   "tint": "#5E9E6E",
+   "aliases": [
+    "The Garden of Words",
+    "Kotonoha no Niwa",
+    "言叶之庭",
+    "言葉之庭",
+    "언어의 정원",
+    "新海诚",
+    "新海誠",
+    "Makoto Shinkai",
+    "신카이 마코토"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "言叶之庭",
+     "creator": "新海诚 / CoMix Wave Films",
+     "synopsis": "梦想做鞋匠的高中生孝雄，每逢下雨的早晨就翘掉第一节课，躲进新宿御苑画鞋子的设计图。在那里，他遇见了一位独自喝着啤酒的神秘女性。只在雨天相见的两人，慢慢走进了彼此的心。"
+    },
+    "zh-Hant": {
+     "title": "言葉之庭"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "靴職人を目指す高校生・タカオは、雨の朝になると午前の授業をサボり、新宿御苑で靴のスケッチを描いている。そこで出会ったのは、ひとりでビールを飲む謎めいた年上の女性・ユキノ。雨の日だけの逢瀬が、二人の心を少しずつ近づけていく。"
+    },
+    "en": {
+     "title": "The Garden of Words",
+     "creator": "Makoto Shinkai / CoMix Wave Films",
+     "synopsis": "Takao, a teenager who dreams of making shoes, skips morning classes whenever it rains to sketch in Shinjuku Gyoen. There he keeps meeting Yukino, an older woman drinking beer alone. Meeting only on rainy days, the two slowly open up to each other."
+    },
+    "ko": {
+     "title": "언어의 정원",
+     "creator": "신카이 마코토 / 코믹스 웨이브 필름",
+     "synopsis": "구두 장인을 꿈꾸는 고등학생 타카오는 비 오는 아침이면 수업을 빼먹고 신주쿠 교엔에서 구두 스케치를 한다. 그곳에서 혼자 맥주를 마시는 수수께끼의 여성 유키노를 만나고, 비 오는 날에만 이어지는 만남 속에서 두 사람은 서서히 마음을 열어 간다."
+    }
+   }
+  },
+  {
+   "id": "suzume",
+   "title": "すずめの戸締まり",
+   "mediaType": "animeFilm",
+   "year": 2022,
+   "creator": "新海誠 / コミックス・ウェーブ・フィルム",
+   "tint": "#E07B39",
+   "aliases": [
+    "Suzume",
+    "Suzume no Tojimari",
+    "Suzume's Door-Locking",
+    "铃芽之旅",
+    "铃芽户缔",
+    "鈴芽之旅",
+    "스즈메의 문단속",
+    "新海诚",
+    "新海誠",
+    "Makoto Shinkai",
+    "신카이 마코토"
+   ],
+   "officialURL": "https://suzume-tojimari-movie.jp/",
+   "text": {
+    "zh-Hans": {
+     "title": "铃芽之旅",
+     "creator": "新海诚 / CoMix Wave Films",
+     "synopsis": "九州小镇的高中生铃芽，在废墟中打开了一扇不可思议的门。为了关上散落在日本各地、会招来灾难的“门”，她和被变成椅子的“闭门师”草太一路北上，展开一场跨越日本的旅程。"
+    },
+    "zh-Hant": {
+     "title": "鈴芽之旅"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "九州の静かな町で暮らす17歳の鈴芽は、廃墟で不思議な扉を開けてしまう。日本各地で災いを呼ぶ「後ろ戸」を閉じるため、椅子の姿に変えられた「閉じ師」の草太とともに、鈴芽の戸締まりの旅が始まる。"
+    },
+    "en": {
+     "title": "Suzume",
+     "creator": "Makoto Shinkai / CoMix Wave Films",
+     "synopsis": "Seventeen-year-old Suzume opens a mysterious door in the ruins near her quiet Kyushu town. To close the doors that let disaster into Japan, she sets off across the country with Souta, a door-closer who has been turned into a child's chair."
+    },
+    "ko": {
+     "title": "스즈메의 문단속",
+     "creator": "신카이 마코토 / 코믹스 웨이브 필름",
+     "synopsis": "규슈의 조용한 마을에 사는 열일곱 살 스즈메는 폐허에서 신비한 문을 열어 버린다. 일본 곳곳에서 재앙을 부르는 문을 닫기 위해, 의자로 변해 버린 ‘문 닫는 자’ 소타와 함께 일본을 가로지르는 여정에 나선다."
+    }
+   }
+  },
+  {
+   "id": "girl-who-leapt-through-time",
+   "title": "時をかける少女",
+   "mediaType": "animeFilm",
+   "year": 2006,
+   "creator": "細田守 / マッドハウス",
+   "tint": "#F5B841",
+   "aliases": [
+    "The Girl Who Leapt Through Time",
+    "Toki wo Kakeru Shoujo",
+    "Tokikake",
+    "時かけ",
+    "穿越时空的少女",
+    "跳跃吧！时空少女",
+    "跳躍吧！時空少女",
+    "시간을 달리는 소녀",
+    "细田守",
+    "細田守",
+    "Mamoru Hosoda",
+    "호소다 마모루"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "穿越时空的少女",
+     "creator": "细田守 / MADHOUSE",
+     "synopsis": "大大咧咧的高二女生真琴，在一次意外后发现自己能“跳跃”回过去。她用这能力重来考试、多吃布丁、躲开麻烦，和好友千昭、功介的夏天似乎可以无限重来——直到她发现，时间并不会白白让人改写。"
+    },
+    "zh-Hant": {
+     "title": "跳躍吧！時空少女"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "高校2年生の真琴は、ある日を境に過去へ「タイムリープ」できるようになる。テストをやり直し、プリンを取り返し、千昭や功介と過ごす夏を何度でも繰り返す真琴。けれど、時間を巻き戻すことには思いがけない代償があった。"
+    },
+    "en": {
+     "title": "The Girl Who Leapt Through Time",
+     "creator": "Mamoru Hosoda / Madhouse",
+     "synopsis": "After a strange accident, carefree high-schooler Makoto discovers she can leap back in time. She uses it to redo tests, rescue her pudding and replay summer days with her friends Chiaki and Kosuke — until she learns that rewriting time always costs something."
+    },
+    "ko": {
+     "title": "시간을 달리는 소녀",
+     "creator": "호소다 마모루 / 매드하우스",
+     "synopsis": "털털한 고등학교 2학년 마코토는 어떤 사고 이후 과거로 ‘타임리프’할 수 있게 된다. 시험을 다시 보고, 푸딩을 되찾고, 치아키·고스케와의 여름날을 몇 번이고 되풀이하지만, 시간을 되돌리는 일에는 생각지 못한 대가가 따른다."
+    }
+   }
+  },
+  {
+   "id": "summer-wars",
+   "title": "サマーウォーズ",
+   "mediaType": "animeFilm",
+   "year": 2009,
+   "creator": "細田守 / マッドハウス",
+   "tint": "#E94B3C",
+   "aliases": [
+    "Summer Wars",
+    "Sama Uozu",
+    "夏日大作战",
+    "夏日大作戰",
+    "썸머 워즈",
+    "썸머워즈",
+    "细田守",
+    "細田守",
+    "Mamoru Hosoda",
+    "호소다 마모루"
+   ],
+   "officialURL": "https://s-wars.jp/",
+   "text": {
+    "zh-Hans": {
+     "title": "夏日大作战",
+     "creator": "细田守 / MADHOUSE",
+     "synopsis": "数学天才少年健二被学姐夏希拉去长野上田的老家，假扮她的未婚夫，给曾祖母荣庆祝九十大寿。就在大家族热热闹闹团聚时，席卷全世界的虚拟空间“OZ”突然陷入混乱。"
+    },
+    "zh-Hant": {
+     "title": "夏日大作戰"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "数学が得意な高校生・健二は、憧れの先輩・夏希に頼まれ、長野県上田にある彼女の実家へ。曾祖母・栄の90歳の誕生日を祝う大家族の中で「婚約者」のふりをすることになるが、同じころ世界中がつながる仮想世界「OZ」に異変が起きていた。"
+    },
+    "en": {
+     "title": "Summer Wars",
+     "creator": "Mamoru Hosoda / Madhouse",
+     "synopsis": "Maths whiz Kenji is talked into joining his senior Natsuki at her family's old home in Ueda, Nagano, posing as her fiancé for her great-grandmother Sakae's 90th birthday. While the huge Jinnouchi clan gathers, the global virtual world OZ is thrown into chaos."
+    },
+    "ko": {
+     "title": "썸머 워즈",
+     "creator": "호소다 마모루 / 매드하우스",
+     "synopsis": "수학 천재 고등학생 켄지는 선배 나츠키의 부탁으로 나가노현 우에다에 있는 그녀의 본가에 가서, 증조할머니 사카에의 아흔 번째 생일 동안 약혼자 행세를 하게 된다. 대가족이 모여 떠들썩한 그때, 전 세계를 잇는 가상 세계 ‘OZ’에 이변이 일어난다."
+    }
+   }
+  },
+  {
+   "id": "wolf-children",
+   "title": "おおかみこどもの雨と雪",
+   "mediaType": "animeFilm",
+   "year": 2012,
+   "creator": "細田守 / スタジオ地図",
+   "tint": "#7A9A57",
+   "aliases": [
+    "Wolf Children",
+    "Ookami Kodomo no Ame to Yuki",
+    "Wolf Children Ame and Yuki",
+    "狼的孩子雨和雪",
+    "狼之子雨与雪",
+    "늑대아이",
+    "细田守",
+    "細田守",
+    "Mamoru Hosoda",
+    "호소다 마모루"
+   ],
+   "officialURL": "https://www.ookamikodomo.jp/",
+   "text": {
+    "zh-Hans": {
+     "title": "狼的孩子雨和雪",
+     "creator": "细田守 / 地图工作室",
+     "synopsis": "大学生花爱上了一个“狼人”，生下了既是人又是狼的姐弟雪和雨。为了让孩子们不被旁人发现、自由选择成为人还是狼，花带着他们离开东京，搬进了深山里的一座老房子。"
+    },
+    "zh-Hant": {
+     "title": "狼的孩子雨和雪"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "大学生の花は「おおかみおとこ」と恋に落ち、人間とおおかみの二つの顔をもつ姉弟・雪と雨を授かる。子どもたちが人目を気にせず、人として生きるかおおかみとして生きるかを選べるように、花は東京を離れ、山あいの古民家へ移り住む。"
+    },
+    "en": {
+     "title": "Wolf Children",
+     "creator": "Mamoru Hosoda / Studio Chizu",
+     "synopsis": "College student Hana falls in love with a wolf man and has two children, Yuki and Ame, who can turn into wolves. So they can grow up free to choose between being human or wolf, she leaves Tokyo and moves them into an old farmhouse in the mountains."
+    },
+    "ko": {
+     "title": "늑대아이",
+     "creator": "호소다 마모루 / 스튜디오 지도",
+     "synopsis": "대학생 하나는 ‘늑대인간’과 사랑에 빠져 사람과 늑대 두 모습을 가진 남매 유키와 아메를 낳는다. 아이들이 남의 눈을 피해 사람으로 살지 늑대로 살지 스스로 고를 수 있도록, 하나는 도쿄를 떠나 산골의 오래된 집으로 이사한다."
+    }
+   }
+  },
+  {
+   "id": "belle",
+   "title": "竜とそばかすの姫",
+   "mediaType": "animeFilm",
+   "year": 2021,
+   "creator": "細田守 / スタジオ地図",
+   "tint": "#E05A8A",
+   "aliases": [
+    "Belle",
+    "Ryu to Sobakasu no Hime",
+    "龙与雀斑公主",
+    "龍與雀斑公主",
+    "용과 주근깨 공주",
+    "细田守",
+    "細田守",
+    "Mamoru Hosoda",
+    "호소다 마모루"
+   ],
+   "officialURL": "https://ryu-to-sobakasu-no-hime.jp/",
+   "text": {
+    "zh-Hans": {
+     "title": "龙与雀斑公主",
+     "creator": "细田守 / 地图工作室",
+     "synopsis": "住在高知乡下的17岁少女铃，自从小时候失去母亲，就再也唱不出歌来。可当她以“Belle”的身份进入拥有五十亿用户的虚拟世界“U”，歌声却一夜之间传遍全世界。"
+    },
+    "zh-Hant": {
+     "title": "龍與雀斑公主"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "高知の田舎町で暮らす17歳のすずは、幼いころに母を亡くして以来、歌うことができなくなっていた。しかし50億人が集う仮想世界〈U〉で「ベル」として歌うと、その歌声はたちまち世界中を魅了していく。"
+    },
+    "en": {
+     "title": "Belle",
+     "creator": "Mamoru Hosoda / Studio Chizu",
+     "synopsis": "Suzu, a 17-year-old living in rural Kochi, hasn't been able to sing since she lost her mother as a child. But inside U, a virtual world of five billion users, she becomes “Belle” — and her voice captivates the whole world overnight."
+    },
+    "ko": {
+     "title": "용과 주근깨 공주",
+     "creator": "호소다 마모루 / 스튜디오 지도",
+     "synopsis": "고치현 시골 마을에 사는 열일곱 살 스즈는 어릴 적 엄마를 잃은 뒤로 노래를 부르지 못한다. 그런데 50억 명이 모이는 가상 세계 ‘U’에서 ‘벨’이 되어 노래하자, 그 목소리가 순식간에 전 세계를 사로잡는다."
+    }
+   }
+  },
+  {
+   "id": "a-silent-voice",
+   "title": "聲の形",
+   "mediaType": "animeFilm",
+   "year": 2016,
+   "creator": "山田尚子 / 京都アニメーション",
+   "tint": "#7FC8D6",
+   "aliases": [
+    "A Silent Voice",
+    "Koe no Katachi",
+    "The Shape of Voice",
+    "声の形",
+    "声之形",
+    "聲之形",
+    "목소리의 형태",
+    "山田尚子",
+    "Naoko Yamada",
+    "야마다 나오코",
+    "京都动画",
+    "京アニ",
+    "Kyoto Animation",
+    "大垣"
+   ],
+   "officialURL": "https://koenokatachi-movie.com/",
+   "text": {
+    "zh-Hans": {
+     "title": "声之形",
+     "creator": "山田尚子 / 京都动画",
+     "synopsis": "小学时，将也带头欺负转学来的听障少女硝子，后来自己也被孤立，从此封闭了内心。升上高中的他学会了手语，决定去见硝子一面。改编自大今良时的同名漫画。"
+    },
+    "zh-Hant": {
+     "title": "聲之形"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "小学生の将也は、転校してきた聴覚障害の少女・硝子へのいじめの中心になり、やがて自分も孤立して心を閉ざす。高校生になった将也は手話を覚え、もう一度硝子に会いに行く。大今良時の漫画を原作とする劇場アニメ。"
+    },
+    "en": {
+     "title": "A Silent Voice",
+     "creator": "Naoko Yamada / Kyoto Animation",
+     "synopsis": "In primary school, Shoya led the bullying of Shoko, a deaf transfer student, and was then shunned himself. Years later, now in high school and having learned sign language, he sets out to see her again. Based on Yoshitoki Oima's manga."
+    },
+    "ko": {
+     "title": "목소리의 형태",
+     "creator": "야마다 나오코 / 교토 애니메이션",
+     "synopsis": "초등학생 쇼야는 전학 온 청각장애 소녀 쇼코를 괴롭히는 데 앞장섰다가, 결국 자신도 따돌림을 당하며 마음을 닫는다. 고등학생이 되어 수어를 익힌 쇼야는 다시 쇼코를 만나러 간다. 오이마 요시토키의 만화가 원작이다."
+    }
+   }
+  },
+  {
+   "id": "tamako-love-story",
+   "title": "たまこラブストーリー",
+   "mediaType": "animeFilm",
+   "year": 2014,
+   "creator": "山田尚子 / 京都アニメーション",
+   "tint": "#EF8FA5",
+   "aliases": [
+    "Tamako Love Story",
+    "Tamako Rabu Sutori",
+    "たまこまーけっと",
+    "Tamako Market",
+    "玉子爱情故事",
+    "玉子愛情故事",
+    "타마코 러브 스토리",
+    "山田尚子",
+    "Naoko Yamada",
+    "야마다 나오코",
+    "京都动画",
+    "Kyoto Animation",
+    "出町桝形商店街"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "玉子爱情故事",
+     "creator": "山田尚子 / 京都动画",
+     "synopsis": "电视动画《玉子市场》的剧场版续作。年糕店“玉屋”的女儿玉子升上高三，从小一起长大、住在街对面的饼藏，终于下定决心要把心意说出口。"
+    },
+    "zh-Hant": {
+     "title": "玉子愛情故事"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "TVアニメ『たまこまーけっと』の続編となる劇場作品。うさぎ山商店街の餅屋「たまや」の娘・たまこは高校3年生に。向かいの餅屋の幼なじみ・もち蔵は、ずっと胸にしまってきた想いを伝えようと決意する。"
+    },
+    "en": {
+     "title": "Tamako Love Story",
+     "creator": "Naoko Yamada / Kyoto Animation",
+     "synopsis": "The feature-length sequel to the TV anime Tamako Market. Tamako, daughter of the Tamaya mochi shop, starts her final year of high school, and Mochizo — her childhood friend from the rival shop across the street — finally resolves to tell her how he feels."
+    },
+    "ko": {
+     "title": "타마코 러브 스토리",
+     "creator": "야마다 나오코 / 교토 애니메이션",
+     "synopsis": "TV 애니메이션 『타마코 마켓』의 극장판 속편. 떡집 ‘타마야’의 딸 타마코가 고3이 되고, 길 건너 떡집에 사는 소꿉친구 모치조는 오랫동안 품어 온 마음을 전하기로 결심한다."
+    }
+   }
+  },
+  {
+   "id": "boy-and-the-beast",
+   "title": "バケモノの子",
+   "mediaType": "animeFilm",
+   "year": 2015,
+   "creator": "細田守 / スタジオ地図",
+   "tint": "#B5562F",
+   "aliases": [
+    "The Boy and the Beast",
+    "Bakemono no Ko",
+    "怪物之子",
+    "怪物的孩子",
+    "괴물의 아이",
+    "细田守",
+    "細田守",
+    "Mamoru Hosoda",
+    "호소다 마모루",
+    "渋谷"
+   ],
+   "officialURL": "https://www.bakemono-no-ko.jp/",
+   "text": {
+    "zh-Hans": {
+     "title": "怪物之子",
+     "creator": "细田守 / 地图工作室",
+     "synopsis": "失去母亲、无处可去的九岁少年莲，在涩谷街头遇见了熊一样的怪物熊彻，跟着他闯进了怪物的世界“涩天街”。粗暴又笨拙的熊彻收他为徒，给他取名“九太”，一对不像样的师徒就此开始了修行。"
+    },
+    "zh-Hant": {
+     "title": "怪物的孩子"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "母を亡くし、ひとりぼっちになった9歳の少年・蓮は、渋谷の街でクマのようなバケモノ・熊徹と出会い、バケモノの世界「渋天街」へ迷い込む。乱暴で不器用な熊徹の弟子となり「九太」と名付けられた少年の、奇妙な師弟の日々が始まる。"
+    },
+    "en": {
+     "title": "The Boy and the Beast",
+     "creator": "Mamoru Hosoda / Studio Chizu",
+     "synopsis": "After losing his mother, nine-year-old Ren runs away and wanders the streets of Shibuya, where he meets Kumatetsu, a bear-like beast, and follows him into the beast world of Jutengai. Renamed Kyuta, he becomes the gruff, clumsy beast's apprentice."
+    },
+    "ko": {
+     "title": "괴물의 아이",
+     "creator": "호소다 마모루 / 스튜디오 지도",
+     "synopsis": "엄마를 잃고 혼자가 된 아홉 살 소년 렌은 시부야 거리에서 곰 같은 괴물 쿠마테츠를 만나, 괴물들의 세계 ‘쥬텐가이’로 따라 들어간다. 거칠고 서툰 쿠마테츠의 제자가 되어 ‘큐타’라는 이름을 얻은 소년의 기묘한 사제 생활이 시작된다."
+    }
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "kiminonawa-suga-shrine",
+   "workID": "your-name",
+   "latitude": 35.68518,
+   "longitude": 139.72345,
+   "sceneHeading": 216,
+   "scenePitch": 12,
+   "arrivalRadius": 40,
+   "spoiler": true,
+   "sourceURL": "https://www.timeout.jp/tokyo/ja/things-to-do/suga-jinjya",
+   "photo": "File:Escalier Your name.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "須賀神社 男坂（东京·四谷）",
+     "sceneTitle": "阶梯上的重逢",
+     "episode": "剧场版 · 结尾",
+     "highlight": "全片最后一个镜头：红色扶手的石阶上，两个寻找了彼此多年的人终于擦肩、回头，同时问出那句“你的名字是？”。这一段台阶也因此成为新海诚作品最著名的聖地。",
+     "story": "彗星事件过去多年，已经长大成人的泷和三叶依旧在东京各自生活，心里总觉得在寻找“某个人”，却想不起那是谁。某个春日早晨，两人在并行的电车上透过车窗看见了彼此，于是各自在下一站下车，拼命在街巷间奔跑寻找对方，最终在这段红色扶手的石阶上相遇——三叶在上，泷在下。两人一言不发地擦肩而过，走出几步后，泷终于回过头开口：“我们是不是在哪里见过？”三叶转身，眼泪涌了出来。两人同时问出了那句话：你的名字是？",
+     "access": "东京地铁丸之内线「四谷三丁目」站步行约7分钟；JR／东京地铁「四谷」站步行约10分钟",
+     "bestTime": "春天上午光线柔和；想避开人潮可在工作日清晨前来",
+     "tips": "石阶在住宅区内，请保持安静，不要坐在台阶上或长时间占据中间拍照，给居民和参拜者让路。顺道去坡上的須賀神社参拜吧。"
+    },
+    "ja": {
+     "placeName": "須賀神社 男坂（東京・四谷）",
+     "sceneTitle": "階段での再会",
+     "episode": "劇場版・ラスト",
+     "highlight": "物語を締めくくるラストシーン。赤い手すりの石段で、何年も互いを探し続けてきた二人がすれ違い、振り返り、同時に「君の、名前は」と問いかける。新海作品でもっとも有名な聖地のひとつ。",
+     "story": "彗星の災害から何年も経ち、大人になった瀧と三葉は東京でそれぞれの日々を送りながら、いつも「誰か」を探しているような気持ちを抱えている。ある春の朝、並走する電車の窓越しに互いの姿を見つけた二人は、次の駅で飛び降り、街を必死に走って相手を探す。そしてこの赤い手すりの石段で、上に三葉、下に瀧——ついに巡り会う。言葉もなくすれ違い、数段進んだところで瀧が振り返る。「あの……俺、君をどこかで」。振り向いた三葉の目には涙があふれ、二人は同時に口を開く。君の、名前は。",
+     "access": "東京メトロ丸ノ内線「四谷三丁目」駅から徒歩約7分、JR・東京メトロ「四ツ谷」駅から徒歩約10分",
+     "bestTime": "春の午前中、やわらかい光の時間帯がおすすめ。混雑を避けるなら平日の早朝に",
+     "tips": "住宅街の中の階段なので、静かに。段に座り込んだり、真ん中を長時間占領して撮影したりせず、住民や参拝者に道を譲ろう。坂の上の須賀神社にもぜひお参りを。"
+    },
+    "en": {
+     "placeName": "Suga Shrine “Otokozaka” stairs (Yotsuya, Tokyo)",
+     "sceneTitle": "Reunion on the Stairs",
+     "episode": "Film · Final scene",
+     "highlight": "The film's final shot: on these stone steps with the red handrail, two people who have searched for each other for years pass, turn around and ask at the same moment, “What's your name?” It is the most famous pilgrimage spot of any Shinkai film.",
+     "story": "Years after the comet disaster, a grown-up Taki and Mitsuha are living separate lives in Tokyo, both haunted by the feeling that they are looking for someone they cannot remember. One spring morning they glimpse each other through the windows of two trains running side by side. Each jumps off at the next station and runs through the streets, until they finally meet on these steps — Mitsuha at the top, Taki at the bottom. They pass without a word. A few steps later Taki turns and says, “Haven't we met somewhere before?” Mitsuha turns too, tears welling up, and they ask together: what's your name?",
+     "access": "About 7 minutes' walk from Yotsuya-sanchome Station (Marunouchi Line), or 10 minutes from Yotsuya Station (JR / Tokyo Metro)",
+     "bestTime": "Spring mornings for soft light; come early on a weekday to avoid crowds",
+     "tips": "The steps are in a quiet residential area. Keep your voice down, don't sit on the steps or block the middle for long photo sessions, and let residents and worshippers pass. Pay a visit to Suga Shrine at the top while you're here."
+    },
+    "ko": {
+     "placeName": "스가 신사 오토코자카 계단 (도쿄 요쓰야)",
+     "sceneTitle": "계단 위의 재회",
+     "episode": "극장판 · 마지막 장면",
+     "highlight": "영화의 마지막 장면. 빨간 난간이 있는 이 돌계단에서, 몇 년 동안 서로를 찾아 헤맨 두 사람이 스쳐 지나가고, 뒤돌아보고, 동시에 “너의 이름은?” 하고 묻는다. 신카이 작품 중 가장 유명한 성지다.",
+     "story": "혜성 사건으로부터 여러 해가 지나 어른이 된 타키와 미츠하는 도쿄에서 각자의 삶을 살면서도, 기억나지 않는 ‘누군가’를 늘 찾고 있다는 느낌을 지우지 못한다. 어느 봄날 아침, 나란히 달리는 전철 창 너머로 서로를 발견한 두 사람은 다음 역에서 뛰어내려 거리를 정신없이 달린다. 그리고 이 돌계단에서 마침내 마주친다. 위에는 미츠하, 아래에는 타키. 말없이 스쳐 지나간 뒤 몇 걸음 만에 타키가 뒤돌아본다. “저기… 우리 어디서 만난 적 있지 않아?” 돌아선 미츠하의 눈에 눈물이 차오르고, 두 사람은 동시에 묻는다. 너의 이름은?",
+     "access": "도쿄 메트로 마루노우치선 요쓰야산초메역에서 도보 약 7분, JR·도쿄 메트로 요쓰야역에서 도보 약 10분",
+     "bestTime": "빛이 부드러운 봄날 오전. 붐비지 않을 때 오려면 평일 이른 아침에",
+     "tips": "주택가 안의 계단이니 조용히 해 주세요. 계단에 앉거나 한가운데를 오래 차지하고 촬영하지 말고, 주민과 참배객에게 길을 비켜 주세요. 계단 위 스가 신사에도 들러 보세요."
+    }
+   }
+  },
+  {
+   "id": "kiminonawa-hida-furukawa",
+   "workID": "your-name",
+   "latitude": 36.23734,
+   "longitude": 137.18899,
+   "sceneHeading": 130,
+   "scenePitch": -10,
+   "arrivalRadius": 50,
+   "spoiler": true,
+   "sourceURL": "https://www.knt.co.jp/meito/sp/kiminonaha/chubu.html",
+   "photo": "File:Hida-Furukawa platform in snow.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "JR 飞驒古川站 跨线天桥（岐阜·飞驒市）",
+     "sceneTitle": "寻找糸守町",
+     "episode": "剧场版 · 中段",
+     "highlight": "泷凭着一张手绘风景画来到飞驒，站台、车站前的环岛都被原样画进了电影。从车站北侧的跨线天桥俯瞰站台，就是片中那个“终于来到她的世界”的镜头。",
+     "story": "互换身体的现象毫无征兆地中断了，三叶的电话也再也打不通。泷放不下，只凭着记忆里画下的小镇风景，和好友司、打工前辈奥寺一起坐上了开往飞驒的列车。三人在飞驒古川站下车，拿着画在车站一带四处打听，却没人认得出这是哪里。正当泷快要放弃时，一家拉面店的老板看了画，低声说出了答案——那是糸守町，三年前被彗星碎片击中、整个消失了的小镇。泷这才意识到，自己和三叶之间隔着的不只是距离。",
+     "access": "JR高山本线「飞驒古川」站下车即到；天桥在车站北侧，从站前或站后均可上桥（自由通道）",
+     "bestTime": "冬季雪后最有片中氛围；白天有列车进站时拍照效果最好",
+     "tips": "天桥是居民日常通行的道路，拍照时别堵住通道，也不要在桥上使用三脚架。附近的飞驒市图书馆同为取景地，馆内拍照需先在柜台申请。"
+    },
+    "ja": {
+     "placeName": "JR飛騨古川駅 跨線橋（岐阜県飛騨市）",
+     "sceneTitle": "糸守町を探して",
+     "episode": "劇場版・中盤",
+     "highlight": "記憶を頼りに描いた風景画だけを手に、瀧が飛騨へやって来る場面。ホームも駅前ロータリーもほぼそのまま描かれ、駅北側の跨線橋からホームを見下ろす構図は作中のカットそのもの。",
+     "story": "入れ替わりは何の前触れもなく途絶え、三葉の電話にはつながらなくなった。どうしても気になる瀧は、記憶だけを頼りに描いた町の風景画を持ち、友人の司とバイト先の先輩・奥寺とともに飛騨行きの列車に乗る。飛騨古川駅で降りた三人は、絵を見せながら駅の周りで聞き込みをするが、誰もその場所を知らない。諦めかけたとき、一軒のラーメン屋の主人が絵を見てつぶやく——それは糸守町。3年前、彗星の破片が落ちて消えてしまった町だった。瀧はようやく、自分と三葉を隔てているものが距離だけではないことに気づく。",
+     "access": "JR高山本線「飛騨古川」駅すぐ。跨線橋は駅の北側にあり、駅前・駅裏どちらからも上がれる自由通路",
+     "bestTime": "雪の積もった冬が作品の雰囲気にいちばん近い。日中、列車が停車しているタイミングを狙って",
+     "tips": "跨線橋は地元の人の生活道路。通行の邪魔にならないよう、三脚の使用や長時間の占有は控えよう。近くの飛騨市図書館も舞台のひとつ（館内撮影はカウンターで申請が必要）。"
+    },
+    "en": {
+     "placeName": "Footbridge at JR Hida-Furukawa Station (Hida, Gifu)",
+     "sceneTitle": "Searching for Itomori",
+     "episode": "Film · Middle",
+     "highlight": "Taki arrives in Hida with nothing but a sketch of a town he remembers from his dreams. The platforms and station roundabout are drawn almost exactly as they are, and the view down from the footbridge north of the station matches the film shot.",
+     "story": "The body swaps stop without warning, and Mitsuha's phone no longer connects. Unable to let it go, Taki boards a train to Hida with his friend Tsukasa and his co-worker Okudera, carrying sketches of a town he can only remember. They get off at Hida-Furukawa and ask around the station, but no one recognises the place. Just as Taki is about to give up, the owner of a ramen shop looks at the drawing and quietly names it: Itomori — the town wiped out three years ago when a fragment of the comet struck. Only then does Taki realise that what separates him from Mitsuha is more than distance.",
+     "access": "Right at JR Hida-Furukawa Station (Takayama Line). The footbridge is just north of the station and can be reached from either side of the tracks",
+     "bestTime": "Winter after snowfall feels most like the film; aim for a moment when a train is stopped at the platform",
+     "tips": "The footbridge is an everyday path for locals — don't block it or set up a tripod. The nearby Hida City Library also appears in the film; ask at the counter before taking photos inside."
+    },
+    "ko": {
+     "placeName": "JR 히다후루카와역 육교 (기후현 히다시)",
+     "sceneTitle": "이토모리 마을을 찾아서",
+     "episode": "극장판 · 중반",
+     "highlight": "기억을 더듬어 그린 풍경화 한 장만 들고 타키가 히다에 도착하는 장면. 승강장과 역 앞 로터리가 거의 그대로 그려졌고, 역 북쪽 육교에서 승강장을 내려다보는 구도가 영화 속 장면과 같다.",
+     "story": "몸이 바뀌는 일은 아무런 예고 없이 끊기고, 미츠하에게는 전화도 닿지 않는다. 마음을 놓을 수 없던 타키는 기억만으로 그린 마을 풍경화를 들고, 친구 츠카사와 아르바이트 선배 오쿠데라와 함께 히다행 열차에 오른다. 히다후루카와역에 내린 세 사람은 그림을 보여 주며 역 주변을 수소문하지만 아무도 그곳을 알지 못한다. 포기하려던 순간, 한 라멘 가게 주인이 그림을 보고 조용히 말한다. 그곳은 이토모리, 3년 전 혜성 파편이 떨어져 사라진 마을이라고. 타키는 그제야 자신과 미츠하 사이를 가로막은 것이 거리만이 아니었음을 깨닫는다.",
+     "access": "JR 다카야마 본선 히다후루카와역 바로 앞. 육교는 역 북쪽에 있으며 선로 양쪽에서 올라갈 수 있는 자유 통로",
+     "bestTime": "눈 쌓인 겨울이 영화 분위기에 가장 가깝다. 낮에 열차가 정차해 있을 때를 노려 보자",
+     "tips": "육교는 주민들이 매일 다니는 길입니다. 통행을 막거나 삼각대를 세우지 마세요. 근처 히다시 도서관도 작품 속 배경이며, 관내 촬영은 카운터에 미리 신청해야 합니다."
+    }
+   }
+  },
+  {
+   "id": "kiminonawa-shinanomachi-footbridge",
+   "workID": "your-name",
+   "latitude": 35.67953,
+   "longitude": 139.71975,
+   "sceneHeading": 280,
+   "scenePitch": 5,
+   "arrivalRadius": 40,
+   "spoiler": true,
+   "sourceURL": "https://livejapan.com/ja/article-a0000790/",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "信濃町站前人行天桥（东京·新宿）",
+     "sceneTitle": "天桥上仰望天空",
+     "episode": "剧场版 · 多次出现",
+     "highlight": "片中反复出现的东京日常风景：远处高耸的NTT docomo代代木大楼、天桥上的栏杆与天空，构成了泷所在的“东京”。成年后的泷在这里停下脚步仰望天空的一幕，让人心头一紧。",
+     "story": "这座横跨外苑东通的天桥，是泷每天在东京生活的背景，在片中以不同的季节和时刻反复出现。故事后段，彗星事件已过去多年，泷成了一名为求职奔波的大学生，穿着西装一次又一次面试落选。走过这座天桥时，他总会不自觉地停下来望向天空，仿佛在寻找什么重要的东西，却怎么也想不起来。这份说不清的空落感，一直延续到电影的最后。",
+     "access": "JR中央·总武线「信濃町」站出站即到，天桥就在站前",
+     "bestTime": "晴天傍晚，西边天空泛起晚霞、代代木大楼成剪影时最像电影",
+     "tips": "天桥较窄，行人和推婴儿车、坐轮椅的人都会经过，请贴边拍照、不要停留过久。桥下是车流量很大的马路，切勿探身越过栏杆。"
+    },
+    "ja": {
+     "placeName": "信濃町駅前歩道橋（東京都新宿区）",
+     "sceneTitle": "歩道橋から見上げる空",
+     "episode": "劇場版・複数のシーン",
+     "highlight": "作中に何度も登場する、瀧の暮らす「東京」を象徴する風景。遠くにそびえるNTTドコモ代々木ビルと歩道橋の手すり、そして空。大人になった瀧がここで足を止め、空を見上げる姿は胸に残る。",
+     "story": "外苑東通りをまたぐこの歩道橋は、瀧が毎日を過ごす東京の背景として、季節や時間を変えて作中に何度も描かれる。物語の後半、彗星の災害から数年が経ち、瀧は就職活動中の大学生になっている。スーツ姿で面接に落ち続ける日々、この歩道橋を渡るたびに、瀧はふと立ち止まって空を見上げる。何か大切なものを探している気がするのに、それが何なのか思い出せない——その言葉にならない喪失感は、物語の最後まで続いていく。",
+     "access": "JR中央・総武線「信濃町」駅を出てすぐ、駅前にかかる歩道橋",
+     "bestTime": "晴れた日の夕方。西の空が染まり、代々木のビルがシルエットになる頃が作品の雰囲気に近い",
+     "tips": "歩道橋は幅が狭く、ベビーカーや車いすの人も通る。端に寄って手短に撮影を。交通量の多い道路の上なので、手すりから身を乗り出さないこと。"
+    },
+    "en": {
+     "placeName": "Footbridge in front of Shinanomachi Station (Shinjuku, Tokyo)",
+     "sceneTitle": "Looking Up from the Footbridge",
+     "episode": "Film · Several scenes",
+     "highlight": "One of the film's recurring images of Taki's Tokyo: the railing of the footbridge, the sky, and the NTT Docomo Yoyogi Building rising in the distance. The grown-up Taki stopping here to stare at the sky is a quietly aching moment.",
+     "story": "This footbridge over Gaien-higashi-dori is part of the everyday Tokyo Taki lives in, and it returns again and again in the film in different seasons and light. Later in the film, years after the comet, Taki is a university student in a suit, going from one failed job interview to the next. Each time he crosses this bridge he stops without meaning to and looks up at the sky, as if searching for something important he cannot remember. That nameless sense of loss stays with him right up to the final scene.",
+     "access": "Right outside JR Shinanomachi Station (Chuo-Sobu Line) — the footbridge is in front of the station",
+     "bestTime": "A clear evening, when the western sky glows and the Yoyogi tower turns into a silhouette",
+     "tips": "The footbridge is narrow and used by people with prams and wheelchairs, so stand to the side and keep it brief. There is heavy traffic below — never lean over the railing."
+    },
+    "ko": {
+     "placeName": "시나노마치역 앞 육교 (도쿄 신주쿠)",
+     "sceneTitle": "육교 위에서 올려다본 하늘",
+     "episode": "극장판 · 여러 장면",
+     "highlight": "영화 속에 몇 번이고 등장하는, 타키가 사는 ‘도쿄’를 상징하는 풍경. 멀리 솟은 NTT 도코모 요요기 빌딩과 육교 난간, 그리고 하늘. 어른이 된 타키가 이곳에 멈춰 서서 하늘을 올려다보는 모습이 오래 남는다.",
+     "story": "가이엔히가시 거리를 가로지르는 이 육교는 타키가 매일 살아가는 도쿄의 배경으로, 계절과 시간을 바꿔 가며 영화 속에 여러 번 등장한다. 이야기 후반, 혜성 사건으로부터 몇 년이 흐른 뒤 타키는 취업 준비 중인 대학생이 되어 있다. 정장을 입고 면접에서 계속 떨어지던 나날, 이 육교를 건널 때마다 타키는 자기도 모르게 멈춰 서서 하늘을 올려다본다. 무언가 소중한 것을 찾고 있는 것 같은데 그게 무엇인지 떠오르지 않는다. 그 말로 할 수 없는 상실감은 영화의 마지막까지 이어진다.",
+     "access": "JR 주오·소부선 시나노마치역을 나오면 바로 앞에 있는 육교",
+     "bestTime": "맑은 날 해 질 무렵. 서쪽 하늘이 물들고 요요기의 빌딩이 실루엣이 될 때가 영화와 가장 닮았다",
+     "tips": "육교가 좁고 유모차나 휠체어도 지나다니니 한쪽으로 비켜서 짧게 촬영하세요. 아래는 차량 통행이 많은 도로이니 난간 밖으로 몸을 내밀지 마세요."
+    }
+   }
+  },
+  {
+   "id": "tenkinoko-kisho-jinja",
+   "workID": "weathering-with-you",
+   "latitude": 35.70453,
+   "longitude": 139.65101,
+   "sceneHeading": 0,
+   "scenePitch": 0,
+   "arrivalRadius": 30,
+   "spoiler": false,
+   "sourceURL": "https://www.businessinsider.jp/post-195692",
+   "photo": "File:Kisho jinjya - hikawa jinjya.JPG",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "高円寺 冰川神社·气象神社（东京·杉并）",
+     "sceneTitle": "“晴女”的传说",
+     "episode": "剧场版 · 前中段",
+     "highlight": "日本唯一供奉“气象之神”的神社。片中那座挂满木屐形绘马、祈求晴天的神社就取材于此——帆高正是在那里，第一次听说“天气巫女”要付出的代价。",
+     "story": "为了给神秘学杂志写一篇关于“晴女”的报道，帆高和夏美来到一座老神社采访。神社的老神官一边翻出古老的天井画，一边讲述自古流传的“天气巫女”传说：天气连着天上的另一个世界，能让天空放晴的少女，总要为此付出代价。夏美听得半信半疑，帆高却想起了阳菜——她每次祈祷后身上那些细微的变化。他第一次隐隐感到，阳菜的能力并不只是奇迹。",
+     "access": "JR中央线「高円寺」站南口步行约3分钟，气象神社在冰川神社境内",
+     "bestTime": "雨后初晴的白天；每年6月1日前后有“气象祭”，绘马最多",
+     "tips": "神社很小，紧邻车站和住宅，请安静参拜。可以在授与所求一枚木屐绘马写下愿望；拍摄时不要拍到其他人写的愿望内容。"
+    },
+    "ja": {
+     "placeName": "高円寺氷川神社・気象神社（東京都杉並区）",
+     "sceneTitle": "「晴れ女」の伝説",
+     "episode": "劇場版・序盤〜中盤",
+     "highlight": "日本で唯一「気象の神様」を祀る神社。作中、晴れを願う下駄の絵馬がずらりと並ぶ神社のモデルがここ。帆高はその神社で、「天気の巫女」の代償を初めて知ることになる。",
+     "story": "オカルト雑誌に「晴れ女」の記事を書くため、帆高と夏美はある古い神社へ取材に訪れる。神主の老人は古い天井画を見せながら、昔から語り継がれる「天気の巫女」の伝説を語る——天気は空の上の別の世界とつながっていて、空を晴らす娘には必ず代償がある、と。半信半疑の夏美をよそに、帆高は陽菜のことを思い出していた。祈るたびに彼女の身に起きている小さな変化。陽菜の力がただの奇跡ではないことを、帆高はこのとき初めてうっすらと感じ取る。",
+     "access": "JR中央線「高円寺」駅南口から徒歩約3分。気象神社は高円寺氷川神社の境内にある",
+     "bestTime": "雨上がりの晴れた日中。毎年6月1日前後の「気象祭」の時期は絵馬がいちばん多い",
+     "tips": "駅と住宅に挟まれた小さな神社なので、静かにお参りを。授与所で下駄の絵馬を受けて願いごとを書くこともできる。他の人の絵馬の文字が写り込まないよう配慮しよう。"
+    },
+    "en": {
+     "placeName": "Koenji Hikawa Shrine & Kisho (Weather) Shrine (Suginami, Tokyo)",
+     "sceneTitle": "The Legend of the Weather Maiden",
+     "episode": "Film · First half",
+     "highlight": "The only shrine in Japan dedicated to a god of the weather. The film's shrine, hung with rows of geta-shaped ema praying for sunshine, is modelled on it — and that is where Hodaka first hears what a “weather maiden” must pay.",
+     "story": "Researching an article on “sunshine girls” for an occult magazine, Hodaka and Natsumi visit an old shrine. The elderly priest shows them an old ceiling painting and tells them the legend of the weather maiden: the weather is connected to another world above the sky, and a girl who can clear the clouds always pays a price. Natsumi is sceptical, but Hodaka thinks of Hina and the small changes he has noticed in her each time she prays. For the first time, he senses that her power is more than a miracle.",
+     "access": "About 3 minutes' walk from the south exit of JR Koenji Station (Chuo Line). Kisho Shrine stands inside the Hikawa Shrine grounds",
+     "bestTime": "A bright day after rain. Around 1 June each year the Weather Festival brings the most ema",
+     "tips": "It's a tiny shrine squeezed between the station and houses, so keep it quiet. You can buy a geta-shaped ema and write your own wish; avoid photographing other people's written wishes."
+    },
+    "ko": {
+     "placeName": "고엔지 히카와 신사·기상 신사 (도쿄 스기나미)",
+     "sceneTitle": "‘맑음 소녀’의 전설",
+     "episode": "극장판 · 전반",
+     "highlight": "일본에서 유일하게 ‘기상의 신’을 모시는 신사. 맑은 날씨를 비는 게타 모양 에마가 줄지어 걸린 영화 속 신사가 이곳을 모델로 했고, 호다카는 그 신사에서 ‘날씨 무녀’의 대가를 처음 듣게 된다.",
+     "story": "오컬트 잡지에 ‘맑음 소녀’ 기사를 쓰기 위해 호다카와 나츠미는 오래된 신사로 취재를 간다. 나이 든 신관은 오래된 천장화를 보여 주며 예로부터 전해 오는 ‘날씨 무녀’ 전설을 들려준다. 날씨는 하늘 위의 또 다른 세계와 이어져 있고, 하늘을 맑게 하는 소녀는 반드시 대가를 치른다는 것. 반신반의하는 나츠미와 달리 호다카는 히나를 떠올린다. 기도할 때마다 그녀에게 생기던 작은 변화들. 히나의 힘이 단순한 기적이 아니라는 것을 호다카는 이때 처음 어렴풋이 느낀다.",
+     "access": "JR 주오선 고엔지역 남쪽 출구에서 도보 약 3분. 기상 신사는 히카와 신사 경내에 있다",
+     "bestTime": "비가 갠 맑은 낮. 매년 6월 1일 무렵 ‘기상 축제’ 때 에마가 가장 많다",
+     "tips": "역과 주택 사이에 있는 작은 신사이니 조용히 참배하세요. 게타 모양 에마를 받아 소원을 적을 수도 있습니다. 다른 사람이 쓴 소원이 찍히지 않도록 배려해 주세요."
+    }
+   }
+  },
+  {
+   "id": "tenkinoko-tabata-slope",
+   "workID": "weathering-with-you",
+   "latitude": 35.73665,
+   "longitude": 139.76215,
+   "sceneHeading": 140,
+   "scenePitch": 6,
+   "arrivalRadius": 40,
+   "spoiler": true,
+   "sourceURL": "https://toyokeizai.net/articles/-/292369",
+   "photo": "File:Pedestrian path near the South Exit of Tabata Station.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "JR田端站南口 坡道（东京·北区）",
+     "sceneTitle": "我们一定没问题的",
+     "episode": "剧场版 · 结尾",
+     "highlight": "电影的最后一幕：坡道尽头，阳菜双手合十向着天空祈祷。帆高终于再次见到她，在心里对她、也对自己说出那句“我们一定没问题的”。",
+     "story": "帆高做出那个选择之后，东京的雨再也没有停过。三年过去，大片城区沉入水中，他也在离岛读完了高中。毕业后，帆高终于回到东京，去拜访了曾经的委托人老奶奶，听她说起东京原本就是一片海。离开后，他沿着田端站南口这条安静的坡道往上走，忽然看见坡道尽头，阳菜正闭着眼睛、双手合十，向着下雨的天空祈祷。她察觉到他，转过身跑了过来。帆高想起自己曾经改变了世界的形状，在泪水里对她说：“阳菜，我们一定没问题的。”",
+     "access": "JR山手线／京滨东北线「田端」站南口出站即到坡道下端",
+     "bestTime": "细雨天或雨后傍晚最有电影的气氛；樱花季坡道旁的树也很美",
+     "tips": "南口是安静的小出口，坡道禁止车辆通行但居民常走。拍照时靠边，不要占满路面；旁边的石阶是不动坂，上下注意脚下。"
+    },
+    "ja": {
+     "placeName": "JR田端駅南口の坂（東京都北区）",
+     "sceneTitle": "僕たちは、大丈夫だ",
+     "episode": "劇場版・ラスト",
+     "highlight": "物語のラストシーン。坂の上で、陽菜が手を合わせて空に祈っている。ようやく再会した帆高は、彼女に、そして自分に言い聞かせるように「僕たちは、きっと大丈夫だ」と心の中でつぶやく。",
+     "story": "帆高があの選択をしてから、東京の雨は一度も止まなかった。3年が経ち、街の多くは水に沈み、帆高は島で高校を卒業する。東京に戻った彼は、かつての依頼人だった老婦人を訪ね、東京はもともと海だったのだと聞かされる。その帰り道、田端駅南口の静かな坂を上っていくと、坂の上で陽菜が目を閉じ、手を合わせて雨空に祈っていた。帆高に気づいた陽菜が振り返り、駆け寄ってくる。自分たちが世界の形を変えてしまったことを胸に、帆高は涙の中で言う。「陽菜さん、僕たちは、大丈夫だ」。",
+     "access": "JR山手線・京浜東北線「田端」駅南口を出てすぐ、坂の下",
+     "bestTime": "小雨の日や雨上がりの夕方がいちばん作品らしい。桜の季節も美しい",
+     "tips": "南口は小さく静かな出口で、坂は車両通行止めだが住民の生活道路。撮影は端に寄って手短に。隣の石段（不動坂）は急なので足元に注意。"
+    },
+    "en": {
+     "placeName": "Slope by the South Exit of JR Tabata Station (Kita, Tokyo)",
+     "sceneTitle": "We'll Be All Right",
+     "episode": "Film · Final scene",
+     "highlight": "The film's last scene: at the top of this slope, Hina stands praying to the sky with her hands together. Seeing her again at last, Hodaka tells her — and himself — that “we're going to be all right.”",
+     "story": "After the choice Hodaka made, the rain over Tokyo never stopped. Three years pass, much of the city sinks under water, and Hodaka finishes high school back on his island. Returning to Tokyo, he visits an elderly former client, who tells him Tokyo was once the sea anyway. Walking up this quiet slope from Tabata's south exit, he sees Hina at the top, eyes closed, hands together, praying to the rainy sky. She notices him, turns and runs to him. Knowing they changed the shape of the world, Hodaka says through tears: “Hina, we're going to be all right.”",
+     "access": "Right outside the South Exit of JR Tabata Station (Yamanote / Keihin-Tohoku Lines) — the slope starts at the exit",
+     "bestTime": "A drizzly day or an evening after rain feels most like the film; cherry blossom season is lovely too",
+     "tips": "The south exit is tiny and quiet. The slope is closed to cars but used daily by residents, so stand to the side for photos. The steep stone steps next to it (Fudozaka) need care."
+    },
+    "ko": {
+     "placeName": "JR 다바타역 남쪽 출구 언덕길 (도쿄 기타구)",
+     "sceneTitle": "우리는 괜찮을 거야",
+     "episode": "극장판 · 마지막 장면",
+     "highlight": "영화의 마지막 장면. 언덕길 위에서 히나가 두 손을 모으고 하늘에 기도하고 있다. 마침내 다시 만난 호다카는 그녀에게, 그리고 자신에게 “우리는 분명 괜찮을 거야”라고 말한다.",
+     "story": "호다카가 그 선택을 한 뒤로 도쿄의 비는 한 번도 그치지 않았다. 3년이 흘러 도시의 많은 곳이 물에 잠겼고, 호다카는 섬에서 고등학교를 졸업한다. 도쿄로 돌아온 그는 예전 의뢰인이었던 할머니를 찾아가, 도쿄는 원래 바다였다는 이야기를 듣는다. 돌아가는 길에 다바타역 남쪽 출구의 조용한 언덕길을 오르던 호다카는, 언덕 위에서 눈을 감고 두 손을 모은 채 비 내리는 하늘에 기도하는 히나를 발견한다. 그를 알아본 히나가 돌아서 달려온다. 자신들이 세상의 모양을 바꿔 버렸다는 걸 알면서도, 호다카는 눈물 속에서 말한다. “히나 씨, 우리는 괜찮을 거야.”",
+     "access": "JR 야마노테선·게이힌토호쿠선 다바타역 남쪽 출구를 나오면 바로 언덕길이 시작된다",
+     "bestTime": "보슬비 내리는 날이나 비 갠 저녁이 가장 영화 같다. 벚꽃 철도 아름답다",
+     "tips": "남쪽 출구는 작고 조용한 출구입니다. 언덕길은 차량 통행 금지지만 주민이 매일 다니는 길이니 한쪽에 비켜서 촬영하세요. 옆의 가파른 돌계단(후도자카)은 발밑을 조심하세요."
+    }
+   }
+  },
+  {
+   "id": "byousoku-sangubashi",
+   "workID": "five-centimeters",
+   "latitude": 35.67522,
+   "longitude": 139.69183,
+   "sceneHeading": 305,
+   "scenePitch": 0,
+   "arrivalRadius": 50,
+   "spoiler": true,
+   "sourceURL": "https://toyokeizai.net/articles/-/910660?page=4",
+   "photo": "File:Walk around Yoyogi 4chome 5chome 10.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "小田急线 参宫桥3号道口（东京·涩谷 代代木）",
+     "sceneTitle": "道口的擦肩而过",
+     "episode": "剧场版 · 第3话「秒速5厘米」结尾",
+     "highlight": "全片最后一幕，与第1话开头少年少女在铁道口的约定遥相呼应。电车驶过、遮住视线的那几秒，成了无数人心中“错过”的代名词。",
+     "story": "多年过去，贵树在东京做着系统工程师的工作，和交往三年的女友分了手，辞去了工作，整个人被掏空了。另一边，明里即将结婚，翻出了当年没能寄出的信。一个樱花纷飞的春日，成年的贵树走过参宫桥一带的铁道道口，与一位女性擦肩而过，两人都感觉到了什么。走过道口后他回头，对方似乎也正要回头——就在这时电车呼啸而过，挡住了视线。列车过去后，那里已空无一人。贵树微微一笑，转身继续向前走去。",
+     "access": "小田急线「参宫桥」站东口沿铁路向南步行约5分钟（第二个道口，旁边是京王巴士“代代木五丁目”站）",
+     "bestTime": "三月底到四月初樱花季的白天，花瓣随电车经过飘落时最像电影",
+     "tips": "请勿在道口内停留或拍照，警报响起立刻退到栏杆外。周边是安静的住宅区，不要大声喧哗，也不要拍摄民宅。"
+    },
+    "ja": {
+     "placeName": "小田急線 参宮橋3号踏切（東京都渋谷区代々木）",
+     "sceneTitle": "踏切でのすれ違い",
+     "episode": "劇場版・第3話「秒速5センチメートル」ラスト",
+     "highlight": "作品のラストシーン。第1話冒頭、幼い二人が踏切で交わした約束と対になる場面。電車が通り過ぎ、視界を遮る数秒間は、多くの人にとって「すれ違い」の象徴になった。",
+     "story": "月日は流れ、東京でシステムエンジニアとして働く貴樹は、3年付き合った恋人と別れ、会社も辞め、心がすり減ったまま日々を送っている。一方の明里は結婚を控え、あの日渡せなかった手紙を見つけていた。桜の舞う春の日、参宮橋近くの踏切で、貴樹は一人の女性とすれ違い、互いに何かを感じる。渡りきって振り返ると、相手もまた振り返ろうとしているように見えた——その瞬間、電車が轟音とともに通過して視界を遮る。電車が過ぎ去ったあと、そこにはもう誰もいなかった。貴樹は小さく微笑み、再び前へと歩き出す。",
+     "access": "小田急線「参宮橋」駅東口から線路沿いに南へ徒歩約5分（二つ目の踏切。京王バス「代々木五丁目」停留所のそば）",
+     "bestTime": "3月末〜4月上旬の桜の季節、日中。電車の風で花びらが舞うと作品そのもの",
+     "tips": "踏切内で立ち止まったり撮影したりしないこと。警報が鳴ったらすぐに遮断機の外へ。周辺は静かな住宅街なので、大声や民家の撮影は控えよう。"
+    },
+    "en": {
+     "placeName": "Odakyu Line Sangubashi No. 3 crossing (Yoyogi, Shibuya, Tokyo)",
+     "sceneTitle": "Passing at the Railroad Crossing",
+     "episode": "Film · Episode 3 “5 Centimeters per Second” · Ending",
+     "highlight": "The film's final scene, mirroring the promise the two children made at a railway crossing in Episode 1. The few seconds when a passing train blocks the view have become, for many, the very image of “missing each other.”",
+     "story": "Years later, Takaki works as a systems engineer in Tokyo. He has broken up with the girlfriend of three years and quit his job, emptied out inside. Akari, meanwhile, is about to marry and has found the letter she never gave him. One spring day, with cherry petals in the air, Takaki crosses a railway crossing near Sangubashi and passes a woman; both of them sense something. On the other side he turns around, and she seems about to turn as well — just then a train roars through and blocks the view. When it has passed, no one is there. Takaki smiles faintly, turns, and walks on.",
+     "access": "About 5 minutes' walk south along the tracks from the east exit of Sangubashi Station (Odakyu Line) — the second crossing, next to the Keio bus stop “Yoyogi 5-chome”",
+     "bestTime": "Daytime in cherry blossom season (late March to early April), when petals swirl as trains pass",
+     "tips": "Never stop or take photos inside the crossing, and step back behind the barrier as soon as the bells ring. It's a quiet residential area — keep noise down and don't photograph people's homes."
+    },
+    "ko": {
+     "placeName": "오다큐선 산구바시 3호 건널목 (도쿄 시부야 요요기)",
+     "sceneTitle": "건널목에서의 엇갈림",
+     "episode": "극장판 · 제3화 「초속 5센티미터」 마지막 장면",
+     "highlight": "작품의 마지막 장면으로, 제1화 첫머리에서 어린 두 사람이 건널목에서 나눈 약속과 짝을 이룬다. 전철이 지나가며 시야를 가리는 몇 초는 많은 사람에게 ‘엇갈림’의 상징이 되었다.",
+     "story": "세월이 흘러 도쿄에서 시스템 엔지니어로 일하는 타카키는 3년 사귄 연인과 헤어지고 회사도 그만둔 채 텅 빈 마음으로 지낸다. 한편 아카리는 결혼을 앞두고, 그날 건네지 못한 편지를 발견한다. 벚꽃이 흩날리는 봄날, 산구바시 근처 건널목에서 타카키는 한 여성과 스쳐 지나가고, 두 사람 모두 무언가를 느낀다. 건널목을 건넌 뒤 그가 뒤돌아보자 상대도 막 뒤돌아보려는 듯하다. 바로 그때 전철이 굉음을 내며 지나가 시야를 가린다. 열차가 지나간 뒤, 그곳에는 아무도 없다. 타카키는 살며시 미소 짓고는 다시 앞으로 걸어간다.",
+     "access": "오다큐선 산구바시역 동쪽 출구에서 선로를 따라 남쪽으로 도보 약 5분 (두 번째 건널목, 게이오 버스 ‘요요기 5초메’ 정류장 옆)",
+     "bestTime": "벚꽃 철(3월 말~4월 초) 낮. 전철이 지나갈 때 꽃잎이 흩날리면 영화 그대로다",
+     "tips": "건널목 안에서 멈춰 서거나 촬영하지 말고, 경보가 울리면 즉시 차단기 밖으로 물러나세요. 조용한 주택가이니 큰 소리를 내거나 민가를 촬영하지 마세요."
+    }
+   }
+  },
+  {
+   "id": "byousoku-iwafune-station",
+   "workID": "five-centimeters",
+   "latitude": 36.32691,
+   "longitude": 139.65772,
+   "sceneHeading": 180,
+   "scenePitch": 0,
+   "arrivalRadius": 50,
+   "spoiler": true,
+   "sourceURL": "https://toyokeizai.net/articles/-/910660",
+   "photo": "File:JR Ryomo Line Iwafune Station Waiting room.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "JR两毛线 岩舟站（栃木·栃木市）",
+     "sceneTitle": "大雪中等待的车站",
+     "episode": "剧场版 · 第1话「樱花抄」",
+     "highlight": "被大雪耽误了四个多小时的列车终于在深夜驶进这座小站，候车室的暖炉旁，明里还在等他。整部作品的起点，就在这个空荡荡的站台上。",
+     "story": "小学毕业后，明里随家人搬到了栃木，贵树也即将转学去遥远的鹿儿岛。初一那年冬天，两人约好在明里家附近的岩舟站见面。那天却下起了罕见的大雪，列车一次次停在半路，贵树在车厢里看着时间一分一秒过去，连写给明里的信也被风吹走了。直到深夜十一点多，列车才终于抵达岩舟。他以为她早就回家了，推开候车室的门，却看见明里坐在暖炉旁等着他。两人分吃了她亲手做的便当，一起走向雪中的那棵樱花树。",
+     "access": "JR两毛线「岩舟」站即到（从小山站约20分钟；东京出发约2小时）",
+     "bestTime": "冬季下雪的傍晚最贴近电影；春天站外的樱花也值得一看",
+     "tips": "岩舟是乡间小站，班次不多，请提前确认回程时刻表。候车室供乘客使用，请勿久占座位或大声喧哗；在站台拍照需购票进站，注意黄线。"
+    },
+    "ja": {
+     "placeName": "JR両毛線 岩舟駅（栃木県栃木市）",
+     "sceneTitle": "大雪の中で待つ駅",
+     "episode": "劇場版・第1話「桜花抄」",
+     "highlight": "大雪で4時間以上遅れた電車が、深夜ようやくこの小さな駅に着く。待合室のストーブのそばで、明里はまだ待っていた。作品のすべての始まりは、この静かなホームにある。",
+     "story": "小学校を卒業すると、明里は家族とともに栃木へ引っ越し、貴樹も遠い鹿児島への転校が決まっていた。中学1年の冬、二人は明里の家の近くの岩舟駅で会う約束をする。ところがその日は記録的な大雪。電車は途中で何度も止まり、貴樹は車内で時間が過ぎていくのをただ見つめるしかなく、明里に渡すはずの手紙まで風に飛ばされてしまう。電車が岩舟に着いたのは夜11時過ぎ。もう帰ってしまっただろうと思いながら待合室の扉を開けると、ストーブのそばで明里が待っていた。二人は彼女の手作りの弁当を分け合い、雪の中の桜の木へと歩いていく。",
+     "access": "JR両毛線「岩舟」駅すぐ（小山駅から約20分、東京から約2時間）",
+     "bestTime": "雪の降る冬の夕方が作品にいちばん近い。春には駅周辺の桜も見ごたえがある",
+     "tips": "本数の少ないローカル駅なので、帰りの時刻表は事前に確認を。待合室は利用者のための場所なので、長居や大声は控えよう。ホームで撮影するなら乗車券を買って入場し、黄色い線の内側で。"
+    },
+    "en": {
+     "placeName": "JR Ryomo Line Iwafune Station (Tochigi, Tochigi)",
+     "sceneTitle": "The Station Where She Waited",
+     "episode": "Film · Episode 1 “Cherry Blossom”",
+     "highlight": "Delayed more than four hours by heavy snow, Takaki's train finally pulls into this tiny station late at night — and by the stove in the waiting room, Akari is still waiting. The whole story begins on this empty platform.",
+     "story": "After primary school, Akari moves away to Tochigi, and Takaki's family is about to move far south to Kagoshima. One winter in their first year of junior high, they agree to meet at Iwafune, the station near her home. That day an unusual snowstorm hits. The train stops again and again, Takaki can only watch the minutes tick by, and even the letter he wrote for her is blown away. It is past 11 p.m. when he finally reaches Iwafune. Sure she must have gone home, he opens the waiting-room door — and finds Akari sitting by the stove. They share the lunch she made and walk out to the cherry tree in the snow.",
+     "access": "Right at JR Iwafune Station on the Ryomo Line (about 20 minutes from Oyama; around 2 hours from Tokyo)",
+     "bestTime": "A snowy winter evening is closest to the film; in spring the cherry trees near the station are worth seeing",
+     "tips": "It's a rural station with infrequent trains, so check the return timetable in advance. The waiting room is for passengers — don't hog seats or be loud. To photograph the platform, buy a ticket and stay behind the yellow line."
+    },
+    "ko": {
+     "placeName": "JR 료모선 이와후네역 (도치기현 도치기시)",
+     "sceneTitle": "폭설 속에서 기다린 역",
+     "episode": "극장판 · 제1화 「벚꽃 이야기」",
+     "highlight": "폭설로 네 시간 넘게 늦어진 열차가 밤늦게야 이 작은 역에 도착한다. 대합실 난로 옆에서 아카리는 여전히 기다리고 있었다. 작품의 모든 시작이 이 텅 빈 승강장에 있다.",
+     "story": "초등학교를 졸업하자 아카리는 가족과 함께 도치기로 이사하고, 타카키도 먼 가고시마로 전학이 정해진다. 중학교 1학년 겨울, 두 사람은 아카리네 집 근처 이와후네역에서 만나기로 약속한다. 그런데 그날은 보기 드문 폭설이 내린다. 열차는 몇 번이고 멈춰 서고, 타카키는 객차 안에서 흘러가는 시간을 바라볼 수밖에 없으며, 아카리에게 주려던 편지마저 바람에 날아가 버린다. 열차가 이와후네에 닿은 것은 밤 11시가 넘어서였다. 이미 돌아갔으리라 생각하며 대합실 문을 열자, 난로 옆에 아카리가 앉아 기다리고 있었다. 두 사람은 그녀가 직접 싼 도시락을 나눠 먹고, 눈 속의 벚나무를 향해 걸어간다.",
+     "access": "JR 료모선 이와후네역 바로 앞 (오야마역에서 약 20분, 도쿄에서 약 2시간)",
+     "bestTime": "눈 내리는 겨울 저녁이 영화와 가장 닮았다. 봄에는 역 주변 벚꽃도 볼 만하다",
+     "tips": "열차 편수가 적은 시골 역이니 돌아오는 시간표를 미리 확인하세요. 대합실은 승객을 위한 공간이니 오래 머물거나 떠들지 마세요. 승강장에서 촬영하려면 승차권을 사서 들어가고, 노란 선 안쪽에 서 주세요."
+    }
+   }
+  },
+  {
+   "id": "byousoku-tanegashima-ishop",
+   "workID": "five-centimeters",
+   "latitude": 30.54676,
+   "longitude": 130.97076,
+   "sceneHeading": 150,
+   "scenePitch": 0,
+   "arrivalRadius": 50,
+   "spoiler": false,
+   "sourceURL": "https://www.pref.kagoshima.jp/ap01/chiiki/kumage/chiiki/kankou/stampnakatane.html",
+   "photo": "File:アイSHOP (4982385849).jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "i-Shop 石堂店 便利店（鹿儿岛·种子岛 中种子町）",
+     "sceneTitle": "放学后的便利店",
+     "episode": "剧场版 · 第2话「宇航员」",
+     "highlight": "花苗总是在停车场等贵树一起回家，再一起绕进这家小便利店买饮料。几乎原样搬进电影的店面，是第2话里最日常、也最让人心酸的地方。",
+     "story": "高三的花苗从初中起就暗恋着从东京转学来的贵树。她冲浪总也站不起来，未来的志愿也还没想好，唯一确定的，是每天放学后在停车场“碰巧”等到他，一起骑车回家。两人常在这家便利店停下，贵树总是很快拿好饮料，花苗却要在冷柜前纠结半天。她觉得能这样并肩走一段路就已经很幸福，却也隐隐感到，贵树的目光总是望着很远很远的地方。",
+     "access": "种子岛机场开车约15分钟，位于中种子町野间的县道75号旁；岛上公交班次少，建议租车",
+     "bestTime": "夏季傍晚放学时分，南国的晚霞最像电影",
+     "tips": "这是当地人日常购物的店，请先买点东西再拍照，不要挡住收银台。店内有巡礼留言本；营业时间不固定，请向店家确认。停车可使用附近的大平集落公民馆停车场。"
+    },
+    "ja": {
+     "placeName": "アイショップ 石堂店（鹿児島県中種子町）",
+     "sceneTitle": "放課後のコンビニ",
+     "episode": "劇場版・第2話「コスモナウト」",
+     "highlight": "花苗はいつも駐輪場で貴樹を待ち、一緒に帰る途中にこの小さな店へ寄る。ほぼそのままの姿で描かれた店先は、第2話でいちばん日常的で、いちばん切ない場所。",
+     "story": "高校3年の花苗は、中学のころ東京から転校してきた貴樹にずっと片思いしている。サーフィンではまだ波に立てず、進路も決められない。確かなのは、放課後に駐輪場で「偶然」貴樹を待ち、一緒にバイクで帰ることだけ。二人はよくこの店に立ち寄る。貴樹はすぐに飲み物を選ぶのに、花苗は冷蔵ケースの前でいつまでも迷ってしまう。並んで帰れるだけで幸せだと思いながら、花苗は、貴樹の視線がいつもずっと遠くを見ていることにも気づいていた。",
+     "access": "種子島空港から車で約15分、中種子町野間の県道75号沿い。島内のバスは本数が少ないのでレンタカーが便利",
+     "bestTime": "夏の夕方、下校時間帯。南の島の夕焼けが作品そのもの",
+     "tips": "地元の人が日常的に使うお店。撮影の前に何か買い物をし、レジ前をふさがないように。店内には巡礼ノートがある。営業時間は不定とのことなので確認を。駐車は近くの大平集落公民館の駐車場を利用しよう。"
+    },
+    "en": {
+     "placeName": "i-Shop Ishido convenience store (Nakatane, Tanegashima, Kagoshima)",
+     "sceneTitle": "The Store After School",
+     "episode": "Film · Episode 2 “Cosmonaut”",
+     "highlight": "Kanae always waits for Takaki in the parking area so they can ride home together, stopping at this little shop on the way. Drawn almost exactly as it is, it's the most everyday — and most bittersweet — place in Episode 2.",
+     "story": "Kanae, in her final year of high school, has loved Takaki ever since he transferred from Tokyo in junior high. She still can't stand up on her surfboard and hasn't decided what to do after graduation. All she is sure of is that after school she will “happen” to be waiting when he comes out, so they can ride home together. They often stop at this store; Takaki picks his drink in seconds, while Kanae dithers in front of the fridge. Just walking beside him feels like enough — yet she can tell his eyes are always fixed on somewhere very far away.",
+     "access": "About 15 minutes by car from Tanegashima Airport, on Prefectural Road 75 in Noma, Nakatane. Buses on the island are infrequent, so a rental car is easiest",
+     "bestTime": "A summer evening around the end of the school day, under a southern sunset",
+     "tips": "Locals shop here every day — buy something before taking photos and keep clear of the till. There's a pilgrims' notebook inside. Opening hours are irregular, so check first. Park at the nearby Ohira community hall car park."
+    },
+    "ko": {
+     "placeName": "아이숍 이시도점 편의점 (가고시마현 다네가시마 나카타네초)",
+     "sceneTitle": "방과 후의 편의점",
+     "episode": "극장판 · 제2화 「코스모나우트」",
+     "highlight": "카나에는 늘 주차장에서 타카키를 기다렸다가 함께 돌아가는 길에 이 작은 가게에 들른다. 거의 그대로 그려진 가게 앞은 제2화에서 가장 일상적이면서 가장 애틋한 장소다.",
+     "story": "고3인 카나에는 중학생 때 도쿄에서 전학 온 타카키를 줄곧 짝사랑하고 있다. 서핑 보드 위에서는 아직 일어서지 못하고, 진로도 정하지 못했다. 확실한 건 방과 후 주차장에서 ‘우연히’ 타카키를 기다렸다가 함께 바이크를 타고 돌아가는 것뿐. 두 사람은 이 가게에 자주 들른다. 타카키는 금세 음료를 고르지만 카나에는 냉장고 앞에서 한참을 망설인다. 나란히 걷는 것만으로도 행복하다고 생각하면서도, 카나에는 타카키의 눈이 늘 아주 먼 곳을 보고 있다는 것을 알고 있었다.",
+     "access": "다네가시마 공항에서 차로 약 15분, 나카타네초 노마의 현도 75호선 변. 섬 안 버스는 편수가 적어 렌터카가 편하다",
+     "bestTime": "여름 저녁 하교 시간. 남쪽 섬의 노을이 영화 그대로다",
+     "tips": "주민들이 매일 이용하는 가게이니 촬영 전에 물건을 하나 사고 계산대 앞을 막지 마세요. 가게 안에 순례 노트가 있습니다. 영업시간이 일정하지 않으니 미리 확인하세요. 주차는 근처 오히라 마을 공민관 주차장을 이용하세요."
+    }
+   }
+  },
+  {
+   "id": "byousoku-nakayama-beach",
+   "workID": "five-centimeters",
+   "latitude": 30.52941,
+   "longitude": 130.99251,
+   "sceneHeading": 90,
+   "scenePitch": 0,
+   "arrivalRadius": 150,
+   "spoiler": true,
+   "sourceURL": "https://www.pref.kagoshima.jp/ap01/chiiki/kumage/chiiki/kankou/stampnakatane.html",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "中山海岸（鹿儿岛·种子岛 中种子町）",
+     "sceneTitle": "终于站上浪头",
+     "episode": "剧场版 · 第2话「宇航员」",
+     "highlight": "花苗练习冲浪的海滩。她在这里一次次被浪打翻，也在这里第一次稳稳站上了浪头，鼓起了告白的勇气。太平洋的蓝和种子岛的风，是第2话最鲜明的颜色。",
+     "story": "整个夏天，花苗都没能在冲浪板上站起来，就像她对贵树的心意，怎么也说不出口。她暗暗决定：等哪天能站上浪头，就向他告白。一个秋天的午后，在这片海上，她终于稳稳地踩住了板子，被浪推着向前滑去。那天傍晚她鼓足勇气跟在贵树身边，却在他平静而遥远的眼神前哭了出来。远处，载着探测器的火箭拖着长长的白烟升上天空——花苗明白，贵树看着的，从来不是她。",
+     "access": "种子岛机场开车约20分钟；通往海岸的道路坡陡、路况较差，请小心驾驶",
+     "bestTime": "夏季至初秋的晴天；种子岛宇宙中心有火箭发射时，岛上多处都能远眺",
+     "tips": "这里是冲浪胜地，海况复杂，不会冲浪请勿下水。海边有淋浴和厕所，但手机信号较弱。请把垃圾带走，不要妨碍冲浪者。"
+    },
+    "ja": {
+     "placeName": "中山海岸（鹿児島県中種子町）",
+     "sceneTitle": "波の上に立てた日",
+     "episode": "劇場版・第2話「コスモナウト」",
+     "highlight": "花苗がサーフィンの練習をしていた海。何度も波にのまれ、やがて初めて波の上に立ち、告白する勇気をもらった場所。太平洋の青と種子島の風が、第2話をいちばん鮮やかに彩る。",
+     "story": "夏のあいだずっと、花苗はサーフボードの上に立てなかった。貴樹への想いをどうしても口にできないのと同じように。波に乗れたら、その日に気持ちを伝えよう——そう心に決めた花苗は、秋のある午後、この海でついにボードの上に立ち、波に押されて滑り出す。その夕方、勇気を振り絞って貴樹のそばを歩くが、彼の静かで遠い眼差しの前で、言葉の代わりに涙があふれてしまう。遠くで探査機を載せたロケットが白い煙を引いて空へ昇っていく。花苗は悟る。貴樹が見ているのは、自分ではないのだと。",
+     "access": "種子島空港から車で約20分。海岸へ下りる道は急坂で路面も悪いので運転に注意",
+     "bestTime": "夏〜初秋の晴れた日。種子島宇宙センターの打ち上げ日には島の各地から見られる",
+     "tips": "サーフィンの名所で潮の流れも複雑。サーフィンをしない人は海に入らないこと。シャワーとトイレはあるが携帯の電波は弱い。ゴミは持ち帰り、サーファーの邪魔をしないように。"
+    },
+    "en": {
+     "placeName": "Nakayama Beach (Nakatane, Tanegashima, Kagoshima)",
+     "sceneTitle": "Finally Standing on the Wave",
+     "episode": "Film · Episode 2 “Cosmonaut”",
+     "highlight": "The beach where Kanae practises surfing — wiped out again and again, until the day she finally stands on a wave and finds the courage to confess. The blue of the Pacific and the island wind are Episode 2's most vivid colours.",
+     "story": "All summer, Kanae can't stand up on her board — just as she can't put her feelings for Takaki into words. She makes a promise to herself: on the day she rides a wave, she'll tell him. One autumn afternoon, here, she finally finds her feet and glides forward on the swell. That evening she walks beside Takaki, determined to speak, but faced with his calm, distant gaze, tears come instead of words. In the distance a rocket carrying a space probe climbs into the sky on a long white trail, and Kanae understands that Takaki has never been looking at her.",
+     "access": "About 20 minutes by car from Tanegashima Airport. The road down to the beach is steep and rough, so drive carefully",
+     "bestTime": "Clear days from summer to early autumn. On launch days at the Tanegashima Space Center, rockets can be seen from many points on the island",
+     "tips": "This is a serious surf spot with tricky currents — don't swim if you don't surf. There are showers and toilets but weak phone signal. Take your rubbish home and keep out of the surfers' way."
+    },
+    "ko": {
+     "placeName": "나카야마 해안 (가고시마현 다네가시마 나카타네초)",
+     "sceneTitle": "마침내 파도 위에 서다",
+     "episode": "극장판 · 제2화 「코스모나우트」",
+     "highlight": "카나에가 서핑을 연습하던 바다. 몇 번이고 파도에 휩쓸리다가 마침내 파도 위에 처음 서고, 고백할 용기를 얻은 곳이다. 태평양의 파란빛과 다네가시마의 바람이 제2화를 가장 선명하게 물들인다.",
+     "story": "여름 내내 카나에는 서핑 보드 위에 일어서지 못했다. 타카키에 대한 마음을 끝내 말하지 못하는 것처럼. 파도를 타는 날 마음을 전하겠다고 다짐한 카나에는, 어느 가을 오후 이 바다에서 드디어 보드 위에 서서 파도에 밀려 나아간다. 그날 저녁 용기를 내어 타카키 곁을 걷지만, 그의 고요하고 먼 눈빛 앞에서 말 대신 눈물이 쏟아진다. 멀리서 탐사선을 실은 로켓이 하얀 연기를 길게 끌며 하늘로 올라간다. 카나에는 깨닫는다. 타카키가 바라보는 것은 자신이 아니라는 것을.",
+     "access": "다네가시마 공항에서 차로 약 20분. 해안으로 내려가는 길은 경사가 급하고 노면이 나쁘니 운전에 주의하세요",
+     "bestTime": "여름에서 초가을의 맑은 날. 다네가시마 우주센터 발사일에는 섬 곳곳에서 로켓이 보인다",
+     "tips": "이름난 서핑 명소로 조류가 복잡합니다. 서핑을 하지 않는다면 바다에 들어가지 마세요. 샤워장과 화장실은 있지만 휴대폰 신호가 약합니다. 쓰레기는 가져가고 서퍼들을 방해하지 마세요."
+    }
+   }
+  },
+  {
+   "id": "kotonoha-shinjuku-gyoen",
+   "workID": "garden-of-words",
+   "latitude": 35.68473,
+   "longitude": 139.70843,
+   "sceneHeading": 95,
+   "scenePitch": 0,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "sourceURL": "https://www.locationbox.metro.tokyo.lg.jp/english/locatabi_eng/list/detail.html?pdid=528",
+   "photo": "File:Shinjuku Gyoen National Garden 8.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "新宿御苑 日本庭园 池畔凉亭（东京·新宿）",
+     "sceneTitle": "雨天的凉亭",
+     "episode": "剧场版 · 开头至全片",
+     "highlight": "雨打在池面、枫叶湿透，凉亭里一个少年画着鞋子，一个女人就着巧克力喝啤酒——新海诚把“雨”画到极致的那个夏天，几乎都发生在这座小凉亭里。",
+     "story": "十五岁的孝雄梦想成为鞋匠，只要早上下雨，他就会在去学校的路上拐进新宿御苑，在日本庭园池边的凉亭里画鞋子的设计图。某个雨天，他发现凉亭里已经坐着一位穿西装的女子，一大早就配着巧克力喝啤酒。临别时，她念了一句万叶集的短歌：“雷鸣阵阵，云霾天阴，但盼风雨来，能留你在此。”从那以后，整个梅雨季，两人只在下雨的早晨于此相见。她教他读和歌，他说起想做鞋的梦想，还提出为她量脚、做一双能让她“再走起路来”的鞋。",
+     "access": "JR「千驮谷」站步行约5分钟到千驮谷门；东京地铁「新宿御苑前」站步行约5分钟到新宿门。凉亭在日本庭园的池边",
+     "bestTime": "6月梅雨季的雨天上午，雨中的新绿最像电影；11月下旬红叶也很美",
+     "tips": "需购票入园（成人约500日元），开园时间约9:00起、周一休园（逢节假日改为次日），以官网为准。园内禁止饮酒——请不要模仿片中喝啤酒；不要长时间独占凉亭座位。"
+    },
+    "ja": {
+     "placeName": "新宿御苑 日本庭園の池のほとりの東屋（東京都新宿区）",
+     "sceneTitle": "雨の日の東屋",
+     "episode": "劇場版・冒頭〜全編",
+     "highlight": "雨粒が池を打ち、紅葉が濡れる。東屋では少年が靴のスケッチを描き、女性がチョコレートをつまみにビールを飲んでいる。新海誠が「雨」を描き尽くしたあの夏の物語は、ほとんどがこの小さな東屋で紡がれる。",
+     "story": "靴職人を夢見る15歳のタカオは、雨の朝になると登校途中で新宿御苑に寄り、日本庭園の池のほとりの東屋で靴のスケッチを描いている。ある雨の日、東屋には先客がいた。スーツ姿の女性が、朝からチョコレートをつまみにビールを飲んでいる。別れ際、彼女は万葉集の一首を口にする。「雷神の 少し響みて さし曇り 雨も降らぬか 君を留めむ」。それから梅雨のあいだ、二人は雨の朝にだけここで会うようになる。彼女はタカオに歌を教え、タカオは靴への夢を語り、やがて彼女のために靴を作りたいと、足のサイズを測らせてほしいと申し出る。",
+     "access": "JR「千駄ケ谷」駅から千駄ケ谷門まで徒歩約5分、東京メトロ「新宿御苑前」駅から新宿門まで徒歩約5分。東屋は日本庭園の池のほとり",
+     "bestTime": "6月の梅雨どき、雨の午前中。雨に濡れた新緑が作品そのもの。11月下旬の紅葉も見事",
+     "tips": "入園は有料（大人500円前後）。開園は9時ごろから、月曜休園（祝日の場合は翌日）など、最新情報は公式サイトで確認を。園内は飲酒禁止なので、作中のビールはまねしないこと。東屋の席を長時間占領しないように。"
+    },
+    "en": {
+     "placeName": "Pond-side gazebo in the Japanese Garden, Shinjuku Gyoen (Shinjuku, Tokyo)",
+     "sceneTitle": "The Gazebo on Rainy Days",
+     "episode": "Film · From the opening onward",
+     "highlight": "Rain dimpling the pond, soaked maple leaves, a boy sketching shoes and a woman drinking beer with chocolate — almost all of Shinkai's most rain-drenched film unfolds in this one small gazebo.",
+     "story": "Fifteen-year-old Takao dreams of becoming a shoemaker. Whenever it rains in the morning, he skips school and slips into Shinjuku Gyoen to sketch designs in the gazebo by the pond in the Japanese Garden. One rainy day someone is already there: a woman in a suit, drinking beer with chocolate at breakfast time. As she leaves, she recites a poem from the Man'yoshu: “A faint clap of thunder, clouded skies, perhaps rain will come — if so, will you stay here with me?” Through the rainy season they meet only here, only on rainy mornings. She teaches him classical poems; he talks about shoes, and asks to measure her feet so he can make her a pair to walk in again.",
+     "access": "About 5 minutes' walk from JR Sendagaya Station to the Sendagaya Gate, or from Shinjuku-gyoemmae Station (Tokyo Metro) to the Shinjuku Gate. The gazebo is beside the pond in the Japanese Garden",
+     "bestTime": "Rainy mornings in June's rainy season, when wet green leaves look straight out of the film; autumn colours in late November are superb too",
+     "tips": "Admission is charged (around ¥500 for adults). The garden opens around 9:00 and closes on Mondays (or the next day after a holiday) — check the official site. Alcohol is banned in the garden, so don't copy the beer scene, and don't occupy the gazebo for long."
+    },
+    "ko": {
+     "placeName": "신주쿠 교엔 일본 정원 연못가 정자 (도쿄 신주쿠)",
+     "sceneTitle": "비 오는 날의 정자",
+     "episode": "극장판 · 도입부부터 전편",
+     "highlight": "빗방울이 연못을 두드리고 단풍잎이 젖는다. 정자에서는 소년이 구두를 스케치하고, 한 여자가 초콜릿을 안주 삼아 맥주를 마신다. 신카이 마코토가 ‘비’를 가장 아름답게 그린 그 여름의 이야기는 거의 다 이 작은 정자에서 펼쳐진다.",
+     "story": "구두 장인을 꿈꾸는 열다섯 살 타카오는 아침에 비가 오면 등굣길에 신주쿠 교엔에 들러, 일본 정원 연못가의 정자에서 구두 디자인을 그린다. 어느 비 오는 날, 정자에는 먼저 온 사람이 있었다. 정장 차림의 여성이 아침부터 초콜릿을 안주 삼아 맥주를 마시고 있다. 헤어질 때 그녀는 만요슈의 노래 한 수를 읊는다. “우렛소리 희미하게 울리고 구름이 끼어 비라도 내려 준다면, 그대를 붙잡을 텐데.” 그 뒤로 장마 내내 두 사람은 비 오는 아침에만 이곳에서 만난다. 그녀는 타카오에게 옛 노래를 가르쳐 주고, 타카오는 구두에 대한 꿈을 이야기하다가 그녀를 위해 구두를 만들고 싶다며 발 치수를 재게 해 달라고 한다.",
+     "access": "JR 센다가야역에서 센다가야 문까지 도보 약 5분, 도쿄 메트로 신주쿠교엔마에역에서 신주쿠 문까지 도보 약 5분. 정자는 일본 정원 연못가에 있다",
+     "bestTime": "6월 장마철 비 오는 오전. 비에 젖은 신록이 영화 그대로다. 11월 하순 단풍도 훌륭하다",
+     "tips": "입장료가 있습니다(성인 약 500엔). 9시경 개원, 월요일 휴원(공휴일이면 다음 날) 등 최신 정보는 공식 사이트에서 확인하세요. 정원 안은 음주 금지이니 영화 속 맥주 장면은 따라 하지 마세요. 정자 자리를 오래 차지하지 않도록 해 주세요."
+    }
+   }
+  },
+  {
+   "id": "suzume-hijiribashi",
+   "workID": "suzume",
+   "latitude": 35.69972,
+   "longitude": 139.76563,
+   "sceneHeading": 100,
+   "scenePitch": -5,
+   "arrivalRadius": 50,
+   "spoiler": true,
+   "sourceURL": "https://www.ben54.jp/news/239",
+   "photo": "File:御茶ノ水from聖橋.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "圣桥（东京·御茶之水）",
+     "sceneTitle": "东京上空的蚯蚓",
+     "episode": "剧场版 · 东京篇",
+     "highlight": "从圣桥向东望，丸之内线的红色列车钻出隧道、跨过神田川——这正是片中出现的那条隧道。东京篇里，巨大的“蚯蚓”从御茶之水的地下升起，铃芽在这一带奔跑、纵身跃下，是全片最惊心动魄的段落。",
+     "story": "追着会说话的猫“大臣”一路北上，铃芽和被变成椅子的草太来到了东京。在草太位于御茶之水的公寓附近，他们看见一条前所未见的巨大“蚯蚓”从地下的“后门”涌出，在东京上空铺展开来——一旦它落下，整座城市将迎来大地震。铃芽拼命奔向蚯蚓，从高处一跃而下扑了上去。就在这时，草太发现自己的身体正在变成冰冷的“要石”。为了封住蚯蚓，铃芽只能亲手把草太刺进它的身体里，然后眼睁睁看着他消失在常世之中。",
+     "access": "JR中央·总武线「御茶之水」站圣桥口出站即到；东京地铁千代田线「新御茶之水」站B1/B2出口步行约1分钟",
+     "bestTime": "傍晚到入夜，丸之内线、中央线、总武线列车交错驶过时；晴天的蓝调时刻最美",
+     "tips": "圣桥是车流量很大的马路桥，人行道不宽，拍照时靠栏杆一侧、别挡住行人，也不要探身出栏杆或攀爬。"
+    },
+    "ja": {
+     "placeName": "聖橋（東京・御茶ノ水）",
+     "sceneTitle": "東京の空に広がるミミズ",
+     "episode": "劇場版・東京編",
+     "highlight": "聖橋から東を見ると、丸ノ内線の赤い電車がトンネルから飛び出し、神田川を渡っていく。このトンネルこそ作中に登場する場所。東京編では、巨大な「ミミズ」が御茶ノ水の地下から立ちのぼり、鈴芽がこの界隈を駆け抜けて飛び込んでいく。全編屈指の緊迫した場面だ。",
+     "story": "言葉を話す猫・ダイジンを追って旅を続ける鈴芽と、椅子の姿にされた草太は東京へたどり着く。御茶ノ水にある草太のアパートの近くで、二人は地下の「後ろ戸」から噴き出した、見たこともないほど巨大なミミズが東京の空に広がっていくのを目にする。それが地に落ちれば、首都を大地震が襲う。鈴芽は必死にミミズへ向かって走り、高所から身を躍らせて飛びつく。そのとき草太は、自分の身体が冷たい「要石」に変わりつつあることに気づく。ミミズを封じるため、鈴芽は自らの手で草太をミミズに突き立てるしかなく、彼が常世へ消えていくのを見送ることになる。",
+     "access": "JR中央・総武線「御茶ノ水」駅聖橋口を出てすぐ。東京メトロ千代田線「新御茶ノ水」駅B1・B2出口から徒歩約1分",
+     "bestTime": "夕方から夜にかけて、丸ノ内線・中央線・総武線が交差するタイミングを狙って。晴れた日のブルーアワーが美しい",
+     "tips": "聖橋は交通量の多い車道橋で、歩道は広くない。欄干側に寄って通行人の邪魔をせず、身を乗り出したりよじ登ったりしないこと。"
+    },
+    "en": {
+     "placeName": "Hijiribashi Bridge (Ochanomizu, Tokyo)",
+     "sceneTitle": "The Worm over Tokyo",
+     "episode": "Film · Tokyo chapter",
+     "highlight": "Look east from Hijiribashi and you'll see red Marunouchi Line trains burst out of a tunnel and cross the Kanda River — the very tunnel that appears in the film. In the Tokyo chapter a colossal Worm rises from beneath Ochanomizu and Suzume races through this area and leaps onto it, one of the most intense sequences in the film.",
+     "story": "Chasing the talking cat Daijin across Japan, Suzume and Souta — still trapped in the body of a child's chair — reach Tokyo. Near Souta's flat in Ochanomizu they watch an unimaginably huge Worm pour out of an underground door and spread across the sky over the city. If it falls, the capital will be struck by a massive earthquake. Suzume runs towards it and throws herself onto it from high above. Then Souta realises his body is turning into a cold keystone. To seal the Worm, Suzume has to drive him into it with her own hands, and watch him vanish into the Ever-After.",
+     "access": "Right outside the Hijiribashi Exit of JR Ochanomizu Station (Chuo-Sobu Line); about 1 minute from exits B1/B2 of Shin-Ochanomizu Station (Chiyoda Line)",
+     "bestTime": "Dusk into evening, when Marunouchi, Chuo and Sobu Line trains cross one another; blue hour on a clear day is gorgeous",
+     "tips": "Hijiribashi carries heavy traffic and the pavement is narrow. Stand by the parapet, keep out of people's way, and never lean over or climb the railing."
+    },
+    "ko": {
+     "placeName": "히지리바시 다리 (도쿄 오차노미즈)",
+     "sceneTitle": "도쿄 하늘을 뒤덮은 미미즈",
+     "episode": "극장판 · 도쿄 편",
+     "highlight": "히지리바시에서 동쪽을 보면 마루노우치선의 빨간 전철이 터널을 빠져나와 간다강을 건넌다. 이 터널이 바로 영화에 등장하는 곳이다. 도쿄 편에서는 거대한 ‘미미즈’가 오차노미즈 지하에서 솟구치고, 스즈메가 이 일대를 내달려 뛰어든다. 영화에서 손꼽히는 긴박한 장면이다.",
+     "story": "말하는 고양이 다이진을 쫓아 여행을 이어 가던 스즈메와 의자가 되어 버린 소타는 도쿄에 도착한다. 오차노미즈에 있는 소타의 아파트 근처에서, 두 사람은 지하의 ‘뒷문’에서 뿜어져 나온 상상도 못 할 만큼 거대한 미미즈가 도쿄 하늘로 퍼져 나가는 것을 목격한다. 그것이 땅에 떨어지면 수도에 대지진이 덮친다. 스즈메는 미미즈를 향해 필사적으로 달려가 높은 곳에서 몸을 던져 매달린다. 그때 소타는 자신의 몸이 차가운 ‘요석’으로 변해 가고 있음을 깨닫는다. 미미즈를 봉인하기 위해 스즈메는 자기 손으로 소타를 미미즈에 꽂을 수밖에 없고, 그가 저세상으로 사라지는 것을 지켜봐야 한다.",
+     "access": "JR 주오·소부선 오차노미즈역 히지리바시 출구를 나오면 바로. 도쿄 메트로 지요다선 신오차노미즈역 B1·B2 출구에서 도보 약 1분",
+     "bestTime": "저녁부터 밤까지, 마루노우치선·주오선·소부선 열차가 교차할 때. 맑은 날의 블루 아워가 아름답다",
+     "tips": "히지리바시는 차량 통행이 많은 다리이고 보도가 넓지 않습니다. 난간 쪽에 붙어 통행을 막지 말고, 몸을 내밀거나 난간에 올라가지 마세요."
+    }
+   }
+  },
+  {
+   "id": "tokikake-tokyo-national-museum",
+   "workID": "girl-who-leapt-through-time",
+   "latitude": 35.71831,
+   "longitude": 139.77591,
+   "sceneHeading": 0,
+   "scenePitch": 5,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "sourceURL": "https://www.tsunagujapan.com/ja/wow_01927/",
+   "photo": "File:Tokyo National Museum 2018-04-07.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "东京国立博物馆 本馆（东京·上野）",
+     "sceneTitle": "“魔女阿姨”的博物馆",
+     "episode": "剧场版",
+     "highlight": "真琴的阿姨和子在博物馆里做文物修复，片中那座有大台阶和正门玄关的博物馆，就是以东京国立博物馆本馆为原型画的。每当真琴不知所措，她总会跑来这里找阿姨。",
+     "story": "发现自己能“穿越时空”后，真琴第一时间跑到博物馆，向在修复室工作的阿姨芳山和子——她口中的“魔女阿姨”——求助。和子听完却一点也不惊讶，只淡淡地说：你这个年纪的女孩子，这种事很常见。后来，真琴为了逃避千昭突如其来的告白，一次次用跳跃把时间倒回去，也一次次回到这里向阿姨倾诉。和子手中正在修复的那幅古画，千昭也曾说过很想亲眼看看。",
+     "access": "JR「上野」站公园口步行约10分钟；京成「京成上野」站步行约15分钟",
+     "bestTime": "盛夏的晴天，蝉鸣与蓝天最有电影里的夏天感；春季上野公园的樱花季也不错",
+     "tips": "本馆开放时间一般为9:30–17:00，周一休馆，需购票入场，展厅内部分展品禁止拍照，请留意标识。修复室不对外开放。"
+    },
+    "ja": {
+     "placeName": "東京国立博物館 本館（東京・上野）",
+     "sceneTitle": "「魔女おばさん」の博物館",
+     "episode": "劇場版",
+     "highlight": "真琴の叔母・和子は博物館で美術品の修復をしている。作中に描かれる大階段やエントランスのある博物館は、東京国立博物館の本館がモデル。真琴は困ったとき、いつもここへ叔母を訪ねてくる。",
+     "story": "タイムリープできるようになったと気づいた真琴は、すぐに博物館の修復室で働く叔母・芳山和子——真琴いわく「魔女おばさん」——のもとへ駆け込む。ところが和子は少しも驚かず、「あなたくらいの年頃の女の子にはよくあることよ」とさらりと言う。その後も、千昭の突然の告白から逃げるために何度も時間を巻き戻すたび、真琴はここへ来ては叔母に胸の内を打ち明ける。和子が修復している古い絵は、千昭が「どうしても見たい」と言っていた絵でもあった。",
+     "access": "JR「上野」駅公園口から徒歩約10分、京成「京成上野」駅から徒歩約15分",
+     "bestTime": "真夏の晴れた日。蝉の声と青空が作品の夏そのもの。春の上野公園の桜の季節もいい",
+     "tips": "本館の開館時間はおおむね9:30〜17:00、月曜休館で入館は有料。展示室には撮影禁止の作品もあるので表示に従おう。修復室は非公開。"
+    },
+    "en": {
+     "placeName": "Tokyo National Museum, Honkan (Ueno, Tokyo)",
+     "sceneTitle": "Witch Auntie's Museum",
+     "episode": "Film",
+     "highlight": "Makoto's aunt Kazuko restores artworks at a museum whose grand staircase and entrance are modelled on the Honkan of the Tokyo National Museum. Whenever Makoto doesn't know what to do, this is where she comes.",
+     "story": "As soon as she realises she can leap through time, Makoto rushes to the museum to see her aunt Kazuko Yoshiyama — her “Witch Auntie” — who works in the restoration room. Kazuko isn't the least bit surprised: it happens to girls your age all the time, she says calmly. Later, as Makoto keeps rewinding time to dodge Chiaki's sudden confession, she keeps coming back here to pour her heart out. The old painting Kazuko is restoring is the one Chiaki once said he really wanted to see.",
+     "access": "About 10 minutes' walk from the Park Exit of JR Ueno Station, or 15 minutes from Keisei-Ueno Station",
+     "bestTime": "A clear midsummer day, with cicadas and blue sky, feels just like the film; cherry blossom season in Ueno Park is lovely too",
+     "tips": "The Honkan is usually open 9:30–17:00, closed on Mondays, with paid admission. Some exhibits can't be photographed — follow the signs. The restoration studios are not open to the public."
+    },
+    "ko": {
+     "placeName": "도쿄 국립박물관 본관 (도쿄 우에노)",
+     "sceneTitle": "‘마녀 이모’의 박물관",
+     "episode": "극장판",
+     "highlight": "마코토의 이모 가즈코는 박물관에서 미술품 복원 일을 한다. 영화 속 대계단과 현관이 있는 박물관은 도쿄 국립박물관 본관을 모델로 그렸다. 마코토는 곤란할 때마다 이곳으로 이모를 찾아온다.",
+     "story": "타임리프를 할 수 있게 된 걸 깨달은 마코토는 곧장 박물관 복원실에서 일하는 이모 요시야마 가즈코, 마코토가 부르는 ‘마녀 이모’에게 달려간다. 그런데 가즈코는 조금도 놀라지 않고 “네 나이 또래 여자아이들한테는 흔한 일이야”라고 담담하게 말한다. 그 뒤로도 치아키의 갑작스러운 고백을 피하려고 몇 번이나 시간을 되돌릴 때마다, 마코토는 이곳에 와서 이모에게 속마음을 털어놓는다. 가즈코가 복원하고 있는 오래된 그림은, 치아키가 꼭 보고 싶다고 말했던 바로 그 그림이었다.",
+     "access": "JR 우에노역 공원 출구에서 도보 약 10분, 게이세이 우에노역에서 도보 약 15분",
+     "bestTime": "한여름 맑은 날. 매미 소리와 파란 하늘이 영화 속 여름 그대로다. 봄 우에노 공원 벚꽃 철도 좋다",
+     "tips": "본관은 대체로 9:30~17:00 개관, 월요일 휴관이며 입장료가 있습니다. 전시실에는 촬영 금지 작품도 있으니 안내를 따르세요. 복원실은 공개되지 않습니다."
+    }
+   }
+  },
+  {
+   "id": "summerwars-ueda-castle",
+   "workID": "summer-wars",
+   "latitude": 36.40304,
+   "longitude": 138.24548,
+   "sceneHeading": 285,
+   "scenePitch": 5,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "sourceURL": "https://watabi.org/anime/summer-wars-ueda",
+   "photo": "File:The gate of Ueda castle (2020394910).jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "上田城迹公园 东虎口橹门（长野·上田）",
+     "sceneTitle": "阵内家的大门",
+     "episode": "剧场版 · 开头",
+     "highlight": "健二第一次来到阵内家，被那座气派的大门和古老的宅邸震住了。这座大门正是以上田城的东虎口橹门为原型——一个曾与德川大军交手的武家后代，就住在这样的门后。",
+     "story": "暑假里，数学奥赛差一点入选国家队的高二学生健二，被暗恋的学姐夏希拉去打一份“只有四天的打工”。一路坐车来到长野上田，他才知道夏希的老家是传承数百年的武家阵内家，而“打工”的内容，是在曾祖母荣的九十大寿上假扮夏希的未婚夫。穿过气派的大门，一大家子亲戚热热闹闹地围了上来，健二手足无措。他还不知道，这个夏天，这个大家族将和他一起，为整个世界打一场仗。",
+     "access": "北陆新干线／信浓铁道「上田」站お城口步行约12分钟",
+     "bestTime": "盛夏晴天的白天，蓝天、白云和石垣最有《夏日大作战》的感觉；4月樱花季也很美",
+     "tips": "城迹公园免费开放；橹门内部的櫓（南橹、北橹）需另购门票参观。公园内有真田神社，参拜时请保持礼仪。"
+    },
+    "ja": {
+     "placeName": "上田城跡公園 東虎口櫓門（長野県上田市）",
+     "sceneTitle": "陣内家の大門",
+     "episode": "劇場版・序盤",
+     "highlight": "初めて陣内家を訪れた健二が圧倒される、堂々たる門と古いお屋敷。その大門のモデルが上田城の東虎口櫓門。かつて徳川の大軍と渡り合った武家の末裔が、この門の向こうに暮らしている。",
+     "story": "夏休み、数学オリンピックの日本代表にあと一歩届かなかった高校2年生の健二は、憧れの先輩・夏希から「4日間だけのバイト」を頼まれる。電車に揺られて長野県上田に着いてみると、夏希の実家は何百年も続く武家・陣内家。そして「バイト」の中身は、曾祖母・栄の90歳の誕生日に、夏希の婚約者のふりをすることだった。大きな門をくぐると、大勢の親戚がにぎやかに集まってきて、健二はすっかり固まってしまう。この夏、この大家族と一緒に世界を賭けた戦いに挑むことになるとは、まだ知らずに。",
+     "access": "北陸新幹線・しなの鉄道「上田」駅お城口から徒歩約12分",
+     "bestTime": "真夏の晴れた日中。青空と入道雲と石垣が『サマーウォーズ』そのもの。4月の桜の季節も美しい",
+     "tips": "城跡公園は無料。櫓（南櫓・北櫓）の内部見学は有料。園内の真田神社にお参りする際はマナーを守って。"
+    },
+    "en": {
+     "placeName": "East Gate (Higashi-koguchi Yaguramon), Ueda Castle Park (Ueda, Nagano)",
+     "sceneTitle": "The Jinnouchi Family Gate",
+     "episode": "Film · Opening",
+     "highlight": "Kenji is overwhelmed by the grand gate and old mansion when he first arrives at the Jinnouchi home. That gate is modelled on the East Gate of Ueda Castle — fitting for the descendants of a samurai clan who once stood up to the Tokugawa armies.",
+     "story": "It's the summer holidays, and Kenji, a second-year who narrowly missed the national Maths Olympiad team, is hired by his crush, senior Natsuki, for “a four-day part-time job.” Only after the long trip to Ueda in Nagano does he learn that her family is the Jinnouchi, an old samurai house going back centuries — and that the job is to pose as her fiancé at her great-grandmother Sakae's 90th birthday. Stepping through the grand gate, he is swamped by a crowd of noisy relatives. He has no idea that this summer, this family will fight a war for the whole world with him.",
+     "access": "About 12 minutes' walk from the Castle Exit (Oshiro-guchi) of Ueda Station (Hokuriku Shinkansen / Shinano Railway)",
+     "bestTime": "A blazing clear summer day — blue sky, towering clouds and stone walls are pure Summer Wars. Cherry blossom season in April is beautiful too",
+     "tips": "The castle park is free; entry to the turrets (South and North Yagura) is charged. Sanada Shrine stands inside the park — be respectful when you visit."
+    },
+    "ko": {
+     "placeName": "우에다성 터 공원 히가시코구치 야구라몬 (나가노현 우에다시)",
+     "sceneTitle": "진노우치 가문의 대문",
+     "episode": "극장판 · 도입부",
+     "highlight": "처음 진노우치 가를 찾은 켄지가 압도당하는 당당한 대문과 오래된 저택. 그 대문의 모델이 우에다성의 히가시코구치 야구라몬이다. 한때 도쿠가와의 대군과 맞섰던 무사 가문의 후손이 이 문 너머에 살고 있다.",
+     "story": "여름방학, 수학 올림피아드 일본 대표에 아깝게 떨어진 고등학교 2학년 켄지는 동경하던 선배 나츠키에게서 ‘딱 나흘짜리 아르바이트’를 부탁받는다. 기차를 타고 나가노현 우에다에 도착하고서야, 나츠키의 본가가 수백 년을 이어 온 무가 진노우치 가이고 ‘아르바이트’의 내용이 증조할머니 사카에의 아흔 번째 생일에 나츠키의 약혼자 행세를 하는 것임을 알게 된다. 커다란 문을 들어서자 수많은 친척이 왁자지껄하게 몰려들고, 켄지는 얼어붙고 만다. 이번 여름 이 대가족과 함께 세계를 건 싸움에 나서게 되리라는 것은 아직 모른 채로.",
+     "access": "호쿠리쿠 신칸센·시나노 철도 우에다역 오시로 출구에서 도보 약 12분",
+     "bestTime": "한여름 맑은 날 낮. 파란 하늘과 뭉게구름, 돌담이 『썸머 워즈』 그 자체다. 4월 벚꽃 철도 아름답다",
+     "tips": "성터 공원은 무료이며, 야구라(미나미·기타 야구라) 내부 관람은 유료입니다. 공원 안 사나다 신사에 참배할 때는 예의를 지켜 주세요."
+    }
+   }
+  },
+  {
+   "id": "ookami-hana-house",
+   "workID": "wolf-children",
+   "latitude": 36.65903,
+   "longitude": 137.40361,
+   "sceneHeading": 45,
+   "scenePitch": 0,
+   "arrivalRadius": 100,
+   "spoiler": false,
+   "sourceURL": "https://ookamikodomonohananoie.jp/",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "“狼的孩子”花之家 古民家（富山·上市町）",
+     "sceneTitle": "山里的老房子",
+     "episode": "剧场版 · 中段",
+     "highlight": "花带着雪和雨搬进的那座破旧古民家，原型就是这里。宽敞的土间、檐廊和屋后的山林，被细田守几乎一比一地画进了电影。",
+     "story": "丈夫意外离世后，花独自在东京抚养会变成狼的姐弟雪和雨。孩子们一哭一闹就会变身，邻居投诉、儿童福利部门上门，城市里再没有容身之处。为了让孩子们将来能自己选择“做人还是做狼”，花带着他们搬进了深山里一座多年无人居住的老房子。屋顶漏雨、地板腐朽，她一点点修好房子，开垦田地，种菜失败了一次又一次。在倔强的老爷爷韮崎和邻居们的帮助下，这座老房子渐渐成了一家三口真正的家，也成了雪和雨各自长大的起点。",
+     "access": "富山地方铁道「上市」站乘出租车约20分钟；或乘町营巴士到大岩山日石寺，再沿山路步行约1.7公里。没有专用停车场",
+     "bestTime": "4月至11月的开放期内；初夏新绿或秋天稻田金黄时最像电影",
+     "tips": "这是私人所有、由屋主好意开放的房子，靠捐款维护，请在募捐箱里投一点心意。周边是民宅，请勿拍摄邻居住宅。山路有熊出没，务必带熊铃或开着音乐走；附近没有商店。开放期和时间请先在官网确认。"
+    },
+    "ja": {
+     "placeName": "おおかみこどもの花の家（富山県上市町）",
+     "sceneTitle": "山あいの古民家",
+     "episode": "劇場版・中盤",
+     "highlight": "花が雪と雨を連れて移り住んだ、あのおんぼろの古民家のモデルがここ。広い土間や縁側、裏山の林まで、細田守監督がほぼそのまま作品に描き込んだ。",
+     "story": "夫を突然亡くし、花はひとりで東京で、おおかみに変身してしまう姉弟・雪と雨を育てていた。泣いたりぐずったりするたびに子どもたちはおおかみの姿になり、近所からの苦情や児童相談所の訪問が重なって、都会に居場所はなくなっていく。いつか子どもたちが「人間として生きるか、おおかみとして生きるか」を自分で選べるように——花は二人を連れ、長く空き家だった山奥の古民家へ移り住む。雨漏りする屋根、腐った床。花は家を少しずつ直し、畑を耕し、何度も作物を枯らしながら、頑固な韮崎のおじいさんや近所の人たちに助けられて暮らしを築いていく。この古い家は、やがて三人の本当の家になり、雪と雨がそれぞれの道を歩み出す出発点になる。",
+     "access": "富山地方鉄道「上市」駅からタクシーで約20分。または町営バスで大岩山日石寺まで行き、山道を約1.7km歩く。専用駐車場はない",
+     "bestTime": "公開期間の4〜11月。初夏の新緑や、秋に田んぼが色づくころが作品に近い",
+     "tips": "個人所有の家を厚意で公開しており、維持は寄付で賄われている。募金箱に気持ちを。周囲は民家なので住宅は撮影しないこと。道中はクマが出るので熊鈴や音楽を鳴らして歩こう。近くに店はない。公開日・時間は公式サイトで事前に確認を。"
+    },
+    "en": {
+     "placeName": "Hana's House from Wolf Children (Kamiichi, Toyama)",
+     "sceneTitle": "The Old House in the Hills",
+     "episode": "Film · Middle",
+     "highlight": "The model for the run-down farmhouse Hana moves into with Yuki and Ame. Its wide earthen-floored entrance, the veranda and the woods behind were drawn into the film almost exactly as they are.",
+     "story": "After her partner's sudden death, Hana is raising Yuki and Ame alone in Tokyo — two children who turn into wolf cubs whenever they cry or throw a tantrum. With complaints from neighbours and visits from child welfare, the city has no room left for them. So that one day the children can choose for themselves whether to live as humans or as wolves, Hana moves them into an old house deep in the hills that has stood empty for years. The roof leaks and the floors are rotten. She repairs it bit by bit, tills the fields and watches crop after crop fail, until, with help from stubborn old Nirasaki and the neighbours, the house becomes a real home — and the place from which Yuki and Ame each set out on their own path.",
+     "access": "About 20 minutes by taxi from Kamiichi Station (Toyama Chiho Railway), or take the town bus to Oiwasan Nissekiji Temple and walk about 1.7 km up the mountain road. There's no dedicated parking",
+     "bestTime": "During the opening season (April to November); fresh early-summer greenery or golden autumn rice fields look most like the film",
+     "tips": "This is a private house opened to the public by the owner's goodwill and kept up by donations — please leave something in the box. Neighbouring homes must not be photographed. Bears live along the road, so carry a bear bell or play music; there are no shops nearby. Check opening days and hours on the official site first."
+    },
+    "ko": {
+     "placeName": "늑대아이 하나의 집 (도야마현 가미이치마치)",
+     "sceneTitle": "산골의 오래된 집",
+     "episode": "극장판 · 중반",
+     "highlight": "하나가 유키와 아메를 데리고 이사한 그 낡은 고택의 모델이 바로 이곳이다. 넓은 흙바닥 현관과 툇마루, 뒷산의 숲까지 호소다 마모루 감독이 거의 그대로 영화에 담았다.",
+     "story": "남편을 갑자기 잃은 하나는 도쿄에서 혼자, 늑대로 변하는 남매 유키와 아메를 키운다. 아이들은 울거나 떼를 쓸 때마다 늑대 모습이 되고, 이웃의 항의와 아동상담소의 방문이 이어지면서 도시에는 더 이상 있을 곳이 없어진다. 언젠가 아이들이 ‘사람으로 살지, 늑대로 살지’ 스스로 고를 수 있도록, 하나는 오랫동안 비어 있던 산속의 고택으로 이사한다. 비가 새는 지붕과 썩은 마루. 하나는 집을 조금씩 고치고 밭을 일구며, 몇 번이고 작물을 망치면서도 고집 센 니라사키 할아버지와 이웃들의 도움으로 삶을 꾸려 간다. 이 오래된 집은 마침내 세 사람의 진짜 집이 되고, 유키와 아메가 각자의 길로 나아가는 출발점이 된다.",
+     "access": "도야마 지방 철도 가미이치역에서 택시로 약 20분. 또는 마을 버스로 오이와산 닛세키지까지 가서 산길을 약 1.7km 걷는다. 전용 주차장은 없다",
+     "bestTime": "공개 기간인 4~11월. 초여름 신록이나 가을에 논이 누렇게 물들 때가 영화와 닮았다",
+     "tips": "개인 소유의 집을 주인의 호의로 공개하고 있으며 기부로 유지됩니다. 모금함에 마음을 전해 주세요. 주변은 민가이니 주택을 촬영하지 마세요. 가는 길에 곰이 나오니 곰 방울을 달거나 음악을 틀고 걸으세요. 근처에 가게는 없습니다. 공개일과 시간은 공식 사이트에서 미리 확인하세요."
+    }
+   }
+  },
+  {
+   "id": "belle-asao-chinkabashi",
+   "workID": "belle",
+   "latitude": 33.56832,
+   "longitude": 133.25611,
+   "sceneHeading": 199,
+   "scenePitch": -3,
+   "arrivalRadius": 80,
+   "spoiler": false,
+   "sourceURL": "https://tabi-mag.jp/ko0255/",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "浅尾沉下桥（高知·越知町 仁淀川）",
+     "sceneTitle": "沉下桥上的上学路",
+     "episode": "剧场版 · 开头",
+     "highlight": "没有栏杆的沉下桥横跨碧绿的仁淀川，铃每天都要走过这座桥去上学。“仁淀蓝”的河水和低矮的桥面，一出场就把观众带进了高知的乡间。",
+     "story": "铃六岁那年，母亲为了救一个被困在涨水河中的陌生孩子，跳进河里再也没有回来。从那以后，铃再也唱不出歌，和父亲之间也变得沉默寡言。十七岁的她每天穿过这座没有栏杆的沉下桥，转车去高知市里的高中，安静得像不存在一样。直到好友小弘把她拉进了拥有五十亿用户的虚拟世界“U”——在那里，化身为“Belle”的铃，第一次又能放声歌唱。",
+     "access": "JR土赞线「伊野」站开车约40分钟；北岸镰井田一侧有几处停车位，公共交通不便，建议自驾",
+     "bestTime": "晴天的上午到中午，阳光照进河里时“仁淀蓝”最清透；夏季最为碧绿",
+     "tips": "沉下桥没有栏杆，至今仍是当地人和车辆通行的道路，请注意来车、不要在桥中央停留拍照，涨水时禁止通行。河边游玩请注意安全。"
+    },
+    "ja": {
+     "placeName": "浅尾沈下橋（高知県越知町・仁淀川）",
+     "sceneTitle": "沈下橋を渡る通学路",
+     "episode": "劇場版・冒頭",
+     "highlight": "欄干のない沈下橋が、澄んだ仁淀川をまたぐ。すずは毎日この橋を渡って学校へ通う。「仁淀ブルー」の川面と低い橋の姿が、冒頭から観客を高知の田舎へと連れていく。",
+     "story": "すずが6歳のとき、母は増水した川に取り残された見知らぬ子どもを助けようと川に入り、帰らぬ人となった。それ以来すずは歌えなくなり、父との会話も少なくなった。17歳になったすずは、毎日この欄干のない沈下橋を渡り、電車を乗り継いで高知市内の高校へ通う。教室では目立たず、まるでいないかのように過ごしている。そんなある日、親友のヒロちゃんに誘われて、50億人が集う仮想世界〈U〉に足を踏み入れる。そこで「ベル」となったすずは、初めてもう一度、思いきり歌うことができた。",
+     "access": "JR土讃線「伊野」駅から車で約40分。北岸の鎌井田側に数台分の駐車スペースあり。公共交通は不便なので車がおすすめ",
+     "bestTime": "晴れた日の午前〜昼ごろ。光が川底まで差し込むと仁淀ブルーがいちばん澄んで見える。夏はとくに青い",
+     "tips": "沈下橋には欄干がなく、今も地元の人や車が通る生活道路。車に注意し、橋の真ん中で立ち止まっての撮影は控えよう。増水時は通行禁止。川遊びは安全第一で。"
+    },
+    "en": {
+     "placeName": "Asao Chinka-bashi submersible bridge (Ochi, Kochi · Niyodo River)",
+     "sceneTitle": "The Bridge on the Way to School",
+     "episode": "Film · Opening",
+     "highlight": "A railing-less “submersible bridge” crosses the clear Niyodo River, and Suzu walks over it every day on her way to school. The famous “Niyodo blue” water and the low bridge carry the audience straight into rural Kochi.",
+     "story": "When Suzu was six, her mother waded into a flooded river to save a stranger's child stranded there, and never came back. Since then Suzu hasn't been able to sing, and she and her father barely talk. Now seventeen, she crosses this bridge with no railings every day and changes trains to get to her high school in Kochi city, where she drifts through class almost invisible. Then her best friend Hiro gets her to join U, a virtual world with five billion users — and there, as “Belle,” Suzu sings out loud again for the first time.",
+     "access": "About 40 minutes by car from JR Ino Station (Dosan Line). There are a few parking spaces on the north bank (Kamaida side). Public transport is limited, so driving is best",
+     "bestTime": "Sunny mornings to midday, when light reaches the riverbed and the Niyodo blue is at its clearest; summer is the bluest",
+     "tips": "The bridge has no railings and is still a working road for locals and cars. Watch for traffic, don't stop in the middle for photos, and never cross when the river is high. Play safe by the water."
+    },
+    "ko": {
+     "placeName": "아사오 침하교 (고치현 오치초·니요도강)",
+     "sceneTitle": "침하교를 건너는 등굣길",
+     "episode": "극장판 · 도입부",
+     "highlight": "난간 없는 침하교가 맑은 니요도강을 가로지른다. 스즈는 매일 이 다리를 건너 학교에 간다. ‘니요도 블루’의 강물과 낮은 다리가 첫 장면부터 관객을 고치의 시골로 데려간다.",
+     "story": "스즈가 여섯 살 때, 엄마는 불어난 강에 고립된 낯선 아이를 구하려고 강에 들어갔다가 돌아오지 못했다. 그 뒤로 스즈는 노래를 부르지 못하게 되었고, 아빠와의 대화도 줄었다. 열일곱 살이 된 스즈는 매일 이 난간 없는 침하교를 건너, 열차를 갈아타고 고치 시내의 고등학교에 다닌다. 교실에서는 눈에 띄지 않게, 마치 없는 사람처럼 지낸다. 그러던 어느 날, 단짝 히로의 권유로 50억 명이 모이는 가상 세계 ‘U’에 발을 들인다. 그곳에서 ‘벨’이 된 스즈는 처음으로 다시 마음껏 노래할 수 있었다.",
+     "access": "JR 도산선 이노역에서 차로 약 40분. 북쪽 강가 가마이다 쪽에 몇 대 주차할 공간이 있다. 대중교통이 불편해 자동차를 추천",
+     "bestTime": "맑은 날 오전부터 한낮. 햇빛이 강바닥까지 비칠 때 니요도 블루가 가장 맑다. 여름이 특히 푸르다",
+     "tips": "침하교에는 난간이 없고 지금도 주민과 차량이 다니는 생활 도로입니다. 차량에 주의하고 다리 한가운데 멈춰 서서 촬영하지 마세요. 물이 불었을 때는 통행 금지입니다. 강가에서는 안전에 유의하세요."
+    }
+   }
+  },
+  {
+   "id": "koenokatachi-midorigoi",
+   "workID": "a-silent-voice",
+   "latitude": 35.35778,
+   "longitude": 136.61178,
+   "sceneHeading": 0,
+   "scenePitch": -15,
+   "arrivalRadius": 25,
+   "spoiler": false,
+   "sourceURL": "https://www.travel.co.jp/guide/article/44565/",
+   "photo": "File:Ogaki bridge - A silent voice side view.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "美登鲤桥（岐阜·大垣 水门川）",
+     "sceneTitle": "喂鲤鱼的小桥",
+     "episode": "剧场版 · 前中段",
+     "highlight": "将也和硝子每周在这座小桥上见面、一起往水门川里撒面包喂鲤鱼。没有太多对话的时光，却是两人关系最温柔的一段，也是《声之形》最具代表性的画面。",
+     "story": "高中生将也背负着小学时欺负听障少女硝子的过去，一度打算把一切了结。他学会了手语，鼓起勇气去见硝子，笨拙地把当年被扔进水里的笔记本还给她，问出那句“我们能做朋友吗？”。从那以后，两人每周都会在这座横跨水门川的小桥上碰面，靠着栏杆把面包撕碎撒给河里的鲤鱼。话不多，手语也还生涩，可在这一来一回之间，将也第一次觉得自己或许还可以重新开始。",
+     "access": "JR「大垣」站南口步行约15分钟，沿水门川步道向南即到",
+     "bestTime": "春天水门川两岸樱花盛开时最美；平日上午人少",
+     "tips": "大垣是“水都”，水门川沿岸步道适合慢慢散步。桥很窄，请别长时间占用；喂鱼请适量，也不要把包装袋丢进河里。附近有片中出现过的小瀑布。"
+    },
+    "ja": {
+     "placeName": "美登鯉橋（岐阜県大垣市・水門川）",
+     "sceneTitle": "鯉にパンをあげる橋",
+     "episode": "劇場版・序盤〜中盤",
+     "highlight": "将也と硝子が毎週この小さな橋で会い、水門川の鯉にパンをちぎってあげる。言葉は少なくても、二人の関係がいちばん穏やかだった時間。『聲の形』を代表する光景。",
+     "story": "小学生のころ、聴覚障害のある硝子をいじめていた過去を背負い、すべてを終わらせるつもりでいた高校生の将也。手話を覚えた彼は勇気を出して硝子に会いに行き、あの日川に投げ込まれたノートを不器用に返して、「友達になれるか」と問いかける。それから二人は毎週、水門川に架かるこの小さな橋で会うようになる。欄干にもたれて、パンをちぎって鯉に投げる。会話は少なく、手話もまだたどたどしい。けれどそのやりとりの中で、将也は初めて、自分もまだやり直せるのかもしれないと思い始める。",
+     "access": "JR「大垣」駅南口から徒歩約15分。水門川沿いの遊歩道を南へ",
+     "bestTime": "水門川沿いの桜が咲く春がいちばん美しい。人の少ない平日の午前中がおすすめ",
+     "tips": "大垣は「水の都」。水門川沿いの遊歩道はのんびり散策するのにぴったり。橋は狭いので長時間の占有は控えて。エサやりはほどほどに、袋などを川に落とさないように。近くには作中に登場する小さな滝もある。"
+    },
+    "en": {
+     "placeName": "Midorigoi Bridge (Ogaki, Gifu · Suimon River)",
+     "sceneTitle": "The Little Bridge Where They Feed the Carp",
+     "episode": "Film · First half",
+     "highlight": "Every week Shoya and Shoko meet on this small bridge and toss bread to the carp in the Suimon River. Few words are spoken, yet it's the gentlest stretch of their relationship — and the most iconic image of A Silent Voice.",
+     "story": "Weighed down by having bullied Shoko, a deaf girl, in primary school, high-schooler Shoya had planned to end it all. Instead he learns sign language and goes to see her, awkwardly handing back the notebook that was once thrown into the water, and asks whether they could be friends. From then on they meet every week on this little bridge over the Suimon River, leaning on the rail and tearing up bread for the carp. They don't say much, and his signing is still clumsy, but in those small exchanges Shoya begins to think that maybe he can start again.",
+     "access": "About 15 minutes' walk from the south exit of JR Ogaki Station, heading south along the Suimon River promenade",
+     "bestTime": "Spring, when cherry trees bloom along the Suimon River; weekday mornings are quiet",
+     "tips": "Ogaki is known as the “City of Water,” and the riverside path is lovely for a slow stroll. The bridge is narrow, so don't occupy it for long; feed the fish sparingly and don't drop bags into the river. A small waterfall from the film is nearby."
+    },
+    "ko": {
+     "placeName": "미도리고이 다리 (기후현 오가키·스이몬강)",
+     "sceneTitle": "잉어에게 빵을 주는 작은 다리",
+     "episode": "극장판 · 전반",
+     "highlight": "쇼야와 쇼코는 매주 이 작은 다리에서 만나 스이몬강의 잉어에게 빵을 뜯어 준다. 말은 적어도 두 사람 사이가 가장 따뜻했던 시간이자, 『목소리의 형태』를 대표하는 장면이다.",
+     "story": "초등학생 시절 청각장애가 있는 쇼코를 괴롭혔던 과거를 짊어진 채, 모든 것을 끝내려 했던 고등학생 쇼야. 수어를 익힌 그는 용기를 내어 쇼코를 찾아가, 그날 물속에 던져졌던 노트를 서툴게 돌려주며 친구가 될 수 있겠냐고 묻는다. 그 뒤로 두 사람은 매주 스이몬강 위의 이 작은 다리에서 만난다. 난간에 기대어 빵을 뜯어 잉어에게 던진다. 대화는 적고 수어도 아직 서툴다. 하지만 그 주고받음 속에서 쇼야는 처음으로, 자신도 다시 시작할 수 있을지 모른다고 생각하기 시작한다.",
+     "access": "JR 오가키역 남쪽 출구에서 도보 약 15분. 스이몬강 산책로를 따라 남쪽으로",
+     "bestTime": "스이몬강 변에 벚꽃이 피는 봄이 가장 아름답다. 사람이 적은 평일 오전을 추천",
+     "tips": "오가키는 ‘물의 도시’로, 스이몬강 산책로는 천천히 걷기 좋습니다. 다리가 좁으니 오래 차지하지 마세요. 먹이는 적당히 주고 봉지 등을 강에 떨어뜨리지 마세요. 근처에 영화에 나온 작은 폭포도 있습니다."
+    }
+   }
+  },
+  {
+   "id": "koenokatachi-shin-ohashi",
+   "workID": "a-silent-voice",
+   "latitude": 35.36352,
+   "longitude": 136.61712,
+   "sceneHeading": 270,
+   "scenePitch": 0,
+   "arrivalRadius": 40,
+   "spoiler": false,
+   "sourceURL": "https://www.travel.co.jp/guide/article/44565/",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "新大桥（岐阜·大垣 水门川）",
+     "sceneTitle": "“月亮”与“喜欢”",
+     "episode": "剧场版 · 中段",
+     "highlight": "夕阳下的桥上，硝子第一次用自己的声音说出“喜欢”，将也却听成了“月亮”。一字之差的告白，是全片最让人揪心又忍不住笑出来的一幕。",
+     "story": "和将也重新成为朋友后，硝子的世界一点点热闹起来，她也越来越在意这个笨拙地守在身边的男孩。一个傍晚，她特意扎起了马尾，约将也来到桥上。她没有用手语，而是鼓起全部勇气，用自己很难控制的声音说出了“喜欢（suki）”。可将也只听到了一个含糊的音节，愣了一下，望着天空说：“月（tsuki）？……啊，月亮确实很漂亮。”硝子愣住，又羞又急，最后只能笑着放弃。那句没被听懂的告白，成了两人之间温柔又遗憾的秘密。",
+     "access": "JR「大垣」站南口沿站前大道向南步行约5分钟，水门川上的车行桥",
+     "bestTime": "傍晚日落前后，与片中的夕阳时分最接近",
+     "tips": "新大桥是车流不少的主干道桥梁，请在人行道上拍照、注意车辆。可以和美登鲤桥、大垣站一起串成步行巡礼路线。"
+    },
+    "ja": {
+     "placeName": "新大橋（岐阜県大垣市・水門川）",
+     "sceneTitle": "「月」と「好き」",
+     "episode": "劇場版・中盤",
+     "highlight": "夕暮れの橋の上で、硝子が初めて自分の声で「好き」と伝える。けれど将也には「月」と聞こえてしまう。一文字違いの告白は、全編でいちばん切なく、思わず笑ってしまう名場面。",
+     "story": "将也と再び友達になってから、硝子のまわりは少しずつにぎやかになり、彼女はそばで不器用に寄り添ってくれる将也のことをますます意識するようになる。ある夕方、髪をポニーテールに結んだ硝子は、将也を橋の上に呼び出す。手話ではなく、思うように出せない自分の声で、ありったけの勇気を込めて「すき」と言う。けれど将也に届いたのは不明瞭な音だけ。一瞬戸惑った将也は空を見上げて「月……？ ああ、月、綺麗だな」。硝子は固まり、恥ずかしさと悔しさの末に笑って諦める。伝わらなかった告白は、二人のあいだの優しくて少しせつない秘密になる。",
+     "access": "JR「大垣」駅南口から駅前通りを南へ徒歩約5分、水門川に架かる車道橋",
+     "bestTime": "日没前後の夕方。作中の夕焼けの時間帯にいちばん近い",
+     "tips": "新大橋は交通量のある幹線道路の橋なので、歩道から撮影し車に注意を。美登鯉橋や大垣駅と合わせて徒歩で巡るルートがおすすめ。"
+    },
+    "en": {
+     "placeName": "Shin-Ohashi Bridge (Ogaki, Gifu · Suimon River)",
+     "sceneTitle": "“Moon” and “I Like You”",
+     "episode": "Film · Middle",
+     "highlight": "On a bridge at sunset, Shoko says “suki” (I like you) in her own voice for the first time — and Shoya hears “tsuki” (the moon). A confession lost by one syllable, it's the film's most heart-wrenching and smile-inducing moment.",
+     "story": "Since becoming friends with Shoya again, Shoko's world has slowly filled with people, and she has grown more and more aware of the clumsy boy who keeps showing up by her side. One evening she ties her hair up in a ponytail and asks him to meet her on the bridge. Instead of signing, she gathers all her courage and says “suki” with a voice she can't fully control. All Shoya catches is a blurred syllable. After a moment's confusion he looks up at the sky: “Tsuki? …Oh, the moon. Yeah, it's pretty.” Shoko freezes, flustered and frustrated, then laughs and gives up. The confession that didn't get through becomes a tender, bittersweet secret between them.",
+     "access": "About 5 minutes' walk south along the main street from the south exit of JR Ogaki Station; it's the road bridge over the Suimon River",
+     "bestTime": "Around sunset, matching the film's evening light",
+     "tips": "Shin-Ohashi carries a busy main road — stay on the pavement and mind the traffic. It pairs well with Midorigoi Bridge and Ogaki Station on a walking route."
+    },
+    "ko": {
+     "placeName": "신오하시 다리 (기후현 오가키·스이몬강)",
+     "sceneTitle": "‘달’과 ‘좋아해’",
+     "episode": "극장판 · 중반",
+     "highlight": "해 질 녘 다리 위에서 쇼코가 처음으로 자기 목소리로 “좋아해(스키)”라고 말하지만, 쇼야에게는 “달(츠키)”로 들리고 만다. 한 글자 차이의 고백은 영화에서 가장 애틋하면서도 웃음이 나는 명장면이다.",
+     "story": "쇼야와 다시 친구가 된 뒤로 쇼코의 주변은 조금씩 북적이게 되고, 그녀는 서툴게 곁을 지켜 주는 쇼야를 점점 더 의식하게 된다. 어느 저녁, 머리를 포니테일로 묶은 쇼코는 쇼야를 다리 위로 불러낸다. 수어가 아니라, 마음대로 나오지 않는 자신의 목소리로, 있는 용기를 다 끌어모아 “스키”라고 말한다. 하지만 쇼야에게 닿은 건 흐릿한 소리뿐. 잠시 어리둥절하던 쇼야는 하늘을 올려다보며 말한다. “츠키…? 아, 달? 예쁘네.” 쇼코는 얼어붙었다가, 부끄럽고 속상한 끝에 웃으며 포기한다. 전해지지 않은 고백은 두 사람 사이의 다정하고 조금 아린 비밀이 된다.",
+     "access": "JR 오가키역 남쪽 출구에서 역 앞 큰길을 따라 남쪽으로 도보 약 5분, 스이몬강 위의 차도 다리",
+     "bestTime": "해 질 무렵. 영화 속 노을 시간대와 가장 가깝다",
+     "tips": "신오하시는 차량 통행이 많은 간선도로 다리이니 보도에서 촬영하고 차에 주의하세요. 미도리고이 다리, 오가키역과 묶어 걸어서 돌아보는 코스를 추천합니다."
+    }
+   }
+  },
+  {
+   "id": "tamako-demachi-masugata",
+   "workID": "tamako-love-story",
+   "latitude": 35.03029,
+   "longitude": 135.76905,
+   "sceneHeading": 270,
+   "scenePitch": 0,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "sourceURL": "https://masugata.demachi.jp/",
+   "photo": "File:Demachi arcade01.JPG",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "出町桝形商店街（京都·上京区）",
+     "sceneTitle": "隔着商店街的纸杯电话",
+     "episode": "剧场版 · 全片",
+     "highlight": "玉子和饼藏的家隔着一条商店街面对面，两人从小就用一根线连着的纸杯电话从窗口说话。片中的“兔山商店街”以这条带拱廊的老街为原型，热闹又温暖。",
+     "story": "年糕店“玉屋”的女儿玉子和对门年糕店“大路屋”的儿子饼藏，从出生起就是邻居。两家的二楼窗户正对着，小时候两人用纸杯和一根线做了“电话”，隔着商店街说悄悄话。升上高三，大家都开始谈论将来，喜欢电影的饼藏决定去东京读大学。离开之前，他想把藏了很多年的心意告诉玉子——可当那句“喜欢”终于说出口，一心只想着年糕的玉子却慌得不知该怎么回答。",
+     "access": "京阪电车／叡山电车「出町柳」站步行约5分钟，从河原町通一侧进入拱廊",
+     "bestTime": "白天商店营业时间，拱廊里人气最旺；黄昏时分灯光亮起也很有味道",
+     "tips": "这是当地人日常买菜的商店街，请不要堵住通道，拍摄店铺和店员前先打招呼，顺便买点东西支持一下。雨天地面湿滑，注意脚下。"
+    },
+    "ja": {
+     "placeName": "出町桝形商店街（京都市上京区）",
+     "sceneTitle": "商店街越しの糸電話",
+     "episode": "劇場版・全編",
+     "highlight": "たまことしもち蔵の家は商店街をはさんで向かい合い、二人は小さいころから窓越しに糸電話で話してきた。作中の「うさぎ山商店街」のモデルが、このアーケードの商店街。にぎやかで、あたたかい。",
+     "story": "餅屋「たまや」の娘・たまこと、向かいの餅屋「大路屋」の息子・もち蔵は、生まれたときからのお隣さん。二階の窓が向かい合う二人は、幼いころ紙コップと糸で作った電話で、商店街越しに内緒話をしていた。高校3年生になり、みんなが進路の話を始めるなか、映画好きのもち蔵は東京の大学へ行くことを決める。その前に、ずっと胸にしまってきた想いをたまこに伝えたい——けれどついに「好き」と言われたとき、お餅のことばかり考えてきたたまこは、どう返事をしていいかわからなくなってしまう。",
+     "access": "京阪電車・叡山電車「出町柳」駅から徒歩約5分。河原町通側からアーケードへ",
+     "bestTime": "お店が開いている日中がいちばんにぎやか。夕暮れに明かりが灯るころも趣がある",
+     "tips": "地元の人が毎日買い物をする商店街。通路をふさがず、お店や店員さんを撮るときは一声かけて。ついでに何か買って応援しよう。雨の日は足元が滑りやすいので注意。"
+    },
+    "en": {
+     "placeName": "Demachi Masugata Shopping Street (Kamigyo, Kyoto)",
+     "sceneTitle": "A String Phone Across the Street",
+     "episode": "Film · Throughout",
+     "highlight": "Tamako's and Mochizo's homes face each other across a shopping arcade, and since childhood they've talked window to window through a paper-cup string phone. The film's Usagiyama shopping street is modelled on this lively, warm-hearted covered arcade.",
+     "story": "Tamako, daughter of the Tamaya mochi shop, and Mochizo, son of the Oji-ya mochi shop opposite, have been neighbours since birth. Their upstairs windows face each other, and as children they made a telephone out of paper cups and string to whisper across the street. Now in their final year of high school, everyone is talking about the future, and film-loving Mochizo has decided to go to university in Tokyo. Before he leaves, he wants to tell Tamako what he has felt for years — but when he finally says “I like you,” Tamako, whose head has always been full of mochi, has no idea how to answer.",
+     "access": "About 5 minutes' walk from Demachiyanagi Station (Keihan / Eizan lines); enter the arcade from Kawaramachi-dori",
+     "bestTime": "Daytime, when the shops are open and the arcade is busiest; dusk, when the lights come on, is atmospheric too",
+     "tips": "Locals do their daily shopping here, so keep the walkway clear and ask before photographing shops or staff. Buying something is a nice way to say thanks. The floor can be slippery on rainy days."
+    },
+    "ko": {
+     "placeName": "데마치 마스가타 상점가 (교토시 가미교구)",
+     "sceneTitle": "상점가를 사이에 둔 실 전화",
+     "episode": "극장판 · 전편",
+     "highlight": "타마코와 모치조의 집은 상점가를 사이에 두고 마주 보고 있어서, 두 사람은 어릴 때부터 창문 너머로 종이컵 실 전화로 이야기해 왔다. 영화 속 ‘우사기야마 상점가’의 모델이 바로 이 아케이드 상점가다. 북적이고 따뜻한 곳.",
+     "story": "떡집 ‘타마야’의 딸 타마코와 맞은편 떡집 ‘오지야’의 아들 모치조는 태어날 때부터 이웃이다. 2층 창문이 마주 보는 두 사람은 어릴 적 종이컵과 실로 만든 전화로 상점가 너머 비밀 이야기를 나눴다. 고3이 되어 모두가 진로 이야기를 시작할 무렵, 영화를 좋아하는 모치조는 도쿄의 대학에 가기로 한다. 떠나기 전에 오랫동안 품어 온 마음을 타마코에게 전하고 싶다. 하지만 마침내 “좋아해”라는 말을 들은 순간, 머릿속에 떡 생각뿐이던 타마코는 어떻게 대답해야 할지 모른다.",
+     "access": "게이한 전철·에이잔 전철 데마치야나기역에서 도보 약 5분. 가와라마치 거리 쪽에서 아케이드로 들어간다",
+     "bestTime": "가게들이 문을 연 낮이 가장 북적인다. 해 질 녘 불이 켜질 무렵도 운치 있다",
+     "tips": "주민들이 매일 장을 보는 상점가입니다. 통로를 막지 말고, 가게나 점원을 촬영할 때는 먼저 양해를 구하세요. 뭔가 하나 사서 응원해 주면 좋겠죠. 비 오는 날은 바닥이 미끄러우니 조심하세요."
+    }
+   }
+  },
+  {
+   "id": "bakemono-shibuya-scramble",
+   "workID": "boy-and-the-beast",
+   "latitude": 35.65922,
+   "longitude": 139.70068,
+   "sceneHeading": 305,
+   "scenePitch": 0,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "sourceURL": "https://ascii.jp/elem/000/001/031/1031464/",
+   "photo": "File:Shibuya Crossing 20241020.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "涩谷站前 全向十字路口（东京·涩谷）",
+     "sceneTitle": "人潮中的孤独少年",
+     "episode": "剧场版 · 开头",
+     "highlight": "从涩谷站前的全向路口望向中心街，就是九岁的莲独自游荡的那片街头。细田守把涩谷画得一丝不苟，熙熙攘攘的人群里，没有一个人看得见这个孩子。",
+     "story": "九岁的莲失去了母亲，又不愿被素未谋面的亲戚领养，一个人从家里跑了出来。夜晚的涩谷灯火通明，人潮在路口一波又一波地涌过，却没有一个大人在意这个满脸倔强的孩子。他躲进中心街背后的小巷，抱着膝盖缩成一团，心里只剩下对所有人的怨恨。就在这时，一个披着斗篷、像熊一样高大的身影停在他面前，问他：“要不要跟我走？”莲鬼使神差地跟了上去，穿过一条又一条小巷，走进了怪物的世界“涩天街”。",
+     "access": "JR／东急／京王／东京地铁「涩谷」站八公口出站即到",
+     "bestTime": "入夜后霓虹亮起、人潮最多的时候，最像电影里的涩谷",
+     "tips": "路口人流极大，过马路时不要停在路中间拍照，信号灯变红前回到人行道。可在附近建筑的观景处俯拍；请勿妨碍交通或使用三脚架。"
+    },
+    "ja": {
+     "placeName": "渋谷駅前 スクランブル交差点（東京都渋谷区）",
+     "sceneTitle": "雑踏の中のひとりぼっち",
+     "episode": "劇場版・冒頭",
+     "highlight": "渋谷駅前のスクランブル交差点からセンター街を望むと、9歳の蓮がひとりさまよった街並みが広がる。細田守監督が緻密に描き込んだ渋谷の雑踏の中で、誰ひとりこの子どもに気づかない。",
+     "story": "母を亡くした9歳の蓮は、会ったこともない親戚に引き取られるのを拒んで家を飛び出す。夜の渋谷はまぶしく、交差点を人の波が何度も行き過ぎていくのに、意地を張った顔の子どもに目を留める大人はいない。蓮はセンター街の裏路地に逃げ込み、膝を抱えてうずくまる。胸にあるのは、すべての人への恨みだけ。そのとき、マントを羽織った熊のように大きな影が目の前で立ち止まり、「おまえ、俺と来るか」と声をかける。蓮は思わずその後を追い、いくつもの路地を抜けて、バケモノの世界「渋天街」へと迷い込んでいく。",
+     "access": "JR・東急・京王・東京メトロ「渋谷」駅ハチ公口を出てすぐ",
+     "bestTime": "日が暮れてネオンが灯り、人通りがいちばん多くなる時間帯が作中の渋谷に近い",
+     "tips": "交差点は人の流れが非常に多い。横断中に立ち止まって撮影せず、信号が変わる前に歩道へ戻ろう。周辺ビルの展望スペースから見下ろすのもおすすめ。通行の妨げや三脚の使用は控えて。"
+    },
+    "en": {
+     "placeName": "Shibuya Scramble Crossing, Shibuya Station (Shibuya, Tokyo)",
+     "sceneTitle": "Alone in the Crowd",
+     "episode": "Film · Opening",
+     "highlight": "Look from the scramble crossing towards Center-gai and you're in the streets where nine-year-old Ren wanders alone. Hosoda recreated Shibuya in meticulous detail — and in all those crowds, no one notices the boy.",
+     "story": "Nine-year-old Ren has lost his mother and, refusing to be taken in by relatives he has never met, runs away from home. Night-time Shibuya is dazzling; wave after wave of people surge across the crossing, yet not one adult looks twice at the stubborn-faced child. He hides in a back alley behind Center-gai, hugging his knees, full of resentment towards everyone. Then a huge, bear-like figure in a cloak stops in front of him and asks, “Want to come with me?” Almost without meaning to, Ren follows — through alley after alley, until he finds himself in Jutengai, the world of the beasts.",
+     "access": "Right outside the Hachiko Exit of Shibuya Station (JR / Tokyu / Keio / Tokyo Metro)",
+     "bestTime": "After dark, when the neon is on and the crowds peak — just like the film's Shibuya",
+     "tips": "The crossing is extremely busy. Don't stop in the middle to take photos, and get back to the pavement before the lights change. Viewing decks in nearby buildings give a great overhead view. Don't block traffic or use a tripod."
+    },
+    "ko": {
+     "placeName": "시부야역 앞 스크램블 교차로 (도쿄 시부야)",
+     "sceneTitle": "인파 속의 외톨이 소년",
+     "episode": "극장판 · 도입부",
+     "highlight": "시부야역 앞 스크램블 교차로에서 센터 거리를 바라보면, 아홉 살 렌이 홀로 헤매던 거리가 펼쳐진다. 호소다 마모루 감독이 세밀하게 재현한 시부야의 인파 속에서, 누구도 이 아이를 알아보지 못한다.",
+     "story": "엄마를 잃은 아홉 살 렌은 한 번도 본 적 없는 친척에게 맡겨지기를 거부하고 집을 뛰쳐나온다. 밤의 시부야는 눈부시고, 교차로에는 사람의 물결이 몇 번이고 지나가지만 고집스러운 얼굴의 아이에게 눈길을 주는 어른은 없다. 렌은 센터 거리 뒷골목으로 숨어들어 무릎을 끌어안고 웅크린다. 가슴속에 남은 건 모든 사람에 대한 원망뿐. 그때 망토를 걸친, 곰처럼 커다란 그림자가 그의 앞에 멈춰 서서 묻는다. “너, 나랑 같이 갈래?” 렌은 저도 모르게 그 뒤를 따라가, 골목을 몇 개나 지나 괴물들의 세계 ‘쥬텐가이’로 들어서게 된다.",
+     "access": "JR·도큐·게이오·도쿄 메트로 시부야역 하치코 출구를 나오면 바로",
+     "bestTime": "해가 지고 네온이 켜지며 인파가 가장 많은 시간대가 영화 속 시부야와 가깝다",
+     "tips": "교차로는 인파가 매우 많습니다. 건너는 도중에 멈춰 서서 촬영하지 말고, 신호가 바뀌기 전에 보도로 돌아오세요. 주변 건물 전망 공간에서 내려다보는 것도 추천합니다. 통행을 방해하거나 삼각대를 쓰지 마세요."
+    }
+   }
+  }
+ ]
+}

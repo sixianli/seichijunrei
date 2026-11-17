@@ -19,11 +19,10 @@ final class NotificationService: NSObject, UNUserNotificationCenterDelegate {
 
     /// spotID → 圣地（直接读取内置数据，保证 App 在后台被地理围栏唤醒时也能拿到文案）
     private lazy var spotsByID: [String: Spot] = {
-        guard let url = Bundle.main.url(forResource: "spots", withExtension: "json"),
+        guard let url = Bundle.main.url(forResource: "catalog", withExtension: "json"),
               let data = try? Data(contentsOf: url),
               let spots = try? SpotCatalog.decode(data) else { return [:] }
-        let language = AppLanguage.current
-        return Dictionary(uniqueKeysWithValues: spots.map { ($0.id, $0.localized(to: language)) })
+        return Dictionary(uniqueKeysWithValues: spots.map { ($0.id, $0) })
     }()
 
     func requestAuthorization() {
@@ -33,7 +32,8 @@ final class NotificationService: NSObject, UNUserNotificationCenterDelegate {
     }
 
     func notifyArrival(spotID: String) {
-        guard let spot = spotsByID[spotID] else { return }
+        // 每次按当前界面语言本地化（用户可能在 App 内切换过语言）
+        guard let spot = spotsByID[spotID]?.localized(to: AppLanguage.current) else { return }
         let content = UNMutableNotificationContent()
         content.title = L("notif.title", spot.workTitle)
         content.body = L("notif.body", spot.quotedSceneTitle)

@@ -7,13 +7,14 @@ import Foundation
 public enum SpotSearch {
     /// 一部作品及其匹配到的名场面
     public struct WorkMatch: Identifiable, Hashable, Sendable {
+        public var workID: String
         public var work: String
         public var workLocalized: String?
         public var mediaType: MediaType
         public var spots: [Spot]
         /// 相关度，越大越靠前
         public var score: Int
-        public var id: String { work }
+        public var id: String { workID }
     }
 
     /// 把文本归一化，便于宽松匹配。
@@ -61,26 +62,27 @@ public enum SpotSearch {
 
     /// - Parameters:
     ///   - query: 关键词；为空时返回全部作品（按数据顺序）
-    ///   - mediaType: 只搜索某种类型，nil 表示全部
+    ///   - category: 只搜索某个大类（日漫 / 日剧 / 日影），nil 表示全部
     public static func search(_ query: String, in spots: [Spot],
-                              mediaType: MediaType? = nil) -> [WorkMatch] {
-        let candidates = spots.filter { mediaType == nil || $0.mediaType == mediaType }
+                              category: MediaCategory? = nil) -> [WorkMatch] {
+        let candidates = spots.filter { category == nil || $0.mediaType.category == category }
         let q = normalize(query)
 
         // 按作品分组，保持数据中的出现顺序
         var order: [String] = []
         var groups: [String: [Spot]] = [:]
         for s in candidates {
-            if groups[s.work] == nil { order.append(s.work) }
-            groups[s.work, default: []].append(s)
+            if groups[s.workID] == nil { order.append(s.workID) }
+            groups[s.workID, default: []].append(s)
         }
 
         var results: [WorkMatch] = []
-        for (index, work) in order.enumerated() {
-            let workSpots = groups[work]!
+        for (index, workID) in order.enumerated() {
+            let workSpots = groups[workID]!
             let first = workSpots[0]
+            let work = first.work
             if q.isEmpty {
-                results.append(WorkMatch(work: work, workLocalized: first.workLocalized,
+                results.append(WorkMatch(workID: workID, work: work, workLocalized: first.workLocalized,
                                          mediaType: first.mediaType, spots: workSpots,
                                          score: -index))
                 continue
@@ -88,13 +90,13 @@ public enum SpotSearch {
             let ws = workSpots.map { workScore($0, query: q) }.max() ?? 0
             if ws > 0 {
                 // 作品名匹配：返回这部作品的全部名场面
-                results.append(WorkMatch(work: work, workLocalized: first.workLocalized,
+                results.append(WorkMatch(workID: workID, work: work, workLocalized: first.workLocalized,
                                          mediaType: first.mediaType, spots: workSpots, score: ws))
             } else {
                 // 只匹配到具体场景/地点：只返回匹配到的那几个
                 let scored = workSpots.map { ($0, sceneScore($0, query: q)) }.filter { $0.1 > 0 }
                 if let best = scored.map(\.1).max() {
-                    results.append(WorkMatch(work: work, workLocalized: first.workLocalized,
+                    results.append(WorkMatch(workID: workID, work: work, workLocalized: first.workLocalized,
                                              mediaType: first.mediaType, spots: scored.map(\.0), score: best))
                 }
             }

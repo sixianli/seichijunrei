@@ -3,10 +3,14 @@ import CoreLocation
 import Observation
 import SeichiCore
 
-/// 圣地数据源。目前读取 App 内置的 spots.json，以后可以替换为远程 API。
+/// 圣地数据源。读取 App 内置的 catalog.json（由 tools/catalog.py 从 data/ 生成），以后可以替换为远程 API。
 @Observable
 final class SpotStore {
+    /// 当前界面语言下的名场面
     private(set) var spots: [Spot] = []
+    /// 未本地化的原始数据（切换语言时重新本地化）
+    @ObservationIgnored private var rawSpots: [Spot] = []
+    @ObservationIgnored private var language: String?
     /// 按距离排序的附近圣地（全部，已排序）
     private(set) var nearby: [NearbySpot] = []
     private(set) var loadError: String?
@@ -18,18 +22,24 @@ final class SpotStore {
     var searchRadius: Double = 30_000
 
     func load(bundle: Bundle = .main) {
-        guard spots.isEmpty else { return }
+        guard rawSpots.isEmpty else { return }
         do {
-            guard let url = bundle.url(forResource: "spots", withExtension: "json") else {
+            guard let url = bundle.url(forResource: "catalog", withExtension: "json") else {
                 loadError = L("data.missing"); return
             }
-            // 按当前界面语言替换文案（翻译保留，搜索时可匹配所有语言）
-            let language = AppLanguage.current
-            spots = try SpotCatalog.decode(Data(contentsOf: url)).map { $0.localized(to: language) }
-            if let p = userPoint { recompute(from: p) }
+            rawSpots = try SpotCatalog.decode(Data(contentsOf: url))
+            applyLanguage(AppLanguage.current)
         } catch {
             loadError = L("data.parseFailed", error.localizedDescription)
         }
+    }
+
+    /// 按界面语言替换文案（翻译保留，搜索时可匹配所有语言）
+    func applyLanguage(_ code: String) {
+        guard code != language || spots.isEmpty else { return }
+        language = code
+        spots = rawSpots.map { $0.localized(to: code) }
+        if let p = userPoint { recompute(from: p) }
     }
 
     func update(userLocation: CLLocation) {
