@@ -87,7 +87,7 @@ struct PhotographerModeView: View {
     @State private var lastSpoken: (key: String, time: CFTimeInterval) = ("", 0)
     @State private var subjectAtShutter: UnitRect?
     @State private var result: UIImage?
-    @State private var showShare = false
+    @State private var closeAfterResult = false
 
     private let ticker = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
     /// 开始时的变焦倍数：留出缩小的余地，让自动变焦可以双向微调
@@ -127,7 +127,6 @@ struct PhotographerModeView: View {
             FramingEditorView(spot: spot)
         }
         .sheet(isPresented: $showPaywall) { PaywallView() }
-        .sheet(isPresented: $showShare) { ShareComposerView(spot: spot) }
     }
 
     // MARK: 交接页（给被拍的人看）
@@ -271,23 +270,24 @@ struct PhotographerModeView: View {
                         .accessibilityIdentifier("pgCountdown")
                 }
 
-                if let result {
-                    Color.black.opacity(0.6).ignoresSafeArea()
-                        .transition(.opacity)
-                    ResultCard(image: result, tint: spot.tintColor,
-                               onShare: { showShare = true },
-                               onRetake: { self.result = nil },
-                               onDone: { dismiss() })
-                        .frame(maxWidth: 420)
-                        .padding()
-                        .transition(.opacity.combined(with: .scale(scale: 0.95)))
-                }
             }
             .ignoresSafeArea()
         }
         .environment(\.colorScheme, .dark)
         .statusBarHidden()
         .onReceive(ticker) { _ in tick() }
+        // 拍好的照片用系统 sheet 展示：可以分享、重拍或完成
+        .sheet(isPresented: Binding(get: { result != nil }, set: { if !$0 { result = nil } }),
+               onDismiss: { if closeAfterResult { dismiss() } }) {
+            if let result {
+                ResultSheet(image: result, spot: spot, onDone: {
+                    // 先收起结果页，收起后再关闭帮拍模式
+                    closeAfterResult = true
+                    self.result = nil
+                })
+                    .presentationDetents([.large])
+            }
+        }
     }
 
     private var topBar: some View {
@@ -554,7 +554,7 @@ struct PhotographerModeView: View {
                                  longitude: location.lastLocation?.coordinate.longitude)
         pilgrimage.attachPhoto(final, spotID: spot.id)
         haptics.success()
-        withAnimation(.spring) { result = final }
+        result = final
     }
 }
 
@@ -667,34 +667,47 @@ struct FramingPreview: View {
     }
 }
 
-private struct ResultCard: View {
+/// 拍好的照片：已按原作构图裁切并存入相册
+private struct ResultSheet: View {
     let image: UIImage
-    let tint: Color
-    let onShare: () -> Void
-    let onRetake: () -> Void
+    let spot: Spot
     let onDone: () -> Void
+    @Environment(\.dismiss) private var dismiss
+    @State private var showShare = false
 
     var body: some View {
-        VStack(spacing: 14) {
-            Image(uiImage: image)
-                .resizable().scaledToFit()
-                .frame(maxHeight: 420)
-                .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
-            Label(L("pg.saved"), systemImage: "checkmark.circle.fill")
-                .font(.subheadline.bold())
-                .accessibilityIdentifier("pgSaved")
-            HStack(spacing: 12) {
-                Button(action: onRetake) { Label(L("pg.retake"), systemImage: "arrow.counterclockwise") }
+        NavigationStack {
+            VStack(spacing: 18) {
+                Image(uiImage: image)
+                    .resizable()
+                    .scaledToFit()
+                    .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .accessibilityHidden(true)
+                Label(L("pg.saved"), systemImage: "checkmark.circle.fill")
+                    .font(.headline)
+                    .foregroundStyle(spot.tintColor)
+                    .accessibilityIdentifier("pgSaved")
+                HStack(spacing: 12) {
+                    Button { dismiss() } label: {
+                        Label(L("pg.retake"), systemImage: "arrow.counterclockwise")
+                            .frame(maxWidth: .infinity, minHeight: 30)
+                    }
                     .glassButton()
-                Button(action: onShare) { Label(L("share.share"), systemImage: "square.and.arrow.up") }
-                    .glassButton(prominent: true, tint: tint)
-                Button(L("common.done"), action: onDone).glassButton()
+                    Button { showShare = true } label: {
+                        Label(L("share.share"), systemImage: "square.and.arrow.up")
+                            .frame(maxWidth: .infinity, minHeight: 30)
+                    }
+                    .glassButton(prominent: true, tint: spot.tintColor)
+                }
+                .controlSize(.large)
+            }
+            .padding()
+            .toolbar {
+                ToolbarItem(placement: .confirmationAction) { Button(L("common.done"), action: onDone) }
             }
         }
-        .foregroundStyle(.white)
-        .padding()
-        // 结果卡片是内容而不是控件：用实底，避免玻璃形变动画从附近的按钮“长出来”
-        .background(Color(white: 0.12), in: RoundedRectangle(cornerRadius: 30, style: .continuous))
+        .sheet(isPresented: $showShare) { ShareComposerView(spot: spot) }
     }
 }
 
