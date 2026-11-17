@@ -8,6 +8,9 @@ final class SmokeUITests: XCTestCase {
     override func setUpWithError() throws {
         continueAfterFailure = false
         app = XCUIApplication()
+        // 把位置固定在「須賀神社」（《君の名は。》）的机位
+        app.launchEnvironment["SEICHI_SIM_LAT"] = "35.68540"
+        app.launchEnvironment["SEICHI_SIM_LON"] = "139.72265"
         app.launch()
         dismissSystemAlerts()
     }
@@ -40,7 +43,11 @@ final class SmokeUITests: XCTestCase {
     func testMainFlow() throws {
         // 1. 地图首页 + 到达横幅（模拟器定位在須賀神社）
         let banner = app.buttons["arrivalBanner"]
-        XCTAssertTrue(banner.waitForExistence(timeout: 20), "站在机位附近时应显示到达横幅")
+        if !banner.waitForExistence(timeout: 20) {
+            snapshot("01-map-no-banner")
+            print(app.debugDescription)
+            XCTFail("站在机位附近时应显示到达横幅")
+        }
         snapshot("01-map-arrived")
 
         // 2. 按作品名搜索
@@ -80,7 +87,9 @@ final class SmokeUITests: XCTestCase {
         XCTAssertTrue(open.waitForExistence(timeout: 10))
         open.tap()
         XCTAssertTrue(app.staticTexts["全部名场面"].waitForExistence(timeout: 5))
-        app.buttons["电视剧"].firstMatch.tap()
+        let picker = app.segmentedControls.firstMatch
+        XCTAssertTrue(picker.waitForExistence(timeout: 5))
+        picker.buttons["电视剧"].tap()
         XCTAssertTrue(app.staticTexts["月台栏杆上的白手帕"].waitForExistence(timeout: 5),
                       "电视剧筛选应显示《东京爱情故事》的名场面")
         snapshot("06-list-drama")

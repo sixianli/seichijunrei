@@ -1,4 +1,5 @@
 import SwiftUI
+import SeichiCore
 
 @main
 struct SeichiJunreiApp: App {
@@ -13,6 +14,14 @@ struct SeichiJunreiApp: App {
                 .task {
                     store.load()
                     location.start()
+                    #if DEBUG
+                    // UI 测试 / 演示：通过环境变量把位置固定在某个坐标
+                    let env = ProcessInfo.processInfo.environment
+                    if let lat = env["SEICHI_SIM_LAT"].flatMap(Double.init),
+                       let lon = env["SEICHI_SIM_LON"].flatMap(Double.init) {
+                        location.simulate(at: GeoPoint(latitude: lat, longitude: lon))
+                    }
+                    #endif
                     NotificationService.shared.requestAuthorization()
                     NotificationService.shared.onOpenSpot = { id in store.requestedSpotID = id }
                 }
