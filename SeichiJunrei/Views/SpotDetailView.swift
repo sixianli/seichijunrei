@@ -12,6 +12,7 @@ struct SpotDetailView: View {
     @Environment(\.openURL) private var openURL
     @Environment(PilgrimageStore.self) private var pilgrimage
     @State private var showShare = false
+    @State private var showCalibration = false
     @State private var pickedPhoto: PhotosPickerItem?
     @State private var imageMessage: String?
 
@@ -106,6 +107,14 @@ struct SpotDetailView: View {
                 }
                 .glassButton()
 
+                // 现场的用户帮忙校准机位（坐标偏差大时，用户可能永远触发不了“到达”，所以详情页也要有入口）
+                Button { showCalibration = true } label: {
+                    Label(L("calib.entry"), systemImage: "scope")
+                        .frame(maxWidth: .infinity)
+                }
+                .glassButton(tint: spot.tintColor)
+                .accessibilityIdentifier("detailCalibrate")
+
                 if !spot.verified {
                     Label(L("detail.unverified"), systemImage: "info.circle")
                         .font(.caption2)
@@ -123,6 +132,7 @@ struct SpotDetailView: View {
             .padding()
         }
         .sheet(isPresented: $showShare) { ShareComposerView(spot: spot) }
+        .sheet(isPresented: $showCalibration) { CalibrationView(spot: spot) }
     }
 }
 

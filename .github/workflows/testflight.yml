@@ -75,9 +75,9 @@ jobs:
 
       - name: Archive (signed)
         if: steps.config.outputs.signed == 'true'
-        # 打包时不签名，签名统一交给下一步导出：
+        # 打包时只做 ad-hoc 签名（把 iCloud 等 entitlements 写进二进制），真正的签名交给下一步导出：
         # 自动签名在打包阶段只能用开发证书，而开发描述文件要求团队至少注册一台设备；
-        # 导出时用 API 密钥调用苹果的云端托管分发证书签名，不需要设备，也不需要在 CI 里保存证书。
+        # 导出时用 API 密钥调用苹果的云端托管分发证书重新签名，不需要设备，也不需要在 CI 里保存证书。
         run: |
           set -o pipefail
           xcodebuild -project SeichiJunrei.xcodeproj -scheme SeichiJunrei \
@@ -87,8 +87,23 @@ jobs:
             DEVELOPMENT_TEAM="$TEAM_ID" \
             MARKETING_VERSION="$MARKETING_VERSION" \
             CURRENT_PROJECT_VERSION="$BUILD_NUMBER" \
-            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGN_STYLE=Manual \
+            CODE_SIGN_IDENTITY="-" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=YES \
+            PROVISIONING_PROFILE_SPECIFIER="" \
             archive | tail -n 80
+
+      - name: Verify entitlements in the archive
+        if: steps.config.outputs.signed == 'true'
+        run: |
+          APP="$RUNNER_TEMP/SeichiJunrei.xcarchive/Products/Applications/SeichiJunrei.app"
+          codesign -d --entitlements - --xml "$APP" > "$RUNNER_TEMP/ent.plist" 2>/dev/null || true
+          plutil -p "$RUNNER_TEMP/ent.plist" || true
+          if ! grep -q "iCloud.com.xianlisi.seichijunrei" "$RUNNER_TEMP/ent.plist"; then
+            echo "::error::归档中缺少 iCloud entitlements，校准数据将无法提交到 CloudKit"
+            exit 1
+          fi
 
       - name: Upload to App Store Connect (TestFlight)
         if: steps.config.outputs.signed == 'true'

@@ -7,9 +7,24 @@
 	<false/>
 	<key>NSPrivacyTrackingDomains</key>
 	<array/>
-	<!-- 位置、照片、巡礼记录都只保存在本机，不会发送给开发者或第三方，因此不属于“收集的数据” -->
+	<!-- 照片、巡礼记录只保存在本机。
+	     用户主动提交“机位校准”时，会把当时的位置（即圣地机位坐标）发送到本 App 的 CloudKit 公共数据库，
+	     用于改进圣地数据；不与身份关联，不用于跟踪。 -->
 	<key>NSPrivacyCollectedDataTypes</key>
-	<array/>
+	<array>
+		<dict>
+			<key>NSPrivacyCollectedDataType</key>
+			<string>NSPrivacyCollectedDataTypePreciseLocation</string>
+			<key>NSPrivacyCollectedDataTypeLinked</key>
+			<false/>
+			<key>NSPrivacyCollectedDataTypeTracking</key>
+			<false/>
+			<key>NSPrivacyCollectedDataTypePurposes</key>
+			<array>
+				<string>NSPrivacyCollectedDataTypePurposeAppFunctionality</string>
+			</array>
+		</dict>
+	</array>
 	<!-- 需要声明理由的 API：UserDefaults 只用于保存本 App 自己的设置（免费额度、提示是否关闭） -->
 	<key>NSPrivacyAccessedAPITypes</key>
 	<array>

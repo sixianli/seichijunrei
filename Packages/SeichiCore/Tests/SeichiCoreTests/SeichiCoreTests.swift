@@ -439,3 +439,47 @@ final class PilgrimageTests: XCTestCase {
         XCTAssertEqual(ShareFormatting.coordinate(latitude: -33.9, longitude: -70.5), "33.9000°S 70.5000°W")
     }
 }
+
+final class CalibrationTests: XCTestCase {
+    let listed = GeoPoint(latitude: 35.68540, longitude: 139.72265)
+
+    func reading(acc: Double = 5, heading: Double? = 270, hAcc: Double = 8,
+                 lat: Double = 35.68541, lon: Double = 139.72266) -> CalibrationReading {
+        CalibrationReading(latitude: lat, longitude: lon, horizontalAccuracy: acc,
+                           heading: heading, headingAccuracy: hAcc, pitch: 10)
+    }
+
+    func testGoodReadingHasNoIssues() {
+        XCTAssertEqual(CalibrationQuality.issues(for: reading(), listed: listed), [])
+        XCTAssertTrue(CalibrationQuality.isGood(reading(), listed: listed))
+        XCTAssertTrue(CalibrationQuality.canSubmit(reading()))
+    }
+
+    func testPoorSensorsAreReported() {
+        let r = reading(acc: 40, hAcc: 35)
+        XCTAssertEqual(CalibrationQuality.issues(for: r, listed: listed), [.poorGPS(40), .poorCompass(35)])
+        XCTAssertFalse(CalibrationQuality.isGood(r, listed: listed))
+        XCTAssertTrue(CalibrationQuality.canSubmit(r), "精度差也允许提交，由开发者筛选")
+        XCTAssertEqual(CalibrationQuality.issues(for: reading(heading: nil), listed: listed), [.noHeading])
+        XCTAssertFalse(CalibrationQuality.canSubmit(reading(heading: nil)))
+        XCTAssertFalse(CalibrationQuality.canSubmit(reading(acc: -1)))
+    }
+
+    func testFarFromListedIsOnlyAWarning() {
+        // 现有坐标可能偏差很大（例如 2km），用户在真实机位提交时只提示、不阻止
+        let r = reading(lat: 35.70340, lon: 139.72265)
+        let issues = CalibrationQuality.issues(for: r, listed: listed)
+        XCTAssertEqual(issues.count, 1)
+        guard case .farFromListed(let d) = issues[0] else { return XCTFail() }
+        XCTAssertEqual(d, 2_000, accuracy: 30)
+        XCTAssertTrue(CalibrationQuality.isGood(r, listed: listed))
+    }
+
+    func testSubmissionTrimsNoteAndRoundTrips() throws {
+        let s = CalibrationSubmission(spotID: "x", reading: reading(), note: String(repeating: "あ", count: 800),
+                                      appVersion: "0.1.0 (5)", locale: "ja_JP")
+        XCTAssertEqual(s.note.count, 500)
+        let data = try JSONEncoder().encode(s)
+        XCTAssertEqual(try JSONDecoder().decode(CalibrationSubmission.self, from: data), s)
+    }
+}

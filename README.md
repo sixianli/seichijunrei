@@ -61,6 +61,34 @@
 - 本地测试：`SeichiJunrei.storekit` 已挂到 Run scheme，在模拟器里运行即可模拟购买；`SeichiJunreiTests` 用 StoreKitTest 跑真实的购买、顺延、恢复、退款流程。
 - 上架前：在 App Store Connect 用上面的商品 ID 创建商品（或改 `StoreProductID`），加入 Small Business Program（抽成 15%），并在 App 描述里写清楚通行证不自动续费。
 
+## 用户校准机位（CloudKit）
+
+免费公测期的核心目标是用用户的现场数据把机位校准准确：
+
+- 入口：详情页「我在现场，帮忙校准机位」，以及名场面模式底部的「校准机位」。
+- 校准页实时显示 GPS 精度、朝向（含误差）、俯仰角、离现有机位的距离，并给出质量提示（`SeichiCore/Calibration.swift`，有单元测试）。
+- 提交到 **CloudKit 公共数据库**（容器 `iCloud.com.xianlisi.seichijunrei`，记录类型 `Calibration`），用户无需登录 App；断网或未登录 iCloud 时先保存在本机，下次启动自动补传，也可以复制 JSON 发给开发者。
+- 提交内容：位置、朝向、俯仰角、精度、备注、App 版本、语言区域；不含姓名、联系方式、照片。隐私清单已声明「精确位置 · App 功能 · 不关联身份 · 不用于跟踪」，在 App Store Connect 填写隐私标签时保持一致。
+
+**一次性配置（苹果开发者网站 / CloudKit Console）**
+
+1. [Identifiers](https://developer.apple.com/account/resources/identifiers/list/cloudContainer) → 右上角筛选切到 **iCloud Containers** → `+` → 填 `iCloud.com.xianlisi.seichijunrei`。
+2. 回到 App ID `com.xianlisi.seichijunrei` → 勾选 **iCloud**（选 Include CloudKit support）→ Configure → 勾选上面的容器 → Save。
+3. 打开 [CloudKit Console](https://icloud.developer.apple.com) → 选择该容器 → **Development** 环境 → Schema → Record Types → 新建 `Calibration`，添加字段：
+
+   | 字段 | 类型 |
+   | --- | --- |
+   | `spotID` | String（勾选 Queryable、Sortable） |
+   | `latitude` / `longitude` | Double |
+   | `location` | Location |
+   | `horizontalAccuracy` / `heading` / `headingAccuracy` / `pitch` | Double |
+   | `note` / `appVersion` / `locale` | String |
+   | `capturedAt` | Date/Time（勾选 Sortable） |
+
+   再在 Indexes 里给 `recordName` 加 Queryable 索引（这样 Console 里才能列出全部记录）。
+4. **Deploy Schema Changes…** 部署到 **Production**（TestFlight 和 App Store 版本都写入 Production 环境；没部署时提交会失败并保存在用户手机上，部署后自动补传）。
+5. 查看数据：CloudKit Console → Production → Public Database → Records → 类型 `Calibration` → 按 `spotID` 查询。
+
 ## 发布到 TestFlight（GitHub Actions）
 
 工作流 `.github/workflows/testflight.yml`：在 GitHub 上手动触发，CI 会用 App Store Connect API 密钥自动签名、打包 Release 版并上传，构建号自动递增（`github.run_number`）。

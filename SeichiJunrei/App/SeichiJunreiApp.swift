@@ -17,6 +17,8 @@ struct SeichiJunreiApp: App {
                 .environment(pilgrimage)
                 .task {
                     storeKit.start()
+                    // 之前因断网 / 未登录 iCloud 没能提交的校准数据，自动补传
+                    Task { await CalibrationService.shared.retryPending() }
                     store.load()
                     location.start()
                     #if DEBUG
