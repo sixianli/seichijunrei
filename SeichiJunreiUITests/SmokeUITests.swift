@@ -35,11 +35,10 @@ final class SmokeUITests: XCTestCase {
         banner.tap()
         dismissSystemAlerts(timeout: 4)   // 相机权限弹窗
         // 已对准时庆祝画面会很快出现，并暂时隐藏顶部的关闭按钮，所以两者出现其一即表示已进入名场面模式
-        let entered = NSPredicate { _, _ in
-            self.app.buttons["closeScene"].exists || self.app.staticTexts["celebrationTitle"].exists
-        }
-        let expectation = XCTNSPredicateExpectation(predicate: entered, object: nil)
-        XCTAssertEqual(XCTWaiter().wait(for: [expectation], timeout: 10), .completed, "应进入名场面模式")
+        let entered = app.descendants(matching: .any)
+            .matching(NSPredicate(format: "identifier IN %@", ["closeScene", "celebrationTitle"]))
+            .firstMatch
+        XCTAssertTrue(entered.waitForExistence(timeout: 15), "应进入名场面模式")
     }
 
     /// 免费额度用完：到达机位后显示锁定层，点按钮弹出付费墙（含恢复购买）
