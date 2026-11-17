@@ -160,6 +160,58 @@
    }
   },
   {
+   "id": "arrietty",
+   "title": "借りぐらしのアリエッティ",
+   "mediaType": "animeFilm",
+   "year": 2010,
+   "creator": "米林宏昌 / スタジオジブリ",
+   "tint": "#7FA84A",
+   "aliases": [
+    "The Secret World of Arrietty",
+    "Arrietty",
+    "Karigurashi no Arrietty",
+    "アリエッティ",
+    "借东西的小人阿莉埃蒂",
+    "借物少女艾莉緹",
+    "마루 밑 아리에티",
+    "米林宏昌",
+    "Hiromasa Yonebayashi",
+    "요네바야시 히로마사",
+    "宫崎骏",
+    "宮崎駿",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
+   "officialURL": "https://www.ghibli.jp/works/karigurashi/",
+   "text": {
+    "zh-Hans": {
+     "title": "借东西的小人阿莉埃蒂",
+     "creator": "米林宏昌 / 吉卜力工作室",
+     "synopsis": "在一座老宅的地板下，住着身高只有十厘米的小人一家，他们靠悄悄向人类“借东西”过日子。十四岁的阿莉埃蒂第一次跟父亲出门“借东西”的那晚，被来老宅静养的少年翔看见了。"
+    },
+    "zh-Hant": {
+     "title": "借物少女艾莉緹",
+     "creator": "米林宏昌 / 吉卜力工作室",
+     "synopsis": "在一座老宅的地板下，住著身高只有十釐米的小人一家，他們靠悄悄向人類「借東西」過日子。十四歲的阿莉埃蒂第一次跟父親出門「借東西」的那晚，被來老宅靜養的少年翔看見了。"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "古い屋敷の床下に、身長10センチほどの小人の一家が暮らしていた。人間の家から必要なものを少しずつ「借り」て生きる彼らの掟は、人間に姿を見られないこと。14歳のアリエッティは初めての「借り」の夜、療養に来た少年・翔に見られてしまう。"
+    },
+    "en": {
+     "title": "The Secret World of Arrietty",
+     "creator": "Hiromasa Yonebayashi / Studio Ghibli",
+     "synopsis": "Beneath the floor of an old house lives a family of tiny people who survive by quietly borrowing from humans, and their first rule is never to be seen. On her first borrowing trip, fourteen-year-old Arrietty is spotted by Shō, a boy staying at the house to rest."
+    },
+    "ko": {
+     "title": "마루 밑 아리에티",
+     "creator": "요네바야시 히로마사 / 스튜디오 지브리",
+     "synopsis": "오래된 저택의 마루 밑에는 키 10센티미터 남짓한 소인 가족이 인간의 물건을 조금씩 ‘빌려’ 살고 있다. 열네 살 아리에티는 처음으로 ‘빌리기’에 나선 밤, 요양하러 온 소년 쇼에게 모습을 들키고 만다."
+    }
+   }
+  },
+  {
    "id": "belle",
    "title": "竜とそばかすの姫",
    "mediaType": "animeFilm",
@@ -718,6 +770,60 @@
    }
   },
   {
+   "id": "from-up-on-poppy-hill",
+   "title": "コクリコ坂から",
+   "mediaType": "animeFilm",
+   "year": 2011,
+   "creator": "宮崎吾朗 / スタジオジブリ",
+   "tint": "#C9473A",
+   "aliases": [
+    "From Up on Poppy Hill",
+    "Kokurikozaka kara",
+    "コクリコ坂",
+    "来自红花坂",
+    "來自紅花坂",
+    "虞美人盛開的山坡",
+    "코쿠리코 언덕에서",
+    "宫崎吾朗",
+    "宮崎吾朗",
+    "Gorō Miyazaki",
+    "Goro Miyazaki",
+    "미야자키 고로",
+    "宫崎骏",
+    "宮崎駿",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
+   "officialURL": "https://www.ghibli.jp/works/kokurikozaka/",
+   "text": {
+    "zh-Hans": {
+     "title": "来自红花坂",
+     "creator": "宫崎吾朗 / 吉卜力工作室",
+     "synopsis": "1963年的横滨，东京奥运会前夕。高中女生松崎海每天清晨在山坡上的寄宿屋“红花庄”升起信号旗。一场保卫老社团楼“拉丁区”的学生运动，让她与学长风间俊越走越近。"
+    },
+    "zh-Hant": {
+     "title": "來自紅花坂",
+     "creator": "宮崎吾朗 / 吉卜力工作室",
+     "synopsis": "1963年的橫濱，東京奧運會前夕。高中女生松崎海每天清晨在山坡上的寄宿屋「紅花莊」升起訊號旗。一場保衛老社團樓「拉丁區」的學生運動，讓她與學長風間俊越走越近。"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "東京オリンピックを翌年に控えた1963年の横浜。港を見下ろす丘の上の下宿「コクリコ荘」で暮らす高校生・松崎海は、毎朝欠かさず信号旗を揚げている。古い部室棟「カルチェラタン」の取り壊し反対運動を通じて、彼女は先輩の風間俊と心を通わせていく。"
+    },
+    "en": {
+     "title": "From Up on Poppy Hill",
+     "creator": "Gorō Miyazaki / Studio Ghibli",
+     "synopsis": "Yokohama, 1963, a year before the Tokyo Olympics. Every morning high-schooler Umi Matsuzaki raises signal flags from her family’s boarding house on a hill above the harbour. A campaign to save the school’s old clubhouse brings her close to Shun Kazama."
+    },
+    "ko": {
+     "title": "코쿠리코 언덕에서",
+     "creator": "미야자키 고로 / 스튜디오 지브리",
+     "synopsis": "도쿄 올림픽을 한 해 앞둔 1963년 요코하마. 항구가 내려다보이는 언덕 위 하숙집 ‘코쿠리코 장’에 사는 고등학생 우미는 매일 아침 신호기를 올린다. 낡은 동아리 건물 ‘카르티에 라탱’ 철거 반대 운동을 계기로 그녀는 선배 슌과 가까워진다."
+    }
+   }
+  },
+  {
    "id": "garden-of-words",
    "title": "言の葉の庭",
    "mediaType": "animeFilm",
@@ -856,6 +962,57 @@
      "title": "시간을 달리는 소녀",
      "creator": "호소다 마모루 / 매드하우스",
      "synopsis": "털털한 고등학교 2학년 마코토는 어떤 사고 이후 과거로 ‘타임리프’할 수 있게 된다. 시험을 다시 보고, 푸딩을 되찾고, 치아키·고스케와의 여름날을 몇 번이고 되풀이하지만, 시간을 되돌리는 일에는 생각지 못한 대가가 따른다."
+    }
+   }
+  },
+  {
+   "id": "grave-of-the-fireflies",
+   "title": "火垂るの墓",
+   "mediaType": "animeFilm",
+   "year": 1988,
+   "creator": "高畑勲 / スタジオジブリ",
+   "tint": "#B5651D",
+   "aliases": [
+    "Grave of the Fireflies",
+    "Hotaru no Haka",
+    "萤火虫之墓",
+    "螢火蟲之墓",
+    "再見螢火蟲",
+    "반딧불이의 묘",
+    "野坂昭如",
+    "高畑勋",
+    "高畑勲",
+    "Isao Takahata",
+    "다카하타 이사오",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
+   "officialURL": "https://www.ghibli.jp/works/hotaru/",
+   "text": {
+    "zh-Hans": {
+     "title": "萤火虫之墓",
+     "creator": "高畑勋 / 吉卜力工作室",
+     "synopsis": "1945年夏，神户遭遇空袭，十四岁的清太与四岁的妹妹节子失去了家，只能投靠西宫的远房亲戚。改编自野坂昭如的同名小说，讲述战火中一对兄妹相依为命的日子。"
+    },
+    "zh-Hant": {
+     "title": "螢火蟲之墓",
+     "creator": "高畑勳 / 吉卜力工作室",
+     "synopsis": "1945年夏，神戶遭遇空襲，十四歲的清太與四歲的妹妹節子失去了家，只能投靠西宮的遠房親戚。改編自野坂昭如的同名小說，講述戰火中一對兄妹相依為命的日子。"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "昭和20年夏、神戸の空襲で家と母を失った14歳の清太と4歳の妹・節子は、西宮の親戚の家に身を寄せる。野坂昭如の同名小説を高畑勲が映画化した、戦争の中を懸命に生きようとする兄妹の物語。"
+    },
+    "en": {
+     "title": "Grave of the Fireflies",
+     "creator": "Isao Takahata / Studio Ghibli",
+     "synopsis": "Summer 1945. After an air raid destroys their home in Kobe, fourteen-year-old Seita and his four-year-old sister Setsuko take refuge with relatives in Nishinomiya. Based on Akiyuki Nosaka’s semi-autobiographical story of two children trying to survive the war."
+    },
+    "ko": {
+     "title": "반딧불이의 묘",
+     "creator": "다카하타 이사오 / 스튜디오 지브리",
+     "synopsis": "1945년 여름, 고베 공습으로 집을 잃은 열네 살 세이타와 네 살 여동생 세츠코는 니시노미야의 먼 친척 집에 몸을 의탁한다. 노사카 아키유키의 동명 소설을 원작으로, 전쟁 속에서 서로에게 기대어 살아가는 남매의 이야기."
     }
    }
   },
@@ -2122,6 +2279,57 @@
    }
   },
   {
+   "id": "only-yesterday",
+   "title": "おもひでぽろぽろ",
+   "mediaType": "animeFilm",
+   "year": 1991,
+   "creator": "高畑勲 / スタジオジブリ",
+   "tint": "#E39A1E",
+   "aliases": [
+    "Only Yesterday",
+    "Omohide Poro Poro",
+    "Omoide Poroporo",
+    "岁月的童话",
+    "歲月的童話",
+    "兒時的點點滴滴",
+    "추억은 방울방울",
+    "高畑勋",
+    "高畑勲",
+    "Isao Takahata",
+    "다카하타 이사오",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
+   "officialURL": "https://www.ghibli.jp/works/omoide/",
+   "text": {
+    "zh-Hans": {
+     "title": "岁月的童话",
+     "creator": "高畑勋 / 吉卜力工作室",
+     "synopsis": "1982年夏，二十七岁的东京上班族妙子请了假，独自前往山形的乡下帮忙采红花。夜行列车上，小学五年级时的点点滴滴不断浮上心头，她开始重新打量自己走到今天的人生。"
+    },
+    "zh-Hant": {
+     "title": "兒時的點點滴滴",
+     "creator": "高畑勳 / 吉卜力工作室",
+     "synopsis": "1982年夏，二十七歲的東京上班族妙子請了假，獨自前往山形的鄉下幫忙採紅花。夜行列車上，小學五年級時的點點滴滴不斷浮上心頭，她開始重新打量自己走到今天的人生。"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "1982年の夏、東京で働く27歳のタエ子は休暇を取り、紅花摘みを手伝うため山形の田舎へ向かう。夜行列車に揺られながら、小学5年生の頃の思い出が次々とよみがえり、彼女はこれまでの自分を見つめ直していく。"
+    },
+    "en": {
+     "title": "Only Yesterday",
+     "creator": "Isao Takahata / Studio Ghibli",
+     "synopsis": "Summer 1982. Taeko, a 27-year-old Tokyo office worker, takes time off to help with the safflower harvest in rural Yamagata. On the night train, memories of herself as a fifth-grader keep surfacing, and she begins to look again at the life she has made."
+    },
+    "ko": {
+     "title": "추억은 방울방울",
+     "creator": "다카하타 이사오 / 스튜디오 지브리",
+     "synopsis": "1982년 여름, 도쿄에서 일하는 스물일곱 살 타에코는 휴가를 내고 홍화 수확을 도우러 야마가타 시골로 향한다. 야간열차 안에서 초등학교 5학년 시절의 기억이 하나둘 떠오르며, 그녀는 지금까지의 자신을 돌아보게 된다."
+    }
+   }
+  },
+  {
    "id": "oshi-no-ko",
    "title": "【推しの子】",
    "mediaType": "anime",
@@ -2280,6 +2488,109 @@
      "title": "퍼펙트 데이즈",
      "creator": "빔 벤더스",
      "synopsis": "도쿄 시부야에서 공중화장실 청소부로 일하는 히라야마. 동트기 전에 일어나 카세트테이프를 들으며 출근하고, 점심시간엔 필름 카메라로 나뭇잎 사이로 비치는 햇살을 찍고, 퇴근 후엔 목욕탕과 아사쿠사의 단골 술집에 들렀다가 책을 읽으며 잠든다. 반복되는 하루에 뜻밖의 만남들이 작은 물결을 일으킨다. 야쿠쇼 코지가 칸 영화제 남우주연상을 받았다."
+    }
+   }
+  },
+  {
+   "id": "ponyo",
+   "title": "崖の上のポニョ",
+   "mediaType": "animeFilm",
+   "year": 2008,
+   "creator": "宮崎駿 / スタジオジブリ",
+   "tint": "#E5483A",
+   "aliases": [
+    "Ponyo",
+    "Ponyo on the Cliff by the Sea",
+    "Gake no Ue no Ponyo",
+    "ポニョ",
+    "悬崖上的金鱼姬",
+    "崖上的波妞",
+    "波妞",
+    "벼랑 위의 포뇨",
+    "鞆の浦",
+    "宫崎骏",
+    "宮崎駿",
+    "Hayao Miyazaki",
+    "미야자키 하야오",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
+   "officialURL": "https://www.ghibli.jp/works/ponyo/",
+   "text": {
+    "zh-Hans": {
+     "title": "悬崖上的金鱼姬",
+     "creator": "宫崎骏 / 吉卜力工作室",
+     "synopsis": "住在海边悬崖上的五岁男孩宗介，在岸边救起了一条被困在玻璃瓶里的“金鱼”，给她取名波妞。喜欢上宗介的波妞决心变成人类，却因此搅动了整片大海。"
+    },
+    "zh-Hant": {
+     "title": "崖上的波妞",
+     "creator": "宮崎駿 / 吉卜力工作室",
+     "synopsis": "住在海邊懸崖上的五歲男孩宗介，在岸邊救起了一條被困在玻璃瓶裡的「金魚」，給她取名波妞。喜歡上宗介的波妞決心變成人類，卻因此攪動了整片大海。"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "海辺の崖の上に住む5歳の宗介は、ジャムの瓶にはまって動けなくなった不思議な魚の子を助け、ポニョと名付ける。宗介を好きになったポニョは人間になりたいと願い、その想いが海全体を揺り動かしていく。"
+    },
+    "en": {
+     "title": "Ponyo",
+     "creator": "Hayao Miyazaki / Studio Ghibli",
+     "synopsis": "Five-year-old Sōsuke lives in a house on a cliff above the sea. When he rescues a little fish girl stuck in a jar and names her Ponyo, she falls for him and decides to become human, a wish strong enough to upset the whole ocean."
+    },
+    "ko": {
+     "title": "벼랑 위의 포뇨",
+     "creator": "미야자키 하야오 / 스튜디오 지브리",
+     "synopsis": "바닷가 벼랑 위 집에 사는 다섯 살 소스케는 유리병에 갇힌 작은 물고기 소녀를 구해 ‘포뇨’라는 이름을 붙여 준다. 소스케가 좋아진 포뇨는 인간이 되기로 마음먹고, 그 바람은 온 바다를 뒤흔든다."
+    }
+   }
+  },
+  {
+   "id": "princess-mononoke",
+   "title": "もののけ姫",
+   "mediaType": "animeFilm",
+   "year": 1997,
+   "creator": "宮崎駿 / スタジオジブリ",
+   "tint": "#2F5D3A",
+   "aliases": [
+    "Princess Mononoke",
+    "Mononoke Hime",
+    "幽灵公主",
+    "魔法公主",
+    "幽靈公主",
+    "모노노케 히메",
+    "宫崎骏",
+    "宮崎駿",
+    "Hayao Miyazaki",
+    "미야자키 하야오",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
+   "officialURL": "https://www.ghibli.jp/works/mononoke/",
+   "text": {
+    "zh-Hans": {
+     "title": "幽灵公主",
+     "creator": "宫崎骏 / 吉卜力工作室",
+     "synopsis": "室町时代，虾夷族少年阿席达卡为解除身上的诅咒向西远行，来到人类开山炼铁、与森林诸神对立的土地。他在这里遇见了被山犬养大的少女小桑，试图在两方之间寻找共存之道。"
+    },
+    "zh-Hant": {
+     "title": "魔法公主",
+     "creator": "宮崎駿 / 吉卜力工作室",
+     "synopsis": "室町時代，蝦夷族少年阿席達卡為解除身上的詛咒向西遠行，來到人類開山鍊鐵、與森林諸神對立的土地。他在這裡遇見了被山犬養大的少女小桑，試圖在兩方之間尋找共存之道。"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "室町時代。タタリ神の呪いを受けたエミシの青年アシタカは、その正体を探るため西へ旅立つ。たどり着いたのは、森を切り開くタタラ場の人々と、森を守る神々が激しく対立する土地。そこで彼は山犬に育てられた少女サンと出会う。"
+    },
+    "en": {
+     "title": "Princess Mononoke",
+     "creator": "Hayao Miyazaki / Studio Ghibli",
+     "synopsis": "Cursed by a raging boar god, the young prince Ashitaka travels west in search of a cure. He finds an ironworking town at war with the ancient gods of the forest, and San, a girl raised by wolves, standing fiercely on the forest’s side."
+    },
+    "ko": {
+     "title": "모노노케 히메",
+     "creator": "미야자키 하야오 / 스튜디오 지브리",
+     "synopsis": "재앙신의 저주를 받은 에미시족 청년 아시타카는 저주를 풀기 위해 서쪽으로 길을 떠난다. 그곳에서 숲을 개간하는 제철 마을 사람들과 숲의 신들이 맞서는 모습을 보게 되고, 들개 신에게 자란 소녀 산을 만난다."
     }
    }
   },
@@ -2607,6 +2918,58 @@
      "title": "슬램덩크",
      "creator": "니시자와 노부타카 / 토에이 애니메이션",
      "synopsis": "채소연에게 첫눈에 반한 불량아 강백호는 그녀의 권유로 북산고 농구부에 들어간다. 농구라고는 해 본 적도 없는 초보지만, 타고난 운동 신경과 근성으로 동료들과 함께 전국 제패를 향해 달려간다."
+    }
+   }
+  },
+  {
+   "id": "spirited-away",
+   "title": "千と千尋の神隠し",
+   "mediaType": "animeFilm",
+   "year": 2001,
+   "creator": "宮崎駿 / スタジオジブリ",
+   "tint": "#B83A2E",
+   "aliases": [
+    "Spirited Away",
+    "Sen to Chihiro no Kamikakushi",
+    "千と千尋",
+    "千与千寻",
+    "神隱少女",
+    "千與千尋",
+    "센과 치히로의 행방불명",
+    "油屋",
+    "宫崎骏",
+    "宮崎駿",
+    "Hayao Miyazaki",
+    "미야자키 하야오",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
+   "officialURL": "https://www.ghibli.jp/works/chihiro/",
+   "text": {
+    "zh-Hans": {
+     "title": "千与千寻",
+     "creator": "宫崎骏 / 吉卜力工作室",
+     "synopsis": "十岁的千寻在搬家途中误入一个神灵世界，父母因贪吃变成了猪。为了救回父母、回到人间，她被取走名字成为“千”，在汤婆婆经营的澡堂“油屋”里打工。"
+    },
+    "zh-Hant": {
+     "title": "神隱少女",
+     "creator": "宮崎駿 / 吉卜力工作室",
+     "synopsis": "十歲的千尋在搬家途中誤入一個神靈世界，父母因貪吃變成了豬。為了救回父母、回到人間，她被取走名字成為「千」，在湯婆婆經營的澡堂「油屋」裡打工。"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "引っ越しの途中、10歳の千尋は不思議な町に迷い込み、両親は豚に変えられてしまう。名前を奪われ「千」となった彼女は、湯婆婆が営む八百万の神々の湯屋「油屋」で働きながら、元の世界へ戻る道を探す。"
+    },
+    "en": {
+     "title": "Spirited Away",
+     "creator": "Hayao Miyazaki / Studio Ghibli",
+     "synopsis": "On the way to her new home, ten-year-old Chihiro wanders into a world of spirits where her parents are turned into pigs. Renamed Sen, she must work in the witch Yubaba’s bathhouse for the gods to find a way to save them and return home."
+    },
+    "ko": {
+     "title": "센과 치히로의 행방불명",
+     "creator": "미야자키 하야오 / 스튜디오 지브리",
+     "synopsis": "이사 가던 길에 열 살 치히로는 신들의 세계에 잘못 들어서고, 부모님은 돼지로 변해 버린다. 이름을 빼앗겨 ‘센’이 된 치히로는 유바바가 운영하는 신들의 목욕탕 ‘유야’에서 일하며 부모님을 구할 방법을 찾는다."
     }
    }
   },
@@ -2970,6 +3333,56 @@
    }
   },
   {
+   "id": "totoro",
+   "title": "となりのトトロ",
+   "mediaType": "animeFilm",
+   "year": 1988,
+   "creator": "宮崎駿 / スタジオジブリ",
+   "tint": "#3E7D3A",
+   "aliases": [
+    "My Neighbor Totoro",
+    "Tonari no Totoro",
+    "トトロ",
+    "龙猫",
+    "龍貓",
+    "이웃집 토토로",
+    "宫崎骏",
+    "宮崎駿",
+    "Hayao Miyazaki",
+    "미야자키 하야오",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
+   "officialURL": "https://www.ghibli.jp/works/totoro/",
+   "text": {
+    "zh-Hans": {
+     "title": "龙猫",
+     "creator": "宫崎骏 / 吉卜力工作室",
+     "synopsis": "昭和三十年代，小学生萨月和妹妹小梅随父亲搬到乡下，等待住院的母亲康复归来。姐妹俩在屋后的大樟树下遇见了森林的主人——龙猫，开始了一个只有孩子才看得见的夏天。"
+    },
+    "zh-Hant": {
+     "title": "龍貓",
+     "creator": "宮崎駿 / 吉卜力工作室",
+     "synopsis": "昭和三十年代，小學生薩月和妹妹小梅隨父親搬到鄉下，等待住院的母親康復歸來。姐妹倆在屋後的大樟樹下遇見了森林的主人——龍貓，開始了一個只有孩子才看得見的夏天。"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "昭和30年代の初夏、サツキとメイの姉妹は父と一緒に田舎の古い家へ引っ越してくる。入院中の母の退院を待ちながら暮らすうち、二人は森の主・トトロと出会い、子どもにしか見えない不思議な季節を過ごす。"
+    },
+    "en": {
+     "title": "My Neighbor Totoro",
+     "creator": "Hayao Miyazaki / Studio Ghibli",
+     "synopsis": "In 1950s rural Japan, sisters Satsuki and Mei move to an old country house with their father while their mother recovers in hospital. In the woods behind the house they meet Totoro, a gentle forest spirit only children can see."
+    },
+    "ko": {
+     "title": "이웃집 토토로",
+     "creator": "미야자키 하야오 / 스튜디오 지브리",
+     "synopsis": "1950년대 일본의 시골, 사츠키와 메이 자매는 입원한 엄마의 퇴원을 기다리며 아빠와 함께 낡은 시골집으로 이사 온다. 두 사람은 숲의 주인 토토로를 만나 아이들만 볼 수 있는 신비한 여름을 보내게 된다."
+    }
+   }
+  },
+  {
    "id": "weathering-with-you",
    "title": "天気の子",
    "mediaType": "animeFilm",
@@ -3012,6 +3425,110 @@
      "title": "날씨의 아이",
      "creator": "신카이 마코토 / 코믹스 웨이브 필름",
      "synopsis": "외딴섬에서 가출한 고등학생 호다카는 비가 그치지 않는 도쿄에서 작은 편집 사무소에 얹혀 지낸다. 그러다 기도만으로 하늘을 맑게 만드는 소녀 히나를 만나, 둘은 ‘맑음 소녀’ 아르바이트를 시작한다."
+    }
+   }
+  },
+  {
+   "id": "when-marnie-was-there",
+   "title": "思い出のマーニー",
+   "mediaType": "animeFilm",
+   "year": 2014,
+   "creator": "米林宏昌 / スタジオジブリ",
+   "tint": "#3B6E8F",
+   "aliases": [
+    "When Marnie Was There",
+    "Omoide no Marnie",
+    "マーニー",
+    "回忆中的玛妮",
+    "回憶中的瑪妮",
+    "回忆里的玛妮",
+    "추억의 마니",
+    "米林宏昌",
+    "Hiromasa Yonebayashi",
+    "요네바야시 히로마사",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
+   "officialURL": "https://www.ghibli.jp/works/marnie/",
+   "text": {
+    "zh-Hans": {
+     "title": "回忆中的玛妮",
+     "creator": "米林宏昌 / 吉卜力工作室",
+     "synopsis": "十二岁的杏奈不善与人相处，因哮喘被送到北海道海边小镇的亲戚家休养。她总被湿地对岸一座无人居住的洋馆吸引，并在那里遇见了金发少女玛妮。改编自琼·G·罗宾森的英国儿童小说。"
+    },
+    "zh-Hant": {
+     "title": "回憶中的瑪妮",
+     "creator": "米林宏昌 / 吉卜力工作室",
+     "synopsis": "十二歲的杏奈不善與人相處，因哮喘被送到北海道海邊小鎮的親戚家休養。她總被溼地對岸一座無人居住的洋館吸引，並在那裡遇見了金髮少女瑪妮。改編自瓊·G·羅賓森的英國兒童小說。"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "心を閉ざしがちな12歳の杏奈は、ぜんそくの療養のため北海道の海辺の町に住む親戚のもとで夏を過ごすことになる。入り江の向こうに建つ古い洋館「湿っ地屋敷」に心惹かれた彼女は、そこで金髪の少女マーニーと出会う。"
+    },
+    "en": {
+     "title": "When Marnie Was There",
+     "creator": "Hiromasa Yonebayashi / Studio Ghibli",
+     "synopsis": "Withdrawn twelve-year-old Anna is sent to a seaside town in Hokkaido to recover from asthma. Drawn to an empty mansion across the marsh, she meets Marnie, a mysterious blonde girl. Adapted from Joan G. Robinson’s English children’s novel."
+    },
+    "ko": {
+     "title": "추억의 마니",
+     "creator": "요네바야시 히로마사 / 스튜디오 지브리",
+     "synopsis": "마음을 잘 열지 못하는 열두 살 안나는 천식 요양을 위해 홋카이도 바닷가 마을의 친척 집에서 여름을 보낸다. 습지 건너편의 오래된 저택에 이끌린 안나는 그곳에서 금발 소녀 마니를 만난다."
+    }
+   }
+  },
+  {
+   "id": "whisper-of-the-heart",
+   "title": "耳をすませば",
+   "mediaType": "animeFilm",
+   "year": 1995,
+   "creator": "近藤喜文 / スタジオジブリ",
+   "tint": "#5B86B8",
+   "aliases": [
+    "Whisper of the Heart",
+    "Mimi o Sumaseba",
+    "侧耳倾听",
+    "側耳傾聽",
+    "心之谷",
+    "귀를 기울이면",
+    "聖蹟桜ヶ丘",
+    "地球屋",
+    "近藤喜文",
+    "Yoshifumi Kondō",
+    "Yoshifumi Kondo",
+    "콘도 요시후미",
+    "宫崎骏",
+    "宮崎駿",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
+   "officialURL": "https://www.ghibli.jp/works/mimi/",
+   "text": {
+    "zh-Hans": {
+     "title": "侧耳倾听",
+     "creator": "近藤喜文 / 吉卜力工作室",
+     "synopsis": "爱读书的初三女生月岛雫发现，自己借的每一本书的借书卡上都有同一个名字——天泽圣司。在追着一只猫走上山坡的那天，她闯进了一家叫“地球屋”的古董店，也一步步看清了自己想走的路。"
+    },
+    "zh-Hant": {
+     "title": "心之谷",
+     "creator": "近藤喜文 / 吉卜力工作室",
+     "synopsis": "愛讀書的初三女生月島雫發現，自己借的每一本書的借書卡上都有同一個名字——天澤聖司。在追著一隻貓走上山坡的那天，她闖進了一家叫「地球屋」的古董店，也一步步看清了自己想走的路。"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "読書好きの中学3年生・月島雫は、借りた本の図書カードにいつも同じ名前「天沢聖司」があることに気づく。電車で出会った猫を追って坂を登った先で、彼女は不思議な骨董店「地球屋」にたどり着く。"
+    },
+    "en": {
+     "title": "Whisper of the Heart",
+     "creator": "Yoshifumi Kondō / Studio Ghibli",
+     "synopsis": "Bookish ninth-grader Shizuku Tsukishima notices the same name, Seiji Amasawa, on the library card of every book she borrows. Following a cat up the hill one summer day, she discovers an antique shop called the World Emporium and starts to find her own path."
+    },
+    "ko": {
+     "title": "귀를 기울이면",
+     "creator": "콘도 요시후미 / 스튜디오 지브리",
+     "synopsis": "책을 좋아하는 중학교 3학년 츠키시마 시즈쿠는 빌리는 책마다 도서 카드에 ‘아마사와 세이지’라는 이름이 적혀 있다는 걸 알게 된다. 전철에서 만난 고양이를 따라 언덕을 오르던 날, 시즈쿠는 골동품 가게 ‘지구옥’을 발견한다."
     }
    }
   },
@@ -3623,6 +4140,76 @@
     "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Jorin-ji_(Chichibu,_Saitama)_03.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Jorin-ji_%28Chichibu%2C_Saitama%29_03.jpg/1280px-Jorin-ji_%28Chichibu%2C_Saitama%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  },
+  {
+   "id": "arrietty-seibien",
+   "workID": "arrietty",
+   "latitude": 40.61691,
+   "longitude": 140.56985,
+   "sceneHeading": 185,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "sourceURL": "https://www.tohokukanko.jp/attractions/detail_1003156.html",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "盛美园·盛美馆（青森·平川）",
+     "sceneTitle": "庭园深处的洋馆",
+     "episode": "剧场版",
+     "highlight": "一层和风、二层洋风的盛美馆，加上满是青苔与古松的日式庭园，据东北观光推进机构介绍，曾是片中老宅的舞台参考。站在庭中望向盛美馆，就像从阿莉埃蒂的高度仰望人类的房子。",
+     "story": "心脏不好的少年翔，在手术前被送到母亲儿时住过的老宅静养。到达的第一天，他就在庭院的草丛里瞥见了一个小小的身影——那是住在地板下、身高只有十厘米的阿莉埃蒂。当晚，阿莉埃蒂第一次跟着父亲去“借东西”，在翔的房间里被他看见。按照小人的规矩，被人类看到就必须搬家。翔却想和她做朋友，甚至送来一座精致的娃娃屋厨房。对阿莉埃蒂来说，这座房子、这片庭园就是整个世界。盛美园建于明治末年，盛美馆和洋折衷的造型，正是这座老宅给人的印象。",
+     "access": "弘南铁道弘南线「津轻尾上」站步行约10分钟",
+     "bestTime": "初夏新绿或秋天红叶时，庭园最美；下雨天青苔更鲜亮",
+     "tips": "收费入园，开放时间及冬季安排请以官网为准。盛美馆二楼仅在特别方案中开放，庭园内请勿踩踏青苔。"
+    },
+    "zh-Hant": {
+     "placeName": "盛美園·盛美館（青森·平川）",
+     "sceneTitle": "庭園深處的洋館",
+     "episode": "劇場版",
+     "highlight": "一層和風、二層洋風的盛美館，加上滿是青苔與古松的日式庭園，據東北觀光推進機構介紹，曾是片中老宅的舞臺參考。站在庭中望向盛美館，就像從阿莉埃蒂的高度仰望人類的房子。",
+     "story": "心臟不好的少年翔，在手術前被送到母親兒時住過的老宅靜養。到達的第一天，他就在庭院的草叢裡瞥見了一個小小的身影——那是住在地板下、身高只有十釐米的阿莉埃蒂。當晚，阿莉埃蒂第一次跟著父親去「借東西」，在翔的房間裡被他看見。按照小人的規矩，被人類看到就必須搬家。翔卻想和她做朋友，甚至送來一座精緻的娃娃屋廚房。對阿莉埃蒂來說，這座房子、這片庭園就是整個世界。盛美園建於明治末年，盛美館和洋折衷的造型，正是這座老宅給人的印象。",
+     "access": "弘南鐵道弘南線「津輕尾上」站步行約10分鐘",
+     "bestTime": "初夏新綠或秋天紅葉時，庭園最美；下雨天青苔更鮮亮",
+     "tips": "收費入園，開放時間及冬季安排請以官網為準。盛美館二樓僅在特別方案中開放，庭園內請勿踩踏青苔。"
+    },
+    "ja": {
+     "placeName": "盛美園・盛美館（青森・平川）",
+     "sceneTitle": "庭の奥に建つ洋館",
+     "episode": "劇場版",
+     "highlight": "1階が和風、2階が洋風の盛美館と、苔と古松に彩られた日本庭園。東北観光推進機構の紹介では作品の舞台の参考になったとされる。庭から盛美館を見上げると、アリエッティの目線で人間の家を見ているようだ。",
+     "story": "心臓に病を抱える少年・翔は、手術を前に、母が子どもの頃に暮らした古い屋敷で静養することになる。着いたその日、彼は庭の草むらで小さな人影を見かける。床下に住む身長10センチの小人、アリエッティだった。その夜、初めて父と「借り」に出たアリエッティは、翔の部屋で彼に姿を見られてしまう。人間に見られたら引っ越さなければならないのが小人の掟。けれど翔は彼女と友だちになりたいと願い、精巧なドールハウスの台所まで贈ろうとする。アリエッティにとっては、この屋敷と庭が世界のすべてだった。明治末に造られた盛美園の和洋折衷の盛美館は、まさにあの屋敷の面影を伝えている。",
+     "access": "弘南鉄道弘南線「津軽尾上」駅から徒歩約10分",
+     "bestTime": "新緑の初夏や紅葉の秋。雨の日は苔がいっそう鮮やか",
+     "tips": "入園は有料。開園時間や冬季の営業は公式情報で確認を。盛美館2階は特別プランのみ公開。庭園の苔は踏まないこと。"
+    },
+    "en": {
+     "placeName": "Seibi-en Garden & Seibikan (Hirakawa, Aomori)",
+     "sceneTitle": "The mansion beyond the garden",
+     "episode": "Film",
+     "highlight": "Seibikan, Japanese-style below and Western-style above, sits in a garden of moss and old pines. Tōhoku’s tourism organisation says it served as a reference for the film’s old house; from the garden it feels like looking up at a human home from Arrietty’s height.",
+     "story": "Shō, a boy with a weak heart, is sent before his operation to rest at the old house where his mother grew up. On his first day he glimpses a tiny figure in the garden grass: Arrietty, ten centimetres tall, who lives beneath the floor. That night, on her first borrowing trip with her father, Arrietty is seen by Shō in his room. Borrower law says that once humans see you, you must move away. But Shō only wants to be her friend, and even tries to give her an exquisite dolls’ house kitchen. For Arrietty, this house and garden are the whole world. Seibi-en dates from the end of the Meiji era, and the hybrid Japanese-Western Seibikan captures that house’s character.",
+     "access": "About 10 min on foot from Tsugaru-Onoe Station (Kōnan Railway Kōnan Line)",
+     "bestTime": "Early-summer greenery or autumn colour; rain makes the moss even brighter",
+     "tips": "Paid admission; check hours and winter arrangements officially. Seibikan’s upper floor opens only on special tours. Please don’t step on the moss."
+    },
+    "ko": {
+     "placeName": "세이비엔·세이비칸 (아오모리·히라카와)",
+     "sceneTitle": "정원 너머의 양관",
+     "episode": "극장판",
+     "highlight": "1층은 일본식, 2층은 서양식인 세이비칸과 이끼와 노송이 어우러진 일본 정원. 도호쿠 관광추진기구는 이곳이 작품 무대의 참고가 되었다고 소개한다. 정원에서 세이비칸을 올려다보면 아리에티의 눈높이로 인간의 집을 보는 듯하다.",
+     "story": "심장이 약한 소년 쇼는 수술을 앞두고 어머니가 어린 시절 살던 오래된 저택에서 요양하게 된다. 도착한 첫날, 그는 정원 풀숲에서 작은 그림자를 본다. 마루 밑에 사는 키 10센티미터의 소인, 아리에티였다. 그날 밤 처음으로 아버지와 ‘빌리기’에 나선 아리에티는 쇼의 방에서 그에게 모습을 들키고 만다. 인간에게 들키면 이사해야 하는 것이 소인들의 규칙. 하지만 쇼는 그녀와 친구가 되고 싶어 정교한 인형의 집 부엌까지 선물하려 한다. 아리에티에게는 이 집과 정원이 세상의 전부였다. 메이지 말기에 조성된 세이비엔의 화양절충 양관 세이비칸은 바로 그 저택의 분위기를 전해 준다.",
+     "access": "고난 철도 고난선 ‘쓰가루오노에’역에서 도보 약 10분",
+     "bestTime": "신록의 초여름이나 단풍철 가을. 비 오는 날엔 이끼가 더 선명하다",
+     "tips": "입장료가 있으며 개원 시간과 겨울철 운영은 공식 정보를 확인. 세이비칸 2층은 특별 플랜으로만 공개된다. 정원의 이끼를 밟지 말 것."
+    }
+   },
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Seibien_Hirakawa_Aomori_pref_Japan02s3.jpg/1280px-Seibien_Hirakawa_Aomori_pref_Japan02s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:Seibien_Hirakawa_Aomori_pref_Japan02s3.jpg",
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "licenseURL": "https://creativecommons.org/licenses/by/2.5"
    }
   },
   {
@@ -4872,6 +5459,76 @@
    }
   },
   {
+   "id": "kokuriko-harbor-view-park",
+   "workID": "from-up-on-poppy-hill",
+   "latitude": 35.44056,
+   "longitude": 139.65472,
+   "sceneHeading": 50,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "sourceURL": "https://allabout.co.jp/gm/gc/382592/",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "港之见丘公园（神奈川·横滨）",
+     "sceneTitle": "每天清晨升起的信号旗",
+     "episode": "剧场版 · 开头",
+     "highlight": "红花庄所在的“港口边的山丘”被认为取材自横滨山手一带。公园里设有吉卜力首个电影纪念点，旗杆上挂着片中的U·W信号旗，眺望台正对着横滨港。",
+     "story": "每天清晨，小海都会在红花庄的院子里升起两面信号旗：U和W，意思是“祝航行平安”。她的父亲是船员，在朝鲜战争时随船沉没，再也没有回来，可小海仍然日复一日地升旗。她不知道的是，每天搭拖船经过港口的学长风间俊，一直在海上看着这两面旗，并悄悄用自己的旗语回应。这面旗把两个年轻人联系在了一起，也贯穿了整个故事。2012年，这里设置了吉卜力作品的首个电影纪念点，园内还能看到东洋信号通信社的信号旗塔，至今依然升着真实的信号旗。",
+     "access": "港未来线「元町·中华街」站6号出口步行约5分钟",
+     "bestTime": "清晨或傍晚；晴天能清楚看到横滨港和海湾大桥，五六月玫瑰花开",
+     "tips": "公园免费开放。纪念旗杆和展望台周边人多时请轮流拍照；园内有英国馆等历史建筑，开放时间各不相同。"
+    },
+    "zh-Hant": {
+     "placeName": "港之見丘公園（神奈川·橫濱）",
+     "sceneTitle": "每天清晨升起的訊號旗",
+     "episode": "劇場版 · 開頭",
+     "highlight": "紅花莊所在的「港口邊的山丘」被認為取材自橫濱山手一帶。公園裡設有吉卜力首個電影紀念點，旗杆上掛著片中的U·W訊號旗，眺望臺正對著橫濱港。",
+     "story": "每天清晨，小海都會在紅花莊的院子裡升起兩面訊號旗：U和W，意思是「祝航行平安」。她的父親是船員，在朝鮮戰爭時隨船沉沒，再也沒有回來，可小海仍然日復一日地升旗。她不知道的是，每天搭拖船經過港口的學長風間俊，一直在海上看著這兩面旗，並悄悄用自己的旗語回應。這面旗把兩個年輕人聯絡在了一起，也貫穿了整個故事。2012年，這裡設定了吉卜力作品的首個電影紀念點，園內還能看到東洋訊號通訊社的訊號旗塔，至今依然升著真實的訊號旗。",
+     "access": "港未來線「元町·中華街」站6號出口步行約5分鐘",
+     "bestTime": "清晨或傍晚；晴天能清楚看到橫濱港和海灣大橋，五六月玫瑰花開",
+     "tips": "公園免費開放。紀念旗杆和展望臺周邊人多時請輪流拍照；園內有英國館等歷史建築，開放時間各不相同。"
+    },
+    "ja": {
+     "placeName": "港の見える丘公園（神奈川・横浜）",
+     "sceneTitle": "毎朝揚がる信号旗",
+     "episode": "劇場版・冒頭",
+     "highlight": "コクリコ荘が建つ「港を見下ろす丘」は横浜・山手がモデルとされる。園内にはジブリ初の映画記念スポットとしてU・W旗を掲げたポールが設けられ、展望台からは横浜港が一望できる。",
+     "story": "毎朝、海はコクリコ荘の庭で二枚の信号旗を揚げる。U旗とW旗、意味は「安全な航行を祈る」。船乗りだった父は朝鮮戦争のさなかに船とともに沈み、二度と帰ってこなかった。それでも海は、一日も欠かさず旗を揚げ続けている。彼女が知らなかったのは、毎朝タグボートで港を行く先輩・風間俊が、海の上からその旗を見つめ、自分も旗でそっと応えていたことだった。この旗が二人を結び、物語全体を貫いていく。2012年にはジブリ作品初の映画記念スポットが設置され、園内には実際に信号旗を掲げる東洋信号通信社の鉄塔も立っている。",
+     "access": "みなとみらい線「元町・中華街」駅6番出口から徒歩約5分",
+     "bestTime": "早朝か夕方。晴れた日は横浜港とベイブリッジがよく見え、5〜6月はバラが見頃",
+     "tips": "公園は入園無料。記念ポールや展望台が混雑しているときは譲り合って撮影を。園内のイギリス館などは開館時間が異なる。"
+    },
+    "en": {
+     "placeName": "Harbor View Park (Yokohama, Kanagawa)",
+     "sceneTitle": "Flags raised every morning",
+     "episode": "Film · opening",
+     "highlight": "Coquelicot Manor’s hill above the harbour is held to be based on Yokohama’s Yamate bluff. The park hosts Studio Ghibli’s first official film memorial, a flagpole flying the U·W signal flags, and the lookout faces the port.",
+     "story": "Every morning Umi raises two signal flags in the garden of Coquelicot Manor: U and W, meaning “I pray for safe voyages”. Her father, a sailor, went down with his ship during the Korean War and never came home, yet she raises them every single day. What she doesn’t know is that Shun, the older student who passes by tugboat each morning, has been watching her flags from the water and quietly answering with his own. The flags tie the two together and run through the whole story. A film memorial was installed here in 2012, and the park’s Toyo Signal Communications tower still flies real signal flags today.",
+     "access": "About 5 min on foot from Exit 6 of Motomachi-Chūkagai Station (Minatomirai Line)",
+     "bestTime": "Early morning or evening; clear days show off the port and Bay Bridge, and roses bloom in May–June",
+     "tips": "Free entry. Take turns at the memorial flagpole and lookout when it’s crowded. Historic houses in the park, like the British House, keep their own hours."
+    },
+    "ko": {
+     "placeName": "미나토노미에루오카 공원 (가나가와·요코하마)",
+     "sceneTitle": "매일 아침 오르는 신호기",
+     "episode": "극장판 · 오프닝",
+     "highlight": "코쿠리코 장이 있는 ‘항구를 내려다보는 언덕’은 요코하마 야마테가 모델로 알려져 있다. 공원에는 지브리 최초의 영화 기념 스폿으로 U·W 깃발을 단 깃대가 있고, 전망대에서는 요코하마항이 한눈에 보인다.",
+     "story": "매일 아침 우미는 코쿠리코 장 마당에 두 장의 신호기를 올린다. U기와 W기, 뜻은 ‘안전한 항해를 기원합니다’. 선원이던 아버지는 한국전쟁 중 배와 함께 가라앉아 돌아오지 못했지만, 우미는 하루도 빠짐없이 깃발을 올린다. 그녀가 몰랐던 건, 매일 아침 예인선을 타고 항구를 지나던 선배 슌이 바다 위에서 그 깃발을 바라보며 자신의 깃발로 몰래 답하고 있었다는 사실이다. 이 깃발이 두 사람을 잇고 이야기 전체를 관통한다. 2012년 이곳에 지브리 작품 최초의 영화 기념 스폿이 생겼고, 공원 안에는 지금도 실제 신호기를 다는 도요 신호통신사의 철탑이 서 있다.",
+     "access": "미나토미라이선 ‘모토마치·주카가이’역 6번 출구에서 도보 약 5분",
+     "bestTime": "이른 아침이나 저녁. 맑은 날엔 항구와 베이브리지가 잘 보이고 5~6월엔 장미가 핀다",
+     "tips": "공원은 무료. 기념 깃대와 전망대가 붐빌 땐 순서대로 촬영하자. 영국관 등 공원 내 역사 건물은 개관 시간이 각각 다르다."
+    }
+   },
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Yokohama_Bay_Bridge_from_Harbor_View_Park.jpg/1280px-Yokohama_Bay_Bridge_from_Harbor_View_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:Yokohama_Bay_Bridge_from_Harbor_View_Park.jpg",
+    "author": "Ymblanter",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  },
+  {
    "id": "kotonoha-shinjuku-gyoen",
    "workID": "garden-of-words",
    "latitude": 35.68473,
@@ -5146,6 +5803,146 @@
     "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_2018-04-07.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Tokyo_National_Museum_2018-04-07.jpg/1280px-Tokyo_National_Museum_2018-04-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  },
+  {
+   "id": "hotaru-niteko-pond",
+   "workID": "grave-of-the-fireflies",
+   "latitude": 34.75206,
+   "longitude": 135.33543,
+   "sceneHeading": 240,
+   "arrivalRadius": 60,
+   "spoiler": true,
+   "sourceURL": "https://www.nishi.or.jp/bunka/heiwahenotorikumi/heiwakeihatsu/heiwamonyumennto.html",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "西宫震灾纪念碑公园·Niteko池（兵库·西宫）",
+     "sceneTitle": "池畔防空洞里的萤火",
+     "episode": "剧场版 · 后半",
+     "highlight": "原作者野坂昭如战时就住在这一带。兄妹俩在池边防空洞里放飞萤火虫、第二天节子为萤火虫挖坟的情节，让这片池塘成为全片最让人心碎的地方。",
+     "story": "神户大空袭后，清太和节子寄住在西宫的远房姑妈家，却日日遭到冷眼。清太终于带着妹妹离开，搬进满池谷池塘边一个废弃的横穴防空洞。那天夜里，他们抓来满满一蚊帐的萤火虫，洞里第一次亮起温暖的光。第二天早上，萤火虫全死了，节子默默挖了个小坑把它们埋好，问哥哥：“为什么萤火虫这么快就死了？”食物越来越少，节子渐渐虚弱，最终因营养失调死在了这里。2020年，市民团体在池边的纪念碑公园立起“小说火垂之墓诞生之地”纪念碑，西宫市提供了用地。",
+     "access": "阪急甲阳线「苦乐园口」站步行约10分钟",
+     "bestTime": "初夏傍晚安静地来；也可选择8月终战纪念日前后来此缅怀",
+     "tips": "纪念碑与阪神淡路大地震遇难者慰灵碑同在一座公园，请保持肃静。池塘现已无萤火虫，周边为住宅区。"
+    },
+    "zh-Hant": {
+     "placeName": "西宮震災紀念碑公園·Niteko池（兵庫·西宮）",
+     "sceneTitle": "池畔防空洞裡的螢火",
+     "episode": "劇場版 · 後半",
+     "highlight": "原作者野坂昭如戰時就住在這一帶。兄妹倆在池邊防空洞裡放飛螢火蟲、第二天節子為螢火蟲挖墳的情節，讓這片池塘成為全片最讓人心碎的地方。",
+     "story": "神戶大空襲後，清太和節子寄住在西宮的遠房姑媽家，卻日日遭到冷眼。清太終於帶著妹妹離開，搬進滿池谷池塘邊一個廢棄的橫穴防空洞。那天夜裡，他們抓來滿滿一蚊帳的螢火蟲，洞裡第一次亮起溫暖的光。第二天早上，螢火蟲全死了，節子默默挖了個小坑把它們埋好，問哥哥：「為什麼螢火蟲這麼快就死了？」食物越來越少，節子漸漸虛弱，最終因營養失調死在了這裡。2020年，市民團體在池邊的紀念碑公園立起「小說火垂之墓誕生之地」紀念碑，西宮市提供了用地。",
+     "access": "阪急甲陽線「苦樂園口」站步行約10分鐘",
+     "bestTime": "初夏傍晚安靜地來；也可選擇8月終戰紀念日前後來此緬懷",
+     "tips": "紀念碑與阪神淡路大地震遇難者慰靈碑同在一座公園，請保持肅靜。池塘現已無螢火蟲，周邊為住宅區。"
+    },
+    "ja": {
+     "placeName": "西宮震災記念碑公園・ニテコ池（兵庫・西宮）",
+     "sceneTitle": "池のほとりの横穴と蛍",
+     "episode": "劇場版・後半",
+     "highlight": "原作者・野坂昭如が戦時中に暮らしたのがこの満池谷の一帯。池のほとりの横穴で蛍を放ち、翌朝節子が蛍の墓を作る場面は、物語でいちばん胸が締めつけられる。",
+     "story": "神戸の空襲のあと、清太と節子は西宮の遠縁の叔母の家に身を寄せるが、日に日に冷たく当たられるようになる。とうとう清太は妹を連れて家を出て、満池谷の池のほとりにある使われていない横穴壕で暮らし始める。その夜、二人は蚊帳いっぱいに蛍を放ち、壕の中に初めて温かな光がともる。翌朝、蛍はすべて死んでいた。節子は黙って小さな穴を掘って埋め、「なんで蛍、すぐ死んでしまうん？」と兄に問う。食べ物は日に日に乏しくなり、節子は衰弱して、ついにここで栄養失調のため息を引き取る。2020年、池のそばの記念碑公園に市民団体が「小説 火垂るの墓 誕生の地」の碑を建て、西宮市が用地を提供した。",
+     "access": "阪急甲陽線「苦楽園口」駅から徒歩約10分",
+     "bestTime": "初夏の夕方に静かに。8月の終戦の日前後に手を合わせに来る人も多い",
+     "tips": "碑は阪神・淡路大震災の犠牲者追悼碑と同じ公園にある。静かに過ごそう。池に蛍は今はおらず、周辺は住宅街。"
+    },
+    "en": {
+     "placeName": "Nishinomiya Earthquake Memorial Park & Niteko Pond (Hyōgo)",
+     "sceneTitle": "Fireflies in the shelter by the pond",
+     "episode": "Film · second half",
+     "highlight": "Author Akiyuki Nosaka lived in this Mantoya-dani area during the war. The siblings releasing fireflies in their hillside shelter, and Setsuko burying them the next morning, make this pond the film’s most heartbreaking place.",
+     "story": "After the Kobe air raid, Seita and Setsuko stay with a distant aunt in Nishinomiya, who grows colder by the day. Finally Seita takes his sister away to live in an abandoned dugout shelter beside the pond. That night they release a mosquito net full of fireflies, and the shelter glows with warmth for the first time. The next morning every firefly is dead. Setsuko quietly digs a little grave and asks her brother why fireflies have to die so soon. Food runs out, Setsuko grows weaker, and she finally dies there of malnutrition. In 2020 a citizens’ group raised a stone marking this as the birthplace of the novel, on land provided by the city in the memorial park beside the pond.",
+     "access": "About 10 min on foot from Kurakuenguchi Station (Hankyū Kōyō Line)",
+     "bestTime": "Quiet early-summer evenings; many come around the 15 August end-of-war anniversary",
+     "tips": "The stone shares the park with a memorial to victims of the 1995 earthquake: please be respectful. There are no fireflies at the pond today, and it’s surrounded by homes."
+    },
+    "ko": {
+     "placeName": "니시노미야 지진 기념비 공원·니테코 연못 (효고·니시노미야)",
+     "sceneTitle": "연못가 방공호의 반딧불",
+     "episode": "극장판 · 후반",
+     "highlight": "원작자 노사카 아키유키가 전쟁 중 살았던 곳이 바로 이 일대다. 연못가 방공호에 반딧불이를 풀어놓고, 다음 날 세츠코가 반딧불이 무덤을 만드는 장면은 영화에서 가장 가슴 아픈 순간이다.",
+     "story": "고베 공습 후 세이타와 세츠코는 니시노미야의 먼 친척 아주머니 집에 얹혀살지만 날이 갈수록 냉대를 받는다. 결국 세이타는 동생을 데리고 나와 연못가의 버려진 횡혈식 방공호에서 살기 시작한다. 그날 밤 둘은 모기장 가득 반딧불이를 풀어놓고, 방공호 안에 처음으로 따뜻한 빛이 감돈다. 다음 날 아침 반딧불이는 모두 죽어 있었다. 세츠코는 말없이 작은 구덩이를 파 묻어 주고 오빠에게 ‘반딧불이는 왜 금방 죽어?’라고 묻는다. 먹을 것은 점점 줄고, 세츠코는 쇠약해져 끝내 이곳에서 영양실조로 숨을 거둔다. 2020년 연못 옆 기념비 공원에 시민 단체가 ‘소설 반딧불이의 묘 탄생지’ 비석을 세웠고 니시노미야시가 부지를 제공했다.",
+     "access": "한큐 고요선 ‘구라쿠엔구치’역에서 도보 약 10분",
+     "bestTime": "초여름 저녁에 조용히. 8월 종전일 무렵 찾는 사람도 많다",
+     "tips": "비석은 한신·아와지 대지진 희생자 추모비와 같은 공원에 있으니 엄숙하게. 지금 연못에는 반딧불이가 없고 주변은 주택가다."
+    }
+   },
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/%E5%B0%8F%E8%AA%AC_%E7%81%AB%E5%9E%82%E3%82%8B%E3%81%AE%E5%A2%93_%E8%AA%95%E7%94%9F%E3%81%AE%E5%9C%B0_%E8%A8%98%E5%BF%B5%E7%A2%91.jpg/1280px-%E5%B0%8F%E8%AA%AC_%E7%81%AB%E5%9E%82%E3%82%8B%E3%81%AE%E5%A2%93_%E8%AA%95%E7%94%9F%E3%81%AE%E5%9C%B0_%E8%A8%98%E5%BF%B5%E7%A2%91.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E8%AA%AC_%E7%81%AB%E5%9E%82%E3%82%8B%E3%81%AE%E5%A2%93_%E8%AA%95%E7%94%9F%E3%81%AE%E5%9C%B0_%E8%A8%98%E5%BF%B5%E7%A2%91.jpg",
+    "author": "Snnoanon",
+    "license": "CC BY 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+   }
+  },
+  {
+   "id": "hotaru-sannomiya-station",
+   "workID": "grave-of-the-fireflies",
+   "latitude": 34.69468,
+   "longitude": 135.19502,
+   "sceneHeading": 0,
+   "arrivalRadius": 80,
+   "spoiler": true,
+   "sourceURL": "https://en.wikipedia.org/wiki/Grave_of_the_Fireflies",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "JR三之宫站（兵库·神户）",
+     "sceneTitle": "昭和二十年九月二十一日",
+     "episode": "剧场版 · 开头",
+     "highlight": "“昭和二十年九月二十一日夜，我死了。”电影从结局开始：清太倒在三之宫站的柱子旁。这句开场白和那只水果糖铁罐，几乎是日本动画史上最沉重的开头。",
+     "story": "战争刚结束，国铁三之宫站里挤满了无家可归的流浪儿。瘦得不成人形的清太靠着站内的柱子坐着，来往的行人视而不见，有人丢下一个饭团，他已经没有力气去拿。深夜，清太死去。清扫的站务员从他身上翻出一个生锈的水果糖铁罐，随手扔进草丛，罐里滚出一小块骨灰，四周飞起了点点萤火。化作幽灵的节子从草丛中醒来，与哥哥重逢，故事这才倒叙回到那年夏天的空袭。今天的三之宫站已是神户最繁忙的车站，站在人潮中，很难想象那一夜的孤寂。",
+     "access": "JR神户线「三之宫」站中央检票口一带，与阪急、阪神、地铁三宫站相连",
+     "bestTime": "任何时间；夜晚的车站最接近电影开场的氛围",
+     "tips": "车站客流量大，请勿在通道中停留或架设三脚架拍照，检票口内需购票进站。"
+    },
+    "zh-Hant": {
+     "placeName": "JR三之宮站（兵庫·神戶）",
+     "sceneTitle": "昭和二十年九月二十一日",
+     "episode": "劇場版 · 開頭",
+     "highlight": "「昭和二十年九月二十一日夜，我死了。」電影從結局開始：清太倒在三之宮站的柱子旁。這句開場白和那隻水果糖鐵罐，幾乎是日本動畫史上最沉重的開頭。",
+     "story": "戰爭剛結束，國鐵三之宮站裡擠滿了無家可歸的流浪兒。瘦得不成人形的清太靠著站內的柱子坐著，來往的行人視而不見，有人丟下一個飯糰，他已經沒有力氣去拿。深夜，清太死去。清掃的站務員從他身上翻出一個生鏽的水果糖鐵罐，隨手扔進草叢，罐裡滾出一小塊骨灰，四周飛起了點點螢火。化作幽靈的節子從草叢中醒來，與哥哥重逢，故事這才倒敘回到那年夏天的空襲。今天的三之宮站已是神戶最繁忙的車站，站在人潮中，很難想象那一夜的孤寂。",
+     "access": "JR神戶線「三之宮」站中央檢票口一帶，與阪急、阪神、地鐵三宮站相連",
+     "bestTime": "任何時間；夜晚的車站最接近電影開場的氛圍",
+     "tips": "車站客流量大，請勿在通道中停留或架設三腳架拍照，檢票口內需購票進站。"
+    },
+    "ja": {
+     "placeName": "JR三ノ宮駅（兵庫・神戸）",
+     "sceneTitle": "昭和20年9月21日夜",
+     "episode": "劇場版・冒頭",
+     "highlight": "「昭和20年9月21日夜、僕は死んだ」。映画は結末から始まる。三宮駅の柱にもたれて息絶える清太、そしてドロップの缶。日本のアニメ史でも屈指の重い幕開けだ。",
+     "story": "終戦直後の国鉄三ノ宮駅には、家を失った浮浪児たちがあふれていた。やせ細った清太は構内の柱にもたれて座り込み、行き交う人々は誰も足を止めない。誰かがおにぎりを置いていくが、もう手を伸ばす力もない。深夜、清太は息を引き取る。駅員は彼の持ち物からさびたドロップの缶を見つけ、無造作に草むらへ放り投げる。缶から小さな骨のかけらがこぼれ、あたりに蛍が舞い上がる。草むらで目を覚ました節子の霊が兄と再会し、物語はあの夏の空襲へとさかのぼっていく。いまの三ノ宮駅は神戸で最もにぎわう駅。人波の中に立つと、あの夜の孤独の深さがかえって胸に迫る。",
+     "access": "JR神戸線「三ノ宮」駅中央改札付近。阪急・阪神・地下鉄の三宮駅と連絡",
+     "bestTime": "いつでも。夜の駅が映画の冒頭の雰囲気に近い",
+     "tips": "利用者の多い駅なので、通路での立ち止まりや三脚撮影は控えよう。改札内に入るには乗車券が必要。"
+    },
+    "en": {
+     "placeName": "JR Sannomiya Station (Kobe, Hyōgo)",
+     "sceneTitle": "The night of 21 September 1945",
+     "episode": "Film · opening",
+     "highlight": "“September 21, 1945. That was the night I died.” The film begins at the end, with Seita slumped against a pillar in Sannomiya Station and a battered sweets tin, one of the most devastating openings in animation.",
+     "story": "Just after the war, the old Sannomiya Station was crowded with homeless children. Emaciated, Seita sits propped against a pillar while commuters walk past; someone leaves a rice ball he no longer has the strength to reach. Late that night he dies. A station worker finds a rusty fruit-drop tin among his things and tosses it into the weeds. A few small bone fragments spill out, fireflies rise into the dark, and Setsuko’s spirit wakes and is reunited with her brother, and the story flashes back to that summer’s air raid. Today Sannomiya is Kobe’s busiest station; standing in the crowd makes that night’s loneliness feel all the sharper.",
+     "access": "Around the central ticket gates of JR Sannomiya Station (JR Kobe Line), linked to the Hankyū, Hanshin and subway Sannomiya stations",
+     "bestTime": "Any time; the station at night is closest to the film’s opening",
+     "tips": "A very busy station: don’t stop in the walkways or set up tripods. You need a ticket to go beyond the gates."
+    },
+    "ko": {
+     "placeName": "JR 산노미야역 (효고·고베)",
+     "sceneTitle": "쇼와 20년 9월 21일 밤",
+     "episode": "극장판 · 오프닝",
+     "highlight": "‘쇼와 20년 9월 21일 밤, 나는 죽었다.’ 영화는 결말에서 시작한다. 산노미야역 기둥에 기대 숨을 거두는 세이타와 사탕 깡통. 일본 애니메이션 역사상 가장 무거운 오프닝 중 하나다.",
+     "story": "종전 직후 국철 산노미야역에는 집을 잃은 부랑아들이 넘쳐났다. 피골이 상접한 세이타는 역 안 기둥에 기대 주저앉아 있고, 오가는 사람들은 아무도 멈추지 않는다. 누군가 주먹밥을 두고 가지만 손을 뻗을 힘조차 없다. 깊은 밤, 세이타는 숨을 거둔다. 역무원은 그의 소지품에서 녹슨 사탕 깡통을 찾아 무심하게 풀숲으로 던진다. 깡통에서 작은 뼛조각이 흘러나오고 주위로 반딧불이가 날아오른다. 풀숲에서 깨어난 세츠코의 영혼이 오빠와 다시 만나고, 이야기는 그해 여름의 공습으로 거슬러 올라간다. 지금의 산노미야역은 고베에서 가장 붐비는 역이라, 인파 속에 서 있으면 그날 밤의 고독이 더 사무친다.",
+     "access": "JR 고베선 ‘산노미야’역 중앙 개찰구 일대. 한큐·한신·지하철 산노미야역과 연결",
+     "bestTime": "언제든. 밤의 역이 영화 오프닝 분위기에 가깝다",
+     "tips": "이용객이 많은 역이니 통로에 멈춰 서거나 삼각대를 세우지 말 것. 개찰구 안은 승차권이 필요하다."
+    }
+   },
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/JR_Sannomiya_station_-_panoramio_%281%29.jpg/1280px-JR_Sannomiya_station_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:JR_Sannomiya_station_-_panoramio_(1).jpg",
+    "author": "DVMG",
+    "license": "CC BY 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0"
    }
   },
   {
@@ -7184,6 +7981,76 @@
    }
   },
   {
+   "id": "only-yesterday-takase-safflower",
+   "workID": "only-yesterday",
+   "latitude": 38.29167,
+   "longitude": 140.40331,
+   "sceneHeading": 80,
+   "arrivalRadius": 150,
+   "spoiler": false,
+   "sourceURL": "https://rurubu.jp/andmore/spot/80004372",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "高濑地区 红花田（山形·山形市）",
+     "sceneTitle": "清晨采红花",
+     "episode": "剧场版 · 前半",
+     "highlight": "山形市高濑地区被认为是本片舞台的原型，至今仍种着大片红花。晨雾里一朵朵采下带刺的红花，是妙子与乡村生活真正相遇的时刻。",
+     "story": "妙子坐夜行列车抵达山形，来接她的是姐夫的远房亲戚、年轻的有机农户敏雄。天还没亮，她就跟着一家人下田采红花——必须趁花瓣沾着露水、花萼的刺还软的清晨采摘。妙子手忙脚乱，指尖被扎得生疼，却第一次感受到劳动和土地的分量。婆婆告诉她，这些花要经过无数道工序，才能变成古代女子唇上的一点胭脂。在红花田里，小学五年级的回忆一次次涌上来，她也开始思考：自己真正想要的生活，究竟是什么样子。",
+     "access": "JR仙山线「高濑」站步行约20分钟；红花节期间有免费接驳巴士",
+     "bestTime": "7月上旬红花盛开，清晨最好；每年7月初举办“山形红花节”",
+     "tips": "红花田多为农户私有，请勿进入田里或采摘；交流中心周末一般闭馆，节日期间开放。"
+    },
+    "zh-Hant": {
+     "placeName": "高瀨地區 紅花田（山形·山形市）",
+     "sceneTitle": "清晨採紅花",
+     "episode": "劇場版 · 前半",
+     "highlight": "山形市高瀨地區被認為是本片舞臺的原型，至今仍種著大片紅花。晨霧裡一朵朵採下帶刺的紅花，是妙子與鄉村生活真正相遇的時刻。",
+     "story": "妙子坐夜行列車抵達山形，來接她的是姐夫的遠房親戚、年輕的有機農戶敏雄。天還沒亮，她就跟著一家人下田採紅花——必須趁花瓣沾著露水、花萼的刺還軟的清晨採摘。妙子手忙腳亂，指尖被扎得生疼，卻第一次感受到勞動和土地的分量。婆婆告訴她，這些花要經過無數道工序，才能變成古代女子唇上的一點胭脂。在紅花田裡，小學五年級的回憶一次次湧上來，她也開始思考：自己真正想要的生活，究竟是什麼樣子。",
+     "access": "JR仙山線「高瀨」站步行約20分鐘；紅花節期間有免費接駁巴士",
+     "bestTime": "7月上旬紅花盛開，清晨最好；每年7月初舉辦「山形紅花節」",
+     "tips": "紅花田多為農戶私有，請勿進入田裡或採摘；交流中心週末一般閉館，節日期間開放。"
+    },
+    "ja": {
+     "placeName": "高瀬地区の紅花畑（山形・山形市）",
+     "sceneTitle": "夜明けの紅花摘み",
+     "episode": "劇場版・前半",
+     "highlight": "山形市高瀬地区は作品の舞台のモデルとされ、今も紅花が栽培されている。朝霧の中、とげのある花をひとつずつ摘む場面は、タエ子が農村の暮らしと本当に出会う瞬間だ。",
+     "story": "夜行列車で山形に着いたタエ子を迎えに来たのは、義兄の親戚で有機農業に取り組む若者・トシオだった。まだ暗いうちから、タエ子は一家と一緒に紅花畑へ出る。花びらが朝露に濡れ、がくのとげが柔らかい早朝のうちに摘まなければならないのだ。慣れない手つきで指先を刺されながらも、彼女は初めて土と働くことの重みを感じる。おばあちゃんは、この花が気の遠くなるような手間を経て、昔の女性の唇を彩る紅になるのだと教えてくれる。紅花畑で小学5年生の記憶が何度もよみがえり、タエ子は自分が本当に望む生き方を考え始める。",
+     "access": "JR仙山線「高瀬」駅から徒歩約20分。紅花まつり期間は無料送迎バスあり",
+     "bestTime": "紅花が咲く7月上旬の早朝。毎年7月初めに「山形紅花まつり」が開かれる",
+     "tips": "紅花畑の多くは農家の私有地。畑に入ったり花を摘んだりしないこと。紅花ふれあいセンターは土日祝休館（まつり期間は開館）。"
+    },
+    "en": {
+     "placeName": "Takase Safflower Fields (Yamagata City, Yamagata)",
+     "sceneTitle": "Picking safflowers at dawn",
+     "episode": "Film · first half",
+     "highlight": "Yamagata’s Takase district is regarded as the model for the film’s farming village and still grows safflower. Picking the prickly flowers one by one in the morning mist is when Taeko truly meets country life.",
+     "story": "Taeko arrives in Yamagata on the night train and is met by Toshio, a young organic farmer related to her brother-in-law. Before dawn she heads into the safflower fields with the family: the flowers must be picked early, while the petals are wet with dew and the thorns still soft. Clumsy at first, her fingertips pricked, she feels for the first time the weight of working the land. Grandma explains how, after endless steps, these blossoms once became the rouge on women’s lips. Among the safflowers her fifth-grade memories keep returning, and she begins to ask what kind of life she really wants.",
+     "access": "About 20 min on foot from Takase Station (JR Senzan Line); free shuttle buses run during the safflower festival",
+     "bestTime": "Early July mornings, when the safflowers bloom; the Yamagata Safflower Festival is held in early July",
+     "tips": "Most fields are private farmland: don’t walk into them or pick flowers. The local safflower centre is usually closed at weekends except during the festival."
+    },
+    "ko": {
+     "placeName": "다카세 지구 홍화밭 (야마가타·야마가타시)",
+     "sceneTitle": "새벽의 홍화 따기",
+     "episode": "극장판 · 전반",
+     "highlight": "야마가타시 다카세 지구는 작품 무대의 모델로 알려져 있으며 지금도 홍화를 재배한다. 아침 안개 속에서 가시 돋친 꽃을 하나씩 따는 장면은 타에코가 시골의 삶과 진짜로 만나는 순간이다.",
+     "story": "야간열차로 야마가타에 도착한 타에코를 마중 나온 사람은 형부의 친척이자 유기농업을 하는 청년 토시오였다. 날이 밝기도 전에 타에코는 가족들과 홍화밭으로 나간다. 꽃잎이 아침 이슬에 젖고 꽃받침의 가시가 부드러운 이른 아침에 따야 하기 때문이다. 서툰 손놀림에 손끝을 찔리면서도 그녀는 처음으로 흙과 노동의 무게를 느낀다. 할머니는 이 꽃이 수많은 손질을 거쳐 옛 여인들의 입술을 물들이던 연지가 된다고 알려 준다. 홍화밭에서 초등학교 5학년 시절의 기억이 몇 번이고 떠오르고, 타에코는 자신이 정말 바라는 삶이 무엇인지 생각하기 시작한다.",
+     "access": "JR 센잔선 ‘다카세’역에서 도보 약 20분. 홍화 축제 기간엔 무료 셔틀버스 운행",
+     "bestTime": "홍화가 피는 7월 초순 이른 아침. 매년 7월 초 ‘야마가타 홍화 축제’가 열린다",
+     "tips": "홍화밭 대부분은 농가 사유지이니 밭에 들어가거나 꽃을 따지 말 것. 홍화 교류 센터는 주말·공휴일 휴관(축제 기간은 개관)."
+    }
+   },
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/%E5%A4%8F%E3%82%92%E5%BD%A9%E3%82%8B%E3%83%99%E3%83%8B%E3%83%90%E3%83%8A%28Field_of_Safflower_in_Yamagata%29_12_Jul%2C_2015_-_panoramio.jpg/1280px-%E5%A4%8F%E3%82%92%E5%BD%A9%E3%82%8B%E3%83%99%E3%83%8B%E3%83%90%E3%83%8A%28Field_of_Safflower_in_Yamagata%29_12_Jul%2C_2015_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:%E5%A4%8F%E3%82%92%E5%BD%A9%E3%82%8B%E3%83%99%E3%83%8B%E3%83%90%E3%83%8A(Field_of_Safflower_in_Yamagata)_12_Jul,_2015_-_panoramio.jpg",
+    "author": "Hiroaki Kaneko",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  },
+  {
    "id": "oshi-no-ko-aradate-shrine",
    "workID": "oshi-no-ko",
    "latitude": 32.71171,
@@ -7455,6 +8322,217 @@
     "licenseURL": "https://creativecommons.org/licenses/by/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Yoyogi-Hachiman-gu_shrine_-_2022_July_4_various.jpeg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Yoyogi-Hachiman-gu_shrine_-_2022_July_4_various.jpeg/1280px-Yoyogi-Hachiman-gu_shrine_-_2022_July_4_various.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  },
+  {
+   "id": "ponyo-tomonoura-joyato",
+   "workID": "ponyo",
+   "latitude": 34.38285,
+   "longitude": 133.38192,
+   "sceneHeading": 245,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "sourceURL": "https://lwlies.com/articles/tomonoura-ponyo-studio-ghibli/",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "鞆之浦 常夜灯（广岛·福山）",
+     "sceneTitle": "宗介的海港小镇",
+     "episode": "剧场版 · 全片",
+     "highlight": "宫崎骏曾在这座濑户内海的港町住了两个月构思《悬崖上的金鱼姬》。圆弧形的老港、石阶码头和江户时代的大石灯笼，就是宗介生活的那片海边。",
+     "story": "宗介住在能俯瞰港口的悬崖上，爸爸耕一是常年出海的船长，妈妈理莎每天开车送他去海边的托儿所和隔壁的养老院。一天早上，他在岸边的礁石间捡到一只被困在玻璃瓶里的“金鱼”，用小石头敲碎瓶子把她救了出来，还给她起名叫波妞。小小的港湾、来来往往的渔船、贴着水面的石阶，都是这段友情开始的地方。宫崎骏2005年前后在鞆之浦长住，美术团队也来这里实地考察，片中大海的颜色和小镇的氛围都源于这里。常夜灯本身并没有直接出现在片中，但它是这座港町最具代表性的风景。",
+     "access": "JR福山站乘鞆铁巴士约30分钟，在「鞆港」下车，步行约2分钟",
+     "bestTime": "傍晚夕阳斜照港口时最美，常夜灯入夜后会点亮",
+     "tips": "港口和周边是居民的生活区，渔船与码头设施请勿攀爬；石阶临水且湿滑，带孩子时要格外留意。"
+    },
+    "zh-Hant": {
+     "placeName": "鞆之浦 常夜燈（廣島·福山）",
+     "sceneTitle": "宗介的海港小鎮",
+     "episode": "劇場版 · 全片",
+     "highlight": "宮崎駿曾在這座瀨戶內海的港町住了兩個月構思《懸崖上的金魚姬》。圓弧形的老港、石階碼頭和江戶時代的大石燈籠，就是宗介生活的那片海邊。",
+     "story": "宗介住在能俯瞰港口的懸崖上，爸爸耕一是常年出海的船長，媽媽理莎每天開車送他去海邊的託兒所和隔壁的養老院。一天早上，他在岸邊的礁石間撿到一隻被困在玻璃瓶裡的「金魚」，用小石頭敲碎瓶子把她救了出來，還給她起名叫波妞。小小的港灣、來來往往的漁船、貼著水面的石階，都是這段友情開始的地方。宮崎駿2005年前後在鞆之浦長住，美術團隊也來這裡實地考察，片中大海的顏色和小鎮的氛圍都源於這裡。常夜燈本身並沒有直接出現在片中，但它是這座港町最具代表性的風景。",
+     "access": "JR福山站乘鞆鐵巴士約30分鐘，在「鞆港」下車，步行約2分鐘",
+     "bestTime": "傍晚夕陽斜照港口時最美，常夜燈入夜後會點亮",
+     "tips": "港口和周邊是居民的生活區，漁船與碼頭設施請勿攀爬；石階臨水且溼滑，帶孩子時要格外留意。"
+    },
+    "ja": {
+     "placeName": "鞆の浦 常夜燈（広島・福山）",
+     "sceneTitle": "宗介の暮らす港町",
+     "episode": "劇場版・全編",
+     "highlight": "宮崎監督が2か月ほど滞在して構想を練ったといわれる瀬戸内の港町。弧を描く古い港、雁木、江戸時代の大きな常夜燈。宗介が暮らす海辺の空気がここにある。",
+     "story": "宗介は港を見下ろす崖の上の家に住んでいる。父の耕一は外航船の船長で、母のリサは毎日車で宗介を海辺の保育園へ送り、自分は隣のデイケア施設で働く。ある朝、宗介は磯でジャムの瓶にはまった不思議な「金魚」を見つけ、石で瓶を割って助け出し、ポニョと名付ける。小さな港、行き交う漁船、水際まで続く石段は、二人の友情が始まる場所そのものだ。監督は2005年ごろ鞆の浦に長期滞在し、美術スタッフもロケハンに訪れて、海の色や町の雰囲気を作品に取り入れた。常夜燈そのものが劇中に登場するわけではないが、この港町を象徴する風景だ。",
+     "access": "JR福山駅から鞆鉄バスで約30分「鞆港」下車、徒歩約2分",
+     "bestTime": "夕日が港を照らす夕方。常夜燈は夜になると灯がともる",
+     "tips": "港は住民の生活の場。漁船や係留設備には上らないこと。雁木は水際で滑りやすいので子ども連れは特に注意を。"
+    },
+    "en": {
+     "placeName": "Tomonoura Jōyatō Lantern (Fukuyama, Hiroshima)",
+     "sceneTitle": "Sōsuke’s harbour town",
+     "episode": "Film · throughout",
+     "highlight": "Miyazaki reportedly spent about two months in this Inland Sea port while developing Ponyo. The curved old harbour, stone quay steps and huge Edo-era lantern are the seaside world Sōsuke grows up in.",
+     "story": "Sōsuke lives on a cliff above the harbour. His father Kōichi captains a cargo ship, and his mother Lisa drives him each day to the seaside nursery next to the care home where she works. One morning, among the rocks below, he finds a strange “goldfish” stuck in a jam jar, breaks the glass with a stone to free her, and names her Ponyo. The little harbour, fishing boats and stone steps running into the water are where their friendship begins. Miyazaki stayed in Tomonoura around 2005, and the art team scouted here too, taking the colour of the sea and the feel of the town into the film. The lantern itself isn’t shown in the film, but it is the town’s signature view.",
+     "access": "Tomotetsu bus from JR Fukuyama Station, about 30 min to Tomokō, then 2 min on foot",
+     "bestTime": "Late afternoon, when the low sun lights the harbour; the lantern is lit after dark",
+     "tips": "The harbour is a working, lived-in place: don’t climb on boats or moorings. The quay steps are wet and slippery near the water, so watch children closely."
+    },
+    "ko": {
+     "placeName": "도모노우라 조야토 (히로시마·후쿠야마)",
+     "sceneTitle": "소스케가 사는 항구 마을",
+     "episode": "극장판 · 전편",
+     "highlight": "미야자키 감독이 두 달가량 머물며 구상을 다듬었다고 알려진 세토 내해의 항구 마을. 둥글게 굽은 옛 항구와 돌계단 부두, 에도 시대의 큰 석등이 소스케가 사는 바닷가 풍경 그대로다.",
+     "story": "소스케는 항구가 내려다보이는 벼랑 위 집에 산다. 아빠 고이치는 화물선 선장이고, 엄마 리사는 매일 소스케를 바닷가 어린이집에 데려다주고 바로 옆 요양 시설에서 일한다. 어느 날 아침 소스케는 갯바위에서 잼 병에 낀 이상한 ‘금붕어’를 발견해 돌로 병을 깨 구해 주고 포뇨라는 이름을 붙인다. 작은 항구와 오가는 어선, 물가까지 이어진 돌계단은 둘의 우정이 시작되는 곳이다. 감독은 2005년 무렵 도모노우라에 장기 체류했고 미술팀도 이곳을 답사해 바다 색과 마을 분위기를 작품에 담았다. 석등 자체가 영화에 나오지는 않지만 이 마을을 상징하는 풍경이다.",
+     "access": "JR 후쿠야마역에서 도모테쓰 버스로 약 30분 ‘도모코’ 하차, 도보 약 2분",
+     "bestTime": "석양이 항구를 비추는 늦은 오후. 석등은 밤에 불이 켜진다",
+     "tips": "항구는 주민들의 생활 공간이니 어선이나 계류 시설에 올라가지 말 것. 돌계단은 물가라 미끄러우니 아이와 함께라면 특히 조심."
+    }
+   },
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Tomonoura_%285826707771%29.jpg/1280px-Tomonoura_%285826707771%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:Tomonoura_(5826707771).jpg",
+    "author": "KimonBerlin",
+    "license": "CC BY-SA 2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  },
+  {
+   "id": "ponyo-tomonoura-taishiden",
+   "workID": "ponyo",
+   "latitude": 34.38255,
+   "longitude": 133.37541,
+   "sceneHeading": 105,
+   "scenePitch": -15,
+   "arrivalRadius": 50,
+   "spoiler": false,
+   "sourceURL": "https://lwlies.com/articles/tomonoura-ponyo-studio-ghibli/",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "医王寺 太子殿（广岛·福山）",
+     "sceneTitle": "悬崖上望海的家",
+     "episode": "剧场版 · 全片",
+     "highlight": "从医王寺后山爬上五百多级石阶，整个鞆之浦和对面的仙醉岛尽收眼底。这正是宗介家“悬崖之上、俯瞰大海”的视角。",
+     "story": "宗介的家孤零零地立在海边的悬崖上，窗外就是整片大海。爸爸的船出海迟迟不归的那个夜晚，理莎带着宗介站在屋外，用手电筒向海上的爸爸打灯语，船上也亮着灯一闪一闪地回应。理莎气得连打“笨蛋、笨蛋”，宗介却认真地一个字一个字回“我爱你”。片中宗介家的具体原型众说纷纭，但这座城镇本身就在山与海之间，从太子殿往下看，层层叠叠的屋瓦、弧形的港湾和远处的岛屿，几乎就是电影里从崖上望出去的景色。",
+     "access": "鞆铁巴士「鞆之浦」站步行约10分钟到医王寺，再爬石阶约15–20分钟上到太子殿",
+     "bestTime": "晴朗的上午顺光看海最清楚；傍晚可看濑户内海的夕照",
+     "tips": "石阶陡且长，需穿好走的鞋，夏天带足饮水。太子殿是寺院境内，请保持安静、爱护设施。"
+    },
+    "zh-Hant": {
+     "placeName": "醫王寺 太子殿（廣島·福山）",
+     "sceneTitle": "懸崖上望海的家",
+     "episode": "劇場版 · 全片",
+     "highlight": "從醫王寺後山爬上五百多級石階，整個鞆之浦和對面的仙醉島盡收眼底。這正是宗介家「懸崖之上、俯瞰大海」的視角。",
+     "story": "宗介的家孤零零地立在海邊的懸崖上，窗外就是整片大海。爸爸的船出海遲遲不歸的那個夜晚，理莎帶著宗介站在屋外，用手電筒向海上的爸爸打燈語，船上也亮著燈一閃一閃地回應。理莎氣得連打「笨蛋、笨蛋」，宗介卻認真地一個字一個字回「我愛你」。片中宗介家的具體原型眾說紛紜，但這座城鎮本身就在山與海之間，從太子殿往下看，層層疊疊的屋瓦、弧形的港灣和遠處的島嶼，幾乎就是電影裡從崖上望出去的景色。",
+     "access": "鞆鐵巴士「鞆之浦」站步行約10分鐘到醫王寺，再爬石階約15–20分鐘上到太子殿",
+     "bestTime": "晴朗的上午順光看海最清楚；傍晚可看瀨戶內海的夕照",
+     "tips": "石階陡且長，需穿好走的鞋，夏天帶足飲水。太子殿是寺院境內，請保持安靜、愛護設施。"
+    },
+    "ja": {
+     "placeName": "医王寺 太子殿（広島・福山）",
+     "sceneTitle": "崖の上から見下ろす海",
+     "episode": "劇場版・全編",
+     "highlight": "医王寺の裏山、500段以上の石段を登り切ると、鞆の浦の町並みと仙酔島が一望できる。宗介の家の「崖の上から海を見下ろす」視点そのものだ。",
+     "story": "宗介の家は海辺の崖の上にぽつんと建ち、窓の外には海が広がる。父・耕一の船がなかなか帰ってこない夜、リサは宗介と庭に出て、懐中電灯で沖の船に向かって信号を送る。船からも光が明滅して応える。腹を立てたリサが「バカ、バカ」と打つ一方、宗介は一文字ずつ「アイシテル」と返す。宗介の家のモデルについては諸説あるが、山と海に挟まれたこの町を太子殿から見下ろすと、重なり合う瓦屋根、弧を描く港、沖の島々が、まるで映画で崖の上から見た景色のように広がっている。",
+     "access": "鞆鉄バス「鞆の浦」から医王寺まで徒歩約10分、さらに石段を約15〜20分登る",
+     "bestTime": "海がよく見える晴れた午前。夕方は瀬戸内の夕景も",
+     "tips": "石段は急で長いので歩きやすい靴で。夏は水分を十分に。寺の境内なので静かに過ごそう。"
+    },
+    "en": {
+     "placeName": "Taishiden, Iōji Temple (Fukuyama, Hiroshima)",
+     "sceneTitle": "The house on the cliff",
+     "episode": "Film · throughout",
+     "highlight": "Climb the 500-plus stone steps behind Iōji Temple and the whole of Tomonoura and Sensuijima island spread out below, exactly the cliff-top view over the sea that Sōsuke’s house enjoys.",
+     "story": "Sōsuke’s house stands alone on a seaside cliff with nothing but ocean beyond the window. On the night his father’s ship fails to come home, Lisa takes Sōsuke outside and signals to the ship with a flashlight; the ship blinks back. Lisa angrily flashes “idiot, idiot”, while Sōsuke carefully spells out “I love you”. Opinions differ on which house inspired Sōsuke’s, but the town itself is squeezed between hills and sea, and from the Taishiden the stacked tiled roofs, curved harbour and offshore islands look just like the view from the cliff in the film.",
+     "access": "About 10 min on foot from Tomonoura bus stop to Iōji Temple, then 15–20 min up the stone steps",
+     "bestTime": "Clear mornings for the sharpest sea view; evenings for an Inland Sea sunset",
+     "tips": "The steps are steep and long: wear good shoes and bring water in summer. This is temple ground, so keep your voice down."
+    },
+    "ko": {
+     "placeName": "이오지 다이시덴 (히로시마·후쿠야마)",
+     "sceneTitle": "벼랑 위에서 내려다본 바다",
+     "episode": "극장판 · 전편",
+     "highlight": "이오지 뒷산의 500여 개 돌계단을 다 오르면 도모노우라 마을과 센스이섬이 한눈에 들어온다. 소스케네 집의 ‘벼랑 위에서 바다를 내려다보는’ 시점 그대로다.",
+     "story": "소스케의 집은 바닷가 벼랑 위에 홀로 서 있고 창밖으로는 바다가 펼쳐진다. 아빠의 배가 좀처럼 돌아오지 않던 밤, 리사는 소스케와 밖으로 나가 손전등으로 바다 위 배에 신호를 보내고, 배에서도 불빛이 깜빡이며 답한다. 화가 난 리사가 ‘바보, 바보’를 보내는 동안 소스케는 한 글자씩 ‘사랑해’라고 답한다. 소스케네 집의 모델에 대해서는 여러 설이 있지만, 산과 바다 사이에 자리한 이 마을을 다이시덴에서 내려다보면 겹겹의 기와지붕과 둥근 항구, 먼바다의 섬들이 영화 속 벼랑 위 풍경처럼 펼쳐진다.",
+     "access": "도모테쓰 버스 ‘도모노우라’에서 이오지까지 도보 약 10분, 다시 돌계단을 약 15~20분",
+     "bestTime": "바다가 잘 보이는 맑은 오전. 저녁엔 세토 내해의 노을도",
+     "tips": "돌계단이 가파르고 기니 편한 신발을 신고, 여름엔 물을 넉넉히. 절 경내이므로 조용히."
+    }
+   },
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Tomonoura_viewed_from_Taishiden.jpg/1280px-Tomonoura_viewed_from_Taishiden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:Tomonoura_viewed_from_Taishiden.jpg",
+    "author": "Saigen Jiro",
+    "license": "CC0",
+    "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   }
+  },
+  {
+   "id": "mononoke-shiratani-moss-forest",
+   "workID": "princess-mononoke",
+   "latitude": 30.36671,
+   "longitude": 130.56906,
+   "sceneHeading": 225,
+   "arrivalRadius": 150,
+   "spoiler": false,
+   "sourceURL": "https://www.japan.travel/en/spot/517/",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "白谷云水峡 苔藓森林（鹿儿岛·屋久岛）",
+     "sceneTitle": "山兽神的森林",
+     "episode": "剧场版 · 前半",
+     "highlight": "古杉的根盘在岩石上，地面、树干全被苔藓覆盖，仿佛随时会有木灵探出头来。据日本国家旅游局介绍，美术监督男鹿和雄曾以这里的森林作为创作参考。",
+     "story": "阿席达卡在达达拉城被枪击中，奄奄一息，小桑和山犬把他带进深山，放在山兽神栖息的森林中。四周是长满苔藓的巨木与岩石，成群的木灵在林间摇着脑袋“咔嗒咔嗒”作响。山兽神在夜里悄然现身，治好了他的枪伤，却没有带走他手臂上的诅咒。也是在这片森林里，阿席达卡第一次真正了解了小桑：她并不是怪物，而是拼命守护森林的人。俗称“苔藓森林”的这一段位于海拔约860米处，是屋久岛最受欢迎的徒步路线之一。",
+     "access": "宫之浦港乘巴士约30–40分钟至「白谷云水峡」，再沿步道上山约1.5–2小时",
+     "bestTime": "雨后或薄雾天苔藓最鲜绿；春秋两季气候最宜人",
+     "tips": "入口需缴纳森林环境维护协力金（约500日元）。屋久岛多雨，务必穿登山鞋、带雨具；请走步道，不要踩踏苔藓。"
+    },
+    "zh-Hant": {
+     "placeName": "白谷雲水峽 苔蘚森林（鹿兒島·屋久島）",
+     "sceneTitle": "山獸神的森林",
+     "episode": "劇場版 · 前半",
+     "highlight": "古杉的根盤在岩石上，地面、樹幹全被苔蘚覆蓋，彷彿隨時會有木靈探出頭來。據日本國家旅遊局介紹，美術監督男鹿和雄曾以這裡的森林作為創作參考。",
+     "story": "阿席達卡在達達拉城被槍擊中，奄奄一息，小桑和山犬把他帶進深山，放在山獸神棲息的森林中。四周是長滿苔蘚的巨木與岩石，成群的木靈在林間搖著腦袋「咔嗒咔嗒」作響。山獸神在夜裡悄然現身，治好了他的槍傷，卻沒有帶走他手臂上的詛咒。也是在這片森林裡，阿席達卡第一次真正瞭解了小桑：她並不是怪物，而是拼命守護森林的人。俗稱「苔蘚森林」的這一段位於海拔約860米處，是屋久島最受歡迎的徒步路線之一。",
+     "access": "宮之浦港乘巴士約30–40分鐘至「白谷雲水峽」，再沿步道上山約1.5–2小時",
+     "bestTime": "雨後或薄霧天苔蘚最鮮綠；春秋兩季氣候最宜人",
+     "tips": "入口需繳納森林環境維護協力金（約500日元）。屋久島多雨，務必穿登山鞋、帶雨具；請走步道，不要踩踏苔蘚。"
+    },
+    "ja": {
+     "placeName": "白谷雲水峡 苔むす森（鹿児島・屋久島）",
+     "sceneTitle": "シシ神の森",
+     "episode": "劇場版・前半",
+     "highlight": "岩を抱く杉の根も地面も幹も、すべてが苔に覆われた森。いまにもコダマが顔を出しそうだ。日本政府観光局によれば、美術監督の男鹿和雄がこの森を作品づくりの参考にしたという。",
+     "story": "タタラ場で銃弾を受け瀕死となったアシタカを、サンと山犬たちは森の奥、シシ神の棲む池のほとりへと運ぶ。苔むした巨木と岩に囲まれた森では、無数のコダマがカラカラと首を鳴らしている。夜、シシ神は静かに姿を現し、アシタカの傷を癒やすが、腕の呪いは消さなかった。この森で、アシタカは初めてサンという少女を知る。彼女は化け物ではなく、森を守ろうと必死に生きる人間なのだ。「苔むす森」と呼ばれる一帯は標高約860メートルにあり、屋久島で最も人気のある散策ルートのひとつ。",
+     "access": "宮之浦港からバス約30〜40分「白谷雲水峡」下車、登山道を約1時間半〜2時間",
+     "bestTime": "雨上がりや霧の日は苔が一段と鮮やか。春と秋が歩きやすい",
+     "tips": "入口で森林環境整備推進協力金（約500円）が必要。雨が多いので登山靴と雨具は必須。苔を踏まないよう登山道を外れないこと。"
+    },
+    "en": {
+     "placeName": "Shiratani Unsuikyō Moss Forest (Yakushima, Kagoshima)",
+     "sceneTitle": "The Forest Spirit’s woods",
+     "episode": "Film · first half",
+     "highlight": "Cedar roots grip boulders, and every trunk and stone is draped in moss, as if a kodama might peek out at any moment. Japan’s national tourism body says the film’s art director Kazuo Oga used this forest as a reference.",
+     "story": "Shot in the ironworks town and close to death, Ashitaka is carried by San and her wolves deep into the forest where the Forest Spirit dwells. Giant mossy trees and boulders surround them, and hundreds of kodama rattle their heads among the roots. At night the Forest Spirit appears silently and heals his wound, yet leaves the curse on his arm. It is here that Ashitaka truly comes to know San, not as a monster but as someone fighting desperately for the forest. The so-called Moss Forest lies at about 860 m and is one of Yakushima’s most popular hikes.",
+     "access": "Bus from Miyanoura Port to Shiratani Unsuikyō (about 30–40 min), then a 1.5–2 hour hike up the trail",
+     "bestTime": "After rain or in mist, when the moss is greenest; spring and autumn are most comfortable",
+     "tips": "A forest conservation fee (around ¥500) is collected at the entrance. It rains a lot: wear hiking boots and bring rain gear. Stay on the trail and never step on the moss."
+    },
+    "ko": {
+     "placeName": "시라타니운스이쿄 이끼 숲 (가고시마·야쿠시마)",
+     "sceneTitle": "시시가미의 숲",
+     "episode": "극장판 · 전반",
+     "highlight": "삼나무 뿌리가 바위를 감싸고, 땅도 줄기도 온통 이끼로 덮인 숲. 금방이라도 고다마가 얼굴을 내밀 것 같다. 일본정부관광국에 따르면 미술감독 오가 가즈오가 이 숲을 작품의 참고로 삼았다고 한다.",
+     "story": "제철 마을에서 총에 맞아 죽어 가던 아시타카를 산과 들개들은 숲 깊은 곳, 시시가미가 사는 곳으로 데려간다. 이끼 낀 거목과 바위 사이로 수많은 고다마가 달그락달그락 고개를 흔든다. 밤이 되자 시시가미는 조용히 나타나 상처를 치유해 주지만 팔의 저주는 그대로 남긴다. 아시타카는 이 숲에서 처음으로 산이라는 소녀를 알게 된다. 그녀는 괴물이 아니라 숲을 지키려 필사적으로 살아가는 사람이었다. ‘이끼 숲’이라 불리는 이 일대는 해발 약 860미터에 있으며 야쿠시마에서 가장 인기 있는 트레킹 코스 중 하나다.",
+     "access": "미야노우라항에서 버스로 약 30~40분 ‘시라타니운스이쿄’ 하차 후 등산로로 약 1시간 반~2시간",
+     "bestTime": "비 온 뒤나 안개 낀 날 이끼가 가장 선명하다. 봄·가을이 걷기 좋다",
+     "tips": "입구에서 숲 환경 보전 협력금(약 500엔)을 낸다. 비가 잦으니 등산화와 우비는 필수. 이끼를 밟지 않도록 등산로를 벗어나지 말 것."
+    }
+   },
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Yaku-Island_Shiratani-Unsui-Gorge.jpg/1280px-Yaku-Island_Shiratani-Unsui-Gorge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:Yaku-Island_Shiratani-Unsui-Gorge.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC0",
+    "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
    }
   },
   {
@@ -7944,6 +9022,148 @@
     "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Kamakura_koukou_mae_Fumikiri_-_02.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Kamakura_koukou_mae_Fumikiri_-_02.jpg/1280px-Kamakura_koukou_mae_Fumikiri_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  },
+  {
+   "id": "spirited-away-dogo-onsen",
+   "workID": "spirited-away",
+   "latitude": 33.85212,
+   "longitude": 132.78614,
+   "sceneHeading": 95,
+   "scenePitch": 10,
+   "arrivalRadius": 50,
+   "spoiler": false,
+   "sourceURL": "https://www.timesclub.jp/sp/tanomachi_ex/ehime/matsuyama/002.html",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "道后温泉本馆（爱媛·松山）",
+     "sceneTitle": "灯火通明的油屋",
+     "episode": "剧场版 · 前半",
+     "highlight": "层层叠叠的木造屋顶、屋顶上的红色望楼，被普遍认为是油屋外观的参考原型之一。黄昏亮灯时，那种“神灵的澡堂”感扑面而来。",
+     "story": "千寻跟着父母穿过隧道，来到一条空无一人的饮食街。天色一暗，街上亮起灯笼，父母因偷吃供品变成了猪。惊慌失措的千寻被白龙拉住，带过桥去，第一次抬头看见那座灯火通明、高耸入夜的巨大澡堂——油屋。为了留在这个世界救出父母，她必须走进去，向汤婆婆讨一份工作。宫崎骏曾说油屋并没有单一原型，但据报道美术监督参考过道后温泉本馆的外观，松山市的观光介绍也称这里是油屋的原型之一。",
+     "access": "伊予铁道「道后温泉」站出站，穿过商店街步行约3分钟",
+     "bestTime": "傍晚亮灯后最有油屋的味道；6点、12点、18点有报时太鼓",
+     "tips": "本馆仍是正常营业的公共浴场，入浴收费，营业时间以官网为准。在门前拍照时请避开入口，不要妨碍客人出入。"
+    },
+    "zh-Hant": {
+     "placeName": "道後溫泉本館（愛媛·松山）",
+     "sceneTitle": "燈火通明的油屋",
+     "episode": "劇場版 · 前半",
+     "highlight": "層層疊疊的木造屋頂、屋頂上的紅色望樓，被普遍認為是油屋外觀的參考原型之一。黃昏亮燈時，那種「神靈的澡堂」感撲面而來。",
+     "story": "千尋跟著父母穿過隧道，來到一條空無一人的飲食街。天色一暗，街上亮起燈籠，父母因偷吃供品變成了豬。驚慌失措的千尋被白龍拉住，帶過橋去，第一次抬頭看見那座燈火通明、高聳入夜的巨大澡堂——油屋。為了留在這個世界救出父母，她必須走進去，向湯婆婆討一份工作。宮崎駿曾說油屋並沒有單一原型，但據報道美術監督參考過道後溫泉本館的外觀，松山市的觀光介紹也稱這裡是油屋的原型之一。",
+     "access": "伊予鐵道「道後溫泉」站出站，穿過商店街步行約3分鐘",
+     "bestTime": "傍晚亮燈後最有油屋的味道；6點、12點、18點有報時太鼓",
+     "tips": "本館仍是正常營業的公共浴場，入浴收費，營業時間以官網為準。在門前拍照時請避開入口，不要妨礙客人出入。"
+    },
+    "ja": {
+     "placeName": "道後温泉本館（愛媛・松山）",
+     "sceneTitle": "灯りのともる油屋",
+     "episode": "劇場版・前半",
+     "highlight": "幾重にも重なる木造の屋根と、屋上の赤い振鷺閣。油屋の外観の参考になったモデルのひとつとして広く知られ、夕暮れに灯りがともると「神々の湯屋」の雰囲気が漂う。",
+     "story": "トンネルを抜けた先の無人の飲食街。日が暮れると提灯がともり、供え物を勝手に食べた両親は豚に変えられてしまう。取り乱す千尋の手を引いたハクは、彼女を橋の向こうへ連れて行く。そこで千尋が初めて見上げたのが、夜空にそびえる煌々とした湯屋・油屋だった。両親を救うため、この世界で生き延びるために、彼女は湯婆婆に「ここで働かせてください」と頼みに行く。宮崎監督は油屋に特定のモデルはないと語っているが、美術監督が道後温泉本館を参考にしたと伝えられ、松山市の観光案内でもモデルのひとつとされている。",
+     "access": "伊予鉄道「道後温泉」駅から商店街を抜けて徒歩約3分",
+     "bestTime": "灯りがともる夕方以降。6時・12時・18時には刻太鼓が鳴る",
+     "tips": "現役の公衆浴場で入浴は有料。営業時間は公式サイトで確認を。正面での撮影は入口をふさがないように。"
+    },
+    "en": {
+     "placeName": "Dōgo Onsen Honkan (Matsuyama, Ehime)",
+     "sceneTitle": "The bathhouse lights up",
+     "episode": "Film · first half",
+     "highlight": "Its stacked wooden roofs and the red lookout tower on top make it the best-known of the bathhouses said to have inspired Aburaya. Once the lamps come on at dusk, it truly looks like a bathhouse for the gods.",
+     "story": "Past the tunnel lies a deserted street of food stalls. As night falls the lanterns flicker on, and Chihiro’s parents, gorging on food meant for the spirits, turn into pigs. Haku pulls the panicking girl across the bridge, and for the first time she looks up at Aburaya, a towering bathhouse blazing with light. To survive in this world and save her parents, she must walk in and ask the witch Yubaba for a job. Miyazaki has said the bathhouse has no single model, but the film’s art director reportedly drew on Dōgo Onsen Honkan, and Matsuyama’s tourism material describes it as one of the models.",
+     "access": "About 3 minutes’ walk through the shopping arcade from Dōgo Onsen Station (Iyotetsu tram)",
+     "bestTime": "Dusk and after, when it’s lit; the time drum sounds at 6:00, 12:00 and 18:00",
+     "tips": "Still a working public bath; bathing is paid and hours are on the official site. When photographing the front, keep clear of the entrance."
+    },
+    "ko": {
+     "placeName": "도고 온천 본관 (에히메·마쓰야마)",
+     "sceneTitle": "불이 켜진 유야",
+     "episode": "극장판 · 전반",
+     "highlight": "겹겹이 쌓인 목조 지붕과 옥상의 붉은 망루로, 유야의 외관을 참고한 모델 중 하나로 널리 알려져 있다. 해 질 녘 불이 켜지면 정말 ‘신들의 목욕탕’ 같은 분위기가 난다.",
+     "story": "터널을 지나자 사람 하나 없는 먹자골목이 나타난다. 날이 저물며 등롱에 불이 들어오고, 신들에게 바친 음식을 멋대로 먹은 부모님은 돼지로 변해 버린다. 겁에 질린 치히로의 손을 잡아끈 하쿠는 그녀를 다리 건너편으로 데려가고, 치히로는 처음으로 밤하늘에 우뚝 솟은 눈부신 목욕탕 유야를 올려다본다. 이 세계에서 살아남아 부모님을 구하려면, 그녀는 유바바에게 일하게 해 달라고 부탁해야 한다. 미야자키 감독은 유야에 특정한 모델은 없다고 했지만, 미술감독이 도고 온천 본관을 참고했다고 전해지며 마쓰야마시 관광 안내에서도 모델 중 하나로 소개한다.",
+     "access": "이요테쓰 ‘도고온센’역에서 상점가를 지나 도보 약 3분",
+     "bestTime": "불이 켜지는 해 질 녘 이후. 6시·12시·18시에 시각을 알리는 북이 울린다",
+     "tips": "지금도 영업 중인 공중목욕탕으로 입욕은 유료, 영업시간은 공식 사이트에서 확인. 정면 촬영 시 입구를 막지 않도록 주의."
+    }
+   },
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/%E9%81%93%E5%BE%8C%E5%95%86%E5%BA%97%E8%A1%97%E5%87%BA%E5%85%A5%E5%8F%A3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89%E6%9C%AC%E9%A4%A8.jpg/1280px-%E9%81%93%E5%BE%8C%E5%95%86%E5%BA%97%E8%A1%97%E5%87%BA%E5%85%A5%E5%8F%A3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89%E6%9C%AC%E9%A4%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:%E9%81%93%E5%BE%8C%E5%95%86%E5%BA%97%E8%A1%97%E5%87%BA%E5%85%A5%E5%8F%A3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89%E6%9C%AC%E9%A4%A8.jpg",
+    "author": "キアラア",
+    "license": "CC0",
+    "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   }
+  },
+  {
+   "id": "spirited-away-kodakarayu",
+   "workID": "spirited-away",
+   "latitude": 35.71638,
+   "longitude": 139.51503,
+   "sceneHeading": 0,
+   "scenePitch": 5,
+   "arrivalRadius": 40,
+   "spoiler": false,
+   "sourceURL": "https://tabi-mag.jp/spiritedaway-kodakarayu/",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "子宝汤（东京·江户东京建筑园）",
+     "sceneTitle": "唐破风下的澡堂街",
+     "episode": "剧场版 · 前半",
+     "highlight": "宫崎骏常来这座露天建筑博物馆找灵感。这条昭和老街尽头的钱汤“子宝汤”，被认为给油屋的造型带来很大启发，周围的老店铺也处处是电影里的影子。",
+     "story": "成了“千”的千寻被分配去打扫最脏的大浴池，在锅炉爷爷的锅炉房里第一次见到满墙的药草抽屉，又在澡堂里擦地、搬木桶，从一个手足无措的孩子慢慢学会了干活。这条“下町中通”老街重现了昭和初年的东京：尽头那座有着华丽唐破风屋顶的子宝汤建于1929年，原在足立区千住；旁边的文具店“武居三省堂”墙上一格格的抽屉，常被拿来和锅炉爷爷的药柜相比。宫崎骏住在附近，曾担任博物馆的形象角色设计，他本人也说过喜欢这里的老建筑。",
+     "access": "JR中央线「武藏小金井」站北口乘巴士约5分钟，在「小金井公园西口」下车步行约5分钟",
+     "bestTime": "工作日上午人少；秋天园内银杏变黄时很有昭和风情",
+     "tips": "博物馆收费入园，周一休园（逢节假日顺延），开放时间以官网为准。可进入子宝汤内部参观男女汤，请勿攀爬展品。"
+    },
+    "zh-Hant": {
+     "placeName": "子寶湯（東京·江戶東京建築園）",
+     "sceneTitle": "唐破風下的澡堂街",
+     "episode": "劇場版 · 前半",
+     "highlight": "宮崎駿常來這座露天建築博物館找靈感。這條昭和老街盡頭的錢湯「子寶湯」，被認為給油屋的造型帶來很大啟發，周圍的老店鋪也處處是電影裡的影子。",
+     "story": "成了「千」的千尋被分配去打掃最髒的大浴池，在鍋爐爺爺的鍋爐房裡第一次見到滿牆的藥草抽屜，又在澡堂裡擦地、搬木桶，從一個手足無措的孩子慢慢學會了幹活。這條「下町中通」老街重現了昭和初年的東京：盡頭那座有著華麗唐破風屋頂的子寶湯建於1929年，原在足立區千住；旁邊的文具店「武居三省堂」牆上一格格的抽屜，常被拿來和鍋爐爺爺的藥櫃相比。宮崎駿住在附近，曾擔任博物館的形象角色設計，他本人也說過喜歡這裡的老建築。",
+     "access": "JR中央線「武藏小金井」站北口乘巴士約5分鐘，在「小金井公園西口」下車步行約5分鐘",
+     "bestTime": "工作日上午人少；秋天園內銀杏變黃時很有昭和風情",
+     "tips": "博物館收費入園，週一休園（逢節假日順延），開放時間以官網為準。可進入子寶湯內部參觀男女湯，請勿攀爬展品。"
+    },
+    "ja": {
+     "placeName": "子宝湯（東京・江戸東京たてもの園）",
+     "sceneTitle": "唐破風の銭湯",
+     "episode": "劇場版・前半",
+     "highlight": "宮崎監督がたびたび訪れていたという野外博物館。下町の通りの突き当たりに建つ銭湯「子宝湯」は、油屋の造形に大きなヒントを与えた建物といわれ、周りの商店にも映画の面影が残る。",
+     "story": "「千」となった千尋は、いちばん汚れた大湯の掃除を任される。釜爺のボイラー室では壁一面の薬草の引き出しに目を見張り、床を磨き、桶を運び、右も左もわからなかった少女は少しずつ働くことを覚えていく。この「下町中通り」は昭和初期の東京を再現した一角で、突き当たりの子宝湯は1929年に足立区千住で建てられた立派な唐破風の銭湯。隣の文具店「武居三省堂」の壁一面の引き出しは、釜爺の薬棚に似ているとよく言われる。近くに住む宮崎監督は、園のイメージキャラクターも手がけている。",
+     "access": "JR中央線「武蔵小金井」駅北口からバス約5分「小金井公園西口」下車、徒歩約5分",
+     "bestTime": "平日の午前は比較的空いている。秋の黄葉の頃も昭和の風情が増す",
+     "tips": "入園は有料、月曜休園（祝日の場合は翌日）。開園時間は公式サイトで確認を。子宝湯は内部も見学できるが、展示物には上らないこと。"
+    },
+    "en": {
+     "placeName": "Kodakara-yu (Edo-Tokyo Open Air Architectural Museum, Tokyo)",
+     "sceneTitle": "The bathhouse at the end of the street",
+     "episode": "Film · first half",
+     "highlight": "Miyazaki often visited this open-air museum. Kodakara-yu, the public bath at the end of its old downtown street, is said to have strongly inspired the look of Aburaya, and the shops around it echo the film everywhere.",
+     "story": "Renamed Sen, Chihiro is given the filthiest bath to clean. In Kamaji’s boiler room she stares at a wall of herb drawers; she scrubs floors, hauls tubs, and slowly turns from a helpless child into a worker. This street recreates early Shōwa Tokyo: Kodakara-yu, with its ornate curved gable, was built in 1929 in Senju and moved here. The stationery shop next door, Takei Sanshodo, has a wall of tiny drawers often compared to Kamaji’s medicine chest. Miyazaki lives nearby and even designed the museum’s mascot character.",
+     "access": "From the north exit of Musashi-Koganei Station (JR Chūō Line), bus about 5 min to Koganei Kōen Nishiguchi, then 5 min on foot",
+     "bestTime": "Weekday mornings are quieter; autumn foliage adds to the Shōwa mood",
+     "tips": "Paid admission; closed Mondays (or the next day if Monday is a holiday). Check hours on the official site. You can go inside Kodakara-yu, but don’t climb on exhibits."
+    },
+    "ko": {
+     "placeName": "고다카라유 (도쿄·에도도쿄 다테모노엔)",
+     "sceneTitle": "가라하후 지붕의 목욕탕",
+     "episode": "극장판 · 전반",
+     "highlight": "미야자키 감독이 자주 찾았다는 야외 건축 박물관이다. 옛 거리 끝에 선 대중목욕탕 ‘고다카라유’는 유야의 모습에 큰 영감을 준 건물로 알려져 있고, 주변 상점에도 영화의 흔적이 가득하다.",
+     "story": "‘센’이 된 치히로는 가장 더러운 큰 욕탕 청소를 맡는다. 가마 할아범의 보일러실에서 벽 한가득한 약초 서랍에 눈이 휘둥그레지고, 바닥을 닦고 통을 나르며 어쩔 줄 모르던 소녀는 조금씩 일하는 법을 배워 간다. 이 거리는 쇼와 초기 도쿄를 재현한 곳으로, 끝에 있는 고다카라유는 1929년 아다치구 센주에 지어진 화려한 가라하후 지붕의 목욕탕이다. 옆 문구점 ‘다케이 산쇼도’의 벽면 서랍은 가마 할아범의 약장과 닮았다고들 한다. 근처에 사는 미야자키 감독은 박물관의 마스코트 캐릭터도 디자인했다.",
+     "access": "JR 주오선 ‘무사시코가네이’역 북쪽 출구에서 버스 약 5분 ‘고가네이코엔 니시구치’ 하차, 도보 약 5분",
+     "bestTime": "평일 오전이 한산하다. 가을 단풍철에는 쇼와 분위기가 더해진다",
+     "tips": "입장료가 있으며 월요일 휴원(공휴일이면 다음 날). 운영 시간은 공식 사이트에서 확인. 고다카라유 내부도 볼 수 있지만 전시물에 올라가지 말 것."
+    }
+   },
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Tokyo_Kodakarayu.jpg/1280px-Tokyo_Kodakarayu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:Tokyo_Kodakarayu.jpg",
+    "author": "Ymblanter",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
    }
   },
   {
@@ -8505,6 +9725,146 @@
    }
   },
   {
+   "id": "totoro-hachikokuyama",
+   "workID": "totoro",
+   "latitude": 35.77312,
+   "longitude": 139.46407,
+   "sceneHeading": 210,
+   "arrivalRadius": 100,
+   "spoiler": true,
+   "sourceURL": "https://tama120.metro.tokyo.lg.jp/pdf/introduction/higashimurayamashi.pdf",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "八国山绿地（东京·东村山）",
+     "sceneTitle": "七国山医院的窗外",
+     "episode": "剧场版 · 后半",
+     "highlight": "片中妈妈住院的“七国山医院”，名字和地形都被认为取自这片丘陵。姐妹俩坐在松树上远远望着病房窗口的那一幕，是全片最温柔的收尾。",
+     "story": "妈妈出院的日子被推迟，小梅不安又倔强，抱着一根玉米想亲手送去七国山医院，结果在田野里走丢。萨月跑遍全村也找不到她，只好去求龙猫，龙猫唤来猫巴士载她找到妹妹，又一路把两人送到医院。姐妹俩不敢打扰，只是坐在松树上望着窗边说笑的爸妈，悄悄把写着“给妈妈”的玉米放在窗台上。八国山脚下历史上就有结核疗养所，这片丘陵也被东京都官方介绍为“七国山”的原型。",
+     "access": "西武西武园线「西武园」站下车，步行约10分钟登上山脊步道",
+     "bestTime": "初夏新绿或秋日午后，阳光穿过杂木林最好看",
+     "tips": "这里是都立公园，免费开放。山脚的新山手医院、白十字医院仍在正常运营，请勿进入院区拍照或喧哗。"
+    },
+    "zh-Hant": {
+     "placeName": "八國山綠地（東京·東村山）",
+     "sceneTitle": "七國山醫院的窗外",
+     "episode": "劇場版 · 後半",
+     "highlight": "片中媽媽住院的「七國山醫院」，名字和地形都被認為取自這片丘陵。姐妹倆坐在松樹上遠遠望著病房視窗的那一幕，是全片最溫柔的收尾。",
+     "story": "媽媽出院的日子被推遲，小梅不安又倔強，抱著一根玉米想親手送去七國山醫院，結果在田野裡走丟。薩月跑遍全村也找不到她，只好去求龍貓，龍貓喚來貓巴士載她找到妹妹，又一路把兩人送到醫院。姐妹倆不敢打擾，只是坐在松樹上望著窗邊說笑的爸媽，悄悄把寫著「給媽媽」的玉米放在窗臺上。八國山腳下歷史上就有結核療養所，這片丘陵也被東京都官方介紹為「七國山」的原型。",
+     "access": "西武西武園線「西武園」站下車，步行約10分鐘登上山脊步道",
+     "bestTime": "初夏新綠或秋日午後，陽光穿過雜木林最好看",
+     "tips": "這裡是都立公園，免費開放。山腳的新山手醫院、白十字醫院仍在正常運營，請勿進入院區拍照或喧譁。"
+    },
+    "ja": {
+     "placeName": "八国山緑地（東京・東村山）",
+     "sceneTitle": "七国山病院の窓辺",
+     "episode": "劇場版・後半",
+     "highlight": "お母さんが入院している「七国山病院」は、名前も地形もこの八国山がモデルといわれる。松の木の上から病室の窓を見守る姉妹の姿は、物語を優しく締めくくる名場面だ。",
+     "story": "お母さんの退院が延びたと知り、不安でいっぱいのメイはトウモロコシを抱えてひとりで七国山病院へ向かい、迷子になってしまう。村中を探しても見つからず、サツキはトトロに助けを求める。ネコバスはメイのもとへ、そして二人を病院へと運んでくれた。病室では両親が笑い合っている。姉妹は声をかけずに松の木から見守り、「おかあさんへ」と刻んだトウモロコシをそっと窓辺に置いていく。八国山のふもとにはかつて結核療養所があり、東京都の紹介でもこの緑地が七国山のモデルとされている。",
+     "access": "西武西武園線「西武園」駅から徒歩約10分で尾根道へ",
+     "bestTime": "新緑の初夏や、雑木林に日が差し込む秋の午後",
+     "tips": "都立公園で入園無料。ふもとの新山手病院・白十字病院は現役の病院なので、敷地内での撮影や大声は控えよう。"
+    },
+    "en": {
+     "placeName": "Hachikokuyama Green Space (Higashimurayama, Tokyo)",
+     "sceneTitle": "Outside the Shichikokuyama Hospital",
+     "episode": "Film · second half",
+     "highlight": "The mother’s hospital, Shichikokuyama, is widely held to be modelled on these wooded hills, right down to the name. The sisters watching their parents from a pine tree is the film’s gentlest ending.",
+     "story": "When their mother’s homecoming is postponed, a worried Mei sets off alone with an ear of corn for the hospital and gets lost in the fields. Satsuki searches the whole village in vain and finally begs Totoro for help. The Catbus finds Mei and carries both girls to the hospital, where they see their parents laughing together by the window. Rather than intrude, they watch from a pine tree and leave the corn on the sill, carved with the words “for Mother”. A tuberculosis sanatorium once stood at the foot of these hills, and Tokyo’s own guide names Hachikokuyama as the model for Shichikokuyama.",
+     "access": "About a 10-minute walk up to the ridge path from Seibu-en Station (Seibu-en Line)",
+     "bestTime": "Early summer greenery, or autumn afternoons when light filters through the woods",
+     "tips": "A free metropolitan park. The hospitals at the foot of the hill are still in operation, so please don’t photograph or linger on their grounds."
+    },
+    "ko": {
+     "placeName": "하치코쿠야마 녹지 (도쿄·히가시무라야마)",
+     "sceneTitle": "시치코쿠야마 병원의 창가",
+     "episode": "극장판 · 후반",
+     "highlight": "엄마가 입원한 ‘시치코쿠야마 병원’은 이름도 지형도 이 하치코쿠야마가 모델이라고 알려져 있다. 소나무 위에서 병실 창을 바라보는 자매의 모습은 영화를 따뜻하게 마무리하는 명장면이다.",
+     "story": "엄마의 퇴원이 미뤄졌다는 소식에 불안해진 메이는 옥수수를 품에 안고 혼자 병원으로 향하다 길을 잃는다. 온 마을을 뒤져도 찾지 못한 사츠키는 결국 토토로에게 도움을 청하고, 고양이버스가 메이를 찾아 두 사람을 병원까지 데려다준다. 창가에서 웃으며 이야기하는 부모님을 본 자매는 방해하지 않고 소나무 위에서 지켜보다가, ‘엄마에게’라고 새긴 옥수수를 창틀에 살며시 두고 온다. 이 언덕 기슭에는 예전에 결핵 요양소가 있었고, 도쿄도의 소개 자료에서도 이곳을 시치코쿠야마의 모델로 꼽는다.",
+     "access": "세이부 세이부엔선 ‘세이부엔’역에서 능선 산책로까지 도보 약 10분",
+     "bestTime": "신록이 짙은 초여름, 또는 잡목림에 햇살이 비치는 가을 오후",
+     "tips": "무료 도립공원이다. 기슭의 병원들은 지금도 운영 중이므로 부지 안에서 촬영하거나 떠들지 말자."
+    }
+   },
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/%E5%85%AB%E5%9B%BD%E5%B1%B1%E7%B7%91%E5%9C%B0_-_panoramio.jpg/1280px-%E5%85%AB%E5%9B%BD%E5%B1%B1%E7%B7%91%E5%9C%B0_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:%E5%85%AB%E5%9B%BD%E5%B1%B1%E7%B7%91%E5%9C%B0_-_panoramio.jpg",
+    "author": "nekoneko",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  },
+  {
+   "id": "totoro-satsuki-mei-house",
+   "workID": "totoro",
+   "latitude": 35.16922,
+   "longitude": 137.09262,
+   "sceneHeading": 55,
+   "arrivalRadius": 50,
+   "spoiler": false,
+   "sourceURL": "https://ghibli-park.jp/",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "小月和小梅的家（爱知·吉卜力公园）",
+     "sceneTitle": "搬进乡下的老房子",
+     "episode": "剧场版 · 开头",
+     "highlight": "这不是取景地，而是按电影设定1:1建造的实体房屋。站在院子里看那栋带蓝色洋式书房的和式老屋，就像和姐妹俩一起刚搬到乡下。",
+     "story": "电影一开场，爸爸开着装满家当的小卡车，带着萨月和小梅来到乡下的新家。姐妹俩一下车就满院子乱跑，发现柱子腐朽了、屋里有会“噗”地消散的灰尘精灵，还兴奋地爬上洋式书房的阁楼。这栋房子是2005年爱知世博会时依照电影设定建造的，每个抽屉、每本书都还原了片中的模样，如今是吉卜力公园“咚咚森”区域的一部分。站在这里，能看到故事开始时那种夏日刚到、什么都还很新鲜的感觉。",
+     "access": "名古屋地铁东山线「藤丘」站换乘磁浮线Linimo至「爱·地球博纪念公园」站，步行约20分钟",
+     "bestTime": "初夏到盛夏，院中花木繁茂，最接近电影里的季节",
+     "tips": "位于吉卜力公园收费区内，需在官网提前购买指定日期门票；进入屋内参观需对应票种，具体以官网为准。屋内请勿触摸展品。"
+    },
+    "zh-Hant": {
+     "placeName": "小月和小梅的家（愛知·吉卜力公園）",
+     "sceneTitle": "搬進鄉下的老房子",
+     "episode": "劇場版 · 開頭",
+     "highlight": "這不是取景地，而是按電影設定1:1建造的實體房屋。站在院子裡看那棟帶藍色洋式書房的和式老屋，就像和姐妹倆一起剛搬到鄉下。",
+     "story": "電影一開場，爸爸開著裝滿家當的小卡車，帶著薩月和小梅來到鄉下的新家。姐妹倆一下車就滿院子亂跑，發現柱子腐朽了、屋裡有會「噗」地消散的灰塵精靈，還興奮地爬上洋式書房的閣樓。這棟房子是2005年愛知世博會時依照電影設定建造的，每個抽屜、每本書都還原了片中的模樣，如今是吉卜力公園「咚咚森」區域的一部分。站在這裡，能看到故事開始時那種夏日剛到、什麼都還很新鮮的感覺。",
+     "access": "名古屋地鐵東山線「藤丘」站換乘磁浮線Linimo至「愛·地球博紀念公園」站，步行約20分鐘",
+     "bestTime": "初夏到盛夏，院中花木繁茂，最接近電影裡的季節",
+     "tips": "位於吉卜力公園收費區內，需在官網提前購買指定日期門票；進入屋內參觀需對應票種，具體以官網為準。屋內請勿觸控展品。"
+    },
+    "ja": {
+     "placeName": "サツキとメイの家（愛知・ジブリパーク）",
+     "sceneTitle": "田舎の家への引っ越し",
+     "episode": "劇場版・冒頭",
+     "highlight": "ここは実在のモデル地ではなく、映画の設定どおりに建てられた実物大の家。青い洋風の書斎がついた和風の家を庭から眺めれば、姉妹と一緒に引っ越してきた気分になれる。",
+     "story": "映画の冒頭、お父さんは荷物を満載したオート三輪でサツキとメイを田舎の新居へ連れてくる。車を降りた姉妹は庭を駆け回り、腐った柱を見つけておばけ屋敷だと大はしゃぎ。ススワタリに驚き、洋間の書斎の屋根裏へ駆け上がる。この家は2005年の愛・地球博で映画の設定をもとに建てられ、引き出しの中身や本棚の本まで再現されている。今はジブリパーク「どんどこ森」の一部として公開され、物語が始まったばかりの夏のわくわくした空気を感じられる。",
+     "access": "地下鉄東山線「藤が丘」駅からリニモで「愛・地球博記念公園」駅、徒歩約20分",
+     "bestTime": "庭の草木が茂る初夏から夏。映画の季節に一番近い",
+     "tips": "ジブリパークの有料エリア内。日時指定チケットを公式サイトで事前購入する必要があり、家の内部見学は対応する券種が必要（最新情報は公式サイトで確認）。展示物には触れないこと。"
+    },
+    "en": {
+     "placeName": "Satsuki and Mei’s House (Ghibli Park, Aichi)",
+     "sceneTitle": "Moving into the country house",
+     "episode": "Film · opening",
+     "highlight": "Not a real-world model but a full-size house built to the film’s own design. Standing in the garden facing the Japanese farmhouse with its blue Western-style study feels like arriving with the sisters on day one.",
+     "story": "The film opens with Dad driving Satsuki and Mei to their new home in a little three-wheeled truck piled high with furniture. The girls tumble out and race around the garden, delighted to find a rotten pillar, soot sprites that scatter into nothing, and an attic above the Western-style study. The house was built for the 2005 Aichi Expo from the film’s settings, down to the contents of the drawers and the books on the shelves, and is now part of Ghibli Park’s Dondoko Forest area. It captures the feeling of a summer that has only just begun.",
+     "access": "Linimo line to Ai·Chikyuhaku Kinen Koen Station (from Fujigaoka on the Higashiyama subway line), then about 20 minutes on foot",
+     "bestTime": "Early to high summer, when the garden is lush, closest to the film’s season",
+     "tips": "Inside Ghibli Park’s paid area: buy date-specific tickets online in advance. Entering the house requires the appropriate ticket type; check the official site. Please don’t touch the props."
+    },
+    "ko": {
+     "placeName": "사츠키와 메이의 집 (아이치·지브리 파크)",
+     "sceneTitle": "시골집으로 이사 오던 날",
+     "episode": "극장판 · 오프닝",
+     "highlight": "실제 모델지가 아니라 영화 설정 그대로 지은 실물 크기의 집이다. 파란 서양식 서재가 붙은 일본식 집을 마당에서 바라보면 자매와 함께 막 이사 온 기분이 든다.",
+     "story": "영화는 아빠가 짐을 가득 실은 삼륜 트럭에 사츠키와 메이를 태우고 시골의 새집에 도착하는 장면으로 시작한다. 차에서 내린 자매는 마당을 뛰어다니며 썩은 기둥을 발견하고 도깨비 집이라며 신이 나고, 먼지 귀신에 깜짝 놀라며 서재 다락방으로 뛰어오른다. 이 집은 2005년 아이치 엑스포 때 영화 설정을 바탕으로 지어졌으며, 서랍 속 물건과 책장의 책까지 재현되어 있다. 지금은 지브리 파크 ‘돈도코 숲’ 구역의 일부로, 막 시작된 여름의 설렘을 그대로 느낄 수 있다.",
+     "access": "지하철 히가시야마선 ‘후지가오카’역에서 리니모로 ‘아이·지큐하쿠 기넨코엔’역, 도보 약 20분",
+     "bestTime": "마당의 풀과 나무가 무성한 초여름~한여름",
+     "tips": "지브리 파크 유료 구역 안에 있다. 공식 사이트에서 날짜 지정 티켓을 미리 사야 하며, 집 내부 관람은 해당 권종이 필요하다(최신 정보는 공식 사이트 확인). 전시물은 만지지 말 것."
+    }
+   },
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/SatsukiMeiHouse.jpg/1280px-SatsukiMeiHouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:SatsukiMeiHouse.jpg",
+    "author": "Petr Vodička",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  },
+  {
    "id": "tenkinoko-kisho-jinja",
    "workID": "weathering-with-you",
    "latitude": 35.70453,
@@ -8644,6 +10004,281 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Pedestrian_path_near_the_South_Exit_of_Tabata_Station.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Pedestrian_path_near_the_South_Exit_of_Tabata_Station.jpg/1280px-Pedestrian_path_near_the_South_Exit_of_Tabata_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   }
+  },
+  {
+   "id": "marnie-mochirippu-numa",
+   "workID": "when-marnie-was-there",
+   "latitude": 43.01865,
+   "longitude": 145.01637,
+   "sceneHeading": 250,
+   "arrivalRadius": 150,
+   "spoiler": false,
+   "sourceURL": "https://ja.kushiro-lakeakan.com/kushiroakanwp/wp-content/uploads/e434b2dc47e684083e8cc854c03c2d4f-1.pdf",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "藻散布沼（北海道·浜中町）",
+     "sceneTitle": "湿地对岸的洋馆",
+     "episode": "剧场版 · 前半",
+     "highlight": "片中小镇是虚构的，但取景灵感来自道东的湿地海岸。被芦苇和森林环抱的藻散布沼，被钏路地区观光资料介绍为本片的原型地之一。",
+     "story": "杏奈总觉得自己被“圆圈”排除在外，连养母的关心也让她别扭。被送到海边小镇疗养后，她在湿地边第一次看见那座洋馆，竟有种莫名的熟悉感。退潮时可以踩着泥滩走过去，满潮时房子就像浮在水上。某个夜晚，她划着小船靠近，在灯火通明的洋馆里遇见了金发少女玛妮。两人约定这是“我们俩的秘密”，在湿地、小船和洋馆之间度过了一个个梦一般的夜晚，杏奈也渐渐学会了向别人敞开心扉。原作舞台在英国诺福克，电影改到了北海道东部的湿地；具体原型说法不一，这里是官方观光资料提到的地点之一。",
+     "access": "JR花咲线「茶内」站以南约12公里，公共交通不便，基本需要自驾",
+     "bestTime": "夏季黄昏，湿地被夕阳染红、水面平静时最像电影",
+     "tips": "沼泽周边是自然保护区和渔业区域，请在道路旁安全处停车观赏，勿进入湿地；夏季蚊虫多，注意防虫。"
+    },
+    "zh-Hant": {
+     "placeName": "藻散佈沼（北海道·浜中町）",
+     "sceneTitle": "溼地對岸的洋館",
+     "episode": "劇場版 · 前半",
+     "highlight": "片中小鎮是虛構的，但取景靈感來自道東的溼地海岸。被蘆葦和森林環抱的藻散佈沼，被釧路地區觀光資料介紹為本片的原型地之一。",
+     "story": "杏奈總覺得自己被「圓圈」排除在外，連養母的關心也讓她彆扭。被送到海邊小鎮療養後，她在溼地邊第一次看見那座洋館，竟有種莫名的熟悉感。退潮時可以踩著泥灘走過去，滿潮時房子就像浮在水上。某個夜晚，她划著小船靠近，在燈火通明的洋館裡遇見了金髮少女瑪妮。兩人約定這是「我們倆的秘密」，在溼地、小船和洋館之間度過了一個個夢一般的夜晚，杏奈也漸漸學會了向別人敞開心扉。原作舞臺在英國諾福克，電影改到了北海道東部的溼地；具體原型說法不一，這裡是官方觀光資料提到的地點之一。",
+     "access": "JR花咲線「茶內」站以南約12公里，公共交通不便，基本需要自駕",
+     "bestTime": "夏季黃昏，溼地被夕陽染紅、水面平靜時最像電影",
+     "tips": "沼澤周邊是自然保護區和漁業區域，請在道路旁安全處停車觀賞，勿進入溼地；夏季蚊蟲多，注意防蟲。"
+    },
+    "ja": {
+     "placeName": "藻散布沼（北海道・浜中町）",
+     "sceneTitle": "入り江の向こうの屋敷",
+     "episode": "劇場版・前半",
+     "highlight": "作中の町は架空だが、道東の湿地帯の海辺がイメージのもと。葦と森に囲まれた藻散布沼は、釧路地域の観光資料で作品のモデル地のひとつと紹介されている。",
+     "story": "杏奈はいつも自分が「輪の外側」にいると感じていて、養母の気遣いさえ素直に受け取れない。海辺の町で療養することになった彼女は、入り江のほとりで初めてその古い屋敷を目にし、なぜか懐かしさを覚える。潮が引けば干潟を歩いて渡れるが、満ち潮になると屋敷は水に浮かぶように見える。ある夜、小舟を漕いで近づいた杏奈は、灯りのともる屋敷で金髪の少女マーニーと出会う。二人は「わたしたちのことは秘密よ」と約束し、湿地と小舟と屋敷を行き来する夢のような夜を重ね、杏奈は少しずつ心を開くことを覚えていく。原作の舞台は英国ノーフォークで、映画では北海道東部の湿地に移された。モデル地には諸説あり、ここは公的な観光資料で挙げられている場所のひとつ。",
+     "access": "JR花咲線「茶内」駅から南へ約12km。公共交通は不便で車がほぼ必須",
+     "bestTime": "夏の夕暮れ、湿地が夕日に染まり水面が凪いでいるとき",
+     "tips": "周辺は自然環境や漁業の場。道路脇の安全な場所に車を停めて眺め、湿地には立ち入らないこと。夏は虫よけ対策を。"
+    },
+    "en": {
+     "placeName": "Mochirippu-numa Lagoon (Hamanaka, Hokkaido)",
+     "sceneTitle": "The mansion across the marsh",
+     "episode": "Film · first half",
+     "highlight": "The film’s town is fictional, inspired by the marshy coast of eastern Hokkaido. Ringed by reeds and forest, Mochirippu-numa is named in Kushiro-area tourism material as one of the places said to be the film’s model.",
+     "story": "Anna always feels she is outside “the magic circle”, and can’t even accept her foster mother’s care. Sent to the seaside to recover, she first sees the old mansion across the marsh and feels a strange familiarity. At low tide you can walk across the mudflats; at high tide the house seems to float on the water. One night she rows a small boat over and, in the brightly lit mansion, meets Marnie, a blonde girl. They promise to keep each other secret, and over dreamlike nights between marsh, boat and mansion, Anna slowly learns to open her heart. The novel is set in Norfolk, England; the film moved it to eastern Hokkaido. Accounts of the exact model vary, and this is one of the places named in official tourism material.",
+     "access": "About 12 km south of Chanai Station (JR Hanasaki Line); public transport is scarce, so a car is practically essential",
+     "bestTime": "Summer evenings, when the marsh glows in the sunset and the water is still",
+     "tips": "The area is a natural habitat and fishing ground: park safely beside the road to look, and don’t walk into the wetland. Bring insect repellent in summer."
+    },
+    "ko": {
+     "placeName": "모치릿푸누마 (홋카이도·하마나카초)",
+     "sceneTitle": "습지 건너편의 저택",
+     "episode": "극장판 · 전반",
+     "highlight": "영화 속 마을은 가상이지만 홋카이도 동부 습지 해안이 이미지의 바탕이다. 갈대와 숲에 둘러싸인 모치릿푸누마는 구시로 지역 관광 자료에서 작품의 모델지 중 하나로 소개된다.",
+     "story": "안나는 늘 자신이 ‘원 밖’에 있다고 느끼고, 양어머니의 걱정조차 솔직하게 받아들이지 못한다. 바닷가 마을로 요양을 온 그녀는 습지 너머의 오래된 저택을 처음 보고 이상하게 그리운 느낌을 받는다. 물이 빠지면 갯벌을 걸어 건널 수 있지만 물이 차면 저택은 물 위에 떠 있는 것처럼 보인다. 어느 밤 작은 배를 저어 다가간 안나는 불 켜진 저택에서 금발 소녀 마니를 만난다. 둘은 ‘우리 일은 비밀’이라고 약속하고, 습지와 작은 배와 저택을 오가는 꿈같은 밤들을 보내며 안나는 조금씩 마음을 여는 법을 배운다. 원작의 무대는 영국 노퍽이며 영화에서는 홋카이도 동부 습지로 옮겨졌다. 모델지는 여러 설이 있으며 이곳은 공식 관광 자료에 언급된 장소 중 하나다.",
+     "access": "JR 하나사키선 ‘차나이’역에서 남쪽으로 약 12km. 대중교통이 불편해 사실상 차가 필요하다",
+     "bestTime": "여름 해 질 녘, 습지가 노을에 물들고 수면이 잔잔할 때",
+     "tips": "주변은 자연 서식지이자 어업 구역이다. 도로변 안전한 곳에 차를 세우고 바라보되 습지에는 들어가지 말 것. 여름엔 벌레 대책을."
+    }
+   }
+  },
+  {
+   "id": "whisper-iroha-zaka-stairs",
+   "workID": "whisper-of-the-heart",
+   "latitude": 35.64461,
+   "longitude": 139.44527,
+   "sceneHeading": 315,
+   "scenePitch": -15,
+   "arrivalRadius": 30,
+   "spoiler": false,
+   "sourceURL": "https://www.mapple.net/original/249182/",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "樱之丘 いろは坂阶梯（东京·多摩）",
+     "sceneTitle": "雫一路奔下的长阶",
+     "episode": "剧场版",
+     "highlight": "蜿蜒的坡道和抄近路的阶梯，是“杉之宫”这座山坡小镇最鲜明的印象。这段红色台阶据说正是雫飞奔而下那一幕的原型。",
+     "story": "雫住在山脚的团地，每天都要在坡道和阶梯之间上上下下：去图书馆、给爸爸送便当、追着那只坐电车的胖猫爬上山坡，最后在坡顶发现了地球屋。随着她和圣司越走越近、又决定在他出国前写完自己的第一个故事，她在这座小镇的坡道上奔跑的身影也越来越坚定。电影里的“杉之宫”以京王线圣迹樱丘站周边为原型，多摩市也在官方资料中提到片中背景大量参考了这一带。从台阶上往下望，坡下的街景和远处的多摩丘陵依旧是片中的样子。",
+     "access": "京王线「圣迹樱丘」站西口出站，沿いろは坂通往上步行约12–15分钟",
+     "bestTime": "春天坡道两旁樱花盛开；傍晚逆光下坡的景色最有电影感",
+     "tips": "这里是居民日常通行的阶梯，请靠边拍照、不要长时间占用台阶；附近住宅区请保持安静。"
+    },
+    "zh-Hant": {
+     "placeName": "櫻之丘 いろは坂階梯（東京·多摩）",
+     "sceneTitle": "雫一路奔下的長階",
+     "episode": "劇場版",
+     "highlight": "蜿蜒的坡道和抄近路的階梯，是「杉之宮」這座山坡小鎮最鮮明的印象。這段紅色臺階據說正是雫飛奔而下那一幕的原型。",
+     "story": "雫住在山腳的團地，每天都要在坡道和階梯之間上上下下：去圖書館、給爸爸送便當、追著那隻坐電車的胖貓爬上山坡，最後在坡頂發現了地球屋。隨著她和聖司越走越近、又決定在他出國前寫完自己的第一個故事，她在這座小鎮的坡道上奔跑的身影也越來越堅定。電影裡的「杉之宮」以京王線聖蹟櫻丘站周邊為原型，多摩市也在官方資料中提到片中背景大量參考了這一帶。從臺階上往下望，坡下的街景和遠處的多摩丘陵依舊是片中的樣子。",
+     "access": "京王線「聖蹟櫻丘」站西口出站，沿いろは坂通往上步行約12–15分鐘",
+     "bestTime": "春天坡道兩旁櫻花盛開；傍晚逆光下坡的景色最有電影感",
+     "tips": "這裡是居民日常通行的階梯，請靠邊拍照、不要長時間佔用臺階；附近住宅區請保持安靜。"
+    },
+    "ja": {
+     "placeName": "桜ヶ丘いろは坂の階段（東京・多摩）",
+     "sceneTitle": "雫が駆け下りる階段",
+     "episode": "劇場版",
+     "highlight": "九十九折りの坂道と近道の階段は、坂の町「杉の宮」を象徴する風景。この赤い階段は、雫が駆け下りるシーンのモデルといわれている。",
+     "story": "団地に住む雫は、毎日のように坂と階段を上り下りしている。図書館へ、父にお弁当を届けに、電車に乗る太った猫を追いかけて坂を登り、その先で地球屋を見つけた。聖司と心を通わせ、彼が留学する前に自分も初めての物語を書き上げようと決めてからは、坂の町を駆ける雫の姿もどこか力強くなっていく。映画の「杉の宮」は京王線聖蹟桜ヶ丘駅周辺がモデルで、多摩市も作品の背景がこの一帯を大いに参考に描かれたと紹介している。階段の上から見下ろす町並みと多摩の丘陵は、今も映画の雰囲気そのままだ。",
+     "access": "京王線「聖蹟桜ヶ丘」駅西口から、いろは坂通りを上って徒歩約12〜15分",
+     "bestTime": "春は坂沿いの桜が見事。夕方の逆光の坂も映画らしい",
+     "tips": "住民が日常的に使う階段。撮影は端に寄って手短に、周辺の住宅街では静かに。"
+    },
+    "en": {
+     "placeName": "Iroha-zaka Stairs, Sakuragaoka (Tama, Tokyo)",
+     "sceneTitle": "Running down the long stairs",
+     "episode": "Film",
+     "highlight": "Winding slopes and shortcut stairways define Shizuku’s hillside town. This red stairway is said to be the model for the scene where she races down the hill.",
+     "story": "Shizuku lives in an apartment block at the bottom of the hill and is always going up and down its slopes and steps: to the library, to bring her father his lunch, and chasing a fat cat off the train and up the hill, where she found the World Emporium at the top. As she grows close to Seiji and resolves to finish her first story before he leaves to study abroad, the way she runs through these streets grows more determined. The film’s town is modelled on the area around Seiseki-Sakuragaoka Station, and Tama City itself notes that the backgrounds drew heavily on it. Looking down from the top of the steps, the town and the Tama hills still look much as they do on screen.",
+     "access": "About 12–15 min uphill along Iroha-zaka from the west exit of Seiseki-Sakuragaoka Station (Keiō Line)",
+     "bestTime": "Spring, when cherry trees line the slope; late afternoon backlight is very cinematic",
+     "tips": "Residents use these stairs every day: step aside for photos and don’t block them. Keep noise down in the surrounding neighbourhood."
+    },
+    "ko": {
+     "placeName": "사쿠라가오카 이로하자카 계단 (도쿄·다마)",
+     "sceneTitle": "시즈쿠가 달려 내려간 계단",
+     "episode": "극장판",
+     "highlight": "구불구불한 언덕길과 지름길 계단은 언덕 마을 ‘스기노미야’를 상징하는 풍경이다. 이 붉은 계단은 시즈쿠가 뛰어 내려가는 장면의 모델로 알려져 있다.",
+     "story": "언덕 아래 단지에 사는 시즈쿠는 매일같이 언덕길과 계단을 오르내린다. 도서관에 가고, 아빠에게 도시락을 가져다주고, 전철에 탄 뚱뚱한 고양이를 쫓아 언덕을 오르다 꼭대기에서 지구옥을 발견했다. 세이지와 가까워지고 그가 유학을 떠나기 전 자신도 첫 이야기를 완성하겠다고 마음먹은 뒤로, 언덕 마을을 달리는 시즈쿠의 모습도 한결 단단해진다. 영화 속 마을은 게이오선 세이세키사쿠라가오카역 주변이 모델이며, 다마시도 작품 배경이 이 일대를 크게 참고했다고 소개한다. 계단 위에서 내려다본 거리와 다마 구릉은 지금도 영화 속 분위기 그대로다.",
+     "access": "게이오선 ‘세이세키사쿠라가오카’역 서쪽 출구에서 이로하자카 길을 올라 도보 약 12~15분",
+     "bestTime": "봄에는 언덕길 벚꽃이 아름답다. 늦은 오후 역광도 영화 같다",
+     "tips": "주민들이 매일 쓰는 계단이니 사진은 가장자리에서 짧게, 주변 주택가에서는 조용히."
+    }
+   },
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Stairs_in_Irohazaka%28Tama_City_Japan%29.jpg/1280px-Stairs_in_Irohazaka%28Tama_City_Japan%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:Stairs_in_Irohazaka(Tama_City_Japan).jpg",
+    "author": "Kly",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  },
+  {
+   "id": "whisper-konpira-shrine",
+   "workID": "whisper-of-the-heart",
+   "latitude": 35.64472,
+   "longitude": 139.44535,
+   "sceneHeading": 355,
+   "scenePitch": 10,
+   "arrivalRadius": 25,
+   "spoiler": false,
+   "sourceURL": "https://www.mapple.net/original/249182/",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "金比罗宫（东京·多摩）",
+     "sceneTitle": "神社前的告白",
+     "episode": "剧场版 · 中段",
+     "highlight": "坡道半山腰的小神社，被认为是杉村向雫告白那场戏的原型。笨拙的告白、尴尬的沉默，是很多人心里最真实的青春片段。",
+     "story": "放学路上，同班的棒球少年杉村把雫叫到神社，吞吞吐吐地说出“我一直喜欢你”。雫完全没想到——她一直以为杉村和好友夕子是一对，而夕子也偷偷喜欢着杉村。慌乱之下雫说了句“对不起”转身跑开，留下杉村一个人站在石阶上。这场告白让三个人的关系变得微妙，也让雫第一次意识到，喜欢一个人和被人喜欢，都不是想象中那么简单。神社所在的小山是关户城天守台遗址一带，旁边就是いろは坂的阶梯。",
+     "access": "京王线「圣迹樱丘」站西口步行约15分钟，位于いろは坂中途",
+     "bestTime": "夏日傍晚树影斑驳，与电影里放学后的光线相近",
+     "tips": "这是当地人参拜的神社，请先礼貌参拜再拍照，不要坐在石阶或香资箱上。"
+    },
+    "zh-Hant": {
+     "placeName": "金比羅宮（東京·多摩）",
+     "sceneTitle": "神社前的告白",
+     "episode": "劇場版 · 中段",
+     "highlight": "坡道半山腰的小神社，被認為是杉村向雫告白那場戲的原型。笨拙的告白、尷尬的沉默，是很多人心裡最真實的青春片段。",
+     "story": "放學路上，同班的棒球少年杉村把雫叫到神社，吞吞吐吐地說出「我一直喜歡你」。雫完全沒想到——她一直以為杉村和好友夕子是一對，而夕子也偷偷喜歡著杉村。慌亂之下雫說了句「對不起」轉身跑開，留下杉村一個人站在石階上。這場告白讓三個人的關係變得微妙，也讓雫第一次意識到，喜歡一個人和被人喜歡，都不是想象中那麼簡單。神社所在的小山是關戶城天守臺遺址一帶，旁邊就是いろは坂的階梯。",
+     "access": "京王線「聖蹟櫻丘」站西口步行約15分鐘，位於いろは坂中途",
+     "bestTime": "夏日傍晚樹影斑駁，與電影裡放學後的光線相近",
+     "tips": "這是當地人參拜的神社，請先禮貌參拜再拍照，不要坐在石階或香資箱上。"
+    },
+    "ja": {
+     "placeName": "金比羅宮（東京・多摩）",
+     "sceneTitle": "神社での告白",
+     "episode": "劇場版・中盤",
+     "highlight": "坂の途中の小さな神社は、杉村が雫に告白する場面のモデルといわれる。不器用な告白と気まずい沈黙は、多くの人の記憶に残る青春のひとこまだ。",
+     "story": "放課後、野球部の杉村は雫を神社に呼び出し、しどろもどろに「ずっと好きだった」と打ち明ける。雫には寝耳に水だった。杉村と親友の夕子はお似合いだと思っていたし、夕子が杉村を好きなことも知っていたからだ。混乱した雫は「ごめん」とだけ言って走り去り、石段には杉村がひとり残される。この告白で三人の関係はぎくしゃくし、雫は誰かを好きになること、好かれることが思っていたほど簡単ではないと初めて知る。神社のある小山は関戸城の天守台跡とされ、すぐ隣にいろは坂の階段がある。",
+     "access": "京王線「聖蹟桜ヶ丘」駅西口から徒歩約15分、いろは坂の中腹",
+     "bestTime": "木漏れ日が揺れる夏の夕方。映画の放課後の光に近い",
+     "tips": "地元の方がお参りする神社。まずは参拝してから撮影を。石段や賽銭箱に腰掛けないこと。"
+    },
+    "en": {
+     "placeName": "Konpira-gū Shrine (Tama, Tokyo)",
+     "sceneTitle": "A confession at the shrine",
+     "episode": "Film · middle",
+     "highlight": "This small shrine halfway up the slope is said to be the model for where Sugimura confesses to Shizuku. The clumsy confession and awkward silence are a slice of adolescence many viewers recognise.",
+     "story": "On the way home from school, Sugimura from the baseball team calls Shizuku over to the shrine and stammers out that he has always liked her. She is stunned: she had assumed he and her best friend Yūko were meant for each other, and she knows Yūko secretly likes him. Flustered, Shizuku says sorry and runs off, leaving Sugimura alone on the steps. The confession makes things tense between the three, and teaches Shizuku that liking someone, and being liked, is not as simple as it seems. The hill the shrine stands on is the site of the old Sekido Castle keep, right beside the Iroha-zaka stairs.",
+     "access": "About 15 min on foot from the west exit of Seiseki-Sakuragaoka Station, halfway up Iroha-zaka",
+     "bestTime": "Summer late afternoons, when dappled light matches the after-school scenes",
+     "tips": "A working local shrine: pay your respects before photographing, and don’t sit on the steps or the offering box."
+    },
+    "ko": {
+     "placeName": "곤피라궁 (도쿄·다마)",
+     "sceneTitle": "신사에서의 고백",
+     "episode": "극장판 · 중반",
+     "highlight": "언덕길 중턱의 작은 신사는 스기무라가 시즈쿠에게 고백하는 장면의 모델로 알려져 있다. 서툰 고백과 어색한 침묵은 많은 이들의 기억 속 청춘의 한 장면이다.",
+     "story": "하굣길, 야구부 스기무라는 시즈쿠를 신사로 불러내 더듬거리며 ‘계속 좋아했어’라고 고백한다. 시즈쿠에게는 뜻밖이었다. 스기무라와 단짝 유코가 잘 어울린다고 생각했고, 유코가 스기무라를 좋아한다는 것도 알고 있었기 때문이다. 당황한 시즈쿠는 ‘미안’이라는 말만 남기고 달아나고, 돌계단에는 스기무라만 홀로 남는다. 이 고백으로 세 사람의 관계는 어색해지고, 시즈쿠는 누군가를 좋아하는 일도, 누군가에게 사랑받는 일도 생각만큼 간단하지 않다는 걸 처음 알게 된다. 신사가 있는 작은 산은 세키도성 천수대 터로 알려져 있으며 바로 옆에 이로하자카 계단이 있다.",
+     "access": "게이오선 ‘세이세키사쿠라가오카’역 서쪽 출구에서 도보 약 15분, 이로하자카 중턱",
+     "bestTime": "나뭇잎 사이로 햇살이 흔들리는 여름 늦은 오후",
+     "tips": "지역 주민이 참배하는 신사이니 먼저 참배한 뒤 촬영하자. 돌계단이나 새전함에 앉지 말 것."
+    }
+   },
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/%E9%87%91%E6%AF%94%E7%BE%85%E5%AE%AE%28%E5%A4%9A%E6%91%A9%E5%B8%82%29.jpg/1280px-%E9%87%91%E6%AF%94%E7%BE%85%E5%AE%AE%28%E5%A4%9A%E6%91%A9%E5%B8%82%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E6%AF%94%E7%BE%85%E5%AE%AE(%E5%A4%9A%E6%91%A9%E5%B8%82).jpg",
+    "author": "多摩に暇人",
+    "license": "CC BY 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+   }
+  },
+  {
+   "id": "whisper-sakuragaoka-rotary",
+   "workID": "whisper-of-the-heart",
+   "latitude": 35.64105,
+   "longitude": 139.44438,
+   "sceneHeading": 160,
+   "arrivalRadius": 50,
+   "spoiler": false,
+   "sourceURL": "https://www.mapple.net/original/249182/",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "樱之丘环岛（东京·多摩）",
+     "sceneTitle": "坡顶的地球屋",
+     "episode": "剧场版 · 前半",
+     "highlight": "雫追着猫爬上坡顶，眼前豁然开朗：一个小小的环岛，路边就是古董店“地球屋”。这座环岛被普遍认为是那一幕的原型，环岛本身至今几乎没变。",
+     "story": "暑假里，雫在去图书馆的电车上遇到一只神情傲慢的胖猫。猫在“杉之宫”站下车，她好奇地一路跟着，穿过住宅区、爬上陡坡，来到一个从没见过的小环岛。猫消失在一家叫“地球屋”的古董店门口，店里摆着一尊穿燕尾服的猫男爵人偶，还有一座会走动的老座钟。店主西司朗老爷爷亲切地向她讲起男爵的来历——后来她才知道，这位老人正是天泽圣司的祖父。这一刻，平凡的暑假突然打开了一扇通往故事的门。现实中的环岛周围是住宅和商店，并没有地球屋这家店。",
+     "access": "京王线「圣迹樱丘」站西口沿いろは坂往上步行约20分钟，也可乘京王巴士到樱之丘一带",
+     "bestTime": "夏天午后，和电影里暑假的光线最接近",
+     "tips": "环岛是车辆通行的道路，请勿站在车道上拍照；周围是住宅区，请保持安静、不要拍摄住户。"
+    },
+    "zh-Hant": {
+     "placeName": "櫻之丘環島（東京·多摩）",
+     "sceneTitle": "坡頂的地球屋",
+     "episode": "劇場版 · 前半",
+     "highlight": "雫追著貓爬上坡頂，眼前豁然開朗：一個小小的環島，路邊就是古董店「地球屋」。這座環島被普遍認為是那一幕的原型，環島本身至今幾乎沒變。",
+     "story": "暑假裡，雫在去圖書館的電車上遇到一隻神情傲慢的胖貓。貓在「杉之宮」站下車，她好奇地一路跟著，穿過住宅區、爬上陡坡，來到一個從沒見過的小環島。貓消失在一家叫「地球屋」的古董店門口，店裡擺著一尊穿燕尾服的貓男爵人偶，還有一座會走動的老座鐘。店主西司朗老爺爺親切地向她講起男爵的來歷——後來她才知道，這位老人正是天澤聖司的祖父。這一刻，平凡的暑假突然開啟了一扇通往故事的門。現實中的環島周圍是住宅和商店，並沒有地球屋這家店。",
+     "access": "京王線「聖蹟櫻丘」站西口沿いろは坂往上步行約20分鐘，也可乘京王巴士到櫻之丘一帶",
+     "bestTime": "夏天午後，和電影裡暑假的光線最接近",
+     "tips": "環島是車輛通行的道路，請勿站在車道上拍照；周圍是住宅區，請保持安靜、不要拍攝住戶。"
+    },
+    "ja": {
+     "placeName": "桜ヶ丘ロータリー（東京・多摩）",
+     "sceneTitle": "坂の上の地球屋",
+     "episode": "劇場版・前半",
+     "highlight": "猫を追って坂を登りきった雫の前に、ぱっと開けた小さなロータリーと骨董店「地球屋」が現れる。このロータリーはその場面のモデルとして知られ、今もほとんど姿を変えていない。",
+     "story": "夏休み、図書館へ向かう電車で雫はふてぶてしい太った猫と乗り合わせる。「杉の宮」駅で降りた猫を追いかけ、住宅街を抜け、急な坂を登ると、見たこともない小さなロータリーに出た。猫が姿を消したのは「地球屋」という骨董店の前。店には燕尾服を着た猫の人形「バロン」と、からくり仕掛けの古時計があった。店主の西司朗老人はバロンのいわれを優しく語ってくれる。のちに雫は、その老人が天沢聖司の祖父だと知ることになる。何気ない夏休みが、物語の扉を開いた瞬間だ。現実のロータリーの周りは住宅や商店で、地球屋は実在しない。",
+     "access": "京王線「聖蹟桜ヶ丘」駅西口からいろは坂を登って徒歩約20分。京王バスで桜ヶ丘方面へも行ける",
+     "bestTime": "夏休みの雰囲気が出る、夏の午後",
+     "tips": "ロータリーは車が通る道路。車道に立っての撮影は危険なのでやめよう。周辺は住宅街なので静かに、住民を撮らないこと。"
+    },
+    "en": {
+     "placeName": "Sakuragaoka Roundabout (Tama, Tokyo)",
+     "sceneTitle": "The World Emporium on the hilltop",
+     "episode": "Film · first half",
+     "highlight": "Chasing the cat to the top of the hill, Shizuku comes out onto a tiny roundabout with the World Emporium antique shop beside it. This roundabout is widely recognised as the model and has barely changed.",
+     "story": "During summer break, on the train to the library, Shizuku shares a seat with a fat, haughty cat. When it gets off at her stop she follows, through the housing estate and up a steep slope, until she emerges at a little roundabout she has never seen. The cat vanishes at the door of an antique shop, the World Emporium, where a cat figurine in a tailcoat, the Baron, stands beside an old clockwork clock. The kindly owner, Mr Nishi, tells her the Baron’s story; only later does she learn he is Seiji Amasawa’s grandfather. An ordinary summer day opens the door to a story. In real life the roundabout is ringed by homes and shops, and there is no World Emporium.",
+     "access": "About 20 min uphill via Iroha-zaka from the west exit of Seiseki-Sakuragaoka Station, or take a Keiō bus towards Sakuragaoka",
+     "bestTime": "Summer afternoons, for that summer-holiday light",
+     "tips": "The roundabout carries traffic: don’t stand in the road for photos. It’s a residential area, so be quiet and don’t photograph residents."
+    },
+    "ko": {
+     "placeName": "사쿠라가오카 로터리 (도쿄·다마)",
+     "sceneTitle": "언덕 위의 지구옥",
+     "episode": "극장판 · 전반",
+     "highlight": "고양이를 쫓아 언덕을 다 오른 시즈쿠 앞에 작은 로터리와 골동품 가게 ‘지구옥’이 탁 펼쳐진다. 이 로터리는 그 장면의 모델로 널리 알려져 있으며 지금도 거의 그대로다.",
+     "story": "여름방학, 도서관에 가는 전철에서 시즈쿠는 뻔뻔한 뚱보 고양이와 마주친다. ‘스기노미야’역에서 내린 고양이를 쫓아 주택가를 지나 가파른 언덕을 오르자 처음 보는 작은 로터리가 나타난다. 고양이가 사라진 곳은 ‘지구옥’이라는 골동품 가게 앞. 가게에는 연미복을 입은 고양이 인형 ‘바론’과 태엽 장치 괘종시계가 있었다. 주인 니시 할아버지는 바론에 얽힌 이야기를 다정하게 들려주는데, 시즈쿠는 나중에야 그가 아마사와 세이지의 할아버지라는 걸 알게 된다. 평범한 여름방학이 이야기의 문을 연 순간이다. 실제 로터리 주변은 주택과 상점이며 지구옥은 존재하지 않는다.",
+     "access": "게이오선 ‘세이세키사쿠라가오카’역 서쪽 출구에서 이로하자카를 올라 도보 약 20분, 또는 게이오 버스로 사쿠라가오카 방면",
+     "bestTime": "여름방학 분위기가 나는 여름 오후",
+     "tips": "로터리는 차가 다니는 도로이니 차도에 서서 촬영하지 말 것. 주택가이므로 조용히, 주민은 찍지 말자."
+    }
+   },
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%E5%A4%9A%E6%91%A9%E5%B8%82%E6%A1%9C%E3%82%B1%E4%B8%98%E3%81%AB%E3%81%82%E3%82%8B%E6%9D%B1%E4%BA%AC%E9%83%BD%E3%81%A7%E5%94%AF%E4%B8%80%E3%81%AE%E7%92%B0%E7%8A%B6%E4%BA%A4%E5%B7%AE%E7%82%B9%EF%BC%88%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E3%82%A2%E3%83%90%E3%82%A6%E3%83%88%EF%BC%89160319.JPG/1280px-%E5%A4%9A%E6%91%A9%E5%B8%82%E6%A1%9C%E3%82%B1%E4%B8%98%E3%81%AB%E3%81%82%E3%82%8B%E6%9D%B1%E4%BA%AC%E9%83%BD%E3%81%A7%E5%94%AF%E4%B8%80%E3%81%AE%E7%92%B0%E7%8A%B6%E4%BA%A4%E5%B7%AE%E7%82%B9%EF%BC%88%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E3%82%A2%E3%83%90%E3%82%A6%E3%83%88%EF%BC%89160319.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:%E5%A4%9A%E6%91%A9%E5%B8%82%E6%A1%9C%E3%82%B1%E4%B8%98%E3%81%AB%E3%81%82%E3%82%8B%E6%9D%B1%E4%BA%AC%E9%83%BD%E3%81%A7%E5%94%AF%E4%B8%80%E3%81%AE%E7%92%B0%E7%8A%B6%E4%BA%A4%E5%B7%AE%E7%82%B9%EF%BC%88%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E3%82%A2%E3%83%90%E3%82%A6%E3%83%88%EF%BC%89160319.JPG",
+    "author": "Konaine",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
    }
   },
   {
