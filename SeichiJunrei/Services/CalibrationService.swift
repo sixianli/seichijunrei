@@ -43,8 +43,21 @@ final class CalibrationService {
         return "\(info?["CFBundleShortVersionString"] as? String ?? "?") (\(info?["CFBundleVersion"] as? String ?? "?"))"
     }
 
+    /// 同一台设备对同一个名场面 12 小时内只能提交一次（防止反复刷）
+    static let cooldown: TimeInterval = 12 * 3600
+
+    func canSubmitAgain(spotID: String, now: Date = Date()) -> Bool {
+        guard let last = UserDefaults.standard.object(forKey: "calibLast." + spotID) as? Date else { return true }
+        return now.timeIntervalSince(last) >= Self.cooldown
+    }
+
+    private func markSubmitted(spotID: String) {
+        UserDefaults.standard.set(Date(), forKey: "calibLast." + spotID)
+    }
+
     @MainActor
     func submit(_ submission: CalibrationSubmission) async -> SubmitResult {
+        markSubmitted(spotID: submission.spotID)
         #if DEBUG
         // UI 测试 / 模拟器：不访问 CloudKit（未签名的测试构建没有 iCloud 权限）
         if ProcessInfo.processInfo.environment["SEICHI_FAKE_SUBMIT"] == "1" { return .submitted }

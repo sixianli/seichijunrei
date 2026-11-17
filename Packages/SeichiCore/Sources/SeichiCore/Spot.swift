@@ -124,6 +124,8 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
     public var officialURL: String?
     /// 作品出品国家（ISO 代码），nil 表示日本
     public var country: String?
+    /// 同一作品里的第几个名场面（从 1 开始）；作品只有一个名场面时为 nil。由 SpotCatalog 计算，不参与编码
+    public var sceneNumber: Int?
 
     public init(id: String, work: String, workLocalized: String? = nil,
                 mediaType: MediaType = .anime, aliases: [String] = [], placeName: String,
@@ -275,17 +277,30 @@ public enum SpotCatalog {
     /// - 旧版：`[Spot]` 数组
     /// 两种都会校验 id 唯一。
     public static func decode(_ data: Data) throws -> [Spot] {
-        let spots: [Spot]
+        var spots: [Spot]
         if let file = try? JSONDecoder().decode(CatalogFile.self, from: data) {
             spots = try file.resolve()
         } else {
             spots = try JSONDecoder().decode([Spot].self, from: data)
         }
+        numberScenes(&spots)
         var seen = Set<String>()
         for s in spots where !seen.insert(s.id).inserted {
             throw CatalogError.duplicateID(s.id)
         }
         return spots
+    }
+
+    /// 给同一作品的多个名场面编号（按数据顺序）：地图上同一作品出现多次时，用“名场面一 / 二”区分
+    public static func numberScenes(_ spots: inout [Spot]) {
+        var counts: [String: Int] = [:]
+        for s in spots { counts[s.workID, default: 0] += 1 }
+        var seen: [String: Int] = [:]
+        for i in spots.indices {
+            let w = spots[i].workID
+            seen[w, default: 0] += 1
+            spots[i].sceneNumber = (counts[w] ?? 0) > 1 ? seen[w] : nil
+        }
     }
 
     public enum CatalogError: Error, Equatable {

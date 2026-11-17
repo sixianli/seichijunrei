@@ -20,7 +20,9 @@ struct CalibrationView: View {
         return CalibrationReading(latitude: loc.coordinate.latitude, longitude: loc.coordinate.longitude,
                                   horizontalAccuracy: loc.horizontalAccuracy,
                                   heading: orientation.heading, headingAccuracy: orientation.accuracy,
-                                  pitch: orientation.pitch)
+                                  pitch: orientation.pitch,
+                                  // 虚拟定位 / 模拟位置提交的数据没有意义
+                                  isSimulated: loc.sourceInformation?.isSimulatedBySoftware ?? false)
     }
 
     var body: some View {
@@ -45,7 +47,12 @@ struct CalibrationView: View {
                         readingsCard
                         noteField
                         Text(L("calib.privacy")).font(.caption).foregroundStyle(.secondary)
+                        if onCooldown {
+                            Label(L("calib.cooldown"), systemImage: "clock")
+                                .font(.footnote).foregroundStyle(.secondary)
+                        }
                         submitButton
+                        Text(L("calib.consensus")).font(.caption2).foregroundStyle(.secondary)
                     }
                 }
                 .padding()
@@ -93,8 +100,9 @@ struct CalibrationView: View {
                         .font(.subheadline.bold()).foregroundStyle(.green)
                 } else {
                     ForEach(Array(issues.enumerated()), id: \.offset) { _, issue in
-                        Label(text(for: issue), systemImage: "exclamationmark.triangle.fill")
-                            .font(.footnote).foregroundStyle(.orange)
+                        Label(text(for: issue), systemImage: isBlocking(issue) ? "xmark.octagon.fill" : "exclamationmark.triangle.fill")
+                            .font(.footnote).foregroundStyle(isBlocking(issue) ? .red : .orange)
+                            .accessibilityIdentifier(isBlocking(issue) ? "calibrationBlocked" : "calibrationWarning")
                     }
                 }
             } else {
@@ -120,12 +128,29 @@ struct CalibrationView: View {
         }
     }
 
+    private func isBlocking(_ issue: CalibrationIssue) -> Bool {
+        switch issue {
+        case .tooFar, .simulatedLocation, .noHeading: return true
+        case .poorGPS(let a): return a < 0 || a > CalibrationQuality.maxSubmitGPSAccuracy
+        default: return false
+        }
+    }
+
+    private var onCooldown: Bool { !CalibrationService.shared.canSubmitAgain(spotID: spot.id) }
+
+    private var canSubmit: Bool {
+        guard let r = reading, !onCooldown else { return false }
+        return CalibrationQuality.canSubmit(r, listed: spot.coordinate, note: note)
+    }
+
     private func text(for issue: CalibrationIssue) -> String {
         switch issue {
         case .poorGPS: return L("calib.issue.gps")
         case .poorCompass: return L("calib.issue.compass")
         case .noHeading: return L("calib.issue.noHeading")
         case .farFromListed: return L("calib.issue.far")
+        case .tooFar(let d): return L("calib.issue.tooFar", NearbySearch.formatDistance(d))
+        case .simulatedLocation: return L("calib.issue.simulated")
         }
     }
 
@@ -162,7 +187,7 @@ struct CalibrationView: View {
         }
         .glassButton(prominent: true, tint: spot.tintColor)
         .controlSize(.large)
-        .disabled(submitting || !(reading.map(CalibrationQuality.canSubmit) ?? false))
+        .disabled(submitting || !canSubmit)
         .accessibilityIdentifier("submitCalibration")
     }
 

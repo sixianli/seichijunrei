@@ -1,5 +1,6 @@
 import SwiftUI
 import UIKit
+import MapKit
 import SeichiCore
 
 /// 名场面画面。优先级：用户自己选的截图 → （可选）真实地点照片 → 有授权的 sceneImage → 插画风占位图。
@@ -22,6 +23,9 @@ struct SceneArtwork: View {
                     default: placeholder
                     }
                 }
+            } else if useLocationPhoto {
+                // 没有实景照片时用卫星实景缩略图，不让卡片空着
+                MapSnapshotImage(spot: spot) { placeholder }
             } else if let src = spot.sceneImage, src.hasPrefix("http"), let url = URL(string: src) {
                 AsyncImage(url: url) { phase in
                     switch phase {
@@ -76,36 +80,18 @@ struct SceneArtwork: View {
     }
 }
 
-/// 作品“封面”：用作品主题色 + 作品名首字生成，不使用受版权保护的海报 / 封面图。
-struct WorkCover: View {
-    let spot: Spot
-    var size: CGFloat = 44
-
-    private var glyph: String {
-        let name = spot.workName.trimmingCharacters(in: .whitespaces)
-        return name.first.map { String($0).uppercased() } ?? "?"
-    }
+/// 作品类型图标：日漫 / 日剧 / 日影各用一个通用图标和颜色，一眼区分类别
+struct CategoryIcon: View {
+    let category: MediaCategory
+    var size: CGFloat = 36
 
     var body: some View {
-        ZStack {
-            Color.black
-            LinearGradient(colors: [spot.tintColor, spot.tintColor.opacity(0.55)],
-                           startPoint: .topLeading, endPoint: .bottomTrailing)
-            Text(glyph)
-                .font(.system(size: size * 0.5, weight: .heavy, design: .serif))
-                .foregroundStyle(.white)
-                .minimumScaleFactor(0.5)
-                .shadow(color: .black.opacity(0.25), radius: 1, y: 1)
-            Image(systemName: spot.mediaType.category.symbolName)
-                .font(.system(size: size * 0.2, weight: .bold))
-                .foregroundStyle(.white.opacity(0.85))
-                .padding(size * 0.08)
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
-        }
-        .frame(width: size, height: size * 1.3)
-        .clipShape(RoundedRectangle(cornerRadius: size * 0.16, style: .continuous))
-        .overlay(RoundedRectangle(cornerRadius: size * 0.16, style: .continuous).stroke(.white.opacity(0.2), lineWidth: 0.5))
-        .accessibilityHidden(true)
+        Image(systemName: category.symbolName)
+            .font(.system(size: size * 0.46, weight: .semibold))
+            .foregroundStyle(.white)
+            .frame(width: size, height: size)
+            .background(category.color.gradient, in: RoundedRectangle(cornerRadius: size * 0.26, style: .continuous))
+            .accessibilityHidden(true)
     }
 }
 
@@ -126,5 +112,115 @@ struct PhotoCredit: View {
         }
         .buttonStyle(.plain)
         .accessibilityIdentifier("photoCredit")
+    }
+}
+
+// MARK: - 没有实景照片时的兜底：Apple 街景 / 卫星实景
+
+/// 详情页顶部的大图：自己的截图 → 实景照片 → Apple 街景（Look Around，可拖动环顾）→ 3D 卫星实景
+struct SpotHeroImage: View {
+    let spot: Spot
+    @State private var lookAround: MKLookAroundScene?
+    @State private var checkedLookAround = false
+
+    private enum Source { case screenshot, photo, lookAround, satellite }
+
+    private var source: Source {
+        if SceneImageStore.shared.hasImage(for: spot.id) { return .screenshot }
+        if spot.photo != nil { return .photo }
+        return lookAround != nil ? .lookAround : .satellite
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            Group {
+                switch source {
+                case .screenshot, .photo:
+                    SceneArtwork(spot: spot, useLocationPhoto: true)
+                case .lookAround:
+                    LookAroundPreview(initialScene: lookAround, allowsNavigation: true, badgePosition: .bottomTrailing)
+                case .satellite:
+                    SatelliteSceneView(spot: spot)
+                }
+            }
+            .frame(height: 240)
+            .frame(maxWidth: .infinity)
+            .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
+            .overlay(alignment: .topLeading) {
+                if let label = badgeLabel {
+                    Label(label.0, systemImage: label.1)
+                        .font(.caption2.bold())
+                        .padding(.horizontal, 8).padding(.vertical, 4)
+                        .glassSurface(Capsule())
+                        .padding(10)
+                        .allowsHitTesting(false)
+                }
+            }
+            if source == .photo, let photo = spot.photo { PhotoCredit(photo: photo) }
+        }
+        .task(id: spot.id) {
+            guard spot.photo == nil, !checkedLookAround else { return }
+            checkedLookAround = true
+            lookAround = try? await MKLookAroundSceneRequest(coordinate: spot.clCoordinate).scene
+        }
+    }
+
+    private var badgeLabel: (String, String)? {
+        switch source {
+        case .screenshot: return nil
+        case .photo: return (L("photo.realPlace"), "photo")
+        case .lookAround: return (L("photo.lookAround"), "binoculars.fill")
+        case .satellite: return (L("photo.satellite"), "globe.asia.australia.fill")
+        }
+    }
+}
+
+/// 3D 卫星实景：从机位朝镜头方向看过去
+private struct SatelliteSceneView: View {
+    let spot: Spot
+    var body: some View {
+        Map(initialPosition: .camera(MapCamera(centerCoordinate: spot.clCoordinate, distance: 420,
+                                               heading: spot.sceneHeading, pitch: 55)),
+            interactionModes: [.pan, .zoom, .rotate, .pitch]) {
+            Marker(spot.sceneTitle, systemImage: "camera.fill", coordinate: spot.clCoordinate)
+                .tint(spot.tintColor)
+        }
+        .mapStyle(.imagery(elevation: .realistic))
+    }
+}
+
+/// 卡片 / 列表用的卫星实景缩略图（MKMapSnapshotter，结果缓存在内存里）
+struct MapSnapshotImage<Placeholder: View>: View {
+    let spot: Spot
+    @ViewBuilder let placeholder: () -> Placeholder
+    @State private var image: UIImage?
+
+    var body: some View {
+        Group {
+            if let image {
+                Image(uiImage: image).resizable().scaledToFill()
+            } else {
+                placeholder()
+            }
+        }
+        .task(id: spot.id) { image = await MapSnapshotCache.shared.image(for: spot) }
+    }
+}
+
+@MainActor
+final class MapSnapshotCache {
+    static let shared = MapSnapshotCache()
+    private var cache: [String: UIImage] = [:]
+
+    func image(for spot: Spot) async -> UIImage? {
+        if let hit = cache[spot.id] { return hit }
+        let options = MKMapSnapshotter.Options()
+        options.region = MKCoordinateRegion(center: spot.clCoordinate, latitudinalMeters: 260, longitudinalMeters: 260)
+        options.size = CGSize(width: 240, height: 240)
+        options.preferredConfiguration = MKHybridMapConfiguration(elevationStyle: .flat)
+        guard let snapshot = try? await MKMapSnapshotter(options: options).start() else { return nil }
+        let image = snapshot.image
+        cache[spot.id] = image
+        return image
     }
 }

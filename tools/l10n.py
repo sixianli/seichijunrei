@@ -123,8 +123,8 @@ S = {
   "detail.atSpot": ("你就站在这个名场面的机位上", "你就站在這個名場面的機位上", "この名シーンの撮影位置に立っています",
                     "You're standing at this scene's spot", "지금 이 명장면의 촬영 위치에 있어요"),
   "detail.distance": ("距离 %@ · 在你的%@方", "距離 %@ · 在你的%@方", "距離 %@ · %@の方向", "%@ away · to the %@", "%@ 거리 · %@쪽"),
-  "detail.enterScene": ("走进这一幕！", "走進這一幕！", "このシーンの中へ！", "Step into the scene!", "이 장면 속으로!"),
-  "detail.startGuide": ("复现这一幕", "重現這一幕", "このシーンを再現する", "Recreate this scene", "이 장면 재현하기"),
+  "detail.enterScene": ("开始复现这一幕", "開始重現這一幕", "このシーンを再現する", "Recreate this scene now", "지금 이 장면 재현하기"),
+  "detail.startGuide": ("带我去复现", "帶我去重現", "このシーンを再現しに行く", "Take me there to recreate it", "재현하러 가기"),
   "detail.story": ("剧情背景", "劇情背景", "ストーリー", "Story", "줄거리"),
   "detail.tips": ("巡礼须知", "巡禮須知", "巡礼マナー・注意", "Good to know", "알아 두세요"),
   "detail.openMaps": ("导航", "導航", "経路", "Directions", "길찾기"),
@@ -238,11 +238,7 @@ S = {
                           "Compass is imprecise — move away from metal or draw ∞ in the air", "나침반 정확도가 낮아요. 금속에서 떨어지거나 공중에 ∞를 그려 주세요"),
   "calib.issue.noHeading": ("无法获取朝向：请确认已允许定位权限", "無法取得朝向：請確認已允許定位權限", "向きを取得できません。位置情報の許可を確認してください",
                             "Can't read the direction — check that location access is allowed", "방향을 알 수 없어요. 위치 권한을 확인해 주세요"),
-  "calib.issue.far": ("离现有机位较远。如果你确定这里才是正确的机位，请照常提交，并在备注里说明",
-                      "離現有機位較遠。如果你確定這裡才是正確的機位，請照常送出，並在備註裡說明",
-                      "登録済みの位置から離れています。ここが正しい撮影位置だと確信がある場合は、そのまま送信し、メモで教えてください",
-                      "You're far from the listed spot. If you're sure this is the right place, submit anyway and say so in the note",
-                      "등록된 위치와 멀리 떨어져 있어요. 여기가 맞다고 확신한다면 그대로 제출하고 메모에 남겨 주세요"),
+  "calib.issue.far": ("离现有机位较远（300 米以上）：如果你确定这里才是正确的机位，请在备注里写明原因再提交", "離現有機位較遠（300 公尺以上）：如果你確定這裡才是正確的機位，請在備註裡寫明原因再提交", "登録済みの撮影位置から 300 m 以上離れています。ここが正しいと確信できる場合は、備考に理由を書いてから送信してください", "More than 300 m from the listed spot. If you're sure this is the right spot, explain why in the note before submitting", "등록된 위치에서 300m 이상 떨어져 있어요. 여기가 맞다면 메모에 이유를 적고 제출해 주세요"),
   "calib.noteLabel": ("备注（可选）", "備註（選填）", "メモ（任意）", "Note (optional)", "메모(선택)"),
   "calib.notePlaceholder": ("例如：机位在台阶最上面一级，朝向车站方向", "例如：機位在階梯最上面一階，朝向車站方向",
                             "例：階段のいちばん上、駅の方向を向いて", "e.g. top step of the stairs, facing the station",
@@ -343,6 +339,29 @@ S = {
   "pg.perfect": ("完美！保持不动", "完美！保持不動", "バッチリ！そのまま", "Perfect! Hold still", "완벽해요! 그대로"),
   "pg.goto": ("先走到机位：%@，%@方向", "先走到機位：%@，%@方向", "まず撮影位置へ：%@・%@の方向", "Walk to the spot first: %@ to the %@", "먼저 촬영 위치로: %@, %@쪽"),
   "pg.photographerHeader": ("请帮忙拍一张名场面", "請幫忙拍一張名場面", "名シーンの写真をお願いします", "Please help take this scene photo", "명장면 사진 한 장 부탁해요"),
+  "detail.startGuideHint": ("先带你走到原作镜头的位置，到了以后指引你转身、抬头，对准原作的画面", "先帶你走到原作鏡頭的位置，到了以後指引你轉身、抬頭，對準原作的畫面", "まず原作のカメラ位置まで案内し、着いたら向きと角度を合わせて名シーンと同じ構図にします", "Guides you to where the original shot was taken, then helps you turn until you're looking at the exact scene", "원작 카메라 위치까지 안내한 뒤, 몸을 돌려 원작과 같은 구도를 맞추도록 도와줘요"),
+  "detail.enterSceneHint": ("你已经在机位上了：打开相机，跟着指引转身对准原作的画面", "你已經在機位上了：打開相機，跟著指引轉身對準原作的畫面", "撮影位置に着きました。カメラを開いて、案内に従って向きを合わせましょう", "You're at the spot — open the camera and turn as guided to line up the scene", "촬영 위치에 도착했어요. 카메라를 열고 안내에 따라 방향을 맞춰 보세요"),
+  "detail.myScreenshot": ("我的名场面截图", "我的名場面截圖", "自分の名シーン画像", "My scene screenshot", "내 명장면 이미지"),
+  "photo.lookAround": ("Apple 街景", "Apple 街景", "Look Around", "Look Around", "Look Around"),
+  "photo.satellite": ("卫星实景", "衛星實景", "航空写真", "Satellite view", "위성 사진"),
+  "format.sceneNumber": ("名场面%@", "名場面%@", "名シーン%@", "Scene %@", "명장면 %@"),
+  "format.badgeWithNumber": ("%@ %@", "%@ %@", "%@ %@", "%@ · %@", "%@ · %@"),
+  "list.sceneCount": ("%ld 个名场面", "%ld 個名場面", "名シーン %ld 件", "%ld scenes", "명장면 %ld곳"),
+  "list.sceneCountOne": ("1 个名场面", "1 個名場面", "名シーン 1 件", "1 scene", "명장면 1곳"),
+  "calib.issue.tooFar": ("你离这个名场面还有 %@，需要人在现场才能校准", "你離這個名場面還有 %@，需要人在現場才能校準", "この名シーンまであと %@。補正は現地でのみ送信できます", "You're %@ away — calibration can only be submitted on site", "이 명장면까지 %@ 남았어요. 보정은 현장에서만 제출할 수 있어요"),
+  "calib.issue.simulated": ("检测到模拟定位，无法提交", "偵測到模擬定位，無法提交", "位置情報が偽装されているため送信できません", "Simulated location detected — can't submit", "위치가 조작된 것으로 감지되어 제출할 수 없어요"),
+  "calib.cooldown": ("你刚提交过这个名场面的校准，12 小时后可以再提交", "你剛提交過這個名場面的校準，12 小時後可以再提交", "この名シーンの補正は送信済みです。12 時間後に再送信できます", "You've just calibrated this scene — you can submit again in 12 hours", "방금 이 명장면을 보정했어요. 12시간 후에 다시 제출할 수 있어요"),
+  "calib.consensus": ("为防止误报，单个人的提交不会直接生效：至少 3 位不同用户在同一位置、同一方向的校准一致时，才会更新机位。", "為防止誤報，單一使用者的提交不會直接生效：至少 3 位不同使用者在同一位置、同一方向的校準一致時，才會更新機位。", "誤った報告を防ぐため、1 人の送信だけでは反映されません。3 人以上が同じ位置・向きで補正したときに撮影位置を更新します。", "To prevent bad data, one person's submission isn't applied on its own — the spot is updated only when at least 3 different people agree on the position and direction.", "잘못된 제보를 막기 위해 한 사람의 제출만으로는 반영되지 않아요. 3명 이상이 같은 위치·방향으로 보정했을 때 업데이트돼요."),
+  "pg.ghostNeedsImage": ("先在详情页添加名场面截图，才能叠图", "先在詳情頁新增名場面截圖，才能疊圖", "重ねるには、先に名シーン画像を追加してください", "Add a scene screenshot on the detail page to use the overlay", "겹쳐 보려면 먼저 명장면 이미지를 추가하세요"),
+  "pg.ghostOn": ("已开启叠图", "已開啟疊圖", "重ね表示オン", "Overlay on", "겹쳐 보기 켬"),
+  "pg.ghostOff": ("已关闭叠图", "已關閉疊圖", "重ね表示オフ", "Overlay off", "겹쳐 보기 끔"),
+  "pg.voiceOn": ("已开启语音提示", "已開啟語音提示", "音声ガイドオン", "Voice guidance on", "음성 안내 켬"),
+  "pg.voiceOff": ("已关闭语音提示", "已關閉語音提示", "音声ガイドオフ", "Voice guidance off", "음성 안내 끔"),
+  "pg.autoOn": ("已开启自动拍：对齐后自动倒数 3 秒", "已開啟自動拍：對齊後自動倒數 3 秒", "自動撮影オン：そろうと 3 秒後に撮影", "Auto shutter on: shoots 3 s after lining up", "자동 촬영 켬: 맞춰지면 3초 후 촬영"),
+  "pg.autoOff": ("已关闭自动拍：请手动按快门", "已關閉自動拍：請手動按快門", "自動撮影オフ：シャッターを押してください", "Auto shutter off: press the shutter yourself", "자동 촬영 끔: 셔터를 직접 눌러 주세요"),
+  "pg.on": ("开", "開", "オン", "ON", "켬"),
+  "pg.off": ("关", "關", "オフ", "OFF", "끔"),
+  "pg.autoZoom": ("自动变焦", "自動變焦", "自動ズーム", "Auto zoom", "자동 줌"),
 }
 
 # Info.plist（权限说明、App 名称）
@@ -415,6 +434,9 @@ def check():
     for f in glob.glob(os.path.join(ROOT, "SeichiJunrei", "**", "*.swift"), recursive=True):
         src = open(f, encoding="utf-8").read()
         used |= set(re.findall(r'\bL(?:In\([^,()]+,\s*|\()"([A-Za-z0-9_.]+)"', src))
+        # L(cond ? "a" : "b") 这种写法
+        used |= set(re.findall(r'\bL\([^"()]*\?\s*"([A-Za-z0-9_.]+)"\s*:\s*"[A-Za-z0-9_.]+"', src))
+        used |= set(re.findall(r'\bL\([^"()]*\?\s*"[A-Za-z0-9_.]+"\s*:\s*"([A-Za-z0-9_.]+)"', src))
     used = {u for u in used if not u.endswith(".")}
     for k in sorted(used - set(S)):
         errors.append(f"key used in code but missing from table: {k}")
