@@ -43,8 +43,8 @@ extension SceneGuidance {
 }
 
 extension Spot {
-    /// 《作品名》/『作品名』等，按语言习惯加书名号
-    var workTitle: String { L("format.workTitle", work) }
+    /// 《作品名》/『作品名』等，按语言习惯加书名号；有本地化译名时用译名（日语环境下就是原名）
+    var workTitle: String { L("format.workTitle", workLocalized ?? work) }
     /// 「场景名」/“Scene title”
     var quotedSceneTitle: String { L("format.sceneTitle", sceneTitle) }
     /// 作品原名 +（本地化译名）

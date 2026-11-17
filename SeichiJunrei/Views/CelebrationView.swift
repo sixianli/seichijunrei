@@ -11,50 +11,49 @@ struct CelebrationView: View {
 
     var body: some View {
         ZStack {
-            // 电影宽银幕黑边
-            VStack {
-                Rectangle().fill(.black).frame(height: appeared ? 120 : 0)
-                Spacer()
-                Rectangle().fill(.black).frame(height: appeared ? 220 : 0)
-            }
-            .animation(.easeOut(duration: 0.6), value: appeared)
-
             ConfettiView(colors: [spot.tintColor, .white, .yellow, .pink])
                 .allowsHitTesting(false)
 
-            VStack(spacing: 14) {
-                Spacer()
-                Text(L("celebrate.title"))
-                    .font(.system(size: 30, weight: .heavy, design: .rounded))
-                    .accessibilityIdentifier("celebrationTitle")
-                Text(L("celebrate.subtitle", spot.workTitle))
+            // 电影宽银幕：上下黑边，文字和按钮放在下方黑边里，中间留给名场面画面
+            VStack(spacing: 0) {
+                Rectangle().fill(.black).frame(height: appeared ? 110 : 0)
+                Spacer(minLength: 0)
+                VStack(spacing: 12) {
+                    Text(L("celebrate.title"))
+                        .font(.system(size: 28, weight: .heavy, design: .rounded))
+                        .accessibilityIdentifier("celebrationTitle")
+                    Text(L("celebrate.subtitle", spot.workTitle))
+                        .font(.headline)
+                        .multilineTextAlignment(.center)
+                    Text(spot.quotedSceneTitle)
+                        .font(.title3.bold())
+                        .foregroundStyle(spot.tintColor)
+                        .padding(.horizontal, 12).padding(.vertical, 4)
+                        .background(.white, in: Capsule())
+                    HStack(spacing: 14) {
+                        Button(action: onCapture) {
+                            Label(L("celebrate.photo"), systemImage: "camera.fill")
+                                .padding(.horizontal, 18).padding(.vertical, 12)
+                                .background(spot.tintColor, in: Capsule())
+                        }
+                        Button(action: onClose) {
+                            Text(L("celebrate.continue"))
+                                .padding(.horizontal, 18).padding(.vertical, 12)
+                                .background(Color.white.opacity(0.18), in: Capsule())
+                        }
+                    }
                     .font(.headline)
-                Text(spot.quotedSceneTitle)
-                    .font(.title3.bold())
-                    .foregroundStyle(spot.tintColor)
-                    .padding(.horizontal, 12).padding(.vertical, 4)
-                    .background(.white, in: Capsule())
-                Spacer()
-                HStack(spacing: 14) {
-                    Button(action: onCapture) {
-                        Label(L("celebrate.photo"), systemImage: "camera.fill")
-                            .padding(.horizontal, 18).padding(.vertical, 12)
-                            .background(spot.tintColor, in: Capsule())
-                    }
-                    Button(action: onClose) {
-                        Text(L("celebrate.continue"))
-                            .padding(.horizontal, 18).padding(.vertical, 12)
-                            .background(.ultraThinMaterial, in: Capsule())
-                    }
+                    .padding(.top, 6)
                 }
-                .font(.headline)
-                .padding(.bottom, 70)
+                .foregroundStyle(.white)
+                .padding(.horizontal, 20)
+                .padding(.top, 22)
+                .padding(.bottom, 44)
+                .frame(maxWidth: .infinity)
+                .background(.black)
+                .offset(y: appeared ? 0 : 320)
             }
-            .foregroundStyle(.white)
-            .shadow(radius: 6)
-            .scaleEffect(appeared ? 1 : 0.85)
-            .opacity(appeared ? 1 : 0)
-            .animation(.spring(response: 0.5, dampingFraction: 0.65), value: appeared)
+            .animation(.spring(response: 0.55, dampingFraction: 0.8), value: appeared)
         }
         .onAppear { appeared = true }
     }
