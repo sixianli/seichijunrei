@@ -77,6 +77,7 @@ final class CommunityService {
         // UI 测试的构建没有签名、没有 iCloud 权限：一律用假数据（SEICHI_SIM_LAT 只有 UI 测试会设置）
         let env = ProcessInfo.processInfo.environment
         fake = env["SEICHI_FAKE_COMMUNITY"] == "1" || env["SEICHI_SIM_LAT"] != nil
+            || env["XCTestConfigurationFilePath"] != nil   // 单元测试宿主
         #else
         fake = false
         #endif

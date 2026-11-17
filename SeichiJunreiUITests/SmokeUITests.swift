@@ -251,7 +251,14 @@ final class SmokeUITests: XCTestCase {
         XCTAssertTrue(app.staticTexts["celebrationTitle"].waitForExistence(timeout: 15), "对准后应出现庆祝画面")
         let keepLooking = app.buttons["继续欣赏"]
         XCTAssertTrue(keepLooking.waitForExistence(timeout: 5))
-        keepLooking.tap()
+        // 相机权限弹窗可能还挡在上面
+        var tries = 0
+        while keepLooking.exists && tries < 4 {
+            dismissSystemAlerts(timeout: 2)
+            keepLooking.tap()
+            tries += 1
+            sleep(1)
+        }
         let calibrate = app.buttons["sceneCalibrate"]
         XCTAssertTrue(calibrate.waitForExistence(timeout: 8), "名场面模式应有校准入口")
         calibrate.tap()
