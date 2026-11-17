@@ -75,23 +75,19 @@ jobs:
 
       - name: Archive (signed)
         if: steps.config.outputs.signed == 'true'
-        # 直接用分发证书签名：自动签名默认使用开发证书，而开发描述文件要求团队至少注册一台设备；
-        # App Store / TestFlight 的分发描述文件不需要设备。
+        # 打包时不签名，签名统一交给下一步导出：
+        # 自动签名在打包阶段只能用开发证书，而开发描述文件要求团队至少注册一台设备；
+        # 导出时用 API 密钥调用苹果的云端托管分发证书签名，不需要设备，也不需要在 CI 里保存证书。
         run: |
           set -o pipefail
           xcodebuild -project SeichiJunrei.xcodeproj -scheme SeichiJunrei \
             -configuration Release -destination 'generic/platform=iOS' \
             -archivePath "$RUNNER_TEMP/SeichiJunrei.xcarchive" \
-            -allowProvisioningUpdates \
-            -authenticationKeyPath "$KEY_PATH" \
-            -authenticationKeyID "$ASC_KEY_ID" \
-            -authenticationKeyIssuerID "$ASC_ISSUER_ID" \
             PRODUCT_BUNDLE_IDENTIFIER="$BUNDLE_ID" \
             DEVELOPMENT_TEAM="$TEAM_ID" \
-            CODE_SIGN_STYLE=Automatic \
-            CODE_SIGN_IDENTITY="Apple Distribution" \
             MARKETING_VERSION="$MARKETING_VERSION" \
             CURRENT_PROJECT_VERSION="$BUILD_NUMBER" \
+            CODE_SIGNING_ALLOWED=NO \
             archive | tail -n 80
 
       - name: Upload to App Store Connect (TestFlight)
