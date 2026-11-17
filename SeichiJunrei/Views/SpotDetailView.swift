@@ -1,5 +1,6 @@
 import SwiftUI
 import MapKit
+import PhotosUI
 import SeichiCore
 
 struct SpotDetailView: View {
@@ -8,6 +9,9 @@ struct SpotDetailView: View {
 
     @Environment(SpotStore.self) private var store
     @Environment(LocationService.self) private var location
+    @Environment(\.openURL) private var openURL
+    @State private var pickedPhoto: PhotosPickerItem?
+    @State private var imageMessage: String?
 
     private var info: NearbySpot? { store.nearbyInfo(for: spot) }
     private var arrived: Bool { info?.hasArrived(accuracy: location.lastLocation?.horizontalAccuracy ?? 0) ?? false }
@@ -19,6 +23,8 @@ struct SpotDetailView: View {
                     .frame(height: 220)
                     .frame(maxWidth: .infinity)
                     .clipShape(RoundedRectangle(cornerRadius: 18))
+
+                sceneImageControls
 
                 VStack(alignment: .leading, spacing: 6) {
                     Text(spot.displayWork)
@@ -91,6 +97,63 @@ struct SpotDetailView: View {
             }
             .padding()
         }
+    }
+}
+
+private extension SpotDetailView {
+    /// 名场面画面：从自己的相册选一张截图（仅保存在本机），或去网上搜索这一幕。
+    var sceneImageControls: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            HStack(spacing: 10) {
+                PhotosPicker(selection: $pickedPhoto, matching: .images) {
+                    Label(SceneImageStore.shared.hasImage(for: spot.id) ? "更换名场面截图" : "添加名场面截图",
+                          systemImage: "photo.badge.plus")
+                }
+                if SceneImageStore.shared.hasImage(for: spot.id) {
+                    Button(role: .destructive) {
+                        SceneImageStore.shared.delete(for: spot.id)
+                    } label: {
+                        Image(systemName: "trash")
+                    }
+                    .accessibilityLabel("删除名场面截图")
+                }
+                Spacer()
+                Button {
+                    if let url = imageSearchURL { openURL(url) }
+                } label: {
+                    Label("网上搜这一幕", systemImage: "magnifyingglass")
+                }
+            }
+            .font(.footnote.weight(.semibold))
+            .buttonStyle(.bordered)
+
+            Text(imageMessage ?? "截图只保存在你的手机上，到达机位后会叠加在相机画面中，帮你对准同一个构图。")
+                .font(.caption2)
+                .foregroundStyle(.secondary)
+        }
+        .onChange(of: pickedPhoto) { _, item in
+            guard let item else { return }
+            Task {
+                let data = try? await item.loadTransferable(type: Data.self)
+                await MainActor.run {
+                    if let data, SceneImageStore.shared.save(data, for: spot.id) {
+                        imageMessage = "已设置名场面截图 ✓"
+                    } else {
+                        imageMessage = "图片读取失败，请换一张试试"
+                    }
+                    pickedPhoto = nil
+                }
+            }
+        }
+    }
+
+    var imageSearchURL: URL? {
+        var c = URLComponents(string: "https://www.google.com/search")
+        c?.queryItems = [
+            URLQueryItem(name: "tbm", value: "isch"),
+            URLQueryItem(name: "q", value: "\(spot.work) \(spot.placeName.components(separatedBy: "（").first ?? spot.placeName) 聖地巡礼"),
+        ]
+        return c?.url
     }
 }
 

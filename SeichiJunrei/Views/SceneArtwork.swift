@@ -10,7 +10,9 @@ struct SceneArtwork: View {
 
     var body: some View {
         Group {
-            if let src = spot.sceneImage, src.hasPrefix("http"), let url = URL(string: src) {
+            if let userImage = SceneImageStore.shared.image(for: spot.id) {
+                Image(uiImage: userImage).resizable().scaledToFill()
+            } else if let src = spot.sceneImage, src.hasPrefix("http"), let url = URL(string: src) {
                 AsyncImage(url: url) { phase in
                     switch phase {
                     case .success(let image): image.resizable().scaledToFill()
