@@ -654,3 +654,35 @@ final class FramingGuidanceTests: XCTestCase {
         XCTAssertEqual(f.box(aspect: 0.75).height, 0.5, accuracy: 1e-9)
     }
 }
+
+final class CommunityTests: XCTestCase {
+    func testContentFilter() {
+        XCTAssertTrue(ContentFilter.isClean("傍晚的石阶，和电影里一模一样！"))
+        XCTAssertEqual(ContentFilter.problems(in: "  "), [.empty])
+        XCTAssertTrue(ContentFilter.isClean("", required: false))
+        XCTAssertEqual(ContentFilter.problems(in: "看这里 https://spam.example.com"), [.link])
+        XCTAssertEqual(ContentFilter.problems(in: "加我微信 abc123"), [.contact])
+        XCTAssertEqual(ContentFilter.problems(in: "call 090-1234-5678"), [.contact])
+        XCTAssertEqual(ContentFilter.problems(in: "你是 傻 逼"), [.offensive])
+        XCTAssertEqual(ContentFilter.problems(in: "FUCK this"), [.offensive])
+        XCTAssertEqual(ContentFilter.problems(in: String(repeating: "あ", count: 20), maxLength: 10), [.tooLong(max: 10)])
+        XCTAssertTrue(ContentFilter.isClean("1995年的电影《情书》第3集"))
+    }
+
+    func testSceneDraftValidation() {
+        var d = SceneDraft()
+        XCTAssertFalse(d.canSubmit)
+        XCTAssertNotNil(d.problems()[.photo])
+        d = SceneDraft(workTitle: "君の名は。", mediaType: .animeFilm, sceneTitle: "新的一幕", placeName: "某个车站",
+                       story: "两人在这里擦肩而过。", latitude: 35.68, longitude: 139.72, heading: 90, hasPhoto: true)
+        XCTAssertTrue(d.canSubmit)
+        d.latitude = 31.2; d.longitude = 121.5   // 上海：目前只收录日本
+        XCTAssertEqual(d.problems()[.location], [.empty])
+    }
+
+    func testReportsHideAfterThreeDistinctReporters() {
+        let reports = [("p1", "a"), ("p1", "a"), ("p1", "b"), ("p2", "a"), ("p1", "c"), ("p2", "b")]
+            .map { (target: $0.0, reporter: $0.1) }
+        XCTAssertEqual(ReportPolicy.hiddenTargets(reports), ["p1"])
+    }
+}

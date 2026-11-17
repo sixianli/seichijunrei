@@ -16,6 +16,9 @@ struct SceneArtwork: View {
         Group {
             if let userImage = SceneImageStore.shared.image(for: spot.id) {
                 Image(uiImage: userImage).resizable().scaledToFill()
+            } else if useLocationPhoto, let photo = spot.photo, photo.url.hasPrefix("file:"), let url = URL(string: photo.url) {
+                // 用户投稿的名场面：照片已缓存在本机
+                LocalImage(url: url)
             } else if useLocationPhoto, let photo = spot.photo, let url = URL(string: photo.url) {
                 AsyncImage(url: url, transaction: Transaction(animation: .easeOut(duration: 0.25))) { phase in
                     switch phase {
@@ -123,11 +126,15 @@ struct SpotHeroImage: View {
     @State private var lookAround: MKLookAroundScene?
     @State private var checkedLookAround = false
 
-    private enum Source { case screenshot, photo, lookAround, satellite }
+    private enum Source { case screenshot, photo, community, lookAround, satellite }
+
+    /// 巡礼者上传的照片（没有自由许可的实景照片时用第一张）
+    private var communityPhoto: CommunityPhoto? { CommunityService.shared.photosBySpot[spot.id]?.first }
 
     private var source: Source {
         if SceneImageStore.shared.hasImage(for: spot.id) { return .screenshot }
         if spot.photo != nil { return .photo }
+        if communityPhoto != nil { return .community }
         return lookAround != nil ? .lookAround : .satellite
     }
 
@@ -137,6 +144,8 @@ struct SpotHeroImage: View {
                 switch source {
                 case .screenshot, .photo:
                     SceneArtwork(spot: spot, useLocationPhoto: true)
+                case .community:
+                    if let p = communityPhoto { LocalImage(url: p.imageURL) }
                 case .lookAround:
                     LookAroundPreview(initialScene: lookAround, allowsNavigation: true, badgePosition: .bottomTrailing)
                 case .satellite:
@@ -168,7 +177,8 @@ struct SpotHeroImage: View {
     private var badgeLabel: (String, String)? {
         switch source {
         case .screenshot: return nil
-        case .photo: return (L("photo.realPlace"), "photo")
+        case .photo: return spot.isCommunity ? (L("community.badge"), "person.2.fill") : (L("photo.realPlace"), "photo")
+        case .community: return (L("community.badge"), "person.2.fill")
         case .lookAround: return (L("photo.lookAround"), "binoculars.fill")
         case .satellite: return (L("photo.satellite"), "globe.asia.australia.fill")
         }

@@ -126,6 +126,9 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
     public var country: String?
     /// 同一作品里的第几个名场面（从 1 开始）；作品只有一个名场面时为 nil。由 SpotCatalog 计算，不参与编码
     public var sceneNumber: Int?
+    /// 用户投稿（审核通过）的名场面：投稿人的匿名 ID；内置数据为 nil。不参与编码
+    public var communityAuthorID: String?
+    public var isCommunity: Bool { communityAuthorID != nil }
 
     public init(id: String, work: String, workLocalized: String? = nil,
                 mediaType: MediaType = .anime, aliases: [String] = [], placeName: String,

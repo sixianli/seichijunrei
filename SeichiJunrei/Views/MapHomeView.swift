@@ -17,6 +17,7 @@ struct MapHomeView: View {
     @Environment(StoreService.self) private var storeKit
     @State private var showPaywall = false
     @State private var showSettings = false
+    @State private var showSubmit = false
     /// 地图上被点选的标记（spot id）
     @State private var mapSelection: String?
 
@@ -140,6 +141,11 @@ struct MapHomeView: View {
                     .accessibilityIdentifier("openSettings")
             }
             ToolbarItem(placement: .topBarTrailing) {
+                Button { showSubmit = true } label: { Image(systemName: "plus") }
+                    .accessibilityLabel(L("submit.title"))
+                    .accessibilityIdentifier("openSubmit")
+            }
+            ToolbarItem(placement: .topBarTrailing) {
                 Button { showList = true } label: { Image(systemName: "list.bullet") }
                     .accessibilityLabel(L("map.allScenes"))
                     .accessibilityIdentifier("openList")
@@ -171,6 +177,7 @@ struct MapHomeView: View {
         }
         .sheet(isPresented: $showPaywall) { PaywallView() }
         .sheet(isPresented: $showSettings) { SettingsView() }
+        .sheet(isPresented: $showSubmit) { SubmitSceneView() }
         .fullScreenCover(item: $sceneSpot) { spot in
             SceneModeView(spot: spot)
         }

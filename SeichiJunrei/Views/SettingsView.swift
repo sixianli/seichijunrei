@@ -7,6 +7,7 @@ struct SettingsView: View {
     @Environment(SpotStore.self) private var store
     @Environment(\.dismiss) private var dismiss
     @State private var mapApp: MapApp? = MapApp.preferred
+    @State private var community = CommunityService.shared
 
     private var appVersion: String {
         let info = Bundle.main.infoDictionary
@@ -56,6 +57,30 @@ struct SettingsView: View {
                     Text(L("settings.calibrationNote"))
                         .font(.footnote)
                         .foregroundStyle(.secondary)
+                }
+
+                Section(L("settings.community")) {
+                    NavigationLink {
+                        MySubmissionsView()
+                    } label: {
+                        Label(L("submit.mine"), systemImage: "tray.full")
+                    }
+                    if !community.blockedUsers.isEmpty {
+                        Button(role: .destructive) { community.unblockAll() } label: {
+                            Label(L("community.unblockAll", community.blockedUsers.count), systemImage: "hand.raised.slash")
+                        }
+                    }
+                    if let email = AppConfig.contactEmail,
+                       let url = URL(string: "mailto:\(email)?subject=Seichi%20Junrei") {
+                        Link(destination: url) {
+                            LabeledContent {
+                                Text(email).font(.footnote)
+                            } label: {
+                                Label(L("settings.contact"), systemImage: "envelope")
+                            }
+                        }
+                        .accessibilityIdentifier("settingsContact")
+                    }
                 }
 
                 Section(L("settings.credits")) {

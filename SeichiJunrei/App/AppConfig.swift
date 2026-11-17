@@ -14,4 +14,12 @@ enum AppConfig {
         if let s = value as? String { return ["yes", "true", "1"].contains(s.lowercased()) }
         return false
     }
+
+    /// 联系邮箱（用户反馈、举报处理）。由构建设置 SEICHI_CONTACT_EMAIL 写入 Info.plist；为空时不显示。
+    static var contactEmail: String? {
+        let v = (Bundle.main.object(forInfoDictionaryKey: "SeichiContactEmail") as? String)?
+            .trimmingCharacters(in: .whitespaces)
+        guard let v, v.contains("@") else { return nil }
+        return v
+    }
 }

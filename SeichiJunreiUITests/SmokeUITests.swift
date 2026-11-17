@@ -324,4 +324,47 @@ final class SmokeUITests: XCTestCase {
         XCTAssertTrue(hint.waitForExistence(timeout: 8), "人物太大时应提示往后退")
         snapshot("25-photographer-step-back")
     }
+
+    /// 巡礼者的照片：详情页能看到别人上传的照片，可以举报
+    func testCommunityPhotoReport() throws {
+        launch(extraEnv: ["SEICHI_FAKE_COMMUNITY": "1"])
+        let card = app.buttons["card-kiminonawa-suga-shrine"]
+        XCTAssertTrue(card.waitForExistence(timeout: 20))
+        card.tap()
+        let photo = app.buttons["communityPhoto"].firstMatch
+        XCTAssertTrue(photo.waitForExistence(timeout: 8), "详情页应显示巡礼者的照片")
+        var tries = 0
+        while !photo.isHittable && tries < 8 { app.swipeUp(); tries += 1 }
+        snapshot("26-community-photos")
+        photo.tap()
+        let more = app.buttons["communityMore"]
+        XCTAssertTrue(more.waitForExistence(timeout: 5))
+        more.tap()
+        app.buttons["举报"].tap()
+        let reason = app.buttons["与这个地点无关"]
+        XCTAssertTrue(reason.waitForExistence(timeout: 5))
+        reason.tap()
+        XCTAssertTrue(app.staticTexts["communityNotice"].waitForExistence(timeout: 5)
+                      || app.descendants(matching: .any)["communityNotice"].waitForExistence(timeout: 3),
+                      "举报后应提示已收到")
+        snapshot("27-community-reported")
+    }
+
+    /// 投稿新名场面：表单可以打开，必填项没填时不能提交
+    func testSubmitSceneFormRequiresFields() throws {
+        launch(extraEnv: ["SEICHI_FAKE_COMMUNITY": "1"])
+        let open = app.buttons["openSubmit"]
+        XCTAssertTrue(open.waitForExistence(timeout: 10))
+        open.tap()
+        let send = app.buttons["submitSend"]
+        let title = app.textFields["submitWorkTitle"]
+        XCTAssertTrue(title.waitForExistence(timeout: 5))
+        title.tap()
+        title.typeText("测试作品")
+        snapshot("28-submit-form")
+        var tries = 0
+        while !send.exists && tries < 6 { app.swipeUp(); tries += 1 }
+        XCTAssertTrue(send.exists)
+        XCTAssertFalse(send.isEnabled, "没填完必填项、没有照片时不能提交")
+    }
 }

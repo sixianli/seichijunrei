@@ -11,6 +11,8 @@ settings:
     MARKETING_VERSION: "0.1.0"
     # 免费公测期：NO。数据校准完成、准备收费时改为 YES
     SEICHI_PAYWALL_ENABLED: "NO"
+    # 设置页“联系我们”的邮箱。不写进源码：发布时由 GitHub 仓库变量 CONTACT_EMAIL 注入
+    SEICHI_CONTACT_EMAIL: ""
     CURRENT_PROJECT_VERSION: "1"
 packages:
   SeichiCore:
@@ -49,6 +51,7 @@ targets:
         CFBundleShortVersionString: $(MARKETING_VERSION)
         # 收费开关（见 SeichiJunrei/App/AppConfig.swift）
         SeichiPaywallEnabled: $(SEICHI_PAYWALL_ENABLED)
+        SeichiContactEmail: $(SEICHI_CONTACT_EMAIL)
         # 导航时检测这些地图 App 是否已安装（Google 地图 / 高德地图 / 百度地图）
         LSApplicationQueriesSchemes: [comgooglemaps, iosamap, baidumap]
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)

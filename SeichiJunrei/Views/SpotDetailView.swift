@@ -117,6 +117,10 @@ struct SpotDetailView: View {
                     }
                 }
 
+                DetailSection(title: L("community.title"), systemImage: "person.2.fill", tint: spot.tintColor) {
+                    CommunityPhotosSection(spot: spot)
+                }
+
                 aboutWork
 
                 DetailSection(title: L("detail.myScreenshot"), systemImage: "photo.on.rectangle", tint: spot.tintColor) {
