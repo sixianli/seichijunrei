@@ -1,5 +1,6 @@
 import SwiftUI
 import UIKit
+import LinkPresentation
 import SeichiCore
 
 /// 巡礼分享卡（竖版 4:5，导出为 1080×1350）。
@@ -11,6 +12,8 @@ struct ShareCardView: View {
     }
 
     static let size = CGSize(width: 360, height: 450)
+    /// 图片区域的精确尺寸（卡片宽度减去左右边距）
+    static let imageSize = CGSize(width: 360 - 36, height: 232)
 
     let spot: Spot
     let record: PilgrimageRecord?
@@ -27,8 +30,7 @@ struct ShareCardView: View {
             VStack(alignment: .leading, spacing: 9) {
                 header
                 imageArea
-                    .frame(height: 232)
-                    .frame(maxWidth: .infinity)
+                    .frame(width: Self.imageSize.width, height: Self.imageSize.height)
                     .clipShape(RoundedRectangle(cornerRadius: 14))
                     .overlay(alignment: .bottomTrailing) {
                         PilgrimageStamp(date: date).padding(8)
@@ -65,13 +67,17 @@ struct ShareCardView: View {
     }
 
     @ViewBuilder private var imageArea: some View {
+        let w = Self.imageSize.width
+        let h = Self.imageSize.height
         if layout == .comparison {
+            // 上下各占一半，用精确尺寸 + 裁剪，避免 scaledToFill 的图片溢出盖住另一半
+            let half = (h - 2) / 2
             VStack(spacing: 2) {
-                labeled(L("share.labelScene")) { sceneView }
-                labeled(L("share.labelReal")) { photoView }
+                labeled(L("share.labelScene"), width: w, height: half) { sceneView }
+                labeled(L("share.labelReal"), width: w, height: half) { photoView }
             }
         } else {
-            photoView
+            photoView.frame(width: w, height: h).clipped()
         }
     }
 
@@ -91,9 +97,10 @@ struct ShareCardView: View {
         }
     }
 
-    private func labeled<Content: View>(_ label: String, @ViewBuilder content: () -> Content) -> some View {
+    private func labeled<Content: View>(_ label: String, width: CGFloat, height: CGFloat,
+                                        @ViewBuilder content: () -> Content) -> some View {
         content()
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .frame(width: width, height: height)
             .clipped()
             .overlay(alignment: .topLeading) {
                 Text(label)
@@ -244,7 +251,7 @@ struct ShareComposerView: View {
             }
             .sheet(isPresented: $showActivity) {
                 if let rendered {
-                    ActivityView(items: [rendered, shareText])
+                    ActivityView(items: [ShareImageItem(image: rendered, title: L("share.title")), shareText])
                         .presentationDetents([.medium, .large])
                 }
             }
@@ -274,6 +281,24 @@ struct ShareComposerView: View {
         let line = L("share.text", spot.workTitle, spot.quotedSceneTitle)
         let tags = ShareFormatting.hashtags([L("share.hashtagPilgrimage"), "聖地巡礼", spot.work, spot.workLocalized])
         return line + "\n" + tags.joined(separator: " ")
+    }
+}
+
+/// 让系统分享面板顶部显示分享卡缩略图和标题（而不是只显示文字）
+final class ShareImageItem: NSObject, UIActivityItemSource {
+    let image: UIImage
+    let title: String
+    init(image: UIImage, title: String) { self.image = image; self.title = title }
+
+    func activityViewControllerPlaceholderItem(_ controller: UIActivityViewController) -> Any { image }
+    func activityViewController(_ controller: UIActivityViewController,
+                                itemForActivityType activityType: UIActivity.ActivityType?) -> Any? { image }
+    func activityViewControllerLinkMetadata(_ controller: UIActivityViewController) -> LPLinkMetadata? {
+        let metadata = LPLinkMetadata()
+        metadata.title = title
+        metadata.imageProvider = NSItemProvider(object: image)
+        metadata.iconProvider = NSItemProvider(object: image)
+        return metadata
     }
 }
 

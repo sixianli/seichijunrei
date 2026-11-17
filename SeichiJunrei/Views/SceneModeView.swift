@@ -59,7 +59,7 @@ struct SceneModeView: View {
                     ApproachLayer(spot: spot, distance: distance, bearing: bearingToSpot,
                                   heading: orientation.heading)
                 }
-                chrome
+                if !celebrating { chrome }
                 if celebrating {
                     CelebrationView(spot: spot, onCapture: { camera.capturePhoto() },
                                     onShare: { showShare = true },
