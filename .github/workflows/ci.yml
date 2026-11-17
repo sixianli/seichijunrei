@@ -20,7 +20,7 @@ jobs:
         working-directory: Packages/SeichiCore
 
   ios-build:
-    name: iOS app build
+    name: iOS app build (Release, device)
     runs-on: macos-26
     steps:
       - uses: actions/checkout@v4
@@ -33,9 +33,11 @@ jobs:
       - name: Build
         run: |
           set -o pipefail
+          # 与 TestFlight 相同的 Release 真机打包（不签名），确保发布构建始终能编译
           xcodebuild -project SeichiJunrei.xcodeproj -scheme SeichiJunrei \
-            -destination 'generic/platform=iOS Simulator' \
-            CODE_SIGNING_ALLOWED=NO build | tail -n 80
+            -configuration Release -destination 'generic/platform=iOS' \
+            -archivePath "$RUNNER_TEMP/SeichiJunrei.xcarchive" \
+            CODE_SIGNING_ALLOWED=NO archive | tail -n 80
 
   ios-ui-tests:
     name: iOS UI smoke tests (simulator)

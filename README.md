@@ -50,14 +50,40 @@
 | 档位 | 内容 | 商品 ID（StoreKit） | 测试价格 |
 | --- | --- | --- | --- |
 | 免费 | 地图、搜索、剧情介绍、方向指引；名场面取景模式可免费体验 **3 处不同的名场面**（同一处重复进入不扣次数） | — | 0 |
-| 7 天旅行通行证 | 不限次数的名场面取景、对准庆祝、拍照 | `com.example.seichijunrei.pass7`（非续期订阅） | $2.99 |
-| 30 天旅行通行证 | 同上 | `com.example.seichijunrei.pass30`（非续期订阅） | $4.99 |
-| 终身解锁 | 永久解锁 | `com.example.seichijunrei.lifetime`（非消耗型） | $14.99 |
+| 7 天旅行通行证 | 不限次数的名场面取景、对准庆祝、拍照 | `com.xianlisi.seichijunrei.pass7`（非续期订阅） | $2.99 |
+| 30 天旅行通行证 | 同上 | `com.xianlisi.seichijunrei.pass30`（非续期订阅） | $4.99 |
+| 终身解锁 | 永久解锁 | `com.xianlisi.seichijunrei.lifetime`（非消耗型） | $14.99 |
 
 - 通行证到期不会自动扣费；连续购买会顺延（从上一张的到期时间开始计算）。
 - 权益根据 StoreKit 2 的完整交易记录计算，退款后的交易会被排除；付费墙里有“恢复购买”。
 - 本地测试：`SeichiJunrei.storekit` 已挂到 Run scheme，在模拟器里运行即可模拟购买；`SeichiJunreiTests` 用 StoreKitTest 跑真实的购买、顺延、恢复、退款流程。
 - 上架前：在 App Store Connect 用上面的商品 ID 创建商品（或改 `StoreProductID`），加入 Small Business Program（抽成 15%），并在 App 描述里写清楚通行证不自动续费。
+
+## 发布到 TestFlight（GitHub Actions）
+
+工作流 `.github/workflows/testflight.yml`：在 GitHub 上手动触发，CI 会用 App Store Connect API 密钥自动签名、打包 Release 版并上传，构建号自动递增（`github.run_number`）。
+
+**一次性准备（在苹果网站上）**
+
+1. **注册 Bundle ID**：[Certificates, Identifiers & Profiles](https://developer.apple.com/account/resources/identifiers/list) → Identifiers → `+` → App IDs → 填 `com.xianlisi.seichijunrei`（In-App Purchase 能力默认开启）。
+2. **创建 App 记录**：[App Store Connect](https://appstoreconnect.apple.com) → 我的 App → `+` 新建 App → 平台 iOS，选择上面的 Bundle ID，SKU 随意（如 `seichijunrei`）。App 名称在 App Store 中必须唯一。
+3. **创建 API 密钥**：App Store Connect → 用户和访问 → 集成 → App Store Connect API → 团队密钥 → `+`，访问权限选 **管理（Admin）**（CI 需要用它创建云端托管的分发证书）。下载 `.p8` 文件（只能下载一次），记下 **密钥 ID** 和页面上方的 **Issuer ID**。
+4. **查看 Team ID**：[developer.apple.com/account](https://developer.apple.com/account) → 会员资格详细信息。
+
+**在 GitHub 仓库里配置**（Settings → Secrets and variables → Actions）
+
+| 类型 | 名称 | 值 |
+| --- | --- | --- |
+| Secret | `APP_STORE_CONNECT_API_KEY_ID` | 密钥 ID |
+| Secret | `APP_STORE_CONNECT_ISSUER_ID` | Issuer ID |
+| Secret | `APP_STORE_CONNECT_API_KEY` | `.p8` 文件的全部内容（含 BEGIN/END 两行） |
+| Variable | `APPLE_TEAM_ID` | Team ID（10 位） |
+
+Secret 是加密保存的，不会出现在日志里；公开仓库被 fork 后发起的 PR 也拿不到。这个工作流只能由有写权限的人手动触发。
+
+**发布**：Actions → TestFlight → Run workflow → 填版本号（如 `0.1.0`）→ 运行。成功后，苹果通常会在 5–30 分钟内处理完构建；然后在 App Store Connect 的 TestFlight 页面把自己加为内部测试员，用 iPhone 上的 TestFlight App 安装即可。没有配置密钥时，工作流只做一次不签名的打包演练，并在运行摘要里列出缺少的配置。
+
+> 内购商品需要在 App Store Connect →「App 内购买项目」里按上面「收费模式」中的商品 ID 创建；TestFlight 中的购买走沙盒环境，不会真的扣款。
 
 ## 多语言
 
@@ -80,7 +106,7 @@
 
 ## 运行
 
-需要 macOS + Xcode 26 以上，以及 [XcodeGen](https://github.com/yonaskolb/XcodeGen)：
+需要 macOS + Xcode 26 以上（也可以不用 Mac，直接用下面的 GitHub Actions 发布到 TestFlight），以及 [XcodeGen](https://github.com/yonaskolb/XcodeGen)：
 
 ```bash
 brew install xcodegen

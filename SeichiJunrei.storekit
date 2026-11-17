@@ -12,7 +12,7 @@
           "locale" : "en_US"
         }
       ],
-      "productID" : "com.example.seichijunrei.pass7",
+      "productID" : "com.xianlisi.seichijunrei.pass7",
       "referenceName" : "Trip Pass 7 days",
       "type" : "NonRenewingSubscription"
     },
@@ -27,7 +27,7 @@
           "locale" : "en_US"
         }
       ],
-      "productID" : "com.example.seichijunrei.pass30",
+      "productID" : "com.xianlisi.seichijunrei.pass30",
       "referenceName" : "Trip Pass 30 days",
       "type" : "NonRenewingSubscription"
     }
@@ -44,7 +44,7 @@
           "locale" : "en_US"
         }
       ],
-      "productID" : "com.example.seichijunrei.lifetime",
+      "productID" : "com.xianlisi.seichijunrei.lifetime",
       "referenceName" : "Lifetime Unlock",
       "type" : "NonConsumable"
     }

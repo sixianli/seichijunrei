@@ -5,9 +5,9 @@ import SeichiCore
 
 /// App 内购买的商品 ID（上架前请在 App Store Connect 创建同名商品）
 enum StoreProductID {
-    static let pass7 = "com.example.seichijunrei.pass7"
-    static let pass30 = "com.example.seichijunrei.pass30"
-    static let lifetime = "com.example.seichijunrei.lifetime"
+    static let pass7 = "com.xianlisi.seichijunrei.pass7"
+    static let pass30 = "com.xianlisi.seichijunrei.pass30"
+    static let lifetime = "com.xianlisi.seichijunrei.lifetime"
 
     static let all = [pass7, pass30, lifetime]
     /// 非续期订阅（旅行通行证）对应的天数
