@@ -50,11 +50,22 @@ jobs:
         run: xcodegen generate
       - name: Boot simulator at a pilgrimage spot
         run: |
+          # iOS 26.5 模拟器的 StoreKitTest 有已知问题（SKTestSession 返回 0 个商品），
+          # 优先使用 iOS 26.2 运行时；没有时退回最新的 iOS 运行时。
           UDID=$(xcrun simctl list devices available -j | python3 -c "
           import json, sys
           devs = json.load(sys.stdin)['devices']
-          ios = sorted((k for k in devs if 'iOS' in k), reverse=True)
-          print(next(d['udid'] for k in ios for d in devs[k] if d['name'].startswith('iPhone')))")
+          def ver(k):
+              tail = k.rsplit('iOS-', 1)[-1]
+              return tuple(int(x) for x in tail.split('-') if x.isdigit())
+          ios = sorted((k for k in devs if 'iOS' in k), key=ver, reverse=True)
+          preferred = [k for k in ios if k.endswith('iOS-26-2')] + ios
+          for k in preferred:
+              phones = [d for d in devs[k] if d['name'].startswith('iPhone')]
+              if phones:
+                  print(phones[0]['udid'], file=sys.stdout)
+                  print('Using', k, phones[0]['name'], file=sys.stderr)
+                  break")
           echo "UDID=$UDID" >> "$GITHUB_ENV"
           xcrun simctl boot "$UDID"
           xcrun simctl bootstatus "$UDID" -b
