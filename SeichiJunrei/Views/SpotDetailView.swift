@@ -25,10 +25,11 @@ struct SpotDetailView: View {
                         .font(.subheadline.bold())
                         .foregroundStyle(spot.tintColor)
                     Text(spot.sceneTitle).font(.title.bold())
-                    HStack(spacing: 6) {
+                    ScrollView(.horizontal, showsIndicators: false) { HStack(spacing: 6) {
+                        Tag(text: spot.mediaType.label, systemImage: spot.mediaType.symbolName)
                         if let ep = spot.episode { Tag(text: ep, systemImage: "play.rectangle") }
                         Tag(text: spot.placeName, systemImage: "mappin.and.ellipse")
-                    }
+                    } }
                 }
 
                 if let info {

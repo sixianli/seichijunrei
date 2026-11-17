@@ -9,6 +9,10 @@ public struct NearbySpot: Identifiable, Hashable, Sendable {
     public var bearing: Double
     public var id: String { spot.id }
 
+    public init(spot: Spot, distance: Double, bearing: Double) {
+        self.spot = spot; self.distance = distance; self.bearing = bearing
+    }
+
     /// 用户是否已站在名场面镜头位置附近。`accuracy` 为 GPS 水平精度，用于适度放宽判定。
     public func hasArrived(accuracy: Double = 0) -> Bool {
         distance <= spot.arrivalRadius + min(max(accuracy, 0), 20)

@@ -42,6 +42,12 @@ final class SpotStore {
     /// 半径内的圣地
     var nearbyWithinRadius: [NearbySpot] { nearby.filter { $0.distance <= searchRadius } }
 
+    /// 把任意一组圣地转成带距离的列表：有定位时按距离排序，否则保持原顺序（距离为 ∞）。
+    func items(for spots: [Spot]) -> [NearbySpot] {
+        if let p = userPoint { return NearbySearch.nearby(spots, from: p) }
+        return spots.map { NearbySpot(spot: $0, distance: .infinity, bearing: 0) }
+    }
+
     func nearbyInfo(for spot: Spot) -> NearbySpot? {
         nearby.first { $0.id == spot.id }
     }

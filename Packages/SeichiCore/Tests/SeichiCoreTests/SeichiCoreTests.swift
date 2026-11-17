@@ -139,6 +139,18 @@ final class CatalogTests: XCTestCase {
         // 编码 → 解码往返
         let round = try SpotCatalog.decode(JSONEncoder().encode(spots))
         XCTAssertEqual(round, spots)
+
+        // 用真实数据验证搜索
+        XCTAssertEqual(SpotSearch.search("灌篮高手", in: spots).first?.work, "SLAM DUNK")
+        XCTAssertEqual(SpotSearch.search("slam dunk", in: spots).first?.work, "SLAM DUNK")
+        XCTAssertEqual(SpotSearch.search("东京爱情故事", in: spots).first?.mediaType, .drama)
+        XCTAssertEqual(SpotSearch.search("花束", in: spots).first?.mediaType, .film)
+        XCTAssertEqual(Set(SpotSearch.search("新海诚", in: spots).map(\.work)),
+                       ["君の名は。", "天気の子", "秒速5センチメートル"])
+        XCTAssertEqual(SpotSearch.search("ゆーふぉ", in: spots).first?.spots.count, 2)
+        for type in MediaType.allCases {
+            XCTAssertFalse(SpotSearch.search("", in: spots, mediaType: type).isEmpty, "缺少 \(type) 类型的示例")
+        }
     }
 }
 
@@ -220,5 +232,77 @@ final class ViewfinderProjectionTests: XCTestCase {
                                                         viewWidth: 900, viewHeight: 900)
         XCTAssertEqual(w.horizontal, 54.5, accuracy: 0.5)
         XCTAssertLessThan(w.vertical, 69)
+    }
+}
+
+final class SpotSearchTests: XCTestCase {
+    func spot(_ id: String, _ work: String, _ cn: String? = nil, _ type: MediaType = .anime,
+              aliases: [String] = [], scene: String = "场景", place: String = "地点",
+              lat: Double = 35, lon: Double = 139) -> Spot {
+        Spot(id: id, work: work, workLocalized: cn, mediaType: type, aliases: aliases, placeName: place,
+             sceneTitle: scene, story: "s", coordinate: .init(latitude: lat, longitude: lon), sceneHeading: 0)
+    }
+
+    lazy var catalog: [Spot] = [
+        spot("k1", "君の名は。", "你的名字。", .animeFilm, aliases: ["Your Name", "Kimi no Na wa"],
+             scene: "阶梯上的重逢", place: "須賀神社", lat: 35.68, lon: 139.72),
+        spot("k2", "君の名は。", "你的名字。", .animeFilm, aliases: ["Your Name"],
+             scene: "寻找糸守町", place: "飛騨古川駅", lat: 36.24, lon: 137.19),
+        spot("y1", "ゆるキャン△", "摇曳露营△", .anime, aliases: ["Yuru Camp", "Laid-Back Camp"],
+             scene: "夜空下的富士山", place: "本栖湖"),
+        spot("t1", "東京ラブストーリー", "东京爱情故事", .drama, aliases: ["Tokyo Love Story"],
+             scene: "月台上的手帕", place: "梅津寺駅"),
+        spot("h1", "花束みたいな恋をした", "花束般的恋爱", .film, scene: "错过末班车的夜晚", place: "明大前駅"),
+    ]
+
+    func testNormalize() {
+        XCTAssertEqual(SpotSearch.normalize("君の名は。"), SpotSearch.normalize("君の名は"))
+        XCTAssertEqual(SpotSearch.normalize("ゆるキャン△"), "ゆるきゃん")
+        XCTAssertEqual(SpotSearch.normalize("ＹＯＵＲ　Name"), "yourname")
+        XCTAssertEqual(SpotSearch.normalize("らき☆すた"), "らきすた")
+        XCTAssertEqual(SpotSearch.normalize("スラムダンク"), "すらむだんく")
+        XCTAssertEqual(SpotSearch.normalize("ラブライブ！"), "らぶらいぶ")
+    }
+
+    func testSearchByJapaneseChineseEnglish() {
+        for q in ["君の名は", "你的名字", "your name", "YourName", "kimi no na wa", "君の"] {
+            let r = SpotSearch.search(q, in: catalog)
+            XCTAssertEqual(r.first?.work, "君の名は。", "query: \(q)")
+            XCTAssertEqual(r.first?.spots.count, 2, "作品名匹配应返回全部名场面：\(q)")
+        }
+    }
+
+    func testKatakanaHiraganaInterchangeable() {
+        XCTAssertEqual(SpotSearch.search("ゆるきゃん", in: catalog).first?.work, "ゆるキャン△")
+        XCTAssertEqual(SpotSearch.search("らぶすとーりー", in: catalog).first?.work,
+                       "東京ラブストーリー")
+    }
+
+    func testSceneOrPlaceMatchReturnsOnlyThatSpot() {
+        let r = SpotSearch.search("飛騨", in: catalog)
+        XCTAssertEqual(r.count, 1)
+        XCTAssertEqual(r[0].spots.map(\.id), ["k2"])
+    }
+
+    func testWorkMatchRanksAboveSceneMatch() {
+        // “东京” 既是《东京爱情故事》作品名前缀，也可能出现在其他地点
+        let cat = catalog + [spot("x", "某作品", place: "东京塔")]
+        let r = SpotSearch.search("东京", in: cat)
+        XCTAssertEqual(r.map(\.work), ["東京ラブストーリー", "某作品"])
+    }
+
+    func testMediaTypeFilterAndEmptyQuery() {
+        XCTAssertEqual(SpotSearch.search("", in: catalog).map(\.work),
+                       ["君の名は。", "ゆるキャン△", "東京ラブストーリー", "花束みたいな恋をした"])
+        XCTAssertEqual(SpotSearch.search("", in: catalog, mediaType: .drama).map(\.work), ["東京ラブストーリー"])
+        XCTAssertTrue(SpotSearch.search("你的名字", in: catalog, mediaType: .drama).isEmpty)
+        XCTAssertTrue(SpotSearch.search("不存在的作品", in: catalog).isEmpty)
+    }
+
+    func testBoundingBox() throws {
+        let box = try XCTUnwrap(SpotSearch.boundingBox(of: Array(catalog.prefix(2))))
+        XCTAssertEqual(box.minLat, 35.68); XCTAssertEqual(box.maxLat, 36.24)
+        XCTAssertEqual(box.minLon, 137.19); XCTAssertEqual(box.maxLon, 139.72)
+        XCTAssertNil(SpotSearch.boundingBox(of: []))
     }
 }

@@ -23,3 +23,15 @@ extension Spot {
 extension CLLocation {
     var geoPoint: GeoPoint { GeoPoint(latitude: coordinate.latitude, longitude: coordinate.longitude) }
 }
+
+extension MediaType {
+    /// SF Symbols 图标
+    var symbolName: String {
+        switch self {
+        case .anime: return "sparkles.tv.fill"
+        case .animeFilm: return "film.fill"
+        case .film: return "movieclapper.fill"
+        case .drama: return "tv.fill"
+        }
+    }
+}

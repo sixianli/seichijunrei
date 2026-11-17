@@ -1,12 +1,33 @@
 import Foundation
 
-/// 一个圣地（动画名场面在现实中的取景地）。
+/// 作品类型
+public enum MediaType: String, Codable, CaseIterable, Sendable {
+    case anime        // TV 动画
+    case animeFilm    // 动画电影
+    case film         // 真人电影
+    case drama        // 电视剧
+
+    public var label: String {
+        switch self {
+        case .anime: return "动画"
+        case .animeFilm: return "动画电影"
+        case .film: return "电影"
+        case .drama: return "电视剧"
+        }
+    }
+}
+
+/// 一个圣地（动画/电影/电视剧名场面在现实中的取景地）。
 public struct Spot: Codable, Identifiable, Hashable, Sendable {
     public var id: String
     /// 作品名（原文）
     public var work: String
     /// 作品名（中文，可选）
     public var workLocalized: String?
+    /// 作品类型
+    public var mediaType: MediaType
+    /// 作品别名（英文名、罗马字、简称等），用于搜索
+    public var aliases: [String]
     /// 地点名称
     public var placeName: String
     /// 名场面标题
@@ -34,12 +55,14 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
     /// 主题色（十六进制），用于卡片和地图标记
     public var tint: String?
 
-    public init(id: String, work: String, workLocalized: String? = nil, placeName: String,
+    public init(id: String, work: String, workLocalized: String? = nil,
+                mediaType: MediaType = .anime, aliases: [String] = [], placeName: String,
                 sceneTitle: String, episode: String? = nil, story: String, trivia: String? = nil,
                 coordinate: GeoPoint, sceneHeading: Double, scenePitch: Double? = nil,
                 arrivalRadius: Double = 25, sceneImage: String? = nil, sourceURL: String? = nil,
                 verified: Bool = false, tint: String? = nil) {
         self.id = id; self.work = work; self.workLocalized = workLocalized
+        self.mediaType = mediaType; self.aliases = aliases
         self.placeName = placeName; self.sceneTitle = sceneTitle; self.episode = episode
         self.story = story; self.trivia = trivia; self.coordinate = coordinate
         self.sceneHeading = sceneHeading; self.scenePitch = scenePitch
@@ -48,7 +71,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
     }
 
     enum CodingKeys: String, CodingKey {
-        case id, work, workLocalized, placeName, sceneTitle, episode, story, trivia
+        case id, work, workLocalized, mediaType, aliases, placeName, sceneTitle, episode, story, trivia
         case latitude, longitude, sceneHeading, scenePitch, arrivalRadius
         case sceneImage, sourceURL, verified, tint
     }
@@ -58,6 +81,8 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         id = try c.decode(String.self, forKey: .id)
         work = try c.decode(String.self, forKey: .work)
         workLocalized = try c.decodeIfPresent(String.self, forKey: .workLocalized)
+        mediaType = try c.decodeIfPresent(MediaType.self, forKey: .mediaType) ?? .anime
+        aliases = try c.decodeIfPresent([String].self, forKey: .aliases) ?? []
         placeName = try c.decode(String.self, forKey: .placeName)
         sceneTitle = try c.decode(String.self, forKey: .sceneTitle)
         episode = try c.decodeIfPresent(String.self, forKey: .episode)
@@ -84,6 +109,8 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         try c.encode(id, forKey: .id)
         try c.encode(work, forKey: .work)
         try c.encodeIfPresent(workLocalized, forKey: .workLocalized)
+        try c.encode(mediaType, forKey: .mediaType)
+        if !aliases.isEmpty { try c.encode(aliases, forKey: .aliases) }
         try c.encode(placeName, forKey: .placeName)
         try c.encode(sceneTitle, forKey: .sceneTitle)
         try c.encodeIfPresent(episode, forKey: .episode)

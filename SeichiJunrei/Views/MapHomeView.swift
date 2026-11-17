@@ -3,6 +3,14 @@ import UIKit
 import MapKit
 import SeichiCore
 
+/// 地图上当前聚焦显示的一组名场面（某部作品，或一次搜索的全部结果）
+struct MapFocus: Equatable {
+    var title: String
+    var subtitle: String
+    var spots: [Spot]
+    var tint: Color
+}
+
 struct MapHomeView: View {
     @Environment(SpotStore.self) private var store
     @Environment(LocationService.self) private var location
@@ -15,6 +23,24 @@ struct MapHomeView: View {
     @State private var sceneSpot: Spot?
     @State private var showList = false
 
+    // 搜索
+    @State private var query = ""
+    @State private var isSearching = false
+    @State private var mediaFilter: MediaType?
+    @State private var focus: MapFocus?
+
+    private var searchResults: [SpotSearch.WorkMatch] {
+        SpotSearch.search(query, in: store.spots, mediaType: mediaFilter)
+    }
+
+    /// 地图上显示的名场面
+    private var mapSpots: [Spot] {
+        if let focus { return focus.spots }
+        if !query.isEmpty { return searchResults.flatMap(\.spots) }
+        if let mediaFilter { return store.spots.filter { $0.mediaType == mediaFilter } }
+        return store.spots
+    }
+
     /// 当前已经站在名场面位置的圣地（最近的一个）
     private var arrivedSpot: NearbySpot? {
         store.nearby.first { $0.hasArrived(accuracy: location.lastLocation?.horizontalAccuracy ?? 0) }
@@ -23,7 +49,7 @@ struct MapHomeView: View {
     var body: some View {
         Map(position: $camera) {
             UserAnnotation()
-            ForEach(store.spots) { spot in
+            ForEach(mapSpots) { spot in
                 Annotation(spot.placeName, coordinate: spot.clCoordinate, anchor: .bottom) {
                     SpotPin(spot: spot, isArrived: arrivedSpot?.id == spot.id)
                         .onTapGesture { selected = spot }
@@ -39,6 +65,11 @@ struct MapHomeView: View {
         }
         .safeAreaInset(edge: .top) {
             VStack(spacing: 8) {
+                MediaFilterBar(selection: $mediaFilter)
+                if let focus {
+                    FocusChip(focus: focus) { clearFocus() }
+                        .transition(.move(edge: .top).combined(with: .opacity))
+                }
                 PermissionBanner()
                 if let arrived = arrivedSpot {
                     ArrivalBanner(nearby: arrived) { sceneSpot = arrived.spot }
@@ -46,15 +77,44 @@ struct MapHomeView: View {
                 }
             }
             .padding(.horizontal)
+            .padding(.top, 4)
             .animation(.spring, value: arrivedSpot?.id)
+            .animation(.spring, value: focus)
         }
-        .safeAreaInset(edge: .bottom) {
-            NearbyCarousel(items: store.nearbyWithinRadius.isEmpty
-                           ? Array(store.nearby.prefix(10)) : store.nearbyWithinRadius,
-                           isFallback: store.nearbyWithinRadius.isEmpty) { selected = $0 }
-        }
+        .safeAreaInset(edge: .bottom) { carousel }
         .navigationTitle("圣地巡礼")
         .navigationBarTitleDisplayMode(.inline)
+        .searchable(text: $query, isPresented: $isSearching,
+                    placement: .navigationBarDrawer(displayMode: .always),
+                    prompt: "搜索动画、电影、电视剧的名字")
+        .searchSuggestions {
+            if searchResults.isEmpty {
+                Text("没有找到「\(query)」相关的名场面").foregroundStyle(.secondary)
+            } else {
+                Section(query.isEmpty ? "全部作品" : "搜索结果") {
+                    ForEach(searchResults) { match in
+                        Button { focusOn(match) } label: { WorkMatchRow(match: match) }
+                    }
+                }
+            }
+        }
+        .onSubmit(of: .search) {
+            let results = searchResults
+            if results.count == 1 {
+                focusOn(results[0])
+            } else if !results.isEmpty {
+                let spots = results.flatMap(\.spots)
+                setFocus(MapFocus(title: "「\(query)」的搜索结果",
+                                  subtitle: "\(results.count) 部作品 · \(spots.count) 个名场面",
+                                  spots: spots, tint: .accentColor))
+            }
+        }
+        .onChange(of: mediaFilter) { _, _ in
+            // 切换类型时，若当前聚焦的作品不属于该类型则取消聚焦
+            if let f = focus, let m = mediaFilter, !f.spots.contains(where: { $0.mediaType == m }) {
+                clearFocus()
+            }
+        }
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Button { showList = true } label: { Image(systemName: "list.bullet") }
@@ -66,8 +126,8 @@ struct MapHomeView: View {
                 // 等 sheet 收起后再弹出全屏的名场面模式，避免同时呈现两个模态视图
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) { sceneSpot = spot }
             }
-                .presentationDetents([.medium, .large])
-                .presentationDragIndicator(.visible)
+            .presentationDetents([.medium, .large])
+            .presentationDragIndicator(.visible)
         }
         .sheet(isPresented: $showList) {
             NearbyListView { spot in
@@ -84,6 +144,138 @@ struct MapHomeView: View {
                     .background(.regularMaterial)
             }
         }
+    }
+
+    @ViewBuilder private var carousel: some View {
+        if focus != nil || mediaFilter != nil {
+            NearbyCarousel(title: focus?.title ?? "\(mediaFilter?.label ?? "")的名场面",
+                           items: store.items(for: mapSpots)) { selected = $0 }
+        } else {
+            let within = store.nearbyWithinRadius
+            NearbyCarousel(title: within.isEmpty ? "离你最近的名场面" : "附近的名场面",
+                           items: within.isEmpty ? Array(store.nearby.prefix(10)) : within) { selected = $0 }
+        }
+    }
+
+    private func focusOn(_ match: SpotSearch.WorkMatch) {
+        let names = match.workLocalized.map { "\(match.work)（\($0)）" } ?? match.work
+        setFocus(MapFocus(title: "《\(names)》",
+                          subtitle: "\(match.mediaType.label) · \(match.spots.count) 个名场面",
+                          spots: match.spots,
+                          tint: match.spots.first?.tintColor ?? .accentColor))
+    }
+
+    private func setFocus(_ f: MapFocus) {
+        focus = f
+        isSearching = false
+        fitCamera(to: f.spots)
+        if f.spots.count == 1 { selected = f.spots[0] }
+    }
+
+    private func clearFocus() {
+        focus = nil
+        query = ""
+    }
+
+    private func fitCamera(to spots: [Spot]) {
+        guard let b = SpotSearch.boundingBox(of: spots) else { return }
+        let center = CLLocationCoordinate2D(latitude: (b.minLat + b.maxLat) / 2,
+                                            longitude: (b.minLon + b.maxLon) / 2)
+        // 留出边距，并且至少显示约 1km 的范围
+        let span = MKCoordinateSpan(latitudeDelta: max((b.maxLat - b.minLat) * 1.6, 0.012),
+                                    longitudeDelta: max((b.maxLon - b.minLon) * 1.6, 0.012))
+        withAnimation(.easeInOut(duration: 0.8)) {
+            camera = .region(MKCoordinateRegion(center: center, span: span))
+        }
+    }
+}
+
+/// 类型筛选：全部 / 动画 / 动画电影 / 电影 / 电视剧
+private struct MediaFilterBar: View {
+    @Binding var selection: MediaType?
+
+    var body: some View {
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack(spacing: 8) {
+                chip(title: "全部", symbol: "square.grid.2x2", value: nil)
+                ForEach(MediaType.allCases, id: \.self) { type in
+                    chip(title: type.label, symbol: type.symbolName, value: type)
+                }
+            }
+        }
+    }
+
+    private func chip(title: String, symbol: String, value: MediaType?) -> some View {
+        let isOn = selection == value
+        return Button {
+            withAnimation(.snappy) { selection = value }
+        } label: {
+            Label(title, systemImage: symbol)
+                .font(.footnote.weight(.semibold))
+                .padding(.horizontal, 12).padding(.vertical, 7)
+                .background(isOn ? AnyShapeStyle(Color.accentColor) : AnyShapeStyle(Material.ultraThinMaterial),
+                            in: Capsule())
+                .foregroundStyle(isOn ? Color.white : Color.primary)
+        }
+        .buttonStyle(.plain)
+    }
+}
+
+/// 当前聚焦作品的提示条，可一键取消
+private struct FocusChip: View {
+    let focus: MapFocus
+    let onClear: () -> Void
+
+    var body: some View {
+        HStack(spacing: 10) {
+            Image(systemName: "scope").foregroundStyle(focus.tint)
+            VStack(alignment: .leading, spacing: 1) {
+                Text(focus.title).font(.subheadline.bold()).lineLimit(1)
+                Text(focus.subtitle).font(.caption).foregroundStyle(.secondary)
+            }
+            Spacer()
+            Button(action: onClear) {
+                Image(systemName: "xmark.circle.fill").font(.title3).foregroundStyle(.secondary)
+            }
+            .accessibilityLabel("显示全部名场面")
+        }
+        .padding(10)
+        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 14))
+    }
+}
+
+/// 搜索结果中的一部作品
+struct WorkMatchRow: View {
+    let match: SpotSearch.WorkMatch
+
+    var body: some View {
+        HStack(spacing: 12) {
+            Image(systemName: match.mediaType.symbolName)
+                .font(.headline)
+                .foregroundStyle(.white)
+                .frame(width: 36, height: 36)
+                .background((match.spots.first?.tintColor ?? .accentColor).gradient,
+                            in: RoundedRectangle(cornerRadius: 9))
+            VStack(alignment: .leading, spacing: 2) {
+                HStack(spacing: 6) {
+                    Text(match.work).font(.headline).lineLimit(1)
+                    Text(match.mediaType.label)
+                        .font(.caption2.bold())
+                        .padding(.horizontal, 5).padding(.vertical, 1)
+                        .background(.quaternary, in: Capsule())
+                }
+                if let cn = match.workLocalized {
+                    Text(cn).font(.caption).foregroundStyle(.secondary).lineLimit(1)
+                }
+                Text(match.spots.map(\.sceneTitle).joined(separator: " · "))
+                    .font(.caption2).foregroundStyle(.tertiary).lineLimit(1)
+            }
+            Spacer()
+            Text("\(match.spots.count)")
+                .font(.callout.bold().monospacedDigit())
+                .foregroundStyle(.secondary)
+        }
+        .contentShape(Rectangle())
     }
 }
 
@@ -104,8 +296,8 @@ private struct SpotPin: View {
                     .onAppear { pulse = true }
             }
             VStack(spacing: 0) {
-                Image(systemName: "sparkles.tv.fill")
-                    .font(.system(size: 16, weight: .bold))
+                Image(systemName: spot.mediaType.symbolName)
+                    .font(.system(size: 15, weight: .bold))
                     .foregroundStyle(.white)
                     .frame(width: 34, height: 34)
                     .background(spot.tintColor, in: Circle())
@@ -190,14 +382,15 @@ private struct PermissionBanner: View {
 }
 
 private struct NearbyCarousel: View {
+    let title: String
     let items: [NearbySpot]
-    let isFallback: Bool
     let onSelect: (Spot) -> Void
 
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Text(isFallback ? "离你最近的圣地" : "附近的名场面")
+            Text(title)
                 .font(.headline)
+                .lineLimit(1)
                 .padding(.horizontal)
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack(spacing: 12) {
@@ -226,9 +419,15 @@ struct SpotCard: View {
             VStack(alignment: .leading, spacing: 3) {
                 Text(item.spot.work).font(.caption).foregroundStyle(.secondary).lineLimit(1)
                 Text(item.spot.sceneTitle).font(.subheadline.bold()).lineLimit(1)
-                Label(NearbySearch.formatDistance(item.distance), systemImage: "location.north.line")
-                    .font(.caption)
-                    .foregroundStyle(item.spot.tintColor)
+                if item.distance.isFinite {
+                    Label(NearbySearch.formatDistance(item.distance), systemImage: "location.north.line")
+                        .font(.caption)
+                        .foregroundStyle(item.spot.tintColor)
+                } else {
+                    Label(item.spot.mediaType.label, systemImage: item.spot.mediaType.symbolName)
+                        .font(.caption)
+                        .foregroundStyle(item.spot.tintColor)
+                }
             }
             Spacer(minLength: 0)
         }
