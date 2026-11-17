@@ -7,6 +7,14 @@ final class SmokeUITests: XCTestCase {
 
     override func setUpWithError() throws {
         continueAfterFailure = false
+        // 系统权限弹窗可能在任意时刻出现（比如定位弹窗晚于通知弹窗），挡住点击时自动允许
+        addUIInterruptionMonitor(withDescription: "System alerts") { alert in
+            for label in ["Allow While Using App", "Allow", "OK", "使用App时允许", "允许", "好"] {
+                let button = alert.buttons[label]
+                if button.exists { button.tap(); return true }
+            }
+            return false
+        }
     }
 
     /// 启动 App：位置固定在「須賀神社」（《君の名は。》，名场面朝向 216°、仰角 12°）的机位，
@@ -36,8 +44,10 @@ final class SmokeUITests: XCTestCase {
     func enterSceneFromBanner() {
         let banner = app.buttons["arrivalBanner"]
         XCTAssertTrue(banner.waitForExistence(timeout: 20), "站在机位附近时应显示到达横幅")
+        dismissSystemAlerts(timeout: 3)   // 晚出现的权限弹窗（定位等）会挡住横幅
         banner.tap()
         dismissSystemAlerts(timeout: 4)   // 相机权限弹窗
+        if banner.exists && banner.isHittable { banner.tap(); dismissSystemAlerts(timeout: 4) }
         // 已对准时庆祝画面会很快出现，并暂时隐藏顶部的关闭按钮，所以两者出现其一即表示已进入名场面模式
         let entered = app.descendants(matching: .any)
             .matching(NSPredicate(format: "identifier IN %@", ["closeScene", "celebrationTitle"]))
@@ -152,7 +162,8 @@ final class SmokeUITests: XCTestCase {
         XCTAssertTrue(picker.waitForExistence(timeout: 5))
         picker.buttons["日剧"].tap()
         // 日剧很多，用搜索框定位到《东京爱情故事》
-        let search = app.searchFields.firstMatch
+        // 列表页自己的搜索框（地图页的搜索框也在视图层级里，不能用 firstMatch）
+        let search = app.searchFields["日漫 / 日剧 / 日影名称"]
         XCTAssertTrue(search.waitForExistence(timeout: 5))
         search.tap()
         search.typeText("东京爱情")
