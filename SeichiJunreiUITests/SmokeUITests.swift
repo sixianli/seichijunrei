@@ -142,6 +142,9 @@ final class SmokeUITests: XCTestCase {
         snapshot("04-detail")
 
         // 4. 进入名场面模式（模拟器没有相机/罗盘，应优雅降级而不是崩溃）
+        // 详情页顶部是大图，按钮可能在半屏 sheet 之外：先上滑展开
+        var tries = 0
+        while !enter.isHittable && tries < 4 { app.swipeUp(); tries += 1 }
         enter.tap()
         dismissSystemAlerts(timeout: 4)   // 相机权限弹窗
         let close = app.buttons["closeScene"]
