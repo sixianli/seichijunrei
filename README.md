@@ -79,7 +79,7 @@
 | Secret | `APP_STORE_CONNECT_API_KEY` | `.p8` 文件的全部内容（含 BEGIN/END 两行） |
 | Variable | `APPLE_TEAM_ID` | Team ID（10 位） |
 
-Secret 是加密保存的，不会出现在日志里；公开仓库被 fork 后发起的 PR 也拿不到。这个工作流只能由有写权限的人手动触发。
+也可以用简写名 `ASC_KEY_ID`、`ASC_ISSUER_ID`、`ASC_KEY_P8`。Secret 是加密保存的，不会出现在日志里；公开仓库被 fork 后发起的 PR 也拿不到。这个工作流只能由有写权限的人手动触发。
 
 **发布**：Actions → TestFlight → Run workflow → 填版本号（如 `0.1.0`）→ 运行。成功后，苹果通常会在 5–30 分钟内处理完构建；然后在 App Store Connect 的 TestFlight 页面把自己加为内部测试员，用 iPhone 上的 TestFlight App 安装即可。没有配置密钥时，工作流只做一次不签名的打包演练，并在运行摘要里列出缺少的配置。
 
