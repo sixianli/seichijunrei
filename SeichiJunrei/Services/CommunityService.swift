@@ -54,7 +54,8 @@ final class CommunityService {
     private(set) var mySubmissions: [MySubmission] = []
     private(set) var blockedUsers: Set<String> = []
 
-    @ObservationIgnored private let container = CKContainer(identifier: CalibrationService.containerID)
+    /// 用到时才创建：没有 iCloud 权限的构建（如 UI 测试）创建 CKContainer 会直接崩溃
+    private var container: CKContainer { CKContainer(identifier: CalibrationService.containerID) }
     @ObservationIgnored private var database: CKDatabase { container.publicCloudDatabase }
     @ObservationIgnored private var myUserID: String?
     @ObservationIgnored private let cacheDir: URL
@@ -73,7 +74,9 @@ final class CommunityService {
             mySubmissions = saved
         }
         #if DEBUG
-        fake = ProcessInfo.processInfo.environment["SEICHI_FAKE_COMMUNITY"] == "1"
+        // UI 测试的构建没有签名、没有 iCloud 权限：一律用假数据（SEICHI_SIM_LAT 只有 UI 测试会设置）
+        let env = ProcessInfo.processInfo.environment
+        fake = env["SEICHI_FAKE_COMMUNITY"] == "1" || env["SEICHI_SIM_LAT"] != nil
         #else
         fake = false
         #endif
