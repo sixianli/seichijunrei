@@ -66,6 +66,25 @@ jobs:
           xcodebuild test -project SeichiJunrei.xcodeproj -scheme SeichiJunrei \
             -destination "id=$UDID" -resultBundlePath UITests.xcresult \
             CODE_SIGNING_ALLOWED=NO 2>&1 | grep -vE "Capturing element debug description|Expect predicate" | tail -n 600
+      - name: Print failing test details
+        if: failure()
+        run: |
+          xcrun xcresulttool get test-results tests --path UITests.xcresult --format json > tests.json || true
+          python3 - <<'PY'
+          import json
+          try:
+              data = json.load(open("tests.json"))
+          except Exception as e:
+              print("no test results:", e); raise SystemExit
+          def walk(node, path=""):
+              name = node.get("name", "")
+              if node.get("nodeType") == "Failure Message":
+                  print(f"FAIL {path}: {name}")
+              for child in node.get("children", []):
+                  walk(child, f"{path}/{name}" if name else path)
+          for n in data.get("testNodes", []):
+              walk(n)
+          PY
       - name: Export screenshots
         if: always()
         run: |
