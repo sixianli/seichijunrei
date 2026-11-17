@@ -249,13 +249,17 @@ private struct MediaFilterBar: View {
 
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
-            HStack(spacing: 8) {
-                chip(title: L("map.all"), symbol: "square.grid.2x2", value: nil)
-                ForEach(MediaType.allCases, id: \.self) { type in
-                    chip(title: type.label, symbol: type.symbolName, value: type)
+            GlassGroup(spacing: 8) {
+                HStack(spacing: 8) {
+                    chip(title: L("map.all"), symbol: "square.grid.2x2", value: nil)
+                    ForEach(MediaType.allCases, id: \.self) { type in
+                        chip(title: type.label, symbol: type.symbolName, value: type)
+                    }
                 }
+                .padding(.vertical, 2)
             }
         }
+        .scrollClipDisabled()
     }
 
     private func chip(title: String, symbol: String, value: MediaType?) -> some View {
@@ -265,12 +269,14 @@ private struct MediaFilterBar: View {
         } label: {
             Label(title, systemImage: symbol)
                 .font(.footnote.weight(.semibold))
-                .padding(.horizontal, 12).padding(.vertical, 7)
-                .background(isOn ? AnyShapeStyle(Color.accentColor) : AnyShapeStyle(Material.ultraThinMaterial),
-                            in: Capsule())
+                .padding(.horizontal, 14)
+                .frame(minHeight: 44)                       // HIG：触控区域 ≥ 44pt
                 .foregroundStyle(isOn ? Color.white : Color.primary)
+                .glassSurface(Capsule(), tint: isOn ? .accentColor : nil, interactive: true)
+                .contentShape(Capsule())
         }
         .buttonStyle(.plain)
+        .accessibilityAddTraits(isOn ? .isSelected : [])
     }
 }
 
@@ -289,11 +295,12 @@ private struct FocusChip: View {
             Spacer()
             Button(action: onClear) {
                 Image(systemName: "xmark.circle.fill").font(.title3).foregroundStyle(.secondary)
+                    .minimumHitTarget()
             }
             .accessibilityLabel(L("map.showAll"))
         }
-        .padding(10)
-        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 14))
+        .padding(.horizontal, 14).padding(.vertical, 8)
+        .glassSurface(RoundedRectangle(cornerRadius: 22, style: .continuous))
         .accessibilityElement(children: .contain)
         .accessibilityIdentifier("focusChip")
     }
@@ -338,6 +345,7 @@ private struct SpotPin: View {
     let spot: Spot
     let isArrived: Bool
     @State private var pulse = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         ZStack {
@@ -348,7 +356,7 @@ private struct SpotPin: View {
                     .scaleEffect(pulse ? 1.4 : 0.8)
                     .opacity(pulse ? 0 : 1)
                     .animation(.easeOut(duration: 1.4).repeatForever(autoreverses: false), value: pulse)
-                    .onAppear { pulse = true }
+                    .onAppear { pulse = !reduceMotion }
             }
             VStack(spacing: 0) {
                 Image(systemName: spot.mediaType.symbolName)
@@ -398,8 +406,9 @@ private struct ArrivalBanner: View {
             }
             .foregroundStyle(.white)
             .padding()
-            .background(nearby.spot.tintColor.gradient, in: RoundedRectangle(cornerRadius: 16))
-            .shadow(radius: 6)
+            .glassSurface(RoundedRectangle(cornerRadius: 24, style: .continuous),
+                          tint: nearby.spot.tintColor, interactive: true)
+            .contentShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
         }
         .buttonStyle(.plain)
         .accessibilityIdentifier("arrivalBanner")
@@ -418,11 +427,12 @@ private struct PermissionBanner: View {
             } label: {
                 Label(L("map.needLocation"), systemImage: "location.slash")
                     .font(.footnote)
-                    .padding(10)
+                    .padding(12)
                     .frame(maxWidth: .infinity)
-                    .background(.orange.opacity(0.9), in: RoundedRectangle(cornerRadius: 12))
                     .foregroundStyle(.white)
+                    .glassSurface(RoundedRectangle(cornerRadius: 20, style: .continuous), tint: .orange, interactive: true)
             }
+            .buttonStyle(.plain)
         case .authorizedWhenInUse where !dismissedAlwaysPrompt:
             HStack(spacing: 6) {
                 Button { location.requestAlwaysAuthorization() } label: {
@@ -432,12 +442,13 @@ private struct PermissionBanner: View {
                 }
                 Button { dismissedAlwaysPrompt = true } label: {
                     Image(systemName: "xmark").font(.caption.bold()).foregroundStyle(.secondary)
+                        .minimumHitTarget()
                 }
                 .accessibilityLabel(L("map.dontShowAgain"))
             }
             .buttonStyle(.plain)
-            .padding(8)
-            .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
+            .padding(.leading, 14)
+            .glassSurface(RoundedRectangle(cornerRadius: 20, style: .continuous))
         default:
             EmptyView()
         }
@@ -450,10 +461,13 @@ private struct NearbyCarousel: View {
     let onSelect: (Spot) -> Void
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 6) {
+        VStack(alignment: .leading, spacing: 8) {
+            // 名场面卡片属于“内容”，保持实底；只有标题这一小块控制层用玻璃
             Text(title)
-                .font(.headline)
+                .font(.subheadline.weight(.semibold))
                 .lineLimit(1)
+                .padding(.horizontal, 14).padding(.vertical, 8)
+                .glassSurface(Capsule())
                 .padding(.horizontal)
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack(spacing: 12) {
@@ -469,10 +483,10 @@ private struct NearbyCarousel: View {
                 .scrollTargetLayout()
             }
             .scrollTargetBehavior(.viewAligned)
+            .scrollClipDisabled()
             .frame(height: 96)   // 横向滚动视图默认会占满纵向空间，必须固定高度
         }
-        .padding(.vertical, 10)
-        .background(.ultraThinMaterial)
+        .padding(.bottom, 8)
     }
 }
 
@@ -501,7 +515,7 @@ struct SpotCard: View {
         }
         .padding(8)
         .frame(width: 260)
-        .background(.background, in: RoundedRectangle(cornerRadius: 14))
+        .background(.background, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
         .shadow(color: .black.opacity(0.08), radius: 4, y: 2)
     }
 }

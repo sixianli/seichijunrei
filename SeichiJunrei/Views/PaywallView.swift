@@ -59,7 +59,7 @@ struct PaywallView: View {
             Label(text, systemImage: store.entitlement.isUnlimited ? "checkmark.seal.fill" : "gift")
                 .font(.subheadline.weight(.semibold))
                 .padding(.horizontal, 12).padding(.vertical, 6)
-                .background(.thinMaterial, in: Capsule())
+                .background(Color.secondary.opacity(0.12), in: Capsule())
                 .accessibilityIdentifier("entitlementStatus")
         }
     }
@@ -183,14 +183,15 @@ struct SceneLockedOverlay: View {
             Text(L("locked.body")).font(.callout).multilineTextAlignment(.center).opacity(0.85)
             Button(action: onShowPaywall) {
                 Text(L("locked.cta")).font(.headline)
-                    .padding(.horizontal, 24).padding(.vertical, 12)
-                    .background(tint, in: Capsule())
+                    .padding(.horizontal, 12).padding(.vertical, 4)
             }
+            .glassButton(prominent: true, tint: tint)
+            .controlSize(.large)
             .accessibilityIdentifier("showPaywall")
         }
         .foregroundStyle(.white)
         .padding(24)
-        .background(Material.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 20))
+        .glassSurface(RoundedRectangle(cornerRadius: 32, style: .continuous))
         .padding(32)
         .accessibilityElement(children: .contain)
         .accessibilityIdentifier("sceneLocked")

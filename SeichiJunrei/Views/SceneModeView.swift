@@ -69,6 +69,7 @@ struct SceneModeView: View {
             }
         }
         .ignoresSafeArea()
+        .environment(\.colorScheme, .dark)   // 相机取景界面统一使用深色外观
         .statusBarHidden()
         .onAppear(perform: start)
         .onDisappear(perform: stop)
@@ -151,9 +152,10 @@ struct SceneModeView: View {
             HStack(alignment: .top) {
                 Button { dismiss() } label: {
                     Image(systemName: "xmark").font(.headline)
-                        .frame(width: 40, height: 40)
-                        .background(.ultraThinMaterial, in: Circle())
+                        .frame(width: 44, height: 44)        // HIG：触控区域 ≥ 44pt
+                        .glassSurface(Circle(), interactive: true)
                 }
+                .buttonStyle(.plain)
                 .accessibilityLabel(L("common.close"))
                 .accessibilityIdentifier("closeScene")
                 Spacer()
@@ -161,43 +163,56 @@ struct SceneModeView: View {
                     Text(spot.work).font(.caption).opacity(0.8)
                     Text(spot.sceneTitle).font(.headline)
                 }
-                .padding(10)
-                .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
+                .padding(.horizontal, 14).padding(.vertical, 10)
+                .glassSurface(RoundedRectangle(cornerRadius: 22, style: .continuous))
             }
             .padding(.top, 56)
             .padding(.horizontal)
 
             Spacer()
 
-            HStack(spacing: 16) {
-                Button { showStory = true } label: {
-                    Label(L("scene.story"), systemImage: "book").padding(12)
-                        .background(.ultraThinMaterial, in: Capsule())
-                }
-                if arrived {
-                    Button { camera.capturePhoto() } label: {
-                        Image(systemName: "camera.fill").font(.title2)
-                            .frame(width: 64, height: 64)
-                            .background(.white.opacity(0.9), in: Circle())
-                            .foregroundStyle(.black)
+            // 相机类界面：底部控件浮在取景画面上，用同一个玻璃容器分组
+            GlassGroup(spacing: 16) {
+                HStack(spacing: 16) {
+                    Button { showStory = true } label: {
+                        Label(L("scene.story"), systemImage: "book")
+                            .padding(.horizontal, 16).frame(minHeight: 44)
+                            .glassSurface(Capsule(), interactive: true)
                     }
+                    .buttonStyle(.plain)
+                    if arrived {
+                        // 快门沿用相机 App 的白色圆形，保持用户熟悉的心智模型
+                        Button { camera.capturePhoto() } label: {
+                            Image(systemName: "camera.fill").font(.title2)
+                                .frame(width: 68, height: 68)
+                                .background(.white, in: Circle())
+                                .foregroundStyle(.black)
+                                .padding(4)
+                                .overlay(Circle().stroke(.white.opacity(0.8), lineWidth: 2))
+                        }
+                        .buttonStyle(.plain)
+                        .accessibilityLabel(L("celebrate.photo"))
+                    }
+                    #if DEBUG
+                    Button {
+                        copyCalibrationSnippet()
+                    } label: {
+                        Label(L("scene.recordSpot"), systemImage: "scope")
+                            .padding(.horizontal, 16).frame(minHeight: 44)
+                            .glassSurface(Capsule(), interactive: true)
+                    }
+                    .buttonStyle(.plain)
+                    #endif
                 }
-                #if DEBUG
-                Button {
-                    copyCalibrationSnippet()
-                } label: {
-                    Label(L("scene.recordSpot"), systemImage: "scope").padding(12)
-                        .background(.ultraThinMaterial, in: Capsule())
-                }
-                #endif
             }
             .padding(.bottom, 36)
         }
         .foregroundStyle(.white)
         .overlay(alignment: .top) {
             if let msg = camera.statusMessage {
-                Text(msg).font(.callout.bold()).padding(10)
-                    .background(.ultraThinMaterial, in: Capsule())
+                Text(msg).font(.callout.bold())
+                    .padding(.horizontal, 16).padding(.vertical, 10)
+                    .glassSurface(Capsule())
                     .padding(.top, 110)
                     .task(id: msg) {
                         try? await Task.sleep(for: .seconds(2))
@@ -361,6 +376,7 @@ private struct EdgeTurnArrow: View {
     let turnRight: Bool
     let tint: Color
     @State private var nudge = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         Image(systemName: turnRight ? "chevron.right.2" : "chevron.left.2")
@@ -369,7 +385,7 @@ private struct EdgeTurnArrow: View {
             .shadow(color: tint, radius: 10)
             .offset(x: nudge ? (turnRight ? 10 : -10) : 0)
             .animation(.easeInOut(duration: 0.6).repeatForever(), value: nudge)
-            .onAppear { nudge = true }
+            .onAppear { nudge = !reduceMotion }
     }
 }
 
@@ -411,8 +427,8 @@ private struct GuidanceHUD: View {
             }
         }
         .foregroundStyle(.white)
-        .padding(.horizontal, 20).padding(.vertical, 14)
-        .background(Material.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 18))
+        .padding(.horizontal, 22).padding(.vertical, 16)
+        .glassSurface(RoundedRectangle(cornerRadius: 28, style: .continuous))
         .animation(.default, value: guidance.turn)
     }
 }

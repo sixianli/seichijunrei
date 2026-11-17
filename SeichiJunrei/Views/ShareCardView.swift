@@ -216,11 +216,10 @@ struct ShareComposerView: View {
                         } label: {
                             Label(L("share.share"), systemImage: "square.and.arrow.up")
                                 .font(.headline)
-                                .frame(maxWidth: .infinity)
-                                .padding(.vertical, 12)
-                                .background(spot.tintColor, in: RoundedRectangle(cornerRadius: 14))
-                                .foregroundStyle(.white)
+                                .frame(maxWidth: .infinity, minHeight: 34)
                         }
+                        .glassButton(prominent: true, tint: spot.tintColor)
+                        .controlSize(.large)
                         .accessibilityIdentifier("shareButton")
                         Button {
                             if let image = renderCard() {
@@ -230,9 +229,10 @@ struct ShareComposerView: View {
                         } label: {
                             Image(systemName: "square.and.arrow.down")
                                 .font(.headline)
-                                .padding(12)
-                                .background(.quaternary, in: RoundedRectangle(cornerRadius: 14))
+                                .frame(minWidth: 34, minHeight: 34)
                         }
+                        .glassButton()
+                        .controlSize(.large)
                         .accessibilityLabel(L("share.save"))
                         .accessibilityIdentifier("saveCard")
                     }

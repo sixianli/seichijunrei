@@ -64,23 +64,22 @@ struct SpotDetailView: View {
                         Button { showShare = true } label: {
                             Label(L("share.share"), systemImage: "square.and.arrow.up")
                         }
-                        .buttonStyle(.borderedProminent)
-                        .tint(spot.tintColor)
+                        .glassButton(prominent: true, tint: spot.tintColor)
                         .accessibilityIdentifier("detailShare")
                     }
                     .padding(12)
-                    .background(spot.tintColor.opacity(0.1), in: RoundedRectangle(cornerRadius: 12))
+                    .background(spot.tintColor.opacity(0.1), in: RoundedRectangle(cornerRadius: 20, style: .continuous))
                 }
 
                 Button(action: onEnterScene) {
                     Label(arrived ? L("detail.enterScene") : L("detail.startGuide"),
                           systemImage: arrived ? "camera.viewfinder" : "location.north.circle")
                         .font(.headline)
-                        .frame(maxWidth: .infinity)
-                        .padding()
-                        .background(spot.tintColor.gradient, in: RoundedRectangle(cornerRadius: 14))
-                        .foregroundStyle(.white)
+                        .frame(maxWidth: .infinity, minHeight: 34)
                 }
+                // 页面的主要操作：带主题色的玻璃按钮
+                .glassButton(prominent: true, tint: spot.tintColor)
+                .controlSize(.large)
                 .accessibilityIdentifier("enterScene")
 
                 Section {
@@ -105,7 +104,7 @@ struct SpotDetailView: View {
                     Label(L("detail.openMaps"), systemImage: "figure.walk")
                         .frame(maxWidth: .infinity)
                 }
-                .buttonStyle(.bordered)
+                .glassButton()
 
                 if !spot.verified {
                     Label(L("detail.unverified"), systemImage: "info.circle")
@@ -152,7 +151,7 @@ private extension SpotDetailView {
                 }
             }
             .font(.footnote.weight(.semibold))
-            .buttonStyle(.bordered)
+            .glassButton()
 
             Text(imageMessage ?? L("detail.imageHint"))
                 .font(.caption2)

@@ -21,6 +21,17 @@
 
 后台定位授权为“始终允许”时，App 会对最近的 20 个圣地做地理围栏监控，靠近时推送通知。
 
+## 设计：Liquid Glass
+
+界面遵循 iOS 26 引入、iOS 27 继续改进的 **Liquid Glass** 设计语言和 Apple Human Interface Guidelines：
+
+- **玻璃只用于控制层**：地图上的类型筛选、聚焦提示、到达横幅，名场面模式里浮在相机画面上的按钮、标题和转身指引 HUD。名场面卡片、列表、正文、分享卡等**内容保持实底**。
+- 相邻的玻璃元素放进同一个 `GlassEffectContainer`，避免玻璃叠玻璃；可点击的玻璃控件带 `interactive` 按压反馈。
+- 主要操作（进入名场面、拍照留念、分享）用带主题色的 `.glassProminent`，次要操作用 `.glass`。
+- 导航栏、工具栏、搜索框、sheet、分段控件等系统控件用新 SDK 编译后自动呈现 Liquid Glass。
+- 辅助功能：触控区域 ≥ 44pt；开启「减弱动态效果」时关闭彩纸、箭头晃动、脉冲动画；降低透明度 / 增强对比度由系统玻璃自动适配；标题使用动态字体。
+- 兼容性：部署目标仍为 iOS 17。`Views/Glass.swift` 在 iOS 26+ 使用 `glassEffect` / `.glass` 按钮样式，在旧系统自动退回 Material 和标准按钮样式。需要用 **Xcode 26 或更新版本**编译。
+
 ## 巡礼分享卡
 
 对准名场面的那一刻会自动记为「巡礼达成」（日期、朝向、位置都只保存在本机）。在名场面模式里点 **拍照留念**，或在详情页点 **分享**，就会生成一张竖版分享卡（1080×1350）：
@@ -69,7 +80,7 @@
 
 ## 运行
 
-需要 macOS + Xcode 16 以上，以及 [XcodeGen](https://github.com/yonaskolb/XcodeGen)：
+需要 macOS + Xcode 26 以上，以及 [XcodeGen](https://github.com/yonaskolb/XcodeGen)：
 
 ```bash
 brew install xcodegen

@@ -9,11 +9,14 @@ struct CelebrationView: View {
     let onClose: () -> Void
 
     @State private var appeared = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         ZStack {
-            ConfettiView(colors: [spot.tintColor, .white, .yellow, .pink])
-                .allowsHitTesting(false)
+            if !reduceMotion {   // 尊重“减弱动态效果”
+                ConfettiView(colors: [spot.tintColor, .white, .yellow, .pink])
+                    .allowsHitTesting(false)
+            }
 
             // 电影宽银幕：上下黑边，文字和按钮放在下方黑边里，中间留给名场面画面
             VStack(spacing: 0) {
@@ -21,7 +24,7 @@ struct CelebrationView: View {
                 Spacer(minLength: 0)
                 VStack(spacing: 12) {
                     Text(L("celebrate.title"))
-                        .font(.system(size: 28, weight: .heavy, design: .rounded))
+                        .font(.system(.title, design: .rounded, weight: .heavy))   // 支持动态字体
                         .accessibilityIdentifier("celebrationTitle")
                     Text(L("celebrate.subtitle", spot.workTitle))
                         .font(.headline)
@@ -34,15 +37,17 @@ struct CelebrationView: View {
                     HStack(spacing: 10) {
                         Button(action: onCapture) {
                             Label(L("celebrate.photo"), systemImage: "camera.fill")
-                                .padding(.horizontal, 16).padding(.vertical, 12)
-                                .background(spot.tintColor, in: Capsule())
+                                .padding(.horizontal, 4)
                         }
+                        .glassButton(prominent: true, tint: spot.tintColor)
+                        .controlSize(.large)
                         .accessibilityIdentifier("celebratePhoto")
                         Button(action: onShare) {
                             Label(L("share.share"), systemImage: "square.and.arrow.up")
-                                .padding(.horizontal, 16).padding(.vertical, 12)
-                                .background(Color.white.opacity(0.18), in: Capsule())
+                                .padding(.horizontal, 4)
                         }
+                        .glassButton()
+                        .controlSize(.large)
                         .accessibilityIdentifier("celebrateShare")
                     }
                     .lineLimit(1)
@@ -51,6 +56,7 @@ struct CelebrationView: View {
                         Text(L("celebrate.continue"))
                             .font(.subheadline)
                             .opacity(0.8)
+                            .minimumHitTarget()
                     }
                     .font(.headline)
                     .padding(.top, 6)
