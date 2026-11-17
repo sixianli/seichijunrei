@@ -285,19 +285,37 @@ struct ShareComposerView: View {
 }
 
 /// 让系统分享面板顶部显示分享卡缩略图和标题（而不是只显示文字）
+/// 分享时把卡片写成 PNG 文件：系统分享面板会稳定显示缩略图，各家 App 也都能直接接收图片文件
 final class ShareImageItem: NSObject, UIActivityItemSource {
     let image: UIImage
     let title: String
-    init(image: UIImage, title: String) { self.image = image; self.title = title }
+    private let fileURL: URL?
+
+    init(image: UIImage, title: String) {
+        self.image = image
+        self.title = title
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent("SeichiJunrei-Pilgrimage.png")
+        if let data = image.pngData(), (try? data.write(to: url, options: .atomic)) != nil {
+            fileURL = url
+        } else {
+            fileURL = nil
+        }
+    }
 
     func activityViewControllerPlaceholderItem(_ controller: UIActivityViewController) -> Any { image }
+
     func activityViewController(_ controller: UIActivityViewController,
-                                itemForActivityType activityType: UIActivity.ActivityType?) -> Any? { image }
+                                itemForActivityType activityType: UIActivity.ActivityType?) -> Any? {
+        fileURL ?? image
+    }
+
     func activityViewControllerLinkMetadata(_ controller: UIActivityViewController) -> LPLinkMetadata? {
         let metadata = LPLinkMetadata()
         metadata.title = title
-        metadata.imageProvider = NSItemProvider(object: image)
-        metadata.iconProvider = NSItemProvider(object: image)
+        if let fileURL { metadata.originalURL = fileURL; metadata.url = fileURL }
+        let provider = NSItemProvider(object: image)
+        metadata.imageProvider = provider
+        metadata.iconProvider = provider
         return metadata
     }
 }
