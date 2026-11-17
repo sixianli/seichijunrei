@@ -15,8 +15,10 @@ struct SceneModeView: View {
     @Environment(StoreService.self) private var store
     @Environment(PilgrimageStore.self) private var pilgrimage
     @State private var showShare = false
+    @State private var showCalibration = false
     @State private var showPaywall = false
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.colorScheme) private var systemColorScheme
 
     @State private var orientation = OrientationService()
     @State private var camera = CameraController()
@@ -83,6 +85,10 @@ struct SceneModeView: View {
         }
         .sheet(isPresented: $showPaywall) { PaywallView() }
         .sheet(isPresented: $showShare) { ShareComposerView(spot: spot) }
+        .sheet(isPresented: $showCalibration) {
+            // 校准页使用浅色/系统外观，而不是相机界面的深色
+            CalibrationView(spot: spot).environment(\.colorScheme, systemColorScheme)
+        }
         .sheet(isPresented: $showStory) {
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
@@ -193,16 +199,16 @@ struct SceneModeView: View {
                         .buttonStyle(.plain)
                         .accessibilityLabel(L("celebrate.photo"))
                     }
-                    #if DEBUG
+                    // 用户在现场校准机位（数据提交到 CloudKit）
                     Button {
-                        copyCalibrationSnippet()
+                        showCalibration = true
                     } label: {
-                        Label(L("scene.recordSpot"), systemImage: "scope")
+                        Label(L("calib.sceneButton"), systemImage: "scope")
                             .padding(.horizontal, 16).frame(minHeight: 44)
                             .glassSurface(Capsule(), interactive: true)
                     }
                     .buttonStyle(.plain)
-                    #endif
+                    .accessibilityIdentifier("sceneCalibrate")
                 }
             }
             .padding(.bottom, 36)
@@ -263,16 +269,6 @@ struct SceneModeView: View {
         }
     }
 
-    #if DEBUG
-    /// 在现场把“当前站位 + 朝向”复制为 JSON 片段，方便整理/校准圣地数据。
-    private func copyCalibrationSnippet() {
-        guard let loc = location.lastLocation, let h = orientation.heading else { return }
-        let snippet = String(format: "\"latitude\": %.6f,\n\"longitude\": %.6f,\n\"sceneHeading\": %.1f,\n\"scenePitch\": %.1f",
-                             loc.coordinate.latitude, loc.coordinate.longitude, h, orientation.pitch ?? 0)
-        UIPasteboard.general.string = snippet
-        haptics.success()
-    }
-    #endif
 }
 
 // MARK: - Subviews

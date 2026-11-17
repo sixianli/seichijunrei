@@ -20,6 +20,8 @@ final class SmokeUITests: XCTestCase {
         app.launchEnvironment["SEICHI_SIM_LAT"] = "35.68540"
         app.launchEnvironment["SEICHI_SIM_LON"] = "139.72265"
         app.launchEnvironment["SEICHI_ENTITLEMENT"] = entitlement
+        // 免费用户相关的测试需要打开收费开关，其余测试按默认（免费公测期）运行
+        app.launchEnvironment["SEICHI_PAYWALL"] = entitlement == "free" ? "1" : "0"
         app.launchEnvironment.merge(extraEnv) { _, new in new }
         if let freeUsed { app.launchEnvironment["SEICHI_FREE_USED"] = String(freeUsed) }
         if let heading { app.launchEnvironment["SEICHI_SIM_HEADING"] = String(heading) }
@@ -217,5 +219,28 @@ final class SmokeUITests: XCTestCase {
         app.buttons["shareButton"].tap()
         sleep(2)
         snapshot("17-share-sheet")
+    }
+
+    /// 用户在现场校准机位：名场面模式 → 校准 → 读数质量良好 → 填备注 → 提交成功
+    func testCalibrationSubmission() throws {
+        launch(heading: 270, pitch: 10, extraEnv: ["SEICHI_FAKE_SUBMIT": "1"])
+        enterSceneFromBanner()
+        // 已对准时会先出现庆祝画面，点“继续欣赏”回到取景界面
+        let keepLooking = app.buttons["继续欣赏"]
+        if keepLooking.waitForExistence(timeout: 3) { keepLooking.tap() }
+        let calibrate = app.buttons["sceneCalibrate"]
+        XCTAssertTrue(calibrate.waitForExistence(timeout: 8), "名场面模式应有校准入口")
+        calibrate.tap()
+        XCTAssertTrue(app.staticTexts["数据质量良好，可以提交"].waitForExistence(timeout: 8), "模拟器注入的读数应判定为质量良好")
+        let note = app.textFields["calibrationNote"].exists ? app.textFields["calibrationNote"] : app.textViews["calibrationNote"]
+        if note.exists {
+            note.tap()
+            note.typeText("top step")
+        }
+        snapshot("18-calibration")
+        app.buttons["submitCalibration"].tap()
+        XCTAssertTrue(app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "感谢")).firstMatch.waitForExistence(timeout: 8),
+                      "提交后应显示感谢")
+        snapshot("19-calibration-thanks")
     }
 }
