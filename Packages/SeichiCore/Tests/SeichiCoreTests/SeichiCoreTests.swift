@@ -123,43 +123,104 @@ final class CatalogTests: XCTestCase {
         }
     }
 
-    /// 校验 App 内置的圣地数据可以正确解码。
-    func testBundledSpotsJSONIsValid() throws {
+    /// 新版 catalog 格式：作品信息合并进每个名场面，各语言文案进入 translations。
+    func testDecodeCatalogFormat() throws {
+        let json = """
+        {"works":[{"id":"totoro","title":"となりのトトロ","mediaType":"animeFilm","year":1988,
+                   "creator":"宮崎駿","tint":"#3E8E5A","aliases":["My Neighbor Totoro"],
+                   "text":{"zh-Hans":{"title":"龙猫","creator":"宫崎骏","synopsis":"简介"},
+                           "ja":{"title":"","synopsis":"あらすじ"},
+                           "en":{"title":"My Neighbor Totoro","creator":"Hayao Miyazaki","synopsis":"Synopsis"}}}],
+         "spots":[{"id":"totoro-a","workID":"totoro","latitude":35.78,"longitude":139.42,"sceneHeading":-90,
+                   "arrivalRadius":60,"spoiler":true,
+                   "photo":{"url":"https://upload.wikimedia.org/x.jpg","author":"A","license":"CC BY-SA 4.0"},
+                   "text":{"zh-Hans":{"placeName":"地点","sceneTitle":"场景","episode":"剧场版","highlight":"看点",
+                                      "story":"剧情","access":"交通","bestTime":"夏天","tips":"贴士"},
+                           "en":{"placeName":"Place","sceneTitle":"Scene","story":"Story","access":"Access"}}}]}
+        """
+        let spots = try SpotCatalog.decode(Data(json.utf8))
+        XCTAssertEqual(spots.count, 1)
+        let s = spots[0]
+        XCTAssertEqual(s.workID, "totoro")
+        XCTAssertEqual(s.work, "となりのトトロ")
+        XCTAssertEqual(s.workLocalized, "龙猫")
+        XCTAssertEqual(s.mediaType.category, .anime)
+        XCTAssertEqual(s.sceneHeading, 270)
+        XCTAssertEqual(s.trivia, "贴士")
+        XCTAssertEqual(s.highlight, "看点")
+        XCTAssertTrue(s.spoiler)
+        XCTAssertEqual(s.photo?.license, "CC BY-SA 4.0")
+        XCTAssertEqual(s.year, 1988)
+        XCTAssertEqual(s.creator, "宫崎骏")
+        let en = s.localized(to: "en")
+        XCTAssertEqual(en.workLocalized, "My Neighbor Totoro")
+        XCTAssertEqual(en.access, "Access")
+        XCTAssertEqual(en.bestTime, "夏天")                 // 缺翻译时沿用基础内容
+        XCTAssertEqual(en.creator, "Hayao Miyazaki")
+        XCTAssertNil(s.localized(to: "ja").workLocalized)
+        XCTAssertEqual(s.localized(to: "ja").synopsis, "あらすじ")
+        XCTAssertEqual(SpotSearch.search("龙猫", in: spots).first?.workID, "totoro")
+    }
+
+    func testCatalogRejectsUnknownWork() {
+        let json = """
+        {"works":[],"spots":[{"id":"a","workID":"nope","latitude":35,"longitude":139,"sceneHeading":0,
+          "text":{"zh-Hans":{"placeName":"p","sceneTitle":"s","story":"x"}}}]}
+        """
+        XCTAssertThrowsError(try SpotCatalog.decode(Data(json.utf8))) { error in
+            XCTAssertEqual(error as? SpotCatalog.CatalogError, .unknownWork(spot: "a", work: "nope"))
+        }
+    }
+
+    /// 校验 App 内置的圣地数据（tools/catalog.py 生成的 catalog.json）可以正确解码。
+    func testBundledCatalogIsValid() throws {
         let url = URL(fileURLWithPath: #filePath)
             .deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
             .deletingLastPathComponent().deletingLastPathComponent()
-            .appendingPathComponent("SeichiJunrei/Resources/spots.json")
+            .appendingPathComponent("SeichiJunrei/Resources/catalog.json")
         let spots = try SpotCatalog.decode(Data(contentsOf: url))
-        XCTAssertGreaterThanOrEqual(spots.count, 8)
+        XCTAssertGreaterThanOrEqual(spots.count, 60)
         for s in spots {
             XCTAssertTrue((0..<360).contains(s.sceneHeading), s.id)
             XCTAssertTrue((24...46).contains(s.coordinate.latitude), "\(s.id) 不在日本范围内")
             XCTAssertTrue((122...154).contains(s.coordinate.longitude), "\(s.id) 不在日本范围内")
             XCTAssertFalse(s.story.isEmpty, s.id)
+            XCTAssertNotNil(s.highlight, s.id)
+            XCTAssertNotNil(s.access, s.id)
+            XCTAssertNotNil(s.synopsis, s.id)
+            // 多语言：每个名场面都有 4 种语言
+            XCTAssertEqual(Set(s.translations.keys), ["zh-Hant", "ja", "en", "ko"], s.id)
+            for lang in ["zh-Hant", "ja", "en", "ko"] {
+                let l = s.localized(to: lang)
+                XCTAssertNotEqual(l.story, s.story, "\(s.id) 缺少 \(lang) 剧情")
+                XCTAssertNotEqual(l.access, s.access, "\(s.id) 缺少 \(lang) 交通")
+            }
         }
         // 编码 → 解码往返
         let round = try SpotCatalog.decode(JSONEncoder().encode(spots))
         XCTAssertEqual(round, spots)
+
+        // 老版本用户的巡礼记录以 id 为键，这些 id 必须保留
+        let ids = Set(spots.map(\.id))
+        for id in ["kiminonawa-suga-shrine", "slamdunk-kamakurakokomae", "tokyolovestory-baishinji",
+                   "hanataba-meidaimae", "yurucamp-motosu", "amachan-kosode"] {
+            XCTAssertTrue(ids.contains(id), "缺少旧数据 \(id)")
+        }
 
         // 用真实数据验证搜索
         XCTAssertEqual(SpotSearch.search("灌篮高手", in: spots).first?.work, "SLAM DUNK")
         XCTAssertEqual(SpotSearch.search("slam dunk", in: spots).first?.work, "SLAM DUNK")
         XCTAssertEqual(SpotSearch.search("东京爱情故事", in: spots).first?.mediaType, .drama)
         XCTAssertEqual(SpotSearch.search("花束", in: spots).first?.mediaType, .film)
-        XCTAssertEqual(Set(SpotSearch.search("新海诚", in: spots).map(\.work)),
-                       ["君の名は。", "天気の子", "秒速5センチメートル"])
-        XCTAssertEqual(SpotSearch.search("ゆーふぉ", in: spots).first?.spots.count, 2)
-        // 多语言：每个圣地都有 4 种语言的翻译，且可以用各语言的作品名搜索
-        for s in spots {
-            XCTAssertEqual(Set(s.translations.keys), ["zh-Hant", "ja", "en", "ko"], s.id)
-            XCTAssertNotEqual(s.localized(to: "en").story, s.story, "\(s.id) 缺少英文剧情")
-        }
+        XCTAssertEqual(SpotSearch.search("龙猫", in: spots).first?.work, "となりのトトロ")
         XCTAssertEqual(SpotSearch.search("너의 이름은", in: spots).first?.work, "君の名は。")
         XCTAssertEqual(SpotSearch.search("Laid-Back Camp", in: spots).first?.work, "ゆるキャン△")
         XCTAssertEqual(SpotSearch.search("灌籃高手", in: spots).first?.work, "SLAM DUNK")
-        XCTAssertNil(spots[0].localized(to: "ja").workLocalized)
-        for type in MediaType.allCases {
-            XCTAssertFalse(SpotSearch.search("", in: spots, mediaType: type).isEmpty, "缺少 \(type) 类型的示例")
+        XCTAssertTrue(Set(SpotSearch.search("新海诚", in: spots).map(\.work))
+            .isSuperset(of: ["君の名は。", "天気の子", "秒速5センチメートル"]))
+        for category in MediaCategory.allCases {
+            XCTAssertGreaterThanOrEqual(SpotSearch.search("", in: spots, category: category).count, 8,
+                                        "\(category) 类作品太少")
         }
     }
 }
@@ -304,8 +365,10 @@ final class SpotSearchTests: XCTestCase {
     func testMediaTypeFilterAndEmptyQuery() {
         XCTAssertEqual(SpotSearch.search("", in: catalog).map(\.work),
                        ["君の名は。", "ゆるキャン△", "東京ラブストーリー", "花束みたいな恋をした"])
-        XCTAssertEqual(SpotSearch.search("", in: catalog, mediaType: .drama).map(\.work), ["東京ラブストーリー"])
-        XCTAssertTrue(SpotSearch.search("你的名字", in: catalog, mediaType: .drama).isEmpty)
+        XCTAssertEqual(SpotSearch.search("", in: catalog, category: .drama).map(\.work), ["東京ラブストーリー"])
+        XCTAssertTrue(SpotSearch.search("你的名字", in: catalog, category: .drama).isEmpty)
+        // 动画电影归入“日漫”
+        XCTAssertEqual(SpotSearch.search("", in: catalog, category: .anime).map(\.work), ["君の名は。", "ゆるキャン△"])
         XCTAssertTrue(SpotSearch.search("不存在的作品", in: catalog).isEmpty)
     }
 
@@ -481,5 +544,77 @@ final class CalibrationTests: XCTestCase {
         XCTAssertEqual(s.note.count, 500)
         let data = try JSONEncoder().encode(s)
         XCTAssertEqual(try JSONDecoder().decode(CalibrationSubmission.self, from: data), s)
+    }
+}
+
+final class FramingGuidanceTests: XCTestCase {
+    let target = SubjectFraming(centerX: 0.5, footY: 0.85, height: 0.4)
+    let vfov = 60.0, hfov = 48.0
+
+    func guide(_ box: NormalizedRect?, yaw: Double? = 0, pitch: Double? = 0) -> FramingGuidance {
+        FramingGuidance.compute(target: target, subject: box, headingDelta: yaw, pitchDelta: pitch,
+                                verticalFOV: vfov, horizontalFOV: hfov)
+    }
+
+    func box(cx: Double = 0.5, foot: Double = 0.85, h: Double = 0.4) -> NormalizedRect {
+        NormalizedRect(x: cx - 0.08, y: foot - h, width: 0.16, height: h)
+    }
+
+    func testTurnFirstThenFindSubject() {
+        XCTAssertEqual(guide(box(), yaw: 40).step, .turn(degrees: 40))
+        XCTAssertEqual(guide(nil).step, .findSubject)
+    }
+
+    func testPerfectWhenEverythingMatches() {
+        let g = guide(box())
+        XCTAssertEqual(g.step, .perfect)
+        XCTAssertEqual(g.score, 1)
+        // 身高 1.65m 占 60° 视场的 40% → 约 3.6m
+        XCTAssertEqual(g.estimatedDistance ?? 0, 3.57, accuracy: 0.05)
+    }
+
+    func testSubjectTooBigMeansStepBack() {
+        // 人物占 80%：太近，需要退到两倍距离
+        guard case .moveBack(let m) = guide(box(foot: 0.95, h: 0.8)).step else { return XCTFail() }
+        XCTAssertEqual(m, 2, accuracy: 0.51)
+        guard case .moveCloser = guide(box(h: 0.2)).step else { return XCTFail() }
+    }
+
+    func testSidestepTowardsTheSubject() {
+        guard case .sidestep(let m) = guide(box(cx: 0.7)).step else { return XCTFail() }
+        XCTAssertGreaterThan(m, 0, "人物偏右 → 拍照的人往右走")
+        guard case .sidestep(let l) = guide(box(cx: 0.3)).step else { return XCTFail() }
+        XCTAssertLessThan(l, 0)
+    }
+
+    func testTiltThenHeight() {
+        XCTAssertEqual(guide(box(), pitch: 15).step, .tilt(degrees: 15))
+        XCTAssertEqual(guide(box(foot: 0.65)).step, .raise, "脚在画面中偏高 → 把相机举高")
+        XCTAssertEqual(guide(box(foot: 0.98)).step, .lower)
+    }
+
+    func testAutoZoomAbsorbsSmallSizeErrors() {
+        // 人物偏小 1.5 倍：在自动变焦范围内，不提示走动
+        let g = FramingGuidance.compute(target: target, subject: box(foot: 0.85, h: 0.27), headingDelta: 0,
+                                        pitchDelta: 0, verticalFOV: vfov, horizontalFOV: hfov,
+                                        zoomCorrectable: 0.8...2.0)
+        if case .moveCloser = g.step { XCTFail("自动变焦能处理，不应让拍照的人走动") }
+    }
+
+    func testAutoReframeMovesSubjectToTarget() throws {
+        let subject = NormalizedRect(x: 0.35, y: 0.4, width: 0.1, height: 0.3)
+        let crop = try XCTUnwrap(AutoReframe.cropRect(subject: subject, target: target))
+        XCTAssertEqual(crop.width, 0.75, accuracy: 1e-9)
+        // 裁切后人物中心与脚底应落在目标位置
+        XCTAssertEqual((subject.midX - crop.x) / crop.width, target.centerX, accuracy: 0.01)
+        XCTAssertEqual((subject.maxY - crop.y) / crop.height, target.footY, accuracy: 0.01)
+        XCTAssertNil(AutoReframe.cropRect(subject: box(), target: target))
+    }
+
+    func testFramingFromBoxRoundTrips() {
+        let f = SubjectFraming(box: NormalizedRect(x: 0.2, y: 0.3, width: 0.2, height: 0.5))
+        XCTAssertEqual(f.centerX, 0.3, accuracy: 1e-9)
+        XCTAssertEqual(f.footY, 0.8, accuracy: 1e-9)
+        XCTAssertEqual(f.box(aspect: 0.75).height, 0.5, accuracy: 1e-9)
     }
 }

@@ -1,0 +1,984 @@
+[
+  {
+    "id": "kiminonawa-suga-shrine",
+    "work": "君の名は。",
+    "workLocalized": "你的名字。",
+    "mediaType": "animeFilm",
+    "aliases": [
+      "Your Name",
+      "Kimi no Na wa",
+      "君の名は",
+      "你的名字",
+      "新海诚"
+    ],
+    "placeName": "須賀神社 男坂（东京·四谷）",
+    "sceneTitle": "阶梯上的重逢",
+    "episode": "剧场版 · 结尾",
+    "story": "彗星事件过去多年，已经长大成人的泷和三叶依旧在东京各自生活，心里总觉得在寻找“某个人”。某天两人在并行的电车上透过车窗看见了彼此，于是各自下车拼命奔跑寻找对方，最终在这段红色扶手的石阶上相遇。擦肩而过的一瞬，泷回过头开口——“我们是不是在哪里见过？”两人同时问出了那句话：你的名字是？",
+    "trivia": "石阶在住宅区内，请保持安静、不要在台阶中间长时间停留拍照，以免影响居民通行。",
+    "latitude": 35.6854,
+    "longitude": 139.72265,
+    "sceneHeading": 270,
+    "scenePitch": 10,
+    "arrivalRadius": 50,
+    "verified": false,
+    "tint": "#2E6BE6",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "你的名字。",
+        "placeName": "須賀神社 男坂（東京·四谷）",
+        "sceneTitle": "階梯上的重逢",
+        "episode": "劇場版 · 結尾",
+        "story": "彗星事件過去多年，已經長大成人的瀧和三葉依舊在東京各自生活，心裡總覺得在尋找「某個人」。某天兩人在並行的電車上透過車窗看見了彼此，於是各自下車拚命奔跑尋找對方，最終在這段紅色扶手的石階上相遇。擦肩而過的一瞬，瀧回過頭開口——「我們是不是在哪裡見過？」兩人同時問出了那句話：你的名字是？",
+        "trivia": "石階位於住宅區內，請保持安靜，不要在階梯中間長時間停留拍照，以免影響居民通行。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "須賀神社 男坂（東京・四谷）",
+        "sceneTitle": "階段での再会",
+        "episode": "劇場版・ラスト",
+        "story": "彗星の災害から何年も経ち、大人になった瀧と三葉は東京でそれぞれの日々を送りながら、いつも「誰か」を探しているような気持ちを抱えている。ある日、並走する電車の窓越しに互いの姿を見つけた二人は、それぞれ電車を降りて必死に相手を探して走り、この赤い手すりの石段でついに巡り会う。すれ違った瞬間、瀧が振り返って口を開く——「俺、君をどこかで……」。そして二人は同時に問いかける。君の、名前は。",
+        "trivia": "石段は住宅街の中にある。静かに過ごし、住民の通行の妨げにならないよう、階段の途中で長時間立ち止まっての撮影は控えよう。"
+      },
+      "en": {
+        "workLocalized": "Your Name.",
+        "placeName": "Suga Shrine “Otokozaka” stairs (Yotsuya, Tokyo)",
+        "sceneTitle": "Reunion on the Stairs",
+        "episode": "Film · Ending",
+        "story": "Years after the comet disaster, a grown-up Taki and Mitsuha are living separate lives in Tokyo, both haunted by the feeling that they are searching for “someone.” One day they glimpse each other through the windows of two trains running side by side. Each gets off and runs desperately to find the other, until they finally meet on these stone steps with the red handrail. As they pass, Taki turns back and speaks: “Haven't we met somewhere before?” And together they ask the same question: what's your name?",
+        "trivia": "The steps are in a residential neighborhood. Please keep quiet and don't linger in the middle of the stairs taking photos, so residents can pass freely."
+      },
+      "ko": {
+        "workLocalized": "너의 이름은.",
+        "placeName": "스가 신사 오토코자카 계단 (도쿄 요쓰야)",
+        "sceneTitle": "계단 위의 재회",
+        "episode": "극장판 · 결말",
+        "story": "혜성 사건으로부터 여러 해가 지나 어른이 된 타키와 미츠하는 도쿄에서 각자의 삶을 살아가면서도, 늘 ‘누군가’를 찾고 있다는 느낌을 지우지 못한다. 어느 날 나란히 달리는 전철의 창 너머로 서로를 발견한 두 사람은 각자 전철에서 내려 필사적으로 상대를 찾아 달리고, 마침내 빨간 난간이 있는 이 돌계단에서 마주친다. 스쳐 지나가는 순간, 타키가 뒤돌아 입을 연다. “우리, 어디서 만난 적 있지 않아?” 그리고 두 사람은 동시에 그 말을 묻는다. 너의 이름은?",
+        "trivia": "돌계단은 주택가 안에 있습니다. 조용히 해 주시고, 주민 통행에 방해되지 않도록 계단 한가운데에서 오래 머무르며 촬영하지 마세요."
+      }
+    }
+  },
+  {
+    "id": "kiminonawa-hida-furukawa",
+    "work": "君の名は。",
+    "workLocalized": "你的名字。",
+    "mediaType": "animeFilm",
+    "aliases": [
+      "Your Name",
+      "Kimi no Na wa",
+      "君の名は",
+      "你的名字",
+      "新海诚"
+    ],
+    "placeName": "JR 飛騨古川駅（岐阜·飞驒市）",
+    "sceneTitle": "寻找糸守町",
+    "episode": "剧场版 · 中段",
+    "story": "互换身体的现象突然中断，泷只凭着记忆中的风景画，和朋友司、前辈奥寺一起来到飞驒寻找那个小镇。在车站一带四处打听却毫无头绪，直到一家拉面店的老板认出了画中的风景——那正是三年前被彗星碎片摧毁的糸守町。",
+    "trivia": "车站跨线桥上可以俯瞰站台，是巡礼者最常拍照的位置。附近的飞驒市图书馆也是片中取景地（馆内拍照需先申请）。",
+    "latitude": 36.23673,
+    "longitude": 137.18961,
+    "sceneHeading": 180,
+    "scenePitch": -10,
+    "arrivalRadius": 60,
+    "verified": false,
+    "tint": "#2E6BE6",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "你的名字。",
+        "placeName": "JR 飛驒古川站（岐阜·飛驒市）",
+        "sceneTitle": "尋找糸守町",
+        "episode": "劇場版 · 中段",
+        "story": "互換身體的現象突然中斷，瀧只憑著記憶中的風景畫，和朋友司、前輩奧寺一起來到飛驒尋找那個小鎮。在車站一帶四處打聽卻毫無頭緒，直到一家拉麵店的老闆認出了畫中的風景——那正是三年前被彗星碎片摧毀的糸守町。",
+        "trivia": "車站天橋上可以俯瞰月台，是巡禮者最常拍照的位置。附近的飛驒市圖書館也是片中取景地（館內拍照需事先申請）。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "JR飛騨古川駅（岐阜県飛騨市）",
+        "sceneTitle": "糸守町を探して",
+        "episode": "劇場版・中盤",
+        "story": "入れ替わりが突然途絶え、瀧は記憶を頼りに描いた風景画だけを手に、友人の司、先輩の奥寺とともに飛騨へその町を探しに向かう。駅周辺で聞き込みをしても手がかりはつかめなかったが、あるラーメン屋の主人が絵の風景に気づく——それは3年前、彗星の破片によって消滅した糸守町だった。",
+        "trivia": "駅の跨線橋からはホームを見下ろせ、巡礼者の定番撮影スポットになっている。近くの飛騨市図書館も作中の舞台（館内撮影は事前申請が必要）。"
+      },
+      "en": {
+        "workLocalized": "Your Name.",
+        "placeName": "JR Hida-Furukawa Station (Hida, Gifu)",
+        "sceneTitle": "Searching for Itomori",
+        "episode": "Film · Middle",
+        "story": "When the body swaps suddenly stop, Taki heads to Hida with his friend Tsukasa and his senior Okudera to find that town, armed only with sketches of the scenery he remembers. They ask around the station area without any luck, until the owner of a ramen shop recognizes the landscape in the drawing: it is Itomori, the town destroyed by a fragment of the comet three years earlier.",
+        "trivia": "The footbridge over the tracks looks down on the platforms and is the most popular photo spot for pilgrims. The nearby Hida City Library also appears in the film (photography inside requires prior permission)."
+      },
+      "ko": {
+        "workLocalized": "너의 이름은.",
+        "placeName": "JR 히다후루카와역 (기후현 히다시)",
+        "sceneTitle": "이토모리 마을을 찾아서",
+        "episode": "극장판 · 중반",
+        "story": "몸이 바뀌는 현상이 갑자기 끊기자, 타키는 기억 속 풍경을 그린 그림만 들고 친구 츠카사, 선배 오쿠데라와 함께 히다로 그 마을을 찾아 나선다. 역 주변을 돌며 수소문해도 아무 단서가 없던 중, 한 라멘 가게 주인이 그림 속 풍경을 알아본다. 그곳은 바로 3년 전 혜성 파편에 의해 사라진 이토모리 마을이었다.",
+        "trivia": "역의 육교에서 승강장을 내려다볼 수 있어 순례자들이 가장 많이 사진을 찍는 자리입니다. 근처의 히다시 도서관도 작품 속 배경입니다(관내 촬영은 사전 신청 필요)."
+      }
+    }
+  },
+  {
+    "id": "slamdunk-kamakurakokomae",
+    "work": "SLAM DUNK",
+    "workLocalized": "灌篮高手",
+    "mediaType": "anime",
+    "aliases": [
+      "スラムダンク",
+      "スラダン",
+      "灌篮高手",
+      "灌籃高手",
+      "Slam Dunk"
+    ],
+    "placeName": "江之电 鎌倉高校前1号道口（神奈川·镰仓）",
+    "sceneTitle": "道口前挥手的晴子",
+    "episode": "TV 动画 · 片头",
+    "story": "TV 版片头里，江之电从湘南的海边驶过，道口另一侧的赤木晴子向樱木花道挥手——这一幕成了整个系列的标志画面。湘北篮球队热血青春的故事，就从这片海风吹拂的坡道开始。",
+    "trivia": "这里是海内外游客极多的热门地点，道口前就是车道。请勿在马路上或铁轨附近停留拍照，注意江之电列车与汽车。",
+    "latitude": 35.3066,
+    "longitude": 139.50209,
+    "sceneHeading": 170,
+    "scenePitch": -5,
+    "arrivalRadius": 30,
+    "verified": false,
+    "tint": "#E64A2E",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "灌籃高手",
+        "placeName": "江之電 鎌倉高校前1號平交道（神奈川·鎌倉）",
+        "sceneTitle": "平交道前揮手的晴子",
+        "episode": "TV 動畫 · 片頭",
+        "story": "TV 版片頭中，江之電從湘南海邊駛過，平交道另一側的赤木晴子向櫻木花道揮手——這一幕成了整個系列的代表畫面。湘北籃球隊熱血青春的故事，就從這片海風吹拂的坡道開始。",
+        "trivia": "這裡是國內外遊客眾多的熱門景點，平交道前就是車道。請勿在馬路上或鐵軌附近停留拍照，並注意江之電列車與汽車。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "江ノ電 鎌倉高校前1号踏切（神奈川県鎌倉市）",
+        "sceneTitle": "踏切の向こうで手を振る晴子",
+        "episode": "TVアニメ・オープニング",
+        "story": "TVアニメのオープニングでは、湘南の海沿いを江ノ電が走り抜け、踏切の向こうで赤木晴子が桜木花道に手を振る——このカットはシリーズを象徴する名場面となった。湘北バスケ部の熱い青春の物語は、潮風の吹くこの坂道から始まる。",
+        "trivia": "国内外から観光客が大勢訪れる人気スポットで、踏切の前はすぐ車道。車道上や線路の近くで立ち止まっての撮影はせず、江ノ電と車に十分注意しよう。"
+      },
+      "en": {
+        "workLocalized": "Slam Dunk",
+        "placeName": "Enoden Kamakura-Kokomae Railroad Crossing No. 1 (Kamakura, Kanagawa)",
+        "sceneTitle": "Haruko Waving at the Crossing",
+        "episode": "TV anime · Opening",
+        "story": "In the TV series' opening, an Enoden train runs along the Shonan coast while Haruko Akagi waves to Hanamichi Sakuragi from the other side of the crossing, a shot that became the defining image of the whole series. The fiery, youthful story of the Shohoku basketball team begins on this sea-breezed slope.",
+        "trivia": "This is an extremely popular spot with visitors from Japan and abroad, and the crossing sits right on a road. Don't stand in the street or near the tracks to take photos, and watch out for both Enoden trains and cars."
+      },
+      "ko": {
+        "workLocalized": "슬램덩크",
+        "placeName": "에노덴 가마쿠라코코마에 1호 건널목 (가나가와현 가마쿠라)",
+        "sceneTitle": "건널목 앞에서 손을 흔드는 소연",
+        "episode": "TV 애니메이션 · 오프닝",
+        "story": "TV판 오프닝에서 에노덴 열차가 쇼난 해변을 지나가고, 건널목 건너편의 채소연이 강백호에게 손을 흔든다. 이 장면은 시리즈 전체를 상징하는 명장면이 되었다. 북산고 농구부의 뜨거운 청춘 이야기는 바닷바람이 불어오는 이 언덕길에서 시작된다.",
+        "trivia": "국내외 관광객이 매우 많이 찾는 인기 장소이며, 건널목 바로 앞이 차도입니다. 도로 위나 선로 근처에 멈춰 서서 촬영하지 말고, 에노덴 열차와 자동차에 주의하세요."
+      }
+    }
+  },
+  {
+    "id": "yurucamp-motosu",
+    "work": "ゆるキャン△",
+    "workLocalized": "摇曳露营△",
+    "mediaType": "anime",
+    "aliases": [
+      "Yuru Camp",
+      "Laid-Back Camp",
+      "ゆるキャン",
+      "摇曳露营",
+      "搖曳露營"
+    ],
+    "placeName": "本栖湖 浩庵露营场（山梨·身延町）",
+    "sceneTitle": "夜空下的富士山",
+    "episode": "第1話",
+    "story": "冬季独自露营的志摩凛在本栖湖畔支起帐篷，而骑车来看富士山的各务原抚子却在厕所旁睡着了，醒来时天已全黑。凛分给她一碗咖喱杯面，两人一起望着月光下的富士山——一段“露营之友”的缘分就此开始。",
+    "trivia": "这里正是日本千元纸币背面富士山的取景角度（中之仓峠一带）。朝向数据由坐标计算指向富士山山顶。",
+    "latitude": 35.47273,
+    "longitude": 138.57501,
+    "sceneHeading": 132.0,
+    "scenePitch": 5,
+    "arrivalRadius": 80,
+    "verified": false,
+    "tint": "#3E8E5E",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "搖曳露營△",
+        "placeName": "本栖湖 浩庵露營場（山梨·身延町）",
+        "sceneTitle": "夜空下的富士山",
+        "episode": "第1集",
+        "story": "冬季獨自露營的志摩凜在本栖湖畔搭起帳篷，而騎腳踏車來看富士山的各務原撫子卻在廁所旁睡著了，醒來時天已全黑。凜分給她一碗咖哩杯麵，兩人一起望著月光下的富士山——一段「露營之友」的緣分就此展開。",
+        "trivia": "這裡正是日本千圓紙鈔背面富士山的取景角度（中之倉峠一帶）。朝向資料由座標計算，指向富士山山頂。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "本栖湖 浩庵キャンプ場（山梨県身延町）",
+        "sceneTitle": "夜空の下の富士山",
+        "episode": "第1話",
+        "story": "冬のソロキャンプに来た志摩リンは、本栖湖畔にテントを張る。一方、自転車で富士山を見に来た各務原なでしこはトイレの横で眠り込み、目覚めると辺りはすっかり暗くなっていた。リンが分けてあげたカレー味のカップ麺を手に、二人は月明かりに照らされた富士山を眺める——「キャンプ仲間」としての縁は、ここから始まる。",
+        "trivia": "千円札の裏面に描かれた富士山と同じアングル（中之倉峠付近）。向きのデータは座標から計算し、富士山頂を指している。"
+      },
+      "en": {
+        "workLocalized": "Laid-Back Camp",
+        "placeName": "Lake Motosu Koan Campground (Minobu, Yamanashi)",
+        "sceneTitle": "Mt. Fuji Under the Night Sky",
+        "episode": "Episode 1",
+        "story": "Rin Shima, on a solo winter camping trip, pitches her tent on the shore of Lake Motosu. Meanwhile Nadeshiko Kagamihara, who cycled out to see Mt. Fuji, falls asleep next to the restroom and wakes up to find it already pitch-dark. Rin shares a cup of curry noodles with her, and the two gaze at Mt. Fuji in the moonlight—the beginning of their bond as camping buddies.",
+        "trivia": "This is the exact view of Mt. Fuji printed on the back of the Japanese 1,000-yen note (around Nakanokura Pass). The heading is calculated from coordinates to point at Fuji's summit."
+      },
+      "ko": {
+        "workLocalized": "유루캠△",
+        "placeName": "모토스호 고안 캠핑장 (야마나시현 미노부정)",
+        "sceneTitle": "밤하늘 아래의 후지산",
+        "episode": "제1화",
+        "story": "겨울 솔로 캠핑에 나선 시마 린은 모토스호 호숫가에 텐트를 친다. 한편 자전거를 타고 후지산을 보러 온 카가미하라 나데시코는 화장실 옆에서 잠들어 버리고, 깨어났을 때는 이미 날이 완전히 저물어 있었다. 린이 카레맛 컵라면을 나눠 주고, 두 사람은 함께 달빛 아래의 후지산을 바라본다. ‘캠핑 친구’로서의 인연은 여기서 시작된다.",
+        "trivia": "이곳은 일본 1,000엔 지폐 뒷면에 그려진 후지산과 같은 구도입니다(나카노쿠라 고개 일대). 방향 데이터는 좌표로 계산해 후지산 정상을 가리킵니다."
+      }
+    }
+  },
+  {
+    "id": "eupho-daikichiyama",
+    "work": "響け！ユーフォニアム",
+    "workLocalized": "吹响吧！上低音号",
+    "mediaType": "anime",
+    "aliases": [
+      "Sound! Euphonium",
+      "Hibike Euphonium",
+      "ユーフォ",
+      "吹响吧上低音号",
+      "吹响上低音号"
+    ],
+    "placeName": "大吉山展望台（京都·宇治）",
+    "sceneTitle": "祭典之夜的山顶",
+    "episode": "第8話",
+    "story": "县祭之夜，丽奈约久美子避开人潮登上大吉山。在俯瞰宇治街景的展望台上，丽奈说出了“想要变得特别”的心愿，两人一起吹奏起乐器——这是两人关系真正拉近的一夜，也是系列中最受喜爱的场景之一。",
+    "trivia": "山路约 15～20 分钟，夜间较暗，请结伴并携带照明。",
+    "latitude": 34.89294,
+    "longitude": 135.81293,
+    "sceneHeading": 290,
+    "scenePitch": -5,
+    "arrivalRadius": 30,
+    "verified": false,
+    "tint": "#C9A227",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "吹響吧！上低音號",
+        "placeName": "大吉山展望台（京都·宇治）",
+        "sceneTitle": "祭典之夜的山頂",
+        "episode": "第8集",
+        "story": "縣祭之夜，麗奈約久美子避開人潮登上大吉山。在俯瞰宇治街景的展望台上，麗奈說出了「想要變得特別」的心願，兩人一起吹奏起樂器——這是兩人關係真正拉近的一夜，也是系列中最受喜愛的場景之一。",
+        "trivia": "山路約 15～20 分鐘，夜間光線昏暗，請結伴同行並攜帶照明。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "大吉山展望台（京都府宇治市）",
+        "sceneTitle": "祭りの夜の山頂",
+        "episode": "第8話",
+        "story": "あがた祭りの夜、麗奈は久美子を誘い、人混みを避けて大吉山に登る。宇治の街を見下ろす展望台で、麗奈は「特別になりたい」という思いを打ち明け、二人で楽器を奏でる——二人の距離が本当に縮まった一夜であり、シリーズ屈指の人気シーンのひとつ。",
+        "trivia": "山道は徒歩15～20分ほど。夜は暗いので、一人で行かず、明かりを持って登ろう。"
+      },
+      "en": {
+        "workLocalized": "Sound! Euphonium",
+        "placeName": "Daikichiyama Observation Deck (Uji, Kyoto)",
+        "sceneTitle": "The Summit on Festival Night",
+        "episode": "Episode 8",
+        "story": "On the night of the Agata Festival, Reina invites Kumiko to slip away from the crowds and climb Mt. Daikichi. At the observation deck overlooking Uji, Reina reveals her wish to “become special,” and the two play their instruments together. It is the night their bond truly deepens, and one of the most beloved scenes in the series.",
+        "trivia": "The trail takes about 15–20 minutes and is dark at night. Go with others and bring a light."
+      },
+      "ko": {
+        "workLocalized": "울려라! 유포니엄",
+        "placeName": "다이키치야마 전망대 (교토부 우지)",
+        "sceneTitle": "축제 날 밤의 산 정상",
+        "episode": "제8화",
+        "story": "아가타 축제가 열리는 밤, 레이나는 쿠미코와 함께 인파를 피해 다이키치야마에 오른다. 우지 시내가 내려다보이는 전망대에서 레이나는 ‘특별해지고 싶다’는 바람을 털어놓고, 두 사람은 함께 악기를 연주한다. 두 사람의 관계가 진정으로 가까워진 밤이자, 시리즈에서 가장 사랑받는 장면 중 하나다.",
+        "trivia": "산길은 약 15~20분 정도이며 밤에는 어둡습니다. 여럿이 함께 가고 조명을 챙기세요."
+      }
+    }
+  },
+  {
+    "id": "eupho-ujibashi",
+    "work": "響け！ユーフォニアム",
+    "workLocalized": "吹响吧！上低音号",
+    "mediaType": "anime",
+    "aliases": [
+      "Sound! Euphonium",
+      "Hibike Euphonium",
+      "ユーフォ",
+      "吹响吧上低音号",
+      "吹响上低音号"
+    ],
+    "placeName": "宇治桥（京都·宇治）",
+    "sceneTitle": "“好想变得更厉害！”",
+    "episode": "第12話",
+    "story": "因为技术不足而被要求在难关段落停吹，久美子在回家路上沿着宇治川奔跑，冲上宇治桥，带着眼泪一遍遍喊出“好想变得更厉害”。这份不甘，是她真正开始认真面对上低音号的转折点。",
+    "latitude": 34.89295,
+    "longitude": 135.80625,
+    "sceneHeading": 270,
+    "scenePitch": 0,
+    "arrivalRadius": 40,
+    "verified": false,
+    "tint": "#C9A227",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "吹響吧！上低音號",
+        "placeName": "宇治橋（京都·宇治）",
+        "sceneTitle": "「好想變得更厲害！」",
+        "episode": "第12集",
+        "story": "因為技術不足而被要求在難關段落停止吹奏，久美子在回家路上沿著宇治川奔跑，衝上宇治橋，帶著眼淚一遍遍喊出「好想變得更厲害」。這份不甘心，是她真正開始認真面對上低音號的轉捩點。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "宇治橋（京都府宇治市）",
+        "sceneTitle": "「上手くなりたい！」",
+        "episode": "第12話",
+        "story": "技術不足を理由に、難しいパートを吹かないよう告げられた久美子。帰り道、宇治川沿いを走り出した彼女は宇治橋を駆け上がり、涙ながらに「上手くなりたい」と何度も叫ぶ。この悔しさこそが、彼女が本気でユーフォニアムと向き合い始める転機となる。"
+      },
+      "en": {
+        "workLocalized": "Sound! Euphonium",
+        "placeName": "Uji Bridge (Uji, Kyoto)",
+        "sceneTitle": "“I want to get better!”",
+        "episode": "Episode 12",
+        "story": "Told to sit out a difficult passage because her skills aren't good enough, Kumiko runs along the Uji River on her way home, dashes onto Uji Bridge, and shouts through her tears, again and again, “I want to get better!” That frustration becomes the turning point at which she starts taking the euphonium truly seriously."
+      },
+      "ko": {
+        "workLocalized": "울려라! 유포니엄",
+        "placeName": "우지교 (교토부 우지)",
+        "sceneTitle": "“잘하고 싶어!”",
+        "episode": "제12화",
+        "story": "실력이 부족하다는 이유로 어려운 구간에서 연주하지 말라는 말을 들은 쿠미코는 집으로 가는 길에 우지강을 따라 달리다 우지교 위로 뛰어올라, 눈물을 흘리며 ‘잘하고 싶어’라고 몇 번이고 외친다. 이 분함은 그녀가 진심으로 유포니엄과 마주하기 시작하는 전환점이 된다."
+      }
+    }
+  },
+  {
+    "id": "lovelive-kanda-myojin",
+    "work": "ラブライブ！",
+    "workLocalized": "LoveLive!",
+    "mediaType": "anime",
+    "aliases": [
+      "Love Live!",
+      "LoveLive",
+      "ラブライブ",
+      "μ's"
+    ],
+    "placeName": "神田明神 男坂（东京·御茶之水）",
+    "sceneTitle": "晨练的男坂石阶",
+    "episode": "TV 第1期",
+    "story": "为了拯救面临废校的音乃木坂学院，穗乃果组建了学园偶像团体 μ's。成员们每天清晨在神田明神的男坂石阶上来回跑步锻炼体力，而在神社做巫女打工的希也常在这里出现。",
+    "latitude": 35.70145,
+    "longitude": 139.7684,
+    "sceneHeading": 270,
+    "scenePitch": 15,
+    "arrivalRadius": 30,
+    "verified": false,
+    "tint": "#E4007F",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "LoveLive!",
+        "placeName": "神田明神 男坂（東京·御茶之水）",
+        "sceneTitle": "晨練的男坂石階",
+        "episode": "TV 第1季",
+        "story": "為了拯救面臨廢校危機的音乃木坂學院，穗乃果組成了校園偶像團體 μ's。成員們每天清晨在神田明神的男坂石階上來回奔跑鍛鍊體力，而在神社擔任巫女打工的希也常在這裡出現。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "神田明神 男坂（東京・御茶ノ水）",
+        "sceneTitle": "朝練の男坂",
+        "episode": "TVアニメ 第1期",
+        "story": "廃校の危機にある音ノ木坂学院を救うため、穂乃果はスクールアイドルグループ「μ's」を結成する。メンバーは毎朝、神田明神の男坂の石段を往復して体力づくりに励み、神社で巫女のアルバイトをしている希もたびたびここに姿を見せる。"
+      },
+      "en": {
+        "workLocalized": "Love Live!",
+        "placeName": "Kanda Myojin Shrine “Otokozaka” stairs (Ochanomizu, Tokyo)",
+        "sceneTitle": "Morning Training on the Otokozaka Steps",
+        "episode": "TV Season 1",
+        "story": "To save Otonokizaka Academy from closing down, Honoka forms the school idol group μ's. Every morning the members run up and down the Otokozaka stone steps of Kanda Myojin to build their stamina, and Nozomi, who works part-time as a shrine maiden there, often shows up too."
+      },
+      "ko": {
+        "workLocalized": "러브라이브!",
+        "placeName": "간다묘진 오토코자카 계단 (도쿄 오차노미즈)",
+        "sceneTitle": "아침 훈련의 오토코자카 돌계단",
+        "episode": "TV 1기",
+        "story": "폐교 위기에 처한 오토노키자카 학원을 구하기 위해 호노카는 스쿨 아이돌 그룹 μ's를 결성한다. 멤버들은 매일 아침 간다묘진의 오토코자카 돌계단을 오르내리며 체력을 단련하고, 신사에서 무녀 아르바이트를 하는 노조미도 이곳에 자주 모습을 드러낸다."
+      }
+    }
+  },
+  {
+    "id": "byousoku-sangubashi",
+    "work": "秒速5センチメートル",
+    "workLocalized": "秒速5厘米",
+    "mediaType": "animeFilm",
+    "aliases": [
+      "5 Centimeters per Second",
+      "秒速5厘米",
+      "秒速五厘米",
+      "新海诚"
+    ],
+    "placeName": "小田急线 参宫桥站附近道口（东京·涩谷）",
+    "sceneTitle": "道口的擦肩而过",
+    "episode": "剧场版 · 第3话「秒速5厘米」",
+    "story": "多年后，成年的贵树在铁道道口与一位女性擦肩而过，两人都感觉到了什么。走过道口后他回头，对方似乎也正要回头——就在这时电车驶过，挡住了视线。列车过去后，那里已空无一人。贵树微微一笑，转身继续向前走去。",
+    "trivia": "请勿在道口内停留，警报响起时立刻退到安全区域。",
+    "latitude": 35.6797,
+    "longitude": 139.6937,
+    "sceneHeading": 0,
+    "scenePitch": 0,
+    "arrivalRadius": 60,
+    "verified": false,
+    "tint": "#F2A7C3",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "秒速5公分",
+        "placeName": "小田急線 參宮橋站附近平交道（東京·澀谷）",
+        "sceneTitle": "平交道上的擦肩而過",
+        "episode": "劇場版 · 第3話「秒速5公分」",
+        "story": "多年後，成年的貴樹在鐵道平交道與一位女性擦肩而過，兩人都感覺到了什麼。走過平交道後他回頭，對方似乎也正要回頭——就在這時電車駛過，擋住了視線。列車過去後，那裡已空無一人。貴樹微微一笑，轉身繼續向前走去。",
+        "trivia": "請勿在平交道內停留，警報響起時請立刻退到安全區域。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "小田急線 参宮橋駅近くの踏切（東京都渋谷区）",
+        "sceneTitle": "踏切でのすれ違い",
+        "episode": "劇場版・第3話「秒速5センチメートル」",
+        "story": "数年後、大人になった貴樹は踏切で一人の女性とすれ違い、互いに何かを感じる。渡りきって振り返ると、相手もまた振り返ろうとしているように見えた——その瞬間、電車が通過して視界を遮る。電車が過ぎ去ったあと、そこにはもう誰もいなかった。貴樹は小さく微笑み、再び前へと歩き出す。",
+        "trivia": "踏切内では立ち止まらず、警報が鳴ったらすぐに安全な場所へ下がること。"
+      },
+      "en": {
+        "workLocalized": "5 Centimeters per Second",
+        "placeName": "Odakyu Line crossing near Sangubashi Station (Shibuya, Tokyo)",
+        "sceneTitle": "Passing at the Railroad Crossing",
+        "episode": "Film · Episode 3 “5 Centimeters per Second”",
+        "story": "Years later, the adult Takaki passes a woman at a railroad crossing, and both of them sense something. Once across, he turns around, and she seems about to turn as well—just then a train rushes by and blocks the view. When it has passed, no one is there. Takaki smiles faintly, turns, and keeps walking forward.",
+        "trivia": "Never stop inside the crossing. When the warning bells sound, step back to a safe area immediately."
+      },
+      "ko": {
+        "workLocalized": "초속 5센티미터",
+        "placeName": "오다큐선 산구바시역 부근 건널목 (도쿄 시부야)",
+        "sceneTitle": "건널목에서의 엇갈림",
+        "episode": "극장판 · 제3화 「초속 5센티미터」",
+        "story": "여러 해가 지나 어른이 된 타카키는 철도 건널목에서 한 여성과 스쳐 지나가고, 두 사람 모두 무언가를 느낀다. 건널목을 건넌 뒤 그가 뒤돌아보자 상대도 막 뒤돌아보려는 듯하다. 바로 그때 전철이 지나가며 시야를 가린다. 열차가 지나간 뒤, 그곳에는 아무도 없다. 타카키는 살며시 미소 짓고는 다시 앞으로 걸어간다.",
+        "trivia": "건널목 안에서 멈춰 서지 말고, 경보가 울리면 즉시 안전한 곳으로 물러나세요."
+      }
+    }
+  },
+  {
+    "id": "tenkinoko-kisho-jinja",
+    "work": "天気の子",
+    "workLocalized": "天气之子",
+    "mediaType": "animeFilm",
+    "aliases": [
+      "Weathering with You",
+      "Tenki no Ko",
+      "天气之子",
+      "天氣之子",
+      "新海诚"
+    ],
+    "placeName": "高圆寺 冰川神社·气象神社（东京·杉并）",
+    "sceneTitle": "“晴女”的传说",
+    "episode": "剧场版",
+    "story": "为了写一篇神秘学报道，帆高和夏美来到日本唯一以“气象”为名的神社采访。神社的老人讲述了自古以来与天气相连的“天气巫女”的传说——能让天放晴的少女，背后却有着要付出的代价。帆高这才隐约察觉，阳菜的能力并不只是奇迹。",
+    "trivia": "神社内有挂满木牌的“下駄绘马”，记得礼貌参拜。",
+    "latitude": 35.70453,
+    "longitude": 139.65101,
+    "sceneHeading": 0,
+    "scenePitch": 0,
+    "arrivalRadius": 30,
+    "verified": false,
+    "tint": "#4FA3E0",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "天氣之子",
+        "placeName": "高圓寺 冰川神社·氣象神社（東京·杉並）",
+        "sceneTitle": "「晴女」的傳說",
+        "episode": "劇場版",
+        "story": "為了寫一篇神祕學報導，帆高和夏美來到日本唯一以「氣象」為名的神社採訪。神社的老人講述了自古以來與天氣相連的「天氣巫女」傳說——能讓天空放晴的少女，背後卻有著必須付出的代價。帆高這才隱約察覺，陽菜的能力並不只是奇蹟。",
+        "trivia": "神社內有掛滿木牌的「下駄繪馬」，記得禮貌參拜。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "高円寺氷川神社・気象神社（東京都杉並区）",
+        "sceneTitle": "「晴れ女」の伝説",
+        "episode": "劇場版",
+        "story": "オカルト記事の取材のため、帆高と夏美は日本で唯一「気象」の名を冠した神社を訪れる。神社の老人が語ったのは、古くから天気とつながってきた「天気の巫女」の伝説——空を晴らす少女には、払わなければならない代償があるという。帆高はそこで初めて、陽菜の力がただの奇跡ではないことをうっすらと感じ取る。",
+        "trivia": "境内には下駄の形をした絵馬がずらりと掛けられている。マナーを守って参拝しよう。"
+      },
+      "en": {
+        "workLocalized": "Weathering with You",
+        "placeName": "Koenji Hikawa Shrine & Kisho (Weather) Shrine (Suginami, Tokyo)",
+        "sceneTitle": "The Legend of the “Sunshine Girl”",
+        "episode": "Film",
+        "story": "Researching an occult article, Hodaka and Natsumi visit the only shrine in Japan named after the weather. An old man at the shrine tells them the legend of the “weather maiden,” linked to the sky since ancient times: a girl who can make the skies clear, but at a price. Only then does Hodaka begin to sense that Hina's power is more than just a miracle.",
+        "trivia": "The shrine is hung with rows of geta-shaped ema (wooden votive plaques). Remember to pay your respects politely."
+      },
+      "ko": {
+        "workLocalized": "날씨의 아이",
+        "placeName": "고엔지 히카와 신사·기상 신사 (도쿄 스기나미)",
+        "sceneTitle": "‘맑음 소녀’의 전설",
+        "episode": "극장판",
+        "story": "오컬트 기사를 쓰기 위해 호다카와 나츠미는 일본에서 유일하게 ‘기상’을 이름으로 내건 신사를 취재하러 간다. 신사의 노인은 예로부터 날씨와 이어져 온 ‘날씨 무녀’의 전설을 들려준다. 하늘을 맑게 할 수 있는 소녀에게는 치러야 할 대가가 있다는 것. 그제야 호다카는 히나의 능력이 단순한 기적이 아니라는 것을 어렴풋이 깨닫는다.",
+        "trivia": "경내에는 게타(나막신) 모양의 에마가 가득 걸려 있습니다. 예의를 갖춰 참배하세요."
+      }
+    }
+  },
+  {
+    "id": "koenokatachi-midorigoi",
+    "work": "聲の形",
+    "workLocalized": "声之形",
+    "mediaType": "animeFilm",
+    "aliases": [
+      "A Silent Voice",
+      "Koe no Katachi",
+      "声の形",
+      "声之形",
+      "聲之形"
+    ],
+    "placeName": "美登鲤桥（岐阜·大垣）",
+    "sceneTitle": "喂鲤鱼的小桥",
+    "episode": "剧场版",
+    "story": "高中生将也为了向小学时欺负过的听障少女硝子道歉，开始笨拙地重新接近她。两人常常在这座跨越水门川的小桥上见面，一起给河里的鲤鱼喂面包——用手语和沉默，一点点修补过去的伤痕。",
+    "trivia": "大垣是“水之都”，桥边的水门川步道适合慢慢散步。请勿随意投喂过量食物。",
+    "latitude": 35.35778,
+    "longitude": 136.61178,
+    "sceneHeading": 0,
+    "scenePitch": -15,
+    "arrivalRadius": 25,
+    "verified": false,
+    "tint": "#7FC8D6",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "聲之形",
+        "placeName": "美登鯉橋（岐阜·大垣）",
+        "sceneTitle": "餵鯉魚的小橋",
+        "episode": "劇場版",
+        "story": "高中生將也為了向小學時霸凌過的聽障少女硝子道歉，開始笨拙地重新接近她。兩人常常在這座橫跨水門川的小橋上見面，一起給河裡的鯉魚餵麵包——用手語和沉默，一點一點修補過去的傷痕。",
+        "trivia": "大垣是「水之都」，橋邊的水門川步道適合慢慢散步。請勿任意投餵過量食物。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "美登鯉橋（岐阜県大垣市）",
+        "sceneTitle": "鯉にエサをあげる小さな橋",
+        "episode": "劇場版",
+        "story": "高校生の将也は、小学生のころにいじめていた聴覚障害の少女・硝子に謝るため、不器用ながら再び彼女に近づいていく。二人は水門川に架かるこの小さな橋でたびたび会い、川の鯉にパンをあげる——手話と沈黙で、過去の傷を少しずつ繕っていく。",
+        "trivia": "大垣は「水の都」。橋のそばの水門川沿いの遊歩道は、のんびり散策するのにぴったり。むやみにエサを与えすぎないように。"
+      },
+      "en": {
+        "workLocalized": "A Silent Voice",
+        "placeName": "Midorigoi Bridge (Ogaki, Gifu)",
+        "sceneTitle": "The Little Bridge Where They Feed the Carp",
+        "episode": "Film",
+        "story": "High schooler Shoya wants to apologize to Shoko, the deaf girl he bullied in elementary school, and clumsily begins to reconnect with her. The two often meet on this small bridge over the Suimon River and feed bread to the carp below, slowly mending the wounds of the past through sign language and silence.",
+        "trivia": "Ogaki is known as the “City of Water,” and the Suimon River promenade beside the bridge is perfect for a leisurely stroll. Please don't overfeed the fish."
+      },
+      "ko": {
+        "workLocalized": "목소리의 형태",
+        "placeName": "미도리고이 다리 (기후현 오가키)",
+        "sceneTitle": "잉어에게 먹이를 주는 작은 다리",
+        "episode": "극장판",
+        "story": "고등학생 쇼야는 초등학생 시절 괴롭혔던 청각장애 소녀 쇼코에게 사과하기 위해 서툴게나마 다시 그녀에게 다가간다. 두 사람은 스이몬강을 가로지르는 이 작은 다리에서 자주 만나 강의 잉어에게 함께 빵을 준다. 수어와 침묵으로 과거의 상처를 조금씩 메워 가면서.",
+        "trivia": "오가키는 ‘물의 도시’로, 다리 옆 스이몬강 산책로는 천천히 걷기 좋습니다. 먹이를 함부로 많이 주지 마세요."
+      }
+    }
+  },
+  {
+    "id": "anohana-chichibubashi",
+    "work": "あの日見た花の名前を僕達はまだ知らない。",
+    "workLocalized": "我们仍未知道那天所看见的花的名字。",
+    "mediaType": "anime",
+    "aliases": [
+      "AnoHana",
+      "あの花",
+      "未闻花名",
+      "未聞花名",
+      "我们仍未知道那天所看见的花的名字"
+    ],
+    "placeName": "旧秩父桥（埼玉·秩父）",
+    "sceneTitle": "超和平 Busters 走过的桥",
+    "episode": "TV 动画",
+    "story": "童年玩伴“超和平 Busters”因为芽衣子的意外离去而疏远。多年后，只有仁太看得见的芽衣子突然出现，说有一个愿望还没实现。为了帮她完成愿望，昔日的伙伴们重新聚在一起——秩父的老桥与河川，见证了他们直面那个夏天的过程。",
+    "latitude": 36.01868,
+    "longitude": 139.08644,
+    "sceneHeading": 90,
+    "scenePitch": 0,
+    "arrivalRadius": 40,
+    "verified": false,
+    "tint": "#8CC152",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "我們仍未知道那天所看見的花的名字。",
+        "placeName": "舊秩父橋（埼玉·秩父）",
+        "sceneTitle": "超和平 Busters 走過的橋",
+        "episode": "TV 動畫",
+        "story": "兒時玩伴「超和平 Busters」因為芽衣子的意外離世而漸行漸遠。多年後，只有仁太看得見的芽衣子突然出現，說還有一個願望沒有實現。為了幫她完成心願，昔日的夥伴們再次聚在一起——秩父的老橋與河川，見證了他們直面那個夏天的過程。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "旧秩父橋（埼玉県秩父市）",
+        "sceneTitle": "超平和バスターズが渡った橋",
+        "episode": "TVアニメ",
+        "story": "幼なじみの「超平和バスターズ」は、めんまの突然の事故をきっかけに離ればなれになった。数年後、仁太にしか見えないめんまが突然現れ、まだ叶えていない願いがあると告げる。その願いを叶えるため、かつての仲間たちは再び集まる——秩父の古い橋と川は、彼らがあの夏と向き合う姿を見守ってきた。"
+      },
+      "en": {
+        "workLocalized": "Anohana: The Flower We Saw That Day",
+        "placeName": "Old Chichibu Bridge (Chichibu, Saitama)",
+        "sceneTitle": "The Bridge of the Super Peace Busters",
+        "episode": "TV anime",
+        "story": "The childhood friends known as the Super Peace Busters drifted apart after Menma's sudden, accidental death. Years later, Menma reappears out of nowhere, visible only to Jintan, saying she has a wish that has yet to come true. To help her fulfill it, the old friends come together once more, and Chichibu's old bridge and river bear witness as they face that summer at last."
+      },
+      "ko": {
+        "workLocalized": "그날 본 꽃의 이름을 우리는 아직 모른다.",
+        "placeName": "구 지치부교 (사이타마현 지치부)",
+        "sceneTitle": "초평화 버스터즈가 건넌 다리",
+        "episode": "TV 애니메이션",
+        "story": "어린 시절 친구들인 ‘초평화 버스터즈’는 멘마의 갑작스러운 사고 이후 뿔뿔이 흩어졌다. 몇 년 뒤, 진탄에게만 보이는 멘마가 갑자기 나타나 아직 이루지 못한 소원이 있다고 말한다. 그 소원을 이루어 주기 위해 옛 친구들은 다시 모이고, 지치부의 오래된 다리와 강은 그들이 그해 여름과 마주하는 과정을 지켜본다."
+      }
+    }
+  },
+  {
+    "id": "luckystar-washinomiya",
+    "work": "らき☆すた",
+    "workLocalized": "幸运星",
+    "mediaType": "anime",
+    "aliases": [
+      "Lucky Star",
+      "らきすた",
+      "幸运星",
+      "幸運☆星"
+    ],
+    "placeName": "鷲宮神社（埼玉·久喜）",
+    "sceneTitle": "柊家姐妹的神社",
+    "episode": "TV 动画",
+    "story": "柊镜和柊司这对双胞胎姐妹的家就是神社，过年时她们会穿上巫女服帮忙。片中“鹰宫神社”的原型就是这里——它也因此成为日本动画圣地巡礼文化最早出圈的地点之一，至今仍有大量粉丝前来挂痛绘马。",
+    "latitude": 36.09998,
+    "longitude": 139.65487,
+    "sceneHeading": 0,
+    "scenePitch": 5,
+    "arrivalRadius": 40,
+    "verified": false,
+    "tint": "#B48EE0",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "幸運☆星",
+        "placeName": "鷲宮神社（埼玉·久喜）",
+        "sceneTitle": "柊家姊妹的神社",
+        "episode": "TV 動畫",
+        "story": "柊鏡和柊司這對雙胞胎姊妹的家就是神社，過年時她們會換上巫女服幫忙。片中「鷹宮神社」的原型就是這裡——它也因此成為日本動畫聖地巡禮文化最早爆紅出圈的地點之一，至今仍有大量粉絲前來掛痛繪馬。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "鷲宮神社（埼玉県久喜市）",
+        "sceneTitle": "柊姉妹の神社",
+        "episode": "TVアニメ",
+        "story": "双子の姉妹・柊かがみと柊つかさの実家は神社で、正月には巫女装束を着て手伝いをする。作中の「鷹宮神社」のモデルがここ——そのため日本のアニメ聖地巡礼文化が広く世に知られた最初期の場所のひとつとなり、今も多くのファンが痛絵馬を奉納しに訪れる。"
+      },
+      "en": {
+        "workLocalized": "Lucky☆Star",
+        "placeName": "Washinomiya Shrine (Kuki, Saitama)",
+        "sceneTitle": "The Hiiragi Sisters' Shrine",
+        "episode": "TV anime",
+        "story": "Twin sisters Kagami and Tsukasa Hiiragi live at a shrine, and at New Year they put on shrine-maiden outfits to help out. The series' “Takanomiya Shrine” is modeled on this one, which made it one of the first places where Japan's anime pilgrimage culture broke into the mainstream. To this day, crowds of fans come to hang anime-illustrated ema plaques (itaema)."
+      },
+      "ko": {
+        "workLocalized": "러키☆스타",
+        "placeName": "와시노미야 신사 (사이타마현 구키)",
+        "sceneTitle": "히이라기 자매의 신사",
+        "episode": "TV 애니메이션",
+        "story": "쌍둥이 자매 히이라기 카가미와 히이라기 츠카사의 집은 신사로, 설날이면 무녀복을 입고 일을 돕는다. 작품 속 ‘타카노미야 신사’의 모델이 바로 이곳이다. 그 덕분에 일본 애니메이션 성지순례 문화가 대중에게 처음 알려진 장소 중 하나가 되었고, 지금도 많은 팬이 찾아와 이타에마(애니 그림 에마)를 건다."
+      }
+    }
+  },
+  {
+    "id": "keion-toyosato",
+    "work": "けいおん!",
+    "workLocalized": "轻音少女",
+    "mediaType": "anime",
+    "aliases": [
+      "K-On!",
+      "K-ON",
+      "けいおん",
+      "轻音少女",
+      "輕音部"
+    ],
+    "placeName": "丰乡小学校旧校舍群（滋贺·丰乡町）",
+    "sceneTitle": "樱丘高中的楼梯与音乐准备室",
+    "episode": "TV 动画",
+    "story": "唯、澪、律、䌷（以及后来的梓）在樱丘高中轻音部度过了喝茶吃点心、偶尔认真练习的放学时光。校舍楼梯扶手上的“兔子和乌龟”铜像、通往音乐准备室的那段楼梯，都可以在这座近代建筑里找到原型。",
+    "trivia": "旧校舍对外开放有固定时间，周末偶有粉丝活动；室内请遵守馆方拍照规定。",
+    "latitude": 35.20361,
+    "longitude": 136.23257,
+    "sceneHeading": 0,
+    "scenePitch": 5,
+    "arrivalRadius": 60,
+    "verified": false,
+    "tint": "#F4A0B5",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "K-ON！輕音部",
+        "placeName": "豐鄉小學校舊校舍群（滋賀·豐鄉町）",
+        "sceneTitle": "櫻丘高中的樓梯與音樂準備室",
+        "episode": "TV 動畫",
+        "story": "唯、澪、律、紬（以及後來的梓）在櫻丘高中輕音部度過了喝茶吃點心、偶爾認真練習的放學時光。校舍樓梯扶手上的「兔子與烏龜」銅像、通往音樂準備室的那段樓梯，都能在這座近代建築裡找到原型。",
+        "trivia": "舊校舍有固定的開放時間，週末偶有粉絲活動；室內請遵守館方的拍照規定。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "豊郷小学校旧校舎群（滋賀県豊郷町）",
+        "sceneTitle": "桜が丘高校の階段と音楽準備室",
+        "episode": "TVアニメ",
+        "story": "唯、澪、律、紬（そして後に梓）は、桜が丘高校軽音部でお茶とお菓子を楽しみ、ときどき真剣に練習する放課後を過ごす。階段の手すりにある「ウサギとカメ」の銅像や、音楽準備室へと続く階段など、作中の風景のモデルはこの近代建築の中で見つけられる。",
+        "trivia": "旧校舎の公開時間は決まっており、週末にはファンイベントが開かれることも。館内では施設の撮影ルールを守ろう。"
+      },
+      "en": {
+        "workLocalized": "K-On!",
+        "placeName": "Former Toyosato Elementary School Buildings (Toyosato, Shiga)",
+        "sceneTitle": "Sakuragaoka High's Staircase and Music Room",
+        "episode": "TV anime",
+        "story": "Yui, Mio, Ritsu, Tsumugi (and later Azusa) spend their after-school hours in the Sakuragaoka High light music club drinking tea, eating sweets, and now and then practicing in earnest. The “tortoise and hare” bronze figures on the staircase handrail and the stairs leading up to the music prep room can all be found in this early-modern building.",
+        "trivia": "The old school buildings are open to the public during set hours, and fan events are sometimes held on weekends. Please follow the facility's photography rules indoors."
+      },
+      "ko": {
+        "workLocalized": "케이온!",
+        "placeName": "도요사토 초등학교 구 교사군 (시가현 도요사토정)",
+        "sceneTitle": "사쿠라가오카 고등학교의 계단과 음악준비실",
+        "episode": "TV 애니메이션",
+        "story": "유이, 미오, 리츠, 츠무기(그리고 나중에 합류한 아즈사)는 사쿠라가오카 고등학교 경음부에서 차와 과자를 즐기며 가끔은 진지하게 연습하는 방과 후를 보낸다. 계단 난간 위의 ‘토끼와 거북이’ 동상과 음악준비실로 이어지는 계단 모두, 이 근대 건축물에서 그 모델을 찾을 수 있다.",
+        "trivia": "구 교사는 정해진 개방 시간이 있으며, 주말에는 팬 이벤트가 열리기도 합니다. 실내에서는 시설의 촬영 규정을 지켜 주세요."
+      }
+    }
+  },
+  {
+    "id": "haruhi-kitakou",
+    "work": "涼宮ハルヒの憂鬱",
+    "workLocalized": "凉宫春日的忧郁",
+    "mediaType": "anime",
+    "aliases": [
+      "The Melancholy of Haruhi Suzumiya",
+      "Haruhi",
+      "ハルヒ",
+      "凉宫春日的忧郁",
+      "涼宮春日的憂鬱"
+    ],
+    "placeName": "兵库县立西宫北高校前坡道（兵库·西宫）",
+    "sceneTitle": "通往北高的漫长坡道",
+    "episode": "TV 动画",
+    "story": "阿虚每天都要爬上这段又长又陡的坡道去上学，一边爬一边在心里吐槽。就在这所学校里，他遇见了宣称“对普通人没兴趣”的凉宫春日，被卷入了 SOS 团离奇又热闹的日常。",
+    "trivia": "这是一所正在使用中的高中，请勿进入校园，也不要拍摄学生。",
+    "latitude": 34.7764,
+    "longitude": 135.3439,
+    "sceneHeading": 0,
+    "scenePitch": 8,
+    "arrivalRadius": 120,
+    "verified": false,
+    "tint": "#F2C14E",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "涼宮春日的憂鬱",
+        "placeName": "兵庫縣立西宮北高校前坡道（兵庫·西宮）",
+        "sceneTitle": "通往北高的漫長坡道",
+        "episode": "TV 動畫",
+        "story": "阿虛每天都得爬上這段又長又陡的坡道去上學，一邊爬一邊在心裡吐槽。就在這所學校裡，他遇見了宣稱「對普通人沒興趣」的涼宮春日，被捲入了 SOS 團離奇又熱鬧的日常。",
+        "trivia": "這是一所仍在使用中的高中，請勿進入校園，也不要拍攝學生。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "兵庫県立西宮北高校前の坂道（兵庫県西宮市）",
+        "sceneTitle": "北高へと続く長い坂道",
+        "episode": "TVアニメ",
+        "story": "キョンは毎日、この長く急な坂道を登って登校し、登りながら心の中でぼやいている。この学校で彼は「ただの人間には興味ありません」と宣言する涼宮ハルヒと出会い、SOS団の奇妙でにぎやかな日常に巻き込まれていく。",
+        "trivia": "現役の高校なので、校内には立ち入らず、生徒の撮影もしないこと。"
+      },
+      "en": {
+        "workLocalized": "The Melancholy of Haruhi Suzumiya",
+        "placeName": "Slope to Hyogo Prefectural Nishinomiya-Kita High School (Nishinomiya, Hyogo)",
+        "sceneTitle": "The Long Slope Up to North High",
+        "episode": "TV anime",
+        "story": "Every day Kyon has to climb this long, steep slope to get to school, grumbling to himself the whole way up. It is at this school that he meets Haruhi Suzumiya, who declares she has “no interest in ordinary humans,” and gets swept up in the bizarre, lively everyday life of the SOS Brigade.",
+        "trivia": "This is a working high school. Do not enter the campus, and do not photograph students."
+      },
+      "ko": {
+        "workLocalized": "스즈미야 하루히의 우울",
+        "placeName": "효고현립 니시노미야키타 고등학교 앞 언덕길 (효고현 니시노미야)",
+        "sceneTitle": "키타고로 이어지는 긴 언덕길",
+        "episode": "TV 애니메이션",
+        "story": "쿈은 매일 이 길고 가파른 언덕길을 올라 등교하며, 오르는 내내 속으로 투덜댄다. 바로 이 학교에서 그는 ‘평범한 인간에게는 관심 없다’고 선언한 스즈미야 하루히를 만나, SOS단의 기묘하고도 떠들썩한 일상에 휘말리게 된다.",
+        "trivia": "현재 운영 중인 고등학교입니다. 교내에 들어가지 말고, 학생들을 촬영하지 마세요."
+      }
+    }
+  },
+  {
+    "id": "tokyolovestory-baishinji",
+    "work": "東京ラブストーリー",
+    "workLocalized": "东京爱情故事",
+    "mediaType": "drama",
+    "aliases": [
+      "Tokyo Love Story",
+      "東京爱情故事",
+      "东爱",
+      "カンチ",
+      "赤名リカ"
+    ],
+    "placeName": "伊予铁道 梅津寺站（爱媛·松山）",
+    "sceneTitle": "月台栏杆上的白手帕",
+    "episode": "1991 年版 · 最终话",
+    "story": "莉香独自来到完治的故乡爱媛，却在他赶到之前悄悄离开。完治追到海边的小站时，只在月台的栏杆上找到一条系着的白手帕，上面写着给他的告别。两人最终没有在一起——这一幕成了日本电视剧史上最令人心碎的结局之一。",
+    "trivia": "车站紧邻大海，月台栏杆上至今仍常有粉丝系上的手帕。请勿在列车进站时靠近月台边缘。",
+    "latitude": 33.87497,
+    "longitude": 132.70748,
+    "sceneHeading": 270,
+    "scenePitch": 0,
+    "arrivalRadius": 30,
+    "verified": false,
+    "tint": "#D9534F",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "東京愛情故事",
+        "placeName": "伊予鐵道 梅津寺站（愛媛·松山）",
+        "sceneTitle": "月台欄杆上的白手帕",
+        "episode": "1991 年版 · 最終集",
+        "story": "莉香獨自來到完治的故鄉愛媛，卻在他趕到之前悄悄離開。完治追到海邊的小站時，只在月台欄杆上找到一條綁著的白手帕，上面寫著給他的告別。兩人最終沒有在一起——這一幕成了日本電視劇史上最令人心碎的結局之一。",
+        "trivia": "車站緊鄰大海，月台欄杆上至今仍常有粉絲綁上的手帕。列車進站時請勿靠近月台邊緣。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "伊予鉄道 梅津寺駅（愛媛県松山市）",
+        "sceneTitle": "ホームの柵に結ばれた白いハンカチ",
+        "episode": "1991年版・最終回",
+        "story": "リカはひとりでカンチの故郷・愛媛を訪れるが、彼が駆けつける前にそっと姿を消す。海辺の小さな駅まで追いかけたカンチが見つけたのは、ホームの柵に結ばれた一枚の白いハンカチと、そこに書かれた彼への別れの言葉だけだった。二人は結ばれることなく——この場面は、日本のテレビドラマ史上屈指の切ない結末として語り継がれている。",
+        "trivia": "駅は海のすぐそばにあり、ホームの柵には今もファンが結んだハンカチがよく見られる。列車の到着時はホームの端に近づかないこと。"
+      },
+      "en": {
+        "workLocalized": "Tokyo Love Story",
+        "placeName": "Iyotetsu Baishinji Station (Matsuyama, Ehime)",
+        "sceneTitle": "The White Handkerchief on the Platform Railing",
+        "episode": "1991 series · Final episode",
+        "story": "Rika travels alone to Kanchi's hometown in Ehime, but quietly leaves before he can get there. When Kanchi chases her to this small seaside station, all he finds is a white handkerchief tied to the platform railing, with a farewell to him written on it. The two never end up together, and this scene became one of the most heartbreaking endings in Japanese TV drama history.",
+        "trivia": "The station sits right beside the sea, and fans still often tie handkerchiefs to the platform railing. Stay away from the platform edge when trains are arriving."
+      },
+      "ko": {
+        "workLocalized": "도쿄 러브 스토리",
+        "placeName": "이요테쓰 바이신지역 (에히메현 마쓰야마)",
+        "sceneTitle": "승강장 난간의 하얀 손수건",
+        "episode": "1991년판 · 최종화",
+        "story": "리카는 홀로 칸치의 고향 에히메를 찾아가지만, 그가 도착하기 전에 조용히 떠난다. 바닷가의 작은 역까지 쫓아온 칸치가 발견한 것은 승강장 난간에 묶인 하얀 손수건 한 장과, 그 위에 적힌 자신에게 보내는 작별 인사뿐이었다. 두 사람은 끝내 이어지지 못했고, 이 장면은 일본 드라마 역사상 가장 가슴 아픈 결말 중 하나로 남았다.",
+        "trivia": "역은 바다 바로 옆에 있으며, 승강장 난간에는 지금도 팬들이 묶어 둔 손수건이 자주 보입니다. 열차가 들어올 때는 승강장 가장자리에 다가가지 마세요."
+      }
+    }
+  },
+  {
+    "id": "hanataba-meidaimae",
+    "work": "花束みたいな恋をした",
+    "workLocalized": "花束般的恋爱",
+    "mediaType": "film",
+    "aliases": [
+      "We Made a Beautiful Bouquet",
+      "花束般的恋爱",
+      "花束般的戀愛",
+      "はなこい",
+      "菅田将暉",
+      "有村架純"
+    ],
+    "placeName": "京王线 明大前站（东京·世田谷）",
+    "sceneTitle": "错过末班车的夜晚",
+    "episode": "电影（2021）",
+    "story": "大学生山音麦和八谷绢在明大前站各自错过了末班电车，偶然相遇。一起去咖啡店打发时间时，两人发现彼此喜欢的小说、漫画、乐队几乎一模一样——一段“像花束一样”的五年恋爱，就从这个深夜的车站开始。",
+    "trivia": "这是通勤量很大的车站，请在不妨碍乘客的位置拍照。",
+    "latitude": 35.66838,
+    "longitude": 139.65089,
+    "sceneHeading": 0,
+    "scenePitch": 0,
+    "arrivalRadius": 40,
+    "verified": false,
+    "tint": "#E8A0BF",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "花束般的戀愛",
+        "placeName": "京王線 明大前站（東京·世田谷）",
+        "sceneTitle": "錯過末班車的夜晚",
+        "episode": "電影（2021）",
+        "story": "大學生山音麥和八谷絹在明大前站各自錯過了末班電車，偶然相遇。一起到咖啡廳打發時間時，兩人發現彼此喜歡的小說、漫畫、樂團幾乎一模一樣——一段「像花束一樣」的五年戀愛，就從這個深夜的車站開始。",
+        "trivia": "這是通勤人潮眾多的車站，請在不妨礙乘客的位置拍照。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "京王線 明大前駅（東京都世田谷区）",
+        "sceneTitle": "終電を逃した夜",
+        "episode": "映画（2021年）",
+        "story": "大学生の山音麦と八谷絹は、明大前駅でそれぞれ終電を逃し、偶然出会う。カフェで時間をつぶすうちに、好きな小説も漫画もバンドもほとんど同じだと気づく二人——「花束みたいな」5年間の恋は、この深夜の駅から始まった。",
+        "trivia": "利用客の多い通勤駅なので、乗降客の邪魔にならない場所で撮影しよう。"
+      },
+      "en": {
+        "workLocalized": "We Made a Beautiful Bouquet",
+        "placeName": "Keio Line Meidaimae Station (Setagaya, Tokyo)",
+        "sceneTitle": "The Night They Missed the Last Train",
+        "episode": "Film (2021)",
+        "story": "College students Mugi Yamane and Kinu Hachiya each miss the last train at Meidaimae Station and meet by chance. Killing time together at a café, they discover they love almost exactly the same novels, manga and bands, and a five-year romance “like a bouquet of flowers” begins at this late-night station.",
+        "trivia": "This is a busy commuter station. Please take photos from spots where you won't get in passengers' way."
+      },
+      "ko": {
+        "workLocalized": "꽃다발 같은 사랑을 했다",
+        "placeName": "게이오선 메이다이마에역 (도쿄 세타가야)",
+        "sceneTitle": "막차를 놓친 밤",
+        "episode": "영화 (2021)",
+        "story": "대학생 야마네 무기와 하치야 키누는 메이다이마에역에서 각자 막차를 놓치고 우연히 만난다. 함께 카페에서 시간을 보내던 두 사람은 좋아하는 소설, 만화, 밴드가 거의 똑같다는 사실을 알게 된다. ‘꽃다발 같은’ 5년간의 연애는 이 한밤중의 역에서 시작된다.",
+        "trivia": "통근객이 많은 역이니 승객에게 방해가 되지 않는 위치에서 촬영해 주세요."
+      }
+    }
+  },
+  {
+    "id": "amachan-kosode",
+    "work": "あまちゃん",
+    "workLocalized": "小海女",
+    "mediaType": "drama",
+    "aliases": [
+      "Amachan",
+      "小海女",
+      "海女",
+      "能年玲奈",
+      "のん",
+      "NHK 朝ドラ"
+    ],
+    "placeName": "小袖海女中心（岩手·久慈）",
+    "sceneTitle": "北三陆的海女",
+    "episode": "NHK 连续电视小说（2013）",
+    "story": "在东京生活得闷闷不乐的高中生秋，跟着母亲回到外婆居住的北三陆小镇。看到外婆和海女们潜入海中捕海胆的身影，她被深深吸引，决心成为一名海女——这片海岸就是剧中“袖滨”的原型。",
+    "trivia": "夏季有海女实演表演（需确认当年日程）。海岸道路较窄，自驾请注意会车。",
+    "latitude": 40.16848,
+    "longitude": 141.85242,
+    "sceneHeading": 90,
+    "scenePitch": -5,
+    "arrivalRadius": 80,
+    "verified": false,
+    "tint": "#2B7BB9",
+    "translations": {
+      "zh-Hant": {
+        "workLocalized": "小海女",
+        "placeName": "小袖海女中心（岩手·久慈）",
+        "sceneTitle": "北三陸的海女",
+        "episode": "NHK 晨間劇（2013）",
+        "story": "在東京過得悶悶不樂的高中生秋，跟著母親回到外婆居住的北三陸小鎮。看到外婆和海女們潛入海中捕海膽的身影，她深受吸引，決心成為一名海女——這片海岸就是劇中「袖濱」的原型。",
+        "trivia": "夏季有海女實地潛水表演（需確認當年日程）。海岸道路較窄，自駕請注意會車。"
+      },
+      "ja": {
+        "workLocalized": "",
+        "placeName": "小袖海女センター（岩手県久慈市）",
+        "sceneTitle": "北三陸の海女",
+        "episode": "NHK連続テレビ小説（2013年）",
+        "story": "東京で鬱々とした毎日を送っていた高校生のアキは、母に連れられて祖母が暮らす北三陸の町へやって来る。祖母や海女たちが海に潜ってウニを獲る姿に心を奪われ、海女になることを決意する——この海岸こそ、作中の「袖が浜」のモデル。",
+        "trivia": "夏には海女の素潜り実演が行われる（その年の日程は要確認）。海沿いの道は狭いので、車で訪れる際は対向車とのすれ違いに注意。"
+      },
+      "en": {
+        "workLocalized": "Amachan",
+        "placeName": "Kosode Ama Center (Kuji, Iwate)",
+        "sceneTitle": "The Ama Divers of Kita-Sanriku",
+        "episode": "NHK morning drama (2013)",
+        "story": "Aki, a high schooler stuck in a gloomy life in Tokyo, follows her mother back to the small Kita-Sanriku town where her grandmother lives. Captivated by the sight of her grandmother and the other ama (free divers) plunging into the sea to gather sea urchins, she decides to become an ama herself. This coastline is the model for “Sodegahama” in the drama.",
+        "trivia": "Ama diving demonstrations are held in summer (check that year's schedule). The coastal road is narrow, so drivers should take care when passing oncoming cars."
+      },
+      "ko": {
+        "workLocalized": "아마짱",
+        "placeName": "고소데 해녀 센터 (이와테현 구지)",
+        "sceneTitle": "기타산리쿠의 해녀",
+        "episode": "NHK 연속 TV 소설 (2013)",
+        "story": "도쿄에서 우울한 나날을 보내던 고등학생 아키는 어머니를 따라 외할머니가 사는 기타산리쿠의 작은 마을로 간다. 외할머니와 해녀들이 바다에 뛰어들어 성게를 잡는 모습에 깊이 매료된 그녀는 해녀가 되기로 결심한다. 이 해안이 바로 드라마 속 ‘소데가하마’의 모델이다.",
+        "trivia": "여름에는 해녀 잠수 시연이 열립니다(그해 일정 확인 필요). 해안 도로가 좁으니 자가용으로 방문할 때는 마주 오는 차에 주의하세요."
+      }
+    }
+  }
+]

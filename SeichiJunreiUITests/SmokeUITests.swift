@@ -16,7 +16,9 @@ final class SmokeUITests: XCTestCase {
                 entitlement: String = "lifetime", freeUsed: Int? = nil, extraEnv: [String: String] = [:]) {
         app = XCUIApplication()
         let locale = ["zh-Hans": "zh_CN", "zh-Hant": "zh_TW", "ja": "ja_JP", "en": "en_US", "ko": "ko_KR"][language] ?? "en_US"
-        app.launchArguments += ["-AppleLanguages", "(\(language))", "-AppleLocale", locale]
+        app.launchArguments += ["-AppleLanguages", "(\(language))", "-AppleLocale", locale,
+                                // 清掉 App 内的语言设置 / 默认地图，避免测试之间互相影响
+                                "-appLanguageOverride", "", "-preferredMapApp", ""]
         app.launchEnvironment["SEICHI_SIM_LAT"] = "35.68540"
         app.launchEnvironment["SEICHI_SIM_LON"] = "139.72265"
         app.launchEnvironment["SEICHI_ENTITLEMENT"] = entitlement
@@ -117,7 +119,7 @@ final class SmokeUITests: XCTestCase {
         XCTAssertTrue(workRow.waitForExistence(timeout: 5), "搜索 your name 应找到《君の名は。》")
         snapshot("02-search-suggestions")
         workRow.tap()
-        XCTAssertTrue(app.staticTexts["《君の名は。（你的名字。）》"].waitForExistence(timeout: 5),
+        XCTAssertTrue(app.staticTexts["日漫《你的名字。》"].waitForExistence(timeout: 5),
                       "选择作品后应聚焦到《君の名は。》，而不是被“搜索全部结果”覆盖")
         snapshot("03-work-focused")
 
@@ -148,7 +150,7 @@ final class SmokeUITests: XCTestCase {
         XCTAssertTrue(app.staticTexts["全部名场面"].waitForExistence(timeout: 5))
         let picker = app.segmentedControls.firstMatch
         XCTAssertTrue(picker.waitForExistence(timeout: 5))
-        picker.buttons["电视剧"].tap()
+        picker.buttons["日剧"].tap()
         XCTAssertTrue(app.staticTexts["月台栏杆上的白手帕"].waitForExistence(timeout: 5),
                       "电视剧筛选应显示《东京爱情故事》的名场面")
         snapshot("06-list-drama")
@@ -177,7 +179,7 @@ final class SmokeUITests: XCTestCase {
     func testEnglishLocalization() throws {
         launch(heading: 200, pitch: 10, language: "en")
         XCTAssertTrue(app.navigationBars["Seichi Junrei"].waitForExistence(timeout: 10), "导航标题应为英语")
-        XCTAssertEqual(app.searchFields.firstMatch.placeholderValue, "Search anime, films, TV dramas")
+        XCTAssertEqual(app.searchFields.firstMatch.placeholderValue, "Search anime, J-dramas, movies")
         snapshot("09-en-map")
         enterSceneFromBanner()
         XCTAssertTrue(app.staticTexts["Turn right 70°"].waitForExistence(timeout: 5))
@@ -242,5 +244,65 @@ final class SmokeUITests: XCTestCase {
         XCTAssertTrue(app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "感谢")).firstMatch.waitForExistence(timeout: 8),
                       "提交后应显示感谢")
         snapshot("19-calibration-thanks")
+    }
+
+    /// 设置页切换语言：不用去系统设置，切换后界面立即变成对应语言
+    func testSwitchLanguageInSettings() throws {
+        launch()
+        let settings = app.buttons["openSettings"]
+        XCTAssertTrue(settings.waitForExistence(timeout: 10))
+        settings.tap()
+        let language = app.buttons["settingsLanguage"]
+        XCTAssertTrue(language.waitForExistence(timeout: 5))
+        snapshot("20-settings")
+        language.tap()
+        app.buttons["日本語"].tap()
+        // 返回设置页，标题已经是日语
+        XCTAssertTrue(app.navigationBars["設定"].waitForExistence(timeout: 5), "切换后设置页应立即变成日语")
+        app.buttons["完了"].tap()
+        XCTAssertTrue(app.navigationBars["聖地巡礼"].waitForExistence(timeout: 5), "地图页也应变成日语")
+        snapshot("21-switched-to-ja")
+    }
+
+    /// 帮拍模式：被拍的人已经站在主角的位置，方向也对 → 提示“完美” → 自动倒数拍照 → 按原作构图保存
+    func testPhotographerModeAutoShutter() throws {
+        launch(heading: 270, pitch: 10, extraEnv: ["SEICHI_SIM_SUBJECT": "0.5,0.85,0.45"])
+        let card = app.buttons["card-kiminonawa-suga-shrine"]
+        XCTAssertTrue(card.waitForExistence(timeout: 20))
+        card.tap()
+        let open = app.buttons["openPhotographer"]
+        XCTAssertTrue(open.waitForExistence(timeout: 5), "详情页应有“请人帮我拍”")
+        if !open.isHittable { app.swipeUp() }
+        open.tap()
+        let start = app.buttons["startPhotographer"]
+        XCTAssertTrue(start.waitForExistence(timeout: 8), "应先显示交接页")
+        snapshot("22-photographer-handoff")
+        start.tap()
+        dismissSystemAlerts(timeout: 4)   // 相机权限
+        XCTAssertTrue(app.staticTexts["pgInstruction"].waitForExistence(timeout: 8))
+        snapshot("23-photographer-shooting")
+        let saved = app.descendants(matching: .any)["pgSaved"]
+        if !saved.waitForExistence(timeout: 15) {
+            dismissSystemAlerts(timeout: 3)   // 相册权限
+        }
+        XCTAssertTrue(saved.waitForExistence(timeout: 10), "对齐后应自动倒数拍照并保存")
+        snapshot("24-photographer-saved")
+    }
+
+    /// 帮拍模式：人物太大（离得太近）时，提示往后退
+    func testPhotographerModeStepBackHint() throws {
+        launch(heading: 270, pitch: 10, extraEnv: ["SEICHI_SIM_SUBJECT": "0.5,0.98,0.95"])
+        let card = app.buttons["card-kiminonawa-suga-shrine"]
+        XCTAssertTrue(card.waitForExistence(timeout: 20))
+        card.tap()
+        let open = app.buttons["openPhotographer"]
+        XCTAssertTrue(open.waitForExistence(timeout: 5))
+        if !open.isHittable { app.swipeUp() }
+        open.tap()
+        app.buttons["startPhotographer"].tap()
+        dismissSystemAlerts(timeout: 4)
+        let hint = app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "往后退")).firstMatch
+        XCTAssertTrue(hint.waitForExistence(timeout: 8), "人物太大时应提示往后退")
+        snapshot("25-photographer-step-back")
     }
 }

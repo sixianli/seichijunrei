@@ -1,0 +1,89 @@
+{
+ "works": [
+  {
+   "id": "your-name",
+   "title": "君の名は。",
+   "mediaType": "animeFilm",
+   "year": 2016,
+   "creator": "新海誠 / コミックス・ウェーブ・フィルム",
+   "tint": "#2E6BE6",
+   "aliases": [
+    "Your Name",
+    "Kimi no Na wa",
+    "君の名は",
+    "你的名字",
+    "新海诚",
+    "新海誠",
+    "너의 이름은"
+   ],
+   "officialURL": "https://www.kiminona.com/",
+   "text": {
+    "zh-Hans": {
+     "title": "你的名字。",
+     "creator": "新海诚 / CoMix Wave Films",
+     "synopsis": "（2–3 句不剧透的作品简介）"
+    },
+    "zh-Hant": {
+     "title": "你的名字。"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "…"
+    },
+    "en": {
+     "title": "Your Name.",
+     "creator": "Makoto Shinkai / CoMix Wave Films",
+     "synopsis": "…"
+    },
+    "ko": {
+     "title": "너의 이름은.",
+     "creator": "신카이 마코토 / 코믹스 웨이브 필름",
+     "synopsis": "…"
+    }
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "kiminonawa-suga-shrine",
+   "workID": "your-name",
+   "latitude": 35.6854,
+   "longitude": 139.72265,
+   "sceneHeading": 270,
+   "scenePitch": 10,
+   "arrivalRadius": 50,
+   "spoiler": true,
+   "sourceURL": "https://…",
+   "photo": "File:….jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "須賀神社 男坂（东京·四谷）",
+     "sceneTitle": "阶梯上的重逢",
+     "episode": "剧场版 · 结尾",
+     "highlight": "（为什么是名场面）",
+     "story": "彗星事件过去多年，已经长大成人的泷和三叶依旧在东京各自生活，心里总觉得在寻找“某个人”。某天两人在并行的电车上透过车窗看见了彼此，于是各自下车拼命奔跑寻找对方，最终在这段红色扶手的石阶上相遇。擦肩而过的一瞬，泷回过头开口——“我们是不是在哪里见过？”两人同时问出了那句话：你的名字是？",
+     "access": "JR／东京地铁「四谷」站步行约 10 分钟",
+     "bestTime": "…",
+     "tips": "石阶在住宅区内，请保持安静、不要在台阶中间长时间停留拍照，以免影响居民通行。"
+    },
+    "ja": {
+     "placeName": "…",
+     "sceneTitle": "…",
+     "episode": "…",
+     "highlight": "…",
+     "story": "…",
+     "access": "…",
+     "bestTime": "…",
+     "tips": "…"
+    },
+    "en": {
+     "…": "same 8 fields"
+    },
+    "ko": {
+     "…": "same 8 fields"
+    }
+   }
+  }
+ ]
+}

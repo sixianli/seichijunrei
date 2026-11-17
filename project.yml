@@ -49,6 +49,8 @@ targets:
         CFBundleShortVersionString: $(MARKETING_VERSION)
         # 收费开关（见 SeichiJunrei/App/AppConfig.swift）
         SeichiPaywallEnabled: $(SEICHI_PAYWALL_ENABLED)
+        # 导航时检测这些地图 App 是否已安装（Google 地图 / 高德地图 / 百度地图）
+        LSApplicationQueriesSchemes: [comgooglemaps, iosamap, baidumap]
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         # 只使用系统提供的加密（HTTPS），无需每次上传后手动回答出口合规问题
         ITSAppUsesNonExemptEncryption: false

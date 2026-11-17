@@ -7,6 +7,7 @@ struct SeichiJunreiApp: App {
     @State private var location = LocationService()
     @State private var storeKit = StoreService.shared
     @State private var pilgrimage = PilgrimageStore.shared
+    @State private var language = AppLanguage.shared
 
     var body: some Scene {
         WindowGroup {
@@ -15,6 +16,10 @@ struct SeichiJunreiApp: App {
                 .environment(location)
                 .environment(storeKit)
                 .environment(pilgrimage)
+                .environment(language)
+                // 日期、数字格式跟随 App 内选择的语言
+                .environment(\.locale, language.locale)
+                .onChange(of: language.code) { _, code in store.applyLanguage(code) }
                 .task {
                     storeKit.start()
                     // 之前因断网 / 未登录 iCloud 没能提交的校准数据，自动补传
