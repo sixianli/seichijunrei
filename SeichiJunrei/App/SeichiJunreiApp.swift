@@ -14,6 +14,7 @@ struct SeichiJunreiApp: App {
                     store.load()
                     location.start()
                     NotificationService.shared.requestAuthorization()
+                    NotificationService.shared.onOpenSpot = { id in store.requestedSpotID = id }
                 }
                 .onChange(of: location.lastLocation) { _, newValue in
                     guard let loc = newValue else { return }

@@ -11,6 +11,8 @@ final class SpotStore {
     private(set) var nearby: [NearbySpot] = []
     private(set) var loadError: String?
     private(set) var userPoint: GeoPoint?
+    /// 外部（如点击通知）请求打开的圣地 ID，由地图页消费
+    var requestedSpotID: String?
 
     /// “附近”的范围（米）
     var searchRadius: Double = 30_000

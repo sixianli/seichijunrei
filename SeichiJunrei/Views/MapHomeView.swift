@@ -109,6 +109,9 @@ struct MapHomeView: View {
                                   spots: spots, tint: .accentColor))
             }
         }
+        .onChange(of: store.requestedSpotID) { _, _ in openRequestedSpot() }
+        .onChange(of: store.spots.count) { _, _ in openRequestedSpot() }
+        .onAppear { openRequestedSpot() }
         .onChange(of: mediaFilter) { _, _ in
             // 切换类型时，若当前聚焦的作品不属于该类型则取消聚焦
             if let f = focus, let m = mediaFilter, !f.spots.contains(where: { $0.mediaType == m }) {
@@ -155,6 +158,16 @@ struct MapHomeView: View {
             NearbyCarousel(title: within.isEmpty ? "离你最近的名场面" : "附近的名场面",
                            items: within.isEmpty ? Array(store.nearby.prefix(10)) : within) { selected = $0 }
         }
+    }
+
+    /// 处理“点击通知 → 打开对应圣地”的请求（数据可能稍后才加载完）
+    private func openRequestedSpot() {
+        guard let id = store.requestedSpotID,
+              let spot = store.spots.first(where: { $0.id == id }) else { return }
+        store.requestedSpotID = nil
+        sceneSpot = nil
+        selected = spot
+        fitCamera(to: [spot])
     }
 
     private func focusOn(_ match: SpotSearch.WorkMatch) {
