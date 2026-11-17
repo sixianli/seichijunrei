@@ -551,13 +551,13 @@ final class FramingGuidanceTests: XCTestCase {
     let target = SubjectFraming(centerX: 0.5, footY: 0.85, height: 0.4)
     let vfov = 60.0, hfov = 48.0
 
-    func guide(_ box: NormalizedRect?, yaw: Double? = 0, pitch: Double? = 0) -> FramingGuidance {
+    func guide(_ box: UnitRect?, yaw: Double? = 0, pitch: Double? = 0) -> FramingGuidance {
         FramingGuidance.compute(target: target, subject: box, headingDelta: yaw, pitchDelta: pitch,
                                 verticalFOV: vfov, horizontalFOV: hfov)
     }
 
-    func box(cx: Double = 0.5, foot: Double = 0.85, h: Double = 0.4) -> NormalizedRect {
-        NormalizedRect(x: cx - 0.08, y: foot - h, width: 0.16, height: h)
+    func box(cx: Double = 0.5, foot: Double = 0.85, h: Double = 0.4) -> UnitRect {
+        UnitRect(x: cx - 0.08, y: foot - h, width: 0.16, height: h)
     }
 
     func testTurnFirstThenFindSubject() {
@@ -602,7 +602,7 @@ final class FramingGuidanceTests: XCTestCase {
     }
 
     func testAutoReframeMovesSubjectToTarget() throws {
-        let subject = NormalizedRect(x: 0.35, y: 0.4, width: 0.1, height: 0.3)
+        let subject = UnitRect(x: 0.35, y: 0.4, width: 0.1, height: 0.3)
         let crop = try XCTUnwrap(AutoReframe.cropRect(subject: subject, target: target))
         XCTAssertEqual(crop.width, 0.75, accuracy: 1e-9)
         // 裁切后人物中心与脚底应落在目标位置
@@ -612,7 +612,7 @@ final class FramingGuidanceTests: XCTestCase {
     }
 
     func testFramingFromBoxRoundTrips() {
-        let f = SubjectFraming(box: NormalizedRect(x: 0.2, y: 0.3, width: 0.2, height: 0.5))
+        let f = SubjectFraming(box: UnitRect(x: 0.2, y: 0.3, width: 0.2, height: 0.5))
         XCTAssertEqual(f.centerX, 0.3, accuracy: 1e-9)
         XCTAssertEqual(f.footY, 0.8, accuracy: 1e-9)
         XCTAssertEqual(f.box(aspect: 0.75).height, 0.5, accuracy: 1e-9)

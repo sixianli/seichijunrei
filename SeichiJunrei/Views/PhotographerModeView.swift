@@ -40,7 +40,7 @@ struct PhotoFrameMapper {
         return CGRect(x: (vw - w) / 2, y: (vh - h) / 2, width: w, height: h)
     }
 
-    func rect(_ r: NormalizedRect) -> CGRect {
+    func rect(_ r: UnitRect) -> CGRect {
         let p = photoRect
         return CGRect(x: p.minX + CGFloat(r.x) * p.width, y: p.minY + CGFloat(r.y) * p.height,
                       width: CGFloat(r.width) * p.width, height: CGFloat(r.height) * p.height)
@@ -84,7 +84,7 @@ struct PhotographerModeView: View {
     @State private var countdownTask: Task<Void, Never>?
     @State private var lastZoomAdjust: CFTimeInterval = 0
     @State private var lastSpoken: (key: String, time: CFTimeInterval) = ("", 0)
-    @State private var subjectAtShutter: NormalizedRect?
+    @State private var subjectAtShutter: UnitRect?
     @State private var result: UIImage?
     @State private var showShare = false
 
@@ -554,7 +554,7 @@ struct PhotographerModeView: View {
 
 extension UIImage {
     /// 按归一化区域裁切（考虑图片方向）
-    func cropped(to r: NormalizedRect) -> UIImage? {
+    func cropped(to r: UnitRect) -> UIImage? {
         let rect = CGRect(x: CGFloat(r.x) * size.width, y: CGFloat(r.y) * size.height,
                           width: CGFloat(r.width) * size.width, height: CGFloat(r.height) * size.height)
         guard rect.width >= 1, rect.height >= 1 else { return nil }

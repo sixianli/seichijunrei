@@ -18,7 +18,7 @@ final class CameraController: NSObject, AVCapturePhotoCaptureDelegate, AVCapture
     /// 是否检测画面中的人物（帮拍模式），需要在 start() 之前设置
     @ObservationIgnored var detectsPeople = false
     /// 画面中最显眼的人物外接框（归一化，原点左上，相对竖屏的相机画面）
-    private(set) var subjectBox: NormalizedRect?
+    private(set) var subjectBox: UnitRect?
     @ObservationIgnored private var lastDetection: CFTimeInterval = 0
     @ObservationIgnored private var device: AVCaptureDevice?
     /// 当前变焦倍数（相对广角镜头）
@@ -174,13 +174,13 @@ final class CameraController: NSObject, AVCapturePhotoCaptureDelegate, AVCapture
             .max { $0.boundingBox.width * $0.boundingBox.height < $1.boundingBox.width * $1.boundingBox.height }
         // Vision 的坐标原点在左下角，转成左上角
         let box = best.map { b in
-            NormalizedRect(x: Double(b.boundingBox.minX), y: Double(1 - b.boundingBox.maxY),
+            UnitRect(x: Double(b.boundingBox.minX), y: Double(1 - b.boundingBox.maxY),
                            width: Double(b.boundingBox.width), height: Double(b.boundingBox.height))
         }
         DispatchQueue.main.async { self.updateSubject(box) }
     }
 
-    private func updateSubject(_ box: NormalizedRect?) {
+    private func updateSubject(_ box: UnitRect?) {
         guard let box else {
             // 偶尔漏检一两帧时保留上一次结果，避免提示来回跳
             missedFrames += 1
@@ -189,10 +189,10 @@ final class CameraController: NSObject, AVCapturePhotoCaptureDelegate, AVCapture
         }
         missedFrames = 0
         if let old = subjectBox {
-            let k = 0.5   // 简单的低通平滑
-            subjectBox = NormalizedRect(x: old.x + (box.x - old.x) * k, y: old.y + (box.y - old.y) * k,
-                                        width: old.width + (box.width - old.width) * k,
-                                        height: old.height + (box.height - old.height) * k)
+            // 简单的低通平滑
+            func mix(_ a: Double, _ b: Double) -> Double { a + (b - a) * 0.5 }
+            subjectBox = UnitRect(x: mix(old.x, box.x), y: mix(old.y, box.y),
+                                  width: mix(old.width, box.width), height: mix(old.height, box.height))
         } else {
             subjectBox = box
         }

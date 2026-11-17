@@ -22,19 +22,19 @@ public struct SubjectFraming: Codable, Hashable, Sendable {
     public static let `default` = SubjectFraming(centerX: 0.5, footY: 0.85, height: 0.45)
 
     /// 由人物外接框（归一化，原点左上）得到构图
-    public init(box: NormalizedRect) {
+    public init(box: UnitRect) {
         self.init(centerX: box.midX, footY: box.maxY, height: box.height)
     }
 
     /// 对应的人物外接框（按常见人体宽高比 0.38 估算宽度，画面宽高比 aspect = 宽/高）
-    public func box(aspect: Double) -> NormalizedRect {
+    public func box(aspect: Double) -> UnitRect {
         let w = height * 0.38 / max(aspect, 0.1)
-        return NormalizedRect(x: centerX - w / 2, y: footY - height, width: w, height: height)
+        return UnitRect(x: centerX - w / 2, y: footY - height, width: w, height: height)
     }
 }
 
 /// 归一化矩形（0…1，原点左上）
-public struct NormalizedRect: Codable, Hashable, Sendable {
+public struct UnitRect: Codable, Hashable, Sendable {
     public var x: Double, y: Double, width: Double, height: Double
     public init(x: Double, y: Double, width: Double, height: Double) {
         self.x = x; self.y = y; self.width = width; self.height = height
@@ -99,7 +99,7 @@ public struct FramingGuidance: Equatable, Sendable {
     ///   - verticalFOV / horizontalFOV: 取景画面的视场角（度）
     ///   - zoomCorrectable: App 能靠自动变焦把人物大小放大 / 缩小的倍数范围（例如 0.8...2.0）。
     ///     需要的倍数落在这个范围内时，不必让拍照的人走动，交给自动变焦。
-    public static func compute(target: SubjectFraming, subject: NormalizedRect?,
+    public static func compute(target: SubjectFraming, subject: UnitRect?,
                                headingDelta: Double?, pitchDelta: Double?,
                                verticalFOV: Double, horizontalFOV: Double,
                                zoomCorrectable: ClosedRange<Double> = 1...1,
@@ -160,7 +160,7 @@ public struct FramingGuidance: Equatable, Sendable {
     }
 
     /// 由人物在画面中的高度估算距离（米）
-    public static func distance(to subject: NormalizedRect, verticalFOV: Double) -> Double {
+    public static func distance(to subject: UnitRect, verticalFOV: Double) -> Double {
         let visibleHeight = personHeight / max(subject.height, 0.02)
         return visibleHeight / (2 * tan(radians(verticalFOV) / 2))
     }
@@ -178,8 +178,8 @@ public struct FramingGuidance: Equatable, Sendable {
 public enum AutoReframe {
     /// 返回裁切区域（相对整张照片归一化，保持原照片的宽高比）；不需要或无法裁切时返回 nil。
     /// - Parameter maxZoom: 最多裁掉多少（1.6 表示最多放大 1.6 倍，避免画质损失太大）
-    public static func cropRect(subject: NormalizedRect, target: SubjectFraming,
-                                maxZoom: Double = 1.6) -> NormalizedRect? {
+    public static func cropRect(subject: UnitRect, target: SubjectFraming,
+                                maxZoom: Double = 1.6) -> UnitRect? {
         // 裁切框的边长比例 = 人物当前高度 / 目标高度（只能放大，不能缩小）
         let s = min(1, max(1 / maxZoom, subject.height / target.height))
         var x = subject.midX - target.centerX * s
@@ -187,6 +187,6 @@ public enum AutoReframe {
         x = min(max(x, 0), 1 - s)
         y = min(max(y, 0), 1 - s)
         if s > 0.98 && abs(x) < 0.01 && abs(y) < 0.01 { return nil }
-        return NormalizedRect(x: x, y: y, width: s, height: s)
+        return UnitRect(x: x, y: y, width: s, height: s)
     }
 }
