@@ -32,8 +32,12 @@ final class StoreService {
     @ObservationIgnored private var debugOverride: Entitlement?
     private static let allowanceKey = "freeSceneAllowance"
 
-    init(defaults: UserDefaults = .standard) {
+    /// 收费是否开启（关闭时为免费公测期）
+    let paywallEnabled: Bool
+
+    init(defaults: UserDefaults = .standard, paywallEnabled: Bool = AppConfig.paywallEnabled) {
         self.defaults = defaults
+        self.paywallEnabled = paywallEnabled
         if let data = defaults.data(forKey: Self.allowanceKey),
            let saved = try? JSONDecoder().decode(FreeSceneAllowance.self, from: data) {
             allowance = saved
@@ -68,7 +72,8 @@ final class StoreService {
         }
         Task {
             await refreshEntitlements()
-            await loadProducts()
+            // 免费公测期不需要加载商品（App Store Connect 里也可以先不创建内购商品）
+            if paywallEnabled { await loadProducts() }
         }
     }
 
@@ -166,7 +171,8 @@ final class StoreService {
     private func recomputeEntitlement() {
         if let debugOverride { entitlement = debugOverride; return }
         let next = AccessPolicy.entitlement(now: Date(), hasLifetime: hasLifetime, passExpiry: passExpiry,
-                                            freeUsed: allowance.usedSpotIDs.count, freeLimit: allowance.limit)
+                                            freeUsed: allowance.usedSpotIDs.count, freeLimit: allowance.limit,
+                                            paywallEnabled: paywallEnabled)
         if next != entitlement { entitlement = next }
     }
 }

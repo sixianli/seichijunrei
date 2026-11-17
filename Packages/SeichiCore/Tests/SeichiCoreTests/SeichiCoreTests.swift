@@ -384,6 +384,11 @@ final class MonetizationTests: XCTestCase {
         XCTAssertEqual(AccessPolicy.entitlement(now: day(5), hasLifetime: false, passExpiry: day(8), freeUsed: 3), .pass(until: day(8)))
         XCTAssertEqual(AccessPolicy.entitlement(now: day(9), hasLifetime: false, passExpiry: day(8), freeUsed: 1), .free(remaining: 2))
         XCTAssertEqual(AccessPolicy.entitlement(now: day(9), hasLifetime: false, passExpiry: nil, freeUsed: 5), .free(remaining: 0))
+        // 收费关闭（免费公测期）：额度用完也不受限制
+        let beta = AccessPolicy.entitlement(now: day(9), hasLifetime: false, passExpiry: nil, freeUsed: 5, paywallEnabled: false)
+        XCTAssertEqual(beta, .complimentary)
+        XCTAssertTrue(beta.isUnlimited)
+        XCTAssertTrue(FreeSceneAllowance(usedSpotIDs: ["a", "b", "c"]).canEnter("z", entitlement: beta))
     }
 
     func testFreeAllowanceCountsDistinctSpots() {

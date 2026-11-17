@@ -20,6 +20,8 @@ final class SmokeUITests: XCTestCase {
         app.launchEnvironment["SEICHI_SIM_LAT"] = "35.68540"
         app.launchEnvironment["SEICHI_SIM_LON"] = "139.72265"
         app.launchEnvironment["SEICHI_ENTITLEMENT"] = entitlement
+        // 免费用户相关的测试需要打开收费开关，其余测试按默认（免费公测期）运行
+        app.launchEnvironment["SEICHI_PAYWALL"] = entitlement == "free" ? "1" : "0"
         app.launchEnvironment.merge(extraEnv) { _, new in new }
         if let freeUsed { app.launchEnvironment["SEICHI_FREE_USED"] = String(freeUsed) }
         if let heading { app.launchEnvironment["SEICHI_SIM_HEADING"] = String(heading) }

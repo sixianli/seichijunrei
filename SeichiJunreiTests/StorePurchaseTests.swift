@@ -22,7 +22,8 @@ final class StorePurchaseTests: XCTestCase {
         session?.clearTransactions()
     }
 
-    @MainActor func makeStore() -> StoreService { StoreService(defaults: defaults) }
+    /// 购买相关的测试始终在“收费开启”下进行，保证将来开启收费时功能正常
+    @MainActor func makeStore() -> StoreService { StoreService(defaults: defaults, paywallEnabled: true) }
 
     @MainActor func testProductsLoadWithPrices() async throws {
         let store = makeStore()
@@ -45,7 +46,7 @@ final class StorePurchaseTests: XCTestCase {
         XCTAssertFalse(store.canEnterScene("d"))
         XCTAssertTrue(store.canEnterScene("a"), "体验过的名场面可以再次进入")
         // 额度持久化
-        XCTAssertEqual(StoreService(defaults: defaults).allowance.remaining, 0)
+        XCTAssertEqual(StoreService(defaults: defaults, paywallEnabled: true).allowance.remaining, 0)
     }
 
     @MainActor func testBuyingWeekPassUnlocksAndStacks() async throws {
@@ -96,5 +97,17 @@ final class StorePurchaseTests: XCTestCase {
             try await Task.sleep(nanoseconds: 200_000_000)
         }
         XCTAssertEqual(store.entitlement, .free(remaining: 3), "退款后应失去权益")
+    }
+
+    /// 免费公测期：不限次数，也不需要任何购买
+    @MainActor func testComplimentaryModeWhenPaywallDisabled() async throws {
+        let store = StoreService(defaults: defaults, paywallEnabled: false)
+        await store.refreshEntitlements()
+        XCTAssertEqual(store.entitlement, .complimentary)
+        for id in ["a", "b", "c", "d", "e"] {
+            XCTAssertTrue(store.canEnterScene(id))
+            store.recordSceneEntry(id)
+        }
+        XCTAssertEqual(store.allowance.remaining, 3, "免费公测期不消耗免费额度")
     }
 }

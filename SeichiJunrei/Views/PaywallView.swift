@@ -163,6 +163,7 @@ enum EntitlementText {
     /// 当前权益的一句话说明
     static func status(_ e: Entitlement) -> String? {
         switch e {
+        case .complimentary: return L("status.beta")
         case .lifetime: return L("status.lifetime")
         case .pass(let until):
             return L("status.passUntil", until.formatted(date: .abbreviated, time: .shortened))

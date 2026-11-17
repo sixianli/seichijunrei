@@ -9,6 +9,8 @@ settings:
   base:
     SWIFT_VERSION: "5.0"
     MARKETING_VERSION: "0.1.0"
+    # 免费公测期：NO。数据校准完成、准备收费时改为 YES
+    SEICHI_PAYWALL_ENABLED: "NO"
     CURRENT_PROJECT_VERSION: "1"
 packages:
   SeichiCore:
@@ -44,6 +46,8 @@ targets:
       path: SeichiJunrei/Info.plist
       properties:
         CFBundleShortVersionString: $(MARKETING_VERSION)
+        # 收费开关（见 SeichiJunrei/App/AppConfig.swift）
+        SeichiPaywallEnabled: $(SEICHI_PAYWALL_ENABLED)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         # 只使用系统提供的加密（HTTPS），无需每次上传后手动回答出口合规问题
         ITSAppUsesNonExemptEncryption: false

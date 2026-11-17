@@ -98,6 +98,7 @@
 "paywall.pending" = "購入の承認待ちです（保護者の承認など）";
 "paywall.restored" = "購入を復元しました";
 "paywall.nothingToRestore" = "復元できる購入はありません";
+"status.beta" = "公開テスト中はすべて無料";
 "status.lifetime" = "買い切り版をご利用中";
 "status.passUntil" = "パスの有効期限：%@";
 "status.freeRemaining" = "無料であと%ld件の名シーンを体験できます";

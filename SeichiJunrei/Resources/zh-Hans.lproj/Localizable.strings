@@ -98,6 +98,7 @@
 "paywall.pending" = "购买等待确认（例如等待家长批准）";
 "paywall.restored" = "已恢复购买";
 "paywall.nothingToRestore" = "没有可恢复的购买";
+"status.beta" = "公测期间全部功能免费";
 "status.lifetime" = "已终身解锁";
 "status.passUntil" = "通行证有效期至 %@";
 "status.freeRemaining" = "还可免费体验 %ld 处名场面";

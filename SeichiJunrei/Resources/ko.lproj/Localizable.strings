@@ -98,6 +98,7 @@
 "paywall.pending" = "구매 승인을 기다리는 중이에요";
 "paywall.restored" = "구매를 복원했어요";
 "paywall.nothingToRestore" = "복원할 구매가 없어요";
+"status.beta" = "공개 테스트 기간 동안 모두 무료";
 "status.lifetime" = "평생 이용 중";
 "status.passUntil" = "패스 유효 기간: %@까지";
 "status.freeRemaining" = "무료 명장면 %ld곳 남았어요";

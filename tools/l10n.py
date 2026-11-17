@@ -177,6 +177,8 @@ S = {
                       "Purchase is waiting for approval", "구매 승인을 기다리는 중이에요"),
   "paywall.restored": ("已恢复购买", "已回復購買", "購入を復元しました", "Purchases restored", "구매를 복원했어요"),
   "paywall.nothingToRestore": ("没有可恢复的购买", "沒有可回復的購買", "復元できる購入はありません", "No purchases to restore", "복원할 구매가 없어요"),
+  "status.beta": ("公测期间全部功能免费", "公測期間所有功能免費", "公開テスト中はすべて無料",
+                  "Everything is free during the public beta", "공개 테스트 기간 동안 모두 무료"),
   "status.lifetime": ("已终身解锁", "已終身解鎖", "買い切り版をご利用中", "Lifetime unlocked", "평생 이용 중"),
   "status.passUntil": ("通行证有效期至 %@", "通行證有效期至 %@", "パスの有効期限：%@", "Pass valid until %@", "패스 유효 기간: %@까지"),
   "status.freeRemaining": ("还可免费体验 %ld 处名场面", "還可免費體驗 %ld 處名場面", "無料であと%ld件の名シーンを体験できます",

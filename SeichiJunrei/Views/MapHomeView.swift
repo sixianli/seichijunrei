@@ -110,12 +110,14 @@ struct MapHomeView: View {
             }
         }
         .toolbar {
+            if storeKit.paywallEnabled {
             ToolbarItem(placement: .topBarLeading) {
                 Button { showPaywall = true } label: {
                     Image(systemName: storeKit.entitlement.isUnlimited ? "ticket.fill" : "ticket")
                 }
                 .accessibilityLabel(L("paywall.title"))
                 .accessibilityIdentifier("openPaywall")
+            }
             }
             ToolbarItem(placement: .topBarTrailing) {
                 Button { showList = true } label: { Image(systemName: "list.bullet") }

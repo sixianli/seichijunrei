@@ -98,6 +98,7 @@
 "paywall.pending" = "Purchase is waiting for approval";
 "paywall.restored" = "Purchases restored";
 "paywall.nothingToRestore" = "No purchases to restore";
+"status.beta" = "Everything is free during the public beta";
 "status.lifetime" = "Lifetime unlocked";
 "status.passUntil" = "Pass valid until %@";
 "status.freeRemaining" = "%ld free scenes left";

@@ -3,6 +3,8 @@ import Foundation
 /// 收费模式：免费体验若干处名场面 → 旅行通行证（非续期，7/30 天，可叠加）或终身买断。
 /// 这里只放纯逻辑，StoreKit 交互在 App 层。
 public enum Entitlement: Equatable, Sendable {
+    /// 收费未开启（免费公测期）：所有功能免费、不限次数
+    case complimentary
     case lifetime
     case pass(until: Date)
     case free(remaining: Int)
@@ -10,7 +12,7 @@ public enum Entitlement: Equatable, Sendable {
     /// 是否不限次数使用名场面模式
     public var isUnlimited: Bool {
         switch self {
-        case .lifetime, .pass: return true
+        case .complimentary, .lifetime, .pass: return true
         case .free: return false
         }
     }
@@ -37,8 +39,11 @@ public enum AccessPolicy {
         return expiry
     }
 
+    /// - Parameter paywallEnabled: 收费开关。关闭时（免费公测期）一律返回 `.complimentary`。
     public static func entitlement(now: Date, hasLifetime: Bool, passExpiry: Date?,
-                                   freeUsed: Int, freeLimit: Int = freeSceneLimit) -> Entitlement {
+                                   freeUsed: Int, freeLimit: Int = freeSceneLimit,
+                                   paywallEnabled: Bool = true) -> Entitlement {
+        guard paywallEnabled else { return .complimentary }
         if hasLifetime { return .lifetime }
         if let e = passExpiry, e > now { return .pass(until: e) }
         return .free(remaining: max(0, freeLimit - freeUsed))
