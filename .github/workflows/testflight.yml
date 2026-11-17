@@ -75,9 +75,8 @@ jobs:
 
       - name: Archive (signed)
         if: steps.config.outputs.signed == 'true'
-        # 打包时只做 ad-hoc 签名（把 iCloud 等 entitlements 写进二进制），真正的签名交给下一步导出：
-        # 自动签名在打包阶段只能用开发证书，而开发描述文件要求团队至少注册一台设备；
-        # 导出时用 API 密钥调用苹果的云端托管分发证书重新签名，不需要设备，也不需要在 CI 里保存证书。
+        # 打包时不签名，签名交给导出步骤：自动签名在打包阶段只能用开发证书（要求团队注册过设备），
+        # 而 Xcode 26 也不允许对 iOS 真机构建做 ad-hoc 签名。
         run: |
           set -o pipefail
           xcodebuild -project SeichiJunrei.xcodeproj -scheme SeichiJunrei \
@@ -87,35 +86,29 @@ jobs:
             DEVELOPMENT_TEAM="$TEAM_ID" \
             MARKETING_VERSION="$MARKETING_VERSION" \
             CURRENT_PROJECT_VERSION="$BUILD_NUMBER" \
-            CODE_SIGN_STYLE=Manual \
-            CODE_SIGN_IDENTITY="-" \
-            CODE_SIGNING_REQUIRED=NO \
-            CODE_SIGNING_ALLOWED=YES \
-            PROVISIONING_PROFILE_SPECIFIER="" \
+            CODE_SIGNING_ALLOWED=NO \
             archive | tail -n 80
 
-      - name: Verify entitlements in the archive
+      - name: Embed entitlements
         if: steps.config.outputs.signed == 'true'
+        # 用 codesign 直接给未签名的 App 写入 entitlements（iCloud / CloudKit），
+        # 导出时的分发签名会保留这些 entitlements。
         run: |
           APP="$RUNNER_TEMP/SeichiJunrei.xcarchive/Products/Applications/SeichiJunrei.app"
-          codesign -d --entitlements - --xml "$APP" > "$RUNNER_TEMP/ent.plist" 2>/dev/null || true
-          plutil -p "$RUNNER_TEMP/ent.plist" || true
-          if ! grep -q "iCloud.com.xianlisi.seichijunrei" "$RUNNER_TEMP/ent.plist"; then
-            echo "::error::归档中缺少 iCloud entitlements，校准数据将无法提交到 CloudKit"
-            exit 1
-          fi
+          codesign --force --sign - --entitlements SeichiJunrei/SeichiJunrei.entitlements --generate-entitlement-der "$APP"
+          codesign -d --entitlements - "$APP"
 
-      - name: Upload to App Store Connect (TestFlight)
+      - name: Write export options
         if: steps.config.outputs.signed == 'true'
         run: |
-          set -o pipefail
-          cat > "$RUNNER_TEMP/ExportOptions.plist" <<PLIST
+          for dest in export upload; do
+            cat > "$RUNNER_TEMP/ExportOptions-$dest.plist" <<PLIST
           <?xml version="1.0" encoding="UTF-8"?>
           <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
           <plist version="1.0">
           <dict>
             <key>method</key><string>app-store-connect</string>
-            <key>destination</key><string>upload</string>
+            <key>destination</key><string>$dest</string>
             <key>teamID</key><string>${TEAM_ID}</string>
             <key>signingStyle</key><string>automatic</string>
             <key>uploadSymbols</key><true/>
@@ -123,9 +116,37 @@ jobs:
           </dict>
           </plist>
           PLIST
+          done
+
+      - name: Export signed IPA and verify entitlements
+        if: steps.config.outputs.signed == 'true'
+        # 先在本地导出一份正式签名的 IPA，检查最终签名里确实带着 iCloud 容器，再上传
+        run: |
+          set -o pipefail
           xcodebuild -exportArchive \
             -archivePath "$RUNNER_TEMP/SeichiJunrei.xcarchive" \
-            -exportOptionsPlist "$RUNNER_TEMP/ExportOptions.plist" \
+            -exportOptionsPlist "$RUNNER_TEMP/ExportOptions-export.plist" \
+            -exportPath "$RUNNER_TEMP/ipa" \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath "$KEY_PATH" \
+            -authenticationKeyID "$ASC_KEY_ID" \
+            -authenticationKeyIssuerID "$ASC_ISSUER_ID" | tail -n 40
+          mkdir -p "$RUNNER_TEMP/unzipped"
+          unzip -q -o "$RUNNER_TEMP"/ipa/*.ipa -d "$RUNNER_TEMP/unzipped"
+          APP=$(ls -d "$RUNNER_TEMP"/unzipped/Payload/*.app)
+          codesign -d --entitlements - --xml "$APP" > "$RUNNER_TEMP/final-ent.plist" 2>/dev/null
+          plutil -p "$RUNNER_TEMP/final-ent.plist"
+          grep -q "iCloud.com.xianlisi.seichijunrei" "$RUNNER_TEMP/final-ent.plist" || { echo "::error::最终签名缺少 iCloud 容器 entitlement（请确认 App ID 已开启 iCloud 并选中容器）"; exit 1; }
+          grep -q "$TEAM_ID.$BUNDLE_ID" "$RUNNER_TEMP/final-ent.plist" || { echo "::error::最终签名缺少 application-identifier"; exit 1; }
+          codesign -d -vv "$APP" 2>&1 | grep -E "Authority|TeamIdentifier" || true
+
+      - name: Upload to App Store Connect (TestFlight)
+        if: steps.config.outputs.signed == 'true'
+        run: |
+          set -o pipefail
+          xcodebuild -exportArchive \
+            -archivePath "$RUNNER_TEMP/SeichiJunrei.xcarchive" \
+            -exportOptionsPlist "$RUNNER_TEMP/ExportOptions-upload.plist" \
             -exportPath "$RUNNER_TEMP/export" \
             -allowProvisioningUpdates \
             -authenticationKeyPath "$KEY_PATH" \
