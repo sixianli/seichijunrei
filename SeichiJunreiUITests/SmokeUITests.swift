@@ -243,14 +243,13 @@ final class SmokeUITests: XCTestCase {
     func testCalibrationSubmission() throws {
         launch(heading: 216, pitch: 12, extraEnv: ["SEICHI_FAKE_SUBMIT": "1"])
         enterSceneFromBanner()
-        // 已对准时会先出现庆祝画面（出现时间取决于权限弹窗等），点“继续欣赏”回到取景界面。
-        // 不用固定时长等待庆祝画面：等“继续欣赏”或校准按钮中任意一个出现。
+        // 朝向与名场面完全一致，所以一定会先出现庆祝画面（出现时间取决于相机启动等）。
+        // 等庆祝画面出现后点“继续欣赏”，回到取景界面再找校准按钮。
+        XCTAssertTrue(app.staticTexts["celebrationTitle"].waitForExistence(timeout: 15), "对准后应出现庆祝画面")
         let keepLooking = app.buttons["继续欣赏"]
+        XCTAssertTrue(keepLooking.waitForExistence(timeout: 5))
+        keepLooking.tap()
         let calibrate = app.buttons["sceneCalibrate"]
-        let either = app.buttons.matching(NSPredicate(format: "identifier == 'sceneCalibrate' OR label == '继续欣赏'")).firstMatch
-        XCTAssertTrue(either.waitForExistence(timeout: 12), "应进入名场面模式")
-        sleep(1)   // 对准后庆祝画面在 0.8 秒内出现，给它一点时间
-        if keepLooking.exists { keepLooking.tap() }
         XCTAssertTrue(calibrate.waitForExistence(timeout: 8), "名场面模式应有校准入口")
         calibrate.tap()
         XCTAssertTrue(app.staticTexts["数据质量良好，可以提交"].waitForExistence(timeout: 8), "模拟器注入的读数应判定为质量良好")
