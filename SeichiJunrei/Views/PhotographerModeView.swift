@@ -2,6 +2,7 @@ import SwiftUI
 import UIKit
 import AVFoundation
 import PhotosUI
+import Photos
 import QuartzCore
 import Combine
 import SeichiCore
@@ -271,12 +272,15 @@ struct PhotographerModeView: View {
                 }
 
                 if let result {
+                    Color.black.opacity(0.6).ignoresSafeArea()
+                        .transition(.opacity)
                     ResultCard(image: result, tint: spot.tintColor,
                                onShare: { showShare = true },
                                onRetake: { self.result = nil },
                                onDone: { dismiss() })
+                        .frame(maxWidth: 420)
                         .padding()
-                        .transition(.move(edge: .bottom).combined(with: .opacity))
+                        .transition(.opacity.combined(with: .scale(scale: 0.95)))
                 }
             }
             .ignoresSafeArea()
@@ -431,6 +435,8 @@ struct PhotographerModeView: View {
     // MARK: 逻辑
 
     private func startShooting() {
+        // 先请求“添加到相册”的权限，免得系统弹窗在按下快门的那一刻打断
+        PHPhotoLibrary.requestAuthorization(for: .addOnly) { _ in }
         store.recordSceneEntry(spot.id)
         UIApplication.shared.isIdleTimerDisabled = true
         camera.detectsPeople = true
@@ -687,7 +693,8 @@ private struct ResultCard: View {
         }
         .foregroundStyle(.white)
         .padding()
-        .glassSurface(RoundedRectangle(cornerRadius: 30, style: .continuous))
+        // 结果卡片是内容而不是控件：用实底，避免玻璃形变动画从附近的按钮“长出来”
+        .background(Color(white: 0.12), in: RoundedRectangle(cornerRadius: 30, style: .continuous))
     }
 }
 

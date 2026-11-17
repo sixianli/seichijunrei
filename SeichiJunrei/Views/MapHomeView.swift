@@ -300,6 +300,8 @@ private struct MediaFilterBar: View {
         } label: {
             Label(title, systemImage: symbol)
                 .font(.footnote.weight(.semibold))
+                .lineLimit(1)
+                .fixedSize()                                // “日漫”这样的短词也不能被挤成两行
                 .padding(.horizontal, 14)
                 .frame(minHeight: 44)                       // HIG：触控区域 ≥ 44pt
                 .foregroundStyle(isOn ? Color.white : Color.primary)
