@@ -17,6 +17,7 @@ struct MapHomeView: View {
     @Environment(StoreService.self) private var storeKit
     @State private var showPaywall = false
     @State private var showSettings = false
+    @State private var showSubmit = false
     /// 地图上被点选的标记（spot id）
     @State private var mapSelection: String?
 
@@ -65,7 +66,7 @@ struct MapHomeView: View {
             UserAnnotation()
             // 系统标记：标题显示“日漫《龙猫》”这样的作品名，重叠时 MapKit 会自动隐藏次要的标题
             ForEach(mapSpots) { spot in
-                Marker(spot.workBadge, systemImage: spot.mediaType.category.symbolName, coordinate: spot.clCoordinate)
+                Marker(spot.badgeWithNumber, systemImage: spot.mediaType.category.symbolName, coordinate: spot.clCoordinate)
                     .tint(spot.tintColor)
                     .tag(spot.id)
             }
@@ -140,6 +141,11 @@ struct MapHomeView: View {
                     .accessibilityIdentifier("openSettings")
             }
             ToolbarItem(placement: .topBarTrailing) {
+                Button { showSubmit = true } label: { Image(systemName: "plus") }
+                    .accessibilityLabel(L("submit.title"))
+                    .accessibilityIdentifier("openSubmit")
+            }
+            ToolbarItem(placement: .topBarTrailing) {
                 Button { showList = true } label: { Image(systemName: "list.bullet") }
                     .accessibilityLabel(L("map.allScenes"))
                     .accessibilityIdentifier("openList")
@@ -171,6 +177,7 @@ struct MapHomeView: View {
         }
         .sheet(isPresented: $showPaywall) { PaywallView() }
         .sheet(isPresented: $showSettings) { SettingsView() }
+        .sheet(isPresented: $showSubmit) { SubmitSceneView() }
         .fullScreenCover(item: $sceneSpot) { spot in
             SceneModeView(spot: spot)
         }
@@ -220,11 +227,34 @@ struct MapHomeView: View {
     @ViewBuilder private var carousel: some View {
         if focus != nil || mediaFilter != nil {
             NearbyCarousel(title: focus?.title ?? L("map.typeScenes", mediaFilter?.label ?? ""),
-                           items: store.items(for: mapSpots)) { selected = $0 }
+                           systemImage: "scope",
+                           items: store.items(for: mapSpots),
+                           onTitleTap: { fitCamera(to: mapSpots) }) { selected = $0 }
         } else {
             let within = store.nearbyWithinRadius
             NearbyCarousel(title: within.isEmpty ? L("map.nearestScenes") : L("map.nearbyScenes"),
-                           items: within.isEmpty ? Array(store.nearby.prefix(10)) : within) { selected = $0 }
+                           systemImage: "location.fill",
+                           items: within.isEmpty ? Array(store.nearby.prefix(10)) : within,
+                           onTitleTap: showNearby) { selected = $0 }
+        }
+    }
+
+    /// 点“附近的名场面”：回到我的位置，并把离我最近的几个名场面一起框进地图
+    private func showNearby() {
+        guard let loc = location.lastLocation else {
+            withAnimation { camera = .userLocation(fallback: camera) }
+            return
+        }
+        let nearest = Array(store.nearby.prefix(3)).map(\.spot)
+        var points = nearest.map(\.coordinate)
+        points.append(loc.geoPoint)
+        let lats = points.map(\.latitude), lons = points.map(\.longitude)
+        let span = MKCoordinateSpan(latitudeDelta: max((lats.max()! - lats.min()!) * 1.5, 0.02),
+                                    longitudeDelta: max((lons.max()! - lons.min()!) * 1.5, 0.02))
+        let center = CLLocationCoordinate2D(latitude: (lats.max()! + lats.min()!) / 2,
+                                            longitude: (lons.max()! + lons.min()!) / 2)
+        withAnimation(.easeInOut(duration: 0.8)) {
+            camera = .region(MKCoordinateRegion(center: center, span: span))
         }
     }
 
@@ -345,7 +375,7 @@ struct WorkMatchRow: View {
 
     var body: some View {
         HStack(spacing: 12) {
-            if let first = match.spots.first { WorkCover(spot: first, size: 34) }
+            CategoryIcon(category: match.mediaType.category, size: 36)
             VStack(alignment: .leading, spacing: 2) {
                 // 当前语言的名字在上，原名在下（日语环境只显示原名）
                 HStack(spacing: 6) {
@@ -362,9 +392,10 @@ struct WorkMatchRow: View {
                     .font(.caption2).foregroundStyle(.tertiary).lineLimit(1)
             }
             Spacer()
-            Text("\(match.spots.count)")
-                .font(.callout.bold().monospacedDigit())
+            Text(sceneCountText(match.spots.count))
+                .font(.caption.weight(.semibold).monospacedDigit())
                 .foregroundStyle(.secondary)
+                .fixedSize()
         }
         .contentShape(Rectangle())
     }
@@ -460,17 +491,26 @@ private struct PermissionBanner: View {
 
 private struct NearbyCarousel: View {
     let title: String
+    let systemImage: String
     let items: [NearbySpot]
+    /// 点标题：回到我的位置 / 把这组名场面框进地图
+    let onTitleTap: () -> Void
     let onSelect: (Spot) -> Void
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            // 名场面卡片属于“内容”，保持实底；只有标题这一小块控制层用玻璃
-            Text(title)
-                .font(.subheadline.weight(.semibold))
-                .lineLimit(1)
-                .padding(.horizontal, 14).padding(.vertical, 8)
-                .glassSurface(Capsule())
+            // 名场面卡片属于“内容”，保持实底；标题是一个控件（回到我的位置），用玻璃按钮
+            Button(action: onTitleTap) {
+                Label(title, systemImage: systemImage)
+                    .font(.subheadline.weight(.semibold))
+                    .lineLimit(1)
+                    .padding(.horizontal, 14).padding(.vertical, 8)
+                    .frame(minHeight: 44)
+                    .glassSurface(Capsule(), interactive: true)
+                    .contentShape(Capsule())
+            }
+            .buttonStyle(.plain)
+            .accessibilityIdentifier("carouselTitle")
                 .padding(.horizontal)
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack(spacing: 12) {
@@ -502,7 +542,7 @@ struct SpotCard: View {
                 .frame(width: 72, height: 72)
                 .clipShape(RoundedRectangle(cornerRadius: 10))
             VStack(alignment: .leading, spacing: 3) {
-                Text(item.spot.workBadge).font(.caption).foregroundStyle(item.spot.tintColor).lineLimit(1)
+                Text(item.spot.badgeWithNumber).font(.caption).foregroundStyle(item.spot.tintColor).lineLimit(1)
                 Text(item.spot.sceneTitle).font(.subheadline.bold()).lineLimit(1)
                 if item.distance.isFinite {
                     Label(NearbySearch.formatDistance(item.distance), systemImage: "location.north.line")
@@ -522,4 +562,9 @@ struct SpotCard: View {
         .background(.background, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
         .shadow(color: .black.opacity(0.08), radius: 4, y: 2)
     }
+}
+
+/// “2 个名场面” / “1 scene”
+func sceneCountText(_ n: Int) -> String {
+    n == 1 ? L("list.sceneCountOne") : L("list.sceneCount", n)
 }

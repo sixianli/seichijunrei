@@ -29,23 +29,8 @@ struct SpotDetailView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
-                VStack(alignment: .leading, spacing: 6) {
-                    SceneArtwork(spot: spot, useLocationPhoto: true)
-                        .frame(height: 220)
-                        .frame(maxWidth: .infinity)
-                        .clipShape(RoundedRectangle(cornerRadius: 18))
-                        .overlay(alignment: .topLeading) {
-                            if showsLocationPhoto {
-                                Label(L("photo.realPlace"), systemImage: "photo")
-                                    .font(.caption2.bold())
-                                    .padding(.horizontal, 8).padding(.vertical, 4)
-                                    .glassSurface(Capsule())
-                                    .padding(10)
-                            }
-                        }
-                    if showsLocationPhoto, let photo = spot.photo { PhotoCredit(photo: photo) }
-                    sceneImageControls
-                }
+                // 名场面画面：自己的截图 → 实景照片 → Apple 街景 → 3D 卫星图，保证不会空着
+                SpotHeroImage(spot: spot)
 
                 header
 
@@ -67,16 +52,23 @@ struct SpotDetailView: View {
                 }
 
                 VStack(spacing: 10) {
-                    Button(action: onEnterScene) {
-                        Label(arrived ? L("detail.enterScene") : L("detail.startGuide"),
-                              systemImage: arrived ? "camera.viewfinder" : "figure.walk.motion")
-                            .font(.headline)
-                            .frame(maxWidth: .infinity, minHeight: 34)
+                    VStack(spacing: 6) {
+                        Button(action: onEnterScene) {
+                            Label(arrived ? L("detail.enterScene") : L("detail.startGuide"),
+                                  systemImage: arrived ? "camera.viewfinder" : "figure.walk.motion")
+                                .font(.headline)
+                                .frame(maxWidth: .infinity, minHeight: 34)
+                        }
+                        // 页面的主要操作：带主题色的玻璃按钮
+                        .glassButton(prominent: true, tint: spot.tintColor)
+                        .controlSize(.large)
+                        .accessibilityIdentifier("enterScene")
+                        // 说清楚按下去会发生什么
+                        Text(arrived ? L("detail.enterSceneHint") : L("detail.startGuideHint"))
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                            .multilineTextAlignment(.center)
                     }
-                    // 页面的主要操作：带主题色的玻璃按钮
-                    .glassButton(prominent: true, tint: spot.tintColor)
-                    .controlSize(.large)
-                    .accessibilityIdentifier("enterScene")
 
                     Button(action: onPhotographer) {
                         Label(L("detail.photographer"), systemImage: "person.2.crop.square.stack")
@@ -106,11 +98,11 @@ struct SpotDetailView: View {
                     }
                 }
 
-                DetailSection(title: L("detail.story"), systemImage: "book", tint: spot.tintColor) {
+                DetailSection(title: L("detail.story"), systemImage: "book.fill", tint: spot.tintColor) {
                     storyText
                 }
 
-                DetailSection(title: L("detail.guide"), systemImage: "map", tint: spot.tintColor) {
+                DetailSection(title: L("detail.guide"), systemImage: "map.fill", tint: spot.tintColor) {
                     VStack(alignment: .leading, spacing: 12) {
                         if let access = spot.access {
                             InfoRow(title: L("detail.access"), text: access, systemImage: "tram.fill")
@@ -125,7 +117,15 @@ struct SpotDetailView: View {
                     }
                 }
 
+                DetailSection(title: L("community.title"), systemImage: "person.2.fill", tint: spot.tintColor) {
+                    CommunityPhotosSection(spot: spot)
+                }
+
                 aboutWork
+
+                DetailSection(title: L("detail.myScreenshot"), systemImage: "photo.on.rectangle", tint: spot.tintColor) {
+                    sceneImageControls
+                }
 
                 if !spot.verified {
                     Label(L("detail.unverified"), systemImage: "info.circle")
@@ -149,7 +149,7 @@ struct SpotDetailView: View {
 
     private var header: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Text(spot.workBadge)
+            Text(spot.badgeWithNumber)
                 .font(.subheadline.bold())
                 .foregroundStyle(spot.tintColor)
             if let original = spot.originalWorkName {
@@ -207,12 +207,12 @@ struct SpotDetailView: View {
     }
 
     @ViewBuilder private var aboutWork: some View {
-        DetailSection(title: L("detail.aboutWork"), systemImage: spot.mediaType.category.symbolName, tint: spot.tintColor) {
+        DetailSection(title: L("detail.aboutWork"), systemImage: "film.stack", tint: spot.tintColor) {
             VStack(alignment: .leading, spacing: 10) {
-                HStack(alignment: .top, spacing: 12) {
-                    WorkCover(spot: spot, size: 46)
+                HStack(alignment: .center, spacing: 12) {
+                    CategoryIcon(category: spot.mediaType.category, size: 40)
                     VStack(alignment: .leading, spacing: 3) {
-                        Text(spot.workName).font(.headline)
+                        Text(spot.quotedWorkName).font(.headline)
                         if let original = spot.originalWorkName {
                             Text(original).font(.subheadline).foregroundStyle(.secondary)
                         }
@@ -306,6 +306,7 @@ private struct Tag: View {
     }
 }
 
+/// 详情页的一个区块：浅色卡片 + 带主题色圆形图标的标题，区块之间层次分明
 private struct DetailSection<Content: View>: View {
     let title: String
     let systemImage: String
@@ -313,24 +314,22 @@ private struct DetailSection<Content: View>: View {
     @ViewBuilder let content: Content
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Label(title, systemImage: systemImage)
-                .font(.headline)
-                .foregroundStyle(.primary)
-                .labelStyle(TintedIconLabelStyle(tint: tint))
+        VStack(alignment: .leading, spacing: 12) {
+            HStack(spacing: 10) {
+                Image(systemName: systemImage)
+                    .font(.system(size: 14, weight: .bold))
+                    .foregroundStyle(.white)
+                    .frame(width: 30, height: 30)
+                    .background(tint.gradient, in: Circle())
+                Text(title).font(.headline)
+            }
+            .accessibilityElement(children: .combine)
+            .accessibilityAddTraits(.isHeader)
             content
         }
+        .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
-    }
-}
-
-private struct TintedIconLabelStyle: LabelStyle {
-    let tint: Color
-    func makeBody(configuration: Configuration) -> some View {
-        HStack(spacing: 6) {
-            configuration.icon.foregroundStyle(tint)
-            configuration.title
-        }
+        .background(Color(.secondarySystemBackground), in: RoundedRectangle(cornerRadius: 22, style: .continuous))
     }
 }
 

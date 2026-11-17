@@ -25,6 +25,11 @@ struct SeichiJunreiApp: App {
                     // 之前因断网 / 未登录 iCloud 没能提交的校准数据，自动补传
                     Task { await CalibrationService.shared.retryPending() }
                     store.load()
+                    // 审核通过的用户投稿，合并进地图
+                    Task {
+                        await CommunityService.shared.loadApprovedScenes()
+                        store.setCommunity(CommunityService.shared.approvedScenes)
+                    }
                     location.start()
                     #if DEBUG
                     // UI 测试 / 演示：通过环境变量把位置固定在某个坐标

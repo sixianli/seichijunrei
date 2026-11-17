@@ -5,6 +5,7 @@ import PhotosUI
 import Photos
 import QuartzCore
 import Combine
+import CoreLocation
 import SeichiCore
 
 // MARK: - 主角构图（用户在自己的截图上标记，保存在本机）
@@ -79,13 +80,10 @@ struct PhotographerModeView: View {
     @AppStorage("pgVoice") private var voice = false
     @AppStorage("pgGhost") private var showGhost = true
 
-    @State private var guidance: FramingGuidance?
-    @State private var perfectSince: CFTimeInterval?
-    @State private var countdown: Int?
-    @State private var countdownTask: Task<Void, Never>?
-    @State private var lastZoomAdjust: CFTimeInterval = 0
-    @State private var lastSpoken: (key: String, time: CFTimeInterval) = ("", 0)
-    @State private var subjectAtShutter: UnitRect?
+    /// 每秒刷新约 10 次的取景状态。放在单独的对象里，只让需要它的子视图订阅，
+    /// 避免整页（包括按钮、菜单）跟着高频重绘导致点击失灵。
+    @State private var live = PhotographerLive()
+    @State private var toast: String?
     @State private var result: UIImage?
     @State private var closeAfterResult = false
 
@@ -116,7 +114,7 @@ struct PhotographerModeView: View {
         }
         .onDisappear {
             UIApplication.shared.isIdleTimerDisabled = false
-            countdownTask?.cancel()
+            live.countdownTask?.cancel()
             orientation.stop()
             camera.stop()
             speech.stopSpeaking(at: .immediate)
@@ -244,31 +242,32 @@ struct PhotographerModeView: View {
                         .allowsHitTesting(false)
                 }
 
-                FramingOverlay(target: mapper.rect(target.box(aspect: 0.75)),
-                               subject: camera.subjectBox.map { mapper.rect($0) },
-                               score: guidance?.score ?? 0,
-                               perfect: guidance?.step == .perfect)
+                LiveFramingOverlay(live: live, camera: camera, mapper: mapper, target: target)
 
                 VStack(spacing: 0) {
                     topBar
-                    instructionBanner
+                    InstructionBanner(live: live, spot: spot, language: guideLanguage)
                         .padding(.horizontal)
                         .padding(.top, 8)
+                    if let toast {
+                        Text(toast)
+                            .font(.subheadline.weight(.semibold))
+                            .padding(.horizontal, 14).padding(.vertical, 8)
+                            .background(.black.opacity(0.6), in: Capsule())
+                            .padding(.top, 10)
+                            .transition(.opacity)
+                            .task(id: toast) {
+                                try? await Task.sleep(for: .seconds(1.6))
+                                withAnimation { self.toast = nil }
+                            }
+                    }
                     Spacer()
                     bottomBar
                 }
                 .padding(.top, geo.safeAreaInsets.top + 8)
                 .padding(.bottom, geo.safeAreaInsets.bottom + 16)
 
-                if let n = countdown {
-                    Text("\(n)")
-                        .font(.system(size: 140, weight: .heavy, design: .rounded))
-                        .foregroundStyle(.white)
-                        .shadow(radius: 12)
-                        .transition(.scale.combined(with: .opacity))
-                        .id(n)
-                        .accessibilityIdentifier("pgCountdown")
-                }
+                CountdownOverlay(live: live)
 
             }
             .ignoresSafeArea()
@@ -293,8 +292,9 @@ struct PhotographerModeView: View {
     private var topBar: some View {
         HStack {
             Button {
-                countdownTask?.cancel(); countdown = nil
+                cancelCountdown()
                 camera.stop()
+                speech.stopSpeaking(at: .immediate)
                 shooting = false
             } label: {
                 Image(systemName: "chevron.backward").font(.headline)
@@ -311,8 +311,10 @@ struct PhotographerModeView: View {
                 .glassSurface(Capsule())
             Spacer()
             Menu {
-                ForEach(AppLanguage.supported, id: \.self) { code in
-                    Button(AppLanguage.nativeName(code)) { guideLanguage = code }
+                Picker(L("pg.guideLanguage"), selection: $guideLanguage) {
+                    ForEach(AppLanguage.supported, id: \.self) { code in
+                        Text(AppLanguage.nativeName(code)).tag(code)
+                    }
                 }
             } label: {
                 Image(systemName: "character.bubble").font(.headline)
@@ -325,111 +327,66 @@ struct PhotographerModeView: View {
         .padding(.horizontal)
     }
 
-    /// 当前最重要的一条指令：大图标 + 大字
-    private var instructionBanner: some View {
-        let (symbol, text) = instruction
-        let perfect = guidance?.step == .perfect
-        return HStack(spacing: 14) {
-            Image(systemName: symbol)
-                .font(.system(size: 40, weight: .bold))
-                .frame(width: 56)
-                .contentTransition(.symbolEffect(.replace))
-            Text(text)
-                .font(.title2.bold())
-                .minimumScaleFactor(0.6)
-                .lineLimit(2)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .accessibilityIdentifier("pgInstruction")
-        }
-        .foregroundStyle(.white)
-        .padding(16)
-        .glassSurface(RoundedRectangle(cornerRadius: 26, style: .continuous),
-                      tint: perfect ? Color.green : nil)
-        .animation(.snappy, value: text)
-    }
-
-    private var instruction: (String, String) {
-        let lang = guideLanguage
-        if farFromSpot, let d = distanceToSpot, let loc = location.lastLocation {
-            let bearing = GeoMath.bearing(from: loc.geoPoint, to: spot.coordinate)
-            return ("figure.walk", LIn(lang, "pg.goto", NearbySearch.formatDistance(d),
-                                       LIn(lang, "compass.\(GeoMath.compassIndex(bearing))")))
-        }
-        guard let g = guidance else { return ("location.north.line", LIn(lang, "pg.find")) }
-        func m(_ v: Double) -> String { String(format: abs(v) < 1 ? "%.1f" : "%.0f", abs(v)) }
-        switch g.step {
-        case .findSubject: return ("person.fill.viewfinder", LIn(lang, "pg.find"))
-        case .turn(let d): return d > 0 ? ("arrow.turn.up.right", LIn(lang, "pg.turnRight", abs(d)))
-                                        : ("arrow.turn.up.left", LIn(lang, "pg.turnLeft", abs(d)))
-        case .tilt(let d): return d > 0 ? ("arrow.up.to.line", LIn(lang, "pg.tiltUp", abs(d)))
-                                        : ("arrow.down.to.line", LIn(lang, "pg.tiltDown", abs(d)))
-        case .moveCloser(let v): return ("figure.walk.arrival", LIn(lang, "pg.closer", m(v)))
-        case .moveBack(let v): return ("figure.walk.departure", LIn(lang, "pg.back", m(v)))
-        case .sidestep(let v): return v > 0 ? ("arrow.right", LIn(lang, "pg.stepRight", m(v)))
-                                            : ("arrow.left", LIn(lang, "pg.stepLeft", m(v)))
-        case .raise: return ("arrow.up", LIn(lang, "pg.raise"))
-        case .lower: return ("arrow.down", LIn(lang, "pg.lower"))
-        case .perfect: return ("checkmark.circle.fill", LIn(lang, "pg.perfect"))
-        }
-    }
-
     private var bottomBar: some View {
-        GlassGroup(spacing: 18) {
+        Group {
             HStack(spacing: 18) {
                 VStack(spacing: 10) {
-                    toggle(L("pg.ghost"), symbol: showGhost ? "square.on.square.fill" : "square.on.square",
-                           on: showGhost) { showGhost.toggle() }
-                        .disabled(!SceneImageStore.shared.hasImage(for: spot.id))
-                    toggle(L("pg.voice"), symbol: voice ? "speaker.wave.2.fill" : "speaker.slash",
-                           on: voice) { voice.toggle() }
+                    toggle(L("pg.ghost"), symbol: "square.on.square", on: showGhost && hasScreenshot) {
+                        guard hasScreenshot else { show(L("pg.ghostNeedsImage")); return }
+                        showGhost.toggle()
+                        show(L(showGhost ? "pg.ghostOn" : "pg.ghostOff"))
+                    }
+                    toggle(L("pg.voice"), symbol: voice ? "speaker.wave.2.fill" : "speaker.slash.fill", on: voice) {
+                        voice.toggle()
+                        show(L(voice ? "pg.voiceOn" : "pg.voiceOff"))
+                        if voice { speakNow() } else { speech.stopSpeaking(at: .immediate) }
+                    }
+                    .accessibilityIdentifier("pgVoice")
                 }
                 // 快门：外圈显示对齐进度
                 Button(action: shutter) {
-                    ZStack {
-                        Circle().stroke(.white.opacity(0.25), lineWidth: 5)
-                        Circle()
-                            .trim(from: 0, to: guidance?.score ?? 0)
-                            .stroke(guidance?.step == .perfect ? Color.green : Color.white,
-                                    style: StrokeStyle(lineWidth: 5, lineCap: .round))
-                            .rotationEffect(.degrees(-90))
-                            .animation(.easeOut(duration: 0.2), value: guidance?.score)
-                        Circle().fill(.white).padding(9)
-                    }
-                    .frame(width: 84, height: 84)
+                    ShutterRing(live: live).frame(width: 84, height: 84)
                 }
                 .buttonStyle(.plain)
                 .accessibilityLabel(L("celebrate.photo"))
                 .accessibilityIdentifier("pgShutter")
                 VStack(spacing: 10) {
-                    toggle(L("pg.autoShutter"), symbol: autoShutter ? "timer" : "timer.circle",
-                           on: autoShutter) { autoShutter.toggle() }
-                        .accessibilityIdentifier("pgAutoShutter")
-                    if camera.zoomFactor > 1.01 {
-                        Text(String(format: "%.1f×", camera.zoomFactor))
-                            .font(.caption.bold().monospacedDigit())
-                            .frame(width: 56, height: 44)
-                            .glassSurface(Capsule())
-                    } else {
-                        Color.clear.frame(width: 56, height: 44)
+                    toggle(L("pg.autoShutter"), symbol: "timer", on: autoShutter) {
+                        autoShutter.toggle()
+                        if !autoShutter { cancelCountdown() }
+                        show(L(autoShutter ? "pg.autoOn" : "pg.autoOff"))
                     }
+                    .accessibilityIdentifier("pgAutoShutter")
+                    // 只是状态显示（自动变焦的倍数），不是按钮
+                    ZoomReadout(camera: camera).frame(width: 64, height: 50)
                 }
             }
         }
         .foregroundStyle(.white)
     }
 
+    private var hasScreenshot: Bool { SceneImageStore.shared.hasImage(for: spot.id) }
+
+    /// 开关按钮：打开时用相机 App 惯用的黄色高亮，并在下方写明“开 / 关”
     private func toggle(_ title: String, symbol: String, on: Bool, action: @escaping () -> Void) -> some View {
         Button(action: action) {
             VStack(spacing: 2) {
                 Image(systemName: symbol).font(.body.weight(.semibold))
-                Text(title).font(.caption2)
+                Text(title).font(.caption2.weight(.semibold))
+                Text(on ? L("pg.on") : L("pg.off")).font(.system(size: 9, weight: .bold))
             }
-            .frame(width: 56, height: 50)
-            .glassSurface(RoundedRectangle(cornerRadius: 16, style: .continuous),
-                          tint: on ? Color.white.opacity(0.25) : nil, interactive: true)
+            .foregroundStyle(on ? Color.black : Color.white)
+            .frame(width: 64, height: 58)
+            .background(on ? Color.yellow : Color.black.opacity(0.45),
+                        in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+            .contentShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
         }
         .buttonStyle(.plain)
         .accessibilityAddTraits(on ? .isSelected : [])
+    }
+
+    private func show(_ message: String) {
+        withAnimation { toast = message }
     }
 
     // MARK: 逻辑
@@ -468,40 +425,53 @@ struct PhotographerModeView: View {
             headingDelta: headingDelta, pitchDelta: pitchDelta,
             verticalFOV: fov.vertical, horizontalFOV: fov.horizontal,
             zoomCorrectable: (range.lowerBound / zoom)...(range.upperBound / zoom))
-        let previous = guidance?.step
-        guidance = g
+        let previous = live.guidance?.step
+        if live.guidance != g { live.guidance = g }
         let now = CACurrentMediaTime()
 
         // 自动变焦：人物大小差一点时由 App 补上（限制频率，等画面稳定后再调）
-        if let subject = camera.subjectBox, abs(headingDelta ?? 0) < 20, now - lastZoomAdjust > 0.5 {
+        if let subject = camera.subjectBox, abs(headingDelta ?? 0) < 20, now - live.lastZoomAdjust > 0.5 {
             let needed = target.height / max(subject.height, 0.02)
             if abs(needed - 1) > 0.06 {
                 camera.setZoom(zoom * (1 + (needed - 1) * 0.6))
-                lastZoomAdjust = now
+                live.lastZoomAdjust = now
             }
         }
 
         // 反馈：越接近越密集的震动；完全对齐时一次成功反馈
         if g.step == .perfect {
             if previous != .perfect { haptics.success() }
-            if perfectSince == nil { perfectSince = now }
-            if autoShutter, countdown == nil, let since = perfectSince, now - since > 1.0 { startCountdown() }
+            if live.perfectSince == nil { live.perfectSince = now }
+            if autoShutter, live.countdown == nil, let since = live.perfectSince, now - since > 1.0 { startCountdown() }
         } else {
             haptics.tick(alignment: g.score)
-            perfectSince = nil
-            if countdown != nil, g.score < 0.75 { cancelCountdown() }
+            live.perfectSince = nil
+            if live.countdown != nil, g.score < 0.75 { cancelCountdown() }
         }
         speakIfNeeded(now: now)
     }
 
+    private var currentInstruction: String {
+        PhotographerInstruction.make(guidance: live.guidance, spot: spot, location: location.lastLocation,
+                                     language: guideLanguage).text
+    }
+
     private func speakIfNeeded(now: CFTimeInterval) {
-        guard voice, countdown == nil else { return }
-        let text = instruction.1
-        guard text != lastSpoken.key, now - lastSpoken.time > 1.8 else { return }
-        lastSpoken = (text, now)
+        guard voice, live.countdown == nil else { return }
+        let text = currentInstruction
+        guard text != live.lastSpoken, now - live.lastSpokenAt > 1.8 else { return }
+        speak(text, now: now)
+    }
+
+    /// 打开语音时立即读出当前指令，让用户马上知道开关生效了
+    private func speakNow() { speak(currentInstruction, now: CACurrentMediaTime()) }
+
+    private func speak(_ text: String, now: CFTimeInterval) {
+        live.lastSpoken = text
+        live.lastSpokenAt = now
         let utterance = AVSpeechUtterance(string: text)
         utterance.voice = AVSpeechSynthesisVoice(language: Self.speechLocale(guideLanguage))
-        speech.stopSpeaking(at: .word)
+        speech.stopSpeaking(at: .immediate)
         speech.speak(utterance)
     }
 
@@ -516,35 +486,35 @@ struct PhotographerModeView: View {
     }
 
     private func startCountdown() {
-        countdownTask?.cancel()
-        countdownTask = Task { @MainActor in
+        live.countdownTask?.cancel()
+        live.countdownTask = Task { @MainActor in
             for n in stride(from: 3, through: 1, by: -1) {
-                withAnimation(.spring(response: 0.3)) { countdown = n }
+                withAnimation(.spring(response: 0.3)) { live.countdown = n }
                 haptics.tick(alignment: 1)
                 try? await Task.sleep(for: .seconds(1))
                 if Task.isCancelled { return }
             }
-            countdown = nil
+            live.countdown = nil
             shutter()
         }
     }
 
     private func cancelCountdown() {
-        countdownTask?.cancel()
-        countdownTask = nil
-        withAnimation { countdown = nil }
+        live.countdownTask?.cancel()
+        live.countdownTask = nil
+        if live.countdown != nil { withAnimation { live.countdown = nil } }
     }
 
     private func shutter() {
         cancelCountdown()
-        subjectAtShutter = camera.subjectBox
+        live.subjectAtShutter = camera.subjectBox
         camera.capturePhoto()
     }
 
     /// 拍完：按原作构图自动裁切 → 存相册 → 记录巡礼
     private func handleCaptured(_ image: UIImage) {
         var final = image
-        if let subject = subjectAtShutter,
+        if let subject = live.subjectAtShutter,
            let crop = AutoReframe.cropRect(subject: subject, target: target) {
             final = image.cropped(to: crop) ?? image
         }
@@ -555,6 +525,146 @@ struct PhotographerModeView: View {
         pilgrimage.attachPhoto(final, spotID: spot.id)
         haptics.success()
         result = final
+    }
+}
+
+/// 帮拍取景的高频状态
+@Observable
+final class PhotographerLive {
+    var guidance: FramingGuidance?
+    var countdown: Int?
+    @ObservationIgnored var perfectSince: CFTimeInterval?
+    @ObservationIgnored var countdownTask: Task<Void, Never>?
+    @ObservationIgnored var lastZoomAdjust: CFTimeInterval = 0
+    @ObservationIgnored var lastSpoken = ""
+    @ObservationIgnored var lastSpokenAt: CFTimeInterval = 0
+    @ObservationIgnored var subjectAtShutter: UnitRect?
+}
+
+/// 给拍照的人的一条指令（图标 + 文字），可以用拍照人选的语言
+enum PhotographerInstruction {
+    static func make(guidance: FramingGuidance?, spot: Spot, location: CLLocation?,
+                     language lang: String) -> (symbol: String, text: String) {
+        if let loc = location {
+            let d = GeoMath.distance(from: loc.geoPoint, to: spot.coordinate)
+            if d > spot.arrivalRadius + 20 {
+                let bearing = GeoMath.bearing(from: loc.geoPoint, to: spot.coordinate)
+                return ("figure.walk", LIn(lang, "pg.goto", NearbySearch.formatDistance(d),
+                                           LIn(lang, "compass.\(GeoMath.compassIndex(bearing))")))
+            }
+        }
+        guard let g = guidance else { return ("location.north.line", LIn(lang, "pg.find")) }
+        func m(_ v: Double) -> String { String(format: abs(v) < 1 ? "%.1f" : "%.0f", abs(v)) }
+        switch g.step {
+        case .findSubject: return ("person.fill.viewfinder", LIn(lang, "pg.find"))
+        case .turn(let d): return d > 0 ? ("arrow.turn.up.right", LIn(lang, "pg.turnRight", abs(d)))
+                                        : ("arrow.turn.up.left", LIn(lang, "pg.turnLeft", abs(d)))
+        case .tilt(let d): return d > 0 ? ("arrow.up.to.line", LIn(lang, "pg.tiltUp", abs(d)))
+                                        : ("arrow.down.to.line", LIn(lang, "pg.tiltDown", abs(d)))
+        case .moveCloser(let v): return ("figure.walk.arrival", LIn(lang, "pg.closer", m(v)))
+        case .moveBack(let v): return ("figure.walk.departure", LIn(lang, "pg.back", m(v)))
+        case .sidestep(let v): return v > 0 ? ("arrow.right", LIn(lang, "pg.stepRight", m(v)))
+                                            : ("arrow.left", LIn(lang, "pg.stepLeft", m(v)))
+        case .raise: return ("arrow.up", LIn(lang, "pg.raise"))
+        case .lower: return ("arrow.down", LIn(lang, "pg.lower"))
+        case .perfect: return ("checkmark.circle.fill", LIn(lang, "pg.perfect"))
+        }
+    }
+}
+
+/// 当前最重要的一条指令：大图标 + 大字
+private struct InstructionBanner: View {
+    let live: PhotographerLive
+    let spot: Spot
+    let language: String
+    @Environment(LocationService.self) private var location
+
+    var body: some View {
+        let instruction = PhotographerInstruction.make(guidance: live.guidance, spot: spot,
+                                                       location: location.lastLocation, language: language)
+        let perfect = live.guidance?.step == .perfect
+        HStack(spacing: 14) {
+            Image(systemName: instruction.symbol)
+                .font(.system(size: 40, weight: .bold))
+                .frame(width: 56)
+                .contentTransition(.symbolEffect(.replace))
+            Text(instruction.text)
+                .font(.title2.bold())
+                .minimumScaleFactor(0.6)
+                .lineLimit(2)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .accessibilityIdentifier("pgInstruction")
+        }
+        .foregroundStyle(.white)
+        .padding(16)
+        .background(perfect ? Color.green.opacity(0.85) : Color.black.opacity(0.55),
+                    in: RoundedRectangle(cornerRadius: 26, style: .continuous))
+        .animation(.snappy, value: instruction.text)
+        .allowsHitTesting(false)
+    }
+}
+
+private struct LiveFramingOverlay: View {
+    let live: PhotographerLive
+    let camera: CameraController
+    let mapper: PhotoFrameMapper
+    let target: SubjectFraming
+
+    var body: some View {
+        FramingOverlay(target: mapper.rect(target.box(aspect: 0.75)),
+                       subject: camera.subjectBox.map { mapper.rect($0) },
+                       score: live.guidance?.score ?? 0,
+                       perfect: live.guidance?.step == .perfect)
+    }
+}
+
+private struct CountdownOverlay: View {
+    let live: PhotographerLive
+    var body: some View {
+        if let n = live.countdown {
+            Text("\(n)")
+                .font(.system(size: 140, weight: .heavy, design: .rounded))
+                .foregroundStyle(.white)
+                .shadow(radius: 12)
+                .transition(.scale.combined(with: .opacity))
+                .id(n)
+                .allowsHitTesting(false)
+                .accessibilityIdentifier("pgCountdown")
+        }
+    }
+}
+
+/// 快门：外圈显示对齐进度
+private struct ShutterRing: View {
+    let live: PhotographerLive
+    var body: some View {
+        let score = live.guidance?.score ?? 0
+        ZStack {
+            Circle().stroke(.white.opacity(0.25), lineWidth: 5)
+            Circle()
+                .trim(from: 0, to: score)
+                .stroke(live.guidance?.step == .perfect ? Color.green : Color.white,
+                        style: StrokeStyle(lineWidth: 5, lineCap: .round))
+                .rotationEffect(.degrees(-90))
+                .animation(.easeOut(duration: 0.2), value: score)
+            Circle().fill(.white).padding(9)
+        }
+    }
+}
+
+/// 自动变焦倍数（只是状态，不可点）
+private struct ZoomReadout: View {
+    let camera: CameraController
+    var body: some View {
+        VStack(spacing: 1) {
+            Text(String(format: "%.1f×", camera.zoomFactor))
+                .font(.subheadline.bold().monospacedDigit())
+            Text(L("pg.autoZoom")).font(.system(size: 9, weight: .semibold)).opacity(0.8)
+        }
+        .foregroundStyle(.white)
+        .opacity(camera.zoomFactor > 1.01 ? 1 : 0)
+        .allowsHitTesting(false)
+        .accessibilityHidden(true)
     }
 }
 

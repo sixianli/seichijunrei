@@ -7,7 +7,21 @@
    "year": 1988,
    "creator": "宮崎駿 / スタジオジブリ",
    "tint": "#3E7D3A",
-   "aliases": ["My Neighbor Totoro", "Tonari no Totoro", "トトロ", "龙猫", "龍貓", "이웃집 토토로", "宫崎骏", "宮崎駿", "Hayao Miyazaki", "미야자키 하야오", "吉卜力", "ジブリ", "Ghibli"],
+   "aliases": [
+    "My Neighbor Totoro",
+    "Tonari no Totoro",
+    "トトロ",
+    "龙猫",
+    "龍貓",
+    "이웃집 토토로",
+    "宫崎骏",
+    "宮崎駿",
+    "Hayao Miyazaki",
+    "미야자키 하야오",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
    "officialURL": "https://www.ghibli.jp/works/totoro/",
    "text": {
     "zh-Hans": {
@@ -15,7 +29,9 @@
      "creator": "宫崎骏 / 吉卜力工作室",
      "synopsis": "昭和三十年代，小学生萨月和妹妹小梅随父亲搬到乡下，等待住院的母亲康复归来。姐妹俩在屋后的大樟树下遇见了森林的主人——龙猫，开始了一个只有孩子才看得见的夏天。"
     },
-    "zh-Hant": {"title": "龍貓"},
+    "zh-Hant": {
+     "title": "龍貓"
+    },
     "ja": {
      "title": "",
      "synopsis": "昭和30年代の初夏、サツキとメイの姉妹は父と一緒に田舎の古い家へ引っ越してくる。入院中の母の退院を待ちながら暮らすうち、二人は森の主・トトロと出会い、子どもにしか見えない不思議な季節を過ごす。"
@@ -39,7 +55,23 @@
    "year": 2001,
    "creator": "宮崎駿 / スタジオジブリ",
    "tint": "#B83A2E",
-   "aliases": ["Spirited Away", "Sen to Chihiro no Kamikakushi", "千と千尋", "千与千寻", "神隱少女", "千與千尋", "센과 치히로의 행방불명", "油屋", "宫崎骏", "宮崎駿", "Hayao Miyazaki", "미야자키 하야오", "吉卜力", "ジブリ", "Ghibli"],
+   "aliases": [
+    "Spirited Away",
+    "Sen to Chihiro no Kamikakushi",
+    "千と千尋",
+    "千与千寻",
+    "神隱少女",
+    "千與千尋",
+    "센과 치히로의 행방불명",
+    "油屋",
+    "宫崎骏",
+    "宮崎駿",
+    "Hayao Miyazaki",
+    "미야자키 하야오",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
    "officialURL": "https://www.ghibli.jp/works/chihiro/",
    "text": {
     "zh-Hans": {
@@ -47,7 +79,9 @@
      "creator": "宫崎骏 / 吉卜力工作室",
      "synopsis": "十岁的千寻在搬家途中误入一个神灵世界，父母因贪吃变成了猪。为了救回父母、回到人间，她被取走名字成为“千”，在汤婆婆经营的澡堂“油屋”里打工。"
     },
-    "zh-Hant": {"title": "神隱少女"},
+    "zh-Hant": {
+     "title": "神隱少女"
+    },
     "ja": {
      "title": "",
      "synopsis": "引っ越しの途中、10歳の千尋は不思議な町に迷い込み、両親は豚に変えられてしまう。名前を奪われ「千」となった彼女は、湯婆婆が営む八百万の神々の湯屋「油屋」で働きながら、元の世界へ戻る道を探す。"
@@ -71,7 +105,21 @@
    "year": 1997,
    "creator": "宮崎駿 / スタジオジブリ",
    "tint": "#2F5D3A",
-   "aliases": ["Princess Mononoke", "Mononoke Hime", "幽灵公主", "魔法公主", "幽靈公主", "모노노케 히메", "宫崎骏", "宮崎駿", "Hayao Miyazaki", "미야자키 하야오", "吉卜力", "ジブリ", "Ghibli"],
+   "aliases": [
+    "Princess Mononoke",
+    "Mononoke Hime",
+    "幽灵公主",
+    "魔法公主",
+    "幽靈公主",
+    "모노노케 히메",
+    "宫崎骏",
+    "宮崎駿",
+    "Hayao Miyazaki",
+    "미야자키 하야오",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
    "officialURL": "https://www.ghibli.jp/works/mononoke/",
    "text": {
     "zh-Hans": {
@@ -79,7 +127,9 @@
      "creator": "宫崎骏 / 吉卜力工作室",
      "synopsis": "室町时代，虾夷族少年阿席达卡为解除身上的诅咒向西远行，来到人类开山炼铁、与森林诸神对立的土地。他在这里遇见了被山犬养大的少女小桑，试图在两方之间寻找共存之道。"
     },
-    "zh-Hant": {"title": "魔法公主"},
+    "zh-Hant": {
+     "title": "魔法公主"
+    },
     "ja": {
      "title": "",
      "synopsis": "室町時代。タタリ神の呪いを受けたエミシの青年アシタカは、その正体を探るため西へ旅立つ。たどり着いたのは、森を切り開くタタラ場の人々と、森を守る神々が激しく対立する土地。そこで彼は山犬に育てられた少女サンと出会う。"
@@ -103,7 +153,24 @@
    "year": 2008,
    "creator": "宮崎駿 / スタジオジブリ",
    "tint": "#E5483A",
-   "aliases": ["Ponyo", "Ponyo on the Cliff by the Sea", "Gake no Ue no Ponyo", "ポニョ", "悬崖上的金鱼姬", "崖上的波妞", "波妞", "벼랑 위의 포뇨", "鞆の浦", "宫崎骏", "宮崎駿", "Hayao Miyazaki", "미야자키 하야오", "吉卜力", "ジブリ", "Ghibli"],
+   "aliases": [
+    "Ponyo",
+    "Ponyo on the Cliff by the Sea",
+    "Gake no Ue no Ponyo",
+    "ポニョ",
+    "悬崖上的金鱼姬",
+    "崖上的波妞",
+    "波妞",
+    "벼랑 위의 포뇨",
+    "鞆の浦",
+    "宫崎骏",
+    "宮崎駿",
+    "Hayao Miyazaki",
+    "미야자키 하야오",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
    "officialURL": "https://www.ghibli.jp/works/ponyo/",
    "text": {
     "zh-Hans": {
@@ -111,7 +178,9 @@
      "creator": "宫崎骏 / 吉卜力工作室",
      "synopsis": "住在海边悬崖上的五岁男孩宗介，在岸边救起了一条被困在玻璃瓶里的“金鱼”，给她取名波妞。喜欢上宗介的波妞决心变成人类，却因此搅动了整片大海。"
     },
-    "zh-Hant": {"title": "崖上的波妞"},
+    "zh-Hant": {
+     "title": "崖上的波妞"
+    },
     "ja": {
      "title": "",
      "synopsis": "海辺の崖の上に住む5歳の宗介は、ジャムの瓶にはまって動けなくなった不思議な魚の子を助け、ポニョと名付ける。宗介を好きになったポニョは人間になりたいと願い、その想いが海全体を揺り動かしていく。"
@@ -135,7 +204,25 @@
    "year": 1995,
    "creator": "近藤喜文 / スタジオジブリ",
    "tint": "#5B86B8",
-   "aliases": ["Whisper of the Heart", "Mimi o Sumaseba", "侧耳倾听", "側耳傾聽", "心之谷", "귀를 기울이면", "聖蹟桜ヶ丘", "地球屋", "近藤喜文", "Yoshifumi Kondō", "Yoshifumi Kondo", "콘도 요시후미", "宫崎骏", "宮崎駿", "吉卜力", "ジブリ", "Ghibli"],
+   "aliases": [
+    "Whisper of the Heart",
+    "Mimi o Sumaseba",
+    "侧耳倾听",
+    "側耳傾聽",
+    "心之谷",
+    "귀를 기울이면",
+    "聖蹟桜ヶ丘",
+    "地球屋",
+    "近藤喜文",
+    "Yoshifumi Kondō",
+    "Yoshifumi Kondo",
+    "콘도 요시후미",
+    "宫崎骏",
+    "宮崎駿",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
    "officialURL": "https://www.ghibli.jp/works/mimi/",
    "text": {
     "zh-Hans": {
@@ -143,7 +230,9 @@
      "creator": "近藤喜文 / 吉卜力工作室",
      "synopsis": "爱读书的初三女生月岛雫发现，自己借的每一本书的借书卡上都有同一个名字——天泽圣司。在追着一只猫走上山坡的那天，她闯进了一家叫“地球屋”的古董店，也一步步看清了自己想走的路。"
     },
-    "zh-Hant": {"title": "心之谷"},
+    "zh-Hant": {
+     "title": "心之谷"
+    },
     "ja": {
      "title": "",
      "synopsis": "読書好きの中学3年生・月島雫は、借りた本の図書カードにいつも同じ名前「天沢聖司」があることに気づく。電車で出会った猫を追って坂を登った先で、彼女は不思議な骨董店「地球屋」にたどり着く。"
@@ -167,7 +256,25 @@
    "year": 2011,
    "creator": "宮崎吾朗 / スタジオジブリ",
    "tint": "#C9473A",
-   "aliases": ["From Up on Poppy Hill", "Kokurikozaka kara", "コクリコ坂", "来自红花坂", "來自紅花坂", "虞美人盛開的山坡", "코쿠리코 언덕에서", "宫崎吾朗", "宮崎吾朗", "Gorō Miyazaki", "Goro Miyazaki", "미야자키 고로", "宫崎骏", "宮崎駿", "吉卜力", "ジブリ", "Ghibli"],
+   "aliases": [
+    "From Up on Poppy Hill",
+    "Kokurikozaka kara",
+    "コクリコ坂",
+    "来自红花坂",
+    "來自紅花坂",
+    "虞美人盛開的山坡",
+    "코쿠리코 언덕에서",
+    "宫崎吾朗",
+    "宮崎吾朗",
+    "Gorō Miyazaki",
+    "Goro Miyazaki",
+    "미야자키 고로",
+    "宫崎骏",
+    "宮崎駿",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
    "officialURL": "https://www.ghibli.jp/works/kokurikozaka/",
    "text": {
     "zh-Hans": {
@@ -175,7 +282,9 @@
      "creator": "宫崎吾朗 / 吉卜力工作室",
      "synopsis": "1963年的横滨，东京奥运会前夕。高中女生松崎海每天清晨在山坡上的寄宿屋“红花庄”升起信号旗。一场保卫老社团楼“拉丁区”的学生运动，让她与学长风间俊越走越近。"
     },
-    "zh-Hant": {"title": "來自紅花坂"},
+    "zh-Hant": {
+     "title": "來自紅花坂"
+    },
     "ja": {
      "title": "",
      "synopsis": "東京オリンピックを翌年に控えた1963年の横浜。港を見下ろす丘の上の下宿「コクリコ荘」で暮らす高校生・松崎海は、毎朝欠かさず信号旗を揚げている。古い部室棟「カルチェラタン」の取り壊し反対運動を通じて、彼女は先輩の風間俊と心を通わせていく。"
@@ -199,7 +308,22 @@
    "year": 1988,
    "creator": "高畑勲 / スタジオジブリ",
    "tint": "#B5651D",
-   "aliases": ["Grave of the Fireflies", "Hotaru no Haka", "萤火虫之墓", "螢火蟲之墓", "再見螢火蟲", "반딧불이의 묘", "野坂昭如", "高畑勋", "高畑勲", "Isao Takahata", "다카하타 이사오", "吉卜力", "ジブリ", "Ghibli"],
+   "aliases": [
+    "Grave of the Fireflies",
+    "Hotaru no Haka",
+    "萤火虫之墓",
+    "螢火蟲之墓",
+    "再見螢火蟲",
+    "반딧불이의 묘",
+    "野坂昭如",
+    "高畑勋",
+    "高畑勲",
+    "Isao Takahata",
+    "다카하타 이사오",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
    "officialURL": "https://www.ghibli.jp/works/hotaru/",
    "text": {
     "zh-Hans": {
@@ -207,7 +331,9 @@
      "creator": "高畑勋 / 吉卜力工作室",
      "synopsis": "1945年夏，神户遭遇空袭，十四岁的清太与四岁的妹妹节子失去了家，只能投靠西宫的远房亲戚。改编自野坂昭如的同名小说，讲述战火中一对兄妹相依为命的日子。"
     },
-    "zh-Hant": {"title": "螢火蟲之墓"},
+    "zh-Hant": {
+     "title": "螢火蟲之墓"
+    },
     "ja": {
      "title": "",
      "synopsis": "昭和20年夏、神戸の空襲で家と母を失った14歳の清太と4歳の妹・節子は、西宮の親戚の家に身を寄せる。野坂昭如の同名小説を高畑勲が映画化した、戦争の中を懸命に生きようとする兄妹の物語。"
@@ -231,7 +357,22 @@
    "year": 1991,
    "creator": "高畑勲 / スタジオジブリ",
    "tint": "#E39A1E",
-   "aliases": ["Only Yesterday", "Omohide Poro Poro", "Omoide Poroporo", "岁月的童话", "歲月的童話", "兒時的點點滴滴", "추억은 방울방울", "高畑勋", "高畑勲", "Isao Takahata", "다카하타 이사오", "吉卜力", "ジブリ", "Ghibli"],
+   "aliases": [
+    "Only Yesterday",
+    "Omohide Poro Poro",
+    "Omoide Poroporo",
+    "岁月的童话",
+    "歲月的童話",
+    "兒時的點點滴滴",
+    "추억은 방울방울",
+    "高畑勋",
+    "高畑勲",
+    "Isao Takahata",
+    "다카하타 이사오",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
    "officialURL": "https://www.ghibli.jp/works/omoide/",
    "text": {
     "zh-Hans": {
@@ -239,7 +380,9 @@
      "creator": "高畑勋 / 吉卜力工作室",
      "synopsis": "1982年夏，二十七岁的东京上班族妙子请了假，独自前往山形的乡下帮忙采红花。夜行列车上，小学五年级时的点点滴滴不断浮上心头，她开始重新打量自己走到今天的人生。"
     },
-    "zh-Hant": {"title": "兒時的點點滴滴"},
+    "zh-Hant": {
+     "title": "兒時的點點滴滴"
+    },
     "ja": {
      "title": "",
      "synopsis": "1982年の夏、東京で働く27歳のタエ子は休暇を取り、紅花摘みを手伝うため山形の田舎へ向かう。夜行列車に揺られながら、小学5年生の頃の思い出が次々とよみがえり、彼女はこれまでの自分を見つめ直していく。"
@@ -263,7 +406,21 @@
    "year": 2014,
    "creator": "米林宏昌 / スタジオジブリ",
    "tint": "#3B6E8F",
-   "aliases": ["When Marnie Was There", "Omoide no Marnie", "マーニー", "回忆中的玛妮", "回憶中的瑪妮", "回忆里的玛妮", "추억의 마니", "米林宏昌", "Hiromasa Yonebayashi", "요네바야시 히로마사", "吉卜力", "ジブリ", "Ghibli"],
+   "aliases": [
+    "When Marnie Was There",
+    "Omoide no Marnie",
+    "マーニー",
+    "回忆中的玛妮",
+    "回憶中的瑪妮",
+    "回忆里的玛妮",
+    "추억의 마니",
+    "米林宏昌",
+    "Hiromasa Yonebayashi",
+    "요네바야시 히로마사",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
    "officialURL": "https://www.ghibli.jp/works/marnie/",
    "text": {
     "zh-Hans": {
@@ -271,7 +428,9 @@
      "creator": "米林宏昌 / 吉卜力工作室",
      "synopsis": "十二岁的杏奈不善与人相处，因哮喘被送到北海道海边小镇的亲戚家休养。她总被湿地对岸一座无人居住的洋馆吸引，并在那里遇见了金发少女玛妮。改编自琼·G·罗宾森的英国儿童小说。"
     },
-    "zh-Hant": {"title": "回憶中的瑪妮"},
+    "zh-Hant": {
+     "title": "回憶中的瑪妮"
+    },
     "ja": {
      "title": "",
      "synopsis": "心を閉ざしがちな12歳の杏奈は、ぜんそくの療養のため北海道の海辺の町に住む親戚のもとで夏を過ごすことになる。入り江の向こうに建つ古い洋館「湿っ地屋敷」に心惹かれた彼女は、そこで金髪の少女マーニーと出会う。"
@@ -295,7 +454,23 @@
    "year": 2010,
    "creator": "米林宏昌 / スタジオジブリ",
    "tint": "#7FA84A",
-   "aliases": ["The Secret World of Arrietty", "Arrietty", "Karigurashi no Arrietty", "アリエッティ", "借东西的小人阿莉埃蒂", "借物少女艾莉緹", "마루 밑 아리에티", "米林宏昌", "Hiromasa Yonebayashi", "요네바야시 히로마사", "宫崎骏", "宮崎駿", "吉卜力", "ジブリ", "Ghibli"],
+   "aliases": [
+    "The Secret World of Arrietty",
+    "Arrietty",
+    "Karigurashi no Arrietty",
+    "アリエッティ",
+    "借东西的小人阿莉埃蒂",
+    "借物少女艾莉緹",
+    "마루 밑 아리에티",
+    "米林宏昌",
+    "Hiromasa Yonebayashi",
+    "요네바야시 히로마사",
+    "宫崎骏",
+    "宮崎駿",
+    "吉卜力",
+    "ジブリ",
+    "Ghibli"
+   ],
    "officialURL": "https://www.ghibli.jp/works/karigurashi/",
    "text": {
     "zh-Hans": {
@@ -303,7 +478,9 @@
      "creator": "米林宏昌 / 吉卜力工作室",
      "synopsis": "在一座老宅的地板下，住着身高只有十厘米的小人一家，他们靠悄悄向人类“借东西”过日子。十四岁的阿莉埃蒂第一次跟父亲出门“借东西”的那晚，被来老宅静养的少年翔看见了。"
     },
-    "zh-Hant": {"title": "借物少女艾莉緹"},
+    "zh-Hant": {
+     "title": "借物少女艾莉緹"
+    },
     "ja": {
      "title": "",
      "synopsis": "古い屋敷の床下に、身長10センチほどの小人の一家が暮らしていた。人間の家から必要なものを少しずつ「借り」て生きる彼らの掟は、人間に姿を見られないこと。14歳のアリエッティは初めての「借り」の夜、療養に来た少年・翔に見られてしまう。"
@@ -1038,7 +1215,6 @@
    "arrivalRadius": 150,
    "spoiler": false,
    "sourceURL": "https://rurubu.jp/andmore/spot/80004372",
-   "photo": "File:夏を彩るベニバナ(Field of Safflower in Yamagata) 12 Jul, 2015 - panoramio.jpg",
    "verified": false,
    "text": {
     "zh-Hans": {

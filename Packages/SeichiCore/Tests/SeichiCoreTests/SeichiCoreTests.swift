@@ -200,6 +200,11 @@ final class CatalogTests: XCTestCase {
         let round = try SpotCatalog.decode(JSONEncoder().encode(spots))
         XCTAssertEqual(round, spots)
 
+        // 同一作品的多个名场面有编号，只有一个名场面的作品没有编号
+        let loveLetter = spots.filter { $0.workID == "love-letter" }
+        XCTAssertEqual(loveLetter.map(\.sceneNumber), [1, 2])
+        XCTAssertNil(spots.first { $0.workID == "drive-my-car" }?.sceneNumber)
+
         // 老版本用户的巡礼记录以 id 为键，这些 id 必须保留
         let ids = Set(spots.map(\.id))
         for id in ["kiminonawa-suga-shrine", "slamdunk-kamakurakokomae", "tokyolovestory-baishinji",
@@ -515,27 +520,58 @@ final class CalibrationTests: XCTestCase {
     func testGoodReadingHasNoIssues() {
         XCTAssertEqual(CalibrationQuality.issues(for: reading(), listed: listed), [])
         XCTAssertTrue(CalibrationQuality.isGood(reading(), listed: listed))
-        XCTAssertTrue(CalibrationQuality.canSubmit(reading()))
+        XCTAssertTrue(CalibrationQuality.canSubmit(reading(), listed: listed))
     }
 
     func testPoorSensorsAreReported() {
         let r = reading(acc: 40, hAcc: 35)
         XCTAssertEqual(CalibrationQuality.issues(for: r, listed: listed), [.poorGPS(40), .poorCompass(35)])
         XCTAssertFalse(CalibrationQuality.isGood(r, listed: listed))
-        XCTAssertTrue(CalibrationQuality.canSubmit(r), "精度差也允许提交，由开发者筛选")
+        XCTAssertTrue(CalibrationQuality.canSubmit(r, listed: listed), "精度一般也允许提交，合并时会被过滤")
+        XCTAssertFalse(CalibrationQuality.canSubmit(reading(acc: 80), listed: listed), "GPS 太差不能提交")
         XCTAssertEqual(CalibrationQuality.issues(for: reading(heading: nil), listed: listed), [.noHeading])
-        XCTAssertFalse(CalibrationQuality.canSubmit(reading(heading: nil)))
-        XCTAssertFalse(CalibrationQuality.canSubmit(reading(acc: -1)))
+        XCTAssertFalse(CalibrationQuality.canSubmit(reading(heading: nil), listed: listed))
+        XCTAssertFalse(CalibrationQuality.canSubmit(reading(acc: -1), listed: listed))
     }
 
-    func testFarFromListedIsOnlyAWarning() {
-        // 现有坐标可能偏差很大（例如 2km），用户在真实机位提交时只提示、不阻止
-        let r = reading(lat: 35.70340, lon: 139.72265)
+    func testFarFromListedNeedsANote() {
+        // 现有坐标可能偏差几百米：允许提交，但必须写备注说明
+        let r = reading(lat: 35.69000, lon: 139.72265)   // 约 510 m
         let issues = CalibrationQuality.issues(for: r, listed: listed)
-        XCTAssertEqual(issues.count, 1)
-        guard case .farFromListed(let d) = issues[0] else { return XCTFail() }
-        XCTAssertEqual(d, 2_000, accuracy: 30)
-        XCTAssertTrue(CalibrationQuality.isGood(r, listed: listed))
+        guard case .farFromListed(let d) = issues.first else { return XCTFail() }
+        XCTAssertEqual(d, 510, accuracy: 15)
+        XCTAssertFalse(CalibrationQuality.canSubmit(r, listed: listed, note: "  "))
+        XCTAssertTrue(CalibrationQuality.canSubmit(r, listed: listed, note: "真正的机位在桥的另一头"))
+    }
+
+    func testTooFarOrSimulatedCannotSubmit() {
+        // 在家里（离机位 9.8 km）不能提交
+        let home = reading(lat: 35.77350, lon: 139.72265)
+        guard case .tooFar(let d) = CalibrationQuality.issues(for: home, listed: listed).first else { return XCTFail() }
+        XCTAssertEqual(d, 9_800, accuracy: 100)
+        XCTAssertFalse(CalibrationQuality.canSubmit(home, listed: listed, note: "就是这里"))
+        var fake = reading()
+        fake.isSimulated = true
+        XCTAssertEqual(CalibrationQuality.issues(for: fake, listed: listed), [.simulatedLocation])
+        XCTAssertFalse(CalibrationQuality.canSubmit(fake, listed: listed))
+    }
+
+    func testConsensusNeedsSeveralUsersWhoAgree() throws {
+        let truth = (lat: 35.68560, lon: 139.72280)
+        func vote(_ user: String, _ dLat: Double, _ heading: Double) -> CalibrationConsensus.Vote {
+            .init(userID: user, reading: reading(heading: heading, lat: truth.lat + dLat, lon: truth.lon))
+        }
+        // 两个人不够
+        XCTAssertNil(CalibrationConsensus.merge([vote("a", 0, 270), vote("b", 0.00005, 272)], listed: listed))
+        // 同一个人刷三次只算一票
+        XCTAssertNil(CalibrationConsensus.merge([vote("a", 0, 270), vote("a", 0.00001, 270), vote("a", 0, 271)], listed: listed))
+        // 三个不同用户一致 + 一个捣乱的（在 1.5 km 外的家里）
+        let r = try XCTUnwrap(CalibrationConsensus.merge(
+            [vote("a", 0, 270), vote("b", 0.00005, 274), vote("c", -0.00004, 268), vote("troll", 0.0135, 90)],
+            listed: listed))
+        XCTAssertEqual(r.users, 3)
+        XCTAssertEqual(r.point.latitude, truth.lat, accuracy: 0.0001)
+        XCTAssertEqual(r.heading, 270, accuracy: 3)
     }
 
     func testSubmissionTrimsNoteAndRoundTrips() throws {
@@ -616,5 +652,37 @@ final class FramingGuidanceTests: XCTestCase {
         XCTAssertEqual(f.centerX, 0.3, accuracy: 1e-9)
         XCTAssertEqual(f.footY, 0.8, accuracy: 1e-9)
         XCTAssertEqual(f.box(aspect: 0.75).height, 0.5, accuracy: 1e-9)
+    }
+}
+
+final class CommunityTests: XCTestCase {
+    func testContentFilter() {
+        XCTAssertTrue(ContentFilter.isClean("傍晚的石阶，和电影里一模一样！"))
+        XCTAssertEqual(ContentFilter.problems(in: "  "), [.empty])
+        XCTAssertTrue(ContentFilter.isClean("", required: false))
+        XCTAssertEqual(ContentFilter.problems(in: "看这里 https://spam.example.com"), [.link])
+        XCTAssertEqual(ContentFilter.problems(in: "加我微信 abc123"), [.contact])
+        XCTAssertEqual(ContentFilter.problems(in: "call 090-1234-5678"), [.contact])
+        XCTAssertEqual(ContentFilter.problems(in: "你是 傻 逼"), [.offensive])
+        XCTAssertEqual(ContentFilter.problems(in: "FUCK this"), [.offensive])
+        XCTAssertEqual(ContentFilter.problems(in: String(repeating: "あ", count: 20), maxLength: 10), [.tooLong(max: 10)])
+        XCTAssertTrue(ContentFilter.isClean("1995年的电影《情书》第3集"))
+    }
+
+    func testSceneDraftValidation() {
+        var d = SceneDraft()
+        XCTAssertFalse(d.canSubmit)
+        XCTAssertNotNil(d.problems()[.photo])
+        d = SceneDraft(workTitle: "君の名は。", mediaType: .animeFilm, sceneTitle: "新的一幕", placeName: "某个车站",
+                       story: "两人在这里擦肩而过。", latitude: 35.68, longitude: 139.72, heading: 90, hasPhoto: true)
+        XCTAssertTrue(d.canSubmit)
+        d.latitude = 31.2; d.longitude = 121.5   // 上海：目前只收录日本
+        XCTAssertEqual(d.problems()[.location], [.empty])
+    }
+
+    func testReportsHideAfterThreeDistinctReporters() {
+        let reports = [("p1", "a"), ("p1", "a"), ("p1", "b"), ("p2", "a"), ("p1", "c"), ("p2", "b")]
+            .map { (target: $0.0, reporter: $0.1) }
+        XCTAssertEqual(ReportPolicy.hiddenTargets(reports), ["p1"])
     }
 }

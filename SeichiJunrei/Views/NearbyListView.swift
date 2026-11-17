@@ -54,6 +54,9 @@ struct NearbyListView: View {
                     .frame(width: 56, height: 56)
                     .clipShape(RoundedRectangle(cornerRadius: 8))
                 VStack(alignment: .leading) {
+                    if let n = item.spot.sceneNumberLabel {
+                        Text(n).font(.caption2.weight(.semibold)).foregroundStyle(item.spot.tintColor)
+                    }
                     Text(item.spot.sceneTitle).font(.headline)
                     Text(item.spot.placeName).font(.caption).foregroundStyle(.secondary).lineLimit(2)
                 }
@@ -74,7 +77,7 @@ private struct WorkHeader: View {
 
     var body: some View {
         HStack(spacing: 10) {
-            if let first = match.spots.first { WorkCover(spot: first, size: 30) }
+            CategoryIcon(category: match.mediaType.category, size: 30)
             VStack(alignment: .leading, spacing: 1) {
                 Text(match.spots.first?.workBadge ?? match.work)
                     .font(.subheadline.bold())
@@ -85,6 +88,11 @@ private struct WorkHeader: View {
             }
             .lineLimit(1)
             .textCase(nil)
+            Spacer()
+            Text(sceneCountText(match.spots.count))
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(.secondary)
+                .textCase(nil)
         }
         .padding(.vertical, 2)
     }

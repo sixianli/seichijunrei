@@ -91,6 +91,26 @@
 4. **Deploy Schema Changes…** 部署到 **Production**（TestFlight 和 App Store 版本都写入 Production 环境；没部署时提交会失败并保存在用户手机上，部署后自动补传）。
 5. 查看数据：CloudKit Console → Production → Public Database → Records → 类型 `Calibration` → 按 `spotID` 查询。
 
+## 用户投稿（CloudKit）
+
+巡礼者可以给名场面上传现场照片，也可以投稿新的名场面。数据存在同一个 CloudKit 容器的公共数据库，图片用 CKAsset 保存，不需要另外的服务器或对象存储。
+
+**在 CloudKit Console 里新建 3 个记录类型**（先在 Development 建好，再 Deploy Schema Changes 到 Production）：
+
+| 记录类型 | 字段（类型） | 需要的索引 |
+|---|---|---|
+| `SpotPhoto` | spotID (String), image (Asset), caption (String), status (String), width (Int64), height (Int64), locale (String), appVersion (String) | spotID：Queryable |
+| `SceneSubmission` | workTitle, mediaType, sceneTitle, episode, placeName, story, status, locale, appVersion (都是 String)；latitude, longitude, heading, pitch (Double)；location (Location)；photo (Asset) | status：Queryable |
+| `Report` | targetType (String), targetID (String), reason (String) | targetID：Queryable |
+
+安全角色保持默认即可（所有人可读、登录 iCloud 的用户可创建、只有创建者可修改）。
+
+**审核**（在 CloudKit Console → Public Database → Records 里操作）：
+
+- 新名场面：`SceneSubmission` 的 `status` 默认是 `pending`，改成 `approved` 后所有人可见，改成 `rejected` 表示不通过（投稿人能在“我的投稿”里看到状态）。
+- 照片：先发后管。被 3 位不同用户举报会自动隐藏；确认违规可以把 `status` 改成 `hidden` 或直接删除记录。举报记录在 `Report` 里。
+- 设置页的“联系我们”邮箱来自仓库变量 `CONTACT_EMAIL`（Settings → Secrets and variables → Actions → Variables），不写进源码。
+
 ## 发布到 TestFlight（GitHub Actions）
 
 工作流 `.github/workflows/testflight.yml`：在 GitHub 上手动触发，CI 会用 App Store Connect API 密钥自动签名、打包 Release 版并上传，构建号自动递增（`github.run_number`）。

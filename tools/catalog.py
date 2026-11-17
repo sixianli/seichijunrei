@@ -22,7 +22,7 @@ SPOT_FIELDS = ["placeName", "sceneTitle", "episode", "highlight", "story", "acce
 # 简中长度建议（字符数），超出只警告
 ZH_LEN = {"sceneTitle": (2, 18), "highlight": (25, 130), "story": (100, 380), "access": (8, 100),
           "bestTime": (6, 80), "tips": (10, 130)}
-FREE_LICENSES = re.compile(r"^(cc0|pd|public domain|cc by(-sa)?( \d\.\d)?|cc-by(-sa)?-\d\.\d)", re.I)
+FREE_LICENSES = re.compile(r"^(cc0|pd|public domain|pdm|cc by(-sa)?( \d\.\d)?( [a-z]{2})?$|cc-by(-sa)?-\d\.\d)", re.I)
 
 
 class Report:
@@ -74,7 +74,10 @@ def check_spot(s, r):
     if not isinstance(s.get("spoiler"), bool): r.err(where, "spoiler 必须是 true/false")
     if s.get("verified", False) is not False: r.err(where, "verified 只能是 false")
     photo = s.get("photo")
-    if photo is not None and not str(photo).startswith("File:"): r.err(where, "photo 必须是 Commons 文件名 File:...")
+    if isinstance(photo, dict):
+        check_photo_dict(photo, where, r)
+    elif photo is not None and not str(photo).startswith("File:"):
+        r.err(where, "photo 必须是 Commons 文件名 File:... 或照片对象")
     if not s.get("sourceURL"): r.warn(where, "没有 sourceURL")
     text = s.get("text", {})
     for lang in AUTHORED:
@@ -86,6 +89,24 @@ def check_spot(s, r):
     for f, (lo, hi) in ZH_LEN.items():
         n = len(zh.get(f) or "")
         if n and not lo <= n <= hi: r.warn(where, f"zh-Hans.{f} 长度 {n}，建议 {lo}–{hi}")
+
+
+def check_photo_dict(photo, where, r):
+    for k in ("url", "pageURL", "author", "license"):
+        if not photo.get(k): r.err(where, f"photo.{k} 缺失")
+    if not FREE_LICENSES.match(photo.get("license", "")):
+        r.err(where, f"photo.license {photo.get('license')} 不可用（只接受 CC0 / PD / CC BY / CC BY-SA）")
+    if not str(photo.get("url", "")).startswith("https://"): r.err(where, "photo.url 必须是 https")
+
+
+def load_overrides(r):
+    """data/photo-overrides*.json：{spotID: 照片对象或 Commons 文件名}，用于补图 / 替换不合适的照片"""
+    out = {}
+    for p in sorted(glob.glob(os.path.join(ROOT, "data", "photo-overrides*.json"))):
+        for sid, photo in load(p).items():
+            if isinstance(photo, dict): check_photo_dict(photo, f"{os.path.basename(p)} {sid}", r)
+            out[sid] = photo
+    return out
 
 
 def check_file(path, r):
@@ -110,6 +131,9 @@ def merge(paths, r):
         for s in data.get("spots", []):
             if s["id"] in spots: r.err(p, f"名场面 {s['id']} 重复")
             spots[s["id"]] = s
+    for sid, photo in load_overrides(r).items():
+        if sid not in spots: r.err("photo-overrides", f"名场面 {sid} 不存在")
+        else: spots[sid] = dict(spots[sid], photo=photo)
     for s in spots.values():
         if s.get("workID") not in works: r.err(f"spot {s['id']}", f"workID {s.get('workID')} 不存在")
     used = {s["workID"] for s in spots.values()}
@@ -184,7 +208,7 @@ def _photo_meta(page):
 def resolve_photos(spots, offline, r):
     import time
     cache = load(PHOTO_CACHE) if os.path.exists(PHOTO_CACHE) else {}
-    missing = sorted({s["photo"] for s in spots.values() if s.get("photo")} - set(cache))
+    missing = sorted({s["photo"] for s in spots.values() if isinstance(s.get("photo"), str)} - set(cache))
     if not offline:
         for i in range(0, len(missing), 50):
             batch = missing[i:i + 50]
@@ -203,7 +227,7 @@ def resolve_photos(spots, offline, r):
             time.sleep(1)
     for s in spots.values():
         title = s.get("photo")
-        if not title: continue
+        if not title or isinstance(title, dict): continue
         meta = cache.get(title)
         if title not in cache:
             r.warn(f"spot {s['id']}", f"照片 {title} 尚未查询（离线或查询失败）")
@@ -237,7 +261,8 @@ def build(offline):
         text["zh-Hant"] = fill_hant(text, convert)
         s["text"] = {k: text[k] for k in LANGS if k in text}
         title = s.pop("photo", None)
-        if title in photos: s["photo"] = photos[title]
+        if isinstance(title, dict): s["photo"] = {k: title[k] for k in ("url", "pageURL", "author", "license", "licenseURL") if title.get(k)}
+        elif title in photos: s["photo"] = photos[title]
         s.setdefault("verified", False)
         out_spots.append(s)
     with open(OUT, "w", encoding="utf-8") as f:

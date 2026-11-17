@@ -1,5 +1,6 @@
 import Foundation
 import Observation
+import SwiftUI
 import SeichiCore
 
 /// 取本地化文案。key 定义在 tools/l10n.py，生成到 Resources/<语言>.lproj/Localizable.strings。
@@ -84,6 +85,14 @@ extension MediaType {
 extension MediaCategory {
     /// 筛选标签
     var label: String { L("category.\(rawValue)") }
+    /// 类型代表色：日漫 / 日剧 / 日影各一种，一眼区分
+    var color: Color {
+        switch self {
+        case .anime: return Color(red: 0.93, green: 0.36, blue: 0.55)
+        case .drama: return Color(red: 0.25, green: 0.52, blue: 0.96)
+        case .film: return Color(red: 0.96, green: 0.62, blue: 0.20)
+        }
+    }
     var symbolName: String {
         switch self {
         case .anime: return "sparkles.tv.fill"
@@ -125,6 +134,28 @@ extension Spot {
     }
     /// “日漫《龙猫》” / “アニメ『となりのトトロ』” / “Anime · My Neighbor Totoro”
     var workBadge: String { L("format.workBadge", mediaLabel, workName) }
+    /// “名场面一” / “名シーン1” / “Scene 1”；作品只有一个名场面时为 nil
+    var sceneNumberLabel: String? {
+        guard let n = sceneNumber else { return nil }
+        let lang = AppLanguage.current
+        let numeral: String
+        if lang.hasPrefix("zh") {
+            // 中文用汉字数字：一、二、三……
+            let f = NumberFormatter()
+            f.numberStyle = .spellOut
+            f.locale = Locale(identifier: lang == "zh-Hant" ? "zh-Hant" : "zh-Hans")
+            numeral = f.string(from: NSNumber(value: n)) ?? "\(n)"
+        } else {
+            numeral = "\(n)"
+        }
+        return L("format.sceneNumber", numeral)
+    }
+    /// 地图标记 / 卡片上的标题：同一作品有多个名场面时加上序号，例如“日影《情书》名场面一”
+    var badgeWithNumber: String {
+        sceneNumberLabel.map { L("format.badgeWithNumber", workBadge, $0) } ?? workBadge
+    }
+    /// 关于作品里的作品名：带书名号
+    var quotedWorkName: String { L("format.workTitle", workName) }
     /// 「场景名」/“Scene title”
     var quotedSceneTitle: String { L("format.sceneTitle", sceneTitle) }
     /// 作品原名 +（本地化译名）

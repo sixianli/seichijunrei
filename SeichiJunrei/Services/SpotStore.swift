@@ -11,6 +11,8 @@ final class SpotStore {
     /// 未本地化的原始数据（切换语言时重新本地化）
     @ObservationIgnored private var rawSpots: [Spot] = []
     @ObservationIgnored private var language: String?
+    /// 审核通过的用户投稿
+    @ObservationIgnored private var communitySpots: [Spot] = []
     /// 按距离排序的附近圣地（全部，已排序）
     private(set) var nearby: [NearbySpot] = []
     private(set) var loadError: String?
@@ -38,8 +40,39 @@ final class SpotStore {
     func applyLanguage(_ code: String) {
         guard code != language || spots.isEmpty else { return }
         language = code
-        spots = rawSpots.map { $0.localized(to: code) }
+        rebuild()
+    }
+
+    private func rebuild() {
+        var all = rawSpots.map { $0.localized(to: language ?? AppLanguage.current) } + communitySpots
+        // 投稿的名场面可能属于已有作品：重新给同一作品的名场面编号
+        SpotCatalog.numberScenes(&all)
+        spots = all
         if let p = userPoint { recompute(from: p) }
+    }
+
+    /// 合并审核通过的用户投稿。作品名和已有作品一致时，归到同一部作品下（共用简介、颜色、译名）。
+    func setCommunity(_ submitted: [Spot]) {
+        communitySpots = submitted.map { s in
+            let key = SpotSearch.normalize(s.work)
+            guard !key.isEmpty, let match = rawSpots.first(where: { r in
+                ([r.work] + [r.workLocalized].compactMap { $0 } + r.aliases + r.translations.values.compactMap(\.workLocalized))
+                    .contains { SpotSearch.normalize($0) == key }
+            }) else { return s }
+            var merged = s
+            merged.workID = match.workID
+            merged.work = match.work
+            merged.workLocalized = match.localized(to: language ?? AppLanguage.current).workLocalized
+            merged.mediaType = match.mediaType
+            merged.aliases = match.aliases
+            merged.tint = match.tint
+            merged.year = match.year
+            merged.creator = match.creator
+            merged.synopsis = match.localized(to: language ?? AppLanguage.current).synopsis
+            merged.country = match.country
+            return merged
+        }
+        rebuild()
     }
 
     func update(userLocation: CLLocation) {
