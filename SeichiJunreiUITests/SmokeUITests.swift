@@ -59,9 +59,8 @@ final class SmokeUITests: XCTestCase {
         XCTAssertTrue(workRow.waitForExistence(timeout: 5), "搜索 your name 应找到《君の名は。》")
         snapshot("02-search-suggestions")
         workRow.tap()
-        XCTAssertTrue(app.otherElements["focusChip"].waitForExistence(timeout: 5)
-                      || app.staticTexts["《君の名は。（你的名字。）》"].waitForExistence(timeout: 2),
-                      "选择作品后应显示聚焦提示")
+        XCTAssertTrue(app.staticTexts["《君の名は。（你的名字。）》"].waitForExistence(timeout: 5),
+                      "选择作品后应聚焦到《君の名は。》，而不是被“搜索全部结果”覆盖")
         snapshot("03-work-focused")
 
         // 3. 打开名场面详情
@@ -74,6 +73,7 @@ final class SmokeUITests: XCTestCase {
 
         // 4. 进入名场面模式（模拟器没有相机/罗盘，应优雅降级而不是崩溃）
         enter.tap()
+        dismissSystemAlerts(timeout: 4)   // 相机权限弹窗
         let close = app.buttons["closeScene"]
         XCTAssertTrue(close.waitForExistence(timeout: 8), "应进入全屏名场面模式")
         sleep(2)

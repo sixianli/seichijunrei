@@ -28,6 +28,10 @@ struct MapHomeView: View {
     @State private var isSearching = false
     @State private var mediaFilter: MediaType?
     @State private var focus: MapFocus?
+    /// 点选搜索建议会顺带触发一次 onSubmit，用这个标记忽略它，避免覆盖刚选中的作品
+    @State private var suppressSubmit = false
+    /// 首次拿到定位时把地图缩放到用户附近
+    @State private var didCenterOnUser = false
 
     private var searchResults: [SpotSearch.WorkMatch] {
         SpotSearch.search(query, in: store.spots, mediaType: mediaFilter)
@@ -72,6 +76,7 @@ struct MapHomeView: View {
                     prompt: "搜索动画、电影、电视剧的名字")
         .searchSuggestions { suggestions }
         .onSubmit(of: .search) {
+            guard !suppressSubmit else { return }
             let results = searchResults
             if results.count == 1 {
                 focusOn(results[0])
@@ -80,6 +85,14 @@ struct MapHomeView: View {
                 setFocus(MapFocus(title: "「\(query)」的搜索结果",
                                   subtitle: "\(results.count) 部作品 · \(spots.count) 个名场面",
                                   spots: spots, tint: .accentColor))
+            }
+        }
+        .onChange(of: location.lastLocation) { _, loc in
+            guard !didCenterOnUser, focus == nil, let loc else { return }
+            didCenterOnUser = true
+            withAnimation {
+                camera = .region(MKCoordinateRegion(center: loc.coordinate,
+                                                    span: MKCoordinateSpan(latitudeDelta: 0.04, longitudeDelta: 0.04)))
             }
         }
         .onChange(of: store.requestedSpotID) { _, _ in openRequestedSpot() }
@@ -179,6 +192,8 @@ struct MapHomeView: View {
     }
 
     private func focusOn(_ match: SpotSearch.WorkMatch) {
+        suppressSubmit = true
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) { suppressSubmit = false }
         let names = match.workLocalized.map { "\(match.work)（\($0)）" } ?? match.work
         setFocus(MapFocus(title: "《\(names)》",
                           subtitle: "\(match.mediaType.label) · \(match.spots.count) 个名场面",
@@ -376,6 +391,7 @@ private struct ArrivalBanner: View {
 
 private struct PermissionBanner: View {
     @Environment(LocationService.self) private var location
+    @AppStorage("dismissedAlwaysPrompt") private var dismissedAlwaysPrompt = false
 
     var body: some View {
         switch location.authorization {
@@ -390,15 +406,21 @@ private struct PermissionBanner: View {
                     .background(.orange.opacity(0.9), in: RoundedRectangle(cornerRadius: 12))
                     .foregroundStyle(.white)
             }
-        case .authorizedWhenInUse:
-            Button { location.requestAlwaysAuthorization() } label: {
-                Label("开启“始终允许”定位，靠近圣地时提醒你", systemImage: "bell.badge")
-                    .font(.caption)
-                    .padding(8)
-                    .frame(maxWidth: .infinity)
-                    .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
+        case .authorizedWhenInUse where !dismissedAlwaysPrompt:
+            HStack(spacing: 6) {
+                Button { location.requestAlwaysAuthorization() } label: {
+                    Label("开启“始终允许”定位，靠近圣地时提醒你", systemImage: "bell.badge")
+                        .font(.caption)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                }
+                Button { dismissedAlwaysPrompt = true } label: {
+                    Image(systemName: "xmark").font(.caption.bold()).foregroundStyle(.secondary)
+                }
+                .accessibilityLabel("不再提示")
             }
             .buttonStyle(.plain)
+            .padding(8)
+            .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
         default:
             EmptyView()
         }
@@ -430,6 +452,7 @@ private struct NearbyCarousel: View {
                 .scrollTargetLayout()
             }
             .scrollTargetBehavior(.viewAligned)
+            .frame(height: 96)   // 横向滚动视图默认会占满纵向空间，必须固定高度
         }
         .padding(.vertical, 10)
         .background(.ultraThinMaterial)

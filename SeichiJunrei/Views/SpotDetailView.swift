@@ -38,7 +38,11 @@ struct SpotDetailView: View {
                     } }
                 }
 
-                if let info {
+                if arrived {
+                    Label("你就站在这个名场面的机位上", systemImage: "figure.stand")
+                        .font(.callout.bold())
+                        .foregroundStyle(spot.tintColor)
+                } else if let info, info.distance.isFinite {
                     HStack {
                         Image(systemName: "location.north.fill")
                             .rotationEffect(.degrees(info.bearing))
