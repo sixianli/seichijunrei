@@ -24,6 +24,9 @@ struct MapHomeView: View {
     @State private var selected: Spot?
     @State private var sceneSpot: Spot?
     @State private var showList = false
+    /// 等当前 sheet 收起后要呈现的下一个页面
+    @State private var pendingScene: Spot?
+    @State private var pendingDetail: Spot?
 
     // 搜索
     @State private var query = ""
@@ -120,20 +123,24 @@ struct MapHomeView: View {
                     .accessibilityIdentifier("openList")
             }
         }
-        .sheet(item: $selected) { spot in
+        // 先关闭当前 sheet，等它真正收起（onDismiss）后再呈现下一个模态视图。
+        // 不能用固定延时：sheet 被拉到全屏高度时收起动画更长，提前呈现会被系统丢弃。
+        .sheet(item: $selected, onDismiss: {
+            if let next = pendingScene { pendingScene = nil; sceneSpot = next }
+        }) { spot in
             SpotDetailView(spot: spot) {
+                pendingScene = spot
                 selected = nil
-                // 等 sheet 收起后再弹出全屏的名场面模式，避免同时呈现两个模态视图
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) { sceneSpot = spot }
             }
             .presentationDetents([.medium, .large])
             .presentationDragIndicator(.visible)
         }
-        .sheet(isPresented: $showList) {
+        .sheet(isPresented: $showList, onDismiss: {
+            if let next = pendingDetail { pendingDetail = nil; selected = next }
+        }) {
             NearbyListView { spot in
+                pendingDetail = spot
                 showList = false
-                // 等列表 sheet 收起后再弹出详情
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) { selected = spot }
             }
         }
         .sheet(isPresented: $showPaywall) { PaywallView() }
