@@ -709,6 +709,7 @@
    "arrivalRadius": 50,
    "spoiler": false,
    "sourceURL": "https://www.travel.co.jp/guide/article/1367/",
+   "photo": "File:Demachi arcade01.JPG",
    "verified": false,
    "text": {
     "zh-Hans": {
@@ -763,6 +764,7 @@
    "arrivalRadius": 120,
    "spoiler": false,
    "sourceURL": "https://nlab.itmedia.co.jp/fav/articles/3920294/",
+   "photo": "File:Kinshi Park Cherry Blossom Festival.jpg",
    "verified": false,
    "text": {
     "zh-Hans": {
@@ -817,6 +819,7 @@
    "arrivalRadius": 60,
    "spoiler": true,
    "sourceURL": "https://fun-japan.jp/jp/articles/14021",
+   "photo": "File:SHIBUYA TSUTAYA (53331235898).jpg",
    "verified": false,
    "text": {
     "zh-Hans": {
@@ -978,6 +981,7 @@
    "arrivalRadius": 40,
    "spoiler": false,
    "sourceURL": "https://www.walkerplus.com/article/1004597/",
+   "photo": "File:一刀石 ／ 天石立神社 - panoramio.jpg",
    "verified": false,
    "text": {
     "zh-Hans": {
@@ -1025,12 +1029,13 @@
   {
    "id": "non-non-biyori-shimosato-school",
    "workID": "non-non-biyori",
-   "latitude": 36.04418,
-   "longitude": 139.28482,
-   "sceneHeading": 0,
+   "latitude": 36.04428,
+   "longitude": 139.28462,
+   "sceneHeading": 40,
    "arrivalRadius": 60,
    "spoiler": false,
    "sourceURL": "https://zh.moegirl.org.cn/%E6%97%AD%E4%B8%98%E5%88%86%E6%A0%A1",
+   "photo": "File:Saitama Ogawa elementary school xl.jpg",
    "verified": false,
    "text": {
     "zh-Hans": {
@@ -1085,6 +1090,7 @@
    "arrivalRadius": 80,
    "spoiler": false,
    "sourceURL": "https://www.city.sendai.jp/contentsoushutsu/animation_manga/tokushi/arigato.html",
+   "photo": "File:Kamei Arena Sendai.jpg",
    "verified": false,
    "text": {
     "zh-Hans": {

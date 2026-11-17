@@ -7,7 +7,19 @@
    "year": 2016,
    "creator": "新海誠 / コミックス・ウェーブ・フィルム",
    "tint": "#2E6BE6",
-   "aliases": ["Your Name.", "Your Name", "Kimi no Na wa", "君の名は", "你的名字", "你的名字。", "너의 이름은", "新海诚", "新海誠", "Makoto Shinkai", "신카이 마코토"],
+   "aliases": [
+    "Your Name.",
+    "Your Name",
+    "Kimi no Na wa",
+    "君の名は",
+    "你的名字",
+    "你的名字。",
+    "너의 이름은",
+    "新海诚",
+    "新海誠",
+    "Makoto Shinkai",
+    "신카이 마코토"
+   ],
    "officialURL": "https://www.kiminona.com/",
    "text": {
     "zh-Hans": {
@@ -15,7 +27,9 @@
      "creator": "新海诚 / CoMix Wave Films",
      "synopsis": "住在山间小镇糸守的高中女生三叶，和东京的高中男生泷，在梦里莫名互换了身体。两个素未谋面的人靠手机留言磨合彼此的生活，却渐渐发现这场互换背后藏着更大的秘密。"
     },
-    "zh-Hant": {"title": "你的名字。"},
+    "zh-Hant": {
+     "title": "你的名字。"
+    },
     "ja": {
      "title": "",
      "synopsis": "山深い町・糸守に暮らす女子高校生の三葉と、東京の男子高校生・瀧。会ったこともない二人は、夢の中で身体が入れ替わるようになる。スマホのメモで互いの生活をなんとか守りながら、二人は入れ替わりの奥にある秘密に近づいていく。"
@@ -39,7 +53,17 @@
    "year": 2019,
    "creator": "新海誠 / コミックス・ウェーブ・フィルム",
    "tint": "#4FA3E0",
-   "aliases": ["Weathering with You", "Tenki no Ko", "天气之子", "天氣之子", "날씨의 아이", "新海诚", "新海誠", "Makoto Shinkai", "신카이 마코토"],
+   "aliases": [
+    "Weathering with You",
+    "Tenki no Ko",
+    "天气之子",
+    "天氣之子",
+    "날씨의 아이",
+    "新海诚",
+    "新海誠",
+    "Makoto Shinkai",
+    "신카이 마코토"
+   ],
    "officialURL": "https://www.tenkinoko.com/",
    "text": {
     "zh-Hans": {
@@ -47,7 +71,9 @@
      "creator": "新海诚 / CoMix Wave Films",
      "synopsis": "离岛离家出走的高中生帆高来到连日阴雨的东京，在一家小编辑社打工糊口。他遇见了一个只要祈祷、就能让天空放晴的少女阳菜，两人做起了“出租晴天”的小生意。"
     },
-    "zh-Hant": {"title": "天氣之子"},
+    "zh-Hant": {
+     "title": "天氣之子"
+    },
     "ja": {
      "title": "",
      "synopsis": "離島から家出してきた高校生・帆高は、雨が降り続く東京で小さな編集プロダクションに転がり込む。やがて彼は、祈るだけで空を晴れにできる少女・陽菜と出会い、二人で「晴れ女」の仕事を始める。"
@@ -71,14 +97,28 @@
    "year": 2007,
    "creator": "新海誠 / コミックス・ウェーブ・フィルム",
    "tint": "#F2A7C3",
-   "aliases": ["5 Centimeters per Second", "Byosoku 5 Centimeter", "Byōsoku Go Senchimētoru", "秒速5厘米", "秒速五厘米", "秒速5公分", "초속 5센티미터", "新海诚", "新海誠", "Makoto Shinkai", "신카이 마코토"],
+   "aliases": [
+    "5 Centimeters per Second",
+    "Byosoku 5 Centimeter",
+    "Byōsoku Go Senchimētoru",
+    "秒速5厘米",
+    "秒速五厘米",
+    "秒速5公分",
+    "초속 5센티미터",
+    "新海诚",
+    "新海誠",
+    "Makoto Shinkai",
+    "신카이 마코토"
+   ],
    "text": {
     "zh-Hans": {
      "title": "秒速5厘米",
      "creator": "新海诚 / CoMix Wave Films",
      "synopsis": "由《樱花抄》《宇航员》《秒速5厘米》三个短篇组成，讲述少年贵树从小学到成年的心路。分隔两地的初恋、说不出口的暗恋，被铁路、樱花和距离一点点拉开。"
     },
-    "zh-Hant": {"title": "秒速5公分"},
+    "zh-Hant": {
+     "title": "秒速5公分"
+    },
     "ja": {
      "title": "",
      "synopsis": "「桜花抄」「コスモナウト」「秒速5センチメートル」の三つの短編で、少年・遠野貴樹の小学生時代から大人になるまでを描く。離ればなれになった初恋、言えないままの片思い——線路と桜と距離が、少しずつ人と人を隔てていく。"
@@ -102,14 +142,26 @@
    "year": 2013,
    "creator": "新海誠 / コミックス・ウェーブ・フィルム",
    "tint": "#5E9E6E",
-   "aliases": ["The Garden of Words", "Kotonoha no Niwa", "言叶之庭", "言葉之庭", "언어의 정원", "新海诚", "新海誠", "Makoto Shinkai", "신카이 마코토"],
+   "aliases": [
+    "The Garden of Words",
+    "Kotonoha no Niwa",
+    "言叶之庭",
+    "言葉之庭",
+    "언어의 정원",
+    "新海诚",
+    "新海誠",
+    "Makoto Shinkai",
+    "신카이 마코토"
+   ],
    "text": {
     "zh-Hans": {
      "title": "言叶之庭",
      "creator": "新海诚 / CoMix Wave Films",
      "synopsis": "梦想做鞋匠的高中生孝雄，每逢下雨的早晨就翘掉第一节课，躲进新宿御苑画鞋子的设计图。在那里，他遇见了一位独自喝着啤酒的神秘女性。只在雨天相见的两人，慢慢走进了彼此的心。"
     },
-    "zh-Hant": {"title": "言葉之庭"},
+    "zh-Hant": {
+     "title": "言葉之庭"
+    },
     "ja": {
      "title": "",
      "synopsis": "靴職人を目指す高校生・タカオは、雨の朝になると午前の授業をサボり、新宿御苑で靴のスケッチを描いている。そこで出会ったのは、ひとりでビールを飲む謎めいた年上の女性・ユキノ。雨の日だけの逢瀬が、二人の心を少しずつ近づけていく。"
@@ -133,7 +185,19 @@
    "year": 2022,
    "creator": "新海誠 / コミックス・ウェーブ・フィルム",
    "tint": "#E07B39",
-   "aliases": ["Suzume", "Suzume no Tojimari", "Suzume's Door-Locking", "铃芽之旅", "铃芽户缔", "鈴芽之旅", "스즈메의 문단속", "新海诚", "新海誠", "Makoto Shinkai", "신카이 마코토"],
+   "aliases": [
+    "Suzume",
+    "Suzume no Tojimari",
+    "Suzume's Door-Locking",
+    "铃芽之旅",
+    "铃芽户缔",
+    "鈴芽之旅",
+    "스즈메의 문단속",
+    "新海诚",
+    "新海誠",
+    "Makoto Shinkai",
+    "신카이 마코토"
+   ],
    "officialURL": "https://suzume-tojimari-movie.jp/",
    "text": {
     "zh-Hans": {
@@ -141,7 +205,9 @@
      "creator": "新海诚 / CoMix Wave Films",
      "synopsis": "九州小镇的高中生铃芽，在废墟中打开了一扇不可思议的门。为了关上散落在日本各地、会招来灾难的“门”，她和被变成椅子的“闭门师”草太一路北上，展开一场跨越日本的旅程。"
     },
-    "zh-Hant": {"title": "鈴芽之旅"},
+    "zh-Hant": {
+     "title": "鈴芽之旅"
+    },
     "ja": {
      "title": "",
      "synopsis": "九州の静かな町で暮らす17歳の鈴芽は、廃墟で不思議な扉を開けてしまう。日本各地で災いを呼ぶ「後ろ戸」を閉じるため、椅子の姿に変えられた「閉じ師」の草太とともに、鈴芽の戸締まりの旅が始まる。"
@@ -165,14 +231,29 @@
    "year": 2006,
    "creator": "細田守 / マッドハウス",
    "tint": "#F5B841",
-   "aliases": ["The Girl Who Leapt Through Time", "Toki wo Kakeru Shoujo", "Tokikake", "時かけ", "穿越时空的少女", "跳跃吧！时空少女", "跳躍吧！時空少女", "시간을 달리는 소녀", "细田守", "細田守", "Mamoru Hosoda", "호소다 마모루"],
+   "aliases": [
+    "The Girl Who Leapt Through Time",
+    "Toki wo Kakeru Shoujo",
+    "Tokikake",
+    "時かけ",
+    "穿越时空的少女",
+    "跳跃吧！时空少女",
+    "跳躍吧！時空少女",
+    "시간을 달리는 소녀",
+    "细田守",
+    "細田守",
+    "Mamoru Hosoda",
+    "호소다 마모루"
+   ],
    "text": {
     "zh-Hans": {
      "title": "穿越时空的少女",
      "creator": "细田守 / MADHOUSE",
      "synopsis": "大大咧咧的高二女生真琴，在一次意外后发现自己能“跳跃”回过去。她用这能力重来考试、多吃布丁、躲开麻烦，和好友千昭、功介的夏天似乎可以无限重来——直到她发现，时间并不会白白让人改写。"
     },
-    "zh-Hant": {"title": "跳躍吧！時空少女"},
+    "zh-Hant": {
+     "title": "跳躍吧！時空少女"
+    },
     "ja": {
      "title": "",
      "synopsis": "高校2年生の真琴は、ある日を境に過去へ「タイムリープ」できるようになる。テストをやり直し、プリンを取り返し、千昭や功介と過ごす夏を何度でも繰り返す真琴。けれど、時間を巻き戻すことには思いがけない代償があった。"
@@ -196,7 +277,18 @@
    "year": 2009,
    "creator": "細田守 / マッドハウス",
    "tint": "#E94B3C",
-   "aliases": ["Summer Wars", "Sama Uozu", "夏日大作战", "夏日大作戰", "썸머 워즈", "썸머워즈", "细田守", "細田守", "Mamoru Hosoda", "호소다 마모루"],
+   "aliases": [
+    "Summer Wars",
+    "Sama Uozu",
+    "夏日大作战",
+    "夏日大作戰",
+    "썸머 워즈",
+    "썸머워즈",
+    "细田守",
+    "細田守",
+    "Mamoru Hosoda",
+    "호소다 마모루"
+   ],
    "officialURL": "https://s-wars.jp/",
    "text": {
     "zh-Hans": {
@@ -204,7 +296,9 @@
      "creator": "细田守 / MADHOUSE",
      "synopsis": "数学天才少年健二被学姐夏希拉去长野上田的老家，假扮她的未婚夫，给曾祖母荣庆祝九十大寿。就在大家族热热闹闹团聚时，席卷全世界的虚拟空间“OZ”突然陷入混乱。"
     },
-    "zh-Hant": {"title": "夏日大作戰"},
+    "zh-Hant": {
+     "title": "夏日大作戰"
+    },
     "ja": {
      "title": "",
      "synopsis": "数学が得意な高校生・健二は、憧れの先輩・夏希に頼まれ、長野県上田にある彼女の実家へ。曾祖母・栄の90歳の誕生日を祝う大家族の中で「婚約者」のふりをすることになるが、同じころ世界中がつながる仮想世界「OZ」に異変が起きていた。"
@@ -228,7 +322,18 @@
    "year": 2012,
    "creator": "細田守 / スタジオ地図",
    "tint": "#7A9A57",
-   "aliases": ["Wolf Children", "Ookami Kodomo no Ame to Yuki", "Wolf Children Ame and Yuki", "狼的孩子雨和雪", "狼之子雨与雪", "늑대아이", "细田守", "細田守", "Mamoru Hosoda", "호소다 마모루"],
+   "aliases": [
+    "Wolf Children",
+    "Ookami Kodomo no Ame to Yuki",
+    "Wolf Children Ame and Yuki",
+    "狼的孩子雨和雪",
+    "狼之子雨与雪",
+    "늑대아이",
+    "细田守",
+    "細田守",
+    "Mamoru Hosoda",
+    "호소다 마모루"
+   ],
    "officialURL": "https://www.ookamikodomo.jp/",
    "text": {
     "zh-Hans": {
@@ -236,7 +341,9 @@
      "creator": "细田守 / 地图工作室",
      "synopsis": "大学生花爱上了一个“狼人”，生下了既是人又是狼的姐弟雪和雨。为了让孩子们不被旁人发现、自由选择成为人还是狼，花带着他们离开东京，搬进了深山里的一座老房子。"
     },
-    "zh-Hant": {"title": "狼的孩子雨和雪"},
+    "zh-Hant": {
+     "title": "狼的孩子雨和雪"
+    },
     "ja": {
      "title": "",
      "synopsis": "大学生の花は「おおかみおとこ」と恋に落ち、人間とおおかみの二つの顔をもつ姉弟・雪と雨を授かる。子どもたちが人目を気にせず、人として生きるかおおかみとして生きるかを選べるように、花は東京を離れ、山あいの古民家へ移り住む。"
@@ -260,7 +367,17 @@
    "year": 2021,
    "creator": "細田守 / スタジオ地図",
    "tint": "#E05A8A",
-   "aliases": ["Belle", "Ryu to Sobakasu no Hime", "龙与雀斑公主", "龍與雀斑公主", "용과 주근깨 공주", "细田守", "細田守", "Mamoru Hosoda", "호소다 마모루"],
+   "aliases": [
+    "Belle",
+    "Ryu to Sobakasu no Hime",
+    "龙与雀斑公主",
+    "龍與雀斑公主",
+    "용과 주근깨 공주",
+    "细田守",
+    "細田守",
+    "Mamoru Hosoda",
+    "호소다 마모루"
+   ],
    "officialURL": "https://ryu-to-sobakasu-no-hime.jp/",
    "text": {
     "zh-Hans": {
@@ -268,7 +385,9 @@
      "creator": "细田守 / 地图工作室",
      "synopsis": "住在高知乡下的17岁少女铃，自从小时候失去母亲，就再也唱不出歌来。可当她以“Belle”的身份进入拥有五十亿用户的虚拟世界“U”，歌声却一夜之间传遍全世界。"
     },
-    "zh-Hant": {"title": "龍與雀斑公主"},
+    "zh-Hant": {
+     "title": "龍與雀斑公主"
+    },
     "ja": {
      "title": "",
      "synopsis": "高知の田舎町で暮らす17歳のすずは、幼いころに母を亡くして以来、歌うことができなくなっていた。しかし50億人が集う仮想世界〈U〉で「ベル」として歌うと、その歌声はたちまち世界中を魅了していく。"
@@ -292,7 +411,22 @@
    "year": 2016,
    "creator": "山田尚子 / 京都アニメーション",
    "tint": "#7FC8D6",
-   "aliases": ["A Silent Voice", "Koe no Katachi", "The Shape of Voice", "声の形", "声之形", "聲之形", "목소리의 형태", "山田尚子", "Naoko Yamada", "야마다 나오코", "京都动画", "京アニ", "Kyoto Animation", "大垣"],
+   "aliases": [
+    "A Silent Voice",
+    "Koe no Katachi",
+    "The Shape of Voice",
+    "声の形",
+    "声之形",
+    "聲之形",
+    "목소리의 형태",
+    "山田尚子",
+    "Naoko Yamada",
+    "야마다 나오코",
+    "京都动画",
+    "京アニ",
+    "Kyoto Animation",
+    "大垣"
+   ],
    "officialURL": "https://koenokatachi-movie.com/",
    "text": {
     "zh-Hans": {
@@ -300,7 +434,9 @@
      "creator": "山田尚子 / 京都动画",
      "synopsis": "小学时，将也带头欺负转学来的听障少女硝子，后来自己也被孤立，从此封闭了内心。升上高中的他学会了手语，决定去见硝子一面。改编自大今良时的同名漫画。"
     },
-    "zh-Hant": {"title": "聲之形"},
+    "zh-Hant": {
+     "title": "聲之形"
+    },
     "ja": {
      "title": "",
      "synopsis": "小学生の将也は、転校してきた聴覚障害の少女・硝子へのいじめの中心になり、やがて自分も孤立して心を閉ざす。高校生になった将也は手話を覚え、もう一度硝子に会いに行く。大今良時の漫画を原作とする劇場アニメ。"
@@ -324,14 +460,30 @@
    "year": 2014,
    "creator": "山田尚子 / 京都アニメーション",
    "tint": "#EF8FA5",
-   "aliases": ["Tamako Love Story", "Tamako Rabu Sutori", "たまこまーけっと", "Tamako Market", "玉子爱情故事", "玉子愛情故事", "타마코 러브 스토리", "山田尚子", "Naoko Yamada", "야마다 나오코", "京都动画", "Kyoto Animation", "出町桝形商店街"],
+   "aliases": [
+    "Tamako Love Story",
+    "Tamako Rabu Sutori",
+    "たまこまーけっと",
+    "Tamako Market",
+    "玉子爱情故事",
+    "玉子愛情故事",
+    "타마코 러브 스토리",
+    "山田尚子",
+    "Naoko Yamada",
+    "야마다 나오코",
+    "京都动画",
+    "Kyoto Animation",
+    "出町桝形商店街"
+   ],
    "text": {
     "zh-Hans": {
      "title": "玉子爱情故事",
      "creator": "山田尚子 / 京都动画",
      "synopsis": "电视动画《玉子市场》的剧场版续作。年糕店“玉屋”的女儿玉子升上高三，从小一起长大、住在街对面的饼藏，终于下定决心要把心意说出口。"
     },
-    "zh-Hant": {"title": "玉子愛情故事"},
+    "zh-Hant": {
+     "title": "玉子愛情故事"
+    },
     "ja": {
      "title": "",
      "synopsis": "TVアニメ『たまこまーけっと』の続編となる劇場作品。うさぎ山商店街の餅屋「たまや」の娘・たまこは高校3年生に。向かいの餅屋の幼なじみ・もち蔵は、ずっと胸にしまってきた想いを伝えようと決意する。"
@@ -355,7 +507,18 @@
    "year": 2015,
    "creator": "細田守 / スタジオ地図",
    "tint": "#B5562F",
-   "aliases": ["The Boy and the Beast", "Bakemono no Ko", "怪物之子", "怪物的孩子", "괴물의 아이", "细田守", "細田守", "Mamoru Hosoda", "호소다 마모루", "渋谷"],
+   "aliases": [
+    "The Boy and the Beast",
+    "Bakemono no Ko",
+    "怪物之子",
+    "怪物的孩子",
+    "괴물의 아이",
+    "细田守",
+    "細田守",
+    "Mamoru Hosoda",
+    "호소다 마모루",
+    "渋谷"
+   ],
    "officialURL": "https://www.bakemono-no-ko.jp/",
    "text": {
     "zh-Hans": {
@@ -363,7 +526,9 @@
      "creator": "细田守 / 地图工作室",
      "synopsis": "失去母亲、无处可去的九岁少年莲，在涩谷街头遇见了熊一样的怪物熊彻，跟着他闯进了怪物的世界“涩天街”。粗暴又笨拙的熊彻收他为徒，给他取名“九太”，一对不像样的师徒就此开始了修行。"
     },
-    "zh-Hant": {"title": "怪物的孩子"},
+    "zh-Hant": {
+     "title": "怪物的孩子"
+    },
     "ja": {
      "title": "",
      "synopsis": "母を亡くし、ひとりぼっちになった9歳の少年・蓮は、渋谷の街でクマのようなバケモノ・熊徹と出会い、バケモノの世界「渋天街」へ迷い込む。乱暴で不器用な熊徹の弟子となり「九太」と名付けられた少年の、奇妙な師弟の日々が始まる。"
@@ -543,6 +708,335 @@
      "access": "JR 주오·소부선 시나노마치역을 나오면 바로 앞에 있는 육교",
      "bestTime": "맑은 날 해 질 무렵. 서쪽 하늘이 물들고 요요기의 빌딩이 실루엣이 될 때가 영화와 가장 닮았다",
      "tips": "육교가 좁고 유모차나 휠체어도 지나다니니 한쪽으로 비켜서 짧게 촬영하세요. 아래는 차량 통행이 많은 도로이니 난간 밖으로 몸을 내밀지 마세요."
+    }
+   }
+  },
+  {
+   "id": "tenkinoko-kisho-jinja",
+   "workID": "weathering-with-you",
+   "latitude": 35.70453,
+   "longitude": 139.65101,
+   "sceneHeading": 0,
+   "scenePitch": 0,
+   "arrivalRadius": 30,
+   "spoiler": false,
+   "sourceURL": "https://www.businessinsider.jp/post-195692",
+   "photo": "File:Kisho jinjya - hikawa jinjya.JPG",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "高円寺 冰川神社·气象神社（东京·杉并）",
+     "sceneTitle": "“晴女”的传说",
+     "episode": "剧场版 · 前中段",
+     "highlight": "日本唯一供奉“气象之神”的神社。片中那座挂满木屐形绘马、祈求晴天的神社就取材于此——帆高正是在那里，第一次听说“天气巫女”要付出的代价。",
+     "story": "为了给神秘学杂志写一篇关于“晴女”的报道，帆高和夏美来到一座老神社采访。神社的老神官一边翻出古老的天井画，一边讲述自古流传的“天气巫女”传说：天气连着天上的另一个世界，能让天空放晴的少女，总要为此付出代价。夏美听得半信半疑，帆高却想起了阳菜——她每次祈祷后身上那些细微的变化。他第一次隐隐感到，阳菜的能力并不只是奇迹。",
+     "access": "JR中央线「高円寺」站南口步行约3分钟，气象神社在冰川神社境内",
+     "bestTime": "雨后初晴的白天；每年6月1日前后有“气象祭”，绘马最多",
+     "tips": "神社很小，紧邻车站和住宅，请安静参拜。可以在授与所求一枚木屐绘马写下愿望；拍摄时不要拍到其他人写的愿望内容。"
+    },
+    "ja": {
+     "placeName": "高円寺氷川神社・気象神社（東京都杉並区）",
+     "sceneTitle": "「晴れ女」の伝説",
+     "episode": "劇場版・序盤〜中盤",
+     "highlight": "日本で唯一「気象の神様」を祀る神社。作中、晴れを願う下駄の絵馬がずらりと並ぶ神社のモデルがここ。帆高はその神社で、「天気の巫女」の代償を初めて知ることになる。",
+     "story": "オカルト雑誌に「晴れ女」の記事を書くため、帆高と夏美はある古い神社へ取材に訪れる。神主の老人は古い天井画を見せながら、昔から語り継がれる「天気の巫女」の伝説を語る——天気は空の上の別の世界とつながっていて、空を晴らす娘には必ず代償がある、と。半信半疑の夏美をよそに、帆高は陽菜のことを思い出していた。祈るたびに彼女の身に起きている小さな変化。陽菜の力がただの奇跡ではないことを、帆高はこのとき初めてうっすらと感じ取る。",
+     "access": "JR中央線「高円寺」駅南口から徒歩約3分。気象神社は高円寺氷川神社の境内にある",
+     "bestTime": "雨上がりの晴れた日中。毎年6月1日前後の「気象祭」の時期は絵馬がいちばん多い",
+     "tips": "駅と住宅に挟まれた小さな神社なので、静かにお参りを。授与所で下駄の絵馬を受けて願いごとを書くこともできる。他の人の絵馬の文字が写り込まないよう配慮しよう。"
+    },
+    "en": {
+     "placeName": "Koenji Hikawa Shrine & Kisho (Weather) Shrine (Suginami, Tokyo)",
+     "sceneTitle": "The Legend of the Weather Maiden",
+     "episode": "Film · First half",
+     "highlight": "The only shrine in Japan dedicated to a god of the weather. The film's shrine, hung with rows of geta-shaped ema praying for sunshine, is modelled on it — and that is where Hodaka first hears what a “weather maiden” must pay.",
+     "story": "Researching an article on “sunshine girls” for an occult magazine, Hodaka and Natsumi visit an old shrine. The elderly priest shows them an old ceiling painting and tells them the legend of the weather maiden: the weather is connected to another world above the sky, and a girl who can clear the clouds always pays a price. Natsumi is sceptical, but Hodaka thinks of Hina and the small changes he has noticed in her each time she prays. For the first time, he senses that her power is more than a miracle.",
+     "access": "About 3 minutes' walk from the south exit of JR Koenji Station (Chuo Line). Kisho Shrine stands inside the Hikawa Shrine grounds",
+     "bestTime": "A bright day after rain. Around 1 June each year the Weather Festival brings the most ema",
+     "tips": "It's a tiny shrine squeezed between the station and houses, so keep it quiet. You can buy a geta-shaped ema and write your own wish; avoid photographing other people's written wishes."
+    },
+    "ko": {
+     "placeName": "고엔지 히카와 신사·기상 신사 (도쿄 스기나미)",
+     "sceneTitle": "‘맑음 소녀’의 전설",
+     "episode": "극장판 · 전반",
+     "highlight": "일본에서 유일하게 ‘기상의 신’을 모시는 신사. 맑은 날씨를 비는 게타 모양 에마가 줄지어 걸린 영화 속 신사가 이곳을 모델로 했고, 호다카는 그 신사에서 ‘날씨 무녀’의 대가를 처음 듣게 된다.",
+     "story": "오컬트 잡지에 ‘맑음 소녀’ 기사를 쓰기 위해 호다카와 나츠미는 오래된 신사로 취재를 간다. 나이 든 신관은 오래된 천장화를 보여 주며 예로부터 전해 오는 ‘날씨 무녀’ 전설을 들려준다. 날씨는 하늘 위의 또 다른 세계와 이어져 있고, 하늘을 맑게 하는 소녀는 반드시 대가를 치른다는 것. 반신반의하는 나츠미와 달리 호다카는 히나를 떠올린다. 기도할 때마다 그녀에게 생기던 작은 변화들. 히나의 힘이 단순한 기적이 아니라는 것을 호다카는 이때 처음 어렴풋이 느낀다.",
+     "access": "JR 주오선 고엔지역 남쪽 출구에서 도보 약 3분. 기상 신사는 히카와 신사 경내에 있다",
+     "bestTime": "비가 갠 맑은 낮. 매년 6월 1일 무렵 ‘기상 축제’ 때 에마가 가장 많다",
+     "tips": "역과 주택 사이에 있는 작은 신사이니 조용히 참배하세요. 게타 모양 에마를 받아 소원을 적을 수도 있습니다. 다른 사람이 쓴 소원이 찍히지 않도록 배려해 주세요."
+    }
+   }
+  },
+  {
+   "id": "tenkinoko-tabata-slope",
+   "workID": "weathering-with-you",
+   "latitude": 35.73665,
+   "longitude": 139.76215,
+   "sceneHeading": 140,
+   "scenePitch": 6,
+   "arrivalRadius": 40,
+   "spoiler": true,
+   "sourceURL": "https://toyokeizai.net/articles/-/292369",
+   "photo": "File:Pedestrian path near the South Exit of Tabata Station.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "JR田端站南口 坡道（东京·北区）",
+     "sceneTitle": "我们一定没问题的",
+     "episode": "剧场版 · 结尾",
+     "highlight": "电影的最后一幕：坡道尽头，阳菜双手合十向着天空祈祷。帆高终于再次见到她，在心里对她、也对自己说出那句“我们一定没问题的”。",
+     "story": "帆高做出那个选择之后，东京的雨再也没有停过。三年过去，大片城区沉入水中，他也在离岛读完了高中。毕业后，帆高终于回到东京，去拜访了曾经的委托人老奶奶，听她说起东京原本就是一片海。离开后，他沿着田端站南口这条安静的坡道往上走，忽然看见坡道尽头，阳菜正闭着眼睛、双手合十，向着下雨的天空祈祷。她察觉到他，转过身跑了过来。帆高想起自己曾经改变了世界的形状，在泪水里对她说：“阳菜，我们一定没问题的。”",
+     "access": "JR山手线／京滨东北线「田端」站南口出站即到坡道下端",
+     "bestTime": "细雨天或雨后傍晚最有电影的气氛；樱花季坡道旁的树也很美",
+     "tips": "南口是安静的小出口，坡道禁止车辆通行但居民常走。拍照时靠边，不要占满路面；旁边的石阶是不动坂，上下注意脚下。"
+    },
+    "ja": {
+     "placeName": "JR田端駅南口の坂（東京都北区）",
+     "sceneTitle": "僕たちは、大丈夫だ",
+     "episode": "劇場版・ラスト",
+     "highlight": "物語のラストシーン。坂の上で、陽菜が手を合わせて空に祈っている。ようやく再会した帆高は、彼女に、そして自分に言い聞かせるように「僕たちは、きっと大丈夫だ」と心の中でつぶやく。",
+     "story": "帆高があの選択をしてから、東京の雨は一度も止まなかった。3年が経ち、街の多くは水に沈み、帆高は島で高校を卒業する。東京に戻った彼は、かつての依頼人だった老婦人を訪ね、東京はもともと海だったのだと聞かされる。その帰り道、田端駅南口の静かな坂を上っていくと、坂の上で陽菜が目を閉じ、手を合わせて雨空に祈っていた。帆高に気づいた陽菜が振り返り、駆け寄ってくる。自分たちが世界の形を変えてしまったことを胸に、帆高は涙の中で言う。「陽菜さん、僕たちは、大丈夫だ」。",
+     "access": "JR山手線・京浜東北線「田端」駅南口を出てすぐ、坂の下",
+     "bestTime": "小雨の日や雨上がりの夕方がいちばん作品らしい。桜の季節も美しい",
+     "tips": "南口は小さく静かな出口で、坂は車両通行止めだが住民の生活道路。撮影は端に寄って手短に。隣の石段（不動坂）は急なので足元に注意。"
+    },
+    "en": {
+     "placeName": "Slope by the South Exit of JR Tabata Station (Kita, Tokyo)",
+     "sceneTitle": "We'll Be All Right",
+     "episode": "Film · Final scene",
+     "highlight": "The film's last scene: at the top of this slope, Hina stands praying to the sky with her hands together. Seeing her again at last, Hodaka tells her — and himself — that “we're going to be all right.”",
+     "story": "After the choice Hodaka made, the rain over Tokyo never stopped. Three years pass, much of the city sinks under water, and Hodaka finishes high school back on his island. Returning to Tokyo, he visits an elderly former client, who tells him Tokyo was once the sea anyway. Walking up this quiet slope from Tabata's south exit, he sees Hina at the top, eyes closed, hands together, praying to the rainy sky. She notices him, turns and runs to him. Knowing they changed the shape of the world, Hodaka says through tears: “Hina, we're going to be all right.”",
+     "access": "Right outside the South Exit of JR Tabata Station (Yamanote / Keihin-Tohoku Lines) — the slope starts at the exit",
+     "bestTime": "A drizzly day or an evening after rain feels most like the film; cherry blossom season is lovely too",
+     "tips": "The south exit is tiny and quiet. The slope is closed to cars but used daily by residents, so stand to the side for photos. The steep stone steps next to it (Fudozaka) need care."
+    },
+    "ko": {
+     "placeName": "JR 다바타역 남쪽 출구 언덕길 (도쿄 기타구)",
+     "sceneTitle": "우리는 괜찮을 거야",
+     "episode": "극장판 · 마지막 장면",
+     "highlight": "영화의 마지막 장면. 언덕길 위에서 히나가 두 손을 모으고 하늘에 기도하고 있다. 마침내 다시 만난 호다카는 그녀에게, 그리고 자신에게 “우리는 분명 괜찮을 거야”라고 말한다.",
+     "story": "호다카가 그 선택을 한 뒤로 도쿄의 비는 한 번도 그치지 않았다. 3년이 흘러 도시의 많은 곳이 물에 잠겼고, 호다카는 섬에서 고등학교를 졸업한다. 도쿄로 돌아온 그는 예전 의뢰인이었던 할머니를 찾아가, 도쿄는 원래 바다였다는 이야기를 듣는다. 돌아가는 길에 다바타역 남쪽 출구의 조용한 언덕길을 오르던 호다카는, 언덕 위에서 눈을 감고 두 손을 모은 채 비 내리는 하늘에 기도하는 히나를 발견한다. 그를 알아본 히나가 돌아서 달려온다. 자신들이 세상의 모양을 바꿔 버렸다는 걸 알면서도, 호다카는 눈물 속에서 말한다. “히나 씨, 우리는 괜찮을 거야.”",
+     "access": "JR 야마노테선·게이힌토호쿠선 다바타역 남쪽 출구를 나오면 바로 언덕길이 시작된다",
+     "bestTime": "보슬비 내리는 날이나 비 갠 저녁이 가장 영화 같다. 벚꽃 철도 아름답다",
+     "tips": "남쪽 출구는 작고 조용한 출구입니다. 언덕길은 차량 통행 금지지만 주민이 매일 다니는 길이니 한쪽에 비켜서 촬영하세요. 옆의 가파른 돌계단(후도자카)은 발밑을 조심하세요."
+    }
+   }
+  },
+  {
+   "id": "byousoku-sangubashi",
+   "workID": "five-centimeters",
+   "latitude": 35.67522,
+   "longitude": 139.69183,
+   "sceneHeading": 305,
+   "scenePitch": 0,
+   "arrivalRadius": 50,
+   "spoiler": true,
+   "sourceURL": "https://toyokeizai.net/articles/-/910660?page=4",
+   "photo": "File:Walk around Yoyogi 4chome 5chome 10.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "小田急线 参宫桥3号道口（东京·涩谷 代代木）",
+     "sceneTitle": "道口的擦肩而过",
+     "episode": "剧场版 · 第3话「秒速5厘米」结尾",
+     "highlight": "全片最后一幕，与第1话开头少年少女在铁道口的约定遥相呼应。电车驶过、遮住视线的那几秒，成了无数人心中“错过”的代名词。",
+     "story": "多年过去，贵树在东京做着系统工程师的工作，和交往三年的女友分了手，辞去了工作，整个人被掏空了。另一边，明里即将结婚，翻出了当年没能寄出的信。一个樱花纷飞的春日，成年的贵树走过参宫桥一带的铁道道口，与一位女性擦肩而过，两人都感觉到了什么。走过道口后他回头，对方似乎也正要回头——就在这时电车呼啸而过，挡住了视线。列车过去后，那里已空无一人。贵树微微一笑，转身继续向前走去。",
+     "access": "小田急线「参宫桥」站东口沿铁路向南步行约5分钟（第二个道口，旁边是京王巴士“代代木五丁目”站）",
+     "bestTime": "三月底到四月初樱花季的白天，花瓣随电车经过飘落时最像电影",
+     "tips": "请勿在道口内停留或拍照，警报响起立刻退到栏杆外。周边是安静的住宅区，不要大声喧哗，也不要拍摄民宅。"
+    },
+    "ja": {
+     "placeName": "小田急線 参宮橋3号踏切（東京都渋谷区代々木）",
+     "sceneTitle": "踏切でのすれ違い",
+     "episode": "劇場版・第3話「秒速5センチメートル」ラスト",
+     "highlight": "作品のラストシーン。第1話冒頭、幼い二人が踏切で交わした約束と対になる場面。電車が通り過ぎ、視界を遮る数秒間は、多くの人にとって「すれ違い」の象徴になった。",
+     "story": "月日は流れ、東京でシステムエンジニアとして働く貴樹は、3年付き合った恋人と別れ、会社も辞め、心がすり減ったまま日々を送っている。一方の明里は結婚を控え、あの日渡せなかった手紙を見つけていた。桜の舞う春の日、参宮橋近くの踏切で、貴樹は一人の女性とすれ違い、互いに何かを感じる。渡りきって振り返ると、相手もまた振り返ろうとしているように見えた——その瞬間、電車が轟音とともに通過して視界を遮る。電車が過ぎ去ったあと、そこにはもう誰もいなかった。貴樹は小さく微笑み、再び前へと歩き出す。",
+     "access": "小田急線「参宮橋」駅東口から線路沿いに南へ徒歩約5分（二つ目の踏切。京王バス「代々木五丁目」停留所のそば）",
+     "bestTime": "3月末〜4月上旬の桜の季節、日中。電車の風で花びらが舞うと作品そのもの",
+     "tips": "踏切内で立ち止まったり撮影したりしないこと。警報が鳴ったらすぐに遮断機の外へ。周辺は静かな住宅街なので、大声や民家の撮影は控えよう。"
+    },
+    "en": {
+     "placeName": "Odakyu Line Sangubashi No. 3 crossing (Yoyogi, Shibuya, Tokyo)",
+     "sceneTitle": "Passing at the Railroad Crossing",
+     "episode": "Film · Episode 3 “5 Centimeters per Second” · Ending",
+     "highlight": "The film's final scene, mirroring the promise the two children made at a railway crossing in Episode 1. The few seconds when a passing train blocks the view have become, for many, the very image of “missing each other.”",
+     "story": "Years later, Takaki works as a systems engineer in Tokyo. He has broken up with the girlfriend of three years and quit his job, emptied out inside. Akari, meanwhile, is about to marry and has found the letter she never gave him. One spring day, with cherry petals in the air, Takaki crosses a railway crossing near Sangubashi and passes a woman; both of them sense something. On the other side he turns around, and she seems about to turn as well — just then a train roars through and blocks the view. When it has passed, no one is there. Takaki smiles faintly, turns, and walks on.",
+     "access": "About 5 minutes' walk south along the tracks from the east exit of Sangubashi Station (Odakyu Line) — the second crossing, next to the Keio bus stop “Yoyogi 5-chome”",
+     "bestTime": "Daytime in cherry blossom season (late March to early April), when petals swirl as trains pass",
+     "tips": "Never stop or take photos inside the crossing, and step back behind the barrier as soon as the bells ring. It's a quiet residential area — keep noise down and don't photograph people's homes."
+    },
+    "ko": {
+     "placeName": "오다큐선 산구바시 3호 건널목 (도쿄 시부야 요요기)",
+     "sceneTitle": "건널목에서의 엇갈림",
+     "episode": "극장판 · 제3화 「초속 5센티미터」 마지막 장면",
+     "highlight": "작품의 마지막 장면으로, 제1화 첫머리에서 어린 두 사람이 건널목에서 나눈 약속과 짝을 이룬다. 전철이 지나가며 시야를 가리는 몇 초는 많은 사람에게 ‘엇갈림’의 상징이 되었다.",
+     "story": "세월이 흘러 도쿄에서 시스템 엔지니어로 일하는 타카키는 3년 사귄 연인과 헤어지고 회사도 그만둔 채 텅 빈 마음으로 지낸다. 한편 아카리는 결혼을 앞두고, 그날 건네지 못한 편지를 발견한다. 벚꽃이 흩날리는 봄날, 산구바시 근처 건널목에서 타카키는 한 여성과 스쳐 지나가고, 두 사람 모두 무언가를 느낀다. 건널목을 건넌 뒤 그가 뒤돌아보자 상대도 막 뒤돌아보려는 듯하다. 바로 그때 전철이 굉음을 내며 지나가 시야를 가린다. 열차가 지나간 뒤, 그곳에는 아무도 없다. 타카키는 살며시 미소 짓고는 다시 앞으로 걸어간다.",
+     "access": "오다큐선 산구바시역 동쪽 출구에서 선로를 따라 남쪽으로 도보 약 5분 (두 번째 건널목, 게이오 버스 ‘요요기 5초메’ 정류장 옆)",
+     "bestTime": "벚꽃 철(3월 말~4월 초) 낮. 전철이 지나갈 때 꽃잎이 흩날리면 영화 그대로다",
+     "tips": "건널목 안에서 멈춰 서거나 촬영하지 말고, 경보가 울리면 즉시 차단기 밖으로 물러나세요. 조용한 주택가이니 큰 소리를 내거나 민가를 촬영하지 마세요."
+    }
+   }
+  },
+  {
+   "id": "byousoku-iwafune-station",
+   "workID": "five-centimeters",
+   "latitude": 36.3269,
+   "longitude": 139.65772,
+   "sceneHeading": 180,
+   "scenePitch": 0,
+   "arrivalRadius": 50,
+   "spoiler": true,
+   "sourceURL": "https://toyokeizai.net/articles/-/910660",
+   "photo": "File:JR Ryomo Line Iwafune Station Waiting room.jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "JR两毛线 岩舟站（栃木·栃木市）",
+     "sceneTitle": "大雪中等待的车站",
+     "episode": "剧场版 · 第1话「樱花抄」",
+     "highlight": "被大雪耽误了四个多小时的列车终于在深夜驶进这座小站，候车室的暖炉旁，明里还在等他。整部作品的起点，就在这个空荡荡的站台上。",
+     "story": "小学毕业后，明里随家人搬到了栃木，贵树也即将转学去遥远的鹿儿岛。初一那年冬天，两人约好在明里家附近的岩舟站见面。那天却下起了罕见的大雪，列车一次次停在半路，贵树在车厢里看着时间一分一秒过去，连写给明里的信也被风吹走了。直到深夜十一点多，列车才终于抵达岩舟。他以为她早就回家了，推开候车室的门，却看见明里坐在暖炉旁等着他。两人分吃了她亲手做的便当，一起走向雪中的那棵樱花树。",
+     "access": "JR两毛线「岩舟」站即到（从小山站约20分钟；东京出发约2小时）",
+     "bestTime": "冬季下雪的傍晚最贴近电影；春天站外的樱花也值得一看",
+     "tips": "岩舟是乡间小站，班次不多，请提前确认回程时刻表。候车室供乘客使用，请勿久占座位或大声喧哗；在站台拍照需购票进站，注意黄线。"
+    },
+    "ja": {
+     "placeName": "JR両毛線 岩舟駅（栃木県栃木市）",
+     "sceneTitle": "大雪の中で待つ駅",
+     "episode": "劇場版・第1話「桜花抄」",
+     "highlight": "大雪で4時間以上遅れた電車が、深夜ようやくこの小さな駅に着く。待合室のストーブのそばで、明里はまだ待っていた。作品のすべての始まりは、この静かなホームにある。",
+     "story": "小学校を卒業すると、明里は家族とともに栃木へ引っ越し、貴樹も遠い鹿児島への転校が決まっていた。中学1年の冬、二人は明里の家の近くの岩舟駅で会う約束をする。ところがその日は記録的な大雪。電車は途中で何度も止まり、貴樹は車内で時間が過ぎていくのをただ見つめるしかなく、明里に渡すはずの手紙まで風に飛ばされてしまう。電車が岩舟に着いたのは夜11時過ぎ。もう帰ってしまっただろうと思いながら待合室の扉を開けると、ストーブのそばで明里が待っていた。二人は彼女の手作りの弁当を分け合い、雪の中の桜の木へと歩いていく。",
+     "access": "JR両毛線「岩舟」駅すぐ（小山駅から約20分、東京から約2時間）",
+     "bestTime": "雪の降る冬の夕方が作品にいちばん近い。春には駅周辺の桜も見ごたえがある",
+     "tips": "本数の少ないローカル駅なので、帰りの時刻表は事前に確認を。待合室は利用者のための場所なので、長居や大声は控えよう。ホームで撮影するなら乗車券を買って入場し、黄色い線の内側で。"
+    },
+    "en": {
+     "placeName": "JR Ryomo Line Iwafune Station (Tochigi, Tochigi)",
+     "sceneTitle": "The Station Where She Waited",
+     "episode": "Film · Episode 1 “Cherry Blossom”",
+     "highlight": "Delayed more than four hours by heavy snow, Takaki's train finally pulls into this tiny station late at night — and by the stove in the waiting room, Akari is still waiting. The whole story begins on this empty platform.",
+     "story": "After primary school, Akari moves away to Tochigi, and Takaki's family is about to move far south to Kagoshima. One winter in their first year of junior high, they agree to meet at Iwafune, the station near her home. That day an unusual snowstorm hits. The train stops again and again, Takaki can only watch the minutes tick by, and even the letter he wrote for her is blown away. It is past 11 p.m. when he finally reaches Iwafune. Sure she must have gone home, he opens the waiting-room door — and finds Akari sitting by the stove. They share the lunch she made and walk out to the cherry tree in the snow.",
+     "access": "Right at JR Iwafune Station on the Ryomo Line (about 20 minutes from Oyama; around 2 hours from Tokyo)",
+     "bestTime": "A snowy winter evening is closest to the film; in spring the cherry trees near the station are worth seeing",
+     "tips": "It's a rural station with infrequent trains, so check the return timetable in advance. The waiting room is for passengers — don't hog seats or be loud. To photograph the platform, buy a ticket and stay behind the yellow line."
+    },
+    "ko": {
+     "placeName": "JR 료모선 이와후네역 (도치기현 도치기시)",
+     "sceneTitle": "폭설 속에서 기다린 역",
+     "episode": "극장판 · 제1화 「벚꽃 이야기」",
+     "highlight": "폭설로 네 시간 넘게 늦어진 열차가 밤늦게야 이 작은 역에 도착한다. 대합실 난로 옆에서 아카리는 여전히 기다리고 있었다. 작품의 모든 시작이 이 텅 빈 승강장에 있다.",
+     "story": "초등학교를 졸업하자 아카리는 가족과 함께 도치기로 이사하고, 타카키도 먼 가고시마로 전학이 정해진다. 중학교 1학년 겨울, 두 사람은 아카리네 집 근처 이와후네역에서 만나기로 약속한다. 그런데 그날은 보기 드문 폭설이 내린다. 열차는 몇 번이고 멈춰 서고, 타카키는 객차 안에서 흘러가는 시간을 바라볼 수밖에 없으며, 아카리에게 주려던 편지마저 바람에 날아가 버린다. 열차가 이와후네에 닿은 것은 밤 11시가 넘어서였다. 이미 돌아갔으리라 생각하며 대합실 문을 열자, 난로 옆에 아카리가 앉아 기다리고 있었다. 두 사람은 그녀가 직접 싼 도시락을 나눠 먹고, 눈 속의 벚나무를 향해 걸어간다.",
+     "access": "JR 료모선 이와후네역 바로 앞 (오야마역에서 약 20분, 도쿄에서 약 2시간)",
+     "bestTime": "눈 내리는 겨울 저녁이 영화와 가장 닮았다. 봄에는 역 주변 벚꽃도 볼 만하다",
+     "tips": "열차 편수가 적은 시골 역이니 돌아오는 시간표를 미리 확인하세요. 대합실은 승객을 위한 공간이니 오래 머물거나 떠들지 마세요. 승강장에서 촬영하려면 승차권을 사서 들어가고, 노란 선 안쪽에 서 주세요."
+    }
+   }
+  },
+  {
+   "id": "byousoku-tanegashima-ishop",
+   "workID": "five-centimeters",
+   "latitude": 30.54676,
+   "longitude": 130.97076,
+   "sceneHeading": 150,
+   "scenePitch": 0,
+   "arrivalRadius": 50,
+   "spoiler": false,
+   "sourceURL": "https://www.pref.kagoshima.jp/ap01/chiiki/kumage/chiiki/kankou/stampnakatane.html",
+   "photo": "File:アイSHOP (4982385849).jpg",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "i-Shop 石堂店 便利店（鹿儿岛·种子岛 中种子町）",
+     "sceneTitle": "放学后的便利店",
+     "episode": "剧场版 · 第2话「宇航员」",
+     "highlight": "花苗总是在停车场等贵树一起回家，再一起绕进这家小便利店买饮料。几乎原样搬进电影的店面，是第2话里最日常、也最让人心酸的地方。",
+     "story": "高三的花苗从初中起就暗恋着从东京转学来的贵树。她冲浪总也站不起来，未来的志愿也还没想好，唯一确定的，是每天放学后在停车场“碰巧”等到他，一起骑车回家。两人常在这家便利店停下，贵树总是很快拿好饮料，花苗却要在冷柜前纠结半天。她觉得能这样并肩走一段路就已经很幸福，却也隐隐感到，贵树的目光总是望着很远很远的地方。",
+     "access": "种子岛机场开车约15分钟，位于中种子町野间的县道75号旁；岛上公交班次少，建议租车",
+     "bestTime": "夏季傍晚放学时分，南国的晚霞最像电影",
+     "tips": "这是当地人日常购物的店，请先买点东西再拍照，不要挡住收银台。店内有巡礼留言本；营业时间不固定，请向店家确认。停车可使用附近的大平集落公民馆停车场。"
+    },
+    "ja": {
+     "placeName": "アイショップ 石堂店（鹿児島県中種子町）",
+     "sceneTitle": "放課後のコンビニ",
+     "episode": "劇場版・第2話「コスモナウト」",
+     "highlight": "花苗はいつも駐輪場で貴樹を待ち、一緒に帰る途中にこの小さな店へ寄る。ほぼそのままの姿で描かれた店先は、第2話でいちばん日常的で、いちばん切ない場所。",
+     "story": "高校3年の花苗は、中学のころ東京から転校してきた貴樹にずっと片思いしている。サーフィンではまだ波に立てず、進路も決められない。確かなのは、放課後に駐輪場で「偶然」貴樹を待ち、一緒にバイクで帰ることだけ。二人はよくこの店に立ち寄る。貴樹はすぐに飲み物を選ぶのに、花苗は冷蔵ケースの前でいつまでも迷ってしまう。並んで帰れるだけで幸せだと思いながら、花苗は、貴樹の視線がいつもずっと遠くを見ていることにも気づいていた。",
+     "access": "種子島空港から車で約15分、中種子町野間の県道75号沿い。島内のバスは本数が少ないのでレンタカーが便利",
+     "bestTime": "夏の夕方、下校時間帯。南の島の夕焼けが作品そのもの",
+     "tips": "地元の人が日常的に使うお店。撮影の前に何か買い物をし、レジ前をふさがないように。店内には巡礼ノートがある。営業時間は不定とのことなので確認を。駐車は近くの大平集落公民館の駐車場を利用しよう。"
+    },
+    "en": {
+     "placeName": "i-Shop Ishido convenience store (Nakatane, Tanegashima, Kagoshima)",
+     "sceneTitle": "The Store After School",
+     "episode": "Film · Episode 2 “Cosmonaut”",
+     "highlight": "Kanae always waits for Takaki in the parking area so they can ride home together, stopping at this little shop on the way. Drawn almost exactly as it is, it's the most everyday — and most bittersweet — place in Episode 2.",
+     "story": "Kanae, in her final year of high school, has loved Takaki ever since he transferred from Tokyo in junior high. She still can't stand up on her surfboard and hasn't decided what to do after graduation. All she is sure of is that after school she will “happen” to be waiting when he comes out, so they can ride home together. They often stop at this store; Takaki picks his drink in seconds, while Kanae dithers in front of the fridge. Just walking beside him feels like enough — yet she can tell his eyes are always fixed on somewhere very far away.",
+     "access": "About 15 minutes by car from Tanegashima Airport, on Prefectural Road 75 in Noma, Nakatane. Buses on the island are infrequent, so a rental car is easiest",
+     "bestTime": "A summer evening around the end of the school day, under a southern sunset",
+     "tips": "Locals shop here every day — buy something before taking photos and keep clear of the till. There's a pilgrims' notebook inside. Opening hours are irregular, so check first. Park at the nearby Ohira community hall car park."
+    },
+    "ko": {
+     "placeName": "아이숍 이시도점 편의점 (가고시마현 다네가시마 나카타네초)",
+     "sceneTitle": "방과 후의 편의점",
+     "episode": "극장판 · 제2화 「코스모나우트」",
+     "highlight": "카나에는 늘 주차장에서 타카키를 기다렸다가 함께 돌아가는 길에 이 작은 가게에 들른다. 거의 그대로 그려진 가게 앞은 제2화에서 가장 일상적이면서 가장 애틋한 장소다.",
+     "story": "고3인 카나에는 중학생 때 도쿄에서 전학 온 타카키를 줄곧 짝사랑하고 있다. 서핑 보드 위에서는 아직 일어서지 못하고, 진로도 정하지 못했다. 확실한 건 방과 후 주차장에서 ‘우연히’ 타카키를 기다렸다가 함께 바이크를 타고 돌아가는 것뿐. 두 사람은 이 가게에 자주 들른다. 타카키는 금세 음료를 고르지만 카나에는 냉장고 앞에서 한참을 망설인다. 나란히 걷는 것만으로도 행복하다고 생각하면서도, 카나에는 타카키의 눈이 늘 아주 먼 곳을 보고 있다는 것을 알고 있었다.",
+     "access": "다네가시마 공항에서 차로 약 15분, 나카타네초 노마의 현도 75호선 변. 섬 안 버스는 편수가 적어 렌터카가 편하다",
+     "bestTime": "여름 저녁 하교 시간. 남쪽 섬의 노을이 영화 그대로다",
+     "tips": "주민들이 매일 이용하는 가게이니 촬영 전에 물건을 하나 사고 계산대 앞을 막지 마세요. 가게 안에 순례 노트가 있습니다. 영업시간이 일정하지 않으니 미리 확인하세요. 주차는 근처 오히라 마을 공민관 주차장을 이용하세요."
+    }
+   }
+  },
+  {
+   "id": "byousoku-nakayama-beach",
+   "workID": "five-centimeters",
+   "latitude": 30.5294,
+   "longitude": 130.9925,
+   "sceneHeading": 90,
+   "scenePitch": 0,
+   "arrivalRadius": 150,
+   "spoiler": true,
+   "sourceURL": "https://www.pref.kagoshima.jp/ap01/chiiki/kumage/chiiki/kankou/stampnakatane.html",
+   "verified": false,
+   "text": {
+    "zh-Hans": {
+     "placeName": "中山海岸（鹿儿岛·种子岛 中种子町）",
+     "sceneTitle": "终于站上浪头",
+     "episode": "剧场版 · 第2话「宇航员」",
+     "highlight": "花苗练习冲浪的海滩。她在这里一次次被浪打翻，也在这里第一次稳稳站上了浪头，鼓起了告白的勇气。太平洋的蓝和种子岛的风，是第2话最鲜明的颜色。",
+     "story": "整个夏天，花苗都没能在冲浪板上站起来，就像她对贵树的心意，怎么也说不出口。她暗暗决定：等哪天能站上浪头，就向他告白。一个秋天的午后，在这片海上，她终于稳稳地踩住了板子，被浪推着向前滑去。那天傍晚她鼓足勇气跟在贵树身边，却在他平静而遥远的眼神前哭了出来。远处，载着探测器的火箭拖着长长的白烟升上天空——花苗明白，贵树看着的，从来不是她。",
+     "access": "种子岛机场开车约20分钟；通往海岸的道路坡陡、路况较差，请小心驾驶",
+     "bestTime": "夏季至初秋的晴天；种子岛宇宙中心有火箭发射时，岛上多处都能远眺",
+     "tips": "这里是冲浪胜地，海况复杂，不会冲浪请勿下水。海边有淋浴和厕所，但手机信号较弱。请把垃圾带走，不要妨碍冲浪者。"
+    },
+    "ja": {
+     "placeName": "中山海岸（鹿児島県中種子町）",
+     "sceneTitle": "波の上に立てた日",
+     "episode": "劇場版・第2話「コスモナウト」",
+     "highlight": "花苗がサーフィンの練習をしていた海。何度も波にのまれ、やがて初めて波の上に立ち、告白する勇気をもらった場所。太平洋の青と種子島の風が、第2話をいちばん鮮やかに彩る。",
+     "story": "夏のあいだずっと、花苗はサーフボードの上に立てなかった。貴樹への想いをどうしても口にできないのと同じように。波に乗れたら、その日に気持ちを伝えよう——そう心に決めた花苗は、秋のある午後、この海でついにボードの上に立ち、波に押されて滑り出す。その夕方、勇気を振り絞って貴樹のそばを歩くが、彼の静かで遠い眼差しの前で、言葉の代わりに涙があふれてしまう。遠くで探査機を載せたロケットが白い煙を引いて空へ昇っていく。花苗は悟る。貴樹が見ているのは、自分ではないのだと。",
+     "access": "種子島空港から車で約20分。海岸へ下りる道は急坂で路面も悪いので運転に注意",
+     "bestTime": "夏〜初秋の晴れた日。種子島宇宙センターの打ち上げ日には島の各地から見られる",
+     "tips": "サーフィンの名所で潮の流れも複雑。サーフィンをしない人は海に入らないこと。シャワーとトイレはあるが携帯の電波は弱い。ゴミは持ち帰り、サーファーの邪魔をしないように。"
+    },
+    "en": {
+     "placeName": "Nakayama Beach (Nakatane, Tanegashima, Kagoshima)",
+     "sceneTitle": "Finally Standing on the Wave",
+     "episode": "Film · Episode 2 “Cosmonaut”",
+     "highlight": "The beach where Kanae practises surfing — wiped out again and again, until the day she finally stands on a wave and finds the courage to confess. The blue of the Pacific and the island wind are Episode 2's most vivid colours.",
+     "story": "All summer, Kanae can't stand up on her board — just as she can't put her feelings for Takaki into words. She makes a promise to herself: on the day she rides a wave, she'll tell him. One autumn afternoon, here, she finally finds her feet and glides forward on the swell. That evening she walks beside Takaki, determined to speak, but faced with his calm, distant gaze, tears come instead of words. In the distance a rocket carrying a space probe climbs into the sky on a long white trail, and Kanae understands that Takaki has never been looking at her.",
+     "access": "About 20 minutes by car from Tanegashima Airport. The road down to the beach is steep and rough, so drive carefully",
+     "bestTime": "Clear days from summer to early autumn. On launch days at the Tanegashima Space Center, rockets can be seen from many points on the island",
+     "tips": "This is a serious surf spot with tricky currents — don't swim if you don't surf. There are showers and toilets but weak phone signal. Take your rubbish home and keep out of the surfers' way."
+    },
+    "ko": {
+     "placeName": "나카야마 해안 (가고시마현 다네가시마 나카타네초)",
+     "sceneTitle": "마침내 파도 위에 서다",
+     "episode": "극장판 · 제2화 「코스모나우트」",
+     "highlight": "카나에가 서핑을 연습하던 바다. 몇 번이고 파도에 휩쓸리다가 마침내 파도 위에 처음 서고, 고백할 용기를 얻은 곳이다. 태평양의 파란빛과 다네가시마의 바람이 제2화를 가장 선명하게 물들인다.",
+     "story": "여름 내내 카나에는 서핑 보드 위에 일어서지 못했다. 타카키에 대한 마음을 끝내 말하지 못하는 것처럼. 파도를 타는 날 마음을 전하겠다고 다짐한 카나에는, 어느 가을 오후 이 바다에서 드디어 보드 위에 서서 파도에 밀려 나아간다. 그날 저녁 용기를 내어 타카키 곁을 걷지만, 그의 고요하고 먼 눈빛 앞에서 말 대신 눈물이 쏟아진다. 멀리서 탐사선을 실은 로켓이 하얀 연기를 길게 끌며 하늘로 올라간다. 카나에는 깨닫는다. 타카키가 바라보는 것은 자신이 아니라는 것을.",
+     "access": "다네가시마 공항에서 차로 약 20분. 해안으로 내려가는 길은 경사가 급하고 노면이 나쁘니 운전에 주의하세요",
+     "bestTime": "여름에서 초가을의 맑은 날. 다네가시마 우주센터 발사일에는 섬 곳곳에서 로켓이 보인다",
+     "tips": "이름난 서핑 명소로 조류가 복잡합니다. 서핑을 하지 않는다면 바다에 들어가지 마세요. 샤워장과 화장실은 있지만 휴대폰 신호가 약합니다. 쓰레기는 가져가고 서퍼들을 방해하지 마세요."
     }
    }
   }
