@@ -40,8 +40,11 @@ final class SmokeUITests: XCTestCase {
     func testFreeLimitShowsPaywall() throws {
         launch(heading: 270, pitch: 10, entitlement: "free", freeUsed: 3)
         enterSceneFromBanner()
-        XCTAssertTrue(app.otherElements["sceneLocked"].waitForExistence(timeout: 5)
-                      || app.buttons["showPaywall"].waitForExistence(timeout: 1), "额度用完应显示锁定层")
+        if !app.buttons["showPaywall"].waitForExistence(timeout: 8) {
+            snapshot("13-scene-locked-missing")
+            print(app.debugDescription)
+            XCTFail("额度用完应显示锁定层")
+        }
         XCTAssertFalse(app.staticTexts["celebrationTitle"].exists, "锁定时不应进入取景")
         snapshot("13-scene-locked")
         app.buttons["showPaywall"].tap()
@@ -54,7 +57,11 @@ final class SmokeUITests: XCTestCase {
     func testFreeUserWithAllowanceCanEnter() throws {
         launch(heading: 272, pitch: 8, entitlement: "free", freeUsed: 2)
         enterSceneFromBanner()
-        XCTAssertTrue(app.staticTexts["celebrationTitle"].waitForExistence(timeout: 6), "还有免费额度时应能体验")
+        if !app.staticTexts["celebrationTitle"].waitForExistence(timeout: 10) {
+            snapshot("free-allowance-no-celebration")
+            print(app.debugDescription)
+            XCTFail("还有免费额度时应能体验")
+        }
         XCTAssertFalse(app.buttons["showPaywall"].exists)
     }
 

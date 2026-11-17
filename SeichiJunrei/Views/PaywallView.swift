@@ -192,6 +192,7 @@ struct SceneLockedOverlay: View {
         .padding(24)
         .background(Material.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 20))
         .padding(32)
+        .accessibilityElement(children: .contain)
         .accessibilityIdentifier("sceneLocked")
     }
 }

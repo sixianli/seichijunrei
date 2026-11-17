@@ -89,7 +89,12 @@ final class StorePurchaseTests: XCTestCase {
 
         let tx = try XCTUnwrap(session.allTransactions().first { $0.productIdentifier == StoreProductID.lifetime })
         try session.refundTransaction(identifier: UInt(tx.identifier))
-        await store.refreshEntitlements()
+        // 退款是异步生效的：轮询交易记录直到撤销出现
+        for _ in 0..<30 {
+            await store.refreshEntitlements()
+            if store.entitlement != .lifetime { break }
+            try await Task.sleep(nanoseconds: 200_000_000)
+        }
         XCTAssertEqual(store.entitlement, .free(remaining: 3), "退款后应失去权益")
     }
 }

@@ -155,10 +155,12 @@ final class StoreService {
     /// 进入取景模式时调用：免费用户会消耗一次额度（同一处不重复扣）
     func recordSceneEntry(_ spotID: String) {
         guard !entitlement.isUnlimited else { return }
-        if allowance.consume(spotID) {
-            if let data = try? JSONEncoder().encode(allowance) { defaults.set(data, forKey: Self.allowanceKey) }
-            recomputeEntitlement()
-        }
+        // 在副本上修改，只有真的新增了一处时才写回（避免无谓地触发界面刷新）
+        var updated = allowance
+        guard updated.consume(spotID), updated != allowance else { return }
+        allowance = updated
+        if let data = try? JSONEncoder().encode(updated) { defaults.set(data, forKey: Self.allowanceKey) }
+        recomputeEntitlement()
     }
 
     private func recomputeEntitlement() {
