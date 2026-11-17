@@ -1,0 +1,111 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  core-tests:
+    name: SeichiCore tests (Linux)
+    runs-on: ubuntu-latest
+    container: swift:6.0
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check localization tables
+        run: |
+          apt-get update -qq && apt-get install -y -qq python3 > /dev/null
+          python3 tools/l10n.py check
+      - run: swift test
+        working-directory: Packages/SeichiCore
+
+  ios-build:
+    name: iOS app build (Release, device)
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show Xcode version
+        run: xcodebuild -version
+      - name: Install XcodeGen
+        run: brew install xcodegen
+      - name: Generate project
+        run: xcodegen generate
+      - name: Build
+        run: |
+          set -o pipefail
+          # 与 TestFlight 相同的 Release 真机打包（不签名），确保发布构建始终能编译
+          xcodebuild -project SeichiJunrei.xcodeproj -scheme SeichiJunrei \
+            -configuration Release -destination 'generic/platform=iOS' \
+            -archivePath "$RUNNER_TEMP/SeichiJunrei.xcarchive" \
+            CODE_SIGNING_ALLOWED=NO archive | tail -n 80
+
+  ios-ui-tests:
+    name: iOS UI smoke tests (simulator)
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show Xcode version
+        run: xcodebuild -version
+      - name: Install XcodeGen
+        run: brew install xcodegen
+      - name: Generate project
+        run: xcodegen generate
+      - name: Boot simulator at a pilgrimage spot
+        run: |
+          # iOS 26.5 模拟器的 StoreKitTest 有已知问题（SKTestSession 返回 0 个商品），
+          # 优先使用 iOS 26.2 运行时；没有时退回最新的 iOS 运行时。
+          UDID=$(xcrun simctl list devices available -j | python3 -c "
+          import json, sys
+          devs = json.load(sys.stdin)['devices']
+          def ver(k):
+              tail = k.rsplit('iOS-', 1)[-1]
+              return tuple(int(x) for x in tail.split('-') if x.isdigit())
+          ios = sorted((k for k in devs if 'iOS' in k), key=ver, reverse=True)
+          preferred = [k for k in ios if k.endswith('iOS-26-2')] + ios
+          for k in preferred:
+              phones = [d for d in devs[k] if d['name'].startswith('iPhone')]
+              if phones:
+                  print(phones[0]['udid'], file=sys.stdout)
+                  print('Using', k, phones[0]['name'], file=sys.stderr)
+                  break")
+          echo "UDID=$UDID" >> "$GITHUB_ENV"
+          xcrun simctl boot "$UDID"
+          xcrun simctl bootstatus "$UDID" -b
+          # 須賀神社（《君の名は。》）的机位
+          xcrun simctl location "$UDID" set 35.68540,139.72265
+      - name: Run UI tests
+        run: |
+          set -o pipefail
+          xcodebuild test -project SeichiJunrei.xcodeproj -scheme SeichiJunrei \
+            -destination "id=$UDID" -resultBundlePath UITests.xcresult \
+            CODE_SIGNING_ALLOWED=NO 2>&1 | grep -vE "Capturing element debug description|Expect predicate" | tail -n 600
+      - name: Print failing test details
+        if: failure()
+        run: |
+          xcrun xcresulttool get test-results tests --path UITests.xcresult --format json > tests.json || true
+          python3 - <<'PY'
+          import json
+          try:
+              data = json.load(open("tests.json"))
+          except Exception as e:
+              print("no test results:", e); raise SystemExit
+          def walk(node, path=""):
+              name = node.get("name", "")
+              if node.get("nodeType") == "Failure Message":
+                  print(f"FAIL {path}: {name}")
+              for child in node.get("children", []):
+                  walk(child, f"{path}/{name}" if name else path)
+          for n in data.get("testNodes", []):
+              walk(n)
+          PY
+      - name: Export screenshots
+        if: always()
+        run: |
+          mkdir -p screenshots
+          xcrun xcresulttool export attachments --path UITests.xcresult --output-path screenshots || true
+          ls -la screenshots
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ui-screenshots
+          path: screenshots
