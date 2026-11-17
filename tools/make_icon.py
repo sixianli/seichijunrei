@@ -2,8 +2,9 @@
 """App 图标生成器（1024×1024，RGB 无透明通道，符合 App Store 要求）。
 
 用法：
-  python3 tools/make_icon.py --sheet out.png      # 生成全部方案的对比图
-  python3 tools/make_icon.py --concept B          # 把方案 B 写入 AppIcon.appiconset
+  python3 tools/make_icon.py --sheet out.png                 # 第二批（小人 + 日本名景）对比图
+  python3 tools/make_icon.py --sheet out.png --set symbols   # 第一批（符号类）对比图
+  python3 tools/make_icon.py --concept 5                     # 把方案 5 写入 AppIcon.appiconset
 """
 import argparse, math, os
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
@@ -239,21 +240,288 @@ def concept_H():
     d.rectangle((S*0.33, S*0.545, S*0.67, S*0.565), fill=(30, 30, 36))
     return img
 
+# ---------- 第二批：小人站在日本名景中（背影构图，让人代入“我就在这里”） ----------
+def person(d, cx, feet, h, color, pack=(0, 0, 0), raise_phone=True, screen=(255, 255, 255)):
+    """背影小人：举着手机对准风景，背着小背包。cx 中心 x，feet 脚底 y，h 身高（像素）"""
+    hw = h * 0.17                                  # 半个肩宽
+    # 腿
+    d.rounded_rectangle((cx - hw*0.78, feet - h*0.40, cx - hw*0.12, feet), radius=h*0.04, fill=color)
+    d.rounded_rectangle((cx + hw*0.12, feet - h*0.40, cx + hw*0.78, feet), radius=h*0.04, fill=color)
+    # 身体（上宽下窄）
+    d.polygon([(cx - hw, feet - h*0.74), (cx + hw, feet - h*0.74),
+               (cx + hw*0.86, feet - h*0.36), (cx - hw*0.86, feet - h*0.36)], fill=color)
+    d.ellipse((cx - hw, feet - h*0.80, cx + hw, feet - h*0.66), fill=color)   # 圆肩
+    # 头
+    r = h * 0.105
+    d.ellipse((cx - r, feet - h*0.98, cx + r, feet - h*0.98 + 2*r), fill=color)
+    # 背包
+    d.rounded_rectangle((cx - hw*0.62, feet - h*0.70, cx + hw*0.62, feet - h*0.44), radius=h*0.05, fill=pack)
+    # 左臂自然下垂
+    d.polygon([(cx - hw, feet - h*0.74), (cx - hw*0.70, feet - h*0.74),
+               (cx - hw*1.05, feet - h*0.42), (cx - hw*1.35, feet - h*0.44)], fill=color)
+    if raise_phone:
+        # 右臂举起手机（举过肩，像在对准眼前的风景拍照）
+        sx, sy = cx + hw*0.85, feet - h*0.74
+        ex, ey = cx + hw*1.75, feet - h*1.02
+        w = h * 0.06
+        ang = math.atan2(ey - sy, ex - sx) + math.pi / 2
+        ox, oy = math.cos(ang) * w, math.sin(ang) * w
+        d.polygon([(sx - ox, sy - oy), (sx + ox, sy + oy), (ex + ox, ey + oy), (ex - ox, ey - oy)], fill=color)
+        pw, ph = h * 0.13, h * 0.20
+        d.rounded_rectangle((ex - pw/2, ey - ph*0.95, ex + pw/2, ey + ph*0.05), radius=h*0.025, fill=color)
+        d.rounded_rectangle((ex - pw/2 + h*0.018, ey - ph*0.95 + h*0.018, ex + pw/2 - h*0.018, ey + ph*0.05 - h*0.018),
+                            radius=h*0.015, fill=screen)
+
+def mountain(d, cx, base, w, h, color, snow=WHITE):
+    d.polygon([(cx - w/2, base), (cx - w*0.06, base - h), (cx + w*0.06, base - h), (cx + w/2, base)], fill=color)
+    sh = h * 0.30
+    d.polygon([(cx - w*0.06 - sh*0.55, base - h + sh), (cx - w*0.06, base - h), (cx + w*0.06, base - h),
+               (cx + w*0.06 + sh*0.55, base - h + sh), (cx + w*0.03, base - h + sh*0.72), (cx, base - h + sh),
+               (cx - w*0.04, base - h + sh*0.70)], fill=snow)
+
+def blossoms(d, pts, colors):
+    for i, (x, y, r) in enumerate(pts):
+        d.ellipse((x - r, y - r, x + r, y + r), fill=colors[i % len(colors)])
+
+def red_torii(d, cx, top, w, h, color, dark=(40, 30, 30)):
+    """朱红鸟居（笠木为深色），用于严岛 / 稻荷"""
+    k = w / 1000
+    d.polygon([(cx - w/2 - 60*k, top), (cx + w/2 + 60*k, top), (cx + w/2 + 15*k, top + 70*k), (cx - w/2 - 15*k, top + 70*k)], fill=dark)
+    d.rectangle((cx - w/2 + 20*k, top + 70*k, cx + w/2 - 20*k, top + 120*k), fill=color)
+    d.rectangle((cx - w/2 + 50*k, top + 210*k, cx + w/2 - 50*k, top + 265*k), fill=color)
+    for sx in (-1, 1):
+        x = cx + sx * (w/2 - 170*k)
+        d.rectangle((x - 45*k, top + 120*k, x + 45*k, top + h), fill=color)
+
+def concept_P1():
+    """富士山与樱：清晨的富士山，前景樱花枝，小人背影眺望"""
+    img = vgradient([(0, (120, 180, 240)), (0.55, (255, 210, 200)), (1, (255, 236, 220))])
+    d = ImageDraw.Draw(img)
+    mountain(d, S*0.52, S*0.80, S*1.05, S*0.46, (70, 98, 168))
+    d.rectangle((0, S*0.80, S, S), fill=(120, 150, 110))
+    d.polygon([(0, S*0.84), (S, S*0.78), (S, S), (0, S)], fill=(92, 124, 86))
+    # 樱花枝
+    d.line([(0, S*0.08), (S*0.30, S*0.20), (S*0.42, S*0.18)], fill=(96, 60, 50), width=int(S*0.022))
+    blossoms(d, [(S*x, S*y, S*r) for x, y, r in [(0.05, 0.05, .07), (0.15, 0.13, .07), (0.27, 0.22, .06), (0.38, 0.14, .05),
+                 (0.10, 0.22, .05), (0.22, 0.06, .05), (0.33, 0.27, .04), (0.45, 0.20, .04), (0.02, 0.17, .05)]],
+             [(255, 183, 206), (255, 206, 222), (248, 160, 190)])
+    person(d, S*0.60, S*0.97, S*0.42, (40, 44, 70), pack=(220, 90, 90))
+    return img
+
+def pagoda(d, cx, base, w, h, color, roof=(60, 40, 40)):
+    tiers = 5
+    th = h * 0.82 / tiers
+    for i in range(tiers):
+        y = base - i * th
+        tw = w * (1 - i * 0.12)
+        d.rectangle((cx - tw*0.30, y - th*0.75, cx + tw*0.30, y), fill=color)
+        d.polygon([(cx - tw/2, y - th*0.62), (cx + tw/2, y - th*0.62), (cx + tw*0.36, y - th*1.0), (cx - tw*0.36, y - th*1.0)], fill=roof)
+    top = base - tiers * th
+    d.rectangle((cx - w*0.02, top - h*0.18, cx + w*0.02, top), fill=roof)
+
+def concept_P2():
+    """五重塔与富士：远处的富士山，红色五重塔，小人站在观景台"""
+    img = vgradient([(0, (255, 150, 120)), (0.6, (255, 200, 160)), (1, (255, 230, 200))])
+    d = ImageDraw.Draw(img)
+    mountain(d, S*0.62, S*0.70, S*0.95, S*0.40, (150, 130, 170), snow=(255, 246, 240))
+    blossoms(d, [(S*x, S*y, S*r) for x, y, r in [(0.10, 0.72, .10), (0.25, 0.76, .09), (0.85, 0.74, .10), (0.98, 0.70, .08), (0.60, 0.78, .08)]],
+             [(250, 170, 196), (255, 196, 214)])
+    pagoda(d, S*0.30, S*0.76, S*0.30, S*0.56, (214, 70, 52))
+    d.rectangle((0, S*0.80, S, S), fill=(70, 52, 60))
+    d.rectangle((0, S*0.80, S, S*0.815), fill=(140, 100, 90))
+    person(d, S*0.66, S*0.96, S*0.40, (34, 28, 40), pack=(240, 190, 70))
+    return img
+
+def tokyo_tower(d, cx, base, h, color, white=(250, 246, 240)):
+    w = h * 0.36
+    def x_at(t, side):  # t: 0 底 → 1 顶
+        half = w/2 * (1 - t) ** 1.6 + h * 0.008
+        return cx + side * half
+    segs = 10
+    for i in range(segs):
+        t0, t1 = i / segs, (i + 1) / segs
+        col = color if i % 2 == 0 else white
+        y0, y1 = base - t0 * h, base - t1 * h
+        d.polygon([(x_at(t0, -1), y0), (x_at(t0, 1), y0), (x_at(t1, 1), y1), (x_at(t1, -1), y1)], fill=col)
+    # 两层展望台
+    for t, ww in ((0.36, 0.20), (0.62, 0.09)):
+        y = base - t * h
+        d.rectangle((cx - h*ww/2, y - h*0.035, cx + h*ww/2, y), fill=white)
+    # 底部拱门
+    d.ellipse((cx - w*0.28, base - h*0.12, cx + w*0.28, base + h*0.10), fill=(30, 26, 60))
+
+def concept_P3():
+    """东京塔夜景：暮色中的东京塔，城市天际线，小人仰望"""
+    img = vgradient([(0, (30, 26, 90)), (0.6, (160, 70, 140)), (1, (255, 150, 110))])
+    d = ImageDraw.Draw(img)
+    import random
+    rnd = random.Random(3)
+    for _ in range(60):
+        x, y = rnd.random() * S, rnd.random() * S * 0.4
+        d.ellipse((x - 3, y - 3, x + 3, y + 3), fill=(255, 255, 255))
+    tokyo_tower(d, S*0.40, S*0.84, S*0.76, (236, 90, 40))
+    # 城市天际线
+    x = 0
+    while x < S:
+        bw = rnd.uniform(0.06, 0.12) * S
+        bh = rnd.uniform(0.08, 0.22) * S
+        d.rectangle((x, S*0.86 - bh, x + bw, S), fill=(28, 24, 58))
+        for wy in range(int(S*0.86 - bh + 20), int(S*0.86), 46):
+            for wx in range(int(x + 16), int(x + bw - 16), 40):
+                if rnd.random() < 0.35:
+                    d.rectangle((wx, wy, wx + 14, wy + 18), fill=(255, 214, 120))
+        x += bw
+    d.rectangle((0, S*0.86, S, S), fill=(20, 18, 40))
+    person(d, S*0.70, S*0.98, S*0.40, (12, 10, 26), pack=(70, 160, 240))
+    return img
+
+def concept_P4():
+    """海上大鸟居：夕阳下立在海中的朱红大鸟居和倒影，小人站在岸边"""
+    img = vgradient([(0, (255, 140, 90)), (0.56, (255, 206, 140)), (0.57, (230, 140, 110)), (1, (120, 80, 130))])
+    img = glow(img, (0.38, 0.40, 0.62, 0.64), (255, 238, 190), strength=220, blur=0.03)
+    d = ImageDraw.Draw(img)
+    vermilion = (226, 60, 40)
+    red_torii(d, S*0.46, S*0.24, S*0.62, S*0.33, vermilion)
+    # 倒影（压扁、半透明感）
+    refl = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    rd = ImageDraw.Draw(refl)
+    red_torii(rd, S*0.46, S*0.24, S*0.62, S*0.33, (226, 60, 40, 255), dark=(60, 30, 30, 255))
+    refl = refl.transpose(Image.FLIP_TOP_BOTTOM).resize((S, int(S*0.6)))
+    alpha = refl.split()[3].point(lambda a: int(a * 0.35))
+    refl.putalpha(alpha)
+    img.paste(refl, (0, int(S*0.57 - S*0.6*0.43)), refl)
+    d = ImageDraw.Draw(img)
+    for i in range(10):  # 水面波纹
+        y = S*0.62 + i * S*0.035
+        d.line([(S*0.12 + i*20, y), (S*0.80 - i*15, y)], fill=(255, 220, 190), width=4)
+    # 岸边
+    d.polygon([(0, S*0.88), (S*0.55, S*0.92), (S, S*0.86), (S, S), (0, S)], fill=(60, 40, 60))
+    person(d, S*0.76, S*0.95, S*0.38, (40, 26, 44), pack=(250, 210, 90))
+    return img
+
+def concept_P5():
+    """千本鸟居：一条朱红鸟居隧道延伸向光亮处，小人站在路中央"""
+    img = Image.new("RGB", (S, S), (40, 18, 14))
+    d = ImageDraw.Draw(img)
+    cx, cy = S*0.5, S*0.46        # 消失点
+    n = 14
+    for i in range(n, -1, -1):    # 从远到近
+        t = (i / n) ** 1.8
+        w = S * (0.10 + 1.25 * (1 - t))
+        h = w * 1.05
+        top = cy - h * 0.48
+        shade = lerp((255, 120, 60), (200, 40, 24), 1 - t)
+        k = w / 1000
+        d.rectangle((cx - w/2, top, cx + w/2, top + 60*k), fill=(30, 20, 20))           # 笠木
+        d.rectangle((cx - w/2 + 30*k, top + 60*k, cx + w/2 - 30*k, top + 110*k), fill=shade)
+        for sx in (-1, 1):
+            x = cx + sx * (w/2 - 70*k)
+            d.rectangle((x - 50*k, top + 110*k, x + 50*k, top + h), fill=shade)
+    img = glow(img, (0.42, 0.36, 0.58, 0.56), (255, 236, 190), strength=230, blur=0.03)
+    d = ImageDraw.Draw(img)
+    d.polygon([(S*0.47, S*0.70), (S*0.53, S*0.70), (S*0.90, S), (S*0.10, S)], fill=(120, 96, 80))   # 石板路
+    person(d, S*0.5, S*0.95, S*0.40, (24, 14, 14), pack=(70, 150, 230))
+    return img
+
+def concept_P6():
+    """海边道口：江之电式的海边道口，蓝天大海，小人站在坡上"""
+    img = vgradient([(0, (110, 190, 250)), (0.5, (200, 230, 255)), (0.51, (40, 140, 210)), (0.66, (60, 160, 220)), (0.67, (230, 220, 200)), (1, (200, 190, 170))])
+    d = ImageDraw.Draw(img)
+    d.ellipse((S*0.72, S*0.10, S*0.88, S*0.26), fill=(255, 246, 210))
+    # 铁轨
+    for y in (S*0.72, S*0.78):
+        d.rectangle((0, y, S, y + S*0.012), fill=(110, 100, 100))
+    for x in range(0, S, int(S*0.06)):
+        d.rectangle((x, S*0.70, x + S*0.025, S*0.81), fill=(150, 120, 100))
+    # 道口标志
+    px = S*0.24
+    d.rectangle((px - S*0.012, S*0.28, px + S*0.012, S*0.86), fill=(40, 40, 46))
+    for ang in (35, -35):
+        bar = Image.new("RGBA", (int(S*0.30), int(S*0.05)), (250, 204, 40, 255))
+        bd = ImageDraw.Draw(bar)
+        st = int(S*0.03)
+        for x in range(-bar.height, bar.width, st * 2):
+            bd.polygon([(x, bar.height), (x + bar.height, 0), (x + bar.height + st, 0), (x + st, bar.height)], fill=(30, 30, 36, 255))
+        bar = bar.rotate(ang, expand=True, resample=Image.BICUBIC)
+        img.paste(bar, (int(px - bar.width/2), int(S*0.30 - bar.height/2)), bar)
+    d = ImageDraw.Draw(img)
+    for x, c in ((px - S*0.06, (236, 50, 50)), (px + S*0.06, (110, 30, 30))):
+        d.ellipse((x - S*0.035, S*0.42, x + S*0.035, S*0.49), fill=c)
+    d.rectangle((px - S*0.06, S*0.448, px + S*0.06, S*0.462), fill=(40, 40, 46))
+    person(d, S*0.66, S*0.98, S*0.44, (30, 40, 70), pack=(236, 90, 70))
+    return img
+
+def concept_P7():
+    """大红灯笼：寺门下巨大的红灯笼，小人站在灯笼下"""
+    img = vgradient([(0, (250, 236, 214)), (1, (236, 210, 180))])
+    d = ImageDraw.Draw(img)
+    gate = (150, 30, 26)
+    d.rectangle((0, 0, S, S*0.10), fill=(50, 40, 40))                 # 屋檐
+    d.rectangle((S*0.04, S*0.10, S*0.16, S), fill=gate)               # 左柱
+    d.rectangle((S*0.84, S*0.10, S*0.96, S), fill=gate)               # 右柱
+    d.rectangle((0, S*0.10, S, S*0.15), fill=gate)
+    # 灯笼
+    lx0, lx1, ly0, ly1 = S*0.26, S*0.74, S*0.20, S*0.66
+    d.rounded_rectangle((lx0, ly0, lx1, ly1), radius=S*0.16, fill=(214, 40, 34))
+    for i in range(1, 7):  # 竹骨横纹
+        y = ly0 + (ly1 - ly0) * i / 7
+        d.line([(lx0 + S*0.02, y), (lx1 - S*0.02, y)], fill=(180, 26, 24), width=6)
+    d.rectangle((lx0 + S*0.04, ly0 - S*0.04, lx1 - S*0.04, ly0 + S*0.03), fill=(30, 26, 26))
+    d.rectangle((lx0 + S*0.04, ly1 - S*0.03, lx1 - S*0.04, ly1 + S*0.04), fill=(30, 26, 26))
+    d.rectangle((S*0.49, S*0.15, S*0.51, ly0 - S*0.04), fill=(30, 26, 26))
+    d.rectangle((0, S*0.90, S, S), fill=(180, 160, 140))
+    person(d, S*0.50, S*0.98, S*0.30, (30, 30, 50), pack=(70, 160, 230))
+    return img
+
+def castle(d, cx, base, w, h, wall=(250, 248, 244), roof=(60, 70, 90), stone=(150, 140, 130)):
+    d.polygon([(cx - w*0.55, base), (cx + w*0.55, base), (cx + w*0.42, base - h*0.22), (cx - w*0.42, base - h*0.22)], fill=stone)
+    y = base - h*0.22
+    tiers = [(0.80, 0.20), (0.62, 0.18), (0.46, 0.17), (0.32, 0.16)]
+    for tw, th in tiers:
+        hh = h * th
+        d.rectangle((cx - w*tw*0.40, y - hh*0.75, cx + w*tw*0.40, y), fill=wall)
+        d.polygon([(cx - w*tw*0.55, y - hh*0.70), (cx + w*tw*0.55, y - hh*0.70), (cx + w*tw*0.30, y - hh*1.05), (cx - w*tw*0.30, y - hh*1.05)], fill=roof)
+        y -= hh
+    # 屋脊两端的鱼饰（金）
+    d.ellipse((cx - w*0.12, y - h*0.04, cx - w*0.07, y + h*0.01), fill=(230, 190, 80))
+    d.ellipse((cx + w*0.07, y - h*0.04, cx + w*0.12, y + h*0.01), fill=(230, 190, 80))
+
+def concept_P8():
+    """城与樱：白墙天守阁与盛开的樱花，小人站在护城河边"""
+    img = vgradient([(0, (140, 200, 250)), (1, (230, 244, 255))])
+    d = ImageDraw.Draw(img)
+    castle(d, S*0.42, S*0.70, S*0.70, S*0.62)
+    blossoms(d, [(S*x, S*y, S*r) for x, y, r in [(0.02, 0.66, .14), (0.18, 0.72, .12), (0.86, 0.64, .14), (0.98, 0.72, .12),
+                 (0.70, 0.74, .10), (0.08, 0.80, .10), (0.92, 0.82, .10)]], [(255, 186, 208), (250, 166, 196), (255, 208, 224)])
+    d.rectangle((0, S*0.80, S, S*0.88), fill=(80, 150, 180))   # 护城河
+    d.rectangle((0, S*0.88, S, S), fill=(150, 130, 110))
+    person(d, S*0.68, S*0.98, S*0.36, (40, 40, 60), pack=(236, 90, 90))
+    return img
+
+PEOPLE = {
+    "1": ("富士山与樱", concept_P1), "2": ("五重塔与富士", concept_P2), "3": ("东京塔夜景", concept_P3),
+    "4": ("海上大鸟居", concept_P4), "5": ("千本鸟居", concept_P5), "6": ("海边道口", concept_P6),
+    "7": ("大红灯笼", concept_P7), "8": ("城与樱", concept_P8),
+}
+
 CONCEPTS = {
     "A": ("黄昏鸟居", concept_A), "B": ("樱花定位针", concept_B), "C": ("方位罗盘", concept_C),
     "D": ("胶片富士", concept_D), "E": ("彗星夜空", concept_E), "F": ("圣字朱印", concept_F),
     "G": ("玻璃层叠", concept_G), "H": ("海边道口", concept_H),
 }
 
+ALL = {**CONCEPTS, **PEOPLE}
+
 def render(key):
-    return CONCEPTS[key][1]().resize((1024, 1024), Image.LANCZOS).convert("RGB")
+    return ALL[key][1]().resize((1024, 1024), Image.LANCZOS).convert("RGB")
 
 def squircle_mask(size, radius_ratio=0.2237):
     m = Image.new("L", (size * 4, size * 4), 0)
     ImageDraw.Draw(m).rounded_rectangle((0, 0, size * 4 - 1, size * 4 - 1), radius=int(size * 4 * radius_ratio), fill=255)
     return m.resize((size, size), Image.LANCZOS)
 
-def contact_sheet(path):
+def contact_sheet(path, concepts=None):
+    concepts = concepts or CONCEPTS
     cell, pad, label_h = 360, 48, 70
     cols, rows = 4, 2
     W = cols * cell + (cols + 1) * pad
@@ -262,7 +530,7 @@ def contact_sheet(path):
     d = ImageDraw.Draw(sheet)
     font = ImageFont.truetype("/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc", 32)
     mask = squircle_mask(cell)
-    for i, key in enumerate(CONCEPTS):
+    for i, key in enumerate(concepts):
         r, c = divmod(i, cols)
         x = pad + c * (cell + pad)
         y = pad + r * (cell + label_h + pad)
@@ -272,7 +540,7 @@ def contact_sheet(path):
         shadow = shadow.filter(ImageFilter.GaussianBlur(12))
         sheet.paste((200, 200, 210), (x - 20, y - 20), shadow)
         sheet.paste(icon, (x, y), mask)
-        text = f"{key}  {CONCEPTS[key][0]}"
+        text = f"{key}  {concepts[key][0]}"
         tw = d.textlength(text, font=font)
         d.text((x + (cell - tw) / 2, y + cell + 18), text, font=font, fill=(40, 40, 50))
     sheet.save(path)
@@ -281,10 +549,11 @@ def contact_sheet(path):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sheet")
-    ap.add_argument("--concept", choices=list(CONCEPTS))
+    ap.add_argument("--set", choices=["symbols", "people"], default="people", help="对比图使用哪一批方案")
+    ap.add_argument("--concept", choices=list(ALL))
     a = ap.parse_args()
     if a.sheet:
-        contact_sheet(a.sheet)
+        contact_sheet(a.sheet, PEOPLE if a.set == "people" else CONCEPTS)
     if a.concept:
         img = render(a.concept)
         os.makedirs(os.path.dirname(APPICON), exist_ok=True)
