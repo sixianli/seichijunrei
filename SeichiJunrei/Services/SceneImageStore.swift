@@ -27,6 +27,9 @@ final class SceneImageStore {
 
     func image(for spotID: String) -> UIImage? {
         _ = revision
+        #if DEBUG
+        if ProcessInfo.processInfo.environment["SEICHI_SIM_SCENE_IMAGE"] == "1" { return SimulatedImages.scene() }
+        #endif
         if let cached = cache[spotID] { return cached }
         guard let img = UIImage(contentsOfFile: fileURL(for: spotID).path) else { return nil }
         cache[spotID] = img

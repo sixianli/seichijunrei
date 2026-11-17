@@ -13,13 +13,14 @@ final class SmokeUITests: XCTestCase {
     /// 可选地注入摄像头朝向（模拟器没有罗盘）。
     /// - entitlement: "lifetime"（默认，避免测试之间共享免费额度状态）/ "free"
     func launch(heading: Double? = nil, pitch: Double? = nil, language: String = "zh-Hans",
-                entitlement: String = "lifetime", freeUsed: Int? = nil) {
+                entitlement: String = "lifetime", freeUsed: Int? = nil, extraEnv: [String: String] = [:]) {
         app = XCUIApplication()
         let locale = ["zh-Hans": "zh_CN", "zh-Hant": "zh_TW", "ja": "ja_JP", "en": "en_US", "ko": "ko_KR"][language] ?? "en_US"
         app.launchArguments += ["-AppleLanguages", "(\(language))", "-AppleLocale", locale]
         app.launchEnvironment["SEICHI_SIM_LAT"] = "35.68540"
         app.launchEnvironment["SEICHI_SIM_LON"] = "139.72265"
         app.launchEnvironment["SEICHI_ENTITLEMENT"] = entitlement
+        app.launchEnvironment.merge(extraEnv) { _, new in new }
         if let freeUsed { app.launchEnvironment["SEICHI_FREE_USED"] = String(freeUsed) }
         if let heading { app.launchEnvironment["SEICHI_SIM_HEADING"] = String(heading) }
         if let pitch { app.launchEnvironment["SEICHI_SIM_PITCH"] = String(pitch) }
@@ -190,5 +191,27 @@ final class SmokeUITests: XCTestCase {
         enterSceneFromBanner()
         XCTAssertTrue(app.staticTexts["右に70°回って"].waitForExistence(timeout: 5))
         snapshot("12-ja-scene")
+    }
+
+    /// 巡礼达成 → 拍照留念 → 自动打开分享卡（作中 vs 现实）→ 切换版式 → 打开系统分享面板
+    func testShareCardAfterPilgrimage() throws {
+        launch(heading: 272, pitch: 8, extraEnv: ["SEICHI_SIM_SCENE_IMAGE": "1"])
+        enterSceneFromBanner()
+        XCTAssertTrue(app.staticTexts["celebrationTitle"].waitForExistence(timeout: 8))
+        app.buttons["celebratePhoto"].tap()   // 模拟器生成示意照片
+        let card = app.otherElements["shareCard"]
+        if !card.waitForExistence(timeout: 8) {
+            snapshot("share-missing")
+            print(app.debugDescription)
+            XCTFail("拍照后应打开分享卡")
+        }
+        sleep(1)
+        snapshot("15-share-compare")
+        app.segmentedControls.buttons["现场照片"].tap()
+        sleep(1)
+        snapshot("16-share-single")
+        app.buttons["shareButton"].tap()
+        sleep(2)
+        snapshot("17-share-sheet")
     }
 }

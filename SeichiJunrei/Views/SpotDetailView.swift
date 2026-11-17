@@ -10,6 +10,8 @@ struct SpotDetailView: View {
     @Environment(SpotStore.self) private var store
     @Environment(LocationService.self) private var location
     @Environment(\.openURL) private var openURL
+    @Environment(PilgrimageStore.self) private var pilgrimage
+    @State private var showShare = false
     @State private var pickedPhoto: PhotosPickerItem?
     @State private var imageMessage: String?
 
@@ -50,6 +52,24 @@ struct SpotDetailView: View {
                     }
                     .font(.callout.monospacedDigit())
                     .foregroundStyle(.secondary)
+                }
+
+                if let record = pilgrimage.record(for: spot.id) {
+                    HStack {
+                        Label(L("detail.completedOn", record.date.formatted(date: .abbreviated, time: .omitted)),
+                              systemImage: "checkmark.seal.fill")
+                            .font(.subheadline.bold())
+                            .foregroundStyle(spot.tintColor)
+                        Spacer()
+                        Button { showShare = true } label: {
+                            Label(L("share.share"), systemImage: "square.and.arrow.up")
+                        }
+                        .buttonStyle(.borderedProminent)
+                        .tint(spot.tintColor)
+                        .accessibilityIdentifier("detailShare")
+                    }
+                    .padding(12)
+                    .background(spot.tintColor.opacity(0.1), in: RoundedRectangle(cornerRadius: 12))
                 }
 
                 Button(action: onEnterScene) {
@@ -103,6 +123,7 @@ struct SpotDetailView: View {
             }
             .padding()
         }
+        .sheet(isPresented: $showShare) { ShareComposerView(spot: spot) }
     }
 }
 

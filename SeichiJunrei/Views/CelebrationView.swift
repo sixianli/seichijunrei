@@ -5,6 +5,7 @@ import SeichiCore
 struct CelebrationView: View {
     let spot: Spot
     let onCapture: () -> Void
+    let onShare: () -> Void
     let onClose: () -> Void
 
     @State private var appeared = false
@@ -30,17 +31,26 @@ struct CelebrationView: View {
                         .foregroundStyle(spot.tintColor)
                         .padding(.horizontal, 12).padding(.vertical, 4)
                         .background(.white, in: Capsule())
-                    HStack(spacing: 14) {
+                    HStack(spacing: 10) {
                         Button(action: onCapture) {
                             Label(L("celebrate.photo"), systemImage: "camera.fill")
-                                .padding(.horizontal, 18).padding(.vertical, 12)
+                                .padding(.horizontal, 16).padding(.vertical, 12)
                                 .background(spot.tintColor, in: Capsule())
                         }
-                        Button(action: onClose) {
-                            Text(L("celebrate.continue"))
-                                .padding(.horizontal, 18).padding(.vertical, 12)
+                        .accessibilityIdentifier("celebratePhoto")
+                        Button(action: onShare) {
+                            Label(L("share.share"), systemImage: "square.and.arrow.up")
+                                .padding(.horizontal, 16).padding(.vertical, 12)
                                 .background(Color.white.opacity(0.18), in: Capsule())
                         }
+                        .accessibilityIdentifier("celebrateShare")
+                    }
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.8)
+                    Button(action: onClose) {
+                        Text(L("celebrate.continue"))
+                            .font(.subheadline)
+                            .opacity(0.8)
                     }
                     .font(.headline)
                     .padding(.top, 6)

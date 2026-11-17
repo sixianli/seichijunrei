@@ -403,3 +403,34 @@ final class MonetizationTests: XCTestCase {
         XCTAssertEqual(try! JSONDecoder().decode(FreeSceneAllowance.self, from: data), a)
     }
 }
+
+final class PilgrimageTests: XCTestCase {
+    func testMarkCompletedKeepsFirstDateAndUpdatesPhoto() {
+        var log = PilgrimageLog()
+        let d1 = Date(timeIntervalSince1970: 1_000), d2 = Date(timeIntervalSince1970: 2_000)
+        log.markCompleted(.init(spotID: "a", date: d1, heading: 270))
+        log.markCompleted(.init(spotID: "a", date: d2, heading: 10, latitude: 35, longitude: 139, photoFileName: "p1.jpg"))
+        let r = log.record(for: "a")!
+        XCTAssertEqual(r.date, d1, "保留第一次达成的日期")
+        XCTAssertEqual(r.heading, 270)
+        XCTAssertEqual(r.latitude, 35)
+        XCTAssertEqual(r.photoFileName, "p1.jpg")
+        XCTAssertEqual(log.completedCount, 1)
+
+        XCTAssertEqual(log.setPhoto("p2.jpg", for: "a"), "p1.jpg", "返回旧照片以便删除")
+        XCTAssertNil(log.setPhoto("x.jpg", for: "unknown"))
+        let data = try! JSONEncoder().encode(log)
+        XCTAssertEqual(try! JSONDecoder().decode(PilgrimageLog.self, from: data), log)
+    }
+
+    func testHashtags() {
+        XCTAssertEqual(ShareFormatting.hashtag("君の名は。"), "#君の名は")
+        XCTAssertEqual(ShareFormatting.hashtag("Your Name."), "#YourName")
+        XCTAssertEqual(ShareFormatting.hashtag("らき☆すた"), "#らきすた")
+        XCTAssertEqual(ShareFormatting.hashtag("SLAM DUNK"), "#SLAMDUNK")
+        XCTAssertNil(ShareFormatting.hashtag("☆。！"))
+        XCTAssertEqual(ShareFormatting.hashtags(["聖地巡礼", "君の名は。", nil, "君の名は"]), ["#聖地巡礼", "#君の名は"])
+        XCTAssertEqual(ShareFormatting.coordinate(latitude: 35.68540, longitude: 139.72271), "35.6854°N 139.7227°E")
+        XCTAssertEqual(ShareFormatting.coordinate(latitude: -33.9, longitude: -70.5), "33.9000°S 70.5000°W")
+    }
+}

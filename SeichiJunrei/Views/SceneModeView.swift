@@ -13,6 +13,8 @@ struct SceneModeView: View {
 
     @Environment(LocationService.self) private var location
     @Environment(StoreService.self) private var store
+    @Environment(PilgrimageStore.self) private var pilgrimage
+    @State private var showShare = false
     @State private var showPaywall = false
     @Environment(\.dismiss) private var dismiss
 
@@ -60,6 +62,7 @@ struct SceneModeView: View {
                 chrome
                 if celebrating {
                     CelebrationView(spot: spot, onCapture: { camera.capturePhoto() },
+                                    onShare: { showShare = true },
                                     onClose: { withAnimation { celebrating = false } })
                         .transition(.opacity.combined(with: .scale(scale: 1.1)))
                 }
@@ -78,6 +81,7 @@ struct SceneModeView: View {
             if arrived { beginSceneIfAllowed() }
         }
         .sheet(isPresented: $showPaywall) { PaywallView() }
+        .sheet(isPresented: $showShare) { ShareComposerView(spot: spot) }
         .sheet(isPresented: $showStory) {
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
@@ -211,6 +215,11 @@ struct SceneModeView: View {
         orientation.compassFallback = { [location] in (location.compassHeading, location.headingAccuracy) }
         orientation.start()
         haptics.prepare()
+        // 拍下的现场照片存入巡礼足迹，并直接打开分享卡
+        camera.onPhotoCaptured = { [pilgrimage, spot] image in
+            pilgrimage.attachPhoto(image, spotID: spot.id)
+            showShare = true
+        }
         if arrived { beginSceneIfAllowed() }
     }
 
@@ -232,6 +241,9 @@ struct SceneModeView: View {
         if !latch.isLocked { haptics.tick(alignment: g.alignment) }
         if latch.update(guidance: g, at: CACurrentMediaTime()) {
             haptics.success()
+            pilgrimage.markCompleted(spotID: spot.id, heading: orientation.heading,
+                                     latitude: location.lastLocation?.coordinate.latitude,
+                                     longitude: location.lastLocation?.coordinate.longitude)
             withAnimation(.spring(response: 0.5, dampingFraction: 0.7)) { celebrating = true }
         }
     }

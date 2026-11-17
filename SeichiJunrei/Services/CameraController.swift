@@ -10,6 +10,9 @@ final class CameraController: NSObject, AVCapturePhotoCaptureDelegate {
     private let sessionQueue = DispatchQueue(label: "seichi.camera.session")
     @ObservationIgnored private var configured = false
 
+    /// 拍照完成后回调（主线程）
+    @ObservationIgnored var onPhotoCaptured: ((UIImage) -> Void)?
+
     private(set) var isAuthorized = false
     private(set) var statusMessage: String?
     /// 传感器长边视场角与长宽比，用于把名场面方向投影到画面上
@@ -65,6 +68,13 @@ final class CameraController: NSObject, AVCapturePhotoCaptureDelegate {
     }
 
     func capturePhoto() {
+        #if targetEnvironment(simulator)
+        // 模拟器没有相机：生成一张示意照片，便于调试分享卡
+        let image = SimulatedImages.photo()
+        statusMessage = L("camera.saved")
+        onPhotoCaptured?(image)
+        return
+        #else
         guard isAuthorized else { return }
         sessionQueue.async { [self] in
             if let connection = photoOutput.connection(with: .video), connection.isVideoRotationAngleSupported(90) {
@@ -72,6 +82,7 @@ final class CameraController: NSObject, AVCapturePhotoCaptureDelegate {
             }
             photoOutput.capturePhoto(with: AVCapturePhotoSettings(), delegate: self)
         }
+        #endif
     }
 
     func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto,
@@ -81,6 +92,7 @@ final class CameraController: NSObject, AVCapturePhotoCaptureDelegate {
             return
         }
         UIImageWriteToSavedPhotosAlbum(image, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
+        DispatchQueue.main.async { self.onPhotoCaptured?(image) }
     }
 
     @objc private func image(_ image: UIImage, didFinishSavingWithError error: Error?,

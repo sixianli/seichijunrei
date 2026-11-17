@@ -6,6 +6,7 @@ struct SeichiJunreiApp: App {
     @State private var store = SpotStore()
     @State private var location = LocationService()
     @State private var storeKit = StoreService.shared
+    @State private var pilgrimage = PilgrimageStore.shared
 
     var body: some Scene {
         WindowGroup {
@@ -13,6 +14,7 @@ struct SeichiJunreiApp: App {
                 .environment(store)
                 .environment(location)
                 .environment(storeKit)
+                .environment(pilgrimage)
                 .task {
                     storeKit.start()
                     store.load()
