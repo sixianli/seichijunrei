@@ -1,5 +1,9 @@
 # 圣地巡礼 · Seichi Junrei
 
+> © 2026 sixianli. 保留所有权利。本仓库源码仅供在 GitHub 上浏览，未经作者书面许可，禁止复制、修改、分发或用于任何用途（包括上架应用商店）。
+>
+> © 2026 sixianli. All rights reserved. This source code is published for viewing on GitHub only. No permission is granted to copy, modify, distribute, or use it for any purpose (including publishing to app stores) without the author's prior written consent.
+
 一个日本动画「圣地巡礼」主题的 iOS App：
 
 1. **实时发现附近的名场面**：地图和卡片列表里，按距离显示你周围在动画中出现过的地点。
