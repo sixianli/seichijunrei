@@ -9,7 +9,7 @@ final class SmokeUITests: XCTestCase {
         continueAfterFailure = false
     }
 
-    /// 启动 App：位置固定在「須賀神社」（《君の名は。》，名场面朝向 270°、仰角 10°）的机位，
+    /// 启动 App：位置固定在「須賀神社」（《君の名は。》，名场面朝向 216°、仰角 12°）的机位，
     /// 可选地注入摄像头朝向（模拟器没有罗盘）。
     /// - entitlement: "lifetime"（默认，避免测试之间共享免费额度状态）/ "free"
     func launch(heading: Double? = nil, pitch: Double? = nil, language: String = "zh-Hans",
@@ -19,8 +19,8 @@ final class SmokeUITests: XCTestCase {
         app.launchArguments += ["-AppleLanguages", "(\(language))", "-AppleLocale", locale,
                                 // 清掉 App 内的语言设置 / 默认地图，避免测试之间互相影响
                                 "-appLanguageOverride", "", "-preferredMapApp", ""]
-        app.launchEnvironment["SEICHI_SIM_LAT"] = "35.68540"
-        app.launchEnvironment["SEICHI_SIM_LON"] = "139.72265"
+        app.launchEnvironment["SEICHI_SIM_LAT"] = "35.68518"
+        app.launchEnvironment["SEICHI_SIM_LON"] = "139.72345"
         app.launchEnvironment["SEICHI_ENTITLEMENT"] = entitlement
         // 免费用户相关的测试需要打开收费开关，其余测试按默认（免费公测期）运行
         app.launchEnvironment["SEICHI_PAYWALL"] = entitlement == "free" ? "1" : "0"
@@ -47,7 +47,7 @@ final class SmokeUITests: XCTestCase {
 
     /// 免费额度用完：到达机位后显示锁定层，点按钮弹出付费墙（含恢复购买）
     func testFreeLimitShowsPaywall() throws {
-        launch(heading: 270, pitch: 10, entitlement: "free", freeUsed: 3)
+        launch(heading: 216, pitch: 12, entitlement: "free", freeUsed: 3)
         enterSceneFromBanner()
         if !app.buttons["showPaywall"].waitForExistence(timeout: 8) {
             snapshot("13-scene-locked-missing")
@@ -64,7 +64,7 @@ final class SmokeUITests: XCTestCase {
 
     /// 免费用户还有额度：可以正常进入取景并对准
     func testFreeUserWithAllowanceCanEnter() throws {
-        launch(heading: 272, pitch: 8, entitlement: "free", freeUsed: 2)
+        launch(heading: 218, pitch: 10, entitlement: "free", freeUsed: 2)
         enterSceneFromBanner()
         if !app.staticTexts["celebrationTitle"].waitForExistence(timeout: 10) {
             snapshot("free-allowance-no-celebration")
@@ -151,6 +151,11 @@ final class SmokeUITests: XCTestCase {
         let picker = app.segmentedControls.firstMatch
         XCTAssertTrue(picker.waitForExistence(timeout: 5))
         picker.buttons["日剧"].tap()
+        // 日剧很多，用搜索框定位到《东京爱情故事》
+        let search = app.searchFields.firstMatch
+        XCTAssertTrue(search.waitForExistence(timeout: 5))
+        search.tap()
+        search.typeText("东京爱情")
         XCTAssertTrue(app.staticTexts["月台栏杆上的白手帕"].waitForExistence(timeout: 5),
                       "电视剧筛选应显示《东京爱情故事》的名场面")
         snapshot("06-list-drama")
@@ -158,7 +163,7 @@ final class SmokeUITests: XCTestCase {
 
     /// 朝向偏离名场面 70° 时，应提示“向右转 70°”
     func testSceneTurnGuidance() throws {
-        launch(heading: 200, pitch: 10)
+        launch(heading: 146, pitch: 12)
         enterSceneFromBanner()
         XCTAssertTrue(app.staticTexts["向右转 70°"].waitForExistence(timeout: 5), "应提示向右转 70°")
         snapshot("07-scene-turn-right")
@@ -167,7 +172,7 @@ final class SmokeUITests: XCTestCase {
 
     /// 朝向与名场面一致并保持一会儿，应触发“就是这个画面！”庆祝
     func testSceneAlignedCelebration() throws {
-        launch(heading: 272, pitch: 8)
+        launch(heading: 218, pitch: 10)
         enterSceneFromBanner()
         let title = app.staticTexts["celebrationTitle"]
         XCTAssertTrue(title.waitForExistence(timeout: 6), "对准并保持后应出现庆祝画面")
@@ -177,7 +182,7 @@ final class SmokeUITests: XCTestCase {
 
     /// 英语界面：标题、搜索提示、转身指引、名场面内容都应切换为英语
     func testEnglishLocalization() throws {
-        launch(heading: 200, pitch: 10, language: "en")
+        launch(heading: 146, pitch: 12, language: "en")
         XCTAssertTrue(app.navigationBars["Seichi Junrei"].waitForExistence(timeout: 10), "导航标题应为英语")
         XCTAssertEqual(app.searchFields.firstMatch.placeholderValue, "Search anime, J-dramas, movies")
         snapshot("09-en-map")
@@ -188,7 +193,7 @@ final class SmokeUITests: XCTestCase {
 
     /// 日语界面：转身指引与列表
     func testJapaneseLocalization() throws {
-        launch(heading: 200, pitch: 10, language: "ja")
+        launch(heading: 146, pitch: 12, language: "ja")
         XCTAssertTrue(app.navigationBars["聖地巡礼"].waitForExistence(timeout: 10), "导航标题应为日语")
         let open = app.buttons["openList"]
         XCTAssertTrue(open.waitForExistence(timeout: 5))
@@ -203,7 +208,7 @@ final class SmokeUITests: XCTestCase {
 
     /// 巡礼达成 → 拍照留念 → 自动打开分享卡（作中 vs 现实）→ 切换版式 → 打开系统分享面板
     func testShareCardAfterPilgrimage() throws {
-        launch(heading: 272, pitch: 8, extraEnv: ["SEICHI_SIM_SCENE_IMAGE": "1"])
+        launch(heading: 218, pitch: 10, extraEnv: ["SEICHI_SIM_SCENE_IMAGE": "1"])
         enterSceneFromBanner()
         XCTAssertTrue(app.staticTexts["celebrationTitle"].waitForExistence(timeout: 8))
         app.buttons["celebratePhoto"].tap()   // 模拟器生成示意照片
@@ -225,7 +230,7 @@ final class SmokeUITests: XCTestCase {
 
     /// 用户在现场校准机位：名场面模式 → 校准 → 读数质量良好 → 填备注 → 提交成功
     func testCalibrationSubmission() throws {
-        launch(heading: 270, pitch: 10, extraEnv: ["SEICHI_FAKE_SUBMIT": "1"])
+        launch(heading: 216, pitch: 12, extraEnv: ["SEICHI_FAKE_SUBMIT": "1"])
         enterSceneFromBanner()
         // 已对准时会先出现庆祝画面（出现时间取决于权限弹窗等），点“继续欣赏”回到取景界面。
         // 不用固定时长等待庆祝画面：等“继续欣赏”或校准按钮中任意一个出现。
@@ -270,7 +275,7 @@ final class SmokeUITests: XCTestCase {
 
     /// 帮拍模式：被拍的人已经站在主角的位置，方向也对 → 提示“完美” → 自动倒数拍照 → 按原作构图保存
     func testPhotographerModeAutoShutter() throws {
-        launch(heading: 270, pitch: 10, extraEnv: ["SEICHI_SIM_SUBJECT": "0.5,0.85,0.45"])
+        launch(heading: 216, pitch: 12, extraEnv: ["SEICHI_SIM_SUBJECT": "0.5,0.85,0.45"])
         let card = app.buttons["card-kiminonawa-suga-shrine"]
         XCTAssertTrue(card.waitForExistence(timeout: 20))
         card.tap()
@@ -295,7 +300,7 @@ final class SmokeUITests: XCTestCase {
 
     /// 帮拍模式：人物太大（离得太近）时，提示往后退
     func testPhotographerModeStepBackHint() throws {
-        launch(heading: 270, pitch: 10, extraEnv: ["SEICHI_SIM_SUBJECT": "0.5,0.98,0.95"])
+        launch(heading: 216, pitch: 12, extraEnv: ["SEICHI_SIM_SUBJECT": "0.5,0.98,0.95"])
         let card = app.buttons["card-kiminonawa-suga-shrine"]
         XCTAssertTrue(card.waitForExistence(timeout: 20))
         card.tap()

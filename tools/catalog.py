@@ -7,7 +7,7 @@
 build 会：合并全部来源文件 → 校验引用 → 用 OpenCC(s2twp) 补齐繁体中文 →
 从 Wikimedia Commons 查询照片的作者 / 许可证（缓存到 data/photo-cache.json）。
 """
-import glob, json, os, re, sys, urllib.parse, urllib.request
+import glob, json, os, re, sys, urllib.error, urllib.parse, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SOURCES = os.path.join(ROOT, "data", "sources")
@@ -132,7 +132,9 @@ def to_hant():
     except ImportError:
         sys.exit("需要 OpenCC：pip install opencc-python-reimplemented")
     c = opencc.OpenCC("s2twp")
-    return c.convert
+    # 台湾习惯用「」『』作引号
+    quotes = str.maketrans({"“": "「", "”": "」", "‘": "『", "’": "』"})
+    return lambda text: c.convert(text).translate(quotes)
 
 
 def fill_hant(text, convert, keep=()):
@@ -149,40 +151,63 @@ def strip_html(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
-def fetch_photo(title):
-    q = urllib.parse.urlencode({"action": "query", "titles": title, "prop": "imageinfo",
-                                "iiprop": "url|extmetadata", "iiurlwidth": 1280, "format": "json"})
+def _commons_query(titles):
+    """一次查询多张图片（最多 50 张），遇到 429 限流时退避重试。"""
+    import time
+    q = urllib.parse.urlencode({"action": "query", "titles": "|".join(titles), "prop": "imageinfo",
+                                "iiprop": "url|extmetadata", "iiurlwidth": 1280, "format": "json",
+                                "maxlag": 5})
     req = urllib.request.Request(f"https://commons.wikimedia.org/w/api.php?{q}",
                                  headers={"User-Agent": "SeichiJunreiCatalog/1.0 (data build script)"})
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        pages = json.load(resp)["query"]["pages"]
-    page = next(iter(pages.values()))
+    for attempt in range(6):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.load(resp)["query"]
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or attempt == 5: raise
+            time.sleep(5 * 2 ** attempt)
+
+
+def _photo_meta(page):
     if "imageinfo" not in page: return None
     info = page["imageinfo"][0]
     meta = info.get("extmetadata", {})
-    lic = strip_html(meta.get("LicenseShortName", {}).get("value"))
     return {
         "url": info.get("thumburl") or info["url"],
         "pageURL": info.get("descriptionurl"),
         "author": strip_html(meta.get("Artist", {}).get("value")) or "Wikimedia Commons",
-        "license": lic,
+        "license": strip_html(meta.get("LicenseShortName", {}).get("value")),
         "licenseURL": meta.get("LicenseUrl", {}).get("value"),
     }
 
 
 def resolve_photos(spots, offline, r):
+    import time
     cache = load(PHOTO_CACHE) if os.path.exists(PHOTO_CACHE) else {}
+    missing = sorted({s["photo"] for s in spots.values() if s.get("photo")} - set(cache))
+    if not offline:
+        for i in range(0, len(missing), 50):
+            batch = missing[i:i + 50]
+            try:
+                result = _commons_query(batch)
+            except Exception as e:  # noqa: BLE001
+                r.warn("photos", f"Commons 查询失败：{e}")
+                break
+            # API 会把标题规范化（下划线→空格等），按规范化后的标题对应回去
+            norm = {n["to"]: n["from"] for n in result.get("normalized", [])}
+            for page in result.get("pages", {}).values():
+                title = norm.get(page.get("title"), page.get("title"))
+                cache[title] = _photo_meta(page)
+            for t in batch:
+                cache.setdefault(t, None)
+            time.sleep(1)
     for s in spots.values():
         title = s.get("photo")
         if not title: continue
-        if title not in cache and not offline:
-            try:
-                cache[title] = fetch_photo(title)
-            except Exception as e:  # noqa: BLE001
-                r.warn(f"spot {s['id']}", f"照片查询失败：{e}")
-                continue
         meta = cache.get(title)
-        if not meta:
+        if title not in cache:
+            r.warn(f"spot {s['id']}", f"照片 {title} 尚未查询（离线或查询失败）")
+        elif not meta:
             r.warn(f"spot {s['id']}", f"Commons 上找不到 {title}，已忽略")
         elif not FREE_LICENSES.match(meta.get("license") or ""):
             r.warn(f"spot {s['id']}", f"{title} 的许可证 {meta.get('license')} 不可用，已忽略")
