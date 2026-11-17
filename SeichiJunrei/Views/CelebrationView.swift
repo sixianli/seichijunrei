@@ -26,6 +26,7 @@ struct CelebrationView: View {
                 Spacer()
                 Text("✨ 就是这个画面！✨")
                     .font(.system(size: 30, weight: .heavy, design: .rounded))
+                    .accessibilityIdentifier("celebrationTitle")
                 Text("此刻，你就是《\(spot.work)》的主角")
                     .font(.headline)
                 Text("「\(spot.sceneTitle)」")

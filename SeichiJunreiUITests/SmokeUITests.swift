@@ -7,12 +7,27 @@ final class SmokeUITests: XCTestCase {
 
     override func setUpWithError() throws {
         continueAfterFailure = false
+    }
+
+    /// 启动 App：位置固定在「須賀神社」（《君の名は。》，名场面朝向 270°、仰角 10°）的机位，
+    /// 可选地注入摄像头朝向（模拟器没有罗盘）。
+    func launch(heading: Double? = nil, pitch: Double? = nil) {
         app = XCUIApplication()
-        // 把位置固定在「須賀神社」（《君の名は。》）的机位
         app.launchEnvironment["SEICHI_SIM_LAT"] = "35.68540"
         app.launchEnvironment["SEICHI_SIM_LON"] = "139.72265"
+        if let heading { app.launchEnvironment["SEICHI_SIM_HEADING"] = String(heading) }
+        if let pitch { app.launchEnvironment["SEICHI_SIM_PITCH"] = String(pitch) }
         app.launch()
         dismissSystemAlerts()
+    }
+
+    /// 从到达横幅进入名场面模式
+    func enterSceneFromBanner() {
+        let banner = app.buttons["arrivalBanner"]
+        XCTAssertTrue(banner.waitForExistence(timeout: 20), "站在机位附近时应显示到达横幅")
+        banner.tap()
+        dismissSystemAlerts(timeout: 4)   // 相机权限弹窗
+        XCTAssertTrue(app.buttons["closeScene"].waitForExistence(timeout: 8))
     }
 
     /// 处理定位、通知等系统权限弹窗（模拟器为英文环境，也兼容中文）。
@@ -41,6 +56,7 @@ final class SmokeUITests: XCTestCase {
     }
 
     func testMainFlow() throws {
+        launch()
         // 1. 地图首页 + 到达横幅（模拟器定位在須賀神社）
         let banner = app.buttons["arrivalBanner"]
         if !banner.waitForExistence(timeout: 20) {
@@ -83,6 +99,7 @@ final class SmokeUITests: XCTestCase {
     }
 
     func testListBrowseAndFilter() throws {
+        launch()
         let open = app.buttons["openList"]
         XCTAssertTrue(open.waitForExistence(timeout: 10))
         open.tap()
@@ -93,5 +110,24 @@ final class SmokeUITests: XCTestCase {
         XCTAssertTrue(app.staticTexts["月台栏杆上的白手帕"].waitForExistence(timeout: 5),
                       "电视剧筛选应显示《东京爱情故事》的名场面")
         snapshot("06-list-drama")
+    }
+
+    /// 朝向偏离名场面 70° 时，应提示“向右转 70°”
+    func testSceneTurnGuidance() throws {
+        launch(heading: 200, pitch: 10)
+        enterSceneFromBanner()
+        XCTAssertTrue(app.staticTexts["向右转 70°"].waitForExistence(timeout: 5), "应提示向右转 70°")
+        snapshot("07-scene-turn-right")
+        XCTAssertFalse(app.staticTexts["celebrationTitle"].exists, "未对准时不应触发庆祝")
+    }
+
+    /// 朝向与名场面一致并保持一会儿，应触发“就是这个画面！”庆祝
+    func testSceneAlignedCelebration() throws {
+        launch(heading: 272, pitch: 8)
+        enterSceneFromBanner()
+        let title = app.staticTexts["celebrationTitle"]
+        XCTAssertTrue(title.waitForExistence(timeout: 6), "对准并保持后应出现庆祝画面")
+        sleep(1)
+        snapshot("08-scene-celebration")
     }
 }

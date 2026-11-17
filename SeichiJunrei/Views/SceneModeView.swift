@@ -1,4 +1,5 @@
 import SwiftUI
+import Combine
 import UIKit
 import QuartzCore
 import SeichiCore
@@ -19,6 +20,8 @@ struct SceneModeView: View {
     @State private var latch = AlignmentLatch()
     @State private var celebrating = false
     @State private var showStory = false
+    /// 定时评估对准状态：用户保持不动时朝向值不再变化，不能只依赖 onChange
+    private let ticker = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
 
     private var userPoint: GeoPoint? { location.lastLocation?.geoPoint }
     private var distance: Double? { userPoint.map { GeoMath.distance(from: $0, to: spot.coordinate) } }
@@ -57,7 +60,7 @@ struct SceneModeView: View {
         .statusBarHidden()
         .onAppear(perform: start)
         .onDisappear(perform: stop)
-        .onChange(of: orientation.heading) { _, _ in tick() }
+        .onReceive(ticker) { _ in tick() }
         .onChange(of: arrived) { _, isArrived in
             if isArrived { camera.start(); haptics.success() }
         }

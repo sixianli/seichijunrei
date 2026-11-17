@@ -31,6 +31,16 @@ final class OrientationService {
     }
 
     func start() {
+        #if DEBUG
+        // UI 测试 / 演示：通过环境变量注入固定朝向（模拟器没有罗盘）
+        let env = ProcessInfo.processInfo.environment
+        if let h = env["SEICHI_SIM_HEADING"].flatMap(Double.init) {
+            heading = GeoMath.normalize(h)
+            pitch = env["SEICHI_SIM_PITCH"].flatMap(Double.init) ?? 0
+            accuracy = 5
+            return
+        }
+        #endif
         guard motion.isDeviceMotionAvailable, !motion.isDeviceMotionActive else { return }
         motion.deviceMotionUpdateInterval = 1.0 / 30.0
         let frame: CMAttitudeReferenceFrame =
