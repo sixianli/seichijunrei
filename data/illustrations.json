@@ -103,11 +103,6 @@
     "note": "开发者本人在现场拍摄的照片；人物和站内告示文字已去掉",
     "realPhotoMatches": false
   },
-  "tenkinoko-asahi-inari": {
-    "source": "owner",
-    "note": "开发者本人在现场拍摄的照片；旗帜和匾额文字生成前已盖掉",
-    "realPhotoMatches": false
-  },
   "tenkinoko-tabata-slope": {
     "source": "owner",
     "note": "开发者本人在现场拍摄的照片；行人和霓虹招牌已去掉",
