@@ -206,13 +206,15 @@ final class CatalogTests: XCTestCase {
         XCTAssertGreaterThanOrEqual(illustrated.count, 10)
         for s in illustrated {
             let ill = try XCTUnwrap(s.illustration)
-            XCTAssertEqual(ill.file, s.id)
             XCTAssertTrue(FileManager.default.fileExists(atPath: illustrationDir.appendingPathComponent(ill.file + ".jpg").path), s.id)
             if let basedOn = ill.basedOn { XCTAssertEqual(basedOn, s.photo, s.id) }
             if ill.showsRealPhoto { XCTAssertNotNil(s.photo, s.id) }
         }
         XCTAssertNotNil(spots.first { $0.id == "slamdunk-kamakurakokomae" }?.illustration?.basedOn)
         XCTAssertEqual(spots.first { $0.id == "kiminonawa-suga-shrine" }?.illustration?.showsRealPhoto, false)
+        // 同一个十字路口的名场面共用一张插画
+        XCTAssertEqual(spots.first { $0.id == "bakemono-shibuya-scramble" }?.illustration?.file,
+                       "jujutsu-kaisen-shibuya-scramble")
 
         // 同一作品的多个名场面有编号，只有一个名场面的作品没有编号
         let loveLetter = spots.filter { $0.workID == "love-letter" }

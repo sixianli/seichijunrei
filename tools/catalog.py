@@ -254,18 +254,21 @@ def attach_illustrations(out_spots, r):
     files = {os.path.splitext(f)[0] for f in os.listdir(ILLUSTRATION_DIR) if f.endswith(".jpg")} \
         if os.path.isdir(ILLUSTRATION_DIR) else set()
     by_id = {s["id"]: s for s in out_spots}
-    for sid in sorted(files - set(meta)): r.err("illustrations", f"{sid}.jpg 没有在 illustrations.json 里登记来源")
-    for sid in sorted(set(meta) - files): r.warn("illustrations", f"{sid} 已登记但还没有插画文件")
-    for sid in sorted(set(meta) & files):
+    used = {m.get("file", sid) for sid, m in meta.items()}
+    for f in sorted(files - used): r.err("illustrations", f"{f}.jpg 没有在 illustrations.json 里登记来源")
+    for sid in sorted(sid for sid, m in meta.items() if m.get("file", sid) not in files):
+        r.warn("illustrations", f"{sid} 已登记但还没有插画文件")
+    for sid in sorted(sid for sid, m in meta.items() if m.get("file", sid) in files):
         m, s = meta[sid], by_id.get(sid)
+        fname = m.get("file", sid)
         if s is None:
             r.err("illustrations", f"名场面 {sid} 不存在"); continue
         if m.get("source") == "catalog":
             if not s.get("photo"):
                 r.err("illustrations", f"{sid} 标为 catalog 来源，但名场面没有实景照片"); continue
-            s["illustration"] = {"file": sid, "basedOn": s["photo"], "showsRealPhoto": True}
+            s["illustration"] = {"file": fname, "basedOn": s["photo"], "showsRealPhoto": True}
         elif m.get("source") == "owner":
-            s["illustration"] = {"file": sid, "showsRealPhoto": bool(m.get("realPhotoMatches")) and bool(s.get("photo"))}
+            s["illustration"] = {"file": fname, "showsRealPhoto": bool(m.get("realPhotoMatches")) and bool(s.get("photo"))}
         else:
             r.err("illustrations", f"{sid} 的 source 只能是 catalog 或 owner")
 

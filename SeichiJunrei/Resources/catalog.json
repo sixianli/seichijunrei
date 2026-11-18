@@ -3792,6 +3792,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Ogaki_bridge_-_A_silent_voice_side_view.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Ogaki_bridge_-_A_silent_voice_side_view.jpg/1280px-Ogaki_bridge_-_A_silent_voice_side_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "koenokatachi-midorigoi",
+    "showsRealPhoto": false
    }
   },
   {
@@ -4491,6 +4495,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Shibuya_Crossing_20241020.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Shibuya_Crossing_20241020.jpg/1280px-Shibuya_Crossing_20241020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "jujutsu-kaisen-shibuya-scramble",
+    "showsRealPhoto": false
    }
   },
   {
@@ -4984,6 +4992,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Mt.Daikichi.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Mt.Daikichi.jpg/1280px-Mt.Daikichi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "eupho-daikichiyama",
+    "showsRealPhoto": false
    }
   },
   {
@@ -5055,6 +5067,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Uji-Bridge.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Uji-Bridge.jpg/1280px-Uji-Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "eupho-ujibashi",
+    "showsRealPhoto": false
    }
   },
   {
@@ -6821,6 +6837,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:2025_Shibuya_Crossing.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/2025_Shibuya_Crossing.jpg/1280px-2025_Shibuya_Crossing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "jujutsu-kaisen-shibuya-scramble",
+    "showsRealPhoto": false
    }
   },
   {
@@ -7244,6 +7264,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Shibuya_-rainy_day.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Shibuya_-rainy_day.jpg/1280px-Shibuya_-rainy_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "jujutsu-kaisen-shibuya-scramble",
+    "showsRealPhoto": false
    }
   },
   {
@@ -9151,14 +9175,7 @@
    },
    "illustration": {
     "file": "spirited-away-dogo-onsen",
-    "basedOn": {
-     "author": "キアラア",
-     "license": "CC0",
-     "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-     "pageURL": "https://commons.wikimedia.org/wiki/File:%E9%81%93%E5%BE%8C%E5%95%86%E5%BA%97%E8%A1%97%E5%87%BA%E5%85%A5%E5%8F%A3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89%E6%9C%AC%E9%A4%A8.jpg",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/%E9%81%93%E5%BE%8C%E5%95%86%E5%BA%97%E8%A1%97%E5%87%BA%E5%85%A5%E5%8F%A3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89%E6%9C%AC%E9%A4%A8.jpg/1280px-%E9%81%93%E5%BE%8C%E5%95%86%E5%BA%97%E8%A1%97%E5%87%BA%E5%85%A5%E5%8F%A3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89%E6%9C%AC%E9%A4%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    "showsRealPhoto": true
+    "showsRealPhoto": false
    }
   },
   {
@@ -9230,6 +9247,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Tokyo_Kodakarayu.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Tokyo_Kodakarayu.jpg/1280px-Tokyo_Kodakarayu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "spirited-away-kodakarayu",
+    "showsRealPhoto": true
    }
   },
   {
@@ -10140,6 +10161,10 @@
      "bestTime": "여름 해 질 녘, 습지가 노을에 물들고 수면이 잔잔할 때",
      "tips": "주변은 자연 서식지이자 어업 구역이다. 도로변 안전한 곳에 차를 세우고 바라보되 습지에는 들어가지 말 것. 여름엔 벌레 대책을."
     }
+   },
+   "illustration": {
+    "file": "marnie-mochirippu-numa",
+    "showsRealPhoto": false
    }
   },
   {
@@ -10498,6 +10523,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:%E7%9F%B3%E7%A5%9E%E4%BA%95%E6%B1%A0%E3%81%A8%E3%83%9C%E3%83%BC%E3%83%88.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/%E7%9F%B3%E7%A5%9E%E4%BA%95%E6%B1%A0%E3%81%A8%E3%83%9C%E3%83%BC%E3%83%88.jpg/1280px-%E7%9F%B3%E7%A5%9E%E4%BA%95%E6%B1%A0%E3%81%A8%E3%83%9C%E3%83%BC%E3%83%88.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "your-lie-in-april-shakujii-park",
+    "showsRealPhoto": false
    }
   },
   {
