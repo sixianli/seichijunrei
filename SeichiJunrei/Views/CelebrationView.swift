@@ -14,7 +14,7 @@ struct CelebrationView: View {
     var body: some View {
         ZStack {
             if !reduceMotion {   // 尊重“减弱动态效果”
-                ConfettiView(colors: [spot.tintColor, .white, .yellow, .pink])
+                ConfettiView(colors: [spot.tintColor, .white, .yellow, .pink, .mint])
                     .allowsHitTesting(false)
             }
 

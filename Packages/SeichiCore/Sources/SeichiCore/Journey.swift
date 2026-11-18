@@ -71,14 +71,17 @@ public enum MonthRanges {
     }
 }
 
-/// “网上搜这一幕”：按用户语言选搜索引擎，搜索词同时带日语原名和当前语言的名字
+/// “网上搜这一幕”：按用户所在国家选搜索引擎（中国大陆用不了 Google），
+/// 搜索词按界面语言写：作品名 + 名场面标题 + 地点，再带上日语原名和日语地名
 public enum SceneImageSearch {
-    public enum Engine: String, Sendable { case google, baidu, naver }
+    public enum Engine: String, Sendable { case google, baidu, naver, yandex }
 
-    public static func engine(for language: String) -> Engine {
-        switch language {
-        case "zh-Hans": return .baidu
-        case "ko": return .naver
+    /// country：ISO 国家代码（定位所在国家，没有定位时用手机的地区设置）
+    public static func engine(country: String?) -> Engine {
+        switch country?.uppercased() {
+        case "CN": return .baidu
+        case "KR": return .naver
+        case "RU", "BY", "KZ": return .yandex
         default: return .google
         }
     }
@@ -89,39 +92,31 @@ public enum SceneImageSearch {
             .trimmingCharacters(in: .whitespaces) ?? place
     }
 
-    /// 日语关键词在前（原作资料最多），后面接当前语言的作品名和地点名；重复的词去掉
+    /// 用户语言的作品名、名场面标题、地点在前，日语原名和日语地名在后；重复的词去掉
     public static func query(originalWork: String, japanesePlace: String?, localizedWork: String?,
-                             localizedPlace: String?, language: String) -> String {
-        var parts = [originalWork]
+                             sceneTitle: String?, localizedPlace: String?) -> String {
+        var parts: [String] = []
+        parts.append((localizedWork?.isEmpty == false ? localizedWork : nil) ?? originalWork)
+        if let t = sceneTitle { parts.append(t) }
+        if let p = localizedPlace { parts.append(trimmedPlace(p)) }
+        parts.append(originalWork)
         if let p = japanesePlace { parts.append(trimmedPlace(p)) }
-        parts.append(language == "ja" ? "シーン" : "アニメ シーン")
-        if language != "ja" {
-            if let w = localizedWork, !w.isEmpty { parts.append(w) }
-            if let p = localizedPlace { parts.append(trimmedPlace(p)) }
-            parts.append(sceneWord(language))
-        }
         var seen = Set<String>()
         return parts.filter { !$0.isEmpty && seen.insert($0).inserted }.joined(separator: " ")
     }
 
-    static func sceneWord(_ language: String) -> String {
-        switch language {
-        case "zh-Hans": return "名场面"
-        case "zh-Hant": return "名場面"
-        case "ko": return "명장면"
-        default: return "scene"
-        }
-    }
-
-    public static func url(query: String, language: String) -> URL? {
+    public static func url(query: String, engine: Engine) -> URL? {
         var c: URLComponents?
-        switch engine(for: language) {
+        switch engine {
         case .baidu:
             c = URLComponents(string: "https://image.baidu.com/search/index")
             c?.queryItems = [URLQueryItem(name: "tn", value: "baiduimage"), URLQueryItem(name: "word", value: query)]
         case .naver:
             c = URLComponents(string: "https://search.naver.com/search.naver")
             c?.queryItems = [URLQueryItem(name: "where", value: "image"), URLQueryItem(name: "query", value: query)]
+        case .yandex:
+            c = URLComponents(string: "https://yandex.com/images/search")
+            c?.queryItems = [URLQueryItem(name: "text", value: query)]
         case .google:
             c = URLComponents(string: "https://www.google.com/search")
             c?.queryItems = [URLQueryItem(name: "tbm", value: "isch"), URLQueryItem(name: "q", value: query)]

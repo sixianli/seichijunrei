@@ -47,7 +47,7 @@ struct PaywallView: View {
         VStack(spacing: 8) {
             Image(systemName: "sparkles.rectangle.stack.fill")
                 .font(.system(size: 48))
-                .foregroundStyle(Color.pink.gradient)
+                .foregroundStyle(Color.accentColor.gradient)
             Text(L("paywall.title")).font(.title.bold()).multilineTextAlignment(.center)
             Text(L("paywall.subtitle")).font(.callout).foregroundStyle(.secondary).multilineTextAlignment(.center)
         }
@@ -109,7 +109,7 @@ struct PaywallView: View {
                             Text(L("paywall.bestValue"))
                                 .font(.caption2.bold())
                                 .padding(.horizontal, 6).padding(.vertical, 2)
-                                .background(.pink, in: Capsule())
+                                .background(Color.accentColor, in: Capsule())
                                 .foregroundStyle(.white)
                         }
                     }
@@ -125,7 +125,7 @@ struct PaywallView: View {
             }
             .padding()
             .background(RoundedRectangle(cornerRadius: 14)
-                .stroke(isLifetime ? Color.pink : Color.secondary.opacity(0.3), lineWidth: isLifetime ? 2 : 1))
+                .stroke(isLifetime ? Color.accentColor : Color.secondary.opacity(0.3), lineWidth: isLifetime ? 2 : 1))
             .contentShape(Rectangle())
         }
         .buttonStyle(.plain)

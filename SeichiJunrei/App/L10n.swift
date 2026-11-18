@@ -87,11 +87,8 @@ extension MediaCategory {
     var label: String { L("category.\(rawValue)") }
     /// 类型代表色：日漫 / 日剧 / 日影各一种，一眼区分
     var color: Color {
-        switch self {
-        case .anime: return Color(red: 0.93, green: 0.36, blue: 0.55)
-        case .drama: return Color(red: 0.25, green: 0.52, blue: 0.96)
-        case .film: return Color(red: 0.96, green: 0.62, blue: 0.20)
-        }
+        // 统一品牌色：类型只靠图标区分
+        .accentColor
     }
     var symbolName: String {
         switch self {

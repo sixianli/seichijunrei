@@ -191,6 +191,7 @@ struct SpotHeroImage: View {
 
     private enum Source { case illustration, photo, community, lookAround, satellite }
     @Environment(\.openURL) private var openURL
+    @Environment(LocationService.self) private var location
 
     /// 插画和实景照片视角接近时才提供切换；差得多就只显示插画，免得对不上
     private var canToggle: Bool {
@@ -264,27 +265,29 @@ struct SpotHeroImage: View {
                     .accessibilityIdentifier("heroToggle")
                 }
             }
-            .overlay(alignment: .bottomTrailing) {
+            // 封面下方：左边是图片来源，右边是“看原作画面”（不盖在图上，免得挡住画面）
+            HStack(alignment: .center, spacing: 10) {
+                VStack(alignment: .leading, spacing: 2) {
+                    if source == .illustration, let ill = spot.illustration { IllustrationCredit(illustration: ill) }
+                    if source == .photo, let photo = spot.photo { PhotoCredit(photo: photo) }
+                    Text(L("detail.originalNotIncluded"))
+                        .font(.caption2)
+                        .foregroundStyle(.secondary)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                Spacer(minLength: 0)
                 Button {
-                    if let url = SceneSearchLink.url(for: spot) { openURL(url) }
+                    if let url = SceneSearchLink.url(for: spot, country: location.countryCode) { openURL(url) }
                 } label: {
                     Label(L("detail.searchOriginal"), systemImage: "magnifyingglass")
-                        .font(.subheadline.bold())
-                        .foregroundStyle(.white)
+                        .font(.footnote.bold())
                         .padding(.horizontal, 12).padding(.vertical, 8)
-                        .background(spot.tintColor, in: Capsule())
-                        .shadow(color: .black.opacity(0.25), radius: 6, y: 2)
+                        .background(Color.accentColor.opacity(0.14), in: Capsule())
+                        .foregroundStyle(Color.accentColor)
+                        .fixedSize()
                 }
                 .buttonStyle(.plain)
-                .padding(10)
                 .accessibilityIdentifier("searchScene")
-            }
-            VStack(alignment: .leading, spacing: 2) {
-                if source == .illustration, let ill = spot.illustration { IllustrationCredit(illustration: ill) }
-                if source == .photo, let photo = spot.photo { PhotoCredit(photo: photo) }
-                Text(L("detail.originalNotIncluded"))
-                    .font(.caption2)
-                    .foregroundStyle(.secondary)
             }
         }
         .task(id: spot.id) {
@@ -355,16 +358,18 @@ final class MapSnapshotCache {
     }
 }
 
-/// “网上搜这一幕”：按界面语言选搜索引擎（简中百度、韩语 Naver、其他 Google），
-/// 搜索词同时带日语原名 / 日语地名和当前语言的作品名、地名
+/// “网上搜这一幕”：搜索引擎按用户所在国家（定位优先，没有定位用手机地区设置），
+/// 搜索词按界面语言写，带上名场面标题和地点，搜到的才是这一幕
 enum SceneSearchLink {
-    static func url(for spot: Spot) -> URL? {
+    @MainActor
+    static func url(for spot: Spot, country: String?) -> URL? {
         let lang = AppLanguage.current
         let jaPlace = spot.translations["ja"]?.placeName ?? spot.placeName
         let localized = spot.localized(to: lang)
         let query = SceneImageSearch.query(originalWork: spot.work, japanesePlace: jaPlace,
-                                           localizedWork: localized.workLocalized, localizedPlace: localized.placeName,
-                                           language: lang)
-        return SceneImageSearch.url(query: query, language: lang)
+                                           localizedWork: localized.workLocalized,
+                                           sceneTitle: localized.sceneTitle, localizedPlace: localized.placeName)
+        let region = country ?? Locale.current.region?.identifier
+        return SceneImageSearch.url(query: query, engine: SceneImageSearch.engine(country: region))
     }
 }

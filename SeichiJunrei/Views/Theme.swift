@@ -17,7 +17,8 @@ extension Spot {
     var clCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: coordinate.latitude, longitude: coordinate.longitude)
     }
-    var tintColor: Color { Color(hex: tint, fallback: .pink) }
+    /// 全 App 统一的品牌色（靛蓝，深色模式下更亮）。作品自己的主题色不再用于界面，避免五颜六色
+    var tintColor: Color { .accentColor }
 }
 
 extension CLLocation {
