@@ -1464,7 +1464,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E6%9B%B8%E5%AF%AB%E5%B1%B1%E5%9C%93%E6%95%99%E5%AF%BA%20%E4%B8%89%E4%B9%8B%E5%A0%82)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E6%9B%B8%E5%AF%AB%E5%B1%B1%E5%9C%93%E6%95%99%E5%AF%BA%20%E4%B8%89%E4%B9%8B%E5%A0%82&title=Special:MediaSearch&type=image)
 
-## 92. 日影《海街日记》四姐妹的车站
+## 92. 日影《海街日记》奔向极乐寺站的早晨
 
 - ID：`umimachi-gokurakuji-station`
 - 地点：江之电 极乐寺站（神奈川·镰仓）　·　镜头朝向：面向西　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Enoden-EN11-Gokurakuji-station-building-20200315-143624.jpg)
@@ -1528,7 +1528,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E6%B8%8B%E8%B0%B7%E9%A7%85%E5%89%8D%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%B3%E3%83%96%E3%83%AB%E4%BA%A4%E5%B7%AE%E7%82%B9)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E6%B8%8B%E8%B0%B7%E9%A7%85%E5%89%8D%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%B3%E3%83%96%E3%83%AB%E4%BA%A4%E5%B7%AE%E7%82%B9&title=Special:MediaSearch&type=image)
 
-## 96. 电影《非诚勿扰》悬崖上的晒太阳
+## 96. 电影《非诚勿扰》笑笑的悬崖一跳
 
 - ID：`ifyouaretheone-notoro-cape`
 - 地点：能取岬（北海道·网走）　·　镜头朝向：面向北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Notoro_misaki_light_house.jpg)
