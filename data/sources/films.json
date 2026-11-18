@@ -1,58 +1,6 @@
 {
  "works": [
   {
-   "id": "hanataba",
-   "title": "花束みたいな恋をした",
-   "mediaType": "film",
-   "year": 2021,
-   "creator": "土井裕泰 / 脚本：坂元裕二",
-   "tint": "#E8A0BF",
-   "aliases": [
-    "We Made a Beautiful Bouquet",
-    "Hanataba Mitai na Koi wo Shita",
-    "はなこい",
-    "花束般的恋爱",
-    "花束般的戀愛",
-    "꽃다발 같은 사랑을 했다",
-    "菅田将暉",
-    "菅田将晖",
-    "Masaki Suda",
-    "스다 마사키",
-    "有村架純",
-    "有村架纯",
-    "Kasumi Arimura",
-    "아리무라 카스미",
-    "坂元裕二",
-    "Yuji Sakamoto",
-    "土井裕泰",
-    "Nobuhiro Doi"
-   ],
-   "text": {
-    "zh-Hans": {
-     "title": "花束般的恋爱",
-     "creator": "土井裕泰 / 编剧：坂元裕二",
-     "synopsis": "2015 年的东京，大学生山音麦和八谷绢因为错过末班电车而相遇。喜欢的书、电影和乐队几乎一模一样的两人很快坠入爱河，在京王线沿线开始同居。影片以五年为跨度，细腻描绘了一段恋爱如何在日常与现实里慢慢变化。"
-    },
-    "zh-Hant": {
-     "title": "花束般的戀愛"
-    },
-    "ja": {
-     "title": "",
-     "synopsis": "2015年、終電を逃したことをきっかけに出会った大学生の山音麦と八谷絹。好きな本も映画も音楽もぴったり重なる二人はすぐに恋に落ち、京王線沿線で同棲を始める。坂元裕二のオリジナル脚本で、ある恋の5年間を等身大に描く。"
-    },
-    "en": {
-     "title": "We Made a Beautiful Bouquet",
-     "creator": "Nobuhiro Doi / written by Yuji Sakamoto",
-     "synopsis": "Tokyo, 2015: college students Mugi and Kinu meet after both missing the last train home. Their tastes in books, films and music match almost perfectly, and they soon move in together along the Keio Line. Yuji Sakamoto's original script follows five years of an ordinary, unforgettable romance."
-    },
-    "ko": {
-     "title": "꽃다발 같은 사랑을 했다",
-     "creator": "도이 노부히로 / 각본: 사카모토 유지",
-     "synopsis": "2015년 도쿄, 막차를 놓친 대학생 무기와 키누는 우연히 만난다. 좋아하는 책도 영화도 음악도 놀랄 만큼 닮은 두 사람은 금세 사랑에 빠지고 게이오선 연선에서 함께 살기 시작한다. 한 연애의 5년을 담담하고 섬세하게 그린 작품."
-    }
-   }
-  },
-  {
    "id": "love-letter",
    "title": "Love Letter",
    "mediaType": "film",
@@ -163,65 +111,6 @@
      "title": "굿' 바이",
      "creator": "다키타 요지로",
      "synopsis": "소속 오케스트라가 해체되면서 첼리스트의 꿈을 접은 고바야시 다이고는 아내와 함께 고향 야마가타로 돌아온다. '여행 도우미'라는 구인 광고를 보고 찾아간 곳은 고인을 관에 모시는 납관사 일이었다. 조카이산이 보이는 쇼나이의 사계절 속에서 그는 떠나보내는 일의 의미를 배워 간다. 아카데미 외국어영화상 수상작."
-    }
-   }
-  },
-  {
-   "id": "our-little-sister",
-   "title": "海街diary",
-   "mediaType": "film",
-   "year": 2015,
-   "creator": "是枝裕和",
-   "tint": "#7FB7BE",
-   "aliases": [
-    "Our Little Sister",
-    "Umimachi Diary",
-    "海街日记",
-    "海街日記",
-    "바닷마을 다이어리",
-    "是枝裕和",
-    "Hirokazu Kore-eda",
-    "Koreeda",
-    "고레에다 히로카즈",
-    "綾瀬はるか",
-    "绫濑遥",
-    "Haruka Ayase",
-    "長澤まさみ",
-    "长泽雅美",
-    "Masami Nagasawa",
-    "夏帆",
-    "Kaho",
-    "広瀬すず",
-    "广濑铃",
-    "Suzu Hirose",
-    "히로세 스즈",
-    "吉田秋生",
-    "鎌倉",
-    "镰仓",
-    "Kamakura"
-   ],
-   "text": {
-    "zh-Hans": {
-     "title": "海街日记",
-     "creator": "是枝裕和",
-     "synopsis": "住在镰仓老宅里的香田三姐妹，前往山形参加多年未见的父亲的葬礼，在那里遇见了同父异母的妹妹铃。长姐幸对孤单的铃说：“要不要来镰仓和我们一起生活？”四姐妹在海边小城度过的一年，就这样开始了。改编自吉田秋生的漫画。"
-    },
-    "zh-Hant": {
-     "title": "海街日記"
-    },
-    "ja": {
-     "title": "",
-     "synopsis": "鎌倉の古い家で暮らす香田家の三姉妹は、15年前に家を出た父の葬儀で山形を訪れ、腹違いの妹・すずと出会う。長女の幸は、気丈にふるまうすずに「鎌倉で一緒に暮らさない？」と声をかける。四姉妹の海街での一年を、四季の移ろいとともに描く。原作は吉田秋生の漫画。"
-    },
-    "en": {
-     "title": "Our Little Sister",
-     "creator": "Hirokazu Kore-eda",
-     "synopsis": "Three sisters living in an old house in Kamakura travel to their estranged father's funeral and meet their teenage half-sister Suzu. The eldest, Sachi, invites her to come and live with them. Based on Akimi Yoshida's manga, the film follows one gentle year of four sisters in a seaside town."
-    },
-    "ko": {
-     "title": "바닷마을 다이어리",
-     "creator": "고레에다 히로카즈",
-     "synopsis": "가마쿠라의 오래된 집에 사는 고다 가의 세 자매는 오래전 집을 떠난 아버지의 장례식에서 이복동생 스즈를 만난다. 맏언니 사치는 씩씩한 척하는 스즈에게 '가마쿠라에서 같이 살지 않을래?'라고 말한다. 요시다 아키미의 만화를 원작으로, 바닷마을에서 보내는 네 자매의 1년을 그린다."
     }
    }
   },
@@ -552,313 +441,9 @@
     }
    },
    "country": "US"
-  },
-  {
-   "id": "if-you-are-the-one",
-   "title": "狙った恋の落とし方。",
-   "mediaType": "film",
-   "year": 2008,
-   "creator": "馮小剛",
-   "tint": "#4A90B8",
-   "aliases": [
-    "If You Are the One",
-    "非诚勿扰",
-    "非誠勿擾",
-    "Fei Cheng Wu Rao",
-    "비성물요",
-    "冯小刚",
-    "馮小剛",
-    "Feng Xiaogang",
-    "펑샤오강",
-    "葛优",
-    "葛優",
-    "Ge You",
-    "거유",
-    "舒淇",
-    "Shu Qi",
-    "수치",
-    "网走",
-    "網走",
-    "Abashiri",
-    "北海道",
-    "Hokkaido"
-   ],
-   "text": {
-    "zh-Hans": {
-     "title": "非诚勿扰",
-     "creator": "冯小刚 / 华谊兄弟",
-     "synopsis": "海归“发明家”秦奋卖掉专利发了笔小财，登出一则征婚启事，见了一个又一个奇葩对象，直到遇见美丽却心事重重的空姐梁笑笑。两人结伴来到冬天的北海道道东，在流冰、温泉和小教堂之间，展开一段若即若离的旅程。曾在中国掀起北海道旅游热。"
-    },
-    "zh-Hant": {
-     "title": "非誠勿擾"
-    },
-    "ja": {
-     "title": "",
-     "synopsis": "発明品の特許を売って小金を手にした秦奮は、結婚相手募集の広告を出し、個性的すぎる相手と次々にお見合いをする。やがて出会ったのは、美しいが心に傷を抱えた客室乗務員・笑笑。二人は冬の北海道・道東を旅することになる。中国で大ヒットし、北海道観光ブームのきっかけとなった馮小剛監督作。"
-    },
-    "en": {
-     "title": "If You Are the One",
-     "creator": "Feng Xiaogang / Huayi Brothers",
-     "synopsis": "After selling a patent, eccentric inventor Qin Fen places a lonely-hearts ad and meets one odd match after another, until he meets Xiaoxiao, a beautiful flight attendant nursing a broken heart. The two set off together for eastern Hokkaido in winter. The film was a huge hit in China and set off a wave of Chinese tourism to Hokkaido."
-    },
-    "ko": {
-     "title": "비성물요",
-     "creator": "펑샤오강 / 화이브라더스",
-     "synopsis": "발명 특허를 팔아 한몫 챙긴 친펀은 결혼 상대를 찾는 광고를 내고 별난 상대들과 연이어 맞선을 본다. 그러다 아름답지만 마음의 상처를 안고 있는 승무원 샤오샤오를 만나고, 두 사람은 함께 겨울의 홋카이도 동부로 떠난다. 중국에서 크게 흥행해 홋카이도 여행 붐을 일으킨 펑샤오강 감독의 작품."
-    }
-   },
-   "country": "CN"
-  },
-  {
-   "id": "tora-san",
-   "title": "男はつらいよ",
-   "mediaType": "film",
-   "year": 1969,
-   "creator": "山田洋次 / 松竹",
-   "tint": "#8A6A3B",
-   "aliases": [
-    "Tora-san",
-    "It's Tough Being a Man",
-    "Otoko wa Tsurai yo",
-    "寅さん",
-    "寅次郎的故事",
-    "男人真命苦",
-    "남자는 괴로워",
-    "山田洋次",
-    "Yoji Yamada",
-    "야마다 요지",
-    "渥美清",
-    "Kiyoshi Atsumi",
-    "아쓰미 기요시",
-    "倍賞千恵子",
-    "倍赏千惠子",
-    "Chieko Baisho",
-    "車寅次郎",
-    "车寅次郎",
-    "柴又",
-    "Shibamata",
-    "帝釈天"
-   ],
-   "text": {
-    "zh-Hans": {
-     "title": "寅次郎的故事",
-     "creator": "山田洋次 / 松竹",
-     "synopsis": "十六岁那年和父亲大吵一架离家出走的车寅次郎，二十年后突然回到故乡东京葛饰柴又。他在各地摆摊叫卖、四处漂泊，每次回到柴又的团子店都闹得鸡飞狗跳，又总会爱上一位“玛利亚”而失恋离去。1969 年起共拍了 50 部，是吉尼斯认证的最长系列电影之一。"
-    },
-    "zh-Hant": {
-     "title": "男人真命苦"
-    },
-    "ja": {
-     "title": "",
-     "synopsis": "16歳で父親と大げんかして家を飛び出した車寅次郎が、20年ぶりにふらりと故郷・葛飾柴又へ帰ってくる。全国を渡り歩くテキ屋稼業の寅さんは、帰るたびに団子屋の家族を騒動に巻き込み、旅先で出会った「マドンナ」に恋をしては振られて、また旅に出る。1969年から50作が作られた国民的シリーズ。"
-    },
-    "en": {
-     "title": "Tora-san (It's Tough Being a Man)",
-     "creator": "Yoji Yamada / Shochiku",
-     "synopsis": "Twenty years after running away from home at 16, Torajiro \"Tora-san\" Kuruma wanders back into Shibamata, the old Tokyo neighbourhood where his family runs a dumpling shop. A travelling peddler with a big heart and bad timing, he turns the household upside down on every visit, falls for a new \"Madonna\" and leaves heartbroken. The series ran to 50 films from 1969."
-    },
-    "ko": {
-     "title": "남자는 괴로워",
-     "creator": "야마다 요지 / 쇼치쿠",
-     "synopsis": "열여섯 살에 아버지와 크게 싸우고 집을 나간 구루마 도라지로가 20년 만에 고향 가쓰시카 시바마타로 불쑥 돌아온다. 전국을 떠도는 노점상 '도라 씨'는 돌아올 때마다 경단 가게 식구들을 소동에 휘말리게 하고, 여행지에서 만난 '마돈나'에게 반했다가 차여서 다시 길을 떠난다. 1969년부터 50편이 만들어진 일본의 국민 시리즈."
-    }
-   }
-  },
-  {
-   "id": "kimisui-live-action",
-   "title": "君の膵臓をたべたい",
-   "mediaType": "film",
-   "year": 2017,
-   "creator": "月川翔 / 東宝",
-   "tint": "#F2B5C4",
-   "aliases": [
-    "Let Me Eat Your Pancreas",
-    "Kimi no Suizo wo Tabetai",
-    "キミスイ",
-    "我想吃掉你的胰脏",
-    "我想吃掉你的胰臟",
-    "너의 췌장을 먹고 싶어",
-    "月川翔",
-    "Sho Tsukikawa",
-    "浜辺美波",
-    "滨边美波",
-    "Minami Hamabe",
-    "하마베 미나미",
-    "北村匠海",
-    "Takumi Kitamura",
-    "기타무라 타쿠미",
-    "小栗旬",
-    "Shun Oguri",
-    "北川景子",
-    "Keiko Kitagawa",
-    "住野よる",
-    "Yoru Sumino",
-    "太宰府",
-    "Dazaifu"
-   ],
-   "text": {
-    "zh-Hans": {
-     "title": "我想吃掉你的胰脏",
-     "creator": "月川翔 / 东宝",
-     "synopsis": "在医院捡到一本名为《共病文库》的日记后，不爱与人来往的“我”得知了同班同学、开朗受欢迎的山内樱良的秘密：她患有胰脏疾病，所剩时日不多。被樱良拉着到处跑的“我”，开始一点点改变。十二年后已成为老师的“我”，在即将拆除的学校图书馆里回想起那段日子。真人电影版。"
-    },
-    "zh-Hant": {
-     "title": "我想吃掉你的胰臟"
-    },
-    "ja": {
-     "title": "",
-     "synopsis": "病院で「共病文庫」と書かれた日記を拾った「僕」は、クラスの人気者・山内桜良が膵臓の病で余命わずかだと知る。誰とも関わらずに生きてきた「僕」は、桜良に振り回されるうちに少しずつ変わっていく。12年後、母校の教師になった「僕」が、取り壊しの決まった図書館であの日々を振り返る。住野よるの小説の実写映画化。"
-    },
-    "en": {
-     "title": "Let Me Eat Your Pancreas",
-     "creator": "Sho Tsukikawa / Toho",
-     "synopsis": "A withdrawn high-school boy picks up a diary titled \"Living with Dying\" at a hospital and learns that his bubbly classmate Sakura Yamauchi has a pancreatic illness and little time left. Dragged along on her adventures, he slowly begins to change. Twelve years later, now a teacher, he looks back from the school library about to be torn down. The live-action film of Yoru Sumino's novel."
-    },
-    "ko": {
-     "title": "너의 췌장을 먹고 싶어",
-     "creator": "쓰키카와 쇼 / 도호",
-     "synopsis": "병원에서 '공병문고'라는 일기장을 주운 '나'는 반에서 인기 많은 야마우치 사쿠라가 췌장 병으로 시한부라는 사실을 알게 된다. 누구와도 엮이지 않고 살던 '나'는 사쿠라에게 이리저리 끌려다니며 조금씩 달라진다. 12년 뒤 모교의 교사가 된 '나'는 철거를 앞둔 도서관에서 그 시절을 떠올린다. 스미노 요루 소설의 실사 영화."
-    }
-   }
   }
  ],
  "spots": [
-  {
-   "id": "hanataba-meidaimae",
-   "workID": "hanataba",
-   "latitude": 35.66838,
-   "longitude": 139.65089,
-   "sceneHeading": 270,
-   "arrivalRadius": 40,
-   "spoiler": false,
-   "sourceURL": "https://press.moviewalker.jp/news/article/1018379/",
-   "photo": "File:Meidaimae Station - Flickr - seanmcgrath.jpg",
-   "verified": false,
-   "accessPoint": {
-    "latitude": 35.668428,
-    "longitude": 139.650141
-   },
-   "bestMonths": [
-    11,
-    12,
-    1,
-    2
-   ],
-   "text": {
-    "zh-Hans": {
-     "placeName": "京王线 明大前站（东京·世田谷）",
-     "sceneTitle": "错过末班车的夜晚",
-     "episode": "电影 · 开头（2015 年）",
-     "highlight": "《花束般的恋爱》的相遇像偶然，又像命中注定：两个错过末班车的陌生人，因为一样的鞋子、一样的书单，在一夜之间认出了彼此。“原来世界上真有和我喜欢一模一样东西的人”——这种心动，几乎每个人都经历过或期待过。正因为之后五年的恋情有甜也有痛，回看这个深夜的起点才格外让人鼻酸。明大前这个再日常不过的换乘站，也成了很多影迷心中“恋爱开始的地方”。",
-     "story": "2015 年的一个深夜，大学生山音麦和八谷绢在明大前站各自错过了末班电车，和另外两个同样回不了家的人一起去咖啡店打发时间。那两位“懂行”的前辈聊着电影，麦和绢却注意到店里坐着的正是押井守本人——整个店里只有他们俩认出来了。接着他们发现，彼此鞋子一样、喜欢的小说、漫画、乐队也几乎一模一样。一段“像花束一样”的五年恋爱，就从这个再普通不过的车站开始。",
-     "access": "京王线/京王井之头线「明大前」站，出中央口检票口即到；从新宿乘京王线约 8 分钟。",
-     "bestTime": "深夜 23 点到末班车前后，最有电影里“回不了家”的氛围；周末深夜人多嘈杂，平日夜里更安静。",
-     "tips": "京王线与井之头线的换乘大站，人流很大。请不要在检票口前停留拍照，也别拍到其他乘客的脸；末班车后车站会关闭，记得安排好回程。",
-     "accessPointName": "明大前站 中央口"
-    },
-    "ja": {
-     "placeName": "京王線 明大前駅（東京都世田谷区）",
-     "sceneTitle": "終電を逃した夜",
-     "episode": "映画 · 冒頭（2015年）",
-     "highlight": "終電を逃した見知らぬ二人が、同じスニーカーと同じ本棚をきっかけに、一晩で互いを見つけてしまう。この出会いは偶然なのに、まるで運命のように見える。「自分とまったく同じものを好きな人がいた」という高揚は、多くの人が経験したか、いつか夢見たものだ。その後の5年間に甘さも痛みもあるからこそ、振り返ったときのこの夜がいっそう切ない。ありふれた乗換駅は、ファンにとって「恋が始まった場所」になった。",
-     "story": "2015年のある夜、大学生の山音麦と八谷絹は明大前駅でそれぞれ終電を逃し、同じく帰れなくなった社会人の二人と一緒にカフェで時間をつぶすことになる。映画通ぶる先輩たちが気づかない中、店の奥に押井守がいることに気づいたのは麦と絹だけだった。やがて二人は、履いている靴も、好きな小説も漫画もバンドもほとんど同じだと知る。「花束みたいな」5年間の恋は、このありふれた駅から始まった。",
-     "access": "京王線・京王井の頭線「明大前」駅の中央口改札を出てすぐ。新宿から京王線で約8分。",
-     "bestTime": "23時以降、終電前後の時間帯が映画の「帰れない夜」の空気に近い。週末の深夜はにぎやかなので平日の夜がおすすめ。",
-     "tips": "京王線と井の頭線の乗換駅で利用客が多い。改札前で立ち止まっての撮影や、他の乗客の顔が写る撮影は控えよう。終電後は駅が閉まるので帰りの手段を確保して。",
-     "accessPointName": "明大前駅 中央口"
-    },
-    "en": {
-     "placeName": "Keio Line Meidaimae Station (Setagaya, Tokyo)",
-     "sceneTitle": "The Night They Missed the Last Train",
-     "episode": "Film · opening (2015)",
-     "highlight": "The film's meeting feels like pure chance and pure fate at once: two strangers who miss the last train discover, in a single night, that they own the same sneakers and love the same books. That rush of \"someone out there likes exactly what I like\" is something almost everyone has felt or hoped for. Because the five years that follow hold both sweetness and pain, looking back at this late-night beginning stings in the best way. An unremarkable transfer station has become, for many fans, the place where a love story starts.",
-     "story": "One night in 2015, college students Mugi Yamane and Kinu Hachiya each miss the last train at Meidaimae and end up killing time in a café with two other stranded strangers. While the older pair hold forth about cinema, only Mugi and Kinu notice that the man sitting in the corner is anime director Mamoru Oshii. They soon discover they are wearing the same sneakers and love almost exactly the same novels, manga and bands. A five-year romance \"like a bouquet of flowers\" begins at this most ordinary of stations.",
-     "access": "Right outside the Central Exit ticket gates of Meidaimae Station (Keio / Keio Inokashira lines); about 8 min from Shinjuku on the Keio Line.",
-     "bestTime": "After 11 pm, around last-train time, feels most like the film's stranded night. Weeknights are calmer than noisy weekend late nights.",
-     "tips": "A busy transfer station: don't stop in front of the ticket gates to take photos or capture other passengers' faces. The station closes after the last train, so plan your way home.",
-     "accessPointName": "Meidaimae Sta. Central Exit"
-    },
-    "ko": {
-     "placeName": "게이오선 메이다이마에역 (도쿄 세타가야)",
-     "sceneTitle": "막차를 놓친 밤",
-     "episode": "영화 · 도입부 (2015년)",
-     "highlight": "막차를 놓친 낯선 두 사람이 같은 운동화, 같은 책장을 계기로 하룻밤 만에 서로를 알아본다. 우연인데도 운명처럼 느껴지는 이 만남에는 '나랑 똑같은 걸 좋아하는 사람이 정말 있었다'는, 누구나 한 번쯤 겪었거나 꿈꿔 본 설렘이 담겨 있다. 이후 5년의 연애에 달콤함과 아픔이 모두 있기에, 되돌아보는 이 밤은 더 애틋하다. 평범한 환승역이 많은 팬에게 '사랑이 시작된 곳'으로 기억되는 이유다.",
-     "story": "2015년 어느 밤, 대학생 야마네 무기와 하치야 키누는 메이다이마에역에서 각자 막차를 놓치고, 똑같이 집에 못 가게 된 직장인 두 명과 카페에서 시간을 보낸다. 영화 통인 척하는 두 사람은 눈치채지 못했지만, 가게 안쪽에 오시이 마모루 감독이 앉아 있다는 걸 알아본 건 무기와 키누뿐이었다. 이어서 두 사람은 신은 운동화도, 좋아하는 소설과 만화와 밴드도 거의 똑같다는 걸 알게 된다. '꽃다발 같은' 5년의 연애는 이 평범한 역에서 시작됐다.",
-     "access": "게이오선·게이오 이노카시라선 '메이다이마에'역 중앙 출구 개찰구를 나오면 바로. 신주쿠에서 게이오선으로 약 8분.",
-     "bestTime": "밤 11시 이후 막차 전후가 영화 속 '집에 못 가는 밤'의 분위기에 가장 가깝다. 주말 심야는 붐비니 평일 밤이 한적하다.",
-     "tips": "이용객이 많은 환승역이다. 개찰구 앞에 멈춰 서서 촬영하거나 다른 승객의 얼굴이 찍히지 않도록 주의하자. 막차 후에는 역이 닫히니 돌아갈 방법을 미리 챙기자.",
-     "accessPointName": "메이다이마에역 중앙 출구"
-    }
-   }
-  },
-  {
-   "id": "hanataba-otozakabashi-crossing",
-   "workID": "hanataba",
-   "latitude": 35.66539,
-   "longitude": 139.54336,
-   "sceneHeading": 297,
-   "arrivalRadius": 50,
-   "spoiler": false,
-   "sourceURL": "https://press.moviewalker.jp/news/article/1020436/p2/",
-   "photo": "File:調布市深大寺元町・三鷹市大沢 御塔坂橋信号 20260228.jpg",
-   "verified": false,
-   "accessPoint": {
-    "latitude": 35.664152,
-    "longitude": 139.542533
-   },
-   "bestMonths": [
-    3,
-    4,
-    10,
-    11
-   ],
-   "text": {
-    "zh-Hans": {
-     "placeName": "御塔坂桥路口人行横道（东京·调布/三鹰交界）",
-     "sceneTitle": "按键信号灯下的吻",
-     "episode": "电影 · 前半段",
-     "highlight": "这一吻之所以被反复提起，是因为它一点也不浪漫化：深夜空荡的大马路、不按就不会变绿的信号灯，两个人在等灯的几十秒里鼓起勇气。坂元裕二的剧本擅长把心动藏进最日常的细节，导演又坚持保留真实的夜间按键信号，让这一刻真实得像发生在自己身上。因为来问的人太多，调布市还在路口旁的小公园里立了取景地展板。",
-     "story": "相识之后，麦和绢又约了几次会：一起逛书店、看展、聊喜欢的漫画，却谁也没有说破。某个深夜，两人在回家的路上停在这个路口——夜里的信号灯是按键式的，不按就永远是红灯。在等绿灯的短短几十秒里，他们终于确认了彼此的心意，在人行横道上接了吻。导演土井裕泰特意保留了真实的按键信号，让来访的影迷看到的和电影里一模一样。",
-     "access": "调布站北口乘小田急巴士（往吉祥寺/三鹰方向）约 5 分钟，「御塔坂」站下车，沿武藏境通往北走约 150 米（约 2 分钟）到路口。",
-     "bestTime": "深夜车流稀少、只剩信号灯亮着时最像电影；附近野川沿岸春天有樱花，白天来也适合散步。",
-     "tips": "这是车流量很大的主干道：请勿在人行横道中央停留拍照，也不要为拍照随意按信号按钮。周边是住宅区，深夜请保持安静。调布市的取景地展板在路口旁的小公园里。",
-     "accessPointName": "御塔坂 巴士站"
-    },
-    "ja": {
-     "placeName": "御塔坂橋交差点の横断歩道（東京都調布市・三鷹市境）",
-     "sceneTitle": "押しボタン信号のキス",
-     "episode": "映画 · 前半",
-     "highlight": "このキスが語り継がれるのは、少しも飾らないからだ。深夜のがらんとした大通り、押さなければ青にならない信号、その数十秒の間に二人が勇気を出す。日常の細部にときめきを忍ばせる坂元裕二の脚本に、本物の夜間押しボタン信号にこだわった演出が重なり、まるで自分の身に起きたことのようなリアルさが生まれた。問い合わせが多く、調布市は交差点脇の公園にロケ地パネルを設置している。",
-     "story": "出会ってから、麦と絹は何度か会うようになる。本屋をめぐり、展覧会に行き、好きな漫画の話をしても、どちらも決定的なことは言えないまま。ある夜、帰り道の二人はこの交差点で立ち止まる。夜間は押しボタン式で、押さなければずっと赤のままの信号。青を待つほんの数十秒のあいだに、二人はようやく気持ちを確かめ合い、横断歩道の上でキスをする。土井裕泰監督は、訪れたファンが違和感を覚えないよう、実際の押しボタン信号をそのまま映したという。",
-     "access": "調布駅北口から小田急バス（吉祥寺・三鷹方面）で約5分「御塔坂」下車。武蔵境通りを北へ約150m、徒歩約2分で交差点。",
-     "bestTime": "車が途切れ、信号だけが光る深夜がいちばん映画らしい。近くの野川沿いは春に桜が咲き、昼の散歩にもいい。",
-     "tips": "交通量の多い幹線道路。横断歩道の途中で立ち止まって撮影したり、撮影のためだけに押しボタンを押したりしないこと。周辺は住宅地なので深夜は静かに。調布市のロケ地パネルは交差点脇の小さな公園にある。",
-     "accessPointName": "御塔坂バス停"
-    },
-    "en": {
-     "placeName": "Otozakabashi intersection crosswalk (Chofu / Mitaka, Tokyo)",
-     "sceneTitle": "A Kiss at the Push-Button Light",
-     "episode": "Film · first half",
-     "highlight": "This kiss is remembered precisely because nothing about it is dressed up: an empty main road at midnight, a signal that won't turn green unless you press the button, and two people finding their nerve in those few dozen seconds. Yuji Sakamoto's script hides its heartbeats in everyday details, and the director insisted on keeping the real night-time push-button signal, so the moment feels as if it could have happened to you. So many fans asked about it that Chofu City put up a location panel in the little park beside the crossing.",
-     "story": "After that first night, Mugi and Kinu keep meeting: browsing bookshops, going to exhibitions, talking about the manga they love, yet neither says the words. One night, on the way home, they stop at this crossing. After dark the signal is push-button only and stays red until someone presses it. In the few dozen seconds of waiting, they finally confirm how they feel and kiss on the crosswalk. Director Nobuhiro Doi kept the real push-button signal on screen so that visiting fans would find it exactly as in the film.",
-     "access": "Odakyu bus from Chofu Station North Exit (toward Kichijoji/Mitaka), about 5 min to Otozaka. Walk about 150 m north along Musashi-sakai-dori (2 min) to the crossing.",
-     "bestTime": "Late at night, when traffic thins and only the signal glows, it looks most like the film. The Nogawa riverside nearby has cherry blossoms in spring for a daytime walk.",
-     "tips": "This is a busy main road: don't stop mid-crosswalk for photos or press the button just to get a shot. The area is residential, so keep quiet late at night. Chofu City's location panel is in the small park beside the crossing.",
-     "accessPointName": "Otozaka Bus Stop"
-    },
-    "ko": {
-     "placeName": "오토자카바시 교차로 횡단보도 (도쿄 조후·미타카 경계)",
-     "sceneTitle": "누름 버튼 신호등 아래의 키스",
-     "episode": "영화 · 전반부",
-     "highlight": "이 키스가 오래 회자되는 건 조금도 꾸미지 않았기 때문이다. 텅 빈 심야의 큰길, 버튼을 눌러야만 파란불이 켜지는 신호등, 그 몇십 초 동안 두 사람은 용기를 낸다. 일상의 작은 디테일에 설렘을 숨기는 사카모토 유지의 각본에, 실제 야간 누름 버튼 신호를 그대로 살린 연출이 더해져 마치 내 이야기처럼 생생하다. 문의가 끊이지 않자 조후시는 교차로 옆 작은 공원에 촬영지 안내판까지 세웠다.",
-     "story": "첫 만남 이후 무기와 키누는 몇 번 더 만난다. 서점을 돌고, 전시를 보고, 좋아하는 만화 이야기를 해도 누구도 결정적인 말은 하지 못한다. 어느 밤, 집으로 가던 두 사람은 이 교차로에서 멈춰 선다. 밤에는 버튼을 누르지 않으면 계속 빨간불인 신호등. 파란불을 기다리는 몇십 초 사이에 두 사람은 마침내 서로의 마음을 확인하고 횡단보도 위에서 키스한다. 도이 노부히로 감독은 팬들이 실제와 다르다고 느끼지 않도록 진짜 누름 버튼 신호를 그대로 담았다고 한다.",
-     "access": "조후역 북쪽 출구에서 오다큐 버스(기치조지·미타카 방면)로 약 5분, '오토자카' 하차. 무사시사카이도리를 따라 북쪽으로 약 150m(도보 약 2분) 가면 교차로.",
-     "bestTime": "차가 끊기고 신호등만 빛나는 심야가 가장 영화 같다. 근처 노가와 강변은 봄에 벚꽃이 피어 낮 산책에도 좋다.",
-     "tips": "교통량이 많은 간선도로다. 횡단보도 한가운데 멈춰 촬영하거나 사진을 위해 신호 버튼을 누르지 말자. 주변은 주택가이니 심야에는 조용히. 조후시의 촬영지 안내판은 교차로 옆 작은 공원에 있다.",
-     "accessPointName": "오토자카 버스 정류장"
-    }
-   }
-  },
   {
    "id": "loveletter-otaru-library",
    "workID": "love-letter",
@@ -1125,72 +710,6 @@
      "bestTime": "4월 중·하순에는 히요리야마 공원 벚꽃이 한창이다. 영화 속 쇼나이 겨울 분위기를 원한다면 눈 오는 낮에, 저녁에는 바다로 지는 해도 볼 수 있다.",
      "tips": "현재 사카타시 소유로 안에 베이커리 카페가 있다(약 8:30~17:30, 부정기 휴무, 12/29~31 휴무). 방문 전 전화로 확인하자. 외관을 찍을 때 비탈길과 입구를 막지 말자.",
      "accessPointName": "히요리야마 공원 버스 정류장"
-    }
-   }
-  },
-  {
-   "id": "umimachi-gokurakuji-station",
-   "workID": "our-little-sister",
-   "latitude": 35.30917,
-   "longitude": 139.5288,
-   "sceneHeading": 270,
-   "arrivalRadius": 40,
-   "spoiler": false,
-   "sourceURL": "https://www.veltra.com/jp/yokka/article/10-sightseeing-spots-in-kamakura-en",
-   "photo": "File:Enoden-EN11-Gokurakuji-station-building-20200315-143624.jpg",
-   "verified": false,
-   "accessPoint": {
-    "latitude": 35.309179,
-    "longitude": 139.528626
-   },
-   "bestMonths": [
-    4,
-    6
-   ],
-   "text": {
-    "zh-Hans": {
-     "placeName": "江之电 极乐寺站（神奈川·镰仓）",
-     "sceneTitle": "奔向极乐寺站的早晨",
-     "episode": "电影 · 铃在镰仓的日常",
-     "highlight": "是枝裕和的《海街日记》没有大起大落，打动人的是“成为一家人”的过程：一个失去父亲、心怀愧疚的女孩，被三个姐姐慢慢接纳。极乐寺站这座木造小站，是铃新生活每天的起点，四季在站台和隧道口悄悄流转，她也一点点敢说出真心话。入选“关东车站百选”的木站舍和红色邮筒，因为这部电影成了镰仓最受欢迎的取景地之一。",
-     "story": "铃搬到镰仓后，和三个姐姐一起住在极乐寺附近的老宅里，每天从这座木造小站坐江之电去上学。某天早上，睡过头的二姐佳乃拉着铃一路跑向车站，两人在站台上等车时闲聊起来，姐妹之间的距离不知不觉又近了一些。同一个车站，也是长姐幸送别母亲的地方：外婆的法事之后，多年前离家的母亲要离开镰仓，幸赶到车站，把家里酿的梅酒交到她手里，目送她走进检票口。平凡的上学早晨和说不出口的告别，都发生在这座小站。",
-     "access": "镰仓站乘江之电约 7 分钟到「极乐寺」站，出检票口即是站前；站旁红色小桥「樱桥」可俯瞰站台和隧道口。",
-     "bestTime": "6 月绣球花季、4 月初樱花季最美；早上 9 点前游客少，阴天柔光下的木站舍最有电影的安静感。",
-     "tips": "车站周边是安静的住宅区，请小声交谈，不要在站台、道口或铁轨旁逗留拍摄。片中姐妹的老宅是私人住宅，请勿寻找或打扰。",
-     "accessPointName": "极乐寺站 检票口"
-    },
-    "ja": {
-     "placeName": "江ノ電 極楽寺駅（神奈川県鎌倉市）",
-     "sceneTitle": "極楽寺駅へ駆ける朝",
-     "episode": "映画 · すずの鎌倉の日々",
-     "highlight": "是枝裕和の『海街diary』に大きな事件はない。胸を打つのは「家族になっていく」時間そのものだ。父を亡くし、どこか負い目を抱えた少女が、三人の姉に少しずつ受け入れられていく。木造の小さな極楽寺駅はすずの新しい毎日の出発点で、ホームやトンネルの入口で季節が静かに巡るうちに、彼女は本音を言えるようになっていく。関東の駅百選にも選ばれた駅舎と赤いポストは、この映画で鎌倉を代表するロケ地のひとつになった。",
-     "story": "鎌倉に来たすずは、極楽寺近くの古い家で三人の姉と暮らし、毎朝この木造の小さな駅から江ノ電で学校へ通う。ある朝、寝坊した次女の佳乃とすずは駅までダッシュし、ホームで電車を待ちながら言葉を交わす。姉妹の距離が、知らないうちにまた少し縮まる。同じ駅は、長女の幸が母を見送る場所でもある。祖母の法事のあと、昔家を出た母が鎌倉を去る日、幸は駅に駆けつけて家で漬けた梅酒を手渡し、改札の向こうへ消える母を見送る。何気ない通学の朝も、言葉にできない別れも、この小さな駅で起きている。",
-     "access": "鎌倉駅から江ノ電で約7分「極楽寺」駅、改札を出てすぐ。駅脇の赤い「桜橋」からはホームとトンネルを見下ろせる。",
-     "bestTime": "6月のあじさい、4月初めの桜の頃が美しい。朝9時前は人が少なく、曇りの柔らかい光の駅舎が映画の静けさに近い。",
-     "tips": "駅周辺は静かな住宅地。大声を控え、ホームや踏切、線路際に長居して撮影しないこと。映画の姉妹の家は個人宅なので、探したり訪ねたりしないで。",
-     "accessPointName": "極楽寺駅 改札口"
-    },
-    "en": {
-     "placeName": "Gokurakuji Station, Enoden Line (Kamakura, Kanagawa)",
-     "sceneTitle": "Running for the Train at Gokurakuji",
-     "episode": "Film · Suzu's days in Kamakura",
-     "highlight": "Hirokazu Kore-eda's Our Little Sister has no big twists; what moves people is watching a family form. A girl who has lost her father, and carries a quiet guilt, is slowly taken in by three older sisters. This tiny wooden station is where each of Suzu's new days begins, and as the seasons pass over its platform and tunnel mouth she learns to say what she really feels. With its wooden building and red postbox, the station (one of the \"Kanto 100 Stations\") became one of Kamakura's best-loved locations thanks to the film.",
-     "story": "In Kamakura, Suzu lives with her three half-sisters in an old house near Gokurakuji and takes the Enoden to school from this little wooden station every morning. One morning Yoshino, the second sister, oversleeps, and the two of them dash to the station together, chatting on the platform as they wait for the train; without either noticing, the sisters grow a little closer. The same station is where Sachi, the eldest, sees off their mother. After their grandmother's memorial, the mother who left the family years ago is leaving Kamakura, and Sachi hurries to the station to hand her a bottle of the plum wine they make at home, then watches her disappear through the ticket gate. An ordinary school morning and a farewell that can't be put into words both happen at this small station.",
-     "access": "Enoden from Kamakura Station, about 7 min to Gokurakuji; the spot is right outside the ticket gate. The little red Sakurabashi bridge beside the station looks down on the platform and tunnel.",
-     "bestTime": "Hydrangea season in June and cherry blossoms in early April are loveliest. Before 9 am it's quiet, and soft overcast light suits the wooden station's calm, film-like mood.",
-     "tips": "The station sits in a quiet residential area: keep voices down and don't linger on the platform, at the level crossing or by the tracks for photos. The sisters' house in the film is a private home; please don't seek it out.",
-     "accessPointName": "Gokurakuji Sta. Gate"
-    },
-    "ko": {
-     "placeName": "에노덴 고쿠라쿠지역 (가나가와 가마쿠라)",
-     "sceneTitle": "고쿠라쿠지역으로 달리는 아침",
-     "episode": "영화 · 스즈의 가마쿠라 나날",
-     "highlight": "고레에다 히로카즈의 <바닷마을 다이어리>에는 큰 사건이 없다. 마음을 울리는 건 '가족이 되어 가는' 시간 그 자체다. 아버지를 잃고 남모를 죄책감을 안은 소녀가 세 언니에게 조금씩 받아들여진다. 작은 목조 역사인 고쿠라쿠지역은 스즈의 새로운 하루가 시작되는 곳이고, 플랫폼과 터널 입구에 계절이 조용히 흐르는 동안 그녀는 속마음을 말할 수 있게 된다. '간토 역 100선'에 뽑힌 목조 역사와 빨간 우체통은 이 영화로 가마쿠라의 대표 촬영지가 되었다.",
-     "story": "가마쿠라로 온 스즈는 고쿠라쿠지 근처 오래된 집에서 세 언니와 함께 살며, 매일 아침 이 작은 목조 역에서 에노덴을 타고 학교에 다닌다. 어느 아침, 늦잠을 잔 둘째 요시노와 스즈는 함께 역까지 달려가고, 플랫폼에서 전철을 기다리며 이야기를 나눈다. 자매 사이의 거리가 어느새 조금 더 가까워진다. 같은 역은 맏언니 사치가 엄마를 배웅하는 곳이기도 하다. 할머니의 제사가 끝나고, 오래전 집을 떠난 엄마가 가마쿠라를 떠나는 날, 사치는 역으로 달려가 집에서 담근 매실주를 건네고 개찰구 너머로 사라지는 엄마를 지켜본다. 평범한 등굣길 아침도, 말로 다 못 한 이별도 이 작은 역에서 일어난다.",
-     "access": "가마쿠라역에서 에노덴으로 약 7분, '고쿠라쿠지'역 개찰구를 나오면 바로. 역 옆 빨간 '사쿠라바시' 다리에서 플랫폼과 터널을 내려다볼 수 있다.",
-     "bestTime": "6월 수국 철과 4월 초 벚꽃 철이 가장 아름답다. 오전 9시 전에는 한산하고, 흐린 날의 부드러운 빛이 목조 역사의 고요함과 잘 어울린다.",
-     "tips": "역 주변은 조용한 주택가다. 큰 소리를 삼가고 플랫폼, 건널목, 선로 옆에 머물며 촬영하지 말자. 영화 속 자매의 집은 개인 주택이니 찾아가지 말자.",
-     "accessPointName": "고쿠라쿠지역 개찰구"
     }
    }
   },
@@ -1596,6 +1115,75 @@
    }
   },
   {
+   "id": "lostintranslation-new-york-bar",
+   "workID": "lost-in-translation",
+   "latitude": 35.68555,
+   "longitude": 139.6907,
+   "sceneHeading": 60,
+   "scenePitch": 0,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "sourceURL": "https://www.afar.com/magazine/park-hyatt-tokyo-sets-reopening-date-reservations-now-open",
+   "verified": false,
+   "bestMonths": [
+    1,
+    2,
+    11,
+    12
+   ],
+   "accessPoint": {
+    "latitude": 35.690228,
+    "longitude": 139.69173
+   },
+   "kind": "scene",
+   "text": {
+    "zh-Hans": {
+     "placeName": "柏悦酒店 New York Bar（东京·新宿 52 楼）",
+     "sceneTitle": "52 楼的失眠者",
+     "episode": "电影 · 前段",
+     "highlight": "鲍勃和夏洛特的故事从这里开始：深夜的酒吧、窗外无边的新宿灯海、台上的爵士歌手，两个睡不着的异乡人隔着几张桌子对上了眼神。索菲亚·科波拉把整部电影的孤独与温柔都放进了这个高空的玻璃盒子，也让柏悦酒店的 New York Bar 成了影迷到东京必去的地方。酒店自 2024 年 5 月起闭馆翻修，2025 年 12 月 9 日重新开业，酒吧按原貌修复。",
+     "story": "为拍威士忌广告来到东京的鲍勃倒不过时差，每晚独自坐在酒店顶楼的酒吧里喝威士忌、听驻唱歌手唱歌。同样失眠的夏洛特也来到这里，两人从客套的寒暄开始，渐渐成了能分享心事的同伴，此后一起溜出酒店，闯进东京的夜。New York Bar 位于新宿公园塔 52 楼，与 New York Grill 相连，落地窗外是西新宿的高楼群和一望无际的城市灯火。",
+     "access": "都营大江户线都厅前站 A4 出口步行约 8 分钟，或 JR 新宿站南口步行约 12 分钟；新宿站西口一带有酒店免费接驳车。",
+     "accessPointName": "都厅前站 A4 出口",
+     "bestTime": "入夜后来，城市灯海铺满窗外，最像电影；冬季空气通透，夜景最清晰。现场爵士一般在晚间演出。",
+     "tips": "非住客也可前往。晚间时段通常加收音乐费，请避免运动装和拖鞋。重新开业后营业时间、收费和预约方式可能调整，出发前请查酒店官网。"
+    },
+    "ja": {
+     "placeName": "パーク ハイアット 東京 ニューヨーク バー（東京都新宿区・52階）",
+     "sceneTitle": "52階の眠れない二人",
+     "episode": "映画 · 序盤",
+     "highlight": "ボブとシャーロットの物語はここから始まる。深夜のバー、窓の外に果てしなく広がる新宿の灯、ステージのジャズシンガー。眠れない異邦人二人が、いくつかのテーブル越しに目を合わせる。ソフィア・コッポラは映画全体の孤独と優しさをこの空中のガラスの箱に閉じ込め、パーク ハイアット 東京の「ニューヨーク バー」を映画ファンが東京で必ず訪れる場所にした。ホテルは2024年5月から休業して改装し、2025年12月9日に再開業。バーは元のデザインのまま修復された。",
+     "story": "ウイスキーのCM撮影で来日したボブは時差ぼけが抜けず、毎晩ひとりホテル最上階のバーでウイスキーを飲み、専属シンガーの歌を聴いている。同じく眠れないシャーロットもここへやって来て、二人は他愛ない挨拶から少しずつ心の内を話せる相手になり、やがて一緒にホテルを抜け出して東京の夜へ繰り出す。ニューヨーク バーは新宿パークタワーの52階、ニューヨーク グリルに続き、大きな窓の外には西新宿の高層ビル群と果てしない街の灯が広がる。",
+     "access": "都営大江戸線都庁前駅A4出口から徒歩約8分、またはJR新宿駅南口から徒歩約12分。新宿駅西口付近からホテルの無料シャトルバスもある。",
+     "accessPointName": "都庁前駅 A4出口",
+     "bestTime": "夜、窓いっぱいに街の灯が広がる時間が映画そのもの。空気の澄んだ冬は夜景がいちばんくっきり。ジャズの生演奏は夜に行われる。",
+     "tips": "宿泊者以外も利用可。夜の時間帯はミュージックチャージがかかるのが一般的で、スポーツウェアやサンダルは避けたい。再開業後は営業時間や料金、予約方法が変わる可能性があるので、公式サイトで確認を。"
+    },
+    "en": {
+     "placeName": "New York Bar, Park Hyatt Tokyo (52F, Shinjuku, Tokyo)",
+     "sceneTitle": "Insomniacs on the 52nd Floor",
+     "episode": "Film · early",
+     "highlight": "This is where Bob and Charlotte's story begins: a late-night bar, Shinjuku's lights stretching endlessly past the windows, a jazz singer on stage, and two sleepless strangers catching each other's eye across a few tables. Sofia Coppola put all of the film's loneliness and tenderness into this glass box in the sky, and made the Park Hyatt's New York Bar a must for film lovers in Tokyo. The hotel closed for renovation in May 2024 and reopened on December 9, 2025, with the bar restored to its original design.",
+     "story": "In Tokyo to shoot a whisky ad and unable to shake his jet lag, Bob spends every night alone in the hotel's top-floor bar, drinking whisky and listening to the house singer. Charlotte, just as sleepless, comes here too. Polite small talk slowly turns them into companions who can share what's on their minds, and soon they slip out of the hotel together into the Tokyo night. The New York Bar is on the 52nd floor of Shinjuku Park Tower, next to the New York Grill, with the towers of Nishi-Shinjuku and endless city lights beyond its tall windows.",
+     "access": "About 8 min on foot from Exit A4 of Tochomae Station (Toei Oedo Line), or 12 min from JR Shinjuku Station's south exit. A free hotel shuttle runs from the Shinjuku Station west-exit area.",
+     "accessPointName": "Tochomae Sta. Exit A4",
+     "bestTime": "Come after dark, when the city lights fill the windows just as in the film; winter's clear air gives the sharpest night view. Live jazz is played in the evening.",
+     "tips": "Non-guests are welcome. A music charge is usually added in the evening, and sportswear or sandals are best avoided. Hours, charges and reservation rules may have changed since the reopening: check the hotel's official site before you go."
+    },
+    "ko": {
+     "placeName": "파크 하얏트 도쿄 뉴욕 바 (도쿄 신주쿠, 52층)",
+     "sceneTitle": "52층의 잠 못 드는 두 사람",
+     "episode": "영화 · 초반",
+     "highlight": "밥과 샬럿의 이야기는 여기서 시작된다. 깊은 밤의 바, 창밖으로 끝없이 펼쳐진 신주쿠의 불빛, 무대 위 재즈 가수. 잠 못 드는 두 이방인이 테이블 몇 개를 사이에 두고 눈을 마주친다. 소피아 코폴라는 영화 전체의 고독과 다정함을 이 하늘 위 유리 상자에 담았고, 파크 하얏트 도쿄의 '뉴욕 바'를 영화 팬이라면 도쿄에서 꼭 들르는 곳으로 만들었다. 호텔은 2024년 5월부터 휴업하고 리노베이션을 거쳐 2025년 12월 9일 재개장했으며, 바는 원래 디자인 그대로 복원되었다.",
+     "story": "위스키 광고 촬영차 도쿄에 온 밥은 시차에 적응하지 못하고 매일 밤 호텔 꼭대기 층 바에 홀로 앉아 위스키를 마시며 전속 가수의 노래를 듣는다. 똑같이 잠 못 드는 샬럿도 이곳을 찾고, 두 사람은 의례적인 인사에서 시작해 차츰 속마음을 나눌 수 있는 사이가 되어 함께 호텔을 빠져나가 도쿄의 밤으로 뛰어든다. 뉴욕 바는 신주쿠 파크 타워 52층, 뉴욕 그릴과 이어져 있으며 큰 창밖으로 니시신주쿠의 고층 빌딩과 끝없는 도시의 불빛이 펼쳐진다.",
+     "access": "도에이 오에도선 도초마에역 A4 출구에서 도보 약 8분, 또는 JR 신주쿠역 남쪽 출구에서 도보 약 12분. 신주쿠역 서쪽 출구 부근에서 호텔 무료 셔틀버스도 다닌다.",
+     "accessPointName": "도초마에역 A4 출구",
+     "bestTime": "밤이 되어 창 가득 도시의 불빛이 펼쳐질 때가 영화 그대로다. 공기가 맑은 겨울에 야경이 가장 선명하다. 재즈 라이브는 저녁에 열린다.",
+     "tips": "투숙객이 아니어도 이용할 수 있다. 저녁 시간대에는 보통 뮤직 차지가 붙으며 운동복이나 샌들은 피하는 것이 좋다. 재개장 후 영업시간·요금·예약 방식이 바뀌었을 수 있으니 방문 전 공식 사이트를 확인하세요."
+    }
+   }
+  },
+  {
    "id": "lastsamurai-engyoji-mitsunodo",
    "workID": "last-samurai",
    "latitude": 34.8923,
@@ -1658,208 +1246,6 @@
      "bestTime": "단풍은 11월 중·하순이 절정. 이른 아침이나 비 갠 뒤 안개가 낄 때 미쓰노도가 영화처럼 그윽하다. 단풍철 주말에는 로프웨이 대기가 길다.",
      "tips": "입산 지납금(성인 500엔)과 로프웨이 요금이 필요하고, 로프웨이는 점검 운휴 기간이 있으니 미리 확인하자. 천태종 수행 도량이니 조용히. 산길은 비탈과 돌계단이 많아 편한 신발을 신고 해 지기 전에 내려오자.",
      "accessPointName": "쇼샤산 로프웨이 산조역"
-    }
-   }
-  },
-  {
-   "id": "ifyouaretheone-notoro-cape",
-   "workID": "if-you-are-the-one",
-   "latitude": 44.1127,
-   "longitude": 144.24335,
-   "sceneHeading": 20,
-   "arrivalRadius": 150,
-   "spoiler": true,
-   "sourceURL": "https://tabi-mag.jp/ho0358/",
-   "photo": "File:Notoro misaki light house.jpg",
-   "verified": false,
-   "accessPoint": {
-    "latitude": 44.111118,
-    "longitude": 144.241257
-   },
-   "bestMonths": [
-    2,
-    3,
-    7,
-    8
-   ],
-   "text": {
-    "zh-Hans": {
-     "placeName": "能取岬（北海道·网走）",
-     "sceneTitle": "笑笑的悬崖一跳",
-     "episode": "电影 · 北海道篇",
-     "highlight": "《非诚勿扰》北海道段落里最让人揪心的一幕，就发生在这片伸向鄂霍次克海的悬崖上：两个带着伤的人刚刚在崖顶并肩点烟、聊起过去，笑笑压抑已久的绝望却在同一片海边爆发，她纵身跃向大海。辽阔美丽的风景与濒临崩溃的内心形成强烈反差，这正是这场戏让人难忘的原因。电影上映后北海道成了中国游客的热门目的地，网走市还在能取岬立起了“《非诚勿扰》拍摄地”的标牌。",
-     "story": "笑笑一直放不下那个有家室的男人，答应秦奋“试试看”，跟他来到北海道，却始终心不在焉。在能取岬开阔的崖顶，两人并肩望着大海，笑笑替秦奋点了一支烟，说起各自的过去，难得地轻松。可心底的伤并没有愈合——情绪崩溃的她走到悬崖边，纵身跳进了大海。幸而获救的笑笑经历了这次劫后余生，终于开始放下过去，而秦奋也明白了，有些感情不能勉强，只能陪伴。",
-     "access": "JR 网走站开车约 20 分钟到岬角的免费停车场，下车沿草原小路走约 3 分钟到灯塔一带。没有直达的公共交通，建议自驾或打车。",
-     "bestTime": "1 月下旬到 3 月上旬有机会看到流冰靠岸；夏天草原翠绿，傍晚夕阳下的灯塔最美。风大体感冷，注意保暖。",
-     "tips": "崖边部分没有护栏，风大时远离边缘。灯塔内部不开放；旁边的美岬牧场请勿进入放牧区。厕所冬季开放时间缩短（约 9:00–16:00），冬季路面结冰，驾驶请小心。",
-     "accessPointName": "能取岬 停车场"
-    },
-    "ja": {
-     "placeName": "能取岬（北海道網走市）",
-     "sceneTitle": "笑笑、崖から海へ",
-     "episode": "映画 · 北海道編",
-     "highlight": "『狙った恋の落とし方。』北海道パートでいちばん胸が締めつけられる場面は、オホーツク海に突き出たこの崖の上で起きる。傷を抱えた二人が崖の上で並んで煙草に火をつけ、過去を語り合ったばかりなのに、同じ海辺で笑笑の抑えてきた絶望があふれ、彼女は海へ身を投げる。雄大で美しい風景と崩れそうな心との対比こそ、この場面が忘れられない理由だ。公開後、北海道は中国からの旅行者に一躍人気となり、網走市は能取岬に「非誠勿擾ロケ地」の看板を立てた。",
-     "story": "妻子ある男を忘れられない笑笑は、秦奮と「試しに」付き合うことにして北海道へ同行するが、心はどこか上の空。能取岬の広々とした崖の上で、二人は並んで海を眺め、笑笑は秦奮の煙草に火をつけてやり、それぞれの過去を話す。珍しく穏やかなひととき。だが心の傷は癒えておらず、感情が崩れた彼女は崖の端へ歩いていき、海へ身を投げる。九死に一生を得た笑笑はようやく過去を手放し始め、秦奮も、気持ちは無理に動かせるものではなく、ただ寄り添うしかないのだと知る。",
-     "access": "JR網走駅から車で約20分、岬の無料駐車場から草原の道を徒歩約3分で灯台周辺。直通の公共交通はないので車かタクシーで。",
-     "bestTime": "1月下旬〜3月上旬は流氷が接岸することも。夏は草原が青々とし、夕日に染まる灯台が美しい。風が強く体感温度が低いので防寒を。",
-     "tips": "崖の一部には柵がなく、強風時は縁に近づかないこと。灯台内部は非公開。隣の美岬牧場の放牧地には入らないで。トイレは冬季9:00〜16:00ごろに短縮。冬は路面凍結に注意して運転を。",
-     "accessPointName": "能取岬 駐車場"
-    },
-    "en": {
-     "placeName": "Cape Notoro (Abashiri, Hokkaido)",
-     "sceneTitle": "Xiaoxiao's Leap from the Cliff",
-     "episode": "Film · Hokkaido chapter",
-     "highlight": "The most wrenching moment of If You Are the One's Hokkaido chapter happens on this cliff jutting into the Sea of Okhotsk. Moments after the two wounded travellers share a cigarette on the clifftop and talk about their pasts, Xiaoxiao's long-suppressed despair breaks out by the same sea and she throws herself off the cliff. The contrast between a vast, beautiful landscape and a heart at breaking point is what makes the scene unforgettable. After the film's release Hokkaido became a hugely popular destination for Chinese travellers, and Abashiri City put up a sign at Cape Notoro marking it as the film's location.",
-     "story": "Unable to let go of the married man she loves, Xiaoxiao agrees to \"give it a try\" with Qin Fen and joins him in Hokkaido, though her mind is elsewhere. On the wide clifftop at Notoro they look out to sea side by side; she lights his cigarette and they talk about their pasts, a rare easy moment. But her wound hasn't healed: breaking down, she walks to the cliff edge and leaps into the sea. Having survived, Xiaoxiao finally starts to let go of the past, and Qin Fen understands that feelings cannot be forced, only kept company.",
-     "access": "About 20 min by car from JR Abashiri Station to the free car park at the cape, then a 3-minute walk across the grass to the lighthouse area. There's no direct public transport: drive or take a taxi.",
-     "bestTime": "Late January to early March can bring drift ice to the shore; in summer the grass is lush and the lighthouse glows at sunset. It's very windy, so dress warmly.",
-     "tips": "Parts of the cliff have no railing; keep back from the edge in strong wind. The lighthouse interior is closed. Stay out of the neighbouring Misaki Ranch pastures. Toilets keep shorter winter hours (about 9:00–16:00), and winter roads are icy.",
-     "accessPointName": "Cape Notoro Car Park"
-    },
-    "ko": {
-     "placeName": "노토로곶 (홋카이도 아바시리)",
-     "sceneTitle": "샤오샤오, 벼랑에서 바다로",
-     "episode": "영화 · 홋카이도 편",
-     "highlight": "펑샤오강 감독의 <비성물요(非诚勿扰)> 홋카이도 편에서 가장 가슴 졸이는 장면이 오호츠크해로 뻗은 이 절벽 위에서 벌어진다. 상처를 안은 두 사람이 벼랑 위에서 나란히 담배에 불을 붙이고 지난날을 이야기한 직후, 같은 바닷가에서 샤오샤오가 눌러 온 절망이 터져 나오고 그녀는 바다로 몸을 던진다. 광활하고 아름다운 풍경과 무너지는 마음의 대비가 이 장면을 잊을 수 없게 만든다. 개봉 후 홋카이도는 중국 여행객의 인기 여행지가 되었고, 아바시리시는 노토로곶에 '비성물요 촬영지' 안내판을 세웠다.",
-     "story": "유부남을 잊지 못한 샤오샤오는 친펀과 '한번 만나 보기로' 하고 홋카이도에 동행하지만 마음은 딴 데 가 있다. 노토로곶의 탁 트인 벼랑 위에서 두 사람은 나란히 바다를 바라보고, 샤오샤오는 친펀의 담배에 불을 붙여 주며 각자의 과거를 이야기한다. 모처럼 편안한 시간. 하지만 마음의 상처는 아물지 않았고, 감정이 무너진 그녀는 벼랑 끝으로 걸어가 바다로 몸을 던진다. 구사일생으로 살아난 샤오샤오는 마침내 과거를 놓아주기 시작하고, 친펀도 마음은 억지로 움직일 수 없으며 곁에 있어 줄 수밖에 없다는 걸 깨닫는다.",
-     "access": "JR 아바시리역에서 차로 약 20분, 곶의 무료 주차장에서 초원 길을 약 3분 걸으면 등대 주변. 직행 대중교통이 없으니 자가용이나 택시로.",
-     "bestTime": "1월 하순~3월 상순에는 유빙이 해안에 닿기도 한다. 여름에는 초원이 푸르고 노을 속 등대가 아름답다. 바람이 세서 체감 온도가 낮으니 따뜻하게 입자.",
-     "tips": "절벽 일부는 난간이 없으니 바람이 강할 때 가장자리에 가까이 가지 말자. 등대 내부는 비공개. 옆 미사키 목장의 방목지에 들어가지 말자. 화장실은 겨울에 약 9:00~16:00로 단축되며, 겨울 도로는 얼어 있으니 운전 주의.",
-     "accessPointName": "노토로곶 주차장"
-    }
-   }
-  },
-  {
-   "id": "torasan-shibamata-sando",
-   "workID": "tora-san",
-   "latitude": 35.75768,
-   "longitude": 139.87655,
-   "sceneHeading": 56,
-   "arrivalRadius": 60,
-   "spoiler": false,
-   "sourceURL": "https://ja.wikipedia.org/wiki/%E6%9F%B4%E5%8F%88%E5%B8%9D%E9%87%88%E5%A4%A9",
-   "photo": "File:Taishakuten Sando -01.jpg",
-   "verified": false,
-   "accessPoint": {
-    "latitude": 35.756771,
-    "longitude": 139.875532
-   },
-   "bestMonths": [
-    4,
-    5,
-    10,
-    11
-   ],
-   "text": {
-    "zh-Hans": {
-     "placeName": "柴又帝释天参道（东京·葛饰）",
-     "sceneTitle": "寅次郎回家了",
-     "episode": "系列电影 · 各集开头",
-     "highlight": "寅次郎每次晃晃悠悠走过这条参道回家，观众就跟着他“回到故乡”。《寅次郎的故事》系列横跨半个世纪、拍了 50 部，其中 48 部由渥美清主演，成了日本人心中最温暖的“家”的象征：总有人在等你，吵过架也能再回来。团子店、仙贝店一路通向帝释天山门，这条街至今保留着电影里的样子，2018 年还成为东京首个“重要文化的景观”。",
-     "story": "车寅次郎十六岁时和父亲大吵一架离家出走，二十年后的某天，他突然出现在柴又，混进帝释天庙会的人群，又大摇大摆地走进叔叔婶婶开的团子店。妹妹樱哭笑不得，一家人又惊又喜。可没过几天，寅次郎就用他那张嘴把家里搅得天翻地覆，最后在“果然还是待不下去”的气氛里，拎起皮箱再次踏上旅程。此后五十部电影里，他一次又一次沿着这条参道回家、闹事、恋爱、失恋、离开——观众也跟着他一次又一次回到柴又。",
-     "access": "京成金町线「柴又」站出检票口，站前广场有寅次郎和小樱的铜像；过马路进入参道，走约 150 米（约 2 分钟）即到。",
-     "bestTime": "工作日上午 10 点后店铺陆续开门、人还不多，最适合慢慢逛；不少老铺傍晚 5 点左右就打烊。",
-     "tips": "参道两旁是营业中的老铺，拍照请别挡住店门。寅次郎纪念馆 9:00–17:00，每月第 3 个周二休馆（12 月为第 3 周的周二至周四），需购票；帝释天的雕刻画廊也另收费。",
-     "accessPointName": "柴又站 检票口"
-    },
-    "ja": {
-     "placeName": "柴又帝釈天参道（東京都葛飾区）",
-     "sceneTitle": "寅さん、帰る",
-     "episode": "シリーズ · 各作の冒頭",
-     "highlight": "寅さんがふらりと参道を歩いて帰ってくるたびに、観客も一緒に「故郷」へ帰ってきた。半世紀にわたって50作が作られ、うち48作で渥美清が寅さんを演じたシリーズは、「いつでも待っていてくれる人がいる、喧嘩しても帰ってこられる」という温かな居場所の象徴になった。団子屋やせんべい屋が帝釈天の山門へと続く参道は今も映画の面影を残し、2018年には東京都初の重要文化的景観に選ばれた。",
-     "story": "16歳で父親と大げんかして家を出た車寅次郎は、20年後のある日、ふらりと柴又に姿を現す。帝釈天の縁日の人混みにまぎれ込み、叔父夫婦が営む団子屋へ堂々と帰ってくる。妹のさくらは泣き笑い、家族は驚き喜ぶ。だが数日もすると、寅さんは持ち前の口の悪さで家じゅうをかき回し、「やっぱり居づらい」空気の中でトランクを提げ、また旅に出ていく。それから50作、寅さんは何度もこの参道を通って帰り、騒ぎを起こし、恋をし、振られ、去っていった。観客もまた、そのたびに柴又へ帰ってきたのだ。",
-     "access": "京成金町線「柴又」駅の改札を出ると駅前広場に寅さんとさくらの像。通りを渡って参道に入り、約150m・徒歩約2分。",
-     "bestTime": "平日の10時以降、店が開きそろい人出もまだ少ない時間がのんびり歩くのに最適。夕方5時ごろに閉まる老舗も多い。",
-     "tips": "参道は営業中の老舗が並ぶので、撮影で店先をふさがないように。寅さん記念館は9:00〜17:00、毎月第3火曜休館（12月は第3火〜木曜）、有料。帝釈天の彫刻ギャラリーも別料金。",
-     "accessPointName": "柴又駅 改札口"
-    },
-    "en": {
-     "placeName": "Shibamata Taishakuten Sando (Katsushika, Tokyo)",
-     "sceneTitle": "Tora-san Comes Home",
-     "episode": "Series · opening of most films",
-     "highlight": "Each time Tora-san ambles up this approach, audiences come home with him. Fifty films over half a century, 48 of them starring Kiyoshi Atsumi, made the series Japan's warmest symbol of home: somewhere people are always waiting, where you can come back even after a fight. With its dumpling and rice-cracker shops leading to Taishakuten's gate, the street still looks much as it does on screen, and in 2018 it became Tokyo's first Important Cultural Landscape.",
-     "story": "Torajiro Kuruma ran away at 16 after a huge fight with his father. Twenty years later he suddenly turns up in Shibamata, slips into the crowds at Taishakuten's temple fair and strolls into the dumpling shop run by his aunt and uncle. His sister Sakura laughs and cries at once; the family is shocked and delighted. Within days, his big mouth has turned the household upside down, and in an atmosphere of \"he just can't stay\" he picks up his suitcase and heads off again. Over fifty films he walks this approach home again and again, causes chaos, falls in love, gets turned down and leaves, and each time audiences come home to Shibamata with him.",
-     "access": "Leave Shibamata Station (Keisei Kanamachi Line) by the ticket gate; statues of Tora-san and Sakura stand in the plaza. Cross the road into the approach and walk about 150 m (2 min).",
-     "bestTime": "Weekday mornings after 10, once shops have opened but before crowds build, are ideal for a slow stroll. Many old shops close around 5 pm.",
-     "tips": "The approach is lined with working shops; don't block doorways for photos. The Tora-san Museum is open 9:00–17:00 and closed the 3rd Tuesday of each month (3rd Tue–Thu in December), admission charged. Taishakuten's carving gallery charges separately.",
-     "accessPointName": "Shibamata Sta. Gate"
-    },
-    "ko": {
-     "placeName": "시바마타 다이샤쿠텐 참배길 (도쿄 가쓰시카)",
-     "sceneTitle": "도라 씨, 돌아오다",
-     "episode": "시리즈 · 각 편의 도입부",
-     "highlight": "도라상이 어슬렁어슬렁 이 참배길을 걸어 돌아올 때마다 관객도 함께 '고향'으로 돌아왔다. 반세기에 걸쳐 50편이 만들어지고 그중 48편을 아쓰미 기요시가 연기한 이 시리즈는 '언제나 기다려 주는 사람이 있고, 싸워도 돌아올 수 있는 곳'이라는 따뜻한 집의 상징이 되었다. 경단 가게와 센베이 가게가 다이샤쿠텐 산문까지 이어지는 이 길은 지금도 영화 속 모습을 간직하고 있으며, 2018년 도쿄 최초의 중요문화적경관으로 선정되었다.",
-     "story": "열여섯 살에 아버지와 크게 싸우고 집을 나간 구루마 도라지로는 20년 뒤 어느 날 불쑥 시바마타에 나타난다. 다이샤쿠텐 축제 인파에 섞여 들었다가, 숙부 부부가 하는 경단 가게로 당당히 들어선다. 여동생 사쿠라는 울다 웃고 가족들은 놀라면서도 반긴다. 하지만 며칠 지나지 않아 도라 씨는 특유의 입담으로 집안을 발칵 뒤집어 놓고, '역시 있기 힘들다'는 분위기 속에 트렁크를 들고 다시 길을 떠난다. 그 뒤 50편 동안 그는 몇 번이고 이 참배길로 돌아와 소동을 일으키고, 사랑에 빠지고, 차이고, 떠났다. 관객도 그때마다 그와 함께 시바마타로 돌아왔다.",
-     "access": "게이세이 가나마치선 '시바마타'역 개찰구를 나오면 역 앞 광장에 도라상과 사쿠라 동상이 있다. 길을 건너 참배길로 들어가 약 150m, 도보 약 2분.",
-     "bestTime": "평일 오전 10시 이후, 가게들이 문을 열고 아직 사람이 적을 때가 느긋하게 걷기 좋다. 오후 5시쯤 문 닫는 노포가 많다.",
-     "tips": "참배길은 영업 중인 노포가 늘어서 있으니 촬영할 때 가게 입구를 막지 말자. 도라상 기념관은 9:00~17:00, 매월 셋째 화요일 휴관(12월은 셋째 화~목), 유료. 다이샤쿠텐 조각 갤러리도 별도 요금.",
-     "accessPointName": "시바마타역 개찰구"
-    }
-   }
-  },
-  {
-   "id": "kimisui-dazaifu-sando",
-   "workID": "kimisui-live-action",
-   "latitude": 33.51955,
-   "longitude": 130.53242,
-   "sceneHeading": 90,
-   "arrivalRadius": 60,
-   "spoiler": false,
-   "sourceURL": "https://www.seikatsu-guide.com/keyword/1700/40/40219/",
-   "photo": "File:Torii on Sando of Dazaifu Temman Shrine in front of Dazaifu Station.JPG",
-   "verified": false,
-   "accessPoint": {
-    "latitude": 33.519236,
-    "longitude": 130.531388
-   },
-   "bestMonths": [
-    2,
-    3
-   ],
-   "text": {
-    "zh-Hans": {
-     "placeName": "太宰府天满宫参道（福冈·太宰府）",
-     "sceneTitle": "两个人的福冈之旅",
-     "episode": "电影 · 中段",
-     "highlight": "在《我想吃掉你的胰脏》里，这趟福冈之旅是樱良最任性、也最快乐的时光。她笑着拉“我”吃梅枝饼、逛参道，仿佛还有大把时间；观众却知道她的日子不多，于是每个轻松的画面都带着隐隐的痛。明明在走向告别，却过得像寻常日子——正是这种反差，让电影后半段格外心碎。热闹的参道和热乎乎的梅枝饼，也成了影迷最想复刻的一幕。",
-     "story": "知道樱良的秘密后，“我”被她拉着一起完成“死前想做的事”：吃烤肉、逛街、讨论小说。某天，她一句“我们去旅行吧”，就把毫无准备的“我”带上了开往博多的新干线。在太宰府，两人沿着参道一路吃着名物梅枝饼，去天满宫参拜；晚上在中洲吃屋台，住进同一间酒店，还玩了“真心话大冒险”。看似任性的旅程里，樱良一次次把真心话藏在玩笑后面，而一向不与人亲近的“我”，也第一次认真想知道另一个人的心。",
-     "access": "西铁太宰府线「太宰府」站出检票口，站前就是参道入口，沿参道往天满宫方向走约 150 米（约 2 分钟）即到。",
-     "bestTime": "工作日上午 10 点前后店铺刚开、人较少；2 月到 3 月初梅花季最热闹，周末和考试季参拜者很多。",
-     "tips": "参道两旁是营业中的店铺，边走边吃请留意行人，垃圾交回购买的店或自行带走。具体拍摄机位未公开，以参道整体为准。天满宫境内请遵守参拜礼仪。",
-     "accessPointName": "太宰府站 检票口"
-    },
-    "ja": {
-     "placeName": "太宰府天満宮参道（福岡県太宰府市）",
-     "sceneTitle": "ふたりの福岡旅行",
-     "episode": "映画 · 中盤",
-     "highlight": "『君の膵臓をたべたい』の福岡旅行は、桜良がいちばん自由で、いちばん楽しそうな時間だ。梅ヶ枝餅をほおばり参道を歩く彼女は、まるで時間がいくらでもあるかのように笑う。けれど観客は残された時間が少ないことを知っているから、軽やかな場面ほど胸がうずく。別れに向かっているのに日常のように過ごす、そのコントラストが後半をいっそう切なくする。にぎやかな参道と焼きたての梅ヶ枝餅は、ファンがなぞりたくなる定番の一コマになった。",
-     "story": "桜良の秘密を知った「僕」は、彼女の「死ぬまでにやりたいこと」に付き合わされる。焼肉を食べ、買い物をし、小説の話をする。ある日「旅行に行こう」の一言で、何の準備もない「僕」は博多行きの新幹線に乗せられる。太宰府では参道で名物の梅ヶ枝餅を食べ歩き、天満宮にお参りする。夜は中洲の屋台、同じホテルの部屋、そして「真実か挑戦か」のゲーム。わがままに見える旅の中で、桜良は何度も本音を冗談の陰に隠し、人と関わらずに生きてきた「僕」は、初めて誰かの心を本気で知りたいと思う。",
-     "access": "西鉄太宰府線「太宰府」駅の改札を出ると目の前が参道入口。天満宮方向へ約150m、徒歩約2分。",
-     "bestTime": "平日の10時前後は店が開き始めて人も少なめ。2月〜3月初めの梅の季節がいちばん華やかで、週末や受験シーズンは大混雑。",
-     "tips": "参道は営業中の店が並ぶので、食べ歩きの際は人にぶつからないよう注意し、ごみは買った店に返すか持ち帰ろう。正確な撮影位置は公表されておらず、参道全体を目安に。天満宮では参拝マナーを守って。",
-     "accessPointName": "太宰府駅 改札口"
-    },
-    "en": {
-     "placeName": "Dazaifu Tenmangu approach (Dazaifu, Fukuoka)",
-     "sceneTitle": "A Trip to Fukuoka for Two",
-     "episode": "Film · middle",
-     "highlight": "In Let Me Eat Your Pancreas, this Fukuoka trip is Sakura at her most impulsive and her happiest. Munching umegae-mochi and wandering the approach, she laughs as if she had all the time in the world; the audience knows she doesn't, so every carefree moment carries a quiet ache. That contrast, a farewell lived like an ordinary day, is what makes the film's second half so devastating. The bustling approach and its hot umegae-mochi have become a must-recreate moment for fans.",
-     "story": "Once he knows Sakura's secret, the narrator finds himself roped into her list of things to do before she dies: eating grilled meat, shopping, arguing about novels. One day she announces \"Let's go on a trip\" and puts him, entirely unprepared, on a shinkansen to Hakata. In Dazaifu they eat the famous umegae-mochi along the approach and pray at the shrine; that night it's Nakasu food stalls, a shared hotel room and a game of truth or dare. On a trip that looks like pure whim, Sakura keeps hiding her real feelings behind jokes, and the boy who has always kept people at a distance finds himself, for the first time, truly wanting to know someone else's heart.",
-     "access": "Leave Dazaifu Station (Nishitetsu Dazaifu Line) by the gate and the approach begins right in front; walk about 150 m toward the shrine (2 min).",
-     "bestTime": "Weekday mornings around 10, as shops open, are quieter. Plum season from February to early March is the liveliest, and weekends and exam season bring big crowds.",
-     "tips": "The approach is lined with working shops: when eating on the go, mind other people and hand your rubbish back to the shop or take it with you. The exact camera position hasn't been published, so treat the whole approach as the spot. Follow shrine etiquette at Tenmangu.",
-     "accessPointName": "Dazaifu Sta. Gate"
-    },
-    "ko": {
-     "placeName": "다자이후텐만구 참배길 (후쿠오카 다자이후)",
-     "sceneTitle": "둘만의 후쿠오카 여행",
-     "episode": "영화 · 중반",
-     "highlight": "<너의 췌장을 먹고 싶어>에서 이 후쿠오카 여행은 사쿠라가 가장 제멋대로이면서 가장 행복했던 시간이다. 우메가에모치를 베어 물고 참배길을 걷는 그녀는 시간이 얼마든지 있는 것처럼 웃는다. 하지만 관객은 남은 시간이 많지 않다는 걸 알기에 가벼운 장면일수록 마음이 아려 온다. 이별을 향해 가면서도 일상처럼 보내는 그 대비가 영화 후반을 더 먹먹하게 만든다. 북적이는 참배길과 갓 구운 우메가에모치는 팬들이 꼭 따라 해 보는 장면이 되었다.",
-     "story": "사쿠라의 비밀을 알게 된 '나'는 그녀의 '죽기 전에 하고 싶은 일'에 끌려다닌다. 고기를 굽고, 쇼핑을 하고, 소설 이야기를 한다. 어느 날 '여행 가자'는 한마디에 아무 준비도 없던 '나'는 하카타행 신칸센에 올라탄다. 다자이후에서는 참배길에서 명물 우메가에모치를 먹으며 걷고 텐만구에 참배한다. 밤에는 나카스의 포장마차, 같은 호텔 방, 그리고 '진실 혹은 도전' 게임. 제멋대로처럼 보이는 여행 속에서 사쿠라는 몇 번이고 진심을 농담 뒤에 숨기고, 늘 사람을 멀리하던 '나'는 처음으로 누군가의 마음을 진심으로 알고 싶어진다.",
-     "access": "니시테쓰 다자이후선 '다자이후'역 개찰구를 나오면 바로 앞이 참배길 입구. 덴만구 방향으로 약 150m, 도보 약 2분.",
-     "bestTime": "평일 오전 10시 전후, 가게들이 막 문을 열 때가 비교적 한산하다. 2월~3월 초 매화 철이 가장 화사하고, 주말과 입시철에는 크게 붐빈다.",
-     "tips": "영업 중인 가게가 늘어선 참배길이니 걸으며 먹을 때 사람과 부딪히지 않게 주의하고, 쓰레기는 산 가게에 돌려주거나 가져가자. 정확한 촬영 위치는 공개되지 않아 참배길 전체를 기준으로 한다. 덴만구에서는 참배 예절을 지키자.",
-     "accessPointName": "다자이후역 개찰구"
     }
    }
   }

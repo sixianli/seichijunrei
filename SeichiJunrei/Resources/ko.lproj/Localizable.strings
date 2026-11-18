@@ -292,6 +292,9 @@
 "submit.status.hidden" = "숨김";
 "submit.status.received" = "접수됨";
 "submit.status.removed" = "삭제됨";
+"detail.landmarkSubtitle" = "공식 성지까지 가서 기념 사진을 찍어요";
+"kind.scene" = "명장면 · 촬영지";
+"kind.landmark" = "공식 성지";
 "photo.lookAround" = "Look Around";
 "photo.satellite" = "위성 사진";
 "format.sceneNumber" = "명장면 %@";

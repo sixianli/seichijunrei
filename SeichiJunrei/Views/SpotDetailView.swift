@@ -95,6 +95,7 @@ struct SpotDetailView: View {
             }
             Text(spot.sceneTitle).font(.title.bold()).padding(.top, 2)
             ScrollView(.horizontal, showsIndicators: false) { HStack(spacing: 6) {
+                KindTag(kind: spot.kind)
                 if let ep = spot.episode { Tag(text: ep, systemImage: "play.rectangle") }
                 Tag(text: spot.placeName, systemImage: "mappin.and.ellipse")
             } }
@@ -115,7 +116,7 @@ struct SpotDetailView: View {
         VStack(spacing: 10) {
             HStack(spacing: 10) {
                 ActionCard(title: arrived ? L("detail.enterScene") : L("detail.startGuide"),
-                           subtitle: L("detail.recreateSubtitle"),
+                           subtitle: spot.kind == .landmark ? L("detail.landmarkSubtitle") : L("detail.recreateSubtitle"),
                            systemImage: "camera.viewfinder", tint: spot.tintColor,
                            identifier: "enterScene", action: onEnterScene)
                 ActionCard(title: L("detail.photographer"),
@@ -488,6 +489,20 @@ private struct ShotMap: View {
             pts.append(CLLocationCoordinate2D(latitude: p.latitude, longitude: p.longitude))
         }
         return pts
+    }
+}
+
+/// “名场面 · 取景地” / “官方圣地”：分开标注，不让人把纪念铜像当成拍摄地
+struct KindTag: View {
+    let kind: SpotKind
+    var body: some View {
+        Label(kind.label, systemImage: kind.symbol)
+            .font(.caption.weight(.semibold))
+            .lineLimit(1)
+            .padding(.horizontal, 8).padding(.vertical, 4)
+            .foregroundStyle(Color.accentColor)
+            .background(Color.accentColor.opacity(0.12), in: Capsule())
+            .accessibilityIdentifier("kindTag")
     }
 }
 

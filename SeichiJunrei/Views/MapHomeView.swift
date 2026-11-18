@@ -628,7 +628,13 @@ struct SpotCard: View {
                 .clipShape(RoundedRectangle(cornerRadius: 10))
             VStack(alignment: .leading, spacing: 3) {
                 Text(item.spot.badgeWithNumber).font(.caption).foregroundStyle(item.spot.tintColor).lineLimit(1)
-                Text(item.spot.sceneTitle).font(.subheadline.bold()).lineLimit(1)
+                HStack(spacing: 4) {
+                    if item.spot.kind == .landmark {
+                        Image(systemName: SpotKind.landmark.symbol).font(.caption2).foregroundStyle(Color.accentColor)
+                            .accessibilityLabel(SpotKind.landmark.label)
+                    }
+                    Text(item.spot.sceneTitle).font(.subheadline.bold()).lineLimit(1)
+                }
                 if item.distance.isFinite {
                     Label(NearbySearch.formatDistance(item.distance), systemImage: "location.north.line")
                         .font(.caption)

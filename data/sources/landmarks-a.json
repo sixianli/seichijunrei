@@ -1,0 +1,885 @@
+{
+  "works": [
+    {
+      "id": "one-piece",
+      "title": "ONE PIECE",
+      "mediaType": "anime",
+      "year": 1999,
+      "creator": "尾田栄一郎 / 東映アニメーション",
+      "tint": "#D9443A",
+      "aliases": [
+        "ONE PIECE",
+        "One Piece",
+        "ワンピース",
+        "Wan Pīsu",
+        "海贼王",
+        "航海王",
+        "海賊王",
+        "원피스",
+        "尾田栄一郎",
+        "尾田荣一郎",
+        "Eiichiro Oda",
+        "오다 에이치로",
+        "モンキー・D・ルフィ",
+        "ルフィ",
+        "路飞",
+        "魯夫",
+        "Monkey D. Luffy",
+        "Luffy",
+        "루피",
+        "麦わらの一味",
+        "草帽海贼团",
+        "Straw Hat Pirates",
+        "밀짚모자 일당",
+        "熊本",
+        "Kumamoto"
+      ],
+      "officialURL": "https://one-piece.com/",
+      "text": {
+        "zh-Hans": {
+          "title": "海贼王",
+          "creator": "尾田荣一郎 / 东映动画",
+          "synopsis": "梦想成为海贼王的少年蒙奇·D·路飞，因误食恶魔果实而变成了全身伸缩自如的橡胶人。他扬帆出海，一路结识剑士、航海士、厨师等伙伴，组成草帽海贼团，向着传说中的大秘宝“ONE PIECE”和伟大航路的尽头前进。"
+        },
+        "zh-Hant": {
+          "title": "航海王"
+        },
+        "ja": {
+          "title": "",
+          "synopsis": "海賊王を夢見る少年モンキー・D・ルフィは、悪魔の実を食べて全身ゴム人間になった。剣士や航海士、コックら仲間と「麦わらの一味」を結成し、伝説の秘宝「ひとつなぎの大秘宝（ワンピース）」を求めて偉大なる航路（グランドライン）へ漕ぎ出していく。"
+        },
+        "en": {
+          "title": "One Piece",
+          "creator": "Eiichiro Oda / Toei Animation",
+          "synopsis": "Monkey D. Luffy dreams of becoming King of the Pirates. Having eaten a Devil Fruit that turned his body to rubber, he sets sail, gathers a swordsman, a navigator, a cook and more into the Straw Hat Pirates, and heads down the Grand Line in search of the legendary treasure known as the One Piece."
+        },
+        "ko": {
+          "title": "원피스",
+          "creator": "오다 에이치로 / 도에이 애니메이션",
+          "synopsis": "해적왕을 꿈꾸는 소년 몽키 D. 루피는 악마의 열매를 먹고 온몸이 고무가 되었다. 검사, 항해사, 요리사 등 동료들과 밀짚모자 일당을 결성한 그는 전설의 보물 '원피스'를 찾아 위대한 항로로 나아간다."
+        }
+      }
+    },
+    {
+      "id": "naruto",
+      "title": "NARUTO -ナルト-",
+      "mediaType": "anime",
+      "year": 2002,
+      "creator": "岸本斉史 / studioぴえろ",
+      "tint": "#F08A24",
+      "aliases": [
+        "NARUTO",
+        "Naruto",
+        "ナルト",
+        "火影忍者",
+        "나루토",
+        "BORUTO",
+        "ボルト",
+        "博人传",
+        "博人傳",
+        "보루토",
+        "うずまきナルト",
+        "漩涡鸣人",
+        "漩渦鳴人",
+        "Naruto Uzumaki",
+        "우즈마키 나루토",
+        "岸本斉史",
+        "岸本齐史",
+        "Masashi Kishimoto",
+        "기시모토 마사시",
+        "忍里",
+        "Shinobi-Zato",
+        "ニジゲンノモリ",
+        "Nijigen no Mori",
+        "淡路島",
+        "淡路岛",
+        "Awaji"
+      ],
+      "officialURL": "https://naruto-official.com/",
+      "text": {
+        "zh-Hans": {
+          "title": "火影忍者",
+          "creator": "岸本齐史 / Studio Pierrot",
+          "synopsis": "木叶忍者村的少年漩涡鸣人体内封印着九尾妖狐，从小被村里人疏远。他吵闹又倔强，一心想成为村子的首领“火影”，让所有人承认自己。在和佐助、小樱组队执行任务的日子里，他一步步成长为真正的忍者。"
+        },
+        "zh-Hant": {
+          "title": "火影忍者"
+        },
+        "ja": {
+          "title": "",
+          "synopsis": "木ノ葉隠れの里の落ちこぼれ忍者・うずまきナルトは、体に九尾の妖狐を封印され、里の人々から疎まれて育った。いたずら好きで負けず嫌いな彼の夢は、里の長「火影」になってみんなに認めさせること。サスケ、サクラとの班で任務をこなしながら、本物の忍へと成長していく。"
+        },
+        "en": {
+          "title": "Naruto",
+          "creator": "Masashi Kishimoto / Studio Pierrot",
+          "synopsis": "Naruto Uzumaki, a loud, stubborn misfit in the Hidden Leaf Village, carries the Nine-Tailed Fox sealed inside him and grows up shunned by the villagers. His dream is to become Hokage, the village leader, and make everyone acknowledge him. Taking on missions with teammates Sasuke and Sakura, he slowly becomes a true ninja."
+        },
+        "ko": {
+          "title": "나루토",
+          "creator": "기시모토 마사시 / 스튜디오 피에로",
+          "synopsis": "나뭇잎 마을의 말썽꾸러기 소년 우즈마키 나루토는 몸속에 구미호가 봉인되어 있어 마을 사람들에게 따돌림을 받으며 자랐다. 그의 꿈은 마을의 우두머리 '호카게'가 되어 모두에게 인정받는 것. 사스케, 사쿠라와 한 팀이 되어 임무를 수행하며 그는 진정한 닌자로 성장해 간다."
+        }
+      }
+    },
+    {
+      "id": "doraemon",
+      "title": "ドラえもん",
+      "mediaType": "anime",
+      "year": 1979,
+      "creator": "藤子・F・不二雄 / シンエイ動画",
+      "tint": "#1A9BD7",
+      "aliases": [
+        "Doraemon",
+        "ドラえもん",
+        "哆啦A梦",
+        "哆啦A夢",
+        "机器猫",
+        "小叮当",
+        "小叮噹",
+        "도라에몽",
+        "藤子・F・不二雄",
+        "藤子·F·不二雄",
+        "Fujiko F. Fujio",
+        "후지코 F. 후지오",
+        "のび太",
+        "大雄",
+        "野比大雄",
+        "Nobita",
+        "노진구",
+        "藤子・F・不二雄ミュージアム",
+        "藤子·F·不二雄博物馆",
+        "Fujiko F. Fujio Museum",
+        "川崎",
+        "Kawasaki"
+      ],
+      "officialURL": "https://dora-world.com/",
+      "text": {
+        "zh-Hans": {
+          "title": "哆啦A梦",
+          "creator": "藤子·F·不二雄 / 新锐动画",
+          "synopsis": "来自22世纪的猫型机器人哆啦A梦，为了改变野比大雄一事无成的未来，穿越时光住进了他家。从四次元口袋里掏出的竹蜻蜓、任意门等神奇道具，让大雄和伙伴们的日常充满奇思妙想，也时常闹出意想不到的乱子。"
+        },
+        "zh-Hant": {
+          "title": "哆啦A夢"
+        },
+        "ja": {
+          "title": "",
+          "synopsis": "22世紀からやってきたネコ型ロボット・ドラえもんは、ダメな少年のび太の未来を変えるため、彼の家に住みつく。四次元ポケットから出てくるタケコプターやどこでもドアなどのひみつ道具が、のび太と仲間たちの毎日に、すこしふしぎな騒動と冒険を巻き起こす。"
+        },
+        "en": {
+          "title": "Doraemon",
+          "creator": "Fujiko F. Fujio / Shin-Ei Animation",
+          "synopsis": "Doraemon, a cat-shaped robot from the 22nd century, travels back in time to help hapless schoolboy Nobita change his future. The gadgets he pulls from his four-dimensional pocket, from the Take-copter to the Anywhere Door, turn Nobita's everyday life with his friends into a stream of small wonders and comic mishaps."
+        },
+        "ko": {
+          "title": "도라에몽",
+          "creator": "후지코 F. 후지오 / 신에이 동화",
+          "synopsis": "22세기에서 온 고양이형 로봇 도라에몽은 무엇 하나 제대로 하는 게 없는 노진구의 미래를 바꾸기 위해 그의 집에 함께 살게 된다. 4차원 주머니에서 꺼내는 대나무 헬리콥터, 어디로든 문 같은 비밀 도구가 진구와 친구들의 일상에 신기한 소동과 모험을 불러온다."
+        }
+      }
+    },
+    {
+      "id": "pokemon",
+      "title": "ポケットモンスター",
+      "mediaType": "anime",
+      "year": 1997,
+      "creator": "田尻智（原案） / OLM",
+      "tint": "#E8B800",
+      "aliases": [
+        "Pokémon",
+        "Pokemon",
+        "ポケモン",
+        "ポケットモンスター",
+        "Poketto Monsutā",
+        "宝可梦",
+        "寶可夢",
+        "精灵宝可梦",
+        "神奇宝贝",
+        "神奇寶貝",
+        "口袋妖怪",
+        "포켓몬스터",
+        "포켓몬",
+        "ピカチュウ",
+        "皮卡丘",
+        "Pikachu",
+        "피카츄",
+        "田尻智",
+        "Satoshi Tajiri",
+        "다지리 사토시",
+        "ポケパーク カントー",
+        "PokéPark KANTO",
+        "PokePark Kanto",
+        "宝可梦公园",
+        "よみうりランド",
+        "读卖乐园",
+        "Yomiuriland"
+      ],
+      "officialURL": "https://www.pokemon.co.jp/",
+      "text": {
+        "zh-Hans": {
+          "title": "宝可梦",
+          "creator": "田尻智（原案） / OLM",
+          "synopsis": "在这个世界里，人们与被称作宝可梦的神奇生物一同生活。来自真新镇的少年小智带着搭档皮卡丘踏上旅途，一路收服宝可梦、挑战道馆、结交伙伴，朝着成为宝可梦大师的梦想前进。"
+        },
+        "zh-Hant": {
+          "title": "寶可夢"
+        },
+        "ja": {
+          "title": "",
+          "synopsis": "人とポケモンが共に暮らす世界。マサラタウンの少年サトシは相棒のピカチュウと旅に出て、ポケモンをゲットし、ジムに挑み、仲間と出会いながら「ポケモンマスター」を目指していく。"
+        },
+        "en": {
+          "title": "Pokémon",
+          "creator": "Satoshi Tajiri (original concept) / OLM",
+          "synopsis": "In a world where people live alongside creatures called Pokémon, young Ash Ketchum of Pallet Town sets out with his partner Pikachu. Catching Pokémon, challenging Gyms and making friends along the way, he chases his dream of becoming a Pokémon Master."
+        },
+        "ko": {
+          "title": "포켓몬스터",
+          "creator": "다지리 사토시(원안) / OLM",
+          "synopsis": "사람과 포켓몬이 함께 살아가는 세계. 태초마을의 소년 지우는 파트너 피카츄와 함께 여행을 떠나 포켓몬을 잡고, 체육관에 도전하고, 친구들을 만나며 포켓몬 마스터를 향해 나아간다."
+        }
+      }
+    },
+    {
+      "id": "kikis-delivery-service",
+      "title": "魔女の宅急便",
+      "mediaType": "animeFilm",
+      "year": 1989,
+      "creator": "宮崎駿 / スタジオジブリ",
+      "tint": "#C8463C",
+      "aliases": [
+        "Kiki's Delivery Service",
+        "Majo no Takkyūbin",
+        "魔女の宅急便",
+        "魔女宅急便",
+        "마녀 배달부 키키",
+        "キキ",
+        "琪琪",
+        "Kiki",
+        "키키",
+        "ジジ",
+        "吉吉",
+        "Jiji",
+        "グーチョキパン屋",
+        "Guchokipanya",
+        "宫崎骏",
+        "宮崎駿",
+        "Hayao Miyazaki",
+        "미야자키 하야오",
+        "吉卜力",
+        "ジブリ",
+        "Ghibli",
+        "ジブリパーク",
+        "吉卜力公园",
+        "Ghibli Park"
+      ],
+      "officialURL": "https://www.ghibli.jp/works/majo/",
+      "text": {
+        "zh-Hans": {
+          "title": "魔女宅急便",
+          "creator": "宫崎骏 / 吉卜力工作室",
+          "synopsis": "按照魔女的传统，13岁的琪琪在满月之夜带着黑猫吉吉离开家，独自到陌生的海边城市生活一年。她借住在面包店里，用唯一会的飞行魔法开起了快递服务，在挫折与孤独中慢慢找到属于自己的位置。"
+        },
+        "zh-Hant": {
+          "title": "魔女宅急便"
+        },
+        "ja": {
+          "title": "",
+          "synopsis": "魔女のしきたりに従い、13歳のキキは満月の夜、黒猫ジジを連れて家を出て、見知らぬ海辺の町で一人暮らしを始める。パン屋に下宿し、空を飛ぶ魔法を生かして「お届け物屋さん」を開くが、慣れない町で落ち込んだり迷ったりしながら、自分の居場所を見つけていく。"
+        },
+        "en": {
+          "title": "Kiki's Delivery Service",
+          "creator": "Hayao Miyazaki / Studio Ghibli",
+          "synopsis": "Following witch tradition, thirteen-year-old Kiki leaves home on a full-moon night with her black cat Jiji to spend a year alone in an unfamiliar seaside town. Lodging above a bakery, she starts a delivery service using the one magic she has, flying, and slowly finds her place through loneliness and self-doubt."
+        },
+        "ko": {
+          "title": "마녀 배달부 키키",
+          "creator": "미야자키 하야오 / 스튜디오 지브리",
+          "synopsis": "마녀의 관습에 따라 13살 키키는 보름달이 뜬 밤 검은 고양이 지지와 함께 집을 떠나, 낯선 바닷가 마을에서 1년 동안 홀로 살게 된다. 빵집에 하숙하며 유일하게 할 줄 아는 비행 마법으로 배달 일을 시작한 키키는 외로움과 좌절 속에서 조금씩 자신의 자리를 찾아간다."
+        }
+      }
+    },
+    {
+      "id": "howls-moving-castle",
+      "title": "ハウルの動く城",
+      "mediaType": "animeFilm",
+      "year": 2004,
+      "creator": "宮崎駿 / スタジオジブリ",
+      "tint": "#5B6FA8",
+      "aliases": [
+        "Howl's Moving Castle",
+        "Hauru no Ugoku Shiro",
+        "ハウルの動く城",
+        "哈尔的移动城堡",
+        "霍爾的移動城堡",
+        "하울의 움직이는 성",
+        "ハウル",
+        "哈尔",
+        "霍爾",
+        "Howl",
+        "하울",
+        "ソフィー",
+        "苏菲",
+        "Sophie",
+        "カルシファー",
+        "卡西法",
+        "Calcifer",
+        "宫崎骏",
+        "宮崎駿",
+        "Hayao Miyazaki",
+        "미야자키 하야오",
+        "吉卜力",
+        "ジブリ",
+        "Ghibli",
+        "ジブリパーク",
+        "吉卜力公园",
+        "Ghibli Park"
+      ],
+      "officialURL": "https://www.ghibli.jp/works/howl/",
+      "text": {
+        "zh-Hans": {
+          "title": "哈尔的移动城堡",
+          "creator": "宫崎骏 / 吉卜力工作室",
+          "synopsis": "在帽子店工作、毫不起眼的少女苏菲，被荒野女巫的诅咒变成了90岁的老婆婆。她离开小镇，闯进了传说会吃掉美女心脏的魔法师哈尔那座会走路的城堡，当起了清洁婆婆，与火恶魔卡西法、小徒弟马鲁克一起过起了奇妙的日子。"
+        },
+        "zh-Hant": {
+          "title": "霍爾的移動城堡"
+        },
+        "ja": {
+          "title": "",
+          "synopsis": "帽子屋で働く地味な少女ソフィーは、荒地の魔女の呪いで90歳の老婆の姿にされてしまう。町を出た彼女は、美女の心臓を食べると噂される魔法使いハウルの「動く城」に転がり込み、掃除婦として、火の悪魔カルシファーや弟子のマルクルと奇妙な共同生活を始める。"
+        },
+        "en": {
+          "title": "Howl's Moving Castle",
+          "creator": "Hayao Miyazaki / Studio Ghibli",
+          "synopsis": "Sophie, a plain young hat-maker, is cursed by the Witch of the Waste into the body of a ninety-year-old woman. Leaving town, she talks her way into the walking castle of the wizard Howl, rumoured to eat the hearts of pretty girls, and sets herself up as its cleaning lady alongside the fire demon Calcifer and Howl's young apprentice Markl."
+        },
+        "ko": {
+          "title": "하울의 움직이는 성",
+          "creator": "미야자키 하야오 / 스튜디오 지브리",
+          "synopsis": "모자 가게에서 일하는 평범한 소녀 소피는 황야의 마녀의 저주로 90살 할머니가 되어 버린다. 마을을 떠난 소피는 미녀의 심장을 먹는다는 소문이 도는 마법사 하울의 움직이는 성에 들어가, 불의 악마 캘시퍼, 어린 제자 마르클과 함께 청소부로서 기묘한 생활을 시작한다."
+        }
+      }
+    },
+    {
+      "id": "castle-in-the-sky",
+      "title": "天空の城ラピュタ",
+      "mediaType": "animeFilm",
+      "year": 1986,
+      "creator": "宮崎駿 / スタジオジブリ",
+      "tint": "#4A90B8",
+      "aliases": [
+        "Castle in the Sky",
+        "Laputa: Castle in the Sky",
+        "Tenkū no Shiro Rapyuta",
+        "天空の城ラピュタ",
+        "天空之城",
+        "天空之城拉普达",
+        "천공의 성 라퓨타",
+        "ラピュタ",
+        "拉普达",
+        "拉普達",
+        "Laputa",
+        "라퓨타",
+        "ロボット兵",
+        "机器人兵",
+        "機器人兵",
+        "Robot Soldier",
+        "로봇 병사",
+        "シータ",
+        "希达",
+        "Sheeta",
+        "パズー",
+        "巴鲁",
+        "Pazu",
+        "宫崎骏",
+        "宮崎駿",
+        "Hayao Miyazaki",
+        "미야자키 하야오",
+        "吉卜力",
+        "ジブリ",
+        "Ghibli",
+        "ジブリ美術館",
+        "吉卜力美术馆",
+        "Ghibli Museum",
+        "三鷹",
+        "Mitaka"
+      ],
+      "officialURL": "https://www.ghibli.jp/works/laputa/",
+      "text": {
+        "zh-Hans": {
+          "title": "天空之城",
+          "creator": "宫崎骏 / 吉卜力工作室",
+          "synopsis": "矿山小镇的少年巴鲁，某天接住了从天而降的少女希达。她胸前的飞行石，正是通往传说中漂浮在空中的岛屿“拉普达”的钥匙。为了守护被军队和空中海盗同时追捕的希达，巴鲁和她一起踏上了寻找天空之城的冒险。"
+        },
+        "zh-Hant": {
+          "title": "天空之城"
+        },
+        "ja": {
+          "title": "",
+          "synopsis": "鉱山の町で働く少年パズーは、ある日、空から降りてきた少女シータを受け止める。彼女が持つ飛行石は、空に浮かぶ伝説の島ラピュタへの鍵だった。軍と空中海賊の両方に追われるシータを守るため、パズーは彼女とともにラピュタを目指す冒険に飛び込んでいく。"
+        },
+        "en": {
+          "title": "Castle in the Sky",
+          "creator": "Hayao Miyazaki / Studio Ghibli",
+          "synopsis": "Pazu, a boy working in a mining town, catches a girl who floats down from the sky. Sheeta's pendant holds a levitation stone, the key to Laputa, a legendary island drifting in the clouds. Hunted by both the army and a gang of sky pirates, the two set off together in search of the castle in the sky."
+        },
+        "ko": {
+          "title": "천공의 성 라퓨타",
+          "creator": "미야자키 하야오 / 스튜디오 지브리",
+          "synopsis": "광산 마을에서 일하는 소년 파즈는 어느 날 하늘에서 내려온 소녀 시타를 받아 낸다. 시타가 지닌 비행석은 하늘에 떠 있는 전설의 섬 라퓨타로 가는 열쇠였다. 군대와 공중 해적 모두에게 쫓기는 시타를 지키기 위해 파즈는 그녀와 함께 라퓨타를 찾아 모험을 떠난다."
+        }
+      }
+    }
+  ],
+  "spots": [
+    {
+      "id": "onepiece-luffy-statue-kumamoto",
+      "workID": "one-piece",
+      "kind": "landmark",
+      "latitude": 32.78915,
+      "longitude": 130.74127,
+      "sceneHeading": 0,
+      "scenePitch": 5,
+      "arrivalRadius": 40,
+      "spoiler": false,
+      "sourceURL": "https://www.pref.kumamoto.jp/soshiki/208/475.html",
+      "verified": false,
+      "bestMonths": [4, 5, 10, 11, 12],
+      "accessPoint": {
+        "latitude": 32.787867,
+        "longitude": 130.741421
+      },
+      "text": {
+        "zh-Hans": {
+          "placeName": "熊本县厅林荫步道（熊本市·水前寺）",
+          "sceneTitle": "路飞铜像",
+          "episode": "官方圣地 · 2018 年设立",
+          "highlight": "这是世界上第一座常设的路飞像，也是熊本对同乡尾田荣一郎的一声“谢谢”。2016 年熊本地震后，尾田老师马上送来“一定会来帮你们”的话，《海贼王》从此成了这片土地重新站起来的力量。站在县厅前的银杏道上和船长合影，感受到的不只是漫画的热血，还有一座城市对伙伴情谊最认真的回应。",
+          "story": "2018 年 4 月，熊本县向出身熊本的漫画家尾田荣一郎颁发“县民荣誉奖”，表彰他享誉世界的成就和对地震复兴的支援。为了让这份荣誉长久流传，县里在县厅前的林荫步道上立起主角蒙奇·D·路飞的铜像，由尾田本人和集英社参与监修，同年 11 月 30 日揭幕，揭幕式上众人一齐把草帽抛向天空。按复兴企划的设定，登陆“火之国”熊本的路飞派草帽海贼团的伙伴们分头帮助灾区，自己留在这里为大家加油；此后县内九个市町村陆续立起了乔巴、娜美、索隆等伙伴的铜像。",
+          "access": "从熊本樱町巴士总站 25、26 号站台乘巴士约 21 分钟，在“县厅前”下车步行约 2 分钟，铜像就在县厅前的银杏林荫道上。",
+          "accessPointName": "县厅前巴士站",
+          "bestTime": "11 月下旬前后，步道两侧 54 棵银杏转黄，金色林荫道里的路飞最上镜；早上人少，方便合影。",
+          "tips": "免费参观。周末常有游客排队合影，请依序拍照、不要攀爬铜像。县内 9 个市町村还立着草帽海贼团伙伴的铜像，可自驾或乘公交串联巡礼。"
+        },
+        "ja": {
+          "placeName": "熊本県庁プロムナード（熊本市・水前寺）",
+          "sceneTitle": "ルフィ像",
+          "episode": "公式聖地・2018年設置",
+          "highlight": "世界で初めての常設ルフィ像であり、熊本から同郷の尾田栄一郎さんへ贈る「ありがとう」の形だ。2016年の熊本地震の直後、尾田さんから届いた「必ず助けに行く」というメッセージ以来、『ONE PIECE』はこの土地が立ち上がる原動力になってきた。県庁前のイチョウ並木で船長と並んで写真を撮れば、漫画の熱さだけでなく、仲間の思いにまっすぐ応えた街の気持ちが伝わってくる。",
+          "story": "2018年4月、熊本県は県出身の漫画家・尾田栄一郎さんに、世界に誇る功績と復興支援への尽力をたたえて県民栄誉賞を贈った。その栄誉を末永く称えるため、県庁プロムナードに主人公モンキー・D・ルフィの像を設置。尾田さんと集英社が監修に協力し、同年11月30日の除幕式では参加者が一斉に麦わら帽子を空へ放った。復興プロジェクトの設定では、「ヒノ国」熊本に上陸したルフィが仲間たちに被災地の手助けを指示し、自らはここでエールを送る。その後、県内9市町村にチョッパーやナミ、ゾロら仲間の像が次々と建てられた。",
+          "access": "熊本桜町バスターミナル25・26番のりばからバスで約21分、「県庁前」下車、徒歩約2分。像は県庁前のイチョウ並木の中に立つ。",
+          "accessPointName": "県庁前バス停",
+          "bestTime": "11月下旬ごろ、54本のイチョウが黄金色に色づくと、並木とルフィの組み合わせが最高に映える。人の少ない朝が撮りやすい。",
+          "tips": "見学無料。週末は記念撮影の列ができるので順番を守り、像には登らないこと。県内9市町村には麦わらの一味の仲間の像もあり、車やバスで巡ることができる。"
+        },
+        "en": {
+          "placeName": "Kumamoto Prefectural Office Promenade (Suizenji, Kumamoto)",
+          "sceneTitle": "Luffy Statue",
+          "episode": "Official landmark · since 2018",
+          "highlight": "This is the world's first permanent statue of Luffy, and Kumamoto's way of saying thank you to its native son Eiichiro Oda. Right after the 2016 earthquakes Oda sent the message \"I will definitely come to help\", and One Piece has been part of the region's recovery ever since. Posing with the captain under the ginkgo trees, you feel not just the manga's spirit but a city answering a friend's loyalty in kind.",
+          "story": "In April 2018 Kumamoto Prefecture gave Eiichiro Oda, a manga artist born in the prefecture, its Prefectural Citizen's Honor Award for his world-famous work and his support after the earthquakes. To mark the honour for good, a statue of the hero Monkey D. Luffy was placed on the promenade in front of the prefectural office, with Oda and his publisher Shueisha supervising, and unveiled on 30 November 2018 as guests tossed straw hats into the air. In the recovery project's storyline, Luffy lands in the \"Land of Hi\" and sends his crew out to help the stricken towns while he cheers them on from here; statues of nine crewmates, from Chopper and Nami to Zoro, have since appeared in nine towns across the prefecture.",
+          "access": "From Kumamoto Sakuramachi Bus Terminal (stops 25 or 26) take a bus about 21 min to Kenchō-mae, then walk 2 min; the statue stands on the ginkgo-lined promenade.",
+          "accessPointName": "Kenchō-mae bus stop",
+          "bestTime": "Around late November, when the promenade's 54 ginkgo trees turn gold, Luffy looks his best. Mornings are quieter for photos.",
+          "tips": "Free to visit. Weekends bring queues for photos, so wait your turn and don't climb the statue. Statues of the other Straw Hats stand in nine towns around the prefecture if you want to tour them by car or bus."
+        },
+        "ko": {
+          "placeName": "구마모토현청 프롬나드 (구마모토시·스이젠지)",
+          "sceneTitle": "루피 동상",
+          "episode": "공식 성지 · 2018년 설치",
+          "highlight": "세계 최초의 상설 루피 동상이자, 구마모토가 고향 출신 오다 에이치로에게 보내는 '고맙다'는 인사다. 2016년 구마모토 지진 직후 오다가 보낸 '반드시 도우러 가겠다'는 메시지 이후, 〈원피스〉는 이 땅이 다시 일어서는 원동력이 되었다. 현청 앞 은행나무 길에서 선장과 나란히 사진을 찍으면 만화의 뜨거움뿐 아니라 동료의 마음에 진심으로 답한 도시의 마음이 전해진다.",
+          "story": "2018년 4월, 구마모토현은 현 출신 만화가 오다 에이치로에게 세계적인 업적과 지진 복구 지원의 공로를 기려 현민영예상을 수여했다. 그 영예를 오래도록 기리기 위해 현청 프롬나드에 주인공 몽키 D. 루피의 동상을 세웠고, 오다와 슈에이샤가 감수에 참여했다. 같은 해 11월 30일 제막식에서는 참석자들이 일제히 밀짚모자를 하늘로 던졌다. 부흥 프로젝트의 설정에서 '히노쿠니' 구마모토에 상륙한 루피는 동료들에게 피해 지역을 도우라고 지시하고 자신은 이곳에서 응원을 보낸다. 이후 현내 9개 시정촌에 쵸파, 나미, 조로 등 동료들의 동상이 차례로 세워졌다.",
+          "access": "구마모토 사쿠라마치 버스터미널 25·26번 승강장에서 버스로 약 21분, '현청 앞' 하차 후 도보 약 2분. 동상은 현청 앞 은행나무 길에 있다.",
+          "accessPointName": "현청 앞 버스 정류장",
+          "bestTime": "11월 하순 무렵 54그루의 은행나무가 황금빛으로 물들 때 루피와 가장 잘 어울린다. 사람이 적은 아침이 촬영하기 좋다.",
+          "tips": "관람 무료. 주말에는 기념 촬영 줄이 생기니 순서를 지키고 동상에 올라가지 말 것. 현내 9개 시정촌에 밀짚모자 일당 동료들의 동상도 있어 차나 버스로 순례할 수 있다."
+        }
+      }
+    },
+    {
+      "id": "naruto-shinobi-zato-awaji",
+      "workID": "naruto",
+      "kind": "landmark",
+      "latitude": 34.57565,
+      "longitude": 135.0043,
+      "sceneHeading": 45,
+      "scenePitch": 10,
+      "arrivalRadius": 60,
+      "spoiler": false,
+      "sourceURL": "https://nijigennomori.com/naruto_shinobizato/",
+      "verified": false,
+      "bestMonths": [3, 4, 5, 10, 11],
+      "accessPoint": {
+        "latitude": 34.575977,
+        "longitude": 135.000547
+      },
+      "text": {
+        "zh-Hans": {
+          "placeName": "二次元之森 NARUTO&BORUTO 忍里（兵库·淡路岛）",
+          "sceneTitle": "忍里·火影岩",
+          "episode": "官方圣地 · 2019 年开园",
+          "highlight": "在这里，你不是来参观木叶村的，而是来当一回木叶忍者。高 11 米的火影岩一抬头就在眼前，结印、闯关、在山林里收集封印，鸣人“成为火影、让大家认可自己”的梦想变成了可以亲身走一遍的修行。对看着《火影忍者》长大的人来说，在火影岩下吃一碗一乐拉面，几乎就是儿时愿望的兑现。",
+          "story": "NARUTO&BORUTO 忍里是兵库县立淡路岛公园内动漫主题园区“二次元之森”的官方授权区域，2019 年 4 月 20 日开园。园区依山林地形重现木叶村，标志是高约 11 米的火影岩。主项目“天之卷”位于火影岩背后，是一座三层立体迷宫，要一边收集印记、一边结印施术登顶；“地之卷”则要找齐散落园区的 12 个封印、击败守护者，再在传说中的洞窟里把巨大的敌人重新封印。园内还有供应原创拉面的“一乐”和只在这里买得到的木叶商店，入夜后火影岩上会上演投影秀。",
+          "access": "从神户三宫或高速舞子乘直达巴士，在“县立淡路岛公园（二次元之森 F 停车场）”站下车，循园内指示牌步行约 10 分钟。",
+          "accessPointName": "县立淡路岛公园巴士站",
+          "bestTime": "春秋最舒服：园区全是山路坡道，夏天很热。傍晚入园还能接着看火影岩的夜间投影。",
+          "tips": "票价随日期浮动，成人 3,300 日元起，可从官网经 asoview 购买。坡道多，轮椅和婴儿车不能进入，请穿好走的鞋，雨天路面湿滑。最晚入场时间随季节变化。"
+        },
+        "ja": {
+          "placeName": "ニジゲンノモリ NARUTO&BORUTO 忍里（兵庫・淡路島）",
+          "sceneTitle": "忍里・火影岩",
+          "episode": "公式聖地・2019年オープン",
+          "highlight": "ここは木ノ葉の里を「見る」場所ではなく、木ノ葉の忍に「なる」場所だ。見上げれば高さ11mの火影岩。印を結び、ミッションに挑み、森の中で封印を集める――「火影になってみんなに認めさせる」というナルトの夢が、自分の足でたどれる修行になっている。『NARUTO』で育った世代にとって、火影岩の下で一楽のラーメンをすするのは、子どもの頃の願いがかなう瞬間に近い。",
+          "story": "NARUTO&BORUTO 忍里は、兵庫県立淡路島公園にあるアニメパーク「ニジゲンノモリ」の公式エリアで、2019年4月20日に開業した。山あいの地形を生かして木ノ葉隠れの里を再現し、シンボルは高さ約11mの火影岩。メインの「天の巻」は火影岩の裏にある3階建ての立体迷路で、印を集め、術を発動しながら頂上を目指す。「地の巻」ではエリアに散らばる12の封印を集めて守護者を倒し、伝説の洞窟で巨大な敵を再び封印する。オリジナルラーメンが味わえる「一楽」や限定グッズの「木ノ葉商店」もあり、夜には火影岩にプロジェクションマッピングが映し出される。",
+          "access": "神戸三宮・高速舞子から直行バスで「県立淡路島公園（ニジゲンノモリF駐車場）」下車、園内の案内に従って徒歩約10分。",
+          "accessPointName": "県立淡路島公園バス停",
+          "bestTime": "坂道の多い山のエリアなので春と秋が快適。夕方に入れば火影岩のナイトプロジェクションまで楽しめる。",
+          "tips": "料金は日付で変動し大人3,300円〜、公式サイト経由でアソビューから購入できる。急坂が多く車いす・ベビーカーは入場不可、歩きやすい靴で。雨の日は足元が滑りやすい。最終入場は季節で変わる。"
+        },
+        "en": {
+          "placeName": "NARUTO & BORUTO Shinobi-Zato, Nijigen no Mori (Awaji Island, Hyogo)",
+          "sceneTitle": "Shinobi-Zato & Hokage Rock",
+          "episode": "Official landmark · since 2019",
+          "highlight": "You don't come here to look at the Hidden Leaf Village; you come to be one of its ninja. The 11 m Hokage Rock towers over you, and weaving hand signs, clearing missions and hunting seals through the woods turn Naruto's dream of becoming Hokage and earning everyone's respect into training you can walk yourself. For a generation that grew up on Naruto, slurping Ichiraku ramen beneath the Hokage Rock is close to a childhood wish come true.",
+          "story": "NARUTO & BORUTO Shinobi-Zato is the officially licensed Naruto area of Nijigen no Mori, an anime park inside Hyogo Prefectural Awaji Island Park, and opened on 20 April 2019. It recreates the Hidden Leaf Village on wooded hillside, crowned by a Hokage Rock about 11 m tall. The main attraction, Ten no Maki, is a three-storey maze behind the rock where you collect seals and perform jutsu on your way to the top; in Chi no Maki you gather 12 seals scattered across the area, defeat their guardians and reseal a giant enemy in a legendary cave. There's an Ichiraku serving original ramen and a Konoha shop with exclusive goods, and after dark the Hokage Rock becomes a projection-mapping screen.",
+          "access": "Take the direct bus from Kobe Sannomiya or Kōsoku Maiko to Kenritsu Awajishima Kōen (Nijigen no Mori Parking F), then follow the park signs about 10 min on foot.",
+          "accessPointName": "Kenritsu Awajishima Kōen bus stop",
+          "bestTime": "Spring and autumn are most comfortable: it's all hillside paths, and summers are hot. Enter late in the day to stay for the Hokage Rock night show.",
+          "tips": "Prices vary by date, from ¥3,300 for adults, sold via asoview from the official site. Steep slopes mean no wheelchairs or strollers; wear good walking shoes and take care when it's wet. Last entry changes with the season."
+        },
+        "ko": {
+          "placeName": "니지겐노모리 NARUTO&BORUTO 시노비자토 (효고·아와지섬)",
+          "sceneTitle": "시노비자토·호카게 바위",
+          "episode": "공식 성지 · 2019년 개장",
+          "highlight": "이곳은 나뭇잎 마을을 '구경'하는 곳이 아니라 나뭇잎 마을의 닌자가 '되어 보는' 곳이다. 올려다보면 높이 11m의 호카게 바위. 인을 맺고, 미션에 도전하고, 숲속에서 봉인을 모으다 보면 '호카게가 되어 모두에게 인정받겠다'는 나루토의 꿈이 직접 걸어 보는 수행이 된다. 〈나루토〉와 함께 자란 세대에게 호카게 바위 아래에서 이치라쿠 라멘을 먹는 일은 어린 시절의 소원이 이루어지는 순간에 가깝다.",
+          "story": "NARUTO&BORUTO 시노비자토는 효고현립 아와지시마 공원 안의 애니메이션 파크 '니지겐노모리'에 있는 공식 구역으로, 2019년 4월 20일 문을 열었다. 산자락 지형을 살려 나뭇잎 마을을 재현했고, 상징은 높이 약 11m의 호카게 바위다. 메인 어트랙션 '하늘의 권'은 호카게 바위 뒤편의 3층 입체 미로로, 인장을 모으고 술법을 쓰며 꼭대기를 향한다. '땅의 권'에서는 구역 곳곳에 흩어진 12개의 봉인을 모아 수호자를 쓰러뜨리고, 전설의 동굴에서 거대한 적을 다시 봉인한다. 오리지널 라멘을 맛볼 수 있는 '이치라쿠'와 한정 굿즈를 파는 '나뭇잎 상점'도 있고, 밤에는 호카게 바위에 프로젝션 매핑이 펼쳐진다.",
+          "access": "고베 산노미야나 고속 마이코에서 직행버스를 타고 '현립 아와지시마 공원(니지겐노모리 F주차장)' 하차, 안내 표지를 따라 도보 약 10분.",
+          "accessPointName": "현립 아와지시마 공원 버스 정류장",
+          "bestTime": "비탈길이 많은 산속 구역이라 봄과 가을이 쾌적하다. 늦은 오후에 입장하면 호카게 바위 야간 프로젝션까지 볼 수 있다.",
+          "tips": "요금은 날짜별로 달라지며 성인 3,300엔부터, 공식 사이트를 통해 asoview에서 구매할 수 있다. 급경사가 많아 휠체어·유모차는 입장 불가, 걷기 편한 신발 필수. 비 오는 날은 미끄럽다. 최종 입장 시간은 계절마다 다르다."
+        }
+      }
+    },
+    {
+      "id": "doraemon-fujiko-f-fujio-museum",
+      "workID": "doraemon",
+      "kind": "landmark",
+      "latitude": 35.60984,
+      "longitude": 139.57363,
+      "sceneHeading": 180,
+      "scenePitch": 0,
+      "arrivalRadius": 50,
+      "spoiler": false,
+      "sourceURL": "https://fujiko-museum.com/hiroba.html",
+      "verified": false,
+      "bestMonths": [3, 4, 5, 9, 10, 11],
+      "accessPoint": {
+        "latitude": 35.616811,
+        "longitude": 139.564403
+      },
+      "text": {
+        "zh-Hans": {
+          "placeName": "川崎市 藤子·F·不二雄博物馆（神奈川·川崎）",
+          "sceneTitle": "藤子·F·不二雄博物馆",
+          "episode": "官方圣地 · 2011 年开馆",
+          "highlight": "这是离《哆啦A梦》作者本人最近的地方：馆里陈列着藤子·F·不二雄先生亲笔的原画，屋顶的“空地”上摆着那几根熟悉的水泥管——大雄和伙伴们放学后聚会、胖虎开“演唱会”的那片空地，就这样出现在了现实里。博物馆建在先生生活过的川崎市多摩区，开馆日 9 月 3 日正好是哆啦A梦的生日，处处是对读者的温柔。",
+          "story": "博物馆源于藤子·F·不二雄夫人的心愿：把作品回馈给一直支持先生的孩子们。它由川崎市设立，2011 年 9 月 3 日在先生长年居住的多摩区开馆。展示室轮换展出先生亲笔的原画，“F 剧场”放映只在这里看得到的原创短片，二楼有可以自由翻阅漫画的阅读角，三楼咖啡馆供应以作品为主题的餐点。最受欢迎的拍照点是屋顶草坪“空地（はらっぱ）”：叠在一起的水泥管正是《哆啦A梦》里孩子们聚会的空地标志，旁边还能和电影《大雄的恐龙》里的小恐龙合影。",
+          "access": "小田急线向丘游园站南口出站步行约 16 分钟，沿途留意藏在路边的藤子角色标志；也可在登户站乘直达接驳巴士（约 9 分钟）。",
+          "accessPointName": "向丘游园站南口",
+          "bestTime": "春秋晴天屋顶草坪最舒服，蓝天下的水泥管最像漫画里的空地；上午早场相对人少。",
+          "tips": "全预约制，需提前在官网（e-tix）买指定日期时段的票，现场不售票；成人 1,000 日元。每周二及年末年始休馆。部分展区和 F 剧场禁止拍照，不可再入馆，没有停车场。"
+        },
+        "ja": {
+          "placeName": "川崎市 藤子・F・不二雄ミュージアム（神奈川・川崎）",
+          "sceneTitle": "藤子・F・不二雄ミュージアム",
+          "episode": "公式聖地・2011年開館",
+          "highlight": "ここは『ドラえもん』の作者その人にいちばん近づける場所だ。館内には藤子・F・不二雄先生直筆の原画が並び、屋上の「はらっぱ」にはおなじみの土管が置かれている。のび太たちが放課後に集まり、ジャイアンのリサイタルが開かれたあの空き地が、現実の風景になった。先生が暮らした川崎市多摩区に建ち、開館日の9月3日はドラえもんの誕生日と同じ。細部にまで読者へのやさしさがあふれている。",
+          "story": "ミュージアムは、先生の作品を支えてくれた子どもたちに恩返しをしたいという夫人の思いから生まれ、川崎市が設置して2011年9月3日、先生が長く暮らした多摩区に開館した。展示室では先生直筆の原画を入れ替えながら紹介し、「Fシアター」ではここでしか見られないオリジナル短編を上映。2階には自由に読めるまんがコーナー、3階には作品をモチーフにしたメニューのカフェがある。いちばん人気の撮影スポットは屋上の「はらっぱ」。積み重なった土管は『ドラえもん』で子どもたちが集まる空き地の目印そのもので、『のび太の恐竜』のピー助とも一緒に写真が撮れる。",
+          "access": "小田急線向ヶ丘遊園駅南口から徒歩約16分。道中にはキャラクターがひそむ案内も。登戸駅からは直行シャトルバス（約9分）も運行。",
+          "accessPointName": "向ヶ丘遊園駅南口",
+          "bestTime": "春と秋の晴れた日は屋上のはらっぱが気持ちよく、青空の下の土管がまんがそのもの。午前の早い回が比較的すいている。",
+          "tips": "日時指定の完全予約制。公式サイト（e-tix）で事前に購入し、現地販売はなし。大人1,000円。火曜・年末年始休館。一部展示エリアとFシアターは撮影禁止、再入館不可、駐車場なし。"
+        },
+        "en": {
+          "placeName": "Fujiko·F·Fujio Museum, Kawasaki (Kawasaki, Kanagawa)",
+          "sceneTitle": "Fujiko F. Fujio Museum",
+          "episode": "Official landmark · since 2011",
+          "highlight": "This is as close as you can get to the man who drew Doraemon. The galleries show Fujiko F. Fujio's own original artwork, and up on the rooftop Harappa sit the famous concrete pipes from the vacant lot where Nobita and his friends gather after school and Gian stages his dreaded recitals. The museum stands in Kawasaki's Tama Ward, where he lived, and it opened on 3 September, Doraemon's birthday: the whole place is full of small kindnesses to readers.",
+          "story": "The museum grew out of his widow's wish to give something back to the children who had supported his work. Established by Kawasaki City, it opened on 3 September 2011 in Tama Ward, his home for many years. The galleries rotate his hand-drawn original artwork, the F Theater screens short films made only for the museum, the second floor has a corner where you can read his manga freely, and the third-floor café serves dishes themed on his works. The favourite photo spot is the rooftop lawn called Harappa: its stacked concrete pipes mark the vacant lot at the heart of Doraemon, and you can also pose with Pisuke, the baby dinosaur from Nobita's Dinosaur.",
+          "access": "From the South Exit of Mukōgaoka-Yūen Station (Odakyu Line) it's about a 16-min walk, with characters hidden along the way; a direct shuttle bus also runs from Noborito Station (about 9 min).",
+          "accessPointName": "Mukōgaoka-Yūen Sta. South Exit",
+          "bestTime": "Clear spring and autumn days are best for the rooftop Harappa, where the pipes under a blue sky look straight out of the manga. Early entry slots are a little quieter.",
+          "tips": "Timed-entry reservations only: buy in advance on the official e-tix site; nothing is sold at the door. Adults ¥1,000. Closed Tuesdays and over New Year. No photos in some galleries or the F Theater, no re-entry, no parking."
+        },
+        "ko": {
+          "placeName": "가와사키시 후지코·F·후지오 뮤지엄 (가나가와·가와사키)",
+          "sceneTitle": "후지코·F·후지오 뮤지엄",
+          "episode": "공식 성지 · 2011년 개관",
+          "highlight": "〈도라에몽〉을 그린 작가 본인에게 가장 가까이 다가갈 수 있는 곳이다. 전시실에는 후지코·F·후지오 선생이 직접 그린 원화가 걸려 있고, 옥상 '공터(하랏파)'에는 낯익은 토관이 놓여 있다. 진구와 친구들이 방과 후에 모이고 퉁퉁이의 리사이틀이 열리던 그 공터가 현실의 풍경이 된 것이다. 선생이 살았던 가와사키시 다마구에 세워졌고, 개관일 9월 3일은 도라에몽의 생일과 같다. 구석구석 독자를 향한 다정함이 묻어난다.",
+          "story": "뮤지엄은 선생의 작품을 사랑해 준 아이들에게 보답하고 싶다는 부인의 바람에서 시작되었고, 가와사키시가 설립해 2011년 9월 3일 선생이 오래 살았던 다마구에 문을 열었다. 전시실에서는 선생이 직접 그린 원화를 바꿔 가며 소개하고, 'F시어터'에서는 이곳에서만 볼 수 있는 오리지널 단편을 상영한다. 2층에는 만화를 자유롭게 읽을 수 있는 코너, 3층에는 작품을 모티프로 한 메뉴의 카페가 있다. 가장 인기 있는 포토 스폿은 옥상 잔디밭 '공터'. 겹겹이 쌓인 토관은 〈도라에몽〉 속 아이들이 모이는 공터의 상징이고, 〈진구의 공룡〉에 나오는 아기 공룡과도 사진을 찍을 수 있다.",
+          "access": "오다큐선 무코가오카유엔역 남쪽 출구에서 도보 약 16분, 길가에 숨은 캐릭터도 찾아보자. 노보리토역에서는 직행 셔틀버스(약 9분)도 운행한다.",
+          "accessPointName": "무코가오카유엔역 남쪽 출구",
+          "bestTime": "봄·가을 맑은 날 옥상 공터가 가장 쾌적하고, 파란 하늘 아래의 토관은 만화 그대로다. 오전 이른 입장 회차가 비교적 한산하다.",
+          "tips": "날짜·시간 지정 완전 예약제로 공식 사이트(e-tix)에서 미리 구매해야 하며 현장 판매는 없다. 성인 1,000엔. 화요일·연말연시 휴관. 일부 전시 구역과 F시어터는 촬영 금지, 재입장 불가, 주차장 없음."
+        }
+      }
+    },
+    {
+      "id": "pokemon-pokepark-kanto",
+      "workID": "pokemon",
+      "kind": "landmark",
+      "latitude": 35.62581,
+      "longitude": 139.52136,
+      "sceneHeading": 45,
+      "scenePitch": 5,
+      "arrivalRadius": 60,
+      "spoiler": false,
+      "sourceURL": "https://www.pokepark-kanto.co.jp/ppark/about/ppark/index",
+      "verified": false,
+      "bestMonths": [3, 4, 5, 10, 11],
+      "accessPoint": {
+        "latitude": 35.624159,
+        "longitude": 139.517875
+      },
+      "text": {
+        "zh-Hans": {
+          "placeName": "PokéPark KANTO（东京·读卖乐园内）",
+          "sceneTitle": "PokéPark KANTO",
+          "episode": "官方圣地 · 2026 年开园",
+          "highlight": "这是宝可梦第一座常设的户外设施，也是第一次能真正“走进”宝可梦世界的地方：不是隔着屏幕看，而是像训练家一样穿过草丛、钻过隧道，在森林里遇见正在对战、分享树果的宝可梦。园区设在关东多摩丘陵的读卖乐园里，主角大多是关东地区的宝可梦——对从《红·绿》一路玩过来的人来说，这几乎就是儿时冒险的实景版。",
+          "story": "PokéPark KANTO 由读卖乐园、读卖新闻东京总社和株式会社宝可梦三方成立的公司运营，2026 年 2 月 5 日开园，面积约 2.6 公顷，官方称园内生活着 600 多只宝可梦。“宝可梦森林”是一条约 500 米的山林步道，有高低起伏、草丛和隧道，可以观察以关东地区为主的宝可梦。“草纱镇”有吉利蛋迎客的宝可梦中心、商店和美食，电属性道馆每天有舞台表演，还有游行，以及以皮卡丘、伊布为主题的游乐设施。",
+          "access": "从京王线京王读卖乐园站乘缆车“Sky Shuttle”约 10 分钟到山顶站，进读卖乐园大门后循指示牌步行约 10 分钟。",
+          "accessPointName": "Sky Shuttle 山顶站",
+          "bestTime": "春秋最适合在森林步道里慢慢找宝可梦，平日比周末从容；草纱镇的表演和游行时间以当天安排为准。",
+          "tips": "门票指定日期、含读卖乐园入园：训练家通行证成人 7,900 日元起（森林按时段入场），只逛草纱镇可买城镇通行证。抽选与先到先得发售，入场核对本人身份；森林限 5 岁以上。"
+        },
+        "ja": {
+          "placeName": "ポケパーク カントー（東京・よみうりランド内）",
+          "sceneTitle": "ポケパーク カントー",
+          "episode": "公式聖地・2026年オープン",
+          "highlight": "ポケモン初の常設屋外施設であり、初めてポケモンの世界に「入っていける」場所だ。画面越しに眺めるのではなく、トレーナーとして草むらを抜け、トンネルをくぐり、森でバトルしたりきのみを分け合ったりするポケモンに出会う。舞台は関東・多摩丘陵のよみうりランドで、主役は主にカントー地方のポケモンたち。『赤・緑』から冒険してきた人にとっては、子どもの頃の旅の実写版といっていい。",
+          "story": "ポケパーク カントーは、よみうりランド、読売新聞東京本社、株式会社ポケモンの3社が設立した会社が運営し、2026年2月5日に開業した。広さは約2.6ヘクタールで、600匹以上のポケモンが暮らすという。「ポケモンフォレスト」は約500mの山道で、起伏や草むら、トンネルを進みながら、主にカントー地方のポケモンたちを観察できる。「カヤツリタウン」には、ラッキーが迎えてくれるポケモンセンターやショップ、フードがそろい、でんきタイプのジムでは毎日ステージショーを開催。パレードや、ピカチュウ・イーブイがテーマのアトラクションもある。",
+          "access": "京王線京王よみうりランド駅からゴンドラ「スカイシャトル」で約10分。山頂駅からよみうりランドのゲートを通り、案内に従って徒歩約10分。",
+          "accessPointName": "スカイシャトル山頂駅",
+          "bestTime": "森の山道をゆっくり歩くなら春と秋がベスト。平日のほうがゆったり回れる。ショーやパレードの時間は当日の案内を確認。",
+          "tips": "チケットは日付指定制でよみうりランド入園込み。トレーナーズパスは大人7,900円〜（フォレストは時間指定）、タウンのみならタウンパス。抽選・先着販売で、入場時に本人確認あり。フォレストは5歳以上。"
+        },
+        "en": {
+          "placeName": "PokéPark KANTO (Yomiuriland, Tokyo)",
+          "sceneTitle": "PokéPark KANTO",
+          "episode": "Official landmark · since 2026",
+          "highlight": "Pokémon's first permanent outdoor facility is also the first place you can actually walk into the Pokémon world. Instead of watching through a screen, you push through tall grass and tunnels like a Trainer and come across Pokémon battling and sharing Berries in the woods. Set in Yomiuriland in the Tama Hills of the real Kanto region, and starring mostly Kanto Pokémon, it feels like a live-action version of the journey anyone who started with Red and Green remembers.",
+          "story": "PokéPark KANTO is run by a company set up by Yomiuriland, The Yomiuri Shimbun Tokyo Headquarters and The Pokémon Company, and opened on 5 February 2026. It covers about 2.6 hectares and is home, the park says, to more than 600 Pokémon. Pokémon Forest is a roughly 500 m trail over uneven hillside, through tall grass and tunnels, where you can watch mainly Kanto-region Pokémon. Sedge Town has a Pokémon Center where Chansey greets you, shops and food, an Electric-type Gym with daily stage shows, parades, and Pikachu- and Eevee-themed rides.",
+          "access": "From Keio-Yomiuriland Station take the Sky Shuttle gondola about 10 min to the summit station, enter Yomiuriland and follow the signs about 10 min on foot.",
+          "accessPointName": "Sky Shuttle summit station",
+          "bestTime": "Spring and autumn are ideal for taking the forest trail slowly, and weekdays are calmer than weekends. Check the day's schedule for shows and parades.",
+          "tips": "Date-specific tickets include Yomiuriland entry: Trainers Pass from ¥7,900 for adults (timed Forest entry), or a Town Pass for Sedge Town only. Sold by lottery and first-come sales; ID is checked at entry. Forest entry is for ages 5 and up."
+        },
+        "ko": {
+          "placeName": "PokéPark KANTO (도쿄·요미우리랜드)",
+          "sceneTitle": "PokéPark KANTO",
+          "episode": "공식 성지 · 2026년 개장",
+          "highlight": "포켓몬 최초의 상설 야외 시설이자, 처음으로 포켓몬 세계에 '직접 들어가 볼 수 있는' 곳이다. 화면 너머로 보는 대신 트레이너처럼 풀숲을 헤치고 터널을 지나며, 숲에서 배틀하거나 나무열매를 나눠 먹는 포켓몬을 만난다. 실제 관동 지방 다마 구릉의 요미우리랜드에 자리 잡았고 주인공은 주로 관동 지방의 포켓몬들. 〈레드·그린〉부터 모험해 온 사람에게는 어린 시절 여행의 실사판이라 할 만하다.",
+          "story": "PokéPark KANTO는 요미우리랜드, 요미우리신문 도쿄본사, 주식회사 포켓몬 세 회사가 설립한 회사가 운영하며 2026년 2월 5일 문을 열었다. 면적은 약 2.6헥타르로, 600마리가 넘는 포켓몬이 살고 있다고 한다. '포켓몬 포레스트'는 약 500m의 산길로, 오르내림과 풀숲, 터널을 지나며 주로 관동 지방의 포켓몬을 관찰할 수 있다. '사초마을'에는 럭키가 맞아 주는 포켓몬센터와 상점, 먹거리가 있고, 전기 타입 체육관에서는 매일 무대 공연이 열린다. 퍼레이드와 피카츄·이브이 테마의 놀이기구도 있다.",
+          "access": "게이오선 게이오요미우리랜드역에서 곤돌라 '스카이 셔틀'로 약 10분, 산정역에서 요미우리랜드 게이트를 지나 안내를 따라 도보 약 10분.",
+          "accessPointName": "스카이 셔틀 산정역",
+          "bestTime": "숲속 산길을 여유롭게 걷기에는 봄·가을이 가장 좋고, 주말보다 평일이 한산하다. 공연과 퍼레이드 시간은 당일 안내를 확인.",
+          "tips": "날짜 지정 티켓으로 요미우리랜드 입장 포함. 트레이너스 패스 성인 7,900엔부터(포레스트는 시간 지정), 사초마을만 보려면 타운 패스. 추첨·선착순 판매이며 입장 시 신분 확인. 포레스트는 5세 이상."
+        }
+      }
+    },
+    {
+      "id": "kiki-guchokipanya-ghibli-park",
+      "workID": "kikis-delivery-service",
+      "kind": "landmark",
+      "latitude": 35.17396,
+      "longitude": 137.09312,
+      "sceneHeading": 20,
+      "scenePitch": 5,
+      "arrivalRadius": 40,
+      "spoiler": false,
+      "sourceURL": "https://ghibli-park.jp/en/about/valleyofwitches.html",
+      "verified": false,
+      "bestMonths": [4, 5, 10, 11],
+      "accessPoint": {
+        "latitude": 35.1775994,
+        "longitude": 137.0877452
+      },
+      "text": {
+        "zh-Hans": {
+          "placeName": "吉卜力公园 魔女之谷（爱知·长久手）",
+          "sceneTitle": "琪琪寄住的面包店",
+          "episode": "官方圣地 · 2024 年开放",
+          "highlight": "在《魔女宅急便》里，琪琪在陌生城市第一个落脚的地方就是这家面包店：老板娘的收留，给了离家的少女一个家。如今它按电影里的半木结构真实地建了出来，一楼挂着片中的面包花环，还真的在卖法棍和圆面包，楼上就是琪琪和吉吉住的阁楼。买个面包在店门口咬一口，就像刚在海边小城住下的第一天。",
+          "story": "2024 年 3 月 16 日，吉卜力公园最后一个区域“魔女之谷”开放，这家面包店是其中最受欢迎的建筑之一。电影里，琪琪按照魔女的规矩独自来到海边城市，一时找不到落脚处，后来被面包店老板娘收留，住进店里的阁楼，开始骑着扫帚送快递。园区把这家店按欧洲传统的半木结构造了出来：一楼是真正营业的面包店，陈列着片中的面包花环，出售法棍、圆面包等电影里出现过的面包；楼上则是琪琪和黑猫吉吉住的阁楼房间。不远处还有琪琪出发前生活的老家“冲野家”。",
+          "access": "乘磁浮线 Linimo 至“爱·地球博纪念公园”站，入园后步行约 800 米（约 12 分钟）到魔女之谷。",
+          "accessPointName": "爱·地球博纪念公园站",
+          "bestTime": "上午早些来人相对少；春秋天的魔女之谷最适合慢慢散步。",
+          "tips": "门票全预约制，每月 10 日 14 点开售两个月后的票，现场不售；“大散步券”标准版即可进入魔女之谷和面包店。休园日以官网日历为准（多为周二）。部分建筑内禁止拍照。"
+        },
+        "ja": {
+          "placeName": "ジブリパーク 魔女の谷（愛知・長久手）",
+          "sceneTitle": "グーチョキパン屋",
+          "episode": "公式聖地・2024年開業",
+          "highlight": "『魔女の宅急便』で、見知らぬ町に来たキキが最初に居場所を見つけたのがこのパン屋だ。おかみさんに迎え入れられたことで、家を出た少女に帰る場所ができた。いまその店が映画どおりのハーフティンバーで建てられ、1階には劇中のパンの花輪が飾られ、バゲットやブールが本当に売られている。上の階はキキとジジの屋根裏部屋。買ったパンを店先でひと口かじれば、海辺の町で暮らし始めた最初の日の気分になれる。",
+          "story": "2024年3月16日、ジブリパーク最後のエリア「魔女の谷」が開業し、このパン屋は中でも人気の建物になった。映画では、しきたりどおり一人で海辺の町へやってきたキキが、なかなか町になじめずにいたところをパン屋のおかみさんに助けられ、店の屋根裏に下宿して、ほうきで空を飛ぶお届け物屋さんを始める。パークではこの店を、ヨーロッパ伝統のハーフティンバー様式で再現。1階は実際に営業するパン屋で、劇中のパンの花輪が飾られ、バゲットやブールなど映画に出てくるパンが並ぶ。上の階はキキと黒猫ジジが暮らす屋根裏部屋。近くには旅立ち前のキキが暮らした実家「オキノ邸」もある。",
+          "access": "リニモ「愛・地球博記念公園」駅下車、公園内を約800m（徒歩約12分）歩くと魔女の谷。",
+          "accessPointName": "愛・地球博記念公園駅",
+          "bestTime": "比較的すいている午前のうちに訪れるのがおすすめ。春と秋は魔女の谷の散策が気持ちいい。",
+          "tips": "チケットは完全予約制で、毎月10日14時に2か月先の分を販売、現地販売なし。「大さんぽ券スタンダード」でも魔女の谷とパン屋に入れる。休園日は公式カレンダーで確認（主に火曜）。建物内は撮影禁止の場所あり。"
+        },
+        "en": {
+          "placeName": "Valley of Witches, Ghibli Park (Nagakute, Aichi)",
+          "sceneTitle": "Guchokipanya Bakery",
+          "episode": "Official landmark · since 2024",
+          "highlight": "In Kiki's Delivery Service, this bakery is where Kiki first finds a foothold in a strange city: being taken in by its owner gives a girl far from home somewhere to belong. Now it stands for real in half-timbered style, with the film's bread wreath on the ground floor, actual baguettes and boules for sale, and Kiki and Jiji's attic upstairs. Bite into a loaf at the door and it feels like your first day in the seaside town.",
+          "story": "Valley of Witches, the last of Ghibli Park's five areas, opened on 16 March 2024, and the bakery quickly became one of its best-loved buildings. In the film, Kiki arrives alone in a seaside city as witch tradition demands, struggles to fit in, and is taken in by the baker's wife, who lets her lodge in the attic, where she starts a delivery service by broomstick. The park recreates the shop in traditional European half-timbering: the ground floor is a working bakery displaying the film's bread wreath and selling breads seen on screen, such as baguettes and boules, while upstairs is the attic room Kiki shares with her black cat Jiji. Nearby stands the Okino Residence, Kiki's family home before she set out.",
+          "access": "Take the Linimo to Ai-Chikyūhaku-Kinen-Kōen Station; Valley of Witches is about 800 m (12 min) on foot through the park.",
+          "accessPointName": "Ai-Chikyūhaku-Kinen-Kōen Sta.",
+          "bestTime": "Come in the morning while it's a little quieter. Spring and autumn make the Valley of Witches a pleasure to wander.",
+          "tips": "Reservation-only tickets go on sale on the 10th at 14:00 for two months ahead; none are sold at the park. The O-Sanpo Day Pass Standard covers the area and the bakery. Check the official calendar for closed days (usually Tuesdays). Photos are banned inside some buildings."
+        },
+        "ko": {
+          "placeName": "지브리 파크 마녀의 계곡 (아이치·나가쿠테)",
+          "sceneTitle": "키키가 머무는 빵집",
+          "episode": "공식 성지 · 2024년 개장",
+          "highlight": "〈마녀 배달부 키키〉에서 낯선 도시에 온 키키가 처음으로 마음 붙일 곳을 찾은 곳이 바로 이 빵집이다. 주인 아주머니가 받아 준 덕분에 집을 떠난 소녀에게 돌아갈 곳이 생겼다. 지금 그 가게가 영화 그대로 하프팀버 양식으로 지어져, 1층에는 영화 속 빵 화환이 걸려 있고 바게트와 불을 실제로 판다. 위층은 키키와 지지의 다락방. 산 빵을 가게 앞에서 한 입 베어 물면 바닷가 마을에서의 첫날로 돌아간 기분이 든다.",
+          "story": "2024년 3월 16일 지브리 파크의 마지막 구역 '마녀의 계곡'이 문을 열었고, 이 빵집은 그중에서도 인기 있는 건물이 되었다. 영화에서 마녀의 관습대로 홀로 바닷가 도시에 온 키키는 좀처럼 마을에 적응하지 못하다가 빵집 아주머니의 도움으로 가게 다락방에 하숙하며 빗자루로 나는 배달 일을 시작한다. 파크는 이 가게를 유럽 전통의 하프팀버 양식으로 재현했다. 1층은 실제로 영업하는 빵집으로 영화 속 빵 화환이 장식되어 있고, 바게트와 불 등 영화에 나온 빵을 판다. 위층은 키키와 검은 고양이 지지가 지내는 다락방이다. 근처에는 여행을 떠나기 전 키키가 살던 본가 '오키노 저택'도 있다.",
+          "access": "리니모 '아이치큐하쿠기넨코엔'역 하차, 공원 안을 약 800m(도보 약 12분) 걸으면 마녀의 계곡.",
+          "accessPointName": "아이치큐하쿠기넨코엔역",
+          "bestTime": "비교적 한산한 오전에 들르는 것이 좋다. 봄과 가을에는 마녀의 계곡을 산책하기 좋다.",
+          "tips": "티켓은 전면 예약제로 매월 10일 14시에 두 달 뒤 분을 판매하며 현장 판매는 없다. '오산포 스탠다드 티켓'으로도 마녀의 계곡과 빵집에 들어갈 수 있다. 휴원일은 공식 캘린더 확인(주로 화요일). 일부 건물 안은 촬영 금지."
+        }
+      }
+    },
+    {
+      "id": "howl-castle-ghibli-park",
+      "workID": "howls-moving-castle",
+      "kind": "landmark",
+      "latitude": 35.17374,
+      "longitude": 137.09361,
+      "sceneHeading": 146,
+      "scenePitch": 10,
+      "arrivalRadius": 40,
+      "spoiler": false,
+      "sourceURL": "https://ghibli-park.jp/en/about/valleyofwitches.html",
+      "verified": false,
+      "bestMonths": [4, 5, 10, 11],
+      "accessPoint": {
+        "latitude": 35.1775994,
+        "longitude": 137.0877452
+      },
+      "text": {
+        "zh-Hans": {
+          "placeName": "吉卜力公园 魔女之谷（爱知·长久手）",
+          "sceneTitle": "哈尔的城堡",
+          "episode": "官方圣地 · 2024 年开放",
+          "highlight": "那座东拼西凑、喘着粗气四处走动的城堡，是宫崎骏作品里最让人想住进去的“家”之一。吉卜力公园把它造成了约 20 米高的实物：每小时会有几次局部活动、冒出烟来，荒地上还站着稻草人芜菁头。走进去，卡西法的火炉、苏菲的小房间、堆满杂物的哈尔卧室都在眼前，好像刚刚还有人住过。",
+          "story": "城堡位于 2024 年 3 月开放的“魔女之谷”，高约 20 米，造型像一只活生生的怪物：部分构件会动，每小时还会冒几次烟。它立在一片荒地上，片中蹦蹦跳跳的稻草人芜菁头也在这里。内部按电影重现：一楼是昏暗的客厅，有火恶魔卡西法栖身的火炉、水槽、餐桌和苏菲的房间；二楼是哈尔的卧室、衣帽间和工作室，还有浴室和马鲁克的房间。电影里，被诅咒变老的苏菲正是闯进这里当起清洁婆婆，才在这座乱糟糟的城堡里遇到了新的家人。",
+          "access": "乘磁浮线 Linimo 至“爱·地球博纪念公园”站，入园后步行约 800 米（约 12 分钟）到魔女之谷。",
+          "accessPointName": "爱·地球博纪念公园站",
+          "bestTime": "城堡每小时会动几次、冒几次烟，不妨在荒地边多等一会儿；晴天时城堡衬着蓝天最有气势。",
+          "tips": "参观城堡内部需“大散步券”Premium；持标准版需当天在魔女之谷另购参观券（成人 1,000 日元，数量有限、先到先得）。入园券全预约制，现场不售；休园日以官网日历为准。"
+        },
+        "ja": {
+          "placeName": "ジブリパーク 魔女の谷（愛知・長久手）",
+          "sceneTitle": "ハウルの城",
+          "episode": "公式聖地・2024年開業",
+          "highlight": "つぎはぎだらけで、息をしながら歩き回るあの城は、宮崎作品の中でも「住んでみたい家」の筆頭だ。ジブリパークはそれを高さ約20mの実物にした。1時間に数回、城の一部が動いて煙を吐き、荒地にはカカシのカブが立つ。中に入れば、カルシファーの暖炉、ソフィーの部屋、ガラクタだらけのハウルの寝室がそのまま広がり、ついさっきまで誰かが暮らしていたかのようだ。",
+          "story": "城は2024年3月に開業した「魔女の谷」にあり、高さは約20m。生き物のような姿で一部が動き、1時間に数回煙を出す。荒地に建ち、劇中でぴょんぴょん跳ねていたカカシのカブにも会える。内部は映画どおりに再現され、1階は薄暗い居間で、火の悪魔カルシファーの暖炉、流し、テーブル、ソフィーの部屋がある。2階にはハウルの寝室、衣装部屋、作業部屋、浴室、マルクルの部屋。映画では、呪いで老婆になったソフィーがこの城に掃除婦として乗り込み、散らかった城で新しい家族と出会っていく。",
+          "access": "リニモ「愛・地球博記念公園」駅下車、公園内を約800m（徒歩約12分）歩くと魔女の谷。",
+          "accessPointName": "愛・地球博記念公園駅",
+          "bestTime": "城は1時間に数回動いて煙を出すので、荒地のそばで少し待ってみたい。晴れた日は青空に城の姿が映える。",
+          "tips": "城内見学には「大さんぽ券プレミアム」が必要。スタンダードの場合は当日、魔女の谷で城内見学券（大人1,000円、数量限定・先着順）を購入。入園券は完全予約制で現地販売なし。休園日は公式カレンダーで確認。"
+        },
+        "en": {
+          "placeName": "Valley of Witches, Ghibli Park (Nagakute, Aichi)",
+          "sceneTitle": "Howl's Castle",
+          "episode": "Official landmark · since 2024",
+          "highlight": "Patched together and wheezing as it lumbers about, Howl's castle is one of the homes in Miyazaki's films that people most want to live in. Ghibli Park has built it for real, about 20 m tall: parts of it move and it puffs smoke a few times an hour, while Turnip Head the scarecrow stands out on the wasteland. Inside, Calcifer's hearth, Sophie's little room and Howl's cluttered bedroom are all there, as if someone had just stepped out.",
+          "story": "The castle stands in Valley of Witches, opened in March 2024, and rises about 20 m. Shaped like a living creature, it has moving parts and lets off smoke a few times an hour. It sits on a patch of wasteland, where you'll also meet Turnip Head, the hopping scarecrow from the film. The interior follows the film: the dim ground-floor living room holds Calcifer's furnace, a sink, a table and Sophie's room, while upstairs are Howl's bedroom, wardrobe and studio, a bathroom and Markl's room. In the film, Sophie, cursed into old age, talks her way into this castle as its cleaning lady and finds a new family amid its mess.",
+          "access": "Take the Linimo to Ai-Chikyūhaku-Kinen-Kōen Station; Valley of Witches is about 800 m (12 min) on foot through the park.",
+          "accessPointName": "Ai-Chikyūhaku-Kinen-Kōen Sta.",
+          "bestTime": "The castle moves and smokes a few times an hour, so linger by the wasteland for a while. It looks its grandest against a clear blue sky.",
+          "tips": "Going inside needs the O-Sanpo Day Pass Premium; with a Standard pass, buy a same-day castle ticket (¥1,000 adults, limited, first come first served) in Valley of Witches. Park tickets are reservation-only, not sold at the gate. Check the official calendar for closed days."
+        },
+        "ko": {
+          "placeName": "지브리 파크 마녀의 계곡 (아이치·나가쿠테)",
+          "sceneTitle": "하울의 성",
+          "episode": "공식 성지 · 2024년 개장",
+          "highlight": "누덕누덕 기워 붙인 채 헐떡이며 걸어 다니는 그 성은 미야자키 작품 속에서 가장 살아 보고 싶은 '집' 가운데 하나다. 지브리 파크는 그것을 높이 약 20m의 실물로 만들었다. 한 시간에 몇 번씩 성의 일부가 움직이며 연기를 뿜고, 황무지에는 허수아비 순무 머리가 서 있다. 안으로 들어가면 캘시퍼의 난로, 소피의 작은 방, 잡동사니로 가득한 하울의 침실이 그대로 펼쳐져 방금 전까지 누가 살던 것만 같다.",
+          "story": "성은 2024년 3월에 문을 연 '마녀의 계곡'에 있으며 높이는 약 20m. 살아 있는 생물 같은 모습으로 일부가 움직이고 한 시간에 몇 번 연기를 내뿜는다. 황무지 위에 서 있어 영화 속에서 깡충깡충 뛰던 허수아비 순무 머리도 만날 수 있다. 내부는 영화 그대로 재현되어 1층 어둑한 거실에는 불의 악마 캘시퍼의 난로, 개수대, 식탁, 소피의 방이 있고, 2층에는 하울의 침실과 옷방, 작업실, 욕실, 마르클의 방이 있다. 영화에서 저주로 할머니가 된 소피는 청소부를 자처하며 이 성에 들어와, 어수선한 성 안에서 새로운 가족을 만나게 된다.",
+          "access": "리니모 '아이치큐하쿠기넨코엔'역 하차, 공원 안을 약 800m(도보 약 12분) 걸으면 마녀의 계곡.",
+          "accessPointName": "아이치큐하쿠기넨코엔역",
+          "bestTime": "성은 한 시간에 몇 번 움직이며 연기를 내뿜으니 황무지 옆에서 잠시 기다려 보자. 맑은 날 파란 하늘을 배경으로 한 성이 가장 웅장하다.",
+          "tips": "성 내부 관람에는 '오산포 프리미엄 티켓'이 필요하다. 스탠다드 티켓이라면 당일 마녀의 계곡에서 성 내부 관람권(성인 1,000엔, 수량 한정·선착순)을 구입. 입원권은 전면 예약제로 현장 판매 없음. 휴원일은 공식 캘린더 확인."
+        }
+      }
+    },
+    {
+      "id": "laputa-robot-soldier-ghibli-museum",
+      "workID": "castle-in-the-sky",
+      "kind": "landmark",
+      "latitude": 35.69625,
+      "longitude": 139.5705,
+      "sceneHeading": 260,
+      "scenePitch": 10,
+      "arrivalRadius": 40,
+      "spoiler": false,
+      "sourceURL": "https://www.ghibli-museum.jp/en/welcome/",
+      "verified": false,
+      "bestMonths": [4, 5, 6, 10, 11],
+      "accessPoint": {
+        "latitude": 35.702267,
+        "longitude": 139.560623
+      },
+      "text": {
+        "zh-Hans": {
+          "placeName": "三鹰之森吉卜力美术馆 屋顶庭园（东京·三鹰）",
+          "sceneTitle": "屋顶的机器人兵",
+          "episode": "官方圣地 · 2001 年开馆",
+          "highlight": "《天空之城》里最让人心软的，也许不是能摧毁要塞的机器人兵，而是在无人的拉普达庭园里默默照料花草、任小鸟停在身上的园丁机器人。美术馆屋顶这尊约 5 米高的机器人兵，就带着那样温柔的神情，静静守望着井之头公园的树林。爬上窄窄的螺旋楼梯、在草木间与它相遇，是许多人在吉卜力美术馆最难忘的一刻。",
+          "story": "三鹰之森吉卜力美术馆由三鹰市设立，2001 年 10 月 1 日在都立井之头恩赐公园西园内开馆。从二楼猫巴士房间旁的露台沿螺旋楼梯上去，就是绿意盎然的屋顶庭园，第一眼看到的便是这尊约 5 米高、神情温和的机器人兵。美术馆称它为“守护神”，它从高处俯瞰着井之头公园。电影里，机器人兵是天空之城拉普达留下的古代机械，既有摧毁要塞的可怕力量，也有在无人庭园里独自照料花草和小动物的温柔一面。绕到它身后继续往里走，草木恣意生长，几乎让人忘了自己站在建筑物顶上。",
+          "access": "JR 三鹰站南口出站，沿玉川上水旁的步道走约 15 分钟，沿途有指向美术馆的指示牌；也可在南口 9 号站台乘社区巴士约 5 分钟。",
+          "accessPointName": "JR 三鹰站南口",
+          "bestTime": "5 月新绿和 11 月秋色时，屋顶庭园的草木最有生气，站在机器人兵身边就像置身拉普达的庭园。",
+          "tips": "全预约制：每月 10 日 10 点在罗森票务（Lawson Ticket）开售下个月的指定日期时段票，馆内不售票。成人 1,000 日元。周二及年末年始等休馆。馆内禁止拍照；天气恶劣时屋顶可能关闭。"
+        },
+        "ja": {
+          "placeName": "三鷹の森ジブリ美術館 屋上庭園（東京・三鷹）",
+          "sceneTitle": "屋上のロボット兵",
+          "episode": "公式聖地・2001年開館",
+          "highlight": "『天空の城ラピュタ』でいちばん胸を打つのは、要塞を焼き払うロボット兵の力よりも、誰もいないラピュタの庭で黙々と花の世話をし、小鳥をその身に遊ばせていた園丁ロボットの姿かもしれない。美術館の屋上に立つ約5mのロボット兵は、まさにそのやさしい表情で井の頭公園の森を見守っている。細いらせん階段を上り、緑の中でこの守り神に出会う瞬間は、多くの人にとって美術館で最も忘れがたい場面だ。",
+          "story": "三鷹の森ジブリ美術館は三鷹市が設置し、2001年10月1日、都立井の頭恩賜公園西園の中に開館した。2階のネコバスルームの脇から螺旋階段を上ると、緑あふれる屋上庭園が現れ、最初に目に入るのが優しい顔でたたずむ約5mのロボット兵だ。美術館の「守り神」とされ、高みから井の頭公園を見下ろしている。映画のロボット兵は、天空の城ラピュタが残した古代の機械。要塞を壊滅させる恐ろしい力を持つ一方、無人の庭で草花や小さな生き物の世話を続けるやさしい一面も描かれた。その後ろ姿を眺めながら奥へ進むと草木が生い茂り、建物の上にいることを忘れてしまう。",
+          "access": "JR三鷹駅南口から玉川上水沿いを歩いて約15分。上水沿いに美術館を指す案内看板がある。南口9番のりばからコミュニティバスで約5分。",
+          "accessPointName": "JR三鷹駅南口",
+          "bestTime": "5月の新緑や11月の紅葉の頃は屋上庭園の草木がいきいきとして、ロボット兵の隣に立つとラピュタの庭にいるような気分になれる。",
+          "tips": "日時指定の予約制。毎月10日10時からローチケで翌月分を販売し、美術館での販売はなし。大人1,000円。火曜・年末年始などは休館。館内は撮影禁止。悪天候時は屋上が閉鎖されることも。"
+        },
+        "en": {
+          "placeName": "Rooftop Garden, Ghibli Museum, Mitaka (Mitaka, Tokyo)",
+          "sceneTitle": "Rooftop Robot Soldier",
+          "episode": "Official landmark · since 2001",
+          "highlight": "What moves people most in Castle in the Sky is perhaps not the Robot Soldier's power to raze a fortress, but the gardener robot quietly tending flowers in Laputa's empty garden and letting little birds settle on it. The five-metre Robot Soldier on the museum roof wears that same gentle expression as it watches over the trees of Inokashira Park. Climbing the narrow spiral stair and meeting it among the greenery is, for many visitors, the moment they remember most.",
+          "story": "The Ghibli Museum, Mitaka, was established by Mitaka City and opened on 1 October 2001 inside the western section of Inokashira Park. From the terrace beside the second-floor Cat Bus room, a spiral stairway leads up to a grassy rooftop garden, and the first thing you see is this serene, five-metre Robot Soldier. The museum calls it its guardian, looking down over Inokashira Park. In the film, the robots are ancient machines left behind by the floating city of Laputa: capable of terrifying destruction, yet also shown caring for plants and small creatures in a garden with no one left in it. Walk on behind it and the plants grow so wild you forget you're standing on a building.",
+          "access": "From the South Exit of JR Mitaka Station, walk about 15 min along the Tamagawa Aqueduct path, following signs to the museum, or take the community bus from stop 9 (about 5 min).",
+          "accessPointName": "JR Mitaka Sta. South Exit",
+          "bestTime": "In May's fresh greenery or November's autumn colour the rooftop garden is at its liveliest, and standing by the robot feels like being in Laputa's garden.",
+          "tips": "Timed-entry reservations only: each month's tickets go on sale on Lawson Ticket at 10:00 on the 10th of the month before; none are sold at the museum. Adults ¥1,000. Usually closed Tuesdays and over New Year. No photos inside; the roof may close in bad weather."
+        },
+        "ko": {
+          "placeName": "미타카의 숲 지브리 미술관 옥상 정원 (도쿄·미타카)",
+          "sceneTitle": "옥상의 로봇 병사",
+          "episode": "공식 성지 · 2001년 개관",
+          "highlight": "〈천공의 성 라퓨타〉에서 가장 마음을 울리는 건 요새를 불태우는 로봇 병사의 힘보다, 아무도 없는 라퓨타의 정원에서 묵묵히 꽃을 돌보고 작은 새들이 몸에 앉도록 내버려 두던 정원사 로봇의 모습일지도 모른다. 미술관 옥상에 선 약 5m의 로봇 병사는 바로 그 다정한 표정으로 이노카시라 공원의 숲을 지켜보고 있다. 좁은 나선 계단을 올라 초록 속에서 이 수호신을 만나는 순간은 많은 이들에게 미술관에서 가장 잊지 못할 장면이다.",
+          "story": "미타카의 숲 지브리 미술관은 미타카시가 설립해 2001년 10월 1일 도립 이노카시라 은사 공원 서쪽 구역 안에 문을 열었다. 2층 고양이 버스 방 옆 테라스에서 나선 계단을 오르면 초록이 가득한 옥상 정원이 나타나고, 가장 먼저 눈에 들어오는 것이 온화한 얼굴로 서 있는 약 5m의 로봇 병사다. 미술관의 '수호신'으로 불리며 높은 곳에서 이노카시라 공원을 내려다본다. 영화 속 로봇 병사는 하늘의 성 라퓨타가 남긴 고대의 기계로, 요새를 괴멸시키는 무서운 힘을 지녔지만 아무도 없는 정원에서 풀꽃과 작은 생명을 돌보는 다정한 면도 그려졌다. 그 뒷모습을 바라보며 안쪽으로 걸어가면 풀과 나무가 무성해 건물 위에 있다는 사실을 잊게 된다.",
+          "access": "JR 미타카역 남쪽 출구에서 다마가와 상수 옆길을 따라 약 15분, 길가에 미술관 방향 안내판이 있다. 남쪽 출구 9번 승강장에서 커뮤니티 버스로 약 5분.",
+          "accessPointName": "JR 미타카역 남쪽 출구",
+          "bestTime": "5월 신록과 11월 단풍 무렵 옥상 정원의 초목이 가장 싱그러워, 로봇 병사 곁에 서면 라퓨타의 정원에 온 기분이 든다.",
+          "tips": "날짜·시간 지정 예약제. 매월 10일 10시부터 로손 티켓에서 다음 달 분을 판매하며 미술관에서는 판매하지 않는다. 성인 1,000엔. 화요일·연말연시 등 휴관. 관내 촬영 금지, 악천후 시 옥상이 폐쇄될 수 있음."
+        }
+      }
+    }
+  ]
+}

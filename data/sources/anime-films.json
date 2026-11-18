@@ -454,53 +454,6 @@
    }
   },
   {
-   "id": "tamako-love-story",
-   "title": "たまこラブストーリー",
-   "mediaType": "animeFilm",
-   "year": 2014,
-   "creator": "山田尚子 / 京都アニメーション",
-   "tint": "#EF8FA5",
-   "aliases": [
-    "Tamako Love Story",
-    "Tamako Rabu Sutori",
-    "たまこまーけっと",
-    "Tamako Market",
-    "玉子爱情故事",
-    "玉子愛情故事",
-    "타마코 러브 스토리",
-    "山田尚子",
-    "Naoko Yamada",
-    "야마다 나오코",
-    "京都动画",
-    "Kyoto Animation",
-    "出町桝形商店街"
-   ],
-   "text": {
-    "zh-Hans": {
-     "title": "玉子爱情故事",
-     "creator": "山田尚子 / 京都动画",
-     "synopsis": "电视动画《玉子市场》的剧场版续作。年糕店“玉屋”的女儿玉子升上高三，从小一起长大、住在街对面的饼藏，终于下定决心要把心意说出口。"
-    },
-    "zh-Hant": {
-     "title": "玉子愛情故事"
-    },
-    "ja": {
-     "title": "",
-     "synopsis": "TVアニメ『たまこまーけっと』の続編となる劇場作品。うさぎ山商店街の餅屋「たまや」の娘・たまこは高校3年生に。向かいの餅屋の幼なじみ・もち蔵は、ずっと胸にしまってきた想いを伝えようと決意する。"
-    },
-    "en": {
-     "title": "Tamako Love Story",
-     "creator": "Naoko Yamada / Kyoto Animation",
-     "synopsis": "The feature-length sequel to the TV anime Tamako Market. Tamako, daughter of the Tamaya mochi shop, starts her final year of high school, and Mochizo — her childhood friend from the rival shop across the street — finally resolves to tell her how he feels."
-    },
-    "ko": {
-     "title": "타마코 러브 스토리",
-     "creator": "야마다 나오코 / 교토 애니메이션",
-     "synopsis": "TV 애니메이션 『타마코 마켓』의 극장판 속편. 떡집 ‘타마야’의 딸 타마코가 고3이 되고, 길 건너 떡집에 사는 소꿉친구 모치조는 오랫동안 품어 온 마음을 전하기로 결심한다."
-    }
-   }
-  },
-  {
    "id": "boy-and-the-beast",
    "title": "バケモノの子",
    "mediaType": "animeFilm",
@@ -1669,74 +1622,6 @@
      "accessPointName": "오가키역 남쪽 출구",
      "bestTime": "해 질 무렵이 영화 속 석양과 가장 가깝다. 공기가 맑은 초여름과 가을의 맑은 날에는 노을이 더 아름답다.",
      "tips": "신오하시는 차량 통행이 많은 간선 도로의 다리입니다. 촬영은 인도에서 하고 차에 주의하세요. 미도리고이 다리, 오가키역과 묶어 걸어서 둘러보기 좋습니다."
-    }
-   }
-  },
-  {
-   "id": "tamako-demachi-masugata",
-   "workID": "tamako-love-story",
-   "latitude": 35.03029,
-   "longitude": 135.76905,
-   "sceneHeading": 270,
-   "scenePitch": 0,
-   "arrivalRadius": 60,
-   "spoiler": false,
-   "sourceURL": "https://masugata.demachi.jp/",
-   "photo": "File:Demachi arcade01.JPG",
-   "verified": false,
-   "bestMonths": [
-    4,
-    10,
-    11
-   ],
-   "accessPoint": {
-    "latitude": 35.030204,
-    "longitude": 135.772552
-   },
-   "text": {
-    "zh-Hans": {
-     "placeName": "出町桝形商店街（京都·上京区）",
-     "sceneTitle": "隔着商店街的纸杯电话",
-     "episode": "剧场版 · 全片",
-     "highlight": "《玉子爱情故事》最可爱的地方，是把一段从小一起长大的感情放进了一条再普通不过的商店街：两家年糕店隔街相望，纸杯电话一拉，就能说上悄悄话。饼藏去东京前的告白，让玉子第一次意识到“永远不变的日常”也会结束，这份慌张又笨拙的心动，正是电影最动人的地方。京都动画以这里为原型画出了“兔山商店街”，商店街也一直欢迎粉丝，店铺之间还藏着玉子的身影等你去找。",
-     "story": "年糕店“玉屋”的女儿玉子和对门年糕店“大路屋”的儿子饼藏，从出生起就是邻居。两家的二楼窗户正对着，小时候两人用纸杯和一根线做了“电话”，隔着商店街说悄悄话。升上高三，大家都开始谈论将来，喜欢电影的饼藏决定去东京读大学。离开之前，他想把藏了很多年的心意告诉玉子——可当那句“喜欢”终于说出口，一心只想着年糕的玉子却慌得不知该怎么回答。",
-     "access": "京阪「出町柳」站5号出口出站，往西过河合桥、出町桥，再过河原町通即到商店街拱廊入口，约350米、步行5分钟。",
-     "accessPointName": "出町柳站 5号出口",
-     "bestTime": "白天店铺营业时最有烟火气，周末午后人多；傍晚拱廊灯亮起也很有味道。",
-     "tips": "这是当地人日常买菜的商店街，请勿堵住通道；拍摄店铺或店员前先打招呼，顺手买点东西支持一下。"
-    },
-    "ja": {
-     "placeName": "出町桝形商店街（京都市上京区）",
-     "sceneTitle": "商店街越しの糸電話",
-     "episode": "劇場版・全編",
-     "highlight": "『たまこラブストーリー』がいとおしいのは、幼なじみの恋を、どこにでもある商店街に置いたことだ。通りを挟んで向かい合う二軒の餅屋、窓から糸電話を引けば内緒話ができる距離。東京へ行く前のもち蔵の告白で、たまこは「ずっと変わらない日常」にも終わりが来ることに初めて気づく。その慌てぶりと不器用なときめきこそ、この映画のいちばんの魅力だ。京都アニメーションはここをモデルに「うさぎ山商店街」を描き、商店街もファンを歓迎していて、店のあちこちに隠れたたまこを探すのも楽しい。",
-     "story": "餅屋「たまや」の娘・たまこと、向かいの餅屋「大路屋」の息子・もち蔵は、生まれたときからのお隣さん。二階の窓が向かい合う二人は、幼いころ紙コップと糸で作った電話で、商店街越しに内緒話をしていた。高校3年生になり、みんなが進路の話を始めるなか、映画好きのもち蔵は東京の大学へ行くことを決める。その前に、ずっと胸にしまってきた想いをたまこに伝えたい——けれどついに「好き」と言われたとき、お餅のことばかり考えてきたたまこは、どう返事をしていいかわからなくなってしまう。",
-     "access": "京阪「出町柳」駅5番出口を出て西へ、河合橋・出町橋を渡り、河原町通を越えると商店街のアーケード入口。約350m・徒歩5分。",
-     "accessPointName": "出町柳駅 5番出口",
-     "bestTime": "お店が開いている日中がいちばん活気がある。週末の午後は人が多め。夕方、アーケードに明かりが灯る頃も味わい深い。",
-     "tips": "地元の人が毎日買い物をする商店街です。通路をふさがないように。お店や店員さんを撮る前にはひと声かけ、何か買って応援しましょう。"
-    },
-    "en": {
-     "placeName": "Demachi Masugata Shopping Street (Kamigyo, Kyoto)",
-     "sceneTitle": "A String Phone Across the Street",
-     "episode": "Film · Throughout",
-     "highlight": "What makes Tamako Love Story so endearing is that it sets a childhood-friends romance in the most ordinary shopping street: two mochi shops facing each other across the arcade, close enough to whisper through a paper-cup phone strung between their windows. Mochizo's confession before leaving for Tokyo makes Tamako realise for the first time that even an “unchanging everyday” comes to an end, and her flustered, clumsy heartbeat is the film's real charm. Kyoto Animation modelled the Usagiyama shopping street on this arcade, which has always welcomed fans, and Tamako pops up in spots all along the street for you to find.",
-     "story": "Tamako, daughter of the Tamaya mochi shop, and Mochizo, son of the Oji-ya mochi shop opposite, have been neighbours since birth. Their upstairs windows face each other, and as children they made a telephone out of paper cups and string to whisper across the street. Now in their final year of high school, everyone is talking about the future, and film-loving Mochizo has decided to go to university in Tokyo. Before he leaves, he wants to tell Tamako what he has felt for years — but when he finally says “I like you,” Tamako, whose head has always been full of mochi, has no idea how to answer.",
-     "access": "From Exit 5 of Keihan Demachiyanagi Sta., head west over Kawai Bridge and Demachi Bridge, then cross Kawaramachi-dori to the arcade entrance: about 350 m, 5 min.",
-     "accessPointName": "Demachiyanagi Sta. Exit 5",
-     "bestTime": "Daytime, while the shops are open, is the liveliest; weekend afternoons are busy. Early evening, as the arcade lights come on, has its own charm.",
-     "tips": "Locals do their daily shopping here, so don't block the walkway. Ask before photographing shops or staff, and buy something to support them."
-    },
-    "ko": {
-     "placeName": "데마치 마스가타 상점가 (교토시 가미교구)",
-     "sceneTitle": "상점가를 사이에 둔 실 전화",
-     "episode": "극장판 · 전편",
-     "highlight": "『타마코 러브 스토리』가 사랑스러운 건 소꿉친구의 사랑을 아주 평범한 상점가에 놓았기 때문이다. 거리를 사이에 두고 마주 보는 두 떡집, 창문 사이로 종이컵 전화를 이으면 비밀 이야기를 나눌 수 있는 거리. 도쿄로 떠나기 전 모치조의 고백으로, 타마코는 ‘영원히 변하지 않을 것 같던 일상’에도 끝이 온다는 걸 처음 깨닫는다. 그 허둥지둥하는 모습과 서툰 설렘이 이 영화의 가장 큰 매력이다. 교토 애니메이션은 이곳을 모델로 ‘우사기야마 상점가’를 그렸고, 상점가도 팬들을 반기며 가게 곳곳에 숨은 타마코를 찾는 재미도 있다.",
-     "story": "떡집 ‘타마야’의 딸 타마코와 맞은편 떡집 ‘오지야’의 아들 모치조는 태어날 때부터 이웃이다. 2층 창문이 마주 보는 두 사람은 어릴 적 종이컵과 실로 만든 전화로 상점가 너머 비밀 이야기를 나눴다. 고3이 되어 모두가 진로 이야기를 시작할 무렵, 영화를 좋아하는 모치조는 도쿄의 대학에 가기로 한다. 떠나기 전에 오랫동안 품어 온 마음을 타마코에게 전하고 싶다. 하지만 마침내 “좋아해”라는 말을 들은 순간, 머릿속에 떡 생각뿐이던 타마코는 어떻게 대답해야 할지 모른다.",
-     "access": "게이한 데마치야나기역 5번 출구로 나와 서쪽으로 가와이 다리와 데마치 다리를 건너고, 가와라마치도리를 건너면 상점가 아케이드 입구. 약 350m, 도보 5분.",
-     "accessPointName": "데마치야나기역 5번 출구",
-     "bestTime": "가게가 문을 연 낮 시간이 가장 활기차다. 주말 오후는 사람이 많은 편. 저녁 무렵 아케이드에 불이 켜질 때도 운치 있다.",
-     "tips": "주민들이 매일 장을 보는 상점가입니다. 통로를 막지 마세요. 가게나 점원을 찍기 전에는 한마디 양해를 구하고, 뭔가 사서 응원해 주세요."
     }
    }
   },
