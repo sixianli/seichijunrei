@@ -19,6 +19,8 @@ final class SpotStore {
     private(set) var userPoint: GeoPoint?
     /// 外部（如点击通知）请求打开的圣地 ID，由地图页消费
     var requestedSpotID: String?
+    /// 和 requestedSpotID 一起设置：从“快到了”通知回来，直接进入指引（scene / photographer）
+    var requestedJourneyPurpose: String?
 
     /// “附近”的范围（米）
     var searchRadius: Double = 30_000

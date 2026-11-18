@@ -60,12 +60,22 @@ final class CalibrationService {
         markSubmitted(spotID: submission.spotID)
         #if DEBUG
         // UI 测试 / 模拟器：不访问 CloudKit（未签名的测试构建没有 iCloud 权限）
-        if ProcessInfo.processInfo.environment["SEICHI_FAKE_SUBMIT"] == "1" { return .submitted }
+        if ProcessInfo.processInfo.environment["SEICHI_FAKE_SUBMIT"] == "1" {
+            CommunityService.shared.recordMySubmission(MySubmission(
+                id: submission.id, title: CommunityService.shared.titleForSpot(submission.spotID),
+                status: "received", date: Date(), kind: .calibration, spotID: submission.spotID))
+            return .submitted
+        }
         #endif
         let result = await upload(submission)
         switch result {
         case .queued, .noAccount: enqueue(submission)
         case .submitted, .failed: break
+        }
+        if case .failed = result {} else {
+            CommunityService.shared.recordMySubmission(MySubmission(
+                id: submission.id, title: CommunityService.shared.titleForSpot(submission.spotID),
+                status: "received", date: Date(), kind: .calibration, spotID: submission.spotID))
         }
         return result
     }

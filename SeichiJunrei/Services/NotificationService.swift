@@ -31,6 +31,29 @@ final class NotificationService: NSObject, UNUserNotificationCenterDelegate {
         center.requestAuthorization(options: [.alert, .sound]) { _, _ in }
     }
 
+    /// 用户点了“快到了”通知：直接回到这个名场面的指引
+    var onResumeJourney: ((String, String) -> Void)? {
+        didSet {
+            if let j = pendingJourney, let handler = onResumeJourney {
+                pendingJourney = nil
+                handler(j.0, j.1)
+            }
+        }
+    }
+    private var pendingJourney: (String, String)?
+
+    /// 出发后离名场面 400 m 时：“快到了，点开开始找机位”
+    func notifyApproach(spotID: String, purpose: String) {
+        guard let spot = spotsByID[spotID]?.localized(to: AppLanguage.current) else { return }
+        let content = UNMutableNotificationContent()
+        content.title = L("notif.approachTitle", spot.workTitle + " " + spot.quotedSceneTitle)
+        content.body = L("notif.approachBody")
+        content.sound = .default
+        content.userInfo = ["spotID": spotID, "journey": purpose]
+        let request = UNNotificationRequest(identifier: "approach-\(spotID)", content: content, trigger: nil)
+        UNUserNotificationCenter.current().add(request)
+    }
+
     func notifyArrival(spotID: String) {
         // 每次按当前界面语言本地化（用户可能在 App 内切换过语言）
         guard let spot = spotsByID[spotID]?.localized(to: AppLanguage.current) else { return }
@@ -52,9 +75,12 @@ final class NotificationService: NSObject, UNUserNotificationCenterDelegate {
     // 点击通知：跳转到对应圣地
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse,
                                 withCompletionHandler completionHandler: @escaping () -> Void) {
-        if let id = response.notification.request.content.userInfo["spotID"] as? String {
+        let info = response.notification.request.content.userInfo
+        if let id = info["spotID"] as? String {
             DispatchQueue.main.async {
-                if let handler = self.onOpenSpot { handler(id) } else { self.pendingSpotID = id }
+                if let purpose = info["journey"] as? String {
+                    if let handler = self.onResumeJourney { handler(id, purpose) } else { self.pendingJourney = (id, purpose) }
+                } else if let handler = self.onOpenSpot { handler(id) } else { self.pendingSpotID = id }
             }
         }
         completionHandler()

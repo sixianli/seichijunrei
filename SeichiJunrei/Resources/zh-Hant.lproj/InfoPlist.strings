@@ -5,3 +5,4 @@
 "NSCameraUsageDescription" = "在名場面機位上透過相機取景，幫你對準動畫中的同一個畫面。";
 "NSMotionUsageDescription" = "透過陀螺儀和指南針判斷你面朝的方向，引導你轉向名場面的視角。";
 "NSPhotoLibraryAddUsageDescription" = "把你在聖地拍下的「名場面重現」照片儲存到相簿。";
+"NSPhotoLibraryUsageDescription" = "上傳現場照片時，讀取這張照片的拍攝地點，確認它是在名場面附近拍的。";

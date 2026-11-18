@@ -5,3 +5,4 @@
 "NSCameraUsageDescription" = "在名场面机位上通过相机取景，帮你对准动画中的同一个画面。";
 "NSMotionUsageDescription" = "通过陀螺仪和指南针判断你面朝的方向，引导你转向名场面的视角。";
 "NSPhotoLibraryAddUsageDescription" = "把你在圣地拍下的“名场面重现”照片保存到相册。";
+"NSPhotoLibraryUsageDescription" = "上传现场照片时，读取这张照片的拍摄地点，确认它是在名场面附近拍的。";

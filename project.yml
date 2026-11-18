@@ -42,6 +42,7 @@ targets:
         INFOPLIST_KEY_NSCameraUsageDescription: "Used at a scene's spot to line up the camera with the same shot as in the story."
         INFOPLIST_KEY_NSMotionUsageDescription: "Uses the gyroscope and compass to tell which way you're facing and guide you to the scene's view."
         INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription: "Saves the photos you take at pilgrimage spots to your library."
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "When you share a photo, the app reads where it was taken to check it was shot near the scene."
       configs:
         Debug:
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: DEBUG

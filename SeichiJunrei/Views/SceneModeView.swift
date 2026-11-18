@@ -237,8 +237,9 @@ struct SceneModeView: View {
         orientation.start()
         haptics.prepare()
         // 拍下的现场照片存入巡礼足迹，并直接打开分享卡
-        camera.onPhotoCaptured = { [pilgrimage, spot] image in
+        camera.onPhotoCaptured = { [pilgrimage, spot, location] image in
             pilgrimage.attachPhoto(image, spotID: spot.id)
+            pilgrimage.addToAlbum(image, spotID: spot.id, kind: .scene, location: location.lastLocation?.geoPoint)
             showShare = true
         }
         if arrived { beginSceneIfAllowed() }

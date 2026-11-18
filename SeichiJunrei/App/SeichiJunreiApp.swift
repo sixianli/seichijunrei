@@ -39,9 +39,14 @@ struct SeichiJunreiApp: App {
                        let lon = env["SEICHI_SIM_LON"].flatMap(Double.init) {
                         location.simulate(at: GeoPoint(latitude: lat, longitude: lon))
                     }
+                    location.simulatedHeading = env["SEICHI_SIM_HEADING"].flatMap(Double.init)
                     #endif
                     NotificationService.shared.requestAuthorization()
                     NotificationService.shared.onOpenSpot = { id in store.requestedSpotID = id }
+                    NotificationService.shared.onResumeJourney = { id, purpose in
+                        store.requestedJourneyPurpose = purpose
+                        store.requestedSpotID = id
+                    }
                 }
                 // 每次回到前台都重新启动定位：App 可能曾被地理围栏在后台唤醒，那时的定位不会自动恢复
                 .onChange(of: scenePhase) { _, phase in

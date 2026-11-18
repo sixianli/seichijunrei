@@ -20,7 +20,7 @@ MEDIA = {"anime", "animeFilm", "film", "drama"}
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 SPOT_FIELDS = ["placeName", "sceneTitle", "episode", "highlight", "story", "access", "bestTime", "tips"]
 # 简中长度建议（字符数），超出只警告
-ZH_LEN = {"sceneTitle": (2, 18), "highlight": (25, 130), "story": (100, 380), "access": (8, 100),
+ZH_LEN = {"sceneTitle": (2, 18), "highlight": (60, 240), "story": (100, 380), "access": (8, 100),
           "bestTime": (6, 80), "tips": (10, 130)}
 FREE_LICENSES = re.compile(r"^(cc0|pd|public domain|pdm|cc by(-sa)?( \d\.\d)?( [a-z]{2})?$|cc-by(-sa)?-\d\.\d)", re.I)
 
@@ -79,6 +79,23 @@ def check_spot(s, r):
     elif photo is not None and not str(photo).startswith("File:"):
         r.err(where, "photo 必须是 Commons 文件名 File:... 或照片对象")
     if not s.get("sourceURL"): r.warn(where, "没有 sourceURL")
+    months = s.get("bestMonths")
+    if months is None: r.warn(where, "没有 bestMonths（最佳到访月份）")
+    elif not (isinstance(months, list) and months and all(isinstance(m, int) and 1 <= m <= 12 for m in months)
+              and len(set(months)) == len(months)):
+        r.err(where, "bestMonths 必须是 1–12 的整数列表，不重复")
+    ap = s.get("accessPoint")
+    if ap is None: r.warn(where, "没有 accessPoint（步行起点：车站出口 / 巴士站）")
+    else:
+        alat, alon = ap.get("latitude", 0), ap.get("longitude", 0)
+        if not (24 <= alat <= 46 and 122 <= alon <= 154): r.err(where, f"accessPoint 坐标不在日本范围内：{alat},{alon}")
+        else:
+            import math
+            d = math.hypot((alat - lat) * 111000, (alon - lon) * 111000 * math.cos(math.radians(lat)))
+            if d > 5000: r.err(where, f"accessPoint 离机位 {d:.0f} m，太远（应是步行起点）")
+        for lang in AUTHORED:
+            if not ((s.get("text", {}).get(lang) or {}).get("accessPointName") or "").strip():
+                r.err(where, f"有 accessPoint 但缺少 text.{lang}.accessPointName")
     text = s.get("text", {})
     for lang in AUTHORED:
         t = text.get(lang)

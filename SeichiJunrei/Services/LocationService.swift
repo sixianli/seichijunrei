@@ -16,6 +16,15 @@ final class LocationService: NSObject, CLLocationManagerDelegate {
     /// 磁偏角（真北 − 磁北），用于把磁力计结果换算成真北。日本约为 -7°～-9°。
     private(set) var declination: Double = 0
 
+    /// 罗盘可信时的朝向（精度 30° 以内），否则 nil：不能用会误导人的箭头
+    var reliableHeading: Double? {
+        if isSimulating, let h = simulatedHeading { return h }
+        guard let h = compassHeading, headingAccuracy >= 0, headingAccuracy <= 30 else { return nil }
+        return h
+    }
+    /// 调试 / UI 测试用的模拟朝向
+    var simulatedHeading: Double?
+
     /// 调试用：模拟用户站在某个坐标（忽略真实 GPS）
     private(set) var isSimulating = false
 
@@ -61,11 +70,13 @@ final class LocationService: NSObject, CLLocationManagerDelegate {
     func monitorNearestRegions(_ spots: [Spot]) {
         guard CLLocationManager.isMonitoringAvailable(for: CLCircularRegion.self),
               manager.authorizationStatus == .authorizedAlways else { return }
-        let targets = Array(spots.prefix(Self.maxMonitoredRegions))
+        // 留一个名额给“快到了提醒”（出发去某个名场面时）
+        let targets = Array(spots.prefix(Self.maxMonitoredRegions - 1))
         let targetIDs = Set(targets.map(\.id))
         guard targetIDs != monitoredIDs else { return }
 
-        for region in manager.monitoredRegions where !targetIDs.contains(region.identifier) {
+        for region in manager.monitoredRegions
+        where !targetIDs.contains(region.identifier) && !region.identifier.hasPrefix(Self.journeyPrefix) {
             manager.stopMonitoring(for: region)
         }
         for spot in targets where !monitoredIDs.contains(spot.id) {
@@ -79,6 +90,32 @@ final class LocationService: NSObject, CLLocationManagerDelegate {
             manager.startMonitoring(for: region)
         }
         monitoredIDs = targetIDs
+    }
+
+    // MARK: 快到了提醒
+
+    static let journeyPrefix = "journey|"
+
+    /// 出发去某个名场面：离它 400 m 时发通知，点通知直接回到“近”的指引。需要“始终允许”定位。
+    @discardableResult
+    func armJourney(spot: Spot, purpose: JourneyPurpose) -> Bool {
+        guard manager.authorizationStatus == .authorizedAlways,
+              CLLocationManager.isMonitoringAvailable(for: CLCircularRegion.self) else { return false }
+        disarmJourney()
+        let region = CLCircularRegion(center: CLLocationCoordinate2D(latitude: spot.coordinate.latitude,
+                                                                     longitude: spot.coordinate.longitude),
+                                      radius: JourneyStage.nearEnter,
+                                      identifier: Self.journeyPrefix + spot.id + "|" + purpose.rawValue)
+        region.notifyOnEntry = true
+        region.notifyOnExit = false
+        manager.startMonitoring(for: region)
+        return true
+    }
+
+    func disarmJourney() {
+        for region in manager.monitoredRegions where region.identifier.hasPrefix(Self.journeyPrefix) {
+            manager.stopMonitoring(for: region)
+        }
     }
 
     func simulate(at point: GeoPoint) {
@@ -122,6 +159,12 @@ final class LocationService: NSObject, CLLocationManagerDelegate {
     }
 
     func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
+        if region.identifier.hasPrefix(Self.journeyPrefix) {
+            let parts = region.identifier.split(separator: "|").map(String.init)
+            manager.stopMonitoring(for: region)
+            if parts.count == 3 { NotificationService.shared.notifyApproach(spotID: parts[1], purpose: parts[2]) }
+            return
+        }
         NotificationService.shared.notifyArrival(spotID: region.identifier)
     }
 
