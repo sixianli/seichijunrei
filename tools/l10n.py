@@ -460,6 +460,7 @@ S = {
   "calib.why.noHeading": ("暂时不能提交：指南针还没准备好，把手机绕 8 字晃几下试试", "暫時不能提交：指南針還沒準備好，把手機繞 8 字晃幾下試試", "送信できません：コンパスを準備中です。スマホを 8 の字に動かしてみてください", "Can't submit: compass not ready — try moving your phone in a figure 8", "제출할 수 없어요: 나침반 준비 중이에요. 휴대폰을 8자로 움직여 보세요"),
   "calib.why.gps": ("暂时不能提交：GPS 信号太弱，到开阔的地方再试", "暫時不能提交：GPS 訊號太弱，到開闊的地方再試", "送信できません：GPS が弱いので、開けた場所で試してください", "Can't submit: GPS signal too weak — try somewhere more open", "제출할 수 없어요: GPS가 약해요. 탁 트인 곳에서 다시 해 보세요"),
   "calib.why.needNote": ("离现有机位 300 米以上：请先在备注里写明原因，就可以提交", "離現有機位 300 公尺以上：請先在備註裡寫明原因，就可以提交", "登録位置から 300 m 以上離れています。備考に理由を書くと送信できます", "More than 300 m from the listed spot: add a note explaining why, then submit", "등록 위치에서 300m 이상 떨어졌어요. 메모에 이유를 적으면 제출할 수 있어요"),
+  "map.locatingScenes": ("正在获取你的位置…先看看这些名场面", "正在取得你的位置…先看看這些名場面", "現在地を取得中…まずはこちらの名シーン", "Finding your location… meanwhile, some scenes", "위치를 찾는 중… 먼저 이 명장면들을 보세요"),
 }
 
 # Info.plist（权限说明、App 名称）

@@ -342,3 +342,4 @@
 "calib.why.noHeading" = "Can't submit: compass not ready — try moving your phone in a figure 8";
 "calib.why.gps" = "Can't submit: GPS signal too weak — try somewhere more open";
 "calib.why.needNote" = "More than 300 m from the listed spot: add a note explaining why, then submit";
+"map.locatingScenes" = "Finding your location… meanwhile, some scenes";

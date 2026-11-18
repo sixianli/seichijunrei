@@ -342,3 +342,4 @@
 "calib.why.noHeading" = "暫時不能提交：指南針還沒準備好，把手機繞 8 字晃幾下試試";
 "calib.why.gps" = "暫時不能提交：GPS 訊號太弱，到開闊的地方再試";
 "calib.why.needNote" = "離現有機位 300 公尺以上：請先在備註裡寫明原因，就可以提交";
+"map.locatingScenes" = "正在取得你的位置…先看看這些名場面";

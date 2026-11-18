@@ -30,6 +30,8 @@ final class LocationService: NSObject, CLLocationManagerDelegate {
         manager.activityType = .fitness
         manager.headingFilter = 1
         manager.headingOrientation = .portrait
+        // 默认在“静止”时会自动暂停定位且不再恢复，导致 App 拿不到位置、附近列表为空
+        manager.pausesLocationUpdatesAutomatically = false
         authorization = manager.authorizationStatus
     }
 
@@ -38,6 +40,11 @@ final class LocationService: NSObject, CLLocationManagerDelegate {
         case .notDetermined:
             manager.requestWhenInUseAuthorization()
         case .authorizedWhenInUse, .authorizedAlways:
+            // 先用系统缓存的最近位置（10 分钟内），不用干等第一次定位
+            if !isSimulating, lastLocation == nil, let cached = manager.location,
+               cached.horizontalAccuracy >= 0, -cached.timestamp.timeIntervalSinceNow < 600 {
+                lastLocation = cached
+            }
             manager.startUpdatingLocation()
             if CLLocationManager.headingAvailable() { manager.startUpdatingHeading() }
         default:
