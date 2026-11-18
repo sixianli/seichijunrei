@@ -5,3 +5,4 @@
 "NSCameraUsageDescription" = "Used at a scene's spot to line up the camera with the same shot as in the story.";
 "NSMotionUsageDescription" = "Uses the gyroscope and compass to tell which way you're facing and guide you to the scene's view.";
 "NSPhotoLibraryAddUsageDescription" = "Saves the photos you take at pilgrimage spots to your library.";
+"NSPhotoLibraryUsageDescription" = "When you share a photo, the app reads where it was taken to check it was shot near the scene.";

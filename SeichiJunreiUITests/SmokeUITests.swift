@@ -192,6 +192,69 @@ final class SmokeUITests: XCTestCase {
         snapshot("07-illustration-real-photo")
         toggle.tap()
         XCTAssertTrue(app.buttons["illustrationCredit"].waitForExistence(timeout: 5))
+
+        // 封面右下角能去网上搜原作画面；原名带书名号；方位文字带相对方向
+        XCTAssertTrue(app.buttons["searchScene"].exists, "封面上应有“看原作画面”")
+        XCTAssertTrue(app.staticTexts["originalTitle"].exists || app.descendants(matching: .any)["originalTitle"].exists)
+        let direction = app.descendants(matching: .any)["liveDirection"]
+        XCTAssertTrue(direction.waitForExistence(timeout: 5), "不在机位时应显示距离和方向")
+        XCTAssertTrue(app.buttons["enterScene"].exists && app.buttons["openPhotographer"].exists,
+                      "两个主入口应并排显示")
+        XCTAssertFalse(app.buttons["openDirections"].exists, "单独的导航按钮应去掉")
+        snapshot("33-detail-top")
+        app.swipeUp()
+        sleep(1)
+        snapshot("34-detail-sections")
+        app.swipeUp()
+        sleep(1)
+        snapshot("35-detail-guide")
+    }
+
+    /// 远处：点“带我去复现”先到出发页，一键交给地图 App
+    func testJourneyFarShowsDeparture() throws {
+        launch()
+        let search = app.searchFields.firstMatch
+        XCTAssertTrue(search.waitForExistence(timeout: 10))
+        search.tap()
+        typeReliably("your name", into: search)
+        let workRow = app.buttons["work-君の名は。"]
+        XCTAssertTrue(workRow.waitForExistence(timeout: 5))
+        workRow.tap()
+        let bridge = app.buttons["card-kiminonawa-shinanomachi-footbridge"]
+        XCTAssertTrue(bridge.waitForExistence(timeout: 5))
+        bridge.tap()
+        let enter = app.buttons["enterScene"]
+        XCTAssertTrue(enter.waitForExistence(timeout: 5))
+        enter.tap()
+        XCTAssertTrue(app.buttons["journeyNavigate"].waitForExistence(timeout: 8), "离机位 700 m 时应显示出发页")
+        snapshot("30-journey-far")
+        app.buttons["closeJourney"].tap()
+    }
+
+    /// 近处（约 200 m）：实时指南针 + 步行小地图
+    func testJourneyNearShowsCompass() throws {
+        launch(heading: 0, extraEnv: ["SEICHI_SIM_LAT": "35.68698", "SEICHI_SIM_LON": "139.72345"])
+        let card = app.buttons["card-kiminonawa-suga-shrine"]
+        XCTAssertTrue(card.waitForExistence(timeout: 20))
+        card.tap()
+        let enter = app.buttons["enterScene"]
+        XCTAssertTrue(enter.waitForExistence(timeout: 5))
+        enter.tap()
+        let near = app.descendants(matching: .any)["nearApproach"]
+        XCTAssertTrue(near.waitForExistence(timeout: 8) || app.descendants(matching: .any)["nearMap"].waitForExistence(timeout: 3),
+                      "离机位 200 m 时应显示指南针和步行地图")
+        sleep(2)
+        snapshot("31-journey-near")
+    }
+
+    /// 我的巡礼相册：首页右上角能打开
+    func testAlbumOpens() throws {
+        launch()
+        let open = app.buttons["openAlbum"]
+        XCTAssertTrue(open.waitForExistence(timeout: 10))
+        open.tap()
+        XCTAssertTrue(app.navigationBars["我的巡礼相册"].waitForExistence(timeout: 5))
+        snapshot("32-album")
     }
 
     func testListBrowseAndFilter() throws {
@@ -402,8 +465,13 @@ final class SmokeUITests: XCTestCase {
     /// 投稿新名场面：表单可以打开，必填项没填时不能提交
     func testSubmitSceneFormRequiresFields() throws {
         launch(extraEnv: ["SEICHI_FAKE_COMMUNITY": "1"])
+        // 投稿入口在“搜不到”的时候出现
+        let search = app.searchFields.firstMatch
+        XCTAssertTrue(search.waitForExistence(timeout: 10))
+        search.tap()
+        typeReliably("zqxw", into: search)
         let open = app.buttons["openSubmit"]
-        XCTAssertTrue(open.waitForExistence(timeout: 10))
+        XCTAssertTrue(open.waitForExistence(timeout: 10), "搜不到时应出现“推荐这个名场面”")
         open.tap()
         let send = app.buttons["submitSend"]
         let title = app.textFields["submitWorkTitle"]

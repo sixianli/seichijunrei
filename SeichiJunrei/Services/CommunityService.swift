@@ -16,12 +16,19 @@ struct CommunityPhoto: Identifiable, Hashable {
     var isMine: Bool
 }
 
-/// 我投稿的名场面（只在本机记录 ID，状态从 CloudKit 读）
+/// 我的投稿：新名场面、现场照片、机位校准（只在本机记录 ID，状态从 CloudKit 读）
 struct MySubmission: Identifiable, Codable, Hashable {
+    enum Kind: String, Codable { case scene, photo, calibration }
     var id: String
     var title: String
-    var status: String        // pending / approved / rejected
+    /// 名场面：pending / approved / rejected；照片：visible / hidden；校准：received；被删掉的：removed
+    var status: String
     var date: Date
+    /// 旧版本只记录了名场面投稿，没有这个字段
+    var kind: Kind?
+    var spotID: String?
+
+    var resolvedKind: Kind { kind ?? .scene }
 }
 
 /// 用户投稿：给名场面上传现场照片、投稿新的名场面、举报、屏蔽。
@@ -150,6 +157,8 @@ final class CommunityService {
             let photo = CommunityPhoto(id: UUID().uuidString, spotID: spotID, imageURL: url, caption: caption,
                                        authorID: "me", date: Date(), isMine: true)
             photosBySpot[spotID, default: []].insert(photo, at: 0)
+            recordMySubmission(MySubmission(id: photo.id, title: spotTitle(spotID), status: "visible",
+                                            date: Date(), kind: .photo, spotID: spotID))
             return .success(())
         }
         guard let file = Self.writeTemporaryJPEG(image) else { return .failure(.other("image")) }
@@ -163,7 +172,11 @@ final class CommunityService {
         record["locale"] = Locale.current.identifier
         record["appVersion"] = CalibrationService.appVersion
         let result = await save(record)
-        if case .success = result { await loadPhotos(spotID: spotID) }
+        if case .success = result {
+            await loadPhotos(spotID: spotID)
+            recordMySubmission(MySubmission(id: record.recordID.recordName, title: spotTitle(spotID), status: "visible",
+                                            date: Date(), kind: .photo, spotID: spotID))
+        }
         return result
     }
 
@@ -172,7 +185,7 @@ final class CommunityService {
     func submitScene(_ draft: SceneDraft, image: UIImage) async -> Result<Void, Failure> {
         guard draft.canSubmit, let lat = draft.latitude, let lon = draft.longitude else { return .failure(.rejected) }
         let id = UUID().uuidString
-        let entry = MySubmission(id: id, title: draft.sceneTitle, status: "pending", date: Date())
+        let entry = MySubmission(id: id, title: draft.sceneTitle, status: "pending", date: Date(), kind: .scene)
         if fake {
             mySubmissions.insert(entry, at: 0)
             persistMySubmissions()
@@ -203,6 +216,24 @@ final class CommunityService {
         return result
     }
 
+    /// 记一条“我的投稿”（照片、校准在提交成功后调用）
+    @MainActor
+    func recordMySubmission(_ entry: MySubmission) {
+        mySubmissions.removeAll { $0.id == entry.id }
+        mySubmissions.insert(entry, at: 0)
+        persistMySubmissions()
+    }
+
+    func titleForSpot(_ spotID: String) -> String { spotTitle(spotID) }
+
+    private func spotTitle(_ spotID: String) -> String {
+        guard let url = Bundle.main.url(forResource: "catalog", withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let spot = (try? SpotCatalog.decode(data))?.first(where: { $0.id == spotID })?.localized(to: AppLanguage.current)
+        else { return spotID }
+        return spot.workTitle + " " + spot.quotedSceneTitle
+    }
+
     /// 刷新我的投稿的审核状态
     func refreshMySubmissions() async {
         if fake { return }
@@ -210,13 +241,34 @@ final class CommunityService {
         guard !ids.isEmpty, let results = try? await database.records(for: ids, desiredKeys: ["status"]) else { return }
         await MainActor.run {
             for i in mySubmissions.indices {
-                if case .success(let r) = results[CKRecord.ID(recordName: mySubmissions[i].id)],
-                   let status = r["status"] as? String {
-                    mySubmissions[i].status = status
+                switch results[CKRecord.ID(recordName: mySubmissions[i].id)] {
+                case .success(let r)?:
+                    if let status = r["status"] as? String { mySubmissions[i].status = status }
+                case .failure(let e)?:
+                    if (e as? CKError)?.code == .unknownItem { mySubmissions[i].status = "removed" }
+                case nil: break
                 }
             }
             persistMySubmissions()
         }
+    }
+
+    /// 删除我的一条投稿（名场面 / 照片 / 校准）
+    @MainActor
+    func deleteMySubmission(_ entry: MySubmission) async -> Result<Void, Failure> {
+        if !fake {
+            do {
+                _ = try await database.deleteRecord(withID: CKRecord.ID(recordName: entry.id))
+            } catch let e as CKError where e.code == .unknownItem {
+                // 已经不在了，照样从列表里去掉
+            } catch {
+                return .failure(Self.map(error))
+            }
+        }
+        mySubmissions.removeAll { $0.id == entry.id }
+        if let spotID = entry.spotID { photosBySpot[spotID]?.removeAll { $0.id == entry.id } }
+        persistMySubmissions()
+        return .success(())
     }
 
     // MARK: - 举报 / 屏蔽 / 删除

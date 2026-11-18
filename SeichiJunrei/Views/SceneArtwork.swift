@@ -4,7 +4,9 @@ import MapKit
 import ImageIO
 import SeichiCore
 
-/// 名场面画面。优先级：用户自己选的截图 → （可选）封面插画 → 真实地点照片 → 有授权的 sceneImage → 插画风占位图。
+/// 名场面画面。
+/// - 封面 / 卡片（useLocationPhoto）：封面插画 → 真实地点照片 → 卫星图。用户自己存的原作截图不出现在这里。
+/// - 相机对位 / 分享对比：用户自己存的原作截图 → 有授权的 sceneImage → 插画风占位图。
 /// 请勿打包未经授权的动画截图 / 剧照 / 海报。
 struct SceneArtwork: View {
     let spot: Spot
@@ -15,7 +17,7 @@ struct SceneArtwork: View {
 
     var body: some View {
         Group {
-            if let userImage = SceneImageStore.shared.image(for: spot.id) {
+            if !useLocationPhoto, let userImage = SceneImageStore.shared.image(for: spot.id) {
                 Image(uiImage: userImage).resizable().scaledToFill()
             } else if useLocationPhoto, let ill = spot.illustration,
                       let image = IllustrationImages.shared.image(ill.file, thumbnail: compact) {
@@ -178,7 +180,8 @@ struct IllustrationCredit: View {
 
 // MARK: - 没有实景照片时的兜底：Apple 街景 / 卫星实景
 
-/// 详情页顶部的大图：自己的截图 → 封面插画（可切换看实景照片）→ 实景照片 → Apple 街景（Look Around，可拖动环顾）→ 3D 卫星实景
+/// 详情页顶部的大图：封面插画（可切换看实景照片）→ 实景照片 → 巡礼者照片 → Apple 街景（Look Around，可拖动环顾）→ 3D 卫星实景。
+/// 右下角“看原作画面”：原作截图有版权不能收录，帮用户去网上搜。
 struct SpotHeroImage: View {
     let spot: Spot
     @State private var lookAround: MKLookAroundScene?
@@ -186,19 +189,18 @@ struct SpotHeroImage: View {
     /// 有插画时，用户点了“看实景”
     @State private var showingRealPhoto = false
 
-    private enum Source { case screenshot, illustration, photo, community, lookAround, satellite }
+    private enum Source { case illustration, photo, community, lookAround, satellite }
+    @Environment(\.openURL) private var openURL
 
     /// 插画和实景照片视角接近时才提供切换；差得多就只显示插画，免得对不上
     private var canToggle: Bool {
         spot.illustration?.showsRealPhoto == true && spot.photo != nil
-            && !SceneImageStore.shared.hasImage(for: spot.id)
     }
 
     /// 巡礼者上传的照片（没有自由许可的实景照片时用第一张）
     private var communityPhoto: CommunityPhoto? { CommunityService.shared.photosBySpot[spot.id]?.first }
 
     private var source: Source {
-        if SceneImageStore.shared.hasImage(for: spot.id) { return .screenshot }
         if spot.illustration != nil, !(showingRealPhoto && canToggle) { return .illustration }
         if spot.photo != nil { return .photo }
         if communityPhoto != nil { return .community }
@@ -214,7 +216,7 @@ struct SpotHeroImage: View {
                 .frame(height: 240)
                 .overlay {
                     switch source {
-                    case .screenshot, .illustration:
+                    case .illustration:
                         SceneArtwork(spot: spot, useLocationPhoto: true)
                     case .photo where spot.illustration == nil:
                         SceneArtwork(spot: spot, useLocationPhoto: true)
@@ -262,8 +264,28 @@ struct SpotHeroImage: View {
                     .accessibilityIdentifier("heroToggle")
                 }
             }
-            if source == .illustration, let ill = spot.illustration { IllustrationCredit(illustration: ill) }
-            if source == .photo, let photo = spot.photo { PhotoCredit(photo: photo) }
+            .overlay(alignment: .bottomTrailing) {
+                Button {
+                    if let url = SceneSearchLink.url(for: spot) { openURL(url) }
+                } label: {
+                    Label(L("detail.searchOriginal"), systemImage: "magnifyingglass")
+                        .font(.subheadline.bold())
+                        .foregroundStyle(.white)
+                        .padding(.horizontal, 12).padding(.vertical, 8)
+                        .background(spot.tintColor, in: Capsule())
+                        .shadow(color: .black.opacity(0.25), radius: 6, y: 2)
+                }
+                .buttonStyle(.plain)
+                .padding(10)
+                .accessibilityIdentifier("searchScene")
+            }
+            VStack(alignment: .leading, spacing: 2) {
+                if source == .illustration, let ill = spot.illustration { IllustrationCredit(illustration: ill) }
+                if source == .photo, let photo = spot.photo { PhotoCredit(photo: photo) }
+                Text(L("detail.originalNotIncluded"))
+                    .font(.caption2)
+                    .foregroundStyle(.secondary)
+            }
         }
         .task(id: spot.id) {
             guard spot.photo == nil, !checkedLookAround else { return }
@@ -274,7 +296,6 @@ struct SpotHeroImage: View {
 
     private var badgeLabel: (String, String)? {
         switch source {
-        case .screenshot: return nil
         case .illustration: return (L("illustration.badge"), "sparkles")
         case .photo: return spot.isCommunity ? (L("community.badge"), "person.2.fill") : (L("photo.realPlace"), "photo")
         case .community: return (L("community.badge"), "person.2.fill")
@@ -331,5 +352,19 @@ final class MapSnapshotCache {
         let image = snapshot.image
         cache[spot.id] = image
         return image
+    }
+}
+
+/// “网上搜这一幕”：按界面语言选搜索引擎（简中百度、韩语 Naver、其他 Google），
+/// 搜索词同时带日语原名 / 日语地名和当前语言的作品名、地名
+enum SceneSearchLink {
+    static func url(for spot: Spot) -> URL? {
+        let lang = AppLanguage.current
+        let jaPlace = spot.translations["ja"]?.placeName ?? spot.placeName
+        let localized = spot.localized(to: lang)
+        let query = SceneImageSearch.query(originalWork: spot.work, japanesePlace: jaPlace,
+                                           localizedWork: localized.workLocalized, localizedPlace: localized.placeName,
+                                           language: lang)
+        return SceneImageSearch.url(query: query, language: lang)
     }
 }

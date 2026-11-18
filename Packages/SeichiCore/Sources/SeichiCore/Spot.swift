@@ -63,15 +63,16 @@ public struct SpotTranslation: Codable, Hashable, Sendable {
     public var bestTime: String?
     public var creator: String?
     public var synopsis: String?
+    public var accessPointName: String?
 
     public init(workLocalized: String? = nil, placeName: String? = nil, sceneTitle: String? = nil,
                 episode: String? = nil, story: String? = nil, trivia: String? = nil,
                 highlight: String? = nil, access: String? = nil, bestTime: String? = nil,
-                creator: String? = nil, synopsis: String? = nil) {
+                creator: String? = nil, synopsis: String? = nil, accessPointName: String? = nil) {
         self.workLocalized = workLocalized; self.placeName = placeName; self.sceneTitle = sceneTitle
         self.episode = episode; self.story = story; self.trivia = trivia
         self.highlight = highlight; self.access = access; self.bestTime = bestTime
-        self.creator = creator; self.synopsis = synopsis
+        self.creator = creator; self.synopsis = synopsis; self.accessPointName = accessPointName
     }
 }
 
@@ -130,6 +131,12 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
     public var photo: SpotPhoto?
     /// 封面插画
     public var illustration: SpotIllustration?
+    /// 最佳到访月份（1–12）
+    public var bestMonths: [Int]
+    /// 步行起点（车站出口 / 巴士站）
+    public var accessPoint: GeoPoint?
+    /// 步行起点的名字，例如“田端站 南口”
+    public var accessPointName: String?
     /// 作品首播 / 上映年份
     public var year: Int?
     /// 导演 / 制作公司 / 电视台
@@ -156,7 +163,8 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
                 highlight: String? = nil, access: String? = nil, bestTime: String? = nil,
                 spoiler: Bool = false, photo: SpotPhoto? = nil, year: Int? = nil,
                 creator: String? = nil, synopsis: String? = nil, officialURL: String? = nil,
-                country: String? = nil, illustration: SpotIllustration? = nil) {
+                country: String? = nil, illustration: SpotIllustration? = nil,
+                bestMonths: [Int] = [], accessPoint: GeoPoint? = nil, accessPointName: String? = nil) {
         self.id = id; self.workID = workID ?? work; self.work = work; self.workLocalized = workLocalized
         self.mediaType = mediaType; self.aliases = aliases
         self.placeName = placeName; self.sceneTitle = sceneTitle; self.episode = episode
@@ -169,6 +177,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         self.spoiler = spoiler; self.photo = photo; self.year = year
         self.creator = creator; self.synopsis = synopsis; self.officialURL = officialURL
         self.country = country; self.illustration = illustration
+        self.bestMonths = bestMonths; self.accessPoint = accessPoint; self.accessPointName = accessPointName
     }
 
     enum CodingKeys: String, CodingKey {
@@ -176,6 +185,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         case latitude, longitude, sceneHeading, scenePitch, arrivalRadius
         case sceneImage, sourceURL, verified, tint, translations
         case workID, highlight, access, bestTime, spoiler, photo, year, creator, synopsis, officialURL, country, illustration
+        case bestMonths, accessPoint, accessPointName
     }
 
     public init(from decoder: Decoder) throws {
@@ -212,6 +222,9 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         spoiler = try c.decodeIfPresent(Bool.self, forKey: .spoiler) ?? false
         photo = try c.decodeIfPresent(SpotPhoto.self, forKey: .photo)
         illustration = try c.decodeIfPresent(SpotIllustration.self, forKey: .illustration)
+        bestMonths = try c.decodeIfPresent([Int].self, forKey: .bestMonths) ?? []
+        accessPoint = try c.decodeIfPresent(GeoPoint.self, forKey: .accessPoint)
+        accessPointName = try c.decodeIfPresent(String.self, forKey: .accessPointName)
         year = try c.decodeIfPresent(Int.self, forKey: .year)
         creator = try c.decodeIfPresent(String.self, forKey: .creator)
         synopsis = try c.decodeIfPresent(String.self, forKey: .synopsis)
@@ -248,6 +261,9 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         if spoiler { try c.encode(spoiler, forKey: .spoiler) }
         try c.encodeIfPresent(photo, forKey: .photo)
         try c.encodeIfPresent(illustration, forKey: .illustration)
+        if !bestMonths.isEmpty { try c.encode(bestMonths, forKey: .bestMonths) }
+        try c.encodeIfPresent(accessPoint, forKey: .accessPoint)
+        try c.encodeIfPresent(accessPointName, forKey: .accessPointName)
         try c.encodeIfPresent(year, forKey: .year)
         try c.encodeIfPresent(creator, forKey: .creator)
         try c.encodeIfPresent(synopsis, forKey: .synopsis)
@@ -279,6 +295,7 @@ public extension Spot {
         if let v = t.bestTime, !v.isEmpty { s.bestTime = v }
         if let v = t.creator, !v.isEmpty { s.creator = v }
         if let v = t.synopsis, !v.isEmpty { s.synopsis = v }
+        if let v = t.accessPointName, !v.isEmpty { s.accessPointName = v }
         return s
     }
 
@@ -360,6 +377,7 @@ struct CatalogFile: Decodable {
         var access: String?
         var bestTime: String?
         var tips: String?
+        var accessPointName: String?
     }
     struct SpotRecord: Decodable {
         var id: String
@@ -373,6 +391,8 @@ struct CatalogFile: Decodable {
         var sourceURL: String?
         var photo: SpotPhoto?
         var illustration: SpotIllustration?
+        var bestMonths: [Int]?
+        var accessPoint: GeoPoint?
         var verified: Bool?
         var text: [String: SpotText]
     }
@@ -399,7 +419,7 @@ struct CatalogFile: Decodable {
                     workLocalized: wl?.title, placeName: st?.placeName, sceneTitle: st?.sceneTitle,
                     episode: st?.episode, story: st?.story, trivia: st?.tips,
                     highlight: st?.highlight, access: st?.access, bestTime: st?.bestTime,
-                    creator: wl?.creator, synopsis: wl?.synopsis)
+                    creator: wl?.creator, synopsis: wl?.synopsis, accessPointName: st?.accessPointName)
             }
             return Spot(id: r.id, work: w.title,
                         workLocalized: wt?.title.flatMap { $0.isEmpty ? nil : $0 },
@@ -412,7 +432,8 @@ struct CatalogFile: Decodable {
                         workID: w.id, highlight: t.highlight, access: t.access, bestTime: t.bestTime,
                         spoiler: r.spoiler ?? false, photo: r.photo, year: w.year,
                         creator: wt?.creator ?? w.creator, synopsis: wt?.synopsis, officialURL: w.officialURL,
-                        country: w.country == "JP" ? nil : w.country, illustration: r.illustration)
+                        country: w.country == "JP" ? nil : w.country, illustration: r.illustration,
+                        bestMonths: r.bestMonths ?? [], accessPoint: r.accessPoint, accessPointName: t.accessPointName)
         }
     }
 }

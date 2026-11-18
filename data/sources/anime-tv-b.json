@@ -494,46 +494,58 @@
    "spoiler": false,
    "sourceURL": "https://www.walkerplus.com/article/73979/",
    "verified": false,
+   "accessPoint": {
+    "latitude": 35.7437896,
+    "longitude": 139.6063163
+   },
+   "bestMonths": [
+    3,
+    4
+   ],
    "text": {
     "zh-Hans": {
      "placeName": "石神井公园 管理所旁广场（东京·练马）",
      "sceneTitle": "樱花树下的口风琴",
      "episode": "第1话",
-     "highlight": "漫天樱花里，宫园薰和孩子们一起吹着口风琴——这是公生与她的初遇，也是他黑白世界重新染上颜色的第一帧画面。",
+     "highlight": "很多人记住《四月是你的谎言》，就是从这一幕开始的：灰暗的画面被口风琴声和漫天樱花一下点亮，色彩本身就在替公生说出“心动了”。它也定下了整部作品的基调——春天、音乐，以及注定会结束的美好。看过结局再回来看这片樱花，反而更让人心酸。樱花树下的薰，也成了这部作品最具代表性的画面。",
      "story": "母亲去世后，曾被称作“人形节拍器”的有马公生再也听不见自己的琴声，从此远离钢琴，日子过得像一张褪了色的照片。那年春天，青梅竹马的小椿拜托他陪自己去见一个想认识渡亮太的女孩。被一阵口风琴声吸引，公生走进公园，看见宫园薰站在盛开的樱花树下，和一群孩子一起演奏，花瓣在阳光里纷纷落下。他看得出了神。整个故事就从这一刻开始：正是这位任性又耀眼的小提琴少女，把公生重新拉回了舞台。",
-     "access": "西武池袋线「石神井公园」站步行约 10 分钟；管理所位于井草通西侧、A 区棒球场前。",
-     "bestTime": "3 月下旬至 4 月上旬樱花盛开时的晴天午后。",
-     "tips": "公园免费入园，管理所（服务中心）开放时间 8:30–17:30。赏樱季游客很多，请勿堵住步道拍照或大声喧哗。"
+     "access": "西武池袋线「石神井公园」站南口出，沿商店街往南约 5 分钟到石神井池，再沿池北岸一直往西走到井草通，过马路即到。约 1.2 公里、步行 15 分钟。",
+     "bestTime": "樱花满开时的晴天，上午到午后逆光看花瓣最通透，最接近片中的光感；周末人潮汹涌，想拍空景请选平日早上。",
+     "tips": "都立公园，免费入园、全天开放；服务中心 8:30–17:30。都立公园内禁止使用无人机。赏樱季步道拥挤，请勿堵住通道或铺开三脚架拍照。",
+     "accessPointName": "石神井公园站 南口"
     },
     "ja": {
      "placeName": "石神井公園 サービスセンター付近の広場（東京・練馬）",
      "sceneTitle": "桜の下のピアニカ",
      "episode": "第1話",
-     "highlight": "満開の桜の下、子どもたちとピアニカを吹くかをり。公生とかをりが初めて出会い、モノクロだった公生の世界に色が戻り始める、物語の原点となるワンシーン。",
+     "highlight": "『四月は君の嘘』を思い出すとき、多くの人がまず浮かべるのがこの場面だ。灰色だった画面がピアニカの音と桜吹雪でぱっと色づき、色彩そのものが公生の心が動いた瞬間を語っている。春と音楽、そしていつか終わってしまう美しさ――作品のすべてがここに詰まっている。結末を知ってから見返すと、この桜がいっそう胸に刺さる。",
      "story": "母を亡くして以来、自分のピアノの音が聴こえなくなった有馬公生は、鍵盤から離れて色のない毎日を過ごしていた。ある春の日、幼なじみの椿に頼まれ、渡に会いたがっている女の子との待ち合わせに付き添うことに。ピアニカの音に誘われて公園へ入った公生が目にしたのは、桜吹雪の中で子どもたちと演奏する宮園かをりの姿だった。思わず見とれたこの瞬間から、型破りなヴァイオリニストが彼を再び音楽の舞台へ引き戻していく。",
-     "access": "西武池袋線「石神井公園」駅から徒歩約10分。サービスセンターは井草通りの西側、野球場（A地区）の前。",
-     "bestTime": "3月下旬〜4月上旬、桜が満開の晴れた日の午後。",
-     "tips": "入園無料、サービスセンターは8:30〜17:30。花見シーズンは大変混雑するので、通路をふさいでの撮影や大声は控えましょう。"
+     "access": "西武池袋線「石神井公園」駅南口から商店街を南へ約5分で石神井池。池の北岸を西へ進み、井草通りを渡ればすぐ。約1.2km、徒歩15分。",
+     "bestTime": "満開の晴れた日の午前〜昼過ぎ。逆光で花びらが透けて、作中の光にいちばん近い。週末は大混雑なので、人のいない画は平日の朝に。",
+     "tips": "都立公園で入園無料・常時開放、サービスセンターは8:30〜17:30。都立公園内でのドローン使用は禁止。花見シーズンは園路が混むので、通路をふさぐ撮影や三脚の使用は控えて。",
+     "accessPointName": "石神井公園駅 南口"
     },
     "en": {
      "placeName": "Plaza by the park office, Shakujii Park (Nerima, Tokyo)",
      "sceneTitle": "A melodica under the cherry blossoms",
      "episode": "Episode 1",
-     "highlight": "Kaori playing a melodica with a group of children beneath cherry trees in full bloom — the moment Kosei first sees her, and the first splash of colour in his grey world.",
+     "highlight": "For many viewers, this is the image that defines Your Lie in April: a grey world suddenly flooded with colour by a melodica and a storm of cherry petals, the palette itself telling you that Kosei's heart has just moved. It sets the tone for everything that follows — spring, music, and a beauty that can't last. Rewatch it after the finale and those blossoms hurt in a completely different way.",
      "story": "Since his mother's death, Kosei Arima can no longer hear the notes he plays, and he has drifted away from the piano into colourless days. One spring afternoon his childhood friend Tsubaki drags him along to meet a girl who wants an introduction to their friend Watari. Drawn by the sound of a melodica, Kosei wanders into the park and finds Kaori Miyazono playing for a crowd of kids under a storm of petals. He stands frozen, captivated. Everything that follows — the violin, the competitions, his return to the stage — starts in this instant.",
-     "access": "About 10 min on foot from Shakujii-kōen Station (Seibu Ikebukuro Line). The park office is west of Igusa-dōri, in front of baseball field A.",
-     "bestTime": "Late March to early April, on a sunny afternoon when the cherries peak.",
-     "tips": "Free entry; the park office is open 8:30–17:30. Cherry season gets very crowded — don't block the paths for photos and keep the noise down."
+     "access": "From the South Exit of Shakujii-kōen Station (Seibu Ikebukuro Line), walk south through the shopping street to Shakujii Pond (5 min), then west along its north shore and cross Igusa-dōri. About 1.2 km, 15 min.",
+     "bestTime": "A sunny day at peak bloom, late morning to early afternoon, when backlit petals glow like the anime. Weekends are packed — go on a weekday morning for an empty shot.",
+     "tips": "A free, always-open metropolitan park; the service centre is open 8:30–17:30. Drones are banned in Tokyo metropolitan parks. Paths are jammed in cherry season — don't block them or set up tripods.",
+     "accessPointName": "Shakujii-kōen Sta. South Exit"
     },
     "ko": {
      "placeName": "샤쿠지이 공원 관리사무소 옆 광장(도쿄·네리마)",
      "sceneTitle": "벚꽃 아래의 멜로디언",
      "episode": "제1화",
-     "highlight": "만개한 벚꽃 아래에서 아이들과 멜로디언을 부는 카오리. 코세이가 그녀를 처음 만나는 순간이자, 흑백이던 그의 세상에 다시 색이 돌아오기 시작하는 장면이다.",
+     "highlight": "『4월은 너의 거짓말』 하면 많은 사람이 가장 먼저 떠올리는 장면이다. 잿빛이던 화면이 멜로디언 소리와 흩날리는 벚꽃으로 단숨에 물들며, 색채 자체가 코세이의 마음이 움직였다는 걸 말해 준다. 봄과 음악, 그리고 언젠가 끝나 버릴 아름다움—작품 전체의 정서가 이 한 장면에 담겨 있다. 결말을 알고 다시 보면 이 벚꽃이 훨씬 아프게 다가온다.",
      "story": "어머니를 여읜 뒤 자신의 피아노 소리를 듣지 못하게 된 아리마 코세이는 건반을 멀리한 채 무채색의 나날을 보내고 있었다. 어느 봄날, 소꿉친구 츠바키의 부탁으로 와타리를 소개받고 싶어 한다는 여자아이를 만나러 따라나선다. 멜로디언 소리에 이끌려 공원에 들어선 코세이의 눈에 들어온 것은, 흩날리는 꽃잎 속에서 아이들과 연주하는 미야조노 카오리였다. 넋을 잃고 바라본 이 순간부터, 제멋대로인 바이올리니스트는 그를 다시 음악의 무대로 끌어내기 시작한다.",
-     "access": "세이부 이케부쿠로선 샤쿠지이코엔역에서 도보 약 10분. 관리사무소는 이구사 거리 서쪽, 야구장(A지구) 앞에 있다.",
-     "bestTime": "벚꽃이 절정인 3월 하순~4월 초순, 맑은 날 오후.",
-     "tips": "입장 무료, 관리사무소는 8:30~17:30 운영. 벚꽃 시즌에는 매우 붐비니 통로를 막고 촬영하거나 큰 소리를 내지 않도록 주의하자."
+     "access": "세이부 이케부쿠로선 샤쿠지이코엔역 남쪽 출구에서 상점가를 따라 남쪽으로 약 5분 가면 샤쿠지이 연못. 연못 북쪽 기슭을 따라 서쪽으로 가다 이구사 거리를 건너면 바로다. 약 1.2km, 도보 15분.",
+     "bestTime": "만개한 맑은 날 오전~이른 오후. 역광에 꽃잎이 비쳐 작중 빛에 가장 가깝다. 주말은 매우 붐비니 사람 없는 사진은 평일 아침에.",
+     "tips": "도립공원으로 입장 무료·상시 개방, 서비스센터는 8:30~17:30. 도립공원 내 드론 사용은 금지. 벚꽃 시즌에는 산책로가 붐비니 통로를 막거나 삼각대를 펴지 말자.",
+     "accessPointName": "샤쿠지이코엔역 남쪽 출구"
     }
    }
   },
@@ -548,46 +560,58 @@
    "sourceURL": "https://www.fun-japan.jp/jp/articles/13743",
    "photo": "File:Hitoyoshi Station 20170317.jpg",
    "verified": false,
+   "accessPoint": {
+    "latitude": 32.2158382,
+    "longitude": 130.753521
+   },
+   "bestMonths": [
+    7,
+    8
+   ],
    "text": {
     "zh-Hans": {
      "placeName": "JR 人吉站 站前（熊本·人吉）",
      "sceneTitle": "检票口前的等待",
      "episode": "第2季（续 夏目友人帐）第8话",
-     "highlight": "千津年轻时在检票口前等待萤一的回忆，几乎原样画进了人吉站：站房外观、月台和检票口都与实景高度一致，是人吉“夏目巡礼”的起点。",
+     "highlight": "《夏目友人帐》最让人心头一紧的，常常不是妖怪，而是人与人之间迟来的思念。千津在检票口前等人的身影，安静得几乎没有台词，却成了很多粉丝心中的“催泪回”。木造站房、小小的检票口几乎原样入画，一出站就像走进了那段回忆。作为作者绿川幸故乡熊本的人吉玄关，这里也是“夏目巡礼”公认的第一站。",
      "story": "暑假里，夏目和同学们借住在一家老民宿里集中写作业。民宿的老奶奶千津温和亲切，附近的湖却流传着人鱼的传说，而这条人鱼与玲子之间似乎也有过一段过节。随着故事推进，千津年轻时的往事一点点浮出水面——她曾在这座小站的检票口前，等待着一个名叫萤一的人。夏目也因此被卷进人鱼与千津之间跨越漫长岁月的旧缘。这一集让人吉站成为《夏目友人帐》与人吉·球磨结缘的象征，作者绿川幸本人也出身熊本。",
-     "access": "熊本站乘高速巴士约 1.5 小时到人吉；站旁即球磨川铁道「人吉温泉」站。JR 肥萨线部分区段自 2020 年暴雨后停运，请先确认最新交通。",
-     "bestTime": "初夏傍晚光线柔和；夜间站前不定期有夏目角色影绘投影。",
-     "tips": "请勿在检票口和月台妨碍乘客通行，进站拍摄前先向站务人员打招呼。影绘投影的时间与地点以当地公告为准。"
+     "access": "站前广场就在 JR 人吉站正门外。JR 肥萨线仍有区段停运，从熊本多乘高速巴士（约 1.5–2 小时）；くま川铁道 2026 年 9 月已全线恢复。",
+     "bestTime": "夏日傍晚，木造站房染上夕阳最有剧中气氛；入夜后站前有时会投影夏目角色影绘。列车班次少，车与车之间人最少。",
+     "tips": "这是仍在运营的车站，请勿在检票口和站台妨碍乘客；进站内拍摄前先向站务员打招呼。JR 肥萨线部分停运，出发前务必确认最新交通。",
+     "accessPointName": "人吉站 站房正门"
     },
     "ja": {
      "placeName": "JR人吉駅 駅前（熊本・人吉）",
      "sceneTitle": "改札の前で待つ人",
      "episode": "第2期（続 夏目友人帳）第8話",
-     "highlight": "千津さんが若い頃、蛍一さんを待ち続けた改札口。駅舎の外観からホーム、改札までほぼそのまま描かれた人吉駅は、人吉の「夏目」巡りの出発点だ。",
+     "highlight": "『夏目友人帳』で胸をしめつけるのは、妖よりもむしろ、人と人とのすれ違う想いだ。改札の前で誰かを待つ千津さんの姿はほとんど言葉もないのに、多くのファンにとって忘れられない「泣ける回」になった。木造の駅舎も小さな改札もほぼそのまま描かれていて、駅を出た瞬間にあの記憶の中へ入り込める。作者・緑川ゆきの故郷熊本で、人吉の「夏目」巡りはここから始まる。",
      "story": "夏休み、夏目たちは宿題合宿のために古い民宿に泊まることになる。おかみの千津さんは穏やかで優しいが、近くの湖にはレイコとも因縁があるらしい人魚の言い伝えが残っていた。物語が進むにつれ、千津さんの若い頃の記憶が明らかになっていく。彼女はかつて、この小さな駅の改札で蛍一という人を待っていたのだ。夏目は、人魚と千津さんの長い長い縁に巻き込まれていく。原作者・緑川ゆきの出身地でもある熊本と作品を結ぶ、象徴的な一話。",
-     "access": "熊本駅から高速バスで約1時間30分。隣はくま川鉄道「人吉温泉」駅。JR肥薩線は2020年豪雨以降一部区間が運休中のため、最新情報を確認。",
-     "bestTime": "初夏の夕方。夜は駅前で夏目キャラクターの影絵が投影されることも。",
-     "tips": "改札やホームで利用者の通行を妨げないこと。構内で撮影する際は駅員に一声かけて。影絵の実施時間は地元の案内で確認を。"
+     "access": "駅前広場はJR人吉駅の正面出口のすぐ外。JR肥薩線は一部区間が運休中で、熊本からは高速バス（約1.5〜2時間）が中心。くま川鉄道は2026年9月に全線再開。",
+     "bestTime": "夏の夕方、木造駅舎が夕日に染まる時間がいちばん作中らしい。夜は駅前に夏目キャラクターの影絵が映されることも。列車の合間は人が少ない。",
+     "tips": "現役の駅なので、改札やホームで利用者の邪魔にならないように。構内で撮影するときは駅員に一声かけて。JR肥薩線は一部運休中なので、出発前に最新の運行情報を確認。",
+     "accessPointName": "人吉駅 駅舎正面"
     },
     "en": {
      "placeName": "JR Hitoyoshi Station forecourt (Hitoyoshi, Kumamoto)",
      "sceneTitle": "Waiting at the ticket gate",
      "episode": "Season 2 (Zoku), Episode 8",
-     "highlight": "Chizu's memory of waiting at the ticket gate for a man named Keiichi was drawn almost exactly from Hitoyoshi Station — the building, the platforms and the gate itself. It's the natural starting point for a Natsume trip to Hitoyoshi.",
+     "highlight": "What gets you in Natsume is rarely the yokai — it's the longing between people that arrives too late. Young Chizu waiting at the ticket gate barely says a word, yet many fans name this as one of the episodes that made them cry. The wooden station and its small gate are drawn almost exactly, so stepping outside feels like stepping into her memory. In author Yuki Midorikawa's home prefecture, this is where every Natsume trip to Hitoyoshi begins.",
      "story": "Over the summer break, Natsume and his classmates stay at an old inn to get through their homework. The elderly innkeeper, Chizu, is gentle and kind, but the nearby lake has a legend about a mermaid — one who seems to have crossed paths with Reiko long ago. As the episode unfolds, Chizu's past surfaces: as a young woman she stood at the gate of this little station, waiting for someone called Keiichi. Natsume is drawn into a bond between the mermaid and Chizu that has lasted a lifetime. The episode made Hitoyoshi Station the symbol of the series' ties to Kumamoto, the author Yuki Midorikawa's home prefecture.",
-     "access": "About 1 hr 30 min by highway bus from Kumamoto Station. Kumagawa Railway's Hitoyoshi-Onsen Station is next door. Parts of the JR Hisatsu Line have been suspended since the 2020 floods — check before you go.",
-     "bestTime": "Early-summer evenings. At night, Natsume character shadow projections sometimes light up the station square.",
-     "tips": "Don't block passengers at the gate or on the platforms, and ask station staff before photographing inside. Check locally for shadow-projection times."
+     "access": "The forecourt is right outside the main entrance of JR Hitoyoshi Station. Parts of the JR Hisatsu Line are still suspended, so most people come by highway bus from Kumamoto (1.5–2 hr). The Kumagawa Railway fully reopened in Sept 2026.",
+     "bestTime": "Summer evenings, when the wooden station turns gold in the setting sun. After dark, Natsume character silhouettes are sometimes projected near the station. Trains are infrequent, so it's quiet between them.",
+     "tips": "It's a working station — don't block passengers at the gate or on the platforms, and ask staff before shooting inside. Parts of the JR Hisatsu Line are suspended, so check the latest transport info before you set out.",
+     "accessPointName": "Hitoyoshi Sta. main entrance"
     },
     "ko": {
      "placeName": "JR 히토요시역 역 앞(구마모토·히토요시)",
      "sceneTitle": "개찰구 앞에서의 기다림",
      "episode": "제2기(속 나츠메 우인장) 제8화",
-     "highlight": "치즈가 젊은 시절 케이이치를 기다리던 개찰구. 역사 외관부터 승강장, 개찰구까지 거의 그대로 그려진 히토요시역은 '나츠메' 성지순례의 출발점이다.",
+     "highlight": "『나츠메 우인장』에서 가슴을 저미는 건 요괴보다 사람과 사람 사이의 늦어 버린 그리움이다. 개찰구 앞에서 누군가를 기다리는 치즈의 모습은 대사도 거의 없는데, 많은 팬이 꼽는 '눈물 나는 에피소드'가 되었다. 목조 역사와 작은 개찰구가 거의 그대로 그려져, 역을 나서는 순간 그 기억 속으로 들어선 듯하다. 원작자 미도리카와 유키의 고향 구마모토에서, 히토요시의 '나츠메' 순례는 여기서 시작된다.",
      "story": "여름방학, 나츠메와 친구들은 숙제 합숙을 위해 오래된 민박에 묵게 된다. 민박의 할머니 치즈는 온화하고 다정하지만, 근처 호수에는 레이코와도 악연이 있는 듯한 인어의 전설이 전해진다. 이야기가 진행되면서 치즈의 젊은 시절 기억이 조금씩 드러난다. 그녀는 이 작은 역의 개찰구 앞에서 케이이치라는 사람을 기다리곤 했다. 나츠메는 인어와 치즈 사이에 얽힌 기나긴 인연에 휘말리게 된다. 원작자 미도리카와 유키의 고향 구마모토와 작품을 잇는 상징적인 에피소드다.",
-     "access": "구마모토역에서 고속버스로 약 1시간 30분. 바로 옆이 쿠마가와 철도 히토요시온센역. JR 히사쓰선은 2020년 호우 이후 일부 구간이 운휴 중이니 최신 정보를 확인할 것.",
-     "bestTime": "초여름 해 질 녘. 밤에는 역 앞에 나츠메 캐릭터 그림자 영상이 비치기도 한다.",
-     "tips": "개찰구나 승강장에서 승객의 통행을 막지 말고, 역 안에서 촬영할 때는 역무원에게 먼저 양해를 구하자. 그림자 영상 운영 시간은 현지 안내를 확인."
+     "access": "역 앞 광장은 JR 히토요시역 정문 바로 앞. JR 히사쓰선은 일부 구간이 운휴 중이라 구마모토에서는 고속버스(약 1.5~2시간)가 일반적. 쿠마가와 철도는 2026년 9월 전 구간 운행 재개.",
+     "bestTime": "여름 해 질 녘, 목조 역사가 노을에 물드는 시간이 가장 작중 같다. 밤에는 역 앞에 나츠메 캐릭터 그림자 영상이 비치기도 한다. 열차가 드물어 열차 사이 시간대엔 한산하다.",
+     "tips": "운영 중인 역이니 개찰구나 승강장에서 승객을 방해하지 말고, 역 안에서 촬영할 땐 역무원에게 먼저 양해를 구하자. JR 히사쓰선 일부 구간이 운휴 중이니 출발 전 최신 교통 정보를 확인할 것.",
+     "accessPointName": "히토요시역 역사 정문"
     }
    }
   },
@@ -602,46 +626,50 @@
    "spoiler": false,
    "sourceURL": "https://fun-japan.jp/en/articles/13743",
    "verified": false,
+   "bestMonths": [
+    6,
+    9
+   ],
    "text": {
     "zh-Hans": {
      "placeName": "雨宫神社 参道石阶（熊本·相良村）",
      "sceneTitle": "通往异界的石阶",
      "episode": "第4季、第6季 片头",
-     "highlight": "稻田中央一座孤零零的小山，鸟居和石阶一路通向林中小祠。《夏目友人帐》片头里“走上去就会遇见妖怪”的气氛，在这里能原样感受到。",
+     "highlight": "《夏目友人帐》的魅力，在于把“另一个世界”藏在最普通的乡间风景里。片头里夏目穿过鸟居、走上石阶的几秒钟，几乎就是这部作品气质的浓缩：安静、温柔，又带着一点说不清的寂寞。稻田中央孤零零的一片小树林，被当地人称作“龙猫森林”，2026 年还被相良村指定为村名胜。站在石阶下，很容易相信林子里真的有什么在看着你。",
      "story": "夏目的日常总是游走在人与妖怪的边界上：放学路上的田埂、林子里的小祠、无人打理的石阶，都可能是妖怪出没的入口。第四季和第六季的片头里，夏目穿过鸟居、踏上石阶走向森林深处的画面，就取材自相良村田野中的雨宫神社。这片孤立在稻田中的小树林被当地人称作“龙猫森林”，四季景色分明。对很多观众来说，这段片头就是《夏目》的气质本身：安静、温柔，又带着一丝说不清的寂寞。",
-     "access": "人吉站乘巴士约 20 分钟，在「新曽谷入口」下车后步行约 5 分钟；自驾更方便。",
-     "bestTime": "6 月插秧后或 9 月稻穗泛黄时，清晨或傍晚的斜光最美。",
-     "tips": "神社位于农田之中，请走田间道路，勿踩踏稻田或进入农家私有地；小祠无人看守，请安静参拜并带走垃圾。"
+     "access": "从人吉站自驾或打车约 20 分钟，神社脚下有几个停车位。也可在人吉站前乘产交巴士“人吉五木线”至「雨宫」附近，但班次很少，请提前查好时刻。",
+     "bestTime": "清晨或傍晚的斜光从侧面照进树林，最像片头的色调。插秧后水田倒映小森林、或稻穗金黄时尤其好看。几乎没有游客。",
+     "tips": "神社四周是正在耕作的农田，请走道路，勿踩进田埂和稻田，也不要把车停在农道上。小祠无人看守，请安静参拜、带走垃圾。夏季林中蚊虫多。"
     },
     "ja": {
      "placeName": "雨宮神社 参道の石段（熊本・相良村）",
      "sceneTitle": "異界へ続く石段",
      "episode": "第4期・第6期 オープニング",
-     "highlight": "田んぼの真ん中にぽつんと浮かぶ小さな森。鳥居をくぐり石段を上っていくと、オープニングで描かれた「妖怪に出会えそうな」空気がそのまま広がっている。",
+     "highlight": "『夏目友人帳』の魅力は、「向こう側の世界」をごく普通の田舎の風景にそっと隠しているところにある。オープニングで夏目が鳥居をくぐり石段を上る数秒間には、静かで優しく、どこか寂しいこの作品の空気が凝縮されている。田んぼの真ん中にぽつんと浮かぶ森は地元で「トトロの森」と呼ばれ、2026年には相良村の名勝にも指定された。石段の下に立つと、森の中から本当に何かに見られている気がしてくる。",
      "story": "夏目の日常は、いつも人と妖の境目にある。帰り道のあぜ道、林の中の小さな祠、苔むした石段——そのどれもが妖怪の現れる入り口になりうる。第4期と第6期のオープニングで、夏目が鳥居をくぐり石段を上って森の奥へ向かっていく場面は、相良村の田園に浮かぶ雨宮神社がモデルとされる。地元で「トトロの森」とも呼ばれるこの森は、季節ごとに表情を変える。静かで優しく、どこか寂しい。そんな『夏目』らしさが、このオープニングには詰まっている。",
-     "access": "人吉駅からバスで約20分、「新曽谷入口」下車、徒歩約5分。車が便利。",
-     "bestTime": "田植え後の6月や稲穂が色づく9月の、朝夕の斜光の時間帯。",
-     "tips": "周囲は農地なので、あぜや田んぼに立ち入らず道を歩くこと。無人の祠なので静かに参拝し、ごみは必ず持ち帰ろう。"
+     "access": "人吉駅から車・タクシーで約20分、神社の麓に数台分の駐車スペースあり。人吉駅前から産交バス「人吉五木線」で「雨宮」付近まで行けるが本数が少ないので時刻表を事前に確認。",
+     "bestTime": "朝夕の斜光が森を横から照らす時間が、いちばんオープニングの色に近い。田植え後の水田に森が映る頃や、稲穂が色づく頃は格別。人はほとんどいない。",
+     "tips": "周囲は耕作中の田畑。道を歩き、あぜや田んぼに入らないこと。農道への駐車も厳禁。無人の祠なので静かに参拝し、ごみは持ち帰りを。夏は森の中に虫が多い。"
     },
     "en": {
      "placeName": "Stone steps of Amamiya Shrine (Sagara, Kumamoto)",
      "sceneTitle": "Steps into another world",
      "episode": "Opening sequences, Seasons 4 and 6",
-     "highlight": "A lone wooded hillock in the middle of rice paddies, with a torii and stone steps leading up to a tiny shrine. The 'climb these steps and you might meet a yokai' feeling of the openings is right here.",
+     "highlight": "Natsume's magic is the way it hides another world inside the most ordinary countryside. Those few seconds in the opening — Natsume passing under a torii and climbing the steps — distil the whole show: quiet, gentle, and a little lonely. Locals call this lone grove in the rice fields 'Totoro's Forest', and in 2026 Sagara Village designated it a scenic site. Stand at the foot of the steps and it's easy to believe something in the trees is watching you.",
      "story": "Natsume's everyday life always runs along the border between humans and yokai: a path between paddies on the way home, a little shrine in the woods, mossy steps no one tends — any of them might be a doorway. In the openings of Seasons 4 and 6, Natsume passes under a torii and climbs stone steps into a grove; that image is modelled on Amamiya Shrine in Sagara. Locals call the isolated grove 'Totoro's Forest', and it changes with every season. Quiet, gentle and a little lonely — for many fans, these openings sum up what Natsume feels like.",
-     "access": "About 20 min by bus from Hitoyoshi Station to Shinsodani-iriguchi, then about 5 min on foot. Easier by car.",
-     "bestTime": "June after rice planting or September when the paddies turn gold, in low morning or evening light.",
-     "tips": "The shrine sits among working farmland — stay on the roads and never walk into the paddies. It's unstaffed, so visit quietly and take all rubbish home."
+     "access": "About 20 min by car or taxi from Hitoyoshi Station; there's space for a few cars at the foot of the shrine. Sanko Bus's Hitoyoshi–Itsuki line from Hitoyoshi Station passes nearby (stop: Amamiya), but buses are rare — check times first.",
+     "bestTime": "Early morning or late afternoon, when low light slants into the grove like in the opening. Best when flooded paddies mirror the trees after planting, or when the rice turns gold. You'll likely have it to yourself.",
+     "tips": "The shrine is surrounded by working farmland — stay on the road, keep out of the paddies and never park on farm tracks. It's unstaffed: visit quietly and take your rubbish home. Expect plenty of insects in summer."
     },
     "ko": {
      "placeName": "아마미야 신사 참배길 돌계단(구마모토·사가라무라)",
      "sceneTitle": "이세계로 이어지는 돌계단",
      "episode": "제4기·제6기 오프닝",
-     "highlight": "논 한가운데 홀로 솟은 작은 숲. 도리이를 지나 돌계단을 오르면 오프닝에서 그려진 '요괴를 만날 것 같은' 분위기가 그대로 펼쳐진다.",
+     "highlight": "『나츠메 우인장』의 매력은 '저편의 세계'를 아주 평범한 시골 풍경 속에 살며시 숨겨 둔 데 있다. 오프닝에서 나츠메가 도리이를 지나 돌계단을 오르는 몇 초에는 조용하고 다정하면서도 어딘가 쓸쓸한 이 작품의 분위기가 응축되어 있다. 논 한가운데 홀로 떠 있는 이 숲은 현지에서 '토토로의 숲'이라 불리며, 2026년에는 사가라무라의 명승으로도 지정되었다. 돌계단 아래 서면 숲속에서 정말 무언가가 지켜보는 것만 같다.",
      "story": "나츠메의 일상은 늘 사람과 요괴의 경계에 놓여 있다. 하굣길의 논두렁, 숲속의 작은 사당, 이끼 낀 돌계단 모두 요괴가 나타나는 입구가 될 수 있다. 제4기와 제6기 오프닝에서 나츠메가 도리이를 지나 돌계단을 올라 숲 깊은 곳으로 향하는 장면은 사가라무라 들판에 자리한 아마미야 신사가 모델이다. 현지에서는 '토토로의 숲'이라고도 불리는 이 숲은 계절마다 다른 표정을 보여 준다. 조용하고 다정하면서도 어딘가 쓸쓸한, 그야말로 '나츠메'다운 풍경이다.",
-     "access": "히토요시역에서 버스로 약 20분, '신소다니이리구치' 하차 후 도보 약 5분. 렌터카가 편리하다.",
-     "bestTime": "모내기가 끝난 6월이나 벼가 누렇게 익는 9월, 아침저녁 비스듬한 햇살이 들 때.",
-     "tips": "주변은 농지이므로 논에 들어가지 말고 길로만 다니자. 관리인이 없는 신사이니 조용히 참배하고 쓰레기는 반드시 가져갈 것."
+     "access": "히토요시역에서 자동차·택시로 약 20분, 신사 아래에 몇 대 주차할 공간이 있다. 히토요시역 앞에서 산코버스 '히토요시 이쓰키선'으로 '아마미야' 부근까지 갈 수 있지만 운행이 드무니 시간표를 미리 확인.",
+     "bestTime": "아침저녁 비스듬한 햇살이 숲을 옆에서 비출 때가 오프닝 색감에 가장 가깝다. 모내기 뒤 논물에 숲이 비칠 때나 벼가 누렇게 익을 때가 특히 좋다. 사람은 거의 없다.",
+     "tips": "주변은 경작 중인 논밭이니 길로만 다니고 논두렁이나 논에 들어가지 말자. 농로 주차도 금물. 관리인이 없는 사당이니 조용히 참배하고 쓰레기는 가져갈 것. 여름에는 숲에 벌레가 많다."
     }
    }
   },
@@ -657,46 +685,57 @@
    "sourceURL": "https://www.j-cast.com/2022/11/20450643.html?p=all",
    "photo": "File:Inari jinja shrine, Yuwaku onsen.jpg",
    "verified": false,
+   "accessPoint": {
+    "latitude": 36.4880688,
+    "longitude": 136.7557526
+   },
+   "bestMonths": [
+    10
+   ],
    "text": {
     "zh-Hans": {
      "placeName": "汤涌稻荷神社（石川·金泽 汤涌温泉）",
      "sceneTitle": "雪洞祭的愿望签",
      "episode": "第25–26话（最终话）",
-     "highlight": "动画虚构的“雪洞祭”在现实中真的办了起来：每年秋天，写满心愿的“望札”被送上这座稻荷神社。作品和小镇彼此成全，成了圣地巡礼的经典案例。",
+     "highlight": "《花开伊吕波》最动人的地方，是它真的改变了一座小镇：动画里虚构的雪洞祭，2011 年起在汤涌温泉变成了每年秋天的真实祭典，一直办到今天。看着无数写满心愿的望札在灯火中被送走，很多人会想起绪花那句想要“闪闪发光”的愿望。这里被视为“作品与地方共同成长”的圣地巡礼经典案例，每年都有老粉丝专程回来。",
      "story": "汤乃鹭温泉的雪洞祭，传说是为了给十月要回出云的小小女神照亮归途：人们把心愿写在“望札”上挂在雪洞灯下，最后一起焚烧，让愿望随神明远行。外婆宣布祭典之后就让喜翠庄歇业，旅馆上下在不安中迎来一年里最忙碌的一夜。祭典当晚，大家终于一起走进灯火，各自写下心愿；绪花也鼓起勇气，向孝一说出了自己的心意。第二天，外婆目送绪花离开汤乃鹭。这条通往神社的参道，见证了她在这里的成长。",
-     "access": "JR 金泽站东口乘北铁巴士往「湯涌温泉」约 50 分钟，终点下车步行约 2 分钟。",
-     "bestTime": "10 月上旬汤涌雪洞祭当晚（以官方公告为准）；平日推荐冬季雪后。",
-     "tips": "神社参拜免费，石阶与参道在雨雪天易滑。祭典当天人非常多，请听从工作人员引导，勿在参道上停留拍照。"
+     "access": "JR 金泽站东口乘北铁巴士“汤涌温泉”方向约 50 分钟，终点「汤涌温泉」下车，沿温泉街往里走约 400 米、5 分钟即到神社石阶。",
+     "bestTime": "雪洞祭当天傍晚点灯后最像动画（2026 年为 10 月 17 日）；平日白天游客很少，雪后的冬日清晨也很有味道。",
+     "tips": "神社参拜免费。祭典当天傍晚起进入温泉街与观看神事需购买入场券（或住宿等），请提前在官网确认。石阶雨雪天易滑，冬季巴士可能因积雪延误。",
+     "accessPointName": "汤涌温泉 巴士站"
     },
     "ja": {
      "placeName": "湯涌稲荷神社（石川・金沢 湯涌温泉）",
      "sceneTitle": "ぼんぼり祭りののぞみ札",
      "episode": "第25〜26話（最終話）",
-     "highlight": "アニメのために作られた架空の「ぼんぼり祭り」が、本当に湯涌の秋祭りになった。毎年、願いを書いたのぞみ札がこの稲荷神社へと届けられる。作品と町が互いを育てた、聖地巡礼の象徴的な場所。",
+     "highlight": "『花咲くいろは』がとりわけ愛されるのは、本当にひとつの町を変えたからだ。アニメの中の架空の祭りだったぼんぼり祭りは、2011年から湯涌温泉の秋の祭りとして毎年開かれている。願いを書いたのぞみ札がぼんぼりの灯りの中で送られていく光景に、緒花の「輝きたい」という思いを重ねる人も多い。作品と地域がともに育った聖地巡礼の代表例として、毎年古くからのファンが帰ってくる場所だ。",
      "story": "湯乃鷺温泉のぼんぼり祭りは、神無月に出雲へ帰る小さな神様の道しるべとして、願いを書いたのぞみ札をぼんぼりに下げ、最後にお焚き上げするという祭り。祭りが終わったら喜翆荘を閉める——女将スイのその宣言に揺れながら、旅館のみんなは一年でいちばん忙しい日を乗り切る。祭りの夜、ようやくそろって灯りの中へ出かけた彼らは、それぞれの願いを札に込め、緒花は孝一に自分の気持ちを伝える。そして翌日、スイは湯乃鷺を去る緒花を見送る。神社へ続くこの参道は、緒花の成長を見届けた場所だ。",
-     "access": "JR金沢駅東口から北鉄バス「湯涌温泉」行きで約50分、終点下車徒歩約2分。",
-     "bestTime": "10月上旬の湯涌ぼんぼり祭り当日（開催は公式発表を確認）。普段なら雪の後の冬も美しい。",
-     "tips": "参拝自由。石段や参道は雨や雪の日に滑りやすい。祭り当日は大変混み合うので、スタッフの誘導に従い、参道で立ち止まっての撮影は控えて。"
+     "access": "JR金沢駅東口から北鉄バス「湯涌温泉」行きで約50分、終点下車。温泉街を奥へ約400m、徒歩5分で神社の石段。",
+     "bestTime": "ぼんぼり祭り当日、灯りがともる夕方以降がいちばんアニメに近い（2026年は10月17日）。平日の日中は人が少なく、雪の朝もまた格別。",
+     "tips": "参拝自由。祭り当日は夕方以降の温泉街への入場や神事の観覧に入場券（または宿泊など）が必要なので、事前に公式サイトで確認を。石段は雨や雪で滑りやすく、冬はバスが雪で遅れることも。",
+     "accessPointName": "湯涌温泉 バス停"
     },
     "en": {
      "placeName": "Yuwaku Inari Shrine (Yuwaku Onsen, Kanazawa, Ishikawa)",
      "sceneTitle": "Wishes for the Bonbori Festival",
      "episode": "Episodes 25–26 (finale)",
-     "highlight": "The Bonbori Festival was invented for the anime — and then the town made it real. Every autumn, wish tags are carried up to this little Inari shrine, a rare case of a show and a town growing up together.",
+     "highlight": "Hanasaku Iroha is loved partly because it genuinely changed a town: the Bonbori Festival, invented for the anime, has been held for real in Yuwaku Onsen every autumn since 2011. Watching the wish tags sent off among the lanterns, many fans think of Ohana's wish to shine. It's held up as the textbook case of a show and a town growing together, and longtime fans return year after year.",
      "story": "In Yunosagi, the Bonbori Festival lights the way for a small goddess returning to Izumo in October: people write wishes on tags, hang them from paper lanterns, and burn them at the end so the wishes travel with her. Sui has announced she will close Kissuiso once the festival is over, and the staff push through the busiest day of the year with that weighing on them. On festival night they finally head out into the lanterns together, each writing a wish, and Ohana at last tells Ko how she feels. The next day, Sui sees Ohana off from Yunosagi. This path up to the shrine is where her time here comes full circle.",
-     "access": "About 50 min on the Hokutetsu bus bound for Yuwaku Onsen from JR Kanazawa Station East Exit; 2 min walk from the last stop.",
-     "bestTime": "The night of the real Yuwaku Bonbori Festival in early October (check the official announcement); winter after snowfall is lovely too.",
-     "tips": "Free to visit. The steps and path get slippery in rain and snow. On festival night it's packed — follow the staff and don't stop on the path for photos."
+     "access": "Hokutetsu bus for Yuwaku Onsen from JR Kanazawa Station East Exit (about 50 min) to the last stop, then about 400 m (5 min) up through the hot-spring street to the shrine steps.",
+     "bestTime": "Festival evening, once the lanterns are lit, is closest to the anime (17 October in 2026). On ordinary weekdays it's nearly empty, and a snowy winter morning is lovely too.",
+     "tips": "Free to visit. On festival day, entry to the hot-spring town from evening and to the ceremonies requires a ticket (or a stay etc.) — check the official site in advance. The steps are slippery in rain and snow, and winter buses can run late.",
+     "accessPointName": "Yuwaku Onsen bus stop"
     },
     "ko": {
      "placeName": "유와쿠 이나리 신사(이시카와·가나자와 유와쿠 온천)",
      "sceneTitle": "봉보리 축제의 소원 패",
      "episode": "제25~26화(최종화)",
-     "highlight": "애니메이션을 위해 만든 가상의 '봉보리 축제'가 실제 유와쿠의 가을 축제가 되었다. 해마다 소원을 적은 '노조미후다'가 이 이나리 신사로 올라온다. 작품과 마을이 서로를 키워 온 상징적인 장소다.",
+     "highlight": "『꽃이 피는 첫걸음』이 특별히 사랑받는 건 실제로 한 마을을 바꿔 놓았기 때문이다. 애니메이션 속 가상의 봉보리 축제는 2011년부터 유와쿠 온천의 진짜 가을 축제로 매년 열리고 있다. 소원을 적은 노조미후다가 등불 속에서 떠나보내지는 모습에 '빛나고 싶다'던 오하나의 마음을 겹쳐 보는 팬도 많다. 작품과 지역이 함께 자란 성지순례의 대표 사례로, 해마다 오랜 팬들이 다시 찾는 곳이다.",
      "story": "유노사기 온천의 봉보리 축제는 10월에 이즈모로 돌아가는 작은 신을 배웅하기 위해, 소원을 적은 노조미후다를 등롱에 매달았다가 마지막에 태워 보내는 축제다. 축제가 끝나면 킷스이장을 닫겠다는 할머니 스이의 선언에 흔들리면서도, 료칸 사람들은 1년 중 가장 바쁜 날을 버텨 낸다. 축제의 밤, 마침내 다 함께 등불 속으로 나선 그들은 저마다 소원을 적고, 오하나는 코우이치에게 자신의 마음을 전한다. 그리고 다음 날, 스이는 유노사기를 떠나는 오하나를 배웅한다. 신사로 이어지는 이 참배길은 오하나의 성장을 지켜본 곳이다.",
-     "access": "JR 가나자와역 동쪽 출구에서 호쿠테쓰 버스 '유와쿠온센'행으로 약 50분, 종점 하차 후 도보 약 2분.",
-     "bestTime": "10월 초 실제 유와쿠 봉보리 축제 당일(공식 발표 확인). 평소에는 눈 내린 뒤의 겨울도 아름답다.",
-     "tips": "참배 무료. 돌계단과 참배길은 비나 눈이 오면 미끄럽다. 축제 당일은 매우 붐비니 스태프 안내를 따르고 참배길에 멈춰 서서 촬영하지 말자."
+     "access": "JR 가나자와역 동쪽 출구에서 호쿠테쓰 버스 '유와쿠온센'행으로 약 50분, 종점 하차. 온천 거리를 따라 안쪽으로 약 400m, 도보 5분이면 신사 돌계단.",
+     "bestTime": "축제 당일 등불이 켜지는 저녁 이후가 애니메이션에 가장 가깝다(2026년은 10월 17일). 평일 낮에는 한산하고, 눈 온 겨울 아침도 운치 있다.",
+     "tips": "참배 무료. 축제 당일 저녁 이후 온천 거리 입장과 신사 의식 관람에는 입장권(또는 숙박 등)이 필요하니 공식 사이트에서 미리 확인할 것. 돌계단은 비나 눈에 미끄럽고, 겨울엔 눈 때문에 버스가 늦기도 한다.",
+     "accessPointName": "유와쿠온센 버스 정류장"
     }
    }
   },
@@ -711,46 +750,60 @@
    "sourceURL": "https://www.travel.co.jp/guide/article/1367/",
    "photo": "File:Demachi arcade01.JPG",
    "verified": false,
+   "accessPoint": {
+    "latitude": 35.030204,
+    "longitude": 135.772552
+   },
+   "bestMonths": [
+    4,
+    5,
+    10,
+    11
+   ],
    "text": {
     "zh-Hans": {
      "placeName": "出町桝形商店街 河原町通入口（京都·出町柳）",
      "sceneTitle": "欢迎来到兔山商店街",
      "episode": "第1话起（几乎每集）",
-     "highlight": "拱廊下吊着的“鲭鱼”装饰、并排的鱼铺和菜铺……兔山商店街几乎就是出町桝形商店街本身，走进去就像来到了玉子家门口。",
+     "highlight": "《玉子市场》讲的不是什么大事件，而是“被一条街的人看着长大”的幸福。京都动画几乎把出町桝形商店街原样搬进了画面，吊在拱廊下的鲭鱼装饰、鱼铺和菜铺的吆喝，都让这份日常显得格外真实。走进来你会发现，动画里那种街坊之间的温度并没有夸张。不少店铺至今还能看到作品的海报，商店街一直温柔地欢迎着粉丝。",
      "story": "对玉子来说，商店街就是家：每天帮家里的年糕店开门，和对面另一家年糕店的青梅竹马饼藏隔着街拌嘴，再跟鱼铺、花店的叔叔阿姨们挨个打招呼。自从会说话的胖鸟德拉飞来之后，这条小小的拱廊里接连上演鸡飞狗跳的日常，也一点点照出商店街里人与人之间的牵挂。作为兔山商店街的原型，出町桝形商店街连天井上吊着的鲭鱼装饰都进了动画——这里正是从若狭湾运鲭鱼进京的“鲭街道”终点。",
-     "access": "京阪电车或叡山电车「出町柳」站步行约 5 分钟，过出町桥即到拱廊东口。",
-     "bestTime": "店铺营业的白天（约 10:00–18:00），部分店铺周日或周三休息。",
-     "tips": "这里是居民日常买菜的商店街，请勿堵在通道中间拍照；拍摄店面前先打个招呼，顺手买点东西就更好了。"
+     "access": "京阪「出町柳」站 5 号出口出来往西过出町桥（跨贺茂川），过河原町通即是拱廊东口，约 300 米、4 分钟。",
+     "bestTime": "工作日上午到傍晚，店铺都开着、买菜的街坊来来往往，最有片中气氛。顺路在鸭川三角洲走走，春秋天气最舒服。",
+     "tips": "这是街坊日常买菜的商店街，通道很窄，请勿在中间停下拍照或使用三脚架。拍店面或店主前先打招呼；部分店铺周日或周三休息。",
+     "accessPointName": "出町柳站 5 号出口"
     },
     "ja": {
      "placeName": "出町桝形商店街 河原町通側入口（京都・出町柳）",
      "sceneTitle": "ようこそ、うさぎ山商店街へ",
      "episode": "第1話〜（ほぼ毎話）",
-     "highlight": "アーケードに吊るされた「サバ」のオブジェ、並ぶ魚屋や八百屋。うさぎ山商店街はほぼ出町桝形商店街そのもので、一歩入ればたまこの家の前に立っている気分になる。",
+     "highlight": "『たまこまーけっと』が描くのは大事件ではなく、「商店街みんなに見守られて育つ」幸せだ。京都アニメーションは出町桝形商店街をほぼそのまま画面に写し取り、アーケードに吊られたサバのオブジェや魚屋・八百屋の呼び声が、その日常に確かな手ざわりを与えている。歩いてみると、作中のご近所の温かさが少しも誇張ではないとわかる。今も作品のポスターを貼る店があり、商店街はずっとファンを温かく迎えている。",
      "story": "たまこにとって商店街は家そのもの。毎朝家業の餅屋を手伝い、向かいのライバル餅屋の幼なじみ・もち蔵と通り越しに言い合い、魚屋や花屋のおじさんおばさんに声をかけていく。言葉を話す鳥・デラが転がり込んでからは、この小さなアーケードで騒がしい日常が続き、そのたびに商店街の人たちの温かさが浮かび上がる。モデルとなった出町桝形商店街は、天井から下がるサバのオブジェまでアニメに登場。若狭湾からサバを運んだ「鯖街道」の終点の地でもある。",
-     "access": "京阪・叡山電車「出町柳」駅から徒歩約5分。出町橋を渡ってすぐアーケードの東口。",
-     "bestTime": "お店が開いている日中（10時〜18時頃）。日曜や水曜が休みの店もある。",
-     "tips": "地元の人が日々買い物をする商店街なので、通路の真ん中で立ち止まって撮影しないこと。お店を撮るときは一声かけて、何か買って応援しよう。"
+     "access": "京阪「出町柳」駅5番出口を出て西へ、出町橋で賀茂川を渡り、河原町通を越えるとアーケードの東口。約300m、徒歩4分。",
+     "bestTime": "平日の午前から夕方、店が開いて買い物客が行き交う時間がいちばん作中らしい。鴨川デルタも近いので、気候のいい春と秋に合わせて。",
+     "tips": "地元の人が日々買い物をする商店街で通路は狭め。真ん中で立ち止まっての撮影や三脚はNG。店や店の人を撮るときは一声かけて。日曜・水曜休みの店もある。",
+     "accessPointName": "出町柳駅 5番出口"
     },
     "en": {
      "placeName": "Demachi Masugata Shopping Arcade, Kawaramachi entrance (Demachiyanagi, Kyoto)",
      "sceneTitle": "Welcome to Usagiyama Arcade",
      "episode": "From Episode 1 (almost every episode)",
-     "highlight": "The mackerel ornament hanging from the roof, the fishmonger and greengrocer side by side — Usagiyama Arcade is essentially Demachi Masugata itself. Step inside and you're standing outside Tamako's front door.",
+     "highlight": "Tamako Market isn't about big events — it's about the happiness of growing up watched over by an entire street. Kyoto Animation brought Demachi Masugata into the show almost unchanged, and the hanging mackerel and shopkeepers' calls give that everyday warmth real weight. Walk through and you'll find the neighbourly kindness on screen wasn't exaggerated. Shops still put up the show's posters, and the arcade has long welcomed fans.",
      "story": "For Tamako, the arcade is home. Every morning she helps open the family mochi shop, trades jabs across the street with Mochizo, her childhood friend from the rival mochi shop opposite, and greets every shopkeeper on the way. Once Dera, the talking bird, crash-lands into her life, this little covered street hosts one comic mess after another, each revealing how much the neighbours care about one another. The real arcade even lent the show its hanging mackerel — a nod to the fact that Demachi was the end of the old Mackerel Road that carried fish from Wakasa Bay to Kyoto.",
-     "access": "About 5 min on foot from Demachiyanagi Station (Keihan / Eizan lines): cross Demachi Bridge and you're at the east entrance.",
-     "bestTime": "Daytime when shops are open (roughly 10:00–18:00); some close on Sundays or Wednesdays.",
-     "tips": "Locals do their daily shopping here, so don't stop in the middle of the aisle to shoot. Ask before photographing a shop — and buy something while you're there."
+     "access": "From Exit 5 of Keihan Demachiyanagi Station, head west across Demachi Bridge over the Kamo River, then cross Kawaramachi-dōri to the arcade's east entrance. About 300 m, 4 min.",
+     "bestTime": "Weekday late mornings to early evening, when shops are open and locals are doing their shopping. The Kamo River delta is next door, so spring and autumn are the nicest seasons.",
+     "tips": "Locals do their daily shopping in this narrow arcade — don't stop mid-aisle to shoot or use a tripod. Ask before photographing shops or shopkeepers; some close on Sundays or Wednesdays.",
+     "accessPointName": "Demachiyanagi Sta. Exit 5"
     },
     "ko": {
      "placeName": "데마치마스가타 상점가 가와라마치 거리 입구(교토·데마치야나기)",
      "sceneTitle": "우사기야마 상점가에 어서 오세요",
      "episode": "제1화부터(거의 매화)",
-     "highlight": "아케이드에 매달린 고등어 장식, 나란히 늘어선 생선 가게와 채소 가게. 우사기야마 상점가는 사실상 데마치마스가타 상점가 그 자체라서, 들어서는 순간 타마코네 가게 앞에 선 기분이 든다.",
+     "highlight": "『타마코 마켓』이 그리는 건 큰 사건이 아니라 '상점가 사람들 모두의 보살핌 속에 자라는' 행복이다. 교토 애니메이션은 데마치마스가타 상점가를 거의 그대로 화면에 옮겼고, 아케이드에 매달린 고등어 장식과 생선 가게·채소 가게의 외침이 그 일상에 생생한 질감을 더한다. 직접 걸어 보면 작중 이웃들의 온기가 조금도 과장이 아니었음을 알게 된다. 지금도 작품 포스터를 붙여 둔 가게가 있고, 상점가는 오랫동안 팬들을 따뜻하게 맞아 왔다.",
      "story": "타마코에게 상점가는 곧 집이다. 매일 아침 가업인 떡집을 돕고, 맞은편 라이벌 떡집의 소꿉친구 모치조와 길 하나를 사이에 두고 티격태격하며, 생선 가게와 꽃집 아저씨 아주머니에게 인사를 건넨다. 말하는 새 데라가 굴러들어 온 뒤로 이 작은 아케이드에서는 소란스러운 일상이 이어지고, 그때마다 상점가 사람들의 정이 드러난다. 모델이 된 데마치마스가타 상점가는 천장의 고등어 장식까지 애니메이션에 등장한다. 와카사만에서 교토로 고등어를 실어 나르던 '사바 가도'의 종점이기도 하다.",
-     "access": "게이한·에이잔 전철 데마치야나기역에서 도보 약 5분. 데마치 다리를 건너면 바로 아케이드 동쪽 입구다.",
-     "bestTime": "가게가 문을 여는 낮 시간(10시~18시경). 일요일이나 수요일에 쉬는 가게도 있다.",
-     "tips": "주민들이 매일 장을 보는 상점가이니 통로 한가운데 멈춰 촬영하지 말자. 가게를 찍을 때는 먼저 양해를 구하고, 뭔가 하나 사 가면 더 좋다."
+     "access": "게이한 데마치야나기역 5번 출구에서 서쪽으로 데마치 다리를 건너(가모강) 가와라마치 거리를 지나면 아케이드 동쪽 입구. 약 300m, 도보 4분.",
+     "bestTime": "평일 오전부터 저녁, 가게가 문을 열고 장보는 주민이 오가는 시간이 가장 작중 같다. 가모강 델타가 가까워 날씨 좋은 봄·가을이 좋다.",
+     "tips": "주민들이 매일 장을 보는 좁은 상점가다. 통로 한가운데 멈춰 촬영하거나 삼각대를 쓰지 말자. 가게나 상인을 찍을 땐 먼저 양해를 구할 것. 일요일·수요일에 쉬는 가게도 있다.",
+     "accessPointName": "데마치야나기역 5번 출구"
     }
    }
   },
@@ -766,46 +819,60 @@
    "sourceURL": "https://nlab.itmedia.co.jp/fav/articles/3920294/",
    "photo": "File:Kinshi Park Cherry Blossom Festival.jpg",
    "verified": false,
+   "accessPoint": {
+    "latitude": 35.697202,
+    "longitude": 139.813971
+   },
+   "bestMonths": [
+    3,
+    4,
+    10,
+    11
+   ],
    "text": {
     "zh-Hans": {
      "placeName": "锦糸公园（东京·墨田 锦糸町）",
      "sceneTitle": "公园长椅上的搭档入门",
      "episode": "第1话",
-     "highlight": "千束和泷奈并肩坐在锦糸公园长椅上的一幕，是这对搭档故事的起点。抬头望向北边，就是作中被拦腰折断的“旧电波塔”——现实里完好无损的东京晴空塔。",
+     "highlight": "《莉可丽丝》能火起来，靠的不只是枪战，更是千束和泷奈之间那种慢慢靠近的关系。这张长椅上的对话，是两个性格完全相反的女孩第一次真正并肩坐下——轻松的日常感，正是这部作品最让人上瘾的部分。抬头就能望见作中被折断的“旧电波塔”原型晴空塔，现实与动画的反差也让粉丝们乐此不疲地来这里重现画面。",
      "story": "因违抗命令被调离 DA 总部的泷奈，满脑子只想着立功回去。来到咖啡馆 LycoReco 的第一天，她就被千束拉着在墨田的街头四处奔走，接的尽是些和“特工”八竿子打不着的委托。在锦糸公园的长椅上，千束向她讲解店里的工作，泷奈则一脸困惑：这真的是最强的莉可丽丝？性格完全相反的两个人，就从这张长椅开始互相磨合。墨田区的街景在整部作品中反复出现，墨田区也因此入选“想去的日本动画圣地88”。",
-     "access": "JR 总武线或东京地铁半藏门线「锦糸町」站北口步行约 3 分钟。",
-     "bestTime": "3 月底樱花季，或晴朗的傍晚，能清楚望见晴空塔的时候。",
-     "tips": "千束和泷奈坐过的长椅在园内的儿童广场（ちびっこ広場）一带。那里常有孩子玩耍，请勿对着儿童拍照；长椅是公共设施，拍完请让给他人。"
+     "access": "JR「锦糸町」站北口出，过马路往北约 350 米、5 分钟进入公园；半藏门线 4 号出口更近，约 2 分钟。",
+     "bestTime": "晴朗的傍晚，晴空塔轮廓最清楚，天黑后还能拍到点灯；工作日白天儿童广场人少，长椅更容易空出来。",
+     "tips": "长椅在园内儿童广场一带，常有孩子玩耍，请勿把镜头对准儿童。长椅是公共设施，拍完请让给他人。",
+     "accessPointName": "锦糸町站 北口"
     },
     "ja": {
      "placeName": "錦糸公園（東京・墨田 錦糸町）",
      "sceneTitle": "ベンチで始まるコンビ修行",
      "episode": "第1話",
-     "highlight": "千束とたきなが錦糸公園のベンチに並んで座る場面は、二人のコンビの出発点。北を見上げれば、作中では折れた「旧電波塔」として描かれた東京スカイツリーがまっすぐ立っている。",
+     "highlight": "『リコリス・リコイル』が人気を集めたのは、銃撃戦だけでなく、千束とたきなが少しずつ近づいていく関係があったからだ。このベンチでの会話は、正反対の二人が初めて本当に並んで座る場面。肩の力が抜けた日常感こそ、この作品のいちばんクセになるところだ。見上げれば、作中では折れた「旧電波塔」のモデル、スカイツリー。現実とのギャップも楽しくて、ここで同じ構図を撮るファンが絶えない。",
      "story": "命令違反でDA本部を外されたたきなの頭にあるのは、成果を上げて本部に戻ることだけ。喫茶リコリコに来た初日から、千束に連れられて墨田の街を駆け回るが、受ける依頼はおよそエージェントらしくないものばかり。錦糸公園のベンチで千束から店の仕事を教わりながら、たきなは「これが最強のリコリス？」と戸惑いを隠せない。正反対の二人は、このベンチから少しずつ噛み合っていく。墨田区の風景は作中に何度も登場し、区は「訪れてみたい日本のアニメ聖地88」にも選ばれた。",
-     "access": "JR総武線・東京メトロ半蔵門線「錦糸町」駅北口から徒歩約3分。",
-     "bestTime": "3月末の桜の季節、またはスカイツリーがくっきり見える晴れた夕方。",
-     "tips": "二人が座ったベンチは園内の「ちびっこ広場」付近。子どもが遊んでいるので、子どもにカメラを向けないこと。ベンチは公共の場なので、撮影後は譲り合って。"
+     "access": "JR「錦糸町」駅北口から北へ約350m、徒歩5分で公園。半蔵門線なら4番出口が近く徒歩約2分。",
+     "bestTime": "晴れた夕方はスカイツリーの輪郭がくっきり、暗くなればライトアップも。平日の日中はちびっこ広場が空いていてベンチも座りやすい。",
+     "tips": "ベンチは園内のちびっこ広場付近。子どもが遊んでいるので、子どもにカメラを向けないこと。公共のベンチなので撮影後は譲り合いを。",
+     "accessPointName": "錦糸町駅 北口"
     },
     "en": {
      "placeName": "Kinshi Park (Kinshichō, Sumida, Tokyo)",
      "sceneTitle": "Partner training on a park bench",
      "episode": "Episode 1",
-     "highlight": "Chisato and Takina sitting side by side on a Kinshi Park bench is where their partnership really begins. Look north and you'll see Tokyo Skytree — the show's broken 'Old Radio Tower' — standing perfectly intact.",
+     "highlight": "Lycoris Recoil caught on not just for its gunfights but for the way Chisato and Takina slowly grow closer. This bench is where two complete opposites first really sit side by side, and that easy, everyday feel is what makes the show so addictive. Look up and there's Skytree — the real version of the show's broken 'Old Radio Tower' — and fans love recreating the shot with that contrast.",
      "story": "Kicked out of DA headquarters for disobeying orders, Takina has one goal: rack up results and get reinstated. From her first day at Café LycoReco, Chisato drags her all over Sumida on jobs that have nothing to do with being an elite agent. On a bench in Kinshi Park, Chisato walks her through how the café works while Takina wonders whether this is really the strongest Lycoris alive. Two complete opposites start learning to work together right here. Sumida's streets appear throughout the series, and the ward was named one of the '88 Anime Spots in Japan'.",
-     "access": "About 3 min on foot from the North Exit of Kinshichō Station (JR Sōbu Line / Tokyo Metro Hanzōmon Line).",
-     "bestTime": "Cherry-blossom season in late March, or a clear evening when the Skytree stands out.",
-     "tips": "The bench is around the children's play area (Chibikko Hiroba). Kids play there, so never point your camera at them, and give up the bench to others once you've had your shot."
+     "access": "From the North Exit of JR Kinshichō Station, walk about 350 m north (5 min) into the park. On the Hanzōmon Line, Exit 4 is closer (about 2 min).",
+     "bestTime": "Clear late afternoons give the sharpest Skytree, with the tower lit up after dark. On weekday daytimes the play area is quieter and the bench is easier to get.",
+     "tips": "The bench is near the children's play area — never point your camera at the kids. It's a public bench, so give it up to others once you've had your shot.",
+     "accessPointName": "Kinshichō Sta. North Exit"
     },
     "ko": {
      "placeName": "긴시 공원(도쿄·스미다 긴시초)",
      "sceneTitle": "벤치에서 시작된 콤비 수업",
      "episode": "제1화",
-     "highlight": "치사토와 타키나가 긴시 공원 벤치에 나란히 앉은 장면은 두 사람 콤비의 출발점이다. 북쪽을 올려다보면 작중에서 부러진 '구 전파탑'으로 그려진 도쿄 스카이트리가 멀쩡히 서 있다.",
+     "highlight": "『리코리스 리코일』이 인기를 끈 건 총격전만이 아니라 치사토와 타키나가 조금씩 가까워지는 관계 덕분이다. 이 벤치에서의 대화는 정반대인 두 사람이 처음으로 진짜 나란히 앉는 장면이고, 힘을 뺀 일상의 분위기야말로 이 작품의 중독성이다. 고개를 들면 작중에서 부러진 '구 전파탑'의 모델인 스카이트리가 보여, 그 대비를 즐기며 같은 구도를 찍는 팬이 끊이지 않는다.",
      "story": "명령 위반으로 DA 본부에서 밀려난 타키나의 머릿속에는 성과를 올려 본부로 돌아가겠다는 생각뿐이다. 카페 리코리코에 온 첫날부터 치사토에게 이끌려 스미다 거리를 누비지만, 맡는 의뢰는 하나같이 요원과는 거리가 먼 일들. 긴시 공원 벤치에서 치사토에게 가게 일을 배우며 타키나는 '이게 정말 최강의 리코리스?' 하고 당황한다. 정반대인 두 사람은 이 벤치에서부터 조금씩 손발을 맞춰 간다. 스미다구의 풍경은 작품 곳곳에 등장하며, 스미다구는 '방문하고 싶은 일본 애니메이션 성지 88'에도 선정되었다.",
-     "access": "JR 소부선·도쿄 메트로 한조몬선 긴시초역 북쪽 출구에서 도보 약 3분.",
-     "bestTime": "3월 말 벚꽃 시즌, 또는 스카이트리가 선명하게 보이는 맑은 날 저녁.",
-     "tips": "두 사람이 앉은 벤치는 공원 안 어린이 광장(지빗코 히로바) 부근. 아이들이 노는 곳이니 아이들에게 카메라를 향하지 말고, 벤치는 촬영 후 다른 사람에게 양보하자."
+     "access": "JR 긴시초역 북쪽 출구에서 북쪽으로 약 350m, 도보 5분이면 공원. 한조몬선은 4번 출구가 더 가까워 약 2분.",
+     "bestTime": "맑은 날 저녁엔 스카이트리 윤곽이 선명하고, 어두워지면 라이트업도 볼 수 있다. 평일 낮에는 어린이 광장이 한산해 벤치에 앉기 쉽다.",
+     "tips": "벤치는 공원 안 어린이 광장 부근. 아이들이 노는 곳이니 아이들에게 카메라를 향하지 말자. 공공 벤치이니 촬영 후엔 다른 사람에게 양보할 것.",
+     "accessPointName": "긴시초역 북쪽 출구"
     }
    }
   },
@@ -821,46 +888,58 @@
    "sourceURL": "https://fun-japan.jp/jp/articles/14021",
    "photo": "File:SHIBUYA TSUTAYA (53331235898).jpg",
    "verified": false,
+   "accessPoint": {
+    "latitude": 35.659224,
+    "longitude": 139.701023
+   },
+   "bestMonths": [
+    10,
+    11
+   ],
    "text": {
     "zh-Hans": {
      "placeName": "涩谷站前 全向十字路口（东京·涩谷）",
      "sceneTitle": "万圣夜降下的“帐”",
      "episode": "第2季 · 涩谷事变篇（第32话起）",
-     "highlight": "全世界最熟悉的东京街景，被一整季的“涩谷事变”改写成了战场。从八公口一侧望向 TSUTAYA 和巨幅屏幕，就是动画里被“帐”笼罩的那片路口。",
+     "highlight": "“涩谷事变”之所以让人难忘，是因为它把世界上最熟悉的东京街景变成了一场无处可逃的噩梦：每天有无数人走过的十字路口，在动画里成了失去与崩坏的舞台。MAPPA 对涩谷的还原细到招牌和大屏幕，让熟悉这里的人看得格外心惊。正因为太日常，站在现实中的路口回想那一夜，反差感才格外强烈，这里也是《咒术回战》粉丝必到的一站。",
      "story": "2018 年 10 月 31 日晚，挤满万圣节人潮的涩谷站周边突然降下“帐”，普通人被困在结界之中，人群里开始传出同一句话：“把五条悟带来。”咒灵与诅咒师早已布好陷阱，五条只身踏入涩谷，咒术师们也分头冲进车站与街区。此后一夜之间，车站、商场和这片十字路口接连化为战场——据巡礼资料，伏黑惠与复活的伏黑甚尔正是在 TSUTAYA 前的路口交手。这场事变彻底改变了每个角色的命运。",
-     "access": "JR、东京地铁、东急、京王「涩谷」站八公口出站即到。",
-     "bestTime": "夜晚霓虹与大屏幕亮起时最有剧中气氛；万圣节当晚极度拥挤，不推荐。",
-     "tips": "路口人车密集，绿灯时间短，请勿在斑马线上停留拍照，尽量在八公广场一侧拍摄。万圣节前后涩谷区会限制路上饮酒与聚集。"
+     "access": "JR「涩谷」站八公口出来，经过八公像所在的站前广场，正前方就是十字路口，约 50 米、1 分钟。",
+     "bestTime": "入夜后霓虹和大屏幕全亮时最像动画；想拍人少的路口，可选工作日清晨。万圣节当天及前后周末极度拥挤，不建议前往。",
+     "tips": "绿灯时间短，请勿在斑马线上停留拍照，尽量在八公广场一侧拍。涩谷站周边全年 18:00–次日 5:00 禁止在路上饮酒；万圣节期间还会有额外管制。",
+     "accessPointName": "涩谷站 八公口"
     },
     "ja": {
      "placeName": "渋谷駅前スクランブル交差点（東京・渋谷）",
      "sceneTitle": "ハロウィンの夜に降りた帳",
      "episode": "第2期「渋谷事変」編（第32話〜）",
-     "highlight": "世界でいちばん有名な東京の風景が、まるごと「渋谷事変」の戦場に描き換えられた。ハチ公口側からTSUTAYAと大型ビジョンを見上げれば、そこは帳に覆われたあの交差点だ。",
+     "highlight": "「渋谷事変」が忘れられないのは、世界でいちばん見慣れた東京の風景を、逃げ場のない悪夢に変えてしまったからだ。毎日無数の人が行き交う交差点が、喪失と崩壊の舞台になる。看板や大型ビジョンまで描き込んだMAPPAの再現度の高さが、渋谷を知る人ほど恐ろしく感じさせた。あまりに日常的な場所だからこそ、実際の交差点に立ってあの夜を思い出すと落差に息をのむ。『呪術廻戦』ファンなら必ず訪れたい場所だ。",
      "story": "2018年10月31日の夜、ハロウィンでごった返す渋谷駅周辺に突然「帳」が降ろされる。閉じ込められた一般人の中から、同じ言葉が繰り返し聞こえてくる——「五条悟を連れて来い」。呪霊と呪詛師が仕掛けた罠と知りながら、五条はひとり渋谷へ。術師たちも駅と街へ散っていく。その夜、駅も商業施設もこの交差点も次々と戦場になり、巡礼ガイドによればTSUTAYA前の交差点は伏黒恵と蘇った伏黒甚爾がぶつかった場所でもある。この事変は、すべての登場人物の運命を変えていく。",
-     "access": "JR・東京メトロ・東急・京王「渋谷」駅ハチ公口からすぐ。",
-     "bestTime": "ネオンと大型ビジョンが灯る夜が作中の雰囲気に近い。ハロウィン当日は大混雑のため避けたい。",
-     "tips": "人も車も多く青信号は短いので、横断歩道上で立ち止まっての撮影はNG。撮影はハチ公広場側から。ハロウィン期間は渋谷区による路上飲酒規制などがある。"
+     "access": "JR「渋谷」駅ハチ公口を出て、ハチ公像のある駅前広場を抜ければ目の前がスクランブル交差点。約50m、徒歩1分。",
+     "bestTime": "日が暮れてネオンと大型ビジョンが灯る時間がいちばんアニメに近い。人の少ない交差点を撮るなら平日の早朝。ハロウィン当日と前後の週末は大混雑で非推奨。",
+     "tips": "青信号は短いので横断歩道上で立ち止まって撮影しないこと。撮るならハチ公広場側から。渋谷駅周辺は通年18時〜翌5時の路上飲酒が禁止で、ハロウィン期間はさらに規制が強化される。",
+     "accessPointName": "渋谷駅 ハチ公口"
     },
     "en": {
      "placeName": "Shibuya Scramble Crossing, Hachikō side (Shibuya, Tokyo)",
      "sceneTitle": "The veil falls on Halloween night",
      "episode": "Season 2, Shibuya Incident arc (from Episode 32)",
-     "highlight": "Tokyo's most famous street view, rewritten as a battlefield for an entire season. Look from the Hachikō side towards TSUTAYA and the giant screens and you're facing the crossing that the veil swallowed.",
+     "highlight": "The Shibuya Incident sticks because it turns the most familiar street scene in Tokyo into a nightmare with no way out: a crossing millions walk every day becomes a stage for loss and collapse. MAPPA recreated Shibuya down to the signs and giant screens, which made it all the more chilling for anyone who knows the place. Because it's so ordinary, standing on the real crossing and remembering that night hits hard — a must for Jujutsu Kaisen fans.",
      "story": "On the night of 31 October 2018, a veil suddenly drops over the Halloween crowds around Shibuya Station. Ordinary people are trapped inside, and the same words start rising from the crowd: 'Bring Satoru Gojo.' Gojo walks into Shibuya alone knowing it's a trap set by curses and curse users, while the other sorcerers split up across the station and the streets. Over a single night the station, the shopping centres and this crossing all become battlefields — pilgrimage guides place Megumi Fushiguro's clash with the revived Toji Fushiguro at the junction outside TSUTAYA. Nobody comes out of that night unchanged.",
-     "access": "Right outside the Hachikō Exit of Shibuya Station (JR, Tokyo Metro, Tokyu, Keio).",
-     "bestTime": "At night, when the neon and screens are lit. Avoid Halloween itself — it's dangerously crowded.",
-     "tips": "The lights change fast and the crowds are huge — never stop on the crossing for photos; shoot from Hachikō Square instead. Shibuya restricts street drinking and gatherings around Halloween."
+     "access": "Leave JR Shibuya Station by the Hachikō Exit and cross the plaza with the Hachikō statue — the scramble crossing is straight ahead. About 50 m, 1 min.",
+     "bestTime": "After dark, with the neon and screens blazing, it looks most like the anime; for an emptier crossing, try a weekday dawn. Avoid Halloween and the weekends around it — the crowds are extreme.",
+     "tips": "The lights are short — never stop on the crossing to shoot; use the Hachikō Square side. Street drinking around Shibuya Station is banned year-round from 18:00 to 5:00, with extra restrictions at Halloween.",
+     "accessPointName": "Shibuya Sta. Hachikō Exit"
     },
     "ko": {
      "placeName": "시부야역 앞 스크램블 교차로(도쿄·시부야)",
      "sceneTitle": "핼러윈 밤에 내려온 '장막'",
      "episode": "제2기 '시부야 사변' 편(제32화부터)",
-     "highlight": "세계에서 가장 유명한 도쿄의 거리 풍경이 한 시즌 내내 '시부야 사변'의 전장으로 다시 그려졌다. 하치코 출구 쪽에서 TSUTAYA와 대형 전광판을 바라보면, 바로 장막에 뒤덮였던 그 교차로다.",
+     "highlight": "'시부야 사변'이 잊히지 않는 건 세상에서 가장 익숙한 도쿄 풍경을 도망칠 곳 없는 악몽으로 바꿔 놓았기 때문이다. 매일 수많은 사람이 건너는 교차로가 상실과 붕괴의 무대가 된다. 간판과 대형 스크린까지 재현한 MAPPA의 디테일 덕분에 시부야를 아는 사람일수록 더 오싹했다. 너무 일상적인 곳이라, 실제 교차로에 서서 그날 밤을 떠올리면 그 낙차가 강하게 다가온다. 『주술회전』 팬이라면 꼭 들르는 곳이다.",
      "story": "2018년 10월 31일 밤, 핼러윈 인파로 북적이는 시부야역 주변에 갑자기 '장막'이 내려온다. 갇혀 버린 일반인들 사이에서 같은 말이 되풀이된다. '고죠 사토루를 데려와라.' 저주령과 저주사가 놓은 함정임을 알면서도 고죠는 홀로 시부야로 향하고, 술사들도 역과 거리로 흩어진다. 그날 밤 역도, 상업 시설도, 이 교차로도 차례로 전장이 되었고, 순례 가이드에 따르면 TSUTAYA 앞 교차로는 후시구로 메구미와 되살아난 후시구로 토우지가 맞붙은 곳이기도 하다. 이 사변은 모든 등장인물의 운명을 바꿔 놓는다.",
-     "access": "JR·도쿄 메트로·도큐·게이오 시부야역 하치코 출구 바로 앞.",
-     "bestTime": "네온과 대형 전광판이 켜지는 밤이 작중 분위기에 가깝다. 핼러윈 당일은 극도로 혼잡하니 피하자.",
-     "tips": "사람과 차가 많고 신호가 짧으니 횡단보도 위에 멈춰 촬영하지 말고 하치코 광장 쪽에서 찍자. 핼러윈 기간에는 시부야구의 노상 음주 규제 등이 시행된다."
+     "access": "JR 시부야역 하치코 출구로 나와 하치코 동상이 있는 역 앞 광장을 지나면 바로 앞이 스크램블 교차로. 약 50m, 도보 1분.",
+     "bestTime": "해가 지고 네온과 대형 스크린이 켜지면 애니메이션과 가장 비슷하다. 한산한 교차로를 찍으려면 평일 이른 아침. 핼러윈 당일과 앞뒤 주말은 극도로 붐벼 비추천.",
+     "tips": "보행 신호가 짧으니 횡단보도 위에서 멈춰 촬영하지 말고 하치코 광장 쪽에서 찍자. 시부야역 주변은 연중 18시~다음 날 5시 노상 음주가 금지되며, 핼러윈 기간에는 규제가 더 강화된다.",
+     "accessPointName": "시부야역 하치코 출구"
     }
    }
   },
@@ -876,46 +955,58 @@
    "sourceURL": "https://www.mlit.go.jp/tagengo-db/R5-00502.html",
    "photo": "File:Omi-jingu01n4592.jpg",
    "verified": false,
+   "accessPoint": {
+    "latitude": 35.028172,
+    "longitude": 135.855741
+   },
+   "bestMonths": [
+    1,
+    7
+   ],
    "text": {
     "zh-Hans": {
      "placeName": "近江神宫 楼门前（滋贺·大津）",
      "sceneTitle": "踏进竞技纸牌的圣地",
      "episode": "第1季 第13话",
-     "highlight": "供奉天智天皇、被称为“竞技纸牌圣地”的近江神宫。朱红楼门出现在画面里的那一刻，千早他们终于站上了梦寐以求的全国舞台。",
+     "highlight": "对《花牌情缘》来说，近江神宫是一切努力指向的终点：能在这里比赛，就意味着站上了竞技纸牌的最高舞台。朱红楼门出现的那一刻，五个凑出来的小社团终于走到这里，热血又有点想哭。现实中这里每年举办名人·女王决定战和全国高中大会，作品走红后，来许愿、挂绘马的纸牌少年少女也越来越多，几乎没有一位粉丝会错过。",
      "story": "小仓百人一首的第一首和歌出自天智天皇，供奉他的近江神宫因此成了竞技纸牌的圣地，每年的名人·女王决定战和全国高中大会都在这里举行。从创立瑞泽高中纸牌社开始，千早和太一拉来肉包、桌子君和小奏，五个人一路拿下东京预选，终于在第 13 话来到近江神宫。闷热嘈杂的赛场让千早一开始乱了阵脚；另一边，远在福井的新也一边回想着爷爷，一边向这里走来。三个人小时候的约定，在这座神宫前悄悄重新连接。",
-     "access": "京阪石山坂本线「近江神宫前」站步行约 10 分钟；JR 湖西线「大津京」站步行约 20 分钟。",
-     "bestTime": "平日上午人少，朱红楼门映着绿树最好看；1 月初名人·女王战前后最有气氛。",
-     "tips": "参拜免费，境内可求以百人一首为主题的御守。请勿在楼门正中长时间停留拍照；比赛期间请勿在赛场周边喧哗。"
+     "access": "京阪石山坂本线「近江神宫前」站出站往西，沿缓坡一路上行，约 850 米、步行 11 分钟到楼门。",
+     "bestTime": "上午光线照在朱红楼门上最鲜艳，平日几乎没人。夏天全国高中大会、1 月初名人·女王战前后最有气氛，但人也最多。",
+     "tips": "参拜免费，境内有百人一首主题的御守和绘马。比赛在境内的近江劝学馆举行，期间请勿在会场周边喧哗。楼门正中是参拜通道，拍照请靠边。",
+     "accessPointName": "近江神宫前站"
     },
     "ja": {
      "placeName": "近江神宮 楼門前（滋賀・大津）",
      "sceneTitle": "かるたの聖地へ",
      "episode": "第1期 第13話",
-     "highlight": "天智天皇を祀り、「かるたの聖地」と呼ばれる近江神宮。朱塗りの楼門が画面に現れた瞬間、千早たちはついに夢見た全国の舞台に立つ。",
+     "highlight": "『ちはやふる』にとって近江神宮は、すべての努力が目指す場所だ。ここで戦うことは、競技かるたの頂点に立つことを意味する。寄せ集めの五人の部活がついにたどり着き、朱の楼門が画面に現れる瞬間は、胸が熱くなって少し泣けてくる。実際に毎年名人位・クイーン位決定戦や全国高校選手権が開かれる場所で、作品のヒット以降、絵馬に願いを託すかるた少年少女も増えた。ファンなら外せない聖地だ。",
      "story": "小倉百人一首の一番歌を詠んだ天智天皇を祀る近江神宮は、名人位・クイーン位決定戦や全国高校選手権が行われる競技かるたの聖地。瑞沢高校かるた部を立ち上げた千早と太一は、肉まんくん、机くん、かなちゃんを仲間に引き入れ、5人で東京都予選を勝ち抜き、第13話でついに近江神宮へやってくる。蒸し暑く騒がしい会場に千早は最初ペースを乱されるが、一方で福井の新も、祖父との日々を思い出しながらこの地へ向かっていた。幼い日の三人の約束が、この神宮の前で静かにつながり直す。",
-     "access": "京阪石山坂本線「近江神宮前」駅から徒歩約10分。JR湖西線「大津京」駅から徒歩約20分。",
-     "bestTime": "人の少ない平日の午前、朱の楼門と緑の対比が美しい。1月初旬の名人・クイーン戦の頃も雰囲気がある。",
-     "tips": "参拝自由。百人一首にちなんだお守りもある。楼門の正面で長時間立ち止まっての撮影は控え、大会期間中は会場周辺で騒がないこと。"
+     "access": "京阪石山坂本線「近江神宮前」駅から西へ、ゆるい坂を上って楼門まで約850m・徒歩11分。",
+     "bestTime": "朱の楼門に光が当たる午前中がいちばん鮮やかで、平日はほぼ貸し切り。夏の全国高校選手権や1月初旬の名人・クイーン戦の頃が最も雰囲気があるが混雑も。",
+     "tips": "参拝自由。百人一首にちなんだお守りや絵馬もある。大会は境内の近江勧学館で行われるので、期間中は会場周辺で騒がないこと。楼門の正面は参拝の通り道なので撮影は端に寄って。",
+     "accessPointName": "近江神宮前駅"
     },
     "en": {
      "placeName": "Rōmon gate, Ōmi Jingū Shrine (Ōtsu, Shiga)",
      "sceneTitle": "Arriving at karuta's holy ground",
      "episode": "Season 1, Episode 13",
-     "highlight": "Ōmi Jingū, dedicated to Emperor Tenji, is known as the sacred ground of competitive karuta. The moment its vermilion gate fills the screen, Chihaya and her team are finally standing on the national stage they dreamed of.",
+     "highlight": "In Chihayafuru, Ōmi Jingū is where every bit of effort is aimed: to play here is to reach the top of competitive karuta. When the vermilion gate appears and a scrappy five-member club finally makes it, it's thrilling and a little tear-jerking. In real life the shrine hosts the Meijin and Queen title matches and the national high-school championship every year, and since the series took off, more and more young players come to leave wishes on ema. Few fans skip it.",
      "story": "The first poem of the Hyakunin Isshu was written by Emperor Tenji, and the shrine dedicated to him hosts the Meijin and Queen title matches and the national high-school championships every year. Since founding the Mizusawa High karuta club, Chihaya and Taichi have recruited Porky, Desk-kun and Kana-chan and fought their way through the Tokyo qualifiers; in Episode 13 the five finally arrive at Ōmi Jingū. The heat and noise of the hall throw Chihaya off at first — while in Fukui, Arata is setting out for the same place, remembering his grandfather. The promise the three made as children quietly reconnects in front of this shrine.",
-     "access": "About 10 min on foot from Ōmi-jingū-mae Station (Keihan Ishiyama-Sakamoto Line), or 20 min from JR Ōtsukyō Station.",
-     "bestTime": "Weekday mornings, when it's quiet and the vermilion gate glows against the trees. Early January, around the title matches, has the most atmosphere.",
-     "tips": "Free to visit; the shrine sells karuta-themed charms. Don't linger in the centre of the gate for photos, and keep quiet near the venue during tournaments."
+     "access": "From Ōmi-jingū-mae Station (Keihan Ishiyama-Sakamoto Line), head west and up the gentle slope to the gate. About 850 m, 11 min.",
+     "bestTime": "Mornings, when sunlight hits the vermilion gate; weekdays are almost empty. The summer high-school championship and the early-January title matches have the most atmosphere — and the biggest crowds.",
+     "tips": "Free to visit; karuta-themed charms and ema are on sale. Tournaments are held at Ōmi Kangakukan in the grounds, so keep quiet nearby during matches. The centre of the gate is the worshippers' path — shoot from the side.",
+     "accessPointName": "Ōmi-jingū-mae Sta."
     },
     "ko": {
      "placeName": "오미 신궁 누문 앞(시가·오쓰)",
      "sceneTitle": "카루타의 성지에 발을 딛다",
      "episode": "제1기 제13화",
-     "highlight": "덴지 천황을 모시며 '카루타의 성지'로 불리는 오미 신궁. 붉은 누문이 화면에 나타나는 순간, 치하야 일행은 마침내 꿈에 그리던 전국 무대에 선다.",
+     "highlight": "『치하야후루』에게 오미 신궁은 모든 노력이 향하는 종착지다. 이곳에서 겨룬다는 건 경기 가루타의 정점에 선다는 뜻이다. 그러모은 다섯 명의 동아리가 마침내 이곳에 닿고, 주홍빛 누문이 화면에 나타나는 순간은 뜨겁고도 살짝 눈물이 난다. 실제로 매년 명인·퀸 결정전과 전국 고교 선수권이 열리는 곳으로, 작품이 인기를 얻은 뒤 에마에 소원을 적는 가루타 소년소녀도 늘었다. 팬이라면 빠뜨릴 수 없는 성지다.",
      "story": "오구라 백인일수의 첫 번째 노래를 지은 덴지 천황을 모시는 오미 신궁은 명인·퀸 결정전과 전국 고교 선수권이 열리는 경기 카루타의 성지다. 미즈사와 고교 카루타부를 만든 치하야와 타이치는 니쿠망, 책상군, 카나를 끌어들여 다섯이서 도쿄 예선을 뚫고, 제13화에서 드디어 오미 신궁에 도착한다. 무덥고 시끄러운 대회장에 치하야는 처음엔 페이스를 잃지만, 한편 후쿠이의 아라타도 할아버지와의 추억을 떠올리며 이곳으로 향하고 있었다. 어린 시절 세 사람의 약속이 이 신궁 앞에서 조용히 다시 이어진다.",
-     "access": "게이한 이시야마사카모토선 오미진구마에역에서 도보 약 10분, JR 고세이선 오쓰쿄역에서 도보 약 20분.",
-     "bestTime": "사람이 적은 평일 오전, 붉은 누문과 초록 숲의 대비가 아름답다. 1월 초 명인·퀸 전 무렵도 분위기가 좋다.",
-     "tips": "참배 무료. 백인일수를 테마로 한 부적도 있다. 누문 한가운데 오래 서서 촬영하지 말고, 대회 기간에는 대회장 주변에서 조용히 하자."
+     "access": "게이한 이시야마사카모토선 오미진구마에역에서 서쪽으로 완만한 오르막을 따라가면 누문까지 약 850m, 도보 11분.",
+     "bestTime": "주홍빛 누문에 햇살이 드는 오전이 가장 선명하고, 평일엔 거의 한산하다. 여름 전국 고교 선수권과 1월 초 명인·퀸전 무렵이 가장 분위기 있지만 붐빈다.",
+     "tips": "참배 무료. 백인일수를 주제로 한 부적과 에마도 있다. 대회는 경내 오미 간가쿠칸에서 열리니 대회 중엔 주변에서 떠들지 말 것. 누문 정면은 참배 통로이니 촬영은 옆으로 비켜서.",
+     "accessPointName": "오미진구마에역"
     }
    }
   },
@@ -929,46 +1020,59 @@
    "spoiler": true,
    "sourceURL": "https://ciatr.jp/topics/324247",
    "verified": false,
+   "accessPoint": {
+    "latitude": 32.709684,
+    "longitude": 131.309137
+   },
+   "bestMonths": [
+    4,
+    5,
+    11
+   ],
    "text": {
     "zh-Hans": {
      "placeName": "荒立神社（宫崎·高千穗）",
      "sceneTitle": "拍完 MV 后的祈愿",
      "episode": "第2季 第13话（总第24话）",
-     "highlight": "供奉艺能之神天钿女命的小神社。B小町一行在高千穗拍完 MV 后来这里许愿——对一群在演艺圈里打拼的孩子来说，这是最贴切的一次参拜。",
+     "highlight": "在一部直面演艺圈光与暗的作品里，这次参拜显得格外温柔：供奉艺能之神天钿女命的荒立神社，对一群想在舞台上发光的孩子来说再合适不过。但《我推的孩子》的观众都知道，高千穗是吾郎生前所在、一切开始的地方，轻松的许愿场面因此也带着一丝不安。正是这种明暗交织，让这座小神社成了粉丝心中意义特别的一站。",
      "story": "第二季的最后，B小町决定到宫崎高千穗拍摄 MV，阿库亚也随行。这里是吾郎生前工作的地方，也是一切开始的地方。拍摄期间，露比被一个神秘少女引到山中的洞穴，在那里发现了吾郎的遗骨，尘封的过去再一次被翻开。拍摄结束后，大家来到供奉艺能之神天钿女命的荒立神社，各自许下心愿。轻松的祈愿场面背后，露比眼中的星光已经开始染上与以往不同的颜色。",
-     "access": "高千穗巴士中心步行约 20 分钟，或乘出租车约 5 分钟；从延冈站乘宫崎交通巴士到高千穗约 1 小时 10 分钟。",
-     "bestTime": "新绿或红叶季的上午；秋冬夜里可顺道去高千穗神社看夜神乐。",
-     "tips": "神社小而安静，请轻声参拜。境内有可以敲响祈愿的“板木”，请按说明使用。高千穗公交班次少，请提前确认时刻表。"
+     "access": "从延冈站乘宫崎交通巴士约 1 小时 10 分钟到「高千穗巴士中心」，下车后往东步行约 1 公里、15 分钟；打车约 5 分钟。",
+     "bestTime": "上午山间空气清透、神社人少；晚上可去高千穗神社看每晚约 20 点的高千穗神乐。秋冬是各村落奉纳夜神乐的季节。",
+     "tips": "参拜免费。境内有多块可敲响祈愿的“板木”，请按旁边的说明使用、勿用力乱敲。高千穗的公交班次少，回程时刻请提前确认。",
+     "accessPointName": "高千穗巴士中心"
     },
     "ja": {
      "placeName": "荒立神社（宮崎・高千穂）",
      "sceneTitle": "PV撮影のあとの願いごと",
      "episode": "第2期 第13話（通算第24話）",
-     "highlight": "芸能の神・天鈿女命を祀る小さな神社。高千穂でのPV撮影を終えたB小町一行がここで願いをかける。芸能界で生きる彼女たちにとって、これ以上ないお参りの場所だ。",
+     "highlight": "芸能界の光と闇に正面から向き合う作品の中で、このお参りはひときわ穏やかだ。芸能の神・天鈿女命を祀る荒立神社は、舞台で輝きたい子どもたちにこれ以上ない場所。けれど『【推しの子】』を見てきた人なら、高千穂がゴローのいた場所、すべての始まりの地だと知っている。だからこそ和やかな願掛けの場面にも、かすかな不穏さがにじむ。その明暗の重なりが、この小さな神社をファンにとって特別な場所にしている。",
      "story": "第2期の終盤、B小町は宮崎・高千穂でPVを撮影することになり、アクアも同行する。そこはゴローがかつて働いていた土地であり、すべての始まりの場所でもあった。撮影の合間、ルビーは不思議な少女に導かれて山の洞窟へ入り、そこでゴローの遺骨を見つけてしまう。封じられていた過去が再び動き出す。撮影を終えた一行は、芸能の神を祀る荒立神社を訪れ、それぞれの願いを込める。和やかな参拝の裏で、ルビーの瞳の星は、これまでとは違う色を帯び始めていた。",
-     "access": "高千穂バスセンターから徒歩約20分、タクシーで約5分。延岡駅から宮崎交通バスで高千穂まで約1時間10分。",
-     "bestTime": "新緑や紅葉の季節の午前中。秋冬の夜は高千穂神社の夜神楽とあわせて。",
-     "tips": "小さく静かな神社なので、参拝は静かに。境内の願いを込めて打つ「板木」は案内に従って。高千穂の路線バスは本数が少ないので時刻表を事前に確認。"
+     "access": "延岡駅から宮崎交通バスで約1時間10分「高千穂バスセンター」下車、東へ徒歩約1km・15分。タクシーなら約5分。",
+     "bestTime": "山の空気が澄んで人も少ない午前中がおすすめ。夜は高千穂神社で毎晩20時頃からの高千穂神楽を。秋から冬は集落で夜神楽が奉納される季節。",
+     "tips": "参拝自由。境内には願いを込めて打つ板木がいくつもあるので、横の案内に従って打つこと。高千穂の路線バスは本数が少なく、帰りの時刻は事前に確認を。",
+     "accessPointName": "高千穂バスセンター"
     },
     "en": {
      "placeName": "Aradate Shrine (Takachiho, Miyazaki)",
      "sceneTitle": "A wish after the music-video shoot",
      "episode": "Season 2, Episode 13 (Episode 24 overall)",
-     "highlight": "A small shrine to Ame-no-Uzume, goddess of the performing arts. After wrapping their music-video shoot in Takachiho, B-Komachi stop here to make wishes — the most fitting place imaginable for kids trying to make it in showbiz.",
+     "highlight": "In a series that stares straight at the light and dark of showbiz, this visit is unusually gentle: a shrine to Ame-no-Uzume, goddess of performance, is the perfect place for kids who want to shine on stage. But Oshi no Ko viewers know Takachiho is where Goro lived and where it all began, so even this light-hearted wish carries a trace of unease. That mix of light and shadow is what makes this tiny shrine special to fans.",
      "story": "At the end of Season 2, B-Komachi head to Takachiho in Miyazaki to film a music video, with Aqua tagging along. This is where Gorou once worked — where everything began. During the shoot, a mysterious girl leads Ruby into a mountain cave, where she finds Gorou's remains, and the buried past starts moving again. When filming wraps, the group visits Aradate Shrine, dedicated to the goddess of the performing arts, and each of them makes a wish. Behind the light-hearted visit, the stars in Ruby's eyes have begun to take on a different colour.",
-     "access": "About 20 min on foot or 5 min by taxi from Takachiho Bus Center; Miyazaki Kōtsū buses from Nobeoka Station take about 1 hr 10 min.",
-     "bestTime": "Mornings in fresh-green or autumn-leaf season; in autumn and winter, pair it with the night kagura at Takachiho Shrine.",
-     "tips": "It's a small, quiet shrine — keep your voice down. Follow the instructions if you strike the wooden wishing boards. Buses in Takachiho are infrequent, so check timetables in advance."
+     "access": "Miyazaki Kōtsū bus from Nobeoka Station to Takachiho Bus Center (about 1 hr 10 min), then about 1 km east on foot (15 min), or 5 min by taxi.",
+     "bestTime": "Mornings, when the mountain air is clear and the shrine is quiet. In the evening, catch the kagura performed nightly around 8 pm at Takachiho Shrine; late autumn to winter is the season of all-night village kagura.",
+     "tips": "Free to visit. The grounds have several wooden boards (hangi) you strike while making a wish — follow the posted instructions rather than hammering away. Buses in Takachiho are infrequent, so check your return times in advance.",
+     "accessPointName": "Takachiho Bus Center"
     },
     "ko": {
      "placeName": "아라타테 신사(미야자키·다카치호)",
      "sceneTitle": "뮤직비디오 촬영 후의 소원",
      "episode": "제2기 제13화(통산 제24화)",
-     "highlight": "예능의 신 아메노우즈메를 모시는 작은 신사. 다카치호에서 뮤직비디오 촬영을 마친 B코마치 일행이 이곳에서 소원을 빈다. 연예계에서 살아가는 그녀들에게 이보다 어울리는 참배 장소는 없다.",
+     "highlight": "연예계의 빛과 어둠을 정면으로 마주하는 작품 속에서 이 참배는 유난히 온화하다. 예능의 신 아메노우즈메를 모시는 아라타테 신사는 무대에서 빛나고 싶은 아이들에게 더없이 어울리는 곳이다. 하지만 『최애의 아이』를 봐 온 사람이라면 다카치호가 고로가 있던 곳, 모든 것이 시작된 땅이라는 걸 안다. 그래서 화기애애한 소원 장면에도 희미한 불안이 배어 있다. 그 명암의 겹침이 이 작은 신사를 팬들에게 특별한 곳으로 만든다.",
      "story": "제2기 막바지, B코마치는 미야자키 다카치호에서 뮤직비디오를 찍기로 하고 아쿠아도 동행한다. 그곳은 고로가 생전에 일하던 곳이자 모든 것이 시작된 장소였다. 촬영 중 루비는 수수께끼의 소녀에게 이끌려 산속 동굴에 들어갔다가 고로의 유골을 발견하고, 묻혀 있던 과거가 다시 움직이기 시작한다. 촬영을 마친 일행은 예능의 신을 모시는 아라타테 신사를 찾아 저마다 소원을 빈다. 화기애애한 참배 뒤에서, 루비의 눈동자 속 별은 이전과는 다른 빛을 띠기 시작한다.",
-     "access": "다카치호 버스센터에서 도보 약 20분, 택시로 약 5분. 노베오카역에서 미야자키 교통 버스로 다카치호까지 약 1시간 10분.",
-     "bestTime": "신록이나 단풍 시즌의 오전. 가을·겨울 밤에는 다카치호 신사의 요카구라와 함께.",
-     "tips": "작고 조용한 신사이니 소리를 낮춰 참배하자. 소원을 빌며 두드리는 '판목'은 안내에 따라 이용할 것. 다카치호의 버스는 배차가 드무니 시간표를 미리 확인."
+     "access": "노베오카역에서 미야자키 교통 버스로 약 1시간 10분, '다카치호 버스센터' 하차 후 동쪽으로 약 1km, 도보 15분. 택시로는 약 5분.",
+     "bestTime": "산 공기가 맑고 사람이 적은 오전이 좋다. 밤에는 다카치호 신사에서 매일 밤 20시경 열리는 다카치호 가구라를. 늦가을~겨울은 마을마다 요카구라를 봉납하는 계절이다.",
+     "tips": "참배 무료. 경내에는 소원을 빌며 두드리는 판목(이타기)이 여러 개 있으니 옆의 안내에 따라 칠 것. 다카치호 노선버스는 운행이 드무니 돌아가는 시간을 미리 확인하자.",
+     "accessPointName": "다카치호 버스센터"
     }
    }
   },
@@ -983,46 +1087,58 @@
    "sourceURL": "https://www.walkerplus.com/article/1004597/",
    "photo": "File:一刀石 ／ 天石立神社 - panoramio.jpg",
    "verified": false,
+   "accessPoint": {
+    "latitude": 34.733858,
+    "longitude": 135.951653
+   },
+   "bestMonths": [
+    5,
+    11
+   ],
    "text": {
     "zh-Hans": {
      "placeName": "柳生 一刀石（奈良·柳生）",
      "sceneTitle": "斩开巨石的那一刀",
      "episode": "第3话",
-     "highlight": "从正中被一刀劈成两半的巨石，和炭治郎修行最后斩开岩石的画面惊人地相似。官方从未认定这里是原型，但“炭治郎的石头”早已成了粉丝心中的圣地。",
+     "highlight": "斩开巨石，是炭治郎从“想保护妹妹的少年”真正变成剑士的那一刻，也是很多观众第一次被《鬼灭之刃》震撼到的场面。一刀石的传说恰好与之呼应：剑豪柳生宗严与天狗比剑，一刀斩开的竟是巨石——而鳞泷正好戴着天狗面具。官方从未认定这里是原型，但亲眼看到这块从正中裂开的巨石，几乎每个粉丝都会忍不住摆出拔刀的姿势拍照。",
      "story": "拜入鳞泷左近次门下的炭治郎，经过一年的严苛修行后，被要求用刀斩开一块比自己还高的巨石，否则不准参加鬼杀队的最终选拔。苦练半年仍毫无进展时，他遇见了戴着狐狸面具的少年锖兔和少女真菰，在两人的指点下一点点掌握了呼吸法。第 3 话的最后，炭治郎与锖兔交锋的一刀落下，眼前竟是被劈开的巨石。柳生的一刀石相传是剑术家柳生宗严与天狗比试时一刀斩开的，而鳞泷恰好戴着天狗面具——这份巧合，让这里成了“原型说”中最有名的地点。",
-     "access": "近铁/JR「奈良」站乘奈良交通巴士约 50 分钟至「柳生」，下车后步行约 25–30 分钟（含山路）。",
-     "bestTime": "新绿或红叶季的白天；林中光线暗，建议下午三点前到达。",
-     "tips": "一刀石位于天石立神社旁的山林中，是信仰的一部分，请勿攀爬、敲击或用道具“模仿斩石”。山路湿滑，穿防滑鞋；巴士班次少，务必确认回程时间。"
+     "access": "JR/近铁奈良站乘奈良交通巴士“柳生”方向约 50 分钟，「柳生」下车。沿“天乃石立神社”路标往山里走，约 1.4 公里、含林间山路 25 分钟。",
+     "bestTime": "白天前往，林中较暗，下午三点前到最安全。新绿或红叶时光线透进杉林，巨石的裂口最清楚；平日几乎无人，周末午后会有排队拍照。",
+     "tips": "一刀石在天乃石立神社的神域内，是信仰对象，请勿攀爬、敲击或用道具“模仿斩石”。附近没有停车场；山路湿滑，请穿防滑鞋。巴士班次少，务必确认回程。",
+     "accessPointName": "柳生 巴士站"
     },
     "ja": {
      "placeName": "柳生 一刀石（奈良・柳生）",
      "sceneTitle": "大岩を斬った一太刀",
      "episode": "第3話",
-     "highlight": "真ん中からまっぷたつに割れた巨岩は、修行の最後に炭治郎が岩を斬る場面にそっくり。公式にモデルとされたわけではないが、「炭治郎の岩」としてファンの聖地になっている。",
+     "highlight": "岩を斬ることは、炭治郎が「妹を守りたい少年」から本当の剣士になる瞬間であり、多くの人が『鬼滅の刃』に初めて鳥肌を立てた場面でもある。一刀石の伝説はそれと不思議に響き合う。剣豪・柳生宗厳が天狗と立ち合い、斬ったのは巨石だった――そして鱗滝は天狗の面をつけている。公式にモデルとされたわけではないが、真ん中から割れた岩を目の前にすると、ほとんどのファンが思わず刀を構えるポーズで写真を撮る。",
      "story": "鱗滝左近次に弟子入りした炭治郎は、一年に及ぶ厳しい修行の末、自分の背丈より大きな岩を刀で斬れと命じられる。斬れなければ最終選別には行かせない、と。半年たっても歯が立たないなか、狐面の少年・錆兎と少女・真菰が現れ、二人の指導のもとで少しずつ呼吸を身につけていく。第3話のラスト、錆兎との立ち合いで振り下ろした一太刀の先にあったのは、斬られた大岩だった。柳生の一刀石は、剣豪・柳生宗厳が天狗と試合をして一刀両断したと伝わる岩。鱗滝が天狗の面をつけていることもあって、「モデル説」で最も知られる場所になった。",
-     "access": "近鉄・JR奈良駅から奈良交通バスで約50分「柳生」下車、山道を含め徒歩約25〜30分。",
-     "bestTime": "新緑や紅葉の季節の日中。森の中は暗くなるのが早いので15時までには着きたい。",
-     "tips": "一刀石は天石立神社の神域にある信仰の対象。登ったり叩いたり、道具で「斬る真似」をしたりしないこと。山道は滑りやすく、バスの本数も少ないので帰りの時刻を必ず確認。"
+     "access": "JR・近鉄奈良駅から奈良交通バス「柳生」行きで約50分、「柳生」下車。「天乃石立神社」の案内に沿って山へ入り、約1.4km・山道を含め徒歩25分。",
+     "bestTime": "森の中は暗いので日中に、15時までには着きたい。新緑や紅葉の頃は杉林に光が差して割れ目がよく見える。平日はほぼ無人、週末の午後は撮影待ちも。",
+     "tips": "一刀石は天乃石立神社の神域にある信仰の対象。登る・叩く・道具で斬る真似をするのはNG。周辺に駐車場はなく、山道は滑りやすいので歩きやすい靴で。バスは本数が少ないので帰りの時刻を必ず確認。",
+     "accessPointName": "柳生 バス停"
     },
     "en": {
      "placeName": "Ittōseki, the 'one-stroke stone' (Yagyū, Nara)",
      "sceneTitle": "The stroke that split the boulder",
      "episode": "Episode 3",
-     "highlight": "A huge rock split clean down the middle — uncannily like the boulder Tanjiro cuts at the end of his training. It has never been officially named as the model, but fans have long treated 'Tanjiro's rock' as a pilgrimage site.",
+     "highlight": "Cutting the boulder is the moment Tanjiro goes from a boy desperate to protect his sister to a true swordsman — and for many viewers the first scene in Demon Slayer that gave them goosebumps. The Ittōseki legend echoes it uncannily: swordsman Yagyū Muneyoshi duelled a tengu and his blade split a rock, and Urokodaki, of course, wears a tengu mask. It has never been officially named the model, but standing before this rock split clean in two, almost every fan strikes a sword pose for a photo.",
      "story": "After a year of brutal training under Sakonji Urokodaki, Tanjiro is told he can only attend the Final Selection if he cuts a boulder taller than himself in two. Six months later he still hasn't made a scratch, until a boy in a fox mask, Sabito, and a girl, Makomo, appear and begin teaching him how to breathe. At the end of Episode 3, his blade comes down in a duel with Sabito — and what lies before him is the split boulder. Legend says Yagyū's Ittōseki was cut by the swordsman Yagyū Muneyoshi while duelling a tengu, and since Urokodaki wears a tengu mask, it has become the best-known candidate in the 'model' theory.",
-     "access": "About 50 min by Nara Kōtsū bus from Kintetsu/JR Nara Station to Yagyū, then a 25–30 min walk including a forest path.",
-     "bestTime": "Daytime in spring greenery or autumn colours. The forest gets dark early, so arrive by 3 pm.",
-     "tips": "The rock sits in the sacred grounds of Amano-Iwatate Shrine and is an object of worship — don't climb it, hit it or stage mock sword strikes. The path is slippery and buses are rare, so check your return time."
+     "access": "Nara Kōtsū bus bound for Yagyū from JR/Kintetsu Nara Station (about 50 min) to the Yagyū stop. Follow signs for Amano-Iwatate Shrine into the hills: about 1.4 km, 25 min including a forest path.",
+     "bestTime": "Go in daylight — the forest is dim, so aim to arrive by 3 pm. In fresh-green or autumn-colour season, light filters through the cedars onto the split. Weekdays are near-empty; weekend afternoons can mean a photo queue.",
+     "tips": "The rock lies within the sacred precinct of Amano-Iwatate Shrine and is worshipped — don't climb it, hit it or stage mock sword strikes. There's no parking nearby, the path is slippery, and buses are rare, so check your return time.",
+     "accessPointName": "Yagyū bus stop"
     },
     "ko": {
      "placeName": "야규 잇토세키(나라·야규)",
      "sceneTitle": "바위를 가른 일격",
      "episode": "제3화",
-     "highlight": "한가운데가 두 동강 난 거대한 바위는 수행 마지막에 탄지로가 바위를 베는 장면과 놀라울 만큼 닮았다. 공식 모델로 인정된 적은 없지만, '탄지로의 바위'로 팬들의 성지가 되었다.",
+     "highlight": "바위를 베는 건 탄지로가 '여동생을 지키고 싶은 소년'에서 진짜 검사가 되는 순간이자, 많은 시청자가 『귀멸의 칼날』에서 처음 소름이 돋은 장면이다. 잇토세키의 전설은 신기하게도 이와 겹친다. 검호 야규 무네요시가 덴구와 겨뤄 벤 것이 거대한 바위였고, 우로코다키는 마침 덴구 가면을 쓰고 있다. 공식 모델로 인정된 적은 없지만, 한가운데서 갈라진 바위 앞에 서면 대부분의 팬이 저도 모르게 칼을 겨누는 포즈로 사진을 찍는다.",
      "story": "우로코다키 사콘지의 제자가 된 탄지로는 1년에 걸친 혹독한 수행 끝에 자기 키보다 큰 바위를 칼로 베라는 과제를 받는다. 베지 못하면 최종 선별에 보내 주지 않겠다고. 반년이 지나도 흠집조차 내지 못하던 그때, 여우 가면을 쓴 소년 사비토와 소녀 마코모가 나타나 그에게 호흡을 가르치기 시작한다. 제3화 마지막, 사비토와의 대결에서 내리친 일격 끝에 있던 것은 갈라진 바위였다. 야규의 잇토세키는 검호 야규 무네요시가 덴구와 겨루다 한칼에 베었다고 전해지는 바위. 우로코다키가 덴구 가면을 쓰고 있다는 점까지 겹쳐 '모델설'로 가장 유명한 장소가 되었다.",
-     "access": "긴테쓰·JR 나라역에서 나라 교통 버스로 약 50분, '야규' 하차 후 산길 포함 도보 약 25~30분.",
-     "bestTime": "신록이나 단풍 시즌의 낮. 숲속은 일찍 어두워지니 오후 3시 전에 도착하자.",
-     "tips": "잇토세키는 아마노이와타테 신사의 신역에 있는 신앙의 대상이다. 올라가거나 두드리거나 도구로 '베는 흉내'를 내지 말 것. 산길이 미끄럽고 버스도 드물니 돌아가는 시간을 꼭 확인하자."
+     "access": "JR·긴테쓰 나라역에서 나라 교통 버스 '야규'행으로 약 50분, '야규' 하차. '아마노이와타테 신사' 표지판을 따라 산으로 약 1.4km, 숲길 포함 도보 25분.",
+     "bestTime": "숲이 어두우니 낮에, 오후 3시 전에는 도착하자. 신록이나 단풍철에는 삼나무 숲에 빛이 들어 갈라진 틈이 잘 보인다. 평일엔 거의 사람이 없고, 주말 오후엔 촬영 대기 줄도.",
+     "tips": "잇토세키는 아마노이와타테 신사의 신역 안에 있는 신앙 대상이다. 오르거나 두드리거나 도구로 베는 흉내를 내지 말 것. 주변에 주차장이 없고 산길이 미끄러우며, 버스가 드무니 돌아가는 시간을 꼭 확인하자.",
+     "accessPointName": "야규 버스 정류장"
     }
    }
   },
@@ -1037,46 +1153,58 @@
    "sourceURL": "https://zh.moegirl.org.cn/%E6%97%AD%E4%B8%98%E5%88%86%E6%A0%A1",
    "photo": "File:Saitama Ogawa elementary school xl.jpg",
    "verified": false,
+   "accessPoint": {
+    "latitude": 36.050714,
+    "longitude": 139.286152
+   },
+   "bestMonths": [
+    7,
+    8
+   ],
    "text": {
     "zh-Hans": {
      "placeName": "旧下里分校 校舍（埼玉·小川町）",
      "sceneTitle": "全校只有五个人的分校",
      "episode": "第1话起（每集）",
-     "highlight": "木造校舍、小小的操场和背后的山——旭丘分校的原型几乎原封不动地留在了小川町。站在这里，耳边仿佛会响起莲酱那句“喵帕斯～”。",
+     "highlight": "《悠哉日常大王》几乎没有剧情起伏，却治愈了无数人：蝉鸣、午后的阳光、全校五个人的小教室，让人想起自己从没拥有过的乡下暑假。木造校舍、小操场和后山几乎原样保留下来，站在这里会发现，动画里那种慢悠悠的时间是真实存在的。对粉丝来说，这里就是旭丘分校本身，很多人来只是为了在操场边坐一会儿。",
      "story": "第一话里，从东京转学来的小萤第一天走进旭丘分校，才发现整所学校从小学一年级到初中三年级只有五个学生，大家挤在同一间教室里上课。莲华用一句“喵帕斯～”和她打招呼，从此无数个春夏秋冬都在这座木造校舍和它的操场上展开：午睡、捉迷藏、远足、文化祭……原型“小川町立小川小学校下里分校”已于 2011 年废校，如今由当地 NPO 管理，依旧保留着动画里那份慢悠悠的乡下时光。",
-     "access": "东武东上线或 JR 八高线「小川町」站乘巴士，在「下里」下车后步行约 900 米；也可在站前租自行车。",
-     "bestTime": "初夏到盛夏的晴天，蝉鸣和满眼绿意最像动画；秋天的稻田也很美。",
-     "tips": "校舍内部一般不开放，操场开放情况以管理方公告为准。周边是民宅与农田，请勿大声喧哗或进入私有土地。"
+     "access": "东武东上线/JR 八高线「小川町」站乘川越观光巴士（往小川 Park Hill），「下里」下车，往南约 900 米、12 分钟。",
+     "bestTime": "盛夏晴天的上午到午后，蝉鸣、蓝天和满眼绿意最像动画；傍晚斜阳照在木造校舍上也很美。夏天日照强，记得带水。",
+     "tips": "旧校舍由当地 NPO 管理，内部一般不开放；操场能否进入以现场告示为准。周边是民宅和农田，请勿大声喧哗、进入私有地或在路边乱停车。",
+     "accessPointName": "下里 巴士站"
     },
     "ja": {
      "placeName": "旧下里分校 校舎（埼玉・小川町）",
      "sceneTitle": "全校生徒5人の分校",
      "episode": "第1話〜（毎話）",
-     "highlight": "木造校舎と小さな校庭、その後ろに広がる山。旭丘分校のモデルは、ほぼそのままの姿で小川町に残っている。ここに立てば、れんちょんの「にゃんぱすー」が聞こえてきそう。",
+     "highlight": "『のんのんびより』には大きな事件はほとんどないのに、多くの人を癒やしてきた。蝉の声、昼下がりの光、全校五人の小さな教室――自分が持ったこともない田舎の夏休みを思い出させてくれる。木造校舎も小さな校庭も裏山も、ほぼそのまま残っていて、ここに立つと作中のゆっくりした時間が本当にあるのだとわかる。ファンにとってはここが旭丘分校そのもの。校庭の端にしばらく座っていたくて訪れる人も多い。",
      "story": "第1話、東京から転校してきた蛍は、初登校の日に旭丘分校が小学1年生から中学3年生までたった5人、それも同じ教室で授業を受けていることを知る。れんげの「にゃんぱすー」で迎えられてから、昼寝、かくれんぼ、遠足、文化祭と、いくつもの季節がこの木造校舎と校庭で過ぎていった。モデルとなった小川町立小川小学校下里分校は2011年に閉校。現在は地元のNPOが管理し、アニメそのままののんびりした時間が流れている。",
-     "access": "東武東上線・JR八高線「小川町」駅からバスで「下里」下車、徒歩約900m。駅前でレンタサイクルも利用できる。",
-     "bestTime": "初夏から真夏の晴れた日。蝉の声と一面の緑がいちばんアニメらしい。秋の田んぼもきれい。",
-     "tips": "校舎内は通常立ち入り不可、校庭の開放状況は管理者の案内を確認。周辺は民家と農地なので、大声を出したり私有地に入ったりしないこと。"
+     "access": "東武東上線・JR八高線「小川町」駅から川越観光バス（小川パークヒル行き）で「下里」下車、南へ約900m・徒歩12分。",
+     "bestTime": "真夏の晴れた午前〜昼下がり、蝉の声と青空と緑がいちばんアニメらしい。夕方の斜光に照らされる木造校舎もきれい。夏は日差しが強いので水分を。",
+     "tips": "旧校舎は地元のNPOが管理しており、校舎内は通常立ち入り不可。校庭に入れるかは現地の掲示に従って。周辺は民家と農地なので、大声や私有地への立ち入り、路上駐車は厳禁。",
+     "accessPointName": "下里 バス停"
     },
     "en": {
      "placeName": "Former Shimosato Branch School (Ogawa, Saitama)",
      "sceneTitle": "A school of five pupils",
      "episode": "From Episode 1 (every episode)",
-     "highlight": "A wooden schoolhouse, a little playground and the hills behind — the model for Asahigaoka Branch School still stands almost unchanged in Ogawa. Stand here and you can practically hear Renge's 'Nyanpasu~'.",
+     "highlight": "Non Non Biyori has almost no plot to speak of, yet it has soothed countless viewers: cicadas, afternoon sunlight, a classroom of five that reminds you of countryside summers you never actually had. The wooden schoolhouse, little playground and hill behind survive almost unchanged, and standing here you realise that slow, unhurried time really exists. For fans this simply is Asahigaoka Branch School — many come just to sit by the playground for a while.",
      "story": "In Episode 1, Hotaru, freshly transferred from Tokyo, walks into Asahigaoka on her first day and discovers that the entire school — from first grade to the final year of middle school — is five kids sharing one classroom. Renge greets her with a cheerful 'Nyanpasu~', and from then on season after season plays out in this wooden schoolhouse and its yard: naps, hide-and-seek, field trips, a school festival. The real Ogawa Elementary School Shimosato Branch closed in 2011 and is now looked after by a local non-profit, and time here still moves at the same unhurried pace as in the show.",
-     "access": "From Ogawamachi Station (Tōbu Tōjō Line / JR Hachikō Line), take a bus to Shimosato and walk about 900 m. Rental bikes are also available near the station.",
-     "bestTime": "Sunny days from early to high summer, with cicadas and green everywhere; the autumn rice fields are lovely too.",
-     "tips": "The building is usually closed inside; check with the managers whether the grounds are open. It's surrounded by homes and farmland, so keep quiet and stay off private land."
+     "access": "From Ogawamachi Station (Tōbu Tōjō / JR Hachikō lines), take the Kawagoe Kankō bus for Ogawa Park Hill to Shimosato, then walk about 900 m south (12 min).",
+     "bestTime": "Sunny midsummer mornings to early afternoons — cicadas, blue sky and green everywhere, just like the anime. Low evening light on the wooden building is lovely too. Bring water; the summer sun is fierce.",
+     "tips": "The building is run by a local NPO and is usually closed inside; follow the signs on site about whether the grounds are open. It's surrounded by homes and farmland — keep quiet, stay off private land and don't park on the road.",
+     "accessPointName": "Shimosato bus stop"
     },
     "ko": {
      "placeName": "구 시모사토 분교 교사(사이타마·오가와마치)",
      "sceneTitle": "전교생 다섯 명의 분교",
      "episode": "제1화부터(매화)",
-     "highlight": "목조 교사와 작은 운동장, 그 뒤로 펼쳐진 산. 아사히가오카 분교의 모델은 거의 그대로의 모습으로 오가와마치에 남아 있다. 여기 서면 렌게의 '냥파스~'가 들려올 것만 같다.",
+     "highlight": "『논논비요리』에는 큰 사건이 거의 없는데도 수많은 사람을 위로해 왔다. 매미 소리, 오후의 햇살, 전교생 다섯 명의 작은 교실이 가져 본 적도 없는 시골 여름방학을 떠올리게 한다. 목조 교사와 작은 운동장, 뒷산까지 거의 그대로 남아 있어, 이곳에 서면 작중의 느긋한 시간이 실제로 존재한다는 걸 알게 된다. 팬들에게는 이곳이 곧 아사히가오카 분교여서, 운동장 가에 잠시 앉아 있으려고 찾는 사람도 많다.",
      "story": "제1화, 도쿄에서 전학 온 호타루는 첫 등교 날 아사히가오카 분교가 초등학교 1학년부터 중학교 3학년까지 단 다섯 명, 그것도 한 교실에서 수업을 받는다는 사실을 알게 된다. 렌게의 '냥파스~'로 인사를 받은 뒤로 낮잠, 숨바꼭질, 소풍, 문화제까지 수많은 계절이 이 목조 교사와 운동장에서 흘러갔다. 모델인 오가와마치립 오가와 초등학교 시모사토 분교는 2011년 폐교했고, 지금은 지역 NPO가 관리하며 애니메이션 속 그 느긋한 시간을 간직하고 있다.",
-     "access": "도부 도조선·JR 하치코선 오가와마치역에서 버스를 타고 '시모사토' 하차 후 도보 약 900m. 역 앞에서 자전거를 빌릴 수도 있다.",
-     "bestTime": "초여름부터 한여름의 맑은 날. 매미 소리와 온통 초록인 풍경이 가장 애니메이션 같다. 가을 논도 아름답다.",
-     "tips": "교사 내부는 보통 출입 불가이며, 운동장 개방 여부는 관리 측 안내를 확인하자. 주변은 민가와 농지이니 큰 소리를 내거나 사유지에 들어가지 말 것."
+     "access": "도부 도조선·JR 하치코선 오가와마치역에서 가와고에 관광버스(오가와 파크힐행)로 '시모사토' 하차, 남쪽으로 약 900m, 도보 12분.",
+     "bestTime": "한여름 맑은 날 오전~이른 오후, 매미 소리와 파란 하늘, 초록이 가장 애니메이션 같다. 저녁 햇살에 물든 목조 교사도 아름답다. 여름엔 햇볕이 강하니 물을 챙기자.",
+     "tips": "옛 교사는 지역 NPO가 관리하며 내부는 보통 출입 불가. 운동장 출입은 현장 안내문을 따를 것. 주변은 민가와 농지이니 큰 소리, 사유지 출입, 길가 주차는 삼가자.",
+     "accessPointName": "시모사토 버스 정류장"
     }
    }
   },
@@ -1092,46 +1220,59 @@
    "sourceURL": "https://www.city.sendai.jp/contentsoushutsu/animation_manga/tokushi/arigato.html",
    "photo": "File:Kamei Arena Sendai.jpg",
    "verified": false,
+   "accessPoint": {
+    "latitude": 38.2144503,
+    "longitude": 140.870681
+   },
+   "bestMonths": [
+    6,
+    10,
+    11
+   ],
    "text": {
     "zh-Hans": {
      "placeName": "仙台市体育馆（龟井竞技场仙台）南侧（宫城·仙台）",
      "sceneTitle": "宫城县预选的决战场",
      "episode": "第1季 IH 县预选篇起",
-     "highlight": "乌野一次次站上县预选舞台的体育馆，从外观到场内都照着仙台市体育馆描绘。对排球少年的粉丝来说，这里就是通往全国之前必须跨过的那道门。",
+     "highlight": "《排球少年！！》里最让人揪心的，往往是“输了就结束”的县预选。乌野在这座体育馆里赢过、也输过，三年级的眼泪和日向的不甘都留在了这片场地上，所以粉丝说这里是“通往全国前必须跨过的那道门”。仙台市把日向、影山等角色任命为观光特使，体育馆旁也曾立起纪念碑，可见这部作品与这座城市的感情。",
      "story": "日向和影山从初中时的对手变成了队友，乌野在练习赛里一点点找回自信，终于迎来了宫城县的 IH 预选。走进仙台市体育馆，赛场的灯光、看台上的应援和对手的气势一齐压过来：伊达工业的“铁壁”、青叶城西的及川彻……对三年级来说，每一场都可能是最后一战。在这座体育馆里赢下的每一分、输掉的每一场，都推着乌野向全国更近一步。仙台市也因此任命日向、影山等角色担任“仙台观光特使”。",
-     "access": "仙台市地铁南北线「富泽」站步行约 5 分钟。",
-     "bestTime": "重新开馆后的比赛日最有气氛；改修期间可在白天看外观和纪念碑。",
-     "tips": "场馆因大规模改修预计休馆至 2027 年 3 月前后，原在南侧入口的《排球少年！！》纪念碑暂移至相邻的富泽公园。周边是住宅区，请勿喧哗。"
+     "access": "仙台市地铁南北线终点「富泽」站出检票口后往西北走，约 400 米、5 分钟到体育馆南侧；纪念碑现暂移至相邻的富泽公园。",
+     "bestTime": "改修期间（预计至 2027 年 3 月）建议白天来看外观和富泽公园的纪念碑；重新开馆后，赶上排球比赛日最有剧中气氛。",
+     "tips": "体育馆因大规模改修闭馆，预计至 2027 年 3 月前后，施工期间请勿进入围挡内。原在南侧入口旁的纪念碑已移至相邻的富泽公园。周边是住宅区，请保持安静。",
+     "accessPointName": "富泽站"
     },
     "ja": {
      "placeName": "仙台市体育館（カメイアリーナ仙台）南側（宮城・仙台）",
      "sceneTitle": "宮城県予選の決戦の地",
      "episode": "第1期 インターハイ県予選編〜",
-     "highlight": "烏野が何度も県予選のコートに立つ体育館は、外観から館内まで仙台市体育館がモデル。ハイキュー!!ファンにとっては、全国の前に越えなければならない扉そのものだ。",
+     "highlight": "『ハイキュー!!』でいちばん胸が苦しくなるのは、「負けたら終わり」の県予選だ。烏野はこの体育館で勝ち、そして負けた。三年生の涙も日向の悔しさもこのコートに刻まれていて、ファンにとっては全国の前に越えなければならない扉そのもの。仙台市は日向や影山たちを観光特使に任命し、体育館の脇には記念モニュメントも置かれた。作品と街の深い絆がよくわかる場所だ。",
      "story": "中学時代の宿敵から相棒になった日向と影山。練習試合で少しずつ自信を取り戻した烏野は、ついに宮城県のインターハイ予選を迎える。仙台市体育館に足を踏み入れれば、照明、応援席の声、相手校の気迫が一気に押し寄せてくる。伊達工業の「鉄壁」、青葉城西の及川徹……3年生にとっては、どの試合も最後になるかもしれない。この体育館で取った一点、落とした一試合が、烏野を全国へ一歩ずつ近づけていく。仙台市は日向や影山らを「仙台観光特使」に任命している。",
-     "access": "仙台市地下鉄南北線「富沢」駅から徒歩約5分。",
-     "bestTime": "リニューアル後の大会開催日がいちばん雰囲気がある。改修期間中は日中に外観とモニュメントを。",
-     "tips": "大規模改修のため2027年3月頃まで休館予定。南側入口にあったハイキュー!!のモニュメントは隣接する富沢公園に移設中。周辺は住宅地なので静かに。"
+     "access": "仙台市地下鉄南北線の終点「富沢」駅の改札を出て北西へ、約400m・徒歩5分で体育館南側。モニュメントは隣の富沢公園に移設中。",
+     "bestTime": "改修中（2027年3月頃まで予定）は日中に外観と富沢公園のモニュメントを。再開後はバレーボールの大会日に合わせると作中の空気を味わえる。",
+     "tips": "大規模改修のため2027年3月頃まで休館予定。工事中は仮囲いの中に入らないこと。南側玄関脇にあったモニュメントは隣接する富沢公園に移設。周辺は住宅地なので静かに。",
+     "accessPointName": "富沢駅"
     },
     "en": {
      "placeName": "Sendai City Gymnasium (Kamei Arena Sendai), south side (Sendai, Miyagi)",
      "sceneTitle": "Where Miyagi's prelims are decided",
      "episode": "Season 1, from the Inter-High prefectural qualifiers",
-     "highlight": "The arena where Karasuno fights its prefectural qualifiers is drawn, inside and out, from Sendai City Gymnasium. For Haikyu!! fans it's the door you have to get through before nationals.",
+     "highlight": "The most gut-wrenching moments in Haikyu!! are the prefectural qualifiers, where one loss ends everything. Karasuno has won and lost in this arena; the third-years' tears and Hinata's frustration are etched into its court, which is why fans call it the door you must get through before nationals. Sendai named Hinata, Kageyama and others tourism ambassadors and put up a monument beside the gym — proof of how much the city and the series mean to each other.",
      "story": "Former rivals turned partners, Hinata and Kageyama help Karasuno win back its confidence in practice matches until the Inter-High qualifiers for Miyagi finally arrive. Inside Sendai City Gymnasium, the lights, the cheering stands and the pressure of every opponent hit all at once: Date Tech's Iron Wall, Aoba Johsai's Toru Oikawa… For the third-years, any match could be their last. Every point won and every match lost in this arena pushes Karasuno one step closer to nationals. Sendai has even appointed Hinata, Kageyama and others as official tourism ambassadors.",
-     "access": "About 5 min on foot from Tomizawa Station (Sendai Subway Namboku Line).",
-     "bestTime": "Match days after the reopening have the best atmosphere; during renovation, visit in daylight for the exterior and the monument.",
-     "tips": "Closed for major renovation until around March 2027. The Haikyu!! monument from the south entrance has temporarily moved to neighbouring Tomizawa Park. It's a residential area, so keep the noise down."
+     "access": "From the gates of Tomizawa Station (end of the Sendai Subway Namboku Line), head north-west about 400 m (5 min) to the south side of the gym. The monument is temporarily in neighbouring Tomizawa Park.",
+     "bestTime": "During renovation (expected until about March 2027), come in daylight for the exterior and the monument in Tomizawa Park. After reopening, a volleyball match day has the most atmosphere.",
+     "tips": "Closed for major renovation until around March 2027 — don't enter the construction hoardings. The monument from beside the south entrance has moved to neighbouring Tomizawa Park. It's a residential area, so keep the noise down.",
+     "accessPointName": "Tomizawa Sta."
     },
     "ko": {
      "placeName": "센다이시 체육관(카메이 아레나 센다이) 남쪽(미야기·센다이)",
      "sceneTitle": "미야기현 예선의 결전지",
      "episode": "제1기 인터하이 현 예선 편부터",
-     "highlight": "카라스노가 몇 번이고 현 예선 코트에 서는 체육관은 외관부터 내부까지 센다이시 체육관이 모델이다. 하이큐 팬에게는 전국 대회 전에 반드시 넘어야 할 관문 그 자체다.",
+     "highlight": "『하이큐!!』에서 가장 가슴 졸이는 건 '지면 끝'인 현 예선이다. 카라스노는 이 체육관에서 이기기도, 지기도 했다. 3학년들의 눈물과 히나타의 분함이 이 코트에 새겨져 있어, 팬들에게는 전국 무대 전에 반드시 넘어야 할 문 그 자체다. 센다이시는 히나타와 카게야마 등을 관광 특사로 임명하고 체육관 옆에 기념비도 세웠다. 작품과 도시의 깊은 인연을 느낄 수 있는 곳이다.",
      "story": "중학 시절 숙적에서 파트너가 된 히나타와 카게야마. 연습 경기에서 조금씩 자신감을 되찾은 카라스노는 마침내 미야기현 인터하이 예선을 맞는다. 센다이시 체육관에 들어서면 조명과 응원석의 함성, 상대 팀의 기세가 한꺼번에 밀려온다. 다테 공고의 '철벽', 아오바 조사이의 오이카와 토오루……. 3학년에게는 어느 경기든 마지막이 될 수 있다. 이 체육관에서 따낸 1점, 놓친 한 경기가 카라스노를 전국으로 한 걸음씩 데려간다. 센다이시는 히나타, 카게야마 등을 '센다이 관광 특사'로 임명했다.",
-     "access": "센다이 지하철 난보쿠선 도미자와역에서 도보 약 5분.",
-     "bestTime": "리뉴얼 후 대회가 열리는 날이 가장 분위기가 좋다. 공사 기간에는 낮에 외관과 기념비를 보자.",
-     "tips": "대규모 개수 공사로 2027년 3월경까지 휴관 예정. 남쪽 입구에 있던 하이큐 기념비는 인접한 도미자와 공원으로 임시 이전했다. 주변은 주택가이니 조용히 하자."
+     "access": "센다이 지하철 난보쿠선 종점 도미자와역 개찰구를 나와 북서쪽으로 약 400m, 도보 5분이면 체육관 남쪽. 기념비는 현재 바로 옆 도미자와 공원으로 옮겨져 있다.",
+     "bestTime": "리모델링 기간(2027년 3월경까지 예정)에는 낮에 외관과 도미자와 공원의 기념비를. 재개관 후에는 배구 대회 날에 맞추면 작중 분위기를 느낄 수 있다.",
+     "tips": "대규모 리모델링으로 2027년 3월경까지 휴관 예정이며 공사 가림막 안에는 들어가지 말 것. 남쪽 현관 옆에 있던 기념비는 바로 옆 도미자와 공원으로 이전되었다. 주변은 주택가이니 조용히.",
+     "accessPointName": "도미자와역"
     }
    }
   }

@@ -36,6 +36,15 @@ public enum GeoMath {
         return normalize(degrees(atan2(y, x)))
     }
 
+    /// 从某点沿方位角走 distance 米到达的点（球面近似）
+    public static func destination(from p: GeoPoint, bearing: Double, distance: Double) -> GeoPoint {
+        let d = distance / earthRadius, b = radians(bearing)
+        let lat1 = radians(p.latitude), lon1 = radians(p.longitude)
+        let lat2 = asin(sin(lat1) * cos(d) + cos(lat1) * sin(d) * cos(b))
+        let lon2 = lon1 + atan2(sin(b) * sin(d) * cos(lat1), cos(d) - sin(lat1) * sin(lat2))
+        return GeoPoint(latitude: degrees(lat2), longitude: degrees(lon2))
+    }
+
     /// 把任意角度归一化到 0..<360。
     public static func normalize(_ angle: Double) -> Double {
         let r = angle.truncatingRemainder(dividingBy: 360)

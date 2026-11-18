@@ -281,7 +281,7 @@ struct PhotographerModeView: View {
         .sheet(isPresented: Binding(get: { result != nil }, set: { if !$0 { result = nil } }),
                onDismiss: { if closeAfterResult { dismiss() } }) {
             if let result {
-                ResultSheet(image: result, spot: spot, onDone: {
+                ResultSheet(image: result, spot: spot, photoLocation: location.lastLocation?.geoPoint, onDone: {
                     // 先收起结果页，收起后再关闭帮拍模式
                     closeAfterResult = true
                     self.result = nil
@@ -554,6 +554,8 @@ struct PhotographerModeView: View {
                                  latitude: location.lastLocation?.coordinate.latitude,
                                  longitude: location.lastLocation?.coordinate.longitude)
         pilgrimage.attachPhoto(final, spotID: spot.id)
+        pilgrimage.addToAlbum(final, spotID: spot.id, kind: .photographer,
+                              location: location.lastLocation?.geoPoint)
         haptics.success()
         result = final
     }
@@ -812,9 +814,11 @@ struct FramingPreview: View {
 private struct ResultSheet: View {
     let image: UIImage
     let spot: Spot
+    var photoLocation: GeoPoint?
     let onDone: () -> Void
     @Environment(\.dismiss) private var dismiss
     @State private var showShare = false
+    @State private var showUpload = false
 
     var body: some View {
         NavigationStack {
@@ -842,6 +846,14 @@ private struct ResultSheet: View {
                     .glassButton(prominent: true, tint: spot.tintColor)
                 }
                 .controlSize(.large)
+                // 刚拍完心情最好：邀请分享给其他巡礼者（照片一定带着现场位置）
+                Button { showUpload = true } label: {
+                    Label(L("community.shareToPilgrims"), systemImage: "person.2.fill")
+                        .frame(maxWidth: .infinity, minHeight: 30)
+                }
+                .glassButton(tint: spot.tintColor)
+                .accessibilityIdentifier("pgShareToPilgrims")
+                Text(L("album.savedHint")).font(.caption).foregroundStyle(.secondary)
             }
             .padding()
             .toolbar {
@@ -849,6 +861,7 @@ private struct ResultSheet: View {
             }
         }
         .sheet(isPresented: $showShare) { ShareComposerView(spot: spot) }
+        .sheet(isPresented: $showUpload) { UploadPhotoSheet(spot: spot, image: image, photoLocation: photoLocation) }
     }
 }
 

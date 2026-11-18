@@ -38,16 +38,17 @@ enum MapApp: String, CaseIterable, Identifiable {
         }
     }
 
-    /// 打开到某个名场面的路线（公共交通）
-    func openDirections(to spot: Spot) {
+    /// 打开到某个名场面的路线，目的地自动填好（近处步行，远处公共交通）
+    func openDirections(to spot: Spot, walking: Bool = false) {
         if self == .apple {
             let item = MKMapItem(placemark: MKPlacemark(coordinate: spot.clCoordinate))
             item.name = spot.placeName
-            item.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDefault])
+            item.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey:
+                                                walking ? MKLaunchOptionsDirectionsModeWalking : MKLaunchOptionsDirectionsModeTransit])
             return
         }
         let urls = Self.directionURLs(app: self, latitude: spot.coordinate.latitude,
-                                      longitude: spot.coordinate.longitude, name: spot.placeName)
+                                      longitude: spot.coordinate.longitude, name: spot.placeName, walking: walking)
         let target = isInstalled ? urls.app : urls.web
         guard let target else { return }
         UIApplication.shared.open(target)
@@ -55,24 +56,27 @@ enum MapApp: String, CaseIterable, Identifiable {
 
     /// App 内链接与网页版链接。拆成纯函数，方便测试。
     static func directionURLs(app: MapApp, latitude: Double, longitude: Double,
-                              name: String) -> (app: URL?, web: URL?) {
+                              name: String, walking: Bool = false) -> (app: URL?, web: URL?) {
         let lat = String(format: "%.6f", latitude), lon = String(format: "%.6f", longitude)
         let encodedName = name.addingPercentEncoding(withAllowedCharacters: .urlQueryValueAllowed) ?? ""
         let src = "ios.com.xianlisi.seichijunrei"
         switch app {
         case .google:
-            return (URL(string: "comgooglemaps://?daddr=\(lat),\(lon)&directionsmode=transit"),
-                    URL(string: "https://www.google.com/maps/dir/?api=1&destination=\(lat),\(lon)&travelmode=transit"))
+            let mode = walking ? "walking" : "transit"
+            return (URL(string: "comgooglemaps://?daddr=\(lat),\(lon)&directionsmode=\(mode)"),
+                    URL(string: "https://www.google.com/maps/dir/?api=1&destination=\(lat),\(lon)&travelmode=\(mode)"))
         case .amap:
             // t=1 公共交通；dev=0 表示不再做坐标偏移
-            return (URL(string: "iosamap://path?sourceApplication=\(src)&dlat=\(lat)&dlon=\(lon)&dname=\(encodedName)&dev=0&t=1"),
-                    URL(string: "https://uri.amap.com/navigation?to=\(lon),\(lat),\(encodedName)&mode=bus&src=\(src)&coordinate=wgs84&callnative=1"))
+            // t=1 公共交通，t=2 步行
+            return (URL(string: "iosamap://path?sourceApplication=\(src)&dlat=\(lat)&dlon=\(lon)&dname=\(encodedName)&dev=0&t=\(walking ? 2 : 1)"),
+                    URL(string: "https://uri.amap.com/navigation?to=\(lon),\(lat),\(encodedName)&mode=\(walking ? "walk" : "bus")&src=\(src)&coordinate=wgs84&callnative=1"))
         case .baidu:
             let dest = "latlng:\(lat),\(lon)%7Cname:\(encodedName)"   // %7C = "|"
-            return (URL(string: "baidumap://map/direction?destination=\(dest)&coord_type=wgs84&mode=transit&src=\(src)"),
-                    URL(string: "https://api.map.baidu.com/direction?destination=\(dest)&coord_type=wgs84&mode=transit&region=%E6%97%A5%E6%9C%AC&output=html&src=\(src)"))
+            let mode = walking ? "walking" : "transit"
+            return (URL(string: "baidumap://map/direction?destination=\(dest)&coord_type=wgs84&mode=\(mode)&src=\(src)"),
+                    URL(string: "https://api.map.baidu.com/direction?destination=\(dest)&coord_type=wgs84&mode=\(mode)&region=%E6%97%A5%E6%9C%AC&output=html&src=\(src)"))
         case .apple:
-            return (nil, URL(string: "https://maps.apple.com/?daddr=\(lat),\(lon)"))
+            return (nil, URL(string: "https://maps.apple.com/?daddr=\(lat),\(lon)&dirflg=\(walking ? "w" : "r")"))
         }
     }
 }

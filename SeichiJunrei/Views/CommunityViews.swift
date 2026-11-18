@@ -5,8 +5,8 @@ import SeichiCore
 
 // MARK: - 详情页：巡礼者的照片
 
-/// 详情页里的“巡礼者的照片”：浏览、上传、举报
-struct CommunityPhotosSection: View {
+/// 封面下面的一排“巡礼者拍的”缩略图：看别人在现场怎么拍；没人上传时只是一个小按钮
+struct CommunityPhotoStrip: View {
     let spot: Spot
     @State private var community = CommunityService.shared
     @State private var picked: PhotosPickerItem?
@@ -16,17 +16,33 @@ struct CommunityPhotosSection: View {
     private var photos: [CommunityPhoto] { community.photosBySpot[spot.id] ?? [] }
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 12) {
+        VStack(alignment: .leading, spacing: 8) {
             if photos.isEmpty {
-                Text(L("community.empty")).font(.callout).foregroundStyle(.secondary)
+                PhotosPicker(selection: $picked, matching: .images, preferredItemEncoding: .current, photoLibrary: .shared()) {
+                    Label(L("community.beFirst"), systemImage: "camera.badge.ellipsis")
+                        .font(.footnote.weight(.semibold))
+                }
+                .foregroundStyle(spot.tintColor)
+                .accessibilityIdentifier("uploadCommunityPhoto")
             } else {
+                HStack {
+                    Label(L("community.stripTitle", photos.count), systemImage: "person.2.fill")
+                        .font(.subheadline.bold())
+                    Spacer()
+                    PhotosPicker(selection: $picked, matching: .images, preferredItemEncoding: .current, photoLibrary: .shared()) {
+                        Label(L("community.uploadShort"), systemImage: "plus")
+                            .font(.footnote.weight(.semibold))
+                    }
+                    .foregroundStyle(spot.tintColor)
+                    .accessibilityIdentifier("uploadCommunityPhoto")
+                }
                 ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(spacing: 10) {
+                    HStack(spacing: 8) {
                         ForEach(photos) { photo in
                             Button { viewing = photo } label: {
                                 LocalImage(url: photo.imageURL)
-                                    .frame(width: 120, height: 150)
-                                    .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
+                                    .frame(width: 92, height: 112)
+                                    .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
                             }
                             .buttonStyle(.plain)
                             .accessibilityLabel(photo.caption.isEmpty ? L("community.photo") : photo.caption)
@@ -35,26 +51,21 @@ struct CommunityPhotosSection: View {
                     }
                 }
             }
-            PhotosPicker(selection: $picked, matching: .images) {
-                Label(L("community.upload"), systemImage: "camera.badge.ellipsis")
-                    .font(.subheadline.weight(.semibold))
-                    .frame(maxWidth: .infinity, minHeight: 30)
-            }
-            .glassButton(tint: spot.tintColor)
-            .accessibilityIdentifier("uploadCommunityPhoto")
         }
         .task(id: spot.id) { await community.loadPhotos(spotID: spot.id) }
         .onChange(of: picked) { _, item in
             guard let item else { return }
             Task {
                 if let data = try? await item.loadTransferable(type: Data.self), let image = UIImage(data: data) {
-                    await MainActor.run { uploadItem = IdentifiedImage(image: image) }
+                    var loc = PhotoModeration.gpsLocation(from: data)
+                    if loc == nil { loc = await PhotoModeration.libraryLocation(itemIdentifier: item.itemIdentifier) }
+                    await MainActor.run { uploadItem = IdentifiedImage(image: image, location: loc) }
                 }
                 await MainActor.run { picked = nil }
             }
         }
         .sheet(item: $uploadItem) { item in
-            UploadPhotoSheet(spot: spot, image: item.image)
+            UploadPhotoSheet(spot: spot, image: item.image, photoLocation: item.location)
         }
         .sheet(item: $viewing) { photo in
             CommunityPhotoViewer(photo: photo)
@@ -65,6 +76,7 @@ struct CommunityPhotosSection: View {
 struct IdentifiedImage: Identifiable {
     let id = UUID()
     let image: UIImage
+    var location: GeoPoint?
 }
 
 /// 读取本机缓存的图片文件
@@ -84,11 +96,16 @@ struct LocalImage: View {
 struct UploadPhotoSheet: View {
     let spot: Spot
     let image: UIImage
+    /// 照片的拍摄位置（App 里拍的取当时定位，相册里选的读 EXIF）
+    var photoLocation: GeoPoint?
     @Environment(\.dismiss) private var dismiss
     @State private var caption = ""
     @State private var ownPhoto = false
     @State private var uploading = false
     @State private var message: String?
+    /// 自动检查：nil 表示还在检查
+    @State private var checked = false
+    @State private var problem: PhotoModeration.Problem?
 
     private var captionProblems: [ContentFilter.Problem] {
         ContentFilter.problems(in: caption, required: false, maxLength: 200)
@@ -110,6 +127,15 @@ struct UploadPhotoSheet: View {
                         .background(Color(.secondarySystemBackground), in: RoundedRectangle(cornerRadius: 14, style: .continuous))
                         .accessibilityIdentifier("communityCaption")
                     if let p = captionProblems.first { FilterProblemText(problem: p) }
+                    if !checked {
+                        Label(L("moderation.checking"), systemImage: "hourglass").font(.callout)
+                            .foregroundStyle(.secondary)
+                    } else if let problem {
+                        Label(PhotoModeration.message(problem), systemImage: "exclamationmark.triangle.fill")
+                            .font(.callout.bold())
+                            .foregroundStyle(.orange)
+                            .accessibilityIdentifier("moderationProblem")
+                    }
                     Toggle(isOn: $ownPhoto) {
                         Text(L("community.ownPhoto")).font(.subheadline)
                     }
@@ -137,10 +163,14 @@ struct UploadPhotoSheet: View {
                     }
                     .glassButton(prominent: true, tint: spot.tintColor)
                     .controlSize(.large)
-                    .disabled(!ownPhoto || !captionProblems.isEmpty || uploading)
+                    .disabled(!ownPhoto || !captionProblems.isEmpty || uploading || !checked || problem != nil)
                     .accessibilityIdentifier("communityUploadConfirm")
                 }
                 .padding()
+            }
+            .task {
+                problem = await PhotoModeration.check(image: image, photoLocation: photoLocation, spot: spot)
+                checked = true
             }
             .navigationTitle(L("community.uploadTitle"))
             .navigationBarTitleDisplayMode(.inline)
@@ -522,45 +552,104 @@ struct SubmitSceneView: View {
 
 // MARK: - 设置页：我的投稿
 
+/// 我的投稿：新名场面、现场照片、机位校准，各自的审核状态；可以删除
 struct MySubmissionsView: View {
     @State private var community = CommunityService.shared
+    @State private var deleting: MySubmission?
+    @State private var message: String?
+
+    private let kinds: [MySubmission.Kind] = [.scene, .photo, .calibration]
 
     var body: some View {
         List {
             if community.mySubmissions.isEmpty {
                 Text(L("submit.none")).foregroundStyle(.secondary)
             }
-            ForEach(community.mySubmissions) { s in
-                HStack {
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text(s.title).font(.headline)
-                        Text(s.date.formatted(date: .abbreviated, time: .omitted)).font(.caption).foregroundStyle(.secondary)
+            ForEach(kinds, id: \.self) { kind in
+                let items = community.mySubmissions.filter { $0.resolvedKind == kind }
+                if !items.isEmpty {
+                    Section(sectionTitle(kind)) {
+                        ForEach(items) { s in
+                            row(s)
+                                .swipeActions {
+                                    Button(role: .destructive) { deleting = s } label: {
+                                        Label(L("submit.delete"), systemImage: "trash")
+                                    }
+                                }
+                        }
                     }
-                    Spacer()
-                    Text(statusText(s.status))
-                        .font(.caption.bold())
-                        .padding(.horizontal, 8).padding(.vertical, 3)
-                        .background(statusColor(s.status).opacity(0.15), in: Capsule())
-                        .foregroundStyle(statusColor(s.status))
                 }
+            }
+            if let message {
+                Text(message).font(.footnote).foregroundStyle(.orange)
+            }
+            Section {
+                Text(L("submit.mineFooter")).font(.footnote).foregroundStyle(.secondary)
             }
         }
         .navigationTitle(L("submit.mine"))
         .task { await community.refreshMySubmissions() }
+        .confirmationDialog(L("submit.deleteConfirm"), isPresented: Binding(get: { deleting != nil },
+                                                                           set: { if !$0 { deleting = nil } }),
+                            titleVisibility: .visible) {
+            Button(L("submit.delete"), role: .destructive) {
+                guard let d = deleting else { return }
+                Task {
+                    if case .failure(let f) = await community.deleteMySubmission(d) { message = CommunityText.failure(f) }
+                }
+            }
+        }
+    }
+
+    private func row(_ s: MySubmission) -> some View {
+        HStack {
+            Image(systemName: icon(s.resolvedKind)).foregroundStyle(.secondary).frame(width: 24)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(s.title).font(.subheadline.weight(.semibold)).lineLimit(2)
+                Text(s.date.formatted(date: .abbreviated, time: .omitted)).font(.caption).foregroundStyle(.secondary)
+            }
+            Spacer()
+            Text(statusText(s.status))
+                .font(.caption.bold())
+                .padding(.horizontal, 8).padding(.vertical, 3)
+                .background(statusColor(s.status).opacity(0.15), in: Capsule())
+                .foregroundStyle(statusColor(s.status))
+        }
+        .accessibilityIdentifier("mySubmission-\(s.resolvedKind.rawValue)")
+    }
+
+    private func sectionTitle(_ k: MySubmission.Kind) -> String {
+        switch k {
+        case .scene: return L("submit.kind.scene")
+        case .photo: return L("submit.kind.photo")
+        case .calibration: return L("submit.kind.calibration")
+        }
+    }
+
+    private func icon(_ k: MySubmission.Kind) -> String {
+        switch k {
+        case .scene: return "film"
+        case .photo: return "photo"
+        case .calibration: return "scope"
+        }
     }
 
     private func statusText(_ s: String) -> String {
         switch s {
         case "approved": return L("submit.status.approved")
         case "rejected": return L("submit.status.rejected")
+        case "visible": return L("submit.status.visible")
+        case "hidden": return L("submit.status.hidden")
+        case "received": return L("submit.status.received")
+        case "removed": return L("submit.status.removed")
         default: return L("submit.status.pending")
         }
     }
 
     private func statusColor(_ s: String) -> Color {
         switch s {
-        case "approved": return .green
-        case "rejected": return .red
+        case "approved", "visible", "received": return .green
+        case "rejected", "hidden", "removed": return .red
         default: return .orange
         }
     }

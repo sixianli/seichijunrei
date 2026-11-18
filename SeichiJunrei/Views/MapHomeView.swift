@@ -26,13 +26,13 @@ struct MapHomeView: View {
             center: CLLocationCoordinate2D(latitude: 35.6812, longitude: 139.7671),  // 东京站
             span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))))
     @State private var selected: Spot?
-    @State private var sceneSpot: Spot?
+    /// 正在进行的“带我去复现 / 请人帮我拍”
+    @State private var journey: Journey?
     @State private var showList = false
+    @State private var showAlbum = false
     /// 等当前 sheet 收起后要呈现的下一个页面
-    @State private var pendingScene: Spot?
+    @State private var pendingJourney: Journey?
     @State private var pendingDetail: Spot?
-    @State private var pendingPhotographer: Spot?
-    @State private var photographerSpot: Spot?
 
     // 搜索
     @State private var query = ""
@@ -141,9 +141,9 @@ struct MapHomeView: View {
                     .accessibilityIdentifier("openSettings")
             }
             ToolbarItem(placement: .topBarTrailing) {
-                Button { showSubmit = true } label: { Image(systemName: "plus") }
-                    .accessibilityLabel(L("submit.title"))
-                    .accessibilityIdentifier("openSubmit")
+                Button { showAlbum = true } label: { Image(systemName: "photo.stack") }
+                    .accessibilityLabel(L("album.title"))
+                    .accessibilityIdentifier("openAlbum")
             }
             ToolbarItem(placement: .topBarTrailing) {
                 Button { showList = true } label: { Image(systemName: "list.bullet") }
@@ -154,14 +154,13 @@ struct MapHomeView: View {
         // 先关闭当前 sheet，等它真正收起（onDismiss）后再呈现下一个模态视图。
         // 不能用固定延时：sheet 被拉到全屏高度时收起动画更长，提前呈现会被系统丢弃。
         .sheet(item: $selected, onDismiss: {
-            if let next = pendingScene { pendingScene = nil; sceneSpot = next }
-            if let next = pendingPhotographer { pendingPhotographer = nil; photographerSpot = next }
+            if let next = pendingJourney { pendingJourney = nil; journey = next }
         }) { spot in
             SpotDetailView(spot: spot, onEnterScene: {
-                pendingScene = spot
+                pendingJourney = Journey(spot: spot, purpose: .scene)
                 selected = nil
             }, onPhotographer: {
-                pendingPhotographer = spot
+                pendingJourney = Journey(spot: spot, purpose: .photographer)
                 selected = nil
             })
             .presentationDetents([.medium, .large])
@@ -178,11 +177,13 @@ struct MapHomeView: View {
         .sheet(isPresented: $showPaywall) { PaywallView() }
         .sheet(isPresented: $showSettings) { SettingsView() }
         .sheet(isPresented: $showSubmit) { SubmitSceneView() }
-        .fullScreenCover(item: $sceneSpot) { spot in
-            SceneModeView(spot: spot)
+        .sheet(isPresented: $showAlbum, onDismiss: {
+            if let next = pendingDetail { pendingDetail = nil; selected = next }
+        }) {
+            AlbumView { spot in pendingDetail = spot }
         }
-        .fullScreenCover(item: $photographerSpot) { spot in
-            PhotographerModeView(spot: spot)
+        .fullScreenCover(item: $journey) { j in
+            JourneyView(journey: j)
         }
         .overlay {
             if let err = store.loadError {
@@ -201,7 +202,9 @@ struct MapHomeView: View {
             }
             PermissionBanner()
             if let arrived = arrivedSpot {
-                ArrivalBanner(nearby: arrived) { sceneSpot = arrived.spot }
+                ArrivalBanner(nearby: arrived,
+                              onScene: { journey = Journey(spot: arrived.spot, purpose: .scene) },
+                              onPhotographer: { journey = Journey(spot: arrived.spot, purpose: .photographer) })
                     .transition(.move(edge: .top).combined(with: .opacity))
             }
         }
@@ -214,6 +217,11 @@ struct MapHomeView: View {
     @ViewBuilder private var suggestions: some View {
         if searchResults.isEmpty {
             Text(L("map.noResults", query)).foregroundStyle(.secondary)
+            // 没找到：这是用户最想推荐名场面的时候
+            Button { showSubmit = true } label: {
+                Label(L("map.suggestScene"), systemImage: "plus.bubble")
+            }
+            .accessibilityIdentifier("openSubmit")
         } else {
             Section(query.isEmpty ? L("map.allWorks") : L("map.searchResults")) {
                 ForEach(searchResults) { match in
@@ -271,7 +279,14 @@ struct MapHomeView: View {
         guard let id = store.requestedSpotID,
               let spot = store.spots.first(where: { $0.id == id }) else { return }
         store.requestedSpotID = nil
-        sceneSpot = nil
+        if let purpose = store.requestedJourneyPurpose.flatMap(JourneyPurpose.init(rawValue:)) {
+            // 点了“快到了”通知：直接回到指引
+            store.requestedJourneyPurpose = nil
+            selected = nil
+            journey = Journey(spot: spot, purpose: purpose)
+            return
+        }
+        journey = nil
         selected = spot
         fitCamera(to: [spot])
     }
@@ -430,30 +445,43 @@ private struct ArrivalPulse: View {
 
 private struct ArrivalBanner: View {
     let nearby: NearbySpot
-    let action: () -> Void
+    let onScene: () -> Void
+    let onPhotographer: () -> Void
 
     var body: some View {
-        Button(action: action) {
-            HStack(spacing: 12) {
-                Image(systemName: "figure.stand")
-                    .font(.title2)
-                    .symbolEffect(.pulse, options: .repeating)
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(L("map.arrivedTitle")).font(.headline)
-                    Text(nearby.spot.workTitle + " " + nearby.spot.quotedSceneTitle)
-                        .font(.subheadline).lineLimit(1)
+        HStack(spacing: 10) {
+            Button(action: onScene) {
+                HStack(spacing: 12) {
+                    Image(systemName: "figure.stand")
+                        .font(.title2)
+                        .symbolEffect(.pulse, options: .repeating)
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(L("map.arrivedTitle")).font(.headline)
+                        Text(nearby.spot.workTitle + " " + nearby.spot.quotedSceneTitle)
+                            .font(.subheadline).lineLimit(1)
+                    }
+                    Spacer(minLength: 0)
+                    Image(systemName: "camera.viewfinder").font(.title2)
                 }
-                Spacer()
-                Image(systemName: "camera.viewfinder").font(.title2)
+                .contentShape(Rectangle())
             }
-            .foregroundStyle(.white)
-            .padding()
-            .glassSurface(RoundedRectangle(cornerRadius: 24, style: .continuous),
-                          tint: nearby.spot.tintColor, interactive: true)
-            .contentShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+            .buttonStyle(.plain)
+            .accessibilityIdentifier("arrivalBanner")
+            // 人已经在现场：一步开始“请人帮我拍”
+            Button(action: onPhotographer) {
+                Image(systemName: "person.crop.rectangle.badge.plus")
+                    .font(.title3.bold())
+                    .frame(width: 44, height: 44)
+                    .background(.white.opacity(0.22), in: Circle())
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel(L("detail.photographer"))
+            .accessibilityIdentifier("arrivalPhotographer")
         }
-        .buttonStyle(.plain)
-        .accessibilityIdentifier("arrivalBanner")
+        .foregroundStyle(.white)
+        .padding()
+        .glassSurface(RoundedRectangle(cornerRadius: 24, style: .continuous),
+                      tint: nearby.spot.tintColor, interactive: true)
     }
 }
 
