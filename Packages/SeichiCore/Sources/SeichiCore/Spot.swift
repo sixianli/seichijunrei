@@ -35,6 +35,20 @@ public struct SpotPhoto: Codable, Hashable, Sendable {
     }
 }
 
+/// 详情页封面插画：据真实地点的照片重绘成动画背景美术风格，随 App 打包。
+public struct SpotIllustration: Codable, Hashable, Sendable {
+    /// 打包在 App 里的图片名（不含 .jpg）
+    public var file: String
+    /// 插画据哪张自由许可的实景照片绘制（署名用）；nil 表示据开发者自己在现场拍的照片绘制
+    public var basedOn: SpotPhoto?
+    /// 名场面的实景照片和插画视角是否足够接近，可以让用户切换着看
+    public var showsRealPhoto: Bool
+
+    public init(file: String, basedOn: SpotPhoto? = nil, showsRealPhoto: Bool = false) {
+        self.file = file; self.basedOn = basedOn; self.showsRealPhoto = showsRealPhoto
+    }
+}
+
 /// 某种语言下的圣地文案。字段为空表示沿用基础（简体中文）内容。
 public struct SpotTranslation: Codable, Hashable, Sendable {
     /// 作品在该语言中的通用译名；空字符串表示不显示译名（如日语环境下原名即可）
@@ -114,6 +128,8 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
     public var spoiler: Bool
     /// 真实地点照片
     public var photo: SpotPhoto?
+    /// 封面插画
+    public var illustration: SpotIllustration?
     /// 作品首播 / 上映年份
     public var year: Int?
     /// 导演 / 制作公司 / 电视台
@@ -140,7 +156,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
                 highlight: String? = nil, access: String? = nil, bestTime: String? = nil,
                 spoiler: Bool = false, photo: SpotPhoto? = nil, year: Int? = nil,
                 creator: String? = nil, synopsis: String? = nil, officialURL: String? = nil,
-                country: String? = nil) {
+                country: String? = nil, illustration: SpotIllustration? = nil) {
         self.id = id; self.workID = workID ?? work; self.work = work; self.workLocalized = workLocalized
         self.mediaType = mediaType; self.aliases = aliases
         self.placeName = placeName; self.sceneTitle = sceneTitle; self.episode = episode
@@ -152,14 +168,14 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         self.highlight = highlight; self.access = access; self.bestTime = bestTime
         self.spoiler = spoiler; self.photo = photo; self.year = year
         self.creator = creator; self.synopsis = synopsis; self.officialURL = officialURL
-        self.country = country
+        self.country = country; self.illustration = illustration
     }
 
     enum CodingKeys: String, CodingKey {
         case id, work, workLocalized, mediaType, aliases, placeName, sceneTitle, episode, story, trivia
         case latitude, longitude, sceneHeading, scenePitch, arrivalRadius
         case sceneImage, sourceURL, verified, tint, translations
-        case workID, highlight, access, bestTime, spoiler, photo, year, creator, synopsis, officialURL, country
+        case workID, highlight, access, bestTime, spoiler, photo, year, creator, synopsis, officialURL, country, illustration
     }
 
     public init(from decoder: Decoder) throws {
@@ -195,6 +211,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         bestTime = try c.decodeIfPresent(String.self, forKey: .bestTime)
         spoiler = try c.decodeIfPresent(Bool.self, forKey: .spoiler) ?? false
         photo = try c.decodeIfPresent(SpotPhoto.self, forKey: .photo)
+        illustration = try c.decodeIfPresent(SpotIllustration.self, forKey: .illustration)
         year = try c.decodeIfPresent(Int.self, forKey: .year)
         creator = try c.decodeIfPresent(String.self, forKey: .creator)
         synopsis = try c.decodeIfPresent(String.self, forKey: .synopsis)
@@ -230,6 +247,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         try c.encodeIfPresent(bestTime, forKey: .bestTime)
         if spoiler { try c.encode(spoiler, forKey: .spoiler) }
         try c.encodeIfPresent(photo, forKey: .photo)
+        try c.encodeIfPresent(illustration, forKey: .illustration)
         try c.encodeIfPresent(year, forKey: .year)
         try c.encodeIfPresent(creator, forKey: .creator)
         try c.encodeIfPresent(synopsis, forKey: .synopsis)
@@ -354,6 +372,7 @@ struct CatalogFile: Decodable {
         var spoiler: Bool?
         var sourceURL: String?
         var photo: SpotPhoto?
+        var illustration: SpotIllustration?
         var verified: Bool?
         var text: [String: SpotText]
     }
@@ -393,7 +412,7 @@ struct CatalogFile: Decodable {
                         workID: w.id, highlight: t.highlight, access: t.access, bestTime: t.bestTime,
                         spoiler: r.spoiler ?? false, photo: r.photo, year: w.year,
                         creator: wt?.creator ?? w.creator, synopsis: wt?.synopsis, officialURL: w.officialURL,
-                        country: w.country == "JP" ? nil : w.country)
+                        country: w.country == "JP" ? nil : w.country, illustration: r.illustration)
         }
     }
 }

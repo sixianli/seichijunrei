@@ -1,0 +1,106 @@
+{
+  "_说明": "每张封面插画（SeichiJunrei/Resources/Illustrations/<id>.jpg）的来源。source=catalog：用 catalog.json 里该名场面的自由许可实景照片生成，App 注明“据 <作者> 的照片绘制（<许可证>）”，可切换看实景照片。source=owner：用开发者本人拍的照片生成，原照片不公开；realPhotoMatches=true 表示目录里的实景照片和插画视角足够接近，App 才提供“看实景”切换，否则只显示插画。 file：与另一个名场面共用同一张插画（同一地点、相近视角），填那张插画的文件名。",
+  "kiminonawa-suga-shrine": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片",
+    "realPhotoMatches": false
+  },
+  "slamdunk-kamakurakokomae": {
+    "source": "catalog"
+  },
+  "spirited-away-dogo-onsen": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片（重画，替换原来据 Commons 照片生成的版本）；正门牌匾和门帘上的字已盖掉",
+    "realPhotoMatches": false
+  },
+  "lovelive-kanda-myojin": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄；生成前已把照片里的招牌和商标盖掉",
+    "realPhotoMatches": false
+  },
+  "lovelive-sunshine-mitohama": {
+    "source": "catalog"
+  },
+  "kiminonawa-hida-furukawa": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片",
+    "realPhotoMatches": true
+  },
+  "kiminonawa-shinanomachi-footbridge": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片",
+    "realPhotoMatches": true
+  },
+  "whisper-iroha-zaka-stairs": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片",
+    "realPhotoMatches": false
+  },
+  "whisper-konpira-shrine": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片",
+    "realPhotoMatches": true
+  },
+  "whisper-sakuragaoka-rotary": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片",
+    "realPhotoMatches": true
+  },
+  "arrietty-seibien": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片",
+    "realPhotoMatches": true
+  },
+  "hyouka-kajibashi": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片",
+    "realPhotoMatches": false
+  },
+  "spirited-away-kodakarayu": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片；门帘文字和说明牌生成前已盖掉",
+    "realPhotoMatches": true
+  },
+  "eupho-daikichiyama": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片",
+    "realPhotoMatches": false
+  },
+  "eupho-ujibashi": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片",
+    "realPhotoMatches": false
+  },
+  "jujutsu-kaisen-shibuya-scramble": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片；所有广告牌、商标生成前已盖掉，并去掉了行人和车辆",
+    "realPhotoMatches": false
+  },
+  "your-lie-in-april-shakujii-park": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片",
+    "realPhotoMatches": false
+  },
+  "marnie-mochirippu-numa": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片",
+    "realPhotoMatches": false
+  },
+  "koenokatachi-midorigoi": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片；桥柱刻字和招牌生成前已盖掉",
+    "realPhotoMatches": false
+  },
+  "bakemono-shibuya-scramble": {
+    "source": "owner",
+    "file": "jujutsu-kaisen-shibuya-scramble",
+    "note": "同一个十字路口，共用《咒术回战》那张插画",
+    "realPhotoMatches": false
+  },
+  "lostintranslation-shibuya-crossing": {
+    "source": "owner",
+    "file": "jujutsu-kaisen-shibuya-scramble",
+    "note": "同一个十字路口，共用《咒术回战》那张插画",
+    "realPhotoMatches": false
+  }
+}

@@ -184,7 +184,7 @@
 "settings.workCount" = "作品";
 "settings.calibrationNote" = "機位座標整理自公開資料，可能有偏差。到了現場可以在名場面頁點「校準機位」，把準確的位置和朝向提交給我們。";
 "settings.credits" = "版權與致謝";
-"settings.creditsBody" = "作品名稱及相關權利歸各自權利人所有，本 App 與各作品官方無關，也不收錄作品畫面。實景照片來自 Wikimedia Commons，作者與授權標示在對應名場面頁。部分座標參考 © OpenStreetMap contributors。";
+"settings.creditsBody" = "作品名稱及相關權利歸各自權利人所有，本 App 與各作品官方無關，也不收錄作品畫面。封面插畫由 AI 依據實景照片重繪，沒有使用任何作品畫面。實景照片來自 Wikimedia Commons，作者與授權標示在對應名場面頁。部分座標參考 © OpenStreetMap contributors。";
 "settings.version" = "版本";
 "detail.photographer" = "請人幫我拍";
 "pg.title" = "請人幫你拍";
@@ -224,6 +224,11 @@
 "detail.startGuideHint" = "先帶你走到原作鏡頭的位置，到了以後指引你轉身、抬頭，對準原作的畫面";
 "detail.enterSceneHint" = "你已經在機位上了：打開相機，跟著指引轉身對準原作的畫面";
 "detail.myScreenshot" = "我的名場面截圖";
+"illustration.badge" = "AI 插畫";
+"illustration.creditPhoto" = "AI 插畫 · 依 %@ 的實景照片繪製（%@）";
+"illustration.creditOwn" = "AI 插畫 · 依開發者在現場拍攝的照片繪製";
+"illustration.showPhoto" = "看實景";
+"illustration.showArt" = "看插畫";
 "photo.lookAround" = "Apple 街景";
 "photo.satellite" = "衛星實景";
 "format.sceneNumber" = "名場面%@";

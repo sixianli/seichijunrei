@@ -1,9 +1,10 @@
 import SwiftUI
 import UIKit
 import MapKit
+import ImageIO
 import SeichiCore
 
-/// 名场面画面。优先级：用户自己选的截图 → （可选）真实地点照片 → 有授权的 sceneImage → 插画风占位图。
+/// 名场面画面。优先级：用户自己选的截图 → （可选）封面插画 → 真实地点照片 → 有授权的 sceneImage → 插画风占位图。
 /// 请勿打包未经授权的动画截图 / 剧照 / 海报。
 struct SceneArtwork: View {
     let spot: Spot
@@ -16,6 +17,10 @@ struct SceneArtwork: View {
         Group {
             if let userImage = SceneImageStore.shared.image(for: spot.id) {
                 Image(uiImage: userImage).resizable().scaledToFill()
+            } else if useLocationPhoto, let ill = spot.illustration,
+                      let image = IllustrationImages.shared.image(ill.file, thumbnail: compact) {
+                // 封面插画（据实景照片重绘的动画背景风格，随 App 打包）
+                Image(uiImage: image).resizable().scaledToFill()
             } else if useLocationPhoto, let photo = spot.photo, photo.url.hasPrefix("file:"), let url = URL(string: photo.url) {
                 // 用户投稿的名场面：照片已缓存在本机
                 LocalImage(url: url)
@@ -118,21 +123,83 @@ struct PhotoCredit: View {
     }
 }
 
+/// 打包的封面插画。卡片 / 列表用缩小解码的版本，省内存。
+@MainActor
+final class IllustrationImages {
+    static let shared = IllustrationImages()
+    private let cache = NSCache<NSString, UIImage>()
+
+    func image(_ name: String, thumbnail: Bool) -> UIImage? {
+        let key = "\(name)|\(thumbnail)" as NSString
+        if let hit = cache.object(forKey: key) { return hit }
+        guard let url = Bundle.main.url(forResource: name, withExtension: "jpg") else { return nil }
+        let image: UIImage?
+        if thumbnail {
+            guard let src = CGImageSourceCreateWithURL(url as CFURL, nil),
+                  let cg = CGImageSourceCreateThumbnailAtIndex(src, 0, [
+                      kCGImageSourceCreateThumbnailFromImageAlways: true,
+                      kCGImageSourceThumbnailMaxPixelSize: 480,
+                      kCGImageSourceCreateThumbnailWithTransform: true,
+                  ] as CFDictionary) else { return nil }
+            image = UIImage(cgImage: cg)
+        } else {
+            image = UIImage(contentsOfFile: url.path)
+        }
+        if let image { cache.setObject(image, forKey: key) }
+        return image
+    }
+}
+
+/// 插画的署名：据谁的照片绘制（CC 许可证要求注明作者、许可证；CC BY-SA 照片的改编插画同样按 CC BY-SA 提供）
+struct IllustrationCredit: View {
+    let illustration: SpotIllustration
+    @Environment(\.openURL) private var openURL
+
+    var body: some View {
+        Button {
+            if let p = illustration.basedOn, let s = p.pageURL ?? p.licenseURL, let url = URL(string: s) { openURL(url) }
+        } label: {
+            Label(text, systemImage: "paintbrush")
+                .font(.caption2)
+                .foregroundStyle(.secondary)
+                .lineLimit(2)
+                .multilineTextAlignment(.leading)
+        }
+        .buttonStyle(.plain)
+        .disabled(illustration.basedOn == nil)
+        .accessibilityIdentifier("illustrationCredit")
+    }
+
+    private var text: String {
+        if let p = illustration.basedOn { return L("illustration.creditPhoto", p.author, p.license) }
+        return L("illustration.creditOwn")
+    }
+}
+
 // MARK: - 没有实景照片时的兜底：Apple 街景 / 卫星实景
 
-/// 详情页顶部的大图：自己的截图 → 实景照片 → Apple 街景（Look Around，可拖动环顾）→ 3D 卫星实景
+/// 详情页顶部的大图：自己的截图 → 封面插画（可切换看实景照片）→ 实景照片 → Apple 街景（Look Around，可拖动环顾）→ 3D 卫星实景
 struct SpotHeroImage: View {
     let spot: Spot
     @State private var lookAround: MKLookAroundScene?
     @State private var checkedLookAround = false
+    /// 有插画时，用户点了“看实景”
+    @State private var showingRealPhoto = false
 
-    private enum Source { case screenshot, photo, community, lookAround, satellite }
+    private enum Source { case screenshot, illustration, photo, community, lookAround, satellite }
+
+    /// 插画和实景照片视角接近时才提供切换；差得多就只显示插画，免得对不上
+    private var canToggle: Bool {
+        spot.illustration?.showsRealPhoto == true && spot.photo != nil
+            && !SceneImageStore.shared.hasImage(for: spot.id)
+    }
 
     /// 巡礼者上传的照片（没有自由许可的实景照片时用第一张）
     private var communityPhoto: CommunityPhoto? { CommunityService.shared.photosBySpot[spot.id]?.first }
 
     private var source: Source {
         if SceneImageStore.shared.hasImage(for: spot.id) { return .screenshot }
+        if spot.illustration != nil, !(showingRealPhoto && canToggle) { return .illustration }
         if spot.photo != nil { return .photo }
         if communityPhoto != nil { return .community }
         return lookAround != nil ? .lookAround : .satellite
@@ -147,8 +214,18 @@ struct SpotHeroImage: View {
                 .frame(height: 240)
                 .overlay {
                     switch source {
-                    case .screenshot, .photo:
+                    case .screenshot, .illustration:
                         SceneArtwork(spot: spot, useLocationPhoto: true)
+                    case .photo where spot.illustration == nil:
+                        SceneArtwork(spot: spot, useLocationPhoto: true)
+                    case .photo:
+                        // 有插画、用户点了“看实景”：直接显示目录里的实景照片
+                        if let photo = spot.photo, let url = URL(string: photo.url) {
+                            AsyncImage(url: url, transaction: Transaction(animation: .easeOut(duration: 0.25))) { phase in
+                                if case .success(let image) = phase { image.resizable().scaledToFill() }
+                                else { Color(.secondarySystemBackground).overlay(ProgressView()) }
+                            }
+                        }
                     case .community:
                         if let p = communityPhoto { LocalImage(url: p.imageURL) }
                     case .lookAround:
@@ -168,6 +245,24 @@ struct SpotHeroImage: View {
                         .allowsHitTesting(false)
                 }
             }
+            .overlay(alignment: .topTrailing) {
+                if canToggle {
+                    Button {
+                        withAnimation(.easeInOut(duration: 0.25)) { showingRealPhoto.toggle() }
+                    } label: {
+                        Label(showingRealPhoto ? L("illustration.showArt") : L("illustration.showPhoto"),
+                              systemImage: showingRealPhoto ? "paintbrush.fill" : "photo")
+                            .font(.caption.bold())
+                            .foregroundStyle(.white)
+                            .padding(.horizontal, 10).padding(.vertical, 6)
+                            .background(.black.opacity(0.55), in: Capsule())
+                    }
+                    .buttonStyle(.plain)
+                    .padding(10)
+                    .accessibilityIdentifier("heroToggle")
+                }
+            }
+            if source == .illustration, let ill = spot.illustration { IllustrationCredit(illustration: ill) }
             if source == .photo, let photo = spot.photo { PhotoCredit(photo: photo) }
         }
         .task(id: spot.id) {
@@ -180,6 +275,7 @@ struct SpotHeroImage: View {
     private var badgeLabel: (String, String)? {
         switch source {
         case .screenshot: return nil
+        case .illustration: return (L("illustration.badge"), "sparkles")
         case .photo: return spot.isCommunity ? (L("community.badge"), "person.2.fill") : (L("photo.realPlace"), "photo")
         case .community: return (L("community.badge"), "person.2.fill")
         case .lookAround: return (L("photo.lookAround"), "binoculars.fill")

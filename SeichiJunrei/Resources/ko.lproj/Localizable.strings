@@ -184,7 +184,7 @@
 "settings.workCount" = "작품";
 "settings.calibrationNote" = "촬영 위치는 공개 자료를 바탕으로 해 오차가 있을 수 있어요. 현장에서 ‘위치 보정’을 눌러 정확한 위치와 방향을 보내 주세요.";
 "settings.credits" = "저작권 및 출처";
-"settings.creditsBody" = "작품명과 관련 권리는 각 권리자에게 있으며, 이 앱은 각 작품의 공식 앱이 아니고 작품 이미지를 수록하지 않아요. 실제 장소 사진은 Wikimedia Commons에서 가져왔으며 작가와 라이선스는 각 명장면 페이지에 표시돼요. 일부 좌표는 © OpenStreetMap contributors를 참고했어요.";
+"settings.creditsBody" = "작품명과 관련 권리는 각 권리자에게 있으며, 이 앱은 각 작품의 공식 앱이 아니고 작품 이미지를 수록하지 않아요. 커버 일러스트는 실제 장소 사진을 바탕으로 AI가 다시 그린 것으로, 작품 이미지는 전혀 사용하지 않았어요. 실제 장소 사진은 Wikimedia Commons에서 가져왔으며 작가와 라이선스는 각 명장면 페이지에 표시돼요. 일부 좌표는 © OpenStreetMap contributors를 참고했어요.";
 "settings.version" = "버전";
 "detail.photographer" = "다른 사람에게 찍어 달라기";
 "pg.title" = "다른 사람에게 부탁하기";
@@ -224,6 +224,11 @@
 "detail.startGuideHint" = "원작 카메라 위치까지 안내한 뒤, 몸을 돌려 원작과 같은 구도를 맞추도록 도와줘요";
 "detail.enterSceneHint" = "촬영 위치에 도착했어요. 카메라를 열고 안내에 따라 방향을 맞춰 보세요";
 "detail.myScreenshot" = "내 명장면 이미지";
+"illustration.badge" = "AI 일러스트";
+"illustration.creditPhoto" = "AI 일러스트 · %@ 님의 사진을 바탕으로 그림 (%@)";
+"illustration.creditOwn" = "AI 일러스트 · 개발자가 현장에서 찍은 사진을 바탕으로 그림";
+"illustration.showPhoto" = "실제 사진";
+"illustration.showArt" = "일러스트";
 "photo.lookAround" = "Look Around";
 "photo.satellite" = "위성 사진";
 "format.sceneNumber" = "명장면 %@";
