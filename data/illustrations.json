@@ -51,11 +51,6 @@
     "note": "开发者本人在现场拍摄的照片",
     "realPhotoMatches": true
   },
-  "hyouka-kajibashi": {
-    "source": "owner",
-    "note": "开发者本人在现场拍摄的照片",
-    "realPhotoMatches": false
-  },
   "spirited-away-kodakarayu": {
     "source": "owner",
     "note": "开发者本人在现场拍摄的照片；门帘文字和说明牌生成前已盖掉",
@@ -81,11 +76,6 @@
     "note": "开发者本人在现场拍摄的照片",
     "realPhotoMatches": false
   },
-  "marnie-mochirippu-numa": {
-    "source": "owner",
-    "note": "开发者本人在现场拍摄的照片",
-    "realPhotoMatches": false
-  },
   "koenokatachi-midorigoi": {
     "source": "owner",
     "note": "开发者本人在现场拍摄的照片；桥柱刻字和招牌生成前已盖掉",
@@ -102,5 +92,50 @@
     "file": "jujutsu-kaisen-shibuya-scramble",
     "note": "同一个十字路口，共用《咒术回战》那张插画",
     "realPhotoMatches": false
+  },
+  "natsume-amamiya-shrine": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片",
+    "realPhotoMatches": false
+  },
+  "natsume-hitoyoshi-station": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片；人物和站内告示文字已去掉",
+    "realPhotoMatches": false
+  },
+  "tenkinoko-tabata-slope": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片；行人和霓虹招牌已去掉",
+    "realPhotoMatches": true
+  },
+  "bocchi-matsunoki-park": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片",
+    "realPhotoMatches": false
+  },
+  "bocchi-shimokitazawa-shelter": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片；店名霓虹招牌、海报、告示生成前已盖掉，并改画成白天",
+    "realPhotoMatches": false
+  },
+  "garupan-isosaki-jinja": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片；台阶上的行人已去掉",
+    "realPhotoMatches": true
+  },
+  "garupan-sakanaya": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片；店名招牌、角色立牌、车辆生成前已去掉",
+    "realPhotoMatches": false
+  },
+  "only-yesterday-takase-safflower": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片",
+    "realPhotoMatches": false
+  },
+  "luckystar-washinomiya": {
+    "source": "owner",
+    "note": "开发者本人在现场拍摄的照片；店铺招牌和石柱文字生成前已盖掉",
+    "realPhotoMatches": true
   }
 }

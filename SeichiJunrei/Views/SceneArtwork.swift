@@ -359,16 +359,16 @@ final class MapSnapshotCache {
 }
 
 /// “网上搜这一幕”：搜索引擎按用户所在国家（定位优先，没有定位用手机地区设置），
-/// 搜索词按界面语言写，带上名场面标题和地点，搜到的才是这一幕
+/// 搜索词是作品名 + 这一幕的标题（界面语言和日语各一份），搜到的才是这一幕
 enum SceneSearchLink {
     @MainActor
     static func url(for spot: Spot, country: String?) -> URL? {
         let lang = AppLanguage.current
-        let jaPlace = spot.translations["ja"]?.placeName ?? spot.placeName
+        let jaTitle = spot.translations["ja"]?.sceneTitle ?? spot.sceneTitle
         let localized = spot.localized(to: lang)
-        let query = SceneImageSearch.query(originalWork: spot.work, japanesePlace: jaPlace,
+        let query = SceneImageSearch.query(originalWork: spot.work, japaneseSceneTitle: jaTitle,
                                            localizedWork: localized.workLocalized,
-                                           sceneTitle: localized.sceneTitle, localizedPlace: localized.placeName)
+                                           sceneTitle: localized.sceneTitle)
         let region = country ?? Locale.current.region?.identifier
         return SceneImageSearch.url(query: query, engine: SceneImageSearch.engine(country: region))
     }
