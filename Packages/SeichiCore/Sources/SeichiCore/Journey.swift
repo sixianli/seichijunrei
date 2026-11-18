@@ -92,15 +92,15 @@ public enum SceneImageSearch {
             .trimmingCharacters(in: .whitespaces) ?? place
     }
 
-    /// 用户语言的作品名、名场面标题、地点在前，日语原名和日语地名在后；重复的词去掉
-    public static func query(originalWork: String, japanesePlace: String?, localizedWork: String?,
-                             sceneTitle: String?, localizedPlace: String?) -> String {
+    /// 搜原作画面靠“作品名 + 这一幕的标题”，不拼现实地名：网上贴原作截图时写的是场景，不会写取景地。
+    /// 用户语言的作品名、名场面标题在前，日语原名和日语标题在后；重复的词去掉
+    public static func query(originalWork: String, japaneseSceneTitle: String?, localizedWork: String?,
+                             sceneTitle: String?) -> String {
         var parts: [String] = []
         parts.append((localizedWork?.isEmpty == false ? localizedWork : nil) ?? originalWork)
         if let t = sceneTitle { parts.append(t) }
-        if let p = localizedPlace { parts.append(trimmedPlace(p)) }
         parts.append(originalWork)
-        if let p = japanesePlace { parts.append(trimmedPlace(p)) }
+        if let t = japaneseSceneTitle { parts.append(t) }
         var seen = Set<String>()
         return parts.filter { !$0.isEmpty && seen.insert($0).inserted }.joined(separator: " ")
     }
