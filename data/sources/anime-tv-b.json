@@ -308,50 +308,6 @@
    }
   },
   {
-   "id": "oshi-no-ko",
-   "title": "【推しの子】",
-   "mediaType": "anime",
-   "year": 2023,
-   "creator": "平牧大輔 / 動画工房",
-   "tint": "#E0457B",
-   "aliases": [
-    "Oshi no Ko",
-    "[Oshi no Ko]",
-    "推しの子",
-    "我推的孩子",
-    "【我推的孩子】",
-    "최애의 아이",
-    "星野アイ",
-    "アクア",
-    "ルビー",
-    "高千穂"
-   ],
-   "text": {
-    "zh-Hans": {
-     "title": "我推的孩子",
-     "creator": "平牧大辅 / 动画工房",
-     "synopsis": "宫崎乡下的妇产科医生雨宫吾郎，最推的偶像星野爱竟以孕妇的身份出现在他面前。一场意外之后，他转生成了爱的孩子。光鲜的演艺圈背后藏着什么？一部以偶像与娱乐圈为舞台的悬疑剧。"
-    },
-    "zh-Hant": {
-     "title": "【我推的孩子】"
-    },
-    "ja": {
-     "title": "",
-     "synopsis": "宮崎の田舎で働く産婦人科医・雨宮吾郎の前に、推しのアイドル・星野アイが妊婦として現れた。ある出来事をきっかけに、彼はアイの子どもとして生まれ変わる。華やかな芸能界の光と影を描くサスペンス。"
-    },
-    "en": {
-     "title": "[Oshi no Ko]",
-     "creator": "Daisuke Hiramaki / Doga Kobo",
-     "synopsis": "Gorou Amamiya, an obstetrician in rural Miyazaki, is stunned when his favourite idol, Ai Hoshino, turns up as his pregnant patient. After a fateful encounter, he is reborn as one of her children. A suspense drama about the bright lights and dark corners of Japan's entertainment industry."
-    },
-    "ko": {
-     "title": "최애의 아이",
-     "creator": "히라마키 다이스케 / 도가 코보",
-     "synopsis": "미야자키 시골 병원의 산부인과 의사 아마미야 고로 앞에 최애 아이돌 호시노 아이가 임산부로 나타난다. 어떤 사건을 계기로 그는 아이의 아이로 다시 태어나는데. 화려한 연예계의 빛과 그림자를 그린 서스펜스."
-    }
-   }
-  },
-  {
    "id": "demon-slayer",
    "title": "鬼滅の刃",
    "mediaType": "anime",
@@ -574,7 +530,7 @@
      "sceneTitle": "检票口前的等待",
      "episode": "第2季（续 夏目友人帐）第8话",
      "highlight": "《夏目友人帐》最让人心头一紧的，常常不是妖怪，而是人与人之间迟来的思念。千津在检票口前等人的身影，安静得几乎没有台词，却成了很多粉丝心中的“催泪回”。木造站房、小小的检票口几乎原样入画，一出站就像走进了那段回忆。作为作者绿川幸故乡熊本的人吉玄关，这里也是“夏目巡礼”公认的第一站。",
-     "story": "暑假里，夏目和同学们借住在一家老民宿里集中写作业。民宿的老奶奶千津温和亲切，附近的湖却流传着人鱼的传说，而这条人鱼与玲子之间似乎也有过一段过节。随着故事推进，千津年轻时的往事一点点浮出水面——她曾在这座小站的检票口前，等待着一个名叫萤一的人。夏目也因此被卷进人鱼与千津之间跨越漫长岁月的旧缘。这一集让人吉站成为《夏目友人帐》与人吉·球磨结缘的象征，作者绿川幸本人也出身熊本。",
+     "story": "暑假里，夏目和北本、西村借住在一家民宿里集中写作业，却遭到一只觊觎友人帐、化作人鱼模样的妖怪袭击。民宿的老板娘千津温和亲切，她向夏目说起自己年少时的往事：为了救一个重要的人，她曾让对方喝下人鱼之血，此后一直放不下那个人——她曾在这座小站的检票口前，等待着一个名叫萤一的人。夏目决定再去见一见那条人鱼，也因此被卷进人鱼与千津之间跨越漫长岁月的旧缘。这一集让人吉站成为《夏目友人帐》与人吉·球磨结缘的象征，作者绿川幸本人也出身熊本。",
      "access": "站前广场就在 JR 人吉站正门外。JR 肥萨线仍有区段停运，从熊本多乘高速巴士（约 1.5–2 小时）；くま川铁道 2026 年 9 月已全线恢复。",
      "bestTime": "夏日傍晚，木造站房染上夕阳最有剧中气氛；入夜后站前有时会投影夏目角色影绘。列车班次少，车与车之间人最少。",
      "tips": "这是仍在运营的车站，请勿在检票口和站台妨碍乘客；进站内拍摄前先向站务员打招呼。JR 肥萨线部分停运，出发前务必确认最新交通。",
@@ -583,9 +539,9 @@
     "ja": {
      "placeName": "JR人吉駅 駅前（熊本・人吉）",
      "sceneTitle": "改札の前で待つ人",
-     "episode": "第2期（続 夏目友人帳）第8話",
+     "episode": "第2期（続 夏目友人帳）第8話「不死の想い」",
      "highlight": "『夏目友人帳』で胸をしめつけるのは、妖よりもむしろ、人と人とのすれ違う想いだ。改札の前で誰かを待つ千津さんの姿はほとんど言葉もないのに、多くのファンにとって忘れられない「泣ける回」になった。木造の駅舎も小さな改札もほぼそのまま描かれていて、駅を出た瞬間にあの記憶の中へ入り込める。作者・緑川ゆきの故郷熊本で、人吉の「夏目」巡りはここから始まる。",
-     "story": "夏休み、夏目たちは宿題合宿のために古い民宿に泊まることになる。おかみの千津さんは穏やかで優しいが、近くの湖にはレイコとも因縁があるらしい人魚の言い伝えが残っていた。物語が進むにつれ、千津さんの若い頃の記憶が明らかになっていく。彼女はかつて、この小さな駅の改札で蛍一という人を待っていたのだ。夏目は、人魚と千津さんの長い長い縁に巻き込まれていく。原作者・緑川ゆきの出身地でもある熊本と作品を結ぶ、象徴的な一話。",
+     "story": "夏休み、夏目は北本・西村と民宿で宿題合宿をすることになるが、友人帳を狙う人魚姿の妖に襲われる。民宿のおかみ・千津さんは穏やかで優しい人で、夏目に昔の話を打ち明ける。幼い頃、大切な人を救うためにその人に人魚の血を飲ませたこと、そして今もその人を想い続けていること。彼女はかつて、この小さな駅の改札で蛍一という人を待っていたのだ。夏目は自分を襲った人魚にもう一度会いに行き、人魚と千津さんの長い長い縁に巻き込まれていく。原作者・緑川ゆきの出身地でもある熊本と作品を結ぶ、象徴的な一話。",
      "access": "駅前広場はJR人吉駅の正面出口のすぐ外。JR肥薩線は一部区間が運休中で、熊本からは高速バス（約1.5〜2時間）が中心。くま川鉄道は2026年9月に全線再開。",
      "bestTime": "夏の夕方、木造駅舎が夕日に染まる時間がいちばん作中らしい。夜は駅前に夏目キャラクターの影絵が映されることも。列車の合間は人が少ない。",
      "tips": "現役の駅なので、改札やホームで利用者の邪魔にならないように。構内で撮影するときは駅員に一声かけて。JR肥薩線は一部運休中なので、出発前に最新の運行情報を確認。",
@@ -595,8 +551,8 @@
      "placeName": "JR Hitoyoshi Station forecourt (Hitoyoshi, Kumamoto)",
      "sceneTitle": "Waiting at the ticket gate",
      "episode": "Season 2 (Zoku), Episode 8",
-     "highlight": "What gets you in Natsume is rarely the yokai — it's the longing between people that arrives too late. Young Chizu waiting at the ticket gate barely says a word, yet many fans name this as one of the episodes that made them cry. The wooden station and its small gate are drawn almost exactly, so stepping outside feels like stepping into her memory. In author Yuki Midorikawa's home prefecture, this is where every Natsume trip to Hitoyoshi begins.",
-     "story": "Over the summer break, Natsume and his classmates stay at an old inn to get through their homework. The elderly innkeeper, Chizu, is gentle and kind, but the nearby lake has a legend about a mermaid — one who seems to have crossed paths with Reiko long ago. As the episode unfolds, Chizu's past surfaces: as a young woman she stood at the gate of this little station, waiting for someone called Keiichi. Natsume is drawn into a bond between the mermaid and Chizu that has lasted a lifetime. The episode made Hitoyoshi Station the symbol of the series' ties to Kumamoto, the author Yuki Midorikawa's home prefecture.",
+     "highlight": "What gets you in Natsume is rarely the yokai — it's the longing between people that arrives too late. Chizu waiting at the ticket gate barely says a word, yet many fans name this as one of the episodes that made them cry. The wooden station and its small gate are drawn almost exactly, so stepping outside feels like stepping into her memory. In author Yuki Midorikawa's home prefecture, this is where every Natsume trip to Hitoyoshi begins.",
+     "story": "Over the summer break, Natsume stays at a country inn with Kitamoto and Nishimura to get through their homework, and is attacked by a mermaid-shaped yokai after the Book of Friends. The innkeeper, Chizu, is gentle and kind, and she tells Natsume about her past: as a girl she made someone dear to her drink mermaid's blood to save him, and she has never stopped thinking of him — at the gate of this little station she waited for someone called Keiichi. Natsume goes back to find the mermaid and is drawn into a bond between it and Chizu that has lasted a lifetime. The episode made Hitoyoshi Station the symbol of the series' ties to Kumamoto, the author Yuki Midorikawa's home prefecture.",
      "access": "The forecourt is right outside the main entrance of JR Hitoyoshi Station. Parts of the JR Hisatsu Line are still suspended, so most people come by highway bus from Kumamoto (1.5–2 hr). The Kumagawa Railway fully reopened in Sept 2026.",
      "bestTime": "Summer evenings, when the wooden station turns gold in the setting sun. After dark, Natsume character silhouettes are sometimes projected near the station. Trains are infrequent, so it's quiet between them.",
      "tips": "It's a working station — don't block passengers at the gate or on the platforms, and ask staff before shooting inside. Parts of the JR Hisatsu Line are suspended, so check the latest transport info before you set out.",
@@ -607,7 +563,7 @@
      "sceneTitle": "개찰구 앞에서의 기다림",
      "episode": "제2기(속 나츠메 우인장) 제8화",
      "highlight": "『나츠메 우인장』에서 가슴을 저미는 건 요괴보다 사람과 사람 사이의 늦어 버린 그리움이다. 개찰구 앞에서 누군가를 기다리는 치즈의 모습은 대사도 거의 없는데, 많은 팬이 꼽는 '눈물 나는 에피소드'가 되었다. 목조 역사와 작은 개찰구가 거의 그대로 그려져, 역을 나서는 순간 그 기억 속으로 들어선 듯하다. 원작자 미도리카와 유키의 고향 구마모토에서, 히토요시의 '나츠메' 순례는 여기서 시작된다.",
-     "story": "여름방학, 나츠메와 친구들은 숙제 합숙을 위해 오래된 민박에 묵게 된다. 민박의 할머니 치즈는 온화하고 다정하지만, 근처 호수에는 레이코와도 악연이 있는 듯한 인어의 전설이 전해진다. 이야기가 진행되면서 치즈의 젊은 시절 기억이 조금씩 드러난다. 그녀는 이 작은 역의 개찰구 앞에서 케이이치라는 사람을 기다리곤 했다. 나츠메는 인어와 치즈 사이에 얽힌 기나긴 인연에 휘말리게 된다. 원작자 미도리카와 유키의 고향 구마모토와 작품을 잇는 상징적인 에피소드다.",
+     "story": "여름방학, 나츠메는 키타모토·니시무라와 함께 민박에서 숙제 합숙을 하다가 우인장을 노리는 인어 모습의 요괴에게 습격당한다. 민박의 주인 치즈는 온화하고 다정한 사람으로, 나츠메에게 옛이야기를 들려준다. 어린 시절 소중한 사람을 구하려고 그에게 인어의 피를 마시게 했고, 지금도 그 사람을 잊지 못한다는 것. 그녀는 이 작은 역의 개찰구 앞에서 케이이치라는 사람을 기다리곤 했다. 나츠메는 자신을 습격한 인어를 다시 만나러 가고, 인어와 치즈 사이에 얽힌 기나긴 인연에 휘말리게 된다. 원작자 미도리카와 유키의 고향 구마모토와 작품을 잇는 상징적인 에피소드다.",
      "access": "역 앞 광장은 JR 히토요시역 정문 바로 앞. JR 히사쓰선은 일부 구간이 운휴 중이라 구마모토에서는 고속버스(약 1.5~2시간)가 일반적. 쿠마가와 철도는 2026년 9월 전 구간 운행 재개.",
      "bestTime": "여름 해 질 녘, 목조 역사가 노을에 물드는 시간이 가장 작중 같다. 밤에는 역 앞에 나츠메 캐릭터 그림자 영상이 비치기도 한다. 열차가 드물어 열차 사이 시간대엔 한산하다.",
      "tips": "운영 중인 역이니 개찰구나 승강장에서 승객을 방해하지 말고, 역 안에서 촬영할 땐 역무원에게 먼저 양해를 구하자. JR 히사쓰선 일부 구간이 운휴 중이니 출발 전 최신 교통 정보를 확인할 것.",
@@ -765,8 +721,8 @@
      "placeName": "出町桝形商店街 河原町通入口（京都·出町柳）",
      "sceneTitle": "欢迎来到兔山商店街",
      "episode": "第1话起（几乎每集）",
-     "highlight": "《玉子市场》讲的不是什么大事件，而是“被一条街的人看着长大”的幸福。京都动画几乎把出町桝形商店街原样搬进了画面，吊在拱廊下的鲭鱼装饰、鱼铺和菜铺的吆喝，都让这份日常显得格外真实。走进来你会发现，动画里那种街坊之间的温度并没有夸张。不少店铺至今还能看到作品的海报，商店街一直温柔地欢迎着粉丝。",
-     "story": "对玉子来说，商店街就是家：每天帮家里的年糕店开门，和对面另一家年糕店的青梅竹马饼藏隔着街拌嘴，再跟鱼铺、花店的叔叔阿姨们挨个打招呼。自从会说话的胖鸟德拉飞来之后，这条小小的拱廊里接连上演鸡飞狗跳的日常，也一点点照出商店街里人与人之间的牵挂。作为兔山商店街的原型，出町桝形商店街连天井上吊着的鲭鱼装饰都进了动画——这里正是从若狭湾运鲭鱼进京的“鲭街道”终点。",
+     "highlight": "《玉子市场》讲的不是什么大事件，而是“被一条街的人看着长大”的幸福。京都动画几乎把出町桝形商店街原样搬进了画面，拱廊下鱼铺、菜铺的吆喝，都让这份日常显得格外真实。走进来你会发现，动画里那种街坊之间的温度并没有夸张。不少店铺至今还能看到作品的海报，商店街一直温柔地欢迎着粉丝。",
+     "story": "对玉子来说，商店街就是家：每天帮家里的年糕店开门，和对面另一家年糕店的青梅竹马饼藏隔着街拌嘴，再跟鱼铺、花店的叔叔阿姨们挨个打招呼。自从会说话的胖鸟德拉飞来之后，这条小小的拱廊里接连上演鸡飞狗跳的日常，也一点点照出商店街里人与人之间的牵挂。出町桝形商店街被普遍认为是兔山商店街的原型，鱼铺等店面在作品里都能找到对应；商店街旁的出町桥头，正是从若狭湾运鲭鱼进京的“鲭街道”终点。",
      "access": "京阪「出町柳」站 5 号出口出来往西过出町桥（跨贺茂川），过河原町通即是拱廊东口，约 300 米、4 分钟。",
      "bestTime": "工作日上午到傍晚，店铺都开着、买菜的街坊来来往往，最有片中气氛。顺路在鸭川三角洲走走，春秋天气最舒服。",
      "tips": "这是街坊日常买菜的商店街，通道很窄，请勿在中间停下拍照或使用三脚架。拍店面或店主前先打招呼；部分店铺周日或周三休息。",
@@ -776,8 +732,8 @@
      "placeName": "出町桝形商店街 河原町通側入口（京都・出町柳）",
      "sceneTitle": "ようこそ、うさぎ山商店街へ",
      "episode": "第1話〜（ほぼ毎話）",
-     "highlight": "『たまこまーけっと』が描くのは大事件ではなく、「商店街みんなに見守られて育つ」幸せだ。京都アニメーションは出町桝形商店街をほぼそのまま画面に写し取り、アーケードに吊られたサバのオブジェや魚屋・八百屋の呼び声が、その日常に確かな手ざわりを与えている。歩いてみると、作中のご近所の温かさが少しも誇張ではないとわかる。今も作品のポスターを貼る店があり、商店街はずっとファンを温かく迎えている。",
-     "story": "たまこにとって商店街は家そのもの。毎朝家業の餅屋を手伝い、向かいのライバル餅屋の幼なじみ・もち蔵と通り越しに言い合い、魚屋や花屋のおじさんおばさんに声をかけていく。言葉を話す鳥・デラが転がり込んでからは、この小さなアーケードで騒がしい日常が続き、そのたびに商店街の人たちの温かさが浮かび上がる。モデルとなった出町桝形商店街は、天井から下がるサバのオブジェまでアニメに登場。若狭湾からサバを運んだ「鯖街道」の終点の地でもある。",
+     "highlight": "『たまこまーけっと』が描くのは大事件ではなく、「商店街みんなに見守られて育つ」幸せだ。京都アニメーションは出町桝形商店街をほぼそのまま画面に写し取り、アーケードに響く魚屋や八百屋の呼び声が、その日常に確かな手ざわりを与えている。歩いてみると、作中のご近所の温かさが少しも誇張ではないとわかる。今も作品のポスターを貼る店があり、商店街はずっとファンを温かく迎えている。",
+     "story": "たまこにとって商店街は家そのもの。毎朝家業の餅屋を手伝い、向かいのライバル餅屋の幼なじみ・もち蔵と通り越しに言い合い、魚屋や花屋のおじさんおばさんに声をかけていく。言葉を話す鳥・デラが転がり込んでからは、この小さなアーケードで騒がしい日常が続き、そのたびに商店街の人たちの温かさが浮かび上がる。モデルとされる出町桝形商店街には、魚屋をはじめ作中に描かれた店のモデルが並ぶ。すぐそばの出町橋のたもとは、若狭湾からサバを運んだ「鯖街道」の終点だ。",
      "access": "京阪「出町柳」駅5番出口を出て西へ、出町橋で賀茂川を渡り、河原町通を越えるとアーケードの東口。約300m、徒歩4分。",
      "bestTime": "平日の午前から夕方、店が開いて買い物客が行き交う時間がいちばん作中らしい。鴨川デルタも近いので、気候のいい春と秋に合わせて。",
      "tips": "地元の人が日々買い物をする商店街で通路は狭め。真ん中で立ち止まっての撮影や三脚はNG。店や店の人を撮るときは一声かけて。日曜・水曜休みの店もある。",
@@ -787,8 +743,8 @@
      "placeName": "Demachi Masugata Shopping Arcade, Kawaramachi entrance (Demachiyanagi, Kyoto)",
      "sceneTitle": "Welcome to Usagiyama Arcade",
      "episode": "From Episode 1 (almost every episode)",
-     "highlight": "Tamako Market isn't about big events — it's about the happiness of growing up watched over by an entire street. Kyoto Animation brought Demachi Masugata into the show almost unchanged, and the hanging mackerel and shopkeepers' calls give that everyday warmth real weight. Walk through and you'll find the neighbourly kindness on screen wasn't exaggerated. Shops still put up the show's posters, and the arcade has long welcomed fans.",
-     "story": "For Tamako, the arcade is home. Every morning she helps open the family mochi shop, trades jabs across the street with Mochizo, her childhood friend from the rival mochi shop opposite, and greets every shopkeeper on the way. Once Dera, the talking bird, crash-lands into her life, this little covered street hosts one comic mess after another, each revealing how much the neighbours care about one another. The real arcade even lent the show its hanging mackerel — a nod to the fact that Demachi was the end of the old Mackerel Road that carried fish from Wakasa Bay to Kyoto.",
+     "highlight": "Tamako Market isn't about big events — it's about the happiness of growing up watched over by an entire street. Kyoto Animation brought Demachi Masugata into the show almost unchanged, and the calls of the fishmonger and greengrocer under the arcade roof give that everyday warmth real weight. Walk through and you'll find the neighbourly kindness on screen wasn't exaggerated. Shops still put up the show's posters, and the arcade has long welcomed fans.",
+     "story": "For Tamako, the arcade is home. Every morning she helps open the family mochi shop, trades jabs across the street with Mochizo, her childhood friend from the rival mochi shop opposite, and greets every shopkeeper on the way. Once Dera, the talking bird, crash-lands into her life, this little covered street hosts one comic mess after another, each revealing how much the neighbours care about one another. Demachi Masugata is widely considered the model for Usagiyama, with shops such as its fishmonger echoed on screen; by Demachi Bridge just outside lies the end of the old Mackerel Road that carried fish from Wakasa Bay to Kyoto.",
      "access": "From Exit 5 of Keihan Demachiyanagi Station, head west across Demachi Bridge over the Kamo River, then cross Kawaramachi-dōri to the arcade's east entrance. About 300 m, 4 min.",
      "bestTime": "Weekday late mornings to early evening, when shops are open and locals are doing their shopping. The Kamo River delta is next door, so spring and autumn are the nicest seasons.",
      "tips": "Locals do their daily shopping in this narrow arcade — don't stop mid-aisle to shoot or use a tripod. Ask before photographing shops or shopkeepers; some close on Sundays or Wednesdays.",
@@ -798,8 +754,8 @@
      "placeName": "데마치마스가타 상점가 가와라마치 거리 입구(교토·데마치야나기)",
      "sceneTitle": "우사기야마 상점가에 어서 오세요",
      "episode": "제1화부터(거의 매화)",
-     "highlight": "『타마코 마켓』이 그리는 건 큰 사건이 아니라 '상점가 사람들 모두의 보살핌 속에 자라는' 행복이다. 교토 애니메이션은 데마치마스가타 상점가를 거의 그대로 화면에 옮겼고, 아케이드에 매달린 고등어 장식과 생선 가게·채소 가게의 외침이 그 일상에 생생한 질감을 더한다. 직접 걸어 보면 작중 이웃들의 온기가 조금도 과장이 아니었음을 알게 된다. 지금도 작품 포스터를 붙여 둔 가게가 있고, 상점가는 오랫동안 팬들을 따뜻하게 맞아 왔다.",
-     "story": "타마코에게 상점가는 곧 집이다. 매일 아침 가업인 떡집을 돕고, 맞은편 라이벌 떡집의 소꿉친구 모치조와 길 하나를 사이에 두고 티격태격하며, 생선 가게와 꽃집 아저씨 아주머니에게 인사를 건넨다. 말하는 새 데라가 굴러들어 온 뒤로 이 작은 아케이드에서는 소란스러운 일상이 이어지고, 그때마다 상점가 사람들의 정이 드러난다. 모델이 된 데마치마스가타 상점가는 천장의 고등어 장식까지 애니메이션에 등장한다. 와카사만에서 교토로 고등어를 실어 나르던 '사바 가도'의 종점이기도 하다.",
+     "highlight": "『타마코 마켓』이 그리는 건 큰 사건이 아니라 '상점가 사람들 모두의 보살핌 속에 자라는' 행복이다. 교토 애니메이션은 데마치마스가타 상점가를 거의 그대로 화면에 옮겼고, 아케이드에 울리는 생선 가게·채소 가게의 외침이 그 일상에 생생한 질감을 더한다. 직접 걸어 보면 작중 이웃들의 온기가 조금도 과장이 아니었음을 알게 된다. 지금도 작품 포스터를 붙여 둔 가게가 있고, 상점가는 오랫동안 팬들을 따뜻하게 맞아 왔다.",
+     "story": "타마코에게 상점가는 곧 집이다. 매일 아침 가업인 떡집을 돕고, 맞은편 라이벌 떡집의 소꿉친구 모치조와 길 하나를 사이에 두고 티격태격하며, 생선 가게와 꽃집 아저씨 아주머니에게 인사를 건넨다. 말하는 새 데라가 굴러들어 온 뒤로 이 작은 아케이드에서는 소란스러운 일상이 이어지고, 그때마다 상점가 사람들의 정이 드러난다. 모델로 알려진 데마치마스가타 상점가에는 생선 가게를 비롯해 작중 가게들의 모델이 늘어서 있다. 바로 옆 데마치 다리 어귀는 와카사만에서 교토로 고등어를 실어 나르던 '사바 가도'의 종점이다.",
      "access": "게이한 데마치야나기역 5번 출구에서 서쪽으로 데마치 다리를 건너(가모강) 가와라마치 거리를 지나면 아케이드 동쪽 입구. 약 300m, 도보 4분.",
      "bestTime": "평일 오전부터 저녁, 가게가 문을 열고 장보는 주민이 오가는 시간이 가장 작중 같다. 가모강 델타가 가까워 날씨 좋은 봄·가을이 좋다.",
      "tips": "주민들이 매일 장을 보는 좁은 상점가다. 통로 한가운데 멈춰 촬영하거나 삼각대를 쓰지 말자. 가게나 상인을 찍을 땐 먼저 양해를 구할 것. 일요일·수요일에 쉬는 가게도 있다.",
@@ -969,7 +925,7 @@
      "sceneTitle": "踏进竞技纸牌的圣地",
      "episode": "第1季 第13话",
      "highlight": "对《花牌情缘》来说，近江神宫是一切努力指向的终点：能在这里比赛，就意味着站上了竞技纸牌的最高舞台。朱红楼门出现的那一刻，五个凑出来的小社团终于走到这里，热血又有点想哭。现实中这里每年举办名人·女王决定战和全国高中大会，作品走红后，来许愿、挂绘马的纸牌少年少女也越来越多，几乎没有一位粉丝会错过。",
-     "story": "小仓百人一首的第一首和歌出自天智天皇，供奉他的近江神宫因此成了竞技纸牌的圣地，每年的名人·女王决定战和全国高中大会都在这里举行。从创立瑞泽高中纸牌社开始，千早和太一拉来肉包、桌子君和小奏，五个人一路拿下东京预选，终于在第 13 话来到近江神宫。闷热嘈杂的赛场让千早一开始乱了阵脚；另一边，远在福井的新也一边回想着爷爷，一边向这里走来。三个人小时候的约定，在这座神宫前悄悄重新连接。",
+     "story": "小仓百人一首的第一首和歌出自天智天皇，供奉他的近江神宫因此成了竞技纸牌的圣地，每年的名人·女王决定战和全国高中大会都在这里举行。从创立瑞泽高中纸牌社开始，千早和太一拉来肉包、桌子君和小奏，五个人一路拿下东京预选，终于在第 13 话来到近江神宫。五人在神宫祈求必胜后踏上赛场，比赛中千早的状态却越来越不对劲；另一边，远离纸牌的新一边回想着与爷爷的过往，一边向这里走来。三个人小时候的约定，在这座神宫前悄悄重新连接。",
      "access": "京阪石山坂本线「近江神宫前」站出站往西，沿缓坡一路上行，约 850 米、步行 11 分钟到楼门。",
      "bestTime": "上午光线照在朱红楼门上最鲜艳，平日几乎没人。夏天全国高中大会、1 月初名人·女王战前后最有气氛，但人也最多。",
      "tips": "参拜免费，境内有百人一首主题的御守和绘马。比赛在境内的近江劝学馆举行，期间请勿在会场周边喧哗。楼门正中是参拜通道，拍照请靠边。",
@@ -980,7 +936,7 @@
      "sceneTitle": "かるたの聖地へ",
      "episode": "第1期 第13話",
      "highlight": "『ちはやふる』にとって近江神宮は、すべての努力が目指す場所だ。ここで戦うことは、競技かるたの頂点に立つことを意味する。寄せ集めの五人の部活がついにたどり着き、朱の楼門が画面に現れる瞬間は、胸が熱くなって少し泣けてくる。実際に毎年名人位・クイーン位決定戦や全国高校選手権が開かれる場所で、作品のヒット以降、絵馬に願いを託すかるた少年少女も増えた。ファンなら外せない聖地だ。",
-     "story": "小倉百人一首の一番歌を詠んだ天智天皇を祀る近江神宮は、名人位・クイーン位決定戦や全国高校選手権が行われる競技かるたの聖地。瑞沢高校かるた部を立ち上げた千早と太一は、肉まんくん、机くん、かなちゃんを仲間に引き入れ、5人で東京都予選を勝ち抜き、第13話でついに近江神宮へやってくる。蒸し暑く騒がしい会場に千早は最初ペースを乱されるが、一方で福井の新も、祖父との日々を思い出しながらこの地へ向かっていた。幼い日の三人の約束が、この神宮の前で静かにつながり直す。",
+     "story": "小倉百人一首の一番歌を詠んだ天智天皇を祀る近江神宮は、名人位・クイーン位決定戦や全国高校選手権が行われる競技かるたの聖地。瑞沢高校かるた部を立ち上げた千早と太一は、肉まんくん、机くん、かなちゃんを仲間に引き入れ、5人で東京都予選を勝ち抜き、第13話でついに近江神宮へやってくる。必勝祈願のお参りをして試合に臨むが、試合中の千早の様子がおかしい。一方、かるたから離れていた新も、祖父との過去を思い返しながらこの地へ向かっていた。幼い日の三人の約束が、この神宮の前で静かにつながり直す。",
      "access": "京阪石山坂本線「近江神宮前」駅から西へ、ゆるい坂を上って楼門まで約850m・徒歩11分。",
      "bestTime": "朱の楼門に光が当たる午前中がいちばん鮮やかで、平日はほぼ貸し切り。夏の全国高校選手権や1月初旬の名人・クイーン戦の頃が最も雰囲気があるが混雑も。",
      "tips": "参拝自由。百人一首にちなんだお守りや絵馬もある。大会は境内の近江勧学館で行われるので、期間中は会場周辺で騒がないこと。楼門の正面は参拝の通り道なので撮影は端に寄って。",
@@ -991,7 +947,7 @@
      "sceneTitle": "Arriving at karuta's holy ground",
      "episode": "Season 1, Episode 13",
      "highlight": "In Chihayafuru, Ōmi Jingū is where every bit of effort is aimed: to play here is to reach the top of competitive karuta. When the vermilion gate appears and a scrappy five-member club finally makes it, it's thrilling and a little tear-jerking. In real life the shrine hosts the Meijin and Queen title matches and the national high-school championship every year, and since the series took off, more and more young players come to leave wishes on ema. Few fans skip it.",
-     "story": "The first poem of the Hyakunin Isshu was written by Emperor Tenji, and the shrine dedicated to him hosts the Meijin and Queen title matches and the national high-school championships every year. Since founding the Mizusawa High karuta club, Chihaya and Taichi have recruited Porky, Desk-kun and Kana-chan and fought their way through the Tokyo qualifiers; in Episode 13 the five finally arrive at Ōmi Jingū. The heat and noise of the hall throw Chihaya off at first — while in Fukui, Arata is setting out for the same place, remembering his grandfather. The promise the three made as children quietly reconnects in front of this shrine.",
+     "story": "The first poem of the Hyakunin Isshu was written by Emperor Tenji, and the shrine dedicated to him hosts the Meijin and Queen title matches and the national high-school championships every year. Since founding the Mizusawa High karuta club, Chihaya and Taichi have recruited Porky, Desk-kun and Kana-chan and fought their way through the Tokyo qualifiers; in Episode 13 the five finally arrive at Ōmi Jingū. They pray for victory at the shrine before the matches, but mid-game Chihaya is clearly not herself — while Arata, who had drifted away from karuta, is heading for the same place, remembering his grandfather. The promise the three made as children quietly reconnects in front of this shrine.",
      "access": "From Ōmi-jingū-mae Station (Keihan Ishiyama-Sakamoto Line), head west and up the gentle slope to the gate. About 850 m, 11 min.",
      "bestTime": "Mornings, when sunlight hits the vermilion gate; weekdays are almost empty. The summer high-school championship and the early-January title matches have the most atmosphere — and the biggest crowds.",
      "tips": "Free to visit; karuta-themed charms and ema are on sale. Tournaments are held at Ōmi Kangakukan in the grounds, so keep quiet nearby during matches. The centre of the gate is the worshippers' path — shoot from the side.",
@@ -1002,77 +958,11 @@
      "sceneTitle": "카루타의 성지에 발을 딛다",
      "episode": "제1기 제13화",
      "highlight": "『치하야후루』에게 오미 신궁은 모든 노력이 향하는 종착지다. 이곳에서 겨룬다는 건 경기 가루타의 정점에 선다는 뜻이다. 그러모은 다섯 명의 동아리가 마침내 이곳에 닿고, 주홍빛 누문이 화면에 나타나는 순간은 뜨겁고도 살짝 눈물이 난다. 실제로 매년 명인·퀸 결정전과 전국 고교 선수권이 열리는 곳으로, 작품이 인기를 얻은 뒤 에마에 소원을 적는 가루타 소년소녀도 늘었다. 팬이라면 빠뜨릴 수 없는 성지다.",
-     "story": "오구라 백인일수의 첫 번째 노래를 지은 덴지 천황을 모시는 오미 신궁은 명인·퀸 결정전과 전국 고교 선수권이 열리는 경기 카루타의 성지다. 미즈사와 고교 카루타부를 만든 치하야와 타이치는 니쿠망, 책상군, 카나를 끌어들여 다섯이서 도쿄 예선을 뚫고, 제13화에서 드디어 오미 신궁에 도착한다. 무덥고 시끄러운 대회장에 치하야는 처음엔 페이스를 잃지만, 한편 후쿠이의 아라타도 할아버지와의 추억을 떠올리며 이곳으로 향하고 있었다. 어린 시절 세 사람의 약속이 이 신궁 앞에서 조용히 다시 이어진다.",
+     "story": "오구라 백인일수의 첫 번째 노래를 지은 덴지 천황을 모시는 오미 신궁은 명인·퀸 결정전과 전국 고교 선수권이 열리는 경기 카루타의 성지다. 미즈사와 고교 카루타부를 만든 치하야와 타이치는 니쿠망, 책상군, 카나를 끌어들여 다섯이서 도쿄 예선을 뚫고, 제13화에서 드디어 오미 신궁에 도착한다. 필승 기원 참배를 하고 경기에 나서지만, 경기 중 치하야의 상태가 이상하다. 한편 카루타에서 멀어져 있던 아라타도 할아버지와의 추억을 떠올리며 이곳으로 향하고 있었다. 어린 시절 세 사람의 약속이 이 신궁 앞에서 조용히 다시 이어진다.",
      "access": "게이한 이시야마사카모토선 오미진구마에역에서 서쪽으로 완만한 오르막을 따라가면 누문까지 약 850m, 도보 11분.",
      "bestTime": "주홍빛 누문에 햇살이 드는 오전이 가장 선명하고, 평일엔 거의 한산하다. 여름 전국 고교 선수권과 1월 초 명인·퀸전 무렵이 가장 분위기 있지만 붐빈다.",
      "tips": "참배 무료. 백인일수를 주제로 한 부적과 에마도 있다. 대회는 경내 오미 간가쿠칸에서 열리니 대회 중엔 주변에서 떠들지 말 것. 누문 정면은 참배 통로이니 촬영은 옆으로 비켜서.",
      "accessPointName": "오미진구마에역"
-    }
-   }
-  },
-  {
-   "id": "oshi-no-ko-aradate-shrine",
-   "workID": "oshi-no-ko",
-   "latitude": 32.71171,
-   "longitude": 131.31679,
-   "sceneHeading": 120,
-   "arrivalRadius": 50,
-   "spoiler": true,
-   "sourceURL": "https://ciatr.jp/topics/324247",
-   "verified": false,
-   "accessPoint": {
-    "latitude": 32.709684,
-    "longitude": 131.309137
-   },
-   "bestMonths": [
-    4,
-    5,
-    11
-   ],
-   "text": {
-    "zh-Hans": {
-     "placeName": "荒立神社（宫崎·高千穗）",
-     "sceneTitle": "拍完 MV 后的祈愿",
-     "episode": "第2季 第13话（总第24话）",
-     "highlight": "在一部直面演艺圈光与暗的作品里，这次参拜显得格外温柔：供奉艺能之神天钿女命的荒立神社，对一群想在舞台上发光的孩子来说再合适不过。但《我推的孩子》的观众都知道，高千穗是吾郎生前所在、一切开始的地方，轻松的许愿场面因此也带着一丝不安。正是这种明暗交织，让这座小神社成了粉丝心中意义特别的一站。",
-     "story": "第二季的最后，B小町决定到宫崎高千穗拍摄 MV，阿库亚也随行。这里是吾郎生前工作的地方，也是一切开始的地方。拍摄期间，露比被一个神秘少女引到山中的洞穴，在那里发现了吾郎的遗骨，尘封的过去再一次被翻开。拍摄结束后，大家来到供奉艺能之神天钿女命的荒立神社，各自许下心愿。轻松的祈愿场面背后，露比眼中的星光已经开始染上与以往不同的颜色。",
-     "access": "从延冈站乘宫崎交通巴士约 1 小时 10 分钟到「高千穗巴士中心」，下车后往东步行约 1 公里、15 分钟；打车约 5 分钟。",
-     "bestTime": "上午山间空气清透、神社人少；晚上可去高千穗神社看每晚约 20 点的高千穗神乐。秋冬是各村落奉纳夜神乐的季节。",
-     "tips": "参拜免费。境内有多块可敲响祈愿的“板木”，请按旁边的说明使用、勿用力乱敲。高千穗的公交班次少，回程时刻请提前确认。",
-     "accessPointName": "高千穗巴士中心"
-    },
-    "ja": {
-     "placeName": "荒立神社（宮崎・高千穂）",
-     "sceneTitle": "PV撮影のあとの願いごと",
-     "episode": "第2期 第13話（通算第24話）",
-     "highlight": "芸能界の光と闇に正面から向き合う作品の中で、このお参りはひときわ穏やかだ。芸能の神・天鈿女命を祀る荒立神社は、舞台で輝きたい子どもたちにこれ以上ない場所。けれど『【推しの子】』を見てきた人なら、高千穂がゴローのいた場所、すべての始まりの地だと知っている。だからこそ和やかな願掛けの場面にも、かすかな不穏さがにじむ。その明暗の重なりが、この小さな神社をファンにとって特別な場所にしている。",
-     "story": "第2期の終盤、B小町は宮崎・高千穂でPVを撮影することになり、アクアも同行する。そこはゴローがかつて働いていた土地であり、すべての始まりの場所でもあった。撮影の合間、ルビーは不思議な少女に導かれて山の洞窟へ入り、そこでゴローの遺骨を見つけてしまう。封じられていた過去が再び動き出す。撮影を終えた一行は、芸能の神を祀る荒立神社を訪れ、それぞれの願いを込める。和やかな参拝の裏で、ルビーの瞳の星は、これまでとは違う色を帯び始めていた。",
-     "access": "延岡駅から宮崎交通バスで約1時間10分「高千穂バスセンター」下車、東へ徒歩約1km・15分。タクシーなら約5分。",
-     "bestTime": "山の空気が澄んで人も少ない午前中がおすすめ。夜は高千穂神社で毎晩20時頃からの高千穂神楽を。秋から冬は集落で夜神楽が奉納される季節。",
-     "tips": "参拝自由。境内には願いを込めて打つ板木がいくつもあるので、横の案内に従って打つこと。高千穂の路線バスは本数が少なく、帰りの時刻は事前に確認を。",
-     "accessPointName": "高千穂バスセンター"
-    },
-    "en": {
-     "placeName": "Aradate Shrine (Takachiho, Miyazaki)",
-     "sceneTitle": "A wish after the music-video shoot",
-     "episode": "Season 2, Episode 13 (Episode 24 overall)",
-     "highlight": "In a series that stares straight at the light and dark of showbiz, this visit is unusually gentle: a shrine to Ame-no-Uzume, goddess of performance, is the perfect place for kids who want to shine on stage. But Oshi no Ko viewers know Takachiho is where Goro lived and where it all began, so even this light-hearted wish carries a trace of unease. That mix of light and shadow is what makes this tiny shrine special to fans.",
-     "story": "At the end of Season 2, B-Komachi head to Takachiho in Miyazaki to film a music video, with Aqua tagging along. This is where Gorou once worked — where everything began. During the shoot, a mysterious girl leads Ruby into a mountain cave, where she finds Gorou's remains, and the buried past starts moving again. When filming wraps, the group visits Aradate Shrine, dedicated to the goddess of the performing arts, and each of them makes a wish. Behind the light-hearted visit, the stars in Ruby's eyes have begun to take on a different colour.",
-     "access": "Miyazaki Kōtsū bus from Nobeoka Station to Takachiho Bus Center (about 1 hr 10 min), then about 1 km east on foot (15 min), or 5 min by taxi.",
-     "bestTime": "Mornings, when the mountain air is clear and the shrine is quiet. In the evening, catch the kagura performed nightly around 8 pm at Takachiho Shrine; late autumn to winter is the season of all-night village kagura.",
-     "tips": "Free to visit. The grounds have several wooden boards (hangi) you strike while making a wish — follow the posted instructions rather than hammering away. Buses in Takachiho are infrequent, so check your return times in advance.",
-     "accessPointName": "Takachiho Bus Center"
-    },
-    "ko": {
-     "placeName": "아라타테 신사(미야자키·다카치호)",
-     "sceneTitle": "뮤직비디오 촬영 후의 소원",
-     "episode": "제2기 제13화(통산 제24화)",
-     "highlight": "연예계의 빛과 어둠을 정면으로 마주하는 작품 속에서 이 참배는 유난히 온화하다. 예능의 신 아메노우즈메를 모시는 아라타테 신사는 무대에서 빛나고 싶은 아이들에게 더없이 어울리는 곳이다. 하지만 『최애의 아이』를 봐 온 사람이라면 다카치호가 고로가 있던 곳, 모든 것이 시작된 땅이라는 걸 안다. 그래서 화기애애한 소원 장면에도 희미한 불안이 배어 있다. 그 명암의 겹침이 이 작은 신사를 팬들에게 특별한 곳으로 만든다.",
-     "story": "제2기 막바지, B코마치는 미야자키 다카치호에서 뮤직비디오를 찍기로 하고 아쿠아도 동행한다. 그곳은 고로가 생전에 일하던 곳이자 모든 것이 시작된 장소였다. 촬영 중 루비는 수수께끼의 소녀에게 이끌려 산속 동굴에 들어갔다가 고로의 유골을 발견하고, 묻혀 있던 과거가 다시 움직이기 시작한다. 촬영을 마친 일행은 예능의 신을 모시는 아라타테 신사를 찾아 저마다 소원을 빈다. 화기애애한 참배 뒤에서, 루비의 눈동자 속 별은 이전과는 다른 빛을 띠기 시작한다.",
-     "access": "노베오카역에서 미야자키 교통 버스로 약 1시간 10분, '다카치호 버스센터' 하차 후 동쪽으로 약 1km, 도보 15분. 택시로는 약 5분.",
-     "bestTime": "산 공기가 맑고 사람이 적은 오전이 좋다. 밤에는 다카치호 신사에서 매일 밤 20시경 열리는 다카치호 가구라를. 늦가을~겨울은 마을마다 요카구라를 봉납하는 계절이다.",
-     "tips": "참배 무료. 경내에는 소원을 빌며 두드리는 판목(이타기)이 여러 개 있으니 옆의 안내에 따라 칠 것. 다카치호 노선버스는 운행이 드무니 돌아가는 시간을 미리 확인하자.",
-     "accessPointName": "다카치호 버스센터"
     }
    }
   },
