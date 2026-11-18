@@ -102,6 +102,19 @@ final class SmokeUITests: XCTestCase {
         }
     }
 
+    /// 模拟器偶尔会丢键（例如把 “your name” 打成 “yur name”）：输入后核对内容，不对就清空重打
+    func typeReliably(_ text: String, into field: XCUIElement, attempts: Int = 3) {
+        for _ in 0..<attempts {
+            field.typeText(text)
+            if (field.value as? String) == text { return }
+            let current = (field.value as? String) ?? ""
+            if !current.isEmpty, current != field.placeholderValue {
+                field.typeText(String(repeating: XCUIKeyboardKey.delete.rawValue, count: current.count))
+            }
+        }
+        XCTAssertEqual(field.value as? String, text, "搜索框内容应为 \(text)")
+    }
+
     func snapshot(_ name: String) {
         let shot = XCTAttachment(screenshot: app.screenshot())
         shot.name = name
@@ -124,7 +137,7 @@ final class SmokeUITests: XCTestCase {
         let search = app.searchFields.firstMatch
         XCTAssertTrue(search.waitForExistence(timeout: 5))
         search.tap()
-        search.typeText("your name")
+        typeReliably("your name", into: search)
         let workRow = app.buttons["work-君の名は。"]
         XCTAssertTrue(workRow.waitForExistence(timeout: 5), "搜索 your name 应找到《君の名は。》")
         snapshot("02-search-suggestions")
@@ -161,7 +174,7 @@ final class SmokeUITests: XCTestCase {
         let search = app.searchFields.firstMatch
         XCTAssertTrue(search.waitForExistence(timeout: 10))
         search.tap()
-        search.typeText("your name")
+        typeReliably("your name", into: search)
         let workRow = app.buttons["work-君の名は。"]
         XCTAssertTrue(workRow.waitForExistence(timeout: 5))
         workRow.tap()
@@ -195,7 +208,7 @@ final class SmokeUITests: XCTestCase {
         let search = app.searchFields["日漫 / 日剧 / 日影名称"]
         XCTAssertTrue(search.waitForExistence(timeout: 5))
         search.tap()
-        search.typeText("东京爱情")
+        typeReliably("东京爱情", into: search)
         XCTAssertTrue(app.staticTexts["月台栏杆上的白手帕"].waitForExistence(timeout: 5),
                       "电视剧筛选应显示《东京爱情故事》的名场面")
         snapshot("06-list-drama")
