@@ -4163,56 +4163,71 @@
    "spoiler": false,
    "sourceURL": "https://www.tohokukanko.jp/attractions/detail_1003156.html",
    "verified": false,
+   "bestMonths": [
+    5,
+    6,
+    7,
+    10
+   ],
+   "accessPoint": {
+    "latitude": 40.614302,
+    "longitude": 140.5764866
+   },
    "text": {
     "zh-Hans": {
      "placeName": "盛美园·盛美馆（青森·平川）",
      "sceneTitle": "庭园深处的洋馆",
      "episode": "剧场版",
-     "highlight": "一层和风、二层洋风的盛美馆，加上满是青苔与古松的日式庭园，据东北观光推进机构介绍，曾是片中老宅的舞台参考。站在庭中望向盛美馆，就像从阿莉埃蒂的高度仰望人类的房子。",
+     "highlight": "《借东西的小人阿莉埃蒂》最迷人的是视角：一块方糖、一片叶子、一根别针，在十厘米高的阿莉埃蒂眼里都是大事。也正因为她那么小，翔那句“你是我心脏的一部分”才显得格外郑重——两个都很脆弱的生命，在一个夏天里互相给了对方勇气。盛美园幽深的庭园和一层和风、二层洋风的盛美馆，让人一走进来就忍不住想蹲下，用阿莉埃蒂的高度看看这个世界。",
      "story": "心脏不好的少年翔，在手术前被送到母亲儿时住过的老宅静养。到达的第一天，他就在庭院的草丛里瞥见了一个小小的身影——那是住在地板下、身高只有十厘米的阿莉埃蒂。当晚，阿莉埃蒂第一次跟着父亲去“借东西”，在翔的房间里被他看见。按照小人的规矩，被人类看到就必须搬家。翔却想和她做朋友，甚至送来一座精致的娃娃屋厨房。对阿莉埃蒂来说，这座房子、这片庭园就是整个世界。盛美园建于明治末年，盛美馆和洋折衷的造型，正是这座老宅给人的印象。",
-     "access": "弘南铁道弘南线「津轻尾上」站步行约10分钟",
-     "bestTime": "初夏新绿或秋天红叶时，庭园最美；下雨天青苔更鲜亮",
-     "tips": "收费入园，开放时间及冬季安排请以官网为准。盛美馆二楼仅在特别方案中开放，庭园内请勿踩踏青苔。"
+     "access": "弘南铁道弘南线「津轻尾上」站出站往西步行约800米、约10分钟到盛美园入口",
+     "accessPointName": "津轻尾上站",
+     "bestTime": "开园后的上午人少、光线柔和；初夏新绿或10月红叶时庭园最美，雨后或阴天青苔颜色最鲜亮",
+     "tips": "收费入园（夏季大人500日元），4月中旬–9月9:00–17:00，10月–11月中旬至16:30；11月下旬–4月上旬为预约制短时开放。盛美馆二楼仅特别方案开放，请勿踩踏青苔。"
     },
     "zh-Hant": {
      "placeName": "盛美園·盛美館（青森·平川）",
      "sceneTitle": "庭園深處的洋館",
      "episode": "劇場版",
-     "highlight": "一層和風、二層洋風的盛美館，加上滿是青苔與古松的日式庭園，據東北觀光推進機構介紹，曾是片中老宅的舞臺參考。站在庭中望向盛美館，就像從阿莉埃蒂的高度仰望人類的房子。",
+     "highlight": "《借東西的小人阿莉埃蒂》最迷人的是視角：一塊方糖、一片葉子、一根別針，在十釐米高的阿莉埃蒂眼裡都是大事。也正因為她那麼小，翔那句「你是我心臟的一部分」才顯得格外鄭重——兩個都很脆弱的生命，在一個夏天裡互相給了對方勇氣。盛美園幽深的庭園和一層和風、二層洋風的盛美館，讓人一走進來就忍不住想蹲下，用阿莉埃蒂的高度看看這個世界。",
      "story": "心臟不好的少年翔，在手術前被送到母親兒時住過的老宅靜養。到達的第一天，他就在庭院的草叢裡瞥見了一個小小的身影——那是住在地板下、身高只有十釐米的阿莉埃蒂。當晚，阿莉埃蒂第一次跟著父親去「借東西」，在翔的房間裡被他看見。按照小人的規矩，被人類看到就必須搬家。翔卻想和她做朋友，甚至送來一座精緻的娃娃屋廚房。對阿莉埃蒂來說，這座房子、這片庭園就是整個世界。盛美園建於明治末年，盛美館和洋折衷的造型，正是這座老宅給人的印象。",
-     "access": "弘南鐵道弘南線「津輕尾上」站步行約10分鐘",
-     "bestTime": "初夏新綠或秋天紅葉時，庭園最美；下雨天青苔更鮮亮",
-     "tips": "收費入園，開放時間及冬季安排請以官網為準。盛美館二樓僅在特別方案中開放，庭園內請勿踩踏青苔。"
+     "access": "弘南鐵道弘南線「津輕尾上」站出站往西步行約800米、約10分鐘到盛美園入口",
+     "accessPointName": "津輕尾上站",
+     "bestTime": "開園後的上午人少、光線柔和；初夏新綠或10月紅葉時庭園最美，雨後或陰天青苔顏色最鮮亮",
+     "tips": "收費入園（夏季大人500日元），4月中旬–9月9:00–17:00，10月–11月中旬至16:30；11月下旬–4月上旬為預約制短時開放。盛美館二樓僅特別方案開放，請勿踩踏青苔。"
     },
     "ja": {
      "placeName": "盛美園・盛美館（青森・平川）",
      "sceneTitle": "庭の奥に建つ洋館",
      "episode": "劇場版",
-     "highlight": "1階が和風、2階が洋風の盛美館と、苔と古松に彩られた日本庭園。東北観光推進機構の紹介では作品の舞台の参考になったとされる。庭から盛美館を見上げると、アリエッティの目線で人間の家を見ているようだ。",
+     "highlight": "『借りぐらしのアリエッティ』のいちばんの魅力は視点だ。角砂糖ひとつ、葉っぱ一枚、待ち針一本が、身長10センチのアリエッティにとっては大ごとになる。彼女がそれほど小さいからこそ、翔の「君は僕の心臓の一部だ」という言葉が重く響く。どちらも壊れやすい二つの命が、ひと夏のあいだに互いに勇気を与え合うのだ。奥深い庭園と、一階が和風・二階が洋風の盛美館。盛美園に足を踏み入れると、思わずしゃがみこんでアリエッティの目線で世界を見たくなる。",
      "story": "心臓に病を抱える少年・翔は、手術を前に、母が子どもの頃に暮らした古い屋敷で静養することになる。着いたその日、彼は庭の草むらで小さな人影を見かける。床下に住む身長10センチの小人、アリエッティだった。その夜、初めて父と「借り」に出たアリエッティは、翔の部屋で彼に姿を見られてしまう。人間に見られたら引っ越さなければならないのが小人の掟。けれど翔は彼女と友だちになりたいと願い、精巧なドールハウスの台所まで贈ろうとする。アリエッティにとっては、この屋敷と庭が世界のすべてだった。明治末に造られた盛美園の和洋折衷の盛美館は、まさにあの屋敷の面影を伝えている。",
-     "access": "弘南鉄道弘南線「津軽尾上」駅から徒歩約10分",
-     "bestTime": "新緑の初夏や紅葉の秋。雨の日は苔がいっそう鮮やか",
-     "tips": "入園は有料。開園時間や冬季の営業は公式情報で確認を。盛美館2階は特別プランのみ公開。庭園の苔は踏まないこと。"
+     "access": "弘南鉄道弘南線「津軽尾上」駅から西へ約800m・徒歩約10分で盛美園の入口",
+     "accessPointName": "津軽尾上駅",
+     "bestTime": "開園直後の午前は人が少なく光もやわらか。初夏の新緑や10月の紅葉の頃が庭園の見頃で、雨上がりや曇りの日は苔の色がいっそう鮮やか",
+     "tips": "有料（夏季は大人500円）。4月中旬〜9月は9:00〜17:00、10月〜11月中旬は16:30まで。11月下旬〜4月上旬は予約制で時間短縮。盛美館2階は特別プランのみ公開。苔は踏まないで。"
     },
     "en": {
      "placeName": "Seibi-en Garden & Seibikan (Hirakawa, Aomori)",
      "sceneTitle": "The mansion beyond the garden",
      "episode": "Film",
-     "highlight": "Seibikan, Japanese-style below and Western-style above, sits in a garden of moss and old pines. Tōhoku’s tourism organisation says it served as a reference for the film’s old house; from the garden it feels like looking up at a human home from Arrietty’s height.",
+     "highlight": "Arrietty’s magic is its point of view: a sugar cube, a leaf, a dressmaker’s pin are all big events to a girl ten centimetres tall. And because she is so small, Shō’s line “you’re part of my heart” lands with real weight: two fragile lives giving each other courage over one summer. With its deep, mossy garden and the Seibikan, Japanese below and Western above, Seibien makes you want to crouch down and see the world from Arrietty’s height.",
      "story": "Shō, a boy with a weak heart, is sent before his operation to rest at the old house where his mother grew up. On his first day he glimpses a tiny figure in the garden grass: Arrietty, ten centimetres tall, who lives beneath the floor. That night, on her first borrowing trip with her father, Arrietty is seen by Shō in his room. Borrower law says that once humans see you, you must move away. But Shō only wants to be her friend, and even tries to give her an exquisite dolls’ house kitchen. For Arrietty, this house and garden are the whole world. Seibi-en dates from the end of the Meiji era, and the hybrid Japanese-Western Seibikan captures that house’s character.",
-     "access": "About 10 min on foot from Tsugaru-Onoe Station (Kōnan Railway Kōnan Line)",
-     "bestTime": "Early-summer greenery or autumn colour; rain makes the moss even brighter",
-     "tips": "Paid admission; check hours and winter arrangements officially. Seibikan’s upper floor opens only on special tours. Please don’t step on the moss."
+     "access": "From Tsugaru-Onoe Station (Kōnan Railway Kōnan Line) walk west about 800 m (10 min) to the Seibien entrance",
+     "accessPointName": "Tsugaru-Onoe Sta.",
+     "bestTime": "Mornings just after opening are quiet with soft light. The garden is loveliest in early-summer green or October colour, and the moss is brightest after rain or under cloud",
+     "tips": "Paid entry (¥500 for adults in season). Open 9:00–17:00 mid-April to September and until 16:30 October to mid-November; from late November to early April it opens shorter hours by reservation only. The Seibikan’s upper floor opens only on special tours. Please don’t step on the moss."
     },
     "ko": {
      "placeName": "세이비엔·세이비칸 (아오모리·히라카와)",
      "sceneTitle": "정원 너머의 양관",
      "episode": "극장판",
-     "highlight": "1층은 일본식, 2층은 서양식인 세이비칸과 이끼와 노송이 어우러진 일본 정원. 도호쿠 관광추진기구는 이곳이 작품 무대의 참고가 되었다고 소개한다. 정원에서 세이비칸을 올려다보면 아리에티의 눈높이로 인간의 집을 보는 듯하다.",
+     "highlight": "〈마루 밑 아리에티〉의 가장 큰 매력은 시점이다. 각설탕 하나, 나뭇잎 한 장, 시침핀 하나가 키 10센티미터의 아리에티에게는 큰일이 된다. 그토록 작기에 쇼의 “너는 내 심장의 일부야”라는 말이 더 무겁게 다가온다. 둘 다 연약한 두 생명이 한여름 동안 서로에게 용기를 준다. 깊은 정원과 1층은 일본식, 2층은 서양식인 세이비칸이 있는 세이비엔에 들어서면, 저도 모르게 쪼그려 앉아 아리에티의 눈높이로 세상을 보고 싶어진다.",
      "story": "심장이 약한 소년 쇼는 수술을 앞두고 어머니가 어린 시절 살던 오래된 저택에서 요양하게 된다. 도착한 첫날, 그는 정원 풀숲에서 작은 그림자를 본다. 마루 밑에 사는 키 10센티미터의 소인, 아리에티였다. 그날 밤 처음으로 아버지와 ‘빌리기’에 나선 아리에티는 쇼의 방에서 그에게 모습을 들키고 만다. 인간에게 들키면 이사해야 하는 것이 소인들의 규칙. 하지만 쇼는 그녀와 친구가 되고 싶어 정교한 인형의 집 부엌까지 선물하려 한다. 아리에티에게는 이 집과 정원이 세상의 전부였다. 메이지 말기에 조성된 세이비엔의 화양절충 양관 세이비칸은 바로 그 저택의 분위기를 전해 준다.",
-     "access": "고난 철도 고난선 ‘쓰가루오노에’역에서 도보 약 10분",
-     "bestTime": "신록의 초여름이나 단풍철 가을. 비 오는 날엔 이끼가 더 선명하다",
-     "tips": "입장료가 있으며 개원 시간과 겨울철 운영은 공식 정보를 확인. 세이비칸 2층은 특별 플랜으로만 공개된다. 정원의 이끼를 밟지 말 것."
+     "access": "고난철도 고난선 ‘쓰가루오노에’역에서 서쪽으로 약 800m, 도보 약 10분 걸으면 세이비엔 입구",
+     "accessPointName": "쓰가루오노에역",
+     "bestTime": "개원 직후 오전은 한산하고 빛이 부드럽다. 초여름 신록이나 10월 단풍 때 정원이 가장 아름답고, 비 온 뒤나 흐린 날 이끼 색이 더 선명하다",
+     "tips": "유료(성수기 성인 500엔). 4월 중순~9월 9:00~17:00, 10월~11월 중순은 16:30까지. 11월 하순~4월 초순은 예약제로 단축 운영. 세이비칸 2층은 특별 플랜으로만 공개. 이끼를 밟지 말자."
     }
    },
    "photo": {
@@ -5509,56 +5524,71 @@
    "spoiler": false,
    "sourceURL": "https://allabout.co.jp/gm/gc/382592/",
    "verified": false,
+   "bestMonths": [
+    5,
+    6,
+    10,
+    11
+   ],
+   "accessPoint": {
+    "latitude": 35.4417304,
+    "longitude": 139.6516308
+   },
    "text": {
     "zh-Hans": {
      "placeName": "港之见丘公园（神奈川·横滨）",
      "sceneTitle": "每天清晨升起的信号旗",
      "episode": "剧场版 · 开头",
-     "highlight": "红花庄所在的“港口边的山丘”被认为取材自横滨山手一带。公园里设有吉卜力首个电影纪念点，旗杆上挂着片中的U·W信号旗，眺望台正对着横滨港。",
+     "highlight": "这一幕让人难忘，是因为它把思念变成了每天重复的小动作：小海从不说自己多想念父亲，只是日复一日升起U·W两面旗。而海上一直有人默默看着、回应着——不必表白，两个人已经在用旗语说话。这也是宫崎吾朗笔下1963年横滨的底色：战争留下的伤还没愈合，每个人却都在努力往前走。港之见丘公园正是“港口边的山丘”那样俯瞰海湾的视角，很多影迷会在这里对着港口想象那两面旗。",
      "story": "每天清晨，小海都会在红花庄的院子里升起两面信号旗：U和W，意思是“祝航行平安”。她的父亲是船员，在朝鲜战争时随船沉没，再也没有回来，可小海仍然日复一日地升旗。她不知道的是，每天搭拖船经过港口的学长风间俊，一直在海上看着这两面旗，并悄悄用自己的旗语回应。这面旗把两个年轻人联系在了一起，也贯穿了整个故事。2012年，这里设置了吉卜力作品的首个电影纪念点，园内还能看到东洋信号通信社的信号旗塔，至今依然升着真实的信号旗。",
-     "access": "港未来线「元町·中华街」站6号出口步行约5分钟",
-     "bestTime": "清晨或傍晚；晴天能清楚看到横滨港和海湾大桥，五六月玫瑰花开",
-     "tips": "公园免费开放。纪念旗杆和展望台周边人多时请轮流拍照；园内有英国馆等历史建筑，开放时间各不相同。"
+     "access": "港未来线「元町·中华街」站6号出口（美国山公园口）乘扶梯或电梯上到美国山公园，出公园往东沿山手本通约400米，步行约6分钟",
+     "accessPointName": "元町·中华街站 6号出口",
+     "bestTime": "清晨最接近小海升旗的时刻，空气通透、游客少；傍晚可看港湾灯火。玫瑰5月中旬–6月中旬、10月中旬–11月中旬最盛，周末人多",
+     "tips": "公园免费，全天开放。园内英国馆9:30–17:00，每月第4个周三休馆（逢节日顺延）及年末年始休馆。观景台人多时请轮流拍照。"
     },
     "zh-Hant": {
      "placeName": "港之見丘公園（神奈川·橫濱）",
      "sceneTitle": "每天清晨升起的訊號旗",
      "episode": "劇場版 · 開頭",
-     "highlight": "紅花莊所在的「港口邊的山丘」被認為取材自橫濱山手一帶。公園裡設有吉卜力首個電影紀念點，旗杆上掛著片中的U·W訊號旗，眺望臺正對著橫濱港。",
+     "highlight": "這一幕讓人難忘，是因為它把思念變成了每天重複的小動作：小海從不說自己多想念父親，只是日復一日升起U·W兩面旗。而海上一直有人默默看著、回應著——不必表白，兩個人已經在用旗語說話。這也是宮崎吾朗筆下1963年橫濱的底色：戰爭留下的傷還沒癒合，每個人卻都在努力往前走。港之見丘公園正是「港口邊的山丘」那樣俯瞰海灣的視角，很多影迷會在這裡對著港口想象那兩面旗。",
      "story": "每天清晨，小海都會在紅花莊的院子裡升起兩面訊號旗：U和W，意思是「祝航行平安」。她的父親是船員，在朝鮮戰爭時隨船沉沒，再也沒有回來，可小海仍然日復一日地升旗。她不知道的是，每天搭拖船經過港口的學長風間俊，一直在海上看著這兩面旗，並悄悄用自己的旗語回應。這面旗把兩個年輕人聯絡在了一起，也貫穿了整個故事。2012年，這裡設定了吉卜力作品的首個電影紀念點，園內還能看到東洋訊號通訊社的訊號旗塔，至今依然升著真實的訊號旗。",
-     "access": "港未來線「元町·中華街」站6號出口步行約5分鐘",
-     "bestTime": "清晨或傍晚；晴天能清楚看到橫濱港和海灣大橋，五六月玫瑰花開",
-     "tips": "公園免費開放。紀念旗杆和展望臺周邊人多時請輪流拍照；園內有英國館等歷史建築，開放時間各不相同。"
+     "access": "港未來線「元町·中華街」站6號出口（美國山公園口）乘扶梯或電梯上到美國山公園，出公園往東沿山手本通約400米，步行約6分鐘",
+     "accessPointName": "元町·中華街站 6號出口",
+     "bestTime": "清晨最接近小海升旗的時刻，空氣通透、遊客少；傍晚可看港灣燈火。玫瑰5月中旬–6月中旬、10月中旬–11月中旬最盛，週末人多",
+     "tips": "公園免費，全天開放。園內英國館9:30–17:00，每月第4個週三休館（逢節日順延）及年末年始休館。觀景臺人多時請輪流拍照。"
     },
     "ja": {
      "placeName": "港の見える丘公園（神奈川・横浜）",
      "sceneTitle": "毎朝揚がる信号旗",
      "episode": "劇場版・冒頭",
-     "highlight": "コクリコ荘が建つ「港を見下ろす丘」は横浜・山手がモデルとされる。園内にはジブリ初の映画記念スポットとしてU・W旗を掲げたポールが設けられ、展望台からは横浜港が一望できる。",
+     "highlight": "この場面が忘れられないのは、恋しさを毎日くり返す小さな習慣に変えているからだ。海は父をどれほど想っているかを口にしない。ただ毎朝、U・Wの旗を揚げ続ける。そして海の上には、それを黙って見つめ、応えている人がいる。告白などなくても、二人はもう旗で言葉を交わしている。宮崎吾朗が描いた1963年の横浜も同じだ。戦争の傷はまだ癒えないのに、誰もが前を向こうとしている。港の見える丘公園からの眺めはまさに「港の見える丘」の視点で、多くのファンがここで海を見ながらあの旗を思い浮かべる。",
      "story": "毎朝、海はコクリコ荘の庭で二枚の信号旗を揚げる。U旗とW旗、意味は「安全な航行を祈る」。船乗りだった父は朝鮮戦争のさなかに船とともに沈み、二度と帰ってこなかった。それでも海は、一日も欠かさず旗を揚げ続けている。彼女が知らなかったのは、毎朝タグボートで港を行く先輩・風間俊が、海の上からその旗を見つめ、自分も旗でそっと応えていたことだった。この旗が二人を結び、物語全体を貫いていく。2012年にはジブリ作品初の映画記念スポットが設置され、園内には実際に信号旗を掲げる東洋信号通信社の鉄塔も立っている。",
-     "access": "みなとみらい線「元町・中華街」駅6番出口から徒歩約5分",
-     "bestTime": "早朝か夕方。晴れた日は横浜港とベイブリッジがよく見え、5〜6月はバラが見頃",
-     "tips": "公園は入園無料。記念ポールや展望台が混雑しているときは譲り合って撮影を。園内のイギリス館などは開館時間が異なる。"
+     "access": "みなとみらい線「元町・中華街」駅6番出口（アメリカ山公園口）からエスカレーターかエレベーターでアメリカ山公園へ。山手本通りを東へ約400m、徒歩約6分",
+     "accessPointName": "元町・中華街駅 6番出口",
+     "bestTime": "海が旗を揚げる早朝は空気が澄んで人も少ない。夕方は港の夜景も。バラは5月中旬〜6月中旬と10月中旬〜11月中旬が見頃で、週末は混む",
+     "tips": "公園は無料で常時開放。園内の横浜市イギリス館は9:30〜17:00、第4水曜（祝日の場合は翌日）と年末年始が休館。展望台が混んでいるときは順番に撮影を。"
     },
     "en": {
      "placeName": "Harbor View Park (Yokohama, Kanagawa)",
      "sceneTitle": "Flags raised every morning",
      "episode": "Film · opening",
-     "highlight": "Coquelicot Manor’s hill above the harbour is held to be based on Yokohama’s Yamate bluff. The park hosts Studio Ghibli’s first official film memorial, a flagpole flying the U·W signal flags, and the lookout faces the port.",
+     "highlight": "The scene stays with you because it turns longing into a small daily ritual. Umi never says how much she misses her father; she simply raises the U and W flags every morning. And out on the water someone watches and answers, so that without any confession the two are already talking in flags. That’s the undercurrent of Gorō Miyazaki’s 1963 Yokohama, too: the wounds of the war haven’t healed, yet everyone is trying to move forward. Harbor View Park gives exactly that hilltop view over the port, and many fans stand here picturing those two flags.",
      "story": "Every morning Umi raises two signal flags in the garden of Coquelicot Manor: U and W, meaning “I pray for safe voyages”. Her father, a sailor, went down with his ship during the Korean War and never came home, yet she raises them every single day. What she doesn’t know is that Shun, the older student who passes by tugboat each morning, has been watching her flags from the water and quietly answering with his own. The flags tie the two together and run through the whole story. A film memorial was installed here in 2012, and the park’s Toyo Signal Communications tower still flies real signal flags today.",
-     "access": "About 5 min on foot from Exit 6 of Motomachi-Chūkagai Station (Minatomirai Line)",
-     "bestTime": "Early morning or evening; clear days show off the port and Bay Bridge, and roses bloom in May–June",
-     "tips": "Free entry. Take turns at the memorial flagpole and lookout when it’s crowded. Historic houses in the park, like the British House, keep their own hours."
+     "access": "From Exit 6 (America-yama Park exit) of Motomachi-Chūkagai Station (Minatomirai Line), ride the escalator or lift up to America-yama Park, then walk east along Yamate-Hondōri about 400 m (6 min)",
+     "accessPointName": "Motomachi-Chūkagai Sta. Exit 6",
+     "bestTime": "Early morning, when Umi would raise her flags, brings clear air and few people; evenings bring harbour lights. Roses peak mid-May to mid-June and mid-October to mid-November, when weekends get crowded",
+     "tips": "The park is free and always open. The British House inside opens 9:30–17:00 and closes on the 4th Wednesday of each month (next day if a holiday) and over New Year. Take turns at the lookout when it’s crowded."
     },
     "ko": {
      "placeName": "미나토노미에루오카 공원 (가나가와·요코하마)",
      "sceneTitle": "매일 아침 오르는 신호기",
      "episode": "극장판 · 오프닝",
-     "highlight": "코쿠리코 장이 있는 ‘항구를 내려다보는 언덕’은 요코하마 야마테가 모델로 알려져 있다. 공원에는 지브리 최초의 영화 기념 스폿으로 U·W 깃발을 단 깃대가 있고, 전망대에서는 요코하마항이 한눈에 보인다.",
+     "highlight": "이 장면이 잊히지 않는 건 그리움을 매일 반복하는 작은 일상으로 바꿔 놓았기 때문이다. 우미는 아빠가 얼마나 그리운지 말하지 않는다. 그저 매일 아침 U·W 두 깃발을 올릴 뿐이다. 그리고 바다 위에는 그것을 묵묵히 바라보며 답하는 사람이 있다. 고백하지 않아도 두 사람은 이미 깃발로 대화하고 있다. 미야자키 고로가 그린 1963년 요코하마의 바탕도 그렇다. 전쟁의 상처는 아직 아물지 않았지만 모두가 앞으로 나아가려 애쓴다. 미나토노미에루오카 공원은 바로 그 ‘항구가 보이는 언덕’의 시점이라, 많은 팬이 이곳에서 항구를 바라보며 두 깃발을 떠올린다.",
      "story": "매일 아침 우미는 코쿠리코 장 마당에 두 장의 신호기를 올린다. U기와 W기, 뜻은 ‘안전한 항해를 기원합니다’. 선원이던 아버지는 한국전쟁 중 배와 함께 가라앉아 돌아오지 못했지만, 우미는 하루도 빠짐없이 깃발을 올린다. 그녀가 몰랐던 건, 매일 아침 예인선을 타고 항구를 지나던 선배 슌이 바다 위에서 그 깃발을 바라보며 자신의 깃발로 몰래 답하고 있었다는 사실이다. 이 깃발이 두 사람을 잇고 이야기 전체를 관통한다. 2012년 이곳에 지브리 작품 최초의 영화 기념 스폿이 생겼고, 공원 안에는 지금도 실제 신호기를 다는 도요 신호통신사의 철탑이 서 있다.",
-     "access": "미나토미라이선 ‘모토마치·주카가이’역 6번 출구에서 도보 약 5분",
-     "bestTime": "이른 아침이나 저녁. 맑은 날엔 항구와 베이브리지가 잘 보이고 5~6월엔 장미가 핀다",
-     "tips": "공원은 무료. 기념 깃대와 전망대가 붐빌 땐 순서대로 촬영하자. 영국관 등 공원 내 역사 건물은 개관 시간이 각각 다르다."
+     "access": "미나토미라이선 ‘모토마치·주카가이’역 6번 출구(아메리카야마 공원 출구)에서 에스컬레이터나 엘리베이터로 아메리카야마 공원에 올라간 뒤, 야마테혼도리를 따라 동쪽으로 약 400m, 도보 약 6분",
+     "accessPointName": "모토마치·주카가이역 6번 출구",
+     "bestTime": "우미가 깃발을 올리던 이른 아침은 공기가 맑고 사람이 적다. 저녁엔 항구 야경도 볼 수 있다. 장미는 5월 중순~6월 중순, 10월 중순~11월 중순이 절정이며 주말엔 붐빈다",
+     "tips": "공원은 무료이며 상시 개방. 공원 안 요코하마시 영국관은 9:30~17:00, 매월 넷째 수요일(공휴일이면 다음 날)과 연말연시 휴관. 전망대가 붐비면 차례로 촬영하자."
     }
    },
    "photo": {
@@ -5856,56 +5886,70 @@
    "spoiler": true,
    "sourceURL": "https://www.nishi.or.jp/bunka/heiwahenotorikumi/heiwakeihatsu/heiwamonyumennto.html",
    "verified": false,
+   "bestMonths": [
+    6,
+    7,
+    8
+   ],
+   "accessPoint": {
+    "latitude": 34.7502404,
+    "longitude": 135.3288957
+   },
    "text": {
     "zh-Hans": {
      "placeName": "西宫震灾纪念碑公园·Niteko池（兵库·西宫）",
      "sceneTitle": "池畔防空洞里的萤火",
      "episode": "剧场版 · 后半",
-     "highlight": "原作者野坂昭如战时就住在这一带。兄妹俩在池边防空洞里放飞萤火虫、第二天节子为萤火虫挖坟的情节，让这片池塘成为全片最让人心碎的地方。",
+     "highlight": "这片池塘之所以让人心碎，是因为它曾是清太和节子唯一真正属于自己的“家”：没有大人的冷眼，只有满洞的萤火。可萤火虫第二天就死了，节子默默给它们挖坟的那一幕，几乎把整部电影要说的都说完了——那么小的生命，那么短的光。高畑勋没有把它拍成简单的反战说教，而是让我们眼睁睁看着两个孩子一步步走向结局。2020年池边立起纪念碑后，这里成了影迷安静凭吊的地方。",
      "story": "神户大空袭后，清太和节子寄住在西宫的远房姑妈家，却日日遭到冷眼。清太终于带着妹妹离开，搬进满池谷池塘边一个废弃的横穴防空洞。那天夜里，他们抓来满满一蚊帐的萤火虫，洞里第一次亮起温暖的光。第二天早上，萤火虫全死了，节子默默挖了个小坑把它们埋好，问哥哥：“为什么萤火虫这么快就死了？”食物越来越少，节子渐渐虚弱，最终因营养失调死在了这里。2020年，市民团体在池边的纪念碑公园立起“小说火垂之墓诞生之地”纪念碑，西宫市提供了用地。",
-     "access": "阪急甲阳线「苦乐园口」站步行约10分钟",
-     "bestTime": "初夏傍晚安静地来；也可选择8月终战纪念日前后来此缅怀",
-     "tips": "纪念碑与阪神淡路大地震遇难者慰灵碑同在一座公园，请保持肃静。池塘现已无萤火虫，周边为住宅区。"
+     "access": "阪急甲阳线「苦乐园口」站出站后往东，沿住宅区坡道上行约700米、步行约10分钟，到满池谷墓地入口旁的纪念碑公园",
+     "accessPointName": "苦乐园口站",
+     "bestTime": "初夏傍晚光线柔和、最安静，适合静静停留；8月终战纪念日前后来凭吊也有意义。周边是住宅区，避免清晨和夜间造访",
+     "tips": "纪念碑与阪神淡路大地震遇难者慰灵碑同在一座公园，请保持肃静。池塘现已没有萤火虫，防空洞也已不存在；周边是住宅区，请勿喧哗或拍摄民宅。"
     },
     "zh-Hant": {
      "placeName": "西宮震災紀念碑公園·Niteko池（兵庫·西宮）",
      "sceneTitle": "池畔防空洞裡的螢火",
      "episode": "劇場版 · 後半",
-     "highlight": "原作者野坂昭如戰時就住在這一帶。兄妹倆在池邊防空洞裡放飛螢火蟲、第二天節子為螢火蟲挖墳的情節，讓這片池塘成為全片最讓人心碎的地方。",
+     "highlight": "這片池塘之所以讓人心碎，是因為它曾是清太和節子唯一真正屬於自己的「家」：沒有大人的冷眼，只有滿洞的螢火。可螢火蟲第二天就死了，節子默默給它們挖墳的那一幕，幾乎把整部電影要說的都說完了——那麼小的生命，那麼短的光。高畑勳沒有把它拍成簡單的反戰說教，而是讓我們眼睜睜看著兩個孩子一步步走向結局。2020年池邊立起紀念碑後，這裡成了影迷安靜憑弔的地方。",
      "story": "神戶大空襲後，清太和節子寄住在西宮的遠房姑媽家，卻日日遭到冷眼。清太終於帶著妹妹離開，搬進滿池谷池塘邊一個廢棄的橫穴防空洞。那天夜裡，他們抓來滿滿一蚊帳的螢火蟲，洞裡第一次亮起溫暖的光。第二天早上，螢火蟲全死了，節子默默挖了個小坑把它們埋好，問哥哥：「為什麼螢火蟲這麼快就死了？」食物越來越少，節子漸漸虛弱，最終因營養失調死在了這裡。2020年，市民團體在池邊的紀念碑公園立起「小說火垂之墓誕生之地」紀念碑，西宮市提供了用地。",
-     "access": "阪急甲陽線「苦樂園口」站步行約10分鐘",
-     "bestTime": "初夏傍晚安靜地來；也可選擇8月終戰紀念日前後來此緬懷",
-     "tips": "紀念碑與阪神淡路大地震遇難者慰靈碑同在一座公園，請保持肅靜。池塘現已無螢火蟲，周邊為住宅區。"
+     "access": "阪急甲陽線「苦樂園口」站出站後往東，沿住宅區坡道上行約700米、步行約10分鐘，到滿池谷墓地入口旁的紀念碑公園",
+     "accessPointName": "苦樂園口站",
+     "bestTime": "初夏傍晚光線柔和、最安靜，適合靜靜停留；8月終戰紀念日前後來憑弔也有意義。周邊是住宅區，避免清晨和夜間造訪",
+     "tips": "紀念碑與阪神淡路大地震遇難者慰靈碑同在一座公園，請保持肅靜。池塘現已沒有螢火蟲，防空洞也已不存在；周邊是住宅區，請勿喧譁或拍攝民宅。"
     },
     "ja": {
      "placeName": "西宮震災記念碑公園・ニテコ池（兵庫・西宮）",
      "sceneTitle": "池のほとりの横穴と蛍",
      "episode": "劇場版・後半",
-     "highlight": "原作者・野坂昭如が戦時中に暮らしたのがこの満池谷の一帯。池のほとりの横穴で蛍を放ち、翌朝節子が蛍の墓を作る場面は、物語でいちばん胸が締めつけられる。",
+     "highlight": "この池が胸を締めつけるのは、ここが清太と節子にとって唯一の「自分たちの家」だったからだ。大人の冷たい視線もなく、壕の中はホタルの光で満ちていた。けれどホタルは翌朝には死んでしまい、節子が黙って墓を掘る場面は、この映画が伝えたいことをほとんど言い尽くしている——あんなに小さな命、あんなに短い光。高畑勲は単純な反戦の教訓にはせず、二人の子どもが少しずつ結末へ向かっていくのを、観客にただ見つめさせた。2020年に池のほとりに記念碑が建ってからは、ファンが静かに祈りに訪れる場所になっている。",
      "story": "神戸の空襲のあと、清太と節子は西宮の遠縁の叔母の家に身を寄せるが、日に日に冷たく当たられるようになる。とうとう清太は妹を連れて家を出て、満池谷の池のほとりにある使われていない横穴壕で暮らし始める。その夜、二人は蚊帳いっぱいに蛍を放ち、壕の中に初めて温かな光がともる。翌朝、蛍はすべて死んでいた。節子は黙って小さな穴を掘って埋め、「なんで蛍、すぐ死んでしまうん？」と兄に問う。食べ物は日に日に乏しくなり、節子は衰弱して、ついにここで栄養失調のため息を引き取る。2020年、池のそばの記念碑公園に市民団体が「小説 火垂るの墓 誕生の地」の碑を建て、西宮市が用地を提供した。",
-     "access": "阪急甲陽線「苦楽園口」駅から徒歩約10分",
-     "bestTime": "初夏の夕方に静かに。8月の終戦の日前後に手を合わせに来る人も多い",
-     "tips": "碑は阪神・淡路大震災の犠牲者追悼碑と同じ公園にある。静かに過ごそう。池に蛍は今はおらず、周辺は住宅街。"
+     "access": "阪急甲陽線「苦楽園口」駅から東へ。住宅街の坂を約700m上り、徒歩約10分で満池谷墓地入口横の記念碑公園",
+     "accessPointName": "苦楽園口駅",
+     "bestTime": "初夏の夕方は光がやわらかく静かで、ゆっくり佇むのに向いている。8月の終戦記念日前後に手を合わせに訪れるのもいい。住宅地なので早朝・夜間は避けて",
+     "tips": "記念碑は阪神・淡路大震災の追悼碑と同じ公園にあるので、静かに。今の池にホタルはおらず、防空壕も残っていない。周囲は住宅街なので、大声や民家の撮影は控えて。"
     },
     "en": {
      "placeName": "Nishinomiya Earthquake Memorial Park & Niteko Pond (Hyōgo)",
      "sceneTitle": "Fireflies in the shelter by the pond",
      "episode": "Film · second half",
-     "highlight": "Author Akiyuki Nosaka lived in this Mantoya-dani area during the war. The siblings releasing fireflies in their hillside shelter, and Setsuko burying them the next morning, make this pond the film’s most heartbreaking place.",
+     "highlight": "This pond breaks hearts because it was the only place Seita and Setsuko could call their own home: no cold-eyed adults, just a shelter full of fireflies. But by morning the fireflies are dead, and Setsuko quietly digging them a grave says almost everything the film has to say: such small lives, such brief light. Takahata refused to make a simple anti-war lesson, instead making us watch, helplessly, as two children move step by step toward the end. Since a memorial stone was raised by the pond in 2020, it has become a place where fans come to remember quietly.",
      "story": "After the Kobe air raid, Seita and Setsuko stay with a distant aunt in Nishinomiya, who grows colder by the day. Finally Seita takes his sister away to live in an abandoned dugout shelter beside the pond. That night they release a mosquito net full of fireflies, and the shelter glows with warmth for the first time. The next morning every firefly is dead. Setsuko quietly digs a little grave and asks her brother why fireflies have to die so soon. Food runs out, Setsuko grows weaker, and she finally dies there of malnutrition. In 2020 a citizens’ group raised a stone marking this as the birthplace of the novel, on land provided by the city in the memorial park beside the pond.",
-     "access": "About 10 min on foot from Kurakuenguchi Station (Hankyū Kōyō Line)",
-     "bestTime": "Quiet early-summer evenings; many come around the 15 August end-of-war anniversary",
-     "tips": "The stone shares the park with a memorial to victims of the 1995 earthquake: please be respectful. There are no fireflies at the pond today, and it’s surrounded by homes."
+     "access": "From Kurakuenguchi Station (Hankyū Kōyō Line) head east and walk about 700 m uphill through the residential streets (10 min) to the memorial park beside the entrance to Manchidani Cemetery",
+     "accessPointName": "Kurakuenguchi Sta.",
+     "bestTime": "Early-summer evenings are soft-lit and quiet, good for simply standing a while; coming around mid-August, the anniversary of the war’s end, also feels fitting. It’s residential, so avoid early mornings and night",
+     "tips": "The stone shares the park with a memorial to the 1995 earthquake victims: please be respectful. There are no fireflies at the pond now and the shelter is long gone. It’s surrounded by homes, so keep quiet and don’t photograph houses."
     },
     "ko": {
      "placeName": "니시노미야 지진 기념비 공원·니테코 연못 (효고·니시노미야)",
      "sceneTitle": "연못가 방공호의 반딧불",
      "episode": "극장판 · 후반",
-     "highlight": "원작자 노사카 아키유키가 전쟁 중 살았던 곳이 바로 이 일대다. 연못가 방공호에 반딧불이를 풀어놓고, 다음 날 세츠코가 반딧불이 무덤을 만드는 장면은 영화에서 가장 가슴 아픈 순간이다.",
+     "highlight": "이 연못이 가슴을 아프게 하는 건, 세이타와 세쓰코가 유일하게 ‘우리 집’이라 부를 수 있었던 곳이기 때문이다. 어른들의 차가운 눈길도 없이 방공호 안은 반딧불로 가득했다. 하지만 반딧불은 다음 날 아침 모두 죽고, 세쓰코가 말없이 무덤을 파 주는 장면은 영화가 하고 싶은 말을 거의 다 해 버린다. 그토록 작은 생명, 그토록 짧은 빛. 다카하타 이사오는 이를 단순한 반전 교훈으로 만들지 않고, 두 아이가 한 걸음씩 결말로 향하는 모습을 그저 지켜보게 했다. 2020년 연못가에 기념비가 세워진 뒤로 팬들이 조용히 추모하러 찾는 곳이 되었다.",
      "story": "고베 공습 후 세이타와 세츠코는 니시노미야의 먼 친척 아주머니 집에 얹혀살지만 날이 갈수록 냉대를 받는다. 결국 세이타는 동생을 데리고 나와 연못가의 버려진 횡혈식 방공호에서 살기 시작한다. 그날 밤 둘은 모기장 가득 반딧불이를 풀어놓고, 방공호 안에 처음으로 따뜻한 빛이 감돈다. 다음 날 아침 반딧불이는 모두 죽어 있었다. 세츠코는 말없이 작은 구덩이를 파 묻어 주고 오빠에게 ‘반딧불이는 왜 금방 죽어?’라고 묻는다. 먹을 것은 점점 줄고, 세츠코는 쇠약해져 끝내 이곳에서 영양실조로 숨을 거둔다. 2020년 연못 옆 기념비 공원에 시민 단체가 ‘소설 반딧불이의 묘 탄생지’ 비석을 세웠고 니시노미야시가 부지를 제공했다.",
-     "access": "한큐 고요선 ‘구라쿠엔구치’역에서 도보 약 10분",
-     "bestTime": "초여름 저녁에 조용히. 8월 종전일 무렵 찾는 사람도 많다",
-     "tips": "비석은 한신·아와지 대지진 희생자 추모비와 같은 공원에 있으니 엄숙하게. 지금 연못에는 반딧불이가 없고 주변은 주택가다."
+     "access": "한큐 고요선 ‘구라쿠엔구치’역에서 동쪽으로, 주택가 비탈길을 약 700m 올라 도보 약 10분이면 만치다니 묘지 입구 옆 기념비 공원",
+     "accessPointName": "구라쿠엔구치역",
+     "bestTime": "초여름 저녁은 빛이 부드럽고 조용해 잠시 머물기 좋다. 8월 종전기념일 무렵 추모하러 오는 것도 의미 있다. 주택가이니 이른 아침과 밤은 피하자",
+     "tips": "기념비는 한신·아와지 대지진 희생자 추모비와 같은 공원에 있으니 조용히 하자. 지금 연못에는 반딧불이 없고 방공호도 남아 있지 않다. 주변이 주택가이니 떠들거나 민가를 촬영하지 말자."
     }
    },
    "photo": {
@@ -5926,56 +5970,68 @@
    "spoiler": true,
    "sourceURL": "https://en.wikipedia.org/wiki/Grave_of_the_Fireflies",
    "verified": false,
+   "bestMonths": [
+    9
+   ],
+   "accessPoint": {
+    "latitude": 34.6948605,
+    "longitude": 135.1950871
+   },
    "text": {
     "zh-Hans": {
      "placeName": "JR三之宫站（兵库·神户）",
      "sceneTitle": "昭和二十年九月二十一日",
      "episode": "剧场版 · 开头",
-     "highlight": "“昭和二十年九月二十一日夜，我死了。”电影从结局开始：清太倒在三之宫站的柱子旁。这句开场白和那只水果糖铁罐，几乎是日本动画史上最沉重的开头。",
+     "highlight": "很少有电影敢在第一句话就告诉你结局：“昭和二十年九月二十一日夜，我死了。”从这一刻起，观众看到的每一段夏日回忆——水果糖、萤火、海边——都带着注定失去的重量。高畑勋让化为幽灵的清太回望自己的一生，整部电影因此成了一场无法挽回的回忆。今天的三之宫站人潮汹涌，站在这里反而更能体会那一夜：在最热闹的地方，一个孩子无声地消失了。",
      "story": "战争刚结束，国铁三之宫站里挤满了无家可归的流浪儿。瘦得不成人形的清太靠着站内的柱子坐着，来往的行人视而不见，有人丢下一个饭团，他已经没有力气去拿。深夜，清太死去。清扫的站务员从他身上翻出一个生锈的水果糖铁罐，随手扔进草丛，罐里滚出一小块骨灰，四周飞起了点点萤火。化作幽灵的节子从草丛中醒来，与哥哥重逢，故事这才倒叙回到那年夏天的空袭。今天的三之宫站已是神户最繁忙的车站，站在人潮中，很难想象那一夜的孤寂。",
-     "access": "JR神户线「三之宫」站中央检票口一带，与阪急、阪神、地铁三宫站相连",
-     "bestTime": "任何时间；夜晚的车站最接近电影开场的氛围",
-     "tips": "车站客流量大，请勿在通道中停留或架设三脚架拍照，检票口内需购票进站。"
+     "access": "JR神户线「三之宫」站出检票口即到；与阪急、阪神「神户三宫」站及地铁「三宫」站相邻，换乘步行约2–3分钟",
+     "accessPointName": "JR三之宫站",
+     "bestTime": "傍晚到夜里车站亮灯后最接近开场的氛围；早晚通勤高峰人潮汹涌，建议避开7–9点和17–19点",
+     "tips": "这里是神户最繁忙的车站之一，请勿在通道停留或架设三脚架；进入检票口内需购票。现在的车站与战后的样子已截然不同，没有可对照的具体机位。"
     },
     "zh-Hant": {
      "placeName": "JR三之宮站（兵庫·神戶）",
      "sceneTitle": "昭和二十年九月二十一日",
      "episode": "劇場版 · 開頭",
-     "highlight": "「昭和二十年九月二十一日夜，我死了。」電影從結局開始：清太倒在三之宮站的柱子旁。這句開場白和那隻水果糖鐵罐，幾乎是日本動畫史上最沉重的開頭。",
+     "highlight": "很少有電影敢在第一句話就告訴你結局：「昭和二十年九月二十一日夜，我死了。」從這一刻起，觀眾看到的每一段夏日回憶——水果糖、螢火、海邊——都帶著註定失去的重量。高畑勳讓化為幽靈的清太回望自己的一生，整部電影因此成了一場無法挽回的回憶。今天的三之宮站人潮洶湧，站在這裡反而更能體會那一夜：在最熱鬧的地方，一個孩子無聲地消失了。",
      "story": "戰爭剛結束，國鐵三之宮站裡擠滿了無家可歸的流浪兒。瘦得不成人形的清太靠著站內的柱子坐著，來往的行人視而不見，有人丟下一個飯糰，他已經沒有力氣去拿。深夜，清太死去。清掃的站務員從他身上翻出一個生鏽的水果糖鐵罐，隨手扔進草叢，罐裡滾出一小塊骨灰，四周飛起了點點螢火。化作幽靈的節子從草叢中醒來，與哥哥重逢，故事這才倒敘回到那年夏天的空襲。今天的三之宮站已是神戶最繁忙的車站，站在人潮中，很難想象那一夜的孤寂。",
-     "access": "JR神戶線「三之宮」站中央檢票口一帶，與阪急、阪神、地鐵三宮站相連",
-     "bestTime": "任何時間；夜晚的車站最接近電影開場的氛圍",
-     "tips": "車站客流量大，請勿在通道中停留或架設三腳架拍照，檢票口內需購票進站。"
+     "access": "JR神戶線「三之宮」站出檢票口即到；與阪急、阪神「神戶三宮」站及地鐵「三宮」站相鄰，換乘步行約2–3分鐘",
+     "accessPointName": "JR三之宮站",
+     "bestTime": "傍晚到夜裡車站亮燈後最接近開場的氛圍；早晚通勤高峰人潮洶湧，建議避開7–9點和17–19點",
+     "tips": "這裡是神戶最繁忙的車站之一，請勿在通道停留或架設三腳架；進入檢票口內需購票。現在的車站與戰後的樣子已截然不同，沒有可對照的具體機位。"
     },
     "ja": {
      "placeName": "JR三ノ宮駅（兵庫・神戸）",
      "sceneTitle": "昭和20年9月21日夜",
      "episode": "劇場版・冒頭",
-     "highlight": "「昭和20年9月21日夜、僕は死んだ」。映画は結末から始まる。三宮駅の柱にもたれて息絶える清太、そしてドロップの缶。日本のアニメ史でも屈指の重い幕開けだ。",
+     "highlight": "最初の一言で結末を告げる映画は、そう多くない。「昭和20年9月21日夜、僕は死んだ」。この瞬間から、観客が目にする夏の思い出——ドロップ、ホタル、海辺——のすべてが、失われると決まったものの重さを帯びる。高畑勲は幽霊となった清太に自らの短い人生を振り返らせ、映画全体を取り返しのつかない回想にした。人波の絶えない今の三ノ宮駅に立つと、かえってあの夜が実感できる。いちばんにぎやかな場所で、ひとりの子どもが音もなく消えていったのだ。",
      "story": "終戦直後の国鉄三ノ宮駅には、家を失った浮浪児たちがあふれていた。やせ細った清太は構内の柱にもたれて座り込み、行き交う人々は誰も足を止めない。誰かがおにぎりを置いていくが、もう手を伸ばす力もない。深夜、清太は息を引き取る。駅員は彼の持ち物からさびたドロップの缶を見つけ、無造作に草むらへ放り投げる。缶から小さな骨のかけらがこぼれ、あたりに蛍が舞い上がる。草むらで目を覚ました節子の霊が兄と再会し、物語はあの夏の空襲へとさかのぼっていく。いまの三ノ宮駅は神戸で最もにぎわう駅。人波の中に立つと、あの夜の孤独の深さがかえって胸に迫る。",
-     "access": "JR神戸線「三ノ宮」駅中央改札付近。阪急・阪神・地下鉄の三宮駅と連絡",
-     "bestTime": "いつでも。夜の駅が映画の冒頭の雰囲気に近い",
-     "tips": "利用者の多い駅なので、通路での立ち止まりや三脚撮影は控えよう。改札内に入るには乗車券が必要。"
+     "access": "JR神戸線「三ノ宮」駅の改札を出てすぐ。阪急・阪神「神戸三宮」駅、地下鉄「三宮」駅とも隣接し、徒歩約2〜3分",
+     "accessPointName": "JR三ノ宮駅",
+     "bestTime": "日が暮れて駅に明かりが灯る夕方から夜が、冒頭の雰囲気にいちばん近い。朝夕の通勤ラッシュ（7〜9時、17〜19時ごろ）は避けたい",
+     "tips": "神戸有数の混雑駅なので、通路で立ち止まったり三脚を立てたりしないこと。改札内に入るには乗車券が必要。今の駅舎は戦後当時とはまったく異なり、作中と同じ構図の場所は残っていない。"
     },
     "en": {
      "placeName": "JR Sannomiya Station (Kobe, Hyōgo)",
      "sceneTitle": "The night of 21 September 1945",
      "episode": "Film · opening",
-     "highlight": "“September 21, 1945. That was the night I died.” The film begins at the end, with Seita slumped against a pillar in Sannomiya Station and a battered sweets tin, one of the most devastating openings in animation.",
+     "highlight": "Few films dare to give away the ending in their very first line: “September 21, 1945. That was the night I died.” From then on, every summer memory we see (the fruit drops, the fireflies, the beach) carries the weight of something already lost. Takahata has Seita’s ghost look back on his own short life, turning the whole film into a memory that can’t be undone. Standing in today’s crowded Sannomiya Station, you feel that night all the more: in the busiest place in town, a child vanished without a sound.",
      "story": "Just after the war, the old Sannomiya Station was crowded with homeless children. Emaciated, Seita sits propped against a pillar while commuters walk past; someone leaves a rice ball he no longer has the strength to reach. Late that night he dies. A station worker finds a rusty fruit-drop tin among his things and tosses it into the weeds. A few small bone fragments spill out, fireflies rise into the dark, and Setsuko’s spirit wakes and is reunited with her brother, and the story flashes back to that summer’s air raid. Today Sannomiya is Kobe’s busiest station; standing in the crowd makes that night’s loneliness feel all the sharper.",
-     "access": "Around the central ticket gates of JR Sannomiya Station (JR Kobe Line), linked to the Hankyū, Hanshin and subway Sannomiya stations",
-     "bestTime": "Any time; the station at night is closest to the film’s opening",
-     "tips": "A very busy station: don’t stop in the walkways or set up tripods. You need a ticket to go beyond the gates."
+     "access": "Right outside the ticket gates of JR Sannomiya Station (JR Kobe Line). The Hankyū and Hanshin Kobe-Sannomiya stations and the subway’s Sannomiya Station are all 2–3 min away on foot",
+     "accessPointName": "JR Sannomiya Sta.",
+     "bestTime": "Dusk into night, once the station lights are on, comes closest to the opening scene. Avoid the rush hours, roughly 7–9 am and 5–7 pm",
+     "tips": "One of Kobe’s busiest stations: don’t stop in walkways or set up tripods, and you’ll need a ticket to go beyond the gates. Today’s station looks nothing like the postwar one, so there’s no exact matching camera angle."
     },
     "ko": {
      "placeName": "JR 산노미야역 (효고·고베)",
      "sceneTitle": "쇼와 20년 9월 21일 밤",
      "episode": "극장판 · 오프닝",
-     "highlight": "‘쇼와 20년 9월 21일 밤, 나는 죽었다.’ 영화는 결말에서 시작한다. 산노미야역 기둥에 기대 숨을 거두는 세이타와 사탕 깡통. 일본 애니메이션 역사상 가장 무거운 오프닝 중 하나다.",
+     "highlight": "첫 대사로 결말을 알려 주는 영화는 많지 않다. “쇼와 20년 9월 21일 밤, 나는 죽었다.” 이 순간부터 관객이 보는 여름의 기억들, 사탕과 반딧불과 바닷가는 모두 이미 잃어버린 것의 무게를 지닌다. 다카하타 이사오는 유령이 된 세이타가 자신의 짧은 생을 돌아보게 해, 영화 전체를 돌이킬 수 없는 회상으로 만들었다. 인파가 끊이지 않는 지금의 산노미야역에 서면 오히려 그날 밤이 더 실감 난다. 가장 번화한 곳에서, 한 아이가 소리 없이 사라졌다.",
      "story": "종전 직후 국철 산노미야역에는 집을 잃은 부랑아들이 넘쳐났다. 피골이 상접한 세이타는 역 안 기둥에 기대 주저앉아 있고, 오가는 사람들은 아무도 멈추지 않는다. 누군가 주먹밥을 두고 가지만 손을 뻗을 힘조차 없다. 깊은 밤, 세이타는 숨을 거둔다. 역무원은 그의 소지품에서 녹슨 사탕 깡통을 찾아 무심하게 풀숲으로 던진다. 깡통에서 작은 뼛조각이 흘러나오고 주위로 반딧불이가 날아오른다. 풀숲에서 깨어난 세츠코의 영혼이 오빠와 다시 만나고, 이야기는 그해 여름의 공습으로 거슬러 올라간다. 지금의 산노미야역은 고베에서 가장 붐비는 역이라, 인파 속에 서 있으면 그날 밤의 고독이 더 사무친다.",
-     "access": "JR 고베선 ‘산노미야’역 중앙 개찰구 일대. 한큐·한신·지하철 산노미야역과 연결",
-     "bestTime": "언제든. 밤의 역이 영화 오프닝 분위기에 가깝다",
-     "tips": "이용객이 많은 역이니 통로에 멈춰 서거나 삼각대를 세우지 말 것. 개찰구 안은 승차권이 필요하다."
+     "access": "JR 고베선 ‘산노미야’역 개찰구를 나오면 바로. 한큐·한신 ‘고베산노미야’역, 지하철 ‘산노미야’역과도 붙어 있어 도보 약 2~3분",
+     "accessPointName": "JR 산노미야역",
+     "bestTime": "해가 지고 역에 불이 켜지는 저녁부터 밤이 영화 첫 장면 분위기에 가장 가깝다. 출퇴근 혼잡 시간(7~9시, 17~19시 무렵)은 피하자",
+     "tips": "고베에서 손꼽히게 붐비는 역이니 통로에 멈춰 서거나 삼각대를 세우지 말자. 개찰구 안으로 들어가려면 승차권이 필요하다. 지금의 역은 전후 당시와 전혀 달라, 작중과 똑같은 구도의 장소는 남아 있지 않다."
     }
    },
    "photo": {
@@ -8058,56 +8114,68 @@
    "spoiler": false,
    "sourceURL": "https://rurubu.jp/andmore/spot/80004372",
    "verified": false,
+   "bestMonths": [
+    7
+   ],
+   "accessPoint": {
+    "latitude": 38.3014954,
+    "longitude": 140.39607
+   },
    "text": {
     "zh-Hans": {
      "placeName": "高濑地区 红花田（山形·山形市）",
      "sceneTitle": "清晨采红花",
      "episode": "剧场版 · 前半",
-     "highlight": "山形市高濑地区被认为是本片舞台的原型，至今仍种着大片红花。晨雾里一朵朵采下带刺的红花，是妙子与乡村生活真正相遇的时刻。",
+     "highlight": "高畑勋没有把乡村拍成浪漫的风景明信片，而是让妙子在天亮前下田、被花刺扎得手疼，才明白一抹胭脂背后有多少人的劳动。这正是《岁月的童话》最动人的地方：一个27岁的东京上班族，在别人的土地上重新问自己想过怎样的生活。采红花的段落细致得近乎纪录片，花、露水和晨光都画得真实可感。红花是山形县的县花，每年7月花开时，高濑也成了影迷专程来看的地方。",
      "story": "妙子坐夜行列车抵达山形，来接她的是姐夫的远房亲戚、年轻的有机农户敏雄。天还没亮，她就跟着一家人下田采红花——必须趁花瓣沾着露水、花萼的刺还软的清晨采摘。妙子手忙脚乱，指尖被扎得生疼，却第一次感受到劳动和土地的分量。婆婆告诉她，这些花要经过无数道工序，才能变成古代女子唇上的一点胭脂。在红花田里，小学五年级的回忆一次次涌上来，她也开始思考：自己真正想要的生活，究竟是什么样子。",
-     "access": "JR仙山线「高濑」站步行约20分钟；红花节期间有免费接驳巴士",
-     "bestTime": "7月上旬红花盛开，清晨最好；每年7月初举办“山形红花节”",
-     "tips": "红花田多为农户私有，请勿进入田里或采摘；交流中心周末一般闭馆，节日期间开放。"
+     "access": "JR仙山线「高濑」站出站后往东南，沿乡间道路步行约1.5公里、约20分钟到红花田一带；7月上旬红花节期间车站有免费接驳巴士",
+     "accessPointName": "高濑站",
+     "bestTime": "7月上旬盛花期的清晨，花瓣带着露水，最像片中采花的场景；白天日照强、气温高。红花节周末人多",
+     "tips": "红花田多为农户私有，请勿进入田里或采摘；想体验采花，可参加7月上旬的“山形红花节”（主会场高濑红花交流中心）。夏季日照强，注意防晒补水。"
     },
     "zh-Hant": {
      "placeName": "高瀨地區 紅花田（山形·山形市）",
      "sceneTitle": "清晨採紅花",
      "episode": "劇場版 · 前半",
-     "highlight": "山形市高瀨地區被認為是本片舞臺的原型，至今仍種著大片紅花。晨霧裡一朵朵採下帶刺的紅花，是妙子與鄉村生活真正相遇的時刻。",
+     "highlight": "高畑勳沒有把鄉村拍成浪漫的風景明信片，而是讓妙子在天亮前下田、被花刺扎得手疼，才明白一抹胭脂背後有多少人的勞動。這正是《歲月的童話》最動人的地方：一個27歲的東京上班族，在別人的土地上重新問自己想過怎樣的生活。採紅花的段落細緻得近乎紀錄片，花、露水和晨光都畫得真實可感。紅花是山形縣的縣花，每年7月花開時，高瀨也成了影迷專程來看的地方。",
      "story": "妙子坐夜行列車抵達山形，來接她的是姐夫的遠房親戚、年輕的有機農戶敏雄。天還沒亮，她就跟著一家人下田採紅花——必須趁花瓣沾著露水、花萼的刺還軟的清晨採摘。妙子手忙腳亂，指尖被扎得生疼，卻第一次感受到勞動和土地的分量。婆婆告訴她，這些花要經過無數道工序，才能變成古代女子唇上的一點胭脂。在紅花田裡，小學五年級的回憶一次次湧上來，她也開始思考：自己真正想要的生活，究竟是什麼樣子。",
-     "access": "JR仙山線「高瀨」站步行約20分鐘；紅花節期間有免費接駁巴士",
-     "bestTime": "7月上旬紅花盛開，清晨最好；每年7月初舉辦「山形紅花節」",
-     "tips": "紅花田多為農戶私有，請勿進入田裡或採摘；交流中心週末一般閉館，節日期間開放。"
+     "access": "JR仙山線「高瀨」站出站後往東南，沿鄉間道路步行約1.5公里、約20分鐘到紅花田一帶；7月上旬紅花節期間車站有免費接駁巴士",
+     "accessPointName": "高瀨站",
+     "bestTime": "7月上旬盛花期的清晨，花瓣帶著露水，最像片中採花的場景；白天日照強、氣溫高。紅花節週末人多",
+     "tips": "紅花田多為農戶私有，請勿進入田裡或採摘；想體驗採花，可參加7月上旬的「山形紅花節」（主會場高瀨紅花交流中心）。夏季日照強，注意防曬補水。"
     },
     "ja": {
      "placeName": "高瀬地区の紅花畑（山形・山形市）",
      "sceneTitle": "夜明けの紅花摘み",
      "episode": "劇場版・前半",
-     "highlight": "山形市高瀬地区は作品の舞台のモデルとされ、今も紅花が栽培されている。朝霧の中、とげのある花をひとつずつ摘む場面は、タエ子が農村の暮らしと本当に出会う瞬間だ。",
+     "highlight": "高畑勲は田舎をロマンチックな絵はがきとしては描かなかった。妙子は夜明け前に畑へ出て、トゲで指を痛めながら、ひとさしの紅の裏にどれだけの手間があるかを知る。そこにこそ『おもひでぽろぽろ』のいちばん心に響くところがある。27歳の東京のOLが、他人の土地で、自分はどう生きたいのかを問い直すのだ。紅花摘みの場面はドキュメンタリーのように細やかで、花も朝露も朝の光も手触りがある。紅花は山形県の県花。毎年7月に花が咲くと、高瀬はファンがわざわざ訪れる場所になる。",
      "story": "夜行列車で山形に着いたタエ子を迎えに来たのは、義兄の親戚で有機農業に取り組む若者・トシオだった。まだ暗いうちから、タエ子は一家と一緒に紅花畑へ出る。花びらが朝露に濡れ、がくのとげが柔らかい早朝のうちに摘まなければならないのだ。慣れない手つきで指先を刺されながらも、彼女は初めて土と働くことの重みを感じる。おばあちゃんは、この花が気の遠くなるような手間を経て、昔の女性の唇を彩る紅になるのだと教えてくれる。紅花畑で小学5年生の記憶が何度もよみがえり、タエ子は自分が本当に望む生き方を考え始める。",
-     "access": "JR仙山線「高瀬」駅から徒歩約20分。紅花まつり期間は無料送迎バスあり",
-     "bestTime": "紅花が咲く7月上旬の早朝。毎年7月初めに「山形紅花まつり」が開かれる",
-     "tips": "紅花畑の多くは農家の私有地。畑に入ったり花を摘んだりしないこと。紅花ふれあいセンターは土日祝休館（まつり期間は開館）。"
+     "access": "JR仙山線「高瀬」駅から南東へ、田園の道を約1.5km・徒歩約20分で紅花畑の一帯。7月上旬の紅花まつり期間は駅から無料送迎バスあり",
+     "accessPointName": "高瀬駅",
+     "bestTime": "7月上旬の満開期の早朝、花びらに朝露が残る時間が作中の紅花摘みにいちばん近い。日中は日差しが強く暑い。紅花まつりの週末は混雑",
+     "tips": "紅花畑の多くは農家の私有地なので、畑に入ったり摘んだりしないこと。紅花摘みを体験したいなら、7月上旬の「山形紅花まつり」（メイン会場は高瀬紅花ふれあいセンター）へ。夏は日差しが強いので熱中症対策を。"
     },
     "en": {
      "placeName": "Takase Safflower Fields (Yamagata City, Yamagata)",
      "sceneTitle": "Picking safflowers at dawn",
      "episode": "Film · first half",
-     "highlight": "Yamagata’s Takase district is regarded as the model for the film’s farming village and still grows safflower. Picking the prickly flowers one by one in the morning mist is when Taeko truly meets country life.",
+     "highlight": "Takahata didn’t paint the countryside as a pretty postcard. Taeko is out in the fields before dawn, pricking her fingers on the thorns, and learns how much labour lies behind a single touch of rouge. That’s the heart of Only Yesterday: a 27-year-old Tokyo office worker, on someone else’s land, asking herself what kind of life she really wants. The safflower-picking sequence is almost documentary in its detail, the flowers, dew and morning light all feel touchable. Safflower is Yamagata’s prefectural flower, and when it blooms each July, fans make the trip to Takase to see it.",
      "story": "Taeko arrives in Yamagata on the night train and is met by Toshio, a young organic farmer related to her brother-in-law. Before dawn she heads into the safflower fields with the family: the flowers must be picked early, while the petals are wet with dew and the thorns still soft. Clumsy at first, her fingertips pricked, she feels for the first time the weight of working the land. Grandma explains how, after endless steps, these blossoms once became the rouge on women’s lips. Among the safflowers her fifth-grade memories keep returning, and she begins to ask what kind of life she really wants.",
-     "access": "About 20 min on foot from Takase Station (JR Senzan Line); free shuttle buses run during the safflower festival",
-     "bestTime": "Early July mornings, when the safflowers bloom; the Yamagata Safflower Festival is held in early July",
-     "tips": "Most fields are private farmland: don’t walk into them or pick flowers. The local safflower centre is usually closed at weekends except during the festival."
+     "access": "From Takase Station (JR Senzan Line) walk southeast along country roads about 1.5 km (20 min) to the safflower fields. During the early-July safflower festival, free shuttle buses run from the station",
+     "accessPointName": "Takase Sta.",
+     "bestTime": "Early morning in peak bloom (early July), with dew still on the petals, is closest to the picking scene. Midday sun is strong and hot, and festival weekends get busy",
+     "tips": "Most fields are private farmland: don’t walk into them or pick flowers. To try picking, join the Yamagata Safflower Festival in early July (main venue: Takase Benibana Fureai Center). Summer sun is fierce, so bring sun protection and water."
     },
     "ko": {
      "placeName": "다카세 지구 홍화밭 (야마가타·야마가타시)",
      "sceneTitle": "새벽의 홍화 따기",
      "episode": "극장판 · 전반",
-     "highlight": "야마가타시 다카세 지구는 작품 무대의 모델로 알려져 있으며 지금도 홍화를 재배한다. 아침 안개 속에서 가시 돋친 꽃을 하나씩 따는 장면은 타에코가 시골의 삶과 진짜로 만나는 순간이다.",
+     "highlight": "다카하타 이사오는 시골을 낭만적인 그림엽서처럼 그리지 않았다. 다에코는 동트기 전 밭에 나가 가시에 손가락을 찔리며, 연지 한 점 뒤에 얼마나 많은 노동이 있는지 깨닫는다. 그것이 〈추억은 방울방울〉의 가장 뭉클한 지점이다. 스물일곱 살 도쿄의 직장인이 남의 땅에서 자신이 정말 원하는 삶이 무엇인지 다시 묻는다. 홍화를 따는 장면은 다큐멘터리처럼 섬세해 꽃과 이슬, 아침 햇살까지 손에 잡힐 듯하다. 홍화는 야마가타현의 현화로, 매년 7월 꽃이 피면 팬들이 일부러 다카세를 찾는다.",
      "story": "야간열차로 야마가타에 도착한 타에코를 마중 나온 사람은 형부의 친척이자 유기농업을 하는 청년 토시오였다. 날이 밝기도 전에 타에코는 가족들과 홍화밭으로 나간다. 꽃잎이 아침 이슬에 젖고 꽃받침의 가시가 부드러운 이른 아침에 따야 하기 때문이다. 서툰 손놀림에 손끝을 찔리면서도 그녀는 처음으로 흙과 노동의 무게를 느낀다. 할머니는 이 꽃이 수많은 손질을 거쳐 옛 여인들의 입술을 물들이던 연지가 된다고 알려 준다. 홍화밭에서 초등학교 5학년 시절의 기억이 몇 번이고 떠오르고, 타에코는 자신이 정말 바라는 삶이 무엇인지 생각하기 시작한다.",
-     "access": "JR 센잔선 ‘다카세’역에서 도보 약 20분. 홍화 축제 기간엔 무료 셔틀버스 운행",
-     "bestTime": "홍화가 피는 7월 초순 이른 아침. 매년 7월 초 ‘야마가타 홍화 축제’가 열린다",
-     "tips": "홍화밭 대부분은 농가 사유지이니 밭에 들어가거나 꽃을 따지 말 것. 홍화 교류 센터는 주말·공휴일 휴관(축제 기간은 개관)."
+     "access": "JR 센잔선 ‘다카세’역에서 남동쪽으로 시골길을 약 1.5km, 도보 약 20분이면 홍화밭 일대. 7월 초 홍화 축제 기간에는 역에서 무료 셔틀버스가 다닌다",
+     "accessPointName": "다카세역",
+     "bestTime": "7월 초 만개 시기의 이른 아침, 꽃잎에 이슬이 맺혀 있을 때가 작중 홍화 따는 장면과 가장 닮았다. 한낮은 햇볕이 강하고 덥다. 홍화 축제 주말은 붐빈다",
+     "tips": "홍화밭 대부분은 농가의 사유지이니 밭에 들어가거나 꽃을 따지 말자. 직접 따 보고 싶다면 7월 초 ‘야마가타 홍화 축제’(메인 회장: 다카세 홍화 후레아이 센터)에 참가하면 된다. 여름 햇볕이 강하니 자외선 차단과 수분 보충을."
     }
    }
   },
@@ -8402,56 +8470,71 @@
    "spoiler": false,
    "sourceURL": "https://lwlies.com/articles/tomonoura-ponyo-studio-ghibli/",
    "verified": false,
+   "bestMonths": [
+    4,
+    5,
+    10,
+    11
+   ],
+   "accessPoint": {
+    "latitude": 34.3825661,
+    "longitude": 133.3825866
+   },
    "text": {
     "zh-Hans": {
      "placeName": "鞆之浦 常夜灯（广岛·福山）",
      "sceneTitle": "宗介的海港小镇",
      "episode": "剧场版 · 全片",
-     "highlight": "宫崎骏曾在这座濑户内海的港町住了两个月构思《悬崖上的金鱼姬》。圆弧形的老港、石阶码头和江户时代的大石灯笼，就是宗介生活的那片海边。",
+     "highlight": "《悬崖上的金鱼姬》讲的是五岁孩子之间最纯粹的承诺——“我会保护你”，而鞆之浦正是让这份天真显得可信的地方：圆弧形的小港、贴着水面的石阶码头、挤在山海之间的老屋，一切都像孩子眼中的世界那样小而完整。宫崎骏在这里长住构思故事，片中明亮温暖的海边小镇感就是从这里来的。常夜灯是鞆之浦的象征，站在灯下望向港湾，很容易就想象出宗介奔向海边的身影。",
      "story": "宗介住在能俯瞰港口的悬崖上，爸爸耕一是常年出海的船长，妈妈理莎每天开车送他去海边的托儿所和隔壁的养老院。一天早上，他在岸边的礁石间捡到一只被困在玻璃瓶里的“金鱼”，用小石头敲碎瓶子把她救了出来，还给她起名叫波妞。小小的港湾、来来往往的渔船、贴着水面的石阶，都是这段友情开始的地方。宫崎骏2005年前后在鞆之浦长住，美术团队也来这里实地考察，片中大海的颜色和小镇的氛围都源于这里。常夜灯本身并没有直接出现在片中，但它是这座港町最具代表性的风景。",
-     "access": "JR福山站乘鞆铁巴士约30分钟，在「鞆港」下车，步行约2分钟",
-     "bestTime": "傍晚夕阳斜照港口时最美，常夜灯入夜后会点亮",
-     "tips": "港口和周边是居民的生活区，渔船与码头设施请勿攀爬；石阶临水且湿滑，带孩子时要格外留意。"
+     "access": "JR福山站前乘鞆铁巴士“鞆港”方向约30分钟到终点「鞆港」，下车往港口方向走约100米、步行约2分钟到常夜灯",
+     "accessPointName": "鞆港 巴士站",
+     "bestTime": "傍晚夕阳斜照港湾、石阶染成金色时最美；白天团体游客较多，清晨的港口最安静",
+     "tips": "港口和周边是居民生活区和渔港，请勿攀爬渔船和码头设施；临水的石阶码头（雁木）长着青苔、湿滑，涨潮时更要小心，带孩子请牵好。"
     },
     "zh-Hant": {
      "placeName": "鞆之浦 常夜燈（廣島·福山）",
      "sceneTitle": "宗介的海港小鎮",
      "episode": "劇場版 · 全片",
-     "highlight": "宮崎駿曾在這座瀨戶內海的港町住了兩個月構思《懸崖上的金魚姬》。圓弧形的老港、石階碼頭和江戶時代的大石燈籠，就是宗介生活的那片海邊。",
+     "highlight": "《懸崖上的金魚姬》講的是五歲孩子之間最純粹的承諾——「我會保護你」，而鞆之浦正是讓這份天真顯得可信的地方：圓弧形的小港、貼著水面的石階碼頭、擠在山海之間的老屋，一切都像孩子眼中的世界那樣小而完整。宮崎駿在這裡長住構思故事，片中明亮溫暖的海邊小鎮感就是從這裡來的。常夜燈是鞆之浦的象徵，站在燈下望向港灣，很容易就想象出宗介奔向海邊的身影。",
      "story": "宗介住在能俯瞰港口的懸崖上，爸爸耕一是常年出海的船長，媽媽理莎每天開車送他去海邊的託兒所和隔壁的養老院。一天早上，他在岸邊的礁石間撿到一隻被困在玻璃瓶裡的「金魚」，用小石頭敲碎瓶子把她救了出來，還給她起名叫波妞。小小的港灣、來來往往的漁船、貼著水面的石階，都是這段友情開始的地方。宮崎駿2005年前後在鞆之浦長住，美術團隊也來這裡實地考察，片中大海的顏色和小鎮的氛圍都源於這裡。常夜燈本身並沒有直接出現在片中，但它是這座港町最具代表性的風景。",
-     "access": "JR福山站乘鞆鐵巴士約30分鐘，在「鞆港」下車，步行約2分鐘",
-     "bestTime": "傍晚夕陽斜照港口時最美，常夜燈入夜後會點亮",
-     "tips": "港口和周邊是居民的生活區，漁船與碼頭設施請勿攀爬；石階臨水且溼滑，帶孩子時要格外留意。"
+     "access": "JR福山站前乘鞆鐵巴士「鞆港」方向約30分鐘到終點「鞆港」，下車往港口方向走約100米、步行約2分鐘到常夜燈",
+     "accessPointName": "鞆港 巴士站",
+     "bestTime": "傍晚夕陽斜照港灣、石階染成金色時最美；白天團體遊客較多，清晨的港口最安靜",
+     "tips": "港口和周邊是居民生活區和漁港，請勿攀爬漁船和碼頭設施；臨水的石階碼頭（雁木）長著青苔、溼滑，漲潮時更要小心，帶孩子請牽好。"
     },
     "ja": {
      "placeName": "鞆の浦 常夜燈（広島・福山）",
      "sceneTitle": "宗介の暮らす港町",
      "episode": "劇場版・全編",
-     "highlight": "宮崎監督が2か月ほど滞在して構想を練ったといわれる瀬戸内の港町。弧を描く古い港、雁木、江戸時代の大きな常夜燈。宗介が暮らす海辺の空気がここにある。",
+     "highlight": "『崖の上のポニョ』が描くのは、5歳の子ども同士の、いちばん純粋な約束——「守ってあげる」だ。鞆の浦はその無邪気さを信じさせてくれる町。弧を描く小さな港、水面すれすれの雁木、山と海に挟まれた古い家並み。すべてが子どもの目に映る世界のように小さく、それでいて完結している。宮崎駿はこの町に長く滞在して構想を練り、映画の明るく温かな港町の空気はここから生まれた。町のシンボル・常夜灯の下から港を眺めれば、海へ駆けていく宗介の姿が自然と浮かんでくる。",
      "story": "宗介は港を見下ろす崖の上の家に住んでいる。父の耕一は外航船の船長で、母のリサは毎日車で宗介を海辺の保育園へ送り、自分は隣のデイケア施設で働く。ある朝、宗介は磯でジャムの瓶にはまった不思議な「金魚」を見つけ、石で瓶を割って助け出し、ポニョと名付ける。小さな港、行き交う漁船、水際まで続く石段は、二人の友情が始まる場所そのものだ。監督は2005年ごろ鞆の浦に長期滞在し、美術スタッフもロケハンに訪れて、海の色や町の雰囲気を作品に取り入れた。常夜燈そのものが劇中に登場するわけではないが、この港町を象徴する風景だ。",
-     "access": "JR福山駅から鞆鉄バスで約30分「鞆港」下車、徒歩約2分",
-     "bestTime": "夕日が港を照らす夕方。常夜燈は夜になると灯がともる",
-     "tips": "港は住民の生活の場。漁船や係留設備には上らないこと。雁木は水際で滑りやすいので子ども連れは特に注意を。"
+     "access": "JR福山駅前から鞆鉄バス「鞆港」行きで約30分、終点「鞆港」下車。港の方へ約100m、徒歩約2分で常夜灯",
+     "accessPointName": "鞆港 バス停",
+     "bestTime": "夕日が港を斜めに照らし、雁木が金色に染まる夕方がいちばん美しい。日中は団体客が多く、早朝の港がもっとも静か",
+     "tips": "港と周辺は住民の生活の場で現役の漁港。漁船や係留設備には上らないこと。水際の雁木は苔で滑りやすく、満潮時は特に注意。子ども連れは手を離さずに。"
     },
     "en": {
      "placeName": "Tomonoura Jōyatō Lantern (Fukuyama, Hiroshima)",
      "sceneTitle": "Sōsuke’s harbour town",
      "episode": "Film · throughout",
-     "highlight": "Miyazaki reportedly spent about two months in this Inland Sea port while developing Ponyo. The curved old harbour, stone quay steps and huge Edo-era lantern are the seaside world Sōsuke grows up in.",
+     "highlight": "Ponyo is about the purest promise there is, one five-year-old telling another “I’ll protect you”, and Tomonoura is the town that makes that innocence believable. The curved little harbour, the stone landing steps at the waterline, old houses squeezed between hills and sea: everything is small and complete, like the world seen through a child’s eyes. Miyazaki stayed here for a long stretch while shaping the story, and the film’s bright, warm seaside feeling comes from this place. Stand under the stone lantern, the town’s symbol, and it’s easy to picture Sōsuke running down to the water.",
      "story": "Sōsuke lives on a cliff above the harbour. His father Kōichi captains a cargo ship, and his mother Lisa drives him each day to the seaside nursery next to the care home where she works. One morning, among the rocks below, he finds a strange “goldfish” stuck in a jam jar, breaks the glass with a stone to free her, and names her Ponyo. The little harbour, fishing boats and stone steps running into the water are where their friendship begins. Miyazaki stayed in Tomonoura around 2005, and the art team scouted here too, taking the colour of the sea and the feel of the town into the film. The lantern itself isn’t shown in the film, but it is the town’s signature view.",
-     "access": "Tomotetsu bus from JR Fukuyama Station, about 30 min to Tomokō, then 2 min on foot",
-     "bestTime": "Late afternoon, when the low sun lights the harbour; the lantern is lit after dark",
-     "tips": "The harbour is a working, lived-in place: don’t climb on boats or moorings. The quay steps are wet and slippery near the water, so watch children closely."
+     "access": "From JR Fukuyama Station take a Tomotetsu bus bound for Tomokō (about 30 min) to the last stop, then walk about 100 m (2 min) toward the harbour to the stone lantern",
+     "accessPointName": "Tomokō bus stop",
+     "bestTime": "Late afternoon, when low sun turns the harbour steps gold, is loveliest. Tour groups come through during the day; early morning is the quietest",
+     "tips": "The harbour is a working fishing port surrounded by homes: don’t climb on boats or mooring gear. The waterside steps are mossy and slippery, especially at high tide, so keep hold of children."
     },
     "ko": {
      "placeName": "도모노우라 조야토 (히로시마·후쿠야마)",
      "sceneTitle": "소스케가 사는 항구 마을",
      "episode": "극장판 · 전편",
-     "highlight": "미야자키 감독이 두 달가량 머물며 구상을 다듬었다고 알려진 세토 내해의 항구 마을. 둥글게 굽은 옛 항구와 돌계단 부두, 에도 시대의 큰 석등이 소스케가 사는 바닷가 풍경 그대로다.",
+     "highlight": "〈벼랑 위의 포뇨〉가 그리는 건 다섯 살 아이들 사이의 가장 순수한 약속, ‘내가 지켜 줄게’다. 도모노우라는 그 천진함을 믿게 만드는 마을이다. 둥글게 휜 작은 항구, 수면에 닿을 듯한 돌계단 부두, 산과 바다 사이에 빼곡한 옛집들까지 모든 것이 아이의 눈에 비친 세상처럼 작고도 완전하다. 미야자키 하야오는 이곳에 오래 머물며 이야기를 구상했고, 영화 속 밝고 따뜻한 바닷가 마을의 분위기는 여기서 나왔다. 마을의 상징인 조야토 아래에서 항구를 바라보면, 바다로 달려가는 소스케의 모습이 저절로 떠오른다.",
      "story": "소스케는 항구가 내려다보이는 벼랑 위 집에 산다. 아빠 고이치는 화물선 선장이고, 엄마 리사는 매일 소스케를 바닷가 어린이집에 데려다주고 바로 옆 요양 시설에서 일한다. 어느 날 아침 소스케는 갯바위에서 잼 병에 낀 이상한 ‘금붕어’를 발견해 돌로 병을 깨 구해 주고 포뇨라는 이름을 붙인다. 작은 항구와 오가는 어선, 물가까지 이어진 돌계단은 둘의 우정이 시작되는 곳이다. 감독은 2005년 무렵 도모노우라에 장기 체류했고 미술팀도 이곳을 답사해 바다 색과 마을 분위기를 작품에 담았다. 석등 자체가 영화에 나오지는 않지만 이 마을을 상징하는 풍경이다.",
-     "access": "JR 후쿠야마역에서 도모테쓰 버스로 약 30분 ‘도모코’ 하차, 도보 약 2분",
-     "bestTime": "석양이 항구를 비추는 늦은 오후. 석등은 밤에 불이 켜진다",
-     "tips": "항구는 주민들의 생활 공간이니 어선이나 계류 시설에 올라가지 말 것. 돌계단은 물가라 미끄러우니 아이와 함께라면 특히 조심."
+     "access": "JR 후쿠야마역 앞에서 도모테쓰 버스 ‘도모코’행으로 약 30분, 종점 ‘도모코’ 하차. 항구 쪽으로 약 100m, 도보 약 2분이면 조야토",
+     "accessPointName": "도모코 버스 정류장",
+     "bestTime": "석양이 항구를 비스듬히 비추며 돌계단이 금빛으로 물드는 저녁이 가장 아름답다. 낮에는 단체 관광객이 많고 이른 아침 항구가 가장 조용하다",
+     "tips": "항구와 주변은 주민의 생활공간이자 현역 어항이다. 어선이나 계류 시설에 올라가지 말자. 물가의 돌계단은 이끼로 미끄러우니 만조 때는 특히 조심하고, 아이 손을 꼭 잡자."
     }
    },
    "photo": {
@@ -8473,56 +8556,71 @@
    "spoiler": false,
    "sourceURL": "https://lwlies.com/articles/tomonoura-ponyo-studio-ghibli/",
    "verified": false,
+   "bestMonths": [
+    4,
+    5,
+    10,
+    11
+   ],
+   "accessPoint": {
+    "latitude": 34.3825661,
+    "longitude": 133.3825866
+   },
    "text": {
     "zh-Hans": {
      "placeName": "医王寺 太子殿（广岛·福山）",
      "sceneTitle": "悬崖上望海的家",
      "episode": "剧场版 · 全片",
-     "highlight": "从医王寺后山爬上五百多级石阶，整个鞆之浦和对面的仙醉岛尽收眼底。这正是宗介家“悬崖之上、俯瞰大海”的视角。",
+     "highlight": "这一幕好笑又让人鼻酸：妈妈理莎气得用灯语连打“笨蛋”，海上的灯光却一闪一闪地回应着。它让人一下看懂这个家——妈妈会发脾气，爸爸总不在，可彼此的心意隔着一片海也能传过去。宗介家孤零零立在崖上、整片大海就在窗外，那种视角在太子殿最能体会：五百多级台阶爬上来，鞆之浦的屋瓦、弧形港湾和仙醉岛一下子全在脚下。",
      "story": "宗介的家孤零零地立在海边的悬崖上，窗外就是整片大海。爸爸的船出海迟迟不归的那个夜晚，理莎带着宗介站在屋外，用手电筒向海上的爸爸打灯语，船上也亮着灯一闪一闪地回应。理莎气得连打“笨蛋、笨蛋”，宗介却认真地一个字一个字回“我爱你”。片中宗介家的具体原型众说纷纭，但这座城镇本身就在山与海之间，从太子殿往下看，层层叠叠的屋瓦、弧形的港湾和远处的岛屿，几乎就是电影里从崖上望出去的景色。",
-     "access": "鞆铁巴士「鞆之浦」站步行约10分钟到医王寺，再爬石阶约15–20分钟上到太子殿",
-     "bestTime": "晴朗的上午顺光看海最清楚；傍晚可看濑户内海的夕照",
-     "tips": "石阶陡且长，需穿好走的鞋，夏天带足饮水。太子殿是寺院境内，请保持安静、爱护设施。"
+     "access": "鞆铁巴士终点「鞆港」下车，穿过老街往西步行约10分钟到医王寺，再从寺后爬约583级石阶、约15分钟到太子殿",
+     "accessPointName": "鞆港 巴士站",
+     "bestTime": "晴朗的上午顺光，海面和仙醉岛最清楚；傍晚能看濑户内海夕照，但石阶天黑后难走，请趁天亮下山",
+     "tips": "太子殿在医王寺后山，约583级石阶陡而长、雨天湿滑，请穿防滑鞋，夏天带足饮水。这里是寺院境内，请保持安静，并在天黑前下山。"
     },
     "zh-Hant": {
      "placeName": "醫王寺 太子殿（廣島·福山）",
      "sceneTitle": "懸崖上望海的家",
      "episode": "劇場版 · 全片",
-     "highlight": "從醫王寺後山爬上五百多級石階，整個鞆之浦和對面的仙醉島盡收眼底。這正是宗介家「懸崖之上、俯瞰大海」的視角。",
+     "highlight": "這一幕好笑又讓人鼻酸：媽媽理莎氣得用燈語連打「笨蛋」，海上的燈光卻一閃一閃地回應著。它讓人一下看懂這個家——媽媽會發脾氣，爸爸總不在，可彼此的心意隔著一片海也能傳過去。宗介家孤零零立在崖上、整片大海就在窗外，那種視角在太子殿最能體會：五百多級臺階爬上來，鞆之浦的屋瓦、弧形港灣和仙醉島一下子全在腳下。",
      "story": "宗介的家孤零零地立在海邊的懸崖上，窗外就是整片大海。爸爸的船出海遲遲不歸的那個夜晚，理莎帶著宗介站在屋外，用手電筒向海上的爸爸打燈語，船上也亮著燈一閃一閃地回應。理莎氣得連打「笨蛋、笨蛋」，宗介卻認真地一個字一個字回「我愛你」。片中宗介家的具體原型眾說紛紜，但這座城鎮本身就在山與海之間，從太子殿往下看，層層疊疊的屋瓦、弧形的港灣和遠處的島嶼，幾乎就是電影裡從崖上望出去的景色。",
-     "access": "鞆鐵巴士「鞆之浦」站步行約10分鐘到醫王寺，再爬石階約15–20分鐘上到太子殿",
-     "bestTime": "晴朗的上午順光看海最清楚；傍晚可看瀨戶內海的夕照",
-     "tips": "石階陡且長，需穿好走的鞋，夏天帶足飲水。太子殿是寺院境內，請保持安靜、愛護設施。"
+     "access": "鞆鐵巴士終點「鞆港」下車，穿過老街往西步行約10分鐘到醫王寺，再從寺後爬約583級石階、約15分鐘到太子殿",
+     "accessPointName": "鞆港 巴士站",
+     "bestTime": "晴朗的上午順光，海面和仙醉島最清楚；傍晚能看瀨戶內海夕照，但石階天黑後難走，請趁天亮下山",
+     "tips": "太子殿在醫王寺後山，約583級石階陡而長、雨天溼滑，請穿防滑鞋，夏天帶足飲水。這裡是寺院境內，請保持安靜，並在天黑前下山。"
     },
     "ja": {
      "placeName": "医王寺 太子殿（広島・福山）",
      "sceneTitle": "崖の上から見下ろす海",
      "episode": "劇場版・全編",
-     "highlight": "医王寺の裏山、500段以上の石段を登り切ると、鞆の浦の町並みと仙酔島が一望できる。宗介の家の「崖の上から海を見下ろす」視点そのものだ。",
+     "highlight": "笑えるのに、少し泣けてくる場面だ。リサは怒って「バカ」と灯りを何度も打ち、海の上の光がそれにチカチカと応える。それだけで、この家族のことがわかる。母は怒りっぽく、父はいつも留守。それでも思いは海を越えて届く。崖の上にぽつんと立ち、窓の外いっぱいに海が広がる宗介の家。その視点をいちばん実感できるのが太子殿だ。五百段を超える石段を登りきると、鞆の浦の瓦屋根、弧を描く港、仙酔島が一度に足もとに広がる。",
      "story": "宗介の家は海辺の崖の上にぽつんと建ち、窓の外には海が広がる。父・耕一の船がなかなか帰ってこない夜、リサは宗介と庭に出て、懐中電灯で沖の船に向かって信号を送る。船からも光が明滅して応える。腹を立てたリサが「バカ、バカ」と打つ一方、宗介は一文字ずつ「アイシテル」と返す。宗介の家のモデルについては諸説あるが、山と海に挟まれたこの町を太子殿から見下ろすと、重なり合う瓦屋根、弧を描く港、沖の島々が、まるで映画で崖の上から見た景色のように広がっている。",
-     "access": "鞆鉄バス「鞆の浦」から医王寺まで徒歩約10分、さらに石段を約15〜20分登る",
-     "bestTime": "海がよく見える晴れた午前。夕方は瀬戸内の夕景も",
-     "tips": "石段は急で長いので歩きやすい靴で。夏は水分を十分に。寺の境内なので静かに過ごそう。"
+     "access": "鞆鉄バス終点「鞆港」下車。古い町並みを西へ徒歩約10分で医王寺、寺の裏から約583段の石段を約15分登ると太子殿",
+     "accessPointName": "鞆港 バス停",
+     "bestTime": "晴れた午前は順光で、海と仙酔島がくっきり見える。夕方は瀬戸内の夕日が見事だが、暗くなると石段が危ないので明るいうちに下山を",
+     "tips": "太子殿は医王寺の裏山にあり、約583段の石段は急で長く、雨の日は滑りやすい。歩きやすい靴で、夏は水分を多めに。寺の境内なので静かに過ごし、暗くなる前に下りよう。"
     },
     "en": {
      "placeName": "Taishiden, Iōji Temple (Fukuyama, Hiroshima)",
      "sceneTitle": "The house on the cliff",
      "episode": "Film · throughout",
-     "highlight": "Climb the 500-plus stone steps behind Iōji Temple and the whole of Tomonoura and Sensuijima island spread out below, exactly the cliff-top view over the sea that Sōsuke’s house enjoys.",
+     "highlight": "It’s funny and a little heartbreaking: Lisa, furious, flashes “idiot” again and again, and the lights out at sea keep blinking back. In a few seconds you understand this family: Mom has a temper, Dad is always away, yet their feelings still cross the water. Sōsuke’s house stands alone on a cliff with the whole sea outside the window, and Taishiden is where that view makes sense. Climb the 500-plus steps and Tomonoura’s tiled roofs, the curved harbour and Sensuijima Island are suddenly all at your feet.",
      "story": "Sōsuke’s house stands alone on a seaside cliff with nothing but ocean beyond the window. On the night his father’s ship fails to come home, Lisa takes Sōsuke outside and signals to the ship with a flashlight; the ship blinks back. Lisa angrily flashes “idiot, idiot”, while Sōsuke carefully spells out “I love you”. Opinions differ on which house inspired Sōsuke’s, but the town itself is squeezed between hills and sea, and from the Taishiden the stacked tiled roofs, curved harbour and offshore islands look just like the view from the cliff in the film.",
-     "access": "About 10 min on foot from Tomonoura bus stop to Iōji Temple, then 15–20 min up the stone steps",
-     "bestTime": "Clear mornings for the sharpest sea view; evenings for an Inland Sea sunset",
-     "tips": "The steps are steep and long: wear good shoes and bring water in summer. This is temple ground, so keep your voice down."
+     "access": "From the Tomokō bus terminus, walk west through the old town about 10 min to Iōji Temple, then climb roughly 583 stone steps behind it (about 15 min) to Taishiden",
+     "accessPointName": "Tomokō bus stop",
+     "bestTime": "Clear mornings put the sun behind you for the sharpest view of the sea and Sensuijima. Sunsets over the Seto Inland Sea are lovely, but the steps are hard going in the dark, so head down while it’s light",
+     "tips": "Taishiden sits on the hill behind Iōji Temple, up roughly 583 steep steps that get slippery in rain: wear good shoes and carry plenty of water in summer. This is temple ground, so keep quiet, and come down before dark."
     },
     "ko": {
      "placeName": "이오지 다이시덴 (히로시마·후쿠야마)",
      "sceneTitle": "벼랑 위에서 내려다본 바다",
      "episode": "극장판 · 전편",
-     "highlight": "이오지 뒷산의 500여 개 돌계단을 다 오르면 도모노우라 마을과 센스이섬이 한눈에 들어온다. 소스케네 집의 ‘벼랑 위에서 바다를 내려다보는’ 시점 그대로다.",
+     "highlight": "웃기면서도 살짝 뭉클한 장면이다. 화가 난 리사가 불빛으로 ‘바보’를 연달아 보내면, 바다 위 불빛이 깜빡깜빡 답한다. 그것만으로 이 가족이 보인다. 엄마는 화를 잘 내고 아빠는 늘 집을 비우지만, 서로의 마음은 바다를 건너 전해진다. 벼랑 위에 홀로 서서 창밖 가득 바다를 품은 소스케의 집, 그 시점을 가장 실감할 수 있는 곳이 다이시덴이다. 500개가 넘는 돌계단을 다 오르면 도모노우라의 기와지붕과 둥근 항구, 센스이섬이 한눈에 발아래 펼쳐진다.",
      "story": "소스케의 집은 바닷가 벼랑 위에 홀로 서 있고 창밖으로는 바다가 펼쳐진다. 아빠의 배가 좀처럼 돌아오지 않던 밤, 리사는 소스케와 밖으로 나가 손전등으로 바다 위 배에 신호를 보내고, 배에서도 불빛이 깜빡이며 답한다. 화가 난 리사가 ‘바보, 바보’를 보내는 동안 소스케는 한 글자씩 ‘사랑해’라고 답한다. 소스케네 집의 모델에 대해서는 여러 설이 있지만, 산과 바다 사이에 자리한 이 마을을 다이시덴에서 내려다보면 겹겹의 기와지붕과 둥근 항구, 먼바다의 섬들이 영화 속 벼랑 위 풍경처럼 펼쳐진다.",
-     "access": "도모테쓰 버스 ‘도모노우라’에서 이오지까지 도보 약 10분, 다시 돌계단을 약 15~20분",
-     "bestTime": "바다가 잘 보이는 맑은 오전. 저녁엔 세토 내해의 노을도",
-     "tips": "돌계단이 가파르고 기니 편한 신발을 신고, 여름엔 물을 넉넉히. 절 경내이므로 조용히."
+     "access": "도모테쓰 버스 종점 ‘도모코’에서 내려 옛 거리를 서쪽으로 약 10분 걸으면 이오지, 절 뒤편 약 583개의 돌계단을 약 15분 오르면 다이시덴",
+     "accessPointName": "도모코 버스 정류장",
+     "bestTime": "맑은 오전에는 순광이라 바다와 센스이섬이 가장 선명하다. 저녁에는 세토내해의 노을이 멋지지만 어두워지면 돌계단이 위험하니 밝을 때 내려오자",
+     "tips": "다이시덴은 이오지 뒷산에 있어 약 583개의 가파르고 긴 돌계단을 올라야 하며, 비 오는 날엔 미끄럽다. 걷기 편한 신발을 신고 여름엔 물을 넉넉히 챙기자. 절 경내이니 조용히 하고, 어두워지기 전에 내려오자."
     }
    },
    "photo": {
@@ -8543,56 +8641,72 @@
    "spoiler": false,
    "sourceURL": "https://www.japan.travel/en/spot/517/",
    "verified": false,
+   "bestMonths": [
+    4,
+    5,
+    6,
+    10,
+    11
+   ],
+   "accessPoint": {
+    "latitude": 30.3805805,
+    "longitude": 130.5749978
+   },
    "text": {
     "zh-Hans": {
      "placeName": "白谷云水峡 苔藓森林（鹿儿岛·屋久岛）",
      "sceneTitle": "山兽神的森林",
      "episode": "剧场版 · 前半",
-     "highlight": "古杉的根盘在岩石上，地面、树干全被苔藓覆盖，仿佛随时会有木灵探出头来。据日本国家旅游局介绍，美术监督男鹿和雄曾以这里的森林作为创作参考。",
+     "highlight": "《幽灵公主》问的是一个没有标准答案的问题：人要活下去，就一定要砍伐森林吗？山兽神的森林是这个问题的另一端——美得让人屏息，却冷静地掌管着生与死，治好了阿席达卡的伤，却不替他解开诅咒。站在白谷云水峡的苔藓与古杉之间，你会明白宫崎骏为什么把神明放在这样的地方。这一段常被直接叫作“幽灵公主之森”，是屋久岛最受欢迎的徒步目的地之一。",
      "story": "阿席达卡在达达拉城被枪击中，奄奄一息，小桑和山犬把他带进深山，放在山兽神栖息的森林中。四周是长满苔藓的巨木与岩石，成群的木灵在林间摇着脑袋“咔嗒咔嗒”作响。山兽神在夜里悄然现身，治好了他的枪伤，却没有带走他手臂上的诅咒。也是在这片森林里，阿席达卡第一次真正了解了小桑：她并不是怪物，而是拼命守护森林的人。俗称“苔藓森林”的这一段位于海拔约860米处，是屋久岛最受欢迎的徒步路线之一。",
-     "access": "宫之浦港乘巴士约30–40分钟至「白谷云水峡」，再沿步道上山约1.5–2小时",
-     "bestTime": "雨后或薄雾天苔藓最鲜绿；春秋两季气候最宜人",
-     "tips": "入口需缴纳森林环境维护协力金（约500日元）。屋久岛多雨，务必穿登山鞋、带雨具；请走步道，不要踩踏苔藓。"
+     "access": "宫之浦港乘屋久岛交通巴士约30–40分钟到终点「白谷云水峡」，在入口管理栋缴费后沿步道上行约1.5–2小时到苔藓森林；巴士班次很少",
+     "accessPointName": "白谷云水峡 巴士站",
+     "bestTime": "雨后或起雾的上午苔藓最绿、最有神秘感。尽量坐早班车上山、下午早些返程，旺季中午前后步道最挤",
+     "tips": "入口需缴纳森林环境整备推进协力金（高中生以上500日元）。屋久岛雨多，务必穿登山鞋、带雨具；巴士班次少，出发前确认回程末班车。请走步道，不要踩踏苔藓。"
     },
     "zh-Hant": {
      "placeName": "白谷雲水峽 苔蘚森林（鹿兒島·屋久島）",
      "sceneTitle": "山獸神的森林",
      "episode": "劇場版 · 前半",
-     "highlight": "古杉的根盤在岩石上，地面、樹幹全被苔蘚覆蓋，彷彿隨時會有木靈探出頭來。據日本國家旅遊局介紹，美術監督男鹿和雄曾以這裡的森林作為創作參考。",
+     "highlight": "《幽靈公主》問的是一個沒有標準答案的問題：人要活下去，就一定要砍伐森林嗎？山獸神的森林是這個問題的另一端——美得讓人屏息，卻冷靜地掌管著生與死，治好了阿席達卡的傷，卻不替他解開詛咒。站在白谷雲水峽的苔蘚與古杉之間，你會明白宮崎駿為什麼把神明放在這樣的地方。這一段常被直接叫作「幽靈公主之森」，是屋久島最受歡迎的徒步目的地之一。",
      "story": "阿席達卡在達達拉城被槍擊中，奄奄一息，小桑和山犬把他帶進深山，放在山獸神棲息的森林中。四周是長滿苔蘚的巨木與岩石，成群的木靈在林間搖著腦袋「咔嗒咔嗒」作響。山獸神在夜裡悄然現身，治好了他的槍傷，卻沒有帶走他手臂上的詛咒。也是在這片森林裡，阿席達卡第一次真正瞭解了小桑：她並不是怪物，而是拼命守護森林的人。俗稱「苔蘚森林」的這一段位於海拔約860米處，是屋久島最受歡迎的徒步路線之一。",
-     "access": "宮之浦港乘巴士約30–40分鐘至「白谷雲水峽」，再沿步道上山約1.5–2小時",
-     "bestTime": "雨後或薄霧天苔蘚最鮮綠；春秋兩季氣候最宜人",
-     "tips": "入口需繳納森林環境維護協力金（約500日元）。屋久島多雨，務必穿登山鞋、帶雨具；請走步道，不要踩踏苔蘚。"
+     "access": "宮之浦港乘屋久島交通巴士約30–40分鐘到終點「白谷雲水峽」，在入口管理棟繳費後沿步道上行約1.5–2小時到苔蘚森林；巴士班次很少",
+     "accessPointName": "白谷雲水峽 巴士站",
+     "bestTime": "雨後或起霧的上午苔蘚最綠、最有神秘感。儘量坐早班車上山、下午早些返程，旺季中午前後步道最擠",
+     "tips": "入口需繳納森林環境整備推進協力金（高中生以上500日元）。屋久島雨多，務必穿登山鞋、帶雨具；巴士班次少，出發前確認回程末班車。請走步道，不要踩踏苔蘚。"
     },
     "ja": {
      "placeName": "白谷雲水峡 苔むす森（鹿児島・屋久島）",
      "sceneTitle": "シシ神の森",
      "episode": "劇場版・前半",
-     "highlight": "岩を抱く杉の根も地面も幹も、すべてが苔に覆われた森。いまにもコダマが顔を出しそうだ。日本政府観光局によれば、美術監督の男鹿和雄がこの森を作品づくりの参考にしたという。",
+     "highlight": "『もののけ姫』が投げかけるのは、答えの出ない問いだ。人が生きていくためには、森を切り開くしかないのか。シシ神の森はその問いのもう一方の端にある。息をのむほど美しく、それでいて生と死を淡々とつかさどり、アシタカの傷は癒やしても呪いは解いてくれない。白谷雲水峡の苔と古い杉に囲まれると、宮崎駿がなぜ神をこんな場所に置いたのかが腑に落ちる。この一帯は「もののけ姫の森」とも呼ばれ、屋久島で最も人気のあるトレッキング先のひとつだ。",
      "story": "タタラ場で銃弾を受け瀕死となったアシタカを、サンと山犬たちは森の奥、シシ神の棲む池のほとりへと運ぶ。苔むした巨木と岩に囲まれた森では、無数のコダマがカラカラと首を鳴らしている。夜、シシ神は静かに姿を現し、アシタカの傷を癒やすが、腕の呪いは消さなかった。この森で、アシタカは初めてサンという少女を知る。彼女は化け物ではなく、森を守ろうと必死に生きる人間なのだ。「苔むす森」と呼ばれる一帯は標高約860メートルにあり、屋久島で最も人気のある散策ルートのひとつ。",
-     "access": "宮之浦港からバス約30〜40分「白谷雲水峡」下車、登山道を約1時間半〜2時間",
-     "bestTime": "雨上がりや霧の日は苔が一段と鮮やか。春と秋が歩きやすい",
-     "tips": "入口で森林環境整備推進協力金（約500円）が必要。雨が多いので登山靴と雨具は必須。苔を踏まないよう登山道を外れないこと。"
+     "access": "宮之浦港から屋久島交通バスで約30〜40分、終点「白谷雲水峡」下車。入口の管理棟で協力金を払い、遊歩道を約1.5〜2時間登ると苔むす森。バスは本数が少ない",
+     "accessPointName": "白谷雲水峡 バス停",
+     "bestTime": "雨上がりや霧の出た午前中が、苔がいちばん青々として神秘的。朝の早いバスで入り、午後早めに下山するのが理想。繁忙期は昼前後が混む",
+     "tips": "入口で森林環境整備推進協力金（高校生以上500円）が必要。屋久島は雨が多いので登山靴と雨具は必須。バスは本数が少ないので帰りの最終便を先に確認しよう。遊歩道を外れて苔を踏まないこと。"
     },
     "en": {
      "placeName": "Shiratani Unsuikyō Moss Forest (Yakushima, Kagoshima)",
      "sceneTitle": "The Forest Spirit’s woods",
      "episode": "Film · first half",
-     "highlight": "Cedar roots grip boulders, and every trunk and stone is draped in moss, as if a kodama might peek out at any moment. Japan’s national tourism body says the film’s art director Kazuo Oga used this forest as a reference.",
+     "highlight": "Princess Mononoke asks a question with no clean answer: must people cut down the forest in order to live? The Forest Spirit’s woods are the other side of that question: breathtakingly beautiful, yet calmly in charge of life and death, healing Ashitaka’s wound but refusing to lift his curse. Standing among Shiratani’s moss and ancient cedars, you understand why Miyazaki put a god in a place like this. Often simply called the “Mononoke forest”, it is one of Yakushima’s most popular hikes.",
      "story": "Shot in the ironworks town and close to death, Ashitaka is carried by San and her wolves deep into the forest where the Forest Spirit dwells. Giant mossy trees and boulders surround them, and hundreds of kodama rattle their heads among the roots. At night the Forest Spirit appears silently and heals his wound, yet leaves the curse on his arm. It is here that Ashitaka truly comes to know San, not as a monster but as someone fighting desperately for the forest. The so-called Moss Forest lies at about 860 m and is one of Yakushima’s most popular hikes.",
-     "access": "Bus from Miyanoura Port to Shiratani Unsuikyō (about 30–40 min), then a 1.5–2 hour hike up the trail",
-     "bestTime": "After rain or in mist, when the moss is greenest; spring and autumn are most comfortable",
-     "tips": "A forest conservation fee (around ¥500) is collected at the entrance. It rains a lot: wear hiking boots and bring rain gear. Stay on the trail and never step on the moss."
+     "access": "Yakushima Kōtsū bus from Miyanoura Port, about 30–40 min to the Shiratani Unsuikyō terminus. Pay the fee at the entrance hut, then hike about 1.5–2 hours up to the moss forest. Buses are infrequent",
+     "accessPointName": "Shiratani Unsuikyō bus stop",
+     "bestTime": "Mornings after rain or in mist, when the moss is greenest and most otherworldly. Catch an early bus up and head down by mid-afternoon; in peak season the trail is busiest around midday",
+     "tips": "A forest conservation fee (¥500, high-school age and up) is collected at the entrance. It rains a lot: wear hiking boots and bring rain gear. Buses are few, so check the last one back before you set out. Stay on the trail and never step on the moss."
     },
     "ko": {
      "placeName": "시라타니운스이쿄 이끼 숲 (가고시마·야쿠시마)",
      "sceneTitle": "시시가미의 숲",
      "episode": "극장판 · 전반",
-     "highlight": "삼나무 뿌리가 바위를 감싸고, 땅도 줄기도 온통 이끼로 덮인 숲. 금방이라도 고다마가 얼굴을 내밀 것 같다. 일본정부관광국에 따르면 미술감독 오가 가즈오가 이 숲을 작품의 참고로 삼았다고 한다.",
+     "highlight": "〈모노노케 히메〉는 정답 없는 질문을 던진다. 사람이 살아가려면 숲을 베어 낼 수밖에 없는가. 시시가미의 숲은 그 질문의 반대편에 있다. 숨이 멎을 만큼 아름답지만 삶과 죽음을 담담히 관장하고, 아시타카의 상처는 고쳐 주어도 저주는 풀어 주지 않는다. 시라타니운스이쿄의 이끼와 오래된 삼나무 사이에 서면, 미야자키 하야오가 왜 신을 이런 곳에 두었는지 자연스레 이해된다. 이곳은 흔히 ‘모노노케 히메의 숲’이라 불리며, 야쿠시마에서 가장 인기 있는 트레킹 코스 중 하나다.",
      "story": "제철 마을에서 총에 맞아 죽어 가던 아시타카를 산과 들개들은 숲 깊은 곳, 시시가미가 사는 곳으로 데려간다. 이끼 낀 거목과 바위 사이로 수많은 고다마가 달그락달그락 고개를 흔든다. 밤이 되자 시시가미는 조용히 나타나 상처를 치유해 주지만 팔의 저주는 그대로 남긴다. 아시타카는 이 숲에서 처음으로 산이라는 소녀를 알게 된다. 그녀는 괴물이 아니라 숲을 지키려 필사적으로 살아가는 사람이었다. ‘이끼 숲’이라 불리는 이 일대는 해발 약 860미터에 있으며 야쿠시마에서 가장 인기 있는 트레킹 코스 중 하나다.",
-     "access": "미야노우라항에서 버스로 약 30~40분 ‘시라타니운스이쿄’ 하차 후 등산로로 약 1시간 반~2시간",
-     "bestTime": "비 온 뒤나 안개 낀 날 이끼가 가장 선명하다. 봄·가을이 걷기 좋다",
-     "tips": "입구에서 숲 환경 보전 협력금(약 500엔)을 낸다. 비가 잦으니 등산화와 우비는 필수. 이끼를 밟지 않도록 등산로를 벗어나지 말 것."
+     "access": "미야노우라항에서 야쿠시마 교통 버스로 약 30~40분, 종점 ‘시라타니운스이쿄’ 하차. 입구 관리동에서 협력금을 낸 뒤 산책로를 약 1.5~2시간 오르면 이끼 숲. 버스 편수가 적다",
+     "accessPointName": "시라타니운스이쿄 버스 정류장",
+     "bestTime": "비 갠 뒤나 안개 낀 오전이 이끼가 가장 푸르고 신비롭다. 이른 버스로 올라가 오후 일찍 내려오는 게 좋고, 성수기엔 정오 전후가 가장 붐빈다",
+     "tips": "입구에서 산림환경정비추진 협력금(고등학생 이상 500엔)을 낸다. 야쿠시마는 비가 잦으니 등산화와 우비는 필수. 버스 편수가 적으니 출발 전에 돌아오는 막차를 확인하자. 산책로를 벗어나 이끼를 밟지 말 것."
     }
    },
    "photo": {
@@ -9114,56 +9228,72 @@
    "spoiler": false,
    "sourceURL": "https://www.timesclub.jp/sp/tanomachi_ex/ehime/matsuyama/002.html",
    "verified": false,
+   "bestMonths": [
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "accessPoint": {
+    "latitude": 33.8504258,
+    "longitude": 132.7850817
+   },
    "text": {
     "zh-Hans": {
      "placeName": "道后温泉本馆（爱媛·松山）",
      "sceneTitle": "灯火通明的油屋",
      "episode": "剧场版 · 前半",
-     "highlight": "层层叠叠的木造屋顶、屋顶上的红色望楼，被普遍认为是油屋外观的参考原型之一。黄昏亮灯时，那种“神灵的澡堂”感扑面而来。",
+     "highlight": "油屋是千寻长大的地方：她要自己开口讨工作、擦地、伺候难缠的客人，从一个闹别扭的小孩变成能为别人拼命的人。所以站在道后温泉本馆前，看层层木造屋檐在暮色里亮起灯，很多人会想起那个灯火通明、热气蒸腾的“神灵的澡堂”。本馆建于1894年，是日本首个被列为重要文化财的公共浴场，至今每天由屋顶的振鹭阁打太鼓报时，也是油屋原型说法中被提到最多的地方之一。",
      "story": "千寻跟着父母穿过隧道，来到一条空无一人的饮食街。天色一暗，街上亮起灯笼，父母因偷吃供品变成了猪。惊慌失措的千寻被白龙拉住，带过桥去，第一次抬头看见那座灯火通明、高耸入夜的巨大澡堂——油屋。为了留在这个世界救出父母，她必须走进去，向汤婆婆讨一份工作。宫崎骏曾说油屋并没有单一原型，但据报道美术监督参考过道后温泉本馆的外观，松山市的观光介绍也称这里是油屋的原型之一。",
-     "access": "伊予铁道「道后温泉」站出站，穿过商店街步行约3分钟",
-     "bestTime": "傍晚亮灯后最有油屋的味道；6点、12点、18点有报时太鼓",
-     "tips": "本馆仍是正常营业的公共浴场，入浴收费，营业时间以官网为准。在门前拍照时请避开入口，不要妨碍客人出入。"
+     "access": "伊予铁道市内电车「道后温泉」站出站，穿过站前广场斜对面的道后商店街拱廊，走到尽头就是本馆，约250米、步行约4分钟",
+     "accessPointName": "道后温泉站（电车）",
+     "bestTime": "日落后本馆亮灯最像油屋，18点还能听到报时太鼓；冬天天黑早、泡汤最舒服。清晨6点开门时人最少，傍晚到晚上游客较多",
+     "tips": "本馆仍在营业，6:00–23:00（22:30停止售票），“神之汤”大人700日元，其他方案另计；灵之汤包间与又新殿需预约。在门前拍照请避开入口，不要妨碍入浴客人。"
     },
     "zh-Hant": {
      "placeName": "道後溫泉本館（愛媛·松山）",
      "sceneTitle": "燈火通明的油屋",
      "episode": "劇場版 · 前半",
-     "highlight": "層層疊疊的木造屋頂、屋頂上的紅色望樓，被普遍認為是油屋外觀的參考原型之一。黃昏亮燈時，那種「神靈的澡堂」感撲面而來。",
+     "highlight": "油屋是千尋長大的地方：她要自己開口討工作、擦地、伺候難纏的客人，從一個鬧彆扭的小孩變成能為別人拼命的人。所以站在道後溫泉本館前，看層層木造屋簷在暮色裡亮起燈，很多人會想起那個燈火通明、熱氣蒸騰的「神靈的澡堂」。本館建於1894年，是日本首個被列為重要文化財的公共浴場，至今每天由屋頂的振鷺閣打太鼓報時，也是油屋原型說法中被提到最多的地方之一。",
      "story": "千尋跟著父母穿過隧道，來到一條空無一人的飲食街。天色一暗，街上亮起燈籠，父母因偷吃供品變成了豬。驚慌失措的千尋被白龍拉住，帶過橋去，第一次抬頭看見那座燈火通明、高聳入夜的巨大澡堂——油屋。為了留在這個世界救出父母，她必須走進去，向湯婆婆討一份工作。宮崎駿曾說油屋並沒有單一原型，但據報道美術監督參考過道後溫泉本館的外觀，松山市的觀光介紹也稱這裡是油屋的原型之一。",
-     "access": "伊予鐵道「道後溫泉」站出站，穿過商店街步行約3分鐘",
-     "bestTime": "傍晚亮燈後最有油屋的味道；6點、12點、18點有報時太鼓",
-     "tips": "本館仍是正常營業的公共浴場，入浴收費，營業時間以官網為準。在門前拍照時請避開入口，不要妨礙客人出入。"
+     "access": "伊予鐵道市內電車「道後溫泉」站出站，穿過站前廣場斜對面的道後商店街拱廊，走到盡頭就是本館，約250米、步行約4分鐘",
+     "accessPointName": "道後溫泉站（電車）",
+     "bestTime": "日落後本館亮燈最像油屋，18點還能聽到報時太鼓；冬天天黑早、泡湯最舒服。清晨6點開門時人最少，傍晚到晚上游客較多",
+     "tips": "本館仍在營業，6:00–23:00（22:30停止售票），「神之湯」大人700日元，其他方案另計；靈之湯包間與又新殿需預約。在門前拍照請避開入口，不要妨礙入浴客人。"
     },
     "ja": {
      "placeName": "道後温泉本館（愛媛・松山）",
      "sceneTitle": "灯りのともる油屋",
      "episode": "劇場版・前半",
-     "highlight": "幾重にも重なる木造の屋根と、屋上の赤い振鷺閣。油屋の外観の参考になったモデルのひとつとして広く知られ、夕暮れに灯りがともると「神々の湯屋」の雰囲気が漂う。",
+     "highlight": "油屋は千尋が成長する場所だ。自分の口で「ここで働かせてください」と頼み、床を磨き、厄介な客をもてなすうちに、ふてくされた子どもが誰かのために必死になれる人へと変わっていく。だからこそ、夕暮れに道後温泉本館の幾重もの木造屋根に灯がともると、多くの人があの湯けむりの「神々の湯屋」を思い出す。本館は1894年の建築で、公衆浴場として初めて国の重要文化財に指定された。屋上の振鷺閣では今も毎日刻太鼓が打たれ、油屋のモデルとして最もよく名前が挙がる場所のひとつでもある。",
      "story": "トンネルを抜けた先の無人の飲食街。日が暮れると提灯がともり、供え物を勝手に食べた両親は豚に変えられてしまう。取り乱す千尋の手を引いたハクは、彼女を橋の向こうへ連れて行く。そこで千尋が初めて見上げたのが、夜空にそびえる煌々とした湯屋・油屋だった。両親を救うため、この世界で生き延びるために、彼女は湯婆婆に「ここで働かせてください」と頼みに行く。宮崎監督は油屋に特定のモデルはないと語っているが、美術監督が道後温泉本館を参考にしたと伝えられ、松山市の観光案内でもモデルのひとつとされている。",
-     "access": "伊予鉄道「道後温泉」駅から商店街を抜けて徒歩約3分",
-     "bestTime": "灯りがともる夕方以降。6時・12時・18時には刻太鼓が鳴る",
-     "tips": "現役の公衆浴場で入浴は有料。営業時間は公式サイトで確認を。正面での撮影は入口をふさがないように。"
+     "access": "伊予鉄道市内電車「道後温泉」駅を出て、駅前広場の向かいから続く道後商店街のアーケードを抜けると突き当たりが本館。約250m・徒歩約4分",
+     "accessPointName": "道後温泉駅",
+     "bestTime": "日没後のライトアップが一番油屋らしく、18時には刻太鼓も聞ける。冬は日暮れが早く湯もいっそう心地よい。朝6時の開館直後が最もすいていて、夕方から夜はにぎわう",
+     "tips": "本館は現役の共同浴場。6時〜23時（札止め22時30分）、「神の湯」は大人700円で、ほかのコースは別料金。霊の湯の個室と又新殿は予約制。正面で撮影するときは入口をふさがないように。"
     },
     "en": {
      "placeName": "Dōgo Onsen Honkan (Matsuyama, Ehime)",
      "sceneTitle": "The bathhouse lights up",
      "episode": "Film · first half",
-     "highlight": "Its stacked wooden roofs and the red lookout tower on top make it the best-known of the bathhouses said to have inspired Aburaya. Once the lamps come on at dusk, it truly looks like a bathhouse for the gods.",
+     "highlight": "The bathhouse is where Chihiro grows up: she has to ask for a job herself, scrub floors and serve difficult guests, and the sulky child becomes someone who will fight for others. So when the tiered wooden roofs of Dōgo Onsen Honkan light up at dusk, many visitors feel they’re looking at that steaming “bathhouse of the gods”. Built in 1894, it was the first public bathhouse designated an Important Cultural Property, a drum still sounds the hour from its rooftop turret every day, and it is one of the places most often named as an inspiration for Aburaya.",
      "story": "Past the tunnel lies a deserted street of food stalls. As night falls the lanterns flicker on, and Chihiro’s parents, gorging on food meant for the spirits, turn into pigs. Haku pulls the panicking girl across the bridge, and for the first time she looks up at Aburaya, a towering bathhouse blazing with light. To survive in this world and save her parents, she must walk in and ask the witch Yubaba for a job. Miyazaki has said the bathhouse has no single model, but the film’s art director reportedly drew on Dōgo Onsen Honkan, and Matsuyama’s tourism material describes it as one of the models.",
-     "access": "About 3 minutes’ walk through the shopping arcade from Dōgo Onsen Station (Iyotetsu tram)",
-     "bestTime": "Dusk and after, when it’s lit; the time drum sounds at 6:00, 12:00 and 18:00",
-     "tips": "Still a working public bath; bathing is paid and hours are on the official site. When photographing the front, keep clear of the entrance."
+     "access": "From Dōgo Onsen Station (Iyotetsu tram), cross the station square and walk through the Dōgo shopping arcade; the Honkan stands at its far end, about 250 m (4 min)",
+     "accessPointName": "Dōgo Onsen Sta. (tram)",
+     "bestTime": "After sunset, when the building is lit, it looks most like Aburaya, and the 6 pm drum is a bonus. Winter brings early dusk and the best bathing. It’s quietest right at the 6 am opening; evenings are busiest",
+     "tips": "Still a working public bath: 6:00–23:00 (last tickets 22:30). Kami-no-Yu is ¥700 for adults; other courses cost more, and the Tama-no-Yu private rooms and Yūshinden tour need booking. When photographing the front, keep clear of the entrance."
     },
     "ko": {
      "placeName": "도고 온천 본관 (에히메·마쓰야마)",
      "sceneTitle": "불이 켜진 유야",
      "episode": "극장판 · 전반",
-     "highlight": "겹겹이 쌓인 목조 지붕과 옥상의 붉은 망루로, 유야의 외관을 참고한 모델 중 하나로 널리 알려져 있다. 해 질 녘 불이 켜지면 정말 ‘신들의 목욕탕’ 같은 분위기가 난다.",
+     "highlight": "유야는 치히로가 자라는 곳이다. 스스로 일하게 해 달라고 말하고, 바닥을 닦고, 까다로운 손님을 맞으면서 투정 부리던 아이는 누군가를 위해 애쓸 줄 아는 사람이 된다. 그래서 해 질 녘 도고온센 본관의 겹겹이 쌓인 목조 지붕에 불이 켜지면, 많은 이들이 김이 피어오르던 그 ‘신들의 목욕탕’을 떠올린다. 1894년에 지어진 본관은 공중목욕탕으로는 처음으로 국가 중요문화재로 지정되었고, 지금도 매일 지붕 위 신로카쿠에서 시각을 알리는 북이 울린다. 유야의 모델로 가장 자주 거론되는 곳 중 하나이기도 하다.",
      "story": "터널을 지나자 사람 하나 없는 먹자골목이 나타난다. 날이 저물며 등롱에 불이 들어오고, 신들에게 바친 음식을 멋대로 먹은 부모님은 돼지로 변해 버린다. 겁에 질린 치히로의 손을 잡아끈 하쿠는 그녀를 다리 건너편으로 데려가고, 치히로는 처음으로 밤하늘에 우뚝 솟은 눈부신 목욕탕 유야를 올려다본다. 이 세계에서 살아남아 부모님을 구하려면, 그녀는 유바바에게 일하게 해 달라고 부탁해야 한다. 미야자키 감독은 유야에 특정한 모델은 없다고 했지만, 미술감독이 도고 온천 본관을 참고했다고 전해지며 마쓰야마시 관광 안내에서도 모델 중 하나로 소개한다.",
-     "access": "이요테쓰 ‘도고온센’역에서 상점가를 지나 도보 약 3분",
-     "bestTime": "불이 켜지는 해 질 녘 이후. 6시·12시·18시에 시각을 알리는 북이 울린다",
-     "tips": "지금도 영업 중인 공중목욕탕으로 입욕은 유료, 영업시간은 공식 사이트에서 확인. 정면 촬영 시 입구를 막지 않도록 주의."
+     "access": "이요테쓰 시내 노면전차 ‘도고온센’역에서 나와 역 앞 광장 건너편 도고 상점가 아케이드를 끝까지 지나면 본관이다. 약 250m, 도보 약 4분",
+     "accessPointName": "도고온센역 (노면전차)",
+     "bestTime": "해가 진 뒤 불이 켜진 본관이 가장 유야답고, 18시에는 시각을 알리는 북소리도 들을 수 있다. 겨울은 해가 일찍 져서 온천도 더 좋다. 아침 6시 개관 직후가 가장 한산하고 저녁부터 밤까지 붐빈다",
+     "tips": "본관은 지금도 영업 중인 공중목욕탕이다. 6:00~23:00(발권 마감 22:30), ‘가미노유’는 성인 700엔이며 다른 코스는 요금이 다르다. 다마노유 개인실과 유신덴은 예약제. 정면에서 사진을 찍을 땐 입구를 막지 말자."
     }
    },
    "photo": {
@@ -9189,56 +9319,70 @@
    "spoiler": false,
    "sourceURL": "https://tabi-mag.jp/spiritedaway-kodakarayu/",
    "verified": false,
+   "bestMonths": [
+    3,
+    4,
+    11
+   ],
+   "accessPoint": {
+    "latitude": 35.7147023,
+    "longitude": 139.508147
+   },
    "text": {
     "zh-Hans": {
      "placeName": "子宝汤（东京·江户东京建筑园）",
      "sceneTitle": "唐破风下的澡堂街",
      "episode": "剧场版 · 前半",
-     "highlight": "宫崎骏常来这座露天建筑博物馆找灵感。这条昭和老街尽头的钱汤“子宝汤”，被认为给油屋的造型带来很大启发，周围的老店铺也处处是电影里的影子。",
+     "highlight": "第一次走进这条昭和老街的人常会愣一下：唐破风屋檐、木格窗、满墙的小抽屉，像是闯进了油屋的后台。《千与千寻》动人的不只是奇幻，更是千寻在澡堂里一点点学会干活、学会说谢谢的过程，而那种“做工的地方”的气味，就完整地保存在这些真实的老店和钱汤里。宫崎骏住在附近，还为博物馆设计过吉祥物，他对这里的偏爱，让这座博物馆成了吉卜力迷心照不宣的“隐藏圣地”。",
      "story": "成了“千”的千寻被分配去打扫最脏的大浴池，在锅炉爷爷的锅炉房里第一次见到满墙的药草抽屉，又在澡堂里擦地、搬木桶，从一个手足无措的孩子慢慢学会了干活。这条“下町中通”老街重现了昭和初年的东京：尽头那座有着华丽唐破风屋顶的子宝汤建于1929年，原在足立区千住；旁边的文具店“武居三省堂”墙上一格格的抽屉，常被拿来和锅炉爷爷的药柜相比。宫崎骏住在附近，曾担任博物馆的形象角色设计，他本人也说过喜欢这里的老建筑。",
-     "access": "JR中央线「武藏小金井」站北口乘巴士约5分钟，在「小金井公园西口」下车步行约5分钟",
-     "bestTime": "工作日上午人少；秋天园内银杏变黄时很有昭和风情",
-     "tips": "博物馆收费入园，周一休园（逢节假日顺延），开放时间以官网为准。可进入子宝汤内部参观男女汤，请勿攀爬展品。"
+     "access": "JR中央线「武藏小金井」站北口2、3号乘车处坐西武巴士约5分钟，在「小金井公园西口」下车，往东进园约5分钟到入口，再穿过东区约5分钟到子宝汤",
+     "accessPointName": "小金井公园西口 巴士站",
+     "bestTime": "平日开园后的上午人最少；3月底至4月初小金井公园樱花盛开、11月银杏转黄时，老街最有昭和气氛",
+     "tips": "收费入园（一般400日元），9:30–17:30（10–3月至16:30），闭园前30分钟停止入园；周一（逢节假日则次日）及年末年始休园。可进入子宝汤内部参观，请勿攀爬展品。"
     },
     "zh-Hant": {
      "placeName": "子寶湯（東京·江戶東京建築園）",
      "sceneTitle": "唐破風下的澡堂街",
      "episode": "劇場版 · 前半",
-     "highlight": "宮崎駿常來這座露天建築博物館找靈感。這條昭和老街盡頭的錢湯「子寶湯」，被認為給油屋的造型帶來很大啟發，周圍的老店鋪也處處是電影裡的影子。",
+     "highlight": "第一次走進這條昭和老街的人常會愣一下：唐破風屋簷、木格窗、滿牆的小抽屜，像是闖進了油屋的後臺。《千與千尋》動人的不只是奇幻，更是千尋在澡堂裡一點點學會幹活、學會說謝謝的過程，而那種「做工的地方」的氣味，就完整地儲存在這些真實的老店和錢湯裡。宮崎駿住在附近，還為博物館設計過吉祥物，他對這裡的偏愛，讓這座博物館成了吉卜力迷心照不宣的「隱藏聖地」。",
      "story": "成了「千」的千尋被分配去打掃最髒的大浴池，在鍋爐爺爺的鍋爐房裡第一次見到滿牆的藥草抽屜，又在澡堂裡擦地、搬木桶，從一個手足無措的孩子慢慢學會了幹活。這條「下町中通」老街重現了昭和初年的東京：盡頭那座有著華麗唐破風屋頂的子寶湯建於1929年，原在足立區千住；旁邊的文具店「武居三省堂」牆上一格格的抽屜，常被拿來和鍋爐爺爺的藥櫃相比。宮崎駿住在附近，曾擔任博物館的形象角色設計，他本人也說過喜歡這裡的老建築。",
-     "access": "JR中央線「武藏小金井」站北口乘巴士約5分鐘，在「小金井公園西口」下車步行約5分鐘",
-     "bestTime": "工作日上午人少；秋天園內銀杏變黃時很有昭和風情",
-     "tips": "博物館收費入園，週一休園（逢節假日順延），開放時間以官網為準。可進入子寶湯內部參觀男女湯，請勿攀爬展品。"
+     "access": "JR中央線「武藏小金井」站北口2、3號乘車處坐西武巴士約5分鐘，在「小金井公園西口」下車，往東進園約5分鐘到入口，再穿過東區約5分鐘到子寶湯",
+     "accessPointName": "小金井公園西口 巴士站",
+     "bestTime": "平日開園後的上午人最少；3月底至4月初小金井公園櫻花盛開、11月銀杏轉黃時，老街最有昭和氣氛",
+     "tips": "收費入園（一般400日元），9:30–17:30（10–3月至16:30），閉園前30分鐘停止入園；週一（逢節假日則次日）及年末年始休園。可進入子寶湯內部參觀，請勿攀爬展品。"
     },
     "ja": {
      "placeName": "子宝湯（東京・江戸東京たてもの園）",
      "sceneTitle": "唐破風の銭湯",
      "episode": "劇場版・前半",
-     "highlight": "宮崎監督がたびたび訪れていたという野外博物館。下町の通りの突き当たりに建つ銭湯「子宝湯」は、油屋の造形に大きなヒントを与えた建物といわれ、周りの商店にも映画の面影が残る。",
+     "highlight": "この昭和の街並みに初めて足を踏み入れると、思わず立ち止まる人が多い。唐破風の屋根、格子窓、壁一面の小さな引き出し——まるで油屋の舞台裏に迷い込んだようだ。『千と千尋の神隠し』が心に残るのは、ファンタジーだけでなく、千尋が湯屋で少しずつ働くことや「ありがとう」を言うことを覚えていく過程があるから。その「働く場所」の匂いが、本物の古い店や銭湯にそのまま残っている。近所に住む宮崎駿が園のキャラクターをデザインしたこともあり、ジブリファンにはひそかな聖地として知られている。",
      "story": "「千」となった千尋は、いちばん汚れた大湯の掃除を任される。釜爺のボイラー室では壁一面の薬草の引き出しに目を見張り、床を磨き、桶を運び、右も左もわからなかった少女は少しずつ働くことを覚えていく。この「下町中通り」は昭和初期の東京を再現した一角で、突き当たりの子宝湯は1929年に足立区千住で建てられた立派な唐破風の銭湯。隣の文具店「武居三省堂」の壁一面の引き出しは、釜爺の薬棚に似ているとよく言われる。近くに住む宮崎監督は、園のイメージキャラクターも手がけている。",
-     "access": "JR中央線「武蔵小金井」駅北口からバス約5分「小金井公園西口」下車、徒歩約5分",
-     "bestTime": "平日の午前は比較的空いている。秋の黄葉の頃も昭和の風情が増す",
-     "tips": "入園は有料、月曜休園（祝日の場合は翌日）。開園時間は公式サイトで確認を。子宝湯は内部も見学できるが、展示物には上らないこと。"
+     "access": "JR中央線「武蔵小金井」駅北口2・3番のりばから西武バスで約5分「小金井公園西口」下車。東へ公園に入り徒歩約5分で入口、さらに東ゾーン奥まで約5分",
+     "accessPointName": "小金井公園西口 バス停",
+     "bestTime": "平日の開園直後の午前がいちばん静か。3月末〜4月初めの小金井公園の桜、11月のイチョウの黄葉の頃は、街並みがいっそう昭和らしく見える",
+     "tips": "有料（一般400円）。9:30〜17:30（10〜3月は16:30まで）、入園は閉園30分前まで。月曜（祝日・振替休日の場合は翌日）と年末年始は休園。子宝湯は中まで見学できるが、展示物には登らないで。"
     },
     "en": {
      "placeName": "Kodakara-yu (Edo-Tokyo Open Air Architectural Museum, Tokyo)",
      "sceneTitle": "The bathhouse at the end of the street",
      "episode": "Film · first half",
-     "highlight": "Miyazaki often visited this open-air museum. Kodakara-yu, the public bath at the end of its old downtown street, is said to have strongly inspired the look of Aburaya, and the shops around it echo the film everywhere.",
+     "highlight": "People often stop short the first time they walk down this Shōwa-era street: the ornate gabled roof, the lattice windows, the walls of tiny drawers feel like the backstage of Aburaya. What makes Spirited Away linger isn’t only the fantasy but Chihiro slowly learning to work and to say thank you, and the smell of those working places survives intact in these real old shops and this bathhouse. Miyazaki lives nearby and even designed the museum’s mascot, and his fondness for the place has made it a quiet favourite among Ghibli fans.",
      "story": "Renamed Sen, Chihiro is given the filthiest bath to clean. In Kamaji’s boiler room she stares at a wall of herb drawers; she scrubs floors, hauls tubs, and slowly turns from a helpless child into a worker. This street recreates early Shōwa Tokyo: Kodakara-yu, with its ornate curved gable, was built in 1929 in Senju and moved here. The stationery shop next door, Takei Sanshodo, has a wall of tiny drawers often compared to Kamaji’s medicine chest. Miyazaki lives nearby and even designed the museum’s mascot character.",
-     "access": "From the north exit of Musashi-Koganei Station (JR Chūō Line), bus about 5 min to Koganei Kōen Nishiguchi, then 5 min on foot",
-     "bestTime": "Weekday mornings are quieter; autumn foliage adds to the Shōwa mood",
-     "tips": "Paid admission; closed Mondays (or the next day if Monday is a holiday). Check hours on the official site. You can go inside Kodakara-yu, but don’t climb on exhibits."
+     "access": "From bus stands 2–3 at the north exit of Musashi-Koganei Station (JR Chūō Line), take a Seibu bus about 5 min to Koganei Kōen Nishiguchi. Walk east into the park about 5 min to the museum gate, then about 5 min through the East Zone to Kodakara-yu",
+     "accessPointName": "Koganei Kōen Nishiguchi bus stop",
+     "bestTime": "Weekday mornings right after opening are quietest. The street looks most Shōwa when Koganei Park’s cherry trees bloom (late March–early April) or the ginkgos turn gold in November",
+     "tips": "Admission ¥400 (general). Open 9:30–17:30 (to 16:30 Oct–Mar), last entry 30 min before closing. Closed Mondays (the next day if Monday is a holiday) and over New Year. You can go inside Kodakara-yu, but don’t climb on exhibits."
     },
     "ko": {
      "placeName": "고다카라유 (도쿄·에도도쿄 다테모노엔)",
      "sceneTitle": "가라하후 지붕의 목욕탕",
      "episode": "극장판 · 전반",
-     "highlight": "미야자키 감독이 자주 찾았다는 야외 건축 박물관이다. 옛 거리 끝에 선 대중목욕탕 ‘고다카라유’는 유야의 모습에 큰 영감을 준 건물로 알려져 있고, 주변 상점에도 영화의 흔적이 가득하다.",
+     "highlight": "이 쇼와 시대 거리에 처음 들어서면 많은 사람이 걸음을 멈춘다. 화려한 가라하후 지붕, 격자창, 벽 한가득한 작은 서랍들이 마치 유야의 무대 뒤로 들어온 것 같다. 〈센과 치히로의 행방불명〉이 오래 남는 건 판타지 때문만이 아니라, 치히로가 목욕탕에서 일하는 법과 고맙다고 말하는 법을 조금씩 배워 가는 과정 때문이다. 그 ‘일하는 곳’의 냄새가 진짜 옛 가게와 목욕탕에 고스란히 남아 있다. 근처에 사는 미야자키 하야오가 박물관 캐릭터를 디자인하기도 해, 지브리 팬들 사이에선 숨은 성지로 통한다.",
      "story": "‘센’이 된 치히로는 가장 더러운 큰 욕탕 청소를 맡는다. 가마 할아범의 보일러실에서 벽 한가득한 약초 서랍에 눈이 휘둥그레지고, 바닥을 닦고 통을 나르며 어쩔 줄 모르던 소녀는 조금씩 일하는 법을 배워 간다. 이 거리는 쇼와 초기 도쿄를 재현한 곳으로, 끝에 있는 고다카라유는 1929년 아다치구 센주에 지어진 화려한 가라하후 지붕의 목욕탕이다. 옆 문구점 ‘다케이 산쇼도’의 벽면 서랍은 가마 할아범의 약장과 닮았다고들 한다. 근처에 사는 미야자키 감독은 박물관의 마스코트 캐릭터도 디자인했다.",
-     "access": "JR 주오선 ‘무사시코가네이’역 북쪽 출구에서 버스 약 5분 ‘고가네이코엔 니시구치’ 하차, 도보 약 5분",
-     "bestTime": "평일 오전이 한산하다. 가을 단풍철에는 쇼와 분위기가 더해진다",
-     "tips": "입장료가 있으며 월요일 휴원(공휴일이면 다음 날). 운영 시간은 공식 사이트에서 확인. 고다카라유 내부도 볼 수 있지만 전시물에 올라가지 말 것."
+     "access": "JR 주오선 ‘무사시코가네이’역 북쪽 출구 2·3번 승강장에서 세이부 버스로 약 5분, ‘고가네이코엔니시구치’ 하차. 동쪽으로 공원에 들어가 약 5분이면 입구, 동쪽 구역 끝까지 다시 약 5분",
+     "accessPointName": "고가네이코엔니시구치 버스 정류장",
+     "bestTime": "평일 개원 직후 오전이 가장 한산하다. 3월 말~4월 초 고가네이 공원 벚꽃이나 11월 은행잎이 노랗게 물들 때 거리가 가장 쇼와답다",
+     "tips": "유료(일반 400엔). 9:30~17:30(10~3월은 16:30까지), 입장은 폐원 30분 전까지. 월요일(공휴일이면 다음 날)과 연말연시 휴원. 고다카라유 내부도 둘러볼 수 있지만 전시물에 올라가지는 말자."
     }
    },
    "photo": {
@@ -9828,56 +9972,71 @@
    "spoiler": true,
    "sourceURL": "https://tama120.metro.tokyo.lg.jp/pdf/introduction/higashimurayamashi.pdf",
    "verified": false,
+   "bestMonths": [
+    5,
+    6,
+    10,
+    11
+   ],
+   "accessPoint": {
+    "latitude": 35.7677101,
+    "longitude": 139.4486617
+   },
    "text": {
     "zh-Hans": {
      "placeName": "八国山绿地（东京·东村山）",
      "sceneTitle": "七国山医院的窗外",
      "episode": "剧场版 · 后半",
-     "highlight": "片中妈妈住院的“七国山医院”，名字和地形都被认为取自这片丘陵。姐妹俩坐在松树上远远望着病房窗口的那一幕，是全片最温柔的收尾。",
+     "highlight": "这一幕几乎没有台词，却是全片最让人心头一紧的地方：小梅走丢、萨月哭着去求龙猫，所有的慌乱其实只为确认一件事——妈妈还好吗。到了窗外，姐妹俩却选择不打扰，只留下一根刻着“给妈妈”的玉米，孩子的懂事比眼泪更戳人。宫崎骏童年时母亲也曾长年卧病，很多人因此觉得这段格外真挚。八国山所在的狭山丘陵被亲切地称为“龙猫的森林”，走进这片杂木林，就像走回了电影里。",
      "story": "妈妈出院的日子被推迟，小梅不安又倔强，抱着一根玉米想亲手送去七国山医院，结果在田野里走丢。萨月跑遍全村也找不到她，只好去求龙猫，龙猫唤来猫巴士载她找到妹妹，又一路把两人送到医院。姐妹俩不敢打扰，只是坐在松树上望着窗边说笑的爸妈，悄悄把写着“给妈妈”的玉米放在窗台上。八国山脚下历史上就有结核疗养所，这片丘陵也被东京都官方介绍为“七国山”的原型。",
-     "access": "西武西武园线「西武园」站下车，步行约10分钟登上山脊步道",
-     "bestTime": "初夏新绿或秋日午后，阳光穿过杂木林最好看",
-     "tips": "这里是都立公园，免费开放。山脚的新山手医院、白十字医院仍在正常运营，请勿进入院区拍照或喧哗。"
+     "access": "西武园线「西武园」站检票口出站往东，进入八国山绿地后沿山脊步道东行约1.8公里、步行约25分钟，到将军冢一带",
+     "accessPointName": "西武园站 检票口",
+     "bestTime": "晴天上午到午后，阳光透过杂木林洒在山脊步道上最有电影感；平日几乎没人，夏天蚊虫多",
+     "tips": "都立公园，免费开放。山脚的新山手医院等仍在运营，请勿进入院区拍照或喧哗。山脊步道是土路，雨后泥泞湿滑，请穿防滑的鞋。"
     },
     "zh-Hant": {
      "placeName": "八國山綠地（東京·東村山）",
      "sceneTitle": "七國山醫院的窗外",
      "episode": "劇場版 · 後半",
-     "highlight": "片中媽媽住院的「七國山醫院」，名字和地形都被認為取自這片丘陵。姐妹倆坐在松樹上遠遠望著病房視窗的那一幕，是全片最溫柔的收尾。",
+     "highlight": "這一幕幾乎沒有臺詞，卻是全片最讓人心頭一緊的地方：小梅走丟、薩月哭著去求龍貓，所有的慌亂其實只為確認一件事——媽媽還好嗎。到了窗外，姐妹倆卻選擇不打擾，只留下一根刻著「給媽媽」的玉米，孩子的懂事比眼淚更戳人。宮崎駿童年時母親也曾長年臥病，很多人因此覺得這段格外真摯。八國山所在的狹山丘陵被親切地稱為「龍貓的森林」，走進這片雜木林，就像走回了電影裡。",
      "story": "媽媽出院的日子被推遲，小梅不安又倔強，抱著一根玉米想親手送去七國山醫院，結果在田野裡走丟。薩月跑遍全村也找不到她，只好去求龍貓，龍貓喚來貓巴士載她找到妹妹，又一路把兩人送到醫院。姐妹倆不敢打擾，只是坐在松樹上望著窗邊說笑的爸媽，悄悄把寫著「給媽媽」的玉米放在窗臺上。八國山腳下歷史上就有結核療養所，這片丘陵也被東京都官方介紹為「七國山」的原型。",
-     "access": "西武西武園線「西武園」站下車，步行約10分鐘登上山脊步道",
-     "bestTime": "初夏新綠或秋日午後，陽光穿過雜木林最好看",
-     "tips": "這裡是都立公園，免費開放。山腳的新山手醫院、白十字醫院仍在正常運營，請勿進入院區拍照或喧譁。"
+     "access": "西武園線「西武園」站檢票口出站往東，進入八國山綠地後沿山脊步道東行約1.8公里、步行約25分鐘，到將軍冢一帶",
+     "accessPointName": "西武園站 檢票口",
+     "bestTime": "晴天上午到午後，陽光透過雜木林灑在山脊步道上最有電影感；平日幾乎沒人，夏天蚊蟲多",
+     "tips": "都立公園，免費開放。山腳的新山手醫院等仍在運營，請勿進入院區拍照或喧譁。山脊步道是土路，雨後泥濘溼滑，請穿防滑的鞋。"
     },
     "ja": {
      "placeName": "八国山緑地（東京・東村山）",
      "sceneTitle": "七国山病院の窓辺",
      "episode": "劇場版・後半",
-     "highlight": "お母さんが入院している「七国山病院」は、名前も地形もこの八国山がモデルといわれる。松の木の上から病室の窓を見守る姉妹の姿は、物語を優しく締めくくる名場面だ。",
+     "highlight": "台詞はほとんどないのに、多くの人の胸がぎゅっとなる場面だ。メイの迷子も、トトロにすがるサツキの涙も、結局は「お母さんは大丈夫？」を確かめたい一心だったとわかる。それなのに窓辺まで来た二人は声をかけず、「おかあさんへ」と刻んだトウモロコシだけを残していく。その健気さが涙を誘う。宮崎駿自身、幼い頃に母親が長く病床にあったことはよく知られ、だからこそ実感がこもっていると感じる人も多い。八国山を含む狭山丘陵は「トトロの森」として親しまれ、雑木林を歩けば映画の空気がよみがえる。",
      "story": "お母さんの退院が延びたと知り、不安でいっぱいのメイはトウモロコシを抱えてひとりで七国山病院へ向かい、迷子になってしまう。村中を探しても見つからず、サツキはトトロに助けを求める。ネコバスはメイのもとへ、そして二人を病院へと運んでくれた。病室では両親が笑い合っている。姉妹は声をかけずに松の木から見守り、「おかあさんへ」と刻んだトウモロコシをそっと窓辺に置いていく。八国山のふもとにはかつて結核療養所があり、東京都の紹介でもこの緑地が七国山のモデルとされている。",
-     "access": "西武西武園線「西武園」駅から徒歩約10分で尾根道へ",
-     "bestTime": "新緑の初夏や、雑木林に日が差し込む秋の午後",
-     "tips": "都立公園で入園無料。ふもとの新山手病院・白十字病院は現役の病院なので、敷地内での撮影や大声は控えよう。"
+     "access": "西武園線「西武園」駅の改札を出て東へ。八国山緑地に入り、尾根道を東に約1.8km・徒歩約25分で将軍塚付近",
+     "accessPointName": "西武園駅 改札口",
+     "bestTime": "晴れた日の午前から昼過ぎ、雑木林の木漏れ日が尾根道に落ちる時間が映画らしい。平日はほぼ貸し切り状態、夏は虫が多い",
+     "tips": "都立公園で入園無料。ふもとの新山手病院などは現役の病院なので、敷地内での撮影や大声は控えよう。尾根道は土の道で、雨の後はぬかるむので滑りにくい靴で。"
     },
     "en": {
      "placeName": "Hachikokuyama Green Space (Higashimurayama, Tokyo)",
      "sceneTitle": "Outside the Shichikokuyama Hospital",
      "episode": "Film · second half",
-     "highlight": "The mother’s hospital, Shichikokuyama, is widely held to be modelled on these wooded hills, right down to the name. The sisters watching their parents from a pine tree is the film’s gentlest ending.",
+     "highlight": "There’s barely a line of dialogue, yet this is where the film catches in your throat. Mei getting lost, Satsuki begging Totoro in tears: all of it was really one question, “Is Mom okay?” And when the girls finally reach the window, they don’t go in. They just leave an ear of corn carved “for Mother”, a small act of grown-up kindness that hits harder than any tears. Miyazaki’s own mother was bedridden for years when he was a boy, which many fans feel gives the scene its quiet honesty. The Sayama Hills, Hachikokuyama included, are fondly called “Totoro’s forest”, and a walk through these woods still feels like stepping into the film.",
      "story": "When their mother’s homecoming is postponed, a worried Mei sets off alone with an ear of corn for the hospital and gets lost in the fields. Satsuki searches the whole village in vain and finally begs Totoro for help. The Catbus finds Mei and carries both girls to the hospital, where they see their parents laughing together by the window. Rather than intrude, they watch from a pine tree and leave the corn on the sill, carved with the words “for Mother”. A tuberculosis sanatorium once stood at the foot of these hills, and Tokyo’s own guide names Hachikokuyama as the model for Shichikokuyama.",
-     "access": "About a 10-minute walk up to the ridge path from Seibu-en Station (Seibu-en Line)",
-     "bestTime": "Early summer greenery, or autumn afternoons when light filters through the woods",
-     "tips": "A free metropolitan park. The hospitals at the foot of the hill are still in operation, so please don’t photograph or linger on their grounds."
+     "access": "From the ticket gate of Seibuen Station (Seibu Seibuen Line), head east into Hachikokuyama Green Space and follow the ridge path about 1.8 km (25 min) to the Shōgunzuka area",
+     "accessPointName": "Seibuen Sta. Ticket Gate",
+     "bestTime": "Sunny late mornings to early afternoons, when light filters through the woods onto the ridge path. Weekdays are nearly empty; expect mosquitoes in summer",
+     "tips": "A free metropolitan park. The hospitals at the foot of the hill, such as Shin-Yamanote Hospital, are still in operation: don’t photograph or linger on their grounds. The ridge path is unpaved and muddy after rain, so wear shoes with grip."
     },
     "ko": {
      "placeName": "하치코쿠야마 녹지 (도쿄·히가시무라야마)",
      "sceneTitle": "시치코쿠야마 병원의 창가",
      "episode": "극장판 · 후반",
-     "highlight": "엄마가 입원한 ‘시치코쿠야마 병원’은 이름도 지형도 이 하치코쿠야마가 모델이라고 알려져 있다. 소나무 위에서 병실 창을 바라보는 자매의 모습은 영화를 따뜻하게 마무리하는 명장면이다.",
+     "highlight": "대사는 거의 없지만 많은 관객의 목이 메는 장면이다. 메이의 실종도, 토토로에게 울며 매달린 사츠키의 간절함도 결국 ‘엄마는 괜찮을까’라는 하나의 질문이었다. 그런데 창가에 다다른 자매는 부모님을 방해하지 않고 ‘엄마에게’라고 새긴 옥수수만 두고 돌아선다. 아이들의 그 의젓함이 눈물보다 더 깊이 와닿는다. 미야자키 하야오 감독도 어린 시절 어머니가 오랫동안 병상에 계셨던 것으로 알려져 있어, 이 장면에 담긴 진심이 더 크게 느껴진다. 하치코쿠야마가 속한 사야마 구릉은 ‘토토로의 숲’으로 사랑받고 있어, 잡목림을 걷기만 해도 영화 속 공기가 되살아난다.",
      "story": "엄마의 퇴원이 미뤄졌다는 소식에 불안해진 메이는 옥수수를 품에 안고 혼자 병원으로 향하다 길을 잃는다. 온 마을을 뒤져도 찾지 못한 사츠키는 결국 토토로에게 도움을 청하고, 고양이버스가 메이를 찾아 두 사람을 병원까지 데려다준다. 창가에서 웃으며 이야기하는 부모님을 본 자매는 방해하지 않고 소나무 위에서 지켜보다가, ‘엄마에게’라고 새긴 옥수수를 창틀에 살며시 두고 온다. 이 언덕 기슭에는 예전에 결핵 요양소가 있었고, 도쿄도의 소개 자료에서도 이곳을 시치코쿠야마의 모델로 꼽는다.",
-     "access": "세이부 세이부엔선 ‘세이부엔’역에서 능선 산책로까지 도보 약 10분",
-     "bestTime": "신록이 짙은 초여름, 또는 잡목림에 햇살이 비치는 가을 오후",
-     "tips": "무료 도립공원이다. 기슭의 병원들은 지금도 운영 중이므로 부지 안에서 촬영하거나 떠들지 말자."
+     "access": "세이부엔선 ‘세이부엔’역 개찰구에서 동쪽으로 나와 하치코쿠야마 녹지에 들어선 뒤, 능선 산책로를 따라 약 1.8km(도보 약 25분) 가면 쇼군즈카 부근",
+     "accessPointName": "세이부엔역 개찰구",
+     "bestTime": "맑은 날 오전부터 이른 오후, 잡목림 사이로 햇살이 능선길에 내려앉을 때가 가장 영화 같다. 평일에는 거의 사람이 없고, 여름엔 모기가 많다",
+     "tips": "무료 도립공원이다. 기슭의 신야마노테 병원 등은 지금도 운영 중이므로 부지 안에서 촬영하거나 떠들지 말자. 능선길은 흙길이라 비 온 뒤엔 질척이니 미끄럼 방지 신발을 신자."
     }
    },
    "photo": {
@@ -9898,56 +10057,71 @@
    "spoiler": false,
    "sourceURL": "https://ghibli-park.jp/",
    "verified": false,
+   "bestMonths": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "accessPoint": {
+    "latitude": 35.1775994,
+    "longitude": 137.0877452
+   },
    "text": {
     "zh-Hans": {
      "placeName": "小月和小梅的家（爱知·吉卜力公园）",
      "sceneTitle": "搬进乡下的老房子",
      "episode": "剧场版 · 开头",
-     "highlight": "这不是取景地，而是按电影设定1:1建造的实体房屋。站在院子里看那栋带蓝色洋式书房的和式老屋，就像和姐妹俩一起刚搬到乡下。",
+     "highlight": "这栋房子让人一进门就鼻酸，是因为它把《龙猫》里那个“一切才刚开始”的夏天变成了能走进去的空间：腐朽的柱子、灰尘精灵躲藏的暗角、爸爸书房里堆满的书，全按设定一一造了出来，连抽屉都能拉开。它承载的是很多人共同的昭和乡愁——一个没有什么新奇东西，却有风、有树、有家人等着妈妈回来的家。2005年爱知世博会时它就是最难预约的展馆之一，如今仍是吉卜力公园的代表性景点。",
      "story": "电影一开场，爸爸开着装满家当的小卡车，带着萨月和小梅来到乡下的新家。姐妹俩一下车就满院子乱跑，发现柱子腐朽了、屋里有会“噗”地消散的灰尘精灵，还兴奋地爬上洋式书房的阁楼。这栋房子是2005年爱知世博会时依照电影设定建造的，每个抽屉、每本书都还原了片中的模样，如今是吉卜力公园“咚咚森”区域的一部分。站在这里，能看到故事开始时那种夏日刚到、什么都还很新鲜的感觉。",
-     "access": "名古屋地铁东山线「藤丘」站换乘磁浮线Linimo至「爱·地球博纪念公园」站，步行约20分钟",
-     "bestTime": "初夏到盛夏，院中花木繁茂，最接近电影里的季节",
-     "tips": "位于吉卜力公园收费区内，需在官网提前购买指定日期门票；进入屋内参观需对应票种，具体以官网为准。屋内请勿触摸展品。"
+     "access": "名古屋地铁东山线终点「藤丘」站换乘磁浮线Linimo至「爱·地球博纪念公园」站，出站入园往南步行约20–30分钟到“咚咚森”，也可乘园内巴士",
+     "accessPointName": "爱·地球博纪念公园站",
+     "bestTime": "选上午场入园，人相对少、光线柔和；晴天院子里的绿意最像电影。周末和暑假非常拥挤，尽量选平日",
+     "tips": "只有“大散步券Premium”或“咚咚森”单区门票能进入这栋房子（需选上午或下午场）。门票全预约制，每月10日14点开售两个月后的票，现场不售；周二休园（逢节假日顺延）。"
     },
     "zh-Hant": {
      "placeName": "小月和小梅的家（愛知·吉卜力公園）",
      "sceneTitle": "搬進鄉下的老房子",
      "episode": "劇場版 · 開頭",
-     "highlight": "這不是取景地，而是按電影設定1:1建造的實體房屋。站在院子裡看那棟帶藍色洋式書房的和式老屋，就像和姐妹倆一起剛搬到鄉下。",
+     "highlight": "這棟房子讓人一進門就鼻酸，是因為它把《龍貓》裡那個「一切才剛開始」的夏天變成了能走進去的空間：腐朽的柱子、灰塵精靈躲藏的暗角、爸爸書房裡堆滿的書，全按設定一一造了出來，連抽屜都能拉開。它承載的是很多人共同的昭和鄉愁——一個沒有什麼新奇東西，卻有風、有樹、有家人等著媽媽回來的家。2005年愛知世博會時它就是最難預約的展館之一，如今仍是吉卜力公園的代表性景點。",
      "story": "電影一開場，爸爸開著裝滿家當的小卡車，帶著薩月和小梅來到鄉下的新家。姐妹倆一下車就滿院子亂跑，發現柱子腐朽了、屋裡有會「噗」地消散的灰塵精靈，還興奮地爬上洋式書房的閣樓。這棟房子是2005年愛知世博會時依照電影設定建造的，每個抽屜、每本書都還原了片中的模樣，如今是吉卜力公園「咚咚森」區域的一部分。站在這裡，能看到故事開始時那種夏日剛到、什麼都還很新鮮的感覺。",
-     "access": "名古屋地鐵東山線「藤丘」站換乘磁浮線Linimo至「愛·地球博紀念公園」站，步行約20分鐘",
-     "bestTime": "初夏到盛夏，院中花木繁茂，最接近電影裡的季節",
-     "tips": "位於吉卜力公園收費區內，需在官網提前購買指定日期門票；進入屋內參觀需對應票種，具體以官網為準。屋內請勿觸控展品。"
+     "access": "名古屋地鐵東山線終點「藤丘」站換乘磁浮線Linimo至「愛·地球博紀念公園」站，出站入園往南步行約20–30分鐘到「咚咚森」，也可乘園內巴士",
+     "accessPointName": "愛·地球博紀念公園站",
+     "bestTime": "選上午場入園，人相對少、光線柔和；晴天院子裡的綠意最像電影。週末和暑假非常擁擠，儘量選平日",
+     "tips": "只有「大散步券Premium」或「咚咚森」單區門票能進入這棟房子（需選上午或下午場）。門票全預約制，每月10日14點開售兩個月後的票，現場不售；週二休園（逢節假日順延）。"
     },
     "ja": {
      "placeName": "サツキとメイの家（愛知・ジブリパーク）",
      "sceneTitle": "田舎の家への引っ越し",
      "episode": "劇場版・冒頭",
-     "highlight": "ここは実在のモデル地ではなく、映画の設定どおりに建てられた実物大の家。青い洋風の書斎がついた和風の家を庭から眺めれば、姉妹と一緒に引っ越してきた気分になれる。",
+     "highlight": "玄関をくぐった瞬間に胸が熱くなるのは、『となりのトトロ』の「何もかもが始まったばかりの夏」が、そのまま歩ける空間になっているからだ。腐った柱、まっくろくろすけが潜む暗がり、本に埋もれたお父さんの書斎まで設定どおりに再現され、引き出しも実際に開けられる。そこにあるのは、多くの人が共有する昭和の郷愁——特別なものは何もないけれど、風と木々と、お母さんの帰りを待つ家族がいる家だ。2005年の愛・地球博でも予約が取りにくいパビリオンとして知られ、今もジブリパークを代表する建物になっている。",
      "story": "映画の冒頭、お父さんは荷物を満載したオート三輪でサツキとメイを田舎の新居へ連れてくる。車を降りた姉妹は庭を駆け回り、腐った柱を見つけておばけ屋敷だと大はしゃぎ。ススワタリに驚き、洋間の書斎の屋根裏へ駆け上がる。この家は2005年の愛・地球博で映画の設定をもとに建てられ、引き出しの中身や本棚の本まで再現されている。今はジブリパーク「どんどこ森」の一部として公開され、物語が始まったばかりの夏のわくわくした空気を感じられる。",
-     "access": "地下鉄東山線「藤が丘」駅からリニモで「愛・地球博記念公園」駅、徒歩約20分",
-     "bestTime": "庭の草木が茂る初夏から夏。映画の季節に一番近い",
-     "tips": "ジブリパークの有料エリア内。日時指定チケットを公式サイトで事前購入する必要があり、家の内部見学は対応する券種が必要（最新情報は公式サイトで確認）。展示物には触れないこと。"
+     "access": "地下鉄東山線の終点「藤が丘」駅でリニモに乗り換え「愛・地球博記念公園」駅下車。公園に入り南へ徒歩約20〜30分で「どんどこ森」、園内バスも利用可",
+     "accessPointName": "愛・地球博記念公園駅",
+     "bestTime": "午前の入場枠のほうが比較的すいていて光もやわらかい。晴れた日は庭の緑が映画そのもの。週末や夏休みは大混雑なので平日がおすすめ",
+     "tips": "家に入れるのは「大さんぽ券プレミアム」か「どんどこ森」エリア券のみ（午前・午後の時間指定あり）。チケットは完全予約制で、毎月10日14時に2か月先の分を販売、当日券なし。火曜休園（祝日の場合は翌平日）。"
     },
     "en": {
      "placeName": "Satsuki and Mei’s House (Ghibli Park, Aichi)",
      "sceneTitle": "Moving into the country house",
      "episode": "Film · opening",
-     "highlight": "Not a real-world model but a full-size house built to the film’s own design. Standing in the garden facing the Japanese farmhouse with its blue Western-style study feels like arriving with the sisters on day one.",
+     "highlight": "Walking in tends to choke people up, because the house turns Totoro’s “everything is just beginning” summer into a place you can actually step inside. The rotten porch post, the dark corners where soot sprites hide, Dad’s study buried in books: all built exactly to the film’s designs, right down to drawers you can open. It holds a nostalgia many share for the Shōwa era: a home with nothing special in it, just wind, trees and a family waiting for Mom to come home. At Expo 2005 it was famously one of the hardest pavilions to book, and it remains a signature sight of Ghibli Park.",
      "story": "The film opens with Dad driving Satsuki and Mei to their new home in a little three-wheeled truck piled high with furniture. The girls tumble out and race around the garden, delighted to find a rotten pillar, soot sprites that scatter into nothing, and an attic above the Western-style study. The house was built for the 2005 Aichi Expo from the film’s settings, down to the contents of the drawers and the books on the shelves, and is now part of Ghibli Park’s Dondoko Forest area. It captures the feeling of a summer that has only just begun.",
-     "access": "Linimo line to Ai·Chikyuhaku Kinen Koen Station (from Fujigaoka on the Higashiyama subway line), then about 20 minutes on foot",
-     "bestTime": "Early to high summer, when the garden is lush, closest to the film’s season",
-     "tips": "Inside Ghibli Park’s paid area: buy date-specific tickets online in advance. Entering the house requires the appropriate ticket type; check the official site. Please don’t touch the props."
+     "access": "Take the Linimo from Fujigaoka (end of the Higashiyama subway line) to Ai-Chikyūhaku-Kinen-Kōen Station, then walk south through the park about 20–30 min to Dondoko Forest, or use the in-park bus",
+     "accessPointName": "Ai-Chikyūhaku-Kinen-Kōen Sta.",
+     "bestTime": "Pick a morning entry slot: fewer people and softer light. Sunny days make the garden look straight out of the film. Weekends and school holidays are very crowded, so go on a weekday if you can",
+     "tips": "Only the Ō-sanpo Day Pass Premium or the Dondoko Forest area ticket gets you into the house (with a morning or afternoon slot). Tickets are reservation-only, released on the 10th at 14:00 two months ahead, and not sold at the gate. Closed Tuesdays (next weekday if a holiday)."
     },
     "ko": {
      "placeName": "사츠키와 메이의 집 (아이치·지브리 파크)",
      "sceneTitle": "시골집으로 이사 오던 날",
      "episode": "극장판 · 오프닝",
-     "highlight": "실제 모델지가 아니라 영화 설정 그대로 지은 실물 크기의 집이다. 파란 서양식 서재가 붙은 일본식 집을 마당에서 바라보면 자매와 함께 막 이사 온 기분이 든다.",
+     "highlight": "현관을 들어서는 순간 코끝이 찡해지는 건, 〈이웃집 토토로〉의 ‘모든 것이 막 시작된 여름’이 그대로 걸어 들어갈 수 있는 공간이 되었기 때문이다. 썩은 기둥, 숯검댕이 숨어 있던 어두운 구석, 책으로 가득한 아빠의 서재까지 설정대로 재현되어 있고 서랍도 실제로 열어 볼 수 있다. 이곳에 담긴 것은 많은 이들이 공유하는 쇼와 시대의 향수, 특별할 것 없지만 바람과 나무, 엄마를 기다리는 가족이 있는 집이다. 2005년 아이치 엑스포 때도 예약하기 가장 어려운 전시관으로 꼽혔고, 지금도 지브리 파크를 대표하는 건물이다.",
      "story": "영화는 아빠가 짐을 가득 실은 삼륜 트럭에 사츠키와 메이를 태우고 시골의 새집에 도착하는 장면으로 시작한다. 차에서 내린 자매는 마당을 뛰어다니며 썩은 기둥을 발견하고 도깨비 집이라며 신이 나고, 먼지 귀신에 깜짝 놀라며 서재 다락방으로 뛰어오른다. 이 집은 2005년 아이치 엑스포 때 영화 설정을 바탕으로 지어졌으며, 서랍 속 물건과 책장의 책까지 재현되어 있다. 지금은 지브리 파크 ‘돈도코 숲’ 구역의 일부로, 막 시작된 여름의 설렘을 그대로 느낄 수 있다.",
-     "access": "지하철 히가시야마선 ‘후지가오카’역에서 리니모로 ‘아이·지큐하쿠 기넨코엔’역, 도보 약 20분",
-     "bestTime": "마당의 풀과 나무가 무성한 초여름~한여름",
-     "tips": "지브리 파크 유료 구역 안에 있다. 공식 사이트에서 날짜 지정 티켓을 미리 사야 하며, 집 내부 관람은 해당 권종이 필요하다(최신 정보는 공식 사이트 확인). 전시물은 만지지 말 것."
+     "access": "지하철 히가시야마선 종점 ‘후지가오카’역에서 리니모로 갈아타 ‘아이치큐하쿠기넨코엔’역 하차. 공원 안으로 들어가 남쪽으로 도보 약 20~30분이면 ‘돈도코 숲’, 공원 내 버스도 이용 가능",
+     "accessPointName": "아이치큐하쿠기넨코엔역",
+     "bestTime": "오전 입장 시간대가 비교적 한산하고 빛도 부드럽다. 맑은 날엔 마당의 초록이 영화 그대로다. 주말과 여름방학은 매우 붐비니 평일을 추천",
+     "tips": "집 내부는 ‘오산포 프리미엄 티켓’ 또는 ‘돈도코 숲’ 단독 티켓으로만 들어갈 수 있다(오전·오후 시간 지정). 티켓은 전면 예약제로 매월 10일 14시에 두 달 뒤 분을 판매하며 현장 판매는 없다. 화요일 휴원(공휴일이면 다음 평일)."
     }
    },
    "photo": {
@@ -10110,56 +10284,61 @@
    "spoiler": false,
    "sourceURL": "https://ja.kushiro-lakeakan.com/kushiroakanwp/wp-content/uploads/e434b2dc47e684083e8cc854c03c2d4f-1.pdf",
    "verified": false,
+   "bestMonths": [
+    7,
+    8,
+    9
+   ],
    "text": {
     "zh-Hans": {
      "placeName": "藻散布沼（北海道·浜中町）",
      "sceneTitle": "湿地对岸的洋馆",
      "episode": "剧场版 · 前半",
-     "highlight": "片中小镇是虚构的，但取景灵感来自道东的湿地海岸。被芦苇和森林环抱的藻散布沼，被钏路地区观光资料介绍为本片的原型地之一。",
+     "highlight": "《回忆中的玛妮》打动人的，是一个觉得自己“不被爱”的女孩，慢慢学会原谅别人、也原谅自己。湿地对岸那座时隐时现的洋馆，就像杏奈心里说不出口的秘密：退潮时走得过去，涨潮时又隔着一片水。米林宏昌把道东湿地的天光、潮水和芦苇画得极安静，许多人直到结尾才意识到，这其实是一个关于“曾被深爱”的故事。藻散布沼人迹罕至，正适合一个人静静坐一会儿。",
      "story": "杏奈总觉得自己被“圆圈”排除在外，连养母的关心也让她别扭。被送到海边小镇疗养后，她在湿地边第一次看见那座洋馆，竟有种莫名的熟悉感。退潮时可以踩着泥滩走过去，满潮时房子就像浮在水上。某个夜晚，她划着小船靠近，在灯火通明的洋馆里遇见了金发少女玛妮。两人约定这是“我们俩的秘密”，在湿地、小船和洋馆之间度过了一个个梦一般的夜晚，杏奈也渐渐学会了向别人敞开心扉。原作舞台在英国诺福克，电影改到了北海道东部的湿地；具体原型说法不一，这里是官方观光资料提到的地点之一。",
-     "access": "JR花咲线「茶内」站以南约12公里，公共交通不便，基本需要自驾",
-     "bestTime": "夏季黄昏，湿地被夕阳染红、水面平静时最像电影",
-     "tips": "沼泽周边是自然保护区和渔业区域，请在道路旁安全处停车观赏，勿进入湿地；夏季蚊虫多，注意防虫。"
+     "access": "JR花咲线「茶内」站以南约12公里，几乎没有可用的公交，基本需要自驾；到达后在沼边道路旁安全处停车观赏",
+     "bestTime": "夏季黄昏，湿地被夕阳染红、水面无风时最像电影；道东夏天常起海雾，能否遇到晴天要碰运气",
+     "tips": "沼泽周边是自然环境与渔业区域，请停在路边安全处观赏，勿进入湿地或渔业设施；附近几乎没有商店，夏季蚊虫多，冬季道路积雪结冰。"
     },
     "zh-Hant": {
      "placeName": "藻散佈沼（北海道·浜中町）",
      "sceneTitle": "溼地對岸的洋館",
      "episode": "劇場版 · 前半",
-     "highlight": "片中小鎮是虛構的，但取景靈感來自道東的溼地海岸。被蘆葦和森林環抱的藻散佈沼，被釧路地區觀光資料介紹為本片的原型地之一。",
+     "highlight": "《回憶中的瑪妮》打動人的，是一個覺得自己「不被愛」的女孩，慢慢學會原諒別人、也原諒自己。溼地對岸那座時隱時現的洋館，就像杏奈心裡說不出口的秘密：退潮時走得過去，漲潮時又隔著一片水。米林宏昌把道東溼地的天光、潮水和蘆葦畫得極安靜，許多人直到結尾才意識到，這其實是一個關於「曾被深愛」的故事。藻散佈沼人跡罕至，正適合一個人靜靜坐一會兒。",
      "story": "杏奈總覺得自己被「圓圈」排除在外，連養母的關心也讓她彆扭。被送到海邊小鎮療養後，她在溼地邊第一次看見那座洋館，竟有種莫名的熟悉感。退潮時可以踩著泥灘走過去，滿潮時房子就像浮在水上。某個夜晚，她划著小船靠近，在燈火通明的洋館裡遇見了金髮少女瑪妮。兩人約定這是「我們倆的秘密」，在溼地、小船和洋館之間度過了一個個夢一般的夜晚，杏奈也漸漸學會了向別人敞開心扉。原作舞臺在英國諾福克，電影改到了北海道東部的溼地；具體原型說法不一，這裡是官方觀光資料提到的地點之一。",
-     "access": "JR花咲線「茶內」站以南約12公里，公共交通不便，基本需要自駕",
-     "bestTime": "夏季黃昏，溼地被夕陽染紅、水面平靜時最像電影",
-     "tips": "沼澤周邊是自然保護區和漁業區域，請在道路旁安全處停車觀賞，勿進入溼地；夏季蚊蟲多，注意防蟲。"
+     "access": "JR花咲線「茶內」站以南約12公里，幾乎沒有可用的公交，基本需要自駕；到達後在沼邊道路旁安全處停車觀賞",
+     "bestTime": "夏季黃昏，溼地被夕陽染紅、水面無風時最像電影；道東夏天常起海霧，能否遇到晴天要碰運氣",
+     "tips": "沼澤周邊是自然環境與漁業區域，請停在路邊安全處觀賞，勿進入溼地或漁業設施；附近幾乎沒有商店，夏季蚊蟲多，冬季道路積雪結冰。"
     },
     "ja": {
      "placeName": "藻散布沼（北海道・浜中町）",
      "sceneTitle": "入り江の向こうの屋敷",
      "episode": "劇場版・前半",
-     "highlight": "作中の町は架空だが、道東の湿地帯の海辺がイメージのもと。葦と森に囲まれた藻散布沼は、釧路地域の観光資料で作品のモデル地のひとつと紹介されている。",
+     "highlight": "『思い出のマーニー』が心に残るのは、自分は「愛されていない」と思い込んでいる少女が、少しずつ人を許し、自分を許していく物語だからだ。湿地の向こうに見え隠れする屋敷は、杏奈が胸の奥にしまった言えない秘密そのもの。潮が引けば歩いて渡れるのに、満ちれば水に隔てられてしまう。米林宏昌は道東の湿原の空の光や潮、葦を驚くほど静かに描き、多くの人は最後になってこれが「深く愛されていた」物語だったと気づく。人影のまれな藻散布沼は、ひとりで静かに座っているのにちょうどいい場所だ。",
      "story": "杏奈はいつも自分が「輪の外側」にいると感じていて、養母の気遣いさえ素直に受け取れない。海辺の町で療養することになった彼女は、入り江のほとりで初めてその古い屋敷を目にし、なぜか懐かしさを覚える。潮が引けば干潟を歩いて渡れるが、満ち潮になると屋敷は水に浮かぶように見える。ある夜、小舟を漕いで近づいた杏奈は、灯りのともる屋敷で金髪の少女マーニーと出会う。二人は「わたしたちのことは秘密よ」と約束し、湿地と小舟と屋敷を行き来する夢のような夜を重ね、杏奈は少しずつ心を開くことを覚えていく。原作の舞台は英国ノーフォークで、映画では北海道東部の湿地に移された。モデル地には諸説あり、ここは公的な観光資料で挙げられている場所のひとつ。",
-     "access": "JR花咲線「茶内」駅から南へ約12km。公共交通は不便で車がほぼ必須",
-     "bestTime": "夏の夕暮れ、湿地が夕日に染まり水面が凪いでいるとき",
-     "tips": "周辺は自然環境や漁業の場。道路脇の安全な場所に車を停めて眺め、湿地には立ち入らないこと。夏は虫よけ対策を。"
+     "access": "JR花咲線「茶内」駅の南約12km。使える路線バスはほぼなく、実質的に車が必要。沼沿いの道路脇の安全な場所に停めて眺める",
+     "bestTime": "夏の夕暮れ、湿地が夕日に染まり水面が凪いでいる時が一番映画らしい。道東の夏は海霧が出やすく、晴れるかどうかは運次第",
+     "tips": "沼の周辺は自然環境と漁業の場。道路脇の安全な場所から眺め、湿地や漁業施設には立ち入らないこと。近くに店はほとんどなく、夏は虫が多く、冬は道路が雪と氷に覆われる。"
     },
     "en": {
      "placeName": "Mochirippu-numa Lagoon (Hamanaka, Hokkaido)",
      "sceneTitle": "The mansion across the marsh",
      "episode": "Film · first half",
-     "highlight": "The film’s town is fictional, inspired by the marshy coast of eastern Hokkaido. Ringed by reeds and forest, Mochirippu-numa is named in Kushiro-area tourism material as one of the places said to be the film’s model.",
+     "highlight": "Marnie moves people because it’s about a girl convinced she is unloved slowly learning to forgive others, and herself. The mansion that appears and fades across the marsh is like the secret Anna can’t put into words: walkable at low tide, cut off by water at high tide. Hiromasa Yonebayashi paints eastern Hokkaido’s wetland light, tides and reeds with remarkable stillness, and many viewers only realise at the end that this is a story about having been deeply loved. Mochirippu-numa sees few visitors, which makes it the right place to sit quietly for a while.",
      "story": "Anna always feels she is outside “the magic circle”, and can’t even accept her foster mother’s care. Sent to the seaside to recover, she first sees the old mansion across the marsh and feels a strange familiarity. At low tide you can walk across the mudflats; at high tide the house seems to float on the water. One night she rows a small boat over and, in the brightly lit mansion, meets Marnie, a blonde girl. They promise to keep each other secret, and over dreamlike nights between marsh, boat and mansion, Anna slowly learns to open her heart. The novel is set in Norfolk, England; the film moved it to eastern Hokkaido. Accounts of the exact model vary, and this is one of the places named in official tourism material.",
-     "access": "About 12 km south of Chanai Station (JR Hanasaki Line); public transport is scarce, so a car is practically essential",
-     "bestTime": "Summer evenings, when the marsh glows in the sunset and the water is still",
-     "tips": "The area is a natural habitat and fishing ground: park safely beside the road to look, and don’t walk into the wetland. Bring insect repellent in summer."
+     "access": "About 12 km south of Chanai Station (JR Hanasaki Line). There’s practically no usable bus service, so you’ll need a car; park somewhere safe beside the lakeside road to take in the view",
+     "bestTime": "Summer dusk, when the marsh glows red and the water is still, looks most like the film. Eastern Hokkaido summers are often foggy, so a clear evening takes some luck",
+     "tips": "The area is a natural habitat and fishing ground: view it from a safe spot by the road and don’t walk into the wetland or onto fishing facilities. There are almost no shops nearby; expect insects in summer and icy, snowy roads in winter."
     },
     "ko": {
      "placeName": "모치릿푸누마 (홋카이도·하마나카초)",
      "sceneTitle": "습지 건너편의 저택",
      "episode": "극장판 · 전반",
-     "highlight": "영화 속 마을은 가상이지만 홋카이도 동부 습지 해안이 이미지의 바탕이다. 갈대와 숲에 둘러싸인 모치릿푸누마는 구시로 지역 관광 자료에서 작품의 모델지 중 하나로 소개된다.",
+     "highlight": "〈추억의 마니〉가 마음을 울리는 건, 스스로를 ‘사랑받지 못한다’고 믿는 소녀가 조금씩 남을, 그리고 자신을 용서하게 되는 이야기이기 때문이다. 습지 건너편에서 보였다 사라지는 저택은 안나가 마음 깊이 품은, 말할 수 없는 비밀 같다. 썰물이면 걸어서 건널 수 있지만 밀물이면 물에 가로막힌다. 요네바야시 히로마사는 홋카이도 동부 습지의 하늘빛과 물때, 갈대를 놀라울 만큼 고요하게 그려, 많은 이들이 마지막에야 이것이 ‘깊이 사랑받았던’ 이야기였음을 깨닫는다. 인적이 드문 모치립푸 늪은 혼자 조용히 앉아 있기 좋은 곳이다.",
      "story": "안나는 늘 자신이 ‘원 밖’에 있다고 느끼고, 양어머니의 걱정조차 솔직하게 받아들이지 못한다. 바닷가 마을로 요양을 온 그녀는 습지 너머의 오래된 저택을 처음 보고 이상하게 그리운 느낌을 받는다. 물이 빠지면 갯벌을 걸어 건널 수 있지만 물이 차면 저택은 물 위에 떠 있는 것처럼 보인다. 어느 밤 작은 배를 저어 다가간 안나는 불 켜진 저택에서 금발 소녀 마니를 만난다. 둘은 ‘우리 일은 비밀’이라고 약속하고, 습지와 작은 배와 저택을 오가는 꿈같은 밤들을 보내며 안나는 조금씩 마음을 여는 법을 배운다. 원작의 무대는 영국 노퍽이며 영화에서는 홋카이도 동부 습지로 옮겨졌다. 모델지는 여러 설이 있으며 이곳은 공식 관광 자료에 언급된 장소 중 하나다.",
-     "access": "JR 하나사키선 ‘차나이’역에서 남쪽으로 약 12km. 대중교통이 불편해 사실상 차가 필요하다",
-     "bestTime": "여름 해 질 녘, 습지가 노을에 물들고 수면이 잔잔할 때",
-     "tips": "주변은 자연 서식지이자 어업 구역이다. 도로변 안전한 곳에 차를 세우고 바라보되 습지에는 들어가지 말 것. 여름엔 벌레 대책을."
+     "access": "JR 하나사키선 ‘자나이’역에서 남쪽으로 약 12km. 이용할 만한 노선버스가 거의 없어 사실상 차가 필요하다. 늪가 도로 옆 안전한 곳에 차를 세우고 감상하자",
+     "bestTime": "여름 해 질 녘, 습지가 노을에 물들고 수면이 잔잔할 때가 가장 영화 같다. 홋카이도 동부의 여름은 해무가 잦아 맑은 날을 만나려면 운이 필요하다",
+     "tips": "늪 주변은 자연환경이자 어업 구역이다. 도로변 안전한 곳에서 바라보고 습지나 어업 시설에는 들어가지 말자. 근처에 상점이 거의 없고, 여름엔 벌레가 많으며 겨울엔 도로가 눈과 얼음으로 덮인다."
     }
    },
    "illustration": {
@@ -10178,56 +10357,70 @@
    "spoiler": false,
    "sourceURL": "https://www.mapple.net/original/249182/",
    "verified": false,
+   "bestMonths": [
+    7,
+    8,
+    9
+   ],
+   "accessPoint": {
+    "latitude": 35.6507724,
+    "longitude": 139.4468281
+   },
    "text": {
     "zh-Hans": {
      "placeName": "樱之丘 いろは坂阶梯（东京·多摩）",
      "sceneTitle": "雫一路奔下的长阶",
      "episode": "剧场版",
-     "highlight": "蜿蜒的坡道和抄近路的阶梯，是“杉之宫”这座山坡小镇最鲜明的印象。这段红色台阶据说正是雫飞奔而下那一幕的原型。",
+     "highlight": "《侧耳倾听》把青春最朴素的样子拍得太真了：没有超能力，也没有惊天动地的大事，只有一个爱读书的女孩在坡道和台阶之间跑上跑下，慢慢找到自己想做的事。这是近藤喜文唯一执导的长片，他把多摩丘陵的日常风景画得细致又温柔，让很多人想起自己上学路上的那段坡。圣迹樱丘站从2012年起把《乡村路》用作列车进站音乐，从下车那一刻起，整座小镇都像在为影迷配乐。",
      "story": "雫住在山脚的团地，每天都要在坡道和阶梯之间上上下下：去图书馆、给爸爸送便当、追着那只坐电车的胖猫爬上山坡，最后在坡顶发现了地球屋。随着她和圣司越走越近、又决定在他出国前写完自己的第一个故事，她在这座小镇的坡道上奔跑的身影也越来越坚定。电影里的“杉之宫”以京王线圣迹樱丘站周边为原型，多摩市也在官方资料中提到片中背景大量参考了这一带。从台阶上往下望，坡下的街景和远处的多摩丘陵依旧是片中的样子。",
-     "access": "京王线「圣迹樱丘」站西口出站，沿いろは坂通往上步行约12–15分钟",
-     "bestTime": "春天坡道两旁樱花盛开；傍晚逆光下坡的景色最有电影感",
-     "tips": "这里是居民日常通行的阶梯，请靠边拍照、不要长时间占用台阶；附近住宅区请保持安静。"
+     "access": "京王线「圣迹樱丘」站西口出站往南，过大栗川后沿いろは坂通上坡，约1公里、步行约12–15分钟到台阶",
+     "accessPointName": "圣迹樱丘站 西口",
+     "bestTime": "夏日傍晚逆光看坡下街景最有电影感；平日白天人少，早晚是居民通勤上学时段，拍照请避开",
+     "tips": "这里是居民日常通行的台阶，请靠边拍照、不要长时间占用；いろは坂通坡陡弯多、车流不断，过马路注意安全，周边住宅区请保持安静。"
     },
     "zh-Hant": {
      "placeName": "櫻之丘 いろは坂階梯（東京·多摩）",
      "sceneTitle": "雫一路奔下的長階",
      "episode": "劇場版",
-     "highlight": "蜿蜒的坡道和抄近路的階梯，是「杉之宮」這座山坡小鎮最鮮明的印象。這段紅色臺階據說正是雫飛奔而下那一幕的原型。",
+     "highlight": "《側耳傾聽》把青春最樸素的樣子拍得太真了：沒有超能力，也沒有驚天動地的大事，只有一個愛讀書的女孩在坡道和臺階之間跑上跑下，慢慢找到自己想做的事。這是近藤喜文唯一執導的長片，他把多摩丘陵的日常風景畫得細緻又溫柔，讓很多人想起自己上學路上的那段坡。聖蹟櫻丘站從2012年起把《鄉村路》用作列車進站音樂，從下車那一刻起，整座小鎮都像在為影迷配樂。",
      "story": "雫住在山腳的團地，每天都要在坡道和階梯之間上上下下：去圖書館、給爸爸送便當、追著那隻坐電車的胖貓爬上山坡，最後在坡頂發現了地球屋。隨著她和聖司越走越近、又決定在他出國前寫完自己的第一個故事，她在這座小鎮的坡道上奔跑的身影也越來越堅定。電影裡的「杉之宮」以京王線聖蹟櫻丘站周邊為原型，多摩市也在官方資料中提到片中背景大量參考了這一帶。從臺階上往下望，坡下的街景和遠處的多摩丘陵依舊是片中的樣子。",
-     "access": "京王線「聖蹟櫻丘」站西口出站，沿いろは坂通往上步行約12–15分鐘",
-     "bestTime": "春天坡道兩旁櫻花盛開；傍晚逆光下坡的景色最有電影感",
-     "tips": "這裡是居民日常通行的階梯，請靠邊拍照、不要長時間佔用臺階；附近住宅區請保持安靜。"
+     "access": "京王線「聖蹟櫻丘」站西口出站往南，過大慄川后沿いろは坂通上坡，約1公里、步行約12–15分鐘到臺階",
+     "accessPointName": "聖蹟櫻丘站 西口",
+     "bestTime": "夏日傍晚逆光看坡下街景最有電影感；平日白天人少，早晚是居民通勤上學時段，拍照請避開",
+     "tips": "這裡是居民日常通行的臺階，請靠邊拍照、不要長時間佔用；いろは坂通坡陡彎多、車流不斷，過馬路注意安全，周邊住宅區請保持安靜。"
     },
     "ja": {
      "placeName": "桜ヶ丘いろは坂の階段（東京・多摩）",
      "sceneTitle": "雫が駆け下りる階段",
      "episode": "劇場版",
-     "highlight": "九十九折りの坂道と近道の階段は、坂の町「杉の宮」を象徴する風景。この赤い階段は、雫が駆け下りるシーンのモデルといわれている。",
+     "highlight": "『耳をすませば』は、青春のいちばん素朴な姿をあまりにもリアルに描いた。超能力も大事件もない。本好きの女の子が坂と階段を駆け上がり駆け下りながら、少しずつ自分のやりたいことを見つけていくだけだ。近藤喜文が唯一監督した長編で、多摩丘陵の日常の風景を細やかに、やさしく描き、多くの人に自分の通学路の坂を思い出させた。聖蹟桜ヶ丘駅では2012年から「カントリー・ロード」が列車接近メロディになっていて、電車を降りた瞬間から町全体がファンのためのBGMを鳴らしてくれる。",
      "story": "団地に住む雫は、毎日のように坂と階段を上り下りしている。図書館へ、父にお弁当を届けに、電車に乗る太った猫を追いかけて坂を登り、その先で地球屋を見つけた。聖司と心を通わせ、彼が留学する前に自分も初めての物語を書き上げようと決めてからは、坂の町を駆ける雫の姿もどこか力強くなっていく。映画の「杉の宮」は京王線聖蹟桜ヶ丘駅周辺がモデルで、多摩市も作品の背景がこの一帯を大いに参考に描かれたと紹介している。階段の上から見下ろす町並みと多摩の丘陵は、今も映画の雰囲気そのままだ。",
-     "access": "京王線「聖蹟桜ヶ丘」駅西口から、いろは坂通りを上って徒歩約12〜15分",
-     "bestTime": "春は坂沿いの桜が見事。夕方の逆光の坂も映画らしい",
-     "tips": "住民が日常的に使う階段。撮影は端に寄って手短に、周辺の住宅街では静かに。"
+     "access": "京王線「聖蹟桜ヶ丘」駅西口から南へ。大栗川を渡っていろは坂通りを上り、約1km・徒歩約12〜15分で階段",
+     "accessPointName": "聖蹟桜ヶ丘駅 西口",
+     "bestTime": "夏の夕方、逆光で坂の下の町を見下ろすと一番映画らしい。平日の日中は人が少なく、朝夕は通勤・通学の時間帯なので撮影は避けて",
+     "tips": "住民が毎日使う階段なので、撮影は端に寄って手短に。いろは坂通りは急でカーブが多く車も多いので横断に注意し、周辺の住宅街では静かに。"
     },
     "en": {
      "placeName": "Iroha-zaka Stairs, Sakuragaoka (Tama, Tokyo)",
      "sceneTitle": "Running down the long stairs",
      "episode": "Film",
-     "highlight": "Winding slopes and shortcut stairways define Shizuku’s hillside town. This red stairway is said to be the model for the scene where she races down the hill.",
+     "highlight": "Whisper of the Heart captures youth at its plainest and truest: no superpowers, no grand events, just a girl who loves books running up and down slopes and stairs until she slowly finds what she wants to do. It was the only feature Yoshifumi Kondō directed, and his gentle, detailed drawings of the everyday Tama hills remind many viewers of the hill on their own walk to school. Since 2012 Seiseki-Sakuragaoka Station has played “Country Road” as its train-approach melody, so the town scores your visit from the moment you step off.",
      "story": "Shizuku lives in an apartment block at the bottom of the hill and is always going up and down its slopes and steps: to the library, to bring her father his lunch, and chasing a fat cat off the train and up the hill, where she found the World Emporium at the top. As she grows close to Seiji and resolves to finish her first story before he leaves to study abroad, the way she runs through these streets grows more determined. The film’s town is modelled on the area around Seiseki-Sakuragaoka Station, and Tama City itself notes that the backgrounds drew heavily on it. Looking down from the top of the steps, the town and the Tama hills still look much as they do on screen.",
-     "access": "About 12–15 min uphill along Iroha-zaka from the west exit of Seiseki-Sakuragaoka Station (Keiō Line)",
-     "bestTime": "Spring, when cherry trees line the slope; late afternoon backlight is very cinematic",
-     "tips": "Residents use these stairs every day: step aside for photos and don’t block them. Keep noise down in the surrounding neighbourhood."
+     "access": "From the west exit of Seiseki-Sakuragaoka Station (Keiō Line) head south, cross the Ōguri River and climb Iroha-zaka Street about 1 km (12–15 min) to the stairs",
+     "accessPointName": "Seiseki-Sakuragaoka Sta. West Exit",
+     "bestTime": "Summer evenings, looking down the slope into the low sun, feel most like the film. Weekday daytime is quiet; avoid shooting during the morning and evening commute",
+     "tips": "Residents use these stairs every day: step aside for photos and don’t block them. Iroha-zaka Street is steep and winding with steady traffic, so cross with care, and keep noise down in the neighbourhood."
     },
     "ko": {
      "placeName": "사쿠라가오카 이로하자카 계단 (도쿄·다마)",
      "sceneTitle": "시즈쿠가 달려 내려간 계단",
      "episode": "극장판",
-     "highlight": "구불구불한 언덕길과 지름길 계단은 언덕 마을 ‘스기노미야’를 상징하는 풍경이다. 이 붉은 계단은 시즈쿠가 뛰어 내려가는 장면의 모델로 알려져 있다.",
+     "highlight": "〈귀를 기울이면〉은 청춘의 가장 소박한 모습을 너무도 진짜처럼 그렸다. 초능력도 대단한 사건도 없이, 책을 좋아하는 소녀가 비탈길과 계단을 오르내리며 자신이 하고 싶은 일을 조금씩 찾아갈 뿐이다. 곤도 요시후미가 유일하게 감독한 장편으로, 다마 구릉의 일상 풍경을 섬세하고 다정하게 담아 많은 이들에게 자기 등굣길의 언덕을 떠올리게 했다. 세이세키사쿠라가오카역은 2012년부터 ‘컨트리 로드’를 열차 접근 멜로디로 쓰고 있어, 내리는 순간부터 마을 전체가 팬을 위한 배경음악을 틀어 준다.",
      "story": "언덕 아래 단지에 사는 시즈쿠는 매일같이 언덕길과 계단을 오르내린다. 도서관에 가고, 아빠에게 도시락을 가져다주고, 전철에 탄 뚱뚱한 고양이를 쫓아 언덕을 오르다 꼭대기에서 지구옥을 발견했다. 세이지와 가까워지고 그가 유학을 떠나기 전 자신도 첫 이야기를 완성하겠다고 마음먹은 뒤로, 언덕 마을을 달리는 시즈쿠의 모습도 한결 단단해진다. 영화 속 마을은 게이오선 세이세키사쿠라가오카역 주변이 모델이며, 다마시도 작품 배경이 이 일대를 크게 참고했다고 소개한다. 계단 위에서 내려다본 거리와 다마 구릉은 지금도 영화 속 분위기 그대로다.",
-     "access": "게이오선 ‘세이세키사쿠라가오카’역 서쪽 출구에서 이로하자카 길을 올라 도보 약 12~15분",
-     "bestTime": "봄에는 언덕길 벚꽃이 아름답다. 늦은 오후 역광도 영화 같다",
-     "tips": "주민들이 매일 쓰는 계단이니 사진은 가장자리에서 짧게, 주변 주택가에서는 조용히."
+     "access": "게이오선 ‘세이세키사쿠라가오카’역 서쪽 출구에서 남쪽으로. 오구리강을 건너 이로하자카 거리를 올라가면 약 1km, 도보 약 12~15분에 계단",
+     "accessPointName": "세이세키사쿠라가오카역 서쪽 출구",
+     "bestTime": "여름 저녁 역광으로 언덕 아래 거리를 내려다볼 때가 가장 영화 같다. 평일 낮은 한산하고, 아침저녁은 주민 출퇴근·통학 시간이니 촬영은 피하자",
+     "tips": "주민들이 매일 오가는 계단이니 가장자리에서 짧게 촬영하자. 이로하자카 거리는 가파르고 굽은 데다 차가 많으니 길을 건널 때 조심하고, 주택가에서는 조용히."
     }
    },
    "photo": {
@@ -10253,56 +10446,70 @@
    "spoiler": false,
    "sourceURL": "https://www.mapple.net/original/249182/",
    "verified": false,
+   "bestMonths": [
+    7,
+    8,
+    9
+   ],
+   "accessPoint": {
+    "latitude": 35.6507724,
+    "longitude": 139.4468281
+   },
    "text": {
     "zh-Hans": {
      "placeName": "金比罗宫（东京·多摩）",
      "sceneTitle": "神社前的告白",
      "episode": "剧场版 · 中段",
-     "highlight": "坡道半山腰的小神社，被认为是杉村向雫告白那场戏的原型。笨拙的告白、尴尬的沉默，是很多人心里最真实的青春片段。",
+     "highlight": "这可能是吉卜力电影里最真实的告白之一：没有浪漫的气氛，只有放学路上一句结结巴巴的“我一直喜欢你”，和一个完全没准备好的女孩。雫慌乱的那句“对不起”，让观众看到她的另一面——原来自己也会在不知不觉中伤害别人，而朋友的心事她从没察觉。正因为这么不完美，这场戏才让人一想起就脸红心跳。小小的金比罗宫就在いろは坂台阶旁，影迷通常会把两处一起走。",
      "story": "放学路上，同班的棒球少年杉村把雫叫到神社，吞吞吐吐地说出“我一直喜欢你”。雫完全没想到——她一直以为杉村和好友夕子是一对，而夕子也偷偷喜欢着杉村。慌乱之下雫说了句“对不起”转身跑开，留下杉村一个人站在石阶上。这场告白让三个人的关系变得微妙，也让雫第一次意识到，喜欢一个人和被人喜欢，都不是想象中那么简单。神社所在的小山是关户城天守台遗址一带，旁边就是いろは坂的阶梯。",
-     "access": "京王线「圣迹樱丘」站西口步行约15分钟，位于いろは坂中途",
-     "bestTime": "夏日傍晚树影斑驳，与电影里放学后的光线相近",
-     "tips": "这是当地人参拜的神社，请先礼貌参拜再拍照，不要坐在石阶或香资箱上。"
+     "access": "京王线「圣迹樱丘」站西口出站往南，过大栗川后沿いろは坂通上坡约1公里，神社在坡道中途的台阶旁，步行约15分钟",
+     "accessPointName": "圣迹樱丘站 西口",
+     "bestTime": "夏日傍晚树影斑驳，与片中放学后的光线最接近；平日下午人少。神社很小，有人参拜时请稍候再拍",
+     "tips": "这是当地人参拜的小神社，请先参拜再拍照，不要坐在石阶或香资箱上。神社所在的坡地陡、石阶窄，雨天注意脚下。"
     },
     "zh-Hant": {
      "placeName": "金比羅宮（東京·多摩）",
      "sceneTitle": "神社前的告白",
      "episode": "劇場版 · 中段",
-     "highlight": "坡道半山腰的小神社，被認為是杉村向雫告白那場戲的原型。笨拙的告白、尷尬的沉默，是很多人心裡最真實的青春片段。",
+     "highlight": "這可能是吉卜力電影裡最真實的告白之一：沒有浪漫的氣氛，只有放學路上一句結結巴巴的「我一直喜歡你」，和一個完全沒準備好的女孩。雫慌亂的那句「對不起」，讓觀眾看到她的另一面——原來自己也會在不知不覺中傷害別人，而朋友的心事她從沒察覺。正因為這麼不完美，這場戲才讓人一想起就臉紅心跳。小小的金比羅宮就在いろは坂臺階旁，影迷通常會把兩處一起走。",
      "story": "放學路上，同班的棒球少年杉村把雫叫到神社，吞吞吐吐地說出「我一直喜歡你」。雫完全沒想到——她一直以為杉村和好友夕子是一對，而夕子也偷偷喜歡著杉村。慌亂之下雫說了句「對不起」轉身跑開，留下杉村一個人站在石階上。這場告白讓三個人的關係變得微妙，也讓雫第一次意識到，喜歡一個人和被人喜歡，都不是想象中那麼簡單。神社所在的小山是關戶城天守臺遺址一帶，旁邊就是いろは坂的階梯。",
-     "access": "京王線「聖蹟櫻丘」站西口步行約15分鐘，位於いろは坂中途",
-     "bestTime": "夏日傍晚樹影斑駁，與電影裡放學後的光線相近",
-     "tips": "這是當地人參拜的神社，請先禮貌參拜再拍照，不要坐在石階或香資箱上。"
+     "access": "京王線「聖蹟櫻丘」站西口出站往南，過大慄川后沿いろは坂通上坡約1公里，神社在坡道中途的臺階旁，步行約15分鐘",
+     "accessPointName": "聖蹟櫻丘站 西口",
+     "bestTime": "夏日傍晚樹影斑駁，與片中放學後的光線最接近；平日下午人少。神社很小，有人參拜時請稍候再拍",
+     "tips": "這是當地人參拜的小神社，請先參拜再拍照，不要坐在石階或香資箱上。神社所在的坡地陡、石階窄，雨天注意腳下。"
     },
     "ja": {
      "placeName": "金比羅宮（東京・多摩）",
      "sceneTitle": "神社での告白",
      "episode": "劇場版・中盤",
-     "highlight": "坂の途中の小さな神社は、杉村が雫に告白する場面のモデルといわれる。不器用な告白と気まずい沈黙は、多くの人の記憶に残る青春のひとこまだ。",
+     "highlight": "ジブリ作品の中でも、いちばんリアルな告白のひとつかもしれない。ロマンチックな雰囲気などなく、帰り道にしどろもどろの「ずっと好きだった」と、まったく心の準備ができていない女の子がいるだけ。雫が思わず口にした「ごめん」は、自分も知らないうちに誰かを傷つけ、友だちの気持ちにも気づいていなかったという、彼女のもうひとつの顔を見せる。不器用だからこそ、思い出すだけで顔が熱くなる名場面だ。小さな金比羅宮はいろは坂の階段のすぐそばで、ファンはたいてい両方をセットで訪れる。",
      "story": "放課後、野球部の杉村は雫を神社に呼び出し、しどろもどろに「ずっと好きだった」と打ち明ける。雫には寝耳に水だった。杉村と親友の夕子はお似合いだと思っていたし、夕子が杉村を好きなことも知っていたからだ。混乱した雫は「ごめん」とだけ言って走り去り、石段には杉村がひとり残される。この告白で三人の関係はぎくしゃくし、雫は誰かを好きになること、好かれることが思っていたほど簡単ではないと初めて知る。神社のある小山は関戸城の天守台跡とされ、すぐ隣にいろは坂の階段がある。",
-     "access": "京王線「聖蹟桜ヶ丘」駅西口から徒歩約15分、いろは坂の中腹",
-     "bestTime": "木漏れ日が揺れる夏の夕方。映画の放課後の光に近い",
-     "tips": "地元の方がお参りする神社。まずは参拝してから撮影を。石段や賽銭箱に腰掛けないこと。"
+     "access": "京王線「聖蹟桜ヶ丘」駅西口から南へ。大栗川を渡りいろは坂通りを約1km上った坂の途中、階段のすぐ脇。徒歩約15分",
+     "accessPointName": "聖蹟桜ヶ丘駅 西口",
+     "bestTime": "夏の夕方、木漏れ日が揺れる時間が映画の放課後の光に近い。平日の午後は人が少ない。小さな神社なので、参拝者がいるときは少し待ってから撮影を",
+     "tips": "地元の人が参拝する小さな神社。まずお参りしてから撮影を。石段や賽銭箱に座らないこと。境内へは急な坂と狭い石段なので、雨の日は足もとに注意。"
     },
     "en": {
      "placeName": "Konpira-gū Shrine (Tama, Tokyo)",
      "sceneTitle": "A confession at the shrine",
      "episode": "Film · middle",
-     "highlight": "This small shrine halfway up the slope is said to be the model for where Sugimura confesses to Shizuku. The clumsy confession and awkward silence are a slice of adolescence many viewers recognise.",
+     "highlight": "It may be one of the most true-to-life confessions in any Ghibli film: no romantic mood, just a stammered “I’ve always liked you” on the walk home and a girl completely unprepared for it. Shizuku’s flustered “sorry” shows another side of her: she, too, can hurt someone without meaning to, and she never noticed what her best friend felt. It’s that awkwardness that still makes people blush remembering it. The little Konpira shrine sits right beside the Iroha-zaka stairs, and fans usually visit both together.",
      "story": "On the way home from school, Sugimura from the baseball team calls Shizuku over to the shrine and stammers out that he has always liked her. She is stunned: she had assumed he and her best friend Yūko were meant for each other, and she knows Yūko secretly likes him. Flustered, Shizuku says sorry and runs off, leaving Sugimura alone on the steps. The confession makes things tense between the three, and teaches Shizuku that liking someone, and being liked, is not as simple as it seems. The hill the shrine stands on is the site of the old Sekido Castle keep, right beside the Iroha-zaka stairs.",
-     "access": "About 15 min on foot from the west exit of Seiseki-Sakuragaoka Station, halfway up Iroha-zaka",
-     "bestTime": "Summer late afternoons, when dappled light matches the after-school scenes",
-     "tips": "A working local shrine: pay your respects before photographing, and don’t sit on the steps or the offering box."
+     "access": "From the west exit of Seiseki-Sakuragaoka Station head south, cross the Ōguri River and climb Iroha-zaka Street about 1 km; the shrine is beside the stairs partway up (about 15 min)",
+     "accessPointName": "Seiseki-Sakuragaoka Sta. West Exit",
+     "bestTime": "Summer evenings, with dappled shade, match the after-school light of the film. Weekday afternoons are quiet. It’s a tiny shrine, so wait for worshippers to finish before taking photos",
+     "tips": "A small working local shrine: pay your respects before photographing, and don’t sit on the steps or the offering box. The slope and narrow stone steps get slippery in rain."
     },
     "ko": {
      "placeName": "곤피라궁 (도쿄·다마)",
      "sceneTitle": "신사에서의 고백",
      "episode": "극장판 · 중반",
-     "highlight": "언덕길 중턱의 작은 신사는 스기무라가 시즈쿠에게 고백하는 장면의 모델로 알려져 있다. 서툰 고백과 어색한 침묵은 많은 이들의 기억 속 청춘의 한 장면이다.",
+     "highlight": "지브리 영화 속 가장 현실적인 고백 중 하나일지도 모른다. 낭만적인 분위기 없이, 하굣길에 더듬더듬 내뱉은 ‘계속 좋아했어’와 전혀 마음의 준비가 안 된 소녀가 있을 뿐이다. 당황한 시즈쿠의 ‘미안’은 그녀의 또 다른 면을 보여 준다. 자신도 모르는 사이에 누군가에게 상처를 줄 수 있고, 친구의 마음도 눈치채지 못했다는 것. 서툴기에 떠올리기만 해도 얼굴이 화끈해지는 장면이다. 작은 곤피라궁은 이로하자카 계단 바로 옆이라 팬들은 보통 두 곳을 함께 둘러본다.",
      "story": "하굣길, 야구부 스기무라는 시즈쿠를 신사로 불러내 더듬거리며 ‘계속 좋아했어’라고 고백한다. 시즈쿠에게는 뜻밖이었다. 스기무라와 단짝 유코가 잘 어울린다고 생각했고, 유코가 스기무라를 좋아한다는 것도 알고 있었기 때문이다. 당황한 시즈쿠는 ‘미안’이라는 말만 남기고 달아나고, 돌계단에는 스기무라만 홀로 남는다. 이 고백으로 세 사람의 관계는 어색해지고, 시즈쿠는 누군가를 좋아하는 일도, 누군가에게 사랑받는 일도 생각만큼 간단하지 않다는 걸 처음 알게 된다. 신사가 있는 작은 산은 세키도성 천수대 터로 알려져 있으며 바로 옆에 이로하자카 계단이 있다.",
-     "access": "게이오선 ‘세이세키사쿠라가오카’역 서쪽 출구에서 도보 약 15분, 이로하자카 중턱",
-     "bestTime": "나뭇잎 사이로 햇살이 흔들리는 여름 늦은 오후",
-     "tips": "지역 주민이 참배하는 신사이니 먼저 참배한 뒤 촬영하자. 돌계단이나 새전함에 앉지 말 것."
+     "access": "‘세이세키사쿠라가오카’역 서쪽 출구에서 남쪽으로, 오구리강을 건너 이로하자카 거리를 약 1km 오르면 언덕 중턱 계단 바로 옆. 도보 약 15분",
+     "accessPointName": "세이세키사쿠라가오카역 서쪽 출구",
+     "bestTime": "나뭇잎 그림자가 일렁이는 여름 저녁이 영화 속 방과 후 빛과 가장 닮았다. 평일 오후는 한산하다. 작은 신사라 참배객이 있으면 잠시 기다렸다 찍자",
+     "tips": "지역 주민이 참배하는 작은 신사다. 먼저 참배한 뒤 촬영하고, 돌계단이나 새전함에 앉지 말자. 경사가 가파르고 돌계단이 좁아 비 오는 날엔 발밑을 조심."
     }
    },
    "photo": {
@@ -10327,56 +10534,69 @@
    "spoiler": false,
    "sourceURL": "https://www.mapple.net/original/249182/",
    "verified": false,
+   "bestMonths": [
+    7,
+    8
+   ],
+   "accessPoint": {
+    "latitude": 35.6507724,
+    "longitude": 139.4468281
+   },
    "text": {
     "zh-Hans": {
      "placeName": "樱之丘环岛（东京·多摩）",
      "sceneTitle": "坡顶的地球屋",
      "episode": "剧场版 · 前半",
-     "highlight": "雫追着猫爬上坡顶，眼前豁然开朗：一个小小的环岛，路边就是古董店“地球屋”。这座环岛被普遍认为是那一幕的原型，环岛本身至今几乎没变。",
+     "highlight": "这是整部电影的“魔法时刻”：追着一只猫爬上坡，世界忽然打开，出现一家满是秘密的古董店。很多人小时候都幻想过，拐过某个街角就会走进另一个世界，《侧耳倾听》把这种心情画得那么具体，于是这座普普通通的住宅区环岛，成了无数影迷愿意爬二十分钟坡来看一眼的地方。地球屋并不存在，但站在环岛边，你还是会忍不住寻找那只叫Moon的胖猫。",
      "story": "暑假里，雫在去图书馆的电车上遇到一只神情傲慢的胖猫。猫在“杉之宫”站下车，她好奇地一路跟着，穿过住宅区、爬上陡坡，来到一个从没见过的小环岛。猫消失在一家叫“地球屋”的古董店门口，店里摆着一尊穿燕尾服的猫男爵人偶，还有一座会走动的老座钟。店主西司朗老爷爷亲切地向她讲起男爵的来历——后来她才知道，这位老人正是天泽圣司的祖父。这一刻，平凡的暑假突然打开了一扇通往故事的门。现实中的环岛周围是住宅和商店，并没有地球屋这家店。",
-     "access": "京王线「圣迹樱丘」站西口沿いろは坂往上步行约20分钟，也可乘京王巴士到樱之丘一带",
-     "bestTime": "夏天午后，和电影里暑假的光线最接近",
-     "tips": "环岛是车辆通行的道路，请勿站在车道上拍照；周围是住宅区，请保持安静、不要拍摄住户。"
+     "access": "京王线「圣迹樱丘」站西口出站往南，过大栗川后沿いろは坂通一路上坡到坡顶住宅区，约1.5公里、步行约20分钟；也可在站前乘京王巴士上山",
+     "accessPointName": "圣迹樱丘站 西口",
+     "bestTime": "像暑假一样晴朗的午后，光线最接近电影；周围是住宅区，工作日白天最安静，傍晚后请勿逗留喧哗",
+     "tips": "环岛是车辆通行的道路，请勿站在车道上拍照；周围是住宅区，请保持安静，不要拍摄住户和私宅。片中的地球屋是虚构的，现实中并不存在。"
     },
     "zh-Hant": {
      "placeName": "櫻之丘環島（東京·多摩）",
      "sceneTitle": "坡頂的地球屋",
      "episode": "劇場版 · 前半",
-     "highlight": "雫追著貓爬上坡頂，眼前豁然開朗：一個小小的環島，路邊就是古董店「地球屋」。這座環島被普遍認為是那一幕的原型，環島本身至今幾乎沒變。",
+     "highlight": "這是整部電影的「魔法時刻」：追著一隻貓爬上坡，世界忽然開啟，出現一家滿是秘密的古董店。很多人小時候都幻想過，拐過某個街角就會走進另一個世界，《側耳傾聽》把這種心情畫得那麼具體，於是這座普普通通的住宅區環島，成了無數影迷願意爬二十分鐘坡來看一眼的地方。地球屋並不存在，但站在環島邊，你還是會忍不住尋找那隻叫Moon的胖貓。",
      "story": "暑假裡，雫在去圖書館的電車上遇到一隻神情傲慢的胖貓。貓在「杉之宮」站下車，她好奇地一路跟著，穿過住宅區、爬上陡坡，來到一個從沒見過的小環島。貓消失在一家叫「地球屋」的古董店門口，店裡擺著一尊穿燕尾服的貓男爵人偶，還有一座會走動的老座鐘。店主西司朗老爺爺親切地向她講起男爵的來歷——後來她才知道，這位老人正是天澤聖司的祖父。這一刻，平凡的暑假突然開啟了一扇通往故事的門。現實中的環島周圍是住宅和商店，並沒有地球屋這家店。",
-     "access": "京王線「聖蹟櫻丘」站西口沿いろは坂往上步行約20分鐘，也可乘京王巴士到櫻之丘一帶",
-     "bestTime": "夏天午後，和電影裡暑假的光線最接近",
-     "tips": "環島是車輛通行的道路，請勿站在車道上拍照；周圍是住宅區，請保持安靜、不要拍攝住戶。"
+     "access": "京王線「聖蹟櫻丘」站西口出站往南，過大慄川后沿いろは坂通一路上坡到坡頂住宅區，約1.5公里、步行約20分鐘；也可在站前乘京王巴士上山",
+     "accessPointName": "聖蹟櫻丘站 西口",
+     "bestTime": "像暑假一樣晴朗的午後，光線最接近電影；周圍是住宅區，工作日白天最安靜，傍晚後請勿逗留喧譁",
+     "tips": "環島是車輛通行的道路，請勿站在車道上拍照；周圍是住宅區，請保持安靜，不要拍攝住戶和私宅。片中的地球屋是虛構的，現實中並不存在。"
     },
     "ja": {
      "placeName": "桜ヶ丘ロータリー（東京・多摩）",
      "sceneTitle": "坂の上の地球屋",
      "episode": "劇場版・前半",
-     "highlight": "猫を追って坂を登りきった雫の前に、ぱっと開けた小さなロータリーと骨董店「地球屋」が現れる。このロータリーはその場面のモデルとして知られ、今もほとんど姿を変えていない。",
+     "highlight": "映画全体の「魔法の瞬間」だ。猫を追って坂を上ると、ふいに視界が開け、秘密の詰まった骨董店が現れる。角を曲がれば別の世界があるかもしれない——子どもの頃に誰もが一度は抱いた空想を、『耳をすませば』はこれ以上ないほど具体的に描いた。だからこそ、この何の変哲もない住宅街のロータリーは、20分坂を登ってでもひと目見たい場所になった。地球屋は実在しないけれど、ロータリーに立つと、ついあの太った猫・ムーンを探してしまう。",
      "story": "夏休み、図書館へ向かう電車で雫はふてぶてしい太った猫と乗り合わせる。「杉の宮」駅で降りた猫を追いかけ、住宅街を抜け、急な坂を登ると、見たこともない小さなロータリーに出た。猫が姿を消したのは「地球屋」という骨董店の前。店には燕尾服を着た猫の人形「バロン」と、からくり仕掛けの古時計があった。店主の西司朗老人はバロンのいわれを優しく語ってくれる。のちに雫は、その老人が天沢聖司の祖父だと知ることになる。何気ない夏休みが、物語の扉を開いた瞬間だ。現実のロータリーの周りは住宅や商店で、地球屋は実在しない。",
-     "access": "京王線「聖蹟桜ヶ丘」駅西口からいろは坂を登って徒歩約20分。京王バスで桜ヶ丘方面へも行ける",
-     "bestTime": "夏休みの雰囲気が出る、夏の午後",
-     "tips": "ロータリーは車が通る道路。車道に立っての撮影は危険なのでやめよう。周辺は住宅街なので静かに、住民を撮らないこと。"
+     "access": "京王線「聖蹟桜ヶ丘」駅西口から南へ。大栗川を渡りいろは坂通りを坂の上の住宅地まで上り、約1.5km・徒歩約20分。駅前から京王バスで上ることもできる",
+     "accessPointName": "聖蹟桜ヶ丘駅 西口",
+     "bestTime": "夏休みのような晴れた午後が、映画の光にいちばん近い。周りは住宅街なので平日の日中が静か。夕方以降に長居して騒がないように",
+     "tips": "ロータリーは車が通る道路なので、車道に立って撮影しないこと。周囲は住宅街なので静かに、住民や個人宅は撮らないで。作中の地球屋は架空の店で、実在しない。"
     },
     "en": {
      "placeName": "Sakuragaoka Roundabout (Tama, Tokyo)",
      "sceneTitle": "The World Emporium on the hilltop",
      "episode": "Film · first half",
-     "highlight": "Chasing the cat to the top of the hill, Shizuku comes out onto a tiny roundabout with the World Emporium antique shop beside it. This roundabout is widely recognised as the model and has barely changed.",
+     "highlight": "This is the film’s moment of magic: chase a cat up a hill and the world suddenly opens onto an antique shop full of secrets. Almost everyone has imagined, as a child, that turning one more corner might lead into another world, and Whisper of the Heart draws that feeling so concretely that this ordinary residential roundabout became a place countless fans happily climb twenty minutes to see. The Earth Shop never existed, but standing here you’ll still catch yourself looking for Moon, the fat cat.",
      "story": "During summer break, on the train to the library, Shizuku shares a seat with a fat, haughty cat. When it gets off at her stop she follows, through the housing estate and up a steep slope, until she emerges at a little roundabout she has never seen. The cat vanishes at the door of an antique shop, the World Emporium, where a cat figurine in a tailcoat, the Baron, stands beside an old clockwork clock. The kindly owner, Mr Nishi, tells her the Baron’s story; only later does she learn he is Seiji Amasawa’s grandfather. An ordinary summer day opens the door to a story. In real life the roundabout is ringed by homes and shops, and there is no World Emporium.",
-     "access": "About 20 min uphill via Iroha-zaka from the west exit of Seiseki-Sakuragaoka Station, or take a Keiō bus towards Sakuragaoka",
-     "bestTime": "Summer afternoons, for that summer-holiday light",
-     "tips": "The roundabout carries traffic: don’t stand in the road for photos. It’s a residential area, so be quiet and don’t photograph residents."
+     "access": "From the west exit of Seiseki-Sakuragaoka Station head south, cross the Ōguri River and follow Iroha-zaka Street all the way up into the hilltop neighbourhood, about 1.5 km (20 min). Keiō buses from the station also go up the hill",
+     "accessPointName": "Seiseki-Sakuragaoka Sta. West Exit",
+     "bestTime": "A sunny summer-holiday afternoon is closest to the film’s light. It’s a residential area, quietest on weekday daytime; please don’t linger noisily in the evening",
+     "tips": "The roundabout carries traffic: don’t stand in the road for photos. It’s a residential area, so be quiet and don’t photograph residents or their homes. The Earth Shop is fictional and doesn’t exist here."
     },
     "ko": {
      "placeName": "사쿠라가오카 로터리 (도쿄·다마)",
      "sceneTitle": "언덕 위의 지구옥",
      "episode": "극장판 · 전반",
-     "highlight": "고양이를 쫓아 언덕을 다 오른 시즈쿠 앞에 작은 로터리와 골동품 가게 ‘지구옥’이 탁 펼쳐진다. 이 로터리는 그 장면의 모델로 널리 알려져 있으며 지금도 거의 그대로다.",
+     "highlight": "영화 전체의 ‘마법 같은 순간’이다. 고양이를 따라 언덕을 오르자 갑자기 시야가 트이며 비밀로 가득한 골동품점이 나타난다. 모퉁이 하나만 더 돌면 다른 세계가 있을지 모른다는, 누구나 어릴 적 품었던 상상을 〈귀를 기울이면〉은 너무도 구체적으로 그렸다. 그래서 이 평범한 주택가 로터리는 수많은 팬이 20분 동안 언덕을 올라서라도 꼭 보고 싶은 곳이 되었다. 지구옥은 실재하지 않지만, 로터리에 서면 저도 모르게 뚱뚱한 고양이 문을 찾게 된다.",
      "story": "여름방학, 도서관에 가는 전철에서 시즈쿠는 뻔뻔한 뚱보 고양이와 마주친다. ‘스기노미야’역에서 내린 고양이를 쫓아 주택가를 지나 가파른 언덕을 오르자 처음 보는 작은 로터리가 나타난다. 고양이가 사라진 곳은 ‘지구옥’이라는 골동품 가게 앞. 가게에는 연미복을 입은 고양이 인형 ‘바론’과 태엽 장치 괘종시계가 있었다. 주인 니시 할아버지는 바론에 얽힌 이야기를 다정하게 들려주는데, 시즈쿠는 나중에야 그가 아마사와 세이지의 할아버지라는 걸 알게 된다. 평범한 여름방학이 이야기의 문을 연 순간이다. 실제 로터리 주변은 주택과 상점이며 지구옥은 존재하지 않는다.",
-     "access": "게이오선 ‘세이세키사쿠라가오카’역 서쪽 출구에서 이로하자카를 올라 도보 약 20분, 또는 게이오 버스로 사쿠라가오카 방면",
-     "bestTime": "여름방학 분위기가 나는 여름 오후",
-     "tips": "로터리는 차가 다니는 도로이니 차도에 서서 촬영하지 말 것. 주택가이므로 조용히, 주민은 찍지 말자."
+     "access": "‘세이세키사쿠라가오카’역 서쪽 출구에서 남쪽으로, 오구리강을 건너 이로하자카 거리를 언덕 위 주택가까지 오르면 약 1.5km, 도보 약 20분. 역 앞에서 게이오 버스로 올라갈 수도 있다",
+     "accessPointName": "세이세키사쿠라가오카역 서쪽 출구",
+     "bestTime": "여름방학 같은 맑은 오후가 영화 속 빛에 가장 가깝다. 주택가라 평일 낮이 가장 조용하며, 저녁 이후에는 오래 머물며 떠들지 말자",
+     "tips": "로터리는 차가 다니는 도로이니 차도에 서서 촬영하지 말자. 주변은 주택가라 조용히 하고 주민이나 개인 주택은 찍지 말 것. 작중 지구옥은 가상의 가게로 실제로는 없다."
     }
    },
    "photo": {
