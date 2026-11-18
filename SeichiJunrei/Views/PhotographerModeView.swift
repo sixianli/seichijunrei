@@ -84,6 +84,8 @@ struct PhotographerModeView: View {
     /// 避免整页（包括按钮、菜单）跟着高频重绘导致点击失灵。
     @State private var live = PhotographerLive()
     @State private var toast: String?
+    /// nil = 自动变焦；否则固定倍数
+    @State private var manualZoom: Double?
     @State private var result: UIImage?
     @State private var closeAfterResult = false
 
@@ -298,30 +300,34 @@ struct PhotographerModeView: View {
                 shooting = false
             } label: {
                 Image(systemName: "chevron.backward").font(.headline)
-                    .frame(width: 44, height: 44)
-                    .glassSurface(Circle(), interactive: true)
+                    .frame(width: 48, height: 48)
+                    // 实底而不是可交互玻璃：真机上可交互玻璃会吃掉按钮的点击
+                    .background(Color.black.opacity(0.45), in: Circle())
+                    .contentShape(Circle())
             }
             .buttonStyle(.plain)
-            .accessibilityLabel(L("common.close"))
+            .accessibilityLabel(LIn(guideLanguage, "common.close"))
             .accessibilityIdentifier("closeShooting")
             Spacer()
             Text(LIn(guideLanguage, "pg.photographerHeader"))
                 .font(.subheadline.weight(.semibold))
                 .padding(.horizontal, 14).frame(minHeight: 44)
-                .glassSurface(Capsule())
+                .background(Color.black.opacity(0.45), in: Capsule())
+                .allowsHitTesting(false)
             Spacer()
             Menu {
-                Picker(L("pg.guideLanguage"), selection: $guideLanguage) {
+                Picker(LIn(guideLanguage, "pg.guideLanguage"), selection: $guideLanguage) {
                     ForEach(AppLanguage.supported, id: \.self) { code in
                         Text(AppLanguage.nativeName(code)).tag(code)
                     }
                 }
             } label: {
                 Image(systemName: "character.bubble").font(.headline)
-                    .frame(width: 44, height: 44)
-                    .glassSurface(Circle(), interactive: true)
+                    .frame(width: 48, height: 48)
+                    .background(Color.black.opacity(0.45), in: Circle())
+                    .contentShape(Circle())
             }
-            .accessibilityLabel(L("pg.guideLanguage"))
+            .accessibilityLabel(LIn(guideLanguage, "pg.guideLanguage"))
         }
         .foregroundStyle(.white)
         .padding(.horizontal)
@@ -331,14 +337,14 @@ struct PhotographerModeView: View {
         Group {
             HStack(spacing: 18) {
                 VStack(spacing: 10) {
-                    toggle(L("pg.ghost"), symbol: "square.on.square", on: showGhost && hasScreenshot) {
-                        guard hasScreenshot else { show(L("pg.ghostNeedsImage")); return }
+                    toggle(LIn(guideLanguage, "pg.ghost"), symbol: "square.on.square", on: showGhost && hasScreenshot) {
+                        guard hasScreenshot else { show(LIn(guideLanguage, "pg.ghostNeedsImage")); return }
                         showGhost.toggle()
-                        show(L(showGhost ? "pg.ghostOn" : "pg.ghostOff"))
+                        show(LIn(guideLanguage, showGhost ? "pg.ghostOn" : "pg.ghostOff"))
                     }
-                    toggle(L("pg.voice"), symbol: voice ? "speaker.wave.2.fill" : "speaker.slash.fill", on: voice) {
+                    toggle(LIn(guideLanguage, "pg.voice"), symbol: voice ? "speaker.wave.2.fill" : "speaker.slash.fill", on: voice) {
                         voice.toggle()
-                        show(L(voice ? "pg.voiceOn" : "pg.voiceOff"))
+                        show(LIn(guideLanguage, voice ? "pg.voiceOn" : "pg.voiceOff"))
                         if voice { speakNow() } else { speech.stopSpeaking(at: .immediate) }
                     }
                     .accessibilityIdentifier("pgVoice")
@@ -348,17 +354,26 @@ struct PhotographerModeView: View {
                     ShutterRing(live: live).frame(width: 84, height: 84)
                 }
                 .buttonStyle(.plain)
-                .accessibilityLabel(L("celebrate.photo"))
+                .accessibilityLabel(LIn(guideLanguage, "celebrate.photo"))
                 .accessibilityIdentifier("pgShutter")
                 VStack(spacing: 10) {
-                    toggle(L("pg.autoShutter"), symbol: "timer", on: autoShutter) {
+                    toggle(LIn(guideLanguage, "pg.autoShutter"), symbol: "timer", on: autoShutter) {
                         autoShutter.toggle()
                         if !autoShutter { cancelCountdown() }
-                        show(L(autoShutter ? "pg.autoOn" : "pg.autoOff"))
+                        show(LIn(guideLanguage, autoShutter ? "pg.autoOn" : "pg.autoOff"))
                     }
                     .accessibilityIdentifier("pgAutoShutter")
-                    // 只是状态显示（自动变焦的倍数），不是按钮
-                    ZoomReadout(camera: camera).frame(width: 64, height: 50)
+                    // 变焦：点一下在 自动 → 1× → 2× → 自动 之间切换
+                    Button(action: cycleZoom) {
+                        ZoomLabel(camera: camera, manual: manualZoom, language: guideLanguage)
+                            .frame(width: 64, height: 58)
+                            .background(manualZoom == nil ? Color.black.opacity(0.45) : Color.yellow,
+                                        in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                            .foregroundStyle(manualZoom == nil ? Color.white : Color.black)
+                            .contentShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityIdentifier("pgZoom")
                 }
             }
         }
@@ -373,7 +388,7 @@ struct PhotographerModeView: View {
             VStack(spacing: 2) {
                 Image(systemName: symbol).font(.body.weight(.semibold))
                 Text(title).font(.caption2.weight(.semibold))
-                Text(on ? L("pg.on") : L("pg.off")).font(.system(size: 9, weight: .bold))
+                Text(LIn(guideLanguage, on ? "pg.on" : "pg.off")).font(.system(size: 9, weight: .bold))
             }
             .foregroundStyle(on ? Color.black : Color.white)
             .frame(width: 64, height: 58)
@@ -383,6 +398,22 @@ struct PhotographerModeView: View {
         }
         .buttonStyle(.plain)
         .accessibilityAddTraits(on ? .isSelected : [])
+    }
+
+    /// 变焦：自动（App 根据人物大小微调）→ 固定 1× → 固定 2× → 自动
+    private func cycleZoom() {
+        switch manualZoom {
+        case nil: manualZoom = 1
+        case 1?: manualZoom = 2
+        default: manualZoom = nil
+        }
+        if let z = manualZoom {
+            camera.setZoom(z, rate: 12)
+            show(LIn(guideLanguage, "pg.zoomManual", String(format: "%.0f×", z)))
+        } else {
+            camera.setZoom(baseZoom, rate: 12)
+            show(LIn(guideLanguage, "pg.zoomAutoOn"))
+        }
     }
 
     private func show(_ message: String) {
@@ -424,13 +455,13 @@ struct PhotographerModeView: View {
             target: target, subject: camera.subjectBox,
             headingDelta: headingDelta, pitchDelta: pitchDelta,
             verticalFOV: fov.vertical, horizontalFOV: fov.horizontal,
-            zoomCorrectable: (range.lowerBound / zoom)...(range.upperBound / zoom))
+            zoomCorrectable: manualZoom == nil ? (range.lowerBound / zoom)...(range.upperBound / zoom) : 1...1)
         let previous = live.guidance?.step
         if live.guidance != g { live.guidance = g }
         let now = CACurrentMediaTime()
 
         // 自动变焦：人物大小差一点时由 App 补上（限制频率，等画面稳定后再调）
-        if let subject = camera.subjectBox, abs(headingDelta ?? 0) < 20, now - live.lastZoomAdjust > 0.5 {
+        if manualZoom == nil, let subject = camera.subjectBox, abs(headingDelta ?? 0) < 20, now - live.lastZoomAdjust > 0.5 {
             let needed = target.height / max(subject.height, 0.02)
             if abs(needed - 1) > 0.06 {
                 camera.setZoom(zoom * (1 + (needed - 1) * 0.6))
@@ -652,19 +683,19 @@ private struct ShutterRing: View {
     }
 }
 
-/// 自动变焦倍数（只是状态，不可点）
-private struct ZoomReadout: View {
+/// 变焦按钮的内容：当前倍数 + 自动 / 手动
+private struct ZoomLabel: View {
     let camera: CameraController
+    let manual: Double?
+    let language: String
     var body: some View {
         VStack(spacing: 1) {
+            Image(systemName: "plus.magnifyingglass").font(.caption.weight(.semibold))
             Text(String(format: "%.1f×", camera.zoomFactor))
                 .font(.subheadline.bold().monospacedDigit())
-            Text(L("pg.autoZoom")).font(.system(size: 9, weight: .semibold)).opacity(0.8)
+            Text(LIn(language, manual == nil ? "pg.zoomAuto" : "pg.zoomFixed"))
+                .font(.system(size: 9, weight: .bold))
         }
-        .foregroundStyle(.white)
-        .opacity(camera.zoomFactor > 1.01 ? 1 : 0)
-        .allowsHitTesting(false)
-        .accessibilityHidden(true)
     }
 }
 

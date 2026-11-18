@@ -92,6 +92,11 @@ struct SpotDetailView: View {
                     .font(.subheadline.weight(.semibold))
                 }
 
+                // 原作画面：我们不能收录动画截图，所以把“网上搜这一幕 / 用自己的截图”放在显眼的位置
+                DetailSection(title: L("detail.originalScene"), systemImage: "photo.on.rectangle", tint: spot.tintColor) {
+                    sceneImageControls
+                }
+
                 if let highlight = spot.highlight {
                     DetailSection(title: L("detail.highlight"), systemImage: "sparkles", tint: spot.tintColor) {
                         Text(highlight).font(.body.weight(.medium)).lineSpacing(4)
@@ -122,10 +127,6 @@ struct SpotDetailView: View {
                 }
 
                 aboutWork
-
-                DetailSection(title: L("detail.myScreenshot"), systemImage: "photo.on.rectangle", tint: spot.tintColor) {
-                    sceneImageControls
-                }
 
                 if !spot.verified {
                     Label(L("detail.unverified"), systemImage: "info.circle")
@@ -239,32 +240,41 @@ struct SpotDetailView: View {
 private extension SpotDetailView {
     /// 名场面画面：从自己的相册选一张截图（仅保存在本机），或去网上搜索这一幕。
     var sceneImageControls: some View {
-        VStack(alignment: .leading, spacing: 6) {
+        VStack(alignment: .leading, spacing: 10) {
+            Text(L("detail.originalSceneHint"))
+                .font(.callout)
+                .foregroundStyle(.secondary)
+            // 最常用的：去网上看看这一幕原本的样子
+            Button {
+                if let url = imageSearchURL { openURL(url) }
+            } label: {
+                Label(L("detail.searchWeb"), systemImage: "magnifyingglass")
+                    .font(.subheadline.weight(.semibold))
+                    .frame(maxWidth: .infinity, minHeight: 30)
+            }
+            .glassButton(prominent: true, tint: spot.tintColor)
+            .accessibilityIdentifier("searchScene")
             HStack(spacing: 10) {
                 PhotosPicker(selection: $pickedPhoto, matching: .images) {
                     Label(SceneImageStore.shared.hasImage(for: spot.id) ? L("detail.changeImage") : L("detail.addImage"),
                           systemImage: "photo.badge.plus")
+                        .frame(maxWidth: .infinity, minHeight: 30)
                 }
+                .glassButton()
                 if SceneImageStore.shared.hasImage(for: spot.id) {
                     Button(role: .destructive) {
                         SceneImageStore.shared.delete(for: spot.id)
                     } label: {
-                        Image(systemName: "trash")
+                        Image(systemName: "trash").frame(minWidth: 30, minHeight: 30)
                     }
+                    .glassButton()
                     .accessibilityLabel(L("detail.deleteImage"))
                 }
-                Spacer()
-                Button {
-                    if let url = imageSearchURL { openURL(url) }
-                } label: {
-                    Label(L("detail.searchWeb"), systemImage: "magnifyingglass")
-                }
             }
-            .font(.footnote.weight(.semibold))
-            .glassButton()
+            .font(.subheadline.weight(.semibold))
 
             Text(imageMessage ?? L("detail.imageHint"))
-                .font(.caption2)
+                .font(.caption)
                 .foregroundStyle(.secondary)
         }
         .onChange(of: pickedPhoto) { _, item in

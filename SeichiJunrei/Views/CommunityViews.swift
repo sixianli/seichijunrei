@@ -282,6 +282,9 @@ struct SubmitSceneView: View {
     @State private var done = false
     @State private var message: String?
     @State private var camera: MapCameraPosition = .userLocation(fallback: .automatic)
+    /// 地点名称是不是自动反查出来的（用户手动改过之后就不再覆盖）
+    @State private var placeAutoFilled = false
+    @State private var geocoder = CLGeocoder()
 
     private var problems: [SceneDraft.Field: [ContentFilter.Problem]] { currentDraft.problems() }
 
@@ -327,18 +330,22 @@ struct SubmitSceneView: View {
             orientation.start()
         }
         .onDisappear { orientation.stop() }
+        .onChange(of: useCurrentLocation) { _, _ in autofillPlaceName() }
+        .onChange(of: pinned?.latitude) { _, _ in autofillPlaceName() }
+        .task(id: location.lastLocation == nil) { autofillPlaceName() }
     }
 
     private var form: some View {
         Form {
             Section {
                 Text(L("submit.intro")).font(.callout).foregroundStyle(.secondary)
+                Text(L("submit.requiredLegend")).font(.caption).foregroundStyle(.secondary)
             }
             Section(L("submit.work")) {
-                TextField(L("submit.workTitle"), text: $draft.workTitle)
+                TextField(L("submit.workTitle") + " *", text: $draft.workTitle)
                     .accessibilityIdentifier("submitWorkTitle")
                 problemText(.workTitle)
-                Picker(L("list.type"), selection: $draft.mediaType) {
+                Picker(L("list.type") + " *", selection: $draft.mediaType) {
                     Text(L("media.anime")).tag(MediaType.anime)
                     Text(L("submit.animeFilm")).tag(MediaType.animeFilm)
                     Text(L("media.drama")).tag(MediaType.drama)
@@ -346,35 +353,33 @@ struct SubmitSceneView: View {
                 }
             }
             Section(L("submit.scene")) {
-                TextField(L("submit.sceneTitle"), text: $draft.sceneTitle)
+                TextField(L("submit.sceneTitle") + " *", text: $draft.sceneTitle)
                     .accessibilityIdentifier("submitSceneTitle")
                 problemText(.sceneTitle)
                 TextField(L("submit.episode"), text: $draft.episode)
-                TextField(L("submit.story"), text: $draft.story, axis: .vertical)
+                TextField(L("submit.story") + " *", text: $draft.story, axis: .vertical)
                     .lineLimit(3...8)
                     .accessibilityIdentifier("submitStory")
                 problemText(.story)
             }
-            Section(L("submit.place")) {
-                TextField(L("submit.placeName"), text: $draft.placeName)
-                    .accessibilityIdentifier("submitPlaceName")
-                problemText(.placeName)
+            Section {
                 Picker(L("submit.position"), selection: $useCurrentLocation) {
                     Text(L("submit.useHere")).tag(true)
                     Text(L("submit.pickOnMap")).tag(false)
                 }
                 .pickerStyle(.segmented)
                 if useCurrentLocation {
+                    Text(L("submit.hereHint")).font(.caption).foregroundStyle(.secondary)
                     if let loc = location.lastLocation {
                         LabeledContent(L("submit.coordinate"),
                                        value: String(format: "%.5f, %.5f", loc.coordinate.latitude, loc.coordinate.longitude))
                         LabeledContent(L("submit.heading"),
                                        value: orientation.heading.map { "\(Compass.name($0)) \(Int($0.rounded()) % 360)°" } ?? "—")
-                        Text(L("submit.hereHint")).font(.caption).foregroundStyle(.secondary)
                     } else {
                         Text(L("scene.locating")).foregroundStyle(.secondary)
                     }
                 } else {
+                    Text(L("submit.pinHint")).font(.caption).foregroundStyle(.secondary)
                     MapReader { proxy in
                         Map(position: $camera) {
                             if let p = pinned {
@@ -388,15 +393,21 @@ struct SubmitSceneView: View {
                     }
                     .frame(height: 220)
                     .clipShape(RoundedRectangle(cornerRadius: 12))
-                    Text(L("submit.pinHint")).font(.caption).foregroundStyle(.secondary)
                     VStack(alignment: .leading) {
                         Text(L("submit.manualHeading", Compass.name(manualHeading), Int(manualHeading)))
                         Slider(value: $manualHeading, in: 0...359, step: 1)
                     }
                 }
-                problemText(.location)
+                TextField(L("submit.placeName") + " *", text: Binding(
+                    get: { draft.placeName },
+                    set: { draft.placeName = $0; placeAutoFilled = false }))
+                    .accessibilityIdentifier("submitPlaceName")
+                Text(L("submit.placeAutoHint")).font(.caption).foregroundStyle(.secondary)
+                problemText(.placeName)
+            } header: {
+                Text(L("submit.place") + " *")
             }
-            Section(L("submit.photo")) {
+            Section {
                 if let image {
                     Image(uiImage: image).resizable().scaledToFit().frame(maxHeight: 200)
                         .clipShape(RoundedRectangle(cornerRadius: 12))
@@ -405,14 +416,18 @@ struct SubmitSceneView: View {
                     Label(image == nil ? L("submit.addPhoto") : L("submit.changePhoto"), systemImage: "photo.badge.plus")
                 }
                 Text(L("submit.photoHint")).font(.caption).foregroundStyle(.secondary)
+            } header: {
+                Text(L("submit.photo") + " *")
             }
             Section {
-                Toggle(L("submit.agree"), isOn: $agreed)
+                Toggle(L("submit.agree") + " *", isOn: $agreed)
                     .accessibilityIdentifier("submitAgree")
                 Text(L("community.rules")).font(.caption).foregroundStyle(.secondary)
                 if let message {
                     Text(message).foregroundStyle(.orange)
                 }
+            }
+            Section {
                 Button {
                     guard let image else { return }
                     submitting = true
@@ -426,15 +441,22 @@ struct SubmitSceneView: View {
                     }
                 } label: {
                     HStack {
-                        if submitting { ProgressView() }
+                        if submitting { ProgressView().tint(.white) }
                         Text(L("submit.send")).font(.headline)
                     }
-                    .frame(maxWidth: .infinity)
+                    .frame(maxWidth: .infinity, minHeight: 34)
                 }
-                .disabled(!agreed || !problems.isEmpty || submitting)
+                // 置灰时也保持按钮的样子，不能变成一行纯文字
+                .buttonStyle(.borderedProminent)
+                .controlSize(.large)
+                .disabled(!missingFields.isEmpty || submitting)
+                .listRowInsets(EdgeInsets())
+                .listRowBackground(Color.clear)
                 .accessibilityIdentifier("submitSend")
-                if !problems.isEmpty {
-                    Text(L("submit.missing")).font(.caption).foregroundStyle(.secondary)
+            } footer: {
+                if !missingFields.isEmpty {
+                    Text(L("submit.stillMissing", missingFields.joined(separator: L("submit.listSeparator"))))
+                        .accessibilityIdentifier("submitMissing")
                 }
             }
         }
@@ -450,6 +472,42 @@ struct SubmitSceneView: View {
                     await MainActor.run { image = img }
                 }
                 await MainActor.run { picked = nil }
+            }
+        }
+    }
+
+    /// 还没填好的必填项（用于按钮下方的提示）
+    private var missingFields: [String] {
+        let p = problems
+        var out: [String] = []
+        if p[.workTitle] != nil { out.append(L("submit.workTitleShort")) }
+        if p[.sceneTitle] != nil { out.append(L("submit.sceneTitleShort")) }
+        if p[.story] != nil { out.append(L("submit.storyShort")) }
+        if p[.placeName] != nil { out.append(L("submit.placeNameShort")) }
+        if p[.location] != nil { out.append(L(useCurrentLocation ? "submit.locationShort" : "submit.pinShort")) }
+        if p[.heading] != nil { out.append(L("submit.headingShort")) }
+        if p[.photo] != nil { out.append(L("submit.photoShort")) }
+        if !agreed { out.append(L("submit.agreeShort")) }
+        return out
+    }
+
+    /// 根据机位坐标反查地址，自动填写地点名称（用户手动改过就不覆盖）
+    private func autofillPlaceName() {
+        guard draft.placeName.isEmpty || placeAutoFilled,
+              let lat = currentDraft.latitude, let lon = currentDraft.longitude else { return }
+        geocoder.cancelGeocode()
+        geocoder.reverseGeocodeLocation(CLLocation(latitude: lat, longitude: lon),
+                                        preferredLocale: Locale(identifier: AppLanguage.current)) { marks, _ in
+            guard let m = marks?.first else { return }
+            let name = [m.name, m.locality].compactMap { $0 }.reduce(into: [String]()) { acc, part in
+                if !acc.contains(part) { acc.append(part) }
+            }
+            guard let first = name.first else { return }
+            let text = name.count > 1 ? L("submit.placeFormat", first, name[1]) : first
+            DispatchQueue.main.async {
+                guard draft.placeName.isEmpty || placeAutoFilled else { return }
+                draft.placeName = text
+                placeAutoFilled = true
             }
         }
     }

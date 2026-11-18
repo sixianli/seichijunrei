@@ -52,7 +52,13 @@ struct CalibrationView: View {
                                 .font(.footnote).foregroundStyle(.secondary)
                         }
                         submitButton
-                        Text(L("calib.consensus")).font(.caption2).foregroundStyle(.secondary)
+                        if let reason = disabledReason {
+                            Label(reason, systemImage: "info.circle.fill")
+                                .font(.footnote.weight(.semibold))
+                                .foregroundStyle(.orange)
+                                .accessibilityIdentifier("calibrationDisabledReason")
+                        }
+                        Text(L("calib.consensus")).font(.caption).foregroundStyle(.secondary)
                     }
                 }
                 .padding()
@@ -137,6 +143,24 @@ struct CalibrationView: View {
     }
 
     private var onCooldown: Bool { !CalibrationService.shared.canSubmitAgain(spotID: spot.id) }
+
+    /// 提交按钮为什么不能点（让用户知道该怎么做，而不是猜）
+    private var disabledReason: String? {
+        guard !submitting else { return nil }
+        if onCooldown { return L("calib.why.cooldown") }
+        guard let r = reading else { return L("calib.why.locating") }
+        if r.isSimulated == true { return L("calib.why.simulated") }
+        let d = GeoMath.distance(from: r.point, to: spot.coordinate)
+        if d > CalibrationQuality.maxSubmitDistance { return L("calib.why.tooFar") }
+        if r.heading == nil { return L("calib.why.noHeading") }
+        if r.horizontalAccuracy < 0 || r.horizontalAccuracy > CalibrationQuality.maxSubmitGPSAccuracy {
+            return L("calib.why.gps")
+        }
+        if d > CalibrationQuality.farDistance && note.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+            return L("calib.why.needNote")
+        }
+        return nil
+    }
 
     private var canSubmit: Bool {
         guard let r = reading, !onCooldown else { return false }
