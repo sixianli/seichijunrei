@@ -167,3 +167,8 @@ func LIn(_ code: String, _ key: String, _ args: CVarArg...) -> String {
     let format = bundle.localizedString(forKey: key, value: nil, table: nil)
     return args.isEmpty ? format : String(format: format, locale: Locale(identifier: code), arguments: args)
 }
+
+extension SpotKind {
+    var label: String { self == .landmark ? L("kind.landmark") : L("kind.scene") }
+    var symbol: String { self == .landmark ? "building.columns.fill" : "film" }
+}

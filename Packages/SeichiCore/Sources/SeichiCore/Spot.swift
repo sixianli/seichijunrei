@@ -35,6 +35,11 @@ public struct SpotPhoto: Codable, Hashable, Sendable {
     }
 }
 
+/// 名场面·取景地，还是官方圣地（版权方 / 地方政府设立的铜像、纪念馆、常设展等）
+public enum SpotKind: String, Codable, Hashable, Sendable {
+    case scene, landmark
+}
+
 /// 详情页封面插画：据真实地点的照片重绘成动画背景美术风格，随 App 打包。
 public struct SpotIllustration: Codable, Hashable, Sendable {
     /// 打包在 App 里的图片名（不含 .jpg）
@@ -131,6 +136,8 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
     public var photo: SpotPhoto?
     /// 封面插画
     public var illustration: SpotIllustration?
+    /// 名场面·取景地 / 官方圣地
+    public var kind: SpotKind
     /// 最佳到访月份（1–12）
     public var bestMonths: [Int]
     /// 步行起点（车站出口 / 巴士站）
@@ -164,7 +171,8 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
                 spoiler: Bool = false, photo: SpotPhoto? = nil, year: Int? = nil,
                 creator: String? = nil, synopsis: String? = nil, officialURL: String? = nil,
                 country: String? = nil, illustration: SpotIllustration? = nil,
-                bestMonths: [Int] = [], accessPoint: GeoPoint? = nil, accessPointName: String? = nil) {
+                bestMonths: [Int] = [], accessPoint: GeoPoint? = nil, accessPointName: String? = nil,
+                kind: SpotKind = .scene) {
         self.id = id; self.workID = workID ?? work; self.work = work; self.workLocalized = workLocalized
         self.mediaType = mediaType; self.aliases = aliases
         self.placeName = placeName; self.sceneTitle = sceneTitle; self.episode = episode
@@ -178,6 +186,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         self.creator = creator; self.synopsis = synopsis; self.officialURL = officialURL
         self.country = country; self.illustration = illustration
         self.bestMonths = bestMonths; self.accessPoint = accessPoint; self.accessPointName = accessPointName
+        self.kind = kind
     }
 
     enum CodingKeys: String, CodingKey {
@@ -185,7 +194,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         case latitude, longitude, sceneHeading, scenePitch, arrivalRadius
         case sceneImage, sourceURL, verified, tint, translations
         case workID, highlight, access, bestTime, spoiler, photo, year, creator, synopsis, officialURL, country, illustration
-        case bestMonths, accessPoint, accessPointName
+        case bestMonths, accessPoint, accessPointName, kind
     }
 
     public init(from decoder: Decoder) throws {
@@ -223,6 +232,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         photo = try c.decodeIfPresent(SpotPhoto.self, forKey: .photo)
         illustration = try c.decodeIfPresent(SpotIllustration.self, forKey: .illustration)
         bestMonths = try c.decodeIfPresent([Int].self, forKey: .bestMonths) ?? []
+        kind = try c.decodeIfPresent(SpotKind.self, forKey: .kind) ?? .scene
         accessPoint = try c.decodeIfPresent(GeoPoint.self, forKey: .accessPoint)
         accessPointName = try c.decodeIfPresent(String.self, forKey: .accessPointName)
         year = try c.decodeIfPresent(Int.self, forKey: .year)
@@ -262,6 +272,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         try c.encodeIfPresent(photo, forKey: .photo)
         try c.encodeIfPresent(illustration, forKey: .illustration)
         if !bestMonths.isEmpty { try c.encode(bestMonths, forKey: .bestMonths) }
+        if kind != .scene { try c.encode(kind, forKey: .kind) }
         try c.encodeIfPresent(accessPoint, forKey: .accessPoint)
         try c.encodeIfPresent(accessPointName, forKey: .accessPointName)
         try c.encodeIfPresent(year, forKey: .year)
@@ -393,6 +404,7 @@ struct CatalogFile: Decodable {
         var illustration: SpotIllustration?
         var bestMonths: [Int]?
         var accessPoint: GeoPoint?
+        var kind: SpotKind?
         var verified: Bool?
         var text: [String: SpotText]
     }
@@ -433,7 +445,8 @@ struct CatalogFile: Decodable {
                         spoiler: r.spoiler ?? false, photo: r.photo, year: w.year,
                         creator: wt?.creator ?? w.creator, synopsis: wt?.synopsis, officialURL: w.officialURL,
                         country: w.country == "JP" ? nil : w.country, illustration: r.illustration,
-                        bestMonths: r.bestMonths ?? [], accessPoint: r.accessPoint, accessPointName: t.accessPointName)
+                        bestMonths: r.bestMonths ?? [], accessPoint: r.accessPoint, accessPointName: t.accessPointName,
+                        kind: r.kind ?? .scene)
         }
     }
 }

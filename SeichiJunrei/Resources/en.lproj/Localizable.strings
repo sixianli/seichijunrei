@@ -292,6 +292,9 @@
 "submit.status.hidden" = "Hidden";
 "submit.status.received" = "Received";
 "submit.status.removed" = "Removed";
+"detail.landmarkSubtitle" = "Walk to the official landmark and take the classic shot";
+"kind.scene" = "Scene location";
+"kind.landmark" = "Official landmark";
 "photo.lookAround" = "Look Around";
 "photo.satellite" = "Satellite view";
 "format.sceneNumber" = "Scene %@";

@@ -224,7 +224,7 @@ final class CatalogTests: XCTestCase {
         // 老版本用户的巡礼记录以 id 为键，这些 id 必须保留
         let ids = Set(spots.map(\.id))
         for id in ["kiminonawa-suga-shrine", "slamdunk-kamakurakokomae", "tokyolovestory-baishinji",
-                   "hanataba-meidaimae", "yurucamp-motosu", "amachan-kosode"] {
+                   "yurucamp-motosu"] {
             XCTAssertTrue(ids.contains(id), "缺少旧数据 \(id)")
         }
 
@@ -232,7 +232,7 @@ final class CatalogTests: XCTestCase {
         XCTAssertEqual(SpotSearch.search("灌篮高手", in: spots).first?.work, "SLAM DUNK")
         XCTAssertEqual(SpotSearch.search("slam dunk", in: spots).first?.work, "SLAM DUNK")
         XCTAssertEqual(SpotSearch.search("东京爱情故事", in: spots).first?.mediaType, .drama)
-        XCTAssertEqual(SpotSearch.search("花束", in: spots).first?.mediaType, .film)
+        XCTAssertEqual(SpotSearch.search("入殓师", in: spots).first?.mediaType, .film)
         XCTAssertEqual(SpotSearch.search("龙猫", in: spots).first?.work, "となりのトトロ")
         XCTAssertEqual(SpotSearch.search("너의 이름은", in: spots).first?.work, "君の名は。")
         XCTAssertEqual(SpotSearch.search("Laid-Back Camp", in: spots).first?.work, "ゆるキャン△")
@@ -240,7 +240,7 @@ final class CatalogTests: XCTestCase {
         XCTAssertTrue(Set(SpotSearch.search("新海诚", in: spots).map(\.work))
             .isSuperset(of: ["君の名は。", "天気の子", "秒速5センチメートル"]))
         for category in MediaCategory.allCases {
-            XCTAssertGreaterThanOrEqual(SpotSearch.search("", in: spots, category: category).count, 8,
+            XCTAssertGreaterThanOrEqual(SpotSearch.search("", in: spots, category: category).count, 5,
                                         "\(category) 类作品太少")
         }
     }

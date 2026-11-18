@@ -72,6 +72,8 @@ def check_spot(s, r):
     if p is not None and not -30 <= p <= 45: r.err(where, "scenePitch 必须在 -30…45")
     if not 10 <= s.get("arrivalRadius", 0) <= 300: r.err(where, "arrivalRadius 必须在 10…300")
     if not isinstance(s.get("spoiler"), bool): r.err(where, "spoiler 必须是 true/false")
+    if s.get("kind", "scene") not in ("scene", "landmark"):
+        r.err(where, "kind 只能是 scene（名场面·取景地）或 landmark（官方圣地）")
     if s.get("verified", False) is not False: r.err(where, "verified 只能是 false")
     photo = s.get("photo")
     if isinstance(photo, dict):

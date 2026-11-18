@@ -292,6 +292,9 @@
 "submit.status.hidden" = "已隱藏";
 "submit.status.received" = "已收到";
 "submit.status.removed" = "已刪除";
+"detail.landmarkSubtitle" = "走到官方聖地，拍一張同角度的紀念照";
+"kind.scene" = "名場面 · 取景地";
+"kind.landmark" = "官方聖地";
 "photo.lookAround" = "Apple 街景";
 "photo.satellite" = "衛星實景";
 "format.sceneNumber" = "名場面%@";

@@ -292,6 +292,9 @@
 "submit.status.hidden" = "非表示";
 "submit.status.received" = "受付済み";
 "submit.status.removed" = "削除済み";
+"detail.landmarkSubtitle" = "公式の聖地まで行って、記念の一枚を";
+"kind.scene" = "名シーンの舞台";
+"kind.landmark" = "公式の聖地";
 "photo.lookAround" = "Look Around";
 "photo.satellite" = "航空写真";
 "format.sceneNumber" = "名シーン%@";

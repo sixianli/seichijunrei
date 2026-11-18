@@ -13,14 +13,6 @@
     "note": "开发者本人在现场拍摄的照片（重画，替换原来据 Commons 照片生成的版本）；正门牌匾和门帘上的字已盖掉",
     "realPhotoMatches": false
   },
-  "lovelive-kanda-myojin": {
-    "source": "owner",
-    "note": "开发者本人在现场拍摄；生成前已把照片里的招牌和商标盖掉",
-    "realPhotoMatches": false
-  },
-  "lovelive-sunshine-mitohama": {
-    "source": "catalog"
-  },
   "kiminonawa-hida-furukawa": {
     "source": "owner",
     "note": "开发者本人在现场拍摄的照片",
@@ -118,24 +110,9 @@
     "note": "开发者本人在现场拍摄的照片；店名霓虹招牌、海报、告示生成前已盖掉，并改画成白天",
     "realPhotoMatches": false
   },
-  "garupan-isosaki-jinja": {
-    "source": "owner",
-    "note": "开发者本人在现场拍摄的照片；台阶上的行人已去掉",
-    "realPhotoMatches": true
-  },
-  "garupan-sakanaya": {
-    "source": "owner",
-    "note": "开发者本人在现场拍摄的照片；店名招牌、角色立牌、车辆生成前已去掉",
-    "realPhotoMatches": false
-  },
   "only-yesterday-takase-safflower": {
     "source": "owner",
     "note": "开发者本人在现场拍摄的照片",
     "realPhotoMatches": false
-  },
-  "luckystar-washinomiya": {
-    "source": "owner",
-    "note": "开发者本人在现场拍摄的照片；店铺招牌和石柱文字生成前已盖掉",
-    "realPhotoMatches": true
   }
 }
