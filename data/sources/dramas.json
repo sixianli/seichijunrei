@@ -382,114 +382,6 @@
       }
     },
     {
-      "id": "saiko-no-rikon",
-      "title": "最高の離婚",
-      "mediaType": "drama",
-      "year": 2013,
-      "creator": "フジテレビ / 脚本：坂元裕二",
-      "tint": "#D98CA0",
-      "aliases": [
-        "The Best Divorce",
-        "Saikou no Rikon",
-        "Saiko no Rikon",
-        "最完美的离婚",
-        "最完美的離婚",
-        "最高的离婚",
-        "최고의 이혼",
-        "瑛太",
-        "永山瑛太",
-        "尾野真千子",
-        "真木よう子",
-        "真木阳子",
-        "綾野剛",
-        "绫野刚",
-        "坂元裕二",
-        "中目黒",
-        "中目黑",
-        "目黒川",
-        "濱崎光生",
-        "濱崎結夏"
-      ],
-      "text": {
-        "zh-Hans": {
-          "title": "最完美的离婚",
-          "creator": "富士电视台 / 编剧：坂元裕二",
-          "synopsis": "神经质又爱唠叨的滨崎光生和大大咧咧的妻子结夏，在 3·11 大地震那晚步行回家的路上相识、闪婚。两年后，两人在目黑川边的家里因为一件件小事吵到离婚，却又因为种种原因继续住在一起。坂元裕二以喜剧的方式，写尽了婚姻里的不讲理和放不下。"
-        },
-        "zh-Hant": {
-          "title": "最完美的離婚"
-        },
-        "ja": {
-          "title": "",
-          "synopsis": "神経質で理屈っぽい濱崎光生と、大ざっぱな妻・結夏。東日本大震災の夜、歩いて帰る途中で出会った二人はスピード結婚したが、2年後、目黒川沿いの家で些細なことからぶつかり合い、離婚してしまう。それでもなぜか同居を続ける元夫婦を描く、坂元裕二の会話劇。"
-        },
-        "en": {
-          "title": "The Best Divorce",
-          "creator": "Fuji TV / Written by Yuji Sakamoto",
-          "synopsis": "Fussy, neurotic Mitsuo and his easygoing wife Yuka met while walking home on the night of the 2011 earthquake and married soon after. Two years on, in their house beside Tokyo's Meguro River, endless small clashes push them into divorce, yet they keep living under the same roof. A sharp, funny Yuji Sakamoto comedy about how unreasonable marriage can be."
-        },
-        "ko": {
-          "title": "최고의 이혼",
-          "creator": "후지TV / 각본: 사카모토 유지",
-          "synopsis": "신경질적이고 잔소리 많은 미쓰오와 털털한 아내 유카는 동일본 대지진이 난 밤, 걸어서 집에 가던 길에 만나 서둘러 결혼했다. 2년 뒤 메구로강 변의 집에서 사소한 일로 부딪히다 결국 이혼하지만, 이런저런 사정으로 계속 한집에 산다. 결혼의 억지와 미련을 코미디로 그린 사카모토 유지의 대화극."
-        }
-      }
-    },
-    {
-      "id": "shinzanmono",
-      "title": "新参者",
-      "mediaType": "drama",
-      "year": 2010,
-      "creator": "TBS / 原作：東野圭吾",
-      "tint": "#7A5A3C",
-      "aliases": [
-        "Shinzanmono",
-        "The Newcomer",
-        "新参者",
-        "新參者",
-        "신참자",
-        "阿部寛",
-        "阿部宽",
-        "加賀恭一郎",
-        "加贺恭一郎",
-        "東野圭吾",
-        "东野圭吾",
-        "溝端淳平",
-        "沟端淳平",
-        "黒木メイサ",
-        "黑木美沙",
-        "人形町",
-        "日本橋",
-        "日本桥",
-        "麒麟の翼",
-        "麒麟之翼"
-      ],
-      "text": {
-        "zh-Hans": {
-          "title": "新参者",
-          "creator": "TBS / 原作：东野圭吾",
-          "synopsis": "刑警加贺恭一郎刚被调到日本桥警署，就碰上一桩发生在小传马町公寓里的命案。他每天在人形町的老街上走访煎饼店、钟表店、料亭和人形烧铺，从街坊们藏起来的一个个小谎言里，拼出被害人生前最后的日子。阿部宽主演，改编自东野圭吾的同名小说。"
-        },
-        "zh-Hant": {
-          "title": "新參者"
-        },
-        "ja": {
-          "title": "",
-          "synopsis": "日本橋署に着任したばかりの刑事・加賀恭一郎は、小伝馬町のマンションで起きた殺人事件を担当する。人形町の煎餅屋、時計店、料亭、人形焼屋を一軒ずつ訪ね歩き、町の人々がつく小さな嘘をほどきながら、被害者の最後の日々に迫っていく。東野圭吾原作、阿部寛主演。"
-        },
-        "en": {
-          "title": "Shinzanmono (The Newcomer)",
-          "creator": "TBS / Based on the novel by Keigo Higashino",
-          "synopsis": "Detective Kyoichiro Kaga has just transferred to the Nihonbashi police when a woman is murdered in her Kodenmacho apartment. Walking the old streets of Ningyocho, from rice-cracker shops and clockmakers to ryotei and ningyo-yaki bakeries, he unpicks the small lies the locals tell to piece together the victim's last days. Starring Hiroshi Abe, based on Keigo Higashino's novel."
-        },
-        "ko": {
-          "title": "신참자",
-          "creator": "TBS / 원작: 히가시노 게이고",
-          "synopsis": "니혼바시 경찰서에 막 부임한 형사 가가 교이치로는 고덴마초의 아파트에서 일어난 살인 사건을 맡는다. 닌교초의 센베이 가게, 시계점, 요정, 닌교야키 가게를 하나하나 찾아다니며 동네 사람들의 작은 거짓말을 풀어 나가고, 피해자의 마지막 나날에 다가간다. 히가시노 게이고 원작, 아베 히로시 주연."
-        }
-      }
-    },
-    {
       "id": "hanzawa-naoki",
       "title": "半沢直樹",
       "mediaType": "drama",
@@ -856,11 +748,11 @@
       },
       "text": {
         "zh-Hans": {
-          "placeName": "白金栈道桥 山手线旁（东京·目黑）",
+          "placeName": "白金栈道桥 山手线旁（东京·品川）",
           "sceneTitle": "“完治，我们做爱吧”",
           "episode": "1991 年版 · 第3话",
           "highlight": "一句笑着说出口的“完治，我们做爱吧！”，在 1991 年的黄金档电视上石破天惊。它被记了三十多年，是因为铃木保奈美把这句话演得一点也不轻佻，反而天真、坦荡——莉香就是这样一个想要什么就直说的女孩。比起暧昧试探，她的直球让她成了新时代女主角的代名词。桥下呼啸而过的山手线电车，也让这座不起眼的跨线桥成了东京恋爱剧的经典布景。",
-          "story": "莉香在公司里和同事闹得不愉快，完治笨拙地安慰她。走在目黑站附近这段俯瞰山手线的坡道上，莉香忽然停下来，冲着完治笑着说：“完治，我们做爱吧！”一句话把这个老实的爱媛青年吓得手足无措，两人的关系也就此开始，脚下的山手线电车照旧呼啸而过。莉香想要的从来不是暧昧，而是直接说出口的“喜欢”；而完治的犹豫，也从这一刻起埋下了伏笔。",
+          "story": "莉香在公司里和同事闹得不愉快，情绪低落，完治却笨拙得说不出安慰的话。走到目黑站北边这座横跨山手线的跨线桥上，莉香要他说一句“我喜欢你”——不是 LOVE 也行，LIKE 就好。完治说他是真的喜欢，莉香追问有多喜欢，他便张开双臂边跑边喊“喜欢你，有这——么多！”于是莉香笑着说出那句“完治，我们做爱吧！”，老实的爱媛青年顿时手足无措，脚下的山手线电车照旧呼啸而过。莉香想要的从来不是暧昧，而是直接说出口的“喜欢”；而完治的犹豫，也从这一刻起埋下了伏笔。",
           "access": "JR 山手线「目黑」站东口出站，向北步行约 300 米（约 5 分钟）进入上大崎二丁目住宅区，跨过铁轨的人行天桥就是白金栈道桥。",
           "accessPointName": "目黑站 东口",
           "bestTime": "入夜后电车灯光从桥下掠过最有剧中氛围；白天更易拍清桥和铁轨。住宅区请避开清晨和深夜。",
@@ -871,29 +763,29 @@
           "sceneTitle": "「カンチ、セックスしよ！」",
           "episode": "1991年版・第3話",
           "highlight": "笑顔で放たれた「カンチ、セックスしよ！」は、1991年のゴールデンタイムに衝撃を与えた。それでも30年以上語り継がれるのは、鈴木保奈美がこの台詞を少しも下品にせず、無邪気でまっすぐな言葉として響かせたからだ。駆け引きより本音を選ぶリカは、新しい時代のヒロイン像になった。橋の下を走り抜ける山手線とともに、何気ない跨線橋が東京の恋愛ドラマを象徴する風景になった。",
-          "story": "会社で同僚とぶつかって落ち込むリカを、カンチは不器用に励ます。目黒駅近く、山手線を見下ろすこの道を歩きながら、リカは突然立ち止まり、笑顔で「カンチ、セックスしよ！」と言う。愛媛から出てきた真面目な青年はうろたえるばかり。けれどこの一言から二人の関係は始まった。曖昧さではなく、まっすぐな「好き」を求めるリカと、迷い続けるカンチ。そのすれ違いの種も、この夜にまかれていた。",
+          "story": "会社で同僚とぶつかって落ち込むリカに、カンチはうまく励ましの言葉をかけられない。目黒駅の北、山手線をまたぐこの跨線橋で、リカは「LOVEじゃなくていい、LIKEでいいから」好きだと言ってほしいとせがむ。本当に好きだと答えたカンチは、どのくらいかと聞かれ、両手を広げて走りながら「好きだ。こーのくらい」。そしてリカは笑顔で「カンチ、セックスしよ！」と言い、愛媛から出てきた真面目な青年はうろたえるばかり。橋の下では山手線が変わらず走り抜けていく。曖昧さではなく、まっすぐな「好き」を求めるリカと、迷い続けるカンチ。そのすれ違いの種も、このときすでにまかれていた。",
           "access": "JR山手線「目黒」駅東口を出て北へ約300m（徒歩約5分）。上大崎2丁目の住宅街に入り、線路をまたぐ歩道橋が白金桟道橋。",
           "accessPointName": "目黒駅 東口",
           "bestTime": "日没後、橋の下を電車の明かりが流れる時間がドラマの雰囲気に近い。橋と線路をはっきり撮るなら日中。住宅街なので早朝・深夜は避けたい。",
           "tips": "橋の両側は住宅地。静かにし、住戸は撮らないこと。フェンスに登ったり、柵の外へカメラを突き出して線路を撮ったりしないこと。橋は幅が狭いので歩行者や自転車に道を譲って。"
         },
         "en": {
-          "placeName": "Shirokane Sando Bridge by the Yamanote Line (Meguro, Tokyo)",
+          "placeName": "Shirokane Sando Bridge by the Yamanote Line (Shinagawa, Tokyo)",
           "sceneTitle": "\"Kanchi, Let's Have Sex\"",
           "episode": "1991 series · Episode 3",
           "highlight": "Rika's beaming \"Kanchi, let's have sex!\" was a shock on 1991 prime-time TV. It's remembered three decades later because Honami Suzuki plays it without a trace of sleaze: it comes out innocent and completely honest, the line of a woman who simply says what she wants. Against a backdrop of coy will-they-won't-they romances, that directness made Rika a new kind of heroine. With Yamanote trains rushing underneath, this ordinary footbridge became a classic piece of Tokyo romance-drama scenery.",
-          "story": "After a bad clash with a coworker, Rika is cheered up, clumsily, by Kanchi. Walking along this road above the Yamanote Line near Meguro Station, she suddenly stops, smiles, and says, 'Kanchi, let's have sex!' The earnest young man from Ehime has no idea what to do, but their relationship starts here. Rika wants a 'like' said out loud, not something vague, while Kanchi keeps hesitating, and the gap between them that will shape the whole story is already visible on this night.",
+          "story": "Rika is down after a clash with a coworker, and Kanchi can't find the words to cheer her up. On this footbridge over the Yamanote Line just north of Meguro Station, she asks him to say he likes her: not love, 'like' is enough. He says he really does, and when she asks how much, he runs with his arms flung wide, shouting 'This much!' Then Rika smiles and says, 'Kanchi, let's have sex!' The earnest young man from Ehime has no idea what to do, while Yamanote trains rush by below. Rika wants a 'like' said out loud, not something vague, while Kanchi keeps hesitating, and the gap that will shape the whole story is already visible here.",
           "access": "From the East Exit of JR Meguro Station, walk about 300 m north (about 5 min) into the Kamiosaki 2-chome residential streets; the footbridge over the tracks is Shirokane Sandobashi.",
           "accessPointName": "Meguro Sta. East Exit",
           "bestTime": "After dark, when train lights stream beneath the bridge, it feels most like the drama; daytime is better for a clear shot of the bridge and tracks. It's residential, so avoid very early or late hours.",
           "tips": "Homes line both ends of the bridge: keep your voice down and don't photograph residences. Don't climb the fence or poke cameras through it toward the tracks. The bridge is narrow, so give way to pedestrians and bikes."
         },
         "ko": {
-          "placeName": "시로카네 산도교 · 야마노테선 옆 (도쿄 메구로)",
+          "placeName": "시로카네 산도교 · 야마노테선 옆 (도쿄 시나가와)",
           "sceneTitle": "\"칸치, 섹스하자!\"",
           "episode": "1991년판 · 제3화",
           "highlight": "웃으며 툭 던진 \"칸치, 섹스하자!\"는 1991년 황금 시간대 TV에 큰 충격이었다. 그런데도 30년 넘게 회자되는 건, 스즈키 호나미가 이 대사를 조금도 천박하지 않게, 오히려 천진하고 솔직하게 소화했기 때문이다. 밀고 당기기보다 속마음을 그대로 말하는 리카는 새로운 시대의 여주인공이 되었다. 다리 아래를 달려가는 야마노테선 전철과 함께, 평범한 육교는 도쿄 연애 드라마의 상징적인 풍경이 되었다.",
-          "story": "회사에서 동료와 부딪혀 속상한 리카를 칸치는 서툴게 위로한다. 메구로역 근처, 야마노테선을 내려다보는 이 길을 걷다가 리카는 갑자기 멈춰 서서 웃으며 말한다. \"칸치, 섹스하자!\" 에히메에서 올라온 순진한 청년은 어쩔 줄 몰라 하지만, 두 사람의 관계는 이 한마디에서 시작된다. 애매함이 아니라 분명한 '좋아해'를 원하는 리카와 계속 망설이는 칸치. 두 사람의 엇갈림도 이 밤에 이미 싹트고 있었다.",
+          "story": "회사에서 동료와 부딪혀 풀이 죽은 리카에게 칸치는 위로의 말을 제대로 건네지 못한다. 메구로역 북쪽, 야마노테선을 가로지르는 이 육교 위에서 리카는 \"LOVE가 아니어도 돼, LIKE라도 좋으니까\" 좋아한다고 말해 달라고 조른다. 정말 좋아한다고 답한 칸치는 얼마나 좋으냐는 물음에 두 팔을 활짝 벌리고 달리며 \"이~만큼 좋아!\"라고 외친다. 그러자 리카가 웃으며 말한다. \"칸치, 섹스하자!\" 에히메에서 올라온 순진한 청년은 어쩔 줄 몰라 하고, 다리 아래로는 야마노테선 전철이 변함없이 달려간다. 애매함이 아니라 분명한 '좋아해'를 원하는 리카와 계속 망설이는 칸치. 두 사람의 엇갈림도 이 순간 이미 싹트고 있었다.",
           "access": "JR 야마노테선 '메구로'역 동쪽 출구에서 북쪽으로 약 300m(도보 약 5분). 가미오사키 2초메 주택가로 들어가면 선로 위를 건너는 보행교가 시로카네 산도바시다.",
           "accessPointName": "메구로역 동쪽 출구",
           "bestTime": "해가 진 뒤 다리 아래로 전철 불빛이 스쳐 가는 시간이 드라마 분위기에 가깝다. 다리와 선로를 선명하게 찍으려면 낮이 좋다. 주택가이므로 이른 아침과 심야는 피하자.",
@@ -987,9 +879,9 @@
         "zh-Hans": {
           "placeName": "三陆铁道 大泽桥梁·松矶（岩手·普代村）",
           "sceneTitle": "挥舞大渔旗的送别",
-          "episode": "北三陆篇 · 阿秋上京",
-          "highlight": "夏外婆一向嘴硬，从不说一句软话；可当阿秋的列车驶上大泽桥梁，她却站在桥下礁石上拼命挥舞大渔旗。宫本信子没有一句台词，全靠那面旗子喊出了说不出口的疼爱，也补上了当年春子离家时没能得到的那场送别。许多观众把这一幕称为《海女》里哭得最厉害的瞬间，蓝色大海上列车驶过高高铁桥的画面，也成了三陆铁道最具代表性的风景之一。",
-          "story": "阿秋终于决定去东京追逐偶像梦。离开北三陆那天，她坐上北三陆铁道的列车，车窗外是熟悉的大海。列车开上大泽桥梁时，她看见桥下松矶的礁石上，外婆夏正用尽全身力气挥舞着一面鲜艳的大渔旗为她送行。嘴上不饶人的外婆从不说软话，这面旗子就是她全部的心意。当年春子离家时没能得到的送别，如今由外婆补给了下一代。剧中的“袖之滨站”就是旁边的堀内站。",
+          "episode": "第12周 · 第72集（阿秋上京）",
+          "highlight": "夏外婆一向嘴硬，连车站都没去送行；可当阿秋的列车驶上大泽桥梁，她却站在桥下礁石上拼命挥舞大渔旗，高喊“万岁！万岁！撑不下去就回来吧！”阿秋在车窗里挥着头巾回应。许多观众把这一幕称为《海女》里哭得最厉害的瞬间，名场面排行中也常居第一。同一集还揭开了一个秘密：25 年前春子离家时，夏其实也在海边挥旗送过她。蓝色大海上列车驶过高高铁桥的画面，也成了三陆铁道最具代表性的风景之一。",
+          "story": "阿秋终于决定去东京追逐偶像梦。离开北三陆那天，嘴硬的外婆夏没有来车站送行。列车开上大泽桥梁时，阿秋从车窗望见桥下松矶的礁石上，夏正用尽全身力气挥舞着一面鲜艳的大渔旗，喊着“撑不下去就回来吧！”阿秋连忙挥着头巾大喊“我走啦！”另一边，一直以为当年离家时没有人送别的春子，从勉那里得知：25 年前，夏也曾在海边挥着大渔旗目送她离开，只是她没有看见。剧中的“袖之滨站”就是旁边的堀内站。",
           "access": "三陆铁道谷湾线「堀内」站出站后走到国道 45 号，沿国道向东南步行约 1.2 公里（约 18 分钟），在堀内大桥旁即可俯瞰大泽桥梁。",
           "accessPointName": "堀内站",
           "bestTime": "晴天上午到中午顺光，大海最蓝；列车每 1–2 小时才一班，先查好时刻表，提前 10 分钟到位等车过桥。",
@@ -998,9 +890,9 @@
         "ja": {
           "placeName": "三陸鉄道 大沢橋梁・松磯（岩手県普代村）",
           "sceneTitle": "大漁旗の見送り",
-          "episode": "北三陸編・アキ上京",
-          "highlight": "口が悪く、決して甘い言葉を言わない夏ばっぱ。そのばっぱが、大沢橋梁を渡るアキの列車に向かって、岩場から大漁旗を力いっぱい振る。宮本信子は台詞ひとつなく、旗だけで孫への言えない愛を叫び、かつて家を出た春子が受け取れなかった見送りまで取り戻してみせた。『あまちゃん』でいちばん泣いた場面にこの一幕を挙げる人は多く、青い海の上の高い鉄橋を列車が渡る景色は三陸鉄道を代表する眺めになった。",
-          "story": "アイドルを目指して東京へ行くと決めたアキ。北三陸を離れる日、北鉄の列車に乗り込んだ彼女が大沢橋梁にさしかかると、橋の下の松磯の岩場で、祖母・夏が全身で大きな大漁旗を振って見送っていた。口が悪く、決して甘い言葉を口にしない夏ばっぱの、それが精一杯の気持ちだった。かつて春子が家を出たときには叶わなかった見送りを、夏は次の世代に贈る。作中の「袖が浜駅」は、すぐそばの堀内駅。",
+          "episode": "第12週・第72回（アキ上京）",
+          "highlight": "口が悪く、駅にも見送りに来なかった夏ばっぱ。そのばっぱが、大沢橋梁を渡るアキの列車に向かって、岩場から大漁旗を力いっぱい振り、「万歳！万歳！つらくなったら帰ってこいよー」と叫ぶ。アキは車窓からはちまきを振って応える。『あまちゃん』でいちばん泣いた場面にこの一幕を挙げる人は多く、名場面ランキングでも1位に選ばれることが多い。同じ回で、25年前に春子が上京したときも夏が浜から旗を振っていたことが明かされる。青い海の上の高い鉄橋を列車が渡る景色は、三陸鉄道を代表する眺めになった。",
+          "story": "アイドルを目指して東京へ行くと決めたアキ。北三陸を離れる日、口の悪い祖母・夏は駅に見送りに来なかった。ところが列車が大沢橋梁にさしかかると、橋の下の松磯の岩場で、夏が全身で大きな大漁旗を振り、「つらくなったら帰ってこいよー」と叫んでいた。アキははちまきを振って「行ってくっからねー」と応える。一方、上京したとき誰にも見送られなかったと思い込んでいた春子は、勉さんから、25年前にも夏がちゃんと浜から旗を振って見送っていたことを知らされる。作中の「袖が浜駅」は、すぐそばの堀内駅。",
           "access": "三陸鉄道リアス線「堀内」駅から国道45号に出て、南東へ約1.2km（徒歩約18分）。堀内大橋のたもとから大沢橋梁を見下ろせる。",
           "accessPointName": "堀内駅",
           "bestTime": "晴れた日の午前〜昼は順光で海がいちばん青い。列車は1〜2時間に1本なので、時刻表を確認して10分前には構えておきたい。",
@@ -1009,9 +901,9 @@
         "en": {
           "placeName": "Sanriku Railway Osawa Bridge & Matsuiso (Fudai, Iwate)",
           "sceneTitle": "A Farewell with the Fishing Flag",
-          "episode": "Kita-Sanriku arc · Aki leaves for Tokyo",
-          "highlight": "Grandma Natsu is all sharp tongue and never says anything soft, yet when Aki's train crosses the Osawa bridge she is down on the rocks waving a big fishing-boat flag with everything she has. Nobuko Miyamoto doesn't speak a word: the flag shouts the love she can't say aloud, and gives Aki the send-off her own daughter Haruko never got. Many viewers name it the scene that made them cry hardest, and a train crossing the high bridge above the blue sea has become one of the Sanriku Railway's signature views.",
-          "story": "Aki has decided to go to Tokyo to chase her idol dream. On the day she leaves Kita-Sanriku, her train rolls onto the Osawa Bridge, and on the rocks of Matsuiso below she sees her grandmother Natsu waving a bright tairyo-bata fishing flag with all her strength. Sharp-tongued Natsu never says anything soft; the flag says it all for her. It's the send-off Haruko never got when she left home years ago, finally given to the next generation. The drama's 'Sodegahama Station' is nearby Horinai Station.",
+          "episode": "Week 12 · Episode 72 (Aki leaves for Tokyo)",
+          "highlight": "Sharp-tongued Grandma Natsu didn't even come to the station, yet when Aki's train crosses the Osawa bridge she is down on the rocks waving a big fishing-boat flag with everything she has, shouting 'Banzai! Banzai! If it gets hard, come home!' Aki waves her headband back from the window. Many viewers name it the scene that made them cry hardest, and it often tops fan rankings of the show's best moments. The same episode reveals that Natsu waved a flag from the shore for Haruko too, 25 years earlier. A train crossing the high bridge above the blue sea has become one of the Sanriku Railway's signature views.",
+          "story": "Aki has decided to go to Tokyo to chase her idol dream. On the day she leaves Kita-Sanriku, her sharp-tongued grandmother Natsu doesn't come to the station. But as the train rolls onto the Osawa Bridge, Aki sees her on the rocks of Matsuiso below, waving a bright tairyo-bata fishing flag with all her strength and shouting, 'If it gets hard, come home!' Aki waves her headband and yells back that she's off. Meanwhile Haruko, who always believed no one saw her off when she left home, learns from Tsutomu that 25 years ago Natsu stood on the shore waving a flag for her too. The drama's 'Sodegahama Station' is nearby Horinai Station.",
           "access": "From Horinai Station (Sanriku Railway Rias Line), head to Route 45 and follow it southeast about 1.2 km (about 18 min). The Osawa railway bridge is in view from beside Horinai Ohashi.",
           "accessPointName": "Horinai Sta.",
           "bestTime": "Late morning to midday on a clear day, with the sun behind you and the sea at its bluest. Trains come only every hour or two, so check the timetable and be in position 10 minutes early.",
@@ -1020,81 +912,13 @@
         "ko": {
           "placeName": "산리쿠 철도 오사와 교량 · 마쓰이소 (이와테현 후다이)",
           "sceneTitle": "대어기를 흔드는 배웅",
-          "episode": "기타산리쿠 편 · 아키의 상경",
-          "highlight": "입이 거칠고 다정한 말 한마디 하지 않는 나쓰 할머니. 그런 할머니가 오사와 교량을 건너는 아키의 열차를 향해 바위 위에서 대어기를 힘껏 흔든다. 미야모토 노부코는 대사 한마디 없이 깃발 하나로 말하지 못한 손녀 사랑을 외쳤고, 예전에 집을 떠난 하루코가 받지 못했던 배웅까지 되찾아 주었다. 많은 시청자가 『아마짱』에서 가장 많이 운 장면으로 꼽으며, 파란 바다 위 높은 철교를 열차가 건너는 풍경은 산리쿠철도를 대표하는 경치가 되었다.",
-          "story": "아이돌의 꿈을 좇아 도쿄로 가기로 한 아키. 기타산리쿠를 떠나는 날, 열차가 오사와 교량에 들어서자 다리 아래 마쓰이소 바위 위에서 할머니 나쓰가 온몸으로 큼직한 대어기를 흔들며 배웅하고 있었다. 입이 험하고 다정한 말은 절대 하지 않는 할머니의 마음이 그 깃발에 다 담겨 있었다. 예전에 하루코가 집을 떠날 때 받지 못했던 배웅을 나쓰는 다음 세대에게 건넨다. 드라마 속 '소데가하마역'은 바로 옆 호리나이역이다.",
+          "episode": "제12주 · 제72회 (아키의 상경)",
+          "highlight": "입이 거칠어 역에도 배웅을 나오지 않은 나쓰 할머니. 그런 할머니가 오사와 교량을 건너는 아키의 열차를 향해 바위 위에서 대어기를 힘껏 흔들며 \"만세! 만세! 힘들면 돌아와라!\" 하고 외친다. 아키는 차창 밖으로 머리띠를 흔들어 답한다. 많은 시청자가 『아마짱』에서 가장 많이 운 장면으로 꼽으며, 명장면 순위에서도 1위에 오르곤 한다. 같은 회에서 25년 전 하루코가 상경할 때도 나쓰가 바닷가에서 깃발을 흔들었다는 사실이 밝혀진다. 파란 바다 위 높은 철교를 열차가 건너는 풍경은 산리쿠철도를 대표하는 경치가 되었다.",
+          "story": "아이돌의 꿈을 좇아 도쿄로 가기로 한 아키. 기타산리쿠를 떠나는 날, 입이 험한 할머니 나쓰는 역에 배웅을 나오지 않았다. 그런데 열차가 오사와 교량에 들어서자, 다리 아래 마쓰이소 바위 위에서 나쓰가 온몸으로 큼직한 대어기를 흔들며 \"힘들면 돌아와라!\" 하고 외치고 있었다. 아키는 머리띠를 흔들며 \"다녀올게!\" 하고 답한다. 한편, 집을 떠날 때 아무도 배웅해 주지 않았다고 믿어 온 하루코는 쓰토무에게서 25년 전에도 나쓰가 바닷가에서 깃발을 흔들며 자신을 배웅했다는 사실을 듣게 된다. 드라마 속 '소데가하마역'은 바로 옆 호리나이역이다.",
           "access": "산리쿠철도 리아스선 '호리나이'역에서 국도 45호선으로 나와 남동쪽으로 약 1.2km(도보 약 18분). 호리나이 대교 옆에서 오사와 교량이 내려다보인다.",
           "accessPointName": "호리나이역",
           "bestTime": "맑은 날 오전~정오, 순광에 바다가 가장 푸르다. 열차는 1~2시간에 1편뿐이니 시간표를 확인하고 10분 전에는 자리를 잡자.",
           "tips": "국도 45호선은 차량 속도가 빠르고 갓길이 좁습니다. 가드레일 안쪽으로 걷고 대형차에 주의하세요. 선로 부지에 들어가거나 바위로 내려가지 마세요. 막차가 이르니 돌아갈 시간을 확인해 두세요."
-        }
-      }
-    },
-    {
-      "id": "firstlove-tokiwa-rotary",
-      "workID": "first-love-hatsukoi",
-      "latitude": 43.77436,
-      "longitude": 142.36248,
-      "sceneHeading": 0,
-      "scenePitch": 0,
-      "arrivalRadius": 60,
-      "spoiler": false,
-      "sourceURL": "https://www.visit-hokkaido.jp/spot/detail_13164.html",
-      "photo": "File:Asahikawa Tokiwa Rotary - Jan 3, 2023.jpg",
-      "verified": false,
-      "bestMonths": [
-        12,
-        1,
-        2
-      ],
-      "accessPoint": {
-        "latitude": 43.7755455,
-        "longitude": 142.3621269
-      },
-      "text": {
-        "zh-Hans": {
-          "placeName": "旭川常盘环岛（北海道·旭川）",
-          "sceneTitle": "环岛里的擦肩而过",
-          "episode": "成年篇 · 重逢",
-          "highlight": "《初恋》的灵感来自宇多田光的《First Love》与《初恋》，讲的是“错过”。这个环岛把错过拍成了画面：两辆车在同一个圆里绕行，近在咫尺，却开往不同方向。佐藤健认出满岛光的那一瞬没有台词，只有眼神，二十多年的空白一下子被填满。剧集登上 Netflix 全球榜单后，旭川这个日常的交通环岛也迎来了专程来看“那个圆”的剧迷。",
-          "story": "长大成人的晴道有了稳定的工作和交往多年的女友，正坐着出租车赶去拜见女友的父母。车子绕进常盘环岛时，他透过车窗看见了另一辆出租车里的司机——那是高中时代的恋人也英。来不及多想，他请司机掉头追上那辆车，哪怕这意味着会迟到。两条早已分开的人生轨迹，就在这个圆形路口重新交汇；而也英并不知道，这一次擦肩，将把两人带回二十多年前的那个冬天。",
-          "access": "JR「旭川」站前乘巴士至「常磐公园前」，下车向南步行约 150 米（约 2 分钟）即到环岛；也可从车站沿平和通买物公园一路向北步行约 25 分钟。",
-          "accessPointName": "常磐公园前 巴士站",
-          "bestTime": "积雪的冬季白天最贴近剧中；周末上午车少，适合在人行道上取景，傍晚车灯绕圈也很有味道。",
-          "tips": "这是国道 40 号等干线交会、车流很大的环岛，只能在人行道和人行横道上拍照，切勿进入车道或中央绿地；冬季路面结冰，注意防滑。"
-        },
-        "ja": {
-          "placeName": "旭川常盤ロータリー（北海道旭川市）",
-          "sceneTitle": "ロータリーですれ違う二人",
-          "episode": "大人編・再会",
-          "highlight": "『First Love 初恋』は宇多田ヒカルの「First Love」と「初恋」から生まれた、“すれ違い”の物語。このロータリーは、そのすれ違いを一枚の画にした場所だ。同じ円の中を回る二台の車は、手が届きそうな距離にいながら別々の方向へ進んでいく。佐藤健が満島ひかりに気づく一瞬には台詞がなく、目だけで二十数年の空白が埋まっていく。Netflixの世界ランキング入りを経て、旭川の日常の交差点には「あの円」を見に来るファンが訪れるようになった。",
-          "story": "大人になった晴道は、安定した仕事と長く付き合う恋人を得て、タクシーで恋人の両親へのあいさつに向かっていた。車が常盤ロータリーに入ったとき、窓越しに見えた別のタクシーの運転手は、高校時代の恋人・也英だった。遅刻するとわかっていながら、晴道はとっさにその車を追ってくれと頼む。とうに分かれたはずの二人の人生が、この円い交差点で再び交わる。このすれ違いが、二人を20年以上前のあの冬へと連れ戻していく。",
-          "access": "JR「旭川」駅前からバスで「常磐公園前」下車、南へ約150m（徒歩約2分）でロータリー。駅から平和通買物公園を北へまっすぐ歩いても約25分。",
-          "accessPointName": "常磐公園前バス停",
-          "bestTime": "雪の積もる冬の日中がドラマに近い。週末の午前は車が少なく歩道から撮りやすい。夕方、車のライトが円を描く時間も雰囲気がある。",
-          "tips": "国道40号など幹線道路が集まる交通量の多いロータリー。撮影は歩道と横断歩道から。車道や中央の緑地には絶対に入らないこと。冬は路面凍結に注意。"
-        },
-        "en": {
-          "placeName": "Tokiwa Rotary (Asahikawa, Hokkaido)",
-          "sceneTitle": "Passing at the Roundabout",
-          "episode": "Adult timeline · The reunion",
-          "highlight": "First Love grew out of Hikaru Utada's songs \"First Love\" and \"Hatsukoi,\" and it's a story about near-misses. This roundabout turns that idea into a single image: two cars circling the same ring, close enough to touch, heading different ways. When Takeru Satoh's character recognizes Hikari Mitsushima's, there's no dialogue, just a look that bridges twenty-odd years. After the series made Netflix's global charts, fans began coming to this everyday Asahikawa junction just to see \"that circle.\"",
-          "story": "Grown-up Harumichi has a steady job and a long-term girlfriend, and he is in a taxi on his way to meet her parents. As the car swings into the Tokiwa Rotary, he glances through the window at the driver of another taxi: it's Yae, his girlfriend from high school. Without thinking, he asks his driver to follow her, even though it will make him late. Two lives that went separate ways cross again at this circular junction, and the near-miss starts pulling them back toward a winter more than twenty years earlier.",
-          "access": "From JR Asahikawa Station, take a bus to Tokiwa Koen-mae and walk about 150 m south (2 min) to the roundabout. Or walk straight north up the Heiwa-dori shopping mall from the station, about 25 min.",
-          "accessPointName": "Tokiwa Koen-mae bus stop",
-          "bestTime": "A snowy winter day looks most like the drama. Weekend mornings have less traffic for shooting from the sidewalk; at dusk, headlights tracing the circle are atmospheric too.",
-          "tips": "This is a busy junction where Route 40 and other main roads meet. Shoot only from sidewalks and crossings and never step into the roadway or the central island. In winter, watch for icy pavement."
-        },
-        "ko": {
-          "placeName": "아사히카와 도키와 로터리 (홋카이도 아사히카와)",
-          "sceneTitle": "로터리에서 스쳐 간 두 사람",
-          "episode": "성인 편 · 재회",
-          "highlight": "『퍼스트 러브 하츠코이』는 우타다 히카루의 노래 'First Love'와 '하츠코이'에서 태어난 '엇갈림'의 이야기다. 이 로터리는 그 엇갈림을 한 장면으로 보여 준다. 같은 원을 도는 두 대의 차는 손 닿을 듯 가까우면서도 서로 다른 방향으로 나아간다. 사토 다케루가 미쓰시마 히카리를 알아보는 순간엔 대사 없이 눈빛만으로 20여 년의 공백이 메워진다. 넷플릭스 글로벌 순위에 오른 뒤로, 아사히카와의 평범한 교차로에는 '그 원'을 보러 오는 팬들이 찾아온다.",
-          "story": "어른이 된 하루미치는 안정된 직장과 오래 사귄 여자친구가 있고, 지금 택시를 타고 여자친구의 부모님께 인사하러 가는 길이다. 차가 도키와 로터리로 들어설 때, 창밖으로 보인 다른 택시의 운전기사는 고등학교 시절 연인 야에였다. 늦을 걸 알면서도 하루미치는 저 차를 따라가 달라고 부탁한다. 이미 갈라진 두 사람의 인생이 이 둥근 교차로에서 다시 만나고, 이 스침은 두 사람을 20여 년 전 그 겨울로 데려간다.",
-          "access": "JR '아사히카와'역 앞에서 버스로 '도키와 공원 앞' 하차 후 남쪽으로 약 150m(도보 약 2분). 역에서 헤이와도리 쇼핑공원을 따라 북쪽으로 쭉 걸어도 약 25분.",
-          "accessPointName": "도키와 공원 앞 버스 정류장",
-          "bestTime": "눈 쌓인 겨울 낮이 드라마와 가장 닮았다. 주말 오전은 차가 적어 보도에서 찍기 좋고, 해 질 녘 헤드라이트가 원을 그리는 시간도 운치 있다.",
-          "tips": "국도 40호선 등 간선도로가 모이는 교통량 많은 로터리입니다. 보도와 횡단보도에서만 촬영하고, 차도나 중앙 녹지에는 절대 들어가지 마세요. 겨울에는 빙판길에 주의하세요."
         }
       }
     },
@@ -1106,7 +930,7 @@
       "sceneHeading": 40,
       "scenePitch": -15,
       "arrivalRadius": 100,
-      "spoiler": false,
+      "spoiler": true,
       "sourceURL": "https://www.tokyoweekender.com/entertainment/movies-tv/7-memorable-hokkaido-locations-from-the-netflixs-drama-first-love/",
       "verified": false,
       "bestMonths": [
@@ -1123,10 +947,10 @@
       "text": {
         "zh-Hans": {
           "placeName": "小樽天狗山 山顶展望台（北海道·小樽）",
-          "sceneTitle": "俯瞰小樽的回忆之地",
-          "episode": "高中篇／成年篇",
-          "highlight": "从山顶望下去，小樽港的灯火一直铺到石狩湾。这片被誉为“北海道三大夜景”之一的风景，在《初恋》里是两段人生共同的坐标：少年时他们看着同一片海，二十多年后再并肩站在这里，风景没变，变的只是人。剧中反复使用的“同一个地方、不同的年纪”，在这里最让人心疼，也让人相信有些心动不会被时间磨掉，只是一直留在原地。",
-          "story": "90 年代的北海道，转学生也英和棒球少年晴道在高中相遇，青涩的恋情在雪和光里慢慢展开，从山顶眺望海港城市的景色，也成了他们的共同回忆。二十多年后，两人在各自的生活里兜兜转转，再一次并肩站在这里，聊起那些高中时的往事。山下的灯火和远处的大海都和当年一样，只是看风景的人已经长大——也英的心，在这里再次为他动摇。",
+          "sceneTitle": "天狗山夜景下的吻",
+          "episode": "第6集 · 成年篇",
+          "highlight": "从山顶望下去，小樽港的灯火一直铺到石狩湾。天狗山在《初恋》的高中篇和成年篇里都出现过，最让人心动的是第6集：成年后的两人坐缆车上山，在同一片夜景前，被时间隔开二十多年的感情终于有了回应。小樽观光协会把缆车车厢和山顶夜景列为剧中取景地，缆车站里还留有八木莉可子、佐藤健、木户大圣的签名。",
+          "story": "成年后的晴道在楼梯上接住险些摔倒的也英，腰伤发作做了紧急手术；还没痊愈就回去上班的他，由开出租车的也英接送上下班。某天晚上，晴道邀她坐上天狗山的缆车。山顶上，小樽港的灯火一直延伸到海边，晴道说起高中时也英那场赢得满堂赞赏的演讲。失去了部分记忆的也英忍不住落泪——她总觉得自己弄丢了什么非常重要的东西。就在这片夜景前，晴道吻了她。高中时代两人也曾在这座山上留下回忆，同样的风景，这一次把他们拉回了彼此身边。",
           "access": "JR「小樽」站前乘中央巴士往「天狗山缆车」约 17 分钟，换乘缆车约 4 分钟到山顶站，出站即是展望台。",
           "accessPointName": "天狗山缆车 山顶站",
           "bestTime": "日落前约 30 分钟上山，可从晚霞一直看到港口亮灯；晴朗无雾的傍晚最佳，周末夜间缆车排队较长。",
@@ -1134,10 +958,10 @@
         },
         "ja": {
           "placeName": "小樽天狗山 山頂展望台（北海道小樽市）",
-          "sceneTitle": "小樽を見下ろす思い出の場所",
-          "episode": "高校編／大人編",
-          "highlight": "山頂から見下ろすと、小樽港の灯りが石狩湾まで続く。北海道三大夜景のひとつに数えられるこの眺めは、『First Love 初恋』で二人の人生をつなぐ目印だ。高校時代に同じ海を見た二人が、二十数年後にまた並んで立つ。景色は何も変わらず、変わったのは自分たちだけ。「同じ場所、違う年齢」を重ねる演出がここで最も切なく響き、時間が経っても消えないときめきがあると信じさせてくれる。",
-          "story": "90年代の北海道。転校生の也英と野球少年の晴道は高校で出会い、雪と光の中で不器用な恋を育てていく。山頂から港町を眺めた景色も、二人の大切な思い出になった。20年以上が過ぎ、それぞれの人生を回り道してきた二人は、再びここに並んで立ち、高校時代の話をする。街の灯も海も、あの頃と変わらない。変わったのは眺める二人のほう――也英の心は、ここで再び彼に揺れていく。",
+          "sceneTitle": "天狗山の夜景とキス",
+          "episode": "第6話・大人編",
+          "highlight": "山頂から見下ろすと、小樽港の灯りが石狩湾まで続く。天狗山は『First Love 初恋』の高校編にも大人編にも登場するが、いちばん胸を打つのは第6話。大人になった二人がロープウェイで山に上がり、同じ夜景を前に、二十数年すれ違ってきた想いがようやく通じ合う。小樽観光協会もロープウェイの車内と山頂の夜景をロケ地として紹介しており、ロープウェイ駅には八木莉可子、佐藤健、木戸大聖のサインが残されている。",
+          "story": "大人になった晴道は、階段で転びかけた也英を受け止めた拍子に腰を痛め、緊急手術を受ける。治りきらないまま仕事に戻った晴道を、タクシードライバーの也英が送り迎えすることに。ある夜、晴道は也英を天狗山のロープウェイに誘う。山頂で小樽港の夜景を眺めながら、晴道は高校時代に也英が称賛されたスピーチのことを話す。記憶の一部を失っている也英は「何かとてつもなく大事なものをなくしてるんじゃないか」と涙をこぼし、晴道は彼女にキスをする。高校時代にも二人の思い出が刻まれた山で、同じ景色がふたたび二人を引き寄せた。",
           "access": "JR「小樽」駅前から中央バス「天狗山ロープウエイ」行きで約17分、ロープウエイで約4分。山頂駅を出るとすぐ展望台。",
           "accessPointName": "天狗山ロープウエイ山頂駅",
           "bestTime": "日没30分前に登れば、夕焼けから港の灯りがともるまで見届けられる。霧のない晴れた夕方がベスト。週末の夜はロープウエイが混みやすい。",
@@ -1145,10 +969,10 @@
         },
         "en": {
           "placeName": "Otaru Tenguyama Summit Observatory (Otaru, Hokkaido)",
-          "sceneTitle": "Looking Down on Otaru",
-          "episode": "High-school & adult timelines",
-          "highlight": "From the summit, Otaru's harbor lights spread all the way to Ishikari Bay, a view counted among Hokkaido's three great night panoramas. In First Love it's the fixed point of two lives: as teenagers they looked at this same sea, and twenty-odd years later they stand here side by side again. The scenery hasn't changed, only they have. The show's recurring \"same place, different age\" device hits hardest here, and makes you believe some feelings don't fade; they just wait where you left them.",
-          "story": "In 1990s Hokkaido, transfer student Yae and baseball-playing Harumichi meet in high school, and their awkward first love grows through snow and light; the view of the port town from the summit becomes one of their shared memories. More than twenty years later, after long detours through separate lives, they stand side by side here again and talk about high school. The lights and the sea look just as they did; it's the two people looking at them who have grown up, and Yae finds her heart moving toward him once more.",
+          "sceneTitle": "A Kiss Above Otaru's Lights",
+          "episode": "Episode 6 · Adult timeline",
+          "highlight": "From the summit, Otaru's harbor lights spread all the way to Ishikari Bay. Mount Tengu appears in both First Love's high-school and adult timelines, but its most moving moment comes in episode 6: the grown-up pair ride the ropeway to the top, and in front of the same night view, feelings that have missed each other for more than twenty years finally meet. Otaru's tourism association lists the ropeway car and the summit night view as filming locations, and the ropeway station displays autographs from Rikako Yagi, Takeru Satoh and Taisei Kido.",
+          "story": "As an adult, Harumichi wrenches his back catching Yae when she stumbles on some stairs and needs emergency surgery. Back at work before he has healed, he lets Yae, now a taxi driver, drive him to and from the office. One night he invites her up Mount Tengu on the ropeway. Looking down on the lights of Otaru's harbor, he tells her about a speech she gave in high school that everyone praised. Yae, who has lost part of her memory, starts to cry, feeling she has lost something enormously important, and Harumichi kisses her. On the same mountain where they made memories as teenagers, the same view draws them back together.",
           "access": "From JR Otaru Station, take the Chuo Bus to Tenguyama Ropeway (about 17 min), then the ropeway (about 4 min). The viewing deck is right outside the summit station.",
           "accessPointName": "Tenguyama Ropeway summit sta.",
           "bestTime": "Go up about 30 minutes before sunset to watch the afterglow fade into harbor lights. A clear, fog-free evening is ideal; weekend nights mean longer ropeway lines.",
@@ -1156,10 +980,10 @@
         },
         "ko": {
           "placeName": "오타루 덴구야마 정상 전망대 (홋카이도 오타루)",
-          "sceneTitle": "오타루를 내려다보는 추억의 장소",
-          "episode": "고교 편 / 성인 편",
-          "highlight": "정상에서 내려다보면 오타루항의 불빛이 이시카리만까지 이어진다. 홋카이도 3대 야경 중 하나로 꼽히는 이 풍경은 『퍼스트 러브 하츠코이』에서 두 사람의 인생을 잇는 좌표다. 고교 시절 같은 바다를 보던 두 사람이 20여 년 뒤 다시 나란히 선다. 풍경은 그대로이고 변한 건 사람뿐. '같은 장소, 다른 나이'를 겹치는 연출이 이곳에서 가장 애틋하게 다가오며, 시간이 지나도 사라지지 않는 설렘이 있다고 믿게 만든다.",
-          "story": "90년대 홋카이도, 전학생 야에와 야구 소년 하루미치는 고등학교에서 만나 눈과 빛 속에서 서툰 첫사랑을 키운다. 정상에서 바라본 항구 도시의 풍경도 두 사람의 소중한 추억이 된다. 20여 년이 흘러 각자의 삶을 돌고 돈 두 사람은 다시 이곳에 나란히 서서 고등학교 시절 이야기를 나눈다. 불빛도 바다도 그때 그대로인데, 달라진 건 바라보는 두 사람뿐. 야에의 마음은 이곳에서 다시 그에게 기울기 시작한다.",
+          "sceneTitle": "덴구산 야경 속 키스",
+          "episode": "제6화 · 성인 편",
+          "highlight": "정상에서 내려다보면 오타루항의 불빛이 이시카리만까지 이어진다. 덴구산은 『퍼스트 러브 하츠코이』의 고교 편과 성인 편 모두에 등장하지만, 가장 가슴을 울리는 건 제6화다. 어른이 된 두 사람이 로프웨이를 타고 산에 올라, 같은 야경 앞에서 20여 년 동안 엇갈려 온 마음이 마침내 닿는다. 오타루 관광협회도 로프웨이 객차 안과 정상의 야경을 촬영지로 소개하고 있으며, 로프웨이 역에는 야기 리카코, 사토 타케루, 기도 다이세이의 사인이 남아 있다.",
+          "story": "어른이 된 하루미치는 계단에서 넘어질 뻔한 야에를 받아 주다 허리를 다쳐 응급 수술을 받는다. 다 낫지도 않은 채 회사에 복귀한 그를 택시 기사인 야에가 출퇴근길에 태워 주게 된다. 어느 날 밤, 하루미치는 야에를 덴구산 로프웨이에 태운다. 정상에서 오타루항의 야경을 바라보며 하루미치는 고교 시절 야에가 칭찬받았던 연설 이야기를 꺼낸다. 기억 일부를 잃은 야에는 무언가 아주 소중한 것을 잃어버린 것 같다며 눈물을 흘리고, 하루미치는 그녀에게 입을 맞춘다. 고교 시절 두 사람의 추억이 남은 이 산에서, 같은 풍경이 다시 두 사람을 서로에게 이끌었다.",
           "access": "JR '오타루'역 앞에서 주오버스 '덴구야마 로프웨이'행으로 약 17분, 로프웨이로 약 4분. 산정역을 나오면 바로 전망대다.",
           "accessPointName": "덴구야마 로프웨이 산정역",
           "bestTime": "해 지기 30분 전에 올라가면 노을부터 항구에 불이 켜질 때까지 볼 수 있다. 안개 없는 맑은 저녁이 최고. 주말 밤에는 로프웨이 줄이 길다.",
@@ -1330,7 +1154,7 @@
           "sceneTitle": "隅田川边的长假",
           "episode": "第1集／最终集",
           "highlight": "《悠长假期》的开头和结尾都在这段河边，这本身就很浪漫：被婚礼放鸽子的女人和不得志的钢琴家，把人生低谷过成了“老天给的长假”。木村拓哉和山口智子之间不黏腻却处处默契，最终集收视率冲到 36.7%，据说还带动了一阵男性学钢琴的风潮。久保田利伸的《LA・LA・LA LOVE SONG》一响，很多人就会想起隅田川边的那个夏天。",
-          "story": "婚礼当天被新郎放了鸽子的南，穿着白无垢一路跑过新大桥，冲进未婚夫住的河边旧公寓，却只见到他的室友、不得志的钢琴家濑名。无家可归的南索性搬了进来，两人在这栋能看见隅田川的公寓里斗嘴、互相取暖，还在楼前的河边比赛拍超级弹力球。就这样度过了一段“老天给的长假”。最终集，在钢琴比赛中走出低谷的濑名，在这段河堤上紧紧抱住南：“一起去波士顿吧。”濑名的公寓已经拆除，但黄色的新大桥和河堤依旧。",
+          "story": "婚礼当天被新郎放了鸽子的南，穿着白无垢一路跑过新大桥，冲进未婚夫住的河边旧公寓，却只见到他的室友、不得志的钢琴家濑名。无家可归的南索性搬了进来，两人在这栋能看见隅田川的公寓里斗嘴、互相取暖，第6集还在公寓旁的河堤上接了吻。就这样度过了一段“老天给的长假”。最终集，在钢琴比赛中走出低谷的濑名，在这段河堤上紧紧抱住南：“一起去波士顿吧。”濑名的公寓已经拆除，但黄色的新大桥和河堤依旧。",
           "access": "都营新宿线／大江户线「森下」站 A2 出口出来，沿新大桥通向西走约 350 米到新大桥东端，从桥头右侧（北侧）下到隅田川露台，约 6 分钟。",
           "accessPointName": "森下站 A2 出口",
           "bestTime": "初夏傍晚河风凉爽，黄色桥身被夕阳照亮最上镜；平日露台人少，周末跑步和骑车的人较多。",
@@ -1341,7 +1165,7 @@
           "sceneTitle": "隅田川のロングバケーション",
           "episode": "第1話／最終回",
           "highlight": "『ロングバケーション』は始まりも終わりもこの川辺――それ自体がロマンチックだ。結婚式をすっぽかされた女と、くすぶるピアニストが、人生の停滞期を「神様がくれた長い休暇」に変えていく。木村拓哉と山口智子のべたつかないのに息の合ったやりとりで最終回の視聴率は36.7%に達し、男性のピアノブームを呼んだとも言われる。久保田利伸「LA・LA・LA LOVE SONG」が流れると、隅田川の夏を思い出す人は多い。",
-          "story": "結婚式当日に花婿に逃げられた南は、白無垢のまま新大橋を走り抜け、婚約者が住む川沿いの古いマンションに乗り込む。そこにいたのはルームメイトで売れないピアニストの瀬名だけ。行き場のない南はそのまま転がり込み、二人は隅田川が見える部屋で言い合い、支え合い、マンション前の川べりではスーパーボールを跳ねさせて遊んだ。それはまさに「神様がくれた長い休暇」だった。最終回、ピアノコンクールでスランプを抜け出した瀬名は、この堤防で南を抱きしめて言う。「一緒にボストンへ行こう」。瀬名のマンションは取り壊されたが、黄色い新大橋と川辺は今もそのまま。",
+          "story": "結婚式当日に花婿に逃げられた南は、白無垢のまま新大橋を走り抜け、婚約者が住む川沿いの古いマンションに乗り込む。そこにいたのはルームメイトで売れないピアニストの瀬名だけ。行き場のない南はそのまま転がり込み、二人は隅田川が見える部屋で言い合い、支え合い、第6話ではマンション近くの堤防でキスを交わす。それはまさに「神様がくれた長い休暇」だった。最終回、ピアノコンクールでスランプを抜け出した瀬名は、この堤防で南を抱きしめて言う。「一緒にボストンへ行こう」。瀬名のマンションは取り壊されたが、黄色い新大橋と川辺は今もそのまま。",
           "access": "都営新宿線・大江戸線「森下」駅A2出口から新大橋通りを西へ約350m。新大橋の東詰で右手（北側）の隅田川テラスへ下りる。徒歩約6分。",
           "accessPointName": "森下駅 A2出口",
           "bestTime": "初夏の夕方、川風が涼しく、黄色い橋が夕日に照らされていちばん映える。平日のテラスは静かで、週末はランナーや自転車が多い。",
@@ -1352,7 +1176,7 @@
           "sceneTitle": "A Long Vacation by the Sumida",
           "episode": "Episode 1 / Final episode",
           "highlight": "Long Vacation begins and ends on this stretch of riverbank, which is romantic in itself: a woman jilted on her wedding day and a struggling pianist turn the low point of their lives into \"a long vacation from God.\" Takuya Kimura and Tomoko Yamaguchi's easy, never-syrupy chemistry pushed the finale to a 36.7% rating and is said to have sent young men to piano lessons. For many people, the opening bars of Toshinobu Kubota's \"LA・LA・LA LOVE SONG\" still mean summer by the Sumida.",
-          "story": "Jilted on her wedding day, Minami runs across Shin-Ohashi still in her white bridal kimono and bursts into her fiancé's old riverside apartment, only to find his roommate Sena, a struggling pianist. With nowhere to go, she moves in. In the flat overlooking the Sumida they bicker, lean on each other, and bounce super balls on the riverside in front of the building: a 'long vacation' handed to them by fate. In the final episode, Sena, having broken out of his slump at a piano competition, hugs Minami on this embankment: 'Come to Boston with me.' Sena's building has been torn down, but the yellow bridge and the riverbank are still here.",
+          "story": "Jilted on her wedding day, Minami runs across Shin-Ohashi still in her white bridal kimono and bursts into her fiancé's old riverside apartment, only to find his roommate Sena, a struggling pianist. With nowhere to go, she moves in. In the flat overlooking the Sumida they bicker, lean on each other, and in episode 6 share a kiss on the embankment near the building: a 'long vacation' handed to them by fate. In the final episode, Sena, having broken out of his slump at a piano competition, hugs Minami on this embankment: 'Come to Boston with me.' Sena's building has been torn down, but the yellow bridge and the riverbank are still here.",
           "access": "From Exit A2 of Morishita Station (Toei Shinjuku / Oedo lines), walk about 350 m west along Shin-Ohashi-dori to the east end of Shin-Ohashi, then go down on the right (north side) to the Sumida River Terrace. About 6 min.",
           "accessPointName": "Morishita Sta. Exit A2",
           "bestTime": "An early-summer evening, when the river breeze cools and the low sun lights up the yellow bridge. The terrace is quiet on weekdays; weekends bring more runners and cyclists.",
@@ -1363,7 +1187,7 @@
           "sceneTitle": "스미다강의 롱 베케이션",
           "episode": "제1화 / 최종화",
           "highlight": "『롱 베케이션』의 시작과 끝이 모두 이 강변이라는 것부터가 낭만이다. 결혼식에서 바람맞은 여자와 빛을 못 보는 피아니스트가 인생의 정체기를 '신이 준 긴 휴가'로 바꿔 간다. 기무라 타쿠야와 야마구치 도모코의 끈적이지 않으면서도 척척 맞는 호흡으로 최종화 시청률은 36.7%에 달했고, 남성들 사이에 피아노 붐을 일으켰다는 말도 있다. 구보타 도시노부의 'LA・LA・LA LOVE SONG'이 흐르면 스미다강의 여름을 떠올리는 사람이 많다.",
-          "story": "결혼식 날 신랑에게 버림받은 미나미는 하얀 혼례복 차림 그대로 신오하시를 달려 약혼자가 사는 강변의 낡은 아파트로 쳐들어가지만, 그곳에는 룸메이트인 무명 피아니스트 세나뿐이었다. 갈 곳 없는 미나미는 그대로 눌러앉고, 두 사람은 스미다강이 보이는 방에서 티격태격하며 서로를 위로하고, 아파트 앞 강가에서 슈퍼볼을 튀기며 논다. 그야말로 '하느님이 준 긴 휴가'였다. 최종화, 피아노 콩쿠르에서 슬럼프를 벗어난 세나는 이 강둑에서 미나미를 꼭 안으며 말한다. \"같이 보스턴에 가자.\" 세나의 아파트는 철거됐지만 노란 신오하시와 강변은 지금도 그대로다.",
+          "story": "결혼식 날 신랑에게 버림받은 미나미는 하얀 혼례복 차림 그대로 신오하시를 달려 약혼자가 사는 강변의 낡은 아파트로 쳐들어가지만, 그곳에는 룸메이트인 무명 피아니스트 세나뿐이었다. 갈 곳 없는 미나미는 그대로 눌러앉고, 두 사람은 스미다강이 보이는 방에서 티격태격하며 서로를 위로하고, 6화에서는 아파트 근처 강둑에서 입을 맞춘다. 그야말로 '하느님이 준 긴 휴가'였다. 최종화, 피아노 콩쿠르에서 슬럼프를 벗어난 세나는 이 강둑에서 미나미를 꼭 안으며 말한다. \"같이 보스턴에 가자.\" 세나의 아파트는 철거됐지만 노란 신오하시와 강변은 지금도 그대로다.",
           "access": "도에이 신주쿠선·오에도선 '모리시타'역 A2 출구에서 신오하시도리를 따라 서쪽으로 약 350m. 신오하시 동쪽 끝에서 오른쪽(북쪽) 스미다강 테라스로 내려간다. 도보 약 6분.",
           "accessPointName": "모리시타역 A2 출구",
           "bestTime": "초여름 저녁, 강바람이 시원하고 노란 다리가 석양에 빛날 때가 가장 사진이 잘 나온다. 평일 테라스는 한산하고 주말에는 러너와 자전거가 많다.",
@@ -1396,7 +1220,7 @@
           "sceneTitle": "契约夫妻的温泉旅行",
           "episode": "第6集",
           "highlight": "《逃避虽可耻但有用》最迷人的，是一段“假装的婚姻”怎样一点点变成真的。这趟以新婚旅行为名的温泉之旅，是两人最尴尬也最心动的转折：明明是演给别人看的恩爱，走在红桥和竹林里时，连他们自己都分不清哪句是戏。旅行结束时那个突如其来的吻让第 6 集成了热门话题，加上星野源的《恋》和全民“恋舞”，修善寺也成了剧迷必访的一站。",
-          "story": "实栗和平匡的“契约结婚”在外人眼里是一对新婚夫妻，为了让这场戏演得更像样，两人以“新婚旅行”的名义来到伊豆修善寺温泉住一晚。他们并肩走过桂川上的红色虎溪桥，在竹林小径里散步，表面上是恩爱夫妻，心里却都在小心翼翼地试探对方。在旅馆里，两人的关系依旧没有进展，实栗甚至有些失落。谁也没想到，向来谨慎被动的平匡，会在回程的路上突然吻了她——契约关系从此再也回不去了。",
+          "story": "实栗和平匡的“契约结婚”在外人眼里是一对新婚夫妻，担心两人的姨妈百合送来一张双人住宿券，两人便以“新婚旅行”为名来到伊豆修善寺温泉住一晚。他们并肩走过桂川上的红色虎溪桥，在竹林小径里散步，表面上是恩爱夫妻，心里却都在小心翼翼地试探对方。在旅馆里，两人的关系依旧没有进展，实栗甚至有些失落。谁也没想到，向来谨慎被动的平匡，会在回程的路上突然吻了她——契约关系从此再也回不去了。",
           "access": "伊豆箱根铁道「修善寺」站乘东海巴士约 8 分钟至「修善寺温泉」，下车沿温泉街往西走约 200 米，独钴之汤旁的红色桥就是虎溪桥，约 3 分钟。",
           "accessPointName": "修善寺温泉 巴士站",
           "bestTime": "11 月下旬至 12 月初红叶最盛，红桥配红叶最美；早上 8 点前游客少，竹林小径最安静，雨后石板路也很有味道。",
@@ -1407,7 +1231,7 @@
           "sceneTitle": "契約夫婦の温泉旅行",
           "episode": "第6話",
           "highlight": "『逃げるは恥だが役に立つ』の魅力は、“ふり”の結婚が少しずつ本物になっていく過程にある。新婚旅行という名目のこの温泉旅行は、二人にとっていちばん気まずく、いちばんときめく転機だ。周りに見せるための仲良しのはずが、赤い橋や竹林を歩くうちに、どこまでが演技なのか本人たちにもわからなくなる。旅の終わりの不意打ちのキスで第6話は大きな話題に。星野源「恋」と恋ダンスのブームとともに、修善寺はファンの定番の聖地になった。",
-          "story": "みくりと平匡の「契約結婚」は、周囲から見れば新婚夫婦。それらしく見せるため、二人は“新婚旅行”として伊豆・修善寺温泉に一泊する。桂川に架かる赤い虎渓橋を並んで渡り、竹林の小径を歩く二人は、表向きは仲睦まじい夫婦でも、心の中では互いの出方を慎重にうかがっていた。旅館でも関係は進展せず、みくりは少しがっかりする。ところが帰り道、いつも慎重で受け身だった平匡が突然みくりにキスをする――契約関係は、もう元には戻れなくなった。",
+          "story": "みくりと平匡の「契約結婚」は、周囲から見れば新婚夫婦。二人を心配した伯母・百合がペア宿泊券を用意し、二人は“新婚旅行”という名目で伊豆・修善寺温泉に一泊する。桂川に架かる赤い虎渓橋を並んで渡り、竹林の小径を歩く二人は、表向きは仲睦まじい夫婦でも、心の中では互いの出方を慎重にうかがっていた。旅館でも関係は進展せず、みくりは少しがっかりする。ところが帰り道、いつも慎重で受け身だった平匡が突然みくりにキスをする――契約関係は、もう元には戻れなくなった。",
           "access": "伊豆箱根鉄道「修善寺」駅から東海バスで約8分「修善寺温泉」下車。温泉街を西へ約200m、独鈷の湯の横の赤い橋が虎渓橋。徒歩約3分。",
           "accessPointName": "修善寺温泉バス停",
           "bestTime": "11月下旬〜12月上旬の紅葉期は赤い橋と紅葉がいちばん映える。朝8時前なら観光客が少なく竹林の小径も静か。雨上がりの石畳も風情がある。",
@@ -1418,7 +1242,7 @@
           "sceneTitle": "The Contract Couple's Hot-Spring Trip",
           "episode": "Episode 6",
           "highlight": "The charm of The Full-Time Wife Escapist is watching a pretend marriage slowly turn real, and this \"honeymoon\" hot-spring trip is its most awkward and most fluttery turning point. The affection is supposed to be a show for others, but somewhere between the red bridge and the bamboo grove neither of them can tell what's acting anymore. The surprise kiss as the trip ends made episode 6 the talk of the country, and alongside Gen Hoshino's \"Koi\" and the \"Koi Dance\" craze, Shuzenji became a must-visit for fans.",
-          "story": "To everyone else, Mikuri and Hiramasa's contract marriage looks like newlyweds, so to sell the act they spend a night at Shuzenji Onsen in Izu as their 'honeymoon'. They cross the red Kokei Bridge over the Katsura River side by side and stroll the bamboo grove path: an affectionate couple on the surface, each cautiously reading the other underneath. Nothing changes between them at the inn, and Mikuri is a little disappointed. Then, on the way home, cautious and passive Hiramasa suddenly kisses her, and their contract can never go back to what it was.",
+          "story": "To everyone else, Mikuri and Hiramasa's contract marriage looks like newlyweds, so when Mikuri's aunt Yuri, worried about them, hands them a voucher for two, they spend a night at Shuzenji Onsen in Izu as their 'honeymoon'. They cross the red Kokei Bridge over the Katsura River side by side and stroll the bamboo grove path: an affectionate couple on the surface, each cautiously reading the other underneath. Nothing changes between them at the inn, and Mikuri is a little disappointed. Then, on the way home, cautious and passive Hiramasa suddenly kisses her, and their contract can never go back to what it was.",
           "access": "From Shuzenji Station (Izuhakone Railway), take a Tokai Bus about 8 min to Shuzenji Onsen. Walk about 200 m west along the hot-spring street; the red bridge beside Tokko-no-yu is Kokei-bashi. About 3 min.",
           "accessPointName": "Shuzenji Onsen bus stop",
           "bestTime": "Late November to early December, when autumn leaves frame the red bridge. Before 8 a.m. the crowds are thin and the bamboo path is hushed; the wet paving after rain is lovely too.",
@@ -1429,7 +1253,7 @@
           "sceneTitle": "계약 부부의 온천 여행",
           "episode": "제6화",
           "highlight": "『도망치는 건 부끄럽지만 도움이 된다』의 매력은 '척'하는 결혼이 조금씩 진짜가 되어 가는 과정이다. 신혼여행이라는 명목의 이 온천 여행은 두 사람에게 가장 어색하고도 가장 설레는 전환점이다. 남들에게 보여 주기 위한 다정함이었는데, 빨간 다리와 대나무 숲을 걷다 보니 어디까지가 연기인지 본인들도 알 수 없게 된다. 여행 끝의 기습 키스로 6화는 큰 화제가 되었고, 호시노 겐의 '고이(恋)'와 '사랑 댄스' 열풍과 함께 슈젠지는 팬들의 필수 성지가 되었다.",
-          "story": "미쿠리와 히라마사의 '계약 결혼'은 남들 눈에는 신혼부부다. 그럴듯하게 보이려고 두 사람은 '신혼여행'으로 이즈의 슈젠지 온천에서 하룻밤을 묵는다. 가쓰라강에 놓인 빨간 고케이바시를 나란히 건너고 대나무 숲길을 걷는 두 사람은 겉으로는 다정한 부부지만, 속으로는 서로의 반응을 조심스레 살핀다. 료칸에서도 관계는 진전되지 않고 미쿠리는 조금 실망한다. 그런데 돌아오는 길, 늘 신중하고 소극적이던 히라마사가 갑자기 미쿠리에게 키스한다. 계약 관계는 이제 예전으로 돌아갈 수 없게 되었다.",
+          "story": "미쿠리와 히라마사의 '계약 결혼'은 남들 눈에는 신혼부부다. 두 사람을 걱정한 이모 유리가 숙박권을 마련해 주자, 두 사람은 '신혼여행'으로 이즈의 슈젠지 온천에서 하룻밤을 묵는다. 가쓰라강에 놓인 빨간 고케이바시를 나란히 건너고 대나무 숲길을 걷는 두 사람은 겉으로는 다정한 부부지만, 속으로는 서로의 반응을 조심스레 살핀다. 료칸에서도 관계는 진전되지 않고 미쿠리는 조금 실망한다. 그런데 돌아오는 길, 늘 신중하고 소극적이던 히라마사가 갑자기 미쿠리에게 키스한다. 계약 관계는 이제 예전으로 돌아갈 수 없게 되었다.",
           "access": "이즈하코네철도 '슈젠지'역에서 도카이버스로 약 8분, '슈젠지 온천' 하차. 온천 거리를 따라 서쪽으로 약 200m, 돗코노유 옆 빨간 다리가 고케이바시다. 도보 약 3분.",
           "accessPointName": "슈젠지 온천 버스 정류장",
           "bestTime": "11월 하순~12월 초 단풍 절정기에 빨간 다리와 단풍이 가장 아름답다. 아침 8시 전에는 관광객이 적어 대나무 숲길도 고요하고, 비 갠 뒤 돌길도 운치 있다.",
@@ -1503,142 +1327,6 @@
           "accessPointName": "가루이자와역 북쪽 출구",
           "bestTime": "눈이 남은 겨울의 맑은 날이 드라마 속 가루이자와와 가장 닮았다. 10월 하순에는 단풍이 야가사키 연못에 비친다. 바람 없는 아침이 수면 반영이 가장 선명하다.",
           "tips": "홀 내부는 공연 티켓이 있어야만 들어갈 수 있습니다. 평소에는 야가사키 공원 쪽에서 외관을 감상하세요(공원은 무료). 겨울 아침에는 빙판길에 주의하세요."
-        }
-      }
-    },
-    {
-      "id": "saikonorikon-shukuyama-bridge",
-      "workID": "saiko-no-rikon",
-      "latitude": 35.64641,
-      "longitude": 139.69781,
-      "sceneHeading": 350,
-      "scenePitch": 0,
-      "arrivalRadius": 40,
-      "spoiler": false,
-      "sourceURL": "https://loca.ash.jp/info/2013/d201301_rikon.htm",
-      "photo": "File:クリーニングサービスナチュラル 2013 (11849727363).jpg",
-      "verified": false,
-      "bestMonths": [
-        3,
-        4
-      ],
-      "accessPoint": {
-        "latitude": 35.6443228,
-        "longitude": 139.6988339
-      },
-      "text": {
-        "zh-Hans": {
-          "placeName": "目黑川 宿山桥（东京·中目黑）",
-          "sceneTitle": "目黑川边的滨崎家",
-          "episode": "全剧 · 滨崎家外景",
-          "highlight": "《最完美的离婚》把婚姻拆成了马桶坐垫、吃饭方式这些琐碎小事，却在吵吵闹闹里写出了最真实的爱。瑛太饰演的光生停不下来的碎碎念、尾野真千子饰演的结夏大大咧咧的温柔，让人一边笑一边心酸。离了婚的两个人还每天走过同一座桥，这份“分不开”正是坂元裕二剧本最动人的地方。樱花季的目黑川边，几乎就是剧中两人生活的样子。",
-          "story": "光生和结夏是在 3·11 大地震那晚、交通瘫痪后步行回家的路上认识的，没多久就结了婚。两年后，住在目黑川边这栋老房子里的两人，从厕所坐垫到吃饭方式，每件小事都能吵起来，最后真的签了离婚协议。可离了婚的两人，却因为各种理由继续住在同一个屋檐下，又被光生的前女友灯里和她的丈夫谅卷进更复杂的关系。每天出门过桥、沿着河边散步的画面，让这一带成了剧迷心中“最完美的离婚”的风景。",
-          "access": "东急东横线／东京地铁日比谷线「中目黑」站西口1出站，沿山手通向北约 150 米到目黑川，左转沿河往上游走约 100 米即是宿山桥，约 4 分钟。",
-          "accessPointName": "中目黑站 西口1",
-          "bestTime": "3 月下旬至 4 月初樱花最美但人潮汹涌，建议平日早上 7 点前去；其他季节的傍晚更有剧中的生活感。",
-          "tips": "剧中“滨崎家”借用的是民宅外观，现为私人建筑，请勿敲门、进入或拍摄住户；樱花季河边会实施单向通行、禁止停留等管制，请听从引导。"
-        },
-        "ja": {
-          "placeName": "目黒川 宿山橋（東京都目黒区・中目黒）",
-          "sceneTitle": "目黒川沿いの濱崎家",
-          "episode": "全話・濱崎家の外観",
-          "highlight": "『最高の離婚』は、結婚を便座や食べ方といった些細なことに分解しながら、口げんかの中にいちばんリアルな愛を描いた。瑛太演じる光生の止まらない愚痴、尾野真千子演じる結夏のおおらかな優しさに、笑いながら胸が痛くなる。離婚したのに毎日同じ橋を渡る二人の「離れられなさ」こそ、坂元裕二の脚本がいちばん心を打つところだ。桜の季節の目黒川沿いは、まさに二人が暮らした風景そのもの。",
-          "story": "光生と結夏は、東日本大震災の夜、交通が止まって歩いて帰る途中で出会い、間もなく結婚した。2年後、目黒川沿いの古い家で暮らす二人は、トイレの便座から食べ方まで、あらゆることでぶつかり、ついに離婚届に判を押す。それなのに、離婚した二人はあれこれ理由をつけて同じ家に住み続け、光生の元恋人・灯里とその夫・諒も巻き込んで関係はさらにこじれていく。橋を渡って出かけ、川沿いを歩く二人の姿が、この界隈を『最高の離婚』の風景にした。",
-          "access": "東急東横線・東京メトロ日比谷線「中目黒」駅西口1から山手通りを北へ約150mで目黒川。左折して川沿いを上流へ約100mが宿山橋。徒歩約4分。",
-          "accessPointName": "中目黒駅 西口1",
-          "bestTime": "3月下旬〜4月上旬の桜は見事だが大混雑。平日朝7時前がおすすめ。ほかの季節の夕方のほうがドラマの生活感に近い。",
-          "tips": "劇中の濱崎家は民家の外観を借りたもので、現在も私有の建物。訪問・立ち入り・住人の撮影はしないこと。桜の時期は川沿いで一方通行や立ち止まり禁止などの規制があるので誘導に従って。"
-        },
-        "en": {
-          "placeName": "Shukuyama Bridge on the Meguro River (Nakameguro, Tokyo)",
-          "sceneTitle": "The Hamasaki House by the River",
-          "episode": "Throughout · Hamasaki home exterior",
-          "highlight": "The Best Divorce breaks marriage down into toilet seats and the way you eat, and finds the most honest kind of love in the bickering. Eita's endlessly grumbling Mitsuo and Machiko Ono's big-hearted Yuka make you laugh and ache at once. In Yuji Sakamoto's script, two people who have divorced still cross the same bridge every day, and that inability to let go is what moves people most. The Meguro River in cherry-blossom season looks just like the life they shared.",
-          "story": "Mitsuo and Yuka met while walking home on the night of the 2011 earthquake, when the trains stopped, and married soon afterwards. Two years later, living in an old house by the Meguro River, they fight over everything from the toilet seat to how the other one eats, and finally sign divorce papers. Yet the divorced pair keep finding reasons to stay under the same roof, and Mitsuo's ex Akari and her husband Ryo get tangled up with them too. Their daily crossings of this bridge and walks along the river turned the neighbourhood into the landscape of The Best Divorce.",
-          "access": "From West Exit 1 of Naka-meguro Station (Tokyu Toyoko / Hibiya lines), walk about 150 m north on Yamate-dori to the Meguro River, turn left and follow it upstream about 100 m to Shukuyama Bridge. About 4 min.",
-          "accessPointName": "Naka-meguro Sta. West Exit 1",
-          "bestTime": "Late March to early April brings spectacular blossoms and huge crowds; go before 7 a.m. on a weekday. In other seasons, early evening captures the drama's everyday feel better.",
-          "tips": "The Hamasaki home was a borrowed private house front and is still private property: don't knock, enter or photograph residents. During cherry-blossom season the riverside has one-way and no-stopping rules; follow the stewards."
-        },
-        "ko": {
-          "placeName": "메구로강 슈쿠야마바시 (도쿄 나카메구로)",
-          "sceneTitle": "메구로강 변의 하마사키 집",
-          "episode": "전편 · 하마사키 집 외관",
-          "highlight": "『최고의 이혼』은 결혼을 변기 시트, 밥 먹는 방식 같은 사소한 것들로 해체하면서, 말다툼 속에서 가장 진짜 같은 사랑을 그려 냈다. 에이타가 연기한 미쓰오의 끝없는 투덜거림과 오노 마치코가 연기한 유카의 털털한 다정함에 웃다가도 마음이 아려 온다. 이혼하고도 매일 같은 다리를 건너는 두 사람의 '떨어지지 못함'이야말로 사카모토 유지 각본의 가장 뭉클한 지점이다. 벚꽃철 메구로강 변은 두 사람이 살던 풍경 그대로다.",
-          "story": "미쓰오와 유카는 동일본 대지진이 난 밤, 교통이 끊겨 걸어서 집에 가던 길에 만나 얼마 지나지 않아 결혼했다. 2년 뒤 메구로강 변의 낡은 집에 사는 두 사람은 변기 커버부터 밥 먹는 방식까지 사사건건 부딪히다 결국 이혼 서류에 도장을 찍는다. 그런데 이혼한 두 사람은 이런저런 핑계로 한집에 계속 살고, 미쓰오의 옛 연인 아카리와 그녀의 남편 료까지 얽히면서 관계는 더욱 꼬여 간다. 다리를 건너 외출하고 강가를 걷는 두 사람의 모습이 이 동네를 '최고의 이혼'의 풍경으로 만들었다.",
-          "access": "도큐 도요코선·도쿄메트로 히비야선 '나카메구로'역 서쪽 출구 1에서 야마테도리를 따라 북쪽으로 약 150m 가면 메구로강. 왼쪽으로 꺾어 상류 쪽으로 약 100m 가면 슈쿠야마바시다. 도보 약 4분.",
-          "accessPointName": "나카메구로역 서쪽 출구 1",
-          "bestTime": "3월 하순~4월 초 벚꽃은 장관이지만 인파가 엄청나다. 평일 아침 7시 전을 추천. 다른 계절의 저녁이 오히려 드라마 속 생활감에 가깝다.",
-          "tips": "극 중 하마사키 집은 민가 외관을 빌린 것으로 지금도 사유 건물입니다. 방문·출입·주민 촬영은 삼가세요. 벚꽃철에는 강변에 일방통행·정지 금지 등의 규제가 있으니 안내에 따르세요."
-        }
-      }
-    },
-    {
-      "id": "shinzanmono-kiyosu-bridge",
-      "workID": "shinzanmono",
-      "latitude": 35.68271,
-      "longitude": 139.79141,
-      "sceneHeading": 123,
-      "scenePitch": 0,
-      "arrivalRadius": 60,
-      "spoiler": false,
-      "sourceURL": "https://loca.ash.jp/info/2010/d201004_shinzan.htm",
-      "photo": "File:Kiyosu Bridge 2015-05-30 (18097974009).jpg",
-      "verified": false,
-      "bestMonths": [
-        4,
-        5,
-        10,
-        11
-      ],
-      "accessPoint": {
-        "latitude": 35.681677,
-        "longitude": 139.798999
-      },
-      "text": {
-        "zh-Hans": {
-          "placeName": "隅田川 清洲桥（东京·日本桥滨町）",
-          "sceneTitle": "清洲桥上的那个身影",
-          "episode": "第1集／最终集",
-          "highlight": "《新参者》是一部不急着抓凶手的推理剧：阿部宽饰演的加贺恭一郎走遍人形町的老铺，把街坊们出于善意撒的小谎一个个解开，案件背后满是人情味。清洲桥是这份温度的开头与收尾——第一集桥上那个抱着布偶的孤单身影，到最终集又成了加贺问出关键一句话的地方。这座 1928 年落成、列为国家重要文化财产的水蓝色吊桥，也成了“加贺系列”粉丝漫步下町的必到之处。",
-          "story": "刚调到日本桥警署的刑警加贺恭一郎，负责调查独居女性三井峰子在小传马町公寓被杀一案。离婚后搬到这片下町的峰子，生前常在人形町一带走动，而她抱着布偶站在清洲桥上的样子，留在了很多人的记忆里。加贺不急着找凶手，而是一家家走访煎饼店、钟表店和人形烧铺，解开街坊们出于善意撒下的小谎，一点点拼出峰子为何来到这里、想守护的又是什么。最终集，加贺在这座桥上与关键人物谈话，事件也走向了真相。",
-          "access": "东京地铁半藏门线／都营大江户线「清澄白河」站 A3 出口出来，沿清洲桥通向西直走约 600 米上清洲桥，过桥到西端（中洲一侧），约 10 分钟。",
-          "accessPointName": "清澄白河站 A3 出口",
-          "bestTime": "日落后桥身点灯，从隅田川露台仰拍最美；白天可选光线柔和的阴天，更能拍出剧中下町的安静气氛。",
-          "tips": "桥上车流多，请在人行道上拍照，勿站到车道边；顺路去人形町的剧中店铺时，排队请勿挡住店门。"
-        },
-        "ja": {
-          "placeName": "隅田川 清洲橋（東京都中央区日本橋中洲）",
-          "sceneTitle": "清洲橋に立つ人",
-          "episode": "第1話／最終話",
-          "highlight": "『新参者』は犯人探しを急がないミステリーだ。阿部寛演じる加賀恭一郎は人形町の老舗を一軒ずつ訪ね、町の人たちが優しさから口にした小さな嘘をほどいていく。事件の向こうにあるのは、たっぷりの人情。清洲橋はその温かさの始まりと終わりにある。第1話でぬいぐるみを抱いて橋に立つ孤独な姿、そして最終回で加賀が大切な問いを投げかける場所。1928年完成、国の重要文化財でもある水色の吊り橋は、加賀シリーズのファンが下町散歩で必ず立ち寄る場所になった。",
-          "story": "日本橋署に着任したばかりの加賀恭一郎は、小伝馬町のマンションでひとり暮らしの女性・三井峯子が殺された事件を担当する。離婚してこの下町に越してきた峯子は人形町界隈をよく歩いていて、ぬいぐるみを抱えて清洲橋に立つ姿は多くの人の記憶に残っていた。加賀は犯人探しを急がず、煎餅屋、時計店、人形焼屋を一軒ずつ訪ね、町の人々が優しさからついた小さな嘘をほどきながら、峯子がなぜこの町に来て、何を守ろうとしていたのかを解き明かしていく。最終話、加賀はこの橋で事件の鍵を握る人物と向き合い、事件は真相へと向かう。",
-          "access": "東京メトロ半蔵門線・都営大江戸線「清澄白河」駅A3出口から清洲橋通りを西へまっすぐ約600mで清洲橋。橋を渡った西詰（中洲側）まで徒歩約10分。",
-          "accessPointName": "清澄白河駅 A3出口",
-          "bestTime": "日没後、ライトアップされた橋を隅田川テラスから見上げるのがいちばん美しい。日中なら柔らかい曇りの日が、ドラマの下町らしい静けさに合う。",
-          "tips": "橋の上は交通量が多いので、撮影は歩道から。車道側に出ないこと。人形町のロケ店舗に寄るときは、行列で店先をふさがないように。"
-        },
-        "en": {
-          "placeName": "Kiyosu Bridge over the Sumida (Nihonbashi, Tokyo)",
-          "sceneTitle": "The Woman on Kiyosu Bridge",
-          "episode": "Episode 1 / Final episode",
-          "highlight": "Shinzanmono is a mystery in no hurry to catch the killer. Hiroshi Abe's detective Kaga works his way through Ningyocho's old shops, untangling small lies the neighbors told out of kindness, and behind the case lies a great deal of warmth. Kiyosu Bridge bookends that warmth: the lonely figure clutching a stuffed toy on the bridge in episode one, and the place where Kaga asks the question that matters in the finale. Completed in 1928 and an Important Cultural Property, the pale-blue suspension bridge is now a fixture on fans' strolls through the old town.",
-          "story": "Newly assigned to the Nihonbashi police, Detective Kaga takes on the murder of Mineko Mitsui, a woman living alone in a Kodenmacho apartment. After her divorce she had moved to this old downtown and often walked around Ningyocho, and many people remember her standing on Kiyosu Bridge holding a stuffed toy. Kaga doesn't rush to find a culprit. He visits the rice-cracker shop, the clockmaker and the ningyo-yaki bakery one by one, untangling the small, kindly meant lies of the townspeople to work out why Mineko came here and what she was trying to protect. In the final episode he faces a key figure on this bridge, and the case moves toward the truth.",
-          "access": "From Exit A3 of Kiyosumi-shirakawa Station (Hanzomon / Oedo lines), walk straight west along Kiyosubashi-dori about 600 m to Kiyosu Bridge and cross to its west (Nakasu) end. About 10 min.",
-          "accessPointName": "Kiyosumi-shirakawa Sta. Exit A3",
-          "bestTime": "After sunset the bridge is lit up, best shot looking up from the Sumida River Terrace. By day, a soft overcast sky suits the drama's quiet old-town mood.",
-          "tips": "Traffic on the bridge is heavy: shoot from the sidewalk and stay off the roadway. If you visit the Ningyocho shops from the drama, don't let queues block the entrances."
-        },
-        "ko": {
-          "placeName": "스미다강 기요스바시 (도쿄 니혼바시)",
-          "sceneTitle": "기요스바시 위의 그 사람",
-          "episode": "제1화 / 최종화",
-          "highlight": "『신참자』는 범인 찾기를 서두르지 않는 추리극이다. 아베 히로시가 연기한 가가 교이치로는 닌교초의 노포를 하나하나 찾아가, 동네 사람들이 선의로 한 작은 거짓말을 풀어 나간다. 사건 너머에 있는 건 넘치는 인정이다. 기요스바시는 그 따뜻함의 시작과 끝에 있다. 1화에서 인형을 안고 다리 위에 선 외로운 모습, 그리고 최종화에서 가가가 중요한 질문을 던지는 장소. 1928년 완공되어 국가 중요문화재로 지정된 하늘색 현수교는 가가 시리즈 팬들이 시타마치 산책 때 꼭 들르는 곳이 되었다.",
-          "story": "니혼바시 경찰서에 막 부임한 형사 가가 교이치로는 고덴마초 아파트에서 혼자 살던 여성 미쓰이 미네코가 살해된 사건을 맡는다. 이혼 후 이 시타마치로 이사 온 미네코는 닌교초 일대를 자주 걸었고, 인형을 안고 기요스바시에 서 있던 모습은 많은 이들의 기억에 남아 있었다. 가가는 범인 찾기를 서두르지 않고 센베이 가게, 시계점, 닌교야키 가게를 하나씩 찾아가 동네 사람들이 선의로 한 작은 거짓말을 풀어 가며, 미네코가 왜 이 동네에 왔고 무엇을 지키려 했는지를 밝혀 간다. 최종화에서 가가는 이 다리 위에서 사건의 열쇠를 쥔 인물과 마주하고, 사건은 진실로 향한다.",
-          "access": "도쿄메트로 한조몬선·도에이 오에도선 '기요스미시라카와'역 A3 출구에서 기요스바시도리를 따라 서쪽으로 약 600m 직진하면 기요스바시. 다리를 건너 서쪽(나카스 쪽) 끝까지 도보 약 10분.",
-          "accessPointName": "기요스미시라카와역 A3 출구",
-          "bestTime": "해가 진 뒤 조명이 켜진 다리를 스미다강 테라스에서 올려다볼 때가 가장 아름답다. 낮이라면 부드러운 흐린 날이 드라마 속 시타마치의 고요함과 어울린다.",
-          "tips": "다리 위는 교통량이 많으니 보도에서 촬영하고 차도 쪽으로 나가지 마세요. 닌교초의 촬영지 가게에 들를 때는 줄로 가게 입구를 막지 않도록 하세요."
         }
       }
     },
@@ -1805,7 +1493,7 @@
           "sceneTitle": "没有电的家",
           "episode": "1981 年连续剧 · 第1集起",
           "highlight": "《来自北国》从 1981 年的连续剧一直拍到 2002 年的特别篇，前后二十一年，观众真的看着纯和萤从小学生长成了大人。这间四处漏风、没有电的破木屋，是黑板一家故事的起点，也是田中邦卫饰演的五郎那份笨拙又倔强的父爱的原点。“没有电怎么生活？”“天黑了就睡觉。”短短一问一答，是对东京式便利的反问。佐田雅志那段没有歌词的“啊——啊啊啊”一响，许多日本人就会想起富良野的原野。",
-          "story": "妻子离开后，黑板五郎带着上小学的儿子纯和女儿萤，从东京回到故乡富良野麓乡。等着他们的，是一间被废弃多年、没有电也没有自来水的破旧木屋。在东京长大的纯一脸不敢相信，问父亲没有电晚上怎么办，五郎只是淡淡地说：“天黑了就睡觉。”一家三口从修屋顶、挑水、拉电线开始，在北海道的严冬里一点点把日子过下去。现在这里复原了“最初的家”，旁边就是五郎后来用田里挖出的石头亲手垒起的“石头屋”。",
+          "story": "妻子离开后，黑板五郎带着上小学的儿子纯和女儿萤，从东京回到故乡富良野麓乡。等着他们的，是一间被废弃多年、没有电也没有自来水的破旧木屋。在东京长大的纯一脸不敢相信，问父亲没有电晚上怎么办，五郎只是淡淡地说：“天黑了就睡觉。”一家三口从修屋顶、劈柴、挑水开始，在北海道的严冬里一点点把日子过下去。现在这里复原了“最初的家”，旁边就是五郎后来用田里挖出的石头亲手垒起的“石头屋”。",
           "access": "JR「富良野」站驾车或打车约 30 分钟；巴士只到麓乡市区，离这里还有数公里，建议自驾。从停车场沿坡道步行约 5 分钟到石头屋。",
           "bestTime": "初夏上午绿意浓、游客少；10 月中下旬落叶松转黄最有北国味道。林间天黑得早，尽量下午 3 点前到。",
           "tips": "收费设施：成人 500 日元，含麓乡之森、捡来的家的三馆通票 1,200 日元；约 9:30 开门，11 月下旬至 4 月中旬冬季闭馆。勿越过屋内围栏或触摸展品；周边是森林，留意熊出没信息。"
@@ -1815,7 +1503,7 @@
           "sceneTitle": "電気のない家",
           "episode": "1981年連続ドラマ・第1話〜",
           "highlight": "『北の国から』は1981年の連続ドラマから2002年のスペシャルまで21年間続き、視聴者は純と蛍が小学生から大人になるまでを本当に見届けた。すきま風だらけで電気もないこのボロ小屋は、黒板一家の物語の出発点であり、田中邦衛演じる五郎の不器用で頑固な父親像の原点でもある。「電気がなかったら暮らせませんよッ」「夜になったら眠るンです」。短いやりとりには、東京的な便利さへの問いかけが込められている。さだまさしの「あーあああああ」が流れれば、富良野の原野が目に浮かぶ人は多い。",
-          "story": "妻と別れた黒板五郎は、小学生の純と螢を連れて東京から故郷・富良野の麓郷へ戻ってくる。待っていたのは、長年放置され電気も水道もない古い廃屋だった。東京育ちの純は信じられないという顔で、電気がなかったら夜はどうするのかと尋ねるが、五郎は淡々と「夜になったら眠るんです」と答える。屋根を直し、水を汲み、電気を引くところから始めて、一家は北海道の厳しい冬を少しずつ乗り越えていく。現在ここには「最初の家」が復元され、そばには五郎が畑から掘り出した石を積んで建てた「石の家」が立つ。",
+          "story": "妻と別れた黒板五郎は、小学生の純と螢を連れて東京から故郷・富良野の麓郷へ戻ってくる。待っていたのは、長年放置され電気も水道もない古い廃屋だった。東京育ちの純は信じられないという顔で、電気がなかったら夜はどうするのかと尋ねるが、五郎は淡々と「夜になったら眠るんです」と答える。屋根を直し、薪を割り、水を汲むところから始めて、一家は北海道の厳しい冬を少しずつ乗り越えていく。現在ここには「最初の家」が復元され、そばには五郎が畑から掘り出した石を積んで建てた「石の家」が立つ。",
           "access": "JR「富良野」駅から車・タクシーで約30分。バスは麓郷市街までで、そこから数km離れているため車が便利。駐車場から坂道を歩いて約5分。",
           "bestTime": "初夏の午前は緑が濃く人も少ない。10月中下旬はカラマツが色づき、いちばん北国らしい。林の中は暗くなるのが早いので15時までに着きたい。",
           "tips": "有料施設（大人500円、麓郷の森・拾って来た家との3施設共通券1,200円）。9:30頃開館、11月下旬〜4月中旬は冬季休館。屋内の柵を越えたり展示物に触れたりしないこと。周辺は森なのでクマの出没情報にも注意。"
@@ -1825,7 +1513,7 @@
           "sceneTitle": "A House Without Electricity",
           "episode": "1981 series · From episode 1",
           "highlight": "From the 1981 series to the 2002 special, From the North ran for 21 years, and viewers literally watched Jun and Hotaru grow from schoolkids into adults. This drafty shack with no electricity is where the Kuroita family's story begins, and the first glimpse of the clumsy, stubborn fatherly love of Goro, played by Kunie Tanaka. \"How can we live without electricity?\" \"When it gets dark, you sleep.\" That short exchange quietly questions the convenience of Tokyo life. For many Japanese, the first wordless \"ah-ah-ah\" of Masashi Sada's theme still summons the plains of Furano.",
-          "story": "After his wife leaves, Goro Kuroita takes his young son Jun and daughter Hotaru from Tokyo back to his hometown of Rokugo near Furano. What awaits them is a long-abandoned wooden house with no electricity and no running water. Tokyo-raised Jun can't believe it and asks what they'll do at night without power; Goro simply answers, 'When it gets dark, you sleep.' Starting with fixing the roof, hauling water and running a power line, the three slowly make a life through the Hokkaido winter. The 'first house' has been rebuilt here, next to the stone house Goro later builds by hand from rocks dug out of the fields.",
+          "story": "After his wife leaves, Goro Kuroita takes his young son Jun and daughter Hotaru from Tokyo back to his hometown of Rokugo near Furano. What awaits them is a long-abandoned wooden house with no electricity and no running water. Tokyo-raised Jun can't believe it and asks what they'll do at night without power; Goro simply answers, 'When it gets dark, you sleep.' Starting with fixing the roof, chopping wood and hauling water, the three slowly make a life through the Hokkaido winter. The 'first house' has been rebuilt here, next to the stone house Goro later builds by hand from rocks dug out of the fields.",
           "access": "About 30 min by car or taxi from JR Furano Station. Buses stop in Rokugo village, several kilometres short, so driving is easiest. From the car park it's about a 5-min uphill walk.",
           "bestTime": "Early-summer mornings are lush and quiet; in mid-to-late October the larches turn gold and it feels most like the North. The woods darken early, so arrive by 3 p.m.",
           "tips": "Paid site: adults ¥500, or ¥1,200 for a three-site pass with Rokugo no Mori and the Gathered House. Opens around 9:30; closed for winter from late November to mid-April. Don't cross the barriers inside or touch the exhibits. It's forest country, so check bear-sighting notices."
@@ -1835,7 +1523,7 @@
           "sceneTitle": "전기 없는 집",
           "episode": "1981년 연속극 · 제1화부터",
           "highlight": "『북쪽 나라에서』는 1981년 연속극부터 2002년 스페셜까지 21년간 이어졌고, 시청자들은 준과 호타루가 초등학생에서 어른이 되기까지를 실제로 지켜보았다. 바람이 숭숭 들고 전기도 없는 이 낡은 오두막은 구로이타 가족 이야기의 출발점이자, 다나카 구니에가 연기한 고로의 서툴고 고집스러운 부성애의 원점이다. \"전기가 없으면 어떻게 살아요?\" \"밤이 되면 자는 거예요.\" 짧은 대화에는 도쿄식 편리함에 대한 물음이 담겨 있다. 사다 마사시의 가사 없는 \"아~아아아아\"가 흐르면 후라노의 들판을 떠올리는 일본인이 많다.",
-          "story": "아내와 헤어진 구로이타 고로는 초등학생 아들 준과 딸 호타루를 데리고 도쿄를 떠나 고향인 후라노 로쿠고로 돌아온다. 그들을 기다린 건 오랫동안 버려져 전기도 수도도 없는 낡은 폐가였다. 도쿄에서 자란 준은 믿을 수 없다는 얼굴로 전기가 없으면 밤에는 어떡하냐고 묻지만, 고로는 담담하게 \"밤이 되면 자는 거다\"라고 답한다. 지붕을 고치고 물을 길어 오고 전선을 끌어오는 일부터 시작해, 세 식구는 홋카이도의 혹독한 겨울을 조금씩 견뎌 낸다. 지금 이곳에는 '첫 번째 집'이 복원되어 있고, 옆에는 고로가 밭에서 캐낸 돌을 쌓아 손수 지은 '돌집'이 서 있다.",
+          "story": "아내와 헤어진 구로이타 고로는 초등학생 아들 준과 딸 호타루를 데리고 도쿄를 떠나 고향인 후라노 로쿠고로 돌아온다. 그들을 기다린 건 오랫동안 버려져 전기도 수도도 없는 낡은 폐가였다. 도쿄에서 자란 준은 믿을 수 없다는 얼굴로 전기가 없으면 밤에는 어떡하냐고 묻지만, 고로는 담담하게 \"밤이 되면 자는 거다\"라고 답한다. 지붕을 고치고 장작을 패고 물을 길어 오는 일부터 시작해, 세 식구는 홋카이도의 혹독한 겨울을 조금씩 견뎌 낸다. 지금 이곳에는 '첫 번째 집'이 복원되어 있고, 옆에는 고로가 밭에서 캐낸 돌을 쌓아 손수 지은 '돌집'이 서 있다.",
           "access": "JR '후라노'역에서 차·택시로 약 30분. 버스는 로쿠고 시가지까지만 가고 여기서 몇 km 떨어져 있어 자가용이 편하다. 주차장에서 언덕길을 약 5분 걸어 올라간다.",
           "bestTime": "초여름 오전은 녹음이 짙고 한산하다. 10월 중하순에는 낙엽송이 노랗게 물들어 가장 북국다운 풍경이 된다. 숲속은 일찍 어두워지니 오후 3시 전에 도착하자.",
           "tips": "유료 시설(성인 500엔, 로쿠고노모리·주워 온 집과의 3시설 공통권 1,200엔). 9:30경 개관, 11월 하순~4월 중순은 동계 휴관. 실내 울타리를 넘거나 전시물을 만지지 마세요. 주변은 숲이니 곰 출몰 정보에도 주의하세요."
@@ -1862,9 +1550,9 @@
         "zh-Hans": {
           "placeName": "鱼津崎公园（长崎·五岛 岐宿）",
           "sceneTitle": "巴拉门风筝，飞起来！",
-          "episode": "第1–2周",
-          "highlight": "《飞翔吧！》讲一个怕生、爱发烧的女孩怎样一步步飞向天空，而舞第一次真正“抬起头”，就是在五岛的海风里看着巴拉门风筝越升越高。那只风筝不是一个人放起来的，而是岛上大人孩子一起拉线——这正是这部晨间剧想说的：梦想要靠身边的人托起来。福原遥饰演的舞，飞行员之梦就从这片草地开始；back number 的主题曲《アイラブユー》响起时，很多人会想起这片海。",
-          "story": "在东大阪长大的舞身体虚弱，又容易紧张，常常发烧。母亲带她回到五岛列岛的外婆祥子家，让她在海岛上休养一阵。不爱说话的舞起初很难融入，直到在这座面朝大海的公园里，她第一次看到绘着武士和鬼面的巴拉门风筝迎着海风高高飞起。之后，舞和岛上的大人、孩子们一起拉着长长的风筝线，看着大风筝在五岛的天空稳稳升起。那一刻，她也一点点找回了说出自己想法的勇气。第2周的标题就是“巴拉门风筝，飞起来！”",
+          "episode": "第2周 · 第10集",
+          "highlight": "《飞翔吧！》讲一个怕生、爱发烧的女孩怎样一步步飞向天空，而舞第一次真正“抬起头”，就是在五岛的海风里看着巴拉门风筝越升越高。那只风筝不是一个人放起来的，而是岛上大人孩子一起拉线——这正是这部晨间剧想说的：梦想要靠身边的人托起来。这只风筝被视为舞飞行梦想的原点（童年的舞由浅田芭路饰演）；back number 的主题曲《アイラブユー》响起时，很多人会想起这片海。",
+          "story": "在东大阪长大的舞身体虚弱，又容易紧张，常常发烧。母亲带她回到五岛列岛的外婆祥子家，让她在海岛上休养一阵。不爱说话的舞起初很难融入，却在岛上第一次见到了绘着武士和鬼面的巴拉门风筝。一太的弟弟过生日，大家做了一只两米高的大风筝，在这座面朝大海的山丘公园放飞，一太提议让舞来放。舞紧张得不行，风筝被海风吹得东倒西歪，可在岛上大人和孩子们的帮忙下，大风筝终于在五岛的天空稳稳升起。那一刻，她也一点点找回了说出自己想法的勇气。",
           "access": "从五岛福江港驾车约 25 分钟，或从五岛椿机场驾车约 20 分钟，往岐宿方向。岛上巴士班次很少，建议租车。",
           "bestTime": "3–5 月天晴风大，园内油菜花盛开，最有剧中放风筝的气氛；海边朝西北开阔，傍晚能看到夕阳落海。",
           "tips": "岛上巴士班次很少，自驾或包车最稳妥；海角风大，放风筝请远离道路和电线，帽子等小物容易被吹进海里；草地是公共空间，垃圾请带走。"
@@ -1872,9 +1560,9 @@
         "ja": {
           "placeName": "魚津ヶ崎公園（長崎県五島市岐宿町）",
           "sceneTitle": "ばらもん凧、あがれ！",
-          "episode": "第1〜2週",
-          "highlight": "『舞いあがれ！』は、人見知りで熱を出しがちな女の子が空へ羽ばたいていく物語。舞が初めて本当に「顔を上げた」のは、五島の海風の中、ばらもん凧がぐんぐん上がっていくのを見たときだった。凧は一人で揚げるのではなく、島の大人も子どもも一緒に糸を引く。夢は周りの人に支えられて舞い上がる、というこの朝ドラのテーマそのものだ。福原遥演じる舞のパイロットへの夢はこの芝生から始まり、back numberの主題歌「アイラブユー」とともにこの海を思い出す人も多い。",
-          "story": "東大阪で育った舞は体が弱く、緊張するとすぐ熱を出してしまう。母・めぐみは舞を連れて五島列島の祖母・祥子のもとへ帰り、しばらく島で暮らさせることにする。口数の少ない舞はなかなかなじめなかったが、海に面したこの公園で、武者や鬼の顔が描かれたばらもん凧が海風を受けて高く揚がるのを初めて目にする。やがて舞は島の大人や子どもたちと一緒に長い糸を引き、五島の空に大凧を揚げる。その瞬間、舞は自分の気持ちを言葉にする勇気も少しずつ取り戻していった。第2週のタイトルは「ばらもん凧、あがれ！」。",
+          "episode": "第2週・第10回",
+          "highlight": "『舞いあがれ！』は、人見知りで熱を出しがちな女の子が空へ羽ばたいていく物語。舞が初めて本当に「顔を上げた」のは、五島の海風の中、ばらもん凧がぐんぐん上がっていくのを見たときだった。凧は一人で揚げるのではなく、島の大人も子どもも一緒に糸を引く。夢は周りの人に支えられて舞い上がる、というこの朝ドラのテーマそのものだ。ばらもん凧は舞の空への夢の原点とされ（子ども時代の舞は浅田芭路）、back numberの主題歌「アイラブユー」とともにこの海を思い出す人も多い。",
+          "story": "東大阪で育った舞は体が弱く、緊張するとすぐ熱を出してしまう。母・めぐみは舞を連れて五島列島の祖母・祥子のもとへ帰り、しばらく島で暮らさせることにする。口数の少ない舞はなかなかなじめなかったが、島で武者や鬼の顔が描かれたばらもん凧と出会う。一太の弟の誕生祝いに作られた2メートルもの大凧を、海を見下ろすこの丘の公園で揚げることになり、一太は舞に揚げてみろと言う。緊張する舞の手の中で凧は海風にあおられるが、島の大人や子どもたちが手を貸し、大凧はついに五島の空高く舞い上がる。その瞬間、舞は自分の気持ちを言葉にする勇気も少しずつ取り戻していった。",
           "access": "五島・福江港から車で約25分、五島つばき空港から約20分（岐宿方面）。島のバスは本数が少ないのでレンタカーが便利。",
           "bestTime": "3〜5月は晴れて風が強く、園内に菜の花が咲き、劇中の凧揚げの雰囲気に近い。北西に開けた海辺なので、夕方は海に沈む夕日が見られる。",
           "tips": "島のバスは本数が少ないので、レンタカーかタクシーが確実。岬は風が強く、凧揚げは道路や電線から離れて。帽子などが海へ飛ばされやすい。芝生は公共の場なのでごみは持ち帰りを。"
@@ -1882,9 +1570,9 @@
         "en": {
           "placeName": "Gyogasaki Park (Kishiku, Goto, Nagasaki)",
           "sceneTitle": "Fly, Baramon Kite!",
-          "episode": "Weeks 1–2",
-          "highlight": "Maiagare! follows a shy, fever-prone girl as she learns to fly, and the first time Mai truly lifts her head is here, in the Goto sea wind, watching a baramon kite climb higher and higher. No one flies that kite alone: islanders young and old haul on the line together, which is the drama's whole message, that dreams take off when the people around you hold them up. Haruka Fukuhara's Mai starts dreaming of being a pilot on this lawn, and back number's theme song \"I Love You\" brings this sea back for many viewers.",
-          "story": "Growing up in Higashi-Osaka, Mai is frail and so anxious she often runs a fever. Her mother takes her back to the Goto Islands to stay with her grandmother Shoko for a while. Quiet Mai struggles to fit in, until at this park facing the sea she sees a baramon kite, painted with a warrior and a demon's face, rise high on the sea wind. Later she joins the island's adults and children pulling on a long line as a huge kite climbs steadily into the Goto sky, and bit by bit she finds the courage to say what she feels. Week 2 is titled 'Fly, Baramon Kite!'.",
+          "episode": "Week 2 · Episode 10",
+          "highlight": "Maiagare! follows a shy, fever-prone girl as she learns to fly, and the first time Mai truly lifts her head is here, in the Goto sea wind, watching a baramon kite climb higher and higher. No one flies that kite alone: islanders young and old haul on the line together, which is the drama's whole message, that dreams take off when the people around you hold them up. The kite is seen as the starting point of Mai's dream of flying (young Mai is played by Halu Asada), and back number's theme song \"I Love You\" brings this sea back for many viewers.",
+          "story": "Growing up in Higashi-Osaka, Mai is frail and so anxious she often runs a fever. Her mother takes her back to the Goto Islands to stay with her grandmother Shoko for a while. Quiet Mai struggles to fit in, but on the island she discovers the baramon kite, painted with a warrior and a demon's face. For his little brother's birthday, Ichita's family builds a two-metre kite, and at this hilltop park above the sea Ichita tells Mai to fly it. She is terrified and the sea wind tosses the kite about, but with the islanders young and old lending a hand, the huge kite finally climbs high into the Goto sky, and bit by bit she finds the courage to say what she feels.",
           "access": "About 25 min by car from Fukue Port or 20 min from Goto-Tsubaki Airport, heading toward Kishiku. Island buses are infrequent, so a rental car is easiest.",
           "bestTime": "March to May brings clear skies, strong winds and rapeseed blossoms in the park, closest to the drama's kite-flying mood. The shore opens to the northwest, so evenings bring sunsets over the sea.",
           "tips": "Island buses are rare, so a rental car or taxi is safest. The cape is windy: fly kites well away from roads and power lines, and hold onto hats. The lawn is public space, so take your trash home."
@@ -1892,9 +1580,9 @@
         "ko": {
           "placeName": "교가사키 공원 (나가사키현 고토 기시쿠)",
           "sceneTitle": "바라몬 연아, 날아올라라!",
-          "episode": "제1~2주",
-          "highlight": "『마이아가레!』는 낯을 가리고 툭하면 열이 나던 소녀가 하늘로 날아오르는 이야기다. 마이가 처음으로 진짜 '고개를 든' 것은 고토의 바닷바람 속에서 바라몬 연이 쑥쑥 올라가는 것을 보았을 때였다. 그 연은 혼자 띄우는 게 아니라 섬의 어른과 아이들이 함께 줄을 당긴다. 꿈은 주변 사람들이 받쳐 줄 때 날아오른다는, 이 아침 드라마의 주제 그 자체다. 후쿠하라 하루카가 연기한 마이의 파일럿 꿈은 이 잔디밭에서 시작되었고, back number의 주제가 'アイラブユー'와 함께 이 바다를 떠올리는 사람이 많다.",
-          "story": "히가시오사카에서 자란 마이는 몸이 약하고 긴장하면 금세 열이 나는 아이다. 엄마는 마이를 데리고 고토 열도의 할머니 쇼코 댁으로 가 한동안 섬에서 지내게 한다. 말수가 적은 마이는 좀처럼 섬에 적응하지 못하다가, 바다를 마주한 이 공원에서 무사와 도깨비 얼굴이 그려진 바라몬 연이 바닷바람을 타고 높이 오르는 모습을 처음 본다. 이윽고 마이는 섬의 어른, 아이들과 함께 긴 연줄을 당기며 고토의 하늘로 큰 연을 띄워 올리고, 그 순간 자기 마음을 말로 꺼낼 용기도 조금씩 되찾는다. 2주 차 제목이 바로 '바라몬 연아, 날아올라라!'다.",
+          "episode": "제2주 · 제10회",
+          "highlight": "『마이아가레!』는 낯을 가리고 툭하면 열이 나던 소녀가 하늘로 날아오르는 이야기다. 마이가 처음으로 진짜 '고개를 든' 것은 고토의 바닷바람 속에서 바라몬 연이 쑥쑥 올라가는 것을 보았을 때였다. 그 연은 혼자 띄우는 게 아니라 섬의 어른과 아이들이 함께 줄을 당긴다. 꿈은 주변 사람들이 받쳐 줄 때 날아오른다는, 이 아침 드라마의 주제 그 자체다. 바라몬 연은 마이가 하늘을 꿈꾸게 된 원점으로 여겨지며(어린 마이는 아사다 하루가 연기), back number의 주제가 'アイラブユー'와 함께 이 바다를 떠올리는 사람이 많다.",
+          "story": "히가시오사카에서 자란 마이는 몸이 약하고 긴장하면 금세 열이 나는 아이다. 엄마는 마이를 데리고 고토 열도의 할머니 쇼코 댁으로 가 한동안 섬에서 지내게 한다. 말수가 적은 마이는 좀처럼 섬에 적응하지 못하지만, 섬에서 무사와 도깨비 얼굴이 그려진 바라몬 연을 만난다. 이치타의 동생 생일을 맞아 만든 2미터짜리 큰 연을 바다가 내려다보이는 이 언덕 공원에서 띄우게 되고, 이치타는 마이에게 띄워 보라고 한다. 잔뜩 긴장한 마이의 손에서 연은 바닷바람에 휘청이지만, 섬의 어른과 아이들이 힘을 보태 큰 연은 마침내 고토의 하늘 높이 날아오른다. 그 순간 마이는 자기 마음을 말로 꺼낼 용기도 조금씩 되찾는다.",
           "access": "고토 후쿠에항에서 차로 약 25분, 고토쓰바키 공항에서 약 20분(기시쿠 방면). 섬 버스는 편수가 적어 렌터카가 편하다.",
           "bestTime": "3~5월은 맑고 바람이 강하며 공원에 유채꽃이 피어 드라마 속 연날리기 분위기에 가깝다. 북서쪽으로 열린 바닷가라 저녁에는 바다로 지는 해를 볼 수 있다.",
           "tips": "섬 버스는 편수가 적어 렌터카나 택시가 확실합니다. 곶은 바람이 강하니 연은 도로와 전선에서 떨어져 날리고, 모자 등이 바다로 날아가지 않게 주의하세요. 잔디밭은 공공장소이니 쓰레기는 가져가세요."
@@ -1993,7 +1681,7 @@
       "text": {
         "zh-Hans": {
           "placeName": "池袋西口公园（东京·池袋）",
-          "sceneTitle": "马克的地盘",
+          "sceneTitle": "阿诚的主场",
           "episode": "全剧 · 第1集起",
           "highlight": "《池袋西口公园》的分量不在收视数字，而在一代年轻人的共鸣。长濑智也饰演的阿诚没学历也没野心，却是街头最讲义气的“麻烦解决人”；洼塚洋介的“国王”更成了日剧史上最有存在感的配角之一。宫藤官九郎跳跃的台词、堤幸彦快节奏的剪辑，加上 SADS 的主题曲《忘却的天空》，把 2000 年的池袋拍得又躁动又温柔。剧名就是这座公园，对剧迷来说，来这里就像“回家”。",
           "story": "高中毕业后没有正经工作的真岛诚，白天帮家里的水果店看店，其余时间几乎都泡在池袋西口公园。在街头混熟了的他，成了年轻人有麻烦时都会来找的“麻烦解决人”。一桩牵涉女高中生的事件，把阿诚、他的朋友们和街头帮派“G 少年”的国王安藤崇卷了进来，池袋的明与暗也随之摊开。宫藤官九郎的台词、堤幸彦的快节奏镜头，让这座车站前的小公园成了一代人心中的“IWGP”。2019 年公园改建，新增了环形露天剧场“Global Ring”。",

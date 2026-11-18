@@ -1051,7 +1051,7 @@
 ## 66. 日剧《东京爱情故事》“完治，我们做爱吧”
 
 - ID：`tokyolovestory-shirokane-sandobashi`
-- 地点：白金栈道桥 山手线旁（东京·目黑）　·　镜头朝向：面向西　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Shirokane-Sando-Bridge-00.jpg)
+- 地点：白金栈道桥 山手线旁（东京·品川）　·　镜头朝向：面向西　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Shirokane-Sando-Bridge-00.jpg)
 - 搜原作画面：
 
   ```
@@ -1064,7 +1064,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E7%99%BD%E9%87%91%E6%A1%9F%E9%81%93%E6%A9%8B%E3%83%BB%E5%B1%B1%E6%89%8B%E7%B7%9A%E6%B2%BF%E3%81%84)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E7%99%BD%E9%87%91%E6%A1%9F%E9%81%93%E6%A9%8B%E3%83%BB%E5%B1%B1%E6%89%8B%E7%B7%9A%E6%B2%BF%E3%81%84&title=Special:MediaSearch&type=image)
 
-## 67. 日剧《初恋》俯瞰小樽的回忆之地
+## 67. 日剧《初恋》天狗山夜景下的吻
 
 - ID：`firstlove-tenguyama`
 - 地点：小樽天狗山 山顶展望台（北海道·小樽）　·　镜头朝向：面向东北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Tenguyama,_Otaru,_Hokkaido_Prefecture_047-0012,_Japan_-_panoramio.jpg)
@@ -1080,23 +1080,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E5%B0%8F%E6%A8%BD%E5%A4%A9%E7%8B%97%E5%B1%B1%20%E5%B1%B1%E9%A0%82%E5%B1%95%E6%9C%9B%E5%8F%B0)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E5%B0%8F%E6%A8%BD%E5%A4%A9%E7%8B%97%E5%B1%B1%20%E5%B1%B1%E9%A0%82%E5%B1%95%E6%9C%9B%E5%8F%B0&title=Special:MediaSearch&type=image)
 
-## 68. 日剧《初恋》环岛里的擦肩而过
-
-- ID：`firstlove-tokiwa-rotary`
-- 地点：旭川常盘环岛（北海道·旭川）　·　镜头朝向：面向北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Asahikawa_Tokiwa_Rotary_-_Jan_3,_2023.jpg)
-- 搜原作画面：
-
-  ```
-  First Love 初恋 旭川常盤ロータリー 聖地巡礼 比較
-  ```
-- 搜实景照片：
-
-  ```
-  旭川常盤ロータリー 写真
-  ```
-- 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E6%97%AD%E5%B7%9D%E5%B8%B8%E7%9B%A4%E3%83%AD%E3%83%BC%E3%82%BF%E3%83%AA%E3%83%BC)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E6%97%AD%E5%B7%9D%E5%B8%B8%E7%9B%A4%E3%83%AD%E3%83%BC%E3%82%BF%E3%83%AA%E3%83%BC&title=Special:MediaSearch&type=image)
-
-## 69. 日剧《半泽直树》东京中央银行总行
+## 68. 日剧《半泽直树》东京中央银行总行
 
 - ID：`hanzawa-mitsui-honkan`
 - 地点：三井本馆（东京·日本桥室町）　·　镜头朝向：面向西　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Mitsui_Main_Building.jpg)
@@ -1112,7 +1096,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E4%B8%89%E4%BA%95%E6%9C%AC%E9%A4%A8)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E4%B8%89%E4%BA%95%E6%9C%AC%E9%A4%A8&title=Special:MediaSearch&type=image)
 
-## 70. 日剧《半泽直树》大阶梯上的树脂螺丝
+## 69. 日剧《半泽直树》大阶梯上的树脂螺丝
 
 - ID：`hanzawa-tnm-staircase`
 - 地点：东京国立博物馆 本馆大阶梯（东京·上野）　·　镜头朝向：面向北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum_Honkan_(52504030514).jpg)
@@ -1128,7 +1112,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E6%9D%B1%E4%BA%AC%E5%9B%BD%E7%AB%8B%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E6%9C%AC%E9%A4%A8%E5%A4%A7%E9%9A%8E%E6%AE%B5)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E6%9D%B1%E4%BA%AC%E5%9B%BD%E7%AB%8B%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E6%9C%AC%E9%A4%A8%E5%A4%A7%E9%9A%8E%E6%AE%B5&title=Special:MediaSearch&type=image)
 
-## 71. 日剧《四重奏》甜甜圈洞的大厅演奏会
+## 70. 日剧《四重奏》甜甜圈洞的大厅演奏会
 
 - ID：`quartet-karuizawa-ohga-hall`
 - 地点：轻井泽大贺音乐厅（长野·轻井泽）　·　镜头朝向：面向东北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:160730_Karuizawa_Ohga_Hall_Karuizawa_Nagano_pref_Japan04s3.jpg)
@@ -1144,7 +1128,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E8%BB%BD%E4%BA%95%E6%B2%A2%E5%A4%A7%E8%B3%80%E3%83%9B%E3%83%BC%E3%83%AB)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E8%BB%BD%E4%BA%95%E6%B2%A2%E5%A4%A7%E8%B3%80%E3%83%9B%E3%83%BC%E3%83%AB&title=Special:MediaSearch&type=image)
 
-## 72. 日剧《悠长假期》隅田川边的长假
+## 71. 日剧《悠长假期》隅田川边的长假
 
 - ID：`longvacation-shin-ohashi`
 - 地点：隅田川 新大桥与河堤（东京·江东）　·　镜头朝向：面向南　·　[现在用的照片](https://www.flickr.com/photos/12873985@N00/8997176702)
@@ -1160,39 +1144,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E9%9A%85%E7%94%B0%E5%B7%9D%20%E6%96%B0%E5%A4%A7%E6%A9%8B%E3%81%A8%E5%B7%9D%E6%B2%BF%E3%81%84%E3%81%AE%E5%A0%A4%E9%98%B2)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E9%9A%85%E7%94%B0%E5%B7%9D%20%E6%96%B0%E5%A4%A7%E6%A9%8B%E3%81%A8%E5%B7%9D%E6%B2%BF%E3%81%84%E3%81%AE%E5%A0%A4%E9%98%B2&title=Special:MediaSearch&type=image)
 
-## 73. 日剧《新参者》清洲桥上的那个身影
-
-- ID：`shinzanmono-kiyosu-bridge`
-- 地点：隅田川 清洲桥（东京·日本桥滨町）　·　镜头朝向：面向东南　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Kiyosu_Bridge_2015-05-30_(18097974009).jpg)
-- 搜原作画面：
-
-  ```
-  新参者 隅田川 清洲橋 聖地巡礼 比較
-  ```
-- 搜实景照片：
-
-  ```
-  隅田川 清洲橋 写真
-  ```
-- 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E9%9A%85%E7%94%B0%E5%B7%9D%20%E6%B8%85%E6%B4%B2%E6%A9%8B)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E9%9A%85%E7%94%B0%E5%B7%9D%20%E6%B8%85%E6%B4%B2%E6%A9%8B&title=Special:MediaSearch&type=image)
-
-## 74. 日剧《最完美的离婚》目黑川边的滨崎家
-
-- ID：`saikonorikon-shukuyama-bridge`
-- 地点：目黑川 宿山桥（东京·中目黑）　·　镜头朝向：面向北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%8A%E3%83%81%E3%83%A5%E3%83%A9%E3%83%AB_2013_(11849727363).jpg)
-- 搜原作画面：
-
-  ```
-  最高の離婚 目黒川 宿山橋 聖地巡礼 比較
-  ```
-- 搜实景照片：
-
-  ```
-  目黒川 宿山橋 写真
-  ```
-- 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E7%9B%AE%E9%BB%92%E5%B7%9D%20%E5%AE%BF%E5%B1%B1%E6%A9%8B)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E7%9B%AE%E9%BB%92%E5%B7%9D%20%E5%AE%BF%E5%B1%B1%E6%A9%8B&title=Special:MediaSearch&type=image)
-
-## 75. 日剧《来自北国》没有电的家
+## 72. 日剧《来自北国》没有电的家
 
 - ID：`kitanokuni-goro-first-house`
 - 地点：五郎的石头屋·最初的家（北海道·富良野麓乡）　·　镜头朝向：面向北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Goro%27s_First_House.JPG)
@@ -1208,7 +1160,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E4%BA%94%E9%83%8E%E3%81%AE%E7%9F%B3%E3%81%AE%E5%AE%B6%E3%83%BB%E6%9C%80%E5%88%9D%E3%81%AE%E5%AE%B6)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E4%BA%94%E9%83%8E%E3%81%AE%E7%9F%B3%E3%81%AE%E5%AE%B6%E3%83%BB%E6%9C%80%E5%88%9D%E3%81%AE%E5%AE%B6&title=Special:MediaSearch&type=image)
 
-## 76. 日剧《池袋西口公园》马克的地盘
+## 73. 日剧《池袋西口公园》阿诚的主场
 
 - ID：`iwgp-ikebukuro-west-gate-park`
 - 地点：池袋西口公园（东京·池袋）　·　镜头朝向：面向西　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Global_Ring_Theater_2025-01-08.jpg)
@@ -1224,7 +1176,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E6%B1%A0%E8%A2%8B%E8%A5%BF%E5%8F%A3%E5%85%AC%E5%9C%92)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E6%B1%A0%E8%A2%8B%E8%A5%BF%E5%8F%A3%E5%85%AC%E5%9C%92&title=Special:MediaSearch&type=image)
 
-## 77. 日剧《海女》北三陆的海女
+## 74. 日剧《海女》北三陆的海女
 
 - ID：`amachan-kosode`
 - 地点：小袖海女中心·小袖渔港（岩手·久慈）　·　镜头朝向：面向东　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E8%A2%96%E6%B5%B7%E5%B2%B8%E5%A4%AB%E5%A9%A6%E5%B2%A920190921-P1040781.jpg)
@@ -1240,7 +1192,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E5%B0%8F%E8%A2%96%E6%B5%B7%E5%A5%B3%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%BB%E5%B0%8F%E8%A2%96%E6%BC%81%E6%B8%AF)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E5%B0%8F%E8%A2%96%E6%B5%B7%E5%A5%B3%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%BB%E5%B0%8F%E8%A2%96%E6%BC%81%E6%B8%AF&title=Special:MediaSearch&type=image)
 
-## 78. 日剧《海女》挥舞大渔旗的送别
+## 75. 日剧《海女》挥舞大渔旗的送别
 
 - ID：`amachan-osawa-bridge`
 - 地点：三陆铁道 大泽桥梁·松矶（岩手·普代村）　·　镜头朝向：面向东北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%B2%A2%E6%A9%8B%E6%A2%81_-_panoramio.jpg)
@@ -1256,7 +1208,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E4%B8%89%E9%99%B8%E9%89%84%E9%81%93%20%E5%A4%A7%E6%B2%A2%E6%A9%8B%E6%A2%81%E3%83%BB%E6%9D%BE%E7%A3%AF)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E4%B8%89%E9%99%B8%E9%89%84%E9%81%93%20%E5%A4%A7%E6%B2%A2%E6%A9%8B%E6%A2%81%E3%83%BB%E6%9D%BE%E7%A3%AF&title=Special:MediaSearch&type=image)
 
-## 79. 日剧《逃避虽可耻但有用》契约夫妻的温泉旅行
+## 76. 日剧《逃避虽可耻但有用》契约夫妻的温泉旅行
 
 - ID：`nigehaji-shuzenji-kokeibashi`
 - 地点：修善寺温泉 虎溪桥（静冈·伊豆）　·　镜头朝向：面向东南　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Shuzenji_Onsen_07.jpg)
@@ -1272,7 +1224,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E4%BF%AE%E5%96%84%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E8%99%8E%E6%B8%93%E6%A9%8B)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E4%BF%AE%E5%96%84%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E8%99%8E%E6%B8%93%E6%A9%8B&title=Special:MediaSearch&type=image)
 
-## 80. 日剧《飞翔吧！》巴拉门风筝，飞起来！
+## 77. 日剧《飞翔吧！》巴拉门风筝，飞起来！
 
 - ID：`maiagare-gyogasaki-park`
 - 地点：鱼津崎公园（长崎·五岛 岐宿）　·　镜头朝向：面向西北　·　还没有实景照片
@@ -1288,7 +1240,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E9%AD%9A%E6%B4%A5%E3%83%B6%E5%B4%8E%E5%85%AC%E5%9C%92)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E9%AD%9A%E6%B4%A5%E3%83%B6%E5%B4%8E%E5%85%AC%E5%9C%92&title=Special:MediaSearch&type=image)
 
-## 81. 日影《东京物语》“真是美丽的黎明啊”
+## 78. 日影《东京物语》“真是美丽的黎明啊”
 
 - ID：`tokyostory-jodoji`
 - 地点：净土寺 境内（广岛·尾道）　·　镜头朝向：面向南　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Jodoji,_Onomichi,_Hiroshima.jpg)
@@ -1304,7 +1256,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E6%B5%84%E5%9C%9F%E5%AF%BA%20%E5%A2%83%E5%86%85)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E6%B5%84%E5%9C%9F%E5%AF%BA%20%E5%A2%83%E5%86%85&title=Special:MediaSearch&type=image)
 
-## 82. 日影《入殓师》鸟海山下的大提琴
+## 79. 日影《入殓师》鸟海山下的大提琴
 
 - ID：`departures-gakko-river`
 - 地点：月光川河岸 · 旧朝日桥（山形·游佐町）　·　镜头朝向：面向东北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Gakk%C5%8D_River.jpg)
@@ -1320,7 +1272,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E6%9C%88%E5%85%89%E5%B7%9D%E6%B2%B3%E5%B7%9D%E6%95%B7%E3%83%BB%E6%97%A7%E6%9C%9D%E6%97%A5%E6%A9%8B)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E6%9C%88%E5%85%89%E5%B7%9D%E6%B2%B3%E5%B7%9D%E6%95%B7%E3%83%BB%E6%97%A7%E6%9C%9D%E6%97%A5%E6%A9%8B&title=Special:MediaSearch&type=image)
 
-## 83. 日影《入殓师》NK 事务所的面试
+## 80. 日影《入殓师》NK 事务所的面试
 
 - ID：`departures-nk-agent-obataro`
 - 地点：日和山 小幡楼（山形·酒田）　·　镜头朝向：面向西南　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Hiyoriyama_Obatarou_A.jpg)
@@ -1336,7 +1288,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E6%97%A5%E5%92%8C%E5%B1%B1%20%E5%B0%8F%E5%B9%A1%E6%A5%BC)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E6%97%A5%E5%92%8C%E5%B1%B1%20%E5%B0%8F%E5%B9%A1%E6%A5%BC&title=Special:MediaSearch&type=image)
 
-## 84. 日影《在世界中心呼唤爱》照相馆里的婚纱照
+## 81. 日影《在世界中心呼唤爱》照相馆里的婚纱照
 
 - ID：`sekachu-aji-photo-studio`
 - 地点：雨平写真馆（纯爱圣地庵治·观光交流馆，香川·高松）　·　镜头朝向：面向东　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Old_photo_studio_-_panoramio.jpg)
@@ -1352,7 +1304,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E9%9B%A8%E5%B9%B3%E5%86%99%E7%9C%9F%E9%A4%A8)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E9%9B%A8%E5%B9%B3%E5%86%99%E7%9C%9F%E9%A4%A8&title=Special:MediaSearch&type=image)
 
-## 85. 日影《完美的日子》和妮可骑车过桥
+## 82. 日影《完美的日子》和妮可骑车过桥
 
 - ID：`perfectdays-sakurabashi`
 - 地点：樱桥（东京·墨田/台东 隅田川）　·　镜头朝向：面向东南　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Sakurabashi_-_Tokyo_area_-_sunny_day_-_Feb_18_201917_26_19_788000.jpeg)
@@ -1368,7 +1320,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E6%A1%9C%E6%A9%8B)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E6%A1%9C%E6%A9%8B&title=Special:MediaSearch&type=image)
 
-## 86. 日影《完美的日子》午休时的树影
+## 83. 日影《完美的日子》午休时的树影
 
 - ID：`perfectdays-yoyogi-hachimangu`
 - 地点：代代木八幡宫 境内（东京·涩谷）　·　镜头朝向：面向东北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Yoyogi-Hachiman-gu_shrine_-_2022_July_4_various.jpeg)
@@ -1384,7 +1336,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E4%BB%A3%E3%80%85%E6%9C%A8%E5%85%AB%E5%B9%A1%E5%AE%AE%20%E5%A2%83%E5%86%85)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E4%BB%A3%E3%80%85%E6%9C%A8%E5%85%AB%E5%B9%A1%E5%AE%AE%20%E5%A2%83%E5%86%85&title=Special:MediaSearch&type=image)
 
-## 87. 日影《寅次郎的故事》寅次郎回家了
+## 84. 日影《寅次郎的故事》寅次郎回家了
 
 - ID：`torasan-shibamata-sando`
 - 地点：柴又帝释天参道（东京·葛饰）　·　镜头朝向：面向东北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Taishakuten_Sando_-01.jpg)
@@ -1400,7 +1352,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E6%9F%B4%E5%8F%88%E5%B8%9D%E9%87%88%E5%A4%A9%E5%8F%82%E9%81%93)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E6%9F%B4%E5%8F%88%E5%B8%9D%E9%87%88%E5%A4%A9%E5%8F%82%E9%81%93&title=Special:MediaSearch&type=image)
 
-## 88. 日影《情书》藤井树工作的图书馆
+## 85. 日影《情书》藤井树工作的图书馆
 
 - ID：`loveletter-otaru-library`
 - 地点：旧日本邮船小樽分店（北海道·小樽）　·　镜头朝向：面向西　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:%E6%97%A7%E6%97%A5%E6%9C%AC%E9%83%B5%E8%88%B9%E5%B0%8F%E6%A8%BD%E6%94%AF%E5%BA%97_-_panoramio.jpg)
@@ -1416,7 +1368,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E6%97%A7%E6%97%A5%E6%9C%AC%E9%83%B5%E8%88%B9%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E5%B0%8F%E6%A8%BD%E6%94%AF%E5%BA%97)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E6%97%A7%E6%97%A5%E6%9C%AC%E9%83%B5%E8%88%B9%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E5%B0%8F%E6%A8%BD%E6%94%AF%E5%BA%97&title=Special:MediaSearch&type=image)
 
-## 89. 日影《情书》雪坡上屏住呼吸
+## 86. 日影《情书》雪坡上屏住呼吸
 
 - ID：`loveletter-tenguyama`
 - 地点：天狗山山顶一带（北海道·小樽）　·　镜头朝向：面向东北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Otaru_from_Tenguyama.JPG)
@@ -1432,7 +1384,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E5%A4%A9%E7%8B%97%E5%B1%B1%E5%B1%B1%E9%A0%82%E4%BB%98%E8%BF%91)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E5%A4%A9%E7%8B%97%E5%B1%B1%E5%B1%B1%E9%A0%82%E4%BB%98%E8%BF%91&title=Special:MediaSearch&type=image)
 
-## 90. 日影《我想吃掉你的胰脏》两个人的福冈之旅
+## 87. 日影《我想吃掉你的胰脏》两个人的福冈之旅
 
 - ID：`kimisui-dazaifu-sando`
 - 地点：太宰府天满宫参道（福冈·太宰府）　·　镜头朝向：面向东　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Torii_on_Sando_of_Dazaifu_Temman_Shrine_in_front_of_Dazaifu_Station.JPG)
@@ -1448,7 +1400,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%A4%A9%E6%BA%80%E5%AE%AE%E5%8F%82%E9%81%93)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%A4%A9%E6%BA%80%E5%AE%AE%E5%8F%82%E9%81%93&title=Special:MediaSearch&type=image)
 
-## 91. 电影《最后的武士》胜元的山中古寺
+## 88. 电影《最后的武士》胜元的山中古寺
 
 - ID：`lastsamurai-engyoji-mitsunodo`
 - 地点：书写山圆教寺 三之堂（兵库·姬路）　·　镜头朝向：面向西北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Mitsunodo,_Jikido_(lodging_and_dining_hall),_Daikodo_(main_hall)_-_panoramio.jpg)
@@ -1464,7 +1416,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E6%9B%B8%E5%AF%AB%E5%B1%B1%E5%9C%93%E6%95%99%E5%AF%BA%20%E4%B8%89%E4%B9%8B%E5%A0%82)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E6%9B%B8%E5%AF%AB%E5%B1%B1%E5%9C%93%E6%95%99%E5%AF%BA%20%E4%B8%89%E4%B9%8B%E5%A0%82&title=Special:MediaSearch&type=image)
 
-## 92. 日影《海街日记》奔向极乐寺站的早晨
+## 89. 日影《海街日记》奔向极乐寺站的早晨
 
 - ID：`umimachi-gokurakuji-station`
 - 地点：江之电 极乐寺站（神奈川·镰仓）　·　镜头朝向：面向西　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Enoden-EN11-Gokurakuji-station-building-20200315-143624.jpg)
@@ -1480,7 +1432,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E6%B1%9F%E3%83%8E%E9%9B%BB%20%E6%A5%B5%E6%A5%BD%E5%AF%BA%E9%A7%85)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E6%B1%9F%E3%83%8E%E9%9B%BB%20%E6%A5%B5%E6%A5%BD%E5%AF%BA%E9%A7%85&title=Special:MediaSearch&type=image)
 
-## 93. 日影《花束般的恋爱》错过末班车的夜晚
+## 90. 日影《花束般的恋爱》错过末班车的夜晚
 
 - ID：`hanataba-meidaimae`
 - 地点：京王线 明大前站（东京·世田谷）　·　镜头朝向：面向西　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Meidaimae_Station_-_Setagaya,_Tokyo_2020-11-10.jpg)
@@ -1496,7 +1448,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E4%BA%AC%E7%8E%8B%E7%B7%9A%20%E6%98%8E%E5%A4%A7%E5%89%8D%E9%A7%85)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E4%BA%AC%E7%8E%8B%E7%B7%9A%20%E6%98%8E%E5%A4%A7%E5%89%8D%E9%A7%85&title=Special:MediaSearch&type=image)
 
-## 94. 日影《花束般的恋爱》按键信号灯下的吻
+## 91. 日影《花束般的恋爱》按键信号灯下的吻
 
 - ID：`hanataba-otozakabashi-crossing`
 - 地点：御塔坂桥路口人行横道（东京·调布/三鹰交界）　·　镜头朝向：面向西北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:%E8%AA%BF%E5%B8%83%E5%B8%82%E6%B7%B1%E5%A4%A7%E5%AF%BA%E5%85%83%E7%94%BA%E3%83%BB%E4%B8%89%E9%B7%B9%E5%B8%82%E5%A4%A7%E6%B2%A2_%E5%BE%A1%E5%A1%94%E5%9D%82%E6%A9%8B%E4%BF%A1%E5%8F%B7_20260228.jpg)
@@ -1512,7 +1464,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E5%BE%A1%E5%A1%94%E5%9D%82%E6%A9%8B%E4%BA%A4%E5%B7%AE%E7%82%B9%E3%81%AE%E6%A8%AA%E6%96%AD%E6%AD%A9%E9%81%93)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E5%BE%A1%E5%A1%94%E5%9D%82%E6%A9%8B%E4%BA%A4%E5%B7%AE%E7%82%B9%E3%81%AE%E6%A8%AA%E6%96%AD%E6%AD%A9%E9%81%93&title=Special:MediaSearch&type=image)
 
-## 95. 电影《迷失东京》透明伞海里的夏洛特
+## 92. 电影《迷失东京》透明伞海里的夏洛特
 
 - ID：`lostintranslation-shibuya-crossing`
 - 地点：涩谷站前十字路口（东京·涩谷）　·　镜头朝向：面向西北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Shibuya_-rainy_day.jpg)
@@ -1528,7 +1480,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E6%B8%8B%E8%B0%B7%E9%A7%85%E5%89%8D%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%B3%E3%83%96%E3%83%AB%E4%BA%A4%E5%B7%AE%E7%82%B9)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E6%B8%8B%E8%B0%B7%E9%A7%85%E5%89%8D%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%B3%E3%83%96%E3%83%AB%E4%BA%A4%E5%B7%AE%E7%82%B9&title=Special:MediaSearch&type=image)
 
-## 96. 电影《非诚勿扰》笑笑的悬崖一跳
+## 93. 电影《非诚勿扰》笑笑的悬崖一跳
 
 - ID：`ifyouaretheone-notoro-cape`
 - 地点：能取岬（北海道·网走）　·　镜头朝向：面向北　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Notoro_misaki_light_house.jpg)
@@ -1544,7 +1496,7 @@
   ```
 - 现成链接：[Google 图片·已筛选知识共享许可](https://www.google.com/search?tbm=isch&tbs=sur:cl&q=%E8%83%BD%E5%8F%96%E5%B2%AC)　·　[Wikimedia Commons](https://commons.wikimedia.org/w/index.php?search=%E8%83%BD%E5%8F%96%E5%B2%AC&title=Special:MediaSearch&type=image)
 
-## 97. 日影《驾驶我的车》垃圾处理厂里的“轴线”
+## 94. 日影《驾驶我的车》垃圾处理厂里的“轴线”
 
 - ID：`drivemycar-naka-incineration-plant`
 - 地点：广岛市环境局中工场 · 生态通廊（广岛·中区）　·　镜头朝向：面向南　·　[现在用的照片](https://commons.wikimedia.org/wiki/File:Hiroshima_City_Naka_Incineration_Plant.jpg)
