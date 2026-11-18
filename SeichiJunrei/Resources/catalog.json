@@ -4462,6 +4462,10 @@
      "bestTime": "하교 시간대 저녁의 비스듬한 햇살이 1화의 빛에 가장 가깝다. 다만 아이들이 노는 시간이기도 하니, 조용히 보려면 평일 오전에 몇 분만 머물자.",
      "tips": "주택가의 작은 어린이 놀이터입니다. 그네를 오래 차지하지 말고, 노는 아이들이나 주변 주택을 촬영하지 마세요. 조용히, 짧게 머물러 주세요."
     }
+   },
+   "illustration": {
+    "file": "bocchi-matsunoki-park",
+    "showsRealPhoto": false
    }
   },
   {
@@ -4548,6 +4552,10 @@
     "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "pageURL": "https://commons.wikimedia.org/wiki/File:SHELTER.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/SHELTER.jpg/1280px-SHELTER.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "bocchi-shimokitazawa-shelter",
+    "showsRealPhoto": false
    }
   },
   {
@@ -6066,6 +6074,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Oarai_Isosaki_Shrine_stairs_at_night.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Oarai_Isosaki_Shrine_stairs_at_night.jpg/1280px-Oarai_Isosaki_Shrine_stairs_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "garupan-isosaki-jinja",
+    "showsRealPhoto": true
    }
   },
   {
@@ -6143,6 +6155,10 @@
      "bestTime": "상점가가 문을 여는 낮이 가장 활기차고, 캐릭터 패널을 세워 둔 가게들도 둘러볼 수 있다. 저녁 이후엔 문 닫는 가게가 많아 조용하다. 교차로는 낮에 차가 많으니 외관을 여유롭게 찍으려면 이른 아침.",
      "tips": "사카나야 본점은 영업 중인 료칸 겸 요정입니다. 손님이 아니면 건물과 주차장에 들어가지 말고, 입구 앞에 오래 머물지 마세요. 마가리마쓰 교차로는 차가 많으니 촬영은 보도에서 하세요."
     }
+   },
+   "illustration": {
+    "file": "garupan-sakanaya",
+    "showsRealPhoto": false
    }
   },
   {
@@ -8357,6 +8373,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Washinomiya_Shrine_-_new_gate.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Washinomiya_Shrine_-_new_gate.jpg/1280px-Washinomiya_Shrine_-_new_gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "luckystar-washinomiya",
+    "showsRealPhoto": true
    }
   },
   {
@@ -8580,6 +8600,10 @@
      "bestTime": "아침저녁 비스듬한 햇살이 숲을 옆에서 비출 때가 오프닝 색감에 가장 가깝다. 모내기 뒤 논물에 숲이 비칠 때나 벼가 누렇게 익을 때가 특히 좋다. 사람은 거의 없다.",
      "tips": "주변은 경작 중인 논밭이니 길로만 다니고 논두렁이나 논에 들어가지 말자. 농로 주차도 금물. 관리인이 없는 사당이니 조용히 참배하고 쓰레기는 가져갈 것. 여름에는 숲에 벌레가 많다."
     }
+   },
+   "illustration": {
+    "file": "natsume-amamiya-shrine",
+    "showsRealPhoto": false
    }
   },
   {
@@ -8663,6 +8687,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Hitoyoshi_Station_20170317.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Hitoyoshi_Station_20170317.jpg/1280px-Hitoyoshi_Station_20170317.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "natsume-hitoyoshi-station",
+    "showsRealPhoto": false
    }
   },
   {
@@ -8905,6 +8933,10 @@
      "bestTime": "7월 초 만개 시기의 이른 아침, 꽃잎에 이슬이 맺혀 있을 때가 작중 홍화 따는 장면과 가장 닮았다. 한낮은 햇볕이 강하고 덥다. 홍화 축제 주말은 붐빈다",
      "tips": "홍화밭 대부분은 농가의 사유지이니 밭에 들어가거나 꽃을 따지 말자. 직접 따 보고 싶다면 7월 초 ‘야마가타 홍화 축제’(메인 회장: 다카세 홍화 후레아이 센터)에 참가하면 된다. 여름 햇볕이 강하니 자외선 차단과 수분 보충을."
     }
+   },
+   "illustration": {
+    "file": "only-yesterday-takase-safflower",
+    "showsRealPhoto": false
    }
   },
   {
@@ -11129,6 +11161,88 @@
    }
   },
   {
+   "id": "tenkinoko-asahi-inari",
+   "workID": "weathering-with-you",
+   "latitude": 35.67131,
+   "longitude": 139.76711,
+   "sceneHeading": 315,
+   "scenePitch": 10,
+   "arrivalRadius": 30,
+   "spoiler": false,
+   "sourceURL": "https://www.tsunagujapan.com/ja/wow_02341/",
+   "verified": false,
+   "bestMonths": [
+    6,
+    7,
+    8
+   ],
+   "accessPoint": {
+    "latitude": 35.670913,
+    "longitude": 139.768029
+   },
+   "text": {
+    "zh-Hans": {
+     "placeName": "银座 朝日稻荷神社（东京·中央区）",
+     "sceneTitle": "屋顶鸟居下的祈祷",
+     "episode": "剧场版 · 开场",
+     "highlight": "整部《天气之子》从这里开始：一束穿透雨云的阳光，一座藏在城市屋顶上的小小鸟居，一个只想让病床上的妈妈再看一次晴天的女孩。阳菜成为“晴女”的力量，以及它背后的代价，都从这一刻埋下伏笔。片中的屋顶在一栋废楼上，而鸟居和小祠常被粉丝认为以银座这座建在办公楼顶的稻荷神社为原型（官方未公布）。在高楼之间找到这抹红色，会明白新海诚为何把“与天空相连”的地方藏在东京最日常的角落。",
+     "story": "电影开场，阳菜的妈妈住院已久，东京一连下了好多天的雨。阳菜守在病房里望向窗外，看见一道阳光穿过厚厚的云层，只照在远处一栋废弃大楼的屋顶上。她冒雨跑过去，爬上楼梯，发现阳光里立着一座红色鸟居和一间小小的神祠。她在心里祈求天空放晴，穿过鸟居的那一刻，仿佛被带到了云层之上的天空。醒来时，头顶已是一片晴空——从那天起，只要阳菜祈祷，天空就会放晴。后来，她也带着帆高来到这座屋顶，在他面前让雨停了下来。",
+     "access": "东京Metro日比谷线／都营浅草线「东银座」站A8出口出站，沿昭和通往南到松屋通路口右转，再走约100米，与三原通交叉的路口前右手转角的红色鸟居即一楼拝殿。全程约140米、步行2分钟。",
+     "accessPointName": "东银座站 A8出口",
+     "bestTime": "想上屋顶，工作日10–15点最稳妥，还能求御朱印；赶上雨后云缝里漏下阳光的时刻，最像阳菜看到的那束光。",
+     "tips": "一楼拝殿7:30–18:00（时间外关卷帘门）；屋顶本殿10:00–18:00，乘电梯到8楼再走室外楼梯上去。电梯停运时无法参拜，周末节假日可能上不去；1月1–2日全部停止参拜。这是办公楼，别进入办公区，也别走错隔壁的银座朝日大楼。"
+    },
+    "zh-Hant": {
+     "placeName": "銀座 朝日稻荷神社（東京·中央區）",
+     "sceneTitle": "屋頂鳥居下的祈禱",
+     "episode": "劇場版 · 開場",
+     "highlight": "整部《天氣之子》從這裡開始：一束穿透雨雲的陽光，一座藏在城市屋頂上的小小鳥居，一個只想讓病床上的媽媽再看一次晴天的女孩。陽菜成為「晴女」的力量，以及它背後的代價，都從這一刻埋下伏筆。片中的屋頂在一棟廢樓上，而鳥居和小祠常被粉絲認為以銀座這座建在辦公樓頂的稻荷神社為原型（官方未公佈）。在高樓之間找到這抹紅色，會明白新海誠為何把「與天空相連」的地方藏在東京最日常的角落。",
+     "story": "電影開場，陽菜的媽媽住院已久，東京一連下了好多天的雨。陽菜守在病房裡望向窗外，看見一道陽光穿過厚厚的雲層，只照在遠處一棟廢棄大樓的屋頂上。她冒雨跑過去，爬上樓梯，發現陽光裡立著一座紅色鳥居和一間小小的神祠。她在心裡祈求天空放晴，穿過鳥居的那一刻，彷彿被帶到了雲層之上的天空。醒來時，頭頂已是一片晴空——從那天起，只要陽菜祈禱，天空就會放晴。後來，她也帶著帆高來到這座屋頂，在他面前讓雨停了下來。",
+     "access": "東京Metro日比谷線／都營淺草線「東銀座」站A8出口出站，沿昭和通往南到松屋通路口右轉，再走約100米，與三原通交叉的路口前右手轉角的紅色鳥居即一樓拝殿。全程約140米、步行2分鐘。",
+     "accessPointName": "東銀座站 A8出口",
+     "bestTime": "想上屋頂，工作日10–15點最穩妥，還能求御朱印；趕上雨後雲縫裡漏下陽光的時刻，最像陽菜看到的那束光。",
+     "tips": "一樓拝殿7:30–18:00（時間外關捲簾門）；屋頂本殿10:00–18:00，乘電梯到8樓再走室外樓梯上去。電梯停運時無法參拜，週末節假日可能上不去；1月1–2日全部停止參拜。這是辦公樓，別進入辦公區，也別走錯隔壁的銀座朝日大樓。"
+    },
+    "ja": {
+     "placeName": "朝日稲荷神社（東京都中央区銀座）",
+     "sceneTitle": "屋上の鳥居で祈る少女",
+     "episode": "劇場版・冒頭",
+     "highlight": "すべての始まりは、雨雲を突き抜けた一筋の光と、ビルの屋上にひっそり立つ小さな鳥居だった。病床の母にもう一度青空を見せたい——その一心で祈った陽菜は、ここで「晴れ女」になる。その力の先に待つ代償も、この瞬間から静かに動き出している。作中の屋上は廃ビルの上だが、鳥居と祠のモデルとして多くのファンが挙げるのが、オフィスビルの屋上に本殿を構える銀座の朝日稲荷神社だ（公式発表ではない）。ビルの谷間に赤い鳥居を見つけたとき、新海誠が「空とつながる場所」を東京のありふれた日常の中に置いた意味が腑に落ちる。",
+     "story": "映画の冒頭。入院した母に付き添う陽菜は、何日も雨が続く東京を病室の窓から眺めていた。ふと、厚い雲の切れ間から差し込んだ光が、遠くの廃ビルの屋上だけを照らしているのに気づく。雨の中を駆けつけ、階段を上った先には、光に包まれた赤い鳥居と小さな祠があった。晴れてほしいと願いながら鳥居をくぐった瞬間、陽菜は雲の上の空へと運ばれる。目を覚ますと、頭上には青空が広がっていた。この日から、陽菜が祈ると空は晴れるようになる。のちに陽菜は帆高をこの屋上へ連れてきて、目の前で雨を止めてみせる。",
+     "access": "東京メトロ日比谷線・都営浅草線「東銀座」駅A8出口から昭和通りを南へ、松屋通りとの角を右折して約100m。三原通りとの交差点手前、右手角の赤い鳥居が1階拝殿。計約140m・徒歩2分。",
+     "accessPointName": "東銀座駅 A8出口",
+     "bestTime": "屋上に上がるなら平日10〜15時が確実で、御朱印も受けられる。雨上がり、雲間から光が差す瞬間に訪れると、陽菜が見た光景にいちばん近い。",
+     "tips": "1階拝殿は7:30〜18:00（時間外はシャッター）、屋上本殿は10:00〜18:00。エレベーターで8階へ上がり、外階段で屋上へ。エレベーター停止時は参拝できず、土日祝は上がれないことも。1月1・2日は参拝不可。オフィスビルなので参拝ルート以外には立ち入らず、隣の銀座朝日ビルと間違えないように。"
+    },
+    "en": {
+     "placeName": "Asahi Inari Shrine (Ginza, Chuo, Tokyo)",
+     "sceneTitle": "A Prayer Under the Rooftop Torii",
+     "episode": "Film · Opening",
+     "highlight": "Weathering with You begins here: a single beam of light breaking through the rain clouds, a tiny torii hidden on a city rooftop, and a girl who only wants her mother in hospital to see a blue sky again. Hina's power as a “sunshine girl”, and the price that comes with it, are both set in motion in this moment. In the film the rooftop sits on an abandoned building, but many fans point to this Ginza shrine, whose main sanctuary stands on top of an office block, as the model for its torii and shrine (this has never been officially confirmed). Spotting that flash of red between the towers, you see why Shinkai hid a place “connected to the sky” in the most ordinary corner of Tokyo.",
+     "story": "The film opens with Hina at the bedside of her mother, who has been in hospital for a long time while rain falls on Tokyo day after day. Looking out of the window, Hina sees a shaft of sunlight break through the clouds and light up only the rooftop of a distant abandoned building. She runs there through the rain, climbs the stairs, and finds a red torii and a tiny shrine bathed in light. Wishing for the sky to clear, she steps through the torii and is swept up into the sky above the clouds. When she wakes, there is blue sky overhead. From that day on, whenever Hina prays, the sun comes out. Later she brings Hodaka to this same rooftop and stops the rain in front of him.",
+     "access": "From Exit A8 of Higashi-Ginza Sta. (Hibiya / Asakusa lines), walk south along Showa-dori, turn right at Matsuya-dori and go about 100 m. The red torii on the right-hand corner just before the Mihara-dori crossing is the ground-floor hall: about 140 m, 2 min.",
+     "accessPointName": "Higashi-Ginza Sta. Exit A8",
+     "bestTime": "To get onto the roof, weekdays 10:00–15:00 are the safest bet, and you can get a goshuin too. Come as sunlight breaks through the clouds after rain for the view closest to what Hina saw.",
+     "tips": "Ground-floor hall: 7:30–18:00 (shuttered otherwise). Rooftop sanctuary: 10:00–18:00, reached by lift to 8F and then an outdoor staircase. No visits when the lift is stopped, and the roof may be closed at weekends and holidays; no visits at all on 1–2 January. It is an office building: stay on the shrine route and don't mistake it for the Ginza Asahi Building next door."
+    },
+    "ko": {
+     "placeName": "아사히 이나리 신사 (도쿄 주오구 긴자)",
+     "sceneTitle": "옥상 도리이 아래의 기도",
+     "episode": "극장판 · 오프닝",
+     "highlight": "『날씨의 아이』는 이곳에서 시작된다. 비구름을 뚫고 내려온 한 줄기 빛, 도시의 옥상에 숨은 작은 도리이, 그리고 병상의 엄마에게 다시 한번 맑은 하늘을 보여 주고 싶었던 소녀. 히나가 ‘맑음 소녀’가 되는 힘도, 그 힘이 요구할 대가도 이 순간부터 조용히 움직이기 시작한다. 영화 속 옥상은 폐건물 위에 있지만, 많은 팬들은 오피스 빌딩 옥상에 본전을 둔 긴자의 이 신사를 도리이와 사당의 모델로 꼽는다(공식 발표는 아니다). 빌딩 숲 사이에서 그 붉은색을 찾아내면, 신카이 마코토가 ‘하늘과 이어진 곳’을 도쿄의 가장 평범한 일상 속에 숨겨 둔 이유를 알게 된다.",
+     "story": "영화의 첫 장면. 오래 입원 중인 엄마 곁을 지키던 히나는 며칠째 비가 그치지 않는 도쿄를 병실 창밖으로 바라본다. 그때 두꺼운 구름 사이로 내려온 햇빛이 멀리 있는 폐건물 옥상만을 비추고 있는 것을 발견한다. 빗속을 달려가 계단을 오르자, 빛에 감싸인 붉은 도리이와 작은 사당이 서 있었다. 하늘이 개기를 빌며 도리이를 지나는 순간, 히나는 구름 위의 하늘로 이끌려 간다. 눈을 떴을 때 머리 위에는 파란 하늘이 펼쳐져 있었다. 그날부터 히나가 기도하면 하늘이 맑아지게 된다. 훗날 히나는 호다카를 이 옥상으로 데려와 그의 눈앞에서 비를 그치게 한다.",
+     "access": "도쿄 메트로 히비야선·도에이 아사쿠사선 히가시긴자역 A8 출구에서 쇼와도리를 따라 남쪽으로 가다 마쓰야도리 모퉁이에서 우회전해 약 100m. 미하라도리 교차로 바로 앞 오른쪽 모퉁이의 붉은 도리이가 1층 배전. 총 약 140m, 도보 2분.",
+     "accessPointName": "히가시긴자역 A8 출구",
+     "bestTime": "옥상에 오르려면 평일 10~15시가 가장 확실하고 고슈인도 받을 수 있다. 비가 그친 뒤 구름 사이로 햇빛이 내리는 순간에 찾으면 히나가 본 풍경에 가장 가깝다.",
+     "tips": "1층 배전은 7:30~18:00(시간 외에는 셔터가 닫힘), 옥상 본전은 10:00~18:00. 엘리베이터로 8층에 올라 외부 계단으로 옥상에 간다. 엘리베이터가 멈춘 날은 참배할 수 없고 주말·공휴일에는 못 올라갈 수도 있다. 1월 1~2일은 참배 불가. 오피스 빌딩이니 참배 동선 밖으로 들어가지 말고, 옆 긴자 아사히 빌딩과 헷갈리지 않도록 주의."
+    }
+   },
+   "illustration": {
+    "file": "tenkinoko-asahi-inari",
+    "showsRealPhoto": false
+   }
+  },
+  {
    "id": "tenkinoko-kisho-jinja",
    "workID": "weathering-with-you",
    "latitude": 35.70453,
@@ -11294,6 +11408,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Pedestrian_path_near_the_South_Exit_of_Tabata_Station.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Pedestrian_path_near_the_South_Exit_of_Tabata_Station.jpg/1280px-Pedestrian_path_near_the_South_Exit_of_Tabata_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "tenkinoko-tabata-slope",
+    "showsRealPhoto": true
    }
   },
   {
