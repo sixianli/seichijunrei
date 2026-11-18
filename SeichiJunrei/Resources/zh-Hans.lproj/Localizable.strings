@@ -184,7 +184,7 @@
 "settings.workCount" = "作品";
 "settings.calibrationNote" = "机位坐标来自公开资料整理，可能有偏差。到了现场可以在名场面页点「校准机位」，把准确的位置和朝向提交给我们。";
 "settings.credits" = "版权与致谢";
-"settings.creditsBody" = "作品名称及相关权利归各自权利人所有，本 App 与各作品官方无关，也不收录作品画面。实景照片来自 Wikimedia Commons，作者与许可证标注在对应名场面页。部分坐标参考 © OpenStreetMap contributors。";
+"settings.creditsBody" = "作品名称及相关权利归各自权利人所有，本 App 与各作品官方无关，也不收录作品画面。封面插画由 AI 依据实景照片重绘，没有使用任何作品画面。实景照片来自 Wikimedia Commons，作者与许可证标注在对应名场面页。部分坐标参考 © OpenStreetMap contributors。";
 "settings.version" = "版本";
 "detail.photographer" = "请人帮我拍";
 "pg.title" = "请人帮你拍";
@@ -224,6 +224,11 @@
 "detail.startGuideHint" = "先带你走到原作镜头的位置，到了以后指引你转身、抬头，对准原作的画面";
 "detail.enterSceneHint" = "你已经在机位上了：打开相机，跟着指引转身对准原作的画面";
 "detail.myScreenshot" = "我的名场面截图";
+"illustration.badge" = "AI 插画";
+"illustration.creditPhoto" = "AI 插画 · 据 %@ 的实景照片绘制（%@）";
+"illustration.creditOwn" = "AI 插画 · 据开发者在现场拍摄的照片绘制";
+"illustration.showPhoto" = "看实景";
+"illustration.showArt" = "看插画";
 "photo.lookAround" = "Apple 街景";
 "photo.satellite" = "卫星实景";
 "format.sceneNumber" = "名场面%@";

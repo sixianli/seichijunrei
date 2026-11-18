@@ -240,6 +240,36 @@ def resolve_photos(spots, offline, r):
     return {t: m for t, m in cache.items() if m and FREE_LICENSES.match(m.get("license") or "")}
 
 
+ILLUSTRATIONS = os.path.join(ROOT, "data", "illustrations.json")
+ILLUSTRATION_DIR = os.path.join(ROOT, "SeichiJunrei", "Resources", "Illustrations")
+
+
+def attach_illustrations(out_spots, r):
+    """data/illustrations.json + Illustrations/<id>.jpg → 名场面的 illustration 字段。
+
+    catalog 来源：插画据该名场面的实景照片绘制，basedOn 记下那张照片（署名用），可切换看实景；
+    owner 来源：据开发者自己拍的照片绘制（不公开），只有 realPhotoMatches 为 true 才允许切换看目录里的实景照片。
+    """
+    meta = {k: v for k, v in load(ILLUSTRATIONS).items() if not k.startswith("_")}
+    files = {os.path.splitext(f)[0] for f in os.listdir(ILLUSTRATION_DIR) if f.endswith(".jpg")} \
+        if os.path.isdir(ILLUSTRATION_DIR) else set()
+    by_id = {s["id"]: s for s in out_spots}
+    for sid in sorted(files - set(meta)): r.err("illustrations", f"{sid}.jpg 没有在 illustrations.json 里登记来源")
+    for sid in sorted(set(meta) - files): r.warn("illustrations", f"{sid} 已登记但还没有插画文件")
+    for sid in sorted(set(meta) & files):
+        m, s = meta[sid], by_id.get(sid)
+        if s is None:
+            r.err("illustrations", f"名场面 {sid} 不存在"); continue
+        if m.get("source") == "catalog":
+            if not s.get("photo"):
+                r.err("illustrations", f"{sid} 标为 catalog 来源，但名场面没有实景照片"); continue
+            s["illustration"] = {"file": sid, "basedOn": s["photo"], "showsRealPhoto": True}
+        elif m.get("source") == "owner":
+            s["illustration"] = {"file": sid, "showsRealPhoto": bool(m.get("realPhotoMatches")) and bool(s.get("photo"))}
+        else:
+            r.err("illustrations", f"{sid} 的 source 只能是 catalog 或 owner")
+
+
 def build(offline):
     r = Report()
     paths = sorted(glob.glob(os.path.join(SOURCES, "*.json")))
@@ -265,6 +295,8 @@ def build(offline):
         elif title in photos: s["photo"] = photos[title]
         s.setdefault("verified", False)
         out_spots.append(s)
+    attach_illustrations(out_spots, r)
+    if r.errors: return r
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump({"works": out_works, "spots": out_spots}, f, ensure_ascii=False, indent=1)
         f.write("\n")
@@ -273,7 +305,7 @@ def build(offline):
         m = works[s["workID"]]["mediaType"]
         counts[m] = counts.get(m, 0) + 1
     print(f"已生成 {os.path.relpath(OUT, ROOT)}：{len(out_works)} 部作品，{len(out_spots)} 个名场面 {counts}，"
-          f"{sum('photo' in s for s in out_spots)} 张实景照片")
+          f"{sum('photo' in s for s in out_spots)} 张实景照片，{sum('illustration' in s for s in out_spots)} 张插画封面")
     return r
 
 

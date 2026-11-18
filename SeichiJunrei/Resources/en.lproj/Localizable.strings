@@ -184,7 +184,7 @@
 "settings.workCount" = "Titles";
 "settings.calibrationNote" = "Spot positions are compiled from public sources and may be off. On site, tap “Calibrate” on a scene to send us the exact position and direction.";
 "settings.credits" = "Credits";
-"settings.creditsBody" = "Titles and related rights belong to their respective owners. This app isn't affiliated with any of them and contains no footage or stills. Location photos come from Wikimedia Commons; authors and licenses are shown on each scene. Some coordinates reference © OpenStreetMap contributors.";
+"settings.creditsBody" = "Titles and related rights belong to their respective owners. This app isn't affiliated with any of them and contains no footage or stills. Cover illustrations are AI repaintings of real location photos and use no footage from any work. Location photos come from Wikimedia Commons; authors and licenses are shown on each scene. Some coordinates reference © OpenStreetMap contributors.";
 "settings.version" = "Version";
 "detail.photographer" = "Have someone take your photo";
 "pg.title" = "Get someone to take your shot";
@@ -224,6 +224,11 @@
 "detail.startGuideHint" = "Guides you to where the original shot was taken, then helps you turn until you're looking at the exact scene";
 "detail.enterSceneHint" = "You're at the spot — open the camera and turn as guided to line up the scene";
 "detail.myScreenshot" = "My scene screenshot";
+"illustration.badge" = "AI illustration";
+"illustration.creditPhoto" = "AI illustration · painted from a photo by %@ (%@)";
+"illustration.creditOwn" = "AI illustration · painted from a photo the developer took on site";
+"illustration.showPhoto" = "Real photo";
+"illustration.showArt" = "Illustration";
 "photo.lookAround" = "Look Around";
 "photo.satellite" = "Satellite view";
 "format.sceneNumber" = "Scene %@";

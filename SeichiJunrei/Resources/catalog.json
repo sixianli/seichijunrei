@@ -3858,11 +3858,11 @@
     }
    },
    "photo": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Ogaki_bridge_side_view_summer.jpg/1280px-Ogaki_bridge_side_view_summer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "pageURL": "https://commons.wikimedia.org/wiki/File:Ogaki_bridge_side_view_summer.jpg",
     "author": "UnEtudiantSurTerre",
     "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:Ogaki_bridge_side_view_summer.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Ogaki_bridge_side_view_summer.jpg/1280px-Ogaki_bridge_side_view_summer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
    }
   },
   {
@@ -4217,6 +4217,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by/2.5",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Seibien_Hirakawa_Aomori_pref_Japan02s3.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Seibien_Hirakawa_Aomori_pref_Japan02s3.jpg/1280px-Seibien_Hirakawa_Aomori_pref_Japan02s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "arrietty-seibien",
+    "showsRealPhoto": true
    }
   },
   {
@@ -5117,11 +5121,11 @@
     }
    },
    "photo": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Tenguyama%2C_Otaru%2C_Hokkaido_Prefecture_047-0012%2C_Japan_-_panoramio.jpg/1280px-Tenguyama%2C_Otaru%2C_Hokkaido_Prefecture_047-0012%2C_Japan_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "pageURL": "https://commons.wikimedia.org/wiki/File:Tenguyama,_Otaru,_Hokkaido_Prefecture_047-0012,_Japan_-_panoramio.jpg",
     "author": "wellincline",
     "license": "CC BY-SA 3.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:Tenguyama,_Otaru,_Hokkaido_Prefecture_047-0012,_Japan_-_panoramio.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Tenguyama%2C_Otaru%2C_Hokkaido_Prefecture_047-0012%2C_Japan_-_panoramio.jpg/1280px-Tenguyama%2C_Otaru%2C_Hokkaido_Prefecture_047-0012%2C_Japan_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
    }
   },
   {
@@ -5330,11 +5334,11 @@
     }
    },
    "photo": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/%E4%B8%AD%E5%B1%B1%E6%B5%B7%E5%B2%B8_%289785459754%29.jpg/1280px-%E4%B8%AD%E5%B1%B1%E6%B5%B7%E5%B2%B8_%289785459754%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "pageURL": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%B1%B1%E6%B5%B7%E5%B2%B8_(9785459754).jpg",
     "author": "over hilowsee from Akita, Japan",
     "license": "CC BY-SA 2.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%B1%B1%E6%B5%B7%E5%B2%B8_(9785459754).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/%E4%B8%AD%E5%B1%B1%E6%B5%B7%E5%B2%B8_%289785459754%29.jpg/1280px-%E4%B8%AD%E5%B1%B1%E6%B5%B7%E5%B2%B8_%289785459754%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
    }
   },
   {
@@ -6530,6 +6534,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Miyagawa_River_from_Kajibashi_Bridge_(south).JPG",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Miyagawa_River_from_Kajibashi_Bridge_%28south%29.JPG/1280px-Miyagawa_River_from_Kajibashi_Bridge_%28south%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "hyouka-kajibashi",
+    "showsRealPhoto": false
    }
   },
   {
@@ -7447,6 +7455,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Myojin_Otoko-zaka_in_Soto-Kanda,_Chiyoda,_Tokyo,_Japan,_2024_May.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Myojin_Otoko-zaka_in_Soto-Kanda%2C_Chiyoda%2C_Tokyo%2C_Japan%2C_2024_May.jpg/1280px-Myojin_Otoko-zaka_in_Soto-Kanda%2C_Chiyoda%2C_Tokyo%2C_Japan%2C_2024_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "lovelive-kanda-myojin",
+    "showsRealPhoto": false
    }
   },
   {
@@ -7518,6 +7530,17 @@
     "licenseURL": "https://creativecommons.org/licenses/by/2.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Mount_Fuji_and_Awashima_Island_(36597945924).jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Mount_Fuji_and_Awashima_Island_%2836597945924%29.jpg/1280px-Mount_Fuji_and_Awashima_Island_%2836597945924%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "lovelive-sunshine-mitohama",
+    "basedOn": {
+     "author": "Kanesue",
+     "license": "CC BY 2.0",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+     "pageURL": "https://commons.wikimedia.org/wiki/File:Mount_Fuji_and_Awashima_Island_(36597945924).jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Mount_Fuji_and_Awashima_Island_%2836597945924%29.jpg/1280px-Mount_Fuji_and_Awashima_Island_%2836597945924%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "showsRealPhoto": true
    }
   },
   {
@@ -7924,11 +7947,11 @@
     }
    },
    "photo": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Shuzenji_Onsen_07.jpg/1280px-Shuzenji_Onsen_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "pageURL": "https://commons.wikimedia.org/wiki/File:Shuzenji_Onsen_07.jpg",
     "author": "Motokoka",
     "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:Shuzenji_Onsen_07.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Shuzenji_Onsen_07.jpg/1280px-Shuzenji_Onsen_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
    }
   },
   {
@@ -8127,11 +8150,11 @@
     }
    },
    "photo": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Aratate_Jinja_Haiden_2022.jpg/1280px-Aratate_Jinja_Haiden_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "pageURL": "https://commons.wikimedia.org/wiki/File:Aratate_Jinja_Haiden_2022.jpg",
     "author": "ja:User:Sanjo",
     "license": "CC BY 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:Aratate_Jinja_Haiden_2022.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Aratate_Jinja_Haiden_2022.jpg/1280px-Aratate_Jinja_Haiden_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
    }
   },
   {
@@ -9043,6 +9066,17 @@
     "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Kamakura_koukou_mae_Fumikiri_-_02.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Kamakura_koukou_mae_Fumikiri_-_02.jpg/1280px-Kamakura_koukou_mae_Fumikiri_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "slamdunk-kamakurakokomae",
+    "basedOn": {
+     "author": "Quercus acuta",
+     "license": "CC0",
+     "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "pageURL": "https://commons.wikimedia.org/wiki/File:Kamakura_koukou_mae_Fumikiri_-_02.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Kamakura_koukou_mae_Fumikiri_-_02.jpg/1280px-Kamakura_koukou_mae_Fumikiri_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "showsRealPhoto": true
    }
   },
   {
@@ -9114,6 +9148,17 @@
     "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "pageURL": "https://commons.wikimedia.org/wiki/File:%E9%81%93%E5%BE%8C%E5%95%86%E5%BA%97%E8%A1%97%E5%87%BA%E5%85%A5%E5%8F%A3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89%E6%9C%AC%E9%A4%A8.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/%E9%81%93%E5%BE%8C%E5%95%86%E5%BA%97%E8%A1%97%E5%87%BA%E5%85%A5%E5%8F%A3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89%E6%9C%AC%E9%A4%A8.jpg/1280px-%E9%81%93%E5%BE%8C%E5%95%86%E5%BA%97%E8%A1%97%E5%87%BA%E5%85%A5%E5%8F%A3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89%E6%9C%AC%E9%A4%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "spirited-away-dogo-onsen",
+    "basedOn": {
+     "author": "キアラア",
+     "license": "CC0",
+     "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "pageURL": "https://commons.wikimedia.org/wiki/File:%E9%81%93%E5%BE%8C%E5%95%86%E5%BA%97%E8%A1%97%E5%87%BA%E5%85%A5%E5%8F%A3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89%E6%9C%AC%E9%A4%A8.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/%E9%81%93%E5%BE%8C%E5%95%86%E5%BA%97%E8%A1%97%E5%87%BA%E5%85%A5%E5%8F%A3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89%E6%9C%AC%E9%A4%A8.jpg/1280px-%E9%81%93%E5%BE%8C%E5%95%86%E5%BA%97%E8%A1%97%E5%87%BA%E5%85%A5%E5%8F%A3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89%E6%9C%AC%E9%A4%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "showsRealPhoto": true
    }
   },
   {
@@ -9605,11 +9650,11 @@
     }
    },
    "photo": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Shirokane-Sando-Bridge-00.jpg/1280px-Shirokane-Sando-Bridge-00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "pageURL": "https://commons.wikimedia.org/wiki/File:Shirokane-Sando-Bridge-00.jpg",
     "author": "Rs1421",
     "license": "CC BY-SA 3.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:Shirokane-Sando-Bridge-00.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Shirokane-Sando-Bridge-00.jpg/1280px-Shirokane-Sando-Bridge-00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
    }
   },
   {
@@ -10166,6 +10211,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Stairs_in_Irohazaka(Tama_City_Japan).jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Stairs_in_Irohazaka%28Tama_City_Japan%29.jpg/1280px-Stairs_in_Irohazaka%28Tama_City_Japan%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "whisper-iroha-zaka-stairs",
+    "showsRealPhoto": false
    }
   },
   {
@@ -10237,6 +10286,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by/3.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E6%AF%94%E7%BE%85%E5%AE%AE(%E5%A4%9A%E6%91%A9%E5%B8%82).jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/%E9%87%91%E6%AF%94%E7%BE%85%E5%AE%AE%28%E5%A4%9A%E6%91%A9%E5%B8%82%29.jpg/1280px-%E9%87%91%E6%AF%94%E7%BE%85%E5%AE%AE%28%E5%A4%9A%E6%91%A9%E5%B8%82%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "whisper-konpira-shrine",
+    "showsRealPhoto": true
    }
   },
   {
@@ -10307,6 +10360,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:%E5%A4%9A%E6%91%A9%E5%B8%82%E6%A1%9C%E3%82%B1%E4%B8%98%E3%81%AB%E3%81%82%E3%82%8B%E6%9D%B1%E4%BA%AC%E9%83%BD%E3%81%A7%E5%94%AF%E4%B8%80%E3%81%AE%E7%92%B0%E7%8A%B6%E4%BA%A4%E5%B7%AE%E7%82%B9%EF%BC%88%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E3%82%A2%E3%83%90%E3%82%A6%E3%83%88%EF%BC%89160319.JPG",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%E5%A4%9A%E6%91%A9%E5%B8%82%E6%A1%9C%E3%82%B1%E4%B8%98%E3%81%AB%E3%81%82%E3%82%8B%E6%9D%B1%E4%BA%AC%E9%83%BD%E3%81%A7%E5%94%AF%E4%B8%80%E3%81%AE%E7%92%B0%E7%8A%B6%E4%BA%A4%E5%B7%AE%E7%82%B9%EF%BC%88%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E3%82%A2%E3%83%90%E3%82%A6%E3%83%88%EF%BC%89160319.JPG/1280px-%E5%A4%9A%E6%91%A9%E5%B8%82%E6%A1%9C%E3%82%B1%E4%B8%98%E3%81%AB%E3%81%82%E3%82%8B%E6%9D%B1%E4%BA%AC%E9%83%BD%E3%81%A7%E5%94%AF%E4%B8%80%E3%81%AE%E7%92%B0%E7%8A%B6%E4%BA%A4%E5%B7%AE%E7%82%B9%EF%BC%88%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E3%82%A2%E3%83%90%E3%82%A6%E3%83%88%EF%BC%89160319.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "whisper-sakuragaoka-rotary",
+    "showsRealPhoto": true
    }
   },
   {
@@ -10436,11 +10493,11 @@
     }
    },
    "photo": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/%E7%9F%B3%E7%A5%9E%E4%BA%95%E6%B1%A0%E3%81%A8%E3%83%9C%E3%83%BC%E3%83%88.jpg/1280px-%E7%9F%B3%E7%A5%9E%E4%BA%95%E6%B1%A0%E3%81%A8%E3%83%9C%E3%83%BC%E3%83%88.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "pageURL": "https://commons.wikimedia.org/wiki/File:%E7%9F%B3%E7%A5%9E%E4%BA%95%E6%B1%A0%E3%81%A8%E3%83%9C%E3%83%BC%E3%83%88.jpg",
     "author": "Guy-aan",
     "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:%E7%9F%B3%E7%A5%9E%E4%BA%95%E6%B1%A0%E3%81%A8%E3%83%9C%E3%83%BC%E3%83%88.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/%E7%9F%B3%E7%A5%9E%E4%BA%95%E6%B1%A0%E3%81%A8%E3%83%9C%E3%83%BC%E3%83%88.jpg/1280px-%E7%9F%B3%E7%A5%9E%E4%BA%95%E6%B1%A0%E3%81%A8%E3%83%9C%E3%83%BC%E3%83%88.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
    }
   },
   {
@@ -10512,6 +10569,10 @@
     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Hida-Furukawa_platform_in_snow.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Hida-Furukawa_platform_in_snow.jpg/1280px-Hida-Furukawa_platform_in_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "kiminonawa-hida-furukawa",
+    "showsRealPhoto": true
    }
   },
   {
@@ -10578,11 +10639,15 @@
     }
    },
    "photo": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Shinanomachi_eki-mae_footbridge_20161107-155952.jpg/1280px-Shinanomachi_eki-mae_footbridge_20161107-155952.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "pageURL": "https://commons.wikimedia.org/wiki/File:Shinanomachi_eki-mae_footbridge_20161107-155952.jpg",
     "author": "Hisagi",
     "license": "CC BY-SA 4.0",
-    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageURL": "https://commons.wikimedia.org/wiki/File:Shinanomachi_eki-mae_footbridge_20161107-155952.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Shinanomachi_eki-mae_footbridge_20161107-155952.jpg/1280px-Shinanomachi_eki-mae_footbridge_20161107-155952.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "kiminonawa-shinanomachi-footbridge",
+    "showsRealPhoto": true
    }
   },
   {
@@ -10654,6 +10719,10 @@
     "licenseURL": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "pageURL": "https://commons.wikimedia.org/wiki/File:Escalier_Your_name.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Escalier_Your_name.jpg/1280px-Escalier_Your_name.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   },
+   "illustration": {
+    "file": "kiminonawa-suga-shrine",
+    "showsRealPhoto": false
    }
   },
   {
