@@ -15,6 +15,12 @@ struct MapHomeView: View {
     @Environment(SpotStore.self) private var store
     @Environment(LocationService.self) private var location
     @Environment(StoreService.self) private var storeKit
+    @Environment(\.scenePhase) private var scenePhase
+    /// 地图当前的纬度跨度：缩小看全城时只显示图标，放大到街区再显示作品名
+    @State private var mapLatitudeSpan: Double = 0.2
+    /// 上次自动对准用户的位置；回到前台时离这里超过 1.5 km 就重新对准
+    @State private var lastAutoCenter: GeoPoint?
+    @State private var recheckCenterOnNextFix = false
     @State private var showPaywall = false
     @State private var showSettings = false
     @State private var showSubmit = false
@@ -69,6 +75,7 @@ struct MapHomeView: View {
                 Marker(spot.badgeWithNumber, systemImage: spot.mediaType.category.symbolName, coordinate: spot.clCoordinate)
                     .tint(spot.tintColor)
                     .tag(spot.id)
+                    .annotationTitles(mapLatitudeSpan < Self.titleSpan ? .automatic : .hidden)
             }
             if let arrived = arrivedSpot {
                 Annotation("", coordinate: arrived.spot.clCoordinate, anchor: .center) {
@@ -81,6 +88,9 @@ struct MapHomeView: View {
             guard let id else { return }
             if let spot = store.spots.first(where: { $0.id == id }) { selected = spot }
             mapSelection = nil
+        }
+        .onMapCameraChange(frequency: .onEnd) { ctx in
+            mapLatitudeSpan = ctx.region.span.latitudeDelta
         }
         .mapStyle(.standard(pointsOfInterest: .excludingAll))
         .mapControls {
@@ -109,11 +119,23 @@ struct MapHomeView: View {
             }
         }
         .onChange(of: location.lastLocation) { _, loc in
-            guard !didCenterOnUser, focus == nil, let loc else { return }
-            didCenterOnUser = true
-            withAnimation {
-                camera = .region(MKCoordinateRegion(center: loc.coordinate,
-                                                    span: MKCoordinateSpan(latitudeDelta: 0.04, longitudeDelta: 0.04)))
+            guard let loc else { return }
+            if !didCenterOnUser, focus == nil {
+                didCenterOnUser = true
+                lastAutoCenter = loc.geoPoint
+                withAnimation {
+                    camera = .region(MKCoordinateRegion(center: loc.coordinate,
+                                                        span: MKCoordinateSpan(latitudeDelta: 0.04, longitudeDelta: 0.04)))
+                }
+                return
+            }
+            recenterIfMoved(loc)
+        }
+        // 回到前台：用户可能已经坐车去了别的城市，下一次定到位置时检查要不要把地图移过去
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active {
+                recheckCenterOnNextFix = true
+                if let loc = location.lastLocation { recenterIfMoved(loc) }
             }
         }
         .onChange(of: store.requestedSpotID) { _, _ in openRequestedSpot() }
@@ -233,11 +255,25 @@ struct MapHomeView: View {
     }
 
     @ViewBuilder private var carousel: some View {
-        if focus != nil || mediaFilter != nil {
-            NearbyCarousel(title: focus?.title ?? L("map.typeScenes", mediaFilter?.label ?? ""),
+        if let focus {
+            NearbyCarousel(title: focus.title,
                            systemImage: "scope",
                            items: store.items(for: mapSpots),
                            onTitleTap: { fitCamera(to: mapSpots) }) { selected = $0 }
+        } else if let mediaFilter {
+            // 选了“日剧”等类型：先看附近的；附近没有才显示全部
+            let near = store.nearbyWithinRadius.filter { $0.spot.mediaType.category == mediaFilter }
+            if near.isEmpty {
+                NearbyCarousel(title: L("map.typeScenesAll", mediaFilter.label),
+                               systemImage: "scope",
+                               items: store.items(for: mapSpots),
+                               onTitleTap: { fitCamera(to: mapSpots) }) { selected = $0 }
+            } else {
+                NearbyCarousel(title: L("map.typeScenesNearby", mediaFilter.label),
+                               systemImage: "location.fill",
+                               items: near,
+                               onTitleTap: { showNearby(near.map(\.spot)) }) { selected = $0 }
+            }
         } else {
             let within = store.nearbyWithinRadius
             if store.nearby.isEmpty {
@@ -250,18 +286,31 @@ struct MapHomeView: View {
                 NearbyCarousel(title: within.isEmpty ? L("map.nearestScenes") : L("map.nearbyScenes"),
                                systemImage: "location.fill",
                                items: within.isEmpty ? Array(store.nearby.prefix(10)) : within,
-                               onTitleTap: showNearby) { selected = $0 }
+                               onTitleTap: { showNearby() }) { selected = $0 }
             }
         }
     }
 
+    /// 缩小到这个纬度跨度以上（约 9 km）就不显示标记下的作品名
+    static let titleSpan = 0.08
+
+    /// 回到前台后第一次定到位置：离上次自动对准的地方超过 1.5 km、而且没在看某部作品，就把地图移到用户这里
+    private func recenterIfMoved(_ loc: CLLocation) {
+        guard recheckCenterOnNextFix else { return }
+        recheckCenterOnNextFix = false
+        guard focus == nil, selected == nil, journey == nil else { return }
+        if let last = lastAutoCenter, GeoMath.distance(from: last, to: loc.geoPoint) < 1500 { return }
+        lastAutoCenter = loc.geoPoint
+        showNearby()
+    }
+
     /// 点“附近的名场面”：回到我的位置，并把离我最近的几个名场面一起框进地图
-    private func showNearby() {
+    private func showNearby(_ candidates: [Spot]? = nil) {
         guard let loc = location.lastLocation else {
             withAnimation { camera = .userLocation(fallback: camera) }
             return
         }
-        let nearest = Array(store.nearby.prefix(3)).map(\.spot)
+        let nearest = Array((candidates ?? store.nearby.map(\.spot)).prefix(5))
         var points = nearest.map(\.coordinate)
         points.append(loc.geoPoint)
         let lats = points.map(\.latitude), lons = points.map(\.longitude)

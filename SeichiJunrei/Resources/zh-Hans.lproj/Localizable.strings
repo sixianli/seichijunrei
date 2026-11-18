@@ -42,7 +42,8 @@
 "map.noResults" = "没有找到「%@」相关的名场面";
 "map.allWorks" = "全部作品";
 "map.searchResults" = "搜索结果";
-"map.typeScenes" = "%@的名场面";
+"map.typeScenesNearby" = "附近的%@名场面";
+"map.typeScenesAll" = "%@名场面（全部）";
 "map.nearestScenes" = "离你最近的名场面";
 "map.nearbyScenes" = "附近的名场面";
 "map.focusSubtitle" = "%@ · %ld 个名场面";
@@ -246,7 +247,7 @@
 "detail.walkFromShort" = "从%@步行前往";
 "detail.shotMapA11y" = "机位小地图：朝%@方拍摄";
 "detail.searchOriginal" = "看原作画面";
-"detail.originalNotIncluded" = "原作画面受版权保护，App 未收录，点右下角可以去网上看";
+"detail.originalNotIncluded" = "原作画面受版权保护，App 未收录，可以点右边去网上看";
 "community.beFirst" = "成为第一个上传现场照片的人";
 "community.stripTitle" = "巡礼者拍的 · %ld 张";
 "community.uploadShort" = "上传";

@@ -39,19 +39,23 @@ final class JourneyTests: XCTestCase {
     }
 
     func testSceneImageSearch() {
-        XCTAssertEqual(SceneImageSearch.engine(for: "zh-Hans"), .baidu)
-        XCTAssertEqual(SceneImageSearch.engine(for: "ko"), .naver)
-        XCTAssertEqual(SceneImageSearch.engine(for: "zh-Hant"), .google)
-        let q = SceneImageSearch.query(originalWork: "君の名は。", japanesePlace: "須賀神社 男坂（東京・四谷）",
-                                       localizedWork: "너의 이름은.", localizedPlace: "스가 신사 오토코자카 (도쿄)",
-                                       language: "ko")
-        XCTAssertEqual(q, "君の名は。 須賀神社 男坂 アニメ シーン 너의 이름은. 스가 신사 오토코자카 명장면")
+        XCTAssertEqual(SceneImageSearch.engine(country: "CN"), .baidu)
+        XCTAssertEqual(SceneImageSearch.engine(country: "kr"), .naver)
+        XCTAssertEqual(SceneImageSearch.engine(country: "JP"), .google)
+        XCTAssertEqual(SceneImageSearch.engine(country: "TW"), .google)
+        XCTAssertEqual(SceneImageSearch.engine(country: nil), .google)
+        let q = SceneImageSearch.query(originalWork: "天気の子", japanesePlace: "JR田端駅南口 坂道（東京・北区）",
+                                       localizedWork: "天气之子", sceneTitle: "我们一定没问题的",
+                                       localizedPlace: "JR田端站南口 坡道（东京·北区）")
+        XCTAssertEqual(q, "天气之子 我们一定没问题的 JR田端站南口 坡道 天気の子 JR田端駅南口 坂道")
+        // 日语界面：译名为空，地点相同的去重
         let ja = SceneImageSearch.query(originalWork: "君の名は。", japanesePlace: "須賀神社 男坂（東京・四谷）",
-                                        localizedWork: nil, localizedPlace: "須賀神社 男坂（東京・四谷）", language: "ja")
-        XCTAssertEqual(ja, "君の名は。 須賀神社 男坂 シーン")
-        XCTAssertEqual(SceneImageSearch.url(query: "a b", language: "ko")?.host, "search.naver.com")
-        XCTAssertEqual(SceneImageSearch.url(query: "a b", language: "zh-Hans")?.host, "image.baidu.com")
-        XCTAssertTrue(SceneImageSearch.url(query: "a b", language: "en")!.absoluteString.contains("tbm=isch"))
+                                        localizedWork: nil, sceneTitle: "階段での再会",
+                                        localizedPlace: "須賀神社 男坂（東京・四谷）")
+        XCTAssertEqual(ja, "君の名は。 階段での再会 須賀神社 男坂")
+        XCTAssertEqual(SceneImageSearch.url(query: "a b", engine: .naver)?.host, "search.naver.com")
+        XCTAssertEqual(SceneImageSearch.url(query: "a b", engine: .baidu)?.host, "image.baidu.com")
+        XCTAssertTrue(SceneImageSearch.url(query: "a b", engine: .google)!.absoluteString.contains("tbm=isch"))
     }
 
     func testDestination() {

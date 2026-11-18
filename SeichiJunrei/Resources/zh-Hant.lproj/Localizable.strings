@@ -42,7 +42,8 @@
 "map.noResults" = "找不到「%@」相關的名場面";
 "map.allWorks" = "全部作品";
 "map.searchResults" = "搜尋結果";
-"map.typeScenes" = "%@的名場面";
+"map.typeScenesNearby" = "附近的%@名場面";
+"map.typeScenesAll" = "%@名場面（全部）";
 "map.nearestScenes" = "離你最近的名場面";
 "map.nearbyScenes" = "附近的名場面";
 "map.focusSubtitle" = "%@ · %ld 個名場面";
@@ -246,7 +247,7 @@
 "detail.walkFromShort" = "從%@步行前往";
 "detail.shotMapA11y" = "機位小地圖：朝%@方拍攝";
 "detail.searchOriginal" = "看原作畫面";
-"detail.originalNotIncluded" = "原作畫面受版權保護，App 未收錄，點右下角可以上網看";
+"detail.originalNotIncluded" = "原作畫面受版權保護，App 未收錄，可以點右邊上網看";
 "community.beFirst" = "成為第一個上傳現場照片的人";
 "community.stripTitle" = "巡禮者拍的 · %ld 張";
 "community.uploadShort" = "上傳";

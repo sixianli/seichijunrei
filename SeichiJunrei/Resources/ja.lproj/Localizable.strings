@@ -42,7 +42,8 @@
 "map.noResults" = "「%@」に一致する名シーンはありません";
 "map.allWorks" = "すべての作品";
 "map.searchResults" = "検索結果";
-"map.typeScenes" = "%@の名シーン";
+"map.typeScenesNearby" = "近くの%@の名シーン";
+"map.typeScenesAll" = "%@の名シーン（すべて）";
 "map.nearestScenes" = "いちばん近い名シーン";
 "map.nearbyScenes" = "近くの名シーン";
 "map.focusSubtitle" = "%@ · 名シーン%ld件";
@@ -246,7 +247,7 @@
 "detail.walkFromShort" = "%@から徒歩";
 "detail.shotMapA11y" = "撮影ポジションの地図：%@向きに撮影";
 "detail.searchOriginal" = "原作のシーンを見る";
-"detail.originalNotIncluded" = "原作の画像は著作権のため収録していません。右下から検索できます";
+"detail.originalNotIncluded" = "原作の画像は著作権のため収録していません。右のボタンで検索できます";
 "community.beFirst" = "現地の写真を最初に投稿しよう";
 "community.stripTitle" = "巡礼者の写真 · %ld 枚";
 "community.uploadShort" = "投稿";

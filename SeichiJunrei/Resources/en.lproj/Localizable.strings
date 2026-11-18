@@ -42,7 +42,8 @@
 "map.noResults" = "No scenes found for “%@”";
 "map.allWorks" = "All titles";
 "map.searchResults" = "Results";
-"map.typeScenes" = "%@ scenes";
+"map.typeScenesNearby" = "%@ scenes nearby";
+"map.typeScenesAll" = "All %@ scenes";
 "map.nearestScenes" = "Closest scenes";
 "map.nearbyScenes" = "Scenes nearby";
 "map.focusSubtitle" = "%@ · %ld scenes";
@@ -246,7 +247,7 @@
 "detail.walkFromShort" = "Walk from %@";
 "detail.shotMapA11y" = "Camera spot map: facing %@";
 "detail.searchOriginal" = "See the original";
-"detail.originalNotIncluded" = "Original frames are copyrighted and not included. Tap the button to search online";
+"detail.originalNotIncluded" = "Original frames are copyrighted and not included. Use the button to search online";
 "community.beFirst" = "Be the first to share a photo from here";
 "community.stripTitle" = "From pilgrims · %ld";
 "community.uploadShort" = "Share";

@@ -25,6 +25,21 @@ final class LocationService: NSObject, CLLocationManagerDelegate {
     /// 调试 / UI 测试用的模拟朝向
     var simulatedHeading: Double?
 
+    /// 用户当前所在国家（ISO 代码，按定位反查；用来选搜索引擎）。没有定位时为 nil
+    private(set) var countryCode: String?
+    @ObservationIgnored private var countryCheckedAt: CLLocation?
+    @ObservationIgnored private let geocoder = CLGeocoder()
+
+    /// 每移动 50 km 以上才重新反查一次国家（反查有频率限制）
+    private func updateCountryIfNeeded(_ loc: CLLocation) {
+        if let last = countryCheckedAt, loc.distance(from: last) < 50_000 { return }
+        countryCheckedAt = loc
+        geocoder.reverseGeocodeLocation(loc) { [weak self] marks, _ in
+            guard let code = marks?.first?.isoCountryCode else { return }
+            DispatchQueue.main.async { self?.countryCode = code }
+        }
+    }
+
     /// 调试用：模拟用户站在某个坐标（忽略真实 GPS）
     private(set) var isSimulating = false
 
@@ -140,6 +155,7 @@ final class LocationService: NSObject, CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard !isSimulating, let loc = locations.last, loc.horizontalAccuracy >= 0 else { return }
         lastLocation = loc
+        updateCountryIfNeeded(loc)
     }
 
     func locationManager(_ manager: CLLocationManager, didUpdateHeading newHeading: CLHeading) {

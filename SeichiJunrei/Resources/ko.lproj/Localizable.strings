@@ -42,7 +42,8 @@
 "map.noResults" = "‘%@’에 해당하는 명장면이 없어요";
 "map.allWorks" = "모든 작품";
 "map.searchResults" = "검색 결과";
-"map.typeScenes" = "%@ 명장면";
+"map.typeScenesNearby" = "근처 %@ 명장면";
+"map.typeScenesAll" = "%@ 명장면 (전체)";
 "map.nearestScenes" = "가장 가까운 명장면";
 "map.nearbyScenes" = "근처 명장면";
 "map.focusSubtitle" = "%@ · 명장면 %ld곳";
@@ -246,7 +247,7 @@
 "detail.walkFromShort" = "%@에서 걸어서";
 "detail.shotMapA11y" = "촬영 위치 지도: %@ 방향으로 촬영";
 "detail.searchOriginal" = "원작 장면 보기";
-"detail.originalNotIncluded" = "원작 이미지는 저작권 때문에 수록하지 않았어요. 오른쪽 아래 버튼으로 검색할 수 있어요";
+"detail.originalNotIncluded" = "원작 이미지는 저작권 때문에 수록하지 않았어요. 오른쪽 버튼으로 검색할 수 있어요";
 "community.beFirst" = "첫 번째로 현장 사진을 올려 보세요";
 "community.stripTitle" = "순례자 사진 · %ld장";
 "community.uploadShort" = "올리기";
