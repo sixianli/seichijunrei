@@ -377,4 +377,31 @@ final class SmokeUITests: XCTestCase {
         XCTAssertTrue(send.exists)
         XCTAssertFalse(send.isEnabled, "没填完必填项、没有照片时不能提交")
     }
+
+    /// 帮拍取景页：返回按钮能回到交接页；变焦按钮能在 自动 / 1× / 2× 之间切换；
+    /// 指引语言切成日语后，按钮文字也跟着变
+    func testPhotographerBackZoomAndLanguage() throws {
+        launch(heading: 216, pitch: 12, extraEnv: ["SEICHI_SIM_SUBJECT": "0.5,0.98,0.95"])
+        let card = app.buttons["card-kiminonawa-suga-shrine"]
+        XCTAssertTrue(card.waitForExistence(timeout: 20))
+        card.tap()
+        let open = app.buttons["openPhotographer"]
+        XCTAssertTrue(open.waitForExistence(timeout: 5))
+        var tries = 0
+        while !open.isHittable && tries < 4 { app.swipeUp(); tries += 1 }
+        open.tap()
+        app.buttons["日本語"].tap()       // 拍照的人的语言
+        app.buttons["startPhotographer"].tap()
+        dismissSystemAlerts(timeout: 4)
+        XCTAssertTrue(app.staticTexts["pgInstruction"].waitForExistence(timeout: 8))
+        XCTAssertTrue(app.buttons["pgAutoShutter"].label.contains("自動撮影"), "按钮文字应跟随拍照人的语言（日语）")
+        let zoom = app.buttons["pgZoom"]
+        XCTAssertTrue(zoom.exists)
+        zoom.tap()
+        XCTAssertTrue(app.staticTexts.matching(NSPredicate(format: "label CONTAINS %@", "固定")).firstMatch
+                        .waitForExistence(timeout: 3), "点变焦后应切换到固定倍数")
+        snapshot("29-photographer-ja-zoom")
+        app.buttons["closeShooting"].tap()
+        XCTAssertTrue(app.buttons["startPhotographer"].waitForExistence(timeout: 5), "返回按钮应回到交接页")
+    }
 }

@@ -140,21 +140,24 @@ struct SpotHeroImage: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Group {
-                switch source {
-                case .screenshot, .photo:
-                    SceneArtwork(spot: spot, useLocationPhoto: true)
-                case .community:
-                    if let p = communityPhoto { LocalImage(url: p.imageURL) }
-                case .lookAround:
-                    LookAroundPreview(initialScene: lookAround, allowsNavigation: true, badgePosition: .bottomTrailing)
-                case .satellite:
-                    SatelliteSceneView(spot: spot)
+            // 先用一个固定大小的容器占位，再把图片铺在上面：
+            // 直接对 scaledToFill 的图片设高度，特别宽的照片会把整页撑宽（内容左右被切掉）
+            Color.clear
+                .frame(maxWidth: .infinity)
+                .frame(height: 240)
+                .overlay {
+                    switch source {
+                    case .screenshot, .photo:
+                        SceneArtwork(spot: spot, useLocationPhoto: true)
+                    case .community:
+                        if let p = communityPhoto { LocalImage(url: p.imageURL) }
+                    case .lookAround:
+                        LookAroundPreview(initialScene: lookAround, allowsNavigation: true, badgePosition: .bottomTrailing)
+                    case .satellite:
+                        SatelliteSceneView(spot: spot)
+                    }
                 }
-            }
-            .frame(height: 240)
-            .frame(maxWidth: .infinity)
-            .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
+                .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
             .overlay(alignment: .topLeading) {
                 if let label = badgeLabel {
                     Label(label.0, systemImage: label.1)

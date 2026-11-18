@@ -55,7 +55,15 @@ final class CommunityService {
     private(set) var blockedUsers: Set<String> = []
 
     /// 用到时才创建：没有 iCloud 权限的构建（如 UI 测试）创建 CKContainer 会直接崩溃
-    private var container: CKContainer { CKContainer(identifier: CalibrationService.containerID) }
+    /// 用到时才创建，并一直持有：没有 iCloud 权限的构建（如 UI 测试）创建 CKContainer 会直接崩溃；
+    /// 每次临时新建的话，上传还没完成容器就被释放，回调永远不会回来（表现为一直转圈）
+    @ObservationIgnored private var cachedContainer: CKContainer?
+    private var container: CKContainer {
+        if let c = cachedContainer { return c }
+        let c = CKContainer(identifier: CalibrationService.containerID)
+        cachedContainer = c
+        return c
+    }
     @ObservationIgnored private var database: CKDatabase { container.publicCloudDatabase }
     @ObservationIgnored private var myUserID: String?
     @ObservationIgnored private let cacheDir: URL
@@ -255,10 +263,24 @@ final class CommunityService {
     // MARK: - 工具
 
     private func save(_ record: CKRecord) async -> Result<Void, Failure> {
+        let db = database
+        let c = container
         do {
-            guard try await container.accountStatus() == .available else { return .failure(.noAccount) }
-            try await database.save(record)
-            return .success(())
+            // 最多等 60 秒：网络不好时给用户明确的失败提示，而不是一直转圈
+            return try await withThrowingTaskGroup(of: Result<Void, Failure>.self) { group in
+                group.addTask {
+                    guard try await c.accountStatus() == .available else { return .failure(.noAccount) }
+                    try await db.save(record)
+                    return .success(())
+                }
+                group.addTask {
+                    try await Task.sleep(for: .seconds(60))
+                    return .failure(.network)
+                }
+                let first = try await group.next() ?? .failure(.network)
+                group.cancelAll()
+                return first
+            }
         } catch {
             return .failure(Self.map(error))
         }
