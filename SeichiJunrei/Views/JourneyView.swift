@@ -82,8 +82,11 @@ private struct DepartureView: View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 18) {
-                    Map(initialPosition: .automatic, interactionModes: [.pan, .zoom]) {
-                        UserAnnotation()
+                    Map(initialPosition: fittingPosition(user: location.lastLocation?.geoPoint, spot: spot.coordinate),
+                        interactionModes: [.pan, .zoom]) {
+                        if let me = location.lastLocation {
+                            Annotation("", coordinate: me.coordinate) { UserDot() }.annotationTitles(.hidden)
+                        }
                         Marker(spot.sceneTitle, systemImage: "camera.fill", coordinate: spot.clCoordinate)
                             .tint(spot.tintColor)
                     }
@@ -243,8 +246,11 @@ private struct NearApproachView: View {
                 .multilineTextAlignment(.center)
             }
 
-            Map(initialPosition: .userLocation(fallback: .automatic), interactionModes: [.pan, .zoom]) {
-                UserAnnotation()
+            Map(initialPosition: fittingPosition(user: location.lastLocation?.geoPoint, spot: spot.coordinate),
+                interactionModes: [.pan, .zoom]) {
+                if let me = location.lastLocation {
+                    Annotation("", coordinate: me.coordinate) { UserDot() }.annotationTitles(.hidden)
+                }
                 if let route {
                     MapPolyline(route.polyline).stroke(spot.tintColor, lineWidth: 5)
                 }
@@ -312,5 +318,28 @@ private struct NearApproachView: View {
         request.destination = MKMapItem(placemark: MKPlacemark(coordinate: spot.clCoordinate))
         request.transportType = .walking
         route = try? await MKDirections(request: request).calculate().routes.first
+    }
+}
+
+/// 地图视野：同时框住“我”和机位，留一点边距
+func fittingPosition(user: GeoPoint?, spot: GeoPoint) -> MapCameraPosition {
+    guard let user else {
+        return .region(MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: spot.latitude, longitude: spot.longitude),
+                                          latitudinalMeters: 600, longitudinalMeters: 600))
+    }
+    let center = CLLocationCoordinate2D(latitude: (user.latitude + spot.latitude) / 2,
+                                        longitude: (user.longitude + spot.longitude) / 2)
+    let latSpan = max(abs(user.latitude - spot.latitude) * 1.6, 0.003)
+    let lonSpan = max(abs(user.longitude - spot.longitude) * 1.6, 0.003)
+    return .region(MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: latSpan, longitudeDelta: lonSpan)))
+}
+
+/// 地图上的“我”：用 App 自己的定位画（模拟定位时 MapKit 的蓝点不准）
+struct UserDot: View {
+    var body: some View {
+        Circle().fill(.blue).frame(width: 16, height: 16)
+            .overlay(Circle().stroke(.white, lineWidth: 3))
+            .shadow(radius: 2)
+            .accessibilityHidden(true)
     }
 }

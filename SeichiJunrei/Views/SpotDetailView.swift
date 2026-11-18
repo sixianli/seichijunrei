@@ -116,11 +116,11 @@ struct SpotDetailView: View {
             HStack(spacing: 10) {
                 ActionCard(title: arrived ? L("detail.enterScene") : L("detail.startGuide"),
                            subtitle: L("detail.recreateSubtitle"),
-                           systemImage: "camera.viewfinder", tint: .accentColor,
+                           systemImage: "camera.viewfinder", tint: spot.tintColor,
                            identifier: "enterScene", action: onEnterScene)
                 ActionCard(title: L("detail.photographer"),
                            subtitle: L("detail.photographerSubtitle"),
-                           systemImage: "person.crop.rectangle.badge.plus", tint: spot.tintColor,
+                           systemImage: "person.crop.rectangle.badge.plus", tint: Color(red: 0.2, green: 0.22, blue: 0.3),
                            identifier: "openPhotographer", action: onPhotographer)
             }
             Text(actionHint)
