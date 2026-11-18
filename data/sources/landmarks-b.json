@@ -1,0 +1,1058 @@
+{
+  "works": [
+    {
+      "id": "mobile-suit-gundam",
+      "title": "機動戦士ガンダム",
+      "mediaType": "anime",
+      "year": 1979,
+      "creator": "富野由悠季 / 日本サンライズ",
+      "tint": "#3A5BA0",
+      "officialURL": "https://www.gundam.info/",
+      "aliases": [
+        "機動戦士ガンダム",
+        "机动战士高达",
+        "機動戰士鋼彈",
+        "機動戰士高達",
+        "Mobile Suit Gundam",
+        "기동전사 건담",
+        "Kidō Senshi Gandamu",
+        "Gundam",
+        "ガンダム",
+        "高达",
+        "鋼彈",
+        "건담",
+        "νガンダム",
+        "ν高达",
+        "ν鋼彈",
+        "Nu Gundam",
+        "RX-93ff",
+        "逆襲のシャア",
+        "逆袭的夏亚",
+        "逆襲的夏亞",
+        "Char's Counterattack",
+        "역습의 샤아",
+        "アムロ・レイ",
+        "阿姆罗",
+        "Amuro Ray",
+        "富野由悠季",
+        "Yoshiyuki Tomino",
+        "도미노 요시유키",
+        "矢立肇",
+        "Hajime Yatate",
+        "サンライズ",
+        "Sunrise",
+        "ららぽーと福岡",
+        "LaLaport Fukuoka"
+      ],
+      "text": {
+        "zh-Hans": {
+          "title": "机动战士高达",
+          "creator": "富野由悠季 / 日升动画",
+          "synopsis": "宇宙世纪0079年，宇宙殖民地国家吉恩公国向地球联邦发动独立战争。住在殖民地“Side 7”的少年阿姆罗·雷，在吉恩军的突袭中误打误撞坐进了联邦的新型机动战士“高达”，从此随战舰白色基地辗转各地战场，与宿敌夏亚一次次交锋。作品以写实的战争群像开创了“真实系机器人动画”，衍生出延续四十多年的庞大系列。"
+        },
+        "zh-Hant": {
+          "title": "機動戰士鋼彈"
+        },
+        "ja": {
+          "title": "",
+          "synopsis": "宇宙世紀0079年、スペースコロニー国家ジオン公国が地球連邦に独立戦争を仕掛けた。コロニー「サイド7」に住む少年アムロ・レイは、ジオン軍の奇襲のさなか、偶然連邦軍の新型モビルスーツ「ガンダム」に乗り込む。以後、戦艦ホワイトベースとともに戦場を転々とし、宿敵シャアと幾度も刃を交えていく。戦争をリアルに描いて「リアルロボットアニメ」の礎を築き、40年以上続く一大シリーズを生んだ。"
+        },
+        "en": {
+          "title": "Mobile Suit Gundam",
+          "creator": "Yoshiyuki Tomino / Nippon Sunrise",
+          "synopsis": "In Universal Century 0079 the space-colony nation of Zeon wages a war of independence against the Earth Federation. When Zeon raids the colony Side 7, teenager Amuro Ray stumbles into the cockpit of the Federation's new mobile suit, the Gundam. Aboard the warship White Base he is pulled from battlefield to battlefield, clashing again and again with his rival Char. Its grounded portrayal of war founded the \"real robot\" genre and launched a franchise that has run for more than four decades."
+        },
+        "ko": {
+          "title": "기동전사 건담",
+          "creator": "도미노 요시유키 / 일본 선라이즈",
+          "synopsis": "우주세기 0079년, 스페이스 콜로니 국가 지온 공국이 지구연방을 상대로 독립전쟁을 일으킨다. 콜로니 '사이드 7'에 사는 소년 아무로 레이는 지온군의 기습 속에서 우연히 연방군의 신형 모빌슈트 '건담'에 올라탄다. 이후 전함 화이트 베이스와 함께 전장을 떠돌며 숙적 샤아와 거듭 맞붙는다. 전쟁을 사실적으로 그려 '리얼 로봇 애니메이션'의 토대를 세웠고, 40년 넘게 이어지는 거대한 시리즈를 낳았다."
+        }
+      }
+    },
+    {
+      "id": "detective-conan",
+      "title": "名探偵コナン",
+      "mediaType": "anime",
+      "year": 1996,
+      "creator": "青山剛昌 / トムス・エンタテインメント",
+      "tint": "#2E4A8B",
+      "aliases": [
+        "名探偵コナン",
+        "名侦探柯南",
+        "名偵探柯南",
+        "Detective Conan",
+        "Case Closed",
+        "명탐정 코난",
+        "Meitantei Konan",
+        "コナン",
+        "柯南",
+        "Conan",
+        "코난",
+        "江戸川コナン",
+        "江户川柯南",
+        "江戶川柯南",
+        "Conan Edogawa",
+        "에도가와 코난",
+        "工藤新一",
+        "Shinichi Kudo",
+        "毛利蘭",
+        "毛利兰",
+        "Ran Mori",
+        "青山剛昌",
+        "青山刚昌",
+        "Gosho Aoyama",
+        "아오야마 고쇼",
+        "北栄町",
+        "北荣町",
+        "Hokuei",
+        "コナン大橋",
+        "柯南大桥",
+        "Conan Bridge",
+        "コナン駅",
+        "柯南站"
+      ],
+      "text": {
+        "zh-Hans": {
+          "title": "名侦探柯南",
+          "creator": "青山刚昌 / TMS Entertainment",
+          "synopsis": "高中生名侦探工藤新一在游乐园目击黑衣组织的可疑交易，被灌下神秘毒药，醒来后身体缩成了小学生。他化名“江户川柯南”寄住在青梅竹马毛利兰家，借她父亲毛利小五郎之名破解一桩桩离奇案件，同时暗中追查黑衣组织，等待找回原本身体的那一天。"
+        },
+        "zh-Hant": {
+          "title": "名偵探柯南"
+        },
+        "ja": {
+          "title": "",
+          "synopsis": "高校生探偵・工藤新一は、遊園地で黒ずくめの男たちの怪しい取引を目撃し、謎の毒薬を飲まされて小学生の姿になってしまう。「江戸川コナン」と名乗って幼なじみ・毛利蘭の家に身を寄せ、父・毛利小五郎の名を借りて次々と難事件を解決しながら、元の体を取り戻すため黒ずくめの組織を追い続ける。"
+        },
+        "en": {
+          "title": "Detective Conan",
+          "creator": "Gosho Aoyama / TMS Entertainment",
+          "synopsis": "High-school detective Shinichi Kudo witnesses a shady deal by men in black at an amusement park and is force-fed a mysterious poison that shrinks him into a primary-school child. Calling himself Conan Edogawa, he moves in with his childhood friend Ran Mori and cracks case after case under the name of her father, Kogoro, while secretly hunting the Black Organization to get his old body back."
+        },
+        "ko": {
+          "title": "명탐정 코난",
+          "creator": "아오야마 고쇼 / TMS 엔터테인먼트",
+          "synopsis": "고등학생 탐정 쿠도 신이치는 놀이공원에서 검은 옷의 남자들이 벌이는 수상한 거래를 목격하고, 정체불명의 독약을 먹어 초등학생의 몸이 되어 버린다. '에도가와 코난'이라는 이름으로 소꿉친구 모리 란의 집에 얹혀살며 그녀의 아버지 모리 코고로의 이름을 빌려 난해한 사건들을 해결하고, 원래 몸을 되찾기 위해 검은 조직을 몰래 쫓는다."
+        }
+      }
+    },
+    {
+      "id": "chibi-maruko-chan",
+      "title": "ちびまる子ちゃん",
+      "mediaType": "anime",
+      "year": 1990,
+      "creator": "さくらももこ / 日本アニメーション",
+      "tint": "#F28CA0",
+      "aliases": [
+        "ちびまる子ちゃん",
+        "樱桃小丸子",
+        "櫻桃小丸子",
+        "Chibi Maruko-chan",
+        "Chibi Maruko Chan",
+        "마루코는 아홉살",
+        "치비마루코짱",
+        "まる子",
+        "小丸子",
+        "Maruko",
+        "마루코",
+        "さくらももこ",
+        "樱桃子",
+        "櫻桃子",
+        "Momoko Sakura",
+        "사쿠라 모모코",
+        "友蔵",
+        "友藏",
+        "清水",
+        "Shimizu",
+        "시미즈",
+        "ちびまる子ちゃんランド",
+        "樱桃小丸子乐园",
+        "Chibi Maruko-chan Land"
+      ],
+      "text": {
+        "zh-Hans": {
+          "title": "樱桃小丸子",
+          "creator": "樱桃子 / 日本动画公司",
+          "synopsis": "故事发生在 1970 年代的静冈县清水市。小学三年级的樱桃子——大家叫她“小丸子”——懒散又贪玩，常让家人哭笑不得，却总让人讨厌不起来。她和爷爷友藏、姐姐、爸爸妈妈、奶奶的日常，以及和好友小玉等同学的校园琐事，以作者自己的童年为蓝本，写得幽默又怀旧。"
+        },
+        "zh-Hant": {
+          "title": "櫻桃小丸子"
+        },
+        "ja": {
+          "title": "",
+          "synopsis": "舞台は1970年代の静岡県清水市。小学3年生の「まる子」ことさくらももこは、ぐうたらでお調子者だけれど、どこか憎めない女の子。おじいちゃんの友蔵やお姉ちゃん、両親、おばあちゃんとの毎日や、親友たまちゃんたちとの学校生活を、作者自身の子ども時代をもとにユーモラスに、懐かしく描く。"
+        },
+        "en": {
+          "title": "Chibi Maruko-chan",
+          "creator": "Momoko Sakura / Nippon Animation",
+          "synopsis": "Set in 1970s Shimizu, Shizuoka, the series follows third-grader Momoko Sakura, known to all as Maruko: lazy, cheeky and impossible to dislike. Her days with Grandpa Tomozo, her big sister, her parents and grandma, and her school life with best friend Tama-chan are drawn from the author's own childhood with gentle humour and plenty of nostalgia."
+        },
+        "ko": {
+          "title": "마루코는 아홉살",
+          "creator": "사쿠라 모모코 / 닛폰 애니메이션",
+          "synopsis": "1970년대 시즈오카현 시미즈시. 초등학교 3학년 '마루코', 사쿠라 모모코는 게으르고 장난스럽지만 도무지 미워할 수 없는 아이다. 할아버지 도모조, 언니, 엄마 아빠와 할머니와의 일상, 단짝 다마를 비롯한 친구들과의 학교생활을 작가 자신의 어린 시절을 바탕으로 유쾌하고 그립게 그린다."
+        }
+      }
+    },
+    {
+      "id": "crayon-shin-chan",
+      "title": "クレヨンしんちゃん",
+      "mediaType": "anime",
+      "year": 1992,
+      "creator": "臼井儀人 / シンエイ動画",
+      "tint": "#F2B830",
+      "aliases": [
+        "クレヨンしんちゃん",
+        "蜡笔小新",
+        "蠟筆小新",
+        "Crayon Shin-chan",
+        "Crayon Shinchan",
+        "짱구는 못말려",
+        "Kureyon Shinchan",
+        "しんちゃん",
+        "小新",
+        "Shin-chan",
+        "짱구",
+        "野原しんのすけ",
+        "野原新之助",
+        "Shinnosuke Nohara",
+        "野原ひろし",
+        "野原广志",
+        "野原美冴",
+        "臼井儀人",
+        "臼井仪人",
+        "Yoshito Usui",
+        "우스이 요시토",
+        "春日部",
+        "Kasukabe",
+        "가스카베",
+        "떡잎마을"
+      ],
+      "text": {
+        "zh-Hans": {
+          "title": "蜡笔小新",
+          "creator": "臼井仪人 / 新锐动画",
+          "synopsis": "住在埼玉县春日部市的五岁幼儿园小朋友野原新之助，调皮又爱耍宝，最喜欢漂亮大姐姐，总把爸爸广志、妈妈美冴和身边的大人搞得鸡飞狗跳。吵吵闹闹的日常里，也藏着平凡家庭最真切的温情。动画 1992 年开播至今，剧场版几乎年年上映。"
+        },
+        "zh-Hant": {
+          "title": "蠟筆小新"
+        },
+        "ja": {
+          "title": "",
+          "synopsis": "埼玉県春日部市に住む5歳の幼稚園児・野原しんのすけ。おバカでマイペース、きれいなお姉さんが大好きな彼は、父ひろしや母みさえ、周りの大人たちを毎日振り回している。にぎやかな騒動の中に、ごく普通の家族のあたたかさがにじむ。1992年にアニメ放送が始まり、映画もほぼ毎年公開されている。"
+        },
+        "en": {
+          "title": "Crayon Shin-chan",
+          "creator": "Yoshito Usui / Shin-Ei Animation",
+          "synopsis": "Five-year-old Shinnosuke Nohara lives in Kasukabe, Saitama, and drives his dad Hiroshi, his mum Misae and every adult around him up the wall with his cheeky, shameless antics and his weakness for pretty young women. Beneath the daily chaos is a warm portrait of an ordinary family. The anime has aired since 1992, with a new feature film almost every year."
+        },
+        "ko": {
+          "title": "짱구는 못말려",
+          "creator": "우스이 요시토 / 신에이 동화",
+          "synopsis": "사이타마현 가스카베시에 사는 다섯 살 유치원생 짱구(노하라 신노스케). 엉뚱하고 능청스러우며 예쁜 누나라면 사족을 못 쓰는 그는 아빠 신형만, 엄마 봉미선과 주변 어른들을 매일 정신없게 만든다. 왁자지껄한 소동 속에 평범한 가족의 따뜻함이 배어 있다. 1992년 TV 애니메이션이 시작되었고 극장판도 거의 매년 개봉된다."
+        }
+      }
+    },
+    {
+      "id": "astro-boy",
+      "title": "鉄腕アトム",
+      "mediaType": "anime",
+      "year": 1963,
+      "creator": "手塚治虫 / 虫プロダクション",
+      "tint": "#4FA3D9",
+      "aliases": [
+        "鉄腕アトム",
+        "铁臂阿童木",
+        "鐵臂阿童木",
+        "原子小金剛",
+        "Astro Boy",
+        "Mighty Atom",
+        "Tetsuwan Atomu",
+        "우주소년 아톰",
+        "アトム",
+        "阿童木",
+        "Atom",
+        "아톰",
+        "手塚治虫",
+        "手冢治虫",
+        "Osamu Tezuka",
+        "데즈카 오사무",
+        "手塚治虫記念館",
+        "手冢治虫纪念馆",
+        "Tezuka Osamu Manga Museum",
+        "宝塚",
+        "宝冢",
+        "Takarazuka"
+      ],
+      "text": {
+        "zh-Hans": {
+          "title": "铁臂阿童木",
+          "creator": "手冢治虫 / 虫制作",
+          "synopsis": "21 世纪，科学省长官天马博士痛失爱子，照着儿子的模样造出了少年机器人阿童木。阿童木拥有十万马力和七种威力，却也有一颗和人类一样的心，在人类与机器人的矛盾中一次次为和平而战。1963 年的电视动画是日本第一部每集 30 分钟的连续电视动画，开启了日本的电视动画产业。"
+        },
+        "zh-Hant": {
+          "title": "原子小金剛"
+        },
+        "ja": {
+          "title": "",
+          "synopsis": "21世紀、科学省長官の天馬博士は、事故で亡くした息子に似せて少年ロボット・アトムをつくる。10万馬力と七つの威力を持ちながら人間と同じ心を持つアトムは、人間とロボットの対立のなかで平和のために戦い続ける。1963年のテレビアニメは日本初の30分連続テレビアニメとして、日本のテレビアニメ産業の出発点となった。"
+        },
+        "en": {
+          "title": "Astro Boy",
+          "creator": "Osamu Tezuka / Mushi Production",
+          "synopsis": "In the 21st century, Dr. Tenma of the Ministry of Science builds a boy robot in the image of the son he lost in an accident. Atom has 100,000 horsepower and seven special powers, yet a heart just like a human's, and he fights again and again for peace amid the conflict between people and robots. The 1963 series was Japan's first half-hour weekly TV anime and the starting point of its TV animation industry."
+        },
+        "ko": {
+          "title": "우주소년 아톰",
+          "creator": "데즈카 오사무 / 무시 프로덕션",
+          "synopsis": "21세기, 과학성 장관 덴마 박사는 사고로 잃은 아들을 본떠 소년 로봇 아톰을 만든다. 10만 마력과 일곱 가지 능력을 지녔지만 인간과 같은 마음을 가진 아톰은 인간과 로봇의 대립 속에서 평화를 위해 거듭 싸운다. 1963년 TV 애니메이션은 일본 최초의 30분짜리 연속 TV 애니메이션으로, 일본 TV 애니메이션 산업의 출발점이 되었다."
+        }
+      }
+    },
+    {
+      "id": "gegege-no-kitaro",
+      "title": "ゲゲゲの鬼太郎",
+      "mediaType": "anime",
+      "year": 1968,
+      "creator": "水木しげる / 東映動画",
+      "tint": "#D4A72C",
+      "aliases": [
+        "ゲゲゲの鬼太郎",
+        "鬼太郎",
+        "咯咯咯的鬼太郎",
+        "GeGeGe no Kitaro",
+        "Kitaro",
+        "게게게의 기타로",
+        "기타로",
+        "目玉おやじ",
+        "眼珠老爹",
+        "眼球老爹",
+        "Medama-Oyaji",
+        "ねずみ男",
+        "鼠男",
+        "水木しげる",
+        "水木茂",
+        "Shigeru Mizuki",
+        "미즈키 시게루",
+        "水木しげるロード",
+        "水木茂之路",
+        "Mizuki Shigeru Road",
+        "境港",
+        "Sakaiminato",
+        "사카이미나토",
+        "妖怪",
+        "yokai"
+      ],
+      "text": {
+        "zh-Hans": {
+          "title": "鬼太郎",
+          "creator": "水木茂 / 东映动画",
+          "synopsis": "幽灵族最后的后裔鬼太郎，和只剩一颗眼珠的父亲“眼珠老爹”相依为命。他穿着条纹背心、踩着木屐，和鼠男、砂婆、子泣爷爷、涂壁、一反木绵等妖怪伙伴一起，对付那些危害人类的妖怪。水木茂从民间传说中描绘出的妖怪世界，几乎成了日本人心中妖怪的标准模样，动画自 1968 年起已多次重制。"
+        },
+        "zh-Hant": {
+          "title": "鬼太郎"
+        },
+        "ja": {
+          "title": "",
+          "synopsis": "幽霊族の生き残り・鬼太郎は、目玉だけの姿になった父・目玉おやじと暮らす少年。縞のちゃんちゃんこに下駄履きで、ねずみ男や砂かけ婆、子泣き爺、ぬりかべ、一反もめんら妖怪仲間とともに、人間に害をなす妖怪と立ち向かう。水木しげるが民間伝承から描き出した妖怪たちは日本人の「妖怪像」そのものとなり、アニメは1968年から何度もリメイクされてきた。"
+        },
+        "en": {
+          "title": "GeGeGe no Kitaro",
+          "creator": "Shigeru Mizuki / Toei Animation",
+          "synopsis": "Kitaro, last survivor of the Ghost Tribe, lives with his father, who has been reduced to a single talking eyeball. In his striped vest and wooden geta he teams up with yokai friends such as Nezumi-Otoko, Sunakake-Baba, Konaki-Jiji, Nurikabe and Ittan-Momen to deal with yokai that harm humans. Shigeru Mizuki's folklore-based creatures shaped how Japan pictures its yokai, and the anime has been remade again and again since 1968."
+        },
+        "ko": {
+          "title": "게게게의 기타로",
+          "creator": "미즈키 시게루 / 토에이 애니메이션",
+          "synopsis": "유령족의 마지막 후손 기타로는 눈알만 남은 아버지 '눈알 아버지'와 함께 사는 소년이다. 줄무늬 조끼에 나막신을 신은 그는 쥐 사나이, 모래뿌리기 할멈, 울보 영감, 누리카베, 잇탄모멘 등 요괴 친구들과 함께 인간을 해치는 요괴에 맞선다. 미즈키 시게루가 민간 전승을 바탕으로 그려 낸 요괴들은 일본인이 떠올리는 요괴의 모습 그 자체가 되었고, 애니메이션은 1968년부터 여러 차례 리메이크되었다."
+        }
+      }
+    },
+    {
+      "id": "anpanman",
+      "title": "それいけ!アンパンマン",
+      "mediaType": "anime",
+      "year": 1988,
+      "creator": "やなせたかし / トムス・エンタテインメント",
+      "tint": "#E2553E",
+      "aliases": [
+        "それいけ!アンパンマン",
+        "それいけ！アンパンマン",
+        "アンパンマン",
+        "面包超人",
+        "麵包超人",
+        "Anpanman",
+        "Go! Anpanman",
+        "Soreike! Anpanman",
+        "호빵맨",
+        "앙팡맨",
+        "ばいきんまん",
+        "细菌人",
+        "細菌人",
+        "Baikinman",
+        "세균맨",
+        "ジャムおじさん",
+        "果酱爷爷",
+        "やなせたかし",
+        "柳濑嵩",
+        "柳瀨嵩",
+        "Takashi Yanase",
+        "야나세 다카시",
+        "アンパンマンミュージアム",
+        "面包超人博物馆",
+        "Anpanman Museum",
+        "香美市",
+        "Kami",
+        "高知",
+        "Kochi"
+      ],
+      "text": {
+        "zh-Hans": {
+          "title": "面包超人",
+          "creator": "柳濑嵩 / TMS Entertainment",
+          "synopsis": "面包超人是果酱爷爷用面包做出来的正义英雄。他会把自己的脸分给饥饿的人吃，再由果酱爷爷换上新脸，重新元气满满，守护小镇不受细菌人捣乱。原作者柳濑嵩相信“真正的正义，是把面包分给挨饿的人”，动画自 1988 年播出至今，是日本孩子最熟悉的英雄。"
+        },
+        "zh-Hant": {
+          "title": "麵包超人"
+        },
+        "ja": {
+          "title": "",
+          "synopsis": "アンパンマンは、ジャムおじさんがパンから生んだ正義のヒーロー。おなかをすかせた人に自分の顔を分けてあげ、新しい顔に取りかえてもらうと元気100倍。ばいきんまんのいたずらから町の平和を守る。「本当の正義とは、飢えた人にパンを分けること」というやなせたかしの信念から生まれ、1988年から放送が続く、日本の子どもたちにいちばん身近なヒーローだ。"
+        },
+        "en": {
+          "title": "Anpanman",
+          "creator": "Takashi Yanase / TMS Entertainment",
+          "synopsis": "Anpanman is a hero baked from bread by Uncle Jam. He lets hungry people eat from his own face, then gets a fresh one and is back at full strength, protecting the town from Baikinman's mischief. Takashi Yanase created him out of the belief that true justice means sharing bread with the hungry, and the anime, on air since 1988, has made him the hero Japanese children know best."
+        },
+        "ko": {
+          "title": "호빵맨",
+          "creator": "야나세 다카시 / TMS 엔터테인먼트",
+          "synopsis": "호빵맨은 잼 아저씨가 빵으로 만든 정의의 영웅이다. 배고픈 이에게 자기 얼굴을 떼어 나눠 주고, 새 얼굴로 갈아 끼우면 다시 기운이 넘친다. 세균맨의 장난으로부터 마을의 평화를 지킨다. '진정한 정의란 굶주린 사람에게 빵을 나누는 것'이라는 야나세 다카시의 신념에서 태어났고, 1988년부터 이어진 애니메이션으로 일본 아이들에게 가장 친숙한 영웅이 되었다."
+        }
+      }
+    },
+    {
+      "id": "ultraman",
+      "title": "ウルトラマン",
+      "mediaType": "drama",
+      "year": 1966,
+      "creator": "円谷英二 / 円谷プロダクション",
+      "tint": "#C8102E",
+      "officialURL": "https://m-78.jp/",
+      "aliases": [
+        "ウルトラマン",
+        "奥特曼",
+        "超人力霸王",
+        "鹹蛋超人",
+        "Ultraman",
+        "울트라맨",
+        "Urutoraman",
+        "ハヤタ",
+        "早田进",
+        "Hayata",
+        "科学特捜隊",
+        "科学特搜队",
+        "Science Patrol",
+        "ウルトラマン商店街",
+        "奥特曼商店街",
+        "Ultraman Shopping Street",
+        "円谷英二",
+        "圆谷英二",
+        "圓谷英二",
+        "Eiji Tsuburaya",
+        "쓰부라야 에이지",
+        "円谷プロ",
+        "圆谷制作",
+        "Tsuburaya Productions",
+        "祖師ヶ谷大蔵",
+        "祖师谷大藏",
+        "Soshigaya-Okura"
+      ],
+      "text": {
+        "zh-Hans": {
+          "title": "奥特曼",
+          "creator": "圆谷英二 / 圆谷制作",
+          "synopsis": "科学特搜队队员早田进，在一次意外中与来自 M78 星云的巨人相撞而丧命。心怀歉意的巨人与他合为一体，从此每当怪兽或外星人来袭，早田便举起“β 魔棒”变身奥特曼。奥特曼在地球上只能战斗 3 分钟，胸前彩色计时器一闪烁，就是倒数的信号。这部 1966 年的特摄剧开启了延续至今的奥特曼系列。"
+        },
+        "zh-Hant": {
+          "title": "超人力霸王"
+        },
+        "ja": {
+          "title": "",
+          "synopsis": "科学特捜隊のハヤタ隊員は、M78星雲から来た巨人との衝突事故で命を落とす。責任を感じた巨人はハヤタと一体化し、以来ハヤタは怪獣や宇宙人が現れるたびにベーターカプセルでウルトラマンに変身する。地球上で戦えるのは3分間だけ、胸のカラータイマーの点滅がその合図だ。1966年の特撮ドラマで、今日まで続くウルトラシリーズの原点となった。"
+        },
+        "en": {
+          "title": "Ultraman",
+          "creator": "Eiji Tsuburaya / Tsuburaya Productions",
+          "synopsis": "Science Patrol officer Hayata is killed in a collision with a giant from the M78 Nebula, who, feeling responsible, merges with him. From then on, whenever monsters or alien invaders strike, Hayata raises the Beta Capsule and becomes Ultraman. He can fight on Earth for only three minutes, and the flashing Color Timer on his chest counts them down. The 1966 tokusatsu series launched the Ultra franchise that continues today."
+        },
+        "ko": {
+          "title": "울트라맨",
+          "creator": "쓰부라야 에이지 / 쓰부라야 프로덕션",
+          "synopsis": "과학특수대원 하야타는 M78 성운에서 온 거인과 충돌하는 사고로 목숨을 잃는다. 책임을 느낀 거인은 하야타와 하나가 되고, 이후 하야타는 괴수나 우주인이 나타날 때마다 베타캡슐로 울트라맨으로 변신한다. 지구에서 싸울 수 있는 시간은 단 3분, 가슴의 컬러 타이머가 깜박이면 그 신호다. 1966년 특촬 드라마로, 지금까지 이어지는 울트라 시리즈의 출발점이 되었다."
+        }
+      }
+    }
+  ],
+  "spots": [
+    {
+      "id": "gundam-lalaport-fukuoka-nu",
+      "workID": "mobile-suit-gundam",
+      "kind": "landmark",
+      "latitude": 33.56577,
+      "longitude": 130.44129,
+      "sceneHeading": 255,
+      "scenePitch": 10,
+      "arrivalRadius": 60,
+      "spoiler": false,
+      "sourceURL": "https://www.oricon.co.jp/news/2232657/full/",
+      "verified": false,
+      "bestMonths": [
+        4,
+        5,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "accessPoint": {
+        "latitude": 33.5686,
+        "longitude": 130.43198
+      },
+      "text": {
+        "zh-Hans": {
+          "placeName": "LaLaport 福冈 森林公园（福冈·博多区）",
+          "sceneTitle": "实物大ν高达立像",
+          "episode": "官方圣地 · 2022 年设立",
+          "highlight": "这是历代官方实物大高达立像中最高的一尊：连同背后的长距离浮游炮，最高处达 24.8 米。ν高达是阿姆罗在《逆袭的夏亚》中的最后座机，承载着他与夏亚宿怨的终局，也是许多老粉心中“最帅的高达”。站在草坪上仰望它“起动”，压迫感和感动会一起涌上来。台场的独角兽高达已于 2026 年 8 月底结束展出，如今想亲眼看看实物大高达，福冈是最值得专程前往的地方。",
+          "story": "立像的原型是 1988 年剧场版《机动战士高达 逆袭的夏亚》中，由阿姆罗·雷参与设计并驾驶的 RX-93 ν高达，背上加装了长距离浮游炮，正式名为“RX-93ff ν高达”。2021 年 12 月完成装头仪式，2022 年 4 月 25 日随 LaLaport 福冈开业对外公开，是官方第六尊实物大高达立像（不含横滨会动的高达），也是西日本第一尊。钢骨结构，本体约 80 吨，头顶高 20.5 米。白天每到整点上演“ν GUNDAM 起动”，入夜后配合墙面投影每半小时演出一次，冬季还有特别灯光秀。",
+          "access": "JR 鹿儿岛本线竹下站东口出站，往东南步行约 9 分钟（约 1 km）到 LaLaport 福冈，立像就在商场旁的“森林公园”草坪上。",
+          "accessPointName": "竹下站 东口",
+          "bestTime": "白天看整点“起动”演出，19:00–21:00 看投影灯光秀；11 月底至次年 2 月有冬季限定灯光。",
+          "tips": "观赏免费。演出可能因天气、活动或维护暂停（如 2026 年 11 月 24–27 日维护），出发前请看商场官网。草坪上拍照别占用通道，晚间演出时人多，请看好孩子。"
+        },
+        "ja": {
+          "placeName": "三井ショッピングパーク ららぽーと福岡 フォレストパーク（福岡市博多区）",
+          "sceneTitle": "実物大νガンダム立像",
+          "episode": "公式聖地・2022年設置",
+          "highlight": "歴代の実物大ガンダム立像で最も背が高く、ロングレンジ・フィン・ファンネルを含めた最高部は24.8m。νガンダムは『逆襲のシャア』でアムロが最後に乗った機体で、シャアとの長い因縁に決着をつけた「最高にかっこいいガンダム」として多くのファンの心に刻まれている。芝生から見上げる「起動」演出には、迫力と胸の熱さが一緒に押し寄せる。お台場のユニコーンガンダム立像は2026年8月末で展示を終えた今、実物大ガンダムに会うなら福岡へ足を運びたい。",
+          "story": "モデルは1988年の劇場版『機動戦士ガンダム 逆襲のシャア』で、アムロ・レイが設計にも関わり搭乗したRX-93 νガンダム。背中にロングレンジ・フィン・ファンネルを加え、「RX-93ff νガンダム」と名付けられた。2021年12月に上頭式を行い、2022年4月25日のららぽーと福岡開業とともに一般公開。動くガンダムを除き歴代6体目、西日本では初の実物大立像だ。鉄骨造で本体約80t、頭頂高20.5m。日中は毎正時に「ν GUNDAM 起動」、夜は壁面映像と組み合わせた演出が30分ごとに行われ、冬には特別ライトアップもある。",
+          "access": "JR鹿児島本線「竹下」駅東口から南東へ徒歩約9分（約1km）。立像はららぽーと福岡に隣接する「フォレストパーク」の芝生広場に立つ。",
+          "accessPointName": "竹下駅 東口",
+          "bestTime": "昼は毎正時の「起動」演出、19:00〜21:00は映像を使った夜の演出。11月下旬〜2月は冬季限定ライトアップも。",
+          "tips": "見学無料。天候やイベント、メンテナンスで演出が休止になる場合があり（例：2026年11月24〜27日）、来場前に公式サイトを確認。芝生での撮影は通路をふさがないように。"
+        },
+        "en": {
+          "placeName": "Forest Park, Mitsui Shopping Park LaLaport Fukuoka (Hakata, Fukuoka)",
+          "sceneTitle": "Life-size ν Gundam Statue",
+          "episode": "Official landmark · since 2022",
+          "highlight": "This is the tallest of all the official life-size Gundam statues: with its long-range fin funnels it reaches 24.8 m. The ν Gundam is Amuro's final machine in Char's Counterattack, the suit that settles his long feud with Char, and for many longtime fans simply the coolest Gundam ever. Watching it \"boot up\" from the lawn below is equal parts awe and goosebumps. With the Odaiba Unicorn Gundam retired at the end of August 2026, Fukuoka is now the place to make the trip for a full-size Gundam.",
+          "story": "The statue is based on the RX-93 ν Gundam from the 1988 film Mobile Suit Gundam: Char's Counterattack, the suit Amuro Ray helped design and then piloted. Fitted with long-range fin funnels, it is officially named the \"RX-93ff ν Gundam\". Its head was mounted in December 2021, and it was unveiled on 25 April 2022 when LaLaport Fukuoka opened, becoming the sixth official life-size Gundam statue (not counting Yokohama's moving Gundam) and the first in western Japan. Built on a steel frame, it weighs about 80 tonnes and stands 20.5 m to the top of the head. By day the \"ν GUNDAM Boot Up\" show runs on the hour; after dark there are shows with wall projections every half hour, plus a special winter light-up.",
+          "access": "From the east exit of JR Takeshita Station (Kagoshima Main Line), walk about 9 min (1 km) southeast to LaLaport Fukuoka; the statue stands on the Forest Park lawn beside the mall.",
+          "accessPointName": "Takeshita Sta. East Exit",
+          "bestTime": "Daytime for the hourly boot-up show, 19:00–21:00 for the projection shows; a winter light-up runs from late November to February.",
+          "tips": "Free to view. Shows can pause for weather, events or maintenance (e.g. 24–27 Nov 2026), so check the mall's website before you go. Don't block paths while shooting on the lawn, and keep an eye on kids at the busy evening shows."
+        },
+        "ko": {
+          "placeName": "미쓰이 쇼핑파크 라라포트 후쿠오카 포레스트 파크 (후쿠오카시 하카타구)",
+          "sceneTitle": "실물 크기 ν건담 입상",
+          "episode": "공식 성지 · 2022년 설치",
+          "highlight": "역대 공식 실물 크기 건담 입상 가운데 가장 크다. 롱 레인지 핀 판넬까지 포함한 최고 높이는 24.8m. ν건담은 『역습의 샤아』에서 아무로가 마지막으로 탄 기체로, 샤아와의 오랜 악연에 마침표를 찍은 '가장 멋진 건담'으로 많은 팬의 마음에 남아 있다. 잔디밭에서 올려다보는 '기동' 연출은 압도감과 벅참이 함께 밀려온다. 오다이바의 유니콘 건담 입상이 2026년 8월 말 전시를 마친 지금, 실물 크기 건담을 보려면 후쿠오카를 찾을 만하다.",
+          "story": "모델은 1988년 극장판 『기동전사 건담 역습의 샤아』에서 아무로 레이가 설계에도 참여하고 직접 탄 RX-93 ν건담이다. 등에 롱 레인지 핀 판넬을 더해 'RX-93ff ν건담'이라는 이름이 붙었다. 2021년 12월 머리를 올리는 상두식을 치르고, 2022년 4월 25일 라라포트 후쿠오카 개업과 함께 공개되었다. 움직이는 건담을 제외하면 역대 6번째, 서일본에서는 첫 실물 크기 입상이다. 철골 구조로 본체 약 80톤, 머리 꼭대기 높이 20.5m. 낮에는 매시 정각 'ν GUNDAM 기동' 연출이, 밤에는 벽면 영상과 함께하는 연출이 30분마다 열리고 겨울에는 특별 라이트업도 있다.",
+          "access": "JR 가고시마 본선 다케시타역 동쪽 출구에서 남동쪽으로 도보 약 9분(약 1km). 입상은 라라포트 후쿠오카 옆 '포레스트 파크' 잔디 광장에 서 있다.",
+          "accessPointName": "다케시타역 동쪽 출구",
+          "bestTime": "낮에는 매시 정각 '기동' 연출, 19:00~21:00에는 영상 연출. 11월 하순~2월에는 겨울 한정 라이트업도 열린다.",
+          "tips": "관람 무료. 날씨·행사·점검으로 연출이 쉬는 날이 있으니(예: 2026년 11월 24~27일) 방문 전 공식 사이트를 확인하자. 잔디밭에서 촬영할 때 통로를 막지 말고, 붐비는 밤 연출 때는 아이를 잘 챙기자."
+        }
+      }
+    },
+    {
+      "id": "conan-hokuei-conan-bridge",
+      "workID": "detective-conan",
+      "kind": "landmark",
+      "latitude": 35.49196,
+      "longitude": 133.75902,
+      "sceneHeading": 28,
+      "scenePitch": 5,
+      "arrivalRadius": 40,
+      "spoiler": false,
+      "sourceURL": "https://www.gamf.jp/265.html",
+      "verified": false,
+      "bestMonths": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "accessPoint": {
+        "latitude": 35.49041,
+        "longitude": 133.75449
+      },
+      "text": {
+        "zh-Hans": {
+          "placeName": "柯南大桥（鸟取·北荣町）",
+          "sceneTitle": "柯南大桥铜像",
+          "episode": "官方圣地 · 1999 年设立",
+          "highlight": "北荣町是青山刚昌出生、长大的地方，整座小镇以“柯南之乡”迎接粉丝，柯南大桥正是这条朝圣路上最早的标志之一。1999 年通车时，青山刚昌亲自到场剪彩，桥上的柯南铜像同时揭幕。桥栏上的铜板图案出自他本人之手，连《YAIBA》的角色也在其中。走过这座小桥，就像走进了作者童年的风景里。",
+          "story": "柯南大桥是县道跨越由良川的一座小桥，旧名“绿大桥”，重建时改为现名，1999 年 12 月 23 日举行通车仪式。桥两端的四根桥柱上各立着一尊江户川柯南铜像，造型分别是“夏日”“踢力增强鞋”“解谜”和“推理”，两根路灯柱上还有踩着涡轮滑板的柯南；桥栏嵌着青山刚昌亲绘的柯南、《YAIBA》等 4 种铜板。大桥位于由良站（昵称“柯南站”）到青山刚昌故乡馆约 1.4 公里的“柯南大道”上，沿途还有更多角色铜像、封面石碑和柯南井盖。",
+          "access": "JR 山阴本线由良站（柯南站）出站，沿站前的柯南大道往东走，在路口左转即见大桥，步行约 5 分钟。",
+          "accessPointName": "由良站（柯南站）",
+          "bestTime": "晴天白天最适合拍铜像细节；可与柯南大道沿线铜像、故乡馆串成半天行程。",
+          "tips": "铜像随时可看、免费。桥上紧邻车道，拍照留意来车，不要攀爬桥柱。终点的青山刚昌故乡馆现馆 2027 年 1 月 11 日闭馆，新馆预定 2027 年春开幕，入馆需提前网上购票。"
+        },
+        "ja": {
+          "placeName": "コナン大橋（鳥取県北栄町）",
+          "sceneTitle": "コナン大橋のブロンズ像",
+          "episode": "公式聖地・1999年設置",
+          "highlight": "北栄町は青山剛昌が生まれ育った町。町全体が「コナンの里」としてファンを迎え、コナン大橋はその聖地巡礼ルートの最初期のシンボルのひとつだ。1999年の開通式では青山剛昌本人がテープカットに立ち会い、橋のコナン像も同時に除幕された。欄干のブロンズパネルは本人の描き下ろしで、『YAIBA』のキャラクターの姿も。小さな橋を渡ると、作者の少年時代の風景に足を踏み入れたような気分になる。",
+          "story": "コナン大橋は由良川に架かる県道の橋で、旧名は「緑大橋」。架け替えにあわせて改名され、1999年12月23日に開通式が行われた。両岸4本の親柱には「夏の日」「キック力増強シューズ」「なぞ解き」「推理」をテーマにした江戸川コナンのブロンズ像が立ち、2本の照明柱にはターボエンジン付きスケートボードに乗るコナンの姿も。欄干には青山剛昌が描いたコナンや『YAIBA』など4種類のブロンズパネルがはめ込まれている。橋は由良駅（愛称「コナン駅」）から青山剛昌ふるさと館まで約1.4kmの「コナン通り」の途中にあり、沿道にはほかにもキャラクター像や石碑、コナンのマンホールが続く。",
+          "access": "JR山陰本線「由良」駅（コナン駅）から駅前のコナン通りを東へ進み、交差点を左折するとすぐ橋。徒歩約5分。",
+          "accessPointName": "由良駅（コナン駅）",
+          "bestTime": "晴れた日中が像のディテールを撮るのに最適。コナン通り沿いの像やふるさと館と合わせて半日コースに。",
+          "tips": "像はいつでも無料で見学可。橋は車道に面しているので撮影時は車に注意し、親柱には登らないこと。終点の青山剛昌ふるさと館は現館が2027年1月11日で閉館し、2027年春に新館開館予定。入館はWebでの事前購入制。"
+        },
+        "en": {
+          "placeName": "Conan Bridge (Hokuei, Tottori)",
+          "sceneTitle": "Conan Bridge Bronze Statues",
+          "episode": "Official landmark · since 1999",
+          "highlight": "Hokuei is where Gosho Aoyama was born and raised, and the whole town welcomes fans as \"Conan's hometown\"; Conan Bridge is one of the earliest symbols on that pilgrimage route. At its 1999 opening Aoyama himself cut the ribbon as the Conan statues were unveiled. The bronze panels on the railings are his own drawings, with characters from YAIBA among them too. Crossing this little bridge feels like stepping into the landscape of the author's childhood.",
+          "story": "Conan Bridge carries the prefectural road over the Yura River. Formerly the Midori Bridge, it was renamed when it was rebuilt and opened with a ceremony on 23 December 1999. Each of the four corner posts holds a bronze Conan Edogawa on a different theme (\"Summer Day\", \"Power-Enhancing Kick Shoes\", \"Solving the Riddle\" and \"Deduction\"), and two lamp posts carry Conan on his turbo-engine skateboard. Four kinds of bronze panels drawn by Aoyama, featuring Conan and YAIBA, are set into the railings. The bridge sits on Conan Street, the 1.4 km route from Yura Station (nicknamed Conan Station) to the Gosho Aoyama Manga Factory, lined with more character statues, cover-art stone monuments and Conan manhole covers.",
+          "access": "From JR Yura Station (Conan Station) on the San'in Line, walk east along Conan Street and turn left at the junction; the bridge is right there, about 5 min in all.",
+          "accessPointName": "JR Yura Sta. (Conan Sta.)",
+          "bestTime": "Clear daytime is best for the statues' fine detail; combine with the other Conan Street statues and the museum for a half-day walk.",
+          "tips": "The statues are free and always accessible. The bridge runs right beside traffic, so watch for cars and don't climb the posts. The Gosho Aoyama Manga Factory closes its current building on 11 Jan 2027 and reopens in a new one in spring 2027; museum tickets must be bought online in advance."
+        },
+        "ko": {
+          "placeName": "코난 대교 (돗토리현 호쿠에이초)",
+          "sceneTitle": "코난 대교 동상",
+          "episode": "공식 성지 · 1999년 설치",
+          "highlight": "호쿠에이초는 아오야마 고쇼가 태어나 자란 마을로, 마을 전체가 '코난의 고향'으로 팬을 맞이한다. 코난 대교는 그 성지순례 길에서 가장 이른 상징 가운데 하나다. 1999년 개통식 때 아오야마 고쇼가 직접 테이프 커팅에 참석했고, 다리의 코난 동상도 함께 공개되었다. 난간의 청동 패널은 작가가 직접 그린 그림으로, 『YAIBA』 캐릭터도 들어 있다. 이 작은 다리를 건너면 작가의 어린 시절 풍경 속으로 들어선 기분이 든다.",
+          "story": "코난 대교는 유라강을 건너는 현도의 다리로, 옛 이름은 '미도리 대교'였다. 다리를 새로 놓으면서 이름을 바꾸었고 1999년 12월 23일 개통식을 열었다. 양쪽 끝 네 개의 교각 기둥에는 '여름날', '킥력 증강 슈즈', '수수께끼 풀이', '추리'를 주제로 한 에도가와 코난 동상이 서 있고, 가로등 기둥 두 곳에는 터보 엔진 스케이트보드를 탄 코난이 있다. 난간에는 아오야마 고쇼가 그린 코난, 『YAIBA』 등 네 종류의 청동 패널이 박혀 있다. 다리는 유라역(애칭 '코난역')에서 아오야마 고쇼 고향관까지 약 1.4km 이어지는 '코난 거리' 중간에 있으며, 길가에는 다른 캐릭터 동상과 표지 석비, 코난 맨홀이 계속된다.",
+          "access": "JR 산인 본선 유라역(코난역)에서 역 앞 코난 거리를 따라 동쪽으로 가다 교차로에서 좌회전하면 바로 다리. 도보 약 5분.",
+          "accessPointName": "유라역(코난역)",
+          "bestTime": "맑은 날 낮이 동상의 디테일을 찍기 좋다. 코난 거리의 다른 동상, 고향관과 묶어 반나절 코스로.",
+          "tips": "동상은 언제든 무료로 볼 수 있다. 다리가 차도와 붙어 있으니 촬영 시 차량에 주의하고 기둥에 올라가지 말 것. 종점의 아오야마 고쇼 고향관은 현 건물이 2027년 1월 11일 문을 닫고 2027년 봄 새 건물로 개관 예정이며, 입장권은 온라인 사전 구매제다."
+        }
+      }
+    },
+    {
+      "id": "maruko-chibimaruko-land",
+      "workID": "chibi-maruko-chan",
+      "kind": "landmark",
+      "latitude": 35.01076,
+      "longitude": 138.49265,
+      "sceneHeading": 315,
+      "scenePitch": 0,
+      "arrivalRadius": 60,
+      "spoiler": false,
+      "sourceURL": "https://www.chibimarukochan-land.com/",
+      "verified": false,
+      "bestMonths": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "accessPoint": {
+        "latitude": 35.02381,
+        "longitude": 138.48984
+      },
+      "text": {
+        "zh-Hans": {
+          "placeName": "S-Pulse 梦广场 3 楼（静冈·清水港）",
+          "sceneTitle": "樱桃小丸子乐园",
+          "episode": "官方圣地 · 1999 年开馆",
+          "highlight": "清水是樱桃子的故乡，也是小丸子故事发生的地方，这座常设展馆把动画里的日常变成了可以走进去的空间。樱桃家的客厅、小丸子和姐姐的房间、三年四班的教室都按动画还原，进门那一刻，很多人会下意识去找爷爷友藏的身影。馆内还有樱桃子纪念室，是陪伴了两三代人长大的作品最温暖的“回家”之地。",
+          "story": "樱桃小丸子乐园 1999 年开在清水港边的商业设施 S-Pulse 梦广场 3 楼。付费区里还原了樱桃家的厨房、客厅和姐妹俩的房间，以及三年四班的鞋柜和教室，还有播放老集数的小剧场、樱桃子纪念室和可以抽签的“小丸子神社”。2020 年 7 月翻新后新增两个以片头为主题的区域，可以看到光影投影演出。免费区有周边商店、沙画体验和粉色邮筒，能盖上纪念邮戳。",
+          "access": "JR 清水站东口乘免费接驳巴士约 10 分钟，到终点 S-Pulse 梦广场下车即到，乐园在 3 楼。",
+          "accessPointName": "JR 清水站东口巴士站",
+          "bestTime": "全年开放；工作日上午人少，适合慢慢拍还原场景。天气晴朗时，港边还能远眺富士山。",
+          "tips": "10:00–20:00（19:30 停止入场），全年无休。成人 1,200 日元、3 岁至小学生 700 日元，当天可再入场。角色表演时间以官网为准。"
+        },
+        "ja": {
+          "placeName": "エスパルスドリームプラザ 3F（静岡市清水区）",
+          "sceneTitle": "ちびまる子ちゃんランド",
+          "episode": "公式聖地・1999年開館",
+          "highlight": "清水はさくらももこの故郷であり、まる子の物語の舞台。この常設館では、アニメの中の日常に実際に入り込める。さくら家の茶の間、まる子とお姉ちゃんの部屋、3年4組の教室が再現され、足を踏み入れた瞬間、思わず友蔵の姿を探してしまう人も多い。さくらももこメモリアルルームもあり、親子二代、三代で愛されてきた作品の「帰る場所」になっている。",
+          "story": "ちびまる子ちゃんランドは1999年、清水港に面した商業施設エスパルスドリームプラザの3階に開館した。有料ゾーンには、さくら家の台所や茶の間、姉妹の部屋、3年4組の下駄箱と教室が再現され、懐かしいエピソードを上映するシアタールーム、さくらももこメモリアルルーム、おみくじが引ける「ちびまる子ちゃん神社」も。2020年7月のリニューアルでオープニングの世界観を楽しめる2つのエリアが加わり、映像演出も見られる。無料ゾーンにはグッズショップや砂絵体験、ピンクのポストがあり、記念スタンプも押せる。",
+          "access": "JR清水駅東口から無料シャトルバスで約10分、終点エスパルスドリームプラザ下車すぐ。ランドは3階。",
+          "accessPointName": "JR清水駅東口バス停",
+          "bestTime": "通年営業。平日午前は空いていて、再現セットをゆっくり撮れる。晴れた日は港から富士山も望める。",
+          "tips": "10:00〜20:00（最終入場19:30）、年中無休。大人1,200円、3歳〜小学生700円、当日再入場可。キャラクターショーの時間は公式サイトで確認を。"
+        },
+        "en": {
+          "placeName": "S-Pulse Dream Plaza 3F (Shimizu, Shizuoka)",
+          "sceneTitle": "Chibi Maruko-chan Land",
+          "episode": "Official landmark · opened 1999",
+          "highlight": "Shimizu is Momoko Sakura's hometown and the setting of Maruko's stories, and this permanent exhibition lets you walk right into the show's everyday world. The Sakura family's living room, the sisters' bedroom and Class 3-4's classroom are all recreated, and many visitors instinctively look around for Grandpa Tomozo the moment they step in. With a memorial room for the author as well, it has become a warm place to \"come home\" to for a series loved across two or three generations.",
+          "story": "Chibi Maruko-chan Land opened in 1999 on the third floor of S-Pulse Dream Plaza, a shopping complex on Shimizu Port. The paid zone recreates the Sakura family's kitchen, living room and the sisters' bedroom, along with Class 3-4's shoe lockers and classroom, a small theatre screening classic episodes, the Momoko Sakura Memorial Room and a \"Chibi Maruko-chan Shrine\" where you can draw fortunes. A July 2020 renewal added two areas themed on the opening titles, with projection shows. The free zone has a goods shop, sand-art workshops and a pink postbox with a commemorative postmark.",
+          "access": "Take the free shuttle bus from JR Shimizu Station's east exit (about 10 min) to the terminus at S-Pulse Dream Plaza; the Land is on the 3rd floor.",
+          "accessPointName": "JR Shimizu Sta. East Exit bus stop",
+          "bestTime": "Open all year; weekday mornings are quietest for photos of the sets. On clear days you can see Mt. Fuji from the harbourside.",
+          "tips": "10:00–20:00 (last entry 19:30), open every day. Adults ¥1,200, ages 3 to primary school ¥700, same-day re-entry allowed. Check the official site for character show times."
+        },
+        "ko": {
+          "placeName": "에스펄스 드림플라자 3층 (시즈오카시 시미즈구)",
+          "sceneTitle": "치비마루코짱 랜드",
+          "episode": "공식 성지 · 1999년 개관",
+          "highlight": "시미즈는 작가 사쿠라 모모코의 고향이자 마루코 이야기의 무대다. 이 상설 전시관에서는 애니메이션 속 일상 안으로 직접 걸어 들어갈 수 있다. 사쿠라 가족의 거실, 마루코와 언니의 방, 3학년 4반 교실이 그대로 재현되어 있어, 들어서는 순간 저도 모르게 할아버지 도모조를 찾게 된다. 작가를 기리는 메모리얼 룸도 있어, 2~3대에 걸쳐 사랑받아 온 작품의 따뜻한 '고향 집' 같은 곳이 되었다.",
+          "story": "치비마루코짱 랜드는 1999년 시미즈항에 면한 상업시설 에스펄스 드림플라자 3층에 문을 열었다. 유료 구역에는 사쿠라 가족의 부엌과 거실, 자매의 방, 3학년 4반 신발장과 교실이 재현되어 있고, 옛 에피소드를 상영하는 시어터 룸, 사쿠라 모모코 메모리얼 룸, 운세 뽑기를 할 수 있는 '마루코 신사'도 있다. 2020년 7월 리뉴얼로 오프닝 세계관을 담은 두 구역이 더해져 영상 연출도 볼 수 있다. 무료 구역에는 굿즈 숍과 모래 그림 체험, 분홍색 우체통이 있어 기념 소인도 찍을 수 있다.",
+          "access": "JR 시미즈역 동쪽 출구에서 무료 셔틀버스로 약 10분, 종점 에스펄스 드림플라자에서 내리면 바로. 랜드는 3층.",
+          "accessPointName": "JR 시미즈역 동쪽 출구 버스 정류장",
+          "bestTime": "연중무휴. 평일 오전이 한산해 재현 세트를 여유롭게 찍기 좋다. 맑은 날에는 항구에서 후지산도 보인다.",
+          "tips": "10:00~20:00(입장 마감 19:30), 연중무휴. 성인 1,200엔, 3세~초등학생 700엔, 당일 재입장 가능. 캐릭터 쇼 시간은 공식 사이트에서 확인하자."
+        }
+      }
+    },
+    {
+      "id": "shinchan-kasukabe-city-hall",
+      "workID": "crayon-shin-chan",
+      "kind": "landmark",
+      "latitude": 35.9744,
+      "longitude": 139.75535,
+      "sceneHeading": 180,
+      "scenePitch": 0,
+      "arrivalRadius": 50,
+      "spoiler": false,
+      "sourceURL": "https://prtimes.jp/main/html/rd/p/000000018.000042168.html",
+      "verified": false,
+      "bestMonths": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "accessPoint": {
+        "latitude": 35.97969,
+        "longitude": 139.75222
+      },
+      "text": {
+        "zh-Hans": {
+          "placeName": "春日部市政府本厅舍（埼玉·春日部）",
+          "sceneTitle": "市政府的小新一家像",
+          "episode": "官方圣地 · 2024 年设立",
+          "highlight": "春日部就是野原一家住的城市。2004 年市里把他们登记为“特别居民”，从此小新一直是这座城市的名片。如今在新市政府，广志和美冴站在公交站旁迎接来客，小新和小葵穿着只有这里才有的服装，大厅里还有戴草帽的小新——草帽正是春日部的特产。对粉丝来说，这里就像是去小新家所在的城市“报到”。",
+          "story": "春日部市政府新本厅舍于 2024 年 1 月启用，同年 10 月 26 日揭幕了一组小新雕像：公交站旁是穿着市观光导览图服装的广志和美冴，“街中广场”上是漫画风服装的小新与小葵；入口大厅另有戴着本地特产草帽的小新，2025 年 1 月小白也搬了进来。“街中舞台”临街一侧挂着野原一家与市花紫藤的大看板。2026 年 7 月，市里又在春日部站周边 5 处装设了号称世界首创的野原一家彩色井盖，本厅舍 1 楼也有展示。市政府发布的资料均附有原作版权标识。",
+          "access": "东武线春日部站西口出站往南，到“市役所”路口左转沿市役所通走，约 10 分钟到本厅舍，公交站旁即见广志和美冴。",
+          "accessPointName": "春日部站 西口",
+          "bestTime": "工作日白天可同时看室内外雕像；4 月下旬至 5 月初可顺道去看春日部的紫藤花。",
+          "tips": "本厅舍开放时间为工作日 8:30–17:15，周末、节假日和年末年始闭厅，室内雕像与井盖展示请在开放时间参观。请勿攀爬雕像，拍照时给来办事的市民让路。"
+        },
+        "ja": {
+          "placeName": "春日部市役所本庁舎（埼玉県春日部市）",
+          "sceneTitle": "市役所のしんちゃん一家",
+          "episode": "公式聖地・2024年設置",
+          "highlight": "春日部は野原一家が暮らす町。2004年に市が一家を「特別住民」として登録して以来、しんちゃんはずっと市の顔だ。新しい市役所では、ひろしとみさえがバス停の横で来庁者を出迎え、しんのすけとひまわりはここでしか会えない衣装姿。エントランスには、市の特産品・麦わら帽子をかぶったしんちゃんも。ファンにとっては、しんちゃんの住む町へ「あいさつに行く」ような場所だ。",
+          "story": "2024年1月に開庁した春日部市役所の新本庁舎で、同年10月26日、しんちゃんたちのモニュメントがお披露目された。バス停付近には「かすかべガイドマップ」の衣装をまとったひろしとみさえ、「まちなかひろば」には漫画の服装をイメージしたしんのすけとひまわり。エントランスホールには麦わら帽子姿のしんちゃんがいて、2025年1月にはシロも仲間入りした。「まちなかステージ」の通り側には、市の花・藤を背にした野原一家の大看板も。2026年7月には春日部駅周辺5カ所に世界初というカラーマンホールふたが設置され、本庁舎1階でも展示されている。市の発表資料には原作の権利表記が添えられている。",
+          "access": "東武線春日部駅西口から南へ進み、「市役所」交差点を左折して市役所通りを歩いて約10分。バス停の横でひろしとみさえが待っている。",
+          "accessPointName": "春日部駅 西口",
+          "bestTime": "平日の日中なら屋内外の像をまとめて見られる。4月下旬〜5月上旬は春日部の藤の花めぐりと合わせて。",
+          "tips": "本庁舎の開庁は平日8:30〜17:15（土日祝・年末年始は閉庁）。屋内の像やマンホールの展示は開庁時間内に。像に登らず、来庁者の邪魔にならないよう撮影を。"
+        },
+        "en": {
+          "placeName": "Kasukabe City Hall (Kasukabe, Saitama)",
+          "sceneTitle": "The Nohara Family at City Hall",
+          "episode": "Official landmark · since 2024",
+          "highlight": "Kasukabe is the city the Nohara family calls home. In 2004 the city registered them as \"special residents\", and Shin-chan has been its mascot ever since. At the new city hall, Hiroshi and Misae greet visitors by the bus stop, Shinnosuke and Himawari wear outfits you can only see here, and in the lobby Shin-chan sports a straw hat, a local Kasukabe speciality. For fans it feels like dropping in to say hello in Shin-chan's hometown.",
+          "story": "Kasukabe's new city hall opened in January 2024, and on 26 October that year the city unveiled a set of Shin-chan monuments. By the bus stop stand Hiroshi and Misae in the outfits from the city's guide map; in the Machinaka Plaza are Shinnosuke and Himawari in manga-style clothes. The entrance hall has Shin-chan in a straw hat, joined by Shiro in January 2025, and a large sign of the Nohara family against wisteria, the city flower, faces the street by the Machinaka Stage. In July 2026 the city added what it calls the world's first colour character manhole covers at five spots around Kasukabe Station, with examples also on display on the city hall's ground floor. The city's announcements carry the official copyright credit for the series.",
+          "access": "From the west exit of Kasukabe Station (Tobu lines) head south, turn left at the Shiyakusho (City Hall) junction and follow Shiyakusho-dori, about 10 min; Hiroshi and Misae wait by the bus stop.",
+          "accessPointName": "Kasukabe Sta. West Exit",
+          "bestTime": "Weekday daytime lets you see the indoor and outdoor statues together; in late April–early May, pair it with Kasukabe's wisteria.",
+          "tips": "City hall is open weekdays 8:30–17:15 and closed on weekends, holidays and over New Year, so visit the indoor statues and manhole display then. Don't climb the statues, and give way to residents on official business."
+        },
+        "ko": {
+          "placeName": "가스카베 시청 본청사 (사이타마현 가스카베시)",
+          "sceneTitle": "시청의 짱구네 가족",
+          "episode": "공식 성지 · 2024년 설치",
+          "highlight": "가스카베는 짱구네 가족이 사는 도시다. 2004년 시가 이 가족을 '특별 주민'으로 등록한 뒤로 짱구는 줄곧 도시의 얼굴이 되었다. 새 시청에서는 아빠와 엄마가 버스 정류장 옆에서 방문객을 맞고, 짱구와 짱아는 이곳에서만 볼 수 있는 옷차림이다. 로비에는 가스카베 특산품인 밀짚모자를 쓴 짱구도 있다. 팬에게는 짱구가 사는 동네에 '인사하러 가는' 기분이 드는 곳이다.",
+          "story": "2024년 1월 문을 연 가스카베 시청 새 본청사에서 같은 해 10월 26일 짱구 가족 기념상이 공개되었다. 버스 정류장 근처에는 시 관광 안내지도 속 옷차림의 아빠와 엄마가, '마치나카 광장'에는 만화 속 옷차림을 본뜬 짱구와 짱아가 서 있다. 입구 홀에는 밀짚모자를 쓴 짱구가 있고, 2025년 1월에는 흰둥이도 합류했다. '마치나카 스테이지' 거리 쪽에는 시의 꽃 등나무를 배경으로 한 가족의 대형 간판도 걸려 있다. 2026년 7월에는 가스카베역 주변 다섯 곳에 세계 최초라는 컬러 캐릭터 맨홀 뚜껑이 설치되었고, 본청사 1층에도 전시되어 있다. 시의 발표 자료에는 원작 저작권 표기가 함께 실려 있다.",
+          "access": "도부선 가스카베역 서쪽 출구에서 남쪽으로 가다 '시청' 교차로에서 좌회전, 시청 거리를 따라 약 10분. 버스 정류장 옆에서 아빠와 엄마가 기다린다.",
+          "accessPointName": "가스카베역 서쪽 출구",
+          "bestTime": "평일 낮이면 실내외 동상을 함께 볼 수 있다. 4월 하순~5월 초에는 가스카베의 등나무꽃 구경과 함께.",
+          "tips": "본청사는 평일 8:30~17:15 운영(주말·공휴일·연말연시 휴무). 실내 동상과 맨홀 전시는 운영 시간에 보자. 동상에 올라가지 말고 민원인에게 길을 비켜 주자."
+        }
+      }
+    },
+    {
+      "id": "astroboy-tezuka-museum",
+      "workID": "astro-boy",
+      "kind": "landmark",
+      "latitude": 34.80724,
+      "longitude": 135.34805,
+      "sceneHeading": 100,
+      "scenePitch": 5,
+      "arrivalRadius": 50,
+      "spoiler": false,
+      "sourceURL": "https://www.city.takarazuka.hyogo.jp/tezuka/",
+      "verified": false,
+      "bestMonths": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "accessPoint": {
+        "latitude": 34.81117,
+        "longitude": 135.34093
+      },
+      "text": {
+        "zh-Hans": {
+          "placeName": "宝塚市立手冢治虫纪念馆（兵库·宝塚）",
+          "sceneTitle": "手冢治虫纪念馆",
+          "episode": "官方圣地 · 1994 年开馆",
+          "highlight": "手冢治虫在宝塚度过了约 20 年少年和青年时光。这座由宝塚市与手冢制作公司共同推动的纪念馆，是“漫画之神”最正式的纪念地。门前立着火鸟雕像，入口地面留着阿童木和小兰的手印脚印，一进门就像踏进了手冢的世界。对阿童木迷来说，这里能一口气看到作品资料、原创短片，以及那位把机器人写出人心的作者的一生。",
+          "story": "纪念馆于 1994 年 4 月 25 日、手冢逝世五年后开馆。门前有火鸟雕像，入口地面嵌着阿童木、小兰、怪医黑杰克、皮诺可和雷欧等角色的手印脚印，入口大厅以《缎带骑士》的王宫为灵感。1 楼是常设展示和放映纪念馆原创影像的“阿童木影院”；2 楼有企划展室、可阅览约 2,000 册手冢相关书籍的图书角，以及以《森林大帝》为主题的咖啡馆；地下有可体验动画作画的工房。开馆次年就办过“铁臂阿童木展”。",
+          "access": "阪急宝塚站出站，沿“花之道”往东走过宝塚大剧场，约 10 分钟到纪念馆。",
+          "accessPointName": "阪急宝塚站",
+          "bestTime": "4 月上旬“花之道”樱花盛开，从车站一路走来最惬意；工作日上午人少。",
+          "tips": "2026 年 12 月 1 日至 2027 年 3 月 4 日因设备更新闭馆，3 月 5 日重开。平时 9:30–17:00，周一休（节假日与春暑假照开）；成人 700 日元，2027 年 3 月起 900 日元。"
+        },
+        "ja": {
+          "placeName": "宝塚市立手塚治虫記念館（兵庫県宝塚市）",
+          "sceneTitle": "手塚治虫記念館",
+          "episode": "公式聖地・1994年開館",
+          "highlight": "手塚治虫は少年期から青年期まで約20年を宝塚で過ごした。宝塚市と手塚プロダクションによるこの記念館は、「マンガの神様」を記念する最も正統な場所だ。館の前には火の鳥のモニュメント、入口の床にはアトムやウランの手形・足形があり、扉をくぐれば手塚ワールドの中。アトムファンにとっては、作品資料やオリジナル映像、そしてロボットに人の心を描いた作者の生涯にまとめて触れられる場所だ。",
+          "story": "記念館は手塚の没後5年にあたる1994年4月25日に開館した。館前には火の鳥のモニュメントが立ち、入口の床にはアトム、ウラン、ブラック・ジャック、ピノコ、レオらの手形・足形。エントランスホールは『リボンの騎士』の王宮をイメージしている。1階は常設展示と記念館オリジナル映像を上映する「アトムビジョン」、2階には企画展示室、手塚関連の書籍約2000冊を読めるライブラリー、『ジャングル大帝』がモチーフのカフェ、地下にはアニメ制作を体験できるアニメ工房がある。開館翌年には「鉄腕アトム展」も開かれた。",
+          "access": "阪急宝塚駅から「花のみち」を東へ、宝塚大劇場の前を通り過ぎて徒歩約10分。",
+          "accessPointName": "阪急宝塚駅",
+          "bestTime": "4月上旬は「花のみち」の桜が見頃で、駅からの道のりも楽しい。平日の午前中が比較的すいている。",
+          "tips": "2026年12月1日〜2027年3月4日は設備更新のため休館、3月5日再開。通常は9:30〜17:00、月曜休館（祝日・春休み・夏休みは開館）。大人700円、2027年3月から900円。"
+        },
+        "en": {
+          "placeName": "Osamu Tezuka Manga Museum (Takarazuka, Hyogo)",
+          "sceneTitle": "Osamu Tezuka Manga Museum",
+          "episode": "Official landmark · opened 1994",
+          "highlight": "Osamu Tezuka spent about twenty years of his boyhood and youth in Takarazuka, and this museum, created by the city with Tezuka Productions, is the official shrine to the \"God of Manga\". A phoenix monument stands out front and the handprints and footprints of Atom and Uran are set into the entrance, so you step straight into Tezuka's world. For Astro Boy fans it brings together archive material, original short films and the life of the man who gave a robot a human heart.",
+          "story": "The museum opened on 25 April 1994, five years after Tezuka's death. A Phoenix monument stands in front, and the entrance floor bears the handprints and footprints of Atom, Uran, Black Jack, Pinoko, Leo and others; the entrance hall is modelled on the palace in Princess Knight. The ground floor holds the permanent exhibition and the Atom Vision theatre showing the museum's own films; upstairs are special exhibitions, a library of some 2,000 Tezuka-related books and a Jungle Emperor-themed café, and the basement has an animation workshop where you can try drawing. An Astro Boy exhibition was held in its second year.",
+          "access": "From Hankyu Takarazuka Station, walk east along the Hana-no-michi promenade past the Takarazuka Grand Theater, about 10 min.",
+          "accessPointName": "Hankyu Takarazuka Sta.",
+          "bestTime": "In early April the cherry trees on Hana-no-michi make the walk from the station a joy; weekday mornings are quietest.",
+          "tips": "Closed 1 Dec 2026 – 4 Mar 2027 for equipment renewal, reopening 5 Mar. Normally 9:30–17:00, closed Mondays (open on holidays and in spring/summer school breaks). Adults ¥700, ¥900 from March 2027."
+        },
+        "ko": {
+          "placeName": "다카라즈카 시립 데즈카 오사무 기념관 (효고현 다카라즈카시)",
+          "sceneTitle": "데즈카 오사무 기념관",
+          "episode": "공식 성지 · 1994년 개관",
+          "highlight": "데즈카 오사무는 소년기부터 청년기까지 약 20년을 다카라즈카에서 보냈다. 다카라즈카시와 데즈카 프로덕션이 함께 만든 이 기념관은 '만화의 신'을 기리는 가장 공식적인 장소다. 정문 앞에는 불새 기념상이, 입구 바닥에는 아톰과 우란의 손도장과 발도장이 있어 문을 들어서면 바로 데즈카의 세계다. 아톰 팬이라면 작품 자료와 오리지널 영상, 그리고 로봇에게 사람의 마음을 그려 넣은 작가의 일생을 한 번에 만날 수 있다.",
+          "story": "기념관은 데즈카가 세상을 떠난 지 5년째인 1994년 4월 25일에 개관했다. 정문 앞에는 불새 기념상이 서 있고, 입구 바닥에는 아톰, 우란, 블랙 잭, 피노코, 레오 등의 손도장과 발도장이 새겨져 있으며, 입구 홀은 『리본의 기사』의 왕궁을 본떴다. 1층은 상설 전시와 기념관 오리지널 영상을 상영하는 '아톰 비전', 2층에는 기획 전시실과 데즈카 관련 도서 약 2,000권을 읽을 수 있는 라이브러리, 『밀림의 왕자 레오』를 모티프로 한 카페가 있고, 지하에는 애니메이션 작화를 체험할 수 있는 공방이 있다. 개관 이듬해에는 '우주소년 아톰전'도 열렸다.",
+          "access": "한큐 다카라즈카역에서 '하나노미치' 산책로를 따라 동쪽으로, 다카라즈카 대극장을 지나 도보 약 10분.",
+          "accessPointName": "한큐 다카라즈카역",
+          "bestTime": "4월 초에는 하나노미치의 벚꽃이 만개해 역에서 걸어오는 길이 즐겁다. 평일 오전이 비교적 한산하다.",
+          "tips": "2026년 12월 1일~2027년 3월 4일 설비 교체로 휴관, 3월 5일 재개관. 평소 9:30~17:00, 월요일 휴관(공휴일·봄방학·여름방학은 개관). 성인 700엔, 2027년 3월부터 900엔."
+        }
+      }
+    },
+    {
+      "id": "kitaro-mizuki-shigeru-road",
+      "workID": "gegege-no-kitaro",
+      "kind": "landmark",
+      "latitude": 35.54599,
+      "longitude": 133.22682,
+      "sceneHeading": 170,
+      "scenePitch": 0,
+      "arrivalRadius": 40,
+      "spoiler": false,
+      "sourceURL": "https://www.mlit.go.jp/tagengo-db/en/R2-01660.html",
+      "verified": false,
+      "bestMonths": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "accessPoint": {
+        "latitude": 35.54528,
+        "longitude": 133.22279
+      },
+      "text": {
+        "zh-Hans": {
+          "placeName": "水木茂之路（鸟取·境港）",
+          "sceneTitle": "水木茂之路妖怪铜像",
+          "episode": "官方圣地 · 1993 年设立",
+          "highlight": "水木茂在境港长大，童年听来的妖怪故事后来都化成了鬼太郎的世界。从境港站延伸约 800 米的这条街两旁，立着 170 多尊妖怪铜像，从鬼太郎和眼珠老爹到叫不上名字的小妖，几乎每走几步就碰上一张熟面孔。它让一座渔港小城成了日本最有名的漫画小镇之一；入夜后铜像亮灯、地面映出妖怪剪影，又是另一番味道。",
+          "story": "水木茂之路是境港市为振兴站前商店街、在水木茂本人协助下打造的街道，1993 年开街时只有 23 尊铜像，此后逐年增加。2017–2018 年配合人行道拓宽全面翻新，2018 年 7 月重新开放，并加入夜间灯光演出。铜像都照着水木茂笔下的造型铸成，这尊鬼太郎与眼珠老爹立在街道中段，是沿途常见的合影点。车站前有水木茂伏案作画的雕像，街道另一端是 2024 年 4 月翻新重开的水木茂纪念馆。",
+          "access": "JR 境线境港站出站，站前就是水木茂之路起点；沿路往东走约 5 分钟即到鬼太郎与眼珠老爹像。",
+          "accessPointName": "JR 境港站",
+          "bestTime": "白天逐尊寻找铜像，傍晚后看灯光和妖怪剪影；春秋气候宜人，夏天避开正午暴晒。",
+          "tips": "街道全天开放、免费。可以和铜像合影，但请勿攀爬或拉扯铜像；路上有车通行，拍照留意来车。水木茂纪念馆另需购票。"
+        },
+        "ja": {
+          "placeName": "水木しげるロード（鳥取県境港市）",
+          "sceneTitle": "水木しげるロードの妖怪像",
+          "episode": "公式聖地・1993年設置",
+          "highlight": "水木しげるは境港で育ち、幼いころに聞いた妖怪の話が、のちに鬼太郎の世界になった。境港駅から約800m続く通りには170体以上の妖怪ブロンズ像が並び、鬼太郎や目玉おやじから名も知らぬ小さな妖怪まで、数歩ごとに見知った顔に出会える。港町を日本有数の「マンガの町」に変えた通りで、日が暮れると像がライトアップされ、路面に妖怪の影絵が浮かぶ夜の顔も魅力だ。",
+          "story": "水木しげるロードは、境港市が駅前商店街の活性化のため水木しげる本人の協力を得て整備した通り。1993年の誕生時はブロンズ像23体だったが、その後年々増えていった。2017〜2018年には歩道拡幅とあわせて全面リニューアルし、2018年7月に夜間の照明演出を加えて再オープン。像はどれも水木しげるの絵をもとに鋳造されており、通りの中ほどに立つこの鬼太郎と目玉おやじの像は定番の記念撮影スポットのひとつだ。駅前には執筆中の水木しげるの像、通りの反対側には2024年4月にリニューアルオープンした水木しげる記念館がある。",
+          "access": "JR境線「境港」駅を出るとすぐ水木しげるロードの起点。通りを東へ徒歩約5分で鬼太郎と目玉おやじの像。",
+          "accessPointName": "JR境港駅",
+          "bestTime": "昼は一体ずつ像を探し、夕方以降はライトアップと妖怪の影絵を。春と秋が歩きやすく、夏は真昼の日差しを避けて。",
+          "tips": "通りは終日無料で散策可。像との記念撮影はOKだが、登ったり引っ張ったりしないこと。車も通るので撮影時は注意。水木しげる記念館は別途有料。"
+        },
+        "en": {
+          "placeName": "Mizuki Shigeru Road (Sakaiminato, Tottori)",
+          "sceneTitle": "Yokai Statues of Mizuki Shigeru Road",
+          "episode": "Official landmark · since 1993",
+          "highlight": "Shigeru Mizuki grew up in Sakaiminato, and the yokai tales he heard as a child became the world of Kitaro. Along this street, which runs about 800 m from Sakaiminato Station, more than 170 bronze yokai line the pavements, from Kitaro and Medama-Oyaji to little creatures you can't name, so you meet a familiar face every few steps. It turned a fishing port into one of Japan's best-known manga towns, and after dark the statues are lit and yokai silhouettes play across the road.",
+          "story": "Sakaiminato built Mizuki Shigeru Road with Mizuki's own cooperation to revive the shopping street by the station. When it opened in 1993 there were just 23 statues, and more were added year after year. In 2017–2018 the whole road was rebuilt along with wider pavements and reopened in July 2018 with night-time lighting effects. Every statue is cast from Mizuki's drawings; this Kitaro and Medama-Oyaji pair stands midway along the street and is a favourite photo stop. In front of the station is a statue of Mizuki hard at work at his desk, and at the far end is the Mizuki Shigeru Memorial Museum, reopened after renovation in April 2024.",
+          "access": "The road starts right outside JR Sakaiminato Station (Sakai Line); walk east along it for about 5 min to the Kitaro and Medama-Oyaji statue.",
+          "accessPointName": "JR Sakaiminato Sta.",
+          "bestTime": "Hunt for statues by day, then return after dusk for the lighting and yokai shadows. Spring and autumn are most comfortable; avoid midday sun in summer.",
+          "tips": "The street is free and open around the clock. Photos with the statues are welcome, but don't climb or pull on them, and watch for cars. The Mizuki Shigeru Memorial Museum charges admission."
+        },
+        "ko": {
+          "placeName": "미즈키 시게루 로드 (돗토리현 사카이미나토시)",
+          "sceneTitle": "미즈키 시게루 로드 요괴 동상",
+          "episode": "공식 성지 · 1993년 설치",
+          "highlight": "미즈키 시게루는 사카이미나토에서 자랐고, 어린 시절 들은 요괴 이야기가 훗날 기타로의 세계가 되었다. 사카이미나토역에서 약 800m 이어지는 거리 양옆에 170개가 넘는 요괴 청동상이 늘어서 있어, 기타로와 눈알 아버지부터 이름 모를 작은 요괴까지 몇 걸음마다 낯익은 얼굴을 만난다. 작은 항구 도시를 일본에서 손꼽히는 '만화 마을'로 바꾼 거리로, 해가 지면 동상에 조명이 켜지고 길 위에 요괴 그림자가 떠오른다.",
+          "story": "미즈키 시게루 로드는 사카이미나토시가 역 앞 상점가를 살리기 위해 미즈키 시게루 본인의 협력을 받아 조성한 거리다. 1993년 처음 생겼을 때는 청동상이 23개뿐이었지만 이후 해마다 늘었다. 2017~2018년 보도 확장과 함께 전면 리뉴얼해 2018년 7월 야간 조명 연출을 더해 다시 문을 열었다. 동상은 모두 미즈키의 그림을 바탕으로 주조되었으며, 거리 중간쯤에 선 이 기타로와 눈알 아버지 상은 단골 기념 촬영 장소다. 역 앞에는 원고를 그리는 미즈키 시게루 상이, 거리 반대편 끝에는 2024년 4월 새로 단장해 문을 연 미즈키 시게루 기념관이 있다.",
+          "access": "JR 사카이선 사카이미나토역을 나서면 바로 미즈키 시게루 로드의 시작점. 거리를 따라 동쪽으로 도보 약 5분이면 기타로와 눈알 아버지 상.",
+          "accessPointName": "JR 사카이미나토역",
+          "bestTime": "낮에는 동상을 하나씩 찾아보고, 해 질 녘 이후에는 조명과 요괴 그림자를. 봄가을이 걷기 좋고 여름엔 한낮 햇볕을 피하자.",
+          "tips": "거리는 종일 무료로 걸을 수 있다. 동상과 기념사진은 괜찮지만 올라가거나 잡아당기지 말 것. 차도 다니니 촬영 시 주의. 미즈키 시게루 기념관은 별도 유료."
+        }
+      }
+    },
+    {
+      "id": "anpanman-yanase-museum",
+      "workID": "anpanman",
+      "kind": "landmark",
+      "latitude": 33.64756,
+      "longitude": 133.78343,
+      "sceneHeading": 105,
+      "scenePitch": 5,
+      "arrivalRadius": 60,
+      "spoiler": false,
+      "sourceURL": "https://anpanman-museum.net/access/",
+      "verified": false,
+      "bestMonths": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "accessPoint": {
+        "latitude": 33.64831,
+        "longitude": 133.78067
+      },
+      "text": {
+        "zh-Hans": {
+          "placeName": "香美市立柳濑嵩纪念馆（高知·香美市）",
+          "sceneTitle": "面包超人博物馆",
+          "episode": "官方圣地 · 1996 年开馆",
+          "highlight": "这里是柳濑嵩的故乡为他建起的纪念馆，柳濑生前还担任名誉馆长。和各地的面包超人儿童乐园不同，这里展出的是他亲手画的绘本原画和专为馆内创作的画作，可爱之外更有分量。馆内没有固定路线，大人小孩都能边逛边找藏起来的角色。2025 年改装重开，又赶上以柳濑夫妇为原型、以高知为舞台的 NHK 晨间剧播出，来朝圣的人更多了。",
+          "story": "纪念馆 1996 年开在柳濑嵩出生地附近的香北町美良布（今香美市），由面包超人博物馆、展出他为杂志《诗与童话》所画封面的“诗与童话绘本馆”以及别馆组成。面包超人博物馆里有柳濑的原画、只在这里能看到的绘本原稿和巨幅壁画，还有一面从不同角度看会分别变成面包超人或细菌人的墙。2025 年 3 月 29 日完成建筑改修后重新开放。仓库外墙上的面包超人马赛克大脸是人气拍照点，附近纪念公园里还有柳濑兔子的铜像。",
+          "access": "JR 土赞线土佐山田站换乘 JR 巴士大栃线约 25 分钟，在“美良布（面包超人博物馆）”下车，步行约 5 分钟。",
+          "accessPointName": "美良布（面包超人博物馆）巴士站",
+          "bestTime": "工作日上午人最少；春假、黄金周和暑假期间不休馆但人多。秋天周围山色也很美。",
+          "tips": "9:30–17:00（16:30 停止入场），周二休（逢节假日顺延）；成人 1,200 日元，可参观两馆、当天可再入场。官网目前只要求 20 人以上团体预约。"
+        },
+        "ja": {
+          "placeName": "香美市立やなせたかし記念館（高知県香美市）",
+          "sceneTitle": "アンパンマンミュージアム",
+          "episode": "公式聖地・1996年開館",
+          "highlight": "やなせたかしのふるさとに建てられた記念館で、やなせ自身も名誉館長を務めた。各地のアンパンマンこどもミュージアムとは違い、ここで見られるのは本人が描いた絵本原画や館のために描き下ろした作品で、かわいさの奥に確かな重みがある。順路はなく、大人も子どもも隠れたキャラクターを探しながら自由に歩ける。2025年のリニューアルオープンに、やなせ夫妻をモデルにしたNHK連続テレビ小説の放送が重なり、訪れる人がさらに増えた。",
+          "story": "記念館は1996年、やなせたかしの生まれ故郷に近い香北町美良布（現・香美市）に開館。アンパンマンミュージアム、雑誌『詩とメルヘン』の表紙原画を集めた「詩とメルヘン絵本館」、別館からなる。アンパンマンミュージアムには、やなせの原画やここでしか見られない絵本原画、大きな壁画、見る角度によってアンパンマンにもばいきんまんにも見える壁などがある。建物の改修を終え、2025年3月29日にリニューアルオープンした。収蔵庫の外壁に描かれたモザイクタイルのアンパンマンの顔は人気の撮影スポットで、近くの記念公園にはやなせうさぎの銅像も立つ。",
+          "access": "JR土讃線「土佐山田」駅からJRバス大栃線で約25分、「美良布（アンパンマンミュージアム）」下車、徒歩約5分。",
+          "accessPointName": "美良布（アンパンマンミュージアム）バス停",
+          "bestTime": "平日の午前中がいちばんすいている。春休み・GW・夏休みは休館日なしだが混雑する。秋は周囲の山の色も美しい。",
+          "tips": "9:30〜17:00（最終入館16:30）、火曜休館（祝日の場合は翌平日）。大人1,200円で2館に入館でき、当日再入館可。公式サイトでは事前予約は20名以上の団体のみ案内。"
+        },
+        "en": {
+          "placeName": "Yanase Takashi Memorial Hall (Kami, Kochi)",
+          "sceneTitle": "Anpanman Museum",
+          "episode": "Official landmark · opened 1996",
+          "highlight": "This memorial hall stands in Takashi Yanase's hometown, and Yanase himself served as its honorary director. Unlike the Anpanman Children's Museums elsewhere, it shows his own picture-book artwork and paintings made specially for the museum, so there is real weight beneath the cuteness. There is no set route, and adults and children alike wander freely, hunting for hidden characters. Its 2025 reopening coincided with an NHK morning drama based on Yanase and his wife, drawing a fresh wave of visitors.",
+          "story": "The memorial hall opened in 1996 in Birafu, Kahoku (now part of Kami City), near the village where Yanase was born. It comprises the Anpanman Museum, the Poetry and Fairy Tale Picture Book Hall with his cover art for the magazine Shi to Meruhen, and an annex. The Anpanman Museum holds Yanase's original art, picture-book drawings you can see only here, a huge mural, and a wall that looks like Anpanman from one angle and Baikinman from another. It reopened on 29 March 2025 after building renovation. A giant mosaic-tile Anpanman face on the storehouse wall is a favourite photo spot, and a bronze of Yanase's rabbit alter ego stands in the nearby memorial park.",
+          "access": "From JR Tosa-Yamada Station (Dosan Line), take the JR bus Otochi Line about 25 min to Birafu (Anpanman Museum), then walk about 5 min.",
+          "accessPointName": "Birafu (Anpanman Museum) bus stop",
+          "bestTime": "Weekday mornings are quietest. There are no closing days during spring break, Golden Week and summer holidays, but crowds are heavy. Autumn colours the surrounding hills.",
+          "tips": "9:30–17:00 (last entry 16:30), closed Tuesdays (next day if a holiday). Adults ¥1,200 covers both halls, with same-day re-entry. The official site only asks groups of 20+ to book ahead."
+        },
+        "ko": {
+          "placeName": "가미시립 야나세 다카시 기념관 (고치현 가미시)",
+          "sceneTitle": "호빵맨 뮤지엄",
+          "episode": "공식 성지 · 1996년 개관",
+          "highlight": "야나세 다카시의 고향에 세워진 기념관으로, 야나세 본인이 생전에 명예관장을 맡았다. 각지의 호빵맨 어린이 뮤지엄과 달리 이곳에서는 작가가 직접 그린 그림책 원화와 기념관을 위해 새로 그린 작품을 볼 수 있어, 귀여움 너머에 묵직함이 있다. 정해진 관람 순서가 없어 어른도 아이도 숨은 캐릭터를 찾으며 자유롭게 돌아본다. 2025년 리뉴얼 재개관이 야나세 부부를 모델로 한 NHK 아침 드라마 방송과 겹치면서 찾는 사람이 더 늘었다.",
+          "story": "기념관은 1996년 야나세 다카시가 태어난 마을과 가까운 고호쿠초 비라부(현 가미시)에 문을 열었다. 호빵맨 뮤지엄, 잡지 『시와 메르헨』 표지 원화를 모은 '시와 메르헨 그림책관', 별관으로 이루어져 있다. 호빵맨 뮤지엄에는 야나세의 원화와 이곳에서만 볼 수 있는 그림책 원화, 대형 벽화, 보는 각도에 따라 호빵맨으로도 세균맨으로도 보이는 벽이 있다. 건물 개수를 마치고 2025년 3월 29일 다시 문을 열었다. 수장고 외벽의 모자이크 타일 호빵맨 얼굴은 인기 촬영 장소이고, 근처 기념공원에는 야나세 토끼 동상도 있다.",
+          "access": "JR 도산선 도사야마다역에서 JR 버스 오토치선으로 약 25분, '비라부(호빵맨 뮤지엄)'에서 내려 도보 약 5분.",
+          "accessPointName": "비라부(호빵맨 뮤지엄) 버스 정류장",
+          "bestTime": "평일 오전이 가장 한산하다. 봄방학·골든위크·여름방학에는 휴관일이 없지만 붐빈다. 가을에는 주변 산 빛깔도 아름답다.",
+          "tips": "9:30~17:00(입장 마감 16:30), 화요일 휴관(공휴일이면 다음 날). 성인 1,200엔으로 두 관 모두 입장, 당일 재입장 가능. 공식 사이트는 20명 이상 단체에만 사전 예약을 안내한다."
+        }
+      }
+    },
+    {
+      "id": "ultraman-soshigaya-okura",
+      "workID": "ultraman",
+      "kind": "landmark",
+      "latitude": 35.6433,
+      "longitude": 139.60892,
+      "sceneHeading": 90,
+      "scenePitch": 8,
+      "arrivalRadius": 30,
+      "spoiler": false,
+      "sourceURL": "https://www.gotokyo.org/jp/spot/1830/index.html",
+      "verified": false,
+      "bestMonths": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "accessPoint": {
+        "latitude": 35.64311,
+        "longitude": 139.60935
+      },
+      "text": {
+        "zh-Hans": {
+          "placeName": "祖师谷大藏站前广场（东京·世田谷）",
+          "sceneTitle": "站前奥特曼像",
+          "episode": "官方圣地 · 2006 年设立",
+          "highlight": "祖师谷一带被称为“奥特曼的发祥地”：从车站沿祖师谷通往南约 800 米，就是圆谷制作最早的总部所在地。站前双手叉腰、昂然而立的奥特曼像，是在圆谷制作协助下成立的“奥特曼商店街”的象征，也是粉丝到此的第一张合影。三条商店街入口还有奥特曼、佐菲和杰克的飞行像拱门，路灯和井盖上也处处是光之巨人。",
+          "story": "2005 年 4 月，祖师谷大藏站周边的三条商店街在圆谷制作协助下联合成“奥特曼商店街”。2006 年 3 月 19 日，站前广场立起双手叉腰的奥特曼标志像，同时在三条商店街入口建起分别装着奥特曼、佐菲和归来的奥特曼（杰克）飞行像的拱门。此后又陆续加上奥特曼主题路灯，2020 年装设了刻有奥特曼、赛文奥特曼、巴尔坦星人等剪影的设计井盖。车站北侧广场整修完成后，奥特曼像也焕新亮相，位置和朝向随之调整。",
+          "access": "小田急线祖师谷大藏站出检票口，就是站前广场，奥特曼像立在北侧广场西边、祖师谷通旁，步行不到 1 分钟。",
+          "accessPointName": "祖师谷大藏站 检票口",
+          "bestTime": "白天以车站为背景拍最经典；早晚通勤时段人流大，上午十点后或午后更从容。",
+          "tips": "广场为公共空间，全天免费。车站出入口人多，拍照别挡住通道。顺路可以沿三条商店街寻找拱门、路灯和井盖。"
+        },
+        "ja": {
+          "placeName": "祖師ヶ谷大蔵駅前広場（東京都世田谷区）",
+          "sceneTitle": "駅前のウルトラマン像",
+          "episode": "公式聖地・2006年設置",
+          "highlight": "祖師谷は「ウルトラマン発祥の地」と呼ばれる。駅から祖師谷通りを南へ約800m、そこにかつて円谷プロダクションの初代本社があったからだ。駅前で腰に手を当てて仁王立ちするウルトラマン像は、円谷プロの協力で生まれた「ウルトラマン商店街」のシンボルで、訪れたファンが最初に記念撮影する場所。3つの商店街の入口にはウルトラマン、ゾフィー、帰ってきたウルトラマンの飛行像付きアーチがあり、街灯やマンホールにもヒーローたちが潜んでいる。",
+          "story": "2005年4月、祖師ヶ谷大蔵駅周辺の3つの商店街が円谷プロダクションの協力のもと連合し、「ウルトラマン商店街」が誕生した。2006年3月19日には駅前に腰に手を当てたウルトラマンのシンボル像が建ち、同時に3商店街の入口にウルトラマン、ゾフィー、帰ってきたウルトラマン（ウルトラマンジャック）の飛行像を載せたウルトラアーチも新設された。その後ウルトラ街路灯が加わり、2020年にはウルトラマン、ウルトラセブン、バルタン星人などのシルエットを刻んだデザインマンホールも登場。駅北側の広場の整備完了にあわせて像もリニューアルされ、位置と向きが変わった。",
+          "access": "小田急線「祖師ヶ谷大蔵」駅の改札を出るとすぐ駅前広場。ウルトラマン像は北側広場の西寄り、祖師谷通り沿いに立つ。徒歩1分以内。",
+          "accessPointName": "祖師ヶ谷大蔵駅 改札口",
+          "bestTime": "日中、駅舎を背景に撮るのが定番。朝夕の通勤時間帯は人が多いので、10時以降か午後がゆったり。",
+          "tips": "公共の広場なので終日無料。駅の出入口付近は人通りが多いので、撮影時は通路をふさがないように。3つの商店街のアーチや街灯、マンホール探しもおすすめ。"
+        },
+        "en": {
+          "placeName": "Soshigaya-Okura Station Plaza (Setagaya, Tokyo)",
+          "sceneTitle": "Ultraman Statue",
+          "episode": "Official landmark · since 2006",
+          "highlight": "Soshigaya is known as \"the birthplace of Ultraman\": about 800 m south of the station along Soshigaya-dori stood Tsuburaya Productions' first headquarters. The statue outside the station, Ultraman standing tall with hands on hips, is the symbol of the Ultraman Shopping Street set up with Tsuburaya's cooperation, and the first photo stop for every visiting fan. Arches at the three shopping-street entrances carry flying figures of Ultraman, Zoffy and Ultraman Jack, and Ultra heroes hide in the streetlights and manhole covers too.",
+          "story": "In April 2005 the three shopping streets around Soshigaya-Okura Station joined forces, with Tsuburaya Productions' cooperation, as the Ultraman Shopping Street. On 19 March 2006 the Ultraman symbol statue, hands on hips, went up in the station plaza, and Ultra Arches topped with flying Ultraman, Zoffy and Return of Ultraman (Ultraman Jack) figures were added at the three street entrances. Ultra-themed streetlights followed, and in 2020 design manhole covers with silhouettes of Ultraman, Ultraseven, Alien Baltan and others appeared. When the plaza on the station's north side was redeveloped, the statue was renewed and given a new position and facing.",
+          "access": "Step out of the ticket gate at Soshigaya-Okura Station (Odakyu Line) into the station plaza; the statue stands on the west side of the north plaza by Soshigaya-dori, under a minute's walk.",
+          "accessPointName": "Soshigaya-Okura Sta. ticket gate",
+          "bestTime": "Daytime shots with the station behind are the classic; avoid the commuter rush, and come after 10:00 or in the afternoon for a calmer visit.",
+          "tips": "It's a public plaza, free at all hours. The station entrance is busy, so don't block the way while shooting. Explore the three shopping streets for the arches, streetlights and manhole covers."
+        },
+        "ko": {
+          "placeName": "소시가야오쿠라역 앞 광장 (도쿄 세타가야구)",
+          "sceneTitle": "역 앞 울트라맨 동상",
+          "episode": "공식 성지 · 2006년 설치",
+          "highlight": "소시가야는 '울트라맨의 발상지'로 불린다. 역에서 소시가야 거리를 따라 남쪽으로 약 800m, 그곳에 쓰부라야 프로덕션의 첫 본사가 있었기 때문이다. 역 앞에서 허리에 손을 얹고 우뚝 선 울트라맨 동상은 쓰부라야 프로의 협력으로 생긴 '울트라맨 상점가'의 상징이자 팬들이 가장 먼저 기념사진을 찍는 곳이다. 세 상점가 입구에는 울트라맨, 조피, 돌아온 울트라맨의 비행 모습을 올린 아치가 있고, 가로등과 맨홀에도 영웅들이 숨어 있다.",
+          "story": "2005년 4월, 소시가야오쿠라역 주변 세 상점가가 쓰부라야 프로덕션의 협력을 받아 '울트라맨 상점가'로 뭉쳤다. 2006년 3월 19일에는 역 앞에 허리에 손을 얹은 울트라맨 상징 동상이 세워지고, 세 상점가 입구에 울트라맨, 조피, 돌아온 울트라맨(울트라맨 잭)의 비행 모습을 올린 울트라 아치도 새로 생겼다. 이후 울트라 가로등이 더해졌고, 2020년에는 울트라맨, 울트라 세븐, 발탄 성인 등의 실루엣을 새긴 디자인 맨홀도 등장했다. 역 북쪽 광장 정비가 끝나면서 동상도 새로 단장해 위치와 방향이 바뀌었다.",
+          "access": "오다큐선 소시가야오쿠라역 개찰구를 나오면 바로 역 앞 광장. 울트라맨 동상은 북쪽 광장 서쪽, 소시가야 거리 옆에 있다. 도보 1분 이내.",
+          "accessPointName": "소시가야오쿠라역 개찰구",
+          "bestTime": "낮에 역사를 배경으로 찍는 것이 정석. 출퇴근 시간대는 붐비니 오전 10시 이후나 오후가 여유롭다.",
+          "tips": "공공 광장이라 언제든 무료. 역 출입구 주변은 사람이 많으니 촬영할 때 통로를 막지 말자. 세 상점가의 아치, 가로등, 맨홀 찾기도 추천."
+        }
+      }
+    }
+  ]
+}
