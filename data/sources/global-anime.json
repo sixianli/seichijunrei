@@ -1,0 +1,1349 @@
+{
+ "works": [
+  {
+   "id": "attack-on-titan",
+   "title": "進撃の巨人",
+   "mediaType": "anime",
+   "year": 2013,
+   "creator": "諫山創 / WIT STUDIO・MAPPA",
+   "tint": "#7A5C3E",
+   "aliases": [
+    "Attack on Titan",
+    "Shingeki no Kyojin",
+    "AoT",
+    "SnK",
+    "进击的巨人",
+    "進擊的巨人",
+    "진격의 거인",
+    "諫山創",
+    "谏山创",
+    "Hajime Isayama",
+    "이사야마 하지메",
+    "エレン・イェーガー",
+    "艾伦·耶格尔",
+    "艾連·葉卡",
+    "Eren Yeager",
+    "ミカサ",
+    "三笠",
+    "Mikasa",
+    "アルミン",
+    "阿尔敏",
+    "Armin",
+    "日田",
+    "Hita",
+    "大山ダム",
+    "大山水坝"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "进击的巨人",
+     "creator": "谏山创 / WIT STUDIO・MAPPA",
+     "synopsis": "人类躲在巨大的三重城墙里过了一百年太平日子，直到某天，比城墙还高的超大型巨人探出头来，踢破了城门。亲眼看着母亲被巨人吞噬的少年艾伦·耶格尔发誓要驱逐所有巨人，与青梅竹马三笠、挚友阿尔敏一起加入调查兵团，一步步逼近巨人与这个世界的真相。"
+    },
+    "zh-Hant": {
+     "title": "進擊的巨人"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "人類は巨大な三重の壁の内側で、百年の平和を享受していた。だがある日、壁を越える超大型巨人が現れ、門が破られる。母を巨人に喰われた少年エレン・イェーガーは、巨人を一匹残らず駆逐すると誓い、幼なじみのミカサ、親友のアルミンとともに調査兵団へ。巨人とこの世界の真実に迫っていく。"
+    },
+    "en": {
+     "title": "Attack on Titan",
+     "creator": "Hajime Isayama / Wit Studio, MAPPA",
+     "synopsis": "For a century humanity has lived safely inside three colossal walls — until a Colossal Titan peers over the top and kicks in the gate. Having watched a Titan devour his mother, young Eren Yeager vows to wipe out every last one, joining the Survey Corps with his childhood friend Mikasa and his best friend Armin as they close in on the truth about the Titans and their world."
+    },
+    "ko": {
+     "title": "진격의 거인",
+     "creator": "이사야마 하지메 / WIT STUDIO·MAPPA",
+     "synopsis": "인류는 거대한 삼중 성벽 안에서 백 년 동안 평화를 누려 왔다. 그러던 어느 날 성벽보다 큰 초대형 거인이 나타나 성문을 부순다. 거인에게 어머니를 잃은 소년 엘런 예거는 거인을 모조리 구축하겠다고 맹세하고, 소꿉친구 미카사, 단짝 아르민과 함께 조사병단에 들어가 거인과 세계의 진실에 다가간다."
+    }
+   }
+  },
+  {
+   "id": "evangelion",
+   "title": "新世紀エヴァンゲリオン",
+   "mediaType": "anime",
+   "year": 1995,
+   "creator": "庵野秀明",
+   "tint": "#6B4FA0",
+   "aliases": [
+    "Neon Genesis Evangelion",
+    "Evangelion",
+    "EVA",
+    "エヴァ",
+    "エヴァンゲリオン",
+    "新世纪福音战士",
+    "新世紀福音戰士",
+    "福音战士",
+    "신세기 에반게리온",
+    "에반게리온",
+    "シン・エヴァンゲリオン劇場版",
+    "シン・エヴァ",
+    "新·福音战士剧场版",
+    "新・福音戰士劇場版",
+    "Evangelion: 3.0+1.0 Thrice Upon a Time",
+    "Shin Evangelion",
+    "에반게리온: 3.0+1.0",
+    "庵野秀明",
+    "Hideaki Anno",
+    "안노 히데아키",
+    "碇シンジ",
+    "碇真嗣",
+    "Shinji Ikari",
+    "이카리 신지",
+    "真希波・マリ・イラストリアス",
+    "真希波·玛丽",
+    "Mari",
+    "宇部",
+    "Ube",
+    "宇部新川"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "新世纪福音战士",
+     "creator": "庵野秀明",
+     "synopsis": "第二次冲击之后的世界，14 岁的少年碇真嗣被多年未见的父亲叫到第三新东京市，被迫驾驶人形决战兵器 EVA 初号机，与名为“使徒”的神秘敌人作战。1995 年的电视动画之后，庵野秀明又用“新剧场版”四部曲重新讲述了这个故事，2021 年的《新·福音战士剧场版:||》为整个系列画上句号。"
+    },
+    "zh-Hant": {
+     "title": "新世紀福音戰士"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "セカンドインパクト後の世界。14歳の碇シンジは、長く会っていなかった父に第3新東京市へ呼び出され、汎用人型決戦兵器エヴァンゲリオン初号機に乗って謎の敵「使徒」と戦うことになる。1995年のTVシリーズののち、庵野秀明は「新劇場版」4部作で物語を語り直し、2021年の『シン・エヴァンゲリオン劇場版』でシリーズに幕を下ろした。"
+    },
+    "en": {
+     "title": "Neon Genesis Evangelion",
+     "creator": "Hideaki Anno",
+     "synopsis": "In a world scarred by the Second Impact, 14-year-old Shinji Ikari is summoned to Tokyo-3 by the father he barely knows and made to pilot Evangelion Unit-01 against mysterious enemies called Angels. After the 1995 TV series, Hideaki Anno retold the story in the four Rebuild films, closing the saga for good with 2021's Evangelion: 3.0+1.0 Thrice Upon a Time."
+    },
+    "ko": {
+     "title": "신세기 에반게리온",
+     "creator": "안노 히데아키",
+     "synopsis": "세컨드 임팩트 이후의 세계. 14살 소년 이카리 신지는 오랫동안 만나지 못한 아버지의 부름으로 제3신동경시에 와서, 범용 인간형 결전 병기 에반게리온 초호기에 올라 '사도'라 불리는 정체불명의 적과 싸우게 된다. 1995년 TV 시리즈 이후 안노 히데아키는 '신극장판' 4부작으로 이야기를 다시 그렸고, 2021년 〈에반게리온: 3.0+1.0〉으로 시리즈의 막을 내렸다."
+    }
+   }
+  },
+  {
+   "id": "steins-gate",
+   "title": "STEINS;GATE",
+   "mediaType": "anime",
+   "year": 2011,
+   "creator": "5pb.×ニトロプラス / WHITE FOX",
+   "tint": "#8C2F39",
+   "aliases": [
+    "Steins;Gate",
+    "Steins Gate",
+    "シュタインズ・ゲート",
+    "シュタゲ",
+    "命运石之门",
+    "命運石之門",
+    "슈타인즈 게이트",
+    "슈타게",
+    "岡部倫太郎",
+    "冈部伦太郎",
+    "Rintaro Okabe",
+    "오카베 린타로",
+    "鳳凰院凶真",
+    "凤凰院凶真",
+    "牧瀬紅莉栖",
+    "牧濑红莉栖",
+    "Kurisu Makise",
+    "마키세 쿠리스",
+    "El Psy Kongroo",
+    "秋葉原",
+    "秋叶原",
+    "Akihabara",
+    "아키하바라",
+    "ラジオ会館",
+    "Radio Kaikan",
+    "WHITE FOX",
+    "Nitroplus"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "命运石之门",
+     "creator": "5pb.×Nitroplus / WHITE FOX",
+     "synopsis": "2010 年夏天的秋叶原，自称“疯狂科学家”的大学生冈部伦太郎和伙伴们在“未来道具研究所”里，意外发现自制的“电话微波炉（暂定）”能把短信发往过去。这些“D-mail”一点点改写着世界线，也把他们卷进与神秘组织 SERN 有关的阴谋；为了守护重要的人，冈部不得不一次次直面改变时间的代价。"
+    },
+    "zh-Hant": {
+     "title": "命運石之門"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "2010年夏の秋葉原。自称「狂気のマッドサイエンティスト」の大学生・岡部倫太郎は、仲間と立ち上げた「未来ガジェット研究所」で、自作の「電話レンジ（仮）」が過去へメールを送れることに偶然気づく。その「Dメール」は世界線を少しずつ書き換え、彼らを謎の組織SERNをめぐる陰謀へと巻き込んでいく。大切な人を守るため、岡部は時間を変える代償と向き合うことになる。"
+    },
+    "en": {
+     "title": "Steins;Gate",
+     "creator": "5pb. × Nitroplus / White Fox",
+     "synopsis": "Akihabara, summer 2010. Self-styled mad scientist Rintaro Okabe and his friends at the Future Gadget Laboratory discover by accident that their home-made “Phone Microwave (name subject to change)” can send text messages into the past. These “D-mails” quietly rewrite the world line and drag them into a conspiracy surrounding the shadowy organisation SERN — and to protect the people he loves, Okabe must face the price of tampering with time."
+    },
+    "ko": {
+     "title": "슈타인즈 게이트",
+     "creator": "5pb.×니트로플러스 / WHITE FOX",
+     "synopsis": "2010년 여름의 아키하바라. 스스로를 '광기의 매드 사이언티스트'라 부르는 대학생 오카베 린타로는 친구들과 만든 '미래 가젯 연구소'에서, 직접 만든 '전화레인지(가칭)'가 과거로 문자를 보낼 수 있다는 사실을 우연히 알게 된다. 'D메일'은 세계선을 조금씩 바꾸어 놓고, 그들을 수수께끼의 조직 SERN을 둘러싼 음모로 끌어들인다. 소중한 사람을 지키기 위해 오카베는 시간을 바꾸는 대가와 마주해야 한다."
+    }
+   }
+  },
+  {
+   "id": "sailor-moon",
+   "title": "美少女戦士セーラームーン",
+   "mediaType": "anime",
+   "year": 1992,
+   "creator": "武内直子 / 東映動画",
+   "tint": "#E58FB5",
+   "aliases": [
+    "Sailor Moon",
+    "Pretty Guardian Sailor Moon",
+    "Bishōjo Senshi Sērā Mūn",
+    "Bishoujo Senshi Sailor Moon",
+    "セーラームーン",
+    "美少女战士",
+    "美少女戰士",
+    "美少女战士水冰月",
+    "水手月亮",
+    "미소녀 전사 세일러 문",
+    "세일러 문",
+    "세일러문",
+    "武内直子",
+    "Naoko Takeuchi",
+    "다케우치 나오코",
+    "火野レイ",
+    "火野丽",
+    "火野麗",
+    "Rei Hino",
+    "히노 레이",
+    "セーラーマーズ",
+    "水手火星",
+    "Sailor Mars",
+    "火川神社",
+    "氷川神社",
+    "麻布十番",
+    "Azabu-Juban",
+    "아자부주반"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "美少女战士",
+     "creator": "武内直子 / 东映动画",
+     "synopsis": "住在东京麻布十番一带的初中生月野兔，某天救下了一只额头带着月牙印记的黑猫露娜，从此能变身为守护爱与正义的“水手月亮”。她陆续结识水野亚美、火野丽、木野真琴、爱野美奈子等伙伴，一起对抗来自黑暗的敌人，寻找月之公主与幻之银水晶。"
+    },
+    "zh-Hant": {
+     "title": "美少女戰士"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "東京・麻布十番あたりに住む中学生の月野うさぎは、額に三日月のある黒猫ルナを助けたことから、愛と正義のセーラー服美少女戦士・セーラームーンに変身する。水野亜美、火野レイ、木野まこと、愛野美奈子ら仲間と出会い、闇の敵と戦いながら、月のプリンセスと幻の銀水晶を探していく。"
+    },
+    "en": {
+     "title": "Sailor Moon",
+     "creator": "Naoko Takeuchi / Toei Animation",
+     "synopsis": "Usagi Tsukino, a junior-high girl living around Tokyo's Azabu-Juban, rescues a black cat with a crescent moon on her forehead — Luna — and discovers she can transform into Sailor Moon, guardian of love and justice. Joined by Ami Mizuno, Rei Hino, Makoto Kino and Minako Aino, she battles the forces of darkness while searching for the Moon Princess and the legendary Silver Crystal."
+    },
+    "ko": {
+     "title": "미소녀 전사 세일러 문",
+     "creator": "다케우치 나오코 / 도에이 동화",
+     "synopsis": "도쿄 아자부주반 근처에 사는 중학생 츠키노 우사기는 이마에 초승달 무늬가 있는 검은 고양이 루나를 구한 뒤, 사랑과 정의의 세일러복 미소녀 전사 세일러 문으로 변신하게 된다. 미즈노 아미, 히노 레이, 키노 마코토, 아이노 미나코 등 동료들과 만나 어둠의 적과 싸우며 달의 공주와 환상의 은수정을 찾아 나선다."
+    }
+   }
+  },
+  {
+   "id": "bunny-girl-senpai",
+   "title": "青春ブタ野郎はバニーガール先輩の夢を見ない",
+   "mediaType": "anime",
+   "year": 2018,
+   "creator": "鴨志田一 / CloverWorks",
+   "tint": "#7FA8C9",
+   "aliases": [
+    "Rascal Does Not Dream of Bunny Girl Senpai",
+    "Seishun Buta Yarō wa Bunny Girl Senpai no Yume o Minai",
+    "Seishun Buta Yarou",
+    "青ブタ",
+    "Aobuta",
+    "青春猪头少年不会梦到兔女郎学姐",
+    "青春豬頭少年不會夢到兔女郎學姊",
+    "青春猪头少年",
+    "青春豬頭少年",
+    "청춘 돼지는 바니걸 선배의 꿈을 꾸지 않는다",
+    "청춘 돼지",
+    "鴨志田一",
+    "鸭志田一",
+    "Hajime Kamoshida",
+    "카모시다 하지메",
+    "桜島麻衣",
+    "樱岛麻衣",
+    "櫻島麻衣",
+    "Mai Sakurajima",
+    "사쿠라지마 마이",
+    "梓川咲太",
+    "Sakuta Azusagawa",
+    "아즈사가와 사쿠타",
+    "七里ヶ浜",
+    "七里滨",
+    "七里濱",
+    "Shichirigahama",
+    "江ノ電",
+    "江之电",
+    "江之電",
+    "Enoden",
+    "藤沢",
+    "藤泽",
+    "Fujisawa",
+    "CloverWorks"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "青春猪头少年不会梦到兔女郎学姐",
+     "creator": "鸭志田一 / CloverWorks",
+     "synopsis": "住在神奈川县藤泽的高二学生梓川咲太，某天在图书馆撞见一位穿着兔女郎装、周围的人却全都看不见她的学姐——暂停演艺活动的人气女演员樱岛麻衣。原来她患上了被称为“青春期症候群”的怪异现象。咲太决心帮她找回“被看见”的自己，此后也陆续卷入身边女孩们各自的青春期症候群。"
+    },
+    "zh-Hant": {
+     "title": "青春豬頭少年不會夢到兔女郎學姊"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "神奈川県藤沢市に住む高校2年生・梓川咲太は、ある日図書館で、バニーガール姿なのに周りの誰にも見えていない先輩――活動休止中の人気女優・桜島麻衣と出会う。彼女は「思春期症候群」と呼ばれる不可思議な現象に悩まされていた。咲太は麻衣を救おうと奔走し、やがて周囲の少女たちの思春期症候群とも向き合っていく。"
+    },
+    "en": {
+     "title": "Rascal Does Not Dream of Bunny Girl Senpai",
+     "creator": "Hajime Kamoshida / CloverWorks",
+     "synopsis": "Sakuta Azusagawa, a high-school second-year in Fujisawa, Kanagawa, stumbles across an upperclassman in a bunny-girl costume in the library — and nobody else can see her. She is Mai Sakurajima, a famous actress on hiatus, caught in a strange phenomenon known as “Adolescence Syndrome.” Sakuta sets out to help her be seen again, and soon finds himself untangling the syndromes of the other girls around him."
+    },
+    "ko": {
+     "title": "청춘 돼지는 바니걸 선배의 꿈을 꾸지 않는다",
+     "creator": "카모시다 하지메 / CloverWorks",
+     "synopsis": "가나가와현 후지사와에 사는 고등학교 2학년 아즈사가와 사쿠타는 어느 날 도서관에서 바니걸 차림인데도 주변 누구에게도 보이지 않는 선배, 활동을 쉬고 있는 인기 배우 사쿠라지마 마이와 마주친다. 그녀는 '사춘기 증후군'이라 불리는 기묘한 현상을 겪고 있었다. 사쿠타는 마이를 구하려고 뛰어다니고, 이윽고 주변 소녀들의 사춘기 증후군과도 마주하게 된다."
+    }
+   }
+  },
+  {
+   "id": "bungo-stray-dogs",
+   "title": "文豪ストレイドッグス",
+   "mediaType": "anime",
+   "year": 2016,
+   "creator": "朝霧カフカ・春河35 / ボンズ",
+   "tint": "#3E5C76",
+   "aliases": [
+    "Bungo Stray Dogs",
+    "Bungou Stray Dogs",
+    "文スト",
+    "BSD",
+    "文豪野犬",
+    "문호 스트레이독스",
+    "문스독",
+    "朝霧カフカ",
+    "朝雾卡夫卡",
+    "朝霧卡夫卡",
+    "Kafka Asagiri",
+    "아사기리 카프카",
+    "春河35",
+    "Sango Harukawa",
+    "中島敦",
+    "中岛敦",
+    "Atsushi Nakajima",
+    "나카지마 아츠시",
+    "太宰治",
+    "Osamu Dazai",
+    "다자이 오사무",
+    "泉鏡花",
+    "泉镜花",
+    "Kyoka Izumi",
+    "이즈미 쿄카",
+    "ヨコハマ",
+    "横浜",
+    "横滨",
+    "Yokohama",
+    "赤レンガ倉庫",
+    "BONES"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "文豪野犬",
+     "creator": "朝雾卡夫卡・春河35 / BONES",
+     "synopsis": "被孤儿院赶出来、饿得走投无路的少年中岛敦，在横滨的河里救起了一个正在投河自杀的怪人太宰治。太宰是专接军警难以插手的案件的“武装侦探社”成员，而敦身上也藏着化身白虎的异能。被拉进侦探社的他，从此卷入与港口黑手党等异能组织的争斗。作品角色多以日本近代文豪为原型。"
+    },
+    "zh-Hant": {
+     "title": "文豪野犬"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "孤児院を追い出され行き倒れかけていた少年・中島敦は、川で入水自殺を図っていた奇妙な男・太宰治を助ける。太宰は、軍や警察が手を出しにくい事件を請け負う「武装探偵社」の一員だった。白虎に変身する異能を秘めていた敦は探偵社に迎え入れられ、ポートマフィアをはじめとする異能組織との抗争に巻き込まれていく。登場人物の多くは日本の文豪がモチーフ。"
+    },
+    "en": {
+     "title": "Bungo Stray Dogs",
+     "creator": "Kafka Asagiri, Sango Harukawa / Bones",
+     "synopsis": "Thrown out of his orphanage and close to starving, young Atsushi Nakajima pulls an odd man out of a Yokohama river — Osamu Dazai, in the middle of a suicide attempt. Dazai belongs to the Armed Detective Agency, which takes on cases too dangerous for the military police, and Atsushi turns out to hide an ability that turns him into a white tiger. Drafted into the agency, he is drawn into wars with the Port Mafia and other gifted organisations. Most characters are modelled on great Japanese writers."
+    },
+    "ko": {
+     "title": "문호 스트레이독스",
+     "creator": "아사기리 카프카, 하루카와 산고 / 본즈",
+     "synopsis": "고아원에서 쫓겨나 굶주림에 쓰러지기 직전이던 소년 나카지마 아츠시는 요코하마의 강에서 입수 자살을 시도하던 이상한 남자 다자이 오사무를 구한다. 다자이는 군경이 손대기 어려운 사건을 맡는 '무장탐정사'의 일원이었고, 아츠시에게는 백호로 변하는 이능력이 숨어 있었다. 탐정사에 들어간 아츠시는 포트마피아를 비롯한 이능 조직과의 싸움에 휘말린다. 등장인물 대부분은 일본 근대 문호가 모티프다."
+    }
+   }
+  },
+  {
+   "id": "durarara",
+   "title": "デュラララ!!",
+   "mediaType": "anime",
+   "year": 2010,
+   "creator": "成田良悟 / ブレインズ・ベース",
+   "tint": "#4B5E4A",
+   "aliases": [
+    "Durarara!!",
+    "Durarara",
+    "DRRR!!",
+    "DRRR",
+    "デュラララ",
+    "デュラ",
+    "无头骑士异闻录",
+    "無頭騎士異聞錄",
+    "듀라라라!!",
+    "듀라라라",
+    "成田良悟",
+    "Ryohgo Narita",
+    "나리타 료고",
+    "セルティ・ストゥルルソン",
+    "塞尔提",
+    "賽爾提",
+    "Celty Sturluson",
+    "셀티",
+    "首なしライダー",
+    "无头骑士",
+    "Headless Rider",
+    "竜ヶ峰帝人",
+    "龙之峰帝人",
+    "Mikado Ryugamine",
+    "류가미네 미카도",
+    "平和島静雄",
+    "平和岛静雄",
+    "Shizuo Heiwajima",
+    "折原臨也",
+    "折原临也",
+    "Izaya Orihara",
+    "ダラーズ",
+    "达拉斯",
+    "達拉斯",
+    "Dollars",
+    "池袋",
+    "Ikebukuro",
+    "이케부쿠로",
+    "Brain's Base"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "无头骑士异闻录 DURARARA!!",
+     "creator": "成田良悟 / Brain's Base",
+     "synopsis": "向往非日常的少年龙之峰帝人，借着升高中来到东京池袋。这里流传着“无头骑士”骑着无声黑色摩托在夜里奔驰的都市传说，还有神秘的网络组织“达拉斯”、会扔自动贩卖机的平和岛静雄、热衷玩弄人心的情报贩子折原临也……一群怪人的故事在池袋街头彼此交错，牵出一连串事件。"
+    },
+    "zh-Hant": {
+     "title": "無頭騎士異聞錄 DURARARA!!"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "非日常に憧れる少年・竜ヶ峰帝人は、高校進学を機に東京・池袋へやって来る。そこには、音のない黒いバイクで夜を駆ける「首なしライダー」の都市伝説、正体不明のカラーギャング「ダラーズ」、自販機を投げ飛ばす平和島静雄、人間観察が趣味の情報屋・折原臨也――。池袋に集う奇人たちの物語が交錯し、事件が連鎖していく。"
+    },
+    "en": {
+     "title": "Durarara!!",
+     "creator": "Ryohgo Narita / Brain's Base",
+     "synopsis": "Craving a life less ordinary, Mikado Ryugamine moves to Ikebukuro, Tokyo, to start high school. The district hums with urban legends — a Headless Rider racing through the night on a soundless black motorbike, a faceless online gang called the Dollars, the vending-machine-hurling Shizuo Heiwajima and the manipulative information broker Izaya Orihara. Their stories collide on Ikebukuro's streets, setting off one incident after another."
+    },
+    "ko": {
+     "title": "듀라라라!!",
+     "creator": "나리타 료고 / 브레인즈 베이스",
+     "synopsis": "비일상을 동경하는 소년 류가미네 미카도는 고등학교 진학을 계기로 도쿄 이케부쿠로에 온다. 소리 없는 검은 오토바이로 밤거리를 달리는 '목 없는 라이더'의 도시 전설, 정체불명의 컬러 갱 '달러즈', 자판기를 집어 던지는 헤이와지마 시즈오, 인간 관찰이 취미인 정보상 오리하라 이자야…. 이케부쿠로에 모인 괴짜들의 이야기가 얽히며 사건이 연쇄적으로 일어난다."
+    }
+   }
+  },
+  {
+   "id": "conan-million-dollar-pentagram",
+   "title": "名探偵コナン 100万ドルの五稜星",
+   "mediaType": "animeFilm",
+   "year": 2024,
+   "creator": "永岡智佳 / 原作：青山剛昌",
+   "tint": "#3B5BA5",
+   "aliases": [
+    "Detective Conan: The Million-dollar Pentagram",
+    "Detective Conan",
+    "Case Closed",
+    "名探偵コナン",
+    "名侦探柯南",
+    "名偵探柯南",
+    "명탐정 코난",
+    "100万ドルの五稜星",
+    "みちしるべ",
+    "百万美元的五棱星",
+    "100萬美元的五稜星",
+    "100만 달러의 펜타그램",
+    "江戸川コナン",
+    "江户川柯南",
+    "Conan Edogawa",
+    "怪盗キッド",
+    "怪盗基德",
+    "怪盜基德",
+    "Kaito Kid",
+    "괴도 키드",
+    "服部平次",
+    "Heiji Hattori",
+    "핫토리 헤이지",
+    "土方歳三",
+    "土方岁三",
+    "Toshizo Hijikata",
+    "函館",
+    "函馆",
+    "Hakodate",
+    "하코다테",
+    "五稜郭",
+    "五棱郭",
+    "Goryokaku",
+    "青山剛昌",
+    "青山刚昌",
+    "Gosho Aoyama",
+    "아오야마 고쇼",
+    "永岡智佳",
+    "永冈智佳",
+    "Chika Nagaoka"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "名侦探柯南：百万美元的五棱星",
+     "creator": "永冈智佳 / 原作：青山刚昌",
+     "synopsis": "柯南剧场版第 27 部，舞台是北海道函馆。一把与新选组副长土方岁三有关的日本刀，牵出了箱馆战争留下的谜团：怪盗基德发出预告信，服部平次和远山和叶也来到函馆，柯南被卷进一连串事件之中。散落全城的“星形”线索，最终都指向那座星形要塞——五棱郭。"
+    },
+    "zh-Hant": {
+     "title": "名偵探柯南：100萬美元的五稜星"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "劇場版シリーズ第27作。舞台は北海道・函館。新選組副長・土方歳三ゆかりの日本刀をめぐって、箱館戦争に眠る謎が動き出す。怪盗キッドが予告状を出し、服部平次と遠山和葉も函館へ。コナンは次々と起こる事件に巻き込まれていく。街のあちこちに現れる「星形」の手がかりは、やがて星形の城塞・五稜郭へとつながっていく。"
+    },
+    "en": {
+     "title": "Detective Conan: The Million-dollar Pentagram",
+     "creator": "Chika Nagaoka / original story by Gosho Aoyama",
+     "synopsis": "The 27th Detective Conan film is set in Hakodate, Hokkaido. A Japanese sword linked to Shinsengumi vice-commander Toshizo Hijikata stirs up a mystery buried since the Battle of Hakodate: Kaito Kid sends one of his calling cards, Heiji Hattori and Kazuha Toyama arrive in town, and Conan is swept into a chain of incidents. Star-shaped clues scattered across the city all point to the star-shaped fortress of Goryokaku."
+    },
+    "ko": {
+     "title": "명탐정 코난: 100만 달러의 펜타그램",
+     "creator": "나가오카 치카 / 원작: 아오야마 고쇼",
+     "synopsis": "극장판 시리즈 제27탄, 무대는 홋카이도 하코다테. 신센구미 부장 히지카타 도시조와 얽힌 일본도를 둘러싸고 하코다테 전쟁에 묻혀 있던 수수께끼가 움직이기 시작한다. 괴도 키드가 예고장을 보내고, 핫토리 헤이지와 토야마 카즈하도 하코다테를 찾으면서 코난은 잇따른 사건에 휘말린다. 도시 곳곳에 나타나는 '별 모양' 단서는 결국 별 모양 요새 고료카쿠로 이어진다."
+    }
+   }
+  },
+  {
+   "id": "yuri-on-ice",
+   "title": "ユーリ!!! on ICE",
+   "mediaType": "anime",
+   "year": 2016,
+   "creator": "山本沙代・久保ミツロウ / MAPPA",
+   "tint": "#5FA8D3",
+   "aliases": [
+    "Yuri!!! on Ice",
+    "Yuri on Ice",
+    "YOI",
+    "ユーリ",
+    "冰上的尤里",
+    "YURI!!! on ICE",
+    "유리!!! on ICE",
+    "유리 온 아이스",
+    "勝生勇利",
+    "胜生勇利",
+    "Yuri Katsuki",
+    "카츠키 유리",
+    "ヴィクトル・ニキフォロフ",
+    "维克托",
+    "維克托",
+    "Victor Nikiforov",
+    "빅토르",
+    "長谷津",
+    "长谷津",
+    "Hasetsu",
+    "하세츠",
+    "唐津",
+    "Karatsu",
+    "가라쓰",
+    "山本沙代",
+    "Sayo Yamamoto",
+    "久保ミツロウ",
+    "Mitsurou Kubo",
+    "MAPPA"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "冰上的尤里",
+     "creator": "山本沙代・久保光郎 / MAPPA",
+     "synopsis": "在大奖赛总决赛惨败的日本花样滑冰选手胜生勇利，带着迷茫回到阔别五年的九州故乡长谷津。他模仿偶像、世界冠军维克托·尼基福罗夫节目的视频意外在网上走红，没想到维克托本人竟出现在勇利家的温泉旅馆，宣布要当他的教练。两人从这里出发，向新赛季的大奖赛总决赛发起挑战。"
+    },
+    "zh-Hant": {
+     "title": "YURI!!! on ICE"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "グランプリファイナルで惨敗した日本のフィギュアスケーター・勝生勇利は、5年ぶりに九州の故郷・長谷津へ帰ってくる。憧れの世界王者ヴィクトル・ニキフォロフのプログラムを滑った動画がネットで拡散されると、なんとヴィクトル本人が実家の温泉旅館に現れ、勇利のコーチになると宣言。二人は新たなシーズンのグランプリファイナルを目指す。"
+    },
+    "en": {
+     "title": "Yuri!!! on Ice",
+     "creator": "Sayo Yamamoto, Mitsurou Kubo / MAPPA",
+     "synopsis": "After a crushing defeat at the Grand Prix Final, Japanese figure skater Yuri Katsuki goes home to Hasetsu in Kyushu for the first time in five years. When a video of him skating his idol Victor Nikiforov's programme goes viral, the reigning world champion himself turns up at Yuri's family hot-spring inn and announces he will be his coach. Together they set their sights on the next season's Grand Prix Final."
+    },
+    "ko": {
+     "title": "유리!!! on ICE",
+     "creator": "야마모토 사요, 쿠보 미츠로 / MAPPA",
+     "synopsis": "그랑프리 파이널에서 참패한 일본 피겨스케이팅 선수 카츠키 유리는 5년 만에 규슈의 고향 하세츠로 돌아온다. 동경하는 세계 챔피언 빅토르 니키포로프의 프로그램을 따라 탄 영상이 인터넷에 퍼지자, 빅토르 본인이 유리네 온천 여관에 나타나 그의 코치가 되겠다고 선언한다. 두 사람은 새 시즌 그랑프리 파이널을 향해 나아간다."
+    }
+   }
+  },
+  {
+   "id": "initial-d",
+   "title": "頭文字D",
+   "mediaType": "anime",
+   "year": 1998,
+   "creator": "しげの秀一",
+   "tint": "#B23A3A",
+   "aliases": [
+    "Initial D",
+    "イニシャルD",
+    "頭文字D",
+    "头文字D",
+    "이니셜 D",
+    "이니셜D",
+    "しげの秀一",
+    "重野秀一",
+    "Shuichi Shigeno",
+    "시게노 슈이치",
+    "藤原拓海",
+    "Takumi Fujiwara",
+    "후지와라 타쿠미",
+    "AE86",
+    "ハチロク",
+    "秋名山",
+    "秋名",
+    "Akina",
+    "아키나",
+    "榛名山",
+    "Mt. Haruna",
+    "하루나산",
+    "渋川",
+    "涩川",
+    "澀川",
+    "Shibukawa",
+    "藤原とうふ店",
+    "藤原豆腐店",
+    "伊香保",
+    "Ikaho"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "头文字D",
+     "creator": "重野秀一",
+     "synopsis": "群马县的高中生藤原拓海，每天天不亮就开着父亲的丰田 AE86，替家里的豆腐店把豆腐送上秋名山。年复一年的山路送货，让他不知不觉练就了惊人的驾驶技术。当秋名山上传出一辆能甩开各路高手的“86”，拓海也被卷进了群马乃至关东的山道赛车世界。"
+    },
+    "zh-Hant": {
+     "title": "頭文字D"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "群馬県の高校生・藤原拓海は、毎朝夜明け前に父のトヨタ・ハチロク（AE86）で、家業の豆腐を秋名山の上へ配達している。何年も続けた峠道の配達で、彼は知らぬ間に驚異的なドライビングテクニックを身につけていた。秋名に走り屋たちを置き去りにする「ハチロク」が現れたという噂が広まり、拓海は群馬、そして関東の峠バトルの世界へと踏み込んでいく。"
+    },
+    "en": {
+     "title": "Initial D",
+     "creator": "Shuichi Shigeno",
+     "synopsis": "Every morning before dawn, Gunma high-schooler Takumi Fujiwara drives his father's Toyota AE86 up Mt. Akina to deliver tofu for the family shop. Years of those mountain runs have quietly made him a phenomenal driver. When word spreads of an 86 that leaves the best street racers behind on Akina's downhill, Takumi is pulled into the world of mountain-pass racing across Gunma and beyond."
+    },
+    "ko": {
+     "title": "이니셜 D",
+     "creator": "시게노 슈이치",
+     "synopsis": "군마현의 고등학생 후지와라 타쿠미는 매일 새벽 아버지의 토요타 AE86을 몰고 집안 두부 가게의 두부를 아키나산 위로 배달한다. 수년간 이어 온 고갯길 배달 덕분에 그는 자신도 모르게 놀라운 운전 실력을 갖추게 되었다. 아키나에서 실력파 레이서들을 따돌리는 '86'이 있다는 소문이 퍼지면서, 타쿠미는 군마와 간토의 고갯길 레이스 세계로 들어서게 된다."
+    }
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "aot-oyama-dam",
+   "workID": "attack-on-titan",
+   "latitude": 33.24362,
+   "longitude": 130.95731,
+   "sceneHeading": 225,
+   "scenePitch": 10,
+   "arrivalRadius": 40,
+   "spoiler": false,
+   "kind": "landmark",
+   "sourceURL": "https://www.qsr.mlit.go.jp/site_files/newstopics_files/20250522/25052201.pdf",
+   "verified": false,
+   "accessPoint": {
+    "latitude": 33.244732,
+    "longitude": 130.957469
+   },
+   "bestMonths": [
+    4,
+    5,
+    10,
+    11
+   ],
+   "text": {
+    "zh-Hans": {
+     "placeName": "大山水坝 坝下广场（大分县·日田市）",
+     "sceneTitle": "艾伦·三笠·阿尔敏铜像",
+     "episode": "官方圣地 · 2020 年设立",
+     "highlight": "大山町是原作者谏山创的故乡，这组铜像让《进击的巨人》的“起点”在现实中落了地：三个孩子并肩仰望高耸的坝体，就像故事开头仰望玛利亚之墙那样。站到他们身后抬头，灰色的混凝土坝墙真的像一堵把世界隔开的墙；用官方 App 对准坝体，超大型巨人还会从“墙”后探出头来。这正是世界各地的粉丝专程深入大分山间的理由。",
+     "story": "铜像立在日田市大山町大山水坝坝下的下游广场，塑造的是少年时期的艾伦、三笠和阿尔敏，三人面朝坝体仰望。这是日田市民志愿者为纪念《进击的巨人》连载十周年、在 2019 年通过众筹集资的铜像计划第一弹，2020 年 11 月 8 日揭幕，谏山创本人也出席了仪式。整个场景把坝壁当作玛利亚之墙，再现巨人第一次来袭的“开始之地”——那一天，墙外的世界闯进了三个孩子的生活。此后日田站前又立起了利威尔兵长像。",
+     "access": "JR 日田站乘出租车或自驾约 20 分钟。从坝下停车场登上台阶即是下游广场。公交可乘日田巴士往杖立方向至“中川原”，再步行约 30 分钟。",
+     "bestTime": "新绿的 4–5 月和红叶的 11 月最舒服；上午坝体顺光，铜像与坝墙同框最清楚。",
+     "tips": "下载官方 App“進撃の巨人 in HITA”可在坝体上看到超大型巨人 AR。附近道之驿“水边之乡大山”内有进击的巨人 in HITA 博物馆。山区公交班次很少，请提前查好回程；请勿攀爬铜像。",
+     "accessPointName": "大山水坝 坝下停车场"
+    },
+    "ja": {
+     "placeName": "大山ダム 下流広場（大分県日田市）",
+     "sceneTitle": "エレン・ミカサ・アルミン像",
+     "episode": "公式聖地 · 2020年設置",
+     "highlight": "大山町は原作者・諫山創の故郷。この銅像は『進撃の巨人』の「はじまり」を現実の風景に重ねた。三人の子どもが並んで巨大な堤体を見上げる姿は、物語の冒頭でウォール・マリアを仰いだあの日そのものだ。像の後ろに立って見上げると、灰色のコンクリートの壁は本当に世界を隔てる壁のように見える。公式アプリをかざせば、壁の向こうから超大型巨人が顔を出す。世界中のファンがわざわざ大分の山あいまで足を運ぶ理由がここにある。",
+     "story": "日田市大山町の大山ダム、堤体下の下流広場に立つのは、少年期のエレン、ミカサ、アルミンの銅像。三人はダムの壁に向かって立ち、上を見上げている。『進撃の巨人』連載10周年を記念し、日田市民の有志が2019年にクラウドファンディングで資金を募った銅像プロジェクトの第一弾で、2020年11月8日に除幕され、諫山創も式に出席した。ダムの壁面をウォール・マリアに見立て、初めて巨人が襲ってきた「はじまりの場所」を再現している。のちにJR日田駅前にはリヴァイ兵長の像も建てられた。",
+     "access": "JR日田駅からタクシーまたは車で約20分。堤体下の駐車場から階段を上がれば下流広場。バスなら日田バス杖立方面で「中川原」下車、徒歩約30分。",
+     "bestTime": "新緑の4〜5月と紅葉の11月が快適。午前中は堤体が順光になり、像と壁を一緒に撮りやすい。",
+     "tips": "公式アプリ「進撃の巨人 in HITA」をかざすと堤体に超大型巨人のARが現れる。近くの道の駅「水辺の郷おおやま」には進撃の巨人 in HITAミュージアムも。山間部のバスは本数が少ないので帰りの便を事前に確認を。像には登らないこと。",
+     "accessPointName": "大山ダム 下流駐車場"
+    },
+    "en": {
+     "placeName": "Downstream plaza, Oyama Dam (Hita, Oita)",
+     "sceneTitle": "Eren, Mikasa & Armin statue",
+     "episode": "Official landmark · installed 2020",
+     "highlight": "Oyama-machi is creator Hajime Isayama's hometown, and this statue gives Attack on Titan's starting point a real place: three children side by side, gazing up at a towering wall of concrete just as they once gazed up at Wall Maria. Stand behind them and look up, and the dam really does feel like a wall shutting out the world; point the official app at it and the Colossal Titan peers over the top. That is why fans from around the world make the trip deep into the Oita hills.",
+     "story": "Below Oyama Dam in Hita's Oyama-machi, in the downstream plaza, stand bronze figures of Eren, Mikasa and Armin as children, facing the dam and looking up. It was the first statue in a project by Hita citizen volunteers, crowdfunded in 2019 to mark the manga's 10th anniversary, and it was unveiled on 8 November 2020 with Isayama himself in attendance. The dam wall plays the part of Wall Maria, recreating “the place where it all began” — the day the first Titan attacked and the world outside broke into the children's lives. A Levi statue later followed in front of JR Hita Station.",
+     "access": "About 20 min by taxi or car from JR Hita Station. Climb the steps from the car park below the dam to the plaza. By bus: Hita Bus towards Tsuetate to Nakagoura, then about 30 min on foot.",
+     "bestTime": "Spring greenery in April–May and autumn colour in November are loveliest; in the morning the dam face is front-lit for statue-and-wall shots.",
+     "tips": "Point the official app “Shingeki no Kyojin in HITA” at the dam to see the Colossal Titan in AR. The Attack on Titan in HITA Museum is at the nearby Mizube no Sato Oyama roadside station. Buses are rare in the hills — check your return. Don't climb the statue.",
+     "accessPointName": "Oyama Dam car park"
+    },
+    "ko": {
+     "placeName": "오야마 댐 하류 광장 (오이타현 히타시)",
+     "sceneTitle": "엘런·미카사·아르민 동상",
+     "episode": "공식 성지 · 2020년 설치",
+     "highlight": "오야마마치는 원작자 이사야마 하지메의 고향이다. 이 동상은 『진격의 거인』의 '시작'을 실제 풍경 위에 올려놓았다. 세 아이가 나란히 거대한 댐을 올려다보는 모습은 이야기 첫머리에서 월 마리아를 올려다보던 그날 그대로다. 동상 뒤에 서서 올려다보면 회색 콘크리트 벽이 정말로 세상을 가로막는 성벽처럼 느껴진다. 공식 앱을 비추면 벽 너머로 초대형 거인이 얼굴을 내민다. 세계 각지의 팬들이 굳이 오이타 산골까지 찾아오는 이유다.",
+     "story": "히타시 오야마마치 오야마 댐 아래 하류 광장에는 소년 시절의 엘런, 미카사, 아르민 동상이 댐 벽을 향해 서서 위를 올려다보고 있다. 『진격의 거인』 연재 10주년을 기념해 히타 시민 유지들이 2019년 크라우드펀딩으로 자금을 모은 동상 프로젝트의 첫 작품으로, 2020년 11월 8일 제막식에는 이사야마 하지메도 참석했다. 댐 벽면을 월 마리아에 빗대어, 거인이 처음 습격해 온 '시작의 장소'를 재현했다. 이후 JR 히타역 앞에는 리바이 병장 동상도 세워졌다.",
+     "access": "JR 히타역에서 택시나 자동차로 약 20분. 댐 아래 주차장에서 계단을 오르면 하류 광장이다. 버스는 히타 버스 쓰에타테 방면 '나카고라' 하차 후 도보 약 30분.",
+     "bestTime": "신록의 4~5월과 단풍의 11월이 좋다. 오전에는 댐 벽이 순광이라 동상과 벽을 함께 찍기 좋다.",
+     "tips": "공식 앱 '進撃の巨人 in HITA'를 비추면 댐 위에 초대형 거인 AR이 나타난다. 근처 휴게소 '미즈베노사토 오야마'에 진격의 거인 in HITA 뮤지엄이 있다. 산간 버스는 드무니 돌아오는 편을 미리 확인하자. 동상에 올라가지 말 것.",
+     "accessPointName": "오야마 댐 하류 주차장"
+    }
+   }
+  },
+  {
+   "id": "eva-ube-shinkawa",
+   "workID": "evangelion",
+   "latitude": 33.958785,
+   "longitude": 131.242506,
+   "sceneHeading": 125,
+   "scenePitch": 0,
+   "arrivalRadius": 50,
+   "spoiler": true,
+   "kind": "scene",
+   "sourceURL": "https://yamaguchi-tourism.jp/blog/detail_136.html",
+   "verified": false,
+   "accessPoint": {
+    "latitude": 33.95815,
+    "longitude": 131.24238
+   },
+   "bestMonths": [
+    3,
+    4,
+    10,
+    11
+   ],
+   "text": {
+    "zh-Hans": {
+     "placeName": "JR 宇部新川站 3 号站台（山口县·宇部市）",
+     "sceneTitle": "长大的真嗣与玛丽",
+     "episode": "《新·福音战士剧场版:||》（2021）· 结尾",
+     "highlight": "持续二十多年的《EVA》，最后停在了一座再普通不过的地方小站——庵野秀明故乡宇部的宇部新川站。站台长椅和通往出口的楼梯被几乎原样画进片尾，随后画面切换成真实的宇部街景，仿佛角色和观众一起从动画回到了现实。这座小站因此成了许多人心中的“毕业”之地，宇部市也连续举办“まちじゅうエヴァンゲリオン”活动，粉丝至今络绎不绝。",
+     "story": "漫长的战斗结束后，故事来到一个不再需要 EVA 的世界。长大成人的真嗣坐在宇部新川站的站台长椅上，玛丽从他身后出现。两人牵起手，一起奔上楼梯、跑出车站。镜头随即拉远，动画背景换成了车站与周边街道的真实影像，两个动画人物在实景中奔跑而去——整个系列就这样在导演的家乡落幕。山口县官方观光网站介绍，3 号站台的长椅和楼梯与电影里的画面几乎一模一样。",
+     "access": "JR 宇部线宇部新川站内。进检票口后前往 3 号站台，长椅与楼梯就在眼前；站前即宇部市营巴士总站。",
+     "bestTime": "傍晚光线柔和、乘客较少时最有片尾的味道；避开早晚通勤时段，站台更安静。",
+     "tips": "站台在检票口内，需持车票或购买入场券。拍照时请勿长时间占用长椅，不要挡住楼梯和乘客通道。宇部线班次不多，出行前请查好时刻表。",
+     "accessPointName": "宇部新川站"
+    },
+    "ja": {
+     "placeName": "JR宇部新川駅 3番ホーム（山口県宇部市）",
+     "sceneTitle": "大人になったシンジとマリ",
+     "episode": "『シン・エヴァンゲリオン劇場版』（2021）· ラスト",
+     "highlight": "20年以上続いた『エヴァ』の物語が最後にたどり着いたのは、庵野秀明の故郷・宇部の、どこにでもありそうな小さな駅だった。ホームのベンチや出口へ続く階段はほぼそのままエンディングに描かれ、やがて画面は実写の宇部の街並みへと切り替わる。キャラクターと観客が一緒にアニメから現実へ帰っていくようなその演出で、この駅は多くの人にとっての「卒業」の場所になった。宇部市は「まちじゅうエヴァンゲリオン」を重ね、いまもファンの来訪が絶えない。",
+     "story": "長い戦いが終わり、物語はエヴァのいらない世界へ。大人になったシンジが宇部新川駅のホームのベンチに座っていると、背後からマリが現れる。二人は手を取り合い、階段を駆け上がって駅の外へ。カメラが引いていくと背景は駅と周辺の街の実写映像に変わり、アニメの二人が現実の風景の中を走っていく――シリーズは監督の故郷で幕を閉じた。山口県の観光サイトも、3番ホームのベンチや階段が映画のシーンとうり二つだと紹介している。",
+     "access": "JR宇部線宇部新川駅の構内。改札を入って3番ホームへ行けば、ベンチと階段が目の前に。駅前は宇部市営バスのターミナル。",
+     "bestTime": "光がやわらかく人の少ない夕方がいちばんエンディングらしい。朝夕の通勤時間帯を避けると静か。",
+     "tips": "ホームは改札内なので乗車券か入場券が必要。ベンチを長時間占領したり、階段や通路をふさいだりしないこと。宇部線は本数が少ないので時刻表の確認を。",
+     "accessPointName": "宇部新川駅"
+    },
+    "en": {
+     "placeName": "Platform 3, JR Ube-Shinkawa Station (Ube, Yamaguchi)",
+     "sceneTitle": "Shinji and Mari, all grown up",
+     "episode": "Evangelion: 3.0+1.0 Thrice Upon a Time (2021) · final scene",
+     "highlight": "After more than two decades, Evangelion ends at the most ordinary of places: a small local station in Ube, Hideaki Anno's hometown. The platform bench and the stairs to the exit appear almost exactly as they are, and then the picture turns into real footage of Ube, as if the characters and the audience were stepping out of anime and back into reality together. For many fans this little station became a place of “graduation,” and Ube's repeated Machijuu Evangelion events keep the visitors coming.",
+     "story": "With the long war over, the story arrives in a world that no longer needs Evas. A grown-up Shinji sits on a bench on the Ube-Shinkawa platform when Mari appears behind him. Hand in hand they race up the stairs and out of the station. As the camera pulls back, the animated backgrounds give way to real footage of the station and surrounding town, the two animated figures running off through it — and the saga closes in its director's hometown. Yamaguchi's official tourism site notes that the bench and stairs on Platform 3 look just like the film.",
+     "access": "Inside JR Ube Line's Ube-Shinkawa Station: go through the gates to Platform 3 and the bench and stairs are right there. The city bus terminal is in front of the station.",
+     "bestTime": "Late afternoon, with soft light and fewer passengers, feels most like the ending; avoid the morning and evening rush for a quieter platform.",
+     "tips": "The platform is inside the ticket gates, so you need a ticket or a platform ticket. Don't hog the bench or block the stairs and walkways. Ube Line trains are infrequent — check the timetable.",
+     "accessPointName": "Ube-Shinkawa Sta."
+    },
+    "ko": {
+     "placeName": "JR 우베신카와역 3번 승강장 (야마구치현 우베시)",
+     "sceneTitle": "어른이 된 신지와 마리",
+     "episode": "〈에반게리온: 3.0+1.0〉(2021) · 엔딩",
+     "highlight": "20년 넘게 이어진 『에반게리온』이 마지막에 도착한 곳은 안노 히데아키의 고향 우베의, 어디에나 있을 법한 작은 역이었다. 승강장 벤치와 출구로 이어지는 계단은 거의 그대로 엔딩에 그려졌고, 이어서 화면은 실사 우베 거리로 바뀐다. 캐릭터와 관객이 함께 애니메이션에서 현실로 돌아오는 듯한 연출 덕분에, 이 역은 많은 이들에게 '졸업'의 장소가 되었다. 우베시는 '마치주 에반게리온' 행사를 거듭 열었고, 지금도 팬들의 발길이 이어진다.",
+     "story": "긴 싸움이 끝나고 이야기는 에바가 필요 없는 세계에 이른다. 어른이 된 신지가 우베신카와역 승강장 벤치에 앉아 있을 때, 뒤에서 마리가 나타난다. 두 사람은 손을 잡고 계단을 뛰어올라 역 밖으로 달려 나간다. 카메라가 멀어지면 배경은 역과 주변 거리의 실사 영상으로 바뀌고, 애니메이션 속 두 사람이 현실의 풍경 속을 달려간다. 시리즈는 감독의 고향에서 막을 내렸다. 야마구치현 관광 사이트도 3번 승강장의 벤치와 계단이 영화 장면과 꼭 닮았다고 소개한다.",
+     "access": "JR 우베선 우베신카와역 구내. 개찰구를 지나 3번 승강장으로 가면 벤치와 계단이 바로 보인다. 역 앞은 우베 시영버스 터미널.",
+     "bestTime": "빛이 부드럽고 승객이 적은 늦은 오후가 가장 엔딩 같다. 출퇴근 시간대를 피하면 조용하다.",
+     "tips": "승강장은 개찰구 안이라 승차권이나 입장권이 필요하다. 벤치를 오래 차지하거나 계단과 통로를 막지 말 것. 우베선은 운행 편수가 적으니 시간표를 확인하자.",
+     "accessPointName": "우베신카와역"
+    }
+   }
+  },
+  {
+   "id": "steinsgate-radio-kaikan",
+   "workID": "steins-gate",
+   "latitude": 35.69818,
+   "longitude": 139.77224,
+   "sceneHeading": 235,
+   "scenePitch": 30,
+   "arrivalRadius": 40,
+   "spoiler": false,
+   "kind": "scene",
+   "sourceURL": "https://www.animenewsnetwork.com/interest/2011-10-27/steins-gate-crashed-satellite-recreated-in-akihabara",
+   "verified": false,
+   "accessPoint": {
+    "latitude": 35.698401,
+    "longitude": 139.772618
+   },
+   "bestMonths": [
+    7,
+    8
+   ],
+   "text": {
+    "zh-Hans": {
+     "placeName": "秋叶原 Radio 会馆（东京·千代田区）",
+     "sceneTitle": "撞进大楼的“人造卫星”",
+     "episode": "TV 动画 · 第 1 话",
+     "highlight": "《命运石之门》的一切从这栋楼开始。第 1 话里，冈部在这里听时间旅行发布会、与红莉栖相遇，可回过神来，大楼楼顶已经插着一颗来历不明的“人造卫星”。这个画面成了整部作品最醒目的悬念，也让 Radio 会馆成为秋叶原最有代表性的巡礼地。现实中的会馆曾配合作品在楼顶重现卫星，之后也多次举办官方联动；走出电器街口抬头一望，就是故事的起点。",
+     "story": "2010 年 7 月 28 日，冈部和真由理来到 Radio 会馆，参加中钵博士关于时间旅行的发布会，真由理还在楼里的扭蛋机上抽到了一个扭蛋。会场上冈部与天才少女牧濑红莉栖起了争执，随后却在楼里撞见她倒在血泊中的一幕。他慌乱中给达鲁发出一条短信——下一刻，眼前的景象骤然改变，楼外围满了人群，楼顶赫然插着一颗坠落的“人造卫星”。改写世界线的故事由此开始。现实中的旧楼于 2011 年拆除重建，2014 年新楼开业，外观与动画中的旧楼不同。",
+     "access": "JR 秋叶原站电器街口出站，穿过站前即到，步行约 1 分钟。地址：千代田区外神田 1-15-16。",
+     "bestTime": "故事发生在盛夏 7 月底，夏天来最有代入感；入夜后招牌亮起，街景更像动画里的秋叶原。",
+     "tips": "营业时间 10:00–20:00（B1 餐厅另计）。楼顶平时不对外开放，官方联动时会另行公告。店内拍照前请先征得店员同意，不要在入口处长时间停留。",
+     "accessPointName": "JR 秋叶原站 电器街口"
+    },
+    "ja": {
+     "placeName": "秋葉原ラジオ会館（東京都千代田区）",
+     "sceneTitle": "ビルに突き刺さった「人工衛星」",
+     "episode": "TVアニメ · 第1話",
+     "highlight": "『STEINS;GATE』のすべてはこのビルから始まる。第1話、岡部はここでタイムトラベルの会見を聞き、紅莉栖と出会う。だが気づけば、ビルの屋上には正体不明の「人工衛星」が突き刺さっていた。この光景は作品最大の謎として強烈に焼きつき、ラジオ会館は秋葉原を代表する聖地になった。実際の会館では屋上に衛星を再現する企画が行われ、その後も公式コラボが何度も開催されている。電気街口を出て見上げれば、そこが物語の出発点だ。",
+     "story": "2010年7月28日、岡部とまゆりはラジオ会館で開かれる中鉢博士のタイムトラベル理論の会見へ。まゆりは館内のカプセルトイを回していた。会見で岡部は天才少女・牧瀬紅莉栖と言い争うが、その後、館内で血だまりに倒れる彼女の姿を目撃してしまう。動揺した岡部がダルにメールを送った次の瞬間、世界が一変する。ビルの外には人だかりができ、屋上には墜落した「人工衛星」が突き刺さっていた。世界線をめぐる物語はここから動き出す。旧ビルは2011年に解体・建て替えられ、2014年に開業した新ビルは作中の外観とは異なる。",
+     "access": "JR秋葉原駅電気街口を出て駅前を渡ればすぐ、徒歩約1分。住所は千代田区外神田1-15-16。",
+     "bestTime": "物語の舞台は真夏の7月末。夏に訪れるといちばん臨場感がある。夜は看板が灯り、作中の秋葉原らしさが増す。",
+     "tips": "営業時間10:00〜20:00（B1飲食店は別）。屋上は通常非公開で、公式コラボ時は別途告知される。店内撮影は店員に確認を。入口付近に長く立ち止まらないこと。",
+     "accessPointName": "JR秋葉原駅 電気街口"
+    },
+    "en": {
+     "placeName": "Akihabara Radio Kaikan (Chiyoda, Tokyo)",
+     "sceneTitle": "The “satellite” in the building",
+     "episode": "TV anime · Episode 1",
+     "highlight": "Everything in Steins;Gate starts at this building. In Episode 1 Okabe comes here for a time-travel press conference and meets Kurisu — and then, suddenly, an unidentified “satellite” is sticking out of the roof. That image became the series' biggest hook and made Radio Kaikan the defining pilgrimage spot in Akihabara. The real building has staged a satellite on its roof for the series and hosted several official tie-ins since; step out of the Electric Town exit, look up, and you are at the story's starting line.",
+     "story": "On 28 July 2010 Okabe and Mayuri go to Radio Kaikan for Dr Nakabachi's press conference on time travel, Mayuri playing the capsule-toy machines inside. Okabe clashes with the young genius Kurisu Makise there, only to stumble on her lying in a pool of blood later in the building. In a panic he texts Daru — and in the next instant the world shifts: a crowd has gathered outside, and a crashed “satellite” is jutting from the roof. The story of world lines begins here. The old building was demolished in 2011 and a new one opened in 2014, so it looks different from the anime.",
+     "access": "Leave JR Akihabara Station by the Electric Town Exit and cross the station front: about 1 min. Address: 1-15-16 Sotokanda, Chiyoda.",
+     "bestTime": "The story is set in late July, so midsummer feels most immersive; after dark the lit signs make it look more like the anime's Akihabara.",
+     "tips": "Open 10:00–20:00 (B1 restaurants differ). The roof is normally closed and is opened only for announced official events. Ask staff before taking photos in shops, and don't linger in the entrance.",
+     "accessPointName": "JR Akihabara Sta. Electric Town Exit"
+    },
+    "ko": {
+     "placeName": "아키하바라 라디오회관 (도쿄 지요다구)",
+     "sceneTitle": "빌딩에 박힌 '인공위성'",
+     "episode": "TV 애니메이션 · 제1화",
+     "highlight": "『슈타인즈 게이트』의 모든 것은 이 빌딩에서 시작된다. 제1화에서 오카베는 이곳에서 타임머신 발표회를 듣고 쿠리스와 만나는데, 정신을 차려 보니 빌딩 옥상에 정체를 알 수 없는 '인공위성'이 박혀 있다. 이 장면은 작품 최대의 수수께끼로 강렬하게 각인되었고, 라디오회관은 아키하바라를 대표하는 성지가 되었다. 실제 회관은 옥상에 위성을 재현하는 행사를 열었고, 이후에도 공식 컬래버레이션이 여러 번 열렸다. 전기상가 출구를 나와 올려다보면 그곳이 이야기의 출발점이다.",
+     "story": "2010년 7월 28일, 오카베와 마유리는 라디오회관에서 열리는 나카바치 박사의 타임 트래블 이론 발표회에 간다. 마유리는 관내 캡슐 토이를 뽑고 있었다. 발표회장에서 오카베는 천재 소녀 마키세 쿠리스와 말다툼을 벌이지만, 이후 관내에서 피 웅덩이에 쓰러진 그녀를 목격한다. 당황한 오카베가 다루에게 문자를 보낸 순간 세상이 바뀐다. 빌딩 밖에는 사람들이 몰려 있고, 옥상에는 추락한 '인공위성'이 박혀 있었다. 세계선의 이야기는 여기서 시작된다. 옛 건물은 2011년 철거·재건축되어 2014년 새 건물이 문을 열었기에 작중 외관과는 다르다.",
+     "access": "JR 아키하바라역 전기상가 출구로 나와 역 앞을 건너면 바로, 도보 약 1분. 주소는 지요다구 소토칸다 1-15-16.",
+     "bestTime": "이야기의 배경은 한여름 7월 말이라 여름에 가면 가장 실감 난다. 밤에는 간판이 켜져 작중 아키하바라 분위기가 더해진다.",
+     "tips": "영업시간 10:00~20:00(B1 음식점은 별도). 옥상은 평소 비공개이며 공식 컬래버레이션 때 따로 공지된다. 매장 안 촬영은 점원에게 먼저 물어보고, 입구에 오래 서 있지 말자.",
+     "accessPointName": "JR 아키하바라역 전기상가 출구"
+    }
+   }
+  },
+  {
+   "id": "sailormoon-azabu-hikawa",
+   "workID": "sailor-moon",
+   "latitude": 35.65243,
+   "longitude": 139.73128,
+   "sceneHeading": 340,
+   "scenePitch": 5,
+   "arrivalRadius": 40,
+   "spoiler": false,
+   "kind": "scene",
+   "sourceURL": "https://www.city.minato.tokyo.jp/azabuchikusei/mirai/anime01.html",
+   "verified": false,
+   "accessPoint": {
+    "latitude": 35.655386,
+    "longitude": 139.736804
+   },
+   "bestMonths": [
+    4,
+    5,
+    8,
+    10,
+    11
+   ],
+   "text": {
+    "zh-Hans": {
+     "placeName": "麻布氷川神社（东京·港区元麻布）",
+     "sceneTitle": "火野丽的“火川神社”",
+     "episode": "火野丽初登场篇（原作第 3 话 · TV 动画第 10 话）",
+     "highlight": "港区官方介绍，作品中火野丽担任巫女的“火川神社”，原型就是仙台坂上的这座氷川神社；把“氷”换成“火”，正好呼应火之战士水手火星。在漫画和动画里，神社几乎是水手战士们的“据点”，大家常聚在这里商量对策。从麻布十番商店街走上仙台坂，入口的石碑和鸟居一出现，很多老粉都会一下子回到童年。",
+     "story": "麻布一带接连传出怪事：搭上某班巴士的乘客会无故失踪，而传闻的中心就在火川神社附近。月野兔前去调查，遇见了在神社担任巫女、拥有灵力的少女火野丽。真相是敌人在暗中作祟，危急时刻，丽觉醒为火之战士水手火星，加入了战斗。从此，这座神社成了伙伴们最常聚集的地方。据 Time Out 东京介绍，丽的初登场场景就画出了神社入口的大石碑和鸟居。",
+     "access": "麻布十番站 4 号出口，经麻布十番商店街走到仙台坂下，沿坡上行约 3 分钟，神社在右手边。全程约 10 分钟。",
+     "bestTime": "清晨参拜人少、最安静；8 月下旬麻布十番纳凉祭期间，整条商店街非常热闹。",
+     "tips": "这里是仍在祭祀的神社，请先参拜，拍照勿挡参道、勿拍摄正在祈祷的人。麻布十番商店街入口有港区 2024 年设置的水手月亮彩绘井盖第 1 号，可顺路寻访。",
+     "accessPointName": "麻布十番站 4 号出口"
+    },
+    "ja": {
+     "placeName": "麻布氷川神社（東京都港区元麻布）",
+     "sceneTitle": "火野レイの「火川神社」",
+     "episode": "火野レイ初登場回（原作第3話 · TVアニメ第10話）",
+     "highlight": "港区の資料によれば、作中で火野レイが巫女を務める「火川神社」は、仙台坂上に現存するこの氷川神社がモデルといわれる。「氷」を「火」に変えた名は、炎の戦士セーラーマーズにぴったりだ。漫画でもアニメでも、神社はセーラー戦士たちの「たまり場」で、みんなが集まって作戦を練る場所だった。麻布十番商店街から仙台坂を上り、入口の大きな石碑と鳥居が見えた瞬間、子どもの頃に引き戻されるファンも多い。",
+     "story": "麻布で奇妙な事件が続く。あるバスに乗った人が次々と消えてしまうというのだ。噂の中心は火川神社のあたり。調べに来たうさぎは、神社で巫女を務める霊感の強い少女・火野レイと出会う。事件の裏には敵の影があり、窮地の中でレイは炎の戦士セーラーマーズに目覚めて戦いに加わる。以来、この神社は仲間たちがいちばんよく集まる場所になった。タイムアウト東京によれば、レイの初登場回には入口の大きな石碑と鳥居が描かれている。",
+     "access": "麻布十番駅4番出口から麻布十番商店街を抜けて仙台坂下へ。坂を約3分上ると右手に神社。全体で徒歩約10分。",
+     "bestTime": "朝は参拝者が少なく静か。8月下旬の麻布十番納涼まつりの時期は商店街がにぎわう。",
+     "tips": "現役の神社なのでまず参拝を。参道をふさいだり、祈る人を撮ったりしないこと。麻布十番商店街の入口には港区が2024年に設置したセーラームーンのデザインマンホール1号もある。",
+     "accessPointName": "麻布十番駅 4番出口"
+    },
+    "en": {
+     "placeName": "Azabu Hikawa Shrine (Moto-Azabu, Minato, Tokyo)",
+     "sceneTitle": "Rei Hino's “Hikawa Shrine”",
+     "episode": "Rei's debut (manga Act 3 · TV anime Episode 10)",
+     "highlight": "According to Minato City, the shrine where Rei Hino serves as a shrine maiden is modelled on this Hikawa Shrine at the top of Sendai-zaka — with the “ice” character in its name swapped for “fire,” fitting for Sailor Mars, the soldier of fire. In both manga and anime the shrine is the Sailor Guardians' hangout, where the girls gather to plan their next move. Climb Sendai-zaka from the Azabu-Juban shopping street and, the moment the big stone marker and torii come into view, many longtime fans are right back in their childhood.",
+     "story": "Strange things are happening in Azabu: passengers on a certain bus keep vanishing, and the rumours centre on Hikawa Shrine. Usagi goes to investigate and meets Rei Hino, a spiritually gifted girl who serves at the shrine. An enemy is behind the incidents, and at the critical moment Rei awakens as Sailor Mars and joins the fight. From then on, the shrine becomes the friends' favourite meeting place. Time Out Tokyo notes that Rei's debut shows the shrine's large stone marker and torii at the entrance.",
+     "access": "From Azabu-juban Station Exit 4, walk through the Azabu-Juban shopping street to the foot of Sendai-zaka, then about 3 min uphill; the shrine is on the right. About 10 min in all.",
+     "bestTime": "Early mornings are quietest; in late August the Azabu-Juban summer festival fills the shopping street.",
+     "tips": "This is an active shrine: pay your respects first, keep the approach clear and don't photograph people praying. Minato City's Sailor Moon manhole No. 1 (2024) is at the shopping street entrance on the way.",
+     "accessPointName": "Azabu-juban Sta. Exit 4"
+    },
+    "ko": {
+     "placeName": "아자부 히카와 신사 (도쿄 미나토구 모토아자부)",
+     "sceneTitle": "히노 레이의 '히카와 신사'",
+     "episode": "히노 레이 첫 등장(원작 제3화 · TV 애니메이션 제10화)",
+     "highlight": "미나토구 자료에 따르면, 작중 히노 레이가 무녀로 있는 '히카와(火川) 신사'는 센다이자카 위에 있는 이 히카와(氷川) 신사가 모델이라고 한다. '얼음 빙(氷)'을 '불 화(火)'로 바꾼 이름은 불의 전사 세일러 마스에 꼭 맞는다. 만화에서도 애니메이션에서도 신사는 세일러 전사들의 아지트로, 모두가 모여 작전을 짜던 곳이다. 아자부주반 상점가에서 센다이자카를 올라 입구의 큰 비석과 도리이가 보이는 순간, 어린 시절로 돌아가는 팬이 많다.",
+     "story": "아자부에서 기묘한 사건이 이어진다. 어떤 버스를 탄 승객들이 잇달아 사라진다는 것이다. 소문의 중심은 히카와 신사 근처. 조사하러 온 우사기는 신사에서 무녀로 일하는 영감이 강한 소녀 히노 레이와 만난다. 사건 뒤에는 적이 있었고, 위기의 순간 레이는 불의 전사 세일러 마스로 각성해 싸움에 합류한다. 그 뒤로 이 신사는 친구들이 가장 자주 모이는 곳이 되었다. 타임아웃 도쿄에 따르면 레이의 첫 등장 장면에 신사 입구의 큰 비석과 도리이가 그려져 있다.",
+     "access": "아자부주반역 4번 출구에서 아자부주반 상점가를 지나 센다이자카 아래로. 언덕을 약 3분 오르면 오른쪽에 신사가 있다. 전체 도보 약 10분.",
+     "bestTime": "아침에는 참배객이 적어 조용하다. 8월 하순 아자부주반 납량 축제 기간에는 상점가가 북적인다.",
+     "tips": "실제로 제사를 지내는 신사이니 먼저 참배하고, 참배길을 막거나 기도하는 사람을 찍지 말자. 아자부주반 상점가 입구에는 미나토구가 2024년에 설치한 세일러 문 디자인 맨홀 1호도 있다.",
+     "accessPointName": "아자부주반역 4번 출구"
+    }
+   }
+  },
+  {
+   "id": "aobuta-shichirigahama",
+   "workID": "bunny-girl-senpai",
+   "latitude": 35.30626,
+   "longitude": 139.510124,
+   "sceneHeading": 260,
+   "scenePitch": 0,
+   "arrivalRadius": 50,
+   "spoiler": false,
+   "kind": "scene",
+   "sourceURL": "https://www.nippon.com/en/japan-topics/b00124/",
+   "verified": false,
+   "accessPoint": {
+    "latitude": 35.306303,
+    "longitude": 139.510145
+   },
+   "bestMonths": [
+    5,
+    6,
+    9,
+    10
+   ],
+   "text": {
+    "zh-Hans": {
+     "placeName": "江之电七里滨站（神奈川县·镰仓市）",
+     "sceneTitle": "咲太与麻衣的通学站",
+     "episode": "TV 动画 · 第 1 季（通学场景）",
+     "highlight": "《青春猪头》的日常几乎都沿着江之电展开：咲太每天从藤泽搭上这条海边电车，在七里滨站下车走去峰原高中。小小的单线站台，隔着国道就是大海，动画把这份“通学路上的海”画得清澈又安静，咲太和麻衣在站台上并肩等车的画面，也成了系列最有代表性的风景之一。车站旁的七里滨高中被视为峰原高中的原型，海风、电车声和放学时的光线，都和作品里一样。",
+     "story": "咲太的一天从藤泽站开始，换乘江之电一路沿海而行，到七里滨站下车，再走上通往学校的坡道。和麻衣相识之后，这段通学路也变成了两人相处的时间：在不大的站台上一起等车，在车厢里你来我往地斗嘴，下了车并肩走向学校。日本 nippon.com 介绍江之电沿线时特别推荐粉丝来这座车站看看——正是在这个站台上，害羞的咲太和患上“青春期症候群”的麻衣一起等车。这段再平凡不过的通学路，也是整部作品最常出现的风景。",
+     "access": "江之电七里滨站下车即是。出站往南沿行合川走到国道 134 号，过马路就是七里滨海滩，约 3 分钟。",
+     "bestTime": "晴天傍晚最好，夕阳把海面和站台染成橙色；周末江之电很拥挤，平日上午更从容。",
+     "tips": "车站旁的七里滨高中是正在上课的学校，请勿进入校园或拍摄学生。站台狭窄，拍照时注意列车与其他乘客，勿在轨道附近逗留。",
+     "accessPointName": "江之电 七里滨站"
+    },
+    "ja": {
+     "placeName": "江ノ電 七里ヶ浜駅（神奈川県鎌倉市）",
+     "sceneTitle": "咲太と麻衣の通学駅",
+     "episode": "TVアニメ · 第1期（通学シーン）",
+     "highlight": "『青ブタ』の日常はほとんど江ノ電に沿って描かれる。咲太は毎日藤沢から海沿いの電車に乗り、七里ヶ浜駅で降りて峰ヶ原高校へ向かう。小さな単線のホームのすぐ先は国道、その向こうに海。アニメは「通学路の海」を澄んだ静けさで描き、ホームで咲太と麻衣が並んで電車を待つ光景はシリーズを象徴する風景のひとつになった。駅のそばの七里ガ浜高校は峰ヶ原高校のモデルとされ、潮風も電車の音も放課後の光も作品のままだ。",
+     "story": "咲太の一日は藤沢駅から始まる。江ノ電に乗り換えて海沿いを走り、七里ヶ浜駅で降りて学校への坂を上る。麻衣と出会ってからは、この通学路が二人で過ごす時間にもなった。小さなホームで一緒に電車を待ち、車内では軽口を叩き合い、降りれば並んで学校へ。nippon.comは江ノ電沿線の紹介で、照れ屋の咲太が「思春期症候群」を抱えた麻衣と電車を待つこのホームを、ファンにぜひ訪れてほしい場所として挙げている。何気ない通学路こそが、この作品でいちばん多く描かれる風景だ。",
+     "access": "江ノ電七里ヶ浜駅で下車してすぐ。駅から行合川沿いに南へ歩き、国道134号を渡れば七里ヶ浜の海岸。約3分。",
+     "bestTime": "晴れた日の夕方がいちばん。夕日が海とホームを橙色に染める。週末の江ノ電は混雑するので平日午前がゆったり。",
+     "tips": "駅のそばの七里ガ浜高校は授業中の学校。校内に入ったり生徒を撮影したりしないこと。ホームは狭いので電車や他の乗客に注意し、線路付近に立ち止まらないで。",
+     "accessPointName": "江ノ電 七里ヶ浜駅"
+    },
+    "en": {
+     "placeName": "Enoden Shichirigahama Station (Kamakura, Kanagawa)",
+     "sceneTitle": "Sakuta and Mai's commuter stop",
+     "episode": "TV anime · Season 1 (commute scenes)",
+     "highlight": "Aobuta's everyday life runs along the Enoden: each morning Sakuta rides the seaside line from Fujisawa and gets off at Shichirigahama for Minegahara High. The single little platform sits just across the coast road from the sea, and the anime paints that “sea on the way to school” with clear, quiet light; Sakuta and Mai waiting side by side on the platform became one of the series' defining images. Shichirigahama High next to the station is seen as the model for Minegahara, and the sea breeze, train sounds and after-school light are just as they are in the show.",
+     "story": "Sakuta's day starts at Fujisawa Station; he changes to the Enoden, rattles along the coast, gets off at Shichirigahama and climbs the slope to school. Once he meets Mai, the commute becomes their time together: waiting for the train on the small platform, bickering in the carriage, walking to school side by side. Nippon.com's guide to the Enoden singles out this station for fans — it is on this platform that bashful Sakuta waits for the train with Mai, who is suffering from “Adolescence Syndrome.” The most ordinary of commutes is the scenery the series returns to most.",
+     "access": "Right at Enoden Shichirigahama Station. Walk south along the Yukiai River to Route 134 and cross for Shichirigahama Beach, about 3 min.",
+     "bestTime": "Clear late afternoons are best, when the sunset turns the sea and platform orange; the Enoden is packed at weekends, so weekday mornings are calmer.",
+     "tips": "Shichirigahama High beside the station is a working school: don't enter or photograph students. The platform is narrow — mind the trains and other passengers, and don't linger near the tracks.",
+     "accessPointName": "Enoden Shichirigahama Sta."
+    },
+    "ko": {
+     "placeName": "에노덴 시치리가하마역 (가나가와현 가마쿠라시)",
+     "sceneTitle": "사쿠타와 마이의 통학역",
+     "episode": "TV 애니메이션 · 제1기(통학 장면)",
+     "highlight": "『청춘 돼지』의 일상은 대부분 에노덴을 따라 그려진다. 사쿠타는 매일 후지사와에서 바닷가 전철을 타고 시치리가하마역에서 내려 미네가하라 고교로 향한다. 작은 단선 승강장 바로 앞은 국도, 그 너머가 바다다. 애니메이션은 이 '통학길의 바다'를 맑고 고요하게 그렸고, 승강장에서 사쿠타와 마이가 나란히 전철을 기다리는 모습은 시리즈를 상징하는 풍경 중 하나가 되었다. 역 옆 시치리가하마 고교는 미네가하라 고교의 모델로 여겨지며, 바닷바람도 전철 소리도 방과 후의 빛도 작품 그대로다.",
+     "story": "사쿠타의 하루는 후지사와역에서 시작된다. 에노덴으로 갈아타 해안을 따라 달리고, 시치리가하마역에서 내려 학교로 가는 언덕을 오른다. 마이를 만난 뒤로 이 통학길은 두 사람이 함께하는 시간이 되었다. 작은 승강장에서 같이 전철을 기다리고, 차 안에서 티격태격하고, 내리면 나란히 학교로 걷는다. nippon.com은 에노덴 연선을 소개하며 수줍은 사쿠타가 '사춘기 증후군'을 앓는 마이와 함께 전철을 기다리던 이 승강장을 팬들에게 꼭 권한다. 평범한 통학길이야말로 이 작품에서 가장 자주 그려지는 풍경이다.",
+     "access": "에노덴 시치리가하마역에서 내리면 바로. 역에서 유키아이강을 따라 남쪽으로 걸어 국도 134호선을 건너면 시치리가하마 해변, 약 3분.",
+     "bestTime": "맑은 날 늦은 오후가 가장 좋다. 노을이 바다와 승강장을 주황빛으로 물들인다. 주말 에노덴은 붐비니 평일 오전이 여유롭다.",
+     "tips": "역 옆 시치리가하마 고교는 수업 중인 학교다. 교내에 들어가거나 학생을 촬영하지 말 것. 승강장이 좁으니 전철과 다른 승객에 주의하고 선로 근처에 머물지 말자.",
+     "accessPointName": "에노덴 시치리가하마역"
+    }
+   }
+  },
+  {
+   "id": "bsd-red-brick-warehouse",
+   "workID": "bungo-stray-dogs",
+   "latitude": 35.45228,
+   "longitude": 139.64205,
+   "sceneHeading": 60,
+   "scenePitch": 5,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "kind": "scene",
+   "sourceURL": "https://www.navitime.co.jp/walkingcourse/140242/",
+   "verified": false,
+   "accessPoint": {
+    "latitude": 35.449922,
+    "longitude": 139.637162
+   },
+   "bestMonths": [
+    4,
+    5,
+    11,
+    12
+   ],
+   "text": {
+    "zh-Hans": {
+     "placeName": "横滨红砖仓库（神奈川县·横滨市中区）",
+     "sceneTitle": "敦与镜花的横滨“约会”",
+     "episode": "TV 动画 · 第 1 季第 9 话",
+     "highlight": "《文豪野犬》把横滨当作主角之一，而第 9 话的“约会”是整部作品里最温柔的一段：被迫当杀手的少女镜花，第一次像普通孩子一样逛街、看风景。红砖仓库正是两人走过的地点之一，海港、砖墙与远处的摩天轮同框，让这段短暂的平静格外动人。也因为这一集，粉丝来横滨巡礼时，几乎都会把这里排进路线。",
+     "story": "少女泉镜花被港口黑手党利用异能“夜叉白雪”，被迫成为暗杀者。作为交出幕后黑手的条件，她只要求吃一顿最爱的高级汤豆腐。国木田质问敦，是否有承担她所背负一切的觉悟；敦却始终下不了决心把她交给军警，于是带着镜花在横滨街头“约会”，逛遍港口一带的景点，红砖仓库也在其中。另一边，失踪的太宰正被关在港口黑手党的地牢里，芥川对着这位背叛组织的“前上司”冷言相讥——短暂的平静背后，风暴正在逼近。",
+     "access": "港未来线马车道站或日本大通站出站，步行约 6 分钟；从马车道方向过万国桥，前方的红砖建筑就是。",
+     "bestTime": "傍晚到入夜，仓库亮灯、对岸港未来夜景同框最美；11 月底起有圣诞市集，冬季还有户外冰场。",
+     "tips": "1 号馆 10:00–19:00、2 号馆 11:00–20:00，除法定检查日外每天营业，周边广场可自由进出。周末与活动日人潮拥挤，请勿占用通道拍摄。",
+     "accessPointName": "港未来线 马车道站"
+    },
+    "ja": {
+     "placeName": "横浜赤レンガ倉庫（神奈川県横浜市中区）",
+     "sceneTitle": "敦と鏡花のヨコハマ「デート」",
+     "episode": "TVアニメ · 第1期第9話",
+     "highlight": "『文豪ストレイドッグス』はヨコハマそのものを主役のひとりとして描くが、第9話の「デート」は作品の中でもいちばんやさしいエピソードだ。暗殺者に仕立てられた少女・鏡花が、初めて普通の子どものように街を歩き、景色を眺める。赤レンガ倉庫は二人が巡った場所のひとつで、港とレンガの壁と遠くの観覧車が並ぶ風景が、つかの間の穏やかさをいっそう切なく見せる。この回をきっかけに、横浜を巡るファンの多くがここをルートに加えている。",
+     "story": "異能「夜叉白雪」をポートマフィアに利用され、暗殺者に仕立てられた少女・泉鏡花。黒幕を明かす代わりに彼女が望んだのは、好物の高級湯豆腐だけだった。国木田は敦に、彼女が背負うすべてを引き受ける覚悟があるのかと問う。どうしても軍警に引き渡せないまま、敦は鏡花とヨコハマの街を「デート」し、港の名所を巡る。赤レンガ倉庫もそのひとつだ。その頃、行方不明の太宰はポートマフィアの地下牢につながれ、芥川は裏切り者の「元上司」をののしっていた。つかの間の平穏の裏で、嵐が迫っている。",
+     "access": "みなとみらい線馬車道駅または日本大通り駅から徒歩約6分。馬車道側から万国橋を渡れば、正面に赤レンガの建物が見える。",
+     "bestTime": "夕方から夜、ライトアップされた倉庫とみなとみらいの夜景が並ぶ時間がいちばん。11月下旬からはクリスマスマーケット、冬はスケートリンクも。",
+     "tips": "1号館10:00〜19:00、2号館11:00〜20:00、法定点検日を除き毎日営業。周辺の広場は出入り自由。週末やイベント日は混むので通路をふさいで撮影しないこと。",
+     "accessPointName": "みなとみらい線 馬車道駅"
+    },
+    "en": {
+     "placeName": "Yokohama Red Brick Warehouse (Naka, Yokohama)",
+     "sceneTitle": "Atsushi and Kyoka's Yokohama “date”",
+     "episode": "TV anime · Season 1, Episode 9",
+     "highlight": "Bungo Stray Dogs treats Yokohama almost as a character, and Episode 9's “date” is the gentlest stretch of the whole series: Kyoka, a girl forced to work as an assassin, gets to wander the city and take in the sights like an ordinary kid for the first time. The Red Brick Warehouse is one of the places the pair visit, the harbour, brick walls and distant Ferris wheel framing a calm that you know won't last. Thanks to this episode, almost every fan touring Yokohama puts it on the route.",
+     "story": "Kyoka Izumi has been turned into an assassin by the Port Mafia, which exploits her ability, Demon Snow. In exchange for naming the mastermind, all she asks for is her favourite fancy boiled tofu. Kunikida asks Atsushi whether he is ready to take on everything she carries; unable to hand her over to the military police, Atsushi takes her on a “date” around Yokohama's harbour sights, the Red Brick Warehouse among them. Meanwhile the missing Dazai is chained in the Port Mafia's cells, taunted by Akutagawa as the “former boss” who betrayed them — a storm is gathering behind the brief calm.",
+     "access": "About 6 min on foot from Bashamichi or Nihon-odori Station (Minatomirai Line); from Bashamichi, cross Bankoku Bridge and the brick buildings are straight ahead.",
+     "bestTime": "Dusk into night, when the warehouses are lit against the Minato Mirai skyline, is most beautiful; a Christmas market runs from late November and there's an outdoor rink in winter.",
+     "tips": "Building 1 opens 10:00–19:00 and Building 2 11:00–20:00, every day except legal inspection days; the surrounding plazas are always open. Weekends and event days are crowded — don't block walkways for photos.",
+     "accessPointName": "Bashamichi Sta. (Minatomirai Line)"
+    },
+    "ko": {
+     "placeName": "요코하마 아카렌가 창고 (가나가와현 요코하마시 나카구)",
+     "sceneTitle": "아츠시와 쿄카의 요코하마 '데이트'",
+     "episode": "TV 애니메이션 · 제1기 제9화",
+     "highlight": "『문호 스트레이독스』는 요코하마를 주인공 중 하나로 그리지만, 제9화의 '데이트'는 작품 전체에서 가장 다정한 에피소드다. 암살자로 이용당하던 소녀 쿄카가 처음으로 평범한 아이처럼 거리를 걷고 풍경을 바라본다. 아카렌가 창고는 두 사람이 둘러본 장소 중 하나로, 항구와 붉은 벽돌 벽, 멀리 보이는 관람차가 어우러진 풍경이 잠깐의 평온을 더욱 애틋하게 만든다. 이 에피소드 덕분에 요코하마를 순례하는 팬 대부분이 이곳을 코스에 넣는다.",
+     "story": "이능력 '야차 백설'을 포트마피아에게 이용당해 암살자가 된 소녀 이즈미 쿄카. 흑막을 밝히는 대가로 그녀가 원한 것은 좋아하는 고급 유두부 한 그릇뿐이었다. 쿠니키다는 아츠시에게 그녀가 짊어진 모든 것을 떠안을 각오가 있느냐고 묻는다. 끝내 그녀를 군경에 넘기지 못한 아츠시는 쿄카와 요코하마 거리를 '데이트'하며 항구의 명소를 돌고, 아카렌가 창고도 그중 하나였다. 그 무렵 실종된 다자이는 포트마피아의 지하 감옥에 갇혀 있었고, 아쿠타가와는 조직을 배신한 '전 상사'를 비웃는다. 짧은 평온 뒤로 폭풍이 다가오고 있었다.",
+     "access": "미나토미라이선 바샤미치역 또는 니혼오도리역에서 도보 약 6분. 바샤미치 쪽에서 반코쿠교를 건너면 정면에 붉은 벽돌 건물이 보인다.",
+     "bestTime": "해 질 녘부터 밤까지, 조명이 켜진 창고와 미나토미라이 야경이 함께 보일 때가 가장 아름답다. 11월 하순부터 크리스마스 마켓, 겨울에는 야외 스케이트장도 열린다.",
+     "tips": "1호관 10:00~19:00, 2호관 11:00~20:00, 법정 점검일을 제외하고 매일 영업하며 주변 광장은 자유롭게 드나들 수 있다. 주말과 행사일은 붐비니 통로를 막고 촬영하지 말자.",
+     "accessPointName": "미나토미라이선 바샤미치역"
+    }
+   }
+  },
+  {
+   "id": "drrr-sunshine-60-dori",
+   "workID": "durarara",
+   "latitude": 35.72941,
+   "longitude": 139.71702,
+   "sceneHeading": 95,
+   "scenePitch": 20,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "kind": "scene",
+   "sourceURL": "https://livejapan.com/en/in-tokyo/in-pref-tokyo/in-ikebukuro/article-a0000122/",
+   "verified": false,
+   "accessPoint": {
+    "latitude": 35.729998,
+    "longitude": 139.712157
+   },
+   "bestMonths": [
+    4,
+    5,
+    10,
+    11
+   ],
+   "text": {
+    "zh-Hans": {
+     "placeName": "池袋 Sunshine 60 大道 · Sunshine City 前（东京·丰岛区）",
+     "sceneTitle": "“达拉斯”集会之夜",
+     "episode": "TV 动画第 1 季 · 第 11 话",
+     "highlight": "在《无头骑士异闻录》里，池袋不是背景，而是主角。从池袋站东口沿 Sunshine 60 大道走到 Sunshine City 前，第 1 季的大部分日常与骚动都发生在这条路线上；第 11 话“达拉斯”集会、赛尔提在众人面前亮出“无头”之躯，更是系列最热血的名场面。丰岛区把这部作品当作“漫画动画之城”的招牌，办过官方数字集章和彩绘巴士，走在这条街上，很难不想象黑色摩托呼啸而过。",
+     "story": "为了查清红发少女和失踪少女的真相，帝人通过网络把素未谋面的“达拉斯”成员召集到 Sunshine City 前，与矢雾波江当面交涉。当波江的手下围上来时，他按下发送键——在场几乎所有人的手机同时响起，原来周围这一大群人全都是“达拉斯”。紧接着，赛尔提骑着黑色摩托冲进人群，击退了波江的手下，也在众人面前露出了没有头颅的身体。惊呼声中，都市传说“无头骑士”第一次真正站在了池袋的人群中央。",
+     "access": "JR 池袋站东口出站，过明治通进入 Sunshine 60 大道，沿商店街一直走到首都高架下的 Sunshine City 前，约 8 分钟。",
+     "bestTime": "入夜后霓虹亮起、人潮涌动时最像动画里的池袋；周末白天非常拥挤，平日早上较清静。",
+     "tips": "这里是繁华的商业街，拍照请靠边，勿阻挡行人与车辆。附近的东池袋中央公园、乙女路也是作品中的场景，可以一并散步巡礼。",
+     "accessPointName": "JR 池袋站 东口"
+    },
+    "ja": {
+     "placeName": "池袋 サンシャイン60通り · サンシャインシティ前（東京都豊島区）",
+     "sceneTitle": "ダラーズ集会の夜",
+     "episode": "TVアニメ第1期 · 第11話",
+     "highlight": "『デュラララ!!』で池袋は背景ではなく主役だ。池袋駅東口からサンシャイン60通りを抜けてサンシャインシティ前へ、第1期の日常と騒動の多くがこの道筋で起きる。なかでも第11話、ダラーズの集会で、セルティが群衆の前で「首のない」体をさらす場面はシリーズ屈指の名シーン。豊島区は「マンガ・アニメのまち」の顔としてこの作品と公式のデジタルスタンプラリーやラッピングバスを展開してきた。この通りを歩けば、黒いバイクが駆け抜ける姿を想像せずにはいられない。",
+     "story": "赤い髪の少女と行方不明の少女の真相を確かめるため、帝人はネットを通じて、互いに顔も知らないダラーズのメンバーをサンシャインシティ前に集め、矢霧波江と直接交渉する。波江の部下たちが迫ったとき、帝人が送信ボタンを押すと、その場にいたほぼ全員の携帯が一斉に鳴る――周りの大勢の人々は、みなダラーズだったのだ。続いてセルティが黒いバイクで群衆の中へ飛び込み、波江の部下を退け、首のない体を人々の前にさらす。どよめきの中、都市伝説「首なしライダー」が初めて池袋の人々の真ん中に姿を現した。",
+     "access": "JR池袋駅東口から明治通りを渡ってサンシャイン60通りへ。商店街を抜けて首都高高架下のサンシャインシティ前まで約8分。",
+     "bestTime": "ネオンが灯り人波があふれる夜がいちばんアニメの池袋らしい。週末の昼は大混雑、平日の朝は比較的静か。",
+     "tips": "にぎやかな商店街なので撮影は端に寄って、歩行者や車の妨げにならないように。近くの東池袋中央公園や乙女ロードも作中の舞台なので、あわせて散策を。",
+     "accessPointName": "JR池袋駅 東口"
+    },
+    "en": {
+     "placeName": "Sunshine 60-dori to Sunshine City, Ikebukuro (Toshima, Tokyo)",
+     "sceneTitle": "The night the Dollars gather",
+     "episode": "TV anime Season 1 · Episode 11",
+     "highlight": "In Durarara!!, Ikebukuro isn't a backdrop — it's the lead. From the station's East Exit along Sunshine 60-dori to the front of Sunshine City, most of Season 1's daily life and chaos plays out on this route, and Episode 11 — the Dollars' gathering, where Celty bares her headless body before the crowd — is the series' most electrifying moment. Toshima City has made the show a flagship of its “manga and anime town” brand with official digital stamp rallies and wrapped buses, and walking this street it's hard not to imagine a black motorbike roaring past.",
+     "story": "Determined to learn the truth about the red-haired girl and a missing girl, Mikado uses the internet to gather Dollars members — strangers to one another — in front of Sunshine City, and confronts Namie Yagiri face to face. As her men close in, he hits send, and nearly every phone in the crowd rings at once: everyone around them is a Dollar. Then Celty charges into the crowd on her black bike, drives off Namie's men and reveals her headless body to all. Amid gasps, the urban legend of the Headless Rider stands for the first time in the middle of Ikebukuro's crowd.",
+     "access": "From JR Ikebukuro Station East Exit, cross Meiji-dori into Sunshine 60-dori and follow the shopping street to Sunshine City under the expressway viaduct, about 8 min.",
+     "bestTime": "At night, with the neon on and crowds surging, it looks most like the anime; weekend afternoons are packed, weekday mornings calmer.",
+     "tips": "This is a busy shopping street: step aside for photos and don't block pedestrians or traffic. Nearby Higashi-Ikebukuro Central Park and Otome Road also appear in the series and make an easy add-on walk.",
+     "accessPointName": "JR Ikebukuro Sta. East Exit"
+    },
+    "ko": {
+     "placeName": "이케부쿠로 선샤인60 거리 · 선샤인시티 앞 (도쿄 도시마구)",
+     "sceneTitle": "달러즈 집회의 밤",
+     "episode": "TV 애니메이션 제1기 · 제11화",
+     "highlight": "『듀라라라!!』에서 이케부쿠로는 배경이 아니라 주인공이다. 이케부쿠로역 동쪽 출구에서 선샤인60 거리를 지나 선샤인시티 앞까지, 제1기의 일상과 소동 대부분이 이 길 위에서 벌어진다. 특히 제11화, 달러즈 집회에서 셀티가 군중 앞에 '목 없는' 몸을 드러내는 장면은 시리즈 최고의 명장면이다. 도시마구는 '만화·애니메이션의 도시'의 얼굴로 이 작품과 공식 디지털 스탬프 랠리, 래핑 버스를 진행해 왔다. 이 거리를 걷다 보면 검은 오토바이가 질주하는 모습을 떠올리지 않을 수 없다.",
+     "story": "붉은 머리 소녀와 실종된 소녀의 진실을 밝히기 위해, 미카도는 인터넷으로 서로 얼굴도 모르는 달러즈 멤버들을 선샤인시티 앞에 모으고 야기리 나미에와 직접 담판을 짓는다. 나미에의 부하들이 다가오자 그가 전송 버튼을 누르고, 그 자리에 있던 거의 모든 사람의 휴대전화가 동시에 울린다. 주위의 수많은 사람이 모두 달러즈였던 것이다. 이어 셀티가 검은 오토바이로 군중 속에 뛰어들어 나미에의 부하들을 물리치고, 사람들 앞에 머리 없는 몸을 드러낸다. 탄성 속에서 도시 전설 '목 없는 라이더'가 처음으로 이케부쿠로 군중 한가운데에 섰다.",
+     "access": "JR 이케부쿠로역 동쪽 출구에서 메이지도리를 건너 선샤인60 거리로. 상점가를 따라 수도고속도로 고가 아래 선샤인시티 앞까지 약 8분.",
+     "bestTime": "네온이 켜지고 인파가 넘치는 밤이 가장 애니메이션 속 이케부쿠로 같다. 주말 낮은 매우 붐비고 평일 아침은 비교적 한산하다.",
+     "tips": "번화한 상점가이니 촬영은 가장자리에서 하고 보행자와 차량을 막지 말자. 근처 히가시이케부쿠로 중앙공원과 오토메 로드도 작중 무대라 함께 산책하기 좋다.",
+     "accessPointName": "JR 이케부쿠로역 동쪽 출구"
+    }
+   }
+  },
+  {
+   "id": "conan-goryokaku",
+   "workID": "conan-million-dollar-pentagram",
+   "latitude": 41.794592,
+   "longitude": 140.753959,
+   "sceneHeading": 40,
+   "scenePitch": -25,
+   "arrivalRadius": 50,
+   "spoiler": false,
+   "kind": "scene",
+   "sourceURL": "https://www.city.hakodate.hokkaido.jp/docs/2024030400041/file_contents/0325-03.pdf",
+   "verified": false,
+   "accessPoint": {
+    "latitude": 41.789162,
+    "longitude": 140.752887
+   },
+   "bestMonths": [
+    4,
+    5,
+    12,
+    1,
+    2
+   ],
+   "text": {
+    "zh-Hans": {
+     "placeName": "五棱郭塔 · 特别史迹五棱郭（北海道·函馆市）",
+     "sceneTitle": "星形要塞“五棱星”",
+     "episode": "剧场版第 27 部（2024）",
+     "highlight": "片名里的“五棱星”，说的正是这座星形要塞。五棱郭是箱馆战争中旧幕府军的最后据点，也是土方岁三战死的地方，更是电影的核心舞台，在预告片里反复出现，“星形”线索也贯穿全片。登上五棱郭塔，五个尖角的城郭在脚下完整展开，星形护城河一目了然——那一刻，最能体会柯南剧场版为什么要把故事放在函馆。",
+     "story": "一把与土方岁三有关的日本刀，牵出了箱馆战争留下的谜团。怪盗基德盯上了它，柯南与赶来函馆的服部平次、远山和叶也被卷入其中，城中各处浮现的“星形”图案成了解谜的关键。电影公映前后，函馆市参与的“函馆×名侦探柯南”实行委员会推出了全城集章、联名电车和巴士等活动，五棱郭塔入口还挂出过基德的预告信。如今登上塔顶，依然能从高空俯瞰与片名同形的五棱星。",
+     "access": "函馆市电“五棱郭公园前”下车，沿指示牌步行约 10 分钟到五棱郭塔，塔旁就是五棱郭公园。",
+     "bestTime": "4 月下旬至 5 月初樱花开满星形城郭最美；冬季积雪后，白色的五角星轮廓格外清晰。",
+     "tips": "五棱郭塔 9:00–18:00 全年无休，展望台成人 1,200 日元（17:50 停止售票）。五棱郭公园免费入园。塔内展出土方岁三像，可与电影对照着看。",
+     "accessPointName": "函馆市电 五棱郭公园前站"
+    },
+    "ja": {
+     "placeName": "五稜郭タワー · 特別史跡五稜郭（北海道函館市）",
+     "sceneTitle": "星形の城塞「五稜星」",
+     "episode": "劇場版第27作（2024）",
+     "highlight": "タイトルの「五稜星（みちしるべ）」が指すのは、まさにこの星形の城塞だ。五稜郭は箱館戦争で旧幕府軍が最後に立てこもった拠点であり、土方歳三が命を落とした地。映画でも中心的な舞台として予告編に何度も登場し、「星形」の手がかりが全編を貫く。五稜郭タワーに上れば、五つの角を持つ城郭が足もとに広がり、星形の堀がひと目でわかる。コナンの劇場版がなぜ函館を選んだのか、その瞬間に腑に落ちる。",
+     "story": "土方歳三ゆかりの日本刀をきっかけに、箱館戦争が残した謎が動き出す。怪盗キッドが刀を狙い、コナンは函館にやって来た服部平次、遠山和葉とともに事件に巻き込まれていく。街のあちこちに現れる「星形」の図形が謎解きの鍵だ。公開に合わせ、函館市も参画する「函館×名探偵コナン」特別イベント実行委員会がまち巡りスタンプラリーやラッピング電車・バスを展開し、五稜郭タワーの入口にはキッドの予告状も掲げられた。いまもタワーの展望台から、タイトルと同じ形の星を見下ろせる。",
+     "access": "函館市電「五稜郭公園前」で下車し、案内に沿って徒歩約10分で五稜郭タワー。タワーの隣が五稜郭公園。",
+     "bestTime": "4月下旬〜5月上旬は桜が星形の城郭を埋めつくす。冬は雪が積もると白い星の輪郭がくっきり浮かぶ。",
+     "tips": "五稜郭タワーは9:00〜18:00・年中無休、展望料金は大人1,200円（チケット販売は17:50まで）。五稜郭公園は入園無料。タワー内の土方歳三像も映画とあわせて見たい。",
+     "accessPointName": "函館市電 五稜郭公園前"
+    },
+    "en": {
+     "placeName": "Goryokaku Tower & Goryokaku Fort (Hakodate, Hokkaido)",
+     "sceneTitle": "The star-shaped “pentagram” fort",
+     "episode": "27th Detective Conan film (2024)",
+     "highlight": "The “pentagram” in the title is this star-shaped fortress. Goryokaku was the last stronghold of the shogunate forces in the Battle of Hakodate and the place where Toshizo Hijikata fell — and it's the heart of the film, appearing again and again in the trailers while star-shaped clues run through the whole story. Ride up Goryokaku Tower and the five-pointed fort spreads out beneath you, its star-shaped moat crisp and clear: the moment you understand why Conan's film had to be set in Hakodate.",
+     "story": "A Japanese sword tied to Toshizo Hijikata reawakens a mystery left by the Battle of Hakodate. Kaito Kid sets his sights on it, and Conan is pulled in alongside Heiji Hattori and Kazuha Toyama, who have come to Hakodate; star shapes cropping up across the city hold the key. Around the release, a Hakodate × Detective Conan committee that included the city ran a town-wide stamp rally and wrapped trams and buses, and Kid's calling card even hung at the tower's entrance. From the observation deck you can still look down on the star that gives the film its name.",
+     "access": "Take the Hakodate tram to Goryokaku-koen-mae and follow the signs about 10 min to Goryokaku Tower; Goryokaku Park is right beside it.",
+     "bestTime": "Late April to early May, when cherry blossoms fill the star, is loveliest; after winter snow the white five-pointed outline stands out sharply.",
+     "tips": "Goryokaku Tower is open 9:00–18:00 every day; observation deck ¥1,200 for adults (tickets until 17:50). Goryokaku Park is free. A statue of Hijikata inside the tower pairs well with the film.",
+     "accessPointName": "Goryokaku-koen-mae (tram)"
+    },
+    "ko": {
+     "placeName": "고료카쿠 타워 · 특별사적 고료카쿠 (홋카이도 하코다테시)",
+     "sceneTitle": "별 모양 요새 '펜타그램'",
+     "episode": "극장판 제27탄 (2024)",
+     "highlight": "제목의 '펜타그램(五稜星)'이 가리키는 것이 바로 이 별 모양 요새다. 고료카쿠는 하코다테 전쟁에서 구 막부군이 마지막까지 버틴 거점이자 히지카타 도시조가 목숨을 잃은 곳이다. 영화에서도 핵심 무대로 예고편에 거듭 등장하고, '별 모양' 단서가 작품 전체를 관통한다. 고료카쿠 타워에 오르면 다섯 꼭짓점의 성곽이 발아래 펼쳐지고 별 모양 해자가 한눈에 들어온다. 코난 극장판이 왜 하코다테를 골랐는지 그 순간 이해가 된다.",
+     "story": "히지카타 도시조와 얽힌 일본도를 계기로 하코다테 전쟁이 남긴 수수께끼가 움직이기 시작한다. 괴도 키드가 그 칼을 노리고, 코난은 하코다테에 온 핫토리 헤이지, 토야마 카즈하와 함께 사건에 휘말린다. 도시 곳곳에 나타나는 '별 모양' 도형이 수수께끼를 푸는 열쇠다. 개봉에 맞춰 하코다테시도 참여한 '하코다테×명탐정 코난' 실행위원회가 도시 순회 스탬프 랠리와 래핑 전차·버스를 운영했고, 고료카쿠 타워 입구에는 키드의 예고장까지 걸렸다. 지금도 타워 전망대에서 제목과 같은 모양의 별을 내려다볼 수 있다.",
+     "access": "하코다테 노면전차 '고료카쿠코엔마에'에서 내려 안내판을 따라 약 10분 걸으면 고료카쿠 타워. 타워 바로 옆이 고료카쿠 공원이다.",
+     "bestTime": "4월 하순~5월 초 벚꽃이 별 모양 성곽을 가득 채울 때가 가장 아름답다. 겨울에 눈이 쌓이면 하얀 별 윤곽이 또렷하게 드러난다.",
+     "tips": "고료카쿠 타워는 9:00~18:00 연중무휴, 전망대 성인 1,200엔(매표는 17:50까지). 고료카쿠 공원은 무료. 타워 안 히지카타 도시조 상도 영화와 함께 보면 좋다.",
+     "accessPointName": "하코다테 노면전차 고료카쿠코엔마에"
+    }
+   }
+  },
+  {
+   "id": "yurionice-karatsu-castle",
+   "workID": "yuri-on-ice",
+   "latitude": 33.451455,
+   "longitude": 129.979924,
+   "sceneHeading": 325,
+   "scenePitch": 10,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "kind": "scene",
+   "sourceURL": "https://www.waseda.jp/inst/weekly/?p=43625",
+   "verified": false,
+   "accessPoint": {
+    "latitude": 33.446273,
+    "longitude": 129.967751
+   },
+   "bestMonths": [
+    4,
+    5,
+    11
+   ],
+   "text": {
+    "zh-Hans": {
+     "placeName": "唐津城与舞鹤桥（佐贺县·唐津市）",
+     "sceneTitle": "海湾边的长谷津城",
+     "episode": "TV 动画 · 长谷津的日常",
+     "highlight": "勇利的故乡“长谷津”以唐津为原型，唐津城则是动画里长谷津城的模型：海湾边小山上的天守阁，在许多故乡场景里静静守望。城山的石阶上，还有勇利和维克托并肩坐过的长椅。动画播出后，佐贺县办起“SAGA!!! on ICE”联动，截至 2017 年 5 月，约 2 万名来自 27 个国家的粉丝来到唐津，这座城下町也成了冰迷心中的“第二故乡”。",
+     "story": "阔别五年回到长谷津的勇利，重新走过熟悉的街道、海边与城山。维克托突然出现在胜生家的温泉旅馆，宣布要当他的教练，两人从此在这座小城里一起练习、散步、聊天，慢慢磨合出教练与选手之间的默契。早稻田大学的报道介绍，在唐津城的石阶上能找到动画中勇利和维克托并肩坐过的长椅；从城上望出去的唐津湾与松浦川夜景，也与动画里长谷津的天际线如出一辙。",
+     "access": "JR 唐津站出站往东北步行约 20 分钟到唐津城（城山有付费电梯），城山东侧松浦川上就是舞鹤桥。",
+     "bestTime": "傍晚到入夜，从舞鹤桥一带望向亮灯的天守阁最像动画；11 月 2–4 日唐津宫日节期间全城沸腾。",
+     "tips": "天守阁一般 9:00–17:00 开放、需购票，年末休馆，出发前请以官网为准。城山石阶较陡，雨天注意脚下；长椅是公共设施，请轮流拍照。",
+     "accessPointName": "JR 唐津站"
+    },
+    "ja": {
+     "placeName": "唐津城と舞鶴橋（佐賀県唐津市）",
+     "sceneTitle": "海辺の長谷津城",
+     "episode": "TVアニメ · 長谷津の日々",
+     "highlight": "勇利の故郷「長谷津」は唐津がモデル。唐津城は作中の長谷津城のモデルとなった城で、湾に面した小山の天守が、故郷の場面の数々を静かに見守っている。城山の石段には、勇利とヴィクトルが並んで座ったベンチもある。放送後、佐賀県は「サーガ!!! on ICE」コラボを展開し、2017年5月までに27か国から約2万人のファンが唐津を訪れた。この城下町は、ファンにとって「第二のふるさと」になった。",
+     "story": "5年ぶりに長谷津へ帰った勇利は、見慣れた街並みや海辺、城山をもう一度歩く。突然実家の温泉旅館に現れたヴィクトルが彼のコーチになると宣言し、二人はこの小さな町で練習し、散歩し、語り合いながら、コーチと選手としての呼吸を少しずつ合わせていく。早稲田大学の記事によれば、唐津城の石段にはアニメで勇利とヴィクトルが並んで座ったベンチがあり、城から望む唐津湾と松浦川の夜景も、作中の長谷津のスカイラインそのものだという。",
+     "access": "JR唐津駅から北東へ徒歩約20分で唐津城（城山に有料エレベーターあり）。城山の東、松浦川に架かるのが舞鶴橋。",
+     "bestTime": "夕方から夜、舞鶴橋のあたりからライトアップされた天守を望むとアニメそのもの。11月2〜4日の唐津くんちの時期は町中が熱気に包まれる。",
+     "tips": "天守閣はおおむね9:00〜17:00開館・有料、年末休館。最新情報は公式サイトで確認を。城山の石段は急なので雨の日は足もとに注意。ベンチは公共の場所なので譲り合って撮影を。",
+     "accessPointName": "JR唐津駅"
+    },
+    "en": {
+     "placeName": "Karatsu Castle & Maizuru Bridge (Karatsu, Saga)",
+     "sceneTitle": "Hasetsu Castle by the bay",
+     "episode": "TV anime · life in Hasetsu",
+     "highlight": "Yuri's hometown of Hasetsu is based on Karatsu, and Karatsu Castle is the model for the anime's Hasetsu Castle: a keep on a little hill above the bay, watching quietly over scene after hometown scene. On the castle's stone steps you'll even find the bench where Yuri and Victor sit together. After the broadcast, Saga Prefecture ran its “Saga!!! on Ice” campaign, and by May 2017 some 20,000 fans from 27 countries had visited Karatsu — the castle town became a second home for skating fans.",
+     "story": "Back in Hasetsu after five years away, Yuri walks the familiar streets, seafront and castle hill once more. Then Victor turns up at his family's hot-spring inn announcing he'll be his coach, and in this small town the two train, wander and talk, slowly finding their rhythm as coach and skater. Waseda University's report notes a bench on the castle steps where Yuri and Victor sit in the anime, and says the night view of Karatsu Bay and the Matsuura River from the castle matches Hasetsu's skyline in the show.",
+     "access": "From JR Karatsu Station walk about 20 min north-east to Karatsu Castle (paid lift up the hill); Maizuru Bridge spans the Matsuura River on the castle's east side.",
+     "bestTime": "Dusk into evening, looking at the lit keep from around Maizuru Bridge, feels just like the anime; during Karatsu Kunchi on 2–4 November the whole town buzzes.",
+     "tips": "The keep is usually open 9:00–17:00 with a fee and closes over New Year — check the official site. The castle steps are steep, so take care in rain; the bench is public, so take turns for photos.",
+     "accessPointName": "JR Karatsu Sta."
+    },
+    "ko": {
+     "placeName": "가라쓰성과 마이즈루교 (사가현 가라쓰시)",
+     "sceneTitle": "바닷가의 하세츠성",
+     "episode": "TV 애니메이션 · 하세츠의 나날",
+     "highlight": "유리의 고향 '하세츠'는 가라쓰가 모델이고, 가라쓰성은 작중 하세츠성의 모델이 된 성이다. 만을 마주한 작은 언덕 위의 천수각이 고향 장면들을 조용히 지켜본다. 성산 돌계단에는 유리와 빅토르가 나란히 앉았던 벤치도 있다. 방송 후 사가현은 '사가!!! on ICE' 컬래버레이션을 열었고, 2017년 5월까지 27개국에서 약 2만 명의 팬이 가라쓰를 찾았다. 이 성하 마을은 팬들에게 '제2의 고향'이 되었다.",
+     "story": "5년 만에 하세츠로 돌아온 유리는 익숙한 거리와 바닷가, 성산을 다시 걷는다. 갑자기 집안 온천 여관에 나타난 빅토르가 그의 코치가 되겠다고 선언하고, 두 사람은 이 작은 마을에서 함께 연습하고 산책하고 이야기를 나누며 코치와 선수로서 호흡을 조금씩 맞춰 간다. 와세다대학 기사에 따르면 가라쓰성 돌계단에 애니메이션에서 유리와 빅토르가 나란히 앉은 벤치가 있고, 성에서 바라보는 가라쓰만과 마쓰우라강의 야경도 작중 하세츠의 스카이라인 그대로라고 한다.",
+     "access": "JR 가라쓰역에서 북동쪽으로 도보 약 20분이면 가라쓰성(성산에 유료 엘리베이터 있음). 성산 동쪽 마쓰우라강에 놓인 다리가 마이즈루교다.",
+     "bestTime": "해 질 녘부터 밤까지 마이즈루교 부근에서 조명이 켜진 천수각을 바라보면 애니메이션 그대로다. 11월 2~4일 가라쓰 군치 기간에는 온 마을이 들썩인다.",
+     "tips": "천수각은 대체로 9:00~17:00 개관·유료이며 연말에 휴관한다. 최신 정보는 공식 사이트에서 확인하자. 성산 돌계단이 가팔라 비 오는 날은 발밑 주의. 벤치는 공공장소이니 번갈아 촬영하자.",
+     "accessPointName": "JR 가라쓰역"
+    }
+   }
+  },
+  {
+   "id": "initiald-yaseone-pass",
+   "workID": "initial-d",
+   "latitude": 36.48345,
+   "longitude": 138.89661,
+   "sceneHeading": 20,
+   "scenePitch": 0,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "kind": "scene",
+   "sourceURL": "https://www.fun-japan.jp/jp/articles/14294",
+   "verified": false,
+   "accessPoint": {
+    "latitude": 36.482992,
+    "longitude": 138.896694
+   },
+   "bestMonths": [
+    5,
+    6,
+    10,
+    11
+   ],
+   "text": {
+    "zh-Hans": {
+     "placeName": "榛名山 Yaseone 岭 旧收费站遗址（群马县·涩川市）",
+     "sceneTitle": "秋名山下坡的起点",
+     "episode": "TV 动画 · 第 1 阶段（秋名山下坡战）",
+     "highlight": "作品里的“秋名山”以群马县的榛名山为原型，从伊香保温泉一路爬向榛名湖的县道 33 号一带，就是拓海每天送豆腐的山路。Yaseone 岭的旧收费站遗址被视为“秋名山下坡起点”的原型；涩川市在原作者监修下设置的“头文字D”彩绘井盖里，就有一块放在这里，画的是 AE86 与 FD 并排、开战前的那一刻。车迷来到这里，往往会朝着下坡方向深吸一口气。",
+     "story": "拓海每天天还没亮，就开着父亲的 AE86 把豆腐送上秋名山，再一路开下山。某天凌晨，赤城 RedSuns 的高桥启介驾驶 FD 在秋名下坡被一辆普通的 AE86 轻松超越，“秋名的 86”从此成了群马走屋圈的传说。被迫应战的拓海第一次站到下坡赛的起点，与对手并排停车、等待倒数——那辆车门写着“藤原豆腐店”的黑白 AE86，就从这样的山路开始闻名。涩川市自 2020 年起与作品联动，市内共设有 7 款彩绘井盖。",
+     "access": "群马巴士在“ヤセオネ峠”设有站点，下车即到（班次少，请先查时刻表）；自驾走县道 33 号，遗址旁有停车场。",
+     "bestTime": "10 月下旬至 11 月初红叶季山路最美；清晨薄雾中，最有拓海送豆腐的味道。",
+     "tips": "这里是普通公共道路，严禁飙车、漂移，也不要在弯道上停车或站在路中拍照，请在停车场内拍摄。冬季路面结冰积雪，12–3 月自驾需雪地轮胎。",
+     "accessPointName": "ヤセオネ峠 巴士站"
+    },
+    "ja": {
+     "placeName": "榛名山 ヤセオネ峠 旧料金所跡（群馬県渋川市）",
+     "sceneTitle": "秋名山ダウンヒルのスタート",
+     "episode": "TVアニメ · First Stage（秋名ダウンヒル）",
+     "highlight": "作中の「秋名山」は群馬県の榛名山がモデル。伊香保温泉から榛名湖へ上っていく県道33号一帯こそ、拓海が毎朝豆腐を届けた峠道だ。ヤセオネ峠の旧料金所跡は「秋名山ダウンヒルスタート地点」のモデルとされ、渋川市が原作者監修のもと設置した『頭文字D』デザインマンホールのひとつもここにある。描かれているのは、ハチロクとFDが並び、バトルが始まる直前の瞬間。走り好きがここに立つと、思わずダウンヒルの先を見つめて深呼吸してしまう。",
+     "story": "拓海は毎朝夜明け前、父のハチロクで豆腐を秋名山の上へ届け、そのまま山を下りてくる。ある明け方、赤城レッドサンズの高橋啓介がFDで秋名を下っていると、何の変哲もないハチロクにあっさり抜き去られる。「秋名のハチロク」は群馬の走り屋たちの伝説になった。バトルを受けることになった拓海は初めてダウンヒルのスタート地点に立ち、相手と並んでカウントダウンを待つ――ドアに「藤原とうふ店」の文字が入った白黒のハチロクは、こうした峠道から名を上げていった。渋川市は2020年から作品とコラボし、市内に7種類のデザインマンホールを設置している。",
+     "access": "群馬バス「ヤセオネ峠」バス停下車すぐ（本数が少ないので時刻表を確認）。車なら県道33号で、跡地に駐車場あり。",
+     "bestTime": "10月下旬〜11月上旬の紅葉期がいちばん美しい。朝もやの早朝は、拓海の豆腐配達の空気そのもの。",
+     "tips": "一般の公道なので、スピードの出しすぎやドリフトは厳禁。カーブに車を止めたり車道に立って撮影したりせず、駐車場内で撮ろう。冬は路面が凍結・積雪し、12〜3月はスタッドレスタイヤが必要。",
+     "accessPointName": "ヤセオネ峠 バス停"
+    },
+    "en": {
+     "placeName": "Former toll gate site, Yaseone Pass, Mt. Haruna (Shibukawa, Gunma)",
+     "sceneTitle": "The start of the Akina downhill",
+     "episode": "TV anime · First Stage (Akina downhill battles)",
+     "highlight": "Initial D's Mt. Akina is modelled on Gunma's Mt. Haruna, and the stretch of Prefectural Route 33 climbing from Ikaho Onsen towards Lake Haruna is the pass Takumi drives to deliver tofu every morning. The old toll gate site at Yaseone Pass is regarded as the model for the start of the Akina downhill, and one of Shibukawa City's Initial D manhole covers, supervised by the original creator, sits right here — showing the AE86 and an FD side by side in the moment before a battle. Car fans standing here tend to stare down the road and take a deep breath.",
+     "story": "Before dawn each day, Takumi drives his father's AE86 up Mt. Akina with the tofu delivery and back down again. One early morning, Keisuke Takahashi of the Akagi RedSuns is cruising down Akina in his FD when an ordinary-looking AE86 breezes past him, and “the 86 of Akina” becomes a legend among Gunma's street racers. Drawn into a battle, Takumi lines up at the downhill start for the first time, side by side with his rival, waiting for the countdown — and the black-and-white 86 with “Fujiwara Tofu Shop” on its door begins to make its name on roads like this. Shibukawa has partnered with the series since 2020 and installed seven designer manholes around town.",
+     "access": "Get off at the Gunma Bus “Yaseone-toge” stop, right by the site (buses are rare — check times). By car, take Route 33; there is a car park at the site.",
+     "bestTime": "Late October to early November, when the leaves turn, is most beautiful; misty dawns feel just like Takumi's tofu run.",
+     "tips": "This is a public road: no speeding or drifting, and never stop on a bend or stand in the road for photos — shoot from the car park. The road ices over in winter; winter tyres are needed December–March.",
+     "accessPointName": "Yaseone-toge bus stop"
+    },
+    "ko": {
+     "placeName": "하루나산 야세오네 고개 옛 요금소 터 (군마현 시부카와시)",
+     "sceneTitle": "아키나산 다운힐의 출발점",
+     "episode": "TV 애니메이션 · First Stage(아키나 다운힐 배틀)",
+     "highlight": "작중 '아키나산'은 군마현 하루나산이 모델이다. 이카호 온천에서 하루나호로 올라가는 현도 33호선 일대가 바로 타쿠미가 매일 두부를 배달하던 고갯길이다. 야세오네 고개의 옛 요금소 터는 '아키나산 다운힐 출발 지점'의 모델로 여겨지며, 시부카와시가 원작자 감수 아래 설치한 『이니셜 D』 디자인 맨홀 중 하나도 이곳에 있다. 그려진 것은 AE86과 FD가 나란히 서서 배틀이 시작되기 직전의 순간. 자동차 팬들은 이곳에 서면 저도 모르게 내리막 쪽을 바라보며 숨을 고른다.",
+     "story": "타쿠미는 매일 새벽 아버지의 AE86으로 두부를 아키나산 위로 배달하고 그대로 산을 내려온다. 어느 새벽, 아카기 레드선즈의 다카하시 케이스케가 FD로 아키나를 내려가다 평범해 보이는 AE86에게 손쉽게 추월당하고, '아키나의 86'은 군마 레이서들 사이의 전설이 된다. 배틀을 받게 된 타쿠미는 처음으로 다운힐 출발선에 서서 상대와 나란히 카운트다운을 기다린다. 문에 '후지와라 두부 가게'라 적힌 흑백 AE86은 이런 고갯길에서 이름을 알리기 시작했다. 시부카와시는 2020년부터 작품과 협업해 시내에 7종의 디자인 맨홀을 설치했다.",
+     "access": "군마 버스 '야세오네 고개' 정류장에서 내리면 바로(운행 편수가 적으니 시간표 확인). 차로는 현도 33호선, 터 옆에 주차장이 있다.",
+     "bestTime": "10월 하순~11월 초 단풍철이 가장 아름답다. 안개 낀 이른 아침은 타쿠미의 두부 배달 분위기 그대로다.",
+     "tips": "일반 공도이니 과속과 드리프트는 절대 금지. 커브에 차를 세우거나 차도에 서서 촬영하지 말고 주차장 안에서 찍자. 겨울에는 노면이 얼고 눈이 쌓여 12~3월에는 스노 타이어가 필요하다.",
+     "accessPointName": "야세오네 고개 버스 정류장"
+    }
+   }
+  }
+ ]
+}
