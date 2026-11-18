@@ -1,0 +1,8 @@
+{
+  "_说明": "每张封面插画的来源：输入的实景照片是谁拍的、什么许可。App 里显示“据 <author> 的照片绘制（<license>）”。source=catalog 表示用 catalog.json 里该名场面的实景照片。",
+  "kiminonawa-suga-shrine": {"source": "catalog"},
+  "slamdunk-kamakurakokomae": {"source": "catalog"},
+  "spirited-away-dogo-onsen": {"source": "catalog"},
+  "lovelive-kanda-myojin": {"source": "owner", "author": "Seichi Junrei", "license": "© Seichi Junrei",
+                            "note": "开发者本人在现场拍摄；生成前已把照片里的招牌和商标盖掉"}
+}
