@@ -8,6 +8,7 @@ struct SeichiJunreiApp: App {
     @State private var storeKit = StoreService.shared
     @State private var pilgrimage = PilgrimageStore.shared
     @State private var language = AppLanguage.shared
+    @Environment(\.scenePhase) private var scenePhase
 
     var body: some Scene {
         WindowGroup {
@@ -42,7 +43,11 @@ struct SeichiJunreiApp: App {
                     NotificationService.shared.requestAuthorization()
                     NotificationService.shared.onOpenSpot = { id in store.requestedSpotID = id }
                 }
-                .onChange(of: location.lastLocation) { _, newValue in
+                // 每次回到前台都重新启动定位：App 可能曾被地理围栏在后台唤醒，那时的定位不会自动恢复
+                .onChange(of: scenePhase) { _, phase in
+                    if phase == .active { location.start() }
+                }
+                .onChange(of: location.lastLocation, initial: true) { _, newValue in
                     guard let loc = newValue else { return }
                     store.update(userLocation: loc)
                     location.monitorNearestRegions(store.nearby.map(\.spot))

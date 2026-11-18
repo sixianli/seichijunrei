@@ -232,10 +232,18 @@ struct MapHomeView: View {
                            onTitleTap: { fitCamera(to: mapSpots) }) { selected = $0 }
         } else {
             let within = store.nearbyWithinRadius
-            NearbyCarousel(title: within.isEmpty ? L("map.nearestScenes") : L("map.nearbyScenes"),
-                           systemImage: "location.fill",
-                           items: within.isEmpty ? Array(store.nearby.prefix(10)) : within,
-                           onTitleTap: showNearby) { selected = $0 }
+            if store.nearby.isEmpty {
+                // 还没拿到位置：不让列表空着，先显示一部分名场面，并说明正在定位
+                NearbyCarousel(title: L("map.locatingScenes"),
+                               systemImage: "location.circle",
+                               items: store.items(for: Array(store.spots.prefix(10))),
+                               onTitleTap: { location.start(); showNearby() }) { selected = $0 }
+            } else {
+                NearbyCarousel(title: within.isEmpty ? L("map.nearestScenes") : L("map.nearbyScenes"),
+                               systemImage: "location.fill",
+                               items: within.isEmpty ? Array(store.nearby.prefix(10)) : within,
+                               onTitleTap: showNearby) { selected = $0 }
+            }
         }
     }
 
