@@ -1115,6 +1115,75 @@
    }
   },
   {
+   "id": "lostintranslation-new-york-bar",
+   "workID": "lost-in-translation",
+   "latitude": 35.68555,
+   "longitude": 139.6907,
+   "sceneHeading": 60,
+   "scenePitch": 0,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "sourceURL": "https://www.afar.com/magazine/park-hyatt-tokyo-sets-reopening-date-reservations-now-open",
+   "verified": false,
+   "bestMonths": [
+    1,
+    2,
+    11,
+    12
+   ],
+   "accessPoint": {
+    "latitude": 35.690228,
+    "longitude": 139.69173
+   },
+   "kind": "scene",
+   "text": {
+    "zh-Hans": {
+     "placeName": "柏悦酒店 New York Bar（东京·新宿 52 楼）",
+     "sceneTitle": "52 楼的失眠者",
+     "episode": "电影 · 前段",
+     "highlight": "鲍勃和夏洛特的故事从这里开始：深夜的酒吧、窗外无边的新宿灯海、台上的爵士歌手，两个睡不着的异乡人隔着几张桌子对上了眼神。索菲亚·科波拉把整部电影的孤独与温柔都放进了这个高空的玻璃盒子，也让柏悦酒店的 New York Bar 成了影迷到东京必去的地方。酒店自 2024 年 5 月起闭馆翻修，2025 年 12 月 9 日重新开业，酒吧按原貌修复。",
+     "story": "为拍威士忌广告来到东京的鲍勃倒不过时差，每晚独自坐在酒店顶楼的酒吧里喝威士忌、听驻唱歌手唱歌。同样失眠的夏洛特也来到这里，两人从客套的寒暄开始，渐渐成了能分享心事的同伴，此后一起溜出酒店，闯进东京的夜。New York Bar 位于新宿公园塔 52 楼，与 New York Grill 相连，落地窗外是西新宿的高楼群和一望无际的城市灯火。",
+     "access": "都营大江户线都厅前站 A4 出口步行约 8 分钟，或 JR 新宿站南口步行约 12 分钟；新宿站西口一带有酒店免费接驳车。",
+     "accessPointName": "都厅前站 A4 出口",
+     "bestTime": "入夜后来，城市灯海铺满窗外，最像电影；冬季空气通透，夜景最清晰。现场爵士一般在晚间演出。",
+     "tips": "非住客也可前往。晚间时段通常加收音乐费，请避免运动装和拖鞋。重新开业后营业时间、收费和预约方式可能调整，出发前请查酒店官网。"
+    },
+    "ja": {
+     "placeName": "パーク ハイアット 東京 ニューヨーク バー（東京都新宿区・52階）",
+     "sceneTitle": "52階の眠れない二人",
+     "episode": "映画 · 序盤",
+     "highlight": "ボブとシャーロットの物語はここから始まる。深夜のバー、窓の外に果てしなく広がる新宿の灯、ステージのジャズシンガー。眠れない異邦人二人が、いくつかのテーブル越しに目を合わせる。ソフィア・コッポラは映画全体の孤独と優しさをこの空中のガラスの箱に閉じ込め、パーク ハイアット 東京の「ニューヨーク バー」を映画ファンが東京で必ず訪れる場所にした。ホテルは2024年5月から休業して改装し、2025年12月9日に再開業。バーは元のデザインのまま修復された。",
+     "story": "ウイスキーのCM撮影で来日したボブは時差ぼけが抜けず、毎晩ひとりホテル最上階のバーでウイスキーを飲み、専属シンガーの歌を聴いている。同じく眠れないシャーロットもここへやって来て、二人は他愛ない挨拶から少しずつ心の内を話せる相手になり、やがて一緒にホテルを抜け出して東京の夜へ繰り出す。ニューヨーク バーは新宿パークタワーの52階、ニューヨーク グリルに続き、大きな窓の外には西新宿の高層ビル群と果てしない街の灯が広がる。",
+     "access": "都営大江戸線都庁前駅A4出口から徒歩約8分、またはJR新宿駅南口から徒歩約12分。新宿駅西口付近からホテルの無料シャトルバスもある。",
+     "accessPointName": "都庁前駅 A4出口",
+     "bestTime": "夜、窓いっぱいに街の灯が広がる時間が映画そのもの。空気の澄んだ冬は夜景がいちばんくっきり。ジャズの生演奏は夜に行われる。",
+     "tips": "宿泊者以外も利用可。夜の時間帯はミュージックチャージがかかるのが一般的で、スポーツウェアやサンダルは避けたい。再開業後は営業時間や料金、予約方法が変わる可能性があるので、公式サイトで確認を。"
+    },
+    "en": {
+     "placeName": "New York Bar, Park Hyatt Tokyo (52F, Shinjuku, Tokyo)",
+     "sceneTitle": "Insomniacs on the 52nd Floor",
+     "episode": "Film · early",
+     "highlight": "This is where Bob and Charlotte's story begins: a late-night bar, Shinjuku's lights stretching endlessly past the windows, a jazz singer on stage, and two sleepless strangers catching each other's eye across a few tables. Sofia Coppola put all of the film's loneliness and tenderness into this glass box in the sky, and made the Park Hyatt's New York Bar a must for film lovers in Tokyo. The hotel closed for renovation in May 2024 and reopened on December 9, 2025, with the bar restored to its original design.",
+     "story": "In Tokyo to shoot a whisky ad and unable to shake his jet lag, Bob spends every night alone in the hotel's top-floor bar, drinking whisky and listening to the house singer. Charlotte, just as sleepless, comes here too. Polite small talk slowly turns them into companions who can share what's on their minds, and soon they slip out of the hotel together into the Tokyo night. The New York Bar is on the 52nd floor of Shinjuku Park Tower, next to the New York Grill, with the towers of Nishi-Shinjuku and endless city lights beyond its tall windows.",
+     "access": "About 8 min on foot from Exit A4 of Tochomae Station (Toei Oedo Line), or 12 min from JR Shinjuku Station's south exit. A free hotel shuttle runs from the Shinjuku Station west-exit area.",
+     "accessPointName": "Tochomae Sta. Exit A4",
+     "bestTime": "Come after dark, when the city lights fill the windows just as in the film; winter's clear air gives the sharpest night view. Live jazz is played in the evening.",
+     "tips": "Non-guests are welcome. A music charge is usually added in the evening, and sportswear or sandals are best avoided. Hours, charges and reservation rules may have changed since the reopening: check the hotel's official site before you go."
+    },
+    "ko": {
+     "placeName": "파크 하얏트 도쿄 뉴욕 바 (도쿄 신주쿠, 52층)",
+     "sceneTitle": "52층의 잠 못 드는 두 사람",
+     "episode": "영화 · 초반",
+     "highlight": "밥과 샬럿의 이야기는 여기서 시작된다. 깊은 밤의 바, 창밖으로 끝없이 펼쳐진 신주쿠의 불빛, 무대 위 재즈 가수. 잠 못 드는 두 이방인이 테이블 몇 개를 사이에 두고 눈을 마주친다. 소피아 코폴라는 영화 전체의 고독과 다정함을 이 하늘 위 유리 상자에 담았고, 파크 하얏트 도쿄의 '뉴욕 바'를 영화 팬이라면 도쿄에서 꼭 들르는 곳으로 만들었다. 호텔은 2024년 5월부터 휴업하고 리노베이션을 거쳐 2025년 12월 9일 재개장했으며, 바는 원래 디자인 그대로 복원되었다.",
+     "story": "위스키 광고 촬영차 도쿄에 온 밥은 시차에 적응하지 못하고 매일 밤 호텔 꼭대기 층 바에 홀로 앉아 위스키를 마시며 전속 가수의 노래를 듣는다. 똑같이 잠 못 드는 샬럿도 이곳을 찾고, 두 사람은 의례적인 인사에서 시작해 차츰 속마음을 나눌 수 있는 사이가 되어 함께 호텔을 빠져나가 도쿄의 밤으로 뛰어든다. 뉴욕 바는 신주쿠 파크 타워 52층, 뉴욕 그릴과 이어져 있으며 큰 창밖으로 니시신주쿠의 고층 빌딩과 끝없는 도시의 불빛이 펼쳐진다.",
+     "access": "도에이 오에도선 도초마에역 A4 출구에서 도보 약 8분, 또는 JR 신주쿠역 남쪽 출구에서 도보 약 12분. 신주쿠역 서쪽 출구 부근에서 호텔 무료 셔틀버스도 다닌다.",
+     "accessPointName": "도초마에역 A4 출구",
+     "bestTime": "밤이 되어 창 가득 도시의 불빛이 펼쳐질 때가 영화 그대로다. 공기가 맑은 겨울에 야경이 가장 선명하다. 재즈 라이브는 저녁에 열린다.",
+     "tips": "투숙객이 아니어도 이용할 수 있다. 저녁 시간대에는 보통 뮤직 차지가 붙으며 운동복이나 샌들은 피하는 것이 좋다. 재개장 후 영업시간·요금·예약 방식이 바뀌었을 수 있으니 방문 전 공식 사이트를 확인하세요."
+    }
+   }
+  },
+  {
    "id": "lastsamurai-engyoji-mitsunodo",
    "workID": "last-samurai",
    "latitude": 34.8923,

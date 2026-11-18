@@ -1,0 +1,922 @@
+{
+ "works": [
+  {
+   "id": "godzilla",
+   "title": "ゴジラ",
+   "mediaType": "film",
+   "year": 1954,
+   "creator": "本多猪四郎 / 特技監督：円谷英二",
+   "tint": "#4A5D52",
+   "aliases": [
+    "Godzilla",
+    "Gojira",
+    "ゴジラ",
+    "哥斯拉",
+    "哥吉拉",
+    "고지라",
+    "고질라",
+    "本多猪四郎",
+    "Ishiro Honda",
+    "Ishirō Honda",
+    "혼다 이시로",
+    "円谷英二",
+    "圆谷英二",
+    "Eiji Tsuburaya",
+    "쓰부라야 에이지",
+    "東宝",
+    "Toho",
+    "ゴジラ-1.0",
+    "ゴジラ マイナスワン",
+    "Godzilla Minus One",
+    "哥斯拉-1.0",
+    "哥吉拉-1.0",
+    "고질라 마이너스 원",
+    "山崎貴",
+    "Takashi Yamazaki",
+    "和光",
+    "Wako",
+    "SEIKO HOUSE GINZA",
+    "銀座",
+    "银座",
+    "Ginza"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "哥斯拉",
+     "creator": "本多猪四郎 / 特技导演：圆谷英二",
+     "synopsis": "太平洋上的船只接连神秘沉没，被氢弹试验唤醒的远古巨兽哥斯拉先在大户岛现身，随后从东京湾登陆，把银座到国会议事堂一路化为火海。古生物学家山根博士、他的女儿惠美子、海难救助员尾形，以及藏着可怕发明的芹泽博士，被迫在人类存亡与良心之间做出选择。圆谷英二的特摄开创了日本怪兽电影，本片也是战后日本对核恐惧最直接的银幕回应。"
+    },
+    "zh-Hant": {
+     "title": "哥吉拉"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "太平洋で船の遭難が相次ぐなか、水爆実験で眠りから覚めた太古の巨大生物ゴジラが大戸島に現れ、やがて東京湾から上陸して銀座から国会議事堂までを火の海に変える。古生物学者・山根博士とその娘・恵美子、南海サルベージの尾形、そして恐るべき発明を抱えた芹沢博士。人々は人類の存亡と良心のはざまで決断を迫られる。円谷英二の特撮で日本の怪獣映画の原点となり、戦後日本の核への恐怖を真正面から描いた作品。"
+    },
+    "en": {
+     "title": "Godzilla",
+     "creator": "Ishirō Honda / Special effects: Eiji Tsuburaya",
+     "synopsis": "Ships vanish in the Pacific, and an ancient creature awakened by H-bomb tests appears on Odo Island before coming ashore from Tokyo Bay, turning everything from Ginza to the Diet Building into a sea of fire. Paleontologist Dr. Yamane, his daughter Emiko, salvage officer Ogata and the haunted scientist Serizawa must decide what humanity can bear to unleash in its own defense. With Eiji Tsuburaya's special effects it launched the kaiju genre, and it remains postwar Japan's most direct reckoning with nuclear fear on screen."
+    },
+    "ko": {
+     "title": "고지라",
+     "creator": "혼다 이시로 / 특수기술: 쓰부라야 에이지",
+     "synopsis": "태평양에서 배들이 잇따라 조난하는 가운데, 수소폭탄 실험으로 깨어난 태고의 거대 생물 고지라가 오도섬에 나타나고 이윽고 도쿄만으로 상륙해 긴자에서 국회의사당까지를 불바다로 만든다. 고생물학자 야마네 박사와 딸 에미코, 해난구조대원 오가타, 그리고 무서운 발명품을 숨긴 세리자와 박사는 인류의 존망과 양심 사이에서 선택을 강요받는다. 쓰부라야 에이지의 특수촬영으로 일본 괴수 영화의 원점이 되었고, 전후 일본의 핵 공포를 정면으로 그린 작품이다."
+    }
+   }
+  },
+  {
+   "id": "memoirs-of-a-geisha",
+   "title": "SAYURI",
+   "mediaType": "film",
+   "year": 2005,
+   "creator": "ロブ・マーシャル",
+   "tint": "#B23A3A",
+   "aliases": [
+    "Memoirs of a Geisha",
+    "SAYURI",
+    "Sayuri",
+    "さゆり",
+    "艺伎回忆录",
+    "藝伎回憶錄",
+    "艺妓回忆录",
+    "게이샤의 추억",
+    "Rob Marshall",
+    "ロブ・マーシャル",
+    "罗伯·马歇尔",
+    "롭 마셜",
+    "章子怡",
+    "Zhang Ziyi",
+    "チャン・ツィイー",
+    "장쯔이",
+    "大後寿々花",
+    "Suzuka Ohgo",
+    "渡辺謙",
+    "渡边谦",
+    "Ken Watanabe",
+    "와타나베 켄",
+    "Arthur Golden",
+    "アーサー・ゴールデン",
+    "亚瑟·高顿",
+    "伏見稲荷",
+    "伏见稻荷",
+    "Fushimi Inari"
+   ],
+   "country": "US",
+   "text": {
+    "zh-Hans": {
+     "title": "艺伎回忆录",
+     "creator": "罗伯·马歇尔",
+     "synopsis": "1929 年，贫穷渔村的女孩千代被卖到京都祇园的置屋，饱受当红艺伎初桃的欺凌。一天她在桥边哭泣，一位被称作“会长”的绅士递给她手帕和几枚硬币。被这份温柔打动的千代立志成为艺伎，只为有朝一日能走到他身边。多年后，她在一位名伎的提携下成为“小百合”，在战争与时代巨变中守着这份心愿。改编自亚瑟·高顿的同名小说，章子怡主演，获三项奥斯卡奖。"
+    },
+    "zh-Hant": {
+     "title": "藝伎回憶錄"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "1929年、貧しい漁村から京都・祇園の置屋に売られた少女・千代は、売れっ子芸者・初桃のいじめに耐える日々を送る。橋のたもとで泣いていた彼女に、「会長」と呼ばれる紳士がハンカチと小銭を差し出す。その優しさに触れた千代は、いつか彼のそばに行くために芸者になると心に決める。やがて名妓・豆葉に導かれて「さゆり」となった彼女の半生を、戦争と時代の変化とともに描く。アーサー・ゴールデンの小説を映画化し、アカデミー賞3部門を受賞。"
+    },
+    "en": {
+     "title": "Memoirs of a Geisha",
+     "creator": "Rob Marshall",
+     "synopsis": "In 1929 Chiyo, a fisherman's daughter, is sold to a geisha house in Kyoto's Gion and tormented by the star geisha Hatsumomo. When a kind stranger known as the Chairman gives her his handkerchief and a few coins on a bridge, she resolves to become a geisha so that one day she can be near him. Taken under the wing of the celebrated Mameha, she becomes Sayuri and holds on to that wish through war and upheaval. Based on Arthur Golden's novel and starring Zhang Ziyi, it won three Oscars."
+    },
+    "ko": {
+     "title": "게이샤의 추억",
+     "creator": "롭 마셜",
+     "synopsis": "1929년, 가난한 어촌에서 교토 기온의 오키야로 팔려 온 소녀 치요는 인기 게이샤 하쓰모모의 괴롭힘을 견디며 살아간다. 다리 위에서 울던 그녀에게 '회장님'이라 불리는 신사가 손수건과 동전 몇 닢을 건네고, 그 다정함에 마음이 움직인 치요는 언젠가 그의 곁에 가기 위해 게이샤가 되겠다고 결심한다. 명기 마메하의 도움으로 '사유리'가 된 그녀가 전쟁과 격변의 시대를 지나며 그 소망을 지켜 가는 이야기. 아서 골든의 소설이 원작이며 장쯔이가 주연을 맡아 아카데미상 3개 부문을 수상했다."
+    }
+   }
+  },
+  {
+   "id": "you-only-live-twice",
+   "title": "007は二度死ぬ",
+   "mediaType": "film",
+   "year": 1967,
+   "creator": "ルイス・ギルバート",
+   "tint": "#2E4A62",
+   "aliases": [
+    "You Only Live Twice",
+    "007は二度死ぬ",
+    "007之雷霆谷",
+    "007：雷霆谷",
+    "雷霆谷",
+    "007 두번 산다",
+    "007",
+    "James Bond",
+    "ジェームズ・ボンド",
+    "詹姆斯·邦德",
+    "제임스 본드",
+    "Sean Connery",
+    "ショーン・コネリー",
+    "肖恩·康纳利",
+    "숀 코너리",
+    "丹波哲郎",
+    "Tetsuro Tamba",
+    "若林映子",
+    "Akiko Wakabayashi",
+    "浜美枝",
+    "Mie Hama",
+    "Lewis Gilbert",
+    "ルイス・ギルバート",
+    "刘易斯·吉尔伯特",
+    "루이스 길버트",
+    "Roald Dahl",
+    "姫路城",
+    "姬路城",
+    "Himeji Castle",
+    "히메지성"
+   ],
+   "country": "GB",
+   "text": {
+    "zh-Hans": {
+     "title": "007之雷霆谷",
+     "creator": "刘易斯·吉尔伯特",
+     "synopsis": "美苏的载人飞船接连在太空中被神秘飞船“吞掉”，两国剑拔弩张。英国特工詹姆斯·邦德假死脱身、潜入日本，与日本秘密情报机关首脑“老虎”田中联手，追查藏在火山口里的秘密基地。这是第一部以日本为主舞台的 007 电影，东京、神户、鹿儿岛和姬路城都留下了邦德的身影。主演肖恩·康纳利，编剧是《查理和巧克力工厂》的作者罗尔德·达尔。"
+    },
+    "zh-Hant": {
+     "title": "007：雷霆谷"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "米ソの宇宙船が謎の宇宙船に次々と「捕獲」され、両国は一触即発に。英国諜報員ジェームズ・ボンドは死を偽装して日本に潜入し、日本の秘密情報機関を率いるタイガー田中と手を組んで、火山の火口に隠された秘密基地を追う。日本を主な舞台にした初めての007映画で、東京、神戸、鹿児島、そして姫路城にボンドの足跡が残る。主演ショーン・コネリー、脚本は『チャーリーとチョコレート工場』のロアルド・ダール。"
+    },
+    "en": {
+     "title": "You Only Live Twice",
+     "creator": "Lewis Gilbert",
+     "synopsis": "American and Soviet spacecraft are being swallowed in orbit by a mystery ship, pushing the superpowers toward war. Faking his own death, James Bond slips into Japan and teams up with Tiger Tanaka, head of the Japanese secret service, to hunt for a base hidden inside a volcano. The first Bond film set mainly in Japan, it took Sean Connery to Tokyo, Kobe, Kagoshima and Himeji Castle, from a screenplay by Roald Dahl."
+    },
+    "ko": {
+     "title": "007 두번 산다",
+     "creator": "루이스 길버트",
+     "synopsis": "미국과 소련의 우주선이 정체불명의 우주선에 잇따라 '삼켜지고' 두 나라는 일촉즉발의 위기에 놓인다. 영국 첩보원 제임스 본드는 죽음을 위장하고 일본에 잠입해, 일본 비밀정보기관의 수장 타이거 다나카와 손잡고 화산 분화구 속에 숨겨진 비밀 기지를 추적한다. 일본을 주 무대로 한 첫 007 영화로 도쿄, 고베, 가고시마, 그리고 히메지성에 본드의 발자취가 남아 있다. 숀 코너리 주연, 각본은 '찰리와 초콜릿 공장'의 로알드 달."
+    }
+   }
+  },
+  {
+   "id": "alice-in-borderland",
+   "title": "今際の国のアリス",
+   "mediaType": "drama",
+   "year": 2020,
+   "creator": "Netflix / 監督：佐藤信介 / 原作：麻生羽呂",
+   "tint": "#C0392B",
+   "aliases": [
+    "Alice in Borderland",
+    "今際の国のアリス",
+    "Imawa no Kuni no Alice",
+    "弥留之国的爱丽丝",
+    "彌留之國的愛麗絲",
+    "아리스 인 보더랜드",
+    "山﨑賢人",
+    "山崎賢人",
+    "山崎贤人",
+    "Kento Yamazaki",
+    "야마자키 켄토",
+    "土屋太鳳",
+    "土屋太凤",
+    "Tao Tsuchiya",
+    "쓰치야 타오",
+    "佐藤信介",
+    "Shinsuke Sato",
+    "사토 신스케",
+    "麻生羽呂",
+    "麻生羽吕",
+    "Haro Aso",
+    "아소 하로",
+    "Netflix",
+    "渋谷",
+    "涩谷",
+    "Shibuya"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "弥留之国的爱丽丝",
+     "creator": "Netflix / 导演：佐藤信介 / 原作：麻生羽吕",
+     "synopsis": "整天打游戏、对人生提不起劲的青年有栖良平，和两个好友躲进涩谷车站的厕所，再出来时，东京已空无一人。电断了、街道荒了，留下的人只能参加一场场赌上性命的“游戏”，赢了才能拿到延续生存的“签证”。改编自麻生羽吕的同名漫画，佐藤信介执导，山﨑贤人、土屋太凤主演，2020 年起在 Netflix 全球播出，是近年海外关注度最高的日剧之一。"
+    },
+    "zh-Hant": {
+     "title": "彌留之國的愛麗絲"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "ゲームばかりで人生に投げやりな青年・有栖良平は、親友2人と渋谷駅のトイレに身を隠す。外に出ると、東京から人の姿が消えていた。電気も止まった無人の街で、残された人々は命がけの「げぇむ」に参加し、勝って「ビザ」を得なければ生き延びられない。麻生羽呂の漫画を佐藤信介監督が実写化し、山﨑賢人と土屋太鳳が主演。2020年からNetflixで世界配信され、海外で最も注目を集めた日本ドラマのひとつになった。"
+    },
+    "en": {
+     "title": "Alice in Borderland",
+     "creator": "Netflix / Directed by Shinsuke Sato / Based on the manga by Haro Aso",
+     "synopsis": "Ryohei Arisu, a listless gamer, ducks into a Shibuya Station restroom with his two best friends; when they come out, Tokyo has emptied. With the power dead and the streets deserted, the people left behind must play deadly \"games\" and win \"visas\" to stay alive. Directed by Shinsuke Sato from Haro Aso's manga and starring Kento Yamazaki and Tao Tsuchiya, it has streamed worldwide on Netflix since 2020 and became one of the most talked-about Japanese series abroad."
+    },
+    "ko": {
+     "title": "아리스 인 보더랜드",
+     "creator": "넷플릭스 / 감독: 사토 신스케 / 원작: 아소 하로",
+     "synopsis": "게임에 빠져 인생에 의욕이 없는 청년 아리스 료헤이는 두 친구와 함께 시부야역 화장실에 숨는다. 밖으로 나오자 도쿄에서 사람들이 사라져 있었다. 전기마저 끊긴 텅 빈 도시에서 남겨진 사람들은 목숨을 건 '게임'에 참가해 '비자'를 얻어야만 살아남을 수 있다. 아소 하로의 만화를 사토 신스케 감독이 실사화했고 야마자키 켄토와 쓰치야 타오가 주연을 맡았다. 2020년부터 넷플릭스로 전 세계에 공개되어 해외에서 가장 주목받은 일본 드라마 중 하나가 되었다."
+    }
+   }
+  },
+  {
+   "id": "oshin",
+   "title": "おしん",
+   "mediaType": "drama",
+   "year": 1983,
+   "creator": "NHK / 脚本：橋田壽賀子",
+   "tint": "#8C6B4F",
+   "aliases": [
+    "Oshin",
+    "おしん",
+    "阿信",
+    "오싱",
+    "連続テレビ小説",
+    "朝ドラ",
+    "橋田壽賀子",
+    "橋田寿賀子",
+    "桥田寿贺子",
+    "Sugako Hashida",
+    "하시다 스가코",
+    "小林綾子",
+    "小林绫子",
+    "Ayako Kobayashi",
+    "田中裕子",
+    "Yuko Tanaka",
+    "乙羽信子",
+    "Nobuko Otowa",
+    "泉ピン子",
+    "泉品子",
+    "Pinko Izumi",
+    "銀山温泉",
+    "银山温泉",
+    "Ginzan Onsen",
+    "긴잔 온천",
+    "山形",
+    "Yamagata"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "阿信",
+     "creator": "NHK / 编剧：桥田寿贺子",
+     "synopsis": "明治末年，山形贫苦佃农家的女儿阿信七岁就被送去帮佣。她在雪地里出逃、挨饿受欺负，也遇见了教她识字的人。从少女到晚年，她走过关东大地震、战争和战后复兴，一手撑起家业，却始终记着母亲阿藤的辛劳。这部 NHK 晨间剧（1983–1984）平均收视率 52.6%、最高 62.9%，后来在世界许多国家和地区播出，“阿信”成了坚忍的代名词。"
+    },
+    "zh-Hant": {
+     "title": "阿信"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "明治の終わり、山形の貧しい小作農の家に生まれたおしんは、7歳で奉公に出される。雪の中を逃げ出し、飢えやいじめに耐え、文字を教えてくれる人とも出会う。少女期から晩年まで、関東大震災や戦争、戦後の復興を生き抜いて家業を築きながら、母ふじの苦労を胸に刻み続けた。NHK連続テレビ小説（1983〜84年）で平均視聴率52.6%、最高62.9%を記録し、世界の多くの国と地域で放送されて「おしん」は忍耐の代名詞になった。"
+    },
+    "en": {
+     "title": "Oshin",
+     "creator": "NHK / Written by Sugako Hashida",
+     "synopsis": "At the end of the Meiji era, Oshin, a tenant farmer's daughter in Yamagata, is sent into service at just seven. She flees through the snow, endures hunger and cruelty, and meets someone who teaches her to read. From girlhood to old age she lives through the Great Kanto Earthquake, war and postwar recovery, building a family business while never forgetting her mother Fuji's sacrifices. NHK's morning serial (1983–84) averaged a 52.6% rating, peaking at 62.9%, and was broadcast in many countries, making \"Oshin\" a byword for perseverance."
+    },
+    "ko": {
+     "title": "오싱",
+     "creator": "NHK / 각본: 하시다 스가코",
+     "synopsis": "메이지 시대 말, 야마가타의 가난한 소작농 집안에서 태어난 오싱은 일곱 살에 남의집살이를 떠난다. 눈 속을 도망치고 배고픔과 괴롭힘을 견디며, 글을 가르쳐 준 사람과도 만난다. 소녀 시절부터 노년까지 간토 대지진과 전쟁, 전후 부흥을 헤쳐 나가며 가업을 일구지만, 어머니 후지의 고생만은 결코 잊지 않는다. NHK 아침 연속극(1983~84)으로 평균 시청률 52.6%, 최고 62.9%를 기록했고 세계 여러 나라에서 방송되어 '오싱'은 인내의 대명사가 되었다."
+    }
+   }
+  },
+  {
+   "id": "the-wolverine",
+   "title": "ウルヴァリン: SAMURAI",
+   "mediaType": "film",
+   "year": 2013,
+   "creator": "ジェームズ・マンゴールド",
+   "tint": "#B8860B",
+   "aliases": [
+    "The Wolverine",
+    "ウルヴァリン: SAMURAI",
+    "ウルヴァリン SAMURAI",
+    "ウルヴァリン",
+    "金刚狼2",
+    "金刚狼：武士之战",
+    "金鋼狼：武士之戰",
+    "더 울버린",
+    "Wolverine",
+    "X-Men",
+    "Hugh Jackman",
+    "ヒュー・ジャックマン",
+    "休·杰克曼",
+    "휴 잭맨",
+    "James Mangold",
+    "ジェームズ・マンゴールド",
+    "詹姆斯·曼高德",
+    "제임스 맨골드",
+    "真田広之",
+    "真田广之",
+    "Hiroyuki Sanada",
+    "TAO",
+    "岡本多緒",
+    "Tao Okamoto",
+    "福島リラ",
+    "Rila Fukushima",
+    "増上寺",
+    "增上寺",
+    "Zojoji"
+   ],
+   "country": "US",
+   "text": {
+    "zh-Hans": {
+     "title": "金刚狼2",
+     "creator": "詹姆斯·曼高德",
+     "synopsis": "当年在长崎原爆中被罗根救下的日本军官矢志田，多年后已成为财阀巨头。临终前，他把隐居的罗根请到东京，提出可以让他摆脱不死之身。葬礼上突然杀出的黑帮，把罗根卷进矢志田家族的继承之争；失去自愈能力的他，为保护矢志田的孙女真理子，一路从东京打到雪中的山村。休·杰克曼主演，真田广之、冈本多绪、福岛莉拉参演，日本部分在东京和广岛县鞆之浦等地实拍。"
+    },
+    "zh-Hant": {
+     "title": "金鋼狼：武士之戰"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "長崎の原爆からローガンに命を救われた日本の将校・矢志田は、のちに巨大財閥を築く。死の床にある彼は、世捨て人となったローガンを東京に呼び寄せ、不死の宿命から解放してやると持ちかける。だが葬儀の場に突如ヤクザが襲いかかり、ローガンは矢志田家の跡目争いに巻き込まれていく。治癒能力を失いながら孫娘マリコを守り、東京から雪深い山村へと戦い抜く。主演ヒュー・ジャックマン、共演に真田広之、TAO、福島リラ。日本の場面は東京や広島県の鞆の浦などで撮影された。"
+    },
+    "en": {
+     "title": "The Wolverine",
+     "creator": "James Mangold",
+     "synopsis": "Yashida, the Japanese officer Logan saved from the Nagasaki bomb, has become a corporate titan. On his deathbed he summons the reclusive Logan to Tokyo and offers to free him from immortality. When yakuza storm Yashida's funeral, Logan is pulled into a fight over the family's succession and, with his healing power failing, battles from Tokyo to a snowbound village to protect Yashida's granddaughter Mariko. Starring Hugh Jackman with Hiroyuki Sanada, Tao Okamoto and Rila Fukushima, with Japanese scenes shot in Tokyo and Tomonoura in Hiroshima Prefecture."
+    },
+    "ko": {
+     "title": "더 울버린",
+     "creator": "제임스 맨골드",
+     "synopsis": "나가사키 원폭에서 로건이 구해 준 일본군 장교 야시다는 훗날 거대 재벌이 된다. 임종을 앞둔 그는 은둔하던 로건을 도쿄로 불러 불사의 운명에서 벗어나게 해 주겠다고 제안한다. 그러나 장례식장에 야쿠자가 들이닥치면서 로건은 야시다 가문의 후계 다툼에 휘말리고, 치유 능력을 잃은 채 손녀 마리코를 지키기 위해 도쿄에서 눈 덮인 산골 마을까지 싸워 나간다. 휴 잭맨 주연, 사나다 히로유키·오카모토 타오·후쿠시마 리라 출연. 일본 장면은 도쿄와 히로시마현 도모노우라 등에서 촬영했다."
+    }
+   }
+  },
+  {
+   "id": "ran",
+   "title": "乱",
+   "mediaType": "film",
+   "year": 1985,
+   "creator": "黒澤明",
+   "tint": "#8E2B2B",
+   "aliases": [
+    "Ran",
+    "乱",
+    "亂",
+    "란",
+    "黒澤明",
+    "黒沢明",
+    "黑泽明",
+    "Akira Kurosawa",
+    "구로사와 아키라",
+    "仲代達矢",
+    "仲代达矢",
+    "Tatsuya Nakadai",
+    "나카다이 다쓰야",
+    "原田美枝子",
+    "Mieko Harada",
+    "King Lear",
+    "リア王",
+    "李尔王",
+    "Shakespeare",
+    "姫路城",
+    "姬路城",
+    "Himeji Castle",
+    "熊本城",
+    "Kumamoto Castle"
+   ],
+   "text": {
+    "zh-Hans": {
+     "title": "乱",
+     "creator": "黑泽明",
+     "synopsis": "战国时代，年迈的领主一文字秀虎宣布隐退，把领地和三座城分给三个儿子；直言劝谏的小儿子三郎被他一怒之下逐出家门。掌了权的长子太郎和次子次郎很快冷落父亲，再加上太郎之妻枫夫人的推波助澜，一族陷入骨肉相残的战火。黑泽明以莎士比亚《李尔王》和毛利元就“三支箭”的故事为底本拍成这部彩色史诗，获奥斯卡最佳服装设计奖。"
+    },
+    "zh-Hant": {
+     "title": "亂"
+    },
+    "ja": {
+     "title": "",
+     "synopsis": "戦国の世、老いた領主・一文字秀虎は家督を譲って隠居し、三つの城を三人の息子に分け与えると宣言する。諫めた末子・三郎は怒りを買って追放されるが、権力を手にした長男・太郎と次男・次郎はたちまち父を疎んじ、太郎の正室・楓の方の思惑も絡んで一族は骨肉の争いへと突き進む。シェイクスピア『リア王』と毛利元就の「三本の矢」をもとに黒澤明が描いたカラー大作で、アカデミー賞衣装デザイン賞を受賞した。"
+    },
+    "en": {
+     "title": "Ran",
+     "creator": "Akira Kurosawa",
+     "synopsis": "In Japan's age of civil war, the aging warlord Hidetora Ichimonji retires and divides his realm and three castles among his sons, banishing the youngest, Saburo, for daring to warn him. Once in power, Taro and Jiro quickly turn on their father, and with Taro's wife Lady Kaede pulling strings, the clan tears itself apart. Akira Kurosawa's epic draws on Shakespeare's King Lear and the legend of Mori Motonari's three arrows, and won the Oscar for Best Costume Design."
+    },
+    "ko": {
+     "title": "란",
+     "creator": "구로사와 아키라",
+     "synopsis": "전국시대, 늙은 영주 이치몬지 히데토라는 은퇴를 선언하고 영토와 세 성을 세 아들에게 나눠 준다. 이를 간언한 막내 사부로는 노여움을 사 쫓겨나지만, 권력을 쥔 장남 다로와 차남 지로는 곧 아버지를 냉대하고, 다로의 정실 가에데 부인의 계략까지 얽히며 일족은 골육상쟁으로 치닫는다. 셰익스피어의 '리어왕'과 모리 모토나리의 '세 개의 화살' 일화를 바탕으로 한 구로사와 아키라의 컬러 대작으로, 아카데미 의상상을 받았다."
+    }
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "godzilla-wako-clock-tower",
+   "workID": "godzilla",
+   "latitude": 35.67097,
+   "longitude": 139.76496,
+   "sceneHeading": 7,
+   "scenePitch": 20,
+   "arrivalRadius": 40,
+   "spoiler": false,
+   "sourceURL": "https://www.explore.com/1361793/where-find-real-life-landmarks-godzilla-film",
+   "verified": false,
+   "bestMonths": [
+    3,
+    4,
+    10,
+    11,
+    12
+   ],
+   "accessPoint": {
+    "latitude": 35.671537,
+    "longitude": 139.765233
+   },
+   "kind": "scene",
+   "text": {
+    "zh-Hans": {
+     "placeName": "和光本馆钟楼（SEIKO HOUSE GINZA，东京·银座）",
+     "sceneTitle": "十一点的钟声",
+     "episode": "电影 · 中段（东京登陆）",
+     "highlight": "钟声敲响十一点，哥斯拉一挥手臂扫倒和光钟楼——这是怪兽电影史上最早、也最有名的“地标毁灭”镜头之一。1954 年的观众亲眼看着战后刚复兴的银座象征倒下，那份恐惧比任何特效都真实。近七十年后，《哥斯拉-1.0》（2023）让哥斯拉再次踏进银座，和光大楼又一次在废墟中残破不堪。而现实里的钟楼依旧每到整点准时报时，你在路口听到的，就是同一座钟。",
+     "story": "被氢弹试验唤醒的哥斯拉在夜里从东京湾登陆，一路向银座推进。四丁目路口的和光钟楼恰好敲响十一点，哥斯拉转向钟楼咆哮，一挥手便把钟楼连同大楼一角打塌。片中的银座其实是东宝摄影棚里按 1:25 比例搭建的微缩模型，并没有在这里实拍；这里是故事里的真实地点。据记载，特技组事先到实地勘察要“摧毁”的建筑时，讨论内容被保安听到，还险些被当成可疑分子。和光本馆建于 1932 年，2022 年起改称 SEIKO HOUSE GINZA。",
+     "access": "东京地铁银座站 A9 出口出站即在和光大楼旁；走到路口对面的街角，抬头就能看到整座钟楼。",
+     "accessPointName": "银座站 A9 出口",
+     "bestTime": "整点前几分钟到对面街角等待，先听西敏寺钟声再听报时；傍晚钟楼亮灯后最有老电影海报的味道。",
+     "tips": "四丁目路口人车极多，请在人行道上拍照，不要在斑马线上停留。周末和节假日中央通会实施步行者天国（时段随季节变化），是拍正面的好时机。"
+    },
+    "ja": {
+     "placeName": "和光本館の時計塔（SEIKO HOUSE GINZA／東京都中央区銀座）",
+     "sceneTitle": "11時の鐘",
+     "episode": "映画 · 中盤（東京上陸）",
+     "highlight": "時計が11時を打った瞬間、ゴジラが腕のひと振りで和光の時計塔をなぎ倒す。怪獣映画史上もっとも早く、もっとも有名な「ランドマーク破壊」のひとつだ。1954年の観客は、戦後ようやく復興した銀座の象徴が崩れ落ちるのを目の当たりにし、どんな特撮よりも生々しい恐怖を覚えた。約70年後の『ゴジラ-1.0』（2023）でもゴジラは再び銀座に現れ、和光の建物はまたも無残な姿になった。現実の時計塔は今も毎正時に時を告げている。交差点で聞こえるのは、あの映画と同じ鐘の音だ。",
+     "story": "水爆実験で目覚めたゴジラは夜の東京湾から上陸し、銀座へと迫る。四丁目交差点の和光の時計塔がちょうど11時を打つと、ゴジラはそちらへ向き直って咆哮し、ひと振りで時計塔ごと建物の一角を崩してしまう。劇中の銀座は東宝の撮影所に1/25スケールで組まれたミニチュアで、ここで実際に撮影されたわけではない。ここは物語の舞台となった実在の場所だ。特撮班が「壊す」建物を下見した際、相談を警備員に聞かれて不審者と疑われかけたという逸話も残る。和光本館は1932年竣工、2022年からはSEIKO HOUSE GINZAと呼ばれている。",
+     "access": "東京メトロ銀座駅A9出口を出るとすぐ和光の建物。交差点の向かいの角へ渡れば、時計塔全体を見上げられる。",
+     "accessPointName": "銀座駅 A9出口",
+     "bestTime": "正時の数分前に向かいの角で待つと、ウェストミンスターチャイムに続いて時報が鳴る。夕方、時計塔がライトアップされた頃は往年のポスターの趣。",
+     "tips": "四丁目交差点は人も車も非常に多い。撮影は歩道で行い、横断歩道上で立ち止まらないこと。土日祝は中央通りで歩行者天国が実施され（時間は季節により異なる）、正面から撮る好機。"
+    },
+    "en": {
+     "placeName": "Wako Clock Tower (SEIKO HOUSE GINZA, Ginza, Tokyo)",
+     "sceneTitle": "The Eleven O'Clock Chime",
+     "episode": "Film · middle (Tokyo landfall)",
+     "highlight": "As the clock strikes eleven, Godzilla swats the Wako clock tower to the ground: one of the first, and still one of the most famous, landmark destructions in monster-movie history. Audiences in 1954 watched the symbol of a Ginza only just rebuilt after the war come crashing down, and the fear was more real than any effect. Nearly seventy years later Godzilla Minus One (2023) sent the monster back into Ginza, and the Wako building was left a ruin once more. The real tower still strikes the hour, so the bell you hear at the crossing is the very same one.",
+     "story": "Awakened by H-bomb tests, Godzilla comes ashore from Tokyo Bay at night and pushes toward Ginza. At the 4-chome crossing the Wako clock tower happens to strike eleven; Godzilla turns, roars and brings down the tower and a corner of the building with one sweep of his arm. The Ginza on screen was a 1:25-scale miniature built at Toho's studio, not filmed here; this is the real place the story is set. The effects team scouted the buildings they planned to \"destroy\" and were reportedly nearly arrested after a guard overheard them. The Wako Main Building opened in 1932 and has been called SEIKO HOUSE GINZA since 2022.",
+     "access": "Exit A9 of Tokyo Metro Ginza Station comes up right beside the Wako building. Cross to the opposite corner of the intersection to see the whole clock tower.",
+     "accessPointName": "Ginza Sta. Exit A9",
+     "bestTime": "Wait on the opposite corner a few minutes before the hour to hear the Westminster chimes and then the strike. After dusk, when the tower is lit, it looks like a vintage poster.",
+     "tips": "The crossing is packed with people and traffic: shoot from the pavement and don't stop on the crosswalk. On weekends and holidays Chuo-dori becomes a pedestrian zone (hours vary by season), the best chance for a head-on shot."
+    },
+    "ko": {
+     "placeName": "와코 본관 시계탑 (SEIKO HOUSE GINZA, 도쿄 긴자)",
+     "sceneTitle": "열한 시의 종소리",
+     "episode": "영화 · 중반 (도쿄 상륙)",
+     "highlight": "시계가 열한 시를 치는 순간, 고지라가 팔을 한 번 휘둘러 와코 시계탑을 쓰러뜨린다. 괴수 영화 역사상 가장 이르고도 유명한 '랜드마크 파괴' 장면 중 하나다. 1954년의 관객은 전후 겨우 재건된 긴자의 상징이 무너지는 모습을 눈앞에서 보았고, 그 공포는 어떤 특수효과보다 생생했다. 약 70년 뒤 '고질라 마이너스 원'(2023)에서도 고지라는 다시 긴자에 나타났고 와코 건물은 또다시 처참한 모습이 되었다. 실제 시계탑은 지금도 매 정시를 알린다. 교차로에서 듣는 종소리는 그 영화 속 종소리와 같은 것이다.",
+     "story": "수소폭탄 실험으로 깨어난 고지라는 밤의 도쿄만으로 상륙해 긴자로 다가온다. 4초메 교차로의 와코 시계탑이 마침 열한 시를 치자 고지라는 그쪽으로 몸을 돌려 포효하고, 한 번의 손짓으로 시계탑과 건물 한쪽을 무너뜨린다. 영화 속 긴자는 도호 촬영소에 1/25 축척으로 만든 미니어처로, 이곳에서 실제로 촬영하지는 않았다. 이곳은 이야기의 무대가 된 실제 장소다. 특수촬영팀이 '부술' 건물을 답사하다가 경비원에게 대화를 들켜 수상한 사람으로 몰릴 뻔했다는 일화도 전해진다. 와코 본관은 1932년에 지어졌고 2022년부터 SEIKO HOUSE GINZA로 불린다.",
+     "access": "도쿄메트로 긴자역 A9 출구로 나오면 바로 와코 건물 옆이다. 교차로 맞은편 모퉁이로 건너가면 시계탑 전체를 올려다볼 수 있다.",
+     "accessPointName": "긴자역 A9 출구",
+     "bestTime": "정시 몇 분 전에 맞은편 모퉁이에서 기다리면 웨스트민스터 차임에 이어 시보가 울린다. 해 질 녘 조명이 켜진 시계탑은 옛 영화 포스터 같은 분위기다.",
+     "tips": "4초메 교차로는 사람과 차가 매우 많다. 촬영은 인도에서 하고 횡단보도 위에서 멈추지 마세요. 주말과 공휴일에는 주오도리가 보행자 천국이 되어(시간은 계절에 따라 다름) 정면 사진을 찍기 좋다."
+    }
+   }
+  },
+  {
+   "id": "geisha-fushimi-inari-senbon-torii",
+   "workID": "memoirs-of-a-geisha",
+   "latitude": 34.96691,
+   "longitude": 135.77483,
+   "sceneHeading": 125,
+   "scenePitch": 5,
+   "arrivalRadius": 40,
+   "spoiler": false,
+   "sourceURL": "https://en.wikipedia.org/wiki/Memoirs_of_a_Geisha_(film)",
+   "verified": false,
+   "bestMonths": [
+    3,
+    4,
+    11,
+    12
+   ],
+   "accessPoint": {
+    "latitude": 34.966743,
+    "longitude": 135.770843
+   },
+   "kind": "scene",
+   "text": {
+    "zh-Hans": {
+     "placeName": "伏见稻荷大社 千本鸟居（京都·伏见）",
+     "sceneTitle": "奔过千本鸟居",
+     "episode": "电影 · 前段（少女时代）",
+     "highlight": "小千代在层层叠叠的朱红鸟居间一路奔跑，光影在她身上一明一暗地闪过——这短短几秒，是《艺伎回忆录》最常被人想起的画面，也让千本鸟居以最动人的样子出现在全世界观众面前。电影大部分场景是在加州搭景拍摄的，这一段却是剧组到京都实地拍下的。走进这条鸟居隧道，你会明白为什么一个孩子的心愿要用奔跑来表达。",
+     "story": "在桥边被“会长”的温柔打动后，千代攥着他给的硬币一路奔向神社。她穿过一座又一座朱红鸟居，把硬币投进赛钱箱，双手合十许下心愿：要成为艺伎，好有一天能再站到他身边。这段奔跑把一个被卖掉的女孩第一次为自己而活的决心拍得又轻盈又炽热。千本鸟居位于本殿后方、通往奥社奉拜所，是信众为祈愿和还愿捐献的鸟居排成的隧道；整座稻荷山上约有上万座鸟居。",
+     "access": "JR 奈良线稻荷站出站，对面就是大鸟居；穿过楼门和本殿，往后方上坡约 5 分钟到千本鸟居入口。京阪伏见稻荷站步行约 5 分钟到大鸟居。",
+     "accessPointName": "稻荷站",
+     "bestTime": "清晨 7 点前或黄昏人最少，才拍得出电影里鸟居隧道的纵深感；午后阳光从鸟居缝隙里漏下来时光影最美。",
+     "tips": "神社 24 小时可参拜、免费，祈祷和授与所有受理时间。千本鸟居通道狭窄，请靠边拍照、不要长时间占道，勿攀爬或倚靠鸟居。JR 稻荷站只停普通列车。"
+    },
+    "ja": {
+     "placeName": "伏見稲荷大社 千本鳥居（京都市伏見区）",
+     "sceneTitle": "千本鳥居を駆け抜ける",
+     "episode": "映画 · 序盤（少女期）",
+     "highlight": "幼い千代が幾重にも連なる朱の鳥居の間を駆け抜け、光と影が彼女の上を交互に流れていく。ほんの数秒のこのカットは『SAYURI』でもっとも記憶に残る場面であり、千本鳥居がこれ以上ない美しさで世界の観客の前に現れた瞬間でもある。作品の大半はカリフォルニアのセットで撮られたが、この場面は撮影隊が京都で実際に撮ったもの。鳥居のトンネルに入れば、子どもの願いがなぜ「走る」ことで描かれたのかがわかる。",
+     "story": "橋のたもとで「会長」の優しさに触れた千代は、もらった小銭を握りしめて神社へ走る。朱の鳥居をいくつもくぐり抜け、賽銭箱に小銭を入れて手を合わせる。芸者になって、いつかもう一度あの人のそばに立てますように。売られてきた少女が初めて自分のために生きようと決めた瞬間を、軽やかで熱いひと続きの疾走が映し出す。千本鳥居は本殿の奥から奥社奉拝所へ続く、願いや感謝を込めて奉納された鳥居のトンネル。稲荷山全体では約1万基の鳥居があるといわれる。",
+     "access": "JR奈良線稲荷駅を出ると目の前が大鳥居。楼門、本殿を過ぎて奥へ坂を上ると約5分で千本鳥居の入口。京阪伏見稲荷駅からは大鳥居まで徒歩約5分。",
+     "accessPointName": "稲荷駅",
+     "bestTime": "早朝7時前か夕暮れ時が人が少なく、映画のような鳥居のトンネルの奥行きが撮れる。午後、鳥居の隙間から日が差し込む時間も美しい。",
+     "tips": "境内は24時間参拝可・無料（祈祷や授与所は受付時間あり）。千本鳥居は通路が狭いので、端に寄って撮影し、長く立ち止まらないこと。鳥居に登ったり寄りかかったりしない。JR稲荷駅は普通列車のみ停車。"
+    },
+    "en": {
+     "placeName": "Senbon Torii, Fushimi Inari Taisha (Fushimi, Kyoto)",
+     "sceneTitle": "Running the Thousand Gates",
+     "episode": "Film · early (childhood)",
+     "highlight": "Young Chiyo races through tunnel after tunnel of vermilion gates, light and shadow flickering across her: those few seconds are the image people remember most from Memoirs of a Geisha, and they showed the world the Senbon Torii at their most magical. Most of the film was shot on sets in California, but this sequence was filmed on location in Kyoto. Step into the tunnel of gates and you'll understand why a child's wish was told through running.",
+     "story": "Moved by the Chairman's kindness on the bridge, Chiyo clutches the coins he gave her and runs to the shrine. She dashes through gate after vermilion gate, drops the coins into the offering box and clasps her hands: let me become a geisha, so that one day I can stand beside him again. In one light, burning run, a girl who was sold away decides for the first time to live for herself. The Senbon Torii run from behind the main hall up to the Okusha prayer hall, a tunnel of gates donated by worshippers in prayer or thanks; the whole of Mount Inari holds roughly ten thousand of them.",
+     "access": "The great torii stands right across from JR Inari Station (Nara Line). Pass the tower gate and main hall and climb behind them for about 5 min to the Senbon Torii. From Keihan Fushimi-Inari Station it's about 5 min to the great torii.",
+     "accessPointName": "Inari Sta.",
+     "bestTime": "Before 7 am or at dusk the crowds thin enough to capture the film's endless tunnel of gates. In the afternoon, sunlight slipping between the gates is at its most beautiful.",
+     "tips": "The shrine is open 24 hours and free (prayers and the amulet office keep set hours). The gate tunnel is narrow: step aside to shoot, don't block the path for long, and never climb or lean on the torii. Only local trains stop at JR Inari."
+    },
+    "ko": {
+     "placeName": "후시미 이나리 다이샤 센본도리이 (교토 후시미)",
+     "sceneTitle": "천 개의 도리이를 달리다",
+     "episode": "영화 · 초반 (소녀 시절)",
+     "highlight": "어린 치요가 겹겹이 늘어선 붉은 도리이 사이를 달려가고, 빛과 그림자가 그녀 위로 번갈아 스쳐 간다. 불과 몇 초의 이 장면은 '게이샤의 추억'에서 가장 오래 기억되는 장면이자, 센본도리이가 가장 아름다운 모습으로 세계 관객 앞에 선 순간이다. 영화 대부분은 캘리포니아 세트에서 찍었지만 이 장면은 촬영팀이 교토 현지에서 담아냈다. 도리이 터널에 들어서면 왜 한 아이의 소원이 '달리기'로 그려졌는지 알게 된다.",
+     "story": "다리 위에서 '회장님'의 다정함에 마음이 움직인 치요는 받은 동전을 꼭 쥐고 신사로 달려간다. 붉은 도리이를 몇 개고 지나 새전함에 동전을 넣고 두 손을 모은다. 게이샤가 되어 언젠가 다시 그 사람 곁에 설 수 있기를. 팔려 온 소녀가 처음으로 자신을 위해 살겠다고 결심하는 순간을, 가볍고도 뜨거운 질주가 보여 준다. 센본도리이는 본전 뒤에서 오쿠샤 봉배소로 이어지는, 소원과 감사를 담아 봉납된 도리이 터널이다. 이나리산 전체에는 약 1만 개의 도리이가 있다고 한다.",
+     "access": "JR 나라선 이나리역을 나오면 바로 앞이 큰 도리이다. 누문과 본전을 지나 뒤쪽 언덕을 약 5분 오르면 센본도리이 입구. 게이한 후시미이나리역에서는 큰 도리이까지 도보 약 5분.",
+     "accessPointName": "이나리역",
+     "bestTime": "오전 7시 이전이나 해 질 녘이 한산해 영화 같은 도리이 터널의 깊이를 담을 수 있다. 오후에 도리이 틈새로 햇살이 스며드는 시간도 아름답다.",
+     "tips": "경내는 24시간 무료 참배 가능(기도와 부적 판매소는 접수 시간 있음). 센본도리이 통로는 좁으니 가장자리에서 촬영하고 오래 길을 막지 마세요. 도리이에 오르거나 기대지 말 것. JR 이나리역은 보통 열차만 정차한다."
+    }
+   }
+  },
+  {
+   "id": "yolt-himeji-castle",
+   "workID": "you-only-live-twice",
+   "latitude": 34.83902,
+   "longitude": 134.69365,
+   "sceneHeading": 45,
+   "scenePitch": 25,
+   "arrivalRadius": 40,
+   "spoiler": false,
+   "sourceURL": "https://huntingbond.com/himeji-castle-james-bond/",
+   "verified": false,
+   "bestMonths": [
+    4,
+    10,
+    11
+   ],
+   "accessPoint": {
+    "latitude": 34.834652,
+    "longitude": 134.692381
+   },
+   "kind": "scene",
+   "text": {
+    "zh-Hans": {
+     "placeName": "姬路城 备前丸（兵库·姬路）",
+     "sceneTitle": "白鹭城的忍者学校",
+     "episode": "电影 · 中段",
+     "highlight": "在《007之雷霆谷》里，世界遗产姬路城变成了“老虎”田中的忍者训练营：白墙黑瓦下，一排排黑衣忍者挥刀、掷手里剑，邦德也在这里接受训练、“变成日本人”。这是姬路城最早在好莱坞级大片里亮相的一次，许多西方观众正是从这部电影第一次认识这座白鹭般的城。当年媒体报道手里剑练习伤及城墙并引发风波（另有说法称剧组搭了假墙保护），至今仍是取景与文物保护的经典话题。",
+     "story": "为了让邦德潜入敌人的火山基地，田中把他带到自己的秘密忍者学校接受特训。城内的空地上，忍者们练习剑术、手里剑和格斗，邦德一边训练，一边被打扮成日本渔夫的模样。据追踪 007 外景的资料，忍者训练戏在大天守出口一带和弧度优美的石垣前拍摄，手里剑一场在备前门外的小路上，田中与邦德的对话也有在西之丸庭园取景。备前丸就在大天守正下方，是仰望天守、对照电影画面的好位置。",
+     "access": "JR 姬路站北口沿大手前通直走约 20 分钟，或坐巴士在「姬路城大手门前」下车；入城后沿参观路线上坡约 15 分钟到备前丸。",
+     "accessPointName": "姬路城大手门前巴士站",
+     "bestTime": "四月初樱花与白墙同框最美；秋天晴日天空湛蓝，白壁更显电影里的清冷。9 点开门时直接上山人最少。",
+     "tips": "开放 9:00–17:00（16:00 停止入城），12 月 29、30 日闭馆。2026 年 3 月起市外成人票 2,500 日元，18 岁以下免费。城内为特别史迹，请勿触摸或攀爬石垣。"
+    },
+    "ja": {
+     "placeName": "姫路城 備前丸（兵庫県姫路市）",
+     "sceneTitle": "白鷺城の忍者学校",
+     "episode": "映画 · 中盤",
+     "highlight": "『007は二度死ぬ』で、世界遺産・姫路城はタイガー田中の忍者訓練所になった。白壁と黒瓦の下で黒装束の忍者たちが刀を振るい手裏剣を放ち、ボンドもここで訓練を受けて「日本人になる」。姫路城がハリウッド級の大作に登場した最初の例で、多くの欧米の観客はこの映画で白鷺のような城を初めて知った。手裏剣の練習で城壁が傷ついたと報じられて騒動になった（撮影隊は偽の壁を立てて保護したという説もある）話は、ロケと文化財保護をめぐる逸話として今も語られる。",
+     "story": "ボンドを敵の火山基地へ潜入させるため、田中は彼を自らの秘密の忍者学校へ連れていき特訓させる。城内の広場では忍者たちが剣術や手裏剣、格闘の稽古に励み、ボンドは訓練を受けながら日本の漁師に扮する準備を進める。007ロケ地を追う資料によれば、忍者の訓練シーンは大天守の出口付近と美しい勾配の石垣の前で、手裏剣の場面は備前門の外の小道で撮られ、田中とボンドのやりとりは西の丸庭園でも撮影された。備前丸は大天守の真下にあり、天守を見上げて映画の画面と見比べるのにちょうどいい。",
+     "access": "JR姫路駅北口から大手前通りをまっすぐ徒歩約20分、またはバスで「姫路城大手門前」下車。入城後、順路に沿って坂を上り約15分で備前丸。",
+     "accessPointName": "姫路城大手門前バス停",
+     "bestTime": "4月上旬は桜と白壁が一緒に収まり最も美しい。秋晴れの青空の下では白壁が映画のような凛とした表情に。9時の開門直後が空いている。",
+     "tips": "開城9:00〜17:00（入城は16:00まで）、12月29・30日休城。2026年3月から市外の大人は2,500円、18歳未満は無料。城内は特別史跡なので石垣に触れたり登ったりしないこと。"
+    },
+    "en": {
+     "placeName": "Bizen-maru, Himeji Castle (Himeji, Hyogo)",
+     "sceneTitle": "Ninja School at White Heron Castle",
+     "episode": "Film · middle",
+     "highlight": "In You Only Live Twice, World Heritage-listed Himeji Castle becomes Tiger Tanaka's ninja training camp: beneath white walls and black tiles, rows of black-clad ninja swing swords and hurl shuriken, and Bond trains here to \"become Japanese.\" It was the castle's first starring turn in a Hollywood-scale blockbuster, and for many Western viewers their first sight of the White Heron. Press reports that shuriken practice had damaged the walls caused an uproar (other accounts say the crew built a fake wall to protect them), and the episode is still told as a classic tale of filming versus heritage.",
+     "story": "To get Bond inside the enemy's volcano base, Tanaka takes him to his secret ninja school for intensive training. In the castle grounds ninja practise swordsmanship, shuriken and hand-to-hand combat, while Bond trains and is readied to pass as a Japanese fisherman. According to Bond location researchers, the training scenes were shot near the main keep's exit and in front of its gracefully curved stone walls, the shuriken scene in a lane outside the Bizen-mon gate, and some Tanaka-and-Bond scenes in the Nishi-no-maru garden. Bizen-maru sits right below the keep, a good place to look up and compare with the film.",
+     "access": "Walk straight up Otemae-dori from JR Himeji Station's north exit (about 20 min), or take a bus to Himeji-jo Otemon-mae. Inside, follow the route uphill about 15 min to Bizen-maru.",
+     "accessPointName": "Himeji-jo Otemon-mae bus stop",
+     "bestTime": "Early April puts cherry blossoms against the white walls; on a clear autumn day the blue sky gives the castle the film's crisp look. Go straight up at 9 am opening for the fewest people.",
+     "tips": "Open 9:00–17:00 (last entry 16:00), closed Dec 29–30. From March 2026 adult admission is ¥2,500 for non-residents of Himeji; under-18s are free. The castle is a Special Historic Site: don't touch or climb the stone walls."
+    },
+    "ko": {
+     "placeName": "히메지성 비젠마루 (효고현 히메지)",
+     "sceneTitle": "백로성의 닌자 학교",
+     "episode": "영화 · 중반",
+     "highlight": "'007 두번 산다'에서 세계유산 히메지성은 타이거 다나카의 닌자 훈련소가 된다. 흰 벽과 검은 기와 아래 검은 옷의 닌자들이 칼을 휘두르고 수리검을 던지며, 본드도 이곳에서 훈련을 받아 '일본인이 된다'. 히메지성이 할리우드급 대작에 처음 등장한 장면으로, 많은 서구 관객이 이 영화로 백로를 닮은 성을 처음 알게 되었다. 수리검 연습으로 성벽이 손상됐다는 보도로 소동이 일었고(촬영팀이 가짜 벽을 세워 보호했다는 설도 있다), 지금도 촬영과 문화재 보호를 둘러싼 대표적인 일화로 회자된다.",
+     "story": "본드를 적의 화산 기지에 잠입시키기 위해 다나카는 그를 자신의 비밀 닌자 학교로 데려가 특훈을 시킨다. 성 안 광장에서는 닌자들이 검술과 수리검, 격투를 연마하고, 본드는 훈련을 받으며 일본 어부로 변장할 준비를 한다. 007 촬영지를 추적한 자료에 따르면 닌자 훈련 장면은 대천수 출구 부근과 아름다운 곡선의 돌담 앞에서, 수리검 장면은 비젠몬 밖 골목에서 찍었고, 다나카와 본드의 장면 일부는 니시노마루 정원에서도 촬영했다. 비젠마루는 대천수 바로 아래에 있어 천수를 올려다보며 영화 장면과 비교해 보기 좋다.",
+     "access": "JR 히메지역 북쪽 출구에서 오테마에도리를 따라 직진해 도보 약 20분, 또는 버스로 '히메지성 오테몬마에' 하차. 입성 후 관람 경로를 따라 약 15분 오르면 비젠마루.",
+     "accessPointName": "히메지성 오테몬마에 버스 정류장",
+     "bestTime": "4월 초에는 벚꽃과 흰 벽을 한 화면에 담을 수 있다. 맑은 가을날 파란 하늘 아래 흰 벽은 영화처럼 청량하다. 오전 9시 개장 직후가 가장 한산하다.",
+     "tips": "개방 9:00~17:00(입성 16:00까지), 12월 29·30일 휴관. 2026년 3월부터 히메지 시민이 아닌 성인은 2,500엔, 18세 미만 무료. 성 안은 특별사적이므로 돌담을 만지거나 오르지 마세요."
+    }
+   }
+  },
+  {
+   "id": "aliceborderland-shibuya-crossing",
+   "workID": "alice-in-borderland",
+   "latitude": 35.65951,
+   "longitude": 139.70052,
+   "sceneHeading": 135,
+   "scenePitch": 0,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "sourceURL": "https://www.timeout.jp/tokyo/ja/news/five-things-you-didnt-know-about-netflixs-alice-in-borderland-012621",
+   "verified": false,
+   "bestMonths": [
+    5,
+    10,
+    11
+   ],
+   "accessPoint": {
+    "latitude": 35.659224,
+    "longitude": 139.701023
+   },
+   "kind": "scene",
+   "text": {
+    "zh-Hans": {
+     "placeName": "涩谷站前十字路口（东京·涩谷）",
+     "sceneTitle": "空无一人的涩谷",
+     "episode": "第 1 季 第 1 集",
+     "highlight": "全世界最拥挤的路口忽然一个人都没有——《弥留之国的爱丽丝》只用这一个画面，就把观众拽进了另一个世界。有栖站在空荡荡的斑马线中央，大屏幕全部熄灭，“最熟悉的地方变得陌生”的恐惧，正是整部剧的起点。这一幕其实是在栃木县足利市按原尺寸重建的路口布景里拍的，再用 CG 补上远处的楼群。站在真实的涩谷人潮里，想象它被清空的样子，最有冲击力。",
+     "story": "有栖和好友苅部、长太在涩谷路口闹出乱子，慌忙躲进车站的厕所。一阵刺眼的光闪过之后，外面的喧嚣消失了。三人走出车站，看到的是一个熄了灯、断了电、连一个行人都没有的涩谷。剧组没有在真实的涩谷封街，而是在“足利 Scramble City Studio”的实物大小布景里拍摄，交差点远处的建筑由数码特效补齐，据介绍连信号灯切换的节奏都和真实路口一致。这里是剧中故事的舞台，不是拍摄现场。",
+     "access": "JR 涩谷站八公口检票口出站，经过八公像即到十字路口，约 1 分钟。地铁、东急、京王各线按指示牌也可走到八公口。",
+     "accessPointName": "涩谷站 八公口",
+     "bestTime": "想看最接近剧中“空城”的涩谷，可在清晨 5 点前后首班车时段来，路口人车最少；夜里大屏幕全亮时，正好和剧中熄灯的画面对照。",
+     "tips": "绿灯时间短，请勿在路口中央停留或架三脚架，无人机须获许可。剧中布景在栃木县足利市，据报道已于 2025 年底停止运营。涩谷站周边 18:00 至次日 5:00 禁止路上饮酒。"
+    },
+    "ja": {
+     "placeName": "渋谷駅前スクランブル交差点（東京都渋谷区）",
+     "sceneTitle": "誰もいない渋谷",
+     "episode": "シーズン1 第1話",
+     "highlight": "世界一混み合う交差点から、突然人が一人もいなくなる。『今際の国のアリス』はこのひとつの画で、見る者を別の世界へ引きずり込んだ。がらんとした横断歩道の真ん中に立つアリス、すべて消えた大型ビジョン。「いちばん見慣れた場所が見知らぬ場所になる」恐怖こそ、この物語の出発点だ。実際の撮影は栃木県足利市に実物大で再現された交差点のオープンセットで行われ、遠景のビル群はCGで補われた。本物の渋谷の人波の中で、ここが空っぽになった姿を想像するのがいちばんの醍醐味だ。",
+     "story": "アリスは親友のカルベ、チョータと渋谷の交差点で騒ぎを起こし、慌てて駅のトイレに逃げ込む。まばゆい光が走ったあと、外の喧騒が消えた。駅を出た三人が目にしたのは、明かりも電気も消え、通行人が一人もいない渋谷だった。撮影は本物の渋谷を封鎖して行ったのではなく、「足利スクランブルシティスタジオ」の実物大セットで行われ、交差点の奥の建物はデジタルで補完。信号の切り替わりのタイミングまで本物の交差点と同じにしたという。ここは物語の舞台であり、撮影場所ではない。",
+     "access": "JR渋谷駅ハチ公改札を出て、ハチ公像の先がすぐスクランブル交差点（徒歩1分）。地下鉄・東急・京王からも案内に従えばハチ公口へ出られる。",
+     "accessPointName": "渋谷駅 ハチ公口",
+     "bestTime": "劇中の「無人」にいちばん近い渋谷を見るなら、始発前後の朝5時ごろ。夜、大型ビジョンがすべて灯った光景は、劇中の消灯した画面と好対照。",
+     "tips": "青信号は短いので交差点の真ん中で立ち止まったり三脚を立てたりしないこと。ドローンは許可が必要。劇中セットは栃木県足利市にあり、2025年末で運営を終了したと報じられている。渋谷駅周辺は18時〜翌5時の路上飲酒禁止。"
+    },
+    "en": {
+     "placeName": "Shibuya Scramble Crossing (Shibuya, Tokyo)",
+     "sceneTitle": "An Empty Shibuya",
+     "episode": "Season 1 · Episode 1",
+     "highlight": "The world's busiest crossing suddenly has no one in it. With that one image, Alice in Borderland drags viewers into another world: Arisu standing alone in the middle of the zebra stripes, every giant screen gone dark. The fear of the most familiar place turning strange is where the whole series begins. The scene was actually shot on a full-size replica of the crossing built in Ashikaga, Tochigi, with CG filling in the distant buildings. Standing in the real Shibuya crowd and imagining it emptied is the most striking way to experience it.",
+     "story": "Arisu and his friends Karube and Chota cause a commotion at the Shibuya crossing and duck into a station restroom to hide. After a blinding flash, the noise outside is gone. When the three step out of the station, Shibuya is dark, powerless and without a single pedestrian. The crew didn't close off the real Shibuya: they filmed on a life-size set at the Ashikaga Scramble City Studio, adding the buildings beyond the crossing digitally, and even matched the timing of the traffic lights to the real thing. This is where the story is set, not where it was filmed.",
+     "access": "Leave JR Shibuya Station by the Hachiko gate, pass the Hachiko statue, and the crossing is right in front of you (1 min). Signs from the subway, Tokyu and Keio lines also lead to the Hachiko Exit.",
+     "accessPointName": "Shibuya Sta. Hachiko Exit",
+     "bestTime": "For the Shibuya closest to the show's empty city, come around 5 am when the first trains run. At night, with every screen blazing, it makes a perfect contrast with the blacked-out scene.",
+     "tips": "The green phase is short: don't stop or set up a tripod mid-crossing; drones need permission. The show's set is in Ashikaga, Tochigi, and was reported to have closed at the end of 2025. Street drinking near the station is banned from 6 pm to 5 am."
+    },
+    "ko": {
+     "placeName": "시부야역 앞 스크램블 교차로 (도쿄 시부야)",
+     "sceneTitle": "아무도 없는 시부야",
+     "episode": "시즌 1 · 1화",
+     "highlight": "세계에서 가장 붐비는 교차로에서 갑자기 사람이 한 명도 보이지 않는다. '아리스 인 보더랜드'는 이 한 장면으로 시청자를 다른 세계로 끌어들였다. 텅 빈 횡단보도 한가운데 선 아리스, 모두 꺼져 버린 대형 전광판. '가장 익숙한 곳이 낯설어지는' 공포가 이 이야기의 출발점이다. 실제 촬영은 도치기현 아시카가시에 실물 크기로 재현한 교차로 세트에서 했고, 먼 곳의 빌딩들은 CG로 채웠다. 진짜 시부야의 인파 속에서 이곳이 텅 빈 모습을 상상해 보는 것이 가장 강렬한 체험이다.",
+     "story": "아리스는 친구 카르베, 초타와 시부야 교차로에서 소동을 일으키고 서둘러 역 화장실로 숨는다. 눈부신 빛이 번쩍인 뒤, 바깥의 소음이 사라졌다. 역을 나선 세 사람이 본 것은 불도 전기도 꺼지고 행인 한 명 없는 시부야였다. 제작진은 실제 시부야를 통제하지 않고 '아시카가 스크램블 시티 스튜디오'의 실물 크기 세트에서 촬영했으며, 교차로 너머 건물은 디지털로 보완했다. 신호등이 바뀌는 타이밍까지 실제 교차로와 똑같이 맞췄다고 한다. 이곳은 드라마의 무대이지 촬영 장소는 아니다.",
+     "access": "JR 시부야역 하치코 개찰구로 나와 하치코 동상을 지나면 바로 스크램블 교차로(도보 1분). 지하철·도큐·게이오선에서도 안내판을 따라 하치코 출구로 나올 수 있다.",
+     "accessPointName": "시부야역 하치코 출구",
+     "bestTime": "드라마 속 '텅 빈 도시'에 가장 가까운 시부야를 보려면 첫차 무렵인 새벽 5시경. 밤에 전광판이 모두 켜진 풍경은 드라마의 불 꺼진 장면과 좋은 대비를 이룬다.",
+     "tips": "파란불이 짧으니 교차로 한가운데 멈추거나 삼각대를 세우지 마세요. 드론은 허가가 필요하다. 드라마 세트는 도치기현 아시카가에 있었고 2025년 말 운영을 종료했다고 보도되었다. 시부야역 주변은 18시~다음 날 5시 노상 음주 금지."
+    }
+   }
+  },
+  {
+   "id": "oshin-ginzan-onsen",
+   "workID": "oshin",
+   "latitude": 38.56951,
+   "longitude": 140.53141,
+   "sceneHeading": 135,
+   "scenePitch": 0,
+   "arrivalRadius": 50,
+   "spoiler": false,
+   "sourceURL": "https://www.gov-online.go.jp/eng/publicity/book/hlj/html/202401/202401_03_en.html",
+   "verified": false,
+   "bestMonths": [
+    1,
+    2,
+    12
+   ],
+   "accessPoint": {
+    "latitude": 38.570419,
+    "longitude": 140.530069
+   },
+   "kind": "scene",
+   "text": {
+    "zh-Hans": {
+     "placeName": "银山温泉（山形·尾花泽）",
+     "sceneTitle": "雪中寻母",
+     "episode": "少女篇",
+     "highlight": "银山川两岸的木造多层旅馆，雪夜里亮起的煤气街灯——如今被无数人拍成“梦幻雪景”的银山温泉，最初正是因为《阿信》才在全日本出名。剧中少女阿信冒着大雪来看望在温泉旅馆做女佣的母亲，母女短暂相聚又不得不分开，是少女篇里最让人揪心的段落之一。饰演母亲阿藤的泉品子多年后回忆山形外景，说看到当地人在严寒中辛苦劳作，“忍不住落泪”。",
+     "story": "又逢歉收，阿信的母亲阿藤为了贴补家用，住进银山温泉的旅馆当女佣。年幼的阿信想念母亲，踏着深雪来到温泉街找她。母女在异乡相见，却都明白这样的团聚不能长久，短暂相守之后，又只能各自回到辛苦的日子里。据日本政府广报介绍，少女阿信探望做工母亲的场景正是在银山温泉拍摄的；全剧开头，八十多岁的阿信离家独自来到雪深的山形温泉地，也让这里成了整个故事的出发点。",
+     "access": "JR 山形新干线大石田站坐往银山温泉的巴士约 40 分钟到终点，沿银山川往上游走约 5 分钟，就进入两岸旅馆林立的温泉街。",
+     "accessPointName": "银山温泉巴士站",
+     "bestTime": "1–2 月积雪最深，傍晚煤气灯亮起、雪落在木造旅馆上，最接近剧中景象；绿意盎然的夏天人少，适合慢慢走。",
+     "tips": "冬季（约 12 月下旬至 3 月）对一日游客实施交通管制和夜间入场限制，规则每季公布，出发前请查尾花泽市或银山温泉官网。住宿要尽早预订；温泉街路窄，请勿堵在桥上拍照。"
+    },
+    "ja": {
+     "placeName": "銀山温泉（山形県尾花沢市）",
+     "sceneTitle": "雪の中、母を訪ねて",
+     "episode": "少女編",
+     "highlight": "銀山川の両岸に並ぶ木造多層の旅館、雪の夜に灯るガス灯。今では「幻想的な雪景色」として数えきれないほど写真に撮られる銀山温泉が全国に知られるきっかけになったのが『おしん』だ。劇中、少女おしんは大雪の中、温泉宿で女中として働く母を訪ねてくる。束の間の再会と別れは、少女編でもとりわけ胸を締めつける場面だ。母ふじを演じた泉ピン子は、後年、山形ロケで寒さの中働く地元の人の姿に「思わず涙がでた」と振り返っている。",
+     "story": "またも不作の年、おしんの母ふじは家計を助けるため、銀山温泉の旅館に住み込みの女中として働きに出る。母恋しさに、幼いおしんは深い雪を踏みしめて温泉街までやって来る。異郷での再会。けれど二人とも、この時間が長くは続かないことを知っていた。束の間をともに過ごしたあと、母と娘はまたそれぞれの厳しい暮らしへ戻っていく。政府広報によれば、少女おしんが働く母を訪ねる場面のロケ地が銀山温泉。物語の冒頭、80代のおしんが家を出てひとり雪深い山形の温泉地を訪れることからも、ここは物語の出発点となっている。",
+     "access": "JR山形新幹線大石田駅から銀山温泉行きのバスで約40分、終点下車。銀山川沿いに上流へ5分ほど歩くと旅館が並ぶ温泉街に入る。",
+     "accessPointName": "銀山温泉バス停",
+     "bestTime": "雪が最も深い1〜2月、夕方ガス灯がともり木造旅館に雪が降り積もる頃が劇中の雰囲気そのもの。緑の夏は人も少なく、ゆっくり歩ける。",
+     "tips": "冬季（例年12月下旬〜3月）は日帰り客への交通規制や夜間の入場制限があり、ルールは毎シーズン発表される。出発前に尾花沢市や銀山温泉の公式情報を確認。宿は早めに予約を。通りは狭いので橋の上をふさいで撮影しないこと。"
+    },
+    "en": {
+     "placeName": "Ginzan Onsen (Obanazawa, Yamagata)",
+     "sceneTitle": "Through the Snow to Mother",
+     "episode": "Childhood arc",
+     "highlight": "Multi-storey wooden inns lining both banks of the Ginzan River, gas lamps glowing on snowy nights: Ginzan Onsen, now photographed endlessly as a dreamlike winter scene, first became famous across Japan because of Oshin. In the drama young Oshin struggles through heavy snow to visit her mother, who works as a maid at an inn here, and their brief reunion and parting is one of the most wrenching moments of her childhood. Pinko Izumi, who played her mother Fuji, later recalled being moved to tears on the Yamagata shoot by how hard local people worked in the cold.",
+     "story": "In another year of failed harvests, Oshin's mother Fuji takes a live-in job as a maid at an inn in Ginzan Onsen to help the family. Missing her, little Oshin tramps through deep snow to the hot-spring town to find her. Mother and daughter meet far from home, both knowing it cannot last; after a brief time together, each must return to her own hard life. According to the Japanese government's public-relations magazine, the scene of young Oshin visiting her working mother was filmed at Ginzan Onsen, and the series opens with the elderly Oshin leaving home and travelling alone to a snowbound Yamagata hot-spring town, making this the starting point of the whole story.",
+     "access": "From Oishida Station on the JR Yamagata Shinkansen, take the bus for Ginzan Onsen to the last stop (about 40 min), then walk upstream along the Ginzan River about 5 min into the street of inns.",
+     "accessPointName": "Ginzan Onsen bus stop",
+     "bestTime": "January–February, when the snow is deepest and the gas lamps come on at dusk over snow-laden wooden inns, looks just like the drama. Summer is green and quiet, good for a slow stroll.",
+     "tips": "In winter (roughly late December–March) day visitors face traffic controls and evening entry limits, with rules announced each season: check the Obanazawa City or Ginzan Onsen official sites first. Book rooms early, and don't block the narrow bridges while taking photos."
+    },
+    "ko": {
+     "placeName": "긴잔 온천 (야마가타현 오바나자와)",
+     "sceneTitle": "눈길 속 어머니를 찾아",
+     "episode": "소녀 편",
+     "highlight": "긴잔강 양쪽에 늘어선 목조 다층 여관, 눈 내리는 밤에 켜지는 가스등. 지금은 '환상적인 설경'으로 수없이 사진에 담기는 긴잔 온천이 일본 전국에 알려진 계기가 바로 '오싱'이다. 드라마에서 어린 오싱은 폭설을 뚫고 온천 여관에서 하녀로 일하는 어머니를 찾아오고, 짧은 재회와 이별은 소녀 편에서도 특히 가슴 아픈 장면이다. 어머니 후지를 연기한 이즈미 핀코는 훗날 야마가타 촬영 때 추위 속에서 일하는 현지 사람들을 보고 '나도 모르게 눈물이 났다'고 회상했다.",
+     "story": "또다시 흉년이 든 해, 오싱의 어머니 후지는 살림을 돕기 위해 긴잔 온천의 여관에 입주 하녀로 일하러 간다. 어머니가 그리운 어린 오싱은 깊은 눈을 헤치고 온천 거리까지 찾아온다. 타향에서의 재회, 하지만 두 사람 모두 이 시간이 오래가지 못한다는 것을 안다. 잠시 함께한 뒤 모녀는 다시 각자의 고된 삶으로 돌아간다. 일본 정부 홍보지에 따르면 어린 오싱이 일하는 어머니를 찾아가는 장면의 촬영지가 바로 긴잔 온천이며, 드라마 첫머리에 80대의 오싱이 집을 나와 홀로 눈 깊은 야마가타의 온천지를 찾는 것도 이곳이 이야기의 출발점임을 보여 준다.",
+     "access": "JR 야마가타 신칸센 오이시다역에서 긴잔 온천행 버스로 약 40분, 종점 하차. 긴잔강을 따라 상류 쪽으로 5분쯤 걸으면 여관이 늘어선 온천 거리다.",
+     "accessPointName": "긴잔 온천 버스 정류장",
+     "bestTime": "눈이 가장 깊은 1~2월, 해 질 녘 가스등이 켜지고 목조 여관 위로 눈이 쌓일 때가 드라마 분위기 그대로다. 푸른 여름은 한산해 천천히 걷기 좋다.",
+     "tips": "겨울(대략 12월 하순~3월)에는 당일치기 방문객 대상 교통 규제와 야간 입장 제한이 있고 규칙은 시즌마다 발표된다. 출발 전 오바나자와시나 긴잔 온천 공식 정보를 확인하세요. 숙소는 일찍 예약하고, 좁은 다리 위를 막고 촬영하지 마세요."
+    }
+   }
+  },
+  {
+   "id": "wolverine-zojoji",
+   "workID": "the-wolverine",
+   "latitude": 35.65735,
+   "longitude": 139.74905,
+   "sceneHeading": 270,
+   "scenePitch": 10,
+   "arrivalRadius": 50,
+   "spoiler": false,
+   "sourceURL": "https://www.locationbox.metro.tokyo.lg.jp/english/?p=405",
+   "verified": false,
+   "bestMonths": [
+    3,
+    4,
+    11,
+    12
+   ],
+   "accessPoint": {
+    "latitude": 35.659375,
+    "longitude": 139.75046
+   },
+   "kind": "scene",
+   "text": {
+    "zh-Hans": {
+     "placeName": "增上寺 大殿前（东京·芝公园）",
+     "sceneTitle": "葬礼上的突袭",
+     "episode": "电影 · 前段",
+     "highlight": "黑衣送葬的人群、低沉的诵经声，身后是红白相间的东京塔——《金刚狼2》里矢志田的葬礼，把古刹和现代东京叠进同一个画面，成了好莱坞电影里最有“东京味”的场景之一。剧组真的在增上寺大殿前实景拍摄，随后爆发的黑帮突袭和大殿前大台阶上的厮杀，让这座德川将军家的菩提寺以完全不同的面貌出现在全球银幕上。",
+     "story": "矢志田去世后，盛大的葬礼在寺院里举行，罗根远远站在人群后面。他察觉混在僧侣与宾客之中的黑帮，还没来得及提醒，袭击就开始了。黑帮要掳走矢志田的孙女真理子，罗根护着她在大殿前的大台阶上奋战，一路杀出寺院、冲进街头。东京都官方外景数据库介绍，葬礼和大台阶上的袭击都在增上寺拍摄，部分屋顶上的打斗也在大殿取景。增上寺是净土宗大本山，也是德川将军家的菩提寺。",
+     "access": "都营三田线御成门站 A1 出口出站，沿日比谷通往南步行约 3 分钟进入增上寺，正面就是大殿和大台阶。都营浅草线大门站步行约 5 分钟。",
+     "accessPointName": "御成门站 A1 出口",
+     "bestTime": "傍晚东京塔亮灯时站在大殿前，古寺与铁塔同框最像电影；3 月底樱花、冬夜空气通透时也很美。",
+     "tips": "境内免费参观，大殿开放时间约为 6:00–17:30，以官网为准。这里是正在使用的寺院，法事进行时请保持安静，不要拍摄僧侣和参拜者。三解脱门修缮工程预计持续到 2032 年前后。"
+    },
+    "ja": {
+     "placeName": "増上寺 大殿前（東京都港区芝公園）",
+     "sceneTitle": "葬儀を襲う刺客",
+     "episode": "映画 · 序盤",
+     "highlight": "喪服の参列者、低く響く読経、その背後には紅白の東京タワー。『ウルヴァリン: SAMURAI』の矢志田の葬儀は、古刹と現代の東京をひとつの画面に重ね、ハリウッド映画でもとりわけ「東京らしい」場面になった。撮影隊は実際に増上寺の大殿前でロケを行い、続くヤクザの襲撃や大殿前の大階段での乱闘によって、徳川将軍家の菩提寺はまったく違う顔で世界のスクリーンに登場した。",
+     "story": "矢志田が亡くなり、寺で盛大な葬儀が営まれる。ローガンは参列者の後方から様子をうかがい、僧侶や弔問客に紛れたヤクザに気づくが、知らせる間もなく襲撃が始まる。孫娘マリコをさらおうとする一味から彼女を守り、ローガンは大殿前の大階段で戦い、寺の外の街へと逃走劇を繰り広げる。東京都のロケ地情報サイトによれば、葬儀と大階段での襲撃は増上寺で撮影され、屋根の上の格闘シーンの一部も大殿で撮られた。増上寺は浄土宗の大本山で、徳川将軍家の菩提寺。",
+     "access": "都営三田線御成門駅A1出口から日比谷通りを南へ徒歩約3分で増上寺。正面が大殿と大階段。都営浅草線大門駅からは徒歩約5分。",
+     "accessPointName": "御成門駅 A1出口",
+     "bestTime": "夕方、東京タワーが点灯する頃に大殿前に立つと、古刹とタワーが並ぶ映画のような構図に。3月末の桜や、空気の澄んだ冬の夜もいい。",
+     "tips": "境内は自由に参拝でき無料。大殿の開堂はおおむね6:00〜17:30（公式サイトで確認を）。現役の寺院なので、法要中は静かにし、僧侶や参拝者を撮影しないこと。三解脱門は2032年頃まで修復工事の予定。"
+    },
+    "en": {
+     "placeName": "Zojoji Temple, in front of the Main Hall (Shiba Park, Tokyo)",
+     "sceneTitle": "Ambush at the Funeral",
+     "episode": "Film · early",
+     "highlight": "Mourners in black, the low drone of sutras, and behind them the red-and-white Tokyo Tower: Yashida's funeral in The Wolverine stacks an ancient temple and modern Tokyo into one frame, and it became one of the most unmistakably Tokyo scenes in any Hollywood film. The crew really did shoot in front of Zojoji's Main Hall, and the yakuza attack and brawl on the great staircase that follow show the Tokugawa shoguns' family temple to the world in a whole new light.",
+     "story": "After Yashida's death a grand funeral is held at the temple, and Logan watches from the back of the crowd. He spots yakuza hidden among the monks and mourners, but before he can warn anyone the attack begins. As the gang tries to snatch Yashida's granddaughter Mariko, Logan fights to protect her on the great staircase before the Main Hall, then battles his way out of the temple and into the streets. Tokyo's official location database confirms the funeral and the staircase attack were filmed at Zojoji, with part of a rooftop fight shot on the Main Hall. Zojoji is a head temple of Jodo Buddhism and the family temple of the Tokugawa shoguns.",
+     "access": "From Exit A1 of Onarimon Station (Toei Mita Line), walk south along Hibiya-dori about 3 min into Zojoji; the Main Hall and its staircase are straight ahead. About 5 min from Daimon Station (Toei Asakusa Line).",
+     "accessPointName": "Onarimon Sta. Exit A1",
+     "bestTime": "At dusk, when Tokyo Tower lights up, stand before the Main Hall for the film's temple-and-tower frame. Late-March cherry blossoms and crisp winter nights are lovely too.",
+     "tips": "The grounds are free; the Main Hall is open roughly 6:00–17:30 (check the official site). This is a working temple: keep quiet during services and don't photograph monks or worshippers. The Sangedatsumon gate is under restoration until around 2032."
+    },
+    "ko": {
+     "placeName": "조조지 대전 앞 (도쿄 시바 공원)",
+     "sceneTitle": "장례식의 습격",
+     "episode": "영화 · 초반",
+     "highlight": "검은 상복의 조문객, 낮게 울리는 독경, 그 뒤로 보이는 빨갛고 하얀 도쿄 타워. '더 울버린'의 야시다 장례식은 오래된 사찰과 현대 도쿄를 한 화면에 겹쳐 놓으며 할리우드 영화 속에서도 손꼽히게 '도쿄다운' 장면이 되었다. 제작진은 실제로 조조지 대전 앞에서 촬영했고, 이어지는 야쿠자의 습격과 대전 앞 큰 계단에서의 난투로 도쿠가와 쇼군 가문의 보리사는 전혀 다른 얼굴로 세계 스크린에 등장했다.",
+     "story": "야시다가 세상을 떠나고 절에서 성대한 장례식이 열린다. 조문객 뒤편에서 지켜보던 로건은 승려와 조문객 사이에 섞인 야쿠자를 알아채지만, 경고할 틈도 없이 습격이 시작된다. 손녀 마리코를 납치하려는 일당에 맞서 로건은 대전 앞 큰 계단에서 싸우고, 절을 빠져나와 거리로 추격전을 이어 간다. 도쿄도의 공식 촬영지 데이터베이스에 따르면 장례식과 큰 계단의 습격 장면은 조조지에서 촬영했고, 지붕 위 격투 일부도 대전에서 찍었다. 조조지는 정토종 대본산이자 도쿠가와 쇼군 가문의 보리사다.",
+     "access": "도에이 미타선 오나리몬역 A1 출구에서 히비야도리를 따라 남쪽으로 약 3분 걸으면 조조지. 정면이 대전과 큰 계단이다. 도에이 아사쿠사선 다이몬역에서는 도보 약 5분.",
+     "accessPointName": "오나리몬역 A1 출구",
+     "bestTime": "해 질 녘 도쿄 타워에 불이 들어올 때 대전 앞에 서면 사찰과 타워가 함께 담긴 영화 같은 구도가 나온다. 3월 말 벚꽃이나 공기가 맑은 겨울밤도 좋다.",
+     "tips": "경내는 무료로 자유롭게 참배할 수 있고, 대전은 대략 6:00~17:30 개방(공식 사이트 확인). 실제 운영 중인 사찰이니 법회 중에는 조용히 하고 승려와 참배객을 촬영하지 마세요. 산게다쓰몬은 2032년경까지 보수 공사 예정."
+    }
+   }
+  },
+  {
+   "id": "ran-himeji-castle",
+   "workID": "ran",
+   "latitude": 34.83701,
+   "longitude": 134.69342,
+   "sceneHeading": 12,
+   "scenePitch": 12,
+   "arrivalRadius": 60,
+   "spoiler": false,
+   "sourceURL": "https://gendai.media/articles/-/95800",
+   "verified": false,
+   "bestMonths": [
+    4,
+    10,
+    11
+   ],
+   "accessPoint": {
+    "latitude": 34.834652,
+    "longitude": 134.692381
+   },
+   "kind": "scene",
+   "text": {
+    "zh-Hans": {
+     "placeName": "姬路城 三之丸广场（兵库·姬路）",
+     "sceneTitle": "秀虎的一之城",
+     "episode": "电影 · 前段",
+     "highlight": "黑泽明需要一座足以象征一文字家权势的主城，他选中了真正的国宝姬路城。层层白墙的大天守，就是秀虎亲手交给长子太郎、自己却在那里尝到被冷落滋味的“一之城”。片中被大火吞没的三之城是在富士山麓专门搭建的，姬路城和熊本城则是少数获准实拍的真城。站在三之丸广场仰望天守，你看到的正是老领主即将失去的那份荣光。",
+     "story": "隐退后的秀虎带着随从住进已交给太郎的一之城。太郎在枫夫人的怂恿下，要父亲签下誓书、交出一切权力，又因双方家臣的冲突与父亲彻底决裂。受辱的秀虎愤然离城，去投奔次子次郎，却一步步走向众叛亲离。据黑泽明之子黑泽久雄在对谈中所说，在地方政府的协助下，一之城在姬路城拍摄、二之城在熊本城拍摄；三之城则因为不能烧真城，专门新建后付之一炬。",
+     "access": "JR 姬路站北口沿大手前通直走约 20 分钟，或坐巴士在「姬路城大手门前」下车；穿过大手门就是三之丸广场，正前方即大天守。",
+     "accessPointName": "姬路城大手门前巴士站",
+     "bestTime": "三之丸广场免费开放。四月初樱花季，或晴天傍晚夕阳照在白墙上时，天守最有电影里的威严。",
+     "tips": "三之丸广场免费；登天守 9:00–17:00（16:00 停止入城），12 月 29、30 日闭馆。2026 年 3 月起市外成人 2,500 日元，18 岁以下免费。"
+    },
+    "ja": {
+     "placeName": "姫路城 三の丸広場（兵庫県姫路市）",
+     "sceneTitle": "秀虎の一の城",
+     "episode": "映画 · 序盤",
+     "highlight": "一文字家の威勢を象徴する本城として、黒澤明が選んだのは本物の国宝・姫路城だった。白壁が幾重にも重なる大天守こそ、秀虎が長男・太郎に譲り、そこで冷遇の苦さを味わうことになる「一の城」だ。炎に包まれる三の城は富士山麓に新たに築かれたもので、姫路城と熊本城は撮影が許された数少ない本物の城。三の丸広場から天守を見上げれば、老いた領主が失おうとしている栄華がそこにある。",
+     "story": "隠居した秀虎は家来を連れ、太郎に譲った一の城に身を寄せる。楓の方にそそのかされた太郎は、父に一切の権限を譲る誓紙への署名を迫り、さらに家臣同士の衝突をきっかけに父と決裂する。屈辱を受けた秀虎は城を出て次男・次郎を頼るが、次々と裏切られていく。黒澤明の長男・黒澤久雄は対談で、自治体の協力を得て一の城は姫路城、二の城は熊本城で撮影し、本物の城は燃やせないため三の城は一から築城したと語っている。",
+     "access": "JR姫路駅北口から大手前通りをまっすぐ徒歩約20分、またはバスで「姫路城大手門前」下車。大手門をくぐると三の丸広場で、正面に大天守。",
+     "accessPointName": "姫路城大手門前バス停",
+     "bestTime": "三の丸広場は無料で入れる。4月上旬の桜の頃や、晴れた日の夕方、西日が白壁を照らす時間が映画のような威容。",
+     "tips": "三の丸広場は無料。天守の公開は9:00〜17:00（入城は16:00まで）、12月29・30日休城。2026年3月から市外の大人は2,500円、18歳未満は無料。"
+    },
+    "en": {
+     "placeName": "Sannomaru Square, Himeji Castle (Himeji, Hyogo)",
+     "sceneTitle": "Hidetora's First Castle",
+     "episode": "Film · early",
+     "highlight": "Kurosawa needed a main castle grand enough to embody the Ichimonji clan's power, and he chose the real thing: Himeji, a National Treasure. Its tiered white keep is the First Castle that Hidetora hands to his eldest son Taro, and where he first tastes being cast aside. The Third Castle that burns in the film was purpose-built at the foot of Mount Fuji; Himeji and Kumamoto were the rare genuine castles Kurosawa was allowed to film. Look up at the keep from Sannomaru Square and you see the glory the old lord is about to lose.",
+     "story": "Having retired, Hidetora moves with his retainers into the First Castle he has given to Taro. Urged on by Lady Kaede, Taro demands that his father sign a pledge surrendering all authority, and a clash between their men leads to an open break. Humiliated, Hidetora leaves to seek refuge with his second son Jiro, only to be betrayed again and again. Kurosawa's son Hisao has said that, with local governments' help, the First Castle was filmed at Himeji and the Second at Kumamoto, while the Third was built from scratch because a real castle could not be burned.",
+     "access": "Walk straight up Otemae-dori from JR Himeji Station's north exit (about 20 min), or take a bus to Himeji-jo Otemon-mae. Pass through the Otemon gate into Sannomaru Square with the keep straight ahead.",
+     "accessPointName": "Himeji-jo Otemon-mae bus stop",
+     "bestTime": "Sannomaru Square is free to enter. In early April's cherry season, or late on a clear afternoon when sun warms the white walls, the keep looks as imposing as on film.",
+     "tips": "The square is free. The keep is open 9:00–17:00 (last entry 16:00), closed Dec 29–30. From March 2026 adult admission is ¥2,500 for non-residents of Himeji; under-18s are free."
+    },
+    "ko": {
+     "placeName": "히메지성 산노마루 광장 (효고현 히메지)",
+     "sceneTitle": "히데토라의 첫째 성",
+     "episode": "영화 · 초반",
+     "highlight": "이치몬지 가문의 위세를 상징할 본성으로 구로사와 아키라가 고른 것은 진짜 국보 히메지성이었다. 흰 벽이 겹겹이 쌓인 대천수가 바로 히데토라가 장남 다로에게 물려주고, 그곳에서 냉대의 쓴맛을 보게 되는 '첫째 성'이다. 불길에 휩싸이는 셋째 성은 후지산 기슭에 새로 지은 것이고, 히메지성과 구마모토성은 촬영이 허락된 몇 안 되는 진짜 성이었다. 산노마루 광장에서 천수를 올려다보면, 늙은 영주가 잃어 가는 영화가 거기 있다.",
+     "story": "은퇴한 히데토라는 가신들을 거느리고 다로에게 물려준 첫째 성에 머문다. 가에데 부인의 부추김을 받은 다로는 아버지에게 모든 권한을 넘긴다는 서약서에 서명하라고 요구하고, 양측 가신들의 충돌을 계기로 아버지와 완전히 갈라선다. 모욕을 당한 히데토라는 성을 나와 차남 지로에게 의지하려 하지만 거듭 배신당한다. 구로사와의 장남 구로사와 히사오는 대담에서 지자체의 협조로 첫째 성은 히메지성, 둘째 성은 구마모토성에서 촬영했으며, 진짜 성은 불태울 수 없어 셋째 성은 처음부터 새로 지었다고 말했다.",
+     "access": "JR 히메지역 북쪽 출구에서 오테마에도리를 따라 직진해 도보 약 20분, 또는 버스로 '히메지성 오테몬마에' 하차. 오테몬을 지나면 산노마루 광장이고 정면이 대천수다.",
+     "accessPointName": "히메지성 오테몬마에 버스 정류장",
+     "bestTime": "산노마루 광장은 무료로 들어갈 수 있다. 4월 초 벚꽃철이나 맑은 날 늦은 오후 햇살이 흰 벽을 비출 때 천수가 영화처럼 위엄 있다.",
+     "tips": "광장은 무료. 천수 관람은 9:00~17:00(입성 16:00까지), 12월 29·30일 휴관. 2026년 3월부터 히메지 시민이 아닌 성인은 2,500엔, 18세 미만 무료."
+    }
+   }
+  }
+ ]
+}
