@@ -460,7 +460,12 @@
           "access": "从熊本樱町巴士总站 25、26 号站台乘巴士约 21 分钟，在“县厅前”下车步行约 2 分钟，铜像就在县厅前的银杏林荫道上。",
           "accessPointName": "县厅前巴士站",
           "bestTime": "11 月下旬前后，步道两侧 54 棵银杏转黄，金色林荫道里的路飞最上镜；早上人少，方便合影。",
-          "tips": "免费参观。周末常有游客排队合影，请依序拍照、不要攀爬铜像。县内 9 个市町村还立着草帽海贼团伙伴的铜像，可自驾或乘公交串联巡礼。"
+          "tips": "免费参观。周末常有游客排队合影，请依序拍照、不要攀爬铜像。县内 9 个市町村还立着草帽海贼团伙伴的铜像，可自驾或乘公交串联巡礼。",
+          "searchTerms": [
+            "路飞铜像",
+            "熊本县厅",
+            "熊本复兴"
+          ]
         },
         "ja": {
           "placeName": "熊本県庁プロムナード（熊本市・水前寺）",
@@ -471,7 +476,12 @@
           "access": "熊本桜町バスターミナル25・26番のりばからバスで約21分、「県庁前」下車、徒歩約2分。像は県庁前のイチョウ並木の中に立つ。",
           "accessPointName": "県庁前バス停",
           "bestTime": "11月下旬ごろ、54本のイチョウが黄金色に色づくと、並木とルフィの組み合わせが最高に映える。人の少ない朝が撮りやすい。",
-          "tips": "見学無料。週末は記念撮影の列ができるので順番を守り、像には登らないこと。県内9市町村には麦わらの一味の仲間の像もあり、車やバスで巡ることができる。"
+          "tips": "見学無料。週末は記念撮影の列ができるので順番を守り、像には登らないこと。県内9市町村には麦わらの一味の仲間の像もあり、車やバスで巡ることができる。",
+          "searchTerms": [
+            "ルフィ像",
+            "熊本県庁",
+            "熊本復興"
+          ]
         },
         "en": {
           "placeName": "Kumamoto Prefectural Office Promenade (Suizenji, Kumamoto)",
@@ -482,7 +492,12 @@
           "access": "From Kumamoto Sakuramachi Bus Terminal (stops 25 or 26) take a bus about 21 min to Kenchō-mae, then walk 2 min; the statue stands on the ginkgo-lined promenade.",
           "accessPointName": "Kenchō-mae bus stop",
           "bestTime": "Around late November, when the promenade's 54 ginkgo trees turn gold, Luffy looks his best. Mornings are quieter for photos.",
-          "tips": "Free to visit. Weekends bring queues for photos, so wait your turn and don't climb the statue. Statues of the other Straw Hats stand in nine towns around the prefecture if you want to tour them by car or bus."
+          "tips": "Free to visit. Weekends bring queues for photos, so wait your turn and don't climb the statue. Statues of the other Straw Hats stand in nine towns around the prefecture if you want to tour them by car or bus.",
+          "searchTerms": [
+            "Luffy statue",
+            "Kumamoto Prefectural Office",
+            "Kumamoto"
+          ]
         },
         "ko": {
           "placeName": "구마모토현청 프롬나드 (구마모토시·스이젠지)",
@@ -493,7 +508,12 @@
           "access": "구마모토 사쿠라마치 버스터미널 25·26번 승강장에서 버스로 약 21분, '현청 앞' 하차 후 도보 약 2분. 동상은 현청 앞 은행나무 길에 있다.",
           "accessPointName": "현청 앞 버스 정류장",
           "bestTime": "11월 하순 무렵 54그루의 은행나무가 황금빛으로 물들 때 루피와 가장 잘 어울린다. 사람이 적은 아침이 촬영하기 좋다.",
-          "tips": "관람 무료. 주말에는 기념 촬영 줄이 생기니 순서를 지키고 동상에 올라가지 말 것. 현내 9개 시정촌에 밀짚모자 일당 동료들의 동상도 있어 차나 버스로 순례할 수 있다."
+          "tips": "관람 무료. 주말에는 기념 촬영 줄이 생기니 순서를 지키고 동상에 올라가지 말 것. 현내 9개 시정촌에 밀짚모자 일당 동료들의 동상도 있어 차나 버스로 순례할 수 있다.",
+          "searchTerms": [
+            "루피 동상",
+            "구마모토현청",
+            "구마모토 부흥"
+          ]
         }
       }
     },
@@ -524,7 +544,13 @@
           "access": "从神户三宫或高速舞子乘直达巴士，在“县立淡路岛公园（二次元之森 F 停车场）”站下车，循园内指示牌步行约 10 分钟。",
           "accessPointName": "县立淡路岛公园巴士站",
           "bestTime": "春秋最舒服：园区全是山路坡道，夏天很热。傍晚入园还能接着看火影岩的夜间投影。",
-          "tips": "票价随日期浮动，成人 3,300 日元起，可从官网经 asoview 购买。坡道多，轮椅和婴儿车不能进入，请穿好走的鞋，雨天路面湿滑。最晚入场时间随季节变化。"
+          "tips": "票价随日期浮动，成人 3,300 日元起，可从官网经 asoview 购买。坡道多，轮椅和婴儿车不能进入，请穿好走的鞋，雨天路面湿滑。最晚入场时间随季节变化。",
+          "searchTerms": [
+            "忍里",
+            "二次元之森",
+            "火影岩",
+            "淡路岛"
+          ]
         },
         "ja": {
           "placeName": "ニジゲンノモリ NARUTO&BORUTO 忍里（兵庫・淡路島）",
@@ -535,7 +561,13 @@
           "access": "神戸三宮・高速舞子から直行バスで「県立淡路島公園（ニジゲンノモリF駐車場）」下車、園内の案内に従って徒歩約10分。",
           "accessPointName": "県立淡路島公園バス停",
           "bestTime": "坂道の多い山のエリアなので春と秋が快適。夕方に入れば火影岩のナイトプロジェクションまで楽しめる。",
-          "tips": "料金は日付で変動し大人3,300円〜、公式サイト経由でアソビューから購入できる。急坂が多く車いす・ベビーカーは入場不可、歩きやすい靴で。雨の日は足元が滑りやすい。最終入場は季節で変わる。"
+          "tips": "料金は日付で変動し大人3,300円〜、公式サイト経由でアソビューから購入できる。急坂が多く車いす・ベビーカーは入場不可、歩きやすい靴で。雨の日は足元が滑りやすい。最終入場は季節で変わる。",
+          "searchTerms": [
+            "忍里",
+            "ニジゲンノモリ",
+            "火影岩",
+            "淡路島"
+          ]
         },
         "en": {
           "placeName": "NARUTO & BORUTO Shinobi-Zato, Nijigen no Mori (Awaji Island, Hyogo)",
@@ -546,7 +578,13 @@
           "access": "Take the direct bus from Kobe Sannomiya or Kōsoku Maiko to Kenritsu Awajishima Kōen (Nijigen no Mori Parking F), then follow the park signs about 10 min on foot.",
           "accessPointName": "Kenritsu Awajishima Kōen bus stop",
           "bestTime": "Spring and autumn are most comfortable: it's all hillside paths, and summers are hot. Enter late in the day to stay for the Hokage Rock night show.",
-          "tips": "Prices vary by date, from ¥3,300 for adults, sold via asoview from the official site. Steep slopes mean no wheelchairs or strollers; wear good walking shoes and take care when it's wet. Last entry changes with the season."
+          "tips": "Prices vary by date, from ¥3,300 for adults, sold via asoview from the official site. Steep slopes mean no wheelchairs or strollers; wear good walking shoes and take care when it's wet. Last entry changes with the season.",
+          "searchTerms": [
+            "Shinobi-Zato",
+            "Nijigen no Mori",
+            "Hokage Rock",
+            "Awaji Island"
+          ]
         },
         "ko": {
           "placeName": "니지겐노모리 NARUTO&BORUTO 시노비자토 (효고·아와지섬)",
@@ -557,7 +595,13 @@
           "access": "고베 산노미야나 고속 마이코에서 직행버스를 타고 '현립 아와지시마 공원(니지겐노모리 F주차장)' 하차, 안내 표지를 따라 도보 약 10분.",
           "accessPointName": "현립 아와지시마 공원 버스 정류장",
           "bestTime": "비탈길이 많은 산속 구역이라 봄과 가을이 쾌적하다. 늦은 오후에 입장하면 호카게 바위 야간 프로젝션까지 볼 수 있다.",
-          "tips": "요금은 날짜별로 달라지며 성인 3,300엔부터, 공식 사이트를 통해 asoview에서 구매할 수 있다. 급경사가 많아 휠체어·유모차는 입장 불가, 걷기 편한 신발 필수. 비 오는 날은 미끄럽다. 최종 입장 시간은 계절마다 다르다."
+          "tips": "요금은 날짜별로 달라지며 성인 3,300엔부터, 공식 사이트를 통해 asoview에서 구매할 수 있다. 급경사가 많아 휠체어·유모차는 입장 불가, 걷기 편한 신발 필수. 비 오는 날은 미끄럽다. 최종 입장 시간은 계절마다 다르다.",
+          "searchTerms": [
+            "시노비자토",
+            "니지겐노모리",
+            "호카게 바위",
+            "아와지섬"
+          ]
         }
       }
     },
@@ -588,7 +632,12 @@
           "access": "小田急线向丘游园站南口出站步行约 16 分钟，沿途留意藏在路边的藤子角色标志；也可在登户站乘直达接驳巴士（约 9 分钟）。",
           "accessPointName": "向丘游园站南口",
           "bestTime": "春秋晴天屋顶草坪最舒服，蓝天下的水泥管最像漫画里的空地；上午早场相对人少。",
-          "tips": "全预约制，需提前在官网（e-tix）买指定日期时段的票，现场不售票；成人 1,000 日元。每周二及年末年始休馆。部分展区和 F 剧场禁止拍照，不可再入馆，没有停车场。"
+          "tips": "全预约制，需提前在官网（e-tix）买指定日期时段的票，现场不售票；成人 1,000 日元。每周二及年末年始休馆。部分展区和 F 剧场禁止拍照，不可再入馆，没有停车场。",
+          "searchTerms": [
+            "藤子F不二雄博物馆",
+            "空地 水泥管",
+            "川崎"
+          ]
         },
         "ja": {
           "placeName": "川崎市 藤子・F・不二雄ミュージアム（神奈川・川崎）",
@@ -599,7 +648,12 @@
           "access": "小田急線向ヶ丘遊園駅南口から徒歩約16分。道中にはキャラクターがひそむ案内も。登戸駅からは直行シャトルバス（約9分）も運行。",
           "accessPointName": "向ヶ丘遊園駅南口",
           "bestTime": "春と秋の晴れた日は屋上のはらっぱが気持ちよく、青空の下の土管がまんがそのもの。午前の早い回が比較的すいている。",
-          "tips": "日時指定の完全予約制。公式サイト（e-tix）で事前に購入し、現地販売はなし。大人1,000円。火曜・年末年始休館。一部展示エリアとFシアターは撮影禁止、再入館不可、駐車場なし。"
+          "tips": "日時指定の完全予約制。公式サイト（e-tix）で事前に購入し、現地販売はなし。大人1,000円。火曜・年末年始休館。一部展示エリアとFシアターは撮影禁止、再入館不可、駐車場なし。",
+          "searchTerms": [
+            "藤子・F・不二雄ミュージアム",
+            "はらっぱ 土管",
+            "川崎"
+          ]
         },
         "en": {
           "placeName": "Fujiko·F·Fujio Museum, Kawasaki (Kawasaki, Kanagawa)",
@@ -610,7 +664,12 @@
           "access": "From the South Exit of Mukōgaoka-Yūen Station (Odakyu Line) it's about a 16-min walk, with characters hidden along the way; a direct shuttle bus also runs from Noborito Station (about 9 min).",
           "accessPointName": "Mukōgaoka-Yūen Sta. South Exit",
           "bestTime": "Clear spring and autumn days are best for the rooftop Harappa, where the pipes under a blue sky look straight out of the manga. Early entry slots are a little quieter.",
-          "tips": "Timed-entry reservations only: buy in advance on the official e-tix site; nothing is sold at the door. Adults ¥1,000. Closed Tuesdays and over New Year. No photos in some galleries or the F Theater, no re-entry, no parking."
+          "tips": "Timed-entry reservations only: buy in advance on the official e-tix site; nothing is sold at the door. Adults ¥1,000. Closed Tuesdays and over New Year. No photos in some galleries or the F Theater, no re-entry, no parking.",
+          "searchTerms": [
+            "Fujiko F Fujio Museum",
+            "clay pipes",
+            "Kawasaki"
+          ]
         },
         "ko": {
           "placeName": "가와사키시 후지코·F·후지오 뮤지엄 (가나가와·가와사키)",
@@ -621,7 +680,12 @@
           "access": "오다큐선 무코가오카유엔역 남쪽 출구에서 도보 약 16분, 길가에 숨은 캐릭터도 찾아보자. 노보리토역에서는 직행 셔틀버스(약 9분)도 운행한다.",
           "accessPointName": "무코가오카유엔역 남쪽 출구",
           "bestTime": "봄·가을 맑은 날 옥상 공터가 가장 쾌적하고, 파란 하늘 아래의 토관은 만화 그대로다. 오전 이른 입장 회차가 비교적 한산하다.",
-          "tips": "날짜·시간 지정 완전 예약제로 공식 사이트(e-tix)에서 미리 구매해야 하며 현장 판매는 없다. 성인 1,000엔. 화요일·연말연시 휴관. 일부 전시 구역과 F시어터는 촬영 금지, 재입장 불가, 주차장 없음."
+          "tips": "날짜·시간 지정 완전 예약제로 공식 사이트(e-tix)에서 미리 구매해야 하며 현장 판매는 없다. 성인 1,000엔. 화요일·연말연시 휴관. 일부 전시 구역과 F시어터는 촬영 금지, 재입장 불가, 주차장 없음.",
+          "searchTerms": [
+            "후지코 F 후지오 뮤지엄",
+            "공터 토관",
+            "가와사키"
+          ]
         }
       }
     },
@@ -652,7 +716,12 @@
           "access": "从京王线京王读卖乐园站乘缆车“Sky Shuttle”约 10 分钟到山顶站，进读卖乐园大门后循指示牌步行约 10 分钟。",
           "accessPointName": "Sky Shuttle 山顶站",
           "bestTime": "春秋最适合在森林步道里慢慢找宝可梦，平日比周末从容；草纱镇的表演和游行时间以当天安排为准。",
-          "tips": "门票指定日期、含读卖乐园入园：训练家通行证成人 7,900 日元起（森林按时段入场），只逛草纱镇可买城镇通行证。抽选与先到先得发售，入场核对本人身份；森林限 5 岁以上。"
+          "tips": "门票指定日期、含读卖乐园入园：训练家通行证成人 7,900 日元起（森林按时段入场），只逛草纱镇可买城镇通行证。抽选与先到先得发售，入场核对本人身份；森林限 5 岁以上。",
+          "searchTerms": [
+            "宝可梦公园 关东",
+            "读卖乐园",
+            "皮卡丘"
+          ]
         },
         "ja": {
           "placeName": "ポケパーク カントー（東京・よみうりランド内）",
@@ -663,7 +732,12 @@
           "access": "京王線京王よみうりランド駅からゴンドラ「スカイシャトル」で約10分。山頂駅からよみうりランドのゲートを通り、案内に従って徒歩約10分。",
           "accessPointName": "スカイシャトル山頂駅",
           "bestTime": "森の山道をゆっくり歩くなら春と秋がベスト。平日のほうがゆったり回れる。ショーやパレードの時間は当日の案内を確認。",
-          "tips": "チケットは日付指定制でよみうりランド入園込み。トレーナーズパスは大人7,900円〜（フォレストは時間指定）、タウンのみならタウンパス。抽選・先着販売で、入場時に本人確認あり。フォレストは5歳以上。"
+          "tips": "チケットは日付指定制でよみうりランド入園込み。トレーナーズパスは大人7,900円〜（フォレストは時間指定）、タウンのみならタウンパス。抽選・先着販売で、入場時に本人確認あり。フォレストは5歳以上。",
+          "searchTerms": [
+            "ポケパーク カントー",
+            "よみうりランド",
+            "ピカチュウ"
+          ]
         },
         "en": {
           "placeName": "PokéPark KANTO (Yomiuriland, Tokyo)",
@@ -674,7 +748,12 @@
           "access": "From Keio-Yomiuriland Station take the Sky Shuttle gondola about 10 min to the summit station, enter Yomiuriland and follow the signs about 10 min on foot.",
           "accessPointName": "Sky Shuttle summit station",
           "bestTime": "Spring and autumn are ideal for taking the forest trail slowly, and weekdays are calmer than weekends. Check the day's schedule for shows and parades.",
-          "tips": "Date-specific tickets include Yomiuriland entry: Trainers Pass from ¥7,900 for adults (timed Forest entry), or a Town Pass for Sedge Town only. Sold by lottery and first-come sales; ID is checked at entry. Forest entry is for ages 5 and up."
+          "tips": "Date-specific tickets include Yomiuriland entry: Trainers Pass from ¥7,900 for adults (timed Forest entry), or a Town Pass for Sedge Town only. Sold by lottery and first-come sales; ID is checked at entry. Forest entry is for ages 5 and up.",
+          "searchTerms": [
+            "PokePark Kanto",
+            "Yomiuriland",
+            "Pikachu"
+          ]
         },
         "ko": {
           "placeName": "PokéPark KANTO (도쿄·요미우리랜드)",
@@ -685,7 +764,12 @@
           "access": "게이오선 게이오요미우리랜드역에서 곤돌라 '스카이 셔틀'로 약 10분, 산정역에서 요미우리랜드 게이트를 지나 안내를 따라 도보 약 10분.",
           "accessPointName": "스카이 셔틀 산정역",
           "bestTime": "숲속 산길을 여유롭게 걷기에는 봄·가을이 가장 좋고, 주말보다 평일이 한산하다. 공연과 퍼레이드 시간은 당일 안내를 확인.",
-          "tips": "날짜 지정 티켓으로 요미우리랜드 입장 포함. 트레이너스 패스 성인 7,900엔부터(포레스트는 시간 지정), 사초마을만 보려면 타운 패스. 추첨·선착순 판매이며 입장 시 신분 확인. 포레스트는 5세 이상."
+          "tips": "날짜 지정 티켓으로 요미우리랜드 입장 포함. 트레이너스 패스 성인 7,900엔부터(포레스트는 시간 지정), 사초마을만 보려면 타운 패스. 추첨·선착순 판매이며 입장 시 신분 확인. 포레스트는 5세 이상.",
+          "searchTerms": [
+            "포케파크 칸토",
+            "요미우리랜드",
+            "피카츄"
+          ]
         }
       }
     },
@@ -716,7 +800,12 @@
           "access": "乘磁浮线 Linimo 至“爱·地球博纪念公园”站，入园后步行约 800 米（约 12 分钟）到魔女之谷。",
           "accessPointName": "爱·地球博纪念公园站",
           "bestTime": "上午早些来人相对少；春秋天的魔女之谷最适合慢慢散步。",
-          "tips": "门票全预约制，每月 10 日 14 点开售两个月后的票，现场不售；“大散步券”标准版即可进入魔女之谷和面包店。休园日以官网日历为准（多为周二）。部分建筑内禁止拍照。"
+          "tips": "门票全预约制，每月 10 日 14 点开售两个月后的票，现场不售；“大散步券”标准版即可进入魔女之谷和面包店。休园日以官网日历为准（多为周二）。部分建筑内禁止拍照。",
+          "searchTerms": [
+            "琪琪的面包店",
+            "魔女之谷",
+            "吉卜力公园"
+          ]
         },
         "ja": {
           "placeName": "ジブリパーク 魔女の谷（愛知・長久手）",
@@ -727,7 +816,12 @@
           "access": "リニモ「愛・地球博記念公園」駅下車、公園内を約800m（徒歩約12分）歩くと魔女の谷。",
           "accessPointName": "愛・地球博記念公園駅",
           "bestTime": "比較的すいている午前のうちに訪れるのがおすすめ。春と秋は魔女の谷の散策が気持ちいい。",
-          "tips": "チケットは完全予約制で、毎月10日14時に2か月先の分を販売、現地販売なし。「大さんぽ券スタンダード」でも魔女の谷とパン屋に入れる。休園日は公式カレンダーで確認（主に火曜）。建物内は撮影禁止の場所あり。"
+          "tips": "チケットは完全予約制で、毎月10日14時に2か月先の分を販売、現地販売なし。「大さんぽ券スタンダード」でも魔女の谷とパン屋に入れる。休園日は公式カレンダーで確認（主に火曜）。建物内は撮影禁止の場所あり。",
+          "searchTerms": [
+            "グーチョキパン屋",
+            "魔女の谷",
+            "ジブリパーク"
+          ]
         },
         "en": {
           "placeName": "Valley of Witches, Ghibli Park (Nagakute, Aichi)",
@@ -738,7 +832,12 @@
           "access": "Take the Linimo to Ai-Chikyūhaku-Kinen-Kōen Station; Valley of Witches is about 800 m (12 min) on foot through the park.",
           "accessPointName": "Ai-Chikyūhaku-Kinen-Kōen Sta.",
           "bestTime": "Come in the morning while it's a little quieter. Spring and autumn make the Valley of Witches a pleasure to wander.",
-          "tips": "Reservation-only tickets go on sale on the 10th at 14:00 for two months ahead; none are sold at the park. The O-Sanpo Day Pass Standard covers the area and the bakery. Check the official calendar for closed days (usually Tuesdays). Photos are banned inside some buildings."
+          "tips": "Reservation-only tickets go on sale on the 10th at 14:00 for two months ahead; none are sold at the park. The O-Sanpo Day Pass Standard covers the area and the bakery. Check the official calendar for closed days (usually Tuesdays). Photos are banned inside some buildings.",
+          "searchTerms": [
+            "Gutiokipanja bakery",
+            "Valley of Witches",
+            "Ghibli Park"
+          ]
         },
         "ko": {
           "placeName": "지브리 파크 마녀의 계곡 (아이치·나가쿠테)",
@@ -749,7 +848,12 @@
           "access": "리니모 '아이치큐하쿠기넨코엔'역 하차, 공원 안을 약 800m(도보 약 12분) 걸으면 마녀의 계곡.",
           "accessPointName": "아이치큐하쿠기넨코엔역",
           "bestTime": "비교적 한산한 오전에 들르는 것이 좋다. 봄과 가을에는 마녀의 계곡을 산책하기 좋다.",
-          "tips": "티켓은 전면 예약제로 매월 10일 14시에 두 달 뒤 분을 판매하며 현장 판매는 없다. '오산포 스탠다드 티켓'으로도 마녀의 계곡과 빵집에 들어갈 수 있다. 휴원일은 공식 캘린더 확인(주로 화요일). 일부 건물 안은 촬영 금지."
+          "tips": "티켓은 전면 예약제로 매월 10일 14시에 두 달 뒤 분을 판매하며 현장 판매는 없다. '오산포 스탠다드 티켓'으로도 마녀의 계곡과 빵집에 들어갈 수 있다. 휴원일은 공식 캘린더 확인(주로 화요일). 일부 건물 안은 촬영 금지.",
+          "searchTerms": [
+            "키키 빵집",
+            "마녀의 계곡",
+            "지브리 파크"
+          ]
         }
       }
     },
@@ -780,7 +884,12 @@
           "access": "乘磁浮线 Linimo 至“爱·地球博纪念公园”站，入园后步行约 800 米（约 12 分钟）到魔女之谷。",
           "accessPointName": "爱·地球博纪念公园站",
           "bestTime": "城堡每小时会动几次、冒几次烟，不妨在荒地边多等一会儿；晴天时城堡衬着蓝天最有气势。",
-          "tips": "参观城堡内部需“大散步券”Premium；持标准版需当天在魔女之谷另购参观券（成人 1,000 日元，数量有限、先到先得）。入园券全预约制，现场不售；休园日以官网日历为准。"
+          "tips": "参观城堡内部需“大散步券”Premium；持标准版需当天在魔女之谷另购参观券（成人 1,000 日元，数量有限、先到先得）。入园券全预约制，现场不售；休园日以官网日历为准。",
+          "searchTerms": [
+            "哈尔的城堡",
+            "魔女之谷",
+            "吉卜力公园"
+          ]
         },
         "ja": {
           "placeName": "ジブリパーク 魔女の谷（愛知・長久手）",
@@ -791,7 +900,12 @@
           "access": "リニモ「愛・地球博記念公園」駅下車、公園内を約800m（徒歩約12分）歩くと魔女の谷。",
           "accessPointName": "愛・地球博記念公園駅",
           "bestTime": "城は1時間に数回動いて煙を出すので、荒地のそばで少し待ってみたい。晴れた日は青空に城の姿が映える。",
-          "tips": "城内見学には「大さんぽ券プレミアム」が必要。スタンダードの場合は当日、魔女の谷で城内見学券（大人1,000円、数量限定・先着順）を購入。入園券は完全予約制で現地販売なし。休園日は公式カレンダーで確認。"
+          "tips": "城内見学には「大さんぽ券プレミアム」が必要。スタンダードの場合は当日、魔女の谷で城内見学券（大人1,000円、数量限定・先着順）を購入。入園券は完全予約制で現地販売なし。休園日は公式カレンダーで確認。",
+          "searchTerms": [
+            "ハウルの城",
+            "魔女の谷",
+            "ジブリパーク"
+          ]
         },
         "en": {
           "placeName": "Valley of Witches, Ghibli Park (Nagakute, Aichi)",
@@ -802,7 +916,12 @@
           "access": "Take the Linimo to Ai-Chikyūhaku-Kinen-Kōen Station; Valley of Witches is about 800 m (12 min) on foot through the park.",
           "accessPointName": "Ai-Chikyūhaku-Kinen-Kōen Sta.",
           "bestTime": "The castle moves and smokes a few times an hour, so linger by the wasteland for a while. It looks its grandest against a clear blue sky.",
-          "tips": "Going inside needs the O-Sanpo Day Pass Premium; with a Standard pass, buy a same-day castle ticket (¥1,000 adults, limited, first come first served) in Valley of Witches. Park tickets are reservation-only, not sold at the gate. Check the official calendar for closed days."
+          "tips": "Going inside needs the O-Sanpo Day Pass Premium; with a Standard pass, buy a same-day castle ticket (¥1,000 adults, limited, first come first served) in Valley of Witches. Park tickets are reservation-only, not sold at the gate. Check the official calendar for closed days.",
+          "searchTerms": [
+            "Howl's Castle",
+            "Valley of Witches",
+            "Ghibli Park"
+          ]
         },
         "ko": {
           "placeName": "지브리 파크 마녀의 계곡 (아이치·나가쿠테)",
@@ -813,7 +932,12 @@
           "access": "리니모 '아이치큐하쿠기넨코엔'역 하차, 공원 안을 약 800m(도보 약 12분) 걸으면 마녀의 계곡.",
           "accessPointName": "아이치큐하쿠기넨코엔역",
           "bestTime": "성은 한 시간에 몇 번 움직이며 연기를 내뿜으니 황무지 옆에서 잠시 기다려 보자. 맑은 날 파란 하늘을 배경으로 한 성이 가장 웅장하다.",
-          "tips": "성 내부 관람에는 '오산포 프리미엄 티켓'이 필요하다. 스탠다드 티켓이라면 당일 마녀의 계곡에서 성 내부 관람권(성인 1,000엔, 수량 한정·선착순)을 구입. 입원권은 전면 예약제로 현장 판매 없음. 휴원일은 공식 캘린더 확인."
+          "tips": "성 내부 관람에는 '오산포 프리미엄 티켓'이 필요하다. 스탠다드 티켓이라면 당일 마녀의 계곡에서 성 내부 관람권(성인 1,000엔, 수량 한정·선착순)을 구입. 입원권은 전면 예약제로 현장 판매 없음. 휴원일은 공식 캘린더 확인.",
+          "searchTerms": [
+            "하울의 성",
+            "마녀의 계곡",
+            "지브리 파크"
+          ]
         }
       }
     },
@@ -844,7 +968,12 @@
           "access": "JR 三鹰站南口出站，沿玉川上水旁的步道走约 15 分钟，沿途有指向美术馆的指示牌；也可在南口 9 号站台乘社区巴士约 5 分钟。",
           "accessPointName": "JR 三鹰站南口",
           "bestTime": "5 月新绿和 11 月秋色时，屋顶庭园的草木最有生气，站在机器人兵身边就像置身拉普达的庭园。",
-          "tips": "全预约制：每月 10 日 10 点在罗森票务（Lawson Ticket）开售下个月的指定日期时段票，馆内不售票。成人 1,000 日元。周二及年末年始等休馆。馆内禁止拍照；天气恶劣时屋顶可能关闭。"
+          "tips": "全预约制：每月 10 日 10 点在罗森票务（Lawson Ticket）开售下个月的指定日期时段票，馆内不售票。成人 1,000 日元。周二及年末年始等休馆。馆内禁止拍照；天气恶劣时屋顶可能关闭。",
+          "searchTerms": [
+            "机器人兵",
+            "吉卜力美术馆 屋顶",
+            "三鹰"
+          ]
         },
         "ja": {
           "placeName": "三鷹の森ジブリ美術館 屋上庭園（東京・三鷹）",
@@ -855,7 +984,13 @@
           "access": "JR三鷹駅南口から玉川上水沿いを歩いて約15分。上水沿いに美術館を指す案内看板がある。南口9番のりばからコミュニティバスで約5分。",
           "accessPointName": "JR三鷹駅南口",
           "bestTime": "5月の新緑や11月の紅葉の頃は屋上庭園の草木がいきいきとして、ロボット兵の隣に立つとラピュタの庭にいるような気分になれる。",
-          "tips": "日時指定の予約制。毎月10日10時からローチケで翌月分を販売し、美術館での販売はなし。大人1,000円。火曜・年末年始などは休館。館内は撮影禁止。悪天候時は屋上が閉鎖されることも。"
+          "tips": "日時指定の予約制。毎月10日10時からローチケで翌月分を販売し、美術館での販売はなし。大人1,000円。火曜・年末年始などは休館。館内は撮影禁止。悪天候時は屋上が閉鎖されることも。",
+          "searchTerms": [
+            "ロボット兵",
+            "ジブリ美術館 屋上",
+            "屋上庭園",
+            "三鷹"
+          ]
         },
         "en": {
           "placeName": "Rooftop Garden, Ghibli Museum, Mitaka (Mitaka, Tokyo)",
@@ -866,7 +1001,12 @@
           "access": "From the South Exit of JR Mitaka Station, walk about 15 min along the Tamagawa Aqueduct path, following signs to the museum, or take the community bus from stop 9 (about 5 min).",
           "accessPointName": "JR Mitaka Sta. South Exit",
           "bestTime": "In May's fresh greenery or November's autumn colour the rooftop garden is at its liveliest, and standing by the robot feels like being in Laputa's garden.",
-          "tips": "Timed-entry reservations only: each month's tickets go on sale on Lawson Ticket at 10:00 on the 10th of the month before; none are sold at the museum. Adults ¥1,000. Usually closed Tuesdays and over New Year. No photos inside; the roof may close in bad weather."
+          "tips": "Timed-entry reservations only: each month's tickets go on sale on Lawson Ticket at 10:00 on the 10th of the month before; none are sold at the museum. Adults ¥1,000. Usually closed Tuesdays and over New Year. No photos inside; the roof may close in bad weather.",
+          "searchTerms": [
+            "Robot Soldier",
+            "Ghibli Museum rooftop",
+            "Mitaka"
+          ]
         },
         "ko": {
           "placeName": "미타카의 숲 지브리 미술관 옥상 정원 (도쿄·미타카)",
@@ -877,7 +1017,12 @@
           "access": "JR 미타카역 남쪽 출구에서 다마가와 상수 옆길을 따라 약 15분, 길가에 미술관 방향 안내판이 있다. 남쪽 출구 9번 승강장에서 커뮤니티 버스로 약 5분.",
           "accessPointName": "JR 미타카역 남쪽 출구",
           "bestTime": "5월 신록과 11월 단풍 무렵 옥상 정원의 초목이 가장 싱그러워, 로봇 병사 곁에 서면 라퓨타의 정원에 온 기분이 든다.",
-          "tips": "날짜·시간 지정 예약제. 매월 10일 10시부터 로손 티켓에서 다음 달 분을 판매하며 미술관에서는 판매하지 않는다. 성인 1,000엔. 화요일·연말연시 등 휴관. 관내 촬영 금지, 악천후 시 옥상이 폐쇄될 수 있음."
+          "tips": "날짜·시간 지정 예약제. 매월 10일 10시부터 로손 티켓에서 다음 달 분을 판매하며 미술관에서는 판매하지 않는다. 성인 1,000엔. 화요일·연말연시 등 휴관. 관내 촬영 금지, 악천후 시 옥상이 폐쇄될 수 있음.",
+          "searchTerms": [
+            "로봇 병사",
+            "지브리 미술관 옥상",
+            "미타카"
+          ]
         }
       }
     }

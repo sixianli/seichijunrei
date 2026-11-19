@@ -531,7 +531,12 @@
      "access": "东京地铁丸之内线「四谷三丁目」站3号出口，沿新宿通往四谷方向走约100米后右转进小巷，经円通寺坂一路往南，约550米、步行7分钟到石阶。",
      "accessPointName": "四谷三丁目站 3号出口",
      "bestTime": "清晨到上午光线柔和、行人少，最适合拍下整段石阶；周末白天常有人排队拍照，工作日早上更从容。",
-     "tips": "石阶位于安静的住宅区，清晨和夜间请压低声音。不要坐在台阶上或长时间占据中间拍照，给居民和参拜者让路，也不要拍摄周边民宅。"
+     "tips": "石阶位于安静的住宅区，清晨和夜间请压低声音。不要坐在台阶上或长时间占据中间拍照，给居民和参拜者让路，也不要拍摄周边民宅。",
+     "searchTerms": [
+      "须贺神社 楼梯",
+      "红色扶手",
+      "结尾 重逢"
+     ]
     },
     "ja": {
      "placeName": "須賀神社 男坂（東京・四谷）",
@@ -542,7 +547,13 @@
      "access": "東京メトロ丸ノ内線「四谷三丁目」駅3番出口から新宿通りを四ツ谷方面へ約100m進んで右折し、路地から円通寺坂を南へ。石段まで約550m・徒歩7分。",
      "accessPointName": "四谷三丁目駅 3番出口",
      "bestTime": "光がやわらかく人通りも少ない早朝〜午前中が、石段全体を撮るのに最適。週末の日中は撮影待ちの列ができることも多いので、平日の朝がおすすめ。",
-     "tips": "静かな住宅街の中の石段です。早朝・夜間は特に声を抑えて。段に座り込んだり、真ん中を長時間占領して撮影したりせず、住民や参拝者に道を譲りましょう。周辺の住宅を撮らないよう注意を。"
+     "tips": "静かな住宅街の中の石段です。早朝・夜間は特に声を抑えて。段に座り込んだり、真ん中を長時間占領して撮影したりせず、住民や参拝者に道を譲りましょう。周辺の住宅を撮らないよう注意を。",
+     "searchTerms": [
+      "須賀神社 階段",
+      "男坂",
+      "赤い手すり",
+      "ラストシーン"
+     ]
     },
     "en": {
      "placeName": "Suga Shrine “Otokozaka” stairs (Yotsuya, Tokyo)",
@@ -553,7 +564,12 @@
      "access": "Tokyo Metro Marunouchi Line, Yotsuya-sanchome Sta. Exit 3. Walk about 100 m along Shinjuku-dori toward Yotsuya, turn right into the back streets and head south down Entsuji-zaka to the steps: about 550 m, 7 min.",
      "accessPointName": "Yotsuya-sanchome Sta. Exit 3",
      "bestTime": "Early morning to mid-morning gives soft light and few passers-by, ideal for shooting the whole staircase. Weekend afternoons often bring a queue of photographers, so a weekday morning is calmer.",
-     "tips": "The steps are in a quiet residential area, so keep your voice down, especially early and late. Don't sit on the steps or block the middle for long photo sessions, let residents and worshippers pass, and avoid photographing nearby homes."
+     "tips": "The steps are in a quiet residential area, so keep your voice down, especially early and late. Don't sit on the steps or block the middle for long photo sessions, let residents and worshippers pass, and avoid photographing nearby homes.",
+     "searchTerms": [
+      "Suga Shrine stairs",
+      "red railing",
+      "final scene"
+     ]
     },
     "ko": {
      "placeName": "스가 신사 오토코자카 계단 (도쿄 요쓰야)",
@@ -564,7 +580,12 @@
      "access": "도쿄 메트로 마루노우치선 요쓰야산초메역 3번 출구에서 신주쿠도리를 따라 요쓰야 방면으로 약 100m 가다가 우회전, 골목을 지나 엔쓰지자카를 따라 남쪽으로 내려가면 돌계단. 약 550m, 도보 7분.",
      "accessPointName": "요쓰야산초메역 3번 출구",
      "bestTime": "빛이 부드럽고 지나는 사람이 적은 이른 아침~오전이 계단 전체를 찍기에 가장 좋다. 주말 낮에는 촬영 대기 줄이 생기는 일이 많으니 평일 아침을 추천.",
-     "tips": "조용한 주택가 안의 계단입니다. 이른 아침과 밤에는 특히 목소리를 낮춰 주세요. 계단에 앉거나 한가운데를 오래 차지하고 촬영하지 말고 주민과 참배객에게 길을 비켜 주세요. 주변 주택은 촬영하지 마세요."
+     "tips": "조용한 주택가 안의 계단입니다. 이른 아침과 밤에는 특히 목소리를 낮춰 주세요. 계단에 앉거나 한가운데를 오래 차지하고 촬영하지 말고 주민과 참배객에게 길을 비켜 주세요. 주변 주택은 촬영하지 마세요.",
+     "searchTerms": [
+      "스가 신사 계단",
+      "빨간 난간",
+      "라스트 신"
+     ]
     }
    }
   },
@@ -599,7 +620,12 @@
      "access": "JR高山本线「飞驒古川」站出站后，沿铁路往北步行约100米、2分钟，即到横跨铁轨的跨线天桥；站前、站后两侧都能上桥。",
      "accessPointName": "飞驒古川站 出站口",
      "bestTime": "白天有列车进出站时，从天桥俯拍最接近电影画面。4月19–20日古川祭期间游客很多，住宿要提早预订。",
-     "tips": "天桥是居民日常通行的道路，请贴边拍照、不要堵住通道，也不要架三脚架。附近的飞驒市图书馆同为取景地，馆内拍照需先到柜台申请许可。"
+     "tips": "天桥是居民日常通行的道路，请贴边拍照、不要堵住通道，也不要架三脚架。附近的飞驒市图书馆同为取景地，馆内拍照需先到柜台申请许可。",
+     "searchTerms": [
+      "飞驒古川站",
+      "跨线桥",
+      "站台"
+     ]
     },
     "ja": {
      "placeName": "JR飛騨古川駅 跨線橋（岐阜県飛騨市）",
@@ -610,7 +636,12 @@
      "access": "JR高山本線「飛騨古川」駅を出て線路沿いに北へ約100m・徒歩2分で線路をまたぐ跨線橋へ。駅の表側・裏側どちらからも上がれる。",
      "accessPointName": "飛騨古川駅 出口",
      "bestTime": "列車が発着する日中に跨線橋から見下ろすと、映画の構図に最も近い。4月19・20日の古川祭の時期は観光客が多く、宿は早めの予約を。",
-     "tips": "跨線橋は地元の人が毎日通る生活道路です。端に寄って撮影し、通路をふさいだり三脚を立てたりしないように。近くの飛騨市図書館も舞台のモデルですが、館内撮影はカウンターで事前に許可が必要です。"
+     "tips": "跨線橋は地元の人が毎日通る生活道路です。端に寄って撮影し、通路をふさいだり三脚を立てたりしないように。近くの飛騨市図書館も舞台のモデルですが、館内撮影はカウンターで事前に許可が必要です。",
+     "searchTerms": [
+      "飛騨古川駅",
+      "跨線橋",
+      "ホーム"
+     ]
     },
     "en": {
      "placeName": "Footbridge at JR Hida-Furukawa Station (Hida, Gifu)",
@@ -621,7 +652,12 @@
      "access": "From JR Takayama Line Hida-Furukawa Sta., walk about 100 m (2 min) north along the tracks to the footbridge that spans them. You can climb it from either side of the station.",
      "accessPointName": "Hida-Furukawa Sta. exit",
      "bestTime": "Come during the day, when trains are arriving and departing; looking down from the bridge then matches the film best. The Furukawa Festival on April 19–20 draws big crowds, so book a room early.",
-     "tips": "The footbridge is a public walkway that locals use every day. Stand to the side, don't block it and don't set up a tripod. The nearby Hida City Library also appears in the film, but photography inside needs permission from the front desk first."
+     "tips": "The footbridge is a public walkway that locals use every day. Stand to the side, don't block it and don't set up a tripod. The nearby Hida City Library also appears in the film, but photography inside needs permission from the front desk first.",
+     "searchTerms": [
+      "Hida-Furukawa Station",
+      "station footbridge",
+      "platform"
+     ]
     },
     "ko": {
      "placeName": "JR 히다후루카와역 육교 (기후현 히다시)",
@@ -632,7 +668,12 @@
      "access": "JR 다카야마 본선 히다후루카와역을 나와 선로를 따라 북쪽으로 약 100m, 도보 2분이면 선로 위를 가로지르는 육교. 역 앞쪽·뒤쪽 어느 쪽에서도 올라갈 수 있다.",
      "accessPointName": "히다후루카와역 출구",
      "bestTime": "열차가 드나드는 낮 시간에 육교에서 내려다보면 영화 구도와 가장 비슷하다. 4월 19~20일 후루카와 마쓰리 기간에는 관광객이 많으니 숙소는 일찍 예약하자.",
-     "tips": "육교는 주민들이 매일 다니는 생활 도로입니다. 가장자리에서 촬영하고 통로를 막거나 삼각대를 세우지 마세요. 근처 히다시 도서관도 작품 속 장소지만, 관내 촬영은 카운터에서 미리 허가를 받아야 합니다."
+     "tips": "육교는 주민들이 매일 다니는 생활 도로입니다. 가장자리에서 촬영하고 통로를 막거나 삼각대를 세우지 마세요. 근처 히다시 도서관도 작품 속 장소지만, 관내 촬영은 카운터에서 미리 허가를 받아야 합니다.",
+     "searchTerms": [
+      "히다후루카와역",
+      "육교",
+      "플랫폼"
+     ]
     }
    }
   },
@@ -666,7 +707,12 @@
      "access": "JR中央·总武线（各站停车）「信浓町」站出检票口后往南约50米、步行1分钟，即到横跨外苑东通的站前天桥。",
      "accessPointName": "信浓町站 检票口",
      "bestTime": "晴天日落前后，西边天空泛起晚霞、代代木大楼化作剪影时最像电影；冬季空气通透，傍晚来最好。",
-     "tips": "天桥较窄，行人、婴儿车和轮椅都会经过，请贴边拍照、不要久留或架三脚架。桥下车流很大，切勿探身越过栏杆。"
+     "tips": "天桥较窄，行人、婴儿车和轮椅都会经过，请贴边拍照、不要久留或架三脚架。桥下车流很大，切勿探身越过栏杆。",
+     "searchTerms": [
+      "信浓町站 天桥",
+      "奥寺前辈",
+      "约会"
+     ]
     },
     "ja": {
      "placeName": "信濃町駅前歩道橋（東京都新宿区）",
@@ -677,7 +723,12 @@
      "access": "JR中央・総武線（各駅停車）「信濃町」駅の改札を出て南へ約50m・徒歩1分、外苑東通りをまたぐ駅前の歩道橋へ。",
      "accessPointName": "信濃町駅 改札口",
      "bestTime": "晴れた日の日没前後、西の空が染まり代々木のビルがシルエットになる頃が映画そのもの。空気の澄む冬の夕方が特におすすめ。",
-     "tips": "歩道橋は幅が狭く、ベビーカーや車いすの人も通ります。端に寄って撮影し、長居や三脚の使用は控えて。下は交通量の多い道路なので、手すりから身を乗り出さないように。"
+     "tips": "歩道橋は幅が狭く、ベビーカーや車いすの人も通ります。端に寄って撮影し、長居や三脚の使用は控えて。下は交通量の多い道路なので、手すりから身を乗り出さないように。",
+     "searchTerms": [
+      "信濃町駅 歩道橋",
+      "奥寺先輩",
+      "デート帰り"
+     ]
     },
     "en": {
      "placeName": "Footbridge in front of Shinanomachi Station (Shinjuku, Tokyo)",
@@ -688,7 +739,12 @@
      "access": "From the ticket gate of JR Shinanomachi Sta. (Chuo-Sobu Line local), walk about 50 m (1 min) south to the footbridge over Gaien-higashi-dori in front of the station.",
      "accessPointName": "Shinanomachi Sta. ticket gate",
      "bestTime": "Around sunset on a clear day, when the western sky glows and the Yoyogi tower turns into a silhouette, it looks just like the film. Winter evenings, with their crisp air, are best.",
-     "tips": "The bridge is narrow and used by pedestrians, prams and wheelchairs, so shoot from the edge, don't linger and skip the tripod. Heavy traffic runs underneath; never lean over the railings."
+     "tips": "The bridge is narrow and used by pedestrians, prams and wheelchairs, so shoot from the edge, don't linger and skip the tripod. Heavy traffic runs underneath; never lean over the railings.",
+     "searchTerms": [
+      "Shinanomachi footbridge",
+      "Okudera date",
+      "pedestrian bridge"
+     ]
     },
     "ko": {
      "placeName": "시나노마치역 앞 육교 (도쿄 신주쿠)",
@@ -699,7 +755,12 @@
      "access": "JR 주오·소부선(각역정차) 시나노마치역 개찰구를 나와 남쪽으로 약 50m, 도보 1분이면 가이엔히가시도리를 가로지르는 역 앞 육교.",
      "accessPointName": "시나노마치역 개찰구",
      "bestTime": "맑은 날 해 질 무렵, 서쪽 하늘이 물들고 요요기 빌딩이 실루엣이 될 때가 영화와 가장 닮았다. 공기가 맑은 겨울 저녁이 특히 좋다.",
-     "tips": "육교가 좁고 유모차나 휠체어도 지나다니니 가장자리에서 촬영하고, 오래 머물거나 삼각대를 쓰지 마세요. 아래는 차량 통행이 많은 도로이니 난간 밖으로 몸을 내밀지 마세요."
+     "tips": "육교가 좁고 유모차나 휠체어도 지나다니니 가장자리에서 촬영하고, 오래 머물거나 삼각대를 쓰지 마세요. 아래는 차량 통행이 많은 도로이니 난간 밖으로 몸을 내밀지 마세요.",
+     "searchTerms": [
+      "시나노마치역 육교",
+      "오쿠데라 선배",
+      "데이트"
+     ]
     }
    }
   },
@@ -733,7 +794,13 @@
      "access": "JR中央线「高圆寺」站南口出站，往南约50米后左转，再走约80米即到高圆寺冰川神社，全程约130米、步行2分钟；气象神社在其境内。",
      "accessPointName": "高圆寺站 南口",
      "bestTime": "6月1日“气象祭”前后最热闹；平日白天人少。雨后初晴的时刻来，最有电影的感觉。",
-     "tips": "神社紧邻车站与住宅区，请安静参拜。木屐绘马可在授与所求得（授与时间以现场为准）；拍照时不要拍到别人绘马上的愿望内容。"
+     "tips": "神社紧邻车站与住宅区，请安静参拜。木屐绘马可在授与所求得（授与时间以现场为准）；拍照时不要拍到别人绘马上的愿望内容。",
+     "searchTerms": [
+      "气象神社",
+      "高圆寺氷川神社",
+      "晴女",
+      "天井画"
+     ]
     },
     "ja": {
      "placeName": "高円寺氷川神社・気象神社（東京都杉並区）",
@@ -744,7 +811,13 @@
      "access": "JR中央線「高円寺」駅南口を出て南へ約50m、左折して約80mで高円寺氷川神社。計約130m・徒歩2分。気象神社はその境内にある。",
      "accessPointName": "高円寺駅 南口",
      "bestTime": "6月1日の気象祭の頃が最もにぎやか。平日の日中は比較的すいている。雨上がりに晴れ間がのぞく時間に訪れると、映画の空気をいちばん感じられる。",
-     "tips": "駅と住宅に隣接した小さな神社なので、静かにお参りを。下駄の絵馬は授与所で受けられます（授与時間は現地で確認を）。他の人の絵馬の願い事が写り込まないよう撮影に配慮しましょう。"
+     "tips": "駅と住宅に隣接した小さな神社なので、静かにお参りを。下駄の絵馬は授与所で受けられます（授与時間は現地で確認を）。他の人の絵馬の願い事が写り込まないよう撮影に配慮しましょう。",
+     "searchTerms": [
+      "気象神社",
+      "高円寺氷川神社",
+      "天井画",
+      "晴れ女"
+     ]
     },
     "en": {
      "placeName": "Koenji Hikawa Shrine & Kisho (Weather) Shrine (Suginami, Tokyo)",
@@ -755,7 +828,13 @@
      "access": "From the South Exit of JR Koenji Sta. (Chuo Line), walk about 50 m south, turn left and go about 80 m to Koenji Hikawa Shrine: about 130 m, 2 min. Kisho Shrine stands in its grounds.",
      "accessPointName": "Koenji Sta. South Exit",
      "bestTime": "It's liveliest around the Kisho Festival on June 1; weekday daytimes are quiet. Come just as the sun breaks through after rain for the most Weathering with You feeling.",
-     "tips": "This small shrine sits right next to the station and homes, so visit quietly. Geta ema are available at the amulet office (check hours on site). When taking photos, avoid capturing the wishes written on other people's plaques."
+     "tips": "This small shrine sits right next to the station and homes, so visit quietly. Geta ema are available at the amulet office (check hours on site). When taking photos, avoid capturing the wishes written on other people's plaques.",
+     "searchTerms": [
+      "Kisho Shrine",
+      "Weather Shrine",
+      "sunshine girl",
+      "ceiling painting"
+     ]
     },
     "ko": {
      "placeName": "고엔지 히카와 신사·기상 신사 (도쿄 스기나미)",
@@ -766,7 +845,12 @@
      "access": "JR 주오선 고엔지역 남쪽 출구로 나와 남쪽으로 약 50m, 왼쪽으로 꺾어 약 80m 가면 고엔지 히카와 신사. 총 약 130m, 도보 2분. 기상 신사는 그 경내에 있다.",
      "accessPointName": "고엔지역 남쪽 출구",
      "bestTime": "6월 1일 기상제 무렵이 가장 북적인다. 평일 낮은 한산한 편. 비가 그치고 해가 나는 순간에 찾으면 영화 분위기를 가장 잘 느낄 수 있다.",
-     "tips": "역과 주택가에 붙어 있는 작은 신사이니 조용히 참배해 주세요. 게타 에마는 수여소에서 받을 수 있습니다(수여 시간은 현장에서 확인). 다른 사람의 에마에 적힌 소원이 찍히지 않도록 주의하세요."
+     "tips": "역과 주택가에 붙어 있는 작은 신사이니 조용히 참배해 주세요. 게타 에마는 수여소에서 받을 수 있습니다(수여 시간은 현장에서 확인). 다른 사람의 에마에 적힌 소원이 찍히지 않도록 주의하세요.",
+     "searchTerms": [
+      "기상신사",
+      "고엔지 히카와 신사",
+      "맑음 소녀"
+     ]
     }
    }
   },
@@ -800,7 +884,12 @@
      "access": "JR山手线／京滨东北线「田端」站南口出站即是坡道，约40米、步行1分钟。南口是只有检票口的小出口，注意别从北口出站。",
      "accessPointName": "田端站 南口",
      "bestTime": "细雨天或雨后的傍晚最有电影的氛围；坡道很短，清晨人车最少，适合安静拍照。",
-     "tips": "南口一带很安静，坡道是居民日常通行的路，拍照请靠边、不要占满路面。旁边的不动坂石阶较陡，上下注意脚下，雨天尤其湿滑。"
+     "tips": "南口一带很安静，坡道是居民日常通行的路，拍照请靠边、不要占满路面。旁边的不动坂石阶较陡，上下注意脚下，雨天尤其湿滑。",
+     "searchTerms": [
+      "田端站南口",
+      "坡道",
+      "结尾"
+     ]
     },
     "ja": {
      "placeName": "JR田端駅南口の坂（東京都北区）",
@@ -811,7 +900,12 @@
      "access": "JR山手線・京浜東北線「田端」駅南口を出るとすぐ坂。約40m・徒歩1分。南口は改札だけの小さな出口なので、北口と間違えないように。",
      "accessPointName": "田端駅 南口",
      "bestTime": "小雨の日や雨上がりの夕方がいちばん映画の空気に近い。坂は短いので、人も車も少ない早朝なら落ち着いて撮影できる。",
-     "tips": "南口周辺は静かで、坂は住民の生活道路です。撮影は端に寄り、道をふさがないように。隣の不動坂の石段は急なので足元に注意、雨の日は特に滑りやすい。"
+     "tips": "南口周辺は静かで、坂は住民の生活道路です。撮影は端に寄り、道をふさがないように。隣の不動坂の石段は急なので足元に注意、雨の日は特に滑りやすい。",
+     "searchTerms": [
+      "田端駅南口",
+      "南口 坂",
+      "ラストシーン"
+     ]
     },
     "en": {
      "placeName": "Slope by the South Exit of JR Tabata Station (Kita, Tokyo)",
@@ -822,7 +916,12 @@
      "access": "The slope starts right outside the South Exit of JR Tabata Sta. (Yamanote / Keihin-Tohoku lines): about 40 m, 1 min. The South Exit is a small gate-only exit, so don't leave by the North Exit by mistake.",
      "accessPointName": "Tabata Sta. South Exit",
      "bestTime": "A drizzly day or an evening just after rain feels most like the film. The slope is short; early morning, with hardly any people or cars, is best for quiet photos.",
-     "tips": "The South Exit area is quiet and the slope is an everyday street for residents, so keep to the side and don't take over the road. The Fudozaka stone steps next to it are steep: watch your footing, especially when wet."
+     "tips": "The South Exit area is quiet and the slope is an everyday street for residents, so keep to the side and don't take over the road. The Fudozaka stone steps next to it are steep: watch your footing, especially when wet.",
+     "searchTerms": [
+      "Tabata Station south exit",
+      "slope",
+      "final scene"
+     ]
     },
     "ko": {
      "placeName": "JR 다바타역 남쪽 출구 언덕길 (도쿄 기타구)",
@@ -833,7 +932,12 @@
      "access": "JR 야마노테선·게이힌토호쿠선 다바타역 남쪽 출구로 나오면 바로 언덕길. 약 40m, 도보 1분. 남쪽 출구는 개찰구만 있는 작은 출구이니 북쪽 출구와 헷갈리지 말 것.",
      "accessPointName": "다바타역 남쪽 출구",
      "bestTime": "이슬비 내리는 날이나 비가 갠 저녁이 영화 분위기에 가장 가깝다. 언덕이 짧아서 사람도 차도 적은 이른 아침에 차분히 찍기 좋다.",
-     "tips": "남쪽 출구 주변은 조용하고 언덕길은 주민들의 생활 도로입니다. 가장자리에서 촬영하고 길을 막지 마세요. 옆의 후도자카 돌계단은 가파르니 발밑을 조심하고, 비 오는 날은 특히 미끄럽습니다."
+     "tips": "남쪽 출구 주변은 조용하고 언덕길은 주민들의 생활 도로입니다. 가장자리에서 촬영하고 길을 막지 마세요. 옆의 후도자카 돌계단은 가파르니 발밑을 조심하고, 비 오는 날은 특히 미끄럽습니다.",
+     "searchTerms": [
+      "다바타역 남쪽 출구",
+      "언덕길",
+      "라스트 신"
+     ]
     }
    }
   },
@@ -867,7 +971,13 @@
      "access": "小田急线「参宫桥」站（仅各站停车）出检票口后沿铁路往南（代代木八幡方向）走约500米、步行7分钟，即到3号道口。",
      "accessPointName": "参宫桥站 检票口",
      "bestTime": "3月下旬至4月上旬樱花季的白天最接近片中画面；电车几分钟一班，耐心等列车驶过的那一刻。",
-     "tips": "道口内禁止停留或拍照，警报一响立刻退到栏杆外。周边是安静的住宅区，请勿大声喧哗，也不要拍摄民宅。"
+     "tips": "道口内禁止停留或拍照，警报一响立刻退到栏杆外。周边是安静的住宅区，请勿大声喧哗，也不要拍摄民宅。",
+     "searchTerms": [
+      "参宫桥 道口",
+      "小田急线 道口",
+      "结尾",
+      "擦肩而过"
+     ]
     },
     "ja": {
      "placeName": "小田急線 参宮橋3号踏切（東京都渋谷区代々木）",
@@ -878,7 +988,13 @@
      "access": "小田急線「参宮橋」駅（各駅停車のみ）の改札を出て、線路沿いに南（代々木八幡方面）へ約500m・徒歩7分で参宮橋3号踏切。",
      "accessPointName": "参宮橋駅 改札口",
      "bestTime": "3月下旬〜4月上旬の桜の季節、日中がいちばん作中の景色に近い。電車は数分おきに来るので、通過の瞬間を気長に待とう。",
-     "tips": "踏切の中で立ち止まったり撮影したりするのは厳禁。警報が鳴ったらすぐ遮断機の外へ。周辺は静かな住宅街なので、大声を出さず、住宅を撮らないように。"
+     "tips": "踏切の中で立ち止まったり撮影したりするのは厳禁。警報が鳴ったらすぐ遮断機の外へ。周辺は静かな住宅街なので、大声を出さず、住宅を撮らないように。",
+     "searchTerms": [
+      "参宮橋 踏切",
+      "小田急線 踏切",
+      "ラストシーン",
+      "すれ違い"
+     ]
     },
     "en": {
      "placeName": "Odakyu Line Sangubashi No. 3 crossing (Yoyogi, Shibuya, Tokyo)",
@@ -889,7 +1005,12 @@
      "access": "From the ticket gate of Odakyu Line Sangubashi Sta. (local trains only), walk about 500 m (7 min) south along the tracks toward Yoyogi-Hachiman to crossing No. 3.",
      "accessPointName": "Sangubashi Sta. ticket gate",
      "bestTime": "Daytime in cherry-blossom season, late March to early April, matches the film best. Trains come every few minutes, so be patient for the moment one sweeps past.",
-     "tips": "Never stop or take photos inside the crossing; step back behind the barrier as soon as the alarm sounds. It's a quiet residential area, so keep noise down and don't photograph people's homes."
+     "tips": "Never stop or take photos inside the crossing; step back behind the barrier as soon as the alarm sounds. It's a quiet residential area, so keep noise down and don't photograph people's homes.",
+     "searchTerms": [
+      "Sangubashi crossing",
+      "railroad crossing",
+      "final scene"
+     ]
     },
     "ko": {
      "placeName": "오다큐선 산구바시 3호 건널목 (도쿄 시부야 요요기)",
@@ -900,7 +1021,12 @@
      "access": "오다큐선 산구바시역(각역정차만 정차) 개찰구를 나와 선로를 따라 남쪽(요요기하치만 방면)으로 약 500m, 도보 7분이면 3호 건널목.",
      "accessPointName": "산구바시역 개찰구",
      "bestTime": "3월 하순~4월 초순 벚꽃 시즌의 낮이 작품 속 풍경과 가장 가깝다. 전철이 몇 분 간격으로 오니 지나가는 순간을 느긋하게 기다리자.",
-     "tips": "건널목 안에서 멈추거나 촬영하는 것은 절대 금지. 경보가 울리면 바로 차단기 밖으로 물러나세요. 조용한 주택가이니 큰 소리를 내지 말고 주택을 찍지 마세요."
+     "tips": "건널목 안에서 멈추거나 촬영하는 것은 절대 금지. 경보가 울리면 바로 차단기 밖으로 물러나세요. 조용한 주택가이니 큰 소리를 내지 말고 주택을 찍지 마세요.",
+     "searchTerms": [
+      "산구바시 건널목",
+      "건널목",
+      "라스트 신"
+     ]
     }
    }
   },
@@ -935,7 +1061,12 @@
      "access": "JR两毛线「岩舟」站本身即是取景地，出检票口即到。从小山站乘两毛线约20分钟；东京出发经小山换乘，约需2小时。",
      "accessPointName": "岩舟站 检票口",
      "bestTime": "冬季下雪的傍晚到夜里最贴近电影；白天来可看清站舍与站台。入夜后班次更少，请算好回程。",
-     "tips": "岩舟是无人车站，两毛线约每小时1班，请提前查好回程时刻。站台属于付费区，拍照需持有效车票或IC卡进站并留在黄线内；候车区请让给乘客使用。"
+     "tips": "岩舟是无人车站，两毛线约每小时1班，请提前查好回程时刻。站台属于付费区，拍照需持有效车票或IC卡进站并留在黄线内；候车区请让给乘客使用。",
+     "searchTerms": [
+      "岩舟站",
+      "大雪",
+      "候车室"
+     ]
     },
     "ja": {
      "placeName": "JR両毛線 岩舟駅（栃木県栃木市）",
@@ -946,7 +1077,13 @@
      "access": "JR両毛線「岩舟」駅そのものが舞台で、改札を出ればすぐ。小山駅から両毛線で約20分、東京からは小山乗り換えで約2時間。",
      "accessPointName": "岩舟駅 改札口",
      "bestTime": "雪の降る冬の夕方から夜がいちばん映画に近い。駅舎やホームをじっくり見るなら日中に。夜は本数がさらに減るので帰りの時間に注意。",
-     "tips": "岩舟駅は無人駅で、両毛線はおおむね1時間に1本。帰りの時刻を事前に確認しておこう。ホームは改札内なので、撮影には有効な切符かICカードで入場し、黄色い線の内側で。待合スペースは利用客を優先に。"
+     "tips": "岩舟駅は無人駅で、両毛線はおおむね1時間に1本。帰りの時刻を事前に確認しておこう。ホームは改札内なので、撮影には有効な切符かICカードで入場し、黄色い線の内側で。待合スペースは利用客を優先に。",
+     "searchTerms": [
+      "岩舟駅",
+      "大雪 駅",
+      "待合室",
+      "ストーブ"
+     ]
     },
     "en": {
      "placeName": "JR Ryomo Line Iwafune Station (Tochigi, Tochigi)",
@@ -957,7 +1094,12 @@
      "access": "JR Ryomo Line Iwafune Sta. is itself the location; you're there as soon as you pass the ticket gate. About 20 min from Oyama on the Ryomo Line, roughly 2 hours from Tokyo with a change at Oyama.",
      "accessPointName": "Iwafune Sta. ticket gate",
      "bestTime": "A snowy winter evening or night is closest to the film; come in daylight to see the station building and platform clearly. Trains get even sparser at night, so plan your return.",
-     "tips": "Iwafune is an unstaffed station with roughly one Ryomo Line train an hour, so check your return train in advance. The platform is inside the fare gates: enter with a valid ticket or IC card to take photos and stay behind the yellow line. Leave the waiting area to passengers."
+     "tips": "Iwafune is an unstaffed station with roughly one Ryomo Line train an hour, so check your return train in advance. The platform is inside the fare gates: enter with a valid ticket or IC card to take photos and stay behind the yellow line. Leave the waiting area to passengers.",
+     "searchTerms": [
+      "Iwafune Station",
+      "snowy station",
+      "waiting room"
+     ]
     },
     "ko": {
      "placeName": "JR 료모선 이와후네역 (도치기현 도치기시)",
@@ -968,7 +1110,12 @@
      "access": "JR 료모선 이와후네역 자체가 무대로, 개찰구를 나오면 바로다. 오야마역에서 료모선으로 약 20분, 도쿄에서는 오야마 환승으로 약 2시간.",
      "accessPointName": "이와후네역 개찰구",
      "bestTime": "눈 내리는 겨울 저녁부터 밤까지가 영화와 가장 닮았다. 역사와 승강장을 자세히 보려면 낮에. 밤에는 열차가 더 줄어드니 돌아갈 시간을 챙기자.",
-     "tips": "이와후네역은 무인역이고 료모선은 대략 1시간에 1대입니다. 돌아갈 열차 시간을 미리 확인하세요. 승강장은 개찰구 안쪽이라 촬영하려면 유효한 승차권이나 IC카드로 들어가야 하며, 노란 선 안쪽에 머물러 주세요. 대기 공간은 승객에게 양보해 주세요."
+     "tips": "이와후네역은 무인역이고 료모선은 대략 1시간에 1대입니다. 돌아갈 열차 시간을 미리 확인하세요. 승강장은 개찰구 안쪽이라 촬영하려면 유효한 승차권이나 IC카드로 들어가야 하며, 노란 선 안쪽에 머물러 주세요. 대기 공간은 승객에게 양보해 주세요.",
+     "searchTerms": [
+      "이와후네역",
+      "폭설",
+      "대합실"
+     ]
     }
    }
   },
@@ -998,7 +1145,12 @@
      "story": "高三的花苗从初中起就暗恋着从东京转学来的贵树。她冲浪总也站不起来，未来的志愿也还没想好，唯一确定的，是每天放学后在停车场“碰巧”等到他，一起骑车回家。两人常在这家便利店停下，贵树总是很快拿好饮料，花苗却要在冷柜前纠结半天。她觉得能这样并肩走一段路就已经很幸福，却也隐隐感到，贵树的目光总是望着很远很远的地方。",
      "access": "从种子岛机场开车约15分钟，位于中种子町野间的道路旁；岛上公交班次很少，建议在机场或西之表港租车自驾。",
      "bestTime": "夏末到初秋的傍晚放学时分，南国的晚霞最像电影。营业时间不固定，出发前最好先确认。",
-     "tips": "这是当地人日常购物的小店，请先买点东西再拍照，不要挡住收银台。营业时间不固定；停车请使用附近的大平集落公民馆停车场。"
+     "tips": "这是当地人日常购物的小店，请先买点东西再拍照，不要挡住收银台。营业时间不固定；停车请使用附近的大平集落公民馆停车场。",
+     "searchTerms": [
+      "种子岛 便利店",
+      "I-SHOP",
+      "花苗"
+     ]
     },
     "ja": {
      "placeName": "アイショップ 石堂店（鹿児島県中種子町）",
@@ -1008,7 +1160,12 @@
      "story": "高校3年の花苗は、中学のころ東京から転校してきた貴樹にずっと片思いしている。サーフィンではまだ波に立てず、進路も決められない。確かなのは、放課後に駐輪場で「偶然」貴樹を待ち、一緒にバイクで帰ることだけ。二人はよくこの店に立ち寄る。貴樹はすぐに飲み物を選ぶのに、花苗は冷蔵ケースの前でいつまでも迷ってしまう。並んで帰れるだけで幸せだと思いながら、花苗は、貴樹の視線がいつもずっと遠くを見ていることにも気づいていた。",
      "access": "種子島空港から車で約15分、中種子町野間の道路沿い。島内のバスは本数が少ないので、空港か西之表港でレンタカーを借りるのが現実的。",
      "bestTime": "夏の終わりから初秋、放課後の夕方の時間帯は南国の夕焼けが映画そのもの。営業時間が不定なので、出発前に確認を。",
-     "tips": "地元の人が日常の買い物をするお店です。撮影の前に何か買い物をし、レジ前をふさがないように。営業時間は不定。駐車は近くの大平集落公民館の駐車場を利用してください。"
+     "tips": "地元の人が日常の買い物をするお店です。撮影の前に何か買い物をし、レジ前をふさがないように。営業時間は不定。駐車は近くの大平集落公民館の駐車場を利用してください。",
+     "searchTerms": [
+      "アイショップ",
+      "種子島 コンビニ",
+      "花苗"
+     ]
     },
     "en": {
      "placeName": "i-Shop Ishido convenience store (Nakatane, Tanegashima, Kagoshima)",
@@ -1018,7 +1175,12 @@
      "story": "Kanae, in her final year of high school, has loved Takaki ever since he transferred from Tokyo in junior high. She still can't stand up on her surfboard and hasn't decided what to do after graduation. All she is sure of is that after school she will “happen” to be waiting when he comes out, so they can ride home together. They often stop at this store; Takaki picks his drink in seconds, while Kanae dithers in front of the fridge. Just walking beside him feels like enough — yet she can tell his eyes are always fixed on somewhere very far away.",
      "access": "About 15 min by car from Tanegashima Airport, on a roadside in Noma, Nakatane. Buses on the island are very infrequent, so rent a car at the airport or at Nishinoomote port.",
      "bestTime": "Late-summer to early-autumn evenings, around the time school lets out, when the southern sunset looks just like the film. Opening hours vary, so check before you go.",
-     "tips": "This is a local shop people rely on for daily groceries: buy something before taking photos and don't block the till. Opening hours are irregular. Park at the nearby Ohira community hall car park."
+     "tips": "This is a local shop people rely on for daily groceries: buy something before taking photos and don't block the till. Opening hours are irregular. Park at the nearby Ohira community hall car park.",
+     "searchTerms": [
+      "I-Shop Tanegashima",
+      "convenience store",
+      "Kanae"
+     ]
     },
     "ko": {
      "placeName": "아이숍 이시도점 편의점 (가고시마현 다네가시마 나카타네초)",
@@ -1028,7 +1190,12 @@
      "story": "고3인 카나에는 중학생 때 도쿄에서 전학 온 타카키를 줄곧 짝사랑하고 있다. 서핑 보드 위에서는 아직 일어서지 못하고, 진로도 정하지 못했다. 확실한 건 방과 후 주차장에서 ‘우연히’ 타카키를 기다렸다가 함께 바이크를 타고 돌아가는 것뿐. 두 사람은 이 가게에 자주 들른다. 타카키는 금세 음료를 고르지만 카나에는 냉장고 앞에서 한참을 망설인다. 나란히 걷는 것만으로도 행복하다고 생각하면서도, 카나에는 타카키의 눈이 늘 아주 먼 곳을 보고 있다는 것을 알고 있었다.",
      "access": "다네가시마 공항에서 차로 약 15분, 나카타네초 노마의 도로변. 섬 안 버스는 운행이 매우 적어 공항이나 니시노오모테항에서 렌터카를 빌리는 것이 현실적이다.",
      "bestTime": "늦여름부터 초가을, 하교 시간대의 저녁 노을이 영화 그대로다. 영업시간이 일정하지 않으니 출발 전에 확인하자.",
-     "tips": "주민들이 일상적으로 장을 보는 가게입니다. 촬영 전에 뭐라도 사고, 계산대 앞을 막지 마세요. 영업시간은 일정하지 않습니다. 주차는 근처 오히라 마을 공민관 주차장을 이용하세요."
+     "tips": "주민들이 일상적으로 장을 보는 가게입니다. 촬영 전에 뭐라도 사고, 계산대 앞을 막지 마세요. 영업시간은 일정하지 않습니다. 주차는 근처 오히라 마을 공민관 주차장을 이용하세요.",
+     "searchTerms": [
+      "다네가시마 편의점",
+      "아이숍",
+      "카나에"
+     ]
     }
    }
   },
@@ -1057,7 +1224,12 @@
      "story": "整个夏天，花苗都没能在冲浪板上站起来，就像她对贵树的心意，怎么也说不出口。她暗暗决定：等哪天能站上浪头，就向他告白。一个秋天的午后，在这片海上，她终于稳稳地踩住了板子，被浪推着向前滑去。那天傍晚她鼓足勇气跟在贵树身边，却在他平静而遥远的眼神前哭了出来。远处，载着探测器的火箭拖着长长的白烟升上天空——花苗明白，贵树看着的，从来不是她。",
      "access": "从种子岛机场开车约20分钟，位于中种子町野间的海岸；岛上公交班次很少，建议租车自驾。",
      "bestTime": "夏末到秋季的晴天海水最蓝；种子岛宇宙中心有火箭发射时，岛上多处都能远眺，可留意发射日程。",
-     "tips": "这里是冲浪胜地，海况复杂，不会冲浪请勿下水。海边有淋浴和厕所，但手机信号较弱。垃圾请带走，不要妨碍冲浪者。"
+     "tips": "这里是冲浪胜地，海况复杂，不会冲浪请勿下水。海边有淋浴和厕所，但手机信号较弱。垃圾请带走，不要妨碍冲浪者。",
+     "searchTerms": [
+      "中山海岸",
+      "种子岛 冲浪",
+      "花苗"
+     ]
     },
     "ja": {
      "placeName": "中山海岸（鹿児島県中種子町）",
@@ -1067,7 +1239,12 @@
      "story": "夏のあいだずっと、花苗はサーフボードの上に立てなかった。貴樹への想いをどうしても口にできないのと同じように。波に乗れたら、その日に気持ちを伝えよう——そう心に決めた花苗は、秋のある午後、この海でついにボードの上に立ち、波に押されて滑り出す。その夕方、勇気を振り絞って貴樹のそばを歩くが、彼の静かで遠い眼差しの前で、言葉の代わりに涙があふれてしまう。遠くで探査機を載せたロケットが白い煙を引いて空へ昇っていく。花苗は悟る。貴樹が見ているのは、自分ではないのだと。",
      "access": "種子島空港から車で約20分、中種子町野間の海岸。島内のバスは本数が少ないので、レンタカーがおすすめ。",
      "bestTime": "夏の終わりから秋の晴れた日は海の青さが格別。種子島宇宙センターからロケットが打ち上がる日は島内各所から見えるので、打ち上げ予定をチェックしておくと良い。",
-     "tips": "サーフィンのメッカで海の状況が複雑なため、サーフィンをしない人は海に入らないこと。シャワーとトイレはあるが、携帯の電波は入りにくい。ゴミは持ち帰り、サーファーの邪魔をしないように。"
+     "tips": "サーフィンのメッカで海の状況が複雑なため、サーフィンをしない人は海に入らないこと。シャワーとトイレはあるが、携帯の電波は入りにくい。ゴミは持ち帰り、サーファーの邪魔をしないように。",
+     "searchTerms": [
+      "中山海岸",
+      "種子島 サーフィン",
+      "花苗 波"
+     ]
     },
     "en": {
      "placeName": "Nakayama Beach (Nakatane, Tanegashima, Kagoshima)",
@@ -1077,7 +1254,12 @@
      "story": "All summer, Kanae can't stand up on her board — just as she can't put her feelings for Takaki into words. She makes a promise to herself: on the day she rides a wave, she'll tell him. One autumn afternoon, here, she finally finds her feet and glides forward on the swell. That evening she walks beside Takaki, determined to speak, but faced with his calm, distant gaze, tears come instead of words. In the distance a rocket carrying a space probe climbs into the sky on a long white trail, and Kanae understands that Takaki has never been looking at her.",
      "access": "About 20 min by car from Tanegashima Airport, on the coast at Noma, Nakatane. Island buses are rare, so renting a car is the practical choice.",
      "bestTime": "Sunny days from late summer into autumn, when the sea is at its bluest. Rocket launches from Tanegashima Space Center can be seen from many points on the island, so check the launch schedule.",
-     "tips": "This is a serious surf spot with tricky conditions; if you don't surf, stay out of the water. There are showers and toilets, but phone signal is weak. Take your rubbish home and keep out of surfers' way."
+     "tips": "This is a serious surf spot with tricky conditions; if you don't surf, stay out of the water. There are showers and toilets, but phone signal is weak. Take your rubbish home and keep out of surfers' way.",
+     "searchTerms": [
+      "Nakayama Beach",
+      "Tanegashima surfing",
+      "Kanae surfing"
+     ]
     },
     "ko": {
      "placeName": "나카야마 해안 (가고시마현 다네가시마 나카타네초)",
@@ -1087,7 +1269,12 @@
      "story": "여름 내내 카나에는 서핑 보드 위에 일어서지 못했다. 타카키에 대한 마음을 끝내 말하지 못하는 것처럼. 파도를 타는 날 마음을 전하겠다고 다짐한 카나에는, 어느 가을 오후 이 바다에서 드디어 보드 위에 서서 파도에 밀려 나아간다. 그날 저녁 용기를 내어 타카키 곁을 걷지만, 그의 고요하고 먼 눈빛 앞에서 말 대신 눈물이 쏟아진다. 멀리서 탐사선을 실은 로켓이 하얀 연기를 길게 끌며 하늘로 올라간다. 카나에는 깨닫는다. 타카키가 바라보는 것은 자신이 아니라는 것을.",
      "access": "다네가시마 공항에서 차로 약 20분, 나카타네초 노마의 해안. 섬 안 버스는 거의 없으니 렌터카를 추천.",
      "bestTime": "늦여름부터 가을의 맑은 날, 바다가 가장 푸르다. 다네가시마 우주센터에서 로켓을 쏘는 날은 섬 곳곳에서 보이니 발사 일정을 확인해 두자.",
-     "tips": "서핑 명소로 바다 상황이 복잡하니 서핑을 하지 않는다면 물에 들어가지 마세요. 샤워 시설과 화장실은 있지만 휴대폰 신호가 약합니다. 쓰레기는 가져가고 서퍼들을 방해하지 마세요."
+     "tips": "서핑 명소로 바다 상황이 복잡하니 서핑을 하지 않는다면 물에 들어가지 마세요. 샤워 시설과 화장실은 있지만 휴대폰 신호가 약합니다. 쓰레기는 가져가고 서퍼들을 방해하지 마세요.",
+     "searchTerms": [
+      "나카야마 해안",
+      "다네가시마 서핑",
+      "카나에"
+     ]
     }
    }
   },
@@ -1122,7 +1309,12 @@
      "access": "JR中央·总武线（各站停车）「千驮谷」站出检票口，沿铁路往西走约5分钟到千驮谷门，入园后往日本庭园的池边再走约4分钟，共约700米。",
      "accessPointName": "千驮谷站 检票口",
      "bestTime": "6月梅雨季的雨天上午最像电影，雨中新绿、游客也少；11月下旬起红叶也很美，但人会多。",
-     "tips": "入园需购票（成人500日元）；周一休园（逢节假日顺延，樱花季和菊花展期间无休），闭园时间随季节为16:30–19:00。园内禁止饮酒，请别模仿片中喝啤酒；凉亭座位勿久占。"
+     "tips": "入园需购票（成人500日元）；周一休园（逢节假日顺延，樱花季和菊花展期间无休），闭园时间随季节为16:30–19:00。园内禁止饮酒，请别模仿片中喝啤酒；凉亭座位勿久占。",
+     "searchTerms": [
+      "新宿御苑 凉亭",
+      "雨天",
+      "日本庭园"
+     ]
     },
     "ja": {
      "placeName": "新宿御苑 日本庭園の池のほとりの東屋（東京都新宿区）",
@@ -1133,7 +1325,13 @@
      "access": "JR中央・総武線（各駅停車）「千駄ケ谷」駅の改札を出て線路沿いに西へ約5分で千駄ケ谷門。入園後、日本庭園の池のほとりまでさらに約4分。計約700m。",
      "accessPointName": "千駄ケ谷駅 改札口",
      "bestTime": "6月の梅雨、雨の日の午前中が最も映画らしい。雨に濡れた新緑が美しく、人も少ない。11月下旬からの紅葉も見事だが混雑する。",
-     "tips": "入園は有料（一般500円）。月曜休園（祝日の場合は翌平日、桜の時期と菊花壇展の期間は無休）、閉園は季節により16:30〜19:00。園内は飲酒禁止なので、作中のようにビールを飲むのはNG。東屋の席を長時間占領しないように。"
+     "tips": "入園は有料（一般500円）。月曜休園（祝日の場合は翌平日、桜の時期と菊花壇展の期間は無休）、閉園は季節により16:30〜19:00。園内は飲酒禁止なので、作中のようにビールを飲むのはNG。東屋の席を長時間占領しないように。",
+     "searchTerms": [
+      "新宿御苑 東屋",
+      "雨",
+      "日本庭園",
+      "靴"
+     ]
     },
     "en": {
      "placeName": "Pond-side gazebo in the Japanese Garden, Shinjuku Gyoen (Shinjuku, Tokyo)",
@@ -1144,7 +1342,12 @@
      "access": "From the ticket gate of JR Sendagaya Sta. (Chuo-Sobu Line local), walk about 5 min west along the tracks to the Sendagaya Gate, then about 4 min more inside to the pond in the Japanese Garden: roughly 700 m in all.",
      "accessPointName": "Sendagaya Sta. ticket gate",
      "bestTime": "A rainy morning in the June rainy season feels most like the film: glistening green and few visitors. Autumn colours from late November are lovely too, but busy.",
-     "tips": "Paid entry (adults ¥500). Closed Mondays (next weekday if Monday is a holiday; open daily in cherry-blossom season and during the chrysanthemum show); closing time varies by season from 16:30 to 19:00. Alcohol is banned in the garden, so don't copy the film's beer. Don't hog the gazebo seats."
+     "tips": "Paid entry (adults ¥500). Closed Mondays (next weekday if Monday is a holiday; open daily in cherry-blossom season and during the chrysanthemum show); closing time varies by season from 16:30 to 19:00. Alcohol is banned in the garden, so don't copy the film's beer. Don't hog the gazebo seats.",
+     "searchTerms": [
+      "Shinjuku Gyoen gazebo",
+      "rain",
+      "Japanese garden"
+     ]
     },
     "ko": {
      "placeName": "신주쿠 교엔 일본 정원 연못가 정자 (도쿄 신주쿠)",
@@ -1155,7 +1358,12 @@
      "access": "JR 주오·소부선(각역정차) 센다가야역 개찰구를 나와 선로를 따라 서쪽으로 약 5분이면 센다가야 문. 입장 후 일본 정원 연못가까지 약 4분 더. 총 약 700m.",
      "accessPointName": "센다가야역 개찰구",
      "bestTime": "6월 장마철 비 오는 날 오전이 가장 영화 같다. 비에 젖은 신록이 아름답고 사람도 적다. 11월 하순부터의 단풍도 멋지지만 붐빈다.",
-     "tips": "입장료가 있습니다(일반 500엔). 월요일 휴원(공휴일이면 다음 평일, 벚꽃 시기와 국화전 기간은 무휴), 폐원 시간은 계절에 따라 16:30~19:00. 정원 안은 음주 금지이니 영화처럼 맥주를 마시면 안 됩니다. 정자 자리를 오래 차지하지 마세요."
+     "tips": "입장료가 있습니다(일반 500엔). 월요일 휴원(공휴일이면 다음 평일, 벚꽃 시기와 국화전 기간은 무휴), 폐원 시간은 계절에 따라 16:30~19:00. 정원 안은 음주 금지이니 영화처럼 맥주를 마시면 안 됩니다. 정자 자리를 오래 차지하지 마세요.",
+     "searchTerms": [
+      "신주쿠 교엔 정자",
+      "비 오는 날",
+      "일본 정원"
+     ]
     }
    }
   },
@@ -1191,7 +1399,13 @@
      "access": "JR中央·总武线「御茶之水」站圣桥口出站，桥头就在眼前，约60米、步行1分钟；上桥后走到东侧栏杆即可望见丸之内线隧道口。",
      "accessPointName": "御茶之水站 圣桥口",
      "bestTime": "傍晚到入夜的蓝调时刻最美，丸之内线、中央线和总武线列车交错驶过；平日早晚通勤时段桥上行人多。",
-     "tips": "圣桥是车流量很大的道路桥，人行道不宽，拍照请贴着栏杆一侧、别挡住行人，也不要探身出栏杆或攀爬。"
+     "tips": "圣桥是车流量很大的道路桥，人行道不宽，拍照请贴着栏杆一侧、别挡住行人，也不要探身出栏杆或攀爬。",
+     "searchTerms": [
+      "圣桥",
+      "御茶之水",
+      "蚯蚓",
+      "要石"
+     ]
     },
     "ja": {
      "placeName": "聖橋（東京・御茶ノ水）",
@@ -1202,7 +1416,13 @@
      "access": "JR中央・総武線「御茶ノ水」駅聖橋口を出ると目の前が橋のたもと。約60m・徒歩1分。橋の東側の欄干から丸ノ内線のトンネル口が見える。",
      "accessPointName": "御茶ノ水駅 聖橋口",
      "bestTime": "夕方から日没後のブルーモーメントが最も美しく、丸ノ内線・中央線・総武線の電車が行き交う。平日の朝夕の通勤時間帯は橋の上も人通りが多い。",
-     "tips": "聖橋は交通量の多い道路橋で、歩道も広くありません。欄干側に寄って撮影し、歩行者の妨げにならないように。欄干から身を乗り出したり、よじ登ったりしないでください。"
+     "tips": "聖橋は交通量の多い道路橋で、歩道も広くありません。欄干側に寄って撮影し、歩行者の妨げにならないように。欄干から身を乗り出したり、よじ登ったりしないでください。",
+     "searchTerms": [
+      "聖橋",
+      "御茶ノ水",
+      "ミミズ",
+      "要石"
+     ]
     },
     "en": {
      "placeName": "Hijiribashi Bridge (Ochanomizu, Tokyo)",
@@ -1213,7 +1433,13 @@
      "access": "Leave JR Ochanomizu Sta. (Chuo / Sobu lines) by the Hijiribashi Exit and the end of the bridge is right in front of you: about 60 m, 1 min. Walk to the east railing to see the Marunouchi Line tunnel mouth.",
      "accessPointName": "Ochanomizu Sta. Hijiribashi Exit",
      "bestTime": "Dusk into blue hour is the most beautiful, with Marunouchi, Chuo and Sobu line trains crossing paths. Weekday rush hours bring lots of foot traffic on the bridge.",
-     "tips": "Hijiribashi is a busy road bridge with a narrow pavement. Shoot from the railing side without blocking pedestrians, and never lean over or climb the railings."
+     "tips": "Hijiribashi is a busy road bridge with a narrow pavement. Shoot from the railing side without blocking pedestrians, and never lean over or climb the railings.",
+     "searchTerms": [
+      "Hijiri Bridge",
+      "Ochanomizu",
+      "worm",
+      "keystone"
+     ]
     },
     "ko": {
      "placeName": "히지리바시 다리 (도쿄 오차노미즈)",
@@ -1224,7 +1450,13 @@
      "access": "JR 주오·소부선 오차노미즈역 히지리바시 출구로 나오면 바로 앞이 다리 입구. 약 60m, 도보 1분. 다리 동쪽 난간에서 마루노우치선 터널 입구가 보인다.",
      "accessPointName": "오차노미즈역 히지리바시 출구",
      "bestTime": "해 질 녘부터 블루아워가 가장 아름답고, 마루노우치선·주오선·소부선 전철이 엇갈려 지나간다. 평일 출퇴근 시간에는 다리 위에도 사람이 많다.",
-     "tips": "히지리바시는 차량 통행이 많은 도로 다리이고 인도가 넓지 않습니다. 난간 쪽에 붙어서 촬영하고 보행자를 막지 마세요. 난간 밖으로 몸을 내밀거나 올라가지 마세요."
+     "tips": "히지리바시는 차량 통행이 많은 도로 다리이고 인도가 넓지 않습니다. 난간 쪽에 붙어서 촬영하고 보행자를 막지 마세요. 난간 밖으로 몸을 내밀거나 올라가지 마세요.",
+     "searchTerms": [
+      "히지리바시",
+      "오차노미즈",
+      "미미즈",
+      "요석"
+     ]
     }
    }
   },
@@ -1258,7 +1490,12 @@
      "access": "JR「上野」站公园口出站，进入上野公园后沿大喷水池方向一直往北，约800米、步行10分钟到博物馆正门。",
      "accessPointName": "上野站 公园口",
      "bestTime": "盛夏晴天，蝉鸣和蓝天最像电影里的夏天；工作日上午人少，周末和特展期间较拥挤。",
-     "tips": "开放时间一般为9:30–17:00（周五、周六常延长），周一休馆（逢节假日顺延）。综合文化展成人1000日元，以官网为准。部分展品禁止拍照，请看标识；片中的修复室不对外开放。"
+     "tips": "开放时间一般为9:30–17:00（周五、周六常延长），周一休馆（逢节假日顺延）。综合文化展成人1000日元，以官网为准。部分展品禁止拍照，请看标识；片中的修复室不对外开放。",
+     "searchTerms": [
+      "东京国立博物馆",
+      "魔女阿姨",
+      "本馆"
+     ]
     },
     "ja": {
      "placeName": "東京国立博物館 本館（東京・上野）",
@@ -1269,7 +1506,12 @@
      "access": "JR「上野」駅公園口を出て上野公園に入り、噴水広場の方向へまっすぐ北へ。正門まで約800m・徒歩10分。",
      "accessPointName": "上野駅 公園口",
      "bestTime": "セミの声と青空が映画の夏そのものの、真夏の晴れた日がおすすめ。平日午前はすいていて、週末や特別展の期間は混み合う。",
-     "tips": "開館は通常9:30〜17:00（金・土曜は延長されることが多い）、月曜休館（祝日の場合は翌平日）。総合文化展は一般1,000円。詳細は公式サイトで確認を。撮影禁止の展示もあるので表示に従って。作中の修復室は非公開。"
+     "tips": "開館は通常9:30〜17:00（金・土曜は延長されることが多い）、月曜休館（祝日の場合は翌平日）。総合文化展は一般1,000円。詳細は公式サイトで確認を。撮影禁止の展示もあるので表示に従って。作中の修復室は非公開。",
+     "searchTerms": [
+      "東京国立博物館",
+      "魔女おばさん",
+      "本館 大階段"
+     ]
     },
     "en": {
      "placeName": "Tokyo National Museum, Honkan (Ueno, Tokyo)",
@@ -1280,7 +1522,12 @@
      "access": "From the Park Exit of JR Ueno Sta., enter Ueno Park and head straight north past the big fountain to the museum's main gate: about 800 m, 10 min.",
      "accessPointName": "Ueno Sta. Park Exit",
      "bestTime": "A blazing clear summer day, with cicadas and blue sky, feels just like the film. Weekday mornings are quiet; weekends and special exhibitions get busy.",
-     "tips": "Usually open 9:30–17:00 (often later on Fridays and Saturdays); closed Mondays (next weekday if Monday is a holiday). Regular exhibitions cost ¥1,000 for adults; check the official site. Some exhibits can't be photographed, so follow the signs. The restoration studio from the film is not open to the public."
+     "tips": "Usually open 9:30–17:00 (often later on Fridays and Saturdays); closed Mondays (next weekday if Monday is a holiday). Regular exhibitions cost ¥1,000 for adults; check the official site. Some exhibits can't be photographed, so follow the signs. The restoration studio from the film is not open to the public.",
+     "searchTerms": [
+      "Tokyo National Museum",
+      "Auntie Witch",
+      "museum steps"
+     ]
     },
     "ko": {
      "placeName": "도쿄 국립박물관 본관 (도쿄 우에노)",
@@ -1291,7 +1538,12 @@
      "access": "JR 우에노역 공원 출구로 나와 우에노 공원에 들어선 뒤 분수 광장 방향으로 곧장 북쪽으로. 정문까지 약 800m, 도보 10분.",
      "accessPointName": "우에노역 공원 출구",
      "bestTime": "매미 소리와 파란 하늘이 영화 속 여름 그대로인 한여름 맑은 날을 추천. 평일 오전은 한산하고, 주말과 특별전 기간은 붐빈다.",
-     "tips": "보통 9:30~17:00 개관(금·토요일은 연장되는 경우가 많음), 월요일 휴관(공휴일이면 다음 평일). 종합문화전은 일반 1,000엔이며 자세한 내용은 공식 사이트에서 확인하세요. 촬영 금지 전시물도 있으니 표시를 따르세요. 영화 속 복원실은 비공개입니다."
+     "tips": "보통 9:30~17:00 개관(금·토요일은 연장되는 경우가 많음), 월요일 휴관(공휴일이면 다음 평일). 종합문화전은 일반 1,000엔이며 자세한 내용은 공식 사이트에서 확인하세요. 촬영 금지 전시물도 있으니 표시를 따르세요. 영화 속 복원실은 비공개입니다.",
+     "searchTerms": [
+      "도쿄국립박물관",
+      "마녀 이모",
+      "본관"
+     ]
     }
    }
   },
@@ -1325,7 +1577,12 @@
      "access": "北陆新干线／信浓铁道「上田」站お城口出站，沿站前大道往北，再沿二之丸通走到城迹公园，约1公里、步行13分钟到东虎口橹门。",
      "accessPointName": "上田站 お城口",
      "bestTime": "盛夏晴天的上午，蓝天白云衬着石垣最有电影感；4月上旬樱花季游客最多，宜早到。",
-     "tips": "城迹公园免费入园；东虎口橹门与南、北橹内部需购票（约300日元），9:00–17:00，周三及节假日次日休馆，冬季（约11月下旬至3月下旬）关闭，以官网为准。"
+     "tips": "城迹公园免费入园；东虎口橹门与南、北橹内部需购票（约300日元），9:00–17:00，周三及节假日次日休馆，冬季（约11月下旬至3月下旬）关闭，以官网为准。",
+     "searchTerms": [
+      "上田城",
+      "阵内家 大门",
+      "橹门"
+     ]
     },
     "ja": {
      "placeName": "上田城跡公園 東虎口櫓門（長野県上田市）",
@@ -1336,7 +1593,12 @@
      "access": "北陸新幹線・しなの鉄道「上田」駅お城口から駅前通りを北へ進み、二の丸通りを経て城跡公園へ。東虎口櫓門まで約1km・徒歩13分。",
      "accessPointName": "上田駅 お城口",
      "bestTime": "真夏の晴れた午前中、青空と白い雲に石垣が映える時間が最も映画らしい。4月上旬の桜の季節は特に人が多いので早めに。",
-     "tips": "城跡公園は入園無料。東虎口櫓門と南櫓・北櫓の内部は有料（約300円）、9:00〜17:00、水曜・祝日の翌日休館、冬期（おおむね11月下旬〜3月下旬）は閉館。最新情報は公式サイトで。"
+     "tips": "城跡公園は入園無料。東虎口櫓門と南櫓・北櫓の内部は有料（約300円）、9:00〜17:00、水曜・祝日の翌日休館、冬期（おおむね11月下旬〜3月下旬）は閉館。最新情報は公式サイトで。",
+     "searchTerms": [
+      "上田城",
+      "東虎口櫓門",
+      "陣内家 門"
+     ]
     },
     "en": {
      "placeName": "East Gate (Higashi-koguchi Yaguramon), Ueda Castle Park (Ueda, Nagano)",
@@ -1347,7 +1609,12 @@
      "access": "From the Oshiro (Castle) Exit of Ueda Sta. (Hokuriku Shinkansen / Shinano Railway), head north up the main street and along Ninomaru-dori into the castle park: about 1 km, 13 min to the East Gate.",
      "accessPointName": "Ueda Sta. Oshiro Exit",
      "bestTime": "A clear midsummer morning, with blue sky and white clouds over the stone walls, looks most like the film. Early April cherry-blossom season is the busiest, so arrive early.",
-     "tips": "The castle park is free. Inside the East Gate and the North and South turrets costs about ¥300; open 9:00–17:00, closed Wednesdays and the day after public holidays, and closed in winter (roughly late Nov to late Mar). Check the official site for current details."
+     "tips": "The castle park is free. Inside the East Gate and the North and South turrets costs about ¥300; open 9:00–17:00, closed Wednesdays and the day after public holidays, and closed in winter (roughly late Nov to late Mar). Check the official site for current details.",
+     "searchTerms": [
+      "Ueda Castle",
+      "Jinnouchi gate",
+      "yagura gate"
+     ]
     },
     "ko": {
      "placeName": "우에다성 터 공원 히가시코구치 야구라몬 (나가노현 우에다시)",
@@ -1358,7 +1625,12 @@
      "access": "호쿠리쿠 신칸센·시나노 철도 우에다역 오시로(성) 출구에서 역 앞 대로를 따라 북쪽으로 가다 니노마루도리를 거쳐 성터 공원으로. 히가시코구치 야구라몬까지 약 1km, 도보 13분.",
      "accessPointName": "우에다역 오시로 출구",
      "bestTime": "파란 하늘과 흰 구름 아래 석벽이 돋보이는 한여름 맑은 오전이 가장 영화 같다. 4월 초 벚꽃 시즌은 특히 붐비니 일찍 가자.",
-     "tips": "성터 공원은 무료입니다. 히가시코구치 야구라몬과 남·북 망루 내부는 유료(약 300엔), 9:00~17:00, 수요일과 공휴일 다음 날 휴관, 겨울(대략 11월 하순~3월 하순)에는 문을 닫습니다. 최신 정보는 공식 사이트에서 확인하세요."
+     "tips": "성터 공원은 무료입니다. 히가시코구치 야구라몬과 남·북 망루 내부는 유료(약 300엔), 9:00~17:00, 수요일과 공휴일 다음 날 휴관, 겨울(대략 11월 하순~3월 하순)에는 문을 닫습니다. 최신 정보는 공식 사이트에서 확인하세요.",
+     "searchTerms": [
+      "우에다성",
+      "진노우치 가문 대문",
+      "망루문"
+     ]
     }
    }
   },
@@ -1393,7 +1665,12 @@
      "access": "富山地方铁道「上市」站乘町营社区巴士（200日元）到终点大岩山日石寺，再沿山路上行约1.7公里、步行约40分钟（爬升约210米），岔路一律走左边。打车约4000日元。",
      "accessPointName": "大岩山日石寺（巴士终点）",
      "bestTime": "初夏新绿或秋天最像电影；9:00–17:00可入屋，山路单程约40分钟，建议上午出发。冬季积雪路滑，不宜徒步。",
-     "tips": "私人住宅，无休、免费开放，靠募捐维护，请随喜投入募捐箱。周边有熊出没，务必带熊铃或边走边出声；第二个岔路右侧是邻居民宅，请勿靠近拍摄。屋内无饮用水，附近没有商店。"
+     "tips": "私人住宅，无休、免费开放，靠募捐维护，请随喜投入募捐箱。周边有熊出没，务必带熊铃或边走边出声；第二个岔路右侧是邻居民宅，请勿靠近拍摄。屋内无饮用水，附近没有商店。",
+     "searchTerms": [
+      "花之家",
+      "上市町",
+      "古民家"
+     ]
     },
     "ja": {
      "placeName": "おおかみこどもの花の家（富山県上市町）",
@@ -1404,7 +1681,12 @@
      "access": "富山地方鉄道「上市」駅から町営コミュニティバス（200円）で終点の大岩山日石寺へ。そこから山道を約1.7km・徒歩約40分（標高差約210m）、分かれ道はすべて左へ。タクシーなら約4,000円。",
      "accessPointName": "大岩山日石寺（バス終点）",
      "bestTime": "初夏の新緑や秋が最も映画らしい。家に上がれるのは9:00〜17:00、山道は片道約40分なので午前中の出発がおすすめ。積雪期の徒歩は危険なので避けて。",
-     "tips": "個人宅ですが無休・入場無料で公開されており、運営は募金頼み。ぜひ募金箱へ志を。周辺には熊がいるので熊鈴を持つか、話しながら歩くこと。二つめの分かれ道の右側はお隣の民家なので、近づいたりカメラを向けたりしないで。家の水は飲めず、近くに店もありません。"
+     "tips": "個人宅ですが無休・入場無料で公開されており、運営は募金頼み。ぜひ募金箱へ志を。周辺には熊がいるので熊鈴を持つか、話しながら歩くこと。二つめの分かれ道の右側はお隣の民家なので、近づいたりカメラを向けたりしないで。家の水は飲めず、近くに店もありません。",
+     "searchTerms": [
+      "花の家",
+      "上市町",
+      "古民家"
+     ]
     },
     "en": {
      "placeName": "Hana's House from Wolf Children (Kamiichi, Toyama)",
@@ -1415,7 +1697,12 @@
      "access": "From Toyama Chiho Railway Kamiichi Sta., take the town community bus (¥200) to the last stop at Oiwasan Nissekiji Temple, then walk about 1.7 km uphill (about 40 min, 210 m climb). Always keep left at forks. A taxi costs about ¥4,000.",
      "accessPointName": "Oiwasan Nissekiji Temple (bus terminus)",
      "bestTime": "Early-summer greenery or autumn feels most like the film. The house can be entered 9:00–17:00 and the walk is about 40 min each way, so set off in the morning. Avoid walking up in snow.",
-     "tips": "A private home opened free of charge every day and run on donations, so please leave something in the donation box. Bears live in the area: carry a bear bell or talk as you walk. The right branch at the second fork leads to a neighbour's home; don't go near it or point a camera at it. There's no drinking water in the house and no shop nearby."
+     "tips": "A private home opened free of charge every day and run on donations, so please leave something in the donation box. Bears live in the area: carry a bear bell or talk as you walk. The right branch at the second fork leads to a neighbour's home; don't go near it or point a camera at it. There's no drinking water in the house and no shop nearby.",
+     "searchTerms": [
+      "Hana's house",
+      "Kamiichi",
+      "old farmhouse"
+     ]
     },
     "ko": {
      "placeName": "늑대아이 하나의 집 (도야마현 가미이치마치)",
@@ -1426,7 +1713,12 @@
      "access": "도야마 지방철도 가미이치역에서 마을 커뮤니티 버스(200엔)를 타고 종점 오이와산 닛세키지까지. 거기서 산길을 약 1.7km, 도보 약 40분(고도차 약 210m) 올라가며, 갈림길은 모두 왼쪽. 택시는 약 4,000엔.",
      "accessPointName": "오이와산 닛세키지 (버스 종점)",
      "bestTime": "초여름 신록이나 가을이 가장 영화 같다. 집 안은 9:00~17:00에 들어갈 수 있고 산길이 편도 약 40분이니 오전에 출발하자. 눈 쌓인 시기의 도보는 피할 것.",
-     "tips": "개인 주택이지만 연중무휴·무료로 공개되며 모금으로 운영됩니다. 모금함에 마음을 보태 주세요. 주변에 곰이 사니 곰 방울을 달거나 이야기를 나누며 걸으세요. 두 번째 갈림길 오른쪽은 이웃집이니 다가가거나 카메라를 향하지 마세요. 집 안 물은 마실 수 없고 근처에 가게도 없습니다."
+     "tips": "개인 주택이지만 연중무휴·무료로 공개되며 모금으로 운영됩니다. 모금함에 마음을 보태 주세요. 주변에 곰이 사니 곰 방울을 달거나 이야기를 나누며 걸으세요. 두 번째 갈림길 오른쪽은 이웃집이니 다가가거나 카메라를 향하지 마세요. 집 안 물은 마실 수 없고 근처에 가게도 없습니다.",
+     "searchTerms": [
+      "하나의 집",
+      "가미이치",
+      "고민가"
+     ]
     }
    }
   },
@@ -1455,7 +1747,12 @@
      "story": "铃六岁那年，母亲为了救一个被困在涨水河中的陌生孩子，跳进河里再也没有回来。从那以后，铃再也唱不出歌，和父亲之间也变得沉默寡言。十七岁的她每天穿过这座没有栏杆的沉下桥，转车去高知市里的高中，安静得像不存在一样。直到好友小弘把她拉进了拥有五十亿用户的虚拟世界“U”——在那里，化身为“Belle”的铃，第一次又能放声歌唱。",
      "access": "几乎没有公共交通，建议自驾：从高知自动车道伊野IC出发约30公里、开车约40分钟。桥头没有专用停车场，请勿把车停在桥上或堵住道路。",
      "bestTime": "晴天上午到中午，阳光照进河里时“仁淀蓝”最清透，夏季水色最绿。大雨后河水浑浊，桥也可能禁止通行。",
-     "tips": "沉下桥没有栏杆，至今仍是车辆和居民通行的道路，请注意来车，不要在桥中央停留拍照。涨水时禁止通行，雨后请勿靠近；在河边游玩注意安全。"
+     "tips": "沉下桥没有栏杆，至今仍是车辆和居民通行的道路，请注意来车，不要在桥中央停留拍照。涨水时禁止通行，雨后请勿靠近；在河边游玩注意安全。",
+     "searchTerms": [
+      "浅尾沉下桥",
+      "沉下桥",
+      "仁淀川"
+     ]
     },
     "ja": {
      "placeName": "浅尾沈下橋（高知県越知町・仁淀川）",
@@ -1465,7 +1762,13 @@
      "story": "すずが6歳のとき、母は増水した川に取り残された見知らぬ子どもを助けようと川に入り、帰らぬ人となった。それ以来すずは歌えなくなり、父との会話も少なくなった。17歳になったすずは、毎日この欄干のない沈下橋を渡り、電車を乗り継いで高知市内の高校へ通う。教室では目立たず、まるでいないかのように過ごしている。そんなある日、親友のヒロちゃんに誘われて、50億人が集う仮想世界〈U〉に足を踏み入れる。そこで「ベル」となったすずは、初めてもう一度、思いきり歌うことができた。",
      "access": "公共交通はほぼなく、車がおすすめ。高知自動車道伊野ICから約30km・車で約40分。橋のたもとに専用駐車場はないので、橋の上や道路をふさぐ駐車はしないこと。",
      "bestTime": "晴れた日の午前〜昼、日差しが川底まで届くと仁淀ブルーが最も澄んで見える。夏は特に緑が濃い。大雨の後は川が濁り、通行止めになることもある。",
-     "tips": "沈下橋に欄干はなく、今も車や住民が通る生活道路です。対向車に注意し、橋の真ん中で立ち止まって撮影しないで。増水時は通行禁止なので、雨の後は近づかないように。川遊びは安全第一で。"
+     "tips": "沈下橋に欄干はなく、今も車や住民が通る生活道路です。対向車に注意し、橋の真ん中で立ち止まって撮影しないで。増水時は通行禁止なので、雨の後は近づかないように。川遊びは安全第一で。",
+     "searchTerms": [
+      "浅尾沈下橋",
+      "沈下橋",
+      "仁淀川",
+      "通学路"
+     ]
     },
     "en": {
      "placeName": "Asao Chinka-bashi submersible bridge (Ochi, Kochi · Niyodo River)",
@@ -1475,7 +1778,12 @@
      "story": "When Suzu was six, her mother waded into a flooded river to save a stranger's child stranded there, and never came back. Since then Suzu hasn't been able to sing, and she and her father barely talk. Now seventeen, she crosses this bridge with no railings every day and changes trains to get to her high school in Kochi city, where she drifts through class almost invisible. Then her best friend Hiro gets her to join U, a virtual world with five billion users — and there, as “Belle,” Suzu sings out loud again for the first time.",
      "access": "There is practically no public transport, so drive: about 30 km (40 min) from Ino IC on the Kochi Expressway. There's no dedicated car park at the bridge; never park on the bridge or block the road.",
      "bestTime": "Sunny mornings to midday, when sunlight reaches the riverbed, show the Niyodo blue at its clearest; summer is the greenest. After heavy rain the water turns muddy and the bridge may be closed.",
-     "tips": "The bridge has no railings and is still a working road for cars and locals. Watch for oncoming traffic and don't stop mid-bridge for photos. It's closed when the river is high, so stay away after rain, and take care if you play in the river."
+     "tips": "The bridge has no railings and is still a working road for cars and locals. Watch for oncoming traffic and don't stop mid-bridge for photos. It's closed when the river is high, so stay away after rain, and take care if you play in the river.",
+     "searchTerms": [
+      "Asao Chinkabashi",
+      "submersible bridge",
+      "Niyodo River"
+     ]
     },
     "ko": {
      "placeName": "아사오 침하교 (고치현 오치초·니요도강)",
@@ -1485,7 +1793,12 @@
      "story": "스즈가 여섯 살 때, 엄마는 불어난 강에 고립된 낯선 아이를 구하려고 강에 들어갔다가 돌아오지 못했다. 그 뒤로 스즈는 노래를 부르지 못하게 되었고, 아빠와의 대화도 줄었다. 열일곱 살이 된 스즈는 매일 이 난간 없는 침하교를 건너, 열차를 갈아타고 고치 시내의 고등학교에 다닌다. 교실에서는 눈에 띄지 않게, 마치 없는 사람처럼 지낸다. 그러던 어느 날, 단짝 히로의 권유로 50억 명이 모이는 가상 세계 ‘U’에 발을 들인다. 그곳에서 ‘벨’이 된 스즈는 처음으로 다시 마음껏 노래할 수 있었다.",
      "access": "대중교통은 거의 없어 자동차를 추천. 고치 자동차도 이노 IC에서 약 30km, 차로 약 40분. 다리 근처에 전용 주차장이 없으니 다리 위나 도로를 막는 주차는 하지 말 것.",
      "bestTime": "맑은 날 오전~정오, 햇빛이 강바닥까지 닿을 때 니요도 블루가 가장 맑다. 여름에 특히 초록빛이 짙다. 큰비 뒤에는 물이 탁해지고 통행이 금지되기도 한다.",
-     "tips": "침하교에는 난간이 없고 지금도 차와 주민이 다니는 생활 도로입니다. 마주 오는 차에 주의하고 다리 한가운데서 멈춰 촬영하지 마세요. 물이 불어나면 통행 금지이니 비 온 뒤에는 가까이 가지 마세요. 강에서 놀 때는 안전에 유의하세요."
+     "tips": "침하교에는 난간이 없고 지금도 차와 주민이 다니는 생활 도로입니다. 마주 오는 차에 주의하고 다리 한가운데서 멈춰 촬영하지 마세요. 물이 불어나면 통행 금지이니 비 온 뒤에는 가까이 가지 마세요. 강에서 놀 때는 안전에 유의하세요.",
+     "searchTerms": [
+      "아사오 침하교",
+      "침하교",
+      "니요도강"
+     ]
     }
    }
   },
@@ -1520,7 +1833,12 @@
      "access": "JR东海道本线「大垣」站南口出站，沿站前大道往南，再转入水门川沿岸步道（四季回廊）继续向南，约1.4公里、步行18分钟。",
      "accessPointName": "大垣站 南口",
      "bestTime": "3月底至4月初水门川两岸樱花盛开时最美；平日上午人少，水面倒影也最清楚。",
-     "tips": "桥面很窄，请勿长时间占用或挡住行人。想模仿喂鲤鱼，请先看现场有无禁止喂食的告示，也不要把包装袋丢进河里。"
+     "tips": "桥面很窄，请勿长时间占用或挡住行人。想模仿喂鲤鱼，请先看现场有无禁止喂食的告示，也不要把包装袋丢进河里。",
+     "searchTerms": [
+      "美登鲤桥",
+      "喂鲤鱼",
+      "水门川"
+     ]
     },
     "ja": {
      "placeName": "美登鯉橋（岐阜県大垣市・水門川）",
@@ -1531,7 +1849,12 @@
      "access": "JR東海道本線「大垣」駅南口から駅前通りを南へ進み、水門川沿いの遊歩道（四季の回廊）に入ってさらに南へ。約1.4km・徒歩18分。",
      "accessPointName": "大垣駅 南口",
      "bestTime": "3月末〜4月初め、水門川沿いの桜が満開の頃が最も美しい。平日の午前中は人が少なく、水面の映り込みもきれい。",
-     "tips": "橋は幅が狭いので、長時間占領したり歩行者をふさいだりしないで。鯉へのえさやりを真似するなら、現地にえさやり禁止の掲示がないか確認を。袋などを川に落とさないように。"
+     "tips": "橋は幅が狭いので、長時間占領したり歩行者をふさいだりしないで。鯉へのえさやりを真似するなら、現地にえさやり禁止の掲示がないか確認を。袋などを川に落とさないように。",
+     "searchTerms": [
+      "美登鯉橋",
+      "鯉 パン",
+      "水門川"
+     ]
     },
     "en": {
      "placeName": "Midorigoi Bridge (Ogaki, Gifu · Suimon River)",
@@ -1542,7 +1865,12 @@
      "access": "From the South Exit of JR Ogaki Sta. (Tokaido Line), head south down the main street, then join the Suimon River promenade (Shiki no Kairo) and keep going south: about 1.4 km, 18 min.",
      "accessPointName": "Ogaki Sta. South Exit",
      "bestTime": "Late March to early April, when cherry trees line the Suimon River, is the most beautiful. Weekday mornings are quiet and the reflections on the water are clearest.",
-     "tips": "The bridge is narrow, so don't occupy it for long or block passers-by. If you want to feed the carp like in the film, first check for any no-feeding signs, and don't let bags fall into the river."
+     "tips": "The bridge is narrow, so don't occupy it for long or block passers-by. If you want to feed the carp like in the film, first check for any no-feeding signs, and don't let bags fall into the river.",
+     "searchTerms": [
+      "Midorigoi Bridge",
+      "feeding carp",
+      "Ogaki"
+     ]
     },
     "ko": {
      "placeName": "미도리고이 다리 (기후현 오가키·스이몬강)",
@@ -1553,7 +1881,12 @@
      "access": "JR 도카이도 본선 오가키역 남쪽 출구에서 역 앞 대로를 따라 남쪽으로 가다가 스이몬강 산책로(시키노카이로)로 들어가 계속 남쪽으로. 약 1.4km, 도보 18분.",
      "accessPointName": "오가키역 남쪽 출구",
      "bestTime": "3월 말~4월 초, 스이몬강 양쪽 벚꽃이 만개할 때가 가장 아름답다. 평일 오전은 사람이 적고 수면에 비친 풍경도 선명하다.",
-     "tips": "다리 폭이 좁으니 오래 차지하거나 보행자를 막지 마세요. 영화처럼 잉어에게 먹이를 주고 싶다면 먼저 현장에 먹이 주기 금지 안내가 없는지 확인하고, 봉지 등을 강에 떨어뜨리지 마세요."
+     "tips": "다리 폭이 좁으니 오래 차지하거나 보행자를 막지 마세요. 영화처럼 잉어에게 먹이를 주고 싶다면 먼저 현장에 먹이 주기 금지 안내가 없는지 확인하고, 봉지 등을 강에 떨어뜨리지 마세요.",
+     "searchTerms": [
+      "미도리고이 다리",
+      "잉어 먹이",
+      "오가키"
+     ]
     }
    }
   },
@@ -1588,7 +1921,12 @@
      "access": "JR东海道本线「大垣」站南口出站，沿站前大道一直往南约400米、步行5分钟，跨过水门川的车行桥就是新大桥。",
      "accessPointName": "大垣站 南口",
      "bestTime": "傍晚日落前后最接近片中的夕阳时分；初夏和秋天的晴天空气通透，晚霞更美。",
-     "tips": "新大桥是车流不少的主干道桥梁，请在人行道上拍照、注意车辆。可以和美登鲤桥、大垣站串成一条步行巡礼路线。"
+     "tips": "新大桥是车流不少的主干道桥梁，请在人行道上拍照、注意车辆。可以和美登鲤桥、大垣站串成一条步行巡礼路线。",
+     "searchTerms": [
+      "新大桥",
+      "月色真美",
+      "告白"
+     ]
     },
     "ja": {
      "placeName": "新大橋（岐阜県大垣市・水門川）",
@@ -1599,7 +1937,13 @@
      "access": "JR東海道本線「大垣」駅南口から駅前通りをまっすぐ南へ約400m・徒歩5分。水門川を渡る車道の橋が新大橋。",
      "accessPointName": "大垣駅 南口",
      "bestTime": "日没前後の夕方が作中の夕景にいちばん近い。空気の澄む初夏や秋の晴れた日は夕焼けがいっそうきれい。",
-     "tips": "新大橋は交通量の多い幹線道路の橋です。撮影は歩道で、車に注意して。美登鯉橋や大垣駅と合わせて歩いて巡るのがおすすめ。"
+     "tips": "新大橋は交通量の多い幹線道路の橋です。撮影は歩道で、車に注意して。美登鯉橋や大垣駅と合わせて歩いて巡るのがおすすめ。",
+     "searchTerms": [
+      "新大橋",
+      "月が綺麗",
+      "告白",
+      "水門川"
+     ]
     },
     "en": {
      "placeName": "Shin-Ohashi Bridge (Ogaki, Gifu · Suimon River)",
@@ -1610,7 +1954,12 @@
      "access": "From the South Exit of JR Ogaki Sta. (Tokaido Line), walk straight south down the main street for about 400 m (5 min); the road bridge over the Suimon River is Shin-Ohashi.",
      "accessPointName": "Ogaki Sta. South Exit",
      "bestTime": "Around sunset is closest to the film's evening light; clear days in early summer and autumn bring the best skies.",
-     "tips": "Shin-Ohashi carries a busy main road, so take photos from the pavement and watch for traffic. It pairs well with Midorigoi Bridge and Ogaki Station for a walking route."
+     "tips": "Shin-Ohashi carries a busy main road, so take photos from the pavement and watch for traffic. It pairs well with Midorigoi Bridge and Ogaki Station for a walking route.",
+     "searchTerms": [
+      "Shin-Ohashi Bridge",
+      "moon confession",
+      "Ogaki"
+     ]
     },
     "ko": {
      "placeName": "신오하시 다리 (기후현 오가키·스이몬강)",
@@ -1621,7 +1970,12 @@
      "access": "JR 도카이도 본선 오가키역 남쪽 출구에서 역 앞 대로를 따라 곧장 남쪽으로 약 400m, 도보 5분. 스이몬강을 건너는 차도 다리가 신오하시.",
      "accessPointName": "오가키역 남쪽 출구",
      "bestTime": "해 질 무렵이 영화 속 석양과 가장 가깝다. 공기가 맑은 초여름과 가을의 맑은 날에는 노을이 더 아름답다.",
-     "tips": "신오하시는 차량 통행이 많은 간선 도로의 다리입니다. 촬영은 인도에서 하고 차에 주의하세요. 미도리고이 다리, 오가키역과 묶어 걸어서 둘러보기 좋습니다."
+     "tips": "신오하시는 차량 통행이 많은 간선 도로의 다리입니다. 촬영은 인도에서 하고 차에 주의하세요. 미도리고이 다리, 오가키역과 묶어 걸어서 둘러보기 좋습니다.",
+     "searchTerms": [
+      "신오하시",
+      "달이 예쁘네",
+      "고백"
+     ]
     }
    }
   },
@@ -1657,7 +2011,12 @@
      "access": "JR「涩谷」站八公口出站，经八公广场往前约50米即到全向十字路口，步行1分钟；东京地铁、东急、京王各线也都有通道连到这里。",
      "accessPointName": "涩谷站 八公口",
      "bestTime": "入夜霓虹亮起、人潮最汹涌时最像电影；想俯拍可去车站周边的观景处。万圣节和跨年夜极度拥挤，常有交通管制。",
-     "tips": "人流极大，过马路时不要停在路中间拍照，信号灯变红前回到人行道，勿使用三脚架。涩谷站周边全年18:00至次日5:00禁止在路上饮酒。"
+     "tips": "人流极大，过马路时不要停在路中间拍照，信号灯变红前回到人行道，勿使用三脚架。涩谷站周边全年18:00至次日5:00禁止在路上饮酒。",
+     "searchTerms": [
+      "涩谷十字路口",
+      "人潮",
+      "涩谷"
+     ]
     },
     "ja": {
      "placeName": "渋谷駅前 スクランブル交差点（東京都渋谷区）",
@@ -1668,7 +2027,12 @@
      "access": "JR「渋谷」駅ハチ公口を出てハチ公前広場を抜け、約50m・徒歩1分でスクランブル交差点。東京メトロ・東急・京王の各線からも地下通路でつながっている。",
      "accessPointName": "渋谷駅 ハチ公口",
      "bestTime": "ネオンが灯り人波がピークになる夜が最も映画らしい。俯瞰で撮るなら駅周辺の展望スポットへ。ハロウィンや大晦日は大混雑し、交通規制がかかることも多い。",
-     "tips": "人の流れが非常に多いので、横断歩道の途中で立ち止まって撮影しないこと。信号が赤になる前に歩道へ戻り、三脚は使わないで。渋谷駅周辺では通年18時〜翌5時の路上飲酒が禁止されている。"
+     "tips": "人の流れが非常に多いので、横断歩道の途中で立ち止まって撮影しないこと。信号が赤になる前に歩道へ戻り、三脚は使わないで。渋谷駅周辺では通年18時〜翌5時の路上飲酒が禁止されている。",
+     "searchTerms": [
+      "渋谷 スクランブル交差点",
+      "雑踏",
+      "蓮"
+     ]
     },
     "en": {
      "placeName": "Shibuya Scramble Crossing, Shibuya Station (Shibuya, Tokyo)",
@@ -1679,7 +2043,12 @@
      "access": "Leave JR Shibuya Sta. by the Hachiko Exit, cross Hachiko Square and the Scramble Crossing is about 50 m (1 min) ahead. Tokyo Metro, Tokyu and Keio lines also connect here by underground passages.",
      "accessPointName": "Shibuya Sta. Hachiko Exit",
      "bestTime": "Night, when the neon is on and the crowds peak, looks most like the film; for a bird's-eye shot, try one of the viewing spots around the station. Halloween and New Year's Eve are extremely crowded and often bring traffic controls.",
-     "tips": "The flow of people is enormous: don't stop mid-crossing for photos, get back to the pavement before the light turns red, and don't use a tripod. Drinking on the street around Shibuya Station is banned year-round from 18:00 to 5:00."
+     "tips": "The flow of people is enormous: don't stop mid-crossing for photos, get back to the pavement before the light turns red, and don't use a tripod. Drinking on the street around Shibuya Station is banned year-round from 18:00 to 5:00.",
+     "searchTerms": [
+      "Shibuya Crossing",
+      "scramble crossing",
+      "crowd"
+     ]
     },
     "ko": {
      "placeName": "시부야역 앞 스크램블 교차로 (도쿄 시부야)",
@@ -1690,7 +2059,12 @@
      "access": "JR 시부야역 하치코 출구로 나와 하치코 광장을 지나 약 50m, 도보 1분이면 스크램블 교차로. 도쿄 메트로·도큐·게이오 각 노선에서도 지하 통로로 이어진다.",
      "accessPointName": "시부야역 하치코 출구",
      "bestTime": "네온이 켜지고 인파가 절정인 밤이 가장 영화 같다. 위에서 내려다보며 찍고 싶다면 역 주변 전망 명소로. 핼러윈과 섣달그믐에는 엄청나게 붐비고 교통 통제가 걸리는 일이 많다.",
-     "tips": "사람의 흐름이 매우 많으니 횡단보도 한가운데서 멈춰 촬영하지 마세요. 신호가 빨간불로 바뀌기 전에 인도로 돌아오고 삼각대는 쓰지 마세요. 시부야역 주변은 연중 18시~다음 날 5시 노상 음주가 금지되어 있습니다."
+     "tips": "사람의 흐름이 매우 많으니 횡단보도 한가운데서 멈춰 촬영하지 마세요. 신호가 빨간불로 바뀌기 전에 인도로 돌아오고 삼각대는 쓰지 마세요. 시부야역 주변은 연중 18시~다음 날 5시 노상 음주가 금지되어 있습니다.",
+     "searchTerms": [
+      "시부야 스크램블 교차로",
+      "인파",
+      "렌"
+     ]
     }
    }
   }

@@ -530,7 +530,12 @@
           "access": "JR 鹿儿岛本线竹下站东口出站，往东南步行约 9 分钟（约 1 km）到 LaLaport 福冈，立像就在商场旁的“森林公园”草坪上。",
           "accessPointName": "竹下站 东口",
           "bestTime": "白天看整点“起动”演出，19:00–21:00 看投影灯光秀；11 月底至次年 2 月有冬季限定灯光。",
-          "tips": "观赏免费。演出可能因天气、活动或维护暂停（如 2026 年 11 月 24–27 日维护），出发前请看商场官网。草坪上拍照别占用通道，晚间演出时人多，请看好孩子。"
+          "tips": "观赏免费。演出可能因天气、活动或维护暂停（如 2026 年 11 月 24–27 日维护），出发前请看商场官网。草坪上拍照别占用通道，晚间演出时人多，请看好孩子。",
+          "searchTerms": [
+            "ν高达立像",
+            "福冈 LaLaport",
+            "实物大高达"
+          ]
         },
         "ja": {
           "placeName": "三井ショッピングパーク ららぽーと福岡 フォレストパーク（福岡市博多区）",
@@ -541,7 +546,12 @@
           "access": "JR鹿児島本線「竹下」駅東口から南東へ徒歩約9分（約1km）。立像はららぽーと福岡に隣接する「フォレストパーク」の芝生広場に立つ。",
           "accessPointName": "竹下駅 東口",
           "bestTime": "昼は毎正時の「起動」演出、19:00〜21:00は映像を使った夜の演出。11月下旬〜2月は冬季限定ライトアップも。",
-          "tips": "見学無料。天候やイベント、メンテナンスで演出が休止になる場合があり（例：2026年11月24〜27日）、来場前に公式サイトを確認。芝生での撮影は通路をふさがないように。"
+          "tips": "見学無料。天候やイベント、メンテナンスで演出が休止になる場合があり（例：2026年11月24〜27日）、来場前に公式サイトを確認。芝生での撮影は通路をふさがないように。",
+          "searchTerms": [
+            "νガンダム立像",
+            "ららぽーと福岡",
+            "実物大ガンダム"
+          ]
         },
         "en": {
           "placeName": "Forest Park, Mitsui Shopping Park LaLaport Fukuoka (Hakata, Fukuoka)",
@@ -552,7 +562,12 @@
           "access": "From the east exit of JR Takeshita Station (Kagoshima Main Line), walk about 9 min (1 km) southeast to LaLaport Fukuoka; the statue stands on the Forest Park lawn beside the mall.",
           "accessPointName": "Takeshita Sta. East Exit",
           "bestTime": "Daytime for the hourly boot-up show, 19:00–21:00 for the projection shows; a winter light-up runs from late November to February.",
-          "tips": "Free to view. Shows can pause for weather, events or maintenance (e.g. 24–27 Nov 2026), so check the mall's website before you go. Don't block paths while shooting on the lawn, and keep an eye on kids at the busy evening shows."
+          "tips": "Free to view. Shows can pause for weather, events or maintenance (e.g. 24–27 Nov 2026), so check the mall's website before you go. Don't block paths while shooting on the lawn, and keep an eye on kids at the busy evening shows.",
+          "searchTerms": [
+            "Nu Gundam statue",
+            "LaLaport Fukuoka",
+            "life-size Gundam"
+          ]
         },
         "ko": {
           "placeName": "미쓰이 쇼핑파크 라라포트 후쿠오카 포레스트 파크 (후쿠오카시 하카타구)",
@@ -563,7 +578,12 @@
           "access": "JR 가고시마 본선 다케시타역 동쪽 출구에서 남동쪽으로 도보 약 9분(약 1km). 입상은 라라포트 후쿠오카 옆 '포레스트 파크' 잔디 광장에 서 있다.",
           "accessPointName": "다케시타역 동쪽 출구",
           "bestTime": "낮에는 매시 정각 '기동' 연출, 19:00~21:00에는 영상 연출. 11월 하순~2월에는 겨울 한정 라이트업도 열린다.",
-          "tips": "관람 무료. 날씨·행사·점검으로 연출이 쉬는 날이 있으니(예: 2026년 11월 24~27일) 방문 전 공식 사이트를 확인하자. 잔디밭에서 촬영할 때 통로를 막지 말고, 붐비는 밤 연출 때는 아이를 잘 챙기자."
+          "tips": "관람 무료. 날씨·행사·점검으로 연출이 쉬는 날이 있으니(예: 2026년 11월 24~27일) 방문 전 공식 사이트를 확인하자. 잔디밭에서 촬영할 때 통로를 막지 말고, 붐비는 밤 연출 때는 아이를 잘 챙기자.",
+          "searchTerms": [
+            "뉴건담 입상",
+            "라라포트 후쿠오카",
+            "실물 크기 건담"
+          ]
         }
       }
     },
@@ -599,7 +619,12 @@
           "access": "JR 山阴本线由良站（柯南站）出站，沿站前的柯南大道往东走，在路口左转即见大桥，步行约 5 分钟。",
           "accessPointName": "由良站（柯南站）",
           "bestTime": "晴天白天最适合拍铜像细节；可与柯南大道沿线铜像、故乡馆串成半天行程。",
-          "tips": "铜像随时可看、免费。桥上紧邻车道，拍照留意来车，不要攀爬桥柱。终点的青山刚昌故乡馆现馆 2027 年 1 月 11 日闭馆，新馆预定 2027 年春开幕，入馆需提前网上购票。"
+          "tips": "铜像随时可看、免费。桥上紧邻车道，拍照留意来车，不要攀爬桥柱。终点的青山刚昌故乡馆现馆 2027 年 1 月 11 日闭馆，新馆预定 2027 年春开幕，入馆需提前网上购票。",
+          "searchTerms": [
+            "柯南大桥",
+            "柯南铜像",
+            "北荣町"
+          ]
         },
         "ja": {
           "placeName": "コナン大橋（鳥取県北栄町）",
@@ -610,7 +635,13 @@
           "access": "JR山陰本線「由良」駅（コナン駅）から駅前のコナン通りを東へ進み、交差点を左折するとすぐ橋。徒歩約5分。",
           "accessPointName": "由良駅（コナン駅）",
           "bestTime": "晴れた日中が像のディテールを撮るのに最適。コナン通り沿いの像やふるさと館と合わせて半日コースに。",
-          "tips": "像はいつでも無料で見学可。橋は車道に面しているので撮影時は車に注意し、親柱には登らないこと。終点の青山剛昌ふるさと館は現館が2027年1月11日で閉館し、2027年春に新館開館予定。入館はWebでの事前購入制。"
+          "tips": "像はいつでも無料で見学可。橋は車道に面しているので撮影時は車に注意し、親柱には登らないこと。終点の青山剛昌ふるさと館は現館が2027年1月11日で閉館し、2027年春に新館開館予定。入館はWebでの事前購入制。",
+          "searchTerms": [
+            "コナン大橋",
+            "コナン像",
+            "北栄町",
+            "コナンの里"
+          ]
         },
         "en": {
           "placeName": "Conan Bridge (Hokuei, Tottori)",
@@ -621,7 +652,12 @@
           "access": "From JR Yura Station (Conan Station) on the San'in Line, walk east along Conan Street and turn left at the junction; the bridge is right there, about 5 min in all.",
           "accessPointName": "JR Yura Sta. (Conan Sta.)",
           "bestTime": "Clear daytime is best for the statues' fine detail; combine with the other Conan Street statues and the museum for a half-day walk.",
-          "tips": "The statues are free and always accessible. The bridge runs right beside traffic, so watch for cars and don't climb the posts. The Gosho Aoyama Manga Factory closes its current building on 11 Jan 2027 and reopens in a new one in spring 2027; museum tickets must be bought online in advance."
+          "tips": "The statues are free and always accessible. The bridge runs right beside traffic, so watch for cars and don't climb the posts. The Gosho Aoyama Manga Factory closes its current building on 11 Jan 2027 and reopens in a new one in spring 2027; museum tickets must be bought online in advance.",
+          "searchTerms": [
+            "Conan Bridge",
+            "Conan statue",
+            "Hokuei"
+          ]
         },
         "ko": {
           "placeName": "코난 대교 (돗토리현 호쿠에이초)",
@@ -632,7 +668,12 @@
           "access": "JR 산인 본선 유라역(코난역)에서 역 앞 코난 거리를 따라 동쪽으로 가다 교차로에서 좌회전하면 바로 다리. 도보 약 5분.",
           "accessPointName": "유라역(코난역)",
           "bestTime": "맑은 날 낮이 동상의 디테일을 찍기 좋다. 코난 거리의 다른 동상, 고향관과 묶어 반나절 코스로.",
-          "tips": "동상은 언제든 무료로 볼 수 있다. 다리가 차도와 붙어 있으니 촬영 시 차량에 주의하고 기둥에 올라가지 말 것. 종점의 아오야마 고쇼 고향관은 현 건물이 2027년 1월 11일 문을 닫고 2027년 봄 새 건물로 개관 예정이며, 입장권은 온라인 사전 구매제다."
+          "tips": "동상은 언제든 무료로 볼 수 있다. 다리가 차도와 붙어 있으니 촬영 시 차량에 주의하고 기둥에 올라가지 말 것. 종점의 아오야마 고쇼 고향관은 현 건물이 2027년 1월 11일 문을 닫고 2027년 봄 새 건물로 개관 예정이며, 입장권은 온라인 사전 구매제다.",
+          "searchTerms": [
+            "코난 대교",
+            "코난 동상",
+            "호쿠에이"
+          ]
         }
       }
     },
@@ -669,7 +710,12 @@
           "access": "JR 清水站东口乘免费接驳巴士约 10 分钟，到终点 S-Pulse 梦广场下车即到，乐园在 3 楼。",
           "accessPointName": "JR 清水站东口巴士站",
           "bestTime": "全年开放；工作日上午人少，适合慢慢拍还原场景。天气晴朗时，港边还能远眺富士山。",
-          "tips": "10:00–20:00（19:30 停止入场），全年无休。成人 1,200 日元、3 岁至小学生 700 日元，当天可再入场。角色表演时间以官网为准。"
+          "tips": "10:00–20:00（19:30 停止入场），全年无休。成人 1,200 日元、3 岁至小学生 700 日元，当天可再入场。角色表演时间以官网为准。",
+          "searchTerms": [
+            "樱桃小丸子乐园",
+            "清水梦幻广场",
+            "清水"
+          ]
         },
         "ja": {
           "placeName": "エスパルスドリームプラザ 3F（静岡市清水区）",
@@ -680,7 +726,12 @@
           "access": "JR清水駅東口から無料シャトルバスで約10分、終点エスパルスドリームプラザ下車すぐ。ランドは3階。",
           "accessPointName": "JR清水駅東口バス停",
           "bestTime": "通年営業。平日午前は空いていて、再現セットをゆっくり撮れる。晴れた日は港から富士山も望める。",
-          "tips": "10:00〜20:00（最終入場19:30）、年中無休。大人1,200円、3歳〜小学生700円、当日再入場可。キャラクターショーの時間は公式サイトで確認を。"
+          "tips": "10:00〜20:00（最終入場19:30）、年中無休。大人1,200円、3歳〜小学生700円、当日再入場可。キャラクターショーの時間は公式サイトで確認を。",
+          "searchTerms": [
+            "ちびまる子ちゃんランド",
+            "エスパルスドリームプラザ",
+            "清水"
+          ]
         },
         "en": {
           "placeName": "S-Pulse Dream Plaza 3F (Shimizu, Shizuoka)",
@@ -691,7 +742,12 @@
           "access": "Take the free shuttle bus from JR Shimizu Station's east exit (about 10 min) to the terminus at S-Pulse Dream Plaza; the Land is on the 3rd floor.",
           "accessPointName": "JR Shimizu Sta. East Exit bus stop",
           "bestTime": "Open all year; weekday mornings are quietest for photos of the sets. On clear days you can see Mt. Fuji from the harbourside.",
-          "tips": "10:00–20:00 (last entry 19:30), open every day. Adults ¥1,200, ages 3 to primary school ¥700, same-day re-entry allowed. Check the official site for character show times."
+          "tips": "10:00–20:00 (last entry 19:30), open every day. Adults ¥1,200, ages 3 to primary school ¥700, same-day re-entry allowed. Check the official site for character show times.",
+          "searchTerms": [
+            "Chibi Maruko-chan Land",
+            "S-Pulse Dream Plaza",
+            "Shimizu"
+          ]
         },
         "ko": {
           "placeName": "에스펄스 드림플라자 3층 (시즈오카시 시미즈구)",
@@ -702,7 +758,12 @@
           "access": "JR 시미즈역 동쪽 출구에서 무료 셔틀버스로 약 10분, 종점 에스펄스 드림플라자에서 내리면 바로. 랜드는 3층.",
           "accessPointName": "JR 시미즈역 동쪽 출구 버스 정류장",
           "bestTime": "연중무휴. 평일 오전이 한산해 재현 세트를 여유롭게 찍기 좋다. 맑은 날에는 항구에서 후지산도 보인다.",
-          "tips": "10:00~20:00(입장 마감 19:30), 연중무휴. 성인 1,200엔, 3세~초등학생 700엔, 당일 재입장 가능. 캐릭터 쇼 시간은 공식 사이트에서 확인하자."
+          "tips": "10:00~20:00(입장 마감 19:30), 연중무휴. 성인 1,200엔, 3세~초등학생 700엔, 당일 재입장 가능. 캐릭터 쇼 시간은 공식 사이트에서 확인하자.",
+          "searchTerms": [
+            "마루코 랜드",
+            "에스펄스 드림플라자",
+            "시미즈"
+          ]
         }
       }
     },
@@ -738,7 +799,12 @@
           "access": "东武线春日部站西口出站往南，到“市役所”路口左转沿市役所通走，约 10 分钟到本厅舍，公交站旁即见广志和美冴。",
           "accessPointName": "春日部站 西口",
           "bestTime": "工作日白天可同时看室内外雕像；4 月下旬至 5 月初可顺道去看春日部的紫藤花。",
-          "tips": "本厅舍开放时间为工作日 8:30–17:15，周末、节假日和年末年始闭厅，室内雕像与井盖展示请在开放时间参观。请勿攀爬雕像，拍照时给来办事的市民让路。"
+          "tips": "本厅舍开放时间为工作日 8:30–17:15，周末、节假日和年末年始闭厅，室内雕像与井盖展示请在开放时间参观。请勿攀爬雕像，拍照时给来办事的市民让路。",
+          "searchTerms": [
+            "春日部市政府",
+            "小新雕像",
+            "野原一家"
+          ]
         },
         "ja": {
           "placeName": "春日部市役所本庁舎（埼玉県春日部市）",
@@ -749,7 +815,12 @@
           "access": "東武線春日部駅西口から南へ進み、「市役所」交差点を左折して市役所通りを歩いて約10分。バス停の横でひろしとみさえが待っている。",
           "accessPointName": "春日部駅 西口",
           "bestTime": "平日の日中なら屋内外の像をまとめて見られる。4月下旬〜5月上旬は春日部の藤の花めぐりと合わせて。",
-          "tips": "本庁舎の開庁は平日8:30〜17:15（土日祝・年末年始は閉庁）。屋内の像やマンホールの展示は開庁時間内に。像に登らず、来庁者の邪魔にならないよう撮影を。"
+          "tips": "本庁舎の開庁は平日8:30〜17:15（土日祝・年末年始は閉庁）。屋内の像やマンホールの展示は開庁時間内に。像に登らず、来庁者の邪魔にならないよう撮影を。",
+          "searchTerms": [
+            "春日部市役所",
+            "しんちゃん像",
+            "野原一家"
+          ]
         },
         "en": {
           "placeName": "Kasukabe City Hall (Kasukabe, Saitama)",
@@ -760,7 +831,12 @@
           "access": "From the west exit of Kasukabe Station (Tobu lines) head south, turn left at the Shiyakusho (City Hall) junction and follow Shiyakusho-dori, about 10 min; Hiroshi and Misae wait by the bus stop.",
           "accessPointName": "Kasukabe Sta. West Exit",
           "bestTime": "Weekday daytime lets you see the indoor and outdoor statues together; in late April–early May, pair it with Kasukabe's wisteria.",
-          "tips": "City hall is open weekdays 8:30–17:15 and closed on weekends, holidays and over New Year, so visit the indoor statues and manhole display then. Don't climb the statues, and give way to residents on official business."
+          "tips": "City hall is open weekdays 8:30–17:15 and closed on weekends, holidays and over New Year, so visit the indoor statues and manhole display then. Don't climb the statues, and give way to residents on official business.",
+          "searchTerms": [
+            "Kasukabe City Hall",
+            "Shin-chan statue",
+            "Nohara family"
+          ]
         },
         "ko": {
           "placeName": "가스카베 시청 본청사 (사이타마현 가스카베시)",
@@ -771,7 +847,12 @@
           "access": "도부선 가스카베역 서쪽 출구에서 남쪽으로 가다 '시청' 교차로에서 좌회전, 시청 거리를 따라 약 10분. 버스 정류장 옆에서 아빠와 엄마가 기다린다.",
           "accessPointName": "가스카베역 서쪽 출구",
           "bestTime": "평일 낮이면 실내외 동상을 함께 볼 수 있다. 4월 하순~5월 초에는 가스카베의 등나무꽃 구경과 함께.",
-          "tips": "본청사는 평일 8:30~17:15 운영(주말·공휴일·연말연시 휴무). 실내 동상과 맨홀 전시는 운영 시간에 보자. 동상에 올라가지 말고 민원인에게 길을 비켜 주자."
+          "tips": "본청사는 평일 8:30~17:15 운영(주말·공휴일·연말연시 휴무). 실내 동상과 맨홀 전시는 운영 시간에 보자. 동상에 올라가지 말고 민원인에게 길을 비켜 주자.",
+          "searchTerms": [
+            "가스카베 시청",
+            "짱구 동상",
+            "짱구네 가족"
+          ]
         }
       }
     },
@@ -808,7 +889,12 @@
           "access": "阪急宝塚站出站，沿“花之道”往东走过宝塚大剧场，约 10 分钟到纪念馆。",
           "accessPointName": "阪急宝塚站",
           "bestTime": "4 月上旬“花之道”樱花盛开，从车站一路走来最惬意；工作日上午人少。",
-          "tips": "2026 年 12 月 1 日至 2027 年 3 月 4 日因设备更新闭馆，3 月 5 日重开。平时 9:30–17:00，周一休（节假日与春暑假照开）；成人 700 日元，2027 年 3 月起 900 日元。"
+          "tips": "2026 年 12 月 1 日至 2027 年 3 月 4 日因设备更新闭馆，3 月 5 日重开。平时 9:30–17:00，周一休（节假日与春暑假照开）；成人 700 日元，2027 年 3 月起 900 日元。",
+          "searchTerms": [
+            "手冢治虫纪念馆",
+            "火之鸟",
+            "宝冢"
+          ]
         },
         "ja": {
           "placeName": "宝塚市立手塚治虫記念館（兵庫県宝塚市）",
@@ -819,7 +905,12 @@
           "access": "阪急宝塚駅から「花のみち」を東へ、宝塚大劇場の前を通り過ぎて徒歩約10分。",
           "accessPointName": "阪急宝塚駅",
           "bestTime": "4月上旬は「花のみち」の桜が見頃で、駅からの道のりも楽しい。平日の午前中が比較的すいている。",
-          "tips": "2026年12月1日〜2027年3月4日は設備更新のため休館、3月5日再開。通常は9:30〜17:00、月曜休館（祝日・春休み・夏休みは開館）。大人700円、2027年3月から900円。"
+          "tips": "2026年12月1日〜2027年3月4日は設備更新のため休館、3月5日再開。通常は9:30〜17:00、月曜休館（祝日・春休み・夏休みは開館）。大人700円、2027年3月から900円。",
+          "searchTerms": [
+            "手塚治虫記念館",
+            "火の鳥 モニュメント",
+            "宝塚"
+          ]
         },
         "en": {
           "placeName": "Osamu Tezuka Manga Museum (Takarazuka, Hyogo)",
@@ -830,7 +921,12 @@
           "access": "From Hankyu Takarazuka Station, walk east along the Hana-no-michi promenade past the Takarazuka Grand Theater, about 10 min.",
           "accessPointName": "Hankyu Takarazuka Sta.",
           "bestTime": "In early April the cherry trees on Hana-no-michi make the walk from the station a joy; weekday mornings are quietest.",
-          "tips": "Closed 1 Dec 2026 – 4 Mar 2027 for equipment renewal, reopening 5 Mar. Normally 9:30–17:00, closed Mondays (open on holidays and in spring/summer school breaks). Adults ¥700, ¥900 from March 2027."
+          "tips": "Closed 1 Dec 2026 – 4 Mar 2027 for equipment renewal, reopening 5 Mar. Normally 9:30–17:00, closed Mondays (open on holidays and in spring/summer school breaks). Adults ¥700, ¥900 from March 2027.",
+          "searchTerms": [
+            "Tezuka Osamu Manga Museum",
+            "Phoenix monument",
+            "Takarazuka"
+          ]
         },
         "ko": {
           "placeName": "다카라즈카 시립 데즈카 오사무 기념관 (효고현 다카라즈카시)",
@@ -841,7 +937,12 @@
           "access": "한큐 다카라즈카역에서 '하나노미치' 산책로를 따라 동쪽으로, 다카라즈카 대극장을 지나 도보 약 10분.",
           "accessPointName": "한큐 다카라즈카역",
           "bestTime": "4월 초에는 하나노미치의 벚꽃이 만개해 역에서 걸어오는 길이 즐겁다. 평일 오전이 비교적 한산하다.",
-          "tips": "2026년 12월 1일~2027년 3월 4일 설비 교체로 휴관, 3월 5일 재개관. 평소 9:30~17:00, 월요일 휴관(공휴일·봄방학·여름방학은 개관). 성인 700엔, 2027년 3월부터 900엔."
+          "tips": "2026년 12월 1일~2027년 3월 4일 설비 교체로 휴관, 3월 5일 재개관. 평소 9:30~17:00, 월요일 휴관(공휴일·봄방학·여름방학은 개관). 성인 700엔, 2027년 3월부터 900엔.",
+          "searchTerms": [
+            "데즈카 오사무 기념관",
+            "불새",
+            "다카라즈카"
+          ]
         }
       }
     },
@@ -877,7 +978,12 @@
           "access": "JR 境线境港站出站，站前就是水木茂之路起点；沿路往东走约 5 分钟即到鬼太郎与眼珠老爹像。",
           "accessPointName": "JR 境港站",
           "bestTime": "白天逐尊寻找铜像，傍晚后看灯光和妖怪剪影；春秋气候宜人，夏天避开正午暴晒。",
-          "tips": "街道全天开放、免费。可以和铜像合影，但请勿攀爬或拉扯铜像；路上有车通行，拍照留意来车。水木茂纪念馆另需购票。"
+          "tips": "街道全天开放、免费。可以和铜像合影，但请勿攀爬或拉扯铜像；路上有车通行，拍照留意来车。水木茂纪念馆另需购票。",
+          "searchTerms": [
+            "水木茂之路",
+            "妖怪铜像",
+            "境港"
+          ]
         },
         "ja": {
           "placeName": "水木しげるロード（鳥取県境港市）",
@@ -888,7 +994,13 @@
           "access": "JR境線「境港」駅を出るとすぐ水木しげるロードの起点。通りを東へ徒歩約5分で鬼太郎と目玉おやじの像。",
           "accessPointName": "JR境港駅",
           "bestTime": "昼は一体ずつ像を探し、夕方以降はライトアップと妖怪の影絵を。春と秋が歩きやすく、夏は真昼の日差しを避けて。",
-          "tips": "通りは終日無料で散策可。像との記念撮影はOKだが、登ったり引っ張ったりしないこと。車も通るので撮影時は注意。水木しげる記念館は別途有料。"
+          "tips": "通りは終日無料で散策可。像との記念撮影はOKだが、登ったり引っ張ったりしないこと。車も通るので撮影時は注意。水木しげる記念館は別途有料。",
+          "searchTerms": [
+            "水木しげるロード",
+            "妖怪ブロンズ像",
+            "境港",
+            "目玉おやじ"
+          ]
         },
         "en": {
           "placeName": "Mizuki Shigeru Road (Sakaiminato, Tottori)",
@@ -899,7 +1011,12 @@
           "access": "The road starts right outside JR Sakaiminato Station (Sakai Line); walk east along it for about 5 min to the Kitaro and Medama-Oyaji statue.",
           "accessPointName": "JR Sakaiminato Sta.",
           "bestTime": "Hunt for statues by day, then return after dusk for the lighting and yokai shadows. Spring and autumn are most comfortable; avoid midday sun in summer.",
-          "tips": "The street is free and open around the clock. Photos with the statues are welcome, but don't climb or pull on them, and watch for cars. The Mizuki Shigeru Memorial Museum charges admission."
+          "tips": "The street is free and open around the clock. Photos with the statues are welcome, but don't climb or pull on them, and watch for cars. The Mizuki Shigeru Memorial Museum charges admission.",
+          "searchTerms": [
+            "Mizuki Shigeru Road",
+            "yokai statues",
+            "Sakaiminato"
+          ]
         },
         "ko": {
           "placeName": "미즈키 시게루 로드 (돗토리현 사카이미나토시)",
@@ -910,7 +1027,12 @@
           "access": "JR 사카이선 사카이미나토역을 나서면 바로 미즈키 시게루 로드의 시작점. 거리를 따라 동쪽으로 도보 약 5분이면 기타로와 눈알 아버지 상.",
           "accessPointName": "JR 사카이미나토역",
           "bestTime": "낮에는 동상을 하나씩 찾아보고, 해 질 녘 이후에는 조명과 요괴 그림자를. 봄가을이 걷기 좋고 여름엔 한낮 햇볕을 피하자.",
-          "tips": "거리는 종일 무료로 걸을 수 있다. 동상과 기념사진은 괜찮지만 올라가거나 잡아당기지 말 것. 차도 다니니 촬영 시 주의. 미즈키 시게루 기념관은 별도 유료."
+          "tips": "거리는 종일 무료로 걸을 수 있다. 동상과 기념사진은 괜찮지만 올라가거나 잡아당기지 말 것. 차도 다니니 촬영 시 주의. 미즈키 시게루 기념관은 별도 유료.",
+          "searchTerms": [
+            "미즈키 시게루 로드",
+            "요괴 동상",
+            "사카이미나토"
+          ]
         }
       }
     },
@@ -947,7 +1069,12 @@
           "access": "JR 土赞线土佐山田站换乘 JR 巴士大栃线约 25 分钟，在“美良布（面包超人博物馆）”下车，步行约 5 分钟。",
           "accessPointName": "美良布（面包超人博物馆）巴士站",
           "bestTime": "工作日上午人最少；春假、黄金周和暑假期间不休馆但人多。秋天周围山色也很美。",
-          "tips": "9:30–17:00（16:30 停止入场），周二休（逢节假日顺延）；成人 1,200 日元，可参观两馆、当天可再入场。官网目前只要求 20 人以上团体预约。"
+          "tips": "9:30–17:00（16:30 停止入场），周二休（逢节假日顺延）；成人 1,200 日元，可参观两馆、当天可再入场。官网目前只要求 20 人以上团体预约。",
+          "searchTerms": [
+            "面包超人博物馆",
+            "柳濑嵩纪念馆",
+            "高知 香美"
+          ]
         },
         "ja": {
           "placeName": "香美市立やなせたかし記念館（高知県香美市）",
@@ -958,7 +1085,12 @@
           "access": "JR土讃線「土佐山田」駅からJRバス大栃線で約25分、「美良布（アンパンマンミュージアム）」下車、徒歩約5分。",
           "accessPointName": "美良布（アンパンマンミュージアム）バス停",
           "bestTime": "平日の午前中がいちばんすいている。春休み・GW・夏休みは休館日なしだが混雑する。秋は周囲の山の色も美しい。",
-          "tips": "9:30〜17:00（最終入館16:30）、火曜休館（祝日の場合は翌平日）。大人1,200円で2館に入館でき、当日再入館可。公式サイトでは事前予約は20名以上の団体のみ案内。"
+          "tips": "9:30〜17:00（最終入館16:30）、火曜休館（祝日の場合は翌平日）。大人1,200円で2館に入館でき、当日再入館可。公式サイトでは事前予約は20名以上の団体のみ案内。",
+          "searchTerms": [
+            "アンパンマンミュージアム",
+            "やなせたかし記念館",
+            "香美市"
+          ]
         },
         "en": {
           "placeName": "Yanase Takashi Memorial Hall (Kami, Kochi)",
@@ -969,7 +1101,12 @@
           "access": "From JR Tosa-Yamada Station (Dosan Line), take the JR bus Otochi Line about 25 min to Birafu (Anpanman Museum), then walk about 5 min.",
           "accessPointName": "Birafu (Anpanman Museum) bus stop",
           "bestTime": "Weekday mornings are quietest. There are no closing days during spring break, Golden Week and summer holidays, but crowds are heavy. Autumn colours the surrounding hills.",
-          "tips": "9:30–17:00 (last entry 16:30), closed Tuesdays (next day if a holiday). Adults ¥1,200 covers both halls, with same-day re-entry. The official site only asks groups of 20+ to book ahead."
+          "tips": "9:30–17:00 (last entry 16:30), closed Tuesdays (next day if a holiday). Adults ¥1,200 covers both halls, with same-day re-entry. The official site only asks groups of 20+ to book ahead.",
+          "searchTerms": [
+            "Anpanman Museum",
+            "Yanase Takashi Memorial Hall",
+            "Kochi"
+          ]
         },
         "ko": {
           "placeName": "가미시립 야나세 다카시 기념관 (고치현 가미시)",
@@ -980,7 +1117,12 @@
           "access": "JR 도산선 도사야마다역에서 JR 버스 오토치선으로 약 25분, '비라부(호빵맨 뮤지엄)'에서 내려 도보 약 5분.",
           "accessPointName": "비라부(호빵맨 뮤지엄) 버스 정류장",
           "bestTime": "평일 오전이 가장 한산하다. 봄방학·골든위크·여름방학에는 휴관일이 없지만 붐빈다. 가을에는 주변 산 빛깔도 아름답다.",
-          "tips": "9:30~17:00(입장 마감 16:30), 화요일 휴관(공휴일이면 다음 날). 성인 1,200엔으로 두 관 모두 입장, 당일 재입장 가능. 공식 사이트는 20명 이상 단체에만 사전 예약을 안내한다."
+          "tips": "9:30~17:00(입장 마감 16:30), 화요일 휴관(공휴일이면 다음 날). 성인 1,200엔으로 두 관 모두 입장, 당일 재입장 가능. 공식 사이트는 20명 이상 단체에만 사전 예약을 안내한다.",
+          "searchTerms": [
+            "호빵맨 뮤지엄",
+            "야나세 다카시 기념관",
+            "고치"
+          ]
         }
       }
     },
@@ -1017,7 +1159,12 @@
           "access": "小田急线祖师谷大藏站出检票口，就是站前广场，奥特曼像立在北侧广场西边、祖师谷通旁，步行不到 1 分钟。",
           "accessPointName": "祖师谷大藏站 检票口",
           "bestTime": "白天以车站为背景拍最经典；早晚通勤时段人流大，上午十点后或午后更从容。",
-          "tips": "广场为公共空间，全天免费。车站出入口人多，拍照别挡住通道。顺路可以沿三条商店街寻找拱门、路灯和井盖。"
+          "tips": "广场为公共空间，全天免费。车站出入口人多，拍照别挡住通道。顺路可以沿三条商店街寻找拱门、路灯和井盖。",
+          "searchTerms": [
+            "奥特曼像",
+            "祖师谷大藏站",
+            "奥特曼商店街"
+          ]
         },
         "ja": {
           "placeName": "祖師ヶ谷大蔵駅前広場（東京都世田谷区）",
@@ -1028,7 +1175,12 @@
           "access": "小田急線「祖師ヶ谷大蔵」駅の改札を出るとすぐ駅前広場。ウルトラマン像は北側広場の西寄り、祖師谷通り沿いに立つ。徒歩1分以内。",
           "accessPointName": "祖師ヶ谷大蔵駅 改札口",
           "bestTime": "日中、駅舎を背景に撮るのが定番。朝夕の通勤時間帯は人が多いので、10時以降か午後がゆったり。",
-          "tips": "公共の広場なので終日無料。駅の出入口付近は人通りが多いので、撮影時は通路をふさがないように。3つの商店街のアーチや街灯、マンホール探しもおすすめ。"
+          "tips": "公共の広場なので終日無料。駅の出入口付近は人通りが多いので、撮影時は通路をふさがないように。3つの商店街のアーチや街灯、マンホール探しもおすすめ。",
+          "searchTerms": [
+            "ウルトラマン像",
+            "祖師ヶ谷大蔵駅",
+            "ウルトラマン商店街"
+          ]
         },
         "en": {
           "placeName": "Soshigaya-Okura Station Plaza (Setagaya, Tokyo)",
@@ -1039,7 +1191,12 @@
           "access": "Step out of the ticket gate at Soshigaya-Okura Station (Odakyu Line) into the station plaza; the statue stands on the west side of the north plaza by Soshigaya-dori, under a minute's walk.",
           "accessPointName": "Soshigaya-Okura Sta. ticket gate",
           "bestTime": "Daytime shots with the station behind are the classic; avoid the commuter rush, and come after 10:00 or in the afternoon for a calmer visit.",
-          "tips": "It's a public plaza, free at all hours. The station entrance is busy, so don't block the way while shooting. Explore the three shopping streets for the arches, streetlights and manhole covers."
+          "tips": "It's a public plaza, free at all hours. The station entrance is busy, so don't block the way while shooting. Explore the three shopping streets for the arches, streetlights and manhole covers.",
+          "searchTerms": [
+            "Ultraman statue",
+            "Soshigaya-Okura Station",
+            "Ultraman shopping street"
+          ]
         },
         "ko": {
           "placeName": "소시가야오쿠라역 앞 광장 (도쿄 세타가야구)",
@@ -1050,7 +1207,12 @@
           "access": "오다큐선 소시가야오쿠라역 개찰구를 나오면 바로 역 앞 광장. 울트라맨 동상은 북쪽 광장 서쪽, 소시가야 거리 옆에 있다. 도보 1분 이내.",
           "accessPointName": "소시가야오쿠라역 개찰구",
           "bestTime": "낮에 역사를 배경으로 찍는 것이 정석. 출퇴근 시간대는 붐비니 오전 10시 이후나 오후가 여유롭다.",
-          "tips": "공공 광장이라 언제든 무료. 역 출입구 주변은 사람이 많으니 촬영할 때 통로를 막지 말자. 세 상점가의 아치, 가로등, 맨홀 찾기도 추천."
+          "tips": "공공 광장이라 언제든 무료. 역 출입구 주변은 사람이 많으니 촬영할 때 통로를 막지 말자. 세 상점가의 아치, 가로등, 맨홀 찾기도 추천.",
+          "searchTerms": [
+            "울트라맨 동상",
+            "소시가야오쿠라역",
+            "울트라맨 상점가"
+          ]
         }
       }
     }

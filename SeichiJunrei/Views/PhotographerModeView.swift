@@ -861,7 +861,7 @@ private struct ResultSheet: View {
             }
         }
         .sheet(isPresented: $showShare) { ShareComposerView(spot: spot) }
-        .sheet(isPresented: $showUpload) { UploadPhotoSheet(spot: spot, image: image, photoLocation: photoLocation) }
+        .sheet(isPresented: $showUpload) { UploadPhotoSheet(spot: spot, image: image, source: .inAppCapture(location: photoLocation)) }
     }
 }
 

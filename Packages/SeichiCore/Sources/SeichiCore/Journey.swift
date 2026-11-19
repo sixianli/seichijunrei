@@ -72,7 +72,7 @@ public enum MonthRanges {
 }
 
 /// “网上搜这一幕”：按用户所在国家选搜索引擎（中国大陆用不了 Google），
-/// 搜索词按界面语言写：作品名 + 名场面标题 + 地点，再带上日语原名和日语地名
+/// 搜索词用和搜索引擎匹配的一种语言：作品名 + 粉丝常用的地点 / 场景关键词 + 巡礼词
 public enum SceneImageSearch {
     public enum Engine: String, Sendable { case google, baidu, naver, yandex }
 
@@ -92,17 +92,42 @@ public enum SceneImageSearch {
             .trimmingCharacters(in: .whitespaces) ?? place
     }
 
-    /// 搜原作画面靠“作品名 + 这一幕的标题”，不拼现实地名：网上贴原作截图时写的是场景，不会写取景地。
-    /// 用户语言的作品名、名场面标题在前，日语原名和日语标题在后；重复的词去掉
-    public static func query(originalWork: String, japaneseSceneTitle: String?, localizedWork: String?,
-                             sceneTitle: String?) -> String {
-        var parts: [String] = []
-        parts.append((localizedWork?.isEmpty == false ? localizedWork : nil) ?? originalWork)
-        if let t = sceneTitle { parts.append(t) }
-        parts.append(originalWork)
-        if let t = japaneseSceneTitle { parts.append(t) }
+    /// 一条现成的搜索：给用户看的标题 + 搜索词 + 用哪个搜索引擎
+    public struct Option: Equatable, Sendable {
+        public var query: String
+        public var engine: Engine
+        public init(query: String, engine: Engine) { self.query = query; self.engine = engine }
+    }
+
+    /// 和搜索引擎最搭的语言：百度用简体中文，Naver 用韩语，Google 用日语（原作和巡礼对比图日文最多）
+    public static func language(for engine: Engine, userLanguage: String) -> String {
+        switch engine {
+        case .baidu: return "zh-Hans"
+        case .naver: return "ko"
+        case .google, .yandex: return "ja"
+        }
+    }
+
+    /// 几条现成的搜索，每条只用一种语言：作品名 + 地点/场景关键词 + 巡礼词。
+    /// - work: 该语言下的作品名；terms: 该语言的场景关键词（粉丝常用说法）；place: 该语言的地名（关键词缺失时兜底）
+    public static func options(work: String, terms: [String], place: String?, language: String,
+                               engine: Engine) -> [Option] {
+        let pilgrimage: String
+        switch language {
+        case "ja": pilgrimage = "聖地巡礼 比較"
+        case "zh-Hans": pilgrimage = "圣地巡礼 对比"
+        case "zh-Hant": pilgrimage = "聖地巡禮 對比"
+        case "ko": pilgrimage = "성지순례 비교"
+        default: pilgrimage = "anime pilgrimage comparison"
+        }
+        var keywords = terms.map { $0.trimmingCharacters(in: .whitespaces) }.filter { !$0.isEmpty }
+        if keywords.isEmpty, let p = place { keywords = [trimmedPlace(p)] }
+        var queries: [String] = []
+        if let first = keywords.first { queries.append("\(work) \(first) \(pilgrimage)") }
+        for k in keywords.dropFirst() { queries.append("\(work) \(k)") }
+        if keywords.count >= 2 { queries.append("\(work) \(keywords[0]) \(keywords[1])") }
         var seen = Set<String>()
-        return parts.filter { !$0.isEmpty && seen.insert($0).inserted }.joined(separator: " ")
+        return queries.filter { seen.insert($0).inserted }.prefix(4).map { Option(query: $0, engine: engine) }
     }
 
     public static func url(query: String, engine: Engine) -> URL? {

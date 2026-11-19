@@ -247,7 +247,7 @@
 "detail.walkFromShort" = "%@에서 걸어서";
 "detail.shotMapA11y" = "촬영 위치 지도: %@ 방향으로 촬영";
 "detail.searchOriginal" = "원작 장면 보기";
-"detail.originalNotIncluded" = "원작 이미지는 저작권 때문에 수록하지 않았어요. 오른쪽 버튼으로 검색할 수 있어요";
+"detail.originalNotIncluded" = "원작 이미지는 저작권 때문에 앱에 없어요. '원작 장면 보기'로 웹에서 찾아보세요.";
 "community.beFirst" = "첫 번째로 현장 사진을 올려 보세요";
 "community.stripTitle" = "순례자 사진 · %ld장";
 "community.uploadShort" = "올리기";
@@ -293,6 +293,15 @@
 "submit.status.received" = "접수됨";
 "submit.status.removed" = "삭제됨";
 "detail.landmarkSubtitle" = "공식 성지까지 가서 기념 사진을 찍어요";
+"detail.actionsHelp" = "둘의 차이는?";
+"detail.searchOriginalTitle" = "웹에서 원작 장면 찾기";
+"detail.searchOriginalHint" = "순례자들이 원작과 실제 장소를 나란히 올린 비교 사진이 잘 나오는 검색어예요";
+"common.moreInfo" = "설명";
+"moderation.screenshot" = "캡처 이미지는 올릴 수 없어요. 현장에서 카메라로 직접 찍은 사진만 올릴 수 있어요.";
+"moderation.noCamera" = "카메라 촬영 정보가 없어요(다운로드·메신저 저장·편집 후 내보낸 이미지일 수 있어요). 현장에서 찍은 원본 사진을 골라 주세요.";
+"moderation.blocked" = "이전에 올린 사진이 규칙 위반으로 숨겨져 지금은 올릴 수 없어요. 문의는 설정의 연락처로 해 주세요.";
+"settings.copyrightTitle" = "저작권 신고";
+"settings.copyrightBody" = "현장에서 직접 찍은 원본 사진만 올릴 수 있어요. 권리자로서 침해 콘텐츠를 발견하면 사진 화면의 '신고 → 저작권 침해'(즉시 숨김)나 이메일로 알려 주세요. 신속히 삭제할게요.";
 "kind.scene" = "명장면 · 촬영지";
 "kind.landmark" = "공식 성지";
 "photo.lookAround" = "Look Around";
@@ -319,7 +328,7 @@
 "community.uploadTitle" = "현장 사진 올리기";
 "community.captionPlaceholder" = "한마디 (선택): 촬영 시간, 서는 위치 팁 등";
 "community.ownPhoto" = "제가 현장에서 직접 찍은 사진이에요 (캡처나 다른 사람 사진 아님)";
-"community.rules" = "투고 규칙: 직접 찍은 현장 사진과 정확한 정보만 올려 주세요. 선정적·폭력적·비방·광고·권리 침해 콘텐츠는 금지예요. 위반 콘텐츠는 삭제되며 반복 시 투고가 제한돼요. 올린 사진은 모든 사용자에게 공개돼요.";
+"community.rules" = "투고 규칙: 현장에서 카메라로 직접 찍은 원본 사진만. 캡처, 다운로드 이미지, 화면을 찍은 원작 장면, 선정적·폭력적·욕설·광고·권리 침해 콘텐츠는 금지예요. 사진은 모두에게 공개되며 위반 시 삭제되고 위반한 사용자는 더 이상 올릴 수 없어요.";
 "community.uploadConfirm" = "동의하고 올리기";
 "community.postedOn" = "%@ 업로드";
 "community.more" = "더 보기";

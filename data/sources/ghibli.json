@@ -482,7 +482,13 @@
      "access": "西武园线「西武园」站检票口出站往东，进入八国山绿地后沿山脊步道东行约1.8公里、步行约25分钟，到将军冢一带",
      "accessPointName": "西武园站 检票口",
      "bestTime": "晴天上午到午后，阳光透过杂木林洒在山脊步道上最有电影感；平日几乎没人，夏天蚊虫多",
-     "tips": "都立公园，免费开放。山脚的新山手医院等仍在运营，请勿进入院区拍照或喧哗。山脊步道是土路，雨后泥泞湿滑，请穿防滑的鞋。"
+     "tips": "都立公园，免费开放。山脚的新山手医院等仍在运营，请勿进入院区拍照或喧哗。山脊步道是土路，雨后泥泞湿滑，请穿防滑的鞋。",
+     "searchTerms": [
+      "八国山绿地",
+      "七国山医院",
+      "玉米",
+      "狭山丘陵"
+     ]
     },
     "ja": {
      "placeName": "八国山緑地（東京・東村山）",
@@ -493,7 +499,13 @@
      "access": "西武園線「西武園」駅の改札を出て東へ。八国山緑地に入り、尾根道を東に約1.8km・徒歩約25分で将軍塚付近",
      "accessPointName": "西武園駅 改札口",
      "bestTime": "晴れた日の午前から昼過ぎ、雑木林の木漏れ日が尾根道に落ちる時間が映画らしい。平日はほぼ貸し切り状態、夏は虫が多い",
-     "tips": "都立公園で入園無料。ふもとの新山手病院などは現役の病院なので、敷地内での撮影や大声は控えよう。尾根道は土の道で、雨の後はぬかるむので滑りにくい靴で。"
+     "tips": "都立公園で入園無料。ふもとの新山手病院などは現役の病院なので、敷地内での撮影や大声は控えよう。尾根道は土の道で、雨の後はぬかるむので滑りにくい靴で。",
+     "searchTerms": [
+      "八国山緑地",
+      "七国山病院",
+      "トウモロコシ",
+      "狭山丘陵"
+     ]
     },
     "en": {
      "placeName": "Hachikokuyama Green Space (Higashimurayama, Tokyo)",
@@ -504,7 +516,13 @@
      "access": "From the ticket gate of Seibuen Station (Seibu Seibuen Line), head east into Hachikokuyama Green Space and follow the ridge path about 1.8 km (25 min) to the Shōgunzuka area",
      "accessPointName": "Seibuen Sta. Ticket Gate",
      "bestTime": "Sunny late mornings to early afternoons, when light filters through the woods onto the ridge path. Weekdays are nearly empty; expect mosquitoes in summer",
-     "tips": "A free metropolitan park. The hospitals at the foot of the hill, such as Shin-Yamanote Hospital, are still in operation: don’t photograph or linger on their grounds. The ridge path is unpaved and muddy after rain, so wear shoes with grip."
+     "tips": "A free metropolitan park. The hospitals at the foot of the hill, such as Shin-Yamanote Hospital, are still in operation: don’t photograph or linger on their grounds. The ridge path is unpaved and muddy after rain, so wear shoes with grip.",
+     "searchTerms": [
+      "Hachikokuyama",
+      "Shichikokuyama Hospital",
+      "corn",
+      "Sayama Hills"
+     ]
     },
     "ko": {
      "placeName": "하치코쿠야마 녹지 (도쿄·히가시무라야마)",
@@ -515,7 +533,12 @@
      "access": "세이부엔선 ‘세이부엔’역 개찰구에서 동쪽으로 나와 하치코쿠야마 녹지에 들어선 뒤, 능선 산책로를 따라 약 1.8km(도보 약 25분) 가면 쇼군즈카 부근",
      "accessPointName": "세이부엔역 개찰구",
      "bestTime": "맑은 날 오전부터 이른 오후, 잡목림 사이로 햇살이 능선길에 내려앉을 때가 가장 영화 같다. 평일에는 거의 사람이 없고, 여름엔 모기가 많다",
-     "tips": "무료 도립공원이다. 기슭의 신야마노테 병원 등은 지금도 운영 중이므로 부지 안에서 촬영하거나 떠들지 말자. 능선길은 흙길이라 비 온 뒤엔 질척이니 미끄럼 방지 신발을 신자."
+     "tips": "무료 도립공원이다. 기슭의 신야마노테 병원 등은 지금도 운영 중이므로 부지 안에서 촬영하거나 떠들지 말자. 능선길은 흙길이라 비 온 뒤엔 질척이니 미끄럼 방지 신발을 신자.",
+     "searchTerms": [
+      "하치코쿠야마",
+      "시치코쿠야마 병원",
+      "옥수수"
+     ]
     }
    }
   },
@@ -550,7 +573,12 @@
      "access": "名古屋地铁东山线终点「藤丘」站换乘磁浮线Linimo至「爱·地球博纪念公园」站，出站入园往南步行约20–30分钟到“咚咚森”，也可乘园内巴士",
      "accessPointName": "爱·地球博纪念公园站",
      "bestTime": "选上午场入园，人相对少、光线柔和；晴天院子里的绿意最像电影。周末和暑假非常拥挤，尽量选平日",
-     "tips": "只有“大散步券Premium”或“咚咚森”单区门票能进入这栋房子（需选上午或下午场）。门票全预约制，每月10日14点开售两个月后的票，现场不售；周二休园（逢节假日顺延）。"
+     "tips": "只有“大散步券Premium”或“咚咚森”单区门票能进入这栋房子（需选上午或下午场）。门票全预约制，每月10日14点开售两个月后的票，现场不售；周二休园（逢节假日顺延）。",
+     "searchTerms": [
+      "小月和小梅的家",
+      "吉卜力公园",
+      "草壁家"
+     ]
     },
     "ja": {
      "placeName": "サツキとメイの家（愛知・ジブリパーク）",
@@ -561,7 +589,13 @@
      "access": "地下鉄東山線の終点「藤が丘」駅でリニモに乗り換え「愛・地球博記念公園」駅下車。公園に入り南へ徒歩約20〜30分で「どんどこ森」、園内バスも利用可",
      "accessPointName": "愛・地球博記念公園駅",
      "bestTime": "午前の入場枠のほうが比較的すいていて光もやわらかい。晴れた日は庭の緑が映画そのもの。週末や夏休みは大混雑なので平日がおすすめ",
-     "tips": "家に入れるのは「大さんぽ券プレミアム」か「どんどこ森」エリア券のみ（午前・午後の時間指定あり）。チケットは完全予約制で、毎月10日14時に2か月先の分を販売、当日券なし。火曜休園（祝日の場合は翌平日）。"
+     "tips": "家に入れるのは「大さんぽ券プレミアム」か「どんどこ森」エリア券のみ（午前・午後の時間指定あり）。チケットは完全予約制で、毎月10日14時に2か月先の分を販売、当日券なし。火曜休園（祝日の場合は翌平日）。",
+     "searchTerms": [
+      "サツキとメイの家",
+      "ジブリパーク",
+      "草壁家",
+      "引っ越し"
+     ]
     },
     "en": {
      "placeName": "Satsuki and Mei’s House (Ghibli Park, Aichi)",
@@ -572,7 +606,12 @@
      "access": "Take the Linimo from Fujigaoka (end of the Higashiyama subway line) to Ai-Chikyūhaku-Kinen-Kōen Station, then walk south through the park about 20–30 min to Dondoko Forest, or use the in-park bus",
      "accessPointName": "Ai-Chikyūhaku-Kinen-Kōen Sta.",
      "bestTime": "Pick a morning entry slot: fewer people and softer light. Sunny days make the garden look straight out of the film. Weekends and school holidays are very crowded, so go on a weekday if you can",
-     "tips": "Only the Ō-sanpo Day Pass Premium or the Dondoko Forest area ticket gets you into the house (with a morning or afternoon slot). Tickets are reservation-only, released on the 10th at 14:00 two months ahead, and not sold at the gate. Closed Tuesdays (next weekday if a holiday)."
+     "tips": "Only the Ō-sanpo Day Pass Premium or the Dondoko Forest area ticket gets you into the house (with a morning or afternoon slot). Tickets are reservation-only, released on the 10th at 14:00 two months ahead, and not sold at the gate. Closed Tuesdays (next weekday if a holiday).",
+     "searchTerms": [
+      "Satsuki and Mei's House",
+      "Ghibli Park",
+      "Kusakabe house"
+     ]
     },
     "ko": {
      "placeName": "사츠키와 메이의 집 (아이치·지브리 파크)",
@@ -583,7 +622,12 @@
      "access": "지하철 히가시야마선 종점 ‘후지가오카’역에서 리니모로 갈아타 ‘아이치큐하쿠기넨코엔’역 하차. 공원 안으로 들어가 남쪽으로 도보 약 20~30분이면 ‘돈도코 숲’, 공원 내 버스도 이용 가능",
      "accessPointName": "아이치큐하쿠기넨코엔역",
      "bestTime": "오전 입장 시간대가 비교적 한산하고 빛도 부드럽다. 맑은 날엔 마당의 초록이 영화 그대로다. 주말과 여름방학은 매우 붐비니 평일을 추천",
-     "tips": "집 내부는 ‘오산포 프리미엄 티켓’ 또는 ‘돈도코 숲’ 단독 티켓으로만 들어갈 수 있다(오전·오후 시간 지정). 티켓은 전면 예약제로 매월 10일 14시에 두 달 뒤 분을 판매하며 현장 판매는 없다. 화요일 휴원(공휴일이면 다음 평일)."
+     "tips": "집 내부는 ‘오산포 프리미엄 티켓’ 또는 ‘돈도코 숲’ 단독 티켓으로만 들어갈 수 있다(오전·오후 시간 지정). 티켓은 전면 예약제로 매월 10일 14시에 두 달 뒤 분을 판매하며 현장 판매는 없다. 화요일 휴원(공휴일이면 다음 평일).",
+     "searchTerms": [
+      "사츠키와 메이의 집",
+      "지브리 파크",
+      "이사"
+     ]
     }
    }
   },
@@ -620,7 +664,12 @@
      "access": "伊予铁道市内电车「道后温泉」站出站，穿过站前广场斜对面的道后商店街拱廊，走到尽头就是本馆，约250米、步行约4分钟",
      "accessPointName": "道后温泉站（电车）",
      "bestTime": "日落后本馆亮灯最像油屋，18点还能听到报时太鼓；冬天天黑早、泡汤最舒服。清晨6点开门时人最少，傍晚到晚上游客较多",
-     "tips": "本馆仍在营业，6:00–23:00（22:30停止售票），“神之汤”大人700日元，其他方案另计；灵之汤包间与又新殿需预约。在门前拍照请避开入口，不要妨碍入浴客人。"
+     "tips": "本馆仍在营业，6:00–23:00（22:30停止售票），“神之汤”大人700日元，其他方案另计；灵之汤包间与又新殿需预约。在门前拍照请避开入口，不要妨碍入浴客人。",
+     "searchTerms": [
+      "道后温泉本馆",
+      "油屋",
+      "夜景"
+     ]
     },
     "ja": {
      "placeName": "道後温泉本館（愛媛・松山）",
@@ -631,7 +680,13 @@
      "access": "伊予鉄道市内電車「道後温泉」駅を出て、駅前広場の向かいから続く道後商店街のアーケードを抜けると突き当たりが本館。約250m・徒歩約4分",
      "accessPointName": "道後温泉駅",
      "bestTime": "日没後のライトアップが一番油屋らしく、18時には刻太鼓も聞ける。冬は日暮れが早く湯もいっそう心地よい。朝6時の開館直後が最もすいていて、夕方から夜はにぎわう",
-     "tips": "本館は現役の共同浴場。6時〜23時（札止め22時30分）、「神の湯」は大人700円で、ほかのコースは別料金。霊の湯の個室と又新殿は予約制。正面で撮影するときは入口をふさがないように。"
+     "tips": "本館は現役の共同浴場。6時〜23時（札止め22時30分）、「神の湯」は大人700円で、ほかのコースは別料金。霊の湯の個室と又新殿は予約制。正面で撮影するときは入口をふさがないように。",
+     "searchTerms": [
+      "道後温泉本館",
+      "油屋",
+      "唐破風",
+      "夜景"
+     ]
     },
     "en": {
      "placeName": "Dōgo Onsen Honkan (Matsuyama, Ehime)",
@@ -642,7 +697,12 @@
      "access": "From Dōgo Onsen Station (Iyotetsu tram), cross the station square and walk through the Dōgo shopping arcade; the Honkan stands at its far end, about 250 m (4 min)",
      "accessPointName": "Dōgo Onsen Sta. (tram)",
      "bestTime": "After sunset, when the building is lit, it looks most like Aburaya, and the 6 pm drum is a bonus. Winter brings early dusk and the best bathing. It’s quietest right at the 6 am opening; evenings are busiest",
-     "tips": "Still a working public bath: 6:00–23:00 (last tickets 22:30). Kami-no-Yu is ¥700 for adults; other courses cost more, and the Tama-no-Yu private rooms and Yūshinden tour need booking. When photographing the front, keep clear of the entrance."
+     "tips": "Still a working public bath: 6:00–23:00 (last tickets 22:30). Kami-no-Yu is ¥700 for adults; other courses cost more, and the Tama-no-Yu private rooms and Yūshinden tour need booking. When photographing the front, keep clear of the entrance.",
+     "searchTerms": [
+      "Dogo Onsen Honkan",
+      "Aburaya",
+      "bathhouse at night"
+     ]
     },
     "ko": {
      "placeName": "도고 온천 본관 (에히메·마쓰야마)",
@@ -653,7 +713,12 @@
      "access": "이요테쓰 시내 노면전차 ‘도고온센’역에서 나와 역 앞 광장 건너편 도고 상점가 아케이드를 끝까지 지나면 본관이다. 약 250m, 도보 약 4분",
      "accessPointName": "도고온센역 (노면전차)",
      "bestTime": "해가 진 뒤 불이 켜진 본관이 가장 유야답고, 18시에는 시각을 알리는 북소리도 들을 수 있다. 겨울은 해가 일찍 져서 온천도 더 좋다. 아침 6시 개관 직후가 가장 한산하고 저녁부터 밤까지 붐빈다",
-     "tips": "본관은 지금도 영업 중인 공중목욕탕이다. 6:00~23:00(발권 마감 22:30), ‘가미노유’는 성인 700엔이며 다른 코스는 요금이 다르다. 다마노유 개인실과 유신덴은 예약제. 정면에서 사진을 찍을 땐 입구를 막지 말자."
+     "tips": "본관은 지금도 영업 중인 공중목욕탕이다. 6:00~23:00(발권 마감 22:30), ‘가미노유’는 성인 700엔이며 다른 코스는 요금이 다르다. 다마노유 개인실과 유신덴은 예약제. 정면에서 사진을 찍을 땐 입구를 막지 말자.",
+     "searchTerms": [
+      "도고온천 본관",
+      "유야",
+      "야경"
+     ]
     }
    }
   },
@@ -688,7 +753,12 @@
      "access": "JR中央线「武藏小金井」站北口2、3号乘车处坐西武巴士约5分钟，在「小金井公园西口」下车，往东进园约5分钟到入口，再穿过东区约5分钟到子宝汤",
      "accessPointName": "小金井公园西口 巴士站",
      "bestTime": "平日开园后的上午人最少；3月底至4月初小金井公园樱花盛开、11月银杏转黄时，老街最有昭和气氛",
-     "tips": "收费入园（一般400日元），9:30–17:30（10–3月至16:30），闭园前30分钟停止入园；周一（逢节假日则次日）及年末年始休园。可进入子宝汤内部参观，请勿攀爬展品。"
+     "tips": "收费入园（一般400日元），9:30–17:30（10–3月至16:30），闭园前30分钟停止入园；周一（逢节假日则次日）及年末年始休园。可进入子宝汤内部参观，请勿攀爬展品。",
+     "searchTerms": [
+      "子宝汤",
+      "江户东京建筑园",
+      "腐烂神"
+     ]
     },
     "ja": {
      "placeName": "子宝湯（東京・江戸東京たてもの園）",
@@ -699,7 +769,13 @@
      "access": "JR中央線「武蔵小金井」駅北口2・3番のりばから西武バスで約5分「小金井公園西口」下車。東へ公園に入り徒歩約5分で入口、さらに東ゾーン奥まで約5分",
      "accessPointName": "小金井公園西口 バス停",
      "bestTime": "平日の開園直後の午前がいちばん静か。3月末〜4月初めの小金井公園の桜、11月のイチョウの黄葉の頃は、街並みがいっそう昭和らしく見える",
-     "tips": "有料（一般400円）。9:30〜17:30（10〜3月は16:30まで）、入園は閉園30分前まで。月曜（祝日・振替休日の場合は翌日）と年末年始は休園。子宝湯は中まで見学できるが、展示物には登らないで。"
+     "tips": "有料（一般400円）。9:30〜17:30（10〜3月は16:30まで）、入園は閉園30分前まで。月曜（祝日・振替休日の場合は翌日）と年末年始は休園。子宝湯は中まで見学できるが、展示物には登らないで。",
+     "searchTerms": [
+      "子宝湯",
+      "江戸東京たてもの園",
+      "オクサレ様",
+      "唐破風"
+     ]
     },
     "en": {
      "placeName": "Kodakara-yu (Edo-Tokyo Open Air Architectural Museum, Tokyo)",
@@ -710,7 +786,12 @@
      "access": "From bus stands 2–3 at the north exit of Musashi-Koganei Station (JR Chūō Line), take a Seibu bus about 5 min to Koganei Kōen Nishiguchi. Walk east into the park about 5 min to the museum gate, then about 5 min through the East Zone to Kodakara-yu",
      "accessPointName": "Koganei Kōen Nishiguchi bus stop",
      "bestTime": "Weekday mornings right after opening are quietest. The street looks most Shōwa when Koganei Park’s cherry trees bloom (late March–early April) or the ginkgos turn gold in November",
-     "tips": "Admission ¥400 (general). Open 9:30–17:30 (to 16:30 Oct–Mar), last entry 30 min before closing. Closed Mondays (the next day if Monday is a holiday) and over New Year. You can go inside Kodakara-yu, but don’t climb on exhibits."
+     "tips": "Admission ¥400 (general). Open 9:30–17:30 (to 16:30 Oct–Mar), last entry 30 min before closing. Closed Mondays (the next day if Monday is a holiday) and over New Year. You can go inside Kodakara-yu, but don’t climb on exhibits.",
+     "searchTerms": [
+      "Kodakara-yu",
+      "Edo-Tokyo Open Air Museum",
+      "Stink Spirit"
+     ]
     },
     "ko": {
      "placeName": "고다카라유 (도쿄·에도도쿄 다테모노엔)",
@@ -721,7 +802,12 @@
      "access": "JR 주오선 ‘무사시코가네이’역 북쪽 출구 2·3번 승강장에서 세이부 버스로 약 5분, ‘고가네이코엔니시구치’ 하차. 동쪽으로 공원에 들어가 약 5분이면 입구, 동쪽 구역 끝까지 다시 약 5분",
      "accessPointName": "고가네이코엔니시구치 버스 정류장",
      "bestTime": "평일 개원 직후 오전이 가장 한산하다. 3월 말~4월 초 고가네이 공원 벚꽃이나 11월 은행잎이 노랗게 물들 때 거리가 가장 쇼와답다",
-     "tips": "유료(일반 400엔). 9:30~17:30(10~3월은 16:30까지), 입장은 폐원 30분 전까지. 월요일(공휴일이면 다음 날)과 연말연시 휴원. 고다카라유 내부도 둘러볼 수 있지만 전시물에 올라가지는 말자."
+     "tips": "유료(일반 400엔). 9:30~17:30(10~3월은 16:30까지), 입장은 폐원 30분 전까지. 월요일(공휴일이면 다음 날)과 연말연시 휴원. 고다카라유 내부도 둘러볼 수 있지만 전시물에 올라가지는 말자.",
+     "searchTerms": [
+      "고다카라유",
+      "에도도쿄 건축공원",
+      "오물신"
+     ]
     }
    }
   },
@@ -757,7 +843,12 @@
      "access": "宫之浦港乘屋久岛交通巴士约30–40分钟到终点「白谷云水峡」，在入口管理栋缴费后沿步道上行约1.5–2小时到苔藓森林；巴士班次很少",
      "accessPointName": "白谷云水峡 巴士站",
      "bestTime": "雨后或起雾的上午苔藓最绿、最有神秘感。尽量坐早班车上山、下午早些返程，旺季中午前后步道最挤",
-     "tips": "入口需缴纳森林环境整备推进协力金（高中生以上500日元）。屋久岛雨多，务必穿登山鞋、带雨具；巴士班次少，出发前确认回程末班车。请走步道，不要踩踏苔藓。"
+     "tips": "入口需缴纳森林环境整备推进协力金（高中生以上500日元）。屋久岛雨多，务必穿登山鞋、带雨具；巴士班次少，出发前确认回程末班车。请走步道，不要踩踏苔藓。",
+     "searchTerms": [
+      "白谷云水峡",
+      "幽灵公主之森",
+      "苔藓森林"
+     ]
     },
     "ja": {
      "placeName": "白谷雲水峡 苔むす森（鹿児島・屋久島）",
@@ -768,7 +859,13 @@
      "access": "宮之浦港から屋久島交通バスで約30〜40分、終点「白谷雲水峡」下車。入口の管理棟で協力金を払い、遊歩道を約1.5〜2時間登ると苔むす森。バスは本数が少ない",
      "accessPointName": "白谷雲水峡 バス停",
      "bestTime": "雨上がりや霧の出た午前中が、苔がいちばん青々として神秘的。朝の早いバスで入り、午後早めに下山するのが理想。繁忙期は昼前後が混む",
-     "tips": "入口で森林環境整備推進協力金（高校生以上500円）が必要。屋久島は雨が多いので登山靴と雨具は必須。バスは本数が少ないので帰りの最終便を先に確認しよう。遊歩道を外れて苔を踏まないこと。"
+     "tips": "入口で森林環境整備推進協力金（高校生以上500円）が必要。屋久島は雨が多いので登山靴と雨具は必須。バスは本数が少ないので帰りの最終便を先に確認しよう。遊歩道を外れて苔を踏まないこと。",
+     "searchTerms": [
+      "白谷雲水峡",
+      "もののけ姫の森",
+      "苔むす森",
+      "シシ神の森"
+     ]
     },
     "en": {
      "placeName": "Shiratani Unsuikyō Moss Forest (Yakushima, Kagoshima)",
@@ -779,7 +876,12 @@
      "access": "Yakushima Kōtsū bus from Miyanoura Port, about 30–40 min to the Shiratani Unsuikyō terminus. Pay the fee at the entrance hut, then hike about 1.5–2 hours up to the moss forest. Buses are infrequent",
      "accessPointName": "Shiratani Unsuikyō bus stop",
      "bestTime": "Mornings after rain or in mist, when the moss is greenest and most otherworldly. Catch an early bus up and head down by mid-afternoon; in peak season the trail is busiest around midday",
-     "tips": "A forest conservation fee (¥500, high-school age and up) is collected at the entrance. It rains a lot: wear hiking boots and bring rain gear. Buses are few, so check the last one back before you set out. Stay on the trail and never step on the moss."
+     "tips": "A forest conservation fee (¥500, high-school age and up) is collected at the entrance. It rains a lot: wear hiking boots and bring rain gear. Buses are few, so check the last one back before you set out. Stay on the trail and never step on the moss.",
+     "searchTerms": [
+      "Shiratani Unsuikyo",
+      "Mononoke Forest",
+      "moss forest"
+     ]
     },
     "ko": {
      "placeName": "시라타니운스이쿄 이끼 숲 (가고시마·야쿠시마)",
@@ -790,7 +892,12 @@
      "access": "미야노우라항에서 야쿠시마 교통 버스로 약 30~40분, 종점 ‘시라타니운스이쿄’ 하차. 입구 관리동에서 협력금을 낸 뒤 산책로를 약 1.5~2시간 오르면 이끼 숲. 버스 편수가 적다",
      "accessPointName": "시라타니운스이쿄 버스 정류장",
      "bestTime": "비 갠 뒤나 안개 낀 오전이 이끼가 가장 푸르고 신비롭다. 이른 버스로 올라가 오후 일찍 내려오는 게 좋고, 성수기엔 정오 전후가 가장 붐빈다",
-     "tips": "입구에서 산림환경정비추진 협력금(고등학생 이상 500엔)을 낸다. 야쿠시마는 비가 잦으니 등산화와 우비는 필수. 버스 편수가 적으니 출발 전에 돌아오는 막차를 확인하자. 산책로를 벗어나 이끼를 밟지 말 것."
+     "tips": "입구에서 산림환경정비추진 협력금(고등학생 이상 500엔)을 낸다. 야쿠시마는 비가 잦으니 등산화와 우비는 필수. 버스 편수가 적으니 출발 전에 돌아오는 막차를 확인하자. 산책로를 벗어나 이끼를 밟지 말 것.",
+     "searchTerms": [
+      "시라타니운스이쿄",
+      "모노노케 숲",
+      "이끼 숲"
+     ]
     }
    }
   },
@@ -825,7 +932,12 @@
      "access": "JR福山站前乘鞆铁巴士“鞆港”方向约30分钟到终点「鞆港」，下车往港口方向走约100米、步行约2分钟到常夜灯",
      "accessPointName": "鞆港 巴士站",
      "bestTime": "傍晚夕阳斜照港湾、石阶染成金色时最美；白天团体游客较多，清晨的港口最安静",
-     "tips": "港口和周边是居民生活区和渔港，请勿攀爬渔船和码头设施；临水的石阶码头（雁木）长着青苔、湿滑，涨潮时更要小心，带孩子请牵好。"
+     "tips": "港口和周边是居民生活区和渔港，请勿攀爬渔船和码头设施；临水的石阶码头（雁木）长着青苔、湿滑，涨潮时更要小心，带孩子请牵好。",
+     "searchTerms": [
+      "鞆之浦",
+      "常夜灯",
+      "港町"
+     ]
     },
     "ja": {
      "placeName": "鞆の浦 常夜燈（広島・福山）",
@@ -836,7 +948,13 @@
      "access": "JR福山駅前から鞆鉄バス「鞆港」行きで約30分、終点「鞆港」下車。港の方へ約100m、徒歩約2分で常夜灯",
      "accessPointName": "鞆港 バス停",
      "bestTime": "夕日が港を斜めに照らし、雁木が金色に染まる夕方がいちばん美しい。日中は団体客が多く、早朝の港がもっとも静か",
-     "tips": "港と周辺は住民の生活の場で現役の漁港。漁船や係留設備には上らないこと。水際の雁木は苔で滑りやすく、満潮時は特に注意。子ども連れは手を離さずに。"
+     "tips": "港と周辺は住民の生活の場で現役の漁港。漁船や係留設備には上らないこと。水際の雁木は苔で滑りやすく、満潮時は特に注意。子ども連れは手を離さずに。",
+     "searchTerms": [
+      "鞆の浦",
+      "常夜燈",
+      "港町",
+      "雁木"
+     ]
     },
     "en": {
      "placeName": "Tomonoura Jōyatō Lantern (Fukuyama, Hiroshima)",
@@ -847,7 +965,12 @@
      "access": "From JR Fukuyama Station take a Tomotetsu bus bound for Tomokō (about 30 min) to the last stop, then walk about 100 m (2 min) toward the harbour to the stone lantern",
      "accessPointName": "Tomokō bus stop",
      "bestTime": "Late afternoon, when low sun turns the harbour steps gold, is loveliest. Tour groups come through during the day; early morning is the quietest",
-     "tips": "The harbour is a working fishing port surrounded by homes: don’t climb on boats or mooring gear. The waterside steps are mossy and slippery, especially at high tide, so keep hold of children."
+     "tips": "The harbour is a working fishing port surrounded by homes: don’t climb on boats or mooring gear. The waterside steps are mossy and slippery, especially at high tide, so keep hold of children.",
+     "searchTerms": [
+      "Tomonoura",
+      "Joyato lantern",
+      "harbor town"
+     ]
     },
     "ko": {
      "placeName": "도모노우라 조야토 (히로시마·후쿠야마)",
@@ -858,7 +981,12 @@
      "access": "JR 후쿠야마역 앞에서 도모테쓰 버스 ‘도모코’행으로 약 30분, 종점 ‘도모코’ 하차. 항구 쪽으로 약 100m, 도보 약 2분이면 조야토",
      "accessPointName": "도모코 버스 정류장",
      "bestTime": "석양이 항구를 비스듬히 비추며 돌계단이 금빛으로 물드는 저녁이 가장 아름답다. 낮에는 단체 관광객이 많고 이른 아침 항구가 가장 조용하다",
-     "tips": "항구와 주변은 주민의 생활공간이자 현역 어항이다. 어선이나 계류 시설에 올라가지 말자. 물가의 돌계단은 이끼로 미끄러우니 만조 때는 특히 조심하고, 아이 손을 꼭 잡자."
+     "tips": "항구와 주변은 주민의 생활공간이자 현역 어항이다. 어선이나 계류 시설에 올라가지 말자. 물가의 돌계단은 이끼로 미끄러우니 만조 때는 특히 조심하고, 아이 손을 꼭 잡자.",
+     "searchTerms": [
+      "토모노우라",
+      "상야등",
+      "항구 마을"
+     ]
     }
    }
   },
@@ -893,7 +1021,12 @@
      "access": "京王线「圣迹樱丘」站西口出站往南，过大栗川后沿いろは坂通上坡，约1公里、步行约12–15分钟到台阶",
      "accessPointName": "圣迹樱丘站 西口",
      "bestTime": "夏日傍晚逆光看坡下街景最有电影感；平日白天人少，早晚是居民通勤上学时段，拍照请避开",
-     "tips": "这里是居民日常通行的台阶，请靠边拍照、不要长时间占用；いろは坂通坡陡弯多、车流不断，过马路注意安全，周边住宅区请保持安静。"
+     "tips": "这里是居民日常通行的台阶，请靠边拍照、不要长时间占用；いろは坂通坡陡弯多、车流不断，过马路注意安全，周边住宅区请保持安静。",
+     "searchTerms": [
+      "伊吕波坂 阶梯",
+      "圣迹樱丘",
+      "跑下阶梯"
+     ]
     },
     "ja": {
      "placeName": "桜ヶ丘いろは坂の階段（東京・多摩）",
@@ -904,7 +1037,12 @@
      "access": "京王線「聖蹟桜ヶ丘」駅西口から南へ。大栗川を渡っていろは坂通りを上り、約1km・徒歩約12〜15分で階段",
      "accessPointName": "聖蹟桜ヶ丘駅 西口",
      "bestTime": "夏の夕方、逆光で坂の下の町を見下ろすと一番映画らしい。平日の日中は人が少なく、朝夕は通勤・通学の時間帯なので撮影は避けて",
-     "tips": "住民が毎日使う階段なので、撮影は端に寄って手短に。いろは坂通りは急でカーブが多く車も多いので横断に注意し、周辺の住宅街では静かに。"
+     "tips": "住民が毎日使う階段なので、撮影は端に寄って手短に。いろは坂通りは急でカーブが多く車も多いので横断に注意し、周辺の住宅街では静かに。",
+     "searchTerms": [
+      "いろは坂 階段",
+      "聖蹟桜ヶ丘",
+      "駆け下りる階段"
+     ]
     },
     "en": {
      "placeName": "Iroha-zaka Stairs, Sakuragaoka (Tama, Tokyo)",
@@ -915,7 +1053,12 @@
      "access": "From the west exit of Seiseki-Sakuragaoka Station (Keiō Line) head south, cross the Ōguri River and climb Iroha-zaka Street about 1 km (12–15 min) to the stairs",
      "accessPointName": "Seiseki-Sakuragaoka Sta. West Exit",
      "bestTime": "Summer evenings, looking down the slope into the low sun, feel most like the film. Weekday daytime is quiet; avoid shooting during the morning and evening commute",
-     "tips": "Residents use these stairs every day: step aside for photos and don’t block them. Iroha-zaka Street is steep and winding with steady traffic, so cross with care, and keep noise down in the neighbourhood."
+     "tips": "Residents use these stairs every day: step aside for photos and don’t block them. Iroha-zaka Street is steep and winding with steady traffic, so cross with care, and keep noise down in the neighbourhood.",
+     "searchTerms": [
+      "Iroha-zaka stairs",
+      "Seiseki-Sakuragaoka",
+      "running down stairs"
+     ]
     },
     "ko": {
      "placeName": "사쿠라가오카 이로하자카 계단 (도쿄·다마)",
@@ -926,7 +1069,12 @@
      "access": "게이오선 ‘세이세키사쿠라가오카’역 서쪽 출구에서 남쪽으로. 오구리강을 건너 이로하자카 거리를 올라가면 약 1km, 도보 약 12~15분에 계단",
      "accessPointName": "세이세키사쿠라가오카역 서쪽 출구",
      "bestTime": "여름 저녁 역광으로 언덕 아래 거리를 내려다볼 때가 가장 영화 같다. 평일 낮은 한산하고, 아침저녁은 주민 출퇴근·통학 시간이니 촬영은 피하자",
-     "tips": "주민들이 매일 오가는 계단이니 가장자리에서 짧게 촬영하자. 이로하자카 거리는 가파르고 굽은 데다 차가 많으니 길을 건널 때 조심하고, 주택가에서는 조용히."
+     "tips": "주민들이 매일 오가는 계단이니 가장자리에서 짧게 촬영하자. 이로하자카 거리는 가파르고 굽은 데다 차가 많으니 길을 건널 때 조심하고, 주택가에서는 조용히.",
+     "searchTerms": [
+      "이로하자카 계단",
+      "세이세키사쿠라가오카",
+      "계단"
+     ]
     }
    }
   },
@@ -961,7 +1109,12 @@
      "access": "京王线「圣迹樱丘」站西口出站往南，过大栗川后沿いろは坂通上坡约1公里，神社在坡道中途的台阶旁，步行约15分钟",
      "accessPointName": "圣迹樱丘站 西口",
      "bestTime": "夏日傍晚树影斑驳，与片中放学后的光线最接近；平日下午人少。神社很小，有人参拜时请稍候再拍",
-     "tips": "这是当地人参拜的小神社，请先参拜再拍照，不要坐在石阶或香资箱上。神社所在的坡地陡、石阶窄，雨天注意脚下。"
+     "tips": "这是当地人参拜的小神社，请先参拜再拍照，不要坐在石阶或香资箱上。神社所在的坡地陡、石阶窄，雨天注意脚下。",
+     "searchTerms": [
+      "金比罗宫",
+      "告白",
+      "杉村"
+     ]
     },
     "ja": {
      "placeName": "金比羅宮（東京・多摩）",
@@ -972,7 +1125,13 @@
      "access": "京王線「聖蹟桜ヶ丘」駅西口から南へ。大栗川を渡りいろは坂通りを約1km上った坂の途中、階段のすぐ脇。徒歩約15分",
      "accessPointName": "聖蹟桜ヶ丘駅 西口",
      "bestTime": "夏の夕方、木漏れ日が揺れる時間が映画の放課後の光に近い。平日の午後は人が少ない。小さな神社なので、参拝者がいるときは少し待ってから撮影を",
-     "tips": "地元の人が参拝する小さな神社。まずお参りしてから撮影を。石段や賽銭箱に座らないこと。境内へは急な坂と狭い石段なので、雨の日は足もとに注意。"
+     "tips": "地元の人が参拝する小さな神社。まずお参りしてから撮影を。石段や賽銭箱に座らないこと。境内へは急な坂と狭い石段なので、雨の日は足もとに注意。",
+     "searchTerms": [
+      "金比羅宮",
+      "告白",
+      "杉村",
+      "聖蹟桜ヶ丘"
+     ]
     },
     "en": {
      "placeName": "Konpira-gū Shrine (Tama, Tokyo)",
@@ -983,7 +1142,12 @@
      "access": "From the west exit of Seiseki-Sakuragaoka Station head south, cross the Ōguri River and climb Iroha-zaka Street about 1 km; the shrine is beside the stairs partway up (about 15 min)",
      "accessPointName": "Seiseki-Sakuragaoka Sta. West Exit",
      "bestTime": "Summer evenings, with dappled shade, match the after-school light of the film. Weekday afternoons are quiet. It’s a tiny shrine, so wait for worshippers to finish before taking photos",
-     "tips": "A small working local shrine: pay your respects before photographing, and don’t sit on the steps or the offering box. The slope and narrow stone steps get slippery in rain."
+     "tips": "A small working local shrine: pay your respects before photographing, and don’t sit on the steps or the offering box. The slope and narrow stone steps get slippery in rain.",
+     "searchTerms": [
+      "Konpira Shrine",
+      "confession",
+      "Sugimura"
+     ]
     },
     "ko": {
      "placeName": "곤피라궁 (도쿄·다마)",
@@ -994,7 +1158,12 @@
      "access": "‘세이세키사쿠라가오카’역 서쪽 출구에서 남쪽으로, 오구리강을 건너 이로하자카 거리를 약 1km 오르면 언덕 중턱 계단 바로 옆. 도보 약 15분",
      "accessPointName": "세이세키사쿠라가오카역 서쪽 출구",
      "bestTime": "나뭇잎 그림자가 일렁이는 여름 저녁이 영화 속 방과 후 빛과 가장 닮았다. 평일 오후는 한산하다. 작은 신사라 참배객이 있으면 잠시 기다렸다 찍자",
-     "tips": "지역 주민이 참배하는 작은 신사다. 먼저 참배한 뒤 촬영하고, 돌계단이나 새전함에 앉지 말자. 경사가 가파르고 돌계단이 좁아 비 오는 날엔 발밑을 조심."
+     "tips": "지역 주민이 참배하는 작은 신사다. 먼저 참배한 뒤 촬영하고, 돌계단이나 새전함에 앉지 말자. 경사가 가파르고 돌계단이 좁아 비 오는 날엔 발밑을 조심.",
+     "searchTerms": [
+      "곤피라궁",
+      "고백",
+      "스기무라"
+     ]
     }
    }
   },
@@ -1027,7 +1196,12 @@
      "access": "京王线「圣迹樱丘」站西口出站往南，过大栗川后沿いろは坂通一路上坡到坡顶住宅区，约1.5公里、步行约20分钟；也可在站前乘京王巴士上山",
      "accessPointName": "圣迹樱丘站 西口",
      "bestTime": "像暑假一样晴朗的午后，光线最接近电影；周围是住宅区，工作日白天最安静，傍晚后请勿逗留喧哗",
-     "tips": "环岛是车辆通行的道路，请勿站在车道上拍照；周围是住宅区，请保持安静，不要拍摄住户和私宅。片中的地球屋是虚构的，现实中并不存在。"
+     "tips": "环岛是车辆通行的道路，请勿站在车道上拍照；周围是住宅区，请保持安静，不要拍摄住户和私宅。片中的地球屋是虚构的，现实中并不存在。",
+     "searchTerms": [
+      "樱丘环岛",
+      "地球屋",
+      "追猫"
+     ]
     },
     "ja": {
      "placeName": "桜ヶ丘ロータリー（東京・多摩）",
@@ -1038,7 +1212,12 @@
      "access": "京王線「聖蹟桜ヶ丘」駅西口から南へ。大栗川を渡りいろは坂通りを坂の上の住宅地まで上り、約1.5km・徒歩約20分。駅前から京王バスで上ることもできる",
      "accessPointName": "聖蹟桜ヶ丘駅 西口",
      "bestTime": "夏休みのような晴れた午後が、映画の光にいちばん近い。周りは住宅街なので平日の日中が静か。夕方以降に長居して騒がないように",
-     "tips": "ロータリーは車が通る道路なので、車道に立って撮影しないこと。周囲は住宅街なので静かに、住民や個人宅は撮らないで。作中の地球屋は架空の店で、実在しない。"
+     "tips": "ロータリーは車が通る道路なので、車道に立って撮影しないこと。周囲は住宅街なので静かに、住民や個人宅は撮らないで。作中の地球屋は架空の店で、実在しない。",
+     "searchTerms": [
+      "桜ヶ丘ロータリー",
+      "地球屋",
+      "猫を追いかけ"
+     ]
     },
     "en": {
      "placeName": "Sakuragaoka Roundabout (Tama, Tokyo)",
@@ -1049,7 +1228,12 @@
      "access": "From the west exit of Seiseki-Sakuragaoka Station head south, cross the Ōguri River and follow Iroha-zaka Street all the way up into the hilltop neighbourhood, about 1.5 km (20 min). Keiō buses from the station also go up the hill",
      "accessPointName": "Seiseki-Sakuragaoka Sta. West Exit",
      "bestTime": "A sunny summer-holiday afternoon is closest to the film’s light. It’s a residential area, quietest on weekday daytime; please don’t linger noisily in the evening",
-     "tips": "The roundabout carries traffic: don’t stand in the road for photos. It’s a residential area, so be quiet and don’t photograph residents or their homes. The Earth Shop is fictional and doesn’t exist here."
+     "tips": "The roundabout carries traffic: don’t stand in the road for photos. It’s a residential area, so be quiet and don’t photograph residents or their homes. The Earth Shop is fictional and doesn’t exist here.",
+     "searchTerms": [
+      "Sakuragaoka roundabout",
+      "Chikyuya",
+      "antique shop"
+     ]
     },
     "ko": {
      "placeName": "사쿠라가오카 로터리 (도쿄·다마)",
@@ -1060,7 +1244,12 @@
      "access": "‘세이세키사쿠라가오카’역 서쪽 출구에서 남쪽으로, 오구리강을 건너 이로하자카 거리를 언덕 위 주택가까지 오르면 약 1.5km, 도보 약 20분. 역 앞에서 게이오 버스로 올라갈 수도 있다",
      "accessPointName": "세이세키사쿠라가오카역 서쪽 출구",
      "bestTime": "여름방학 같은 맑은 오후가 영화 속 빛에 가장 가깝다. 주택가라 평일 낮이 가장 조용하며, 저녁 이후에는 오래 머물며 떠들지 말자",
-     "tips": "로터리는 차가 다니는 도로이니 차도에 서서 촬영하지 말자. 주변은 주택가라 조용히 하고 주민이나 개인 주택은 찍지 말 것. 작중 지구옥은 가상의 가게로 실제로는 없다."
+     "tips": "로터리는 차가 다니는 도로이니 차도에 서서 촬영하지 말자. 주변은 주택가라 조용히 하고 주민이나 개인 주택은 찍지 말 것. 작중 지구옥은 가상의 가게로 실제로는 없다.",
+     "searchTerms": [
+      "로터리",
+      "지구옥",
+      "세이세키사쿠라가오카"
+     ]
     }
    }
   },
@@ -1095,7 +1284,12 @@
      "access": "港未来线「元町·中华街」站6号出口（美国山公园口）乘扶梯或电梯上到美国山公园，出公园往东沿山手本通约400米，步行约6分钟",
      "accessPointName": "元町·中华街站 6号出口",
      "bestTime": "清晨最接近小海升旗的时刻，空气通透、游客少；傍晚可看港湾灯火。玫瑰5月中旬–6月中旬、10月中旬–11月中旬最盛，周末人多",
-     "tips": "公园免费，全天开放。园内英国馆9:30–17:00，每月第4个周三休馆（逢节日顺延）及年末年始休馆。观景台人多时请轮流拍照。"
+     "tips": "公园免费，全天开放。园内英国馆9:30–17:00，每月第4个周三休馆（逢节日顺延）及年末年始休馆。观景台人多时请轮流拍照。",
+     "searchTerms": [
+      "港见丘公园",
+      "信号旗",
+      "UW旗"
+     ]
     },
     "ja": {
      "placeName": "港の見える丘公園（神奈川・横浜）",
@@ -1106,7 +1300,12 @@
      "access": "みなとみらい線「元町・中華街」駅6番出口（アメリカ山公園口）からエスカレーターかエレベーターでアメリカ山公園へ。山手本通りを東へ約400m、徒歩約6分",
      "accessPointName": "元町・中華街駅 6番出口",
      "bestTime": "海が旗を揚げる早朝は空気が澄んで人も少ない。夕方は港の夜景も。バラは5月中旬〜6月中旬と10月中旬〜11月中旬が見頃で、週末は混む",
-     "tips": "公園は無料で常時開放。園内の横浜市イギリス館は9:30〜17:00、第4水曜（祝日の場合は翌日）と年末年始が休館。展望台が混んでいるときは順番に撮影を。"
+     "tips": "公園は無料で常時開放。園内の横浜市イギリス館は9:30〜17:00、第4水曜（祝日の場合は翌日）と年末年始が休館。展望台が混んでいるときは順番に撮影を。",
+     "searchTerms": [
+      "港の見える丘公園",
+      "信号旗",
+      "UW旗"
+     ]
     },
     "en": {
      "placeName": "Harbor View Park (Yokohama, Kanagawa)",
@@ -1117,7 +1316,12 @@
      "access": "From Exit 6 (America-yama Park exit) of Motomachi-Chūkagai Station (Minatomirai Line), ride the escalator or lift up to America-yama Park, then walk east along Yamate-Hondōri about 400 m (6 min)",
      "accessPointName": "Motomachi-Chūkagai Sta. Exit 6",
      "bestTime": "Early morning, when Umi would raise her flags, brings clear air and few people; evenings bring harbour lights. Roses peak mid-May to mid-June and mid-October to mid-November, when weekends get crowded",
-     "tips": "The park is free and always open. The British House inside opens 9:30–17:00 and closes on the 4th Wednesday of each month (next day if a holiday) and over New Year. Take turns at the lookout when it’s crowded."
+     "tips": "The park is free and always open. The British House inside opens 9:30–17:00 and closes on the 4th Wednesday of each month (next day if a holiday) and over New Year. Take turns at the lookout when it’s crowded.",
+     "searchTerms": [
+      "Harbor View Park",
+      "signal flags",
+      "UW flags"
+     ]
     },
     "ko": {
      "placeName": "미나토노미에루오카 공원 (가나가와·요코하마)",
@@ -1128,7 +1332,12 @@
      "access": "미나토미라이선 ‘모토마치·주카가이’역 6번 출구(아메리카야마 공원 출구)에서 에스컬레이터나 엘리베이터로 아메리카야마 공원에 올라간 뒤, 야마테혼도리를 따라 동쪽으로 약 400m, 도보 약 6분",
      "accessPointName": "모토마치·주카가이역 6번 출구",
      "bestTime": "우미가 깃발을 올리던 이른 아침은 공기가 맑고 사람이 적다. 저녁엔 항구 야경도 볼 수 있다. 장미는 5월 중순~6월 중순, 10월 중순~11월 중순이 절정이며 주말엔 붐빈다",
-     "tips": "공원은 무료이며 상시 개방. 공원 안 요코하마시 영국관은 9:30~17:00, 매월 넷째 수요일(공휴일이면 다음 날)과 연말연시 휴관. 전망대가 붐비면 차례로 촬영하자."
+     "tips": "공원은 무료이며 상시 개방. 공원 안 요코하마시 영국관은 9:30~17:00, 매월 넷째 수요일(공휴일이면 다음 날)과 연말연시 휴관. 전망대가 붐비면 차례로 촬영하자.",
+     "searchTerms": [
+      "미나토노미에루오카 공원",
+      "신호기",
+      "UW 깃발"
+     ]
     }
    }
   },
@@ -1162,7 +1371,12 @@
      "access": "阪急甲阳线「苦乐园口」站出站后往东，沿住宅区坡道上行约700米、步行约10分钟，到满池谷墓地入口旁的纪念碑公园",
      "accessPointName": "苦乐园口站",
      "bestTime": "初夏傍晚光线柔和、最安静，适合静静停留；8月终战纪念日前后来凭吊也有意义。周边是住宅区，避免清晨和夜间造访",
-     "tips": "纪念碑与阪神淡路大地震遇难者慰灵碑同在一座公园，请保持肃静。池塘现已没有萤火虫，防空洞也已不存在；周边是住宅区，请勿喧哗或拍摄民宅。"
+     "tips": "纪念碑与阪神淡路大地震遇难者慰灵碑同在一座公园，请保持肃静。池塘现已没有萤火虫，防空洞也已不存在；周边是住宅区，请勿喧哗或拍摄民宅。",
+     "searchTerms": [
+      "西宫 满池谷",
+      "防空洞",
+      "萤火虫"
+     ]
     },
     "ja": {
      "placeName": "西宮震災記念碑公園・ニテコ池（兵庫・西宮）",
@@ -1173,7 +1387,13 @@
      "access": "阪急甲陽線「苦楽園口」駅から東へ。住宅街の坂を約700m上り、徒歩約10分で満池谷墓地入口横の記念碑公園",
      "accessPointName": "苦楽園口駅",
      "bestTime": "初夏の夕方は光がやわらかく静かで、ゆっくり佇むのに向いている。8月の終戦記念日前後に手を合わせに訪れるのもいい。住宅地なので早朝・夜間は避けて",
-     "tips": "記念碑は阪神・淡路大震災の追悼碑と同じ公園にあるので、静かに。今の池にホタルはおらず、防空壕も残っていない。周囲は住宅街なので、大声や民家の撮影は控えて。"
+     "tips": "記念碑は阪神・淡路大震災の追悼碑と同じ公園にあるので、静かに。今の池にホタルはおらず、防空壕も残っていない。周囲は住宅街なので、大声や民家の撮影は控えて。",
+     "searchTerms": [
+      "ニテコ池",
+      "満池谷",
+      "横穴壕",
+      "蛍"
+     ]
     },
     "en": {
      "placeName": "Nishinomiya Earthquake Memorial Park & Niteko Pond (Hyōgo)",
@@ -1184,7 +1404,13 @@
      "access": "From Kurakuenguchi Station (Hankyū Kōyō Line) head east and walk about 700 m uphill through the residential streets (10 min) to the memorial park beside the entrance to Manchidani Cemetery",
      "accessPointName": "Kurakuenguchi Sta.",
      "bestTime": "Early-summer evenings are soft-lit and quiet, good for simply standing a while; coming around mid-August, the anniversary of the war’s end, also feels fitting. It’s residential, so avoid early mornings and night",
-     "tips": "The stone shares the park with a memorial to the 1995 earthquake victims: please be respectful. There are no fireflies at the pond now and the shelter is long gone. It’s surrounded by homes, so keep quiet and don’t photograph houses."
+     "tips": "The stone shares the park with a memorial to the 1995 earthquake victims: please be respectful. There are no fireflies at the pond now and the shelter is long gone. It’s surrounded by homes, so keep quiet and don’t photograph houses.",
+     "searchTerms": [
+      "Niteko Pond",
+      "Manchidani",
+      "shelter cave",
+      "fireflies"
+     ]
     },
     "ko": {
      "placeName": "니시노미야 지진 기념비 공원·니테코 연못 (효고·니시노미야)",
@@ -1195,7 +1421,12 @@
      "access": "한큐 고요선 ‘구라쿠엔구치’역에서 동쪽으로, 주택가 비탈길을 약 700m 올라 도보 약 10분이면 만치다니 묘지 입구 옆 기념비 공원",
      "accessPointName": "구라쿠엔구치역",
      "bestTime": "초여름 저녁은 빛이 부드럽고 조용해 잠시 머물기 좋다. 8월 종전기념일 무렵 추모하러 오는 것도 의미 있다. 주택가이니 이른 아침과 밤은 피하자",
-     "tips": "기념비는 한신·아와지 대지진 희생자 추모비와 같은 공원에 있으니 조용히 하자. 지금 연못에는 반딧불이 없고 방공호도 남아 있지 않다. 주변이 주택가이니 떠들거나 민가를 촬영하지 말자."
+     "tips": "기념비는 한신·아와지 대지진 희생자 추모비와 같은 공원에 있으니 조용히 하자. 지금 연못에는 반딧불이 없고 방공호도 남아 있지 않다. 주변이 주택가이니 떠들거나 민가를 촬영하지 말자.",
+     "searchTerms": [
+      "니테코 연못",
+      "방공호",
+      "반딧불이"
+     ]
     }
    }
   },
@@ -1227,7 +1458,12 @@
      "access": "JR神户线「三之宫」站出检票口即到；与阪急、阪神「神户三宫」站及地铁「三宫」站相邻，换乘步行约2–3分钟",
      "accessPointName": "JR三之宫站",
      "bestTime": "傍晚到夜里车站亮灯后最接近开场的氛围；早晚通勤高峰人潮汹涌，建议避开7–9点和17–19点",
-     "tips": "这里是神户最繁忙的车站之一，请勿在通道停留或架设三脚架；进入检票口内需购票。现在的车站与战后的样子已截然不同，没有可对照的具体机位。"
+     "tips": "这里是神户最繁忙的车站之一，请勿在通道停留或架设三脚架；进入检票口内需购票。现在的车站与战后的样子已截然不同，没有可对照的具体机位。",
+     "searchTerms": [
+      "三宫站",
+      "开场",
+      "水果糖罐"
+     ]
     },
     "ja": {
      "placeName": "JR三ノ宮駅（兵庫・神戸）",
@@ -1238,7 +1474,13 @@
      "access": "JR神戸線「三ノ宮」駅の改札を出てすぐ。阪急・阪神「神戸三宮」駅、地下鉄「三宮」駅とも隣接し、徒歩約2〜3分",
      "accessPointName": "JR三ノ宮駅",
      "bestTime": "日が暮れて駅に明かりが灯る夕方から夜が、冒頭の雰囲気にいちばん近い。朝夕の通勤ラッシュ（7〜9時、17〜19時ごろ）は避けたい",
-     "tips": "神戸有数の混雑駅なので、通路で立ち止まったり三脚を立てたりしないこと。改札内に入るには乗車券が必要。今の駅舎は戦後当時とはまったく異なり、作中と同じ構図の場所は残っていない。"
+     "tips": "神戸有数の混雑駅なので、通路で立ち止まったり三脚を立てたりしないこと。改札内に入るには乗車券が必要。今の駅舎は戦後当時とはまったく異なり、作中と同じ構図の場所は残っていない。",
+     "searchTerms": [
+      "三ノ宮駅",
+      "冒頭シーン",
+      "駅の柱",
+      "ドロップ缶"
+     ]
     },
     "en": {
      "placeName": "JR Sannomiya Station (Kobe, Hyōgo)",
@@ -1249,7 +1491,12 @@
      "access": "Right outside the ticket gates of JR Sannomiya Station (JR Kobe Line). The Hankyū and Hanshin Kobe-Sannomiya stations and the subway’s Sannomiya Station are all 2–3 min away on foot",
      "accessPointName": "JR Sannomiya Sta.",
      "bestTime": "Dusk into night, once the station lights are on, comes closest to the opening scene. Avoid the rush hours, roughly 7–9 am and 5–7 pm",
-     "tips": "One of Kobe’s busiest stations: don’t stop in walkways or set up tripods, and you’ll need a ticket to go beyond the gates. Today’s station looks nothing like the postwar one, so there’s no exact matching camera angle."
+     "tips": "One of Kobe’s busiest stations: don’t stop in walkways or set up tripods, and you’ll need a ticket to go beyond the gates. Today’s station looks nothing like the postwar one, so there’s no exact matching camera angle.",
+     "searchTerms": [
+      "Sannomiya Station",
+      "opening scene",
+      "candy tin"
+     ]
     },
     "ko": {
      "placeName": "JR 산노미야역 (효고·고베)",
@@ -1260,7 +1507,12 @@
      "access": "JR 고베선 ‘산노미야’역 개찰구를 나오면 바로. 한큐·한신 ‘고베산노미야’역, 지하철 ‘산노미야’역과도 붙어 있어 도보 약 2~3분",
      "accessPointName": "JR 산노미야역",
      "bestTime": "해가 지고 역에 불이 켜지는 저녁부터 밤이 영화 첫 장면 분위기에 가장 가깝다. 출퇴근 혼잡 시간(7~9시, 17~19시 무렵)은 피하자",
-     "tips": "고베에서 손꼽히게 붐비는 역이니 통로에 멈춰 서거나 삼각대를 세우지 말자. 개찰구 안으로 들어가려면 승차권이 필요하다. 지금의 역은 전후 당시와 전혀 달라, 작중과 똑같은 구도의 장소는 남아 있지 않다."
+     "tips": "고베에서 손꼽히게 붐비는 역이니 통로에 멈춰 서거나 삼각대를 세우지 말자. 개찰구 안으로 들어가려면 승차권이 필요하다. 지금의 역은 전후 당시와 전혀 달라, 작중과 똑같은 구도의 장소는 남아 있지 않다.",
+     "searchTerms": [
+      "산노미야역",
+      "오프닝 장면",
+      "사탕 깡통"
+     ]
     }
    }
   },
@@ -1291,7 +1543,12 @@
      "access": "JR仙山线「高濑」站出站后往东南，沿乡间道路步行约1.5公里、约20分钟到红花田一带；7月上旬红花节期间车站有免费接驳巴士",
      "accessPointName": "高濑站",
      "bestTime": "7月上旬盛花期的清晨，花瓣带着露水，最像片中采花的场景；白天日照强、气温高。红花节周末人多",
-     "tips": "红花田多为农户私有，请勿进入田里或采摘；想体验采花，可参加7月上旬的“山形红花节”（主会场高濑红花交流中心）。夏季日照强，注意防晒补水。"
+     "tips": "红花田多为农户私有，请勿进入田里或采摘；想体验采花，可参加7月上旬的“山形红花节”（主会场高濑红花交流中心）。夏季日照强，注意防晒补水。",
+     "searchTerms": [
+      "高濑 红花田",
+      "摘红花",
+      "山形"
+     ]
     },
     "ja": {
      "placeName": "高瀬地区の紅花畑（山形・山形市）",
@@ -1302,7 +1559,12 @@
      "access": "JR仙山線「高瀬」駅から南東へ、田園の道を約1.5km・徒歩約20分で紅花畑の一帯。7月上旬の紅花まつり期間は駅から無料送迎バスあり",
      "accessPointName": "高瀬駅",
      "bestTime": "7月上旬の満開期の早朝、花びらに朝露が残る時間が作中の紅花摘みにいちばん近い。日中は日差しが強く暑い。紅花まつりの週末は混雑",
-     "tips": "紅花畑の多くは農家の私有地なので、畑に入ったり摘んだりしないこと。紅花摘みを体験したいなら、7月上旬の「山形紅花まつり」（メイン会場は高瀬紅花ふれあいセンター）へ。夏は日差しが強いので熱中症対策を。"
+     "tips": "紅花畑の多くは農家の私有地なので、畑に入ったり摘んだりしないこと。紅花摘みを体験したいなら、7月上旬の「山形紅花まつり」（メイン会場は高瀬紅花ふれあいセンター）へ。夏は日差しが強いので熱中症対策を。",
+     "searchTerms": [
+      "高瀬 紅花畑",
+      "紅花摘み",
+      "山形 高瀬"
+     ]
     },
     "en": {
      "placeName": "Takase Safflower Fields (Yamagata City, Yamagata)",
@@ -1313,7 +1575,12 @@
      "access": "From Takase Station (JR Senzan Line) walk southeast along country roads about 1.5 km (20 min) to the safflower fields. During the early-July safflower festival, free shuttle buses run from the station",
      "accessPointName": "Takase Sta.",
      "bestTime": "Early morning in peak bloom (early July), with dew still on the petals, is closest to the picking scene. Midday sun is strong and hot, and festival weekends get busy",
-     "tips": "Most fields are private farmland: don’t walk into them or pick flowers. To try picking, join the Yamagata Safflower Festival in early July (main venue: Takase Benibana Fureai Center). Summer sun is fierce, so bring sun protection and water."
+     "tips": "Most fields are private farmland: don’t walk into them or pick flowers. To try picking, join the Yamagata Safflower Festival in early July (main venue: Takase Benibana Fureai Center). Summer sun is fierce, so bring sun protection and water.",
+     "searchTerms": [
+      "Takase safflower field",
+      "safflower picking",
+      "Yamagata"
+     ]
     },
     "ko": {
      "placeName": "다카세 지구 홍화밭 (야마가타·야마가타시)",
@@ -1324,7 +1591,12 @@
      "access": "JR 센잔선 ‘다카세’역에서 남동쪽으로 시골길을 약 1.5km, 도보 약 20분이면 홍화밭 일대. 7월 초 홍화 축제 기간에는 역에서 무료 셔틀버스가 다닌다",
      "accessPointName": "다카세역",
      "bestTime": "7월 초 만개 시기의 이른 아침, 꽃잎에 이슬이 맺혀 있을 때가 작중 홍화 따는 장면과 가장 닮았다. 한낮은 햇볕이 강하고 덥다. 홍화 축제 주말은 붐빈다",
-     "tips": "홍화밭 대부분은 농가의 사유지이니 밭에 들어가거나 꽃을 따지 말자. 직접 따 보고 싶다면 7월 초 ‘야마가타 홍화 축제’(메인 회장: 다카세 홍화 후레아이 센터)에 참가하면 된다. 여름 햇볕이 강하니 자외선 차단과 수분 보충을."
+     "tips": "홍화밭 대부분은 농가의 사유지이니 밭에 들어가거나 꽃을 따지 말자. 직접 따 보고 싶다면 7월 초 ‘야마가타 홍화 축제’(메인 회장: 다카세 홍화 후레아이 센터)에 참가하면 된다. 여름 햇볕이 강하니 자외선 차단과 수분 보충을.",
+     "searchTerms": [
+      "다카세 잇꽃밭",
+      "잇꽃 따기",
+      "야마가타"
+     ]
     }
    }
   },
@@ -1359,7 +1631,12 @@
      "access": "弘南铁道弘南线「津轻尾上」站出站往西步行约800米、约10分钟到盛美园入口",
      "accessPointName": "津轻尾上站",
      "bestTime": "开园后的上午人少、光线柔和；初夏新绿或10月红叶时庭园最美，雨后或阴天青苔颜色最鲜亮",
-     "tips": "收费入园（夏季大人500日元），4月中旬–9月9:00–17:00，10月–11月中旬至16:30；11月下旬–4月上旬为预约制短时开放。盛美馆二楼仅特别方案开放，请勿踩踏青苔。"
+     "tips": "收费入园（夏季大人500日元），4月中旬–9月9:00–17:00，10月–11月中旬至16:30；11月下旬–4月上旬为预约制短时开放。盛美馆二楼仅特别方案开放，请勿踩踏青苔。",
+     "searchTerms": [
+      "盛美园",
+      "盛美馆",
+      "洋馆"
+     ]
     },
     "ja": {
      "placeName": "盛美園・盛美館（青森・平川）",
@@ -1370,7 +1647,13 @@
      "access": "弘南鉄道弘南線「津軽尾上」駅から西へ約800m・徒歩約10分で盛美園の入口",
      "accessPointName": "津軽尾上駅",
      "bestTime": "開園直後の午前は人が少なく光もやわらか。初夏の新緑や10月の紅葉の頃が庭園の見頃で、雨上がりや曇りの日は苔の色がいっそう鮮やか",
-     "tips": "有料（夏季は大人500円）。4月中旬〜9月は9:00〜17:00、10月〜11月中旬は16:30まで。11月下旬〜4月上旬は予約制で時間短縮。盛美館2階は特別プランのみ公開。苔は踏まないで。"
+     "tips": "有料（夏季は大人500円）。4月中旬〜9月は9:00〜17:00、10月〜11月中旬は16:30まで。11月下旬〜4月上旬は予約制で時間短縮。盛美館2階は特別プランのみ公開。苔は踏まないで。",
+     "searchTerms": [
+      "盛美園",
+      "盛美館",
+      "洋館",
+      "庭園"
+     ]
     },
     "en": {
      "placeName": "Seibi-en Garden & Seibikan (Hirakawa, Aomori)",
@@ -1381,7 +1664,12 @@
      "access": "From Tsugaru-Onoe Station (Kōnan Railway Kōnan Line) walk west about 800 m (10 min) to the Seibien entrance",
      "accessPointName": "Tsugaru-Onoe Sta.",
      "bestTime": "Mornings just after opening are quiet with soft light. The garden is loveliest in early-summer green or October colour, and the moss is brightest after rain or under cloud",
-     "tips": "Paid entry (¥500 for adults in season). Open 9:00–17:00 mid-April to September and until 16:30 October to mid-November; from late November to early April it opens shorter hours by reservation only. The Seibikan’s upper floor opens only on special tours. Please don’t step on the moss."
+     "tips": "Paid entry (¥500 for adults in season). Open 9:00–17:00 mid-April to September and until 16:30 October to mid-November; from late November to early April it opens shorter hours by reservation only. The Seibikan’s upper floor opens only on special tours. Please don’t step on the moss.",
+     "searchTerms": [
+      "Seibien",
+      "Seibikan",
+      "Western-style house"
+     ]
     },
     "ko": {
      "placeName": "세이비엔·세이비칸 (아오모리·히라카와)",
@@ -1392,7 +1680,12 @@
      "access": "고난철도 고난선 ‘쓰가루오노에’역에서 서쪽으로 약 800m, 도보 약 10분 걸으면 세이비엔 입구",
      "accessPointName": "쓰가루오노에역",
      "bestTime": "개원 직후 오전은 한산하고 빛이 부드럽다. 초여름 신록이나 10월 단풍 때 정원이 가장 아름답고, 비 온 뒤나 흐린 날 이끼 색이 더 선명하다",
-     "tips": "유료(성수기 성인 500엔). 4월 중순~9월 9:00~17:00, 10월~11월 중순은 16:30까지. 11월 하순~4월 초순은 예약제로 단축 운영. 세이비칸 2층은 특별 플랜으로만 공개. 이끼를 밟지 말자."
+     "tips": "유료(성수기 성인 500엔). 4월 중순~9월 9:00~17:00, 10월~11월 중순은 16:30까지. 11월 하순~4월 초순은 예약제로 단축 운영. 세이비칸 2층은 특별 플랜으로만 공개. 이끼를 밟지 말자.",
+     "searchTerms": [
+      "세이비엔",
+      "세이비칸",
+      "양관"
+     ]
     }
    }
   }

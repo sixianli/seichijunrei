@@ -188,6 +188,7 @@ struct SpotHeroImage: View {
     @State private var checkedLookAround = false
     /// 有插画时，用户点了“看实景”
     @State private var showingRealPhoto = false
+    @State private var showSearch = false
 
     private enum Source { case illustration, photo, community, lookAround, satellite }
     @Environment(\.openURL) private var openURL
@@ -265,29 +266,32 @@ struct SpotHeroImage: View {
                     .accessibilityIdentifier("heroToggle")
                 }
             }
-            // 封面下方：左边是图片来源，右边是“看原作画面”（不盖在图上，免得挡住画面）
+            // 封面下方：左边是图片来源（ⓘ 里说明原作画面为什么没收录），右边是“看原作画面”（不盖在图上）
             HStack(alignment: .center, spacing: 10) {
-                VStack(alignment: .leading, spacing: 2) {
+                HStack(spacing: 4) {
                     if source == .illustration, let ill = spot.illustration { IllustrationCredit(illustration: ill) }
                     if source == .photo, let photo = spot.photo { PhotoCredit(photo: photo) }
-                    Text(L("detail.originalNotIncluded"))
-                        .font(.caption2)
-                        .foregroundStyle(.secondary)
-                        .fixedSize(horizontal: false, vertical: true)
+                    InfoButton(text: L("detail.originalNotIncluded"))
                 }
                 Spacer(minLength: 0)
-                Button {
-                    if let url = SceneSearchLink.url(for: spot, country: location.countryCode) { openURL(url) }
-                } label: {
+                Button { showSearch = true } label: {
                     Label(L("detail.searchOriginal"), systemImage: "magnifyingglass")
                         .font(.footnote.bold())
-                        .padding(.horizontal, 12).padding(.vertical, 8)
+                        .padding(.horizontal, 12).padding(.vertical, 7)
                         .background(Color.accentColor.opacity(0.14), in: Capsule())
                         .foregroundStyle(Color.accentColor)
                         .fixedSize()
                 }
                 .buttonStyle(.plain)
                 .accessibilityIdentifier("searchScene")
+                .confirmationDialog(L("detail.searchOriginalTitle"), isPresented: $showSearch, titleVisibility: .visible) {
+                    ForEach(SceneSearchLink.options(for: spot, country: location.countryCode), id: \.query) { opt in
+                        Button(opt.query) { if let url = SceneSearchLink.url(opt) { openURL(url) } }
+                    }
+                    Button(L("common.cancel"), role: .cancel) {}
+                } message: {
+                    Text(L("detail.searchOriginalHint"))
+                }
             }
         }
         .task(id: spot.id) {
@@ -359,17 +363,45 @@ final class MapSnapshotCache {
 }
 
 /// “网上搜这一幕”：搜索引擎按用户所在国家（定位优先，没有定位用手机地区设置），
-/// 搜索词是作品名 + 这一幕的标题（界面语言和日语各一份），搜到的才是这一幕
+/// 搜索词用和搜索引擎匹配的一种语言：作品名 + 粉丝常用的地点 / 场景关键词 + 巡礼词，给出几条让用户挑
 enum SceneSearchLink {
     @MainActor
-    static func url(for spot: Spot, country: String?) -> URL? {
-        let lang = AppLanguage.current
-        let jaTitle = spot.translations["ja"]?.sceneTitle ?? spot.sceneTitle
-        let localized = spot.localized(to: lang)
-        let query = SceneImageSearch.query(originalWork: spot.work, japaneseSceneTitle: jaTitle,
-                                           localizedWork: localized.workLocalized,
-                                           sceneTitle: localized.sceneTitle)
-        let region = country ?? Locale.current.region?.identifier
-        return SceneImageSearch.url(query: query, engine: SceneImageSearch.engine(country: region))
+    static func options(for spot: Spot, country: String?) -> [SceneImageSearch.Option] {
+        let engine = SceneImageSearch.engine(country: country ?? Locale.current.region?.identifier)
+        let lang = SceneImageSearch.language(for: engine, userLanguage: AppLanguage.current)
+        let s = spot.localized(to: lang)
+        let work = lang == "ja" ? spot.work : (s.workLocalized ?? spot.work)
+        return SceneImageSearch.options(work: work, terms: s.searchTerms, place: s.placeName,
+                                        language: lang, engine: engine)
+    }
+
+    static func url(_ option: SceneImageSearch.Option) -> URL? {
+        SceneImageSearch.url(query: option.query, engine: option.engine)
+    }
+}
+
+/// 小小的 ⓘ：点开才显示说明，页面上不堆小字
+struct InfoButton: View {
+    let text: String
+    @State private var showing = false
+
+    var body: some View {
+        Button { showing = true } label: {
+            Image(systemName: "info.circle")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .frame(minWidth: 28, minHeight: 28)
+                .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel(L("common.moreInfo"))
+        .popover(isPresented: $showing) {
+            Text(text)
+                .font(.callout)
+                .padding()
+                .frame(idealWidth: 280)
+                .fixedSize(horizontal: false, vertical: true)
+                .presentationCompactAdaptation(.popover)
+        }
     }
 }

@@ -14,6 +14,7 @@ struct SpotDetailView: View {
     @Environment(PilgrimageStore.self) private var pilgrimage
     @State private var showShare = false
     @State private var showCalibration = false
+    @State private var showActionHelp = false
 
     private var info: NearbySpot? { store.nearbyInfo(for: spot) }
     private var arrived: Bool { info?.hasArrived(accuracy: location.lastLocation?.horizontalAccuracy ?? 0) ?? false }
@@ -113,22 +114,63 @@ struct SpotDetailView: View {
     // MARK: 两个同等重要的入口：拍风景 / 自己入镜
 
     private var actions: some View {
-        VStack(spacing: 10) {
+        VStack(spacing: 6) {
             HStack(spacing: 10) {
-                ActionCard(title: arrived ? L("detail.enterScene") : L("detail.startGuide"),
-                           subtitle: spot.kind == .landmark ? L("detail.landmarkSubtitle") : L("detail.recreateSubtitle"),
-                           systemImage: "camera.viewfinder", tint: spot.tintColor,
-                           identifier: "enterScene", action: onEnterScene)
-                ActionCard(title: L("detail.photographer"),
-                           subtitle: L("detail.photographerSubtitle"),
-                           systemImage: "person.crop.rectangle.badge.plus", tint: Color(red: 0.2, green: 0.22, blue: 0.3),
-                           identifier: "openPhotographer", action: onPhotographer)
+                Button(action: onEnterScene) {
+                    Label(arrived ? L("detail.enterScene") : L("detail.startGuide"), systemImage: "camera.viewfinder")
+                        .font(.subheadline.weight(.bold))
+                        .lineLimit(1).minimumScaleFactor(0.8)
+                        .frame(maxWidth: .infinity, minHeight: 46)
+                        .foregroundStyle(.white)
+                        .background(spot.tintColor, in: Capsule())
+                        .contentShape(Capsule())
+                }
+                .buttonStyle(.plain)
+                .accessibilityIdentifier("enterScene")
+                Button(action: onPhotographer) {
+                    Label(L("detail.photographer"), systemImage: "person.crop.rectangle.badge.plus")
+                        .font(.subheadline.weight(.bold))
+                        .lineLimit(1).minimumScaleFactor(0.8)
+                        .frame(maxWidth: .infinity, minHeight: 46)
+                        .foregroundStyle(spot.tintColor)
+                        .background(spot.tintColor.opacity(0.14), in: Capsule())
+                        .contentShape(Capsule())
+                }
+                .buttonStyle(.plain)
+                .accessibilityIdentifier("openPhotographer")
             }
-            Text(actionHint)
-                .font(.caption)
-                .foregroundStyle(.secondary)
-                .multilineTextAlignment(.center)
-                .frame(maxWidth: .infinity)
+            // 说明收起来：点开才看，页面上不堆小字
+            Button { showActionHelp = true } label: {
+                Label(L("detail.actionsHelp"), systemImage: "info.circle")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(spot.tintColor)
+                    .frame(minHeight: 28)
+            }
+            .buttonStyle(.plain)
+            .accessibilityIdentifier("actionsHelp")
+            .popover(isPresented: $showActionHelp) {
+                VStack(alignment: .leading, spacing: 12) {
+                    Label {
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(arrived ? L("detail.enterScene") : L("detail.startGuide")).font(.subheadline.bold())
+                            Text(spot.kind == .landmark ? L("detail.landmarkSubtitle") : L("detail.recreateSubtitle"))
+                                .font(.callout).foregroundStyle(.secondary)
+                        }
+                    } icon: { Image(systemName: "camera.viewfinder").foregroundStyle(spot.tintColor) }
+                    Label {
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(L("detail.photographer")).font(.subheadline.bold())
+                            Text(L("detail.photographerSubtitle")).font(.callout).foregroundStyle(.secondary)
+                        }
+                    } icon: { Image(systemName: "person.crop.rectangle.badge.plus").foregroundStyle(spot.tintColor) }
+                    Divider()
+                    Text(actionHint).font(.footnote).foregroundStyle(.secondary)
+                }
+                .padding()
+                .frame(idealWidth: 300)
+                .fixedSize(horizontal: false, vertical: true)
+                .presentationCompactAdaptation(.popover)
+            }
         }
     }
 
@@ -208,45 +250,6 @@ struct SpotDetailView: View {
 }
 
 // MARK: - 组件
-
-/// 两个主入口之一：大图标 + 标题 + 一行说明，实心填充，同等分量
-private struct ActionCard: View {
-    let title: String
-    let subtitle: String
-    let systemImage: String
-    let tint: Color
-    let identifier: String
-    let action: () -> Void
-
-    var body: some View {
-        Button(action: action) {
-            VStack(alignment: .leading, spacing: 8) {
-                Image(systemName: systemImage)
-                    .font(.system(size: 26, weight: .semibold))
-                Text(title)
-                    .font(.headline)
-                    .lineLimit(2)
-                    .minimumScaleFactor(0.85)
-                    .fixedSize(horizontal: false, vertical: true)
-                Text(subtitle)
-                    .font(.caption)
-                    .opacity(0.9)
-                    .lineLimit(3)
-                    .fixedSize(horizontal: false, vertical: true)
-                Spacer(minLength: 0)
-            }
-            .foregroundStyle(.white)
-            .padding(14)
-            .frame(maxWidth: .infinity, minHeight: 140, alignment: .topLeading)
-            .background(tint.gradient, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
-            .contentShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
-        }
-        .buttonStyle(.plain)
-        .accessibilityElement(children: .combine)
-        .accessibilityAddTraits(.isButton)
-        .accessibilityIdentifier(identifier)
-    }
-}
 
 /// 详情页的方位：箭头跟着手机罗盘实时转动，文字给出东南西北和“右后方”这样的相对方向
 struct LiveDirectionRow: View {

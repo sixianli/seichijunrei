@@ -137,12 +137,13 @@ final class CommunityService {
     private func reportedTargets(_ ids: [String]) async -> Set<String> {
         guard !ids.isEmpty else { return [] }
         let query = CKQuery(recordType: RecordType.report, predicate: NSPredicate(format: "targetID IN %@", ids))
-        guard let records = try? await allRecords(query, keys: ["targetID"]) else { return [] }
-        let pairs = records.compactMap { r -> (target: String, reporter: String)? in
+        guard let records = try? await allRecords(query, keys: ["targetID", "reason"]) else { return [] }
+        let reports = records.compactMap { r -> (target: String, reporter: String, reason: String)? in
             guard let t = r["targetID"] as? String else { return nil }
-            return (t, r.creatorUserRecordID?.recordName ?? r.recordID.recordName)
+            return (t, r.creatorUserRecordID?.recordName ?? r.recordID.recordName, r["reason"] as? String ?? "")
         }
-        return ReportPolicy.hiddenTargets(pairs)
+        // 以“侵犯版权”举报 1 次就先隐藏，其他原因 3 人
+        return ReportPolicy.hiddenTargets(reports)
     }
 
     // MARK: - 上传
@@ -234,6 +235,11 @@ final class CommunityService {
         return spot.workTitle + " " + spot.quotedSceneTitle
     }
 
+    /// 我上传的照片有被隐藏过（违规）：不能再上传
+    var uploadsBlocked: Bool {
+        mySubmissions.contains { $0.resolvedKind == .photo && $0.status == "hidden" }
+    }
+
     /// 刷新我的投稿的审核状态
     func refreshMySubmissions() async {
         if fake { return }
@@ -250,6 +256,15 @@ final class CommunityService {
                 }
             }
             persistMySubmissions()
+        }
+        // 我的照片被举报隐藏（含版权举报）也算违规
+        let photoIDs = mySubmissions.filter { $0.resolvedKind == .photo && $0.status == "visible" }.map(\.id)
+        let hidden = await reportedTargets(photoIDs)
+        if !hidden.isEmpty {
+            await MainActor.run {
+                for i in mySubmissions.indices where hidden.contains(mySubmissions[i].id) { mySubmissions[i].status = "hidden" }
+                persistMySubmissions()
+            }
         }
     }
 
@@ -281,6 +296,12 @@ final class CommunityService {
         r["targetID"] = targetID
         r["reason"] = reason
         return await save(r)
+    }
+
+    /// 版权举报后，这张照片在本机立即隐藏（其他人重新加载时也会因版权举报被隐藏）
+    @MainActor
+    func hideLocally(_ photo: CommunityPhoto) {
+        photosBySpot[photo.spotID]?.removeAll { $0.id == photo.id }
     }
 
     /// 屏蔽某位用户：他的照片和投稿在本机都不再显示

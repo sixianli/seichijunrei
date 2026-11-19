@@ -115,4 +115,39 @@ public enum ReportPolicy {
         for r in reports { reporters[r.target, default: []].insert(r.reporter) }
         return Set(reporters.filter { $0.value.count >= threshold }.keys)
     }
+
+    /// 带举报原因的版本：以“侵犯版权”举报 1 次就先隐藏（版权风险最高，等人工复核），其他原因仍要 3 人
+    public static func hiddenTargets(_ reports: [(target: String, reporter: String, reason: String)],
+                                     threshold: Int = hideThreshold) -> Set<String> {
+        let copyright = Set(reports.filter { $0.reason == copyrightReason }.map(\.target))
+        return copyright.union(hiddenTargets(reports.map { (target: $0.target, reporter: $0.reporter) }, threshold: threshold))
+    }
+
+    public static let copyrightReason = "copyright"
+}
+
+/// 上传照片的来源检查：只收“在现场用相机拍的原图”
+public enum PhotoProvenance: Equatable, Sendable {
+    case ok
+    /// 系统截图
+    case screenshot
+    /// 没有相机信息：网上下载、微信保存、编辑导出的图
+    case noCamera
+    /// 没有拍摄位置
+    case noLocation
+    /// 不是在名场面附近拍的（例如在家翻拍屏幕）
+    case tooFar(meters: Double)
+
+    /// App 里自己的相机拍的：拍摄时就在现场，直接通过
+    public static func check(isInAppCapture: Bool, isScreenshot: Bool, cameraMake: String?, cameraModel: String?,
+                             photoLocation: GeoPoint?, spot: GeoPoint, maxDistance: Double = 1000) -> PhotoProvenance {
+        if isInAppCapture { return .ok }
+        if isScreenshot { return .screenshot }
+        let make = (cameraMake ?? "").trimmingCharacters(in: .whitespaces)
+        let model = (cameraModel ?? "").trimmingCharacters(in: .whitespaces)
+        if make.isEmpty && model.isEmpty { return .noCamera }
+        guard let loc = photoLocation else { return .noLocation }
+        let d = GeoMath.distance(from: loc, to: spot)
+        return d <= maxDistance ? .ok : .tooFar(meters: d)
+    }
 }
