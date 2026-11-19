@@ -44,13 +44,16 @@ final class JourneyTests: XCTestCase {
         XCTAssertEqual(SceneImageSearch.engine(country: "JP"), .google)
         XCTAssertEqual(SceneImageSearch.engine(country: "TW"), .google)
         XCTAssertEqual(SceneImageSearch.engine(country: nil), .google)
-        let q = SceneImageSearch.query(originalWork: "天気の子", japaneseSceneTitle: "大丈夫だよ",
-                                       localizedWork: "天气之子", sceneTitle: "我们一定没问题的")
-        XCTAssertEqual(q, "天气之子 我们一定没问题的 天気の子 大丈夫だよ")
-        // 日语界面：译名为空，标题相同的去重
-        let ja = SceneImageSearch.query(originalWork: "君の名は。", japaneseSceneTitle: "階段での再会",
-                                        localizedWork: nil, sceneTitle: "階段での再会")
-        XCTAssertEqual(ja, "君の名は。 階段での再会")
+        let opts = SceneImageSearch.options(work: "天気の子", terms: ["気象神社", "天井画", "晴れ女"], place: nil,
+                                            language: "ja", engine: .google)
+        XCTAssertEqual(opts.map(\.query), ["天気の子 気象神社 聖地巡礼 比較", "天気の子 天井画", "天気の子 晴れ女",
+                                            "天気の子 気象神社 天井画"])
+        // 关键词缺失时用地名兜底
+        let fallback = SceneImageSearch.options(work: "天气之子", terms: [], place: "高円寺 冰川神社（东京）",
+                                                language: "zh-Hans", engine: .baidu)
+        XCTAssertEqual(fallback.map(\.query), ["天气之子 高円寺 冰川神社 圣地巡礼 对比"])
+        XCTAssertEqual(SceneImageSearch.language(for: .baidu, userLanguage: "en"), "zh-Hans")
+        XCTAssertEqual(SceneImageSearch.language(for: .google, userLanguage: "zh-Hans"), "ja")
         XCTAssertEqual(SceneImageSearch.url(query: "a b", engine: .naver)?.host, "search.naver.com")
         XCTAssertEqual(SceneImageSearch.url(query: "a b", engine: .baidu)?.host, "image.baidu.com")
         XCTAssertTrue(SceneImageSearch.url(query: "a b", engine: .google)!.absoluteString.contains("tbm=isch"))

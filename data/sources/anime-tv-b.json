@@ -294,7 +294,12 @@
      "access": "西武池袋线「石神井公园」站南口出，沿商店街往南约 5 分钟到石神井池，再沿池北岸一直往西走到井草通，过马路即到。约 1.2 公里、步行 15 分钟。",
      "bestTime": "樱花满开时的晴天，上午到午后逆光看花瓣最通透，最接近片中的光感；周末人潮汹涌，想拍空景请选平日早上。",
      "tips": "都立公园，免费入园、全天开放；服务中心 8:30–17:30。都立公园内禁止使用无人机。赏樱季步道拥挤，请勿堵住通道或铺开三脚架拍照。",
-     "accessPointName": "石神井公园站 南口"
+     "accessPointName": "石神井公园站 南口",
+     "searchTerms": [
+      "石神井公园",
+      "口风琴 薰",
+      "樱花 相遇"
+     ]
     },
     "ja": {
      "placeName": "石神井公園 サービスセンター付近の広場（東京・練馬）",
@@ -305,7 +310,12 @@
      "access": "西武池袋線「石神井公園」駅南口から商店街を南へ約5分で石神井池。池の北岸を西へ進み、井草通りを渡ればすぐ。約1.2km、徒歩15分。",
      "bestTime": "満開の晴れた日の午前〜昼過ぎ。逆光で花びらが透けて、作中の光にいちばん近い。週末は大混雑なので、人のいない画は平日の朝に。",
      "tips": "都立公園で入園無料・常時開放、サービスセンターは8:30〜17:30。都立公園内でのドローン使用は禁止。花見シーズンは園路が混むので、通路をふさぐ撮影や三脚の使用は控えて。",
-     "accessPointName": "石神井公園駅 南口"
+     "accessPointName": "石神井公園駅 南口",
+     "searchTerms": [
+      "石神井公園",
+      "ピアニカ かをり",
+      "桜 出会い"
+     ]
     },
     "en": {
      "placeName": "Plaza by the park office, Shakujii Park (Nerima, Tokyo)",
@@ -316,7 +326,12 @@
      "access": "From the South Exit of Shakujii-kōen Station (Seibu Ikebukuro Line), walk south through the shopping street to Shakujii Pond (5 min), then west along its north shore and cross Igusa-dōri. About 1.2 km, 15 min.",
      "bestTime": "A sunny day at peak bloom, late morning to early afternoon, when backlit petals glow like the anime. Weekends are packed — go on a weekday morning for an empty shot.",
      "tips": "A free, always-open metropolitan park; the service centre is open 8:30–17:30. Drones are banned in Tokyo metropolitan parks. Paths are jammed in cherry season — don't block them or set up tripods.",
-     "accessPointName": "Shakujii-kōen Sta. South Exit"
+     "accessPointName": "Shakujii-kōen Sta. South Exit",
+     "searchTerms": [
+      "Shakujii Park",
+      "Kaori melodica",
+      "cherry blossom meeting"
+     ]
     },
     "ko": {
      "placeName": "샤쿠지이 공원 관리사무소 옆 광장(도쿄·네리마)",
@@ -327,7 +342,12 @@
      "access": "세이부 이케부쿠로선 샤쿠지이코엔역 남쪽 출구에서 상점가를 따라 남쪽으로 약 5분 가면 샤쿠지이 연못. 연못 북쪽 기슭을 따라 서쪽으로 가다 이구사 거리를 건너면 바로다. 약 1.2km, 도보 15분.",
      "bestTime": "만개한 맑은 날 오전~이른 오후. 역광에 꽃잎이 비쳐 작중 빛에 가장 가깝다. 주말은 매우 붐비니 사람 없는 사진은 평일 아침에.",
      "tips": "도립공원으로 입장 무료·상시 개방, 서비스센터는 8:30~17:30. 도립공원 내 드론 사용은 금지. 벚꽃 시즌에는 산책로가 붐비니 통로를 막거나 삼각대를 펴지 말자.",
-     "accessPointName": "샤쿠지이코엔역 남쪽 출구"
+     "accessPointName": "샤쿠지이코엔역 남쪽 출구",
+     "searchTerms": [
+      "샤쿠지이 공원",
+      "카오리 멜로디언",
+      "벚꽃 첫 만남"
+     ]
     }
    }
   },
@@ -360,7 +380,13 @@
      "access": "站前广场就在 JR 人吉站正门外。JR 肥萨线仍有区段停运，从熊本多乘高速巴士（约 1.5–2 小时）；くま川铁道 2026 年 9 月已全线恢复。",
      "bestTime": "夏日傍晚，木造站房染上夕阳最有剧中气氛；入夜后站前有时会投影夏目角色影绘。列车班次少，车与车之间人最少。",
      "tips": "这是仍在运营的车站，请勿在检票口和站台妨碍乘客；进站内拍摄前先向站务员打招呼。JR 肥萨线部分停运，出发前务必确认最新交通。",
-     "accessPointName": "人吉站 站房正门"
+     "accessPointName": "人吉站 站房正门",
+     "searchTerms": [
+      "人吉站",
+      "检票口 千津",
+      "不死之思",
+      "木造站房"
+     ]
     },
     "ja": {
      "placeName": "JR人吉駅 駅前（熊本・人吉）",
@@ -371,7 +397,13 @@
      "access": "駅前広場はJR人吉駅の正面出口のすぐ外。JR肥薩線は一部区間が運休中で、熊本からは高速バス（約1.5〜2時間）が中心。くま川鉄道は2026年9月に全線再開。",
      "bestTime": "夏の夕方、木造駅舎が夕日に染まる時間がいちばん作中らしい。夜は駅前に夏目キャラクターの影絵が映されることも。列車の合間は人が少ない。",
      "tips": "現役の駅なので、改札やホームで利用者の邪魔にならないように。構内で撮影するときは駅員に一声かけて。JR肥薩線は一部運休中なので、出発前に最新の運行情報を確認。",
-     "accessPointName": "人吉駅 駅舎正面"
+     "accessPointName": "人吉駅 駅舎正面",
+     "searchTerms": [
+      "人吉駅",
+      "改札 千津",
+      "不死の想い",
+      "木造駅舎"
+     ]
     },
     "en": {
      "placeName": "JR Hitoyoshi Station forecourt (Hitoyoshi, Kumamoto)",
@@ -382,7 +414,12 @@
      "access": "The forecourt is right outside the main entrance of JR Hitoyoshi Station. Parts of the JR Hisatsu Line are still suspended, so most people come by highway bus from Kumamoto (1.5–2 hr). The Kumagawa Railway fully reopened in Sept 2026.",
      "bestTime": "Summer evenings, when the wooden station turns gold in the setting sun. After dark, Natsume character silhouettes are sometimes projected near the station. Trains are infrequent, so it's quiet between them.",
      "tips": "It's a working station — don't block passengers at the gate or on the platforms, and ask staff before shooting inside. Parts of the JR Hisatsu Line are suspended, so check the latest transport info before you set out.",
-     "accessPointName": "Hitoyoshi Sta. main entrance"
+     "accessPointName": "Hitoyoshi Sta. main entrance",
+     "searchTerms": [
+      "Hitoyoshi Station",
+      "ticket gate Chitsu",
+      "station building"
+     ]
     },
     "ko": {
      "placeName": "JR 히토요시역 역 앞(구마모토·히토요시)",
@@ -393,7 +430,12 @@
      "access": "역 앞 광장은 JR 히토요시역 정문 바로 앞. JR 히사쓰선은 일부 구간이 운휴 중이라 구마모토에서는 고속버스(약 1.5~2시간)가 일반적. 쿠마가와 철도는 2026년 9월 전 구간 운행 재개.",
      "bestTime": "여름 해 질 녘, 목조 역사가 노을에 물드는 시간이 가장 작중 같다. 밤에는 역 앞에 나츠메 캐릭터 그림자 영상이 비치기도 한다. 열차가 드물어 열차 사이 시간대엔 한산하다.",
      "tips": "운영 중인 역이니 개찰구나 승강장에서 승객을 방해하지 말고, 역 안에서 촬영할 땐 역무원에게 먼저 양해를 구하자. JR 히사쓰선 일부 구간이 운휴 중이니 출발 전 최신 교통 정보를 확인할 것.",
-     "accessPointName": "히토요시역 역사 정문"
+     "accessPointName": "히토요시역 역사 정문",
+     "searchTerms": [
+      "히토요시역",
+      "개찰구 치즈",
+      "역사 건물"
+     ]
     }
    }
   },
@@ -421,7 +463,13 @@
      "story": "夏目的日常总是游走在人与妖怪的边界上：放学路上的田埂、林子里的小祠、无人打理的石阶，都可能是妖怪出没的入口。第四季和第六季的片头里，夏目穿过鸟居、踏上石阶走向森林深处的画面，就取材自相良村田野中的雨宫神社。这片孤立在稻田中的小树林被当地人称作“龙猫森林”，四季景色分明。对很多观众来说，这段片头就是《夏目》的气质本身：安静、温柔，又带着一丝说不清的寂寞。",
      "access": "从人吉站自驾或打车约 20 分钟，神社脚下有几个停车位。也可在人吉站前乘产交巴士“人吉五木线”至「雨宫」附近，但班次很少，请提前查好时刻。",
      "bestTime": "清晨或傍晚的斜光从侧面照进树林，最像片头的色调。插秧后水田倒映小森林、或稻穗金黄时尤其好看。几乎没有游客。",
-     "tips": "神社四周是正在耕作的农田，请走道路，勿踩进田埂和稻田，也不要把车停在农道上。小祠无人看守，请安静参拜、带走垃圾。夏季林中蚊虫多。"
+     "tips": "神社四周是正在耕作的农田，请走道路，勿踩进田埂和稻田，也不要把车停在农道上。小祠无人看守，请安静参拜、带走垃圾。夏季林中蚊虫多。",
+     "searchTerms": [
+      "雨宫神社",
+      "龙猫森林",
+      "石阶 鸟居",
+      "片头"
+     ]
     },
     "ja": {
      "placeName": "雨宮神社 参道の石段（熊本・相良村）",
@@ -431,7 +479,13 @@
      "story": "夏目の日常は、いつも人と妖の境目にある。帰り道のあぜ道、林の中の小さな祠、苔むした石段——そのどれもが妖怪の現れる入り口になりうる。第4期と第6期のオープニングで、夏目が鳥居をくぐり石段を上って森の奥へ向かっていく場面は、相良村の田園に浮かぶ雨宮神社がモデルとされる。地元で「トトロの森」とも呼ばれるこの森は、季節ごとに表情を変える。静かで優しく、どこか寂しい。そんな『夏目』らしさが、このオープニングには詰まっている。",
      "access": "人吉駅から車・タクシーで約20分、神社の麓に数台分の駐車スペースあり。人吉駅前から産交バス「人吉五木線」で「雨宮」付近まで行けるが本数が少ないので時刻表を事前に確認。",
      "bestTime": "朝夕の斜光が森を横から照らす時間が、いちばんオープニングの色に近い。田植え後の水田に森が映る頃や、稲穂が色づく頃は格別。人はほとんどいない。",
-     "tips": "周囲は耕作中の田畑。道を歩き、あぜや田んぼに入らないこと。農道への駐車も厳禁。無人の祠なので静かに参拝し、ごみは持ち帰りを。夏は森の中に虫が多い。"
+     "tips": "周囲は耕作中の田畑。道を歩き、あぜや田んぼに入らないこと。農道への駐車も厳禁。無人の祠なので静かに参拝し、ごみは持ち帰りを。夏は森の中に虫が多い。",
+     "searchTerms": [
+      "雨宮神社",
+      "トトロの森",
+      "石段 鳥居",
+      "オープニング"
+     ]
     },
     "en": {
      "placeName": "Stone steps of Amamiya Shrine (Sagara, Kumamoto)",
@@ -441,7 +495,13 @@
      "story": "Natsume's everyday life always runs along the border between humans and yokai: a path between paddies on the way home, a little shrine in the woods, mossy steps no one tends — any of them might be a doorway. In the openings of Seasons 4 and 6, Natsume passes under a torii and climbs stone steps into a grove; that image is modelled on Amamiya Shrine in Sagara. Locals call the isolated grove 'Totoro's Forest', and it changes with every season. Quiet, gentle and a little lonely — for many fans, these openings sum up what Natsume feels like.",
      "access": "About 20 min by car or taxi from Hitoyoshi Station; there's space for a few cars at the foot of the shrine. Sanko Bus's Hitoyoshi–Itsuki line from Hitoyoshi Station passes nearby (stop: Amamiya), but buses are rare — check times first.",
      "bestTime": "Early morning or late afternoon, when low light slants into the grove like in the opening. Best when flooded paddies mirror the trees after planting, or when the rice turns gold. You'll likely have it to yourself.",
-     "tips": "The shrine is surrounded by working farmland — stay on the road, keep out of the paddies and never park on farm tracks. It's unstaffed: visit quietly and take your rubbish home. Expect plenty of insects in summer."
+     "tips": "The shrine is surrounded by working farmland — stay on the road, keep out of the paddies and never park on farm tracks. It's unstaffed: visit quietly and take your rubbish home. Expect plenty of insects in summer.",
+     "searchTerms": [
+      "Amamiya Shrine",
+      "Totoro forest",
+      "stone steps torii",
+      "opening"
+     ]
     },
     "ko": {
      "placeName": "아마미야 신사 참배길 돌계단(구마모토·사가라무라)",
@@ -451,7 +511,13 @@
      "story": "나츠메의 일상은 늘 사람과 요괴의 경계에 놓여 있다. 하굣길의 논두렁, 숲속의 작은 사당, 이끼 낀 돌계단 모두 요괴가 나타나는 입구가 될 수 있다. 제4기와 제6기 오프닝에서 나츠메가 도리이를 지나 돌계단을 올라 숲 깊은 곳으로 향하는 장면은 사가라무라 들판에 자리한 아마미야 신사가 모델이다. 현지에서는 '토토로의 숲'이라고도 불리는 이 숲은 계절마다 다른 표정을 보여 준다. 조용하고 다정하면서도 어딘가 쓸쓸한, 그야말로 '나츠메'다운 풍경이다.",
      "access": "히토요시역에서 자동차·택시로 약 20분, 신사 아래에 몇 대 주차할 공간이 있다. 히토요시역 앞에서 산코버스 '히토요시 이쓰키선'으로 '아마미야' 부근까지 갈 수 있지만 운행이 드무니 시간표를 미리 확인.",
      "bestTime": "아침저녁 비스듬한 햇살이 숲을 옆에서 비출 때가 오프닝 색감에 가장 가깝다. 모내기 뒤 논물에 숲이 비칠 때나 벼가 누렇게 익을 때가 특히 좋다. 사람은 거의 없다.",
-     "tips": "주변은 경작 중인 논밭이니 길로만 다니고 논두렁이나 논에 들어가지 말자. 농로 주차도 금물. 관리인이 없는 사당이니 조용히 참배하고 쓰레기는 가져갈 것. 여름에는 숲에 벌레가 많다."
+     "tips": "주변은 경작 중인 논밭이니 길로만 다니고 논두렁이나 논에 들어가지 말자. 농로 주차도 금물. 관리인이 없는 사당이니 조용히 참배하고 쓰레기는 가져갈 것. 여름에는 숲에 벌레가 많다.",
+     "searchTerms": [
+      "아마미야 신사",
+      "토토로 숲",
+      "돌계단 도리이",
+      "오프닝"
+     ]
     }
    }
   },
@@ -485,7 +551,13 @@
      "access": "JR「涩谷」站八公口出来，经过八公像所在的站前广场，正前方就是十字路口，约 50 米、1 分钟。",
      "bestTime": "入夜后霓虹和大屏幕全亮时最像动画；想拍人少的路口，可选工作日清晨。万圣节当天及前后周末极度拥挤，不建议前往。",
      "tips": "绿灯时间短，请勿在斑马线上停留拍照，尽量在八公广场一侧拍。涩谷站周边全年 18:00–次日 5:00 禁止在路上饮酒；万圣节期间还会有额外管制。",
-     "accessPointName": "涩谷站 八公口"
+     "accessPointName": "涩谷站 八公口",
+     "searchTerms": [
+      "涩谷十字路口",
+      "涩谷事变",
+      "帐",
+      "万圣节"
+     ]
     },
     "ja": {
      "placeName": "渋谷駅前スクランブル交差点（東京・渋谷）",
@@ -496,7 +568,13 @@
      "access": "JR「渋谷」駅ハチ公口を出て、ハチ公像のある駅前広場を抜ければ目の前がスクランブル交差点。約50m、徒歩1分。",
      "bestTime": "日が暮れてネオンと大型ビジョンが灯る時間がいちばんアニメに近い。人の少ない交差点を撮るなら平日の早朝。ハロウィン当日と前後の週末は大混雑で非推奨。",
      "tips": "青信号は短いので横断歩道上で立ち止まって撮影しないこと。撮るならハチ公広場側から。渋谷駅周辺は通年18時〜翌5時の路上飲酒が禁止で、ハロウィン期間はさらに規制が強化される。",
-     "accessPointName": "渋谷駅 ハチ公口"
+     "accessPointName": "渋谷駅 ハチ公口",
+     "searchTerms": [
+      "渋谷スクランブル交差点",
+      "渋谷事変",
+      "帳",
+      "ハロウィン"
+     ]
     },
     "en": {
      "placeName": "Shibuya Scramble Crossing, Hachikō side (Shibuya, Tokyo)",
@@ -507,7 +585,13 @@
      "access": "Leave JR Shibuya Station by the Hachikō Exit and cross the plaza with the Hachikō statue — the scramble crossing is straight ahead. About 50 m, 1 min.",
      "bestTime": "After dark, with the neon and screens blazing, it looks most like the anime; for an emptier crossing, try a weekday dawn. Avoid Halloween and the weekends around it — the crowds are extreme.",
      "tips": "The lights are short — never stop on the crossing to shoot; use the Hachikō Square side. Street drinking around Shibuya Station is banned year-round from 18:00 to 5:00, with extra restrictions at Halloween.",
-     "accessPointName": "Shibuya Sta. Hachikō Exit"
+     "accessPointName": "Shibuya Sta. Hachikō Exit",
+     "searchTerms": [
+      "Shibuya Scramble Crossing",
+      "Shibuya Incident",
+      "veil",
+      "Halloween"
+     ]
     },
     "ko": {
      "placeName": "시부야역 앞 스크램블 교차로(도쿄·시부야)",
@@ -518,7 +602,13 @@
      "access": "JR 시부야역 하치코 출구로 나와 하치코 동상이 있는 역 앞 광장을 지나면 바로 앞이 스크램블 교차로. 약 50m, 도보 1분.",
      "bestTime": "해가 지고 네온과 대형 스크린이 켜지면 애니메이션과 가장 비슷하다. 한산한 교차로를 찍으려면 평일 이른 아침. 핼러윈 당일과 앞뒤 주말은 극도로 붐벼 비추천.",
      "tips": "보행 신호가 짧으니 횡단보도 위에서 멈춰 촬영하지 말고 하치코 광장 쪽에서 찍자. 시부야역 주변은 연중 18시~다음 날 5시 노상 음주가 금지되며, 핼러윈 기간에는 규제가 더 강화된다.",
-     "accessPointName": "시부야역 하치코 출구"
+     "accessPointName": "시부야역 하치코 출구",
+     "searchTerms": [
+      "시부야 스크램블 교차로",
+      "시부야 사변",
+      "장막",
+      "핼러윈"
+     ]
     }
    }
   },
@@ -552,7 +642,12 @@
      "access": "京阪石山坂本线「近江神宫前」站出站往西，沿缓坡一路上行，约 850 米、步行 11 分钟到楼门。",
      "bestTime": "上午光线照在朱红楼门上最鲜艳，平日几乎没人。夏天全国高中大会、1 月初名人·女王战前后最有气氛，但人也最多。",
      "tips": "参拜免费，境内有百人一首主题的御守和绘马。比赛在境内的近江劝学馆举行，期间请勿在会场周边喧哗。楼门正中是参拜通道，拍照请靠边。",
-     "accessPointName": "近江神宫前站"
+     "accessPointName": "近江神宫前站",
+     "searchTerms": [
+      "近江神宫 楼门",
+      "歌牌殿堂",
+      "名人战 女王战"
+     ]
     },
     "ja": {
      "placeName": "近江神宮 楼門前（滋賀・大津）",
@@ -563,7 +658,12 @@
      "access": "京阪石山坂本線「近江神宮前」駅から西へ、ゆるい坂を上って楼門まで約850m・徒歩11分。",
      "bestTime": "朱の楼門に光が当たる午前中がいちばん鮮やかで、平日はほぼ貸し切り。夏の全国高校選手権や1月初旬の名人・クイーン戦の頃が最も雰囲気があるが混雑も。",
      "tips": "参拝自由。百人一首にちなんだお守りや絵馬もある。大会は境内の近江勧学館で行われるので、期間中は会場周辺で騒がないこと。楼門の正面は参拝の通り道なので撮影は端に寄って。",
-     "accessPointName": "近江神宮前駅"
+     "accessPointName": "近江神宮前駅",
+     "searchTerms": [
+      "近江神宮 楼門",
+      "かるたの殿堂",
+      "名人戦 クイーン戦"
+     ]
     },
     "en": {
      "placeName": "Rōmon gate, Ōmi Jingū Shrine (Ōtsu, Shiga)",
@@ -574,7 +674,12 @@
      "access": "From Ōmi-jingū-mae Station (Keihan Ishiyama-Sakamoto Line), head west and up the gentle slope to the gate. About 850 m, 11 min.",
      "bestTime": "Mornings, when sunlight hits the vermilion gate; weekdays are almost empty. The summer high-school championship and the early-January title matches have the most atmosphere — and the biggest crowds.",
      "tips": "Free to visit; karuta-themed charms and ema are on sale. Tournaments are held at Ōmi Kangakukan in the grounds, so keep quiet nearby during matches. The centre of the gate is the worshippers' path — shoot from the side.",
-     "accessPointName": "Ōmi-jingū-mae Sta."
+     "accessPointName": "Ōmi-jingū-mae Sta.",
+     "searchTerms": [
+      "Omi Jingu gate",
+      "karuta hall",
+      "Master Queen match"
+     ]
     },
     "ko": {
      "placeName": "오미 신궁 누문 앞(시가·오쓰)",
@@ -585,7 +690,12 @@
      "access": "게이한 이시야마사카모토선 오미진구마에역에서 서쪽으로 완만한 오르막을 따라가면 누문까지 약 850m, 도보 11분.",
      "bestTime": "주홍빛 누문에 햇살이 드는 오전이 가장 선명하고, 평일엔 거의 한산하다. 여름 전국 고교 선수권과 1월 초 명인·퀸전 무렵이 가장 분위기 있지만 붐빈다.",
      "tips": "참배 무료. 백인일수를 주제로 한 부적과 에마도 있다. 대회는 경내 오미 간가쿠칸에서 열리니 대회 중엔 주변에서 떠들지 말 것. 누문 정면은 참배 통로이니 촬영은 옆으로 비켜서.",
-     "accessPointName": "오미진구마에역"
+     "accessPointName": "오미진구마에역",
+     "searchTerms": [
+      "오미 신궁 누문",
+      "카루타 전당",
+      "명인전 퀸전"
+     ]
     }
    }
   },
@@ -618,7 +728,12 @@
      "access": "JR/近铁奈良站乘奈良交通巴士“柳生”方向约 50 分钟，「柳生」下车。沿“天乃石立神社”路标往山里走，约 1.4 公里、含林间山路 25 分钟。",
      "bestTime": "白天前往，林中较暗，下午三点前到最安全。新绿或红叶时光线透进杉林，巨石的裂口最清楚；平日几乎无人，周末午后会有排队拍照。",
      "tips": "一刀石在天乃石立神社的神域内，是信仰对象，请勿攀爬、敲击或用道具“模仿斩石”。附近没有停车场；山路湿滑，请穿防滑鞋。巴士班次少，务必确认回程。",
-     "accessPointName": "柳生 巴士站"
+     "accessPointName": "柳生 巴士站",
+     "searchTerms": [
+      "一刀石",
+      "炭治郎 劈石",
+      "柳生"
+     ]
     },
     "ja": {
      "placeName": "柳生 一刀石（奈良・柳生）",
@@ -629,7 +744,12 @@
      "access": "JR・近鉄奈良駅から奈良交通バス「柳生」行きで約50分、「柳生」下車。「天乃石立神社」の案内に沿って山へ入り、約1.4km・山道を含め徒歩25分。",
      "bestTime": "森の中は暗いので日中に、15時までには着きたい。新緑や紅葉の頃は杉林に光が差して割れ目がよく見える。平日はほぼ無人、週末の午後は撮影待ちも。",
      "tips": "一刀石は天乃石立神社の神域にある信仰の対象。登る・叩く・道具で斬る真似をするのはNG。周辺に駐車場はなく、山道は滑りやすいので歩きやすい靴で。バスは本数が少ないので帰りの時刻を必ず確認。",
-     "accessPointName": "柳生 バス停"
+     "accessPointName": "柳生 バス停",
+     "searchTerms": [
+      "一刀石",
+      "炭治郎 岩",
+      "柳生 天石立神社"
+     ]
     },
     "en": {
      "placeName": "Ittōseki, the 'one-stroke stone' (Yagyū, Nara)",
@@ -640,7 +760,12 @@
      "access": "Nara Kōtsū bus bound for Yagyū from JR/Kintetsu Nara Station (about 50 min) to the Yagyū stop. Follow signs for Amano-Iwatate Shrine into the hills: about 1.4 km, 25 min including a forest path.",
      "bestTime": "Go in daylight — the forest is dim, so aim to arrive by 3 pm. In fresh-green or autumn-colour season, light filters through the cedars onto the split. Weekdays are near-empty; weekend afternoons can mean a photo queue.",
      "tips": "The rock lies within the sacred precinct of Amano-Iwatate Shrine and is worshipped — don't climb it, hit it or stage mock sword strikes. There's no parking nearby, the path is slippery, and buses are rare, so check your return time.",
-     "accessPointName": "Yagyū bus stop"
+     "accessPointName": "Yagyū bus stop",
+     "searchTerms": [
+      "Ittoseki",
+      "Tanjiro boulder",
+      "Yagyu split rock"
+     ]
     },
     "ko": {
      "placeName": "야규 잇토세키(나라·야규)",
@@ -651,7 +776,12 @@
      "access": "JR·긴테쓰 나라역에서 나라 교통 버스 '야규'행으로 약 50분, '야규' 하차. '아마노이와타테 신사' 표지판을 따라 산으로 약 1.4km, 숲길 포함 도보 25분.",
      "bestTime": "숲이 어두우니 낮에, 오후 3시 전에는 도착하자. 신록이나 단풍철에는 삼나무 숲에 빛이 들어 갈라진 틈이 잘 보인다. 평일엔 거의 사람이 없고, 주말 오후엔 촬영 대기 줄도.",
      "tips": "잇토세키는 아마노이와타테 신사의 신역 안에 있는 신앙 대상이다. 오르거나 두드리거나 도구로 베는 흉내를 내지 말 것. 주변에 주차장이 없고 산길이 미끄러우며, 버스가 드무니 돌아가는 시간을 꼭 확인하자.",
-     "accessPointName": "야규 버스 정류장"
+     "accessPointName": "야규 버스 정류장",
+     "searchTerms": [
+      "잇토세키",
+      "탄지로 바위",
+      "야규 갈라진 바위"
+     ]
     }
    }
   },
@@ -686,7 +816,12 @@
      "access": "仙台市地铁南北线终点「富泽」站出检票口后往西北走，约 400 米、5 分钟到体育馆南侧；纪念碑现暂移至相邻的富泽公园。",
      "bestTime": "改修期间（预计至 2027 年 3 月）建议白天来看外观和富泽公园的纪念碑；重新开馆后，赶上排球比赛日最有剧中气氛。",
      "tips": "体育馆因大规模改修闭馆，预计至 2027 年 3 月前后，施工期间请勿进入围挡内。原在南侧入口旁的纪念碑已移至相邻的富泽公园。周边是住宅区，请保持安静。",
-     "accessPointName": "富泽站"
+     "accessPointName": "富泽站",
+     "searchTerms": [
+      "仙台市体育馆",
+      "龟井竞技场仙台",
+      "乌野 县预选"
+     ]
     },
     "ja": {
      "placeName": "仙台市体育館（カメイアリーナ仙台）南側（宮城・仙台）",
@@ -697,7 +832,12 @@
      "access": "仙台市地下鉄南北線の終点「富沢」駅の改札を出て北西へ、約400m・徒歩5分で体育館南側。モニュメントは隣の富沢公園に移設中。",
      "bestTime": "改修中（2027年3月頃まで予定）は日中に外観と富沢公園のモニュメントを。再開後はバレーボールの大会日に合わせると作中の空気を味わえる。",
      "tips": "大規模改修のため2027年3月頃まで休館予定。工事中は仮囲いの中に入らないこと。南側玄関脇にあったモニュメントは隣接する富沢公園に移設。周辺は住宅地なので静かに。",
-     "accessPointName": "富沢駅"
+     "accessPointName": "富沢駅",
+     "searchTerms": [
+      "仙台市体育館",
+      "カメイアリーナ仙台",
+      "県予選 烏野"
+     ]
     },
     "en": {
      "placeName": "Sendai City Gymnasium (Kamei Arena Sendai), south side (Sendai, Miyagi)",
@@ -708,7 +848,12 @@
      "access": "From the gates of Tomizawa Station (end of the Sendai Subway Namboku Line), head north-west about 400 m (5 min) to the south side of the gym. The monument is temporarily in neighbouring Tomizawa Park.",
      "bestTime": "During renovation (expected until about March 2027), come in daylight for the exterior and the monument in Tomizawa Park. After reopening, a volleyball match day has the most atmosphere.",
      "tips": "Closed for major renovation until around March 2027 — don't enter the construction hoardings. The monument from beside the south entrance has moved to neighbouring Tomizawa Park. It's a residential area, so keep the noise down.",
-     "accessPointName": "Tomizawa Sta."
+     "accessPointName": "Tomizawa Sta.",
+     "searchTerms": [
+      "Sendai City Gymnasium",
+      "Kamei Arena Sendai",
+      "Karasuno prelims"
+     ]
     },
     "ko": {
      "placeName": "센다이시 체육관(카메이 아레나 센다이) 남쪽(미야기·센다이)",
@@ -719,7 +864,12 @@
      "access": "센다이 지하철 난보쿠선 종점 도미자와역 개찰구를 나와 북서쪽으로 약 400m, 도보 5분이면 체육관 남쪽. 기념비는 현재 바로 옆 도미자와 공원으로 옮겨져 있다.",
      "bestTime": "리모델링 기간(2027년 3월경까지 예정)에는 낮에 외관과 도미자와 공원의 기념비를. 재개관 후에는 배구 대회 날에 맞추면 작중 분위기를 느낄 수 있다.",
      "tips": "대규모 리모델링으로 2027년 3월경까지 휴관 예정이며 공사 가림막 안에는 들어가지 말 것. 남쪽 현관 옆에 있던 기념비는 바로 옆 도미자와 공원으로 이전되었다. 주변은 주택가이니 조용히.",
-     "accessPointName": "도미자와역"
+     "accessPointName": "도미자와역",
+     "searchTerms": [
+      "센다이시 체육관",
+      "카메이 아레나 센다이",
+      "카라스노 현 예선"
+     ]
     }
    }
   }

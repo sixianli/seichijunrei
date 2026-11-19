@@ -247,7 +247,7 @@
 "detail.walkFromShort" = "從%@步行前往";
 "detail.shotMapA11y" = "機位小地圖：朝%@方拍攝";
 "detail.searchOriginal" = "看原作畫面";
-"detail.originalNotIncluded" = "原作畫面受版權保護，App 未收錄，可以點右邊上網看";
+"detail.originalNotIncluded" = "原作畫面受版權保護，App 沒有收錄。點「看原作畫面」可以上網搜尋這一幕。";
 "community.beFirst" = "成為第一個上傳現場照片的人";
 "community.stripTitle" = "巡禮者拍的 · %ld 張";
 "community.uploadShort" = "上傳";
@@ -293,6 +293,10 @@
 "submit.status.received" = "已收到";
 "submit.status.removed" = "已刪除";
 "detail.landmarkSubtitle" = "走到官方聖地，拍一張同角度的紀念照";
+"detail.actionsHelp" = "這兩個有什麼差別？";
+"detail.searchOriginalTitle" = "上網看這一幕原本的樣子";
+"detail.searchOriginalHint" = "巡禮者常把原作畫面和實景並排對比，選一個搜尋詞試試";
+"common.moreInfo" = "說明";
 "kind.scene" = "名場面 · 取景地";
 "kind.landmark" = "官方聖地";
 "photo.lookAround" = "Apple 街景";

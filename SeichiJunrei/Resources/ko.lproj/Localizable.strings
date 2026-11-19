@@ -247,7 +247,7 @@
 "detail.walkFromShort" = "%@에서 걸어서";
 "detail.shotMapA11y" = "촬영 위치 지도: %@ 방향으로 촬영";
 "detail.searchOriginal" = "원작 장면 보기";
-"detail.originalNotIncluded" = "원작 이미지는 저작권 때문에 수록하지 않았어요. 오른쪽 버튼으로 검색할 수 있어요";
+"detail.originalNotIncluded" = "원작 이미지는 저작권 때문에 앱에 없어요. '원작 장면 보기'로 웹에서 찾아보세요.";
 "community.beFirst" = "첫 번째로 현장 사진을 올려 보세요";
 "community.stripTitle" = "순례자 사진 · %ld장";
 "community.uploadShort" = "올리기";
@@ -293,6 +293,10 @@
 "submit.status.received" = "접수됨";
 "submit.status.removed" = "삭제됨";
 "detail.landmarkSubtitle" = "공식 성지까지 가서 기념 사진을 찍어요";
+"detail.actionsHelp" = "둘의 차이는?";
+"detail.searchOriginalTitle" = "웹에서 원작 장면 찾기";
+"detail.searchOriginalHint" = "순례자들이 원작과 실제 장소를 나란히 올린 비교 사진이 잘 나오는 검색어예요";
+"common.moreInfo" = "설명";
 "kind.scene" = "명장면 · 촬영지";
 "kind.landmark" = "공식 성지";
 "photo.lookAround" = "Look Around";

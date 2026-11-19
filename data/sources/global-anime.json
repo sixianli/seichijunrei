@@ -688,7 +688,13 @@
      "access": "JR 日田站乘出租车或自驾约 20 分钟。从坝下停车场登上台阶即是下游广场。公交可乘日田巴士往杖立方向至“中川原”，再步行约 30 分钟。",
      "bestTime": "新绿的 4–5 月和红叶的 11 月最舒服；上午坝体顺光，铜像与坝墙同框最清楚。",
      "tips": "下载官方 App“進撃の巨人 in HITA”可在坝体上看到超大型巨人 AR。附近道之驿“水边之乡大山”内有进击的巨人 in HITA 博物馆。山区公交班次很少，请提前查好回程；请勿攀爬铜像。",
-     "accessPointName": "大山水坝 坝下停车场"
+     "accessPointName": "大山水坝 坝下停车场",
+     "searchTerms": [
+      "大山水坝 铜像",
+      "艾伦 三笠 阿尔敏 铜像",
+      "日田 铜像",
+      "玛利亚之墙"
+     ]
     },
     "ja": {
      "placeName": "大山ダム 下流広場（大分県日田市）",
@@ -699,7 +705,13 @@
      "access": "JR日田駅からタクシーまたは車で約20分。堤体下の駐車場から階段を上がれば下流広場。バスなら日田バス杖立方面で「中川原」下車、徒歩約30分。",
      "bestTime": "新緑の4〜5月と紅葉の11月が快適。午前中は堤体が順光になり、像と壁を一緒に撮りやすい。",
      "tips": "公式アプリ「進撃の巨人 in HITA」をかざすと堤体に超大型巨人のARが現れる。近くの道の駅「水辺の郷おおやま」には進撃の巨人 in HITAミュージアムも。山間部のバスは本数が少ないので帰りの便を事前に確認を。像には登らないこと。",
-     "accessPointName": "大山ダム 下流駐車場"
+     "accessPointName": "大山ダム 下流駐車場",
+     "searchTerms": [
+      "大山ダム 銅像",
+      "エレン ミカサ アルミン像",
+      "日田 銅像",
+      "ウォール・マリア"
+     ]
     },
     "en": {
      "placeName": "Downstream plaza, Oyama Dam (Hita, Oita)",
@@ -710,7 +722,13 @@
      "access": "About 20 min by taxi or car from JR Hita Station. Climb the steps from the car park below the dam to the plaza. By bus: Hita Bus towards Tsuetate to Nakagoura, then about 30 min on foot.",
      "bestTime": "Spring greenery in April–May and autumn colour in November are loveliest; in the morning the dam face is front-lit for statue-and-wall shots.",
      "tips": "Point the official app “Shingeki no Kyojin in HITA” at the dam to see the Colossal Titan in AR. The Attack on Titan in HITA Museum is at the nearby Mizube no Sato Oyama roadside station. Buses are rare in the hills — check your return. Don't climb the statue.",
-     "accessPointName": "Oyama Dam car park"
+     "accessPointName": "Oyama Dam car park",
+     "searchTerms": [
+      "Oyama Dam statue",
+      "Eren Mikasa Armin statue",
+      "Hita statue",
+      "Wall Maria"
+     ]
     },
     "ko": {
      "placeName": "오야마 댐 하류 광장 (오이타현 히타시)",
@@ -721,7 +739,13 @@
      "access": "JR 히타역에서 택시나 자동차로 약 20분. 댐 아래 주차장에서 계단을 오르면 하류 광장이다. 버스는 히타 버스 쓰에타테 방면 '나카고라' 하차 후 도보 약 30분.",
      "bestTime": "신록의 4~5월과 단풍의 11월이 좋다. 오전에는 댐 벽이 순광이라 동상과 벽을 함께 찍기 좋다.",
      "tips": "공식 앱 '進撃の巨人 in HITA'를 비추면 댐 위에 초대형 거인 AR이 나타난다. 근처 휴게소 '미즈베노사토 오야마'에 진격의 거인 in HITA 뮤지엄이 있다. 산간 버스는 드무니 돌아오는 편을 미리 확인하자. 동상에 올라가지 말 것.",
-     "accessPointName": "오야마 댐 하류 주차장"
+     "accessPointName": "오야마 댐 하류 주차장",
+     "searchTerms": [
+      "오야마 댐 동상",
+      "엘런 미카사 아르민 동상",
+      "히타 동상",
+      "월 마리아"
+     ]
     }
    }
   },
@@ -757,7 +781,12 @@
      "access": "JR 宇部线宇部新川站内。进检票口后前往 3 号站台，长椅与楼梯就在眼前；站前即宇部市营巴士总站。",
      "bestTime": "傍晚光线柔和、乘客较少时最有片尾的味道；避开早晚通勤时段，站台更安静。",
      "tips": "站台在检票口内，需持车票或购买入场券。拍照时请勿长时间占用长椅，不要挡住楼梯和乘客通道。宇部线班次不多，出行前请查好时刻表。",
-     "accessPointName": "宇部新川站"
+     "accessPointName": "宇部新川站",
+     "searchTerms": [
+      "宇部新川站",
+      "最后一幕",
+      "真嗣 玛丽 站台"
+     ]
     },
     "ja": {
      "placeName": "JR宇部新川駅 3番ホーム（山口県宇部市）",
@@ -768,7 +797,12 @@
      "access": "JR宇部線宇部新川駅の構内。改札を入って3番ホームへ行けば、ベンチと階段が目の前に。駅前は宇部市営バスのターミナル。",
      "bestTime": "光がやわらかく人の少ない夕方がいちばんエンディングらしい。朝夕の通勤時間帯を避けると静か。",
      "tips": "ホームは改札内なので乗車券か入場券が必要。ベンチを長時間占領したり、階段や通路をふさいだりしないこと。宇部線は本数が少ないので時刻表の確認を。",
-     "accessPointName": "宇部新川駅"
+     "accessPointName": "宇部新川駅",
+     "searchTerms": [
+      "宇部新川駅",
+      "ラストシーン",
+      "シンジ マリ ホーム"
+     ]
     },
     "en": {
      "placeName": "Platform 3, JR Ube-Shinkawa Station (Ube, Yamaguchi)",
@@ -779,7 +813,12 @@
      "access": "Inside JR Ube Line's Ube-Shinkawa Station: go through the gates to Platform 3 and the bench and stairs are right there. The city bus terminal is in front of the station.",
      "bestTime": "Late afternoon, with soft light and fewer passengers, feels most like the ending; avoid the morning and evening rush for a quieter platform.",
      "tips": "The platform is inside the ticket gates, so you need a ticket or a platform ticket. Don't hog the bench or block the stairs and walkways. Ube Line trains are infrequent — check the timetable.",
-     "accessPointName": "Ube-Shinkawa Sta."
+     "accessPointName": "Ube-Shinkawa Sta.",
+     "searchTerms": [
+      "Ube-Shinkawa Station",
+      "final scene",
+      "Shinji Mari platform"
+     ]
     },
     "ko": {
      "placeName": "JR 우베신카와역 3번 승강장 (야마구치현 우베시)",
@@ -790,7 +829,12 @@
      "access": "JR 우베선 우베신카와역 구내. 개찰구를 지나 3번 승강장으로 가면 벤치와 계단이 바로 보인다. 역 앞은 우베 시영버스 터미널.",
      "bestTime": "빛이 부드럽고 승객이 적은 늦은 오후가 가장 엔딩 같다. 출퇴근 시간대를 피하면 조용하다.",
      "tips": "승강장은 개찰구 안이라 승차권이나 입장권이 필요하다. 벤치를 오래 차지하거나 계단과 통로를 막지 말 것. 우베선은 운행 편수가 적으니 시간표를 확인하자.",
-     "accessPointName": "우베신카와역"
+     "accessPointName": "우베신카와역",
+     "searchTerms": [
+      "우베신카와역",
+      "라스트 신",
+      "신지 마리 승강장"
+     ]
     }
    }
   },
@@ -824,7 +868,12 @@
      "access": "JR 秋叶原站电器街口出站，穿过站前即到，步行约 1 分钟。地址：千代田区外神田 1-15-16。",
      "bestTime": "故事发生在盛夏 7 月底，夏天来最有代入感；入夜后招牌亮起，街景更像动画里的秋叶原。",
      "tips": "营业时间 10:00–20:00（B1 餐厅另计）。楼顶平时不对外开放，官方联动时会另行公告。店内拍照前请先征得店员同意，不要在入口处长时间停留。",
-     "accessPointName": "JR 秋叶原站 电器街口"
+     "accessPointName": "JR 秋叶原站 电器街口",
+     "searchTerms": [
+      "秋叶原 Radio会馆",
+      "人造卫星",
+      "无线电会馆 卫星"
+     ]
     },
     "ja": {
      "placeName": "秋葉原ラジオ会館（東京都千代田区）",
@@ -835,7 +884,12 @@
      "access": "JR秋葉原駅電気街口を出て駅前を渡ればすぐ、徒歩約1分。住所は千代田区外神田1-15-16。",
      "bestTime": "物語の舞台は真夏の7月末。夏に訪れるといちばん臨場感がある。夜は看板が灯り、作中の秋葉原らしさが増す。",
      "tips": "営業時間10:00〜20:00（B1飲食店は別）。屋上は通常非公開で、公式コラボ時は別途告知される。店内撮影は店員に確認を。入口付近に長く立ち止まらないこと。",
-     "accessPointName": "JR秋葉原駅 電気街口"
+     "accessPointName": "JR秋葉原駅 電気街口",
+     "searchTerms": [
+      "秋葉原ラジオ会館",
+      "人工衛星",
+      "ラジ館 衛星"
+     ]
     },
     "en": {
      "placeName": "Akihabara Radio Kaikan (Chiyoda, Tokyo)",
@@ -846,7 +900,12 @@
      "access": "Leave JR Akihabara Station by the Electric Town Exit and cross the station front: about 1 min. Address: 1-15-16 Sotokanda, Chiyoda.",
      "bestTime": "The story is set in late July, so midsummer feels most immersive; after dark the lit signs make it look more like the anime's Akihabara.",
      "tips": "Open 10:00–20:00 (B1 restaurants differ). The roof is normally closed and is opened only for announced official events. Ask staff before taking photos in shops, and don't linger in the entrance.",
-     "accessPointName": "JR Akihabara Sta. Electric Town Exit"
+     "accessPointName": "JR Akihabara Sta. Electric Town Exit",
+     "searchTerms": [
+      "Radio Kaikan",
+      "satellite crash",
+      "Akihabara satellite"
+     ]
     },
     "ko": {
      "placeName": "아키하바라 라디오회관 (도쿄 지요다구)",
@@ -857,7 +916,12 @@
      "access": "JR 아키하바라역 전기상가 출구로 나와 역 앞을 건너면 바로, 도보 약 1분. 주소는 지요다구 소토칸다 1-15-16.",
      "bestTime": "이야기의 배경은 한여름 7월 말이라 여름에 가면 가장 실감 난다. 밤에는 간판이 켜져 작중 아키하바라 분위기가 더해진다.",
      "tips": "영업시간 10:00~20:00(B1 음식점은 별도). 옥상은 평소 비공개이며 공식 컬래버레이션 때 따로 공지된다. 매장 안 촬영은 점원에게 먼저 물어보고, 입구에 오래 서 있지 말자.",
-     "accessPointName": "JR 아키하바라역 전기상가 출구"
+     "accessPointName": "JR 아키하바라역 전기상가 출구",
+     "searchTerms": [
+      "아키하바라 라디오회관",
+      "인공위성",
+      "라디오회관 위성"
+     ]
     }
    }
   },
@@ -894,7 +958,12 @@
      "access": "麻布十番站 4 号出口，经麻布十番商店街走到仙台坂下，沿坡上行约 3 分钟，神社在右手边。全程约 10 分钟。",
      "bestTime": "清晨参拜人少、最安静；8 月下旬麻布十番纳凉祭期间，整条商店街非常热闹。",
      "tips": "这里是仍在祭祀的神社，请先参拜，拍照勿挡参道、勿拍摄正在祈祷的人。麻布十番商店街入口有港区 2024 年设置的水手月亮彩绘井盖第 1 号，可顺路寻访。",
-     "accessPointName": "麻布十番站 4 号出口"
+     "accessPointName": "麻布十番站 4 号出口",
+     "searchTerms": [
+      "麻布氷川神社",
+      "火川神社 原型",
+      "火野丽 巫女"
+     ]
     },
     "ja": {
      "placeName": "麻布氷川神社（東京都港区元麻布）",
@@ -905,7 +974,13 @@
      "access": "麻布十番駅4番出口から麻布十番商店街を抜けて仙台坂下へ。坂を約3分上ると右手に神社。全体で徒歩約10分。",
      "bestTime": "朝は参拝者が少なく静か。8月下旬の麻布十番納涼まつりの時期は商店街がにぎわう。",
      "tips": "現役の神社なのでまず参拝を。参道をふさいだり、祈る人を撮ったりしないこと。麻布十番商店街の入口には港区が2024年に設置したセーラームーンのデザインマンホール1号もある。",
-     "accessPointName": "麻布十番駅 4番出口"
+     "accessPointName": "麻布十番駅 4番出口",
+     "searchTerms": [
+      "麻布氷川神社",
+      "火川神社 モデル",
+      "火野レイ 巫女",
+      "仙台坂"
+     ]
     },
     "en": {
      "placeName": "Azabu Hikawa Shrine (Moto-Azabu, Minato, Tokyo)",
@@ -916,7 +991,12 @@
      "access": "From Azabu-juban Station Exit 4, walk through the Azabu-Juban shopping street to the foot of Sendai-zaka, then about 3 min uphill; the shrine is on the right. About 10 min in all.",
      "bestTime": "Early mornings are quietest; in late August the Azabu-Juban summer festival fills the shopping street.",
      "tips": "This is an active shrine: pay your respects first, keep the approach clear and don't photograph people praying. Minato City's Sailor Moon manhole No. 1 (2024) is at the shopping street entrance on the way.",
-     "accessPointName": "Azabu-juban Sta. Exit 4"
+     "accessPointName": "Azabu-juban Sta. Exit 4",
+     "searchTerms": [
+      "Azabu Hikawa Shrine",
+      "Hikawa Shrine Rei",
+      "Rei Hino shrine maiden"
+     ]
     },
     "ko": {
      "placeName": "아자부 히카와 신사 (도쿄 미나토구 모토아자부)",
@@ -927,7 +1007,12 @@
      "access": "아자부주반역 4번 출구에서 아자부주반 상점가를 지나 센다이자카 아래로. 언덕을 약 3분 오르면 오른쪽에 신사가 있다. 전체 도보 약 10분.",
      "bestTime": "아침에는 참배객이 적어 조용하다. 8월 하순 아자부주반 납량 축제 기간에는 상점가가 북적인다.",
      "tips": "실제로 제사를 지내는 신사이니 먼저 참배하고, 참배길을 막거나 기도하는 사람을 찍지 말자. 아자부주반 상점가 입구에는 미나토구가 2024년에 설치한 세일러 문 디자인 맨홀 1호도 있다.",
-     "accessPointName": "아자부주반역 4번 출구"
+     "accessPointName": "아자부주반역 4번 출구",
+     "searchTerms": [
+      "아자부 히카와 신사",
+      "히카와 신사 모델",
+      "히노 레이 무녀"
+     ]
     }
    }
   },
@@ -963,7 +1048,12 @@
      "access": "江之电七里滨站下车即是。出站往南沿行合川走到国道 134 号，过马路就是七里滨海滩，约 3 分钟。",
      "bestTime": "晴天傍晚最好，夕阳把海面和站台染成橙色；周末江之电很拥挤，平日上午更从容。",
      "tips": "车站旁的七里滨高中是正在上课的学校，请勿进入校园或拍摄学生。站台狭窄，拍照时注意列车与其他乘客，勿在轨道附近逗留。",
-     "accessPointName": "江之电 七里滨站"
+     "accessPointName": "江之电 七里滨站",
+     "searchTerms": [
+      "七里滨站",
+      "江之电 站台",
+      "咲太 麻衣 上学"
+     ]
     },
     "ja": {
      "placeName": "江ノ電 七里ヶ浜駅（神奈川県鎌倉市）",
@@ -974,7 +1064,12 @@
      "access": "江ノ電七里ヶ浜駅で下車してすぐ。駅から行合川沿いに南へ歩き、国道134号を渡れば七里ヶ浜の海岸。約3分。",
      "bestTime": "晴れた日の夕方がいちばん。夕日が海とホームを橙色に染める。週末の江ノ電は混雑するので平日午前がゆったり。",
      "tips": "駅のそばの七里ガ浜高校は授業中の学校。校内に入ったり生徒を撮影したりしないこと。ホームは狭いので電車や他の乗客に注意し、線路付近に立ち止まらないで。",
-     "accessPointName": "江ノ電 七里ヶ浜駅"
+     "accessPointName": "江ノ電 七里ヶ浜駅",
+     "searchTerms": [
+      "七里ヶ浜駅",
+      "江ノ電 ホーム",
+      "咲太 麻衣 通学"
+     ]
     },
     "en": {
      "placeName": "Enoden Shichirigahama Station (Kamakura, Kanagawa)",
@@ -985,7 +1080,12 @@
      "access": "Right at Enoden Shichirigahama Station. Walk south along the Yukiai River to Route 134 and cross for Shichirigahama Beach, about 3 min.",
      "bestTime": "Clear late afternoons are best, when the sunset turns the sea and platform orange; the Enoden is packed at weekends, so weekday mornings are calmer.",
      "tips": "Shichirigahama High beside the station is a working school: don't enter or photograph students. The platform is narrow — mind the trains and other passengers, and don't linger near the tracks.",
-     "accessPointName": "Enoden Shichirigahama Sta."
+     "accessPointName": "Enoden Shichirigahama Sta.",
+     "searchTerms": [
+      "Shichirigahama Station",
+      "Enoden platform",
+      "Sakuta Mai commute"
+     ]
     },
     "ko": {
      "placeName": "에노덴 시치리가하마역 (가나가와현 가마쿠라시)",
@@ -996,7 +1096,12 @@
      "access": "에노덴 시치리가하마역에서 내리면 바로. 역에서 유키아이강을 따라 남쪽으로 걸어 국도 134호선을 건너면 시치리가하마 해변, 약 3분.",
      "bestTime": "맑은 날 늦은 오후가 가장 좋다. 노을이 바다와 승강장을 주황빛으로 물들인다. 주말 에노덴은 붐비니 평일 오전이 여유롭다.",
      "tips": "역 옆 시치리가하마 고교는 수업 중인 학교다. 교내에 들어가거나 학생을 촬영하지 말 것. 승강장이 좁으니 전철과 다른 승객에 주의하고 선로 근처에 머물지 말자.",
-     "accessPointName": "에노덴 시치리가하마역"
+     "accessPointName": "에노덴 시치리가하마역",
+     "searchTerms": [
+      "시치리가하마역",
+      "에노덴 승강장",
+      "사쿠타 마이 통학"
+     ]
     }
    }
   },
@@ -1032,7 +1137,12 @@
      "access": "港未来线马车道站或日本大通站出站，步行约 6 分钟；从马车道方向过万国桥，前方的红砖建筑就是。",
      "bestTime": "傍晚到入夜，仓库亮灯、对岸港未来夜景同框最美；11 月底起有圣诞市集，冬季还有户外冰场。",
      "tips": "1 号馆 10:00–19:00、2 号馆 11:00–20:00，除法定检查日外每天营业，周边广场可自由进出。周末与活动日人潮拥挤，请勿占用通道拍摄。",
-     "accessPointName": "港未来线 马车道站"
+     "accessPointName": "港未来线 马车道站",
+     "searchTerms": [
+      "横滨红砖仓库",
+      "敦 镜花 约会",
+      "镜花 可丽饼"
+     ]
     },
     "ja": {
      "placeName": "横浜赤レンガ倉庫（神奈川県横浜市中区）",
@@ -1043,7 +1153,12 @@
      "access": "みなとみらい線馬車道駅または日本大通り駅から徒歩約6分。馬車道側から万国橋を渡れば、正面に赤レンガの建物が見える。",
      "bestTime": "夕方から夜、ライトアップされた倉庫とみなとみらいの夜景が並ぶ時間がいちばん。11月下旬からはクリスマスマーケット、冬はスケートリンクも。",
      "tips": "1号館10:00〜19:00、2号館11:00〜20:00、法定点検日を除き毎日営業。周辺の広場は出入り自由。週末やイベント日は混むので通路をふさいで撮影しないこと。",
-     "accessPointName": "みなとみらい線 馬車道駅"
+     "accessPointName": "みなとみらい線 馬車道駅",
+     "searchTerms": [
+      "横浜赤レンガ倉庫",
+      "敦 鏡花 デート",
+      "鏡花 クレープ"
+     ]
     },
     "en": {
      "placeName": "Yokohama Red Brick Warehouse (Naka, Yokohama)",
@@ -1054,7 +1169,12 @@
      "access": "About 6 min on foot from Bashamichi or Nihon-odori Station (Minatomirai Line); from Bashamichi, cross Bankoku Bridge and the brick buildings are straight ahead.",
      "bestTime": "Dusk into night, when the warehouses are lit against the Minato Mirai skyline, is most beautiful; a Christmas market runs from late November and there's an outdoor rink in winter.",
      "tips": "Building 1 opens 10:00–19:00 and Building 2 11:00–20:00, every day except legal inspection days; the surrounding plazas are always open. Weekends and event days are crowded — don't block walkways for photos.",
-     "accessPointName": "Bashamichi Sta. (Minatomirai Line)"
+     "accessPointName": "Bashamichi Sta. (Minatomirai Line)",
+     "searchTerms": [
+      "Yokohama Red Brick Warehouse",
+      "Atsushi Kyoka date",
+      "Kyoka crepe"
+     ]
     },
     "ko": {
      "placeName": "요코하마 아카렌가 창고 (가나가와현 요코하마시 나카구)",
@@ -1065,7 +1185,12 @@
      "access": "미나토미라이선 바샤미치역 또는 니혼오도리역에서 도보 약 6분. 바샤미치 쪽에서 반코쿠교를 건너면 정면에 붉은 벽돌 건물이 보인다.",
      "bestTime": "해 질 녘부터 밤까지, 조명이 켜진 창고와 미나토미라이 야경이 함께 보일 때가 가장 아름답다. 11월 하순부터 크리스마스 마켓, 겨울에는 야외 스케이트장도 열린다.",
      "tips": "1호관 10:00~19:00, 2호관 11:00~20:00, 법정 점검일을 제외하고 매일 영업하며 주변 광장은 자유롭게 드나들 수 있다. 주말과 행사일은 붐비니 통로를 막고 촬영하지 말자.",
-     "accessPointName": "미나토미라이선 바샤미치역"
+     "accessPointName": "미나토미라이선 바샤미치역",
+     "searchTerms": [
+      "요코하마 아카렌가 창고",
+      "아츠시 쿄카 데이트",
+      "쿄카 크레이프"
+     ]
     }
    }
   },
@@ -1101,7 +1226,12 @@
      "access": "JR 池袋站东口出站，过明治通进入 Sunshine 60 大道，沿商店街一直走到首都高架下的 Sunshine City 前，约 8 分钟。",
      "bestTime": "入夜后霓虹亮起、人潮涌动时最像动画里的池袋；周末白天非常拥挤，平日早上较清静。",
      "tips": "这里是繁华的商业街，拍照请靠边，勿阻挡行人与车辆。附近的东池袋中央公园、乙女路也是作品中的场景，可以一并散步巡礼。",
-     "accessPointName": "JR 池袋站 东口"
+     "accessPointName": "JR 池袋站 东口",
+     "searchTerms": [
+      "池袋 阳光60大道",
+      "Dollars 集会",
+      "赛尔提"
+     ]
     },
     "ja": {
      "placeName": "池袋 サンシャイン60通り · サンシャインシティ前（東京都豊島区）",
@@ -1112,7 +1242,13 @@
      "access": "JR池袋駅東口から明治通りを渡ってサンシャイン60通りへ。商店街を抜けて首都高高架下のサンシャインシティ前まで約8分。",
      "bestTime": "ネオンが灯り人波があふれる夜がいちばんアニメの池袋らしい。週末の昼は大混雑、平日の朝は比較的静か。",
      "tips": "にぎやかな商店街なので撮影は端に寄って、歩行者や車の妨げにならないように。近くの東池袋中央公園や乙女ロードも作中の舞台なので、あわせて散策を。",
-     "accessPointName": "JR池袋駅 東口"
+     "accessPointName": "JR池袋駅 東口",
+     "searchTerms": [
+      "サンシャイン60通り",
+      "ダラーズ 集会",
+      "セルティ",
+      "池袋"
+     ]
     },
     "en": {
      "placeName": "Sunshine 60-dori to Sunshine City, Ikebukuro (Toshima, Tokyo)",
@@ -1123,7 +1259,13 @@
      "access": "From JR Ikebukuro Station East Exit, cross Meiji-dori into Sunshine 60-dori and follow the shopping street to Sunshine City under the expressway viaduct, about 8 min.",
      "bestTime": "At night, with the neon on and crowds surging, it looks most like the anime; weekend afternoons are packed, weekday mornings calmer.",
      "tips": "This is a busy shopping street: step aside for photos and don't block pedestrians or traffic. Nearby Higashi-Ikebukuro Central Park and Otome Road also appear in the series and make an easy add-on walk.",
-     "accessPointName": "JR Ikebukuro Sta. East Exit"
+     "accessPointName": "JR Ikebukuro Sta. East Exit",
+     "searchTerms": [
+      "Sunshine 60 Street",
+      "Dollars meeting",
+      "Celty",
+      "Ikebukuro"
+     ]
     },
     "ko": {
      "placeName": "이케부쿠로 선샤인60 거리 · 선샤인시티 앞 (도쿄 도시마구)",
@@ -1134,7 +1276,13 @@
      "access": "JR 이케부쿠로역 동쪽 출구에서 메이지도리를 건너 선샤인60 거리로. 상점가를 따라 수도고속도로 고가 아래 선샤인시티 앞까지 약 8분.",
      "bestTime": "네온이 켜지고 인파가 넘치는 밤이 가장 애니메이션 속 이케부쿠로 같다. 주말 낮은 매우 붐비고 평일 아침은 비교적 한산하다.",
      "tips": "번화한 상점가이니 촬영은 가장자리에서 하고 보행자와 차량을 막지 말자. 근처 히가시이케부쿠로 중앙공원과 오토메 로드도 작중 무대라 함께 산책하기 좋다.",
-     "accessPointName": "JR 이케부쿠로역 동쪽 출구"
+     "accessPointName": "JR 이케부쿠로역 동쪽 출구",
+     "searchTerms": [
+      "선샤인60 거리",
+      "달러즈 집회",
+      "셀티",
+      "이케부쿠로"
+     ]
     }
    }
   },
@@ -1171,7 +1319,12 @@
      "access": "函馆市电“五棱郭公园前”下车，沿指示牌步行约 10 分钟到五棱郭塔，塔旁就是五棱郭公园。",
      "bestTime": "4 月下旬至 5 月初樱花开满星形城郭最美；冬季积雪后，白色的五角星轮廓格外清晰。",
      "tips": "五棱郭塔 9:00–18:00 全年无休，展望台成人 1,200 日元（17:50 停止售票）。五棱郭公园免费入园。塔内展出土方岁三像，可与电影对照着看。",
-     "accessPointName": "函馆市电 五棱郭公园前站"
+     "accessPointName": "函馆市电 五棱郭公园前站",
+     "searchTerms": [
+      "五棱郭塔",
+      "五棱郭 星形",
+      "函馆 土方岁三"
+     ]
     },
     "ja": {
      "placeName": "五稜郭タワー · 特別史跡五稜郭（北海道函館市）",
@@ -1182,7 +1335,12 @@
      "access": "函館市電「五稜郭公園前」で下車し、案内に沿って徒歩約10分で五稜郭タワー。タワーの隣が五稜郭公園。",
      "bestTime": "4月下旬〜5月上旬は桜が星形の城郭を埋めつくす。冬は雪が積もると白い星の輪郭がくっきり浮かぶ。",
      "tips": "五稜郭タワーは9:00〜18:00・年中無休、展望料金は大人1,200円（チケット販売は17:50まで）。五稜郭公園は入園無料。タワー内の土方歳三像も映画とあわせて見たい。",
-     "accessPointName": "函館市電 五稜郭公園前"
+     "accessPointName": "函館市電 五稜郭公園前",
+     "searchTerms": [
+      "五稜郭タワー",
+      "五稜郭 星形",
+      "函館 土方歳三"
+     ]
     },
     "en": {
      "placeName": "Goryokaku Tower & Goryokaku Fort (Hakodate, Hokkaido)",
@@ -1193,7 +1351,12 @@
      "access": "Take the Hakodate tram to Goryokaku-koen-mae and follow the signs about 10 min to Goryokaku Tower; Goryokaku Park is right beside it.",
      "bestTime": "Late April to early May, when cherry blossoms fill the star, is loveliest; after winter snow the white five-pointed outline stands out sharply.",
      "tips": "Goryokaku Tower is open 9:00–18:00 every day; observation deck ¥1,200 for adults (tickets until 17:50). Goryokaku Park is free. A statue of Hijikata inside the tower pairs well with the film.",
-     "accessPointName": "Goryokaku-koen-mae (tram)"
+     "accessPointName": "Goryokaku-koen-mae (tram)",
+     "searchTerms": [
+      "Goryokaku Tower",
+      "Goryokaku star fort",
+      "Hakodate Hijikata"
+     ]
     },
     "ko": {
      "placeName": "고료카쿠 타워 · 특별사적 고료카쿠 (홋카이도 하코다테시)",
@@ -1204,7 +1367,12 @@
      "access": "하코다테 노면전차 '고료카쿠코엔마에'에서 내려 안내판을 따라 약 10분 걸으면 고료카쿠 타워. 타워 바로 옆이 고료카쿠 공원이다.",
      "bestTime": "4월 하순~5월 초 벚꽃이 별 모양 성곽을 가득 채울 때가 가장 아름답다. 겨울에 눈이 쌓이면 하얀 별 윤곽이 또렷하게 드러난다.",
      "tips": "고료카쿠 타워는 9:00~18:00 연중무휴, 전망대 성인 1,200엔(매표는 17:50까지). 고료카쿠 공원은 무료. 타워 안 히지카타 도시조 상도 영화와 함께 보면 좋다.",
-     "accessPointName": "하코다테 노면전차 고료카쿠코엔마에"
+     "accessPointName": "하코다테 노면전차 고료카쿠코엔마에",
+     "searchTerms": [
+      "고료카쿠 타워",
+      "고료카쿠 별 모양",
+      "하코다테 히지카타"
+     ]
     }
    }
   },
@@ -1239,7 +1407,13 @@
      "access": "JR 唐津站出站往东北步行约 20 分钟到唐津城（城山有付费电梯），城山东侧松浦川上就是舞鹤桥。",
      "bestTime": "傍晚到入夜，从舞鹤桥一带望向亮灯的天守阁最像动画；11 月 2–4 日唐津宫日节期间全城沸腾。",
      "tips": "天守阁一般 9:00–17:00 开放、需购票，年末休馆，出发前请以官网为准。城山石阶较陡，雨天注意脚下；长椅是公共设施，请轮流拍照。",
-     "accessPointName": "JR 唐津站"
+     "accessPointName": "JR 唐津站",
+     "searchTerms": [
+      "唐津城",
+      "长谷津城",
+      "舞鹤桥",
+      "勇利 维克托"
+     ]
     },
     "ja": {
      "placeName": "唐津城と舞鶴橋（佐賀県唐津市）",
@@ -1250,7 +1424,13 @@
      "access": "JR唐津駅から北東へ徒歩約20分で唐津城（城山に有料エレベーターあり）。城山の東、松浦川に架かるのが舞鶴橋。",
      "bestTime": "夕方から夜、舞鶴橋のあたりからライトアップされた天守を望むとアニメそのもの。11月2〜4日の唐津くんちの時期は町中が熱気に包まれる。",
      "tips": "天守閣はおおむね9:00〜17:00開館・有料、年末休館。最新情報は公式サイトで確認を。城山の石段は急なので雨の日は足もとに注意。ベンチは公共の場所なので譲り合って撮影を。",
-     "accessPointName": "JR唐津駅"
+     "accessPointName": "JR唐津駅",
+     "searchTerms": [
+      "唐津城",
+      "長谷津城",
+      "舞鶴橋",
+      "勇利 ヴィクトル"
+     ]
     },
     "en": {
      "placeName": "Karatsu Castle & Maizuru Bridge (Karatsu, Saga)",
@@ -1261,7 +1441,13 @@
      "access": "From JR Karatsu Station walk about 20 min north-east to Karatsu Castle (paid lift up the hill); Maizuru Bridge spans the Matsuura River on the castle's east side.",
      "bestTime": "Dusk into evening, looking at the lit keep from around Maizuru Bridge, feels just like the anime; during Karatsu Kunchi on 2–4 November the whole town buzzes.",
      "tips": "The keep is usually open 9:00–17:00 with a fee and closes over New Year — check the official site. The castle steps are steep, so take care in rain; the bench is public, so take turns for photos.",
-     "accessPointName": "JR Karatsu Sta."
+     "accessPointName": "JR Karatsu Sta.",
+     "searchTerms": [
+      "Karatsu Castle",
+      "Hasetsu Castle",
+      "Maizuru Bridge",
+      "Yuri Victor"
+     ]
     },
     "ko": {
      "placeName": "가라쓰성과 마이즈루교 (사가현 가라쓰시)",
@@ -1272,7 +1458,13 @@
      "access": "JR 가라쓰역에서 북동쪽으로 도보 약 20분이면 가라쓰성(성산에 유료 엘리베이터 있음). 성산 동쪽 마쓰우라강에 놓인 다리가 마이즈루교다.",
      "bestTime": "해 질 녘부터 밤까지 마이즈루교 부근에서 조명이 켜진 천수각을 바라보면 애니메이션 그대로다. 11월 2~4일 가라쓰 군치 기간에는 온 마을이 들썩인다.",
      "tips": "천수각은 대체로 9:00~17:00 개관·유료이며 연말에 휴관한다. 최신 정보는 공식 사이트에서 확인하자. 성산 돌계단이 가팔라 비 오는 날은 발밑 주의. 벤치는 공공장소이니 번갈아 촬영하자.",
-     "accessPointName": "JR 가라쓰역"
+     "accessPointName": "JR 가라쓰역",
+     "searchTerms": [
+      "가라쓰성",
+      "하세츠성",
+      "마이즈루교",
+      "유리 빅토르"
+     ]
     }
    }
   },
@@ -1308,7 +1500,13 @@
      "access": "群马巴士在“ヤセオネ峠”设有站点，下车即到（班次少，请先查时刻表）；自驾走县道 33 号，遗址旁有停车场。",
      "bestTime": "10 月下旬至 11 月初红叶季山路最美；清晨薄雾中，最有拓海送豆腐的味道。",
      "tips": "这里是普通公共道路，严禁飙车、漂移，也不要在弯道上停车或站在路中拍照，请在停车场内拍摄。冬季路面结冰积雪，12–3 月自驾需雪地轮胎。",
-     "accessPointName": "ヤセオネ峠 巴士站"
+     "accessPointName": "ヤセオネ峠 巴士站",
+     "searchTerms": [
+      "榛名山",
+      "秋名山 起点",
+      "秋名山 下坡",
+      "旧收费站"
+     ]
     },
     "ja": {
      "placeName": "榛名山 ヤセオネ峠 旧料金所跡（群馬県渋川市）",
@@ -1319,7 +1517,13 @@
      "access": "群馬バス「ヤセオネ峠」バス停下車すぐ（本数が少ないので時刻表を確認）。車なら県道33号で、跡地に駐車場あり。",
      "bestTime": "10月下旬〜11月上旬の紅葉期がいちばん美しい。朝もやの早朝は、拓海の豆腐配達の空気そのもの。",
      "tips": "一般の公道なので、スピードの出しすぎやドリフトは厳禁。カーブに車を止めたり車道に立って撮影したりせず、駐車場内で撮ろう。冬は路面が凍結・積雪し、12〜3月はスタッドレスタイヤが必要。",
-     "accessPointName": "ヤセオネ峠 バス停"
+     "accessPointName": "ヤセオネ峠 バス停",
+     "searchTerms": [
+      "ヤセオネ峠",
+      "秋名 スタート地点",
+      "榛名山 ダウンヒル",
+      "旧料金所"
+     ]
     },
     "en": {
      "placeName": "Former toll gate site, Yaseone Pass, Mt. Haruna (Shibukawa, Gunma)",
@@ -1330,7 +1534,13 @@
      "access": "Get off at the Gunma Bus “Yaseone-toge” stop, right by the site (buses are rare — check times). By car, take Route 33; there is a car park at the site.",
      "bestTime": "Late October to early November, when the leaves turn, is most beautiful; misty dawns feel just like Takumi's tofu run.",
      "tips": "This is a public road: no speeding or drifting, and never stop on a bend or stand in the road for photos — shoot from the car park. The road ices over in winter; winter tyres are needed December–March.",
-     "accessPointName": "Yaseone-toge bus stop"
+     "accessPointName": "Yaseone-toge bus stop",
+     "searchTerms": [
+      "Yaseone Pass",
+      "Akina downhill start",
+      "Mt Haruna",
+      "old toll gate"
+     ]
     },
     "ko": {
      "placeName": "하루나산 야세오네 고개 옛 요금소 터 (군마현 시부카와시)",
@@ -1341,7 +1551,13 @@
      "access": "군마 버스 '야세오네 고개' 정류장에서 내리면 바로(운행 편수가 적으니 시간표 확인). 차로는 현도 33호선, 터 옆에 주차장이 있다.",
      "bestTime": "10월 하순~11월 초 단풍철이 가장 아름답다. 안개 낀 이른 아침은 타쿠미의 두부 배달 분위기 그대로다.",
      "tips": "일반 공도이니 과속과 드리프트는 절대 금지. 커브에 차를 세우거나 차도에 서서 촬영하지 말고 주차장 안에서 찍자. 겨울에는 노면이 얼고 눈이 쌓여 12~3월에는 스노 타이어가 필요하다.",
-     "accessPointName": "야세오네 고개 버스 정류장"
+     "accessPointName": "야세오네 고개 버스 정류장",
+     "searchTerms": [
+      "야세오네 고개",
+      "아키나 출발점",
+      "하루나산 다운힐",
+      "옛 요금소"
+     ]
     }
    }
   }

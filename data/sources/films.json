@@ -474,7 +474,13 @@
      "access": "JR 小樽站出站沿中央通直走到运河（约 8 分钟），左转沿运河往北走到尽头，全程约 1.5 km、步行约 20 分钟。",
      "bestTime": "下雪的午后最有电影感，雪后晴天石墙映着积雪最美；2 月“小樽雪灯之路”期间，运河一带夜里点满雪灯。",
      "tips": "国家重要文化财，2025 年整修后重新开放：9:30–17:00，周二休馆（逢节假日顺延），年末年始休，成人需购票。馆内请保持安静；冬季路面结冰，请穿防滑鞋。",
-     "accessPointName": "JR 小樽站"
+     "accessPointName": "JR 小樽站",
+     "searchTerms": [
+      "旧日本邮船小樽分店",
+      "图书馆",
+      "藤井树",
+      "借书卡"
+     ]
     },
     "ja": {
      "placeName": "旧日本郵船株式会社小樽支店（北海道小樽市）",
@@ -485,7 +491,13 @@
      "access": "JR小樽駅から中央通りをまっすぐ運河へ（約8分）、左折して運河沿いを北端まで。約1.5km、徒歩約20分。",
      "bestTime": "雪の降る午後がいちばん映画らしく、雪上がりの晴れた日は石壁と雪の対比が美しい。2月の「小樽雪あかりの路」期間は運河沿いが灯りに包まれる。",
      "tips": "国の重要文化財で、2025年に改修を終えて再開。9:30〜17:00、火曜休館（祝日の場合は翌平日）、年末年始休館、大人は有料。館内では静かに。冬は路面が凍るので滑りにくい靴で。",
-     "accessPointName": "JR小樽駅"
+     "accessPointName": "JR小樽駅",
+     "searchTerms": [
+      "旧日本郵船小樽支店",
+      "図書館",
+      "藤井樹",
+      "貸出カード"
+     ]
     },
     "en": {
      "placeName": "Former NYK Otaru Branch (Otaru, Hokkaido)",
@@ -496,7 +508,13 @@
      "access": "From JR Otaru Station walk straight down Chuo-dori to the canal (about 8 min), turn left and follow the canal to its north end: about 1.5 km, 20 min in all.",
      "bestTime": "Snowy afternoons feel most like the film; on a clear day after snowfall the stone walls glow against the snow. In February the Otaru Snow Light Path fills the canal area with lanterns at night.",
      "tips": "An Important Cultural Property, reopened in 2025 after restoration: 9:30–17:00, closed Tuesdays (next weekday if a holiday) and over New Year; adults pay admission. Keep quiet inside, and wear grippy shoes on icy winter pavements.",
-     "accessPointName": "JR Otaru Sta."
+     "accessPointName": "JR Otaru Sta.",
+     "searchTerms": [
+      "Former NYK Otaru Branch",
+      "library",
+      "Itsuki Fujii",
+      "library card"
+     ]
     },
     "ko": {
      "placeName": "구 일본우선 오타루 지점 (홋카이도 오타루)",
@@ -507,7 +525,13 @@
      "access": "JR 오타루역에서 주오도리를 따라 운하까지 직진(약 8분), 왼쪽으로 꺾어 운하를 따라 북쪽 끝까지. 약 1.5km, 도보 약 20분.",
      "bestTime": "눈 내리는 오후가 가장 영화 같고, 눈 갠 맑은 날에는 돌벽과 눈의 대비가 아름답다. 2월 '오타루 유키아카리노미치' 기간에는 운하 일대가 눈 등불로 밝혀진다.",
      "tips": "국가 중요문화재로 2025년 보수를 마치고 재개관했다. 9:30~17:00, 화요일 휴관(공휴일이면 다음 평일), 연말연시 휴관, 성인은 유료. 관내에서는 조용히, 겨울에는 길이 얼어 미끄럼 방지 신발이 필요하다.",
-     "accessPointName": "JR 오타루역"
+     "accessPointName": "JR 오타루역",
+     "searchTerms": [
+      "구 일본우선 오타루지점",
+      "도서관",
+      "후지이 이츠키",
+      "도서 대출카드"
+     ]
     }
    }
   },
@@ -542,7 +566,13 @@
      "access": "JR 小樽站前乘往天狗山的中央巴士约 20 分钟，终点「天狗山缆车」下车；乘缆车约 4 分钟到山顶站，出站即是观景区。",
      "bestTime": "晴朗雪日的上午光线干净、雪地最白；傍晚到入夜可俯瞰小樽港夜景。周末滑雪客多，平日更安静。",
      "tips": "电影中的具体雪坡未公开，山顶观景区可看到相近的雪景。冬季这里是滑雪场，请勿走进雪道。缆车需购票，每年 4 月、11 月有检修停运期，恶劣天气也会停运，出发前请确认。",
-     "accessPointName": "天狗山缆车 山顶站"
+     "accessPointName": "天狗山缆车 山顶站",
+     "searchTerms": [
+      "天狗山",
+      "雪地躺下",
+      "屏住呼吸",
+      "开场"
+     ]
     },
     "ja": {
      "placeName": "天狗山山頂付近（北海道小樽市）",
@@ -553,7 +583,13 @@
      "access": "JR小樽駅前から天狗山行きの中央バスで約20分、終点「天狗山ロープウエイ」下車。ロープウエイ約4分で山頂駅、出てすぐ展望エリア。",
      "bestTime": "晴れた雪の日の午前は光が澄み、雪がいちばん白い。夕方から夜は小樽港の夜景も。週末はスキー客で混むので平日が静か。",
      "tips": "映画の正確な斜面は公表されていないが、山頂の展望エリアで近い雪景色が見られる。冬はスキー場なのでゲレンデに立ち入らないこと。ロープウエイは有料で、4月・11月の整備期間や荒天時は運休するので事前に確認を。",
-     "accessPointName": "天狗山ロープウエイ 山頂駅"
+     "accessPointName": "天狗山ロープウエイ 山頂駅",
+     "searchTerms": [
+      "天狗山",
+      "雪の斜面",
+      "雪に寝転ぶ博子",
+      "オープニング"
+     ]
     },
     "en": {
      "placeName": "Around the summit of Mt. Tengu (Otaru, Hokkaido)",
@@ -564,7 +600,13 @@
      "access": "Chuo Bus bound for Tenguyama from JR Otaru Station, about 20 min to the last stop (Tenguyama Ropeway). The ropeway takes about 4 min; the viewing area is right outside the summit station.",
      "bestTime": "Clear snowy mornings give the cleanest light and whitest snow; from dusk you can look down on Otaru's harbour lights. Weekdays are quieter than ski-crowded weekends.",
      "tips": "The exact slope from the film hasn't been made public, but the summit viewing area offers a very similar snowscape. In winter it's a ski area, so keep off the runs. The ropeway is paid and stops for maintenance in April and November and in bad weather; check before you go.",
-     "accessPointName": "Mt. Tengu Ropeway Summit Sta."
+     "accessPointName": "Mt. Tengu Ropeway Summit Sta.",
+     "searchTerms": [
+      "Mt Tengu",
+      "lying in the snow",
+      "holding her breath",
+      "opening scene"
+     ]
     },
     "ko": {
      "placeName": "덴구야마 정상 부근 (홋카이도 오타루)",
@@ -575,7 +617,12 @@
      "access": "JR 오타루역 앞에서 덴구야마행 주오버스로 약 20분, 종점 '덴구야마 로프웨이' 하차. 로프웨이로 약 4분이면 산정역, 나오면 바로 전망 구역이다.",
      "bestTime": "맑은 눈 오는 날 오전이 빛이 깨끗하고 눈이 가장 하얗다. 해 질 녘부터는 오타루항 야경도 볼 수 있다. 주말은 스키객이 많아 평일이 한적하다.",
      "tips": "영화 속 정확한 비탈은 공개되지 않았지만 산정 전망 구역에서 비슷한 설경을 볼 수 있다. 겨울에는 스키장이니 슬로프에 들어가지 말자. 로프웨이는 유료이며 4월·11월 정비 기간과 악천후 시 운휴하니 미리 확인하자.",
-     "accessPointName": "덴구야마 로프웨이 산정역"
+     "accessPointName": "덴구야마 로프웨이 산정역",
+     "searchTerms": [
+      "덴구야마",
+      "눈밭에 눕는 히로코",
+      "오프닝"
+     ]
     }
    }
   },
@@ -609,7 +656,12 @@
      "access": "JR 羽越本线「游佐」站下车，往东穿过镇中心走约 1.8 km（约 25 分钟）到月光川河岸。列车班次少，请先查好回程时刻。",
      "bestTime": "空气通透的晴天早晨最容易看清鸟海山；4–5 月山顶残雪还在，山形最上镜。阴天山常被云遮住。",
      "tips": "普通的河岸草地，没有厕所等设施。注意脚下和河水，不要踏入农田。旧朝日桥旁就是县道新桥，拍照时注意车辆。",
-     "accessPointName": "JR 游佐站"
+     "accessPointName": "JR 游佐站",
+     "searchTerms": [
+      "月光川",
+      "鸟海山 大提琴",
+      "河边拉大提琴"
+     ]
     },
     "ja": {
      "placeName": "月光川河川敷・旧朝日橋（山形県遊佐町）",
@@ -620,7 +672,13 @@
      "access": "JR羽越本線「遊佐」駅から町の中心を抜けて東へ約1.8km、徒歩約25分で月光川の河川敷。列車の本数が少ないので帰りの時刻を確認しておこう。",
      "bestTime": "空気の澄んだ晴れた朝が鳥海山をいちばんくっきり望める。4〜5月は山頂に残雪があり、山の姿がいちばん映える。曇りの日は雲に隠れがち。",
      "tips": "ただの河川敷で、トイレなどの設備はない。足元と川に注意し、田んぼには入らないこと。旧朝日橋の隣は県道の新しい橋なので、撮影中は車に注意。",
-     "accessPointName": "JR遊佐駅"
+     "accessPointName": "JR遊佐駅",
+     "searchTerms": [
+      "月光川",
+      "旧朝日橋",
+      "鳥海山 チェロ",
+      "河原でチェロ"
+     ]
     },
     "en": {
      "placeName": "Gakko River bank by the old Asahi Bridge (Yuza, Yamagata)",
@@ -631,7 +689,12 @@
      "access": "From Yuza Station (JR Uetsu Line) walk east through the town centre, about 1.8 km / 25 min, to the Gakko River bank. Trains are infrequent, so check your return time first.",
      "bestTime": "Clear, crisp mornings give the best chance of seeing Mt. Chokai sharply; in April–May the peak still wears snow and looks its most photogenic. On cloudy days the mountain often hides.",
      "tips": "An ordinary riverbank with no toilets or facilities. Watch your footing near the water and keep out of the rice fields. The new prefectural-road bridge runs right beside the old one, so mind traffic while shooting.",
-     "accessPointName": "JR Yuza Sta."
+     "accessPointName": "JR Yuza Sta.",
+     "searchTerms": [
+      "Gakko River",
+      "cello Mt Chokai",
+      "cello by the river"
+     ]
     },
     "ko": {
      "placeName": "갓코강 둔치 · 구 아사히교 (야마가타 유자정)",
@@ -642,7 +705,12 @@
      "access": "JR 우에쓰본선 '유자'역에서 마을 중심을 지나 동쪽으로 약 1.8km(도보 약 25분) 가면 갓코강 둔치. 열차 편수가 적으니 돌아오는 시간을 미리 확인하자.",
      "bestTime": "공기가 맑은 갠 날 아침에 조카이산이 가장 또렷하다. 4~5월에는 산꼭대기에 잔설이 남아 가장 사진발이 좋다. 흐린 날에는 구름에 가려지기 쉽다.",
      "tips": "화장실 등 시설이 없는 평범한 강둑이다. 물가 발밑을 조심하고 논에 들어가지 말자. 옛 아사히교 바로 옆이 현도의 새 다리라 촬영 중 차량에 주의하자.",
-     "accessPointName": "JR 유자역"
+     "accessPointName": "JR 유자역",
+     "searchTerms": [
+      "갓코강",
+      "조카이산 첼로",
+      "강변 첼로 연주"
+     ]
     }
    }
   },
@@ -676,7 +744,13 @@
      "access": "JR 酒田站前乘市内循环巴士「るんるんバス」大学线，「日和山公园」站下车，小幡楼就在站旁；从酒田站步行约 30 分钟。",
      "bestTime": "4 月中下旬日和山公园樱花盛开；想感受片中庄内冬天的阴冷质感，就选下雪的白天，傍晚还能看海上落日。",
      "tips": "现由酒田市所有，内有面包店咖啡馆（约 8:30–17:30，不定期休息，12/29–31 休），出发前最好电话确认。拍外观时请别挡住坡道和店门。",
-     "accessPointName": "日和山公园 巴士站"
+     "accessPointName": "日和山公园 巴士站",
+     "searchTerms": [
+      "小幡楼",
+      "NK代理公司",
+      "日和山",
+      "面试"
+     ]
     },
     "ja": {
      "placeName": "日和山 小幡楼（山形県酒田市）",
@@ -687,7 +761,13 @@
      "access": "JR酒田駅前から市内循環「るんるんバス」大学線で「日和山公園」下車、小幡楼はバス停のすぐそば。酒田駅から徒歩なら約30分。",
      "bestTime": "4月中旬〜下旬は日和山公園の桜が見頃。映画の庄内の冬の空気を感じるなら雪の日の昼間に。夕方は海に沈む夕日も。",
      "tips": "現在は酒田市の所有で、館内にベーカリーカフェ（8:30〜17:30ごろ、不定休、12/29〜31休み）がある。訪問前に電話で確認を。外観撮影の際は坂道や入口をふさがないこと。",
-     "accessPointName": "日和山公園バス停"
+     "accessPointName": "日和山公園バス停",
+     "searchTerms": [
+      "小幡楼",
+      "NKエージェント",
+      "日和山",
+      "面接"
+     ]
     },
     "en": {
      "placeName": "Hiyoriyama Obataro (Sakata, Yamagata)",
@@ -698,7 +778,13 @@
      "access": "From JR Sakata Station take the Runrun Bus city loop (Daigaku Line) to Hiyoriyama Koen; Obataro is right by the stop. On foot it's about 30 min from the station.",
      "bestTime": "Mid-to-late April brings Hiyoriyama Park's cherry blossoms. For the film's grey Shonai winter, come on a snowy day; at dusk the sun sets over the sea.",
      "tips": "Now owned by Sakata City, with a bakery-café inside (roughly 8:30–17:30, irregular closures, closed Dec 29–31); call ahead to confirm. When photographing the exterior, don't block the slope or the entrance.",
-     "accessPointName": "Hiyoriyama Koen Bus Stop"
+     "accessPointName": "Hiyoriyama Koen Bus Stop",
+     "searchTerms": [
+      "Obataro",
+      "NK Agent office",
+      "Hiyoriyama",
+      "job interview"
+     ]
     },
     "ko": {
      "placeName": "히요리야마 오바타로 (야마가타 사카타)",
@@ -709,7 +795,13 @@
      "access": "JR 사카타역 앞에서 시내 순환 '룬룬 버스' 대학선을 타고 '히요리야마 공원'에서 내리면 정류장 바로 옆이 오바타로. 역에서 걸으면 약 30분.",
      "bestTime": "4월 중·하순에는 히요리야마 공원 벚꽃이 한창이다. 영화 속 쇼나이 겨울 분위기를 원한다면 눈 오는 낮에, 저녁에는 바다로 지는 해도 볼 수 있다.",
      "tips": "현재 사카타시 소유로 안에 베이커리 카페가 있다(약 8:30~17:30, 부정기 휴무, 12/29~31 휴무). 방문 전 전화로 확인하자. 외관을 찍을 때 비탈길과 입구를 막지 말자.",
-     "accessPointName": "히요리야마 공원 버스 정류장"
+     "accessPointName": "히요리야마 공원 버스 정류장",
+     "searchTerms": [
+      "오바타로",
+      "NK에이전트",
+      "히요리야마",
+      "면접"
+     ]
     }
    }
   },
@@ -742,7 +834,13 @@
      "access": "JR 尾道站前乘往东的巴士约 5 分钟，「净土寺下」站下车，从国道旁的山门石阶上去约 3 分钟；沿海边步行约 25 分钟。",
      "bestTime": "夏天清晨日出后不久最接近电影：游人少、海面泛光，也正好体会“今天又要热了”。",
      "tips": "仍在使用的寺院，本堂与多宝塔为国宝。境内免费，本堂内、庭园和宝物馆需另付参观费（约 9:00–16:00 受理，1 月 1–3 日暂停）。请保持安静，勿打扰参拜者。",
-     "accessPointName": "净土寺下 巴士站"
+     "accessPointName": "净土寺下 巴士站",
+     "searchTerms": [
+      "净土寺",
+      "尾道",
+      "美丽的黎明",
+      "笠智众"
+     ]
     },
     "ja": {
      "placeName": "浄土寺 境内（広島県尾道市）",
@@ -753,7 +851,13 @@
      "access": "JR尾道駅前から東行きのバスで約5分「浄土寺下」下車、国道沿いの山門から石段を上って徒歩約3分。海沿いを歩けば約25分。",
      "bestTime": "夏の早朝、日の出から間もない時間が映画にいちばん近い。人も少なく、光る海を前に「今日も暑うなるぞ」を実感できる。",
      "tips": "本堂と多宝塔が国宝の現役の寺院。境内は無料、本堂・庭園・宝物館は拝観料が必要（受付9:00〜16:00ごろ、1月1〜3日は休止）。参拝者の妨げにならないよう静かに。",
-     "accessPointName": "浄土寺下バス停"
+     "accessPointName": "浄土寺下バス停",
+     "searchTerms": [
+      "浄土寺",
+      "尾道",
+      "きれいな夜明け",
+      "笠智衆"
+     ]
     },
     "en": {
      "placeName": "Jodo-ji Temple grounds (Onomichi, Hiroshima)",
@@ -764,7 +868,13 @@
      "access": "Eastbound bus from JR Onomichi Station, about 5 min to Jodoji-shita; climb the stone steps from the gate by the main road, about 3 min. Or walk along the waterfront, about 25 min.",
      "bestTime": "A summer morning shortly after sunrise is closest to the film: few people around, the water glinting, and you'll understand exactly why it's going to be hot today.",
      "tips": "An active temple whose main hall and pagoda are National Treasures. The grounds are free; the hall interior, garden and treasure house charge admission (roughly 9:00–16:00, suspended Jan 1–3). Keep quiet and don't disturb worshippers.",
-     "accessPointName": "Jodoji-shita Bus Stop"
+     "accessPointName": "Jodoji-shita Bus Stop",
+     "searchTerms": [
+      "Jodo-ji Temple",
+      "Onomichi",
+      "beautiful dawn",
+      "Chishu Ryu"
+     ]
     },
     "ko": {
      "placeName": "조도지 경내 (히로시마 오노미치)",
@@ -775,7 +885,13 @@
      "access": "JR 오노미치역 앞에서 동쪽 방면 버스로 약 5분, '조도지시타' 하차. 국도 옆 산문에서 돌계단을 올라 도보 약 3분. 해안을 따라 걸으면 약 25분.",
      "bestTime": "여름 이른 아침, 해 뜬 직후가 영화와 가장 가깝다. 사람도 적고 바다가 반짝여 '오늘도 덥겠군'이 실감 난다.",
      "tips": "본당과 다보탑이 국보인 현역 사찰. 경내는 무료이고 본당 내부·정원·보물관은 관람료가 있다(약 9:00~16:00, 1월 1~3일 중지). 참배객을 방해하지 않도록 조용히.",
-     "accessPointName": "조도지시타 버스 정류장"
+     "accessPointName": "조도지시타 버스 정류장",
+     "searchTerms": [
+      "조도지",
+      "오노미치",
+      "아름다운 새벽",
+      "류 치슈"
+     ]
     }
    }
   },
@@ -809,7 +925,12 @@
      "access": "JR 高松站前乘琴电巴士（往庵治方向）约 46 分钟，「庵治农协前」站下车，步行约 1 分钟（约 100 米）即到。",
      "bestTime": "午后进馆，傍晚到附近渔港看海上夕阳最有电影感；故事发生在夏天，7–9 月最贴近。",
      "tips": "观光交流馆约 9:00–17:00，周二休馆，免费入馆，内有咖啡馆，以官方最新信息为准。巴士班次少，请先查好回程。附近王之下防波堤也是取景地，堤上请勿奔跑。",
-     "accessPointName": "庵治农协前 巴士站"
+     "accessPointName": "庵治农协前 巴士站",
+     "searchTerms": [
+      "雨平写真馆",
+      "庵治",
+      "婚纱照"
+     ]
     },
     "ja": {
      "placeName": "雨平写真館（純愛の聖地庵治・観光交流館／香川県高松市）",
@@ -820,7 +941,13 @@
      "access": "JR高松駅前からことでんバス（庵治方面）で約46分「庵治農協前」下車、徒歩約1分（約100m）。",
      "bestTime": "午後に館内を見て、夕方は近くの漁港で海に沈む夕日を。物語の季節は夏なので7〜9月がいちばん近い。",
      "tips": "観光交流館は9:00〜17:00ごろ、火曜休館、入館無料でカフェ併設（最新情報は公式で確認を）。バスの本数が少ないので帰りの便を先に確認。近くの王の下沖防波堤もロケ地だが、堤防の上では走らないこと。",
-     "accessPointName": "庵治農協前バス停"
+     "accessPointName": "庵治農協前バス停",
+     "searchTerms": [
+      "雨平写真館",
+      "庵治",
+      "ウェディングフォト",
+      "重じい"
+     ]
     },
     "en": {
      "placeName": "Amehira Photo Studio (Aji Tourist Exchange Center, Takamatsu, Kagawa)",
@@ -831,7 +958,12 @@
      "access": "Kotoden bus (toward Aji) from JR Takamatsu Station, about 46 min to Aji Nokyo-mae; the centre is a 1-minute (100 m) walk from the stop.",
      "bestTime": "Visit the centre in the afternoon, then catch the sunset over the water at the nearby fishing port. The story is set in summer, so July–September feels closest.",
      "tips": "The centre is open roughly 9:00–17:00, closed Tuesdays, free entry, with a café inside (check official info). Buses are infrequent, so check your return trip first. The nearby Ōnoshita breakwater is also a location; don't run along it.",
-     "accessPointName": "Aji Nokyo-mae Bus Stop"
+     "accessPointName": "Aji Nokyo-mae Bus Stop",
+     "searchTerms": [
+      "Amehira Photo Studio",
+      "Aji",
+      "wedding photo"
+     ]
     },
     "ko": {
      "placeName": "아메히라 사진관 (순애의 성지 아지 관광교류관, 가가와 다카마쓰)",
@@ -842,7 +974,12 @@
      "access": "JR 다카마쓰역 앞에서 고토덴 버스(아지 방면)로 약 46분, '아지 노쿄마에' 하차 후 도보 약 1분(약 100m).",
      "bestTime": "오후에 관을 둘러보고 저녁에는 근처 어항에서 바다 위 노을을 보자. 이야기의 계절이 여름이라 7~9월이 가장 가깝다.",
      "tips": "관광교류관은 약 9:00~17:00, 화요일 휴관, 입장 무료이며 카페가 있다(최신 정보는 공식 사이트 확인). 버스 편수가 적으니 돌아갈 편을 먼저 확인하자. 근처 오노시타 방파제도 촬영지지만 방파제 위에서는 뛰지 말자.",
-     "accessPointName": "아지 노쿄마에 버스 정류장"
+     "accessPointName": "아지 노쿄마에 버스 정류장",
+     "searchTerms": [
+      "아메히라 사진관",
+      "아지",
+      "웨딩 사진"
+     ]
     }
    }
   },
@@ -876,7 +1013,13 @@
      "access": "小田急线「代代木八幡」站北口出站，沿山手通往北走约 300 米，右手边的鸟居和石阶即是，约 5 分钟；千代田线「代代木公园」站也可步行前往。",
      "bestTime": "晴天上午 11 点到下午 1 点，阳光穿过树冠洒下的光斑最明显；有微风时树影摇动，最像电影。",
      "tips": "这是仍有人日常参拜的神社，请保持安静，不要久占长椅或拍摄参拜者。附近有电影里伊东丰雄设计的公厕，参观拍照时请勿打扰使用者。",
-     "accessPointName": "代代木八幡站 北口"
+     "accessPointName": "代代木八幡站 北口",
+     "searchTerms": [
+      "代代木八幡宫",
+      "树影",
+      "午休",
+      "三明治"
+     ]
     },
     "ja": {
      "placeName": "代々木八幡宮 境内（東京都渋谷区）",
@@ -887,7 +1030,13 @@
      "access": "小田急線「代々木八幡」駅北口から山手通りを北へ約300m、右手の鳥居と石段が入口で徒歩約5分。千代田線「代々木公園」駅からも歩ける。",
      "bestTime": "晴れた日の11時〜13時ごろ、木々の間から落ちる光がいちばんはっきりする。風のある日は影が揺れて映画そのもの。",
      "tips": "地域の人が参拝する神社なので静かに。ベンチの長居や参拝者の撮影は避けること。近くに映画に登場する伊東豊雄設計のトイレがあるが、利用者の迷惑にならないように。",
-     "accessPointName": "代々木八幡駅 北口"
+     "accessPointName": "代々木八幡駅 北口",
+     "searchTerms": [
+      "代々木八幡宮",
+      "木漏れ日",
+      "昼休み",
+      "サンドイッチ"
+     ]
     },
     "en": {
      "placeName": "Yoyogi Hachimangu Shrine grounds (Shibuya, Tokyo)",
@@ -898,7 +1047,13 @@
      "access": "From the North Exit of Yoyogi-Hachiman Station (Odakyu Line), walk about 300 m north along Yamate-dori; the torii and stone steps are on your right, about 5 min. Yoyogi-koen Station (Chiyoda Line) is also within walking distance.",
      "bestTime": "On sunny days from about 11 am to 1 pm the light spilling through the canopy is strongest; a light breeze sets the shadows dancing just like the film.",
      "tips": "An active neighbourhood shrine: keep quiet, don't hog the benches, and don't photograph worshippers. Toyo Ito's toilet from the film is nearby; don't disturb people using it.",
-     "accessPointName": "Yoyogi-Hachiman Sta. North Exit"
+     "accessPointName": "Yoyogi-Hachiman Sta. North Exit",
+     "searchTerms": [
+      "Yoyogi Hachimangu",
+      "komorebi",
+      "lunch break",
+      "Olympus camera"
+     ]
     },
     "ko": {
      "placeName": "요요기하치만구 경내 (도쿄 시부야)",
@@ -909,7 +1064,13 @@
      "access": "오다큐선 '요요기하치만'역 북쪽 출구에서 야마테도리를 따라 북쪽으로 약 300m, 오른편 도리이와 돌계단이 입구(도보 약 5분). 지요다선 '요요기코엔'역에서도 걸어갈 수 있다.",
      "bestTime": "맑은 날 오전 11시~오후 1시쯤 나무 사이로 떨어지는 빛이 가장 선명하다. 바람이 살짝 불면 그림자가 흔들려 영화 그대로다.",
      "tips": "지역 주민이 참배하는 신사이니 조용히 하고, 벤치를 오래 차지하거나 참배객을 촬영하지 말자. 근처에 영화 속 이토 도요 설계 화장실이 있는데 이용자를 방해하지 말자.",
-     "accessPointName": "요요기하치만역 북쪽 출구"
+     "accessPointName": "요요기하치만역 북쪽 출구",
+     "searchTerms": [
+      "요요기 하치만구",
+      "코모레비",
+      "점심시간",
+      "샌드위치"
+     ]
     }
    }
   },
@@ -942,7 +1103,13 @@
      "access": "东京地铁银座线「浅草」站 5 号出口出，在吾妻桥旁进入隅田公园，沿隅田川往北走约 1.2 km（约 16 分钟）到樱桥。",
      "bestTime": "3 月底到 4 月初两岸隅田公园樱花盛开；平日下午到傍晚光线最柔和，晴空塔也最好看。赏樱周末人极多。",
      "tips": "樱桥是步行桥，骑车经过请下车推行或慢行，礼让行人。赏樱季和节假日人很多，不要长时间堵在桥中央拍照。",
-     "accessPointName": "浅草站 5 号出口"
+     "accessPointName": "浅草站 5 号出口",
+     "searchTerms": [
+      "樱桥",
+      "隅田川",
+      "妮子 自行车",
+      "下次是下次"
+     ]
     },
     "ja": {
      "placeName": "桜橋（東京都墨田区・台東区／隅田川）",
@@ -953,7 +1120,13 @@
      "access": "東京メトロ銀座線「浅草」駅5番出口から吾妻橋のたもとで隅田公園に入り、隅田川沿いを北へ約1.2km（徒歩約16分）で桜橋。",
      "bestTime": "3月末〜4月初めは両岸の隅田公園の桜が満開。平日の午後〜夕方は光が柔らかく、スカイツリーもきれい。桜の週末は大混雑。",
      "tips": "桜橋は歩行者用の橋。自転車は押して歩くか徐行し、歩行者を優先しよう。桜の季節や休日は混むので、橋の真ん中で長時間立ち止まって撮影しないこと。",
-     "accessPointName": "浅草駅 5番出口"
+     "accessPointName": "浅草駅 5番出口",
+     "searchTerms": [
+      "桜橋",
+      "隅田川",
+      "ニコと自転車",
+      "今度は今度"
+     ]
     },
     "en": {
      "placeName": "Sakurabashi Bridge over the Sumida River (Sumida/Taito, Tokyo)",
@@ -964,7 +1137,13 @@
      "access": "From Exit 5 of Asakusa Station (Tokyo Metro Ginza Line), enter Sumida Park by Azumabashi Bridge and follow the Sumida north about 1.2 km (16 min) to Sakurabashi.",
      "bestTime": "Late March to early April, cherry trees bloom on both banks in Sumida Park. Weekday late afternoons bring the softest light on the Skytree; blossom weekends are packed.",
      "tips": "Sakurabashi is a footbridge: walk your bike or ride slowly and give way to pedestrians. It's crowded in blossom season and on holidays, so don't block the middle of the bridge for long photo sessions.",
-     "accessPointName": "Asakusa Sta. Exit 5"
+     "accessPointName": "Asakusa Sta. Exit 5",
+     "searchTerms": [
+      "Sakurabashi Bridge",
+      "Sumida River",
+      "Niko bicycle",
+      "next time is next time"
+     ]
     },
     "ko": {
      "placeName": "사쿠라바시 다리 (도쿄 스미다·다이토 / 스미다강)",
@@ -975,7 +1154,13 @@
      "access": "도쿄메트로 긴자선 '아사쿠사'역 5번 출구로 나와 아즈마바시 옆에서 스미다 공원으로 들어가, 스미다강을 따라 북쪽으로 약 1.2km(도보 약 16분) 가면 사쿠라바시.",
      "bestTime": "3월 말~4월 초에는 양쪽 강변 스미다 공원에 벚꽃이 만개한다. 평일 오후~해 질 녘이 빛이 부드럽고 스카이트리도 예쁘다. 벚꽃철 주말은 매우 붐빈다.",
      "tips": "사쿠라바시는 보행자 다리다. 자전거는 끌고 가거나 천천히 달리며 보행자에게 양보하자. 벚꽃철과 휴일에는 붐비니 다리 한가운데에서 오래 멈춰 촬영하지 말자.",
-     "accessPointName": "아사쿠사역 5번 출구"
+     "accessPointName": "아사쿠사역 5번 출구",
+     "searchTerms": [
+      "사쿠라바시",
+      "스미다강",
+      "니코 자전거",
+      "다음은 다음"
+     ]
     }
    }
   },
@@ -1010,7 +1195,12 @@
      "access": "广岛站乘广岛巴士 24 号线（往吉岛营业所，经和平纪念公园）到「南吉岛」站，下车往海的方向（南）直走约 800 米，约 10 分钟。",
      "bestTime": "晴天下午，通廊尽头的濑户内海和岛影最清楚；春秋空气通透，傍晚前的斜光也很柔和。",
      "tips": "2 楼通廊「エコリアム」免费开放，9:00–16:30，12/29–1/3 关闭。工厂内部参观仅限平日，需到 6 楼办公室登记。这是运转中的设施，请勿进入作业区，留意进出的垃圾车。",
-     "accessPointName": "南吉岛 巴士站"
+     "accessPointName": "南吉岛 巴士站",
+     "searchTerms": [
+      "广岛中工厂",
+      "垃圾处理厂",
+      "和平轴线"
+     ]
     },
     "ja": {
      "placeName": "広島市環境局中工場 エコリアム（広島市中区）",
@@ -1021,7 +1211,13 @@
      "access": "広島駅から広島バス24号線（吉島営業所行き、平和記念公園経由）で「南吉島」下車。海の方向（南）へまっすぐ約800m、徒歩約10分。",
      "bestTime": "晴れた日の午後は通路の先の瀬戸内海と島影がくっきり。空気の澄む春と秋、閉館前の斜光も柔らかい。",
      "tips": "2階の通路「エコリアム」は9:00〜16:30に無料開放（12/29〜1/3は閉鎖）。工場内部の見学は平日のみで、6階事務室で受付。稼働中の施設なので作業エリアに入らず、ごみ収集車の出入りに注意。",
-     "accessPointName": "南吉島バス停"
+     "accessPointName": "南吉島バス停",
+     "searchTerms": [
+      "広島市中工場",
+      "エコリアム",
+      "平和の軸線",
+      "ごみ処理場"
+     ]
     },
     "en": {
      "placeName": "Hiroshima City Naka Incineration Plant, Ecorium (Naka Ward, Hiroshima)",
@@ -1032,7 +1228,13 @@
      "access": "Hiroshima Bus route 24 (for Yoshijima Eigyosho, via the Peace Memorial Park) from Hiroshima Station to Minami-Yoshijima, then walk straight south toward the sea, about 800 m / 10 min.",
      "bestTime": "Clear afternoons show the Seto Inland Sea and its islands sharply at the end of the corridor; spring and autumn air is clearest, and the low late-day light is soft.",
      "tips": "The 2nd-floor Ecorium corridor is open free 9:00–16:30 (closed Dec 29–Jan 3). Tours of the plant interior are weekdays only, signing in at the 6th-floor office. It's a working facility: stay out of operational areas and watch for garbage trucks.",
-     "accessPointName": "Minami-Yoshijima Bus Stop"
+     "accessPointName": "Minami-Yoshijima Bus Stop",
+     "searchTerms": [
+      "Naka Incineration Plant",
+      "Ecorium",
+      "peace axis",
+      "garbage plant"
+     ]
     },
     "ko": {
      "placeName": "히로시마시 환경국 나카 공장 에코리움 (히로시마 나카구)",
@@ -1043,7 +1245,12 @@
      "access": "히로시마역에서 히로시마 버스 24번(요시지마 영업소행, 평화기념공원 경유)으로 '미나미요시지마' 하차. 바다 쪽(남쪽)으로 약 800m 직진, 도보 약 10분.",
      "bestTime": "맑은 날 오후에 통로 끝 세토내해와 섬 그림자가 가장 선명하다. 공기가 맑은 봄·가을, 폐관 전 비스듬한 빛도 부드럽다.",
      "tips": "2층 통로 '에코리엄'은 9:00~16:30 무료 개방(12/29~1/3 폐쇄). 공장 내부 견학은 평일만 가능하며 6층 사무실에서 접수. 가동 중인 시설이니 작업 구역에 들어가지 말고 쓰레기 수거차 출입에 주의하자.",
-     "accessPointName": "미나미요시지마 버스 정류장"
+     "accessPointName": "미나미요시지마 버스 정류장",
+     "searchTerms": [
+      "히로시마 나카 공장",
+      "쓰레기 처리장",
+      "평화의 축선"
+     ]
     }
    }
   },
@@ -1077,7 +1284,13 @@
      "access": "JR 涩谷站八公口检票口出站，经过八公像，眼前就是十字路口，约 1 分钟。地铁、东急、京王各线按指示牌也可走到八公口。",
      "bestTime": "下雨的傍晚最像电影：华灯初上，透明伞成片涌过路口。想俯拍可去周边商业设施的高层，周五晚和周末人最多。",
      "tips": "全世界最繁忙的路口之一，绿灯时间短，请勿在路口中央停留或架三脚架；未经许可不得放飞无人机。涩谷站周边全年 18:00 至次日 5:00 禁止路上饮酒。",
-     "accessPointName": "涩谷站 八公口"
+     "accessPointName": "涩谷站 八公口",
+     "searchTerms": [
+      "涩谷十字路口",
+      "透明雨伞",
+      "雨中涩谷",
+      "斯嘉丽"
+     ]
     },
     "ja": {
      "placeName": "渋谷駅前スクランブル交差点（東京都渋谷区）",
@@ -1088,7 +1301,13 @@
      "access": "JR渋谷駅ハチ公改札を出て、ハチ公像の先がすぐスクランブル交差点（徒歩1分）。地下鉄・東急・京王からも案内に従えばハチ公口へ出られる。",
      "bestTime": "雨の夕方、ネオンが灯りビニール傘の波が交差点を渡る時間が映画そのもの。俯瞰なら周辺商業施設の上階から。金曜夜と週末は特に混雑。",
      "tips": "世界有数の混雑交差点で青信号は短い。交差点の真ん中で立ち止まったり三脚を立てたりしないこと。許可のないドローン飛行は不可。渋谷駅周辺は通年18時〜翌5時の路上飲酒が条例で禁止。",
-     "accessPointName": "渋谷駅 ハチ公口"
+     "accessPointName": "渋谷駅 ハチ公口",
+     "searchTerms": [
+      "渋谷スクランブル交差点",
+      "ビニール傘",
+      "雨の渋谷",
+      "スカーレット・ヨハンソン"
+     ]
     },
     "en": {
      "placeName": "Shibuya Scramble Crossing (Shibuya, Tokyo)",
@@ -1099,7 +1318,13 @@
      "access": "Leave JR Shibuya Station by the Hachiko gate, pass the Hachiko statue, and the crossing is right in front of you (1 min). Signs from the subway, Tokyu and Keio lines also lead to the Hachiko Exit.",
      "bestTime": "A rainy evening, as the signs light up and clear umbrellas flood the crossing, is pure film. For an overhead shot head up a nearby building; Friday nights and weekends are the busiest.",
      "tips": "One of the world's busiest crossings with a short green phase: don't stop or set up a tripod mid-crossing, and drones need official permission. Shibuya bans drinking on the street around the station from 6 pm to 5 am all year.",
-     "accessPointName": "Shibuya Sta. Hachiko Exit"
+     "accessPointName": "Shibuya Sta. Hachiko Exit",
+     "searchTerms": [
+      "Shibuya Crossing",
+      "clear umbrella",
+      "Scarlett Johansson",
+      "rain"
+     ]
     },
     "ko": {
      "placeName": "시부야역 앞 스크램블 교차로 (도쿄 시부야)",
@@ -1110,7 +1335,12 @@
      "access": "JR 시부야역 하치코 개찰구로 나와 하치코 동상을 지나면 바로 앞이 스크램블 교차로(도보 1분). 지하철·도큐·게이오선에서도 안내판을 따라 하치코 출구로 나올 수 있다.",
      "bestTime": "네온이 켜지고 투명 우산 물결이 교차로를 건너는 비 오는 저녁이 영화 그대로다. 위에서 내려다보려면 주변 상업 시설 위층에서. 금요일 밤과 주말이 가장 붐빈다.",
      "tips": "세계에서 가장 붐비는 교차로 중 하나로 파란불이 짧다. 교차로 한가운데 멈추거나 삼각대를 세우지 말고, 허가 없는 드론 비행은 불가. 시부야역 주변은 연중 18시~다음 날 5시 노상 음주가 조례로 금지된다.",
-     "accessPointName": "시부야역 하치코 출구"
+     "accessPointName": "시부야역 하치코 출구",
+     "searchTerms": [
+      "시부야 스크램블 교차로",
+      "비닐우산",
+      "스칼렛 요한슨"
+     ]
     }
    }
   },
@@ -1146,7 +1376,13 @@
      "access": "都营大江户线都厅前站 A4 出口步行约 8 分钟，或 JR 新宿站南口步行约 12 分钟；新宿站西口一带有酒店免费接驳车。",
      "accessPointName": "都厅前站 A4 出口",
      "bestTime": "入夜后来，城市灯海铺满窗外，最像电影；冬季空气通透，夜景最清晰。现场爵士一般在晚间演出。",
-     "tips": "非住客也可前往。晚间时段通常加收音乐费，请避免运动装和拖鞋。重新开业后营业时间、收费和预约方式可能调整，出发前请查酒店官网。"
+     "tips": "非住客也可前往。晚间时段通常加收音乐费，请避免运动装和拖鞋。重新开业后营业时间、收费和预约方式可能调整，出发前请查酒店官网。",
+     "searchTerms": [
+      "纽约酒吧",
+      "东京柏悦酒店",
+      "52楼",
+      "比尔·默瑞"
+     ]
     },
     "ja": {
      "placeName": "パーク ハイアット 東京 ニューヨーク バー（東京都新宿区・52階）",
@@ -1157,7 +1393,13 @@
      "access": "都営大江戸線都庁前駅A4出口から徒歩約8分、またはJR新宿駅南口から徒歩約12分。新宿駅西口付近からホテルの無料シャトルバスもある。",
      "accessPointName": "都庁前駅 A4出口",
      "bestTime": "夜、窓いっぱいに街の灯が広がる時間が映画そのもの。空気の澄んだ冬は夜景がいちばんくっきり。ジャズの生演奏は夜に行われる。",
-     "tips": "宿泊者以外も利用可。夜の時間帯はミュージックチャージがかかるのが一般的で、スポーツウェアやサンダルは避けたい。再開業後は営業時間や料金、予約方法が変わる可能性があるので、公式サイトで確認を。"
+     "tips": "宿泊者以外も利用可。夜の時間帯はミュージックチャージがかかるのが一般的で、スポーツウェアやサンダルは避けたい。再開業後は営業時間や料金、予約方法が変わる可能性があるので、公式サイトで確認を。",
+     "searchTerms": [
+      "ニューヨークバー",
+      "パークハイアット東京",
+      "52階",
+      "ビル・マーレイ"
+     ]
     },
     "en": {
      "placeName": "New York Bar, Park Hyatt Tokyo (52F, Shinjuku, Tokyo)",
@@ -1168,7 +1410,13 @@
      "access": "About 8 min on foot from Exit A4 of Tochomae Station (Toei Oedo Line), or 12 min from JR Shinjuku Station's south exit. A free hotel shuttle runs from the Shinjuku Station west-exit area.",
      "accessPointName": "Tochomae Sta. Exit A4",
      "bestTime": "Come after dark, when the city lights fill the windows just as in the film; winter's clear air gives the sharpest night view. Live jazz is played in the evening.",
-     "tips": "Non-guests are welcome. A music charge is usually added in the evening, and sportswear or sandals are best avoided. Hours, charges and reservation rules may have changed since the reopening: check the hotel's official site before you go."
+     "tips": "Non-guests are welcome. A music charge is usually added in the evening, and sportswear or sandals are best avoided. Hours, charges and reservation rules may have changed since the reopening: check the hotel's official site before you go.",
+     "searchTerms": [
+      "New York Bar",
+      "Park Hyatt Tokyo",
+      "Bill Murray",
+      "52nd floor"
+     ]
     },
     "ko": {
      "placeName": "파크 하얏트 도쿄 뉴욕 바 (도쿄 신주쿠, 52층)",
@@ -1179,7 +1427,12 @@
      "access": "도에이 오에도선 도초마에역 A4 출구에서 도보 약 8분, 또는 JR 신주쿠역 남쪽 출구에서 도보 약 12분. 신주쿠역 서쪽 출구 부근에서 호텔 무료 셔틀버스도 다닌다.",
      "accessPointName": "도초마에역 A4 출구",
      "bestTime": "밤이 되어 창 가득 도시의 불빛이 펼쳐질 때가 영화 그대로다. 공기가 맑은 겨울에 야경이 가장 선명하다. 재즈 라이브는 저녁에 열린다.",
-     "tips": "투숙객이 아니어도 이용할 수 있다. 저녁 시간대에는 보통 뮤직 차지가 붙으며 운동복이나 샌들은 피하는 것이 좋다. 재개장 후 영업시간·요금·예약 방식이 바뀌었을 수 있으니 방문 전 공식 사이트를 확인하세요."
+     "tips": "투숙객이 아니어도 이용할 수 있다. 저녁 시간대에는 보통 뮤직 차지가 붙으며 운동복이나 샌들은 피하는 것이 좋다. 재개장 후 영업시간·요금·예약 방식이 바뀌었을 수 있으니 방문 전 공식 사이트를 확인하세요.",
+     "searchTerms": [
+      "뉴욕 바",
+      "파크 하얏트 도쿄",
+      "빌 머레이"
+     ]
     }
    }
   },
@@ -1212,7 +1465,12 @@
      "access": "姬路站乘神姬巴士约 30 分钟到「书写山缆车」，乘缆车约 4 分钟到山上站，经摩尼殿沿山路步行约 30 分钟到三之堂；摩尼殿附近有付费小巴可坐。",
      "bestTime": "11 月中下旬红叶最盛；清晨或雨后山雾缭绕时，三之堂最有电影里的幽深感。红叶季周末缆车要排队。",
      "tips": "入山需交志纳金（成人 500 日元），缆车另收费，并有检修停运期，出发前请确认。这里是天台宗修行道场，请保持安静；山路坡陡、石阶多，穿好走的鞋，天黑前下山。",
-     "accessPointName": "书写山缆车 山上站"
+     "accessPointName": "书写山缆车 山上站",
+     "searchTerms": [
+      "书写山圆教寺",
+      "三之堂",
+      "渡边谦"
+     ]
     },
     "ja": {
      "placeName": "書寫山圓教寺 三之堂（兵庫県姫路市）",
@@ -1223,7 +1481,13 @@
      "access": "姫路駅から神姫バスで約30分「書写山ロープウェイ」、ロープウェイ約4分で山上駅。摩尼殿を経て山道を徒歩約30分で三之堂。摩尼殿近くまで有料のマイクロバスもある。",
      "bestTime": "紅葉は11月中旬〜下旬が見頃。早朝や雨上がりに霧が立つと、三之堂が映画のような深い趣に。紅葉の週末はロープウェイが混む。",
      "tips": "入山志納金（大人500円）とロープウェイ代が必要。ロープウェイには点検運休期間があるので事前に確認を。天台宗の修行道場なので静かに。山道は坂と石段が多く、歩きやすい靴で日暮れ前に下山しよう。",
-     "accessPointName": "書写山ロープウェイ 山上駅"
+     "accessPointName": "書写山ロープウェイ 山上駅",
+     "searchTerms": [
+      "書写山圓教寺",
+      "三之堂",
+      "大講堂",
+      "渡辺謙"
+     ]
     },
     "en": {
      "placeName": "Mitsunodo halls, Shoshazan Engyo-ji (Himeji, Hyogo)",
@@ -1234,7 +1498,13 @@
      "access": "Shinki Bus from Himeji Station, about 30 min to Shoshazan Ropeway; ride 4 min to the summit station, then walk the mountain path past Maniden Hall, about 30 min, to the Mitsunodo. A paid shuttle runs to near Maniden.",
      "bestTime": "Autumn colour peaks in mid-to-late November. Early mornings or misty spells after rain give the halls the film's deep, hushed mood. Expect ropeway queues on foliage weekends.",
      "tips": "An entry donation (¥500 for adults) plus the ropeway fare are required, and the ropeway has maintenance closures, so check ahead. This is a working Tendai training temple: keep quiet. Paths are steep with many stone steps; wear good shoes and head down before dark.",
-     "accessPointName": "Mt. Shosha Ropeway Summit Sta."
+     "accessPointName": "Mt. Shosha Ropeway Summit Sta.",
+     "searchTerms": [
+      "Engyoji Temple",
+      "Mount Shosha",
+      "Mitsunodo",
+      "Ken Watanabe"
+     ]
     },
     "ko": {
      "placeName": "쇼샤산 엔교지 미쓰노도 (효고 히메지)",
@@ -1245,7 +1515,13 @@
      "access": "히메지역에서 신키 버스로 약 30분 '쇼샤잔 로프웨이', 로프웨이 약 4분이면 산조역. 마니덴을 지나 산길을 약 30분 걸으면 미쓰노도. 마니덴 근처까지 유료 마이크로버스도 있다.",
      "bestTime": "단풍은 11월 중·하순이 절정. 이른 아침이나 비 갠 뒤 안개가 낄 때 미쓰노도가 영화처럼 그윽하다. 단풍철 주말에는 로프웨이 대기가 길다.",
      "tips": "입산 지납금(성인 500엔)과 로프웨이 요금이 필요하고, 로프웨이는 점검 운휴 기간이 있으니 미리 확인하자. 천태종 수행 도량이니 조용히. 산길은 비탈과 돌계단이 많아 편한 신발을 신고 해 지기 전에 내려오자.",
-     "accessPointName": "쇼샤산 로프웨이 산조역"
+     "accessPointName": "쇼샤산 로프웨이 산조역",
+     "searchTerms": [
+      "엔교지",
+      "쇼샤산",
+      "미쓰노도",
+      "와타나베 켄"
+     ]
     }
    }
   }

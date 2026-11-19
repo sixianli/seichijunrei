@@ -247,7 +247,7 @@
 "detail.walkFromShort" = "从%@步行前往";
 "detail.shotMapA11y" = "机位小地图：朝%@方拍摄";
 "detail.searchOriginal" = "看原作画面";
-"detail.originalNotIncluded" = "原作画面受版权保护，App 未收录，可以点右边去网上看";
+"detail.originalNotIncluded" = "原作画面受版权保护，App 没有收录。点“看原作画面”可以去网上搜这一幕。";
 "community.beFirst" = "成为第一个上传现场照片的人";
 "community.stripTitle" = "巡礼者拍的 · %ld 张";
 "community.uploadShort" = "上传";
@@ -293,6 +293,10 @@
 "submit.status.received" = "已收到";
 "submit.status.removed" = "已删除";
 "detail.landmarkSubtitle" = "走到官方圣地，拍一张同角度的纪念照";
+"detail.actionsHelp" = "这两个有什么区别？";
+"detail.searchOriginalTitle" = "去网上看这一幕原本的样子";
+"detail.searchOriginalHint" = "巡礼者常把原作画面和实景并排对比，选一个搜索词试试";
+"common.moreInfo" = "说明";
 "kind.scene" = "名场面 · 取景地";
 "kind.landmark" = "官方圣地";
 "photo.lookAround" = "Apple 街景";

@@ -104,6 +104,11 @@ def check_spot(s, r):
         if t is None: r.err(where, f"缺少 text.{lang}"); continue
         for f in SPOT_FIELDS:
             if not (t.get(f) or "").strip(): r.err(where, f"text.{lang}.{f} 为空")
+    for lang in AUTHORED:
+        terms = (text.get(lang) or {}).get("searchTerms")
+        if terms is None: r.warn(where, f"text.{lang}.searchTerms 缺失（看原作画面的搜索关键词）")
+        elif not (isinstance(terms, list) and 1 <= len(terms) <= 5 and all(isinstance(t, str) and t.strip() for t in terms)):
+            r.err(where, f"text.{lang}.searchTerms 必须是 1–5 个非空字符串")
     zh = text.get("zh-Hans", {})
     for f, (lo, hi) in ZH_LEN.items():
         n = len(zh.get(f) or "")
@@ -186,6 +191,8 @@ def fill_hant(text, convert, keep=()):
     for k, v in hans.items():
         if k in keep: continue
         if not hant.get(k) and isinstance(v, str): hant[k] = convert(v)
+        elif not hant.get(k) and isinstance(v, list) and all(isinstance(x, str) for x in v):
+            hant[k] = [convert(x) for x in v]
     return hant
 
 

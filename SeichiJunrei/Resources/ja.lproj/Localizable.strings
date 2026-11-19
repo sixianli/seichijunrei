@@ -247,7 +247,7 @@
 "detail.walkFromShort" = "%@から徒歩";
 "detail.shotMapA11y" = "撮影ポジションの地図：%@向きに撮影";
 "detail.searchOriginal" = "原作のシーンを見る";
-"detail.originalNotIncluded" = "原作の画像は著作権のため収録していません。右のボタンで検索できます";
+"detail.originalNotIncluded" = "原作の画像は著作権のため収録していません。「原作のシーンを見る」からウェブで探せます。";
 "community.beFirst" = "現地の写真を最初に投稿しよう";
 "community.stripTitle" = "巡礼者の写真 · %ld 枚";
 "community.uploadShort" = "投稿";
@@ -293,6 +293,10 @@
 "submit.status.received" = "受付済み";
 "submit.status.removed" = "削除済み";
 "detail.landmarkSubtitle" = "公式の聖地まで行って、記念の一枚を";
+"detail.actionsHelp" = "2つの違いは？";
+"detail.searchOriginalTitle" = "ウェブで原作のシーンを探す";
+"detail.searchOriginalHint" = "巡礼者による原作と実景の比較写真が見つかりやすい検索語です";
+"common.moreInfo" = "説明";
 "kind.scene" = "名シーンの舞台";
 "kind.landmark" = "公式の聖地";
 "photo.lookAround" = "Look Around";

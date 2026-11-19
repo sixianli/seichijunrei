@@ -247,7 +247,7 @@
 "detail.walkFromShort" = "Walk from %@";
 "detail.shotMapA11y" = "Camera spot map: facing %@";
 "detail.searchOriginal" = "See the original";
-"detail.originalNotIncluded" = "Original frames are copyrighted and not included. Use the button to search online";
+"detail.originalNotIncluded" = "Original frames are copyrighted, so they aren't in the app. Tap \"See the original\" to search the web.";
 "community.beFirst" = "Be the first to share a photo from here";
 "community.stripTitle" = "From pilgrims · %ld";
 "community.uploadShort" = "Share";
@@ -293,6 +293,10 @@
 "submit.status.received" = "Received";
 "submit.status.removed" = "Removed";
 "detail.landmarkSubtitle" = "Walk to the official landmark and take the classic shot";
+"detail.actionsHelp" = "What's the difference?";
+"detail.searchOriginalTitle" = "Find the original scene online";
+"detail.searchOriginalHint" = "Pilgrims often post the original frame next to the real place. Pick a search";
+"common.moreInfo" = "More info";
 "kind.scene" = "Scene location";
 "kind.landmark" = "Official landmark";
 "photo.lookAround" = "Look Around";

@@ -69,15 +69,18 @@ public struct SpotTranslation: Codable, Hashable, Sendable {
     public var creator: String?
     public var synopsis: String?
     public var accessPointName: String?
+    public var searchTerms: [String]?
 
     public init(workLocalized: String? = nil, placeName: String? = nil, sceneTitle: String? = nil,
                 episode: String? = nil, story: String? = nil, trivia: String? = nil,
                 highlight: String? = nil, access: String? = nil, bestTime: String? = nil,
-                creator: String? = nil, synopsis: String? = nil, accessPointName: String? = nil) {
+                creator: String? = nil, synopsis: String? = nil, accessPointName: String? = nil,
+                searchTerms: [String]? = nil) {
         self.workLocalized = workLocalized; self.placeName = placeName; self.sceneTitle = sceneTitle
         self.episode = episode; self.story = story; self.trivia = trivia
         self.highlight = highlight; self.access = access; self.bestTime = bestTime
         self.creator = creator; self.synopsis = synopsis; self.accessPointName = accessPointName
+        self.searchTerms = searchTerms
     }
 }
 
@@ -138,6 +141,8 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
     public var illustration: SpotIllustration?
     /// 名场面·取景地 / 官方圣地
     public var kind: SpotKind
+    /// “看原作画面”的搜索关键词（粉丝常用的地点名 / 场景说法），不含作品名
+    public var searchTerms: [String]
     /// 最佳到访月份（1–12）
     public var bestMonths: [Int]
     /// 步行起点（车站出口 / 巴士站）
@@ -172,7 +177,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
                 creator: String? = nil, synopsis: String? = nil, officialURL: String? = nil,
                 country: String? = nil, illustration: SpotIllustration? = nil,
                 bestMonths: [Int] = [], accessPoint: GeoPoint? = nil, accessPointName: String? = nil,
-                kind: SpotKind = .scene) {
+                kind: SpotKind = .scene, searchTerms: [String] = []) {
         self.id = id; self.workID = workID ?? work; self.work = work; self.workLocalized = workLocalized
         self.mediaType = mediaType; self.aliases = aliases
         self.placeName = placeName; self.sceneTitle = sceneTitle; self.episode = episode
@@ -186,7 +191,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         self.creator = creator; self.synopsis = synopsis; self.officialURL = officialURL
         self.country = country; self.illustration = illustration
         self.bestMonths = bestMonths; self.accessPoint = accessPoint; self.accessPointName = accessPointName
-        self.kind = kind
+        self.kind = kind; self.searchTerms = searchTerms
     }
 
     enum CodingKeys: String, CodingKey {
@@ -194,7 +199,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         case latitude, longitude, sceneHeading, scenePitch, arrivalRadius
         case sceneImage, sourceURL, verified, tint, translations
         case workID, highlight, access, bestTime, spoiler, photo, year, creator, synopsis, officialURL, country, illustration
-        case bestMonths, accessPoint, accessPointName, kind
+        case bestMonths, accessPoint, accessPointName, kind, searchTerms
     }
 
     public init(from decoder: Decoder) throws {
@@ -233,6 +238,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         illustration = try c.decodeIfPresent(SpotIllustration.self, forKey: .illustration)
         bestMonths = try c.decodeIfPresent([Int].self, forKey: .bestMonths) ?? []
         kind = try c.decodeIfPresent(SpotKind.self, forKey: .kind) ?? .scene
+        searchTerms = try c.decodeIfPresent([String].self, forKey: .searchTerms) ?? []
         accessPoint = try c.decodeIfPresent(GeoPoint.self, forKey: .accessPoint)
         accessPointName = try c.decodeIfPresent(String.self, forKey: .accessPointName)
         year = try c.decodeIfPresent(Int.self, forKey: .year)
@@ -273,6 +279,7 @@ public struct Spot: Codable, Identifiable, Hashable, Sendable {
         try c.encodeIfPresent(illustration, forKey: .illustration)
         if !bestMonths.isEmpty { try c.encode(bestMonths, forKey: .bestMonths) }
         if kind != .scene { try c.encode(kind, forKey: .kind) }
+        if !searchTerms.isEmpty { try c.encode(searchTerms, forKey: .searchTerms) }
         try c.encodeIfPresent(accessPoint, forKey: .accessPoint)
         try c.encodeIfPresent(accessPointName, forKey: .accessPointName)
         try c.encodeIfPresent(year, forKey: .year)
@@ -307,6 +314,7 @@ public extension Spot {
         if let v = t.creator, !v.isEmpty { s.creator = v }
         if let v = t.synopsis, !v.isEmpty { s.synopsis = v }
         if let v = t.accessPointName, !v.isEmpty { s.accessPointName = v }
+        if let v = t.searchTerms, !v.isEmpty { s.searchTerms = v }
         return s
     }
 
@@ -389,6 +397,7 @@ struct CatalogFile: Decodable {
         var bestTime: String?
         var tips: String?
         var accessPointName: String?
+        var searchTerms: [String]?
     }
     struct SpotRecord: Decodable {
         var id: String
@@ -431,7 +440,8 @@ struct CatalogFile: Decodable {
                     workLocalized: wl?.title, placeName: st?.placeName, sceneTitle: st?.sceneTitle,
                     episode: st?.episode, story: st?.story, trivia: st?.tips,
                     highlight: st?.highlight, access: st?.access, bestTime: st?.bestTime,
-                    creator: wl?.creator, synopsis: wl?.synopsis, accessPointName: st?.accessPointName)
+                    creator: wl?.creator, synopsis: wl?.synopsis, accessPointName: st?.accessPointName,
+                    searchTerms: st?.searchTerms)
             }
             return Spot(id: r.id, work: w.title,
                         workLocalized: wt?.title.flatMap { $0.isEmpty ? nil : $0 },
@@ -446,7 +456,7 @@ struct CatalogFile: Decodable {
                         creator: wt?.creator ?? w.creator, synopsis: wt?.synopsis, officialURL: w.officialURL,
                         country: w.country == "JP" ? nil : w.country, illustration: r.illustration,
                         bestMonths: r.bestMonths ?? [], accessPoint: r.accessPoint, accessPointName: t.accessPointName,
-                        kind: r.kind ?? .scene)
+                        kind: r.kind ?? .scene, searchTerms: t.searchTerms ?? [])
         }
     }
 }
