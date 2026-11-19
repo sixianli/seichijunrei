@@ -69,6 +69,10 @@ final class CameraController: NSObject, AVCapturePhotoCaptureDelegate, AVCapture
     }
 
     private func configureAndRun() {
+        #if targetEnvironment(simulator)
+        // 模拟器没有真相机：不启动采集会话（在模拟器里启动会抛异常导致崩溃），拍照用示意照片代替
+        return
+        #else
         sessionQueue.async { [self] in
             if !configured {
                 session.beginConfiguration()
@@ -101,8 +105,10 @@ final class CameraController: NSObject, AVCapturePhotoCaptureDelegate, AVCapture
                 session.commitConfiguration()
                 configured = true
             }
-            if !session.isRunning { session.startRunning() }
+            // 没拿到摄像头（比如被别的 App 占用、设备异常）时不启动，startRunning 会抛异常
+            if !session.isRunning, !session.inputs.isEmpty { session.startRunning() }
         }
+        #endif
     }
 
     func capturePhoto() {

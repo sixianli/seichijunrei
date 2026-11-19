@@ -31,6 +31,8 @@ class UITestBase: XCTestCase {
         if resetMapApp { app.launchArguments += ["-preferredMapApp", ""] }
         // 端到端测试开关：选图给模拟照片、外部链接只记录不跳出（只在 Debug 构建里生效）
         app.launchEnvironment["SEICHI_UITEST"] = "1"
+        // 清掉上一个测试改过的偏好（帮拍的自动拍 / 语音等）
+        app.launchEnvironment["SEICHI_RESET_PREFS"] = "1"
         app.launchEnvironment["SEICHI_SIM_LAT"] = "35.68518"
         app.launchEnvironment["SEICHI_SIM_LON"] = "139.72345"
         app.launchEnvironment["SEICHI_ENTITLEMENT"] = entitlement
@@ -114,9 +116,13 @@ class UITestBase: XCTestCase {
 
     /// 往上滑直到元素可以点
     @discardableResult
+    /// 滚到元素可点：先往下翻，找不到再往回翻（元素可能在当前位置的上方）
+    @discardableResult
     func scrollTo(_ element: XCUIElement, maxSwipes: Int = 8) -> Bool {
         var tries = 0
         while !(element.exists && element.isHittable) && tries < maxSwipes { app.swipeUp(); tries += 1 }
+        tries = 0
+        while !(element.exists && element.isHittable) && tries < maxSwipes { app.swipeDown(); tries += 1 }
         return element.exists && element.isHittable
     }
 }

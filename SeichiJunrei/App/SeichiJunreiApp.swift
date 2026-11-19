@@ -10,6 +10,10 @@ struct SeichiJunreiApp: App {
     @State private var language = AppLanguage.shared
     @Environment(\.scenePhase) private var scenePhase
 
+    init() {
+        TestHooks.resetPreferencesIfNeeded()
+    }
+
     var body: some Scene {
         WindowGroup {
             RootView()

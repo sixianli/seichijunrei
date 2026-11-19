@@ -14,6 +14,14 @@ enum TestHooks {
         #endif
     }
 
+    /// 每个测试开始前清掉会被测试改动、又会影响别的测试的偏好（自动拍、语音、叠图、“始终允许”提示）
+    static func resetPreferencesIfNeeded() {
+        guard isActive, ProcessInfo.processInfo.environment["SEICHI_RESET_PREFS"] == "1" else { return }
+        for key in ["pgAutoShutter", "pgVoice", "pgGhost", "dismissedAlwaysPrompt"] {
+            UserDefaults.standard.removeObject(forKey: key)
+        }
+    }
+
     /// 测试指定的上传审核结果（screenshot / noCamera / missingLocation / tooFar / tooMuchText），不设就是通过
     static var moderationOverride: PhotoModeration.Problem?? {
         guard isActive, let v = ProcessInfo.processInfo.environment["SEICHI_MODERATION"] else { return nil }

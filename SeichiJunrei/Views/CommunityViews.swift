@@ -620,6 +620,8 @@ struct MySubmissionsView: View {
                 .background(statusColor(s.status).opacity(0.15), in: Capsule())
                 .foregroundStyle(statusColor(s.status))
         }
+        // 整行作为一个元素（读屏一次读完，测试也能对整行左滑删除）
+        .accessibilityElement(children: .combine)
         .accessibilityIdentifier("mySubmission-\(s.resolvedKind.rawValue)")
     }
 

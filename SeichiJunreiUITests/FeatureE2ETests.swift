@@ -170,7 +170,9 @@ final class FeatureE2ETests: UITestBase {
         }
         XCTAssertTrue(app.staticTexts["快到了会提醒你"].waitForExistence(timeout: 8), "开启后应显示已开启提醒")
         app.buttons["closeJourney"].firstMatch.tap()
-        XCTAssertTrue(app.buttons["enterScene"].waitForExistence(timeout: 5), "关闭后回到详情页")
+        // 出发页是从地图上打开的全屏页，关闭后回到地图（和名场面模式一样）
+        XCTAssertTrue(app.searchFields.firstMatch.waitForExistence(timeout: 5), "关闭后回到地图")
+        XCTAssertFalse(app.buttons["journeyNavigate"].exists, "出发页应已关闭")
     }
 
     /// 远处点“请人帮我拍”：同样先出发，标题是“请人帮我拍”
@@ -224,7 +226,9 @@ final class FeatureE2ETests: UITestBase {
         XCTAssertTrue(row.waitForExistence(timeout: 5), "我的投稿里应有刚上传的照片")
         let rows = app.descendants(matching: .any).matching(identifier: "mySubmission-photo").count
         row.swipeLeft()
-        app.buttons["删除"].firstMatch.tap()
+        let swipeDelete = app.buttons["删除"].firstMatch
+        XCTAssertTrue(swipeDelete.waitForExistence(timeout: 3), "左滑应出现删除")
+        swipeDelete.tap()
         let confirmDelete = app.buttons["删除"].firstMatch
         if confirmDelete.waitForExistence(timeout: 3) { confirmDelete.tap() }
         let left = NSPredicate(format: "count < %d", rows)
@@ -256,9 +260,10 @@ final class FeatureE2ETests: UITestBase {
         let open = app.buttons["openSubmit"]
         XCTAssertTrue(open.waitForExistence(timeout: 10))
         open.tap()
+        // 按表单从上到下的顺序填
         for (id, text) in [("submitWorkTitle", "测试作品"), ("submitSceneTitle", "测试名场面"),
-                           ("submitPlaceName", "须贺神社 男坂"),
-                           ("submitStory", "两个人在楼梯上擦肩而过，终于回头问出了那句你叫什么名字。")] {
+                           ("submitStory", "两个人在楼梯上擦肩而过，终于回头问出了那句你叫什么名字。"),
+                           ("submitPlaceName", "须贺神社 男坂")] {
             let field = element(id)
             XCTAssertTrue(scrollTo(field), "应有 \(id)")
             field.tap()
@@ -391,7 +396,11 @@ final class FeatureE2ETests: UITestBase {
         picker.tap()
         app.buttons.matching(NSPredicate(format: "label BEGINSWITH 'Google'")).firstMatch.tap()
         XCTAssertTrue(picker.waitForExistence(timeout: 5))
-        XCTAssertTrue(picker.label.contains("Google"), "设置页应显示已选的 Google 地图：\(picker.label)")
+        // 选中的值显示在这一行右侧（单独的文字，不在按钮标题里）
+        let shown = app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH 'Google'")).firstMatch
+        XCTAssertTrue(shown.waitForExistence(timeout: 3) || picker.label.contains("Google")
+                      || ((picker.value as? String) ?? "").contains("Google"),
+                      "设置页应显示已选的 Google 地图：\(picker.label)")
         app.buttons["完成"].firstMatch.tap()
 
         // 去 700 m 外的天桥：点导航直接打开 Google 地图，不弹选择
