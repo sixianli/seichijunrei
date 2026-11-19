@@ -39,7 +39,16 @@ enum MapApp: String, CaseIterable, Identifiable {
     }
 
     /// 打开到某个名场面的路线，目的地自动填好（近处步行，远处公共交通）
+    @MainActor
     func openDirections(to spot: Spot, walking: Bool = false) {
+        if TestHooks.isActive {
+            // 端到端测试：不真的打开地图 App，记下要去的地方和出行方式
+            let urls = Self.directionURLs(app: self, latitude: spot.coordinate.latitude,
+                                          longitude: spot.coordinate.longitude, name: spot.placeName, walking: walking)
+            let fallback = "maps://\(rawValue)?daddr=\(spot.coordinate.latitude),\(spot.coordinate.longitude)&walking=\(walking)"
+            ExternalLinks.open(urls.web ?? URL(string: fallback)!)
+            return
+        }
         if self == .apple {
             let item = MKMapItem(placemark: MKPlacemark(coordinate: spot.clCoordinate))
             item.name = spot.placeName
@@ -51,7 +60,7 @@ enum MapApp: String, CaseIterable, Identifiable {
                                       longitude: spot.coordinate.longitude, name: spot.placeName, walking: walking)
         let target = isInstalled ? urls.app : urls.web
         guard let target else { return }
-        UIApplication.shared.open(target)
+        ExternalLinks.open(target)
     }
 
     /// App 内链接与网页版链接。拆成纯函数，方便测试。

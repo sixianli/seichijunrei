@@ -260,6 +260,7 @@ struct SpotDetailView: View {
                         Label(L("detail.officialSite"), systemImage: "safari")
                             .font(.footnote.weight(.semibold))
                     }
+                    .accessibilityIdentifier("officialSite")
                 }
             }
         }
@@ -426,7 +427,9 @@ private struct AccessRouteMap: View {
                     .navigationTitle(spot.accessPointName ?? L("detail.access"))
                     .navigationBarTitleDisplayMode(.inline)
                     .toolbar {
-                        ToolbarItem(placement: .confirmationAction) { Button(L("common.done")) { expanded = false } }
+                        ToolbarItem(placement: .confirmationAction) {
+                            Button(L("common.done")) { expanded = false }.accessibilityIdentifier("closeRouteMap")
+                        }
                     }
             }
         }

@@ -71,13 +71,15 @@ enum PhotoModeration {
     }
 
     static func check(image: UIImage, source: UploadSource, spot: Spot) async -> Problem? {
+        // 端到端测试可以指定审核结果（只在 Debug + UI 测试里生效）
+        if let forced = TestHooks.moderationOverride { return forced }
         switch source {
         case .inAppCapture:
             return await hasTooMuchText(image) ? .tooMuchText : nil
         case .library(let data, let itemIdentifier):
             #if DEBUG
-            // UI 测试：模拟器相册里的示例图没有相机信息和定位
-            if ProcessInfo.processInfo.environment["SEICHI_SIM_LAT"] != nil { return nil }
+            // UI 测试：模拟照片没有相机信息和定位（要测拒绝的情况用 SEICHI_MODERATION 指定）
+            if TestHooks.isActive || ProcessInfo.processInfo.environment["SEICHI_SIM_LAT"] != nil { return nil }
             #endif
             var meta = metadata(from: data)
             let lib = await libraryInfo(itemIdentifier: itemIdentifier)

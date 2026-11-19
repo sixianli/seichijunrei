@@ -14,8 +14,60 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # 发版门槛：同一个提交的 CI（Linux 单元测试 + Release 构建 + 模拟器端到端测试）必须全部通过，
+  # 否则不打包、不上传。CI 还在跑就等它跑完（最多 150 分钟）。
+  e2e-gate:
+    name: Require CI + E2E pass on this commit
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+    steps:
+      - name: Wait for CI on this commit and require success
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SHA: ${{ github.sha }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          echo "Commit: $SHA"
+          for i in $(seq 1 150); do
+            gh api "repos/$REPO/actions/workflows/ci.yml/runs?head_sha=$SHA&per_page=50" > runs.json
+            verdict=$(python3 - <<'PY'
+          import json
+          runs = json.load(open("runs.json")).get("workflow_runs", [])
+          if not runs:
+              print("none")
+          elif any(r["status"] == "completed" and r["conclusion"] == "success" for r in runs):
+              print("success")
+          elif all(r["status"] == "completed" for r in runs):
+              print("failed:" + ",".join(f'{r["id"]}={r["conclusion"]}' for r in runs))
+          else:
+              print("running")
+          PY
+            )
+            echo "[$i min] CI: $verdict"
+            case "$verdict" in
+              success)
+                echo "CI（含端到端测试）在这个提交上全部通过，可以发 TestFlight。"
+                exit 0 ;;
+              failed:*)
+                echo "::error::这个提交的 CI / 端到端测试没有通过（$verdict），不发 TestFlight。"
+                exit 1 ;;
+              none)
+                if [ "$i" -ge 10 ]; then
+                  echo "::error::这个提交没有 CI 记录，不发 TestFlight。请先让 CI 在这个提交上跑通。"
+                  exit 1
+                fi ;;
+            esac
+            sleep 60
+          done
+          echo "::error::等 CI 超时，不发 TestFlight。"
+          exit 1
+
   upload:
     name: Archive & upload to TestFlight
+    needs: e2e-gate
     runs-on: macos-26
     env:
       # 在 Settings → Secrets and variables → Actions 中配置（见 README「发布到 TestFlight」）

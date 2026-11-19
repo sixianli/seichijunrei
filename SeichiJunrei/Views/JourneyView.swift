@@ -186,7 +186,7 @@ private struct DepartureView: View {
         } else if location.authorization == .authorizedWhenInUse {
             location.requestAlwaysAuthorization()
         } else if let url = URL(string: UIApplication.openSettingsURLString) {
-            UIApplication.shared.open(url)
+            ExternalLinks.open(url)
         }
     }
 
