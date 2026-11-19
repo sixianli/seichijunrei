@@ -114,8 +114,6 @@ class UITestBase: XCTestCase {
         XCTAssertTrue(app.buttons["enterScene"].waitForExistence(timeout: 20), "应打开 \(spotID) 的详情页")
     }
 
-    /// 往上滑直到元素可以点
-    @discardableResult
     /// 滚到元素可点：先往下翻，找不到再往回翻（元素可能在当前位置的上方）
     @discardableResult
     func scrollTo(_ element: XCUIElement, maxSwipes: Int = 8) -> Bool {
