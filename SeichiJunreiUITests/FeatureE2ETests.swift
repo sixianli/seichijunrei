@@ -280,6 +280,8 @@ final class FeatureE2ETests: UITestBase {
             }
             field.typeText(text)
         }
+        dismissKeyboard()
+        XCTAssertFalse(app.keyboards.firstMatch.exists, "在表单上滑动应收起键盘")
         let photo = app.buttons["submitPhoto"]
         XCTAssertTrue(scrollTo(photo))
         photo.tap()

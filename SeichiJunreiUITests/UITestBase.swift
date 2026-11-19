@@ -114,9 +114,25 @@ class UITestBase: XCTestCase {
         XCTAssertTrue(app.buttons["enterScene"].waitForExistence(timeout: 20), "应打开 \(spotID) 的详情页")
     }
 
+    /// 收起键盘：在键盘上方的内容区轻轻往上拖一下（表单设置了滑动即收起键盘）
+    func dismissKeyboard() {
+        let keyboard = app.keyboards.firstMatch
+        guard keyboard.exists else { return }
+        let window = app.windows.firstMatch
+        let top = keyboard.frame.minY / max(window.frame.height, 1)
+        let from = window.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: top * 0.7))
+        let to = window.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: top * 0.5))
+        from.press(forDuration: 0.05, thenDragTo: to)
+        let gone = NSPredicate(format: "exists == false")
+        _ = XCTWaiter().wait(for: [XCTNSPredicateExpectation(predicate: gone, object: keyboard)], timeout: 3)
+    }
+
     /// 滚到元素可点：先往下翻，找不到再往回翻（元素可能在当前位置的上方）
     @discardableResult
     func scrollTo(_ element: XCUIElement, maxSwipes: Int = 8) -> Bool {
+        // 被键盘盖住的元素 XCUITest 仍认为“可点”，点下去其实点到键盘上：先收起键盘
+        let keyboard = app.keyboards.firstMatch
+        if keyboard.exists, element.exists, element.frame.intersects(keyboard.frame) { dismissKeyboard() }
         var tries = 0
         while !(element.exists && element.isHittable) && tries < maxSwipes { app.swipeUp(); tries += 1 }
         tries = 0
