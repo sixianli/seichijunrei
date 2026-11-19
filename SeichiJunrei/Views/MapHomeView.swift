@@ -442,6 +442,7 @@ private struct FocusChip: View {
                     .minimumHitTarget()
             }
             .accessibilityLabel(L("map.showAll"))
+            .accessibilityIdentifier("clearFocus")
         }
         .padding(.horizontal, 14).padding(.vertical, 8)
         .glassSurface(RoundedRectangle(cornerRadius: 22, style: .continuous))

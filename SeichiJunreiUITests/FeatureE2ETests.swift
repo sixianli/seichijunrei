@@ -51,8 +51,16 @@ final class FeatureE2ETests: UITestBase {
         row.tap()
         let chip = element("focusChip")
         XCTAssertTrue(chip.waitForExistence(timeout: 5), "选择作品后应显示聚焦提示条")
-        chip.buttons.firstMatch.tap()
-        XCTAssertTrue(waitGone(chip), "点叉号后应取消聚焦")
+        // 提示条是滑入的，等它停稳再点叉号
+        let clear = app.buttons["clearFocus"]
+        XCTAssertTrue(clear.waitForExistence(timeout: 5))
+        let settled = NSPredicate(format: "hittable == true")
+        _ = XCTWaiter().wait(for: [XCTNSPredicateExpectation(predicate: settled, object: clear)], timeout: 5)
+        sleep(1)
+        clear.tap()
+        XCTAssertTrue(waitGone(chip, timeout: 10), "点叉号后应取消聚焦")
+        let text = (search.value as? String) ?? ""
+        XCTAssertTrue(text.isEmpty || text == search.placeholderValue, "取消聚焦后搜索框应清空：\(text)")
     }
 
     /// “附近的名场面”标题回到我的位置；“开启始终允许”提示可以关掉

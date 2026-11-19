@@ -506,9 +506,18 @@ struct SubmitSceneView: View {
         }
         .navigationTitle(L("submit.title"))
         .navigationBarTitleDisplayMode(.inline)
+        // 键盘挡住大半屏：一滑动就收起键盘，方便往下填
+        .scrollDismissesKeyboard(.immediately)
+        // 已经填了内容时，下滑不会把投稿页整个关掉（误操作会丢掉填好的内容）；“取消”照常能关
+        .interactiveDismissDisabled(hasInput)
         .toolbar {
             ToolbarItem(placement: .cancellationAction) { Button(L("common.cancel")) { dismiss() } }
         }
+    }
+
+    private var hasInput: Bool {
+        image != nil || [draft.workTitle, draft.sceneTitle, draft.episode, draft.story]
+            .contains { !$0.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty }
     }
 
     /// 还没填好的必填项（用于按钮下方的提示）
