@@ -44,6 +44,7 @@ struct SettingsView: View {
                         Label(L("settings.mapApp"), systemImage: "map")
                     }
                     .pickerStyle(.navigationLink)
+                    .accessibilityIdentifier("settingsMapApp")
                     .onChange(of: mapApp) { _, v in MapApp.preferred = v }
                 } footer: {
                     Text(L("settings.mapAppFooter"))
@@ -55,6 +56,7 @@ struct SettingsView: View {
                     } label: {
                         Label(L("submit.mine"), systemImage: "tray.full")
                     }
+                    .accessibilityIdentifier("openMySubmissions")
                     if !community.blockedUsers.isEmpty {
                         Button(role: .destructive) { community.unblockAll() } label: {
                             Label(L("community.unblockAll", community.blockedUsers.count), systemImage: "hand.raised.slash")

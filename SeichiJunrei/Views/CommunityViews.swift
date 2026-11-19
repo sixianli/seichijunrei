@@ -9,7 +9,6 @@ import SeichiCore
 struct CommunityPhotoStrip: View {
     let spot: Spot
     @State private var community = CommunityService.shared
-    @State private var picked: PhotosPickerItem?
     @State private var uploadItem: IdentifiedImage?
     @State private var viewing: CommunityPhoto?
 
@@ -32,7 +31,11 @@ struct CommunityPhotoStrip: View {
                     }
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
-                PhotosPicker(selection: $picked, matching: .images, preferredItemEncoding: .current, photoLibrary: .shared()) {
+                PhotoPickerButton(usesSharedLibrary: true, onPick: { data, id in
+                    if let image = UIImage(data: data) {
+                        uploadItem = IdentifiedImage(image: image, source: .library(data: data, itemIdentifier: id))
+                    }
+                }) {
                     Label(L("community.uploadShort"), systemImage: "camera.fill")
                         .font(.subheadline.weight(.bold))
                         .padding(.horizontal, 14).padding(.vertical, 8)
@@ -64,16 +67,6 @@ struct CommunityPhotoStrip: View {
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(Color(.secondarySystemBackground), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
         .task(id: spot.id) { await community.loadPhotos(spotID: spot.id) }
-        .onChange(of: picked) { _, item in
-            guard let item else { return }
-            Task {
-                if let data = try? await item.loadTransferable(type: Data.self), let image = UIImage(data: data) {
-                    let src = UploadSource.library(data: data, itemIdentifier: item.itemIdentifier)
-                    await MainActor.run { uploadItem = IdentifiedImage(image: image, source: src) }
-                }
-                await MainActor.run { picked = nil }
-            }
-        }
         .sheet(item: $uploadItem) { item in
             UploadPhotoSheet(spot: spot, image: item.image, source: item.source)
         }
@@ -324,7 +317,6 @@ struct SubmitSceneView: View {
     @State private var useCurrentLocation = true
     @State private var pinned: CLLocationCoordinate2D?
     @State private var manualHeading: Double = 0
-    @State private var picked: PhotosPickerItem?
     @State private var image: UIImage?
     @State private var agreed = false
     @State private var submitting = false
@@ -461,9 +453,12 @@ struct SubmitSceneView: View {
                     Image(uiImage: image).resizable().scaledToFit().frame(maxHeight: 200)
                         .clipShape(RoundedRectangle(cornerRadius: 12))
                 }
-                PhotosPicker(selection: $picked, matching: .images) {
+                PhotoPickerButton(onPick: { data, _ in
+                    if let img = UIImage(data: data) { image = img }
+                }) {
                     Label(image == nil ? L("submit.addPhoto") : L("submit.changePhoto"), systemImage: "photo.badge.plus")
                 }
+                .accessibilityIdentifier("submitPhoto")
                 Text(L("submit.photoHint")).font(.caption).foregroundStyle(.secondary)
             } header: {
                 Text(L("submit.photo") + " *")
@@ -511,18 +506,18 @@ struct SubmitSceneView: View {
         }
         .navigationTitle(L("submit.title"))
         .navigationBarTitleDisplayMode(.inline)
+        // 键盘挡住大半屏：一滑动就收起键盘，方便往下填
+        .scrollDismissesKeyboard(.immediately)
+        // 已经填了内容时，下滑不会把投稿页整个关掉（误操作会丢掉填好的内容）；“取消”照常能关
+        .interactiveDismissDisabled(hasInput)
         .toolbar {
             ToolbarItem(placement: .cancellationAction) { Button(L("common.cancel")) { dismiss() } }
         }
-        .onChange(of: picked) { _, item in
-            guard let item else { return }
-            Task {
-                if let data = try? await item.loadTransferable(type: Data.self), let img = UIImage(data: data) {
-                    await MainActor.run { image = img }
-                }
-                await MainActor.run { picked = nil }
-            }
-        }
+    }
+
+    private var hasInput: Bool {
+        image != nil || [draft.workTitle, draft.sceneTitle, draft.episode, draft.story]
+            .contains { !$0.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty }
     }
 
     /// 还没填好的必填项（用于按钮下方的提示）
@@ -634,6 +629,8 @@ struct MySubmissionsView: View {
                 .background(statusColor(s.status).opacity(0.15), in: Capsule())
                 .foregroundStyle(statusColor(s.status))
         }
+        // 整行作为一个元素（读屏一次读完，测试也能对整行左滑删除）
+        .accessibilityElement(children: .combine)
         .accessibilityIdentifier("mySubmission-\(s.resolvedKind.rawValue)")
     }
 

@@ -442,6 +442,7 @@ private struct FocusChip: View {
                     .minimumHitTarget()
             }
             .accessibilityLabel(L("map.showAll"))
+            .accessibilityIdentifier("clearFocus")
         }
         .padding(.horizontal, 14).padding(.vertical, 8)
         .glassSurface(RoundedRectangle(cornerRadius: 22, style: .continuous))
@@ -551,7 +552,7 @@ private struct PermissionBanner: View {
         switch location.authorization {
         case .denied, .restricted:
             Button {
-                if let url = URL(string: UIApplication.openSettingsURLString) { UIApplication.shared.open(url) }
+                if let url = URL(string: UIApplication.openSettingsURLString) { ExternalLinks.open(url) }
             } label: {
                 Label(L("map.needLocation"), systemImage: "location.slash")
                     .font(.footnote)
@@ -573,6 +574,7 @@ private struct PermissionBanner: View {
                         .minimumHitTarget()
                 }
                 .accessibilityLabel(L("map.dontShowAgain"))
+                .accessibilityIdentifier("dismissAlwaysHint")
             }
             .buttonStyle(.plain)
             .padding(.leading, 14)

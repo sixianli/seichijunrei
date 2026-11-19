@@ -10,6 +10,10 @@ struct SeichiJunreiApp: App {
     @State private var language = AppLanguage.shared
     @Environment(\.scenePhase) private var scenePhase
 
+    init() {
+        TestHooks.resetPreferencesIfNeeded()
+    }
+
     var body: some Scene {
         WindowGroup {
             RootView()
@@ -20,6 +24,8 @@ struct SeichiJunreiApp: App {
                 .environment(language)
                 // 日期、数字格式跟随 App 内选择的语言
                 .environment(\.locale, language.locale)
+                // 外部链接统一走这里（端到端测试时只记录、不跳出 App）
+                .environment(\.openURL, ExternalLinks.action)
                 .onChange(of: language.code) { _, code in store.applyLanguage(code) }
                 .task {
                     storeKit.start()
@@ -42,7 +48,11 @@ struct SeichiJunreiApp: App {
                     location.simulatedHeading = env["SEICHI_SIM_HEADING"].flatMap(Double.init)
                     // 多语言截图巡检：启动后直接打开某个名场面的详情页
                     if let id = env["SEICHI_OPEN_SPOT"] {
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) { store.requestedSpotID = id }
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                            // 模拟点了“快到了”通知：直接回到指引（scene / photographer）
+                            store.requestedJourneyPurpose = env["SEICHI_OPEN_JOURNEY"]
+                            store.requestedSpotID = id
+                        }
                     }
                     #endif
                     NotificationService.shared.requestAuthorization()

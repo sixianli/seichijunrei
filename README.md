@@ -139,6 +139,10 @@
 
 **发布**：Actions → TestFlight → Run workflow → 填版本号（如 `0.1.0`）→ 运行。成功后，苹果通常会在 5–30 分钟内处理完构建；然后在 App Store Connect 的 TestFlight 页面把自己加为内部测试员，用 iPhone 上的 TestFlight App 安装即可。没有配置密钥时，工作流只做一次不签名的打包演练，并在运行摘要里列出缺少的配置。
 
+**发版门槛**：TestFlight 工作流的第一步会检查**同一个提交**上的 CI 是否全部通过（SeichiCore 单元测试 + Release 构建 + 模拟器端到端测试），CI 还在跑就等它跑完；没通过或没有 CI 记录就直接停止，不打包、不上传。
+
+**端到端测试**（`SeichiJunreiUITests`）：`FeatureE2ETests` 覆盖每条功能路径（地图筛选 / 聚焦、列表、详情页各区块、看原作画面、出发页选地图 App 和提醒、通知回到指引、上传现场照片及审核拦截、我的投稿、投稿新名场面、请人帮我拍、相册、分享卡、设置、付费墙），`SmokeUITests` 覆盖主流程并做 5 种语言截图巡检。测试启动时带 `SEICHI_UITEST=1`（只在 Debug 构建生效）：系统相册选图换成模拟照片，外部链接和地图 App 不真的跳出，地址写在 `debugLastURL` 里供测试断言。
+
 > 内购商品需要在 App Store Connect →「App 内购买项目」里按上面「收费模式」中的商品 ID 创建；TestFlight 中的购买走沙盒环境，不会真的扣款。
 
 ## 多语言

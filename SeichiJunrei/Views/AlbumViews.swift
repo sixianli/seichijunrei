@@ -147,11 +147,13 @@ struct AlbumPhotoViewer: View {
                         .frame(maxWidth: .infinity, minHeight: 30)
                 }
                 .glassButton(tint: spot.tintColor)
+                .accessibilityIdentifier("albumShareToPilgrims")
                 if let onOpenSpot {
                     Button(action: onOpenSpot) {
                         Label(L("album.openSpot"), systemImage: "mappin.and.ellipse").font(.footnote.weight(.semibold))
                     }
                     .foregroundStyle(spot.tintColor)
+                    .accessibilityIdentifier("albumOpenSpot")
                 }
             }
             .padding()
@@ -160,6 +162,7 @@ struct AlbumPhotoViewer: View {
                 ToolbarItem(placement: .destructiveAction) {
                     Button(role: .destructive) { confirmDelete = true } label: { Image(systemName: "trash") }
                         .accessibilityLabel(L("album.delete"))
+                        .accessibilityIdentifier("albumDelete")
                 }
             }
             .confirmationDialog(L("album.deleteConfirm"), isPresented: $confirmDelete, titleVisibility: .visible) {
@@ -190,6 +193,7 @@ struct MyPhotosSection: View {
                         ForEach(photos) { photo in
                             Button { viewing = photo } label: { AlbumThumb(photo: photo).frame(width: 96) }
                                 .buttonStyle(.plain)
+                                .accessibilityIdentifier("myPhoto")
                         }
                     }
                 }
@@ -204,7 +208,6 @@ struct MyPhotosSection: View {
 /// 用户自己存的一张原作截图（只在本机）：相机对位、请人帮拍、分享对比时用
 struct SceneScreenshotSection: View {
     let spot: Spot
-    @State private var pickedPhoto: PhotosPickerItem?
     @State private var message: String?
     @State private var version = 0
 
@@ -220,7 +223,10 @@ struct SceneScreenshotSection: View {
                         .id(version)
                 }
                 HStack(spacing: 10) {
-                    PhotosPicker(selection: $pickedPhoto, matching: .images) {
+                    PhotoPickerButton(onPick: { data, _ in
+                        message = SceneImageStore.shared.save(data, for: spot.id) ? L("detail.imageSet") : L("detail.imageFailed")
+                        version += 1
+                    }) {
                         Label(has ? L("detail.changeImage") : L("detail.addImage"), systemImage: "photo.badge.plus")
                             .frame(maxWidth: .infinity, minHeight: 30)
                     }
@@ -235,22 +241,11 @@ struct SceneScreenshotSection: View {
                         }
                         .glassButton()
                         .accessibilityLabel(L("detail.deleteImage"))
+                        .accessibilityIdentifier("deleteSceneImage")
                     }
                 }
                 .font(.subheadline.weight(.semibold))
                 if let message { Text(message).font(.caption).foregroundStyle(.secondary) }
-            }
-        }
-        .onChange(of: pickedPhoto) { _, item in
-            guard let item else { return }
-            Task {
-                let data = try? await item.loadTransferable(type: Data.self)
-                await MainActor.run {
-                    message = (data.map { SceneImageStore.shared.save($0, for: spot.id) } ?? false)
-                        ? L("detail.imageSet") : L("detail.imageFailed")
-                    version += 1
-                    pickedPhoto = nil
-                }
             }
         }
     }

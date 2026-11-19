@@ -873,7 +873,6 @@ struct FramingEditorView: View {
     @Environment(\.dismiss) private var dismiss
     @State private var framing: SubjectFraming = .default
     @State private var dragStart: SubjectFraming?
-    @State private var picked: PhotosPickerItem?
 
     var body: some View {
         NavigationStack {
@@ -935,10 +934,13 @@ struct FramingEditorView: View {
                 .aspectRatio(3.0 / 4.0, contentMode: .fit)
 
                 HStack {
-                    PhotosPicker(selection: $picked, matching: .images) {
+                    PhotoPickerButton(onPick: { data, _ in
+                        _ = SceneImageStore.shared.save(data, for: spot.id)
+                    }) {
                         Label(SceneImageStore.shared.hasImage(for: spot.id) ? L("detail.changeImage") : L("pg.addScreenshot"),
                               systemImage: "photo.badge.plus")
                     }
+                    .accessibilityIdentifier("framingAddScreenshot")
                     Spacer()
                     Button(L("pg.reset")) { framing = .default }
                 }
@@ -958,15 +960,6 @@ struct FramingEditorView: View {
                 }
             }
             .onAppear { framing = FramingStore.framing(for: spot.id) ?? .default }
-            .onChange(of: picked) { _, item in
-                guard let item else { return }
-                Task {
-                    if let data = try? await item.loadTransferable(type: Data.self) {
-                        await MainActor.run { _ = SceneImageStore.shared.save(data, for: spot.id) }
-                    }
-                    await MainActor.run { picked = nil }
-                }
-            }
         }
     }
 }
