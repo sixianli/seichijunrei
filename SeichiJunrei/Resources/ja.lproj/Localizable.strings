@@ -297,6 +297,11 @@
 "detail.searchOriginalTitle" = "ウェブで原作のシーンを探す";
 "detail.searchOriginalHint" = "巡礼者による原作と実景の比較写真が見つかりやすい検索語です";
 "common.moreInfo" = "説明";
+"moderation.screenshot" = "スクリーンショットは投稿できません。現地でカメラで撮った写真だけ投稿できます。";
+"moderation.noCamera" = "撮影したカメラの情報がありません（ダウンロード画像・保存画像・編集後の画像の可能性）。現地で撮った元の写真を選んでください。";
+"moderation.blocked" = "以前の投稿がルール違反で非表示になったため、現在は投稿できません。設定の連絡先からお問い合わせください。";
+"settings.copyrightTitle" = "著作権に関する申し立て";
+"settings.copyrightBody" = "投稿できるのは本人が現地で撮影した写真のみです。権利者の方で権利侵害を見つけた場合は、写真ページの「報告する → 著作権侵害」（すぐに非表示になります）またはメールでご連絡ください。速やかに削除します。";
 "kind.scene" = "名シーンの舞台";
 "kind.landmark" = "公式の聖地";
 "photo.lookAround" = "Look Around";
@@ -323,7 +328,7 @@
 "community.uploadTitle" = "現地の写真を投稿";
 "community.captionPlaceholder" = "ひとこと（任意）：撮影時間や立ち位置のコツなど";
 "community.ownPhoto" = "自分が現地で撮った写真です（アニメの画像や他人の写真ではありません）";
-"community.rules" = "投稿ルール：自分で撮った現地の写真と正しい情報だけを投稿してください。性的・暴力的・誹謗中傷・宣伝・権利侵害にあたる内容は禁止です。違反した投稿は削除され、悪質な場合は投稿できなくなります。投稿した写真はすべてのユーザーに公開されます。";
+"community.rules" = "投稿ルール：本人が現地でカメラで撮った元の写真のみ。スクリーンショット、ダウンロード画像、画面を撮影した原作の画像、性的・暴力的・誹謗中傷・宣伝・権利侵害の内容は禁止です。写真は全員に公開され、違反は削除、違反したユーザーは投稿できなくなります。";
 "community.uploadConfirm" = "同意して投稿";
 "community.postedOn" = "%@ 投稿";
 "community.more" = "その他";

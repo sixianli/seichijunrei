@@ -701,4 +701,28 @@ final class CommunityTests: XCTestCase {
             .map { (target: $0.0, reporter: $0.1) }
         XCTAssertEqual(ReportPolicy.hiddenTargets(reports), ["p1"])
     }
+
+    func testCopyrightReportHidesImmediately() {
+        let reports = [("p1", "a", "copyright"), ("p2", "a", "spam"), ("p2", "b", "spam")]
+            .map { (target: $0.0, reporter: $0.1, reason: $0.2) }
+        XCTAssertEqual(ReportPolicy.hiddenTargets(reports), ["p1"])
+    }
+
+    func testPhotoProvenance() {
+        let spot = GeoPoint(latitude: 35.68518, longitude: 139.72345)
+        let near = GeoPoint(latitude: 35.6855, longitude: 139.7236)
+        let home = GeoPoint(latitude: 39.9, longitude: 116.4)
+        XCTAssertEqual(PhotoProvenance.check(isInAppCapture: true, isScreenshot: false, cameraMake: nil, cameraModel: nil,
+                                             photoLocation: nil, spot: spot), .ok)
+        XCTAssertEqual(PhotoProvenance.check(isInAppCapture: false, isScreenshot: true, cameraMake: "Apple", cameraModel: "iPhone",
+                                             photoLocation: near, spot: spot), .screenshot)
+        XCTAssertEqual(PhotoProvenance.check(isInAppCapture: false, isScreenshot: false, cameraMake: nil, cameraModel: nil,
+                                             photoLocation: near, spot: spot), .noCamera)
+        XCTAssertEqual(PhotoProvenance.check(isInAppCapture: false, isScreenshot: false, cameraMake: "Apple", cameraModel: "iPhone 16",
+                                             photoLocation: nil, spot: spot), .noLocation)
+        if case .tooFar = PhotoProvenance.check(isInAppCapture: false, isScreenshot: false, cameraMake: "SONY", cameraModel: "ILCE-7M4",
+                                                photoLocation: home, spot: spot) {} else { XCTFail("在北京拍的应被拒绝") }
+        XCTAssertEqual(PhotoProvenance.check(isInAppCapture: false, isScreenshot: false, cameraMake: "Apple", cameraModel: "iPhone 16",
+                                             photoLocation: near, spot: spot), .ok)
+    }
 }

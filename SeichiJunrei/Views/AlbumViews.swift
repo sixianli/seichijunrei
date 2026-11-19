@@ -168,7 +168,7 @@ struct AlbumPhotoViewer: View {
             .sheet(isPresented: $showShareCard) { ShareComposerView(spot: spot) }
             .sheet(isPresented: $showUpload) {
                 if let img = pilgrimage.albumImage(photo) {
-                    UploadPhotoSheet(spot: spot, image: img, photoLocation: photo.location)
+                    UploadPhotoSheet(spot: spot, image: img, source: .inAppCapture(location: photo.location))
                 }
             }
         }

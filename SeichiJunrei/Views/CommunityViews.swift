@@ -57,15 +57,14 @@ struct CommunityPhotoStrip: View {
             guard let item else { return }
             Task {
                 if let data = try? await item.loadTransferable(type: Data.self), let image = UIImage(data: data) {
-                    var loc = PhotoModeration.gpsLocation(from: data)
-                    if loc == nil { loc = await PhotoModeration.libraryLocation(itemIdentifier: item.itemIdentifier) }
-                    await MainActor.run { uploadItem = IdentifiedImage(image: image, location: loc) }
+                    let src = UploadSource.library(data: data, itemIdentifier: item.itemIdentifier)
+                    await MainActor.run { uploadItem = IdentifiedImage(image: image, source: src) }
                 }
                 await MainActor.run { picked = nil }
             }
         }
         .sheet(item: $uploadItem) { item in
-            UploadPhotoSheet(spot: spot, image: item.image, photoLocation: item.location)
+            UploadPhotoSheet(spot: spot, image: item.image, source: item.source)
         }
         .sheet(item: $viewing) { photo in
             CommunityPhotoViewer(photo: photo)
@@ -76,7 +75,7 @@ struct CommunityPhotoStrip: View {
 struct IdentifiedImage: Identifiable {
     let id = UUID()
     let image: UIImage
-    var location: GeoPoint?
+    let source: UploadSource
 }
 
 /// 读取本机缓存的图片文件
@@ -97,7 +96,8 @@ struct UploadPhotoSheet: View {
     let spot: Spot
     let image: UIImage
     /// 照片的拍摄位置（App 里拍的取当时定位，相册里选的读 EXIF）
-    var photoLocation: GeoPoint?
+    /// 照片来源：App 相机拍的直接通过；相册里的要查截图 / 相机信息 / 拍摄位置
+    let source: UploadSource
     @Environment(\.dismiss) private var dismiss
     @State private var caption = ""
     @State private var ownPhoto = false
@@ -163,13 +163,17 @@ struct UploadPhotoSheet: View {
                     }
                     .glassButton(prominent: true, tint: spot.tintColor)
                     .controlSize(.large)
-                    .disabled(!ownPhoto || !captionProblems.isEmpty || uploading || !checked || problem != nil)
+                    .disabled(!ownPhoto || !captionProblems.isEmpty || uploading || !checked || problem != nil
+                              || CommunityService.shared.uploadsBlocked)
                     .accessibilityIdentifier("communityUploadConfirm")
                 }
                 .padding()
             }
             .task {
-                problem = await PhotoModeration.check(image: image, photoLocation: photoLocation, spot: spot)
+                if CommunityService.shared.uploadsBlocked {
+                    problem = nil; checked = true; message = L("moderation.blocked"); return
+                }
+                problem = await PhotoModeration.check(image: image, source: source, spot: spot)
                 checked = true
             }
             .navigationTitle(L("community.uploadTitle"))
@@ -253,9 +257,13 @@ struct CommunityPhotoViewer: View {
 
     private func report(reason: String) {
         Task {
-            let result = await CommunityService.shared.report(targetType: "photo", targetID: photo.id, reason: reason)
+            // 记录短原因（copyright / spam …）：以版权举报 1 次就先隐藏
+            let short = reason.replacingOccurrences(of: "community.reason.", with: "")
+            let result = await CommunityService.shared.report(targetType: "photo", targetID: photo.id, reason: short)
             switch result {
-            case .success: notice = L("community.reported")
+            case .success:
+                notice = L("community.reported")
+                if short == ReportPolicy.copyrightReason { CommunityService.shared.hideLocally(photo) }
             case .failure(let f): notice = CommunityText.failure(f)
             }
         }

@@ -297,6 +297,11 @@
 "detail.searchOriginalTitle" = "Find the original scene online";
 "detail.searchOriginalHint" = "Pilgrims often post the original frame next to the real place. Pick a search";
 "common.moreInfo" = "More info";
+"moderation.screenshot" = "Screenshots can't be shared. Only photos you took on site with a camera.";
+"moderation.noCamera" = "This image has no camera information (downloaded, saved from a chat app or exported from an editor). Please pick the original photo you took on site.";
+"moderation.blocked" = "A photo you shared earlier was hidden for breaking the rules, so you can't share photos for now. Contact us from Settings if you think this is a mistake.";
+"settings.copyrightTitle" = "Copyright complaints";
+"settings.copyrightBody" = "Only original photos people took on site can be shared. If you hold rights and find infringing content, use Report → Copyright on the photo (it's hidden immediately) or email us and we'll remove it promptly.";
 "kind.scene" = "Scene location";
 "kind.landmark" = "Official landmark";
 "photo.lookAround" = "Look Around";
@@ -323,7 +328,7 @@
 "community.uploadTitle" = "Share a photo";
 "community.captionPlaceholder" = "Add a caption (optional): time of day, where to stand…";
 "community.ownPhoto" = "I took this photo myself at the location (not a screenshot or someone else's photo)";
-"community.rules" = "Rules: share only photos you took yourself and accurate information. No sexual, violent, abusive or promotional content, and nothing that infringes others' rights. Violations are removed and repeat offenders lose the ability to post. Photos you share are visible to everyone.";
+"community.rules" = "Rules: only original photos you took on site with a camera. No screenshots, downloaded images, photos of a screen showing the original, or sexual, violent, abusive, promotional or infringing content. Photos are public; violations are removed and repeat offenders can't share again.";
 "community.uploadConfirm" = "Agree and share";
 "community.postedOn" = "Shared %@";
 "community.more" = "More";

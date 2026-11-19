@@ -297,6 +297,11 @@
 "detail.searchOriginalTitle" = "去网上看这一幕原本的样子";
 "detail.searchOriginalHint" = "巡礼者常把原作画面和实景并排对比，选一个搜索词试试";
 "common.moreInfo" = "说明";
+"moderation.screenshot" = "这是一张截图。只能上传你本人在现场用相机拍的照片，不能上传截图。";
+"moderation.noCamera" = "这张图没有相机拍摄信息，可能是网上下载、微信保存或编辑导出的图。请选你在现场拍的原图。";
+"moderation.blocked" = "你之前上传的照片因违规被隐藏，暂时不能再上传。如有疑问请通过设置里的联系方式联系我们。";
+"settings.copyrightTitle" = "版权投诉";
+"settings.copyrightBody" = "巡礼者上传的照片只允许本人在现场拍摄的原图。如果你是权利人，发现有侵犯你权利的内容，可以在照片页点“举报 → 侵犯版权”（会立即隐藏），或发邮件给我们，我们会尽快删除。";
 "kind.scene" = "名场面 · 取景地";
 "kind.landmark" = "官方圣地";
 "photo.lookAround" = "Apple 街景";
@@ -323,7 +328,7 @@
 "community.uploadTitle" = "上传现场照片";
 "community.captionPlaceholder" = "说一句（可选）：比如拍摄时间、站位小技巧";
 "community.ownPhoto" = "这是我本人在现场拍摄的照片（不是动画截图或别人的照片）";
-"community.rules" = "投稿须知：只上传你本人拍摄的现场照片和真实信息；禁止色情、暴力、辱骂、广告和侵犯他人权利的内容。违规内容会被删除，屏蔽或举报过多的用户将无法继续投稿。上传的照片会对所有用户公开。";
+"community.rules" = "投稿须知：只能上传你本人在现场用相机拍的原图。禁止上传截图、网上下载的图、对着屏幕翻拍的原作画面，以及色情、暴力、辱骂、广告和侵犯他人权利的内容。照片会对所有用户公开；违规内容会被删除，违规用户将不能继续上传。";
 "community.uploadConfirm" = "同意并上传";
 "community.postedOn" = "%@ 上传";
 "community.more" = "更多";

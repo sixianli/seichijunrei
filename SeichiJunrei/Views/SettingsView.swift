@@ -73,6 +73,16 @@ struct SettingsView: View {
                     }
                 }
 
+                Section(L("settings.copyrightTitle")) {
+                    Text(L("settings.copyrightBody"))
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                    if let email = AppConfig.contactEmail,
+                       let url = URL(string: "mailto:\(email)?subject=Copyright%20complaint") {
+                        Link(destination: url) { Label(email, systemImage: "envelope").font(.footnote) }
+                    }
+                }
+
                 Section(L("settings.credits")) {
                     Text(L("settings.creditsBody"))
                         .font(.footnote)
