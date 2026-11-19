@@ -109,6 +109,10 @@ def check_spot(s, r):
         if terms is None: r.warn(where, f"text.{lang}.searchTerms 缺失（看原作画面的搜索关键词）")
         elif not (isinstance(terms, list) and 1 <= len(terms) <= 5 and all(isinstance(t, str) and t.strip() for t in terms)):
             r.err(where, f"text.{lang}.searchTerms 必须是 1–5 个非空字符串")
+    # 各语言的关键词按下标一一对应（App 用日文搜、用用户的语言逐条说明），所以条数必须一样
+    counts = {lang: len((text.get(lang) or {}).get("searchTerms") or []) for lang in AUTHORED}
+    if len(set(counts.values())) > 1:
+        r.err(where, f"各语言 searchTerms 条数不一致（应逐条对应）：{counts}")
     zh = text.get("zh-Hans", {})
     for f, (lo, hi) in ZH_LEN.items():
         n = len(zh.get(f) or "")

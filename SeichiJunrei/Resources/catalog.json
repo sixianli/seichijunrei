@@ -4564,7 +4564,7 @@
      "searchTerms": [
       "Midorigoi Bridge",
       "feeding carp",
-      "Ogaki"
+      "Suimon River"
      ]
     },
     "ko": {
@@ -4580,7 +4580,7 @@
      "searchTerms": [
       "미도리고이 다리",
       "잉어 먹이",
-      "오가키"
+      "스이몬강"
      ]
     }
    },
@@ -4631,7 +4631,8 @@
      "searchTerms": [
       "新大桥",
       "月色真美",
-      "告白"
+      "告白",
+      "水门川"
      ]
     },
     "zh-Hant": {
@@ -4647,7 +4648,8 @@
      "searchTerms": [
       "新大橋",
       "月色真美",
-      "告白"
+      "告白",
+      "水門川"
      ]
     },
     "ja": {
@@ -4679,8 +4681,9 @@
      "tips": "Shin-Ohashi carries a busy main road, so take photos from the pavement and watch for traffic. It pairs well with Midorigoi Bridge and Ogaki Station for a walking route.",
      "searchTerms": [
       "Shin-Ohashi Bridge",
-      "moon confession",
-      "Ogaki"
+      "the moon is beautiful",
+      "confession",
+      "Suimon River"
      ]
     },
     "ko": {
@@ -4696,7 +4699,8 @@
      "searchTerms": [
       "신오하시",
       "달이 예쁘네",
-      "고백"
+      "고백",
+      "스이몬강"
      ]
     }
    },
@@ -4775,7 +4779,6 @@
      "searchTerms": [
       "誰もいない渋谷",
       "スクランブル交差点",
-      "無人の渋谷",
       "第1話"
      ]
     },
@@ -5121,7 +5124,7 @@
      "searchTerms": [
       "Anpanman Museum",
       "Yanase Takashi Memorial Hall",
-      "Kochi"
+      "Kami City"
      ]
     },
     "ko": {
@@ -5137,7 +5140,7 @@
      "searchTerms": [
       "호빵맨 뮤지엄",
       "야나세 다카시 기념관",
-      "고치"
+      "가미시"
      ]
     }
    }
@@ -5208,8 +5211,7 @@
      "searchTerms": [
       "盛美園",
       "盛美館",
-      "洋館",
-      "庭園"
+      "洋館"
      ]
     },
     "en": {
@@ -5502,7 +5504,8 @@
      "searchTerms": [
       "浅尾沉下桥",
       "沉下桥",
-      "仁淀川"
+      "仁淀川",
+      "上学路"
      ]
     },
     "zh-Hant": {
@@ -5517,7 +5520,8 @@
      "searchTerms": [
       "淺尾沉下橋",
       "沉下橋",
-      "仁澱川"
+      "仁澱川",
+      "上學路"
      ]
     },
     "ja": {
@@ -5548,7 +5552,8 @@
      "searchTerms": [
       "Asao Chinkabashi",
       "submersible bridge",
-      "Niyodo River"
+      "Niyodo River",
+      "way to school"
      ]
     },
     "ko": {
@@ -5563,7 +5568,8 @@
      "searchTerms": [
       "아사오 침하교",
       "침하교",
-      "니요도강"
+      "니요도강",
+      "등굣길"
      ]
     }
    }
@@ -5825,7 +5831,7 @@
      "searchTerms": [
       "涩谷十字路口",
       "人潮",
-      "涩谷"
+      "莲"
      ]
     },
     "zh-Hant": {
@@ -5841,7 +5847,7 @@
      "searchTerms": [
       "澀谷十字路口",
       "人潮",
-      "澀谷"
+      "蓮"
      ]
     },
     "ja": {
@@ -5872,8 +5878,8 @@
      "tips": "The flow of people is enormous: don't stop mid-crossing for photos, get back to the pavement before the light turns red, and don't use a tripod. Drinking on the street around Shibuya Station is banned year-round from 18:00 to 5:00.",
      "searchTerms": [
       "Shibuya Crossing",
-      "scramble crossing",
-      "crowd"
+      "crowd",
+      "Ren"
      ]
     },
     "ko": {
@@ -6152,6 +6158,7 @@
      "searchTerms": [
       "机器人兵",
       "吉卜力美术馆 屋顶",
+      "屋顶花园",
       "三鹰"
      ]
     },
@@ -6168,6 +6175,7 @@
      "searchTerms": [
       "機器人兵",
       "吉卜力美術館 屋頂",
+      "屋頂花園",
       "三鷹"
      ]
     },
@@ -6201,6 +6209,7 @@
      "searchTerms": [
       "Robot Soldier",
       "Ghibli Museum rooftop",
+      "rooftop garden",
       "Mitaka"
      ]
     },
@@ -6217,6 +6226,7 @@
      "searchTerms": [
       "로봇 병사",
       "지브리 미술관 옥상",
+      "옥상 정원",
       "미타카"
      ]
     }
@@ -6680,7 +6690,7 @@
      "searchTerms": [
       "一刀石",
       "炭治郎 劈石",
-      "柳生"
+      "柳生 天石立神社"
      ]
     },
     "zh-Hant": {
@@ -6696,7 +6706,7 @@
      "searchTerms": [
       "一刀石",
       "炭治郎 劈石",
-      "柳生"
+      "柳生 天石立神社"
      ]
     },
     "ja": {
@@ -6728,7 +6738,7 @@
      "searchTerms": [
       "Ittoseki",
       "Tanjiro boulder",
-      "Yagyu split rock"
+      "Yagyu Amanoiwatate Shrine"
      ]
     },
     "ko": {
@@ -6744,7 +6754,7 @@
      "searchTerms": [
       "잇토세키",
       "탄지로 바위",
-      "야규 갈라진 바위"
+      "야규 아마노이와타테 신사"
      ]
     }
    },
@@ -6788,6 +6798,7 @@
      "accessPointName": "JR 游佐站",
      "searchTerms": [
       "月光川",
+      "旧朝日桥",
       "鸟海山 大提琴",
       "河边拉大提琴"
      ]
@@ -6804,6 +6815,7 @@
      "accessPointName": "JR 遊佐站",
      "searchTerms": [
       "月光川",
+      "舊朝日橋",
       "鳥海山 大提琴",
       "河邊拉大提琴"
      ]
@@ -6837,6 +6849,7 @@
      "accessPointName": "JR Yuza Sta.",
      "searchTerms": [
       "Gakko River",
+      "old Asahi Bridge",
       "cello Mt Chokai",
       "cello by the river"
      ]
@@ -6853,6 +6866,7 @@
      "accessPointName": "JR 유자역",
      "searchTerms": [
       "갓코강",
+      "구 아사히 다리",
       "조카이산 첼로",
       "강변 첼로 연주"
      ]
@@ -7016,7 +7030,8 @@
      "searchTerms": [
       "柯南大桥",
       "柯南铜像",
-      "北荣町"
+      "北荣町",
+      "柯南之乡"
      ]
     },
     "zh-Hant": {
@@ -7032,7 +7047,8 @@
      "searchTerms": [
       "柯南大橋",
       "柯南銅像",
-      "北榮町"
+      "北榮町",
+      "柯南之鄉"
      ]
     },
     "ja": {
@@ -7065,7 +7081,8 @@
      "searchTerms": [
       "Conan Bridge",
       "Conan statue",
-      "Hokuei"
+      "Hokuei",
+      "Conan Town"
      ]
     },
     "ko": {
@@ -7081,7 +7098,8 @@
      "searchTerms": [
       "코난 대교",
       "코난 동상",
-      "호쿠에이"
+      "호쿠에이",
+      "코난의 마을"
      ]
     }
    }
@@ -7171,7 +7189,7 @@
      "tips": "Timed-entry reservations only: buy in advance on the official e-tix site; nothing is sold at the door. Adults ¥1,000. Closed Tuesdays and over New Year. No photos in some galleries or the F Theater, no re-entry, no parking.",
      "searchTerms": [
       "Fujiko F Fujio Museum",
-      "clay pipes",
+      "empty lot pipes",
       "Kawasaki"
      ]
     },
@@ -7226,8 +7244,9 @@
      "accessPointName": "南吉岛 巴士站",
      "searchTerms": [
       "广岛中工厂",
-      "垃圾处理厂",
-      "和平轴线"
+      "Ecorium",
+      "和平轴线",
+      "垃圾处理厂"
      ]
     },
     "zh-Hant": {
@@ -7242,8 +7261,9 @@
      "accessPointName": "南吉島 巴士站",
      "searchTerms": [
       "廣島中工廠",
-      "垃圾處理廠",
-      "和平軸線"
+      "Ecorium",
+      "和平軸線",
+      "垃圾處理廠"
      ]
     },
     "ja": {
@@ -7292,8 +7312,9 @@
      "accessPointName": "미나미요시지마 버스 정류장",
      "searchTerms": [
       "히로시마 나카 공장",
-      "쓰레기 처리장",
-      "평화의 축선"
+      "에코리움",
+      "평화의 축선",
+      "쓰레기 처리장"
      ]
     }
    },
@@ -7339,9 +7360,10 @@
      "tips": "这里是繁华的商业街，拍照请靠边，勿阻挡行人与车辆。附近的东池袋中央公园、乙女路也是作品中的场景，可以一并散步巡礼。",
      "accessPointName": "JR 池袋站 东口",
      "searchTerms": [
-      "池袋 阳光60大道",
+      "阳光60大道",
       "Dollars 集会",
-      "赛尔提"
+      "赛尔提",
+      "池袋"
      ]
     },
     "zh-Hant": {
@@ -7355,9 +7377,10 @@
      "tips": "這裡是繁華的商業街，拍照請靠邊，勿阻擋行人與車輛。附近的東池袋中央公園、乙女路也是作品中的場景，可以一併散步巡禮。",
      "accessPointName": "JR 池袋站 東口",
      "searchTerms": [
-      "池袋 陽光60大道",
+      "陽光60大道",
       "Dollars 集會",
-      "賽爾提"
+      "賽爾提",
+      "池袋"
      ]
     },
     "ja": {
@@ -7445,7 +7468,7 @@
      "searchTerms": [
       "大吉山展望台",
       "县祭 丽奈",
-      "大吉山 夜景 合奏",
+      "丽奈 久美子 合奏",
       "想成为特别的人"
      ]
     },
@@ -7462,7 +7485,7 @@
      "searchTerms": [
       "大吉山展望臺",
       "縣祭 麗奈",
-      "大吉山 夜景 合奏",
+      "麗奈 久美子 合奏",
       "想成為特別的人"
      ]
     },
@@ -7496,7 +7519,8 @@
      "searchTerms": [
       "Daikichiyama lookout",
       "Agata festival Reina",
-      "Reina Kumiko duet"
+      "Reina Kumiko duet",
+      "I want to be special"
      ]
     },
     "ko": {
@@ -7512,7 +7536,8 @@
      "searchTerms": [
       "다이키치야마 전망대",
       "아가타 축제 레이나",
-      "레이나 쿠미코 합주"
+      "레이나 쿠미코 합주",
+      "특별해지고 싶어"
      ]
     }
    },
@@ -7897,8 +7922,9 @@
      "tips": "岩舟是无人车站，两毛线约每小时1班，请提前查好回程时刻。站台属于付费区，拍照需持有效车票或IC卡进站并留在黄线内；候车区请让给乘客使用。",
      "searchTerms": [
       "岩舟站",
-      "大雪",
-      "候车室"
+      "大雪 车站",
+      "候车室",
+      "火炉"
      ]
     },
     "zh-Hant": {
@@ -7913,8 +7939,9 @@
      "tips": "巖舟是無人車站，兩毛線約每小時1班，請提前查好回程時刻。站臺屬於付費區，拍照需持有效車票或IC卡進站並留在黃線內；候車區請讓給乘客使用。",
      "searchTerms": [
       "巖舟站",
-      "大雪",
-      "候車室"
+      "大雪 車站",
+      "候車室",
+      "火爐"
      ]
     },
     "ja": {
@@ -7947,7 +7974,8 @@
      "searchTerms": [
       "Iwafune Station",
       "snowy station",
-      "waiting room"
+      "waiting room",
+      "stove"
      ]
     },
     "ko": {
@@ -7962,8 +7990,9 @@
      "tips": "이와후네역은 무인역이고 료모선은 대략 1시간에 1대입니다. 돌아갈 열차 시간을 미리 확인하세요. 승강장은 개찰구 안쪽이라 촬영하려면 유효한 승차권이나 IC카드로 들어가야 하며, 노란 선 안쪽에 머물러 주세요. 대기 공간은 승객에게 양보해 주세요.",
      "searchTerms": [
       "이와후네역",
-      "폭설",
-      "대합실"
+      "폭설 역",
+      "대합실",
+      "난로"
      ]
     }
    },
@@ -8004,7 +8033,7 @@
      "searchTerms": [
       "中山海岸",
       "种子岛 冲浪",
-      "花苗"
+      "花苗 海浪"
      ]
     },
     "zh-Hant": {
@@ -8019,7 +8048,7 @@
      "searchTerms": [
       "中山海岸",
       "種子島 衝浪",
-      "花苗"
+      "花苗 海浪"
      ]
     },
     "ja": {
@@ -8064,7 +8093,7 @@
      "searchTerms": [
       "나카야마 해안",
       "다네가시마 서핑",
-      "카나에"
+      "카나에 파도"
      ]
     }
    },
@@ -8159,8 +8188,9 @@
      "tips": "Never stop or take photos inside the crossing; step back behind the barrier as soon as the alarm sounds. It's a quiet residential area, so keep noise down and don't photograph people's homes.",
      "searchTerms": [
       "Sangubashi crossing",
-      "railroad crossing",
-      "final scene"
+      "Odakyu Line crossing",
+      "final scene",
+      "passing each other"
      ]
     },
     "ko": {
@@ -8175,8 +8205,9 @@
      "tips": "건널목 안에서 멈추거나 촬영하는 것은 절대 금지. 경보가 울리면 바로 차단기 밖으로 물러나세요. 조용한 주택가이니 큰 소리를 내지 말고 주택을 찍지 마세요.",
      "searchTerms": [
       "산구바시 건널목",
-      "건널목",
-      "라스트 신"
+      "오다큐선 건널목",
+      "라스트 신",
+      "엇갈림"
      ]
     }
    },
@@ -8215,8 +8246,8 @@
      "bestTime": "夏末到初秋的傍晚放学时分，南国的晚霞最像电影。营业时间不固定，出发前最好先确认。",
      "tips": "这是当地人日常购物的小店，请先买点东西再拍照，不要挡住收银台。营业时间不固定；停车请使用附近的大平集落公民馆停车场。",
      "searchTerms": [
-      "种子岛 便利店",
       "I-SHOP",
+      "种子岛 便利店",
       "花苗"
      ]
     },
@@ -8230,8 +8261,8 @@
      "bestTime": "夏末到初秋的傍晚放學時分，南國的晚霞最像電影。營業時間不固定，出發前最好先確認。",
      "tips": "這是當地人日常購物的小店，請先買點東西再拍照，不要擋住收銀臺。營業時間不固定；停車請使用附近的大平集落公民館停車場。",
      "searchTerms": [
-      "種子島 便利店",
       "I-SHOP",
+      "種子島 便利店",
       "花苗"
      ]
     },
@@ -8260,8 +8291,8 @@
      "bestTime": "Late-summer to early-autumn evenings, around the time school lets out, when the southern sunset looks just like the film. Opening hours vary, so check before you go.",
      "tips": "This is a local shop people rely on for daily groceries: buy something before taking photos and don't block the till. Opening hours are irregular. Park at the nearby Ohira community hall car park.",
      "searchTerms": [
-      "I-Shop Tanegashima",
-      "convenience store",
+      "I-Shop",
+      "Tanegashima convenience store",
       "Kanae"
      ]
     },
@@ -8275,8 +8306,8 @@
      "bestTime": "늦여름부터 초가을, 하교 시간대의 저녁 노을이 영화 그대로다. 영업시간이 일정하지 않으니 출발 전에 확인하자.",
      "tips": "주민들이 일상적으로 장을 보는 가게입니다. 촬영 전에 뭐라도 사고, 계산대 앞을 막지 마세요. 영업시간은 일정하지 않습니다. 주차는 근처 오히라 마을 공민관 주차장을 이용하세요.",
      "searchTerms": [
-      "다네가시마 편의점",
       "아이숍",
+      "다네가시마 편의점",
       "카나에"
      ]
     }
@@ -8433,7 +8464,8 @@
      "searchTerms": [
       "新宿御苑 凉亭",
       "雨天",
-      "日本庭园"
+      "日本庭园",
+      "鞋子"
      ]
     },
     "zh-Hant": {
@@ -8449,7 +8481,8 @@
      "searchTerms": [
       "新宿御苑 涼亭",
       "雨天",
-      "日本庭園"
+      "日本庭園",
+      "鞋子"
      ]
     },
     "ja": {
@@ -8482,7 +8515,8 @@
      "searchTerms": [
       "Shinjuku Gyoen gazebo",
       "rain",
-      "Japanese garden"
+      "Japanese garden",
+      "shoes"
      ]
     },
     "ko": {
@@ -8498,7 +8532,8 @@
      "searchTerms": [
       "신주쿠 교엔 정자",
       "비 오는 날",
-      "일본 정원"
+      "일본 정원",
+      "구두"
      ]
     }
    },
@@ -8546,7 +8581,8 @@
      "searchTerms": [
       "水木茂之路",
       "妖怪铜像",
-      "境港"
+      "境港",
+      "眼珠老爹"
      ]
     },
     "zh-Hant": {
@@ -8562,7 +8598,8 @@
      "searchTerms": [
       "水木茂之路",
       "妖怪銅像",
-      "境港"
+      "境港",
+      "眼珠老爹"
      ]
     },
     "ja": {
@@ -8595,7 +8632,8 @@
      "searchTerms": [
       "Mizuki Shigeru Road",
       "yokai statues",
-      "Sakaiminato"
+      "Sakaiminato",
+      "Medama-Oyaji"
      ]
     },
     "ko": {
@@ -8611,7 +8649,8 @@
      "searchTerms": [
       "미즈키 시게루 로드",
       "요괴 동상",
-      "사카이미나토"
+      "사카이미나토",
+      "눈알 아빠"
      ]
     }
    }
@@ -8649,7 +8688,7 @@
      "searchTerms": [
       "东京国立博物馆",
       "魔女阿姨",
-      "本馆"
+      "本馆 大阶梯"
      ]
     },
     "zh-Hant": {
@@ -8665,7 +8704,7 @@
      "searchTerms": [
       "東京國立博物館",
       "魔女阿姨",
-      "本館"
+      "本館 大階梯"
      ]
     },
     "ja": {
@@ -8697,7 +8736,7 @@
      "searchTerms": [
       "Tokyo National Museum",
       "Auntie Witch",
-      "museum steps"
+      "Honkan grand staircase"
      ]
     },
     "ko": {
@@ -8713,7 +8752,7 @@
      "searchTerms": [
       "도쿄국립박물관",
       "마녀 이모",
-      "본관"
+      "본관 대계단"
      ]
     }
    },
@@ -8809,7 +8848,7 @@
      "tips": "The crossing is packed with people and traffic: shoot from the pavement and don't stop on the crosswalk. On weekends and holidays Chuo-dori becomes a pedestrian zone (hours vary by season), the best chance for a head-on shot.",
      "searchTerms": [
       "Wako clock tower",
-      "Ginza",
+      "Ginza 4-chome",
       "clock tower destroyed"
      ]
     },
@@ -8825,7 +8864,7 @@
      "tips": "4초메 교차로는 사람과 차가 매우 많다. 촬영은 인도에서 하고 횡단보도 위에서 멈추지 마세요. 주말과 공휴일에는 주오도리가 보행자 천국이 되어(시간은 계절에 따라 다름) 정면 사진을 찍기 좋다.",
      "searchTerms": [
       "와코 시계탑",
-      "긴자",
+      "긴자 4초메",
       "시계탑 파괴"
      ]
     }
@@ -8862,6 +8901,7 @@
      "bestTime": "初夏傍晚光线柔和、最安静，适合静静停留；8月终战纪念日前后来凭吊也有意义。周边是住宅区，避免清晨和夜间造访",
      "tips": "纪念碑与阪神淡路大地震遇难者慰灵碑同在一座公园，请保持肃静。池塘现已没有萤火虫，防空洞也已不存在；周边是住宅区，请勿喧哗或拍摄民宅。",
      "searchTerms": [
+      "ニテコ池",
       "西宫 满池谷",
       "防空洞",
       "萤火虫"
@@ -8878,6 +8918,7 @@
      "bestTime": "初夏傍晚光線柔和、最安靜，適合靜靜停留；8月終戰紀念日前後來憑弔也有意義。周邊是住宅區，避免清晨和夜間造訪",
      "tips": "紀念碑與阪神淡路大地震遇難者慰靈碑同在一座公園，請保持肅靜。池塘現已沒有螢火蟲，防空洞也已不存在；周邊是住宅區，請勿喧譁或拍攝民宅。",
      "searchTerms": [
+      "ニテコ池",
       "西宮 滿池谷",
       "防空洞",
       "螢火蟲"
@@ -8929,6 +8970,7 @@
      "tips": "기념비는 한신·아와지 대지진 희생자 추모비와 같은 공원에 있으니 조용히 하자. 지금 연못에는 반딧불이 없고 방공호도 남아 있지 않다. 주변이 주택가이니 떠들거나 민가를 촬영하지 말자.",
      "searchTerms": [
       "니테코 연못",
+      "만치다니",
       "방공호",
       "반딧불이"
      ]
@@ -8973,6 +9015,7 @@
      "searchTerms": [
       "三宫站",
       "开场",
+      "车站柱子",
       "水果糖罐"
      ]
     },
@@ -8989,6 +9032,7 @@
      "searchTerms": [
       "三宮站",
       "開場",
+      "車站柱子",
       "水果糖罐"
      ]
     },
@@ -9022,6 +9066,7 @@
      "searchTerms": [
       "Sannomiya Station",
       "opening scene",
+      "station pillar",
       "candy tin"
      ]
     },
@@ -9038,6 +9083,7 @@
      "searchTerms": [
       "산노미야역",
       "오프닝 장면",
+      "역 기둥",
       "사탕 깡통"
      ]
     }
@@ -9638,7 +9684,7 @@
       "水无神社",
       "生雏祭",
       "千反田 雏",
-      "奉太郎 撑伞"
+      "千反田 伞"
      ]
     },
     "zh-Hant": {
@@ -9655,7 +9701,7 @@
       "水無神社",
       "生雛祭",
       "千反田 雛",
-      "奉太郎 撐傘"
+      "千反田 傘"
      ]
     },
     "ja": {
@@ -9689,7 +9735,7 @@
       "Minashi Shrine",
       "living hina festival",
       "Chitanda hina",
-      "umbrella"
+      "Chitanda umbrella"
      ]
     },
     "ko": {
@@ -9706,7 +9752,7 @@
       "미나시 신사",
       "이키비나 마쓰리",
       "치탄다 히나",
-      "우산"
+      "치탄다 우산"
      ]
     }
    },
@@ -9752,9 +9798,9 @@
      "tips": "这里是普通公共道路，严禁飙车、漂移，也不要在弯道上停车或站在路中拍照，请在停车场内拍摄。冬季路面结冰积雪，12–3 月自驾需雪地轮胎。",
      "accessPointName": "ヤセオネ峠 巴士站",
      "searchTerms": [
-      "榛名山",
+      "ヤセオネ峠",
       "秋名山 起点",
-      "秋名山 下坡",
+      "榛名山 下坡",
       "旧收费站"
      ]
     },
@@ -9769,9 +9815,9 @@
      "tips": "這裡是普通公共道路，嚴禁飆車、漂移，也不要在彎道上停車或站在路中拍照，請在停車場內拍攝。冬季路面結冰積雪，12–3 月自駕需雪地輪胎。",
      "accessPointName": "ヤセオネ峠 巴士站",
      "searchTerms": [
-      "榛名山",
+      "ヤセオネ峠",
       "秋名山 起點",
-      "秋名山 下坡",
+      "榛名山 下坡",
       "舊收費站"
      ]
     },
@@ -9805,7 +9851,7 @@
      "searchTerms": [
       "Yaseone Pass",
       "Akina downhill start",
-      "Mt Haruna",
+      "Mt Haruna downhill",
       "old toll gate"
      ]
     },
@@ -10196,6 +10242,7 @@
      "searchTerms": [
       "书写山圆教寺",
       "三之堂",
+      "大讲堂",
       "渡边谦"
      ]
     },
@@ -10212,6 +10259,7 @@
      "searchTerms": [
       "書寫山圓教寺",
       "三之堂",
+      "大講堂",
       "渡邊謙"
      ]
     },
@@ -10243,9 +10291,9 @@
      "tips": "An entry donation (¥500 for adults) plus the ropeway fare are required, and the ropeway has maintenance closures, so check ahead. This is a working Tendai training temple: keep quiet. Paths are steep with many stone steps; wear good shoes and head down before dark.",
      "accessPointName": "Mt. Shosha Ropeway Summit Sta.",
      "searchTerms": [
-      "Engyoji Temple",
-      "Mount Shosha",
+      "Shoshazan Engyoji",
       "Mitsunodo",
+      "Daikodo hall",
       "Ken Watanabe"
      ]
     },
@@ -10260,9 +10308,9 @@
      "tips": "입산 지납금(성인 500엔)과 로프웨이 요금이 필요하고, 로프웨이는 점검 운휴 기간이 있으니 미리 확인하자. 천태종 수행 도량이니 조용히. 산길은 비탈과 돌계단이 많아 편한 신발을 신고 해 지기 전에 내려오자.",
      "accessPointName": "쇼샤산 로프웨이 산조역",
      "searchTerms": [
-      "엔교지",
-      "쇼샤산",
+      "쇼샤산 엔교지",
       "미쓰노도",
+      "대강당",
       "와타나베 켄"
      ]
     }
@@ -10477,8 +10525,8 @@
      "searchTerms": [
       "New York Bar",
       "Park Hyatt Tokyo",
-      "Bill Murray",
-      "52nd floor"
+      "52nd floor",
+      "Bill Murray"
      ]
     },
     "ko": {
@@ -10494,6 +10542,7 @@
      "searchTerms": [
       "뉴욕 바",
       "파크 하얏트 도쿄",
+      "52층",
       "빌 머레이"
      ]
     }
@@ -10533,7 +10582,7 @@
       "涩谷十字路口",
       "透明雨伞",
       "雨中涩谷",
-      "斯嘉丽"
+      "斯嘉丽·约翰逊"
      ]
     },
     "zh-Hant": {
@@ -10550,7 +10599,7 @@
       "澀谷十字路口",
       "透明雨傘",
       "雨中澀谷",
-      "斯嘉麗"
+      "斯嘉麗·約翰遜"
      ]
     },
     "ja": {
@@ -10583,8 +10632,8 @@
      "searchTerms": [
       "Shibuya Crossing",
       "clear umbrella",
-      "Scarlett Johansson",
-      "rain"
+      "rainy Shibuya",
+      "Scarlett Johansson"
      ]
     },
     "ko": {
@@ -10600,6 +10649,7 @@
      "searchTerms": [
       "시부야 스크램블 교차로",
       "비닐우산",
+      "비 오는 시부야",
       "스칼렛 요한슨"
      ]
     }
@@ -10763,8 +10813,8 @@
      "accessPointName": "天狗山缆车 山顶站",
      "searchTerms": [
       "天狗山",
+      "雪坡",
       "雪地躺下",
-      "屏住呼吸",
       "开场"
      ]
     },
@@ -10780,8 +10830,8 @@
      "accessPointName": "天狗山纜車 山頂站",
      "searchTerms": [
       "天狗山",
+      "雪坡",
       "雪地躺下",
-      "屏住呼吸",
       "開場"
      ]
     },
@@ -10814,8 +10864,8 @@
      "accessPointName": "Mt. Tengu Ropeway Summit Sta.",
      "searchTerms": [
       "Mt Tengu",
+      "snowy slope",
       "lying in the snow",
-      "holding her breath",
       "opening scene"
      ]
     },
@@ -10831,6 +10881,7 @@
      "accessPointName": "덴구야마 로프웨이 산정역",
      "searchTerms": [
       "덴구야마",
+      "눈 덮인 비탈",
       "눈밭에 눕는 히로코",
       "오프닝"
      ]
@@ -10926,8 +10977,7 @@
      "bestTime": "Before 7 am or at dusk the crowds thin enough to capture the film's endless tunnel of gates. In the afternoon, sunlight slipping between the gates is at its most beautiful.",
      "tips": "The shrine is open 24 hours and free (prayers and the amulet office keep set hours). The gate tunnel is narrow: step aside to shoot, don't block the path for long, and never climb or lean on the torii. Only local trains stop at JR Inari.",
      "searchTerms": [
-      "Fushimi Inari",
-      "Senbon Torii",
+      "Fushimi Inari Senbon Torii",
       "Chiyo running",
       "torii tunnel"
      ]
@@ -10943,9 +10993,9 @@
      "bestTime": "오전 7시 이전이나 해 질 녘이 한산해 영화 같은 도리이 터널의 깊이를 담을 수 있다. 오후에 도리이 틈새로 햇살이 스며드는 시간도 아름답다.",
      "tips": "경내는 24시간 무료 참배 가능(기도와 부적 판매소는 접수 시간 있음). 센본도리이 통로는 좁으니 가장자리에서 촬영하고 오래 길을 막지 마세요. 도리이에 오르거나 기대지 말 것. JR 이나리역은 보통 열차만 정차한다.",
      "searchTerms": [
-      "후시미 이나리",
-      "센본 도리이",
-      "치요 달리기"
+      "후시미 이나리 센본 도리이",
+      "치요 달리기",
+      "도리이 터널"
      ]
     }
    }
@@ -11354,7 +11404,8 @@
      "searchTerms": [
       "Hitoyoshi Station",
       "ticket gate Chitsu",
-      "station building"
+      "undying feelings",
+      "wooden station building"
      ]
     },
     "ko": {
@@ -11370,7 +11421,8 @@
      "searchTerms": [
       "히토요시역",
       "개찰구 치즈",
-      "역사 건물"
+      "불사의 마음",
+      "목조 역사"
      ]
     }
    },
@@ -11418,9 +11470,9 @@
      "tips": "温泉街道路窄、有车辆通行，请勿在桥中央或车道上长时间停留拍照；红叶季周末容易堵车，建议坐电车加巴士；旅馆是营业场所，请勿擅入。",
      "searchTerms": [
       "修善寺温泉",
+      "汤回廊菊屋",
       "虎溪桥",
-      "竹林小径",
-      "新婚旅行"
+      "竹林小径"
      ]
     },
     "zh-Hant": {
@@ -11435,9 +11487,9 @@
      "tips": "溫泉街道路窄、有車輛通行，請勿在橋中央或車道上長時間停留拍照；紅葉季週末容易堵車，建議坐電車加巴士；旅館是營業場所，請勿擅入。",
      "searchTerms": [
       "修善寺溫泉",
+      "湯迴廊菊屋",
       "虎溪橋",
-      "竹林小徑",
-      "新婚旅行"
+      "竹林小徑"
      ]
     },
     "ja": {
@@ -11469,9 +11521,9 @@
      "tips": "The hot-spring streets are narrow and carry traffic: don't linger mid-bridge or in the road for photos. Foliage-season weekends get congested, so train plus bus beats driving. Ryokan are businesses; don't wander in.",
      "searchTerms": [
       "Shuzenji Onsen",
+      "Yukairo Kikuya",
       "Kokei Bridge",
-      "bamboo forest path",
-      "honeymoon trip"
+      "bamboo forest path"
      ]
     },
     "ko": {
@@ -11486,9 +11538,9 @@
      "tips": "온천 거리는 길이 좁고 차가 다니니 다리 한가운데나 차도에서 오래 멈춰 촬영하지 마세요. 단풍철 주말은 정체가 심하니 전철+버스를 추천합니다. 료칸은 영업 시설이니 함부로 들어가지 마세요.",
      "searchTerms": [
       "슈젠지 온천",
+      "유카이로 기쿠야",
       "도케이바시",
-      "대나무 숲길",
-      "신혼여행"
+      "대나무 숲길"
      ]
     }
    },
@@ -11585,7 +11637,7 @@
      "searchTerms": [
       "Luffy statue",
       "Kumamoto Prefectural Office",
-      "Kumamoto"
+      "Kumamoto recovery"
      ]
     },
     "ko": {
@@ -11745,7 +11797,8 @@
      "searchTerms": [
       "银山温泉",
       "雪中银山温泉",
-      "母女重逢"
+      "母女重逢",
+      "少女篇"
      ]
     },
     "zh-Hant": {
@@ -11761,7 +11814,8 @@
      "searchTerms": [
       "銀山溫泉",
       "雪中銀山溫泉",
-      "母女重逢"
+      "母女重逢",
+      "少女篇"
      ]
     },
     "ja": {
@@ -11793,8 +11847,9 @@
      "tips": "In winter (roughly late December–March) day visitors face traffic controls and evening entry limits, with rules announced each season: check the Obanazawa City or Ginzan Onsen official sites first. Book rooms early, and don't block the narrow bridges while taking photos.",
      "searchTerms": [
       "Ginzan Onsen",
-      "snowy hot spring town",
-      "mother reunion"
+      "snowy Ginzan Onsen",
+      "mother reunion",
+      "girlhood chapter"
      ]
     },
     "ko": {
@@ -11810,7 +11865,8 @@
      "searchTerms": [
       "긴잔 온천",
       "눈 내린 긴잔온천",
-      "엄마와 재회"
+      "엄마와 재회",
+      "소녀편"
      ]
     }
    }
@@ -12013,7 +12069,7 @@
       "Yoyogi Hachimangu",
       "komorebi",
       "lunch break",
-      "Olympus camera"
+      "sandwich"
      ]
     },
     "ko": {
@@ -12182,7 +12238,8 @@
      "searchTerms": [
       "鞆之浦",
       "常夜灯",
-      "港町"
+      "港町",
+      "雁木 石阶"
      ]
     },
     "zh-Hant": {
@@ -12198,7 +12255,8 @@
      "searchTerms": [
       "鞆之浦",
       "常夜燈",
-      "港町"
+      "港町",
+      "雁木 石階"
      ]
     },
     "ja": {
@@ -12231,7 +12289,8 @@
      "searchTerms": [
       "Tomonoura",
       "Joyato lantern",
-      "harbor town"
+      "harbor town",
+      "gangi stone steps"
      ]
     },
     "ko": {
@@ -12247,7 +12306,8 @@
      "searchTerms": [
       "토모노우라",
       "상야등",
-      "항구 마을"
+      "항구 마을",
+      "간기 돌계단"
      ]
     }
    },
@@ -12294,7 +12354,8 @@
      "searchTerms": [
       "白谷云水峡",
       "幽灵公主之森",
-      "苔藓森林"
+      "苔藓森林",
+      "山兽神之森"
      ]
     },
     "zh-Hant": {
@@ -12310,7 +12371,8 @@
      "searchTerms": [
       "白谷雲水峽",
       "幽靈公主之森",
-      "苔蘚森林"
+      "苔蘚森林",
+      "山獸神之森"
      ]
     },
     "ja": {
@@ -12343,7 +12405,8 @@
      "searchTerms": [
       "Shiratani Unsuikyo",
       "Mononoke Forest",
-      "moss forest"
+      "moss forest",
+      "Forest Spirit's woods"
      ]
     },
     "ko": {
@@ -12359,7 +12422,8 @@
      "searchTerms": [
       "시라타니운스이쿄",
       "모노노케 숲",
-      "이끼 숲"
+      "이끼 숲",
+      "시시가미 숲"
      ]
     }
    },
@@ -12406,6 +12470,7 @@
      "searchTerms": [
       "姬路城",
       "一之城",
+      "三之丸广场",
       "黑泽明"
      ]
     },
@@ -12422,6 +12487,7 @@
      "searchTerms": [
       "姬路城",
       "一之城",
+      "三之丸廣場",
       "黑澤明"
      ]
     },
@@ -12455,6 +12521,7 @@
      "searchTerms": [
       "Himeji Castle",
       "First Castle",
+      "Sannomaru Square",
       "Akira Kurosawa"
      ]
     },
@@ -12471,6 +12538,7 @@
      "searchTerms": [
       "히메지성",
       "첫째 성",
+      "산노마루 광장",
       "구로사와 아키라"
      ]
     }
@@ -12511,9 +12579,10 @@
      "tips": "这里是仍在祭祀的神社，请先参拜，拍照勿挡参道、勿拍摄正在祈祷的人。麻布十番商店街入口有港区 2024 年设置的水手月亮彩绘井盖第 1 号，可顺路寻访。",
      "accessPointName": "麻布十番站 4 号出口",
      "searchTerms": [
-      "麻布氷川神社",
+      "麻布冰川神社",
       "火川神社 原型",
-      "火野丽 巫女"
+      "火野丽 巫女",
+      "仙台坂"
      ]
     },
     "zh-Hant": {
@@ -12527,9 +12596,10 @@
      "tips": "這裡是仍在祭祀的神社，請先參拜，拍照勿擋參道、勿拍攝正在祈禱的人。麻布十番商店街入口有港區 2024 年設定的水手月亮彩繪井蓋第 1 號，可順路尋訪。",
      "accessPointName": "麻布十番站 4 號出口",
      "searchTerms": [
-      "麻布氷川神社",
+      "麻布冰川神社",
       "火川神社 原型",
-      "火野麗 巫女"
+      "火野麗 巫女",
+      "仙台坂"
      ]
     },
     "ja": {
@@ -12561,8 +12631,9 @@
      "accessPointName": "Azabu-juban Sta. Exit 4",
      "searchTerms": [
       "Azabu Hikawa Shrine",
-      "Hikawa Shrine Rei",
-      "Rei Hino shrine maiden"
+      "real Hikawa Shrine",
+      "Rei Hino shrine maiden",
+      "Sendaizaka slope"
      ]
     },
     "ko": {
@@ -12578,7 +12649,8 @@
      "searchTerms": [
       "아자부 히카와 신사",
       "히카와 신사 모델",
-      "히노 레이 무녀"
+      "히노 레이 무녀",
+      "센다이자카"
      ]
     }
    }
@@ -12616,7 +12688,8 @@
      "searchTerms": [
       "雨平写真馆",
       "庵治",
-      "婚纱照"
+      "婚纱照",
+      "重爷爷"
      ]
     },
     "zh-Hant": {
@@ -12632,7 +12705,8 @@
      "searchTerms": [
       "雨平寫真館",
       "庵治",
-      "婚紗照"
+      "婚紗照",
+      "重爺爺"
      ]
     },
     "ja": {
@@ -12665,7 +12739,8 @@
      "searchTerms": [
       "Amehira Photo Studio",
       "Aji",
-      "wedding photo"
+      "wedding photo",
+      "Grandpa Shige"
      ]
     },
     "ko": {
@@ -12681,7 +12756,8 @@
      "searchTerms": [
       "아메히라 사진관",
       "아지",
-      "웨딩 사진"
+      "웨딩 사진",
+      "시게 할아버지"
      ]
     }
    },
@@ -12851,6 +12927,7 @@
      "searchTerms": [
       "道后温泉本馆",
       "油屋",
+      "唐破风",
       "夜景"
      ]
     },
@@ -12867,6 +12944,7 @@
      "searchTerms": [
       "道後溫泉本館",
       "油屋",
+      "唐破風",
       "夜景"
      ]
     },
@@ -12900,6 +12978,7 @@
      "searchTerms": [
       "Dogo Onsen Honkan",
       "Aburaya",
+      "karahafu gable",
       "bathhouse at night"
      ]
     },
@@ -12916,6 +12995,7 @@
      "searchTerms": [
       "도고온천 본관",
       "유야",
+      "가라하후",
       "야경"
      ]
     }
@@ -12966,7 +13046,8 @@
      "searchTerms": [
       "子宝汤",
       "江户东京建筑园",
-      "腐烂神"
+      "腐烂神",
+      "唐破风"
      ]
     },
     "zh-Hant": {
@@ -12982,7 +13063,8 @@
      "searchTerms": [
       "子寶湯",
       "江戶東京建築園",
-      "腐爛神"
+      "腐爛神",
+      "唐破風"
      ]
     },
     "ja": {
@@ -13015,7 +13097,8 @@
      "searchTerms": [
       "Kodakara-yu",
       "Edo-Tokyo Open Air Museum",
-      "Stink Spirit"
+      "Stink Spirit",
+      "karahafu gable"
      ]
     },
     "ko": {
@@ -13031,7 +13114,8 @@
      "searchTerms": [
       "고다카라유",
       "에도도쿄 건축공원",
-      "오물신"
+      "오물신",
+      "가라하후"
      ]
     }
    },
@@ -13182,8 +13266,8 @@
      "tips": "城迹公园免费入园；东虎口橹门与南、北橹内部需购票（约300日元），9:00–17:00，周三及节假日次日休馆，冬季（约11月下旬至3月下旬）关闭，以官网为准。",
      "searchTerms": [
       "上田城",
-      "阵内家 大门",
-      "橹门"
+      "东虎口橹门",
+      "阵内家 大门"
      ]
     },
     "zh-Hant": {
@@ -13198,8 +13282,8 @@
      "tips": "城跡公園免費入園；東虎口櫓門與南、北櫓內部需購票（約300日元），9:00–17:00，週三及節假日次日休館，冬季（約11月下旬至3月下旬）關閉，以官網為準。",
      "searchTerms": [
       "上田城",
-      "陣內家 大門",
-      "櫓門"
+      "東虎口櫓門",
+      "陣內家 大門"
      ]
     },
     "ja": {
@@ -13230,8 +13314,8 @@
      "tips": "The castle park is free. Inside the East Gate and the North and South turrets costs about ¥300; open 9:00–17:00, closed Wednesdays and the day after public holidays, and closed in winter (roughly late Nov to late Mar). Check the official site for current details.",
      "searchTerms": [
       "Ueda Castle",
-      "Jinnouchi gate",
-      "yagura gate"
+      "East Turret Gate",
+      "Jinnouchi gate"
      ]
     },
     "ko": {
@@ -13246,8 +13330,8 @@
      "tips": "성터 공원은 무료입니다. 히가시코구치 야구라몬과 남·북 망루 내부는 유료(약 300엔), 9:00~17:00, 수요일과 공휴일 다음 날 휴관, 겨울(대략 11월 하순~3월 하순)에는 문을 닫습니다. 최신 정보는 공식 사이트에서 확인하세요.",
      "searchTerms": [
       "우에다성",
-      "진노우치 가문 대문",
-      "망루문"
+      "동쪽 망루문",
+      "진노우치 가문 대문"
      ]
     }
    },
@@ -13411,6 +13495,7 @@
      "searchTerms": [
       "增上寺",
       "葬礼",
+      "大殿",
       "休·杰克曼"
      ]
     },
@@ -13427,6 +13512,7 @@
      "searchTerms": [
       "增上寺",
       "葬禮",
+      "大殿",
       "休·傑克曼"
      ]
     },
@@ -13459,7 +13545,8 @@
      "tips": "The grounds are free; the Main Hall is open roughly 6:00–17:30 (check the official site). This is a working temple: keep quiet during services and don't photograph monks or worshippers. The Sangedatsumon gate is under restoration until around 2032.",
      "searchTerms": [
       "Zojoji Temple",
-      "funeral fight",
+      "funeral scene",
+      "Main Hall",
       "Hugh Jackman"
      ]
     },
@@ -13476,6 +13563,7 @@
      "searchTerms": [
       "조조지",
       "장례식",
+      "본당",
       "휴 잭맨"
      ]
     }
@@ -13922,7 +14010,8 @@
      "searchTerms": [
       "하치코쿠야마",
       "시치코쿠야마 병원",
-      "옥수수"
+      "옥수수",
+      "사야마 구릉"
      ]
     }
    },
@@ -13968,7 +14057,8 @@
      "searchTerms": [
       "小月和小梅的家",
       "吉卜力公园",
-      "草壁家"
+      "草壁家",
+      "搬家"
      ]
     },
     "zh-Hant": {
@@ -13984,7 +14074,8 @@
      "searchTerms": [
       "小月和小梅的家",
       "吉卜力公園",
-      "草壁家"
+      "草壁家",
+      "搬家"
      ]
     },
     "ja": {
@@ -14017,7 +14108,8 @@
      "searchTerms": [
       "Satsuki and Mei's House",
       "Ghibli Park",
-      "Kusakabe house"
+      "Kusakabe house",
+      "moving house"
      ]
     },
     "ko": {
@@ -14033,6 +14125,7 @@
      "searchTerms": [
       "사츠키와 메이의 집",
       "지브리 파크",
+      "쿠사카베 가",
       "이사"
      ]
     }
@@ -14183,9 +14276,9 @@
      "tips": "神社紧邻车站与住宅区，请安静参拜。木屐绘马可在授与所求得（授与时间以现场为准）；拍照时不要拍到别人绘马上的愿望内容。",
      "searchTerms": [
       "气象神社",
-      "高圆寺氷川神社",
-      "晴女",
-      "天井画"
+      "高圆寺冰川神社",
+      "天井画",
+      "晴女"
      ]
     },
     "zh-Hant": {
@@ -14200,9 +14293,9 @@
      "tips": "神社緊鄰車站與住宅區，請安靜參拜。木屐繪馬可在授與所求得（授與時間以現場為準）；拍照時不要拍到別人繪馬上的願望內容。",
      "searchTerms": [
       "氣象神社",
-      "高圓寺氷川神社",
-      "晴女",
-      "天井畫"
+      "高圓寺冰川神社",
+      "天井畫",
+      "晴女"
      ]
     },
     "ja": {
@@ -14234,9 +14327,9 @@
      "tips": "This small shrine sits right next to the station and homes, so visit quietly. Geta ema are available at the amulet office (check hours on site). When taking photos, avoid capturing the wishes written on other people's plaques.",
      "searchTerms": [
       "Kisho Shrine",
-      "Weather Shrine",
-      "sunshine girl",
-      "ceiling painting"
+      "Koenji Hikawa Shrine",
+      "ceiling painting",
+      "sunshine girl"
      ]
     },
     "ko": {
@@ -14252,6 +14345,7 @@
      "searchTerms": [
       "기상신사",
       "고엔지 히카와 신사",
+      "천장화",
       "맑음 소녀"
      ]
     }
@@ -14296,7 +14390,7 @@
      "tips": "南口一带很安静，坡道是居民日常通行的路，拍照请靠边、不要占满路面。旁边的不动坂石阶较陡，上下注意脚下，雨天尤其湿滑。",
      "searchTerms": [
       "田端站南口",
-      "坡道",
+      "南口 坡道",
       "结尾"
      ]
     },
@@ -14312,7 +14406,7 @@
      "tips": "南口一帶很安靜，坡道是居民日常通行的路，拍照請靠邊、不要佔滿路面。旁邊的不動坂石階較陡，上下注意腳下，雨天尤其溼滑。",
      "searchTerms": [
       "田端站南口",
-      "坡道",
+      "南口 坡道",
       "結尾"
      ]
     },
@@ -14344,7 +14438,7 @@
      "tips": "The South Exit area is quiet and the slope is an everyday street for residents, so keep to the side and don't take over the road. The Fudozaka stone steps next to it are steep: watch your footing, especially when wet.",
      "searchTerms": [
       "Tabata Station south exit",
-      "slope",
+      "south exit slope",
       "final scene"
      ]
     },
@@ -14360,7 +14454,7 @@
      "tips": "남쪽 출구 주변은 조용하고 언덕길은 주민들의 생활 도로입니다. 가장자리에서 촬영하고 길을 막지 마세요. 옆의 후도자카 돌계단은 가파르니 발밑을 조심하고, 비 오는 날은 특히 미끄럽습니다.",
      "searchTerms": [
       "다바타역 남쪽 출구",
-      "언덕길",
+      "남쪽 출구 언덕길",
       "라스트 신"
      ]
     }
@@ -14475,7 +14569,7 @@
      "searchTerms": [
       "이로하자카 계단",
       "세이세키사쿠라가오카",
-      "계단"
+      "계단 뛰어 내려가기"
      ]
     }
    },
@@ -14525,7 +14619,8 @@
      "searchTerms": [
       "金比罗宫",
       "告白",
-      "杉村"
+      "杉村",
+      "圣迹樱丘"
      ]
     },
     "zh-Hant": {
@@ -14541,7 +14636,8 @@
      "searchTerms": [
       "金比羅宮",
       "告白",
-      "杉村"
+      "杉村",
+      "聖蹟櫻丘"
      ]
     },
     "ja": {
@@ -14574,7 +14670,8 @@
      "searchTerms": [
       "Konpira Shrine",
       "confession",
-      "Sugimura"
+      "Sugimura",
+      "Seiseki-Sakuragaoka"
      ]
     },
     "ko": {
@@ -14590,7 +14687,8 @@
      "searchTerms": [
       "곤피라궁",
       "고백",
-      "스기무라"
+      "스기무라",
+      "세이세키사쿠라가오카"
      ]
     }
    },
@@ -14685,8 +14783,8 @@
      "tips": "The roundabout carries traffic: don’t stand in the road for photos. It’s a residential area, so be quiet and don’t photograph residents or their homes. The Earth Shop is fictional and doesn’t exist here.",
      "searchTerms": [
       "Sakuragaoka roundabout",
-      "Chikyuya",
-      "antique shop"
+      "World Emporium",
+      "chasing the cat"
      ]
     },
     "ko": {
@@ -14700,9 +14798,9 @@
      "bestTime": "여름방학 같은 맑은 오후가 영화 속 빛에 가장 가깝다. 주택가라 평일 낮이 가장 조용하며, 저녁 이후에는 오래 머물며 떠들지 말자",
      "tips": "로터리는 차가 다니는 도로이니 차도에 서서 촬영하지 말자. 주변은 주택가라 조용히 하고 주민이나 개인 주택은 찍지 말 것. 작중 지구옥은 가상의 가게로 실제로는 없다.",
      "searchTerms": [
-      "로터리",
+      "사쿠라가오카 로터리",
       "지구옥",
-      "세이세키사쿠라가오카"
+      "고양이 쫓기"
      ]
     }
    },
@@ -14858,7 +14956,7 @@
       "姬路城",
       "忍者训练",
       "手里剑",
-      "邦德"
+      "肖恩·康纳利"
      ]
     },
     "zh-Hant": {
@@ -14875,7 +14973,7 @@
       "姬路城",
       "忍者訓練",
       "手裡劍",
-      "邦德"
+      "肖恩·康納利"
      ]
     },
     "ja": {
@@ -14926,7 +15024,7 @@
       "히메지성",
       "닌자 훈련",
       "수리검",
-      "제임스 본드"
+      "숀 코너리"
      ]
     }
    }
@@ -15191,7 +15289,7 @@
      "searchTerms": [
       "信浓町站 天桥",
       "奥寺前辈",
-      "约会"
+      "约会归来"
      ]
     },
     "zh-Hant": {
@@ -15207,7 +15305,7 @@
      "searchTerms": [
       "信濃町站 天橋",
       "奧寺前輩",
-      "約會"
+      "約會歸來"
      ]
     },
     "ja": {
@@ -15238,8 +15336,8 @@
      "tips": "The bridge is narrow and used by pedestrians, prams and wheelchairs, so shoot from the edge, don't linger and skip the tripod. Heavy traffic runs underneath; never lean over the railings.",
      "searchTerms": [
       "Shinanomachi footbridge",
-      "Okudera date",
-      "pedestrian bridge"
+      "Miss Okudera",
+      "after the date"
      ]
     },
     "ko": {
@@ -15255,7 +15353,7 @@
      "searchTerms": [
       "시나노마치역 육교",
       "오쿠데라 선배",
-      "데이트"
+      "데이트 귀갓길"
      ]
     }
    },
@@ -15304,6 +15402,7 @@
      "tips": "石阶位于安静的住宅区，清晨和夜间请压低声音。不要坐在台阶上或长时间占据中间拍照，给居民和参拜者让路，也不要拍摄周边民宅。",
      "searchTerms": [
       "须贺神社 楼梯",
+      "男坂",
       "红色扶手",
       "结尾 重逢"
      ]
@@ -15320,6 +15419,7 @@
      "tips": "石階位於安靜的住宅區，清晨和夜間請壓低聲音。不要坐在臺階上或長時間佔據中間拍照，給居民和參拜者讓路，也不要拍攝周邊民宅。",
      "searchTerms": [
       "須賀神社 樓梯",
+      "男坂",
       "紅色扶手",
       "結尾 重逢"
      ]
@@ -15353,6 +15453,7 @@
      "tips": "The steps are in a quiet residential area, so keep your voice down, especially early and late. Don't sit on the steps or block the middle for long photo sessions, let residents and worshippers pass, and avoid photographing nearby homes.",
      "searchTerms": [
       "Suga Shrine stairs",
+      "Otokozaka",
       "red railing",
       "final scene"
      ]
@@ -15369,6 +15470,7 @@
      "tips": "조용한 주택가 안의 계단입니다. 이른 아침과 밤에는 특히 목소리를 낮춰 주세요. 계단에 앉거나 한가운데를 오래 차지하고 촬영하지 말고 주민과 참배객에게 길을 비켜 주세요. 주변 주택은 촬영하지 마세요.",
      "searchTerms": [
       "스가 신사 계단",
+      "오토코자카",
       "빨간 난간",
       "라스트 신"
      ]

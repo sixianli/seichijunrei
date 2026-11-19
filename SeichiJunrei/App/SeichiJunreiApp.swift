@@ -40,6 +40,10 @@ struct SeichiJunreiApp: App {
                         location.simulate(at: GeoPoint(latitude: lat, longitude: lon))
                     }
                     location.simulatedHeading = env["SEICHI_SIM_HEADING"].flatMap(Double.init)
+                    // 多语言截图巡检：启动后直接打开某个名场面的详情页
+                    if let id = env["SEICHI_OPEN_SPOT"] {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) { store.requestedSpotID = id }
+                    }
                     #endif
                     NotificationService.shared.requestAuthorization()
                     NotificationService.shared.onOpenSpot = { id in store.requestedSpotID = id }

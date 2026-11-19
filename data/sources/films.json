@@ -569,8 +569,8 @@
      "accessPointName": "天狗山缆车 山顶站",
      "searchTerms": [
       "天狗山",
+      "雪坡",
       "雪地躺下",
-      "屏住呼吸",
       "开场"
      ]
     },
@@ -603,8 +603,8 @@
      "accessPointName": "Mt. Tengu Ropeway Summit Sta.",
      "searchTerms": [
       "Mt Tengu",
+      "snowy slope",
       "lying in the snow",
-      "holding her breath",
       "opening scene"
      ]
     },
@@ -620,6 +620,7 @@
      "accessPointName": "덴구야마 로프웨이 산정역",
      "searchTerms": [
       "덴구야마",
+      "눈 덮인 비탈",
       "눈밭에 눕는 히로코",
       "오프닝"
      ]
@@ -659,6 +660,7 @@
      "accessPointName": "JR 游佐站",
      "searchTerms": [
       "月光川",
+      "旧朝日桥",
       "鸟海山 大提琴",
       "河边拉大提琴"
      ]
@@ -692,6 +694,7 @@
      "accessPointName": "JR Yuza Sta.",
      "searchTerms": [
       "Gakko River",
+      "old Asahi Bridge",
       "cello Mt Chokai",
       "cello by the river"
      ]
@@ -708,6 +711,7 @@
      "accessPointName": "JR 유자역",
      "searchTerms": [
       "갓코강",
+      "구 아사히 다리",
       "조카이산 첼로",
       "강변 첼로 연주"
      ]
@@ -929,7 +933,8 @@
      "searchTerms": [
       "雨平写真馆",
       "庵治",
-      "婚纱照"
+      "婚纱照",
+      "重爷爷"
      ]
     },
     "ja": {
@@ -962,7 +967,8 @@
      "searchTerms": [
       "Amehira Photo Studio",
       "Aji",
-      "wedding photo"
+      "wedding photo",
+      "Grandpa Shige"
      ]
     },
     "ko": {
@@ -978,7 +984,8 @@
      "searchTerms": [
       "아메히라 사진관",
       "아지",
-      "웨딩 사진"
+      "웨딩 사진",
+      "시게 할아버지"
      ]
     }
    }
@@ -1052,7 +1059,7 @@
       "Yoyogi Hachimangu",
       "komorebi",
       "lunch break",
-      "Olympus camera"
+      "sandwich"
      ]
     },
     "ko": {
@@ -1198,8 +1205,9 @@
      "accessPointName": "南吉岛 巴士站",
      "searchTerms": [
       "广岛中工厂",
-      "垃圾处理厂",
-      "和平轴线"
+      "Ecorium",
+      "和平轴线",
+      "垃圾处理厂"
      ]
     },
     "ja": {
@@ -1248,8 +1256,9 @@
      "accessPointName": "미나미요시지마 버스 정류장",
      "searchTerms": [
       "히로시마 나카 공장",
-      "쓰레기 처리장",
-      "평화의 축선"
+      "에코리움",
+      "평화의 축선",
+      "쓰레기 처리장"
      ]
     }
    }
@@ -1289,7 +1298,7 @@
       "涩谷十字路口",
       "透明雨伞",
       "雨中涩谷",
-      "斯嘉丽"
+      "斯嘉丽·约翰逊"
      ]
     },
     "ja": {
@@ -1322,8 +1331,8 @@
      "searchTerms": [
       "Shibuya Crossing",
       "clear umbrella",
-      "Scarlett Johansson",
-      "rain"
+      "rainy Shibuya",
+      "Scarlett Johansson"
      ]
     },
     "ko": {
@@ -1339,6 +1348,7 @@
      "searchTerms": [
       "시부야 스크램블 교차로",
       "비닐우산",
+      "비 오는 시부야",
       "스칼렛 요한슨"
      ]
     }
@@ -1414,8 +1424,8 @@
      "searchTerms": [
       "New York Bar",
       "Park Hyatt Tokyo",
-      "Bill Murray",
-      "52nd floor"
+      "52nd floor",
+      "Bill Murray"
      ]
     },
     "ko": {
@@ -1431,6 +1441,7 @@
      "searchTerms": [
       "뉴욕 바",
       "파크 하얏트 도쿄",
+      "52층",
       "빌 머레이"
      ]
     }
@@ -1469,6 +1480,7 @@
      "searchTerms": [
       "书写山圆教寺",
       "三之堂",
+      "大讲堂",
       "渡边谦"
      ]
     },
@@ -1500,9 +1512,9 @@
      "tips": "An entry donation (¥500 for adults) plus the ropeway fare are required, and the ropeway has maintenance closures, so check ahead. This is a working Tendai training temple: keep quiet. Paths are steep with many stone steps; wear good shoes and head down before dark.",
      "accessPointName": "Mt. Shosha Ropeway Summit Sta.",
      "searchTerms": [
-      "Engyoji Temple",
-      "Mount Shosha",
+      "Shoshazan Engyoji",
       "Mitsunodo",
+      "Daikodo hall",
       "Ken Watanabe"
      ]
     },
@@ -1517,9 +1529,9 @@
      "tips": "입산 지납금(성인 500엔)과 로프웨이 요금이 필요하고, 로프웨이는 점검 운휴 기간이 있으니 미리 확인하자. 천태종 수행 도량이니 조용히. 산길은 비탈과 돌계단이 많아 편한 신발을 신고 해 지기 전에 내려오자.",
      "accessPointName": "쇼샤산 로프웨이 산조역",
      "searchTerms": [
-      "엔교지",
-      "쇼샤산",
+      "쇼샤산 엔교지",
       "미쓰노도",
+      "대강당",
       "와타나베 켄"
      ]
     }

@@ -95,12 +95,14 @@ struct SpotDetailView: View {
                     .accessibilityIdentifier("originalTitle")
             }
             Text(spot.sceneTitle).font(.title.bold()).padding(.top, 2)
-            ScrollView(.horizontal, showsIndicators: false) { HStack(spacing: 6) {
+            // 放不下就换行，任何一个标签的文字都不会超出屏幕
+            FlowLayout(spacing: 6, lineSpacing: 6) {
                 KindTag(kind: spot.kind)
                 if let ep = spot.episode { Tag(text: ep, systemImage: "play.rectangle") }
                 Tag(text: spot.placeName, systemImage: "mappin.and.ellipse")
-            } }
+            }
             .padding(.top, 2)
+            .accessibilityIdentifier("detailTags")
             if arrived {
                 Label(L("detail.atSpot"), systemImage: "figure.stand")
                     .font(.callout.bold())
@@ -115,29 +117,10 @@ struct SpotDetailView: View {
 
     private var actions: some View {
         VStack(spacing: 6) {
-            HStack(spacing: 10) {
-                Button(action: onEnterScene) {
-                    Label(arrived ? L("detail.enterScene") : L("detail.startGuide"), systemImage: "camera.viewfinder")
-                        .font(.subheadline.weight(.bold))
-                        .lineLimit(1).minimumScaleFactor(0.8)
-                        .frame(maxWidth: .infinity, minHeight: 46)
-                        .foregroundStyle(.white)
-                        .background(spot.tintColor, in: Capsule())
-                        .contentShape(Capsule())
-                }
-                .buttonStyle(.plain)
-                .accessibilityIdentifier("enterScene")
-                Button(action: onPhotographer) {
-                    Label(L("detail.photographer"), systemImage: "person.crop.rectangle.badge.plus")
-                        .font(.subheadline.weight(.bold))
-                        .lineLimit(1).minimumScaleFactor(0.8)
-                        .frame(maxWidth: .infinity, minHeight: 46)
-                        .foregroundStyle(spot.tintColor)
-                        .background(spot.tintColor.opacity(0.14), in: Capsule())
-                        .contentShape(Capsule())
-                }
-                .buttonStyle(.plain)
-                .accessibilityIdentifier("openPhotographer")
+            // 两个按钮并排放得下就并排；放不下（比如英文、德文这类长文字）就上下排，文字一律完整显示
+            EqualColumnsOrStack {
+                recreateButton
+                photographerButton
             }
             // 说明收起来：点开才看，页面上不堆小字
             Button { showActionHelp = true } label: {
@@ -174,6 +157,36 @@ struct SpotDetailView: View {
         }
     }
 
+    private var recreateButton: some View {
+        Button(action: onEnterScene) {
+            Label(arrived ? L("detail.enterScene") : L("detail.startGuide"), systemImage: "camera.viewfinder")
+                .font(.subheadline.weight(.bold))
+                .lineLimit(1)
+                .padding(.horizontal, 14)
+                .frame(maxWidth: .infinity, minHeight: 46)
+                .foregroundStyle(.white)
+                .background(spot.tintColor, in: Capsule())
+                .contentShape(Capsule())
+        }
+        .buttonStyle(.plain)
+        .accessibilityIdentifier("enterScene")
+    }
+
+    private var photographerButton: some View {
+        Button(action: onPhotographer) {
+            Label(L("detail.photographer"), systemImage: "person.crop.rectangle.badge.plus")
+                .font(.subheadline.weight(.bold))
+                .lineLimit(1)
+                .padding(.horizontal, 14)
+                .frame(maxWidth: .infinity, minHeight: 46)
+                .foregroundStyle(spot.tintColor)
+                .background(spot.tintColor.opacity(0.14), in: Capsule())
+                .contentShape(Capsule())
+        }
+        .buttonStyle(.plain)
+        .accessibilityIdentifier("openPhotographer")
+    }
+
     private var actionHint: String {
         if arrived { return L("detail.actionHintArrived") }
         guard let info, info.distance.isFinite else { return L("detail.actionHintUnknown") }
@@ -189,20 +202,23 @@ struct SpotDetailView: View {
         DetailSection(title: L("detail.guide"), systemImage: "map.fill", tint: spot.tintColor) {
             VStack(alignment: .leading, spacing: 14) {
                 if let access = spot.access {
-                    InfoRow(title: L("detail.access"), text: access, systemImage: "tram.fill")
-                    if spot.accessPoint != nil {
-                        AccessRouteMap(spot: spot)
+                    VStack(alignment: .leading, spacing: 10) {
+                        InfoRow(title: L("detail.access"), text: access, systemImage: "tram.fill", tint: spot.tintColor)
+                        if spot.accessPoint != nil {
+                            AccessRouteMap(spot: spot)
+                        }
                     }
+                    Divider()
                 }
                 if !spot.bestMonths.isEmpty || spot.bestTime != nil {
-                    VStack(alignment: .leading, spacing: 6) {
-                        InfoRow(title: L("detail.bestTime"), text: spot.bestTime ?? "", systemImage: "sun.horizon.fill",
-                                emphasis: spot.bestMonths.isEmpty ? nil : MonthText.best(spot.bestMonths))
-                    }
+                    InfoRow(title: L("detail.bestTime"), text: spot.bestTime ?? "", systemImage: "sun.horizon.fill",
+                            tint: spot.tintColor,
+                            emphasis: spot.bestMonths.isEmpty ? nil : MonthText.best(spot.bestMonths))
+                    Divider()
                 }
-                VStack(alignment: .leading, spacing: 8) {
+                VStack(alignment: .leading, spacing: 10) {
                     InfoRow(title: L("detail.shot"), text: spot.verified ? L("detail.shotVerified") : L("detail.shotEstimated"),
-                            systemImage: "camera.metering.center.weighted")
+                            systemImage: "camera.metering.center.weighted", tint: spot.tintColor)
                     ShotMap(spot: spot)
                     Button { showCalibration = true } label: {
                         Label(L("detail.calibrateLink"), systemImage: "scope")
@@ -212,7 +228,8 @@ struct SpotDetailView: View {
                     .accessibilityIdentifier("detailCalibrate")
                 }
                 if let tips = spot.trivia {
-                    InfoRow(title: L("detail.tips"), text: tips, systemImage: "exclamationmark.bubble.fill")
+                    Divider()
+                    InfoRow(title: L("detail.tips"), text: tips, systemImage: "exclamationmark.bubble.fill", tint: spot.tintColor)
                 }
             }
         }
@@ -260,19 +277,26 @@ struct LiveDirectionRow: View {
 
     var body: some View {
         let heading = location.reliableHeading
+        // 箭头放在固定大小的框里转动，文字固定一行：箭头朝哪都不会挤动下面的按钮
         HStack(spacing: 8) {
-            if let heading {
-                Image(systemName: "location.north.fill")
-                    .foregroundStyle(spot.tintColor)
-                    .rotationEffect(.degrees(GeoMath.signedDelta(from: heading, to: bearing)))
-                    .animation(.interactiveSpring(response: 0.3), value: heading)
-                    .accessibilityHidden(true)
-            } else {
-                Image(systemName: "mappin.and.ellipse").accessibilityHidden(true)
+            Group {
+                if let heading {
+                    Image(systemName: "location.north.fill")
+                        .foregroundStyle(spot.tintColor)
+                        .rotationEffect(.degrees(GeoMath.signedDelta(from: heading, to: bearing)))
+                        .animation(.interactiveSpring(response: 0.3), value: heading)
+                } else {
+                    Image(systemName: "mappin.and.ellipse")
+                }
             }
+            .frame(width: 22, height: 22)
+            .accessibilityHidden(true)
             Text(text(heading: heading))
+                .lineLimit(1)
+                .minimumScaleFactor(0.75)
                 .contentTransition(.numericText())
         }
+        .frame(height: 24)
         .font(.callout.monospacedDigit())
         .foregroundStyle(.secondary)
         .accessibilityIdentifier("liveDirection")
@@ -423,7 +447,7 @@ private struct RouteMapContent: View {
     let interactive: Bool
 
     var body: some View {
-        Map(initialPosition: .automatic, interactionModes: interactive ? .all : []) {
+        Map(initialPosition: framing, interactionModes: interactive ? .all : []) {
             if let route {
                 MapPolyline(route.polyline).stroke(spot.tintColor, style: StrokeStyle(lineWidth: 5, lineCap: .round, dash: [1, 8]))
             }
@@ -437,6 +461,21 @@ private struct RouteMapContent: View {
             UserAnnotation()
         }
         .mapStyle(.standard(pointsOfInterest: .excludingAll))
+    }
+
+    /// 把车站出口和机位都框进来，四周留足边距（标注文字在点的下方，底部多留一些），不和地图角落的“法律信息”叠在一起
+    private var framing: MapCameraPosition {
+        var points = [MKMapPoint(spot.clCoordinate)]
+        if let ap = spot.accessPoint {
+            points.append(MKMapPoint(CLLocationCoordinate2D(latitude: ap.latitude, longitude: ap.longitude)))
+        }
+        let minX = points.map(\.x).min()!, maxX = points.map(\.x).max()!
+        let minY = points.map(\.y).min()!, maxY = points.map(\.y).max()!
+        let side = max(maxX - minX, maxY - minY, MKMapPointsPerMeterAtLatitude(spot.coordinate.latitude) * 250)
+        let pad = side * 0.45
+        let rect = MKMapRect(x: minX - pad, y: minY - pad,
+                             width: (maxX - minX) + pad * 2, height: (maxY - minY) + pad * 2.6)
+        return .rect(rect)
     }
 }
 
@@ -515,9 +554,10 @@ private struct Tag: View {
     var body: some View {
         Label(text, systemImage: systemImage)
             .font(.caption)
-            .lineLimit(1)
+            .lineLimit(3)
+            .fixedSize(horizontal: false, vertical: true)
             .padding(.horizontal, 8).padding(.vertical, 4)
-            .background(.quaternary, in: Capsule())
+            .background(.quaternary, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
     }
 }
 
@@ -548,26 +588,29 @@ struct DetailSection<Content: View>: View {
     }
 }
 
+/// 攻略里的一个小块：标题和图标用主题色加粗，正文纯黑，一眼能扫到
 private struct InfoRow: View {
     let title: String
     let text: String
     let systemImage: String
+    let tint: Color
     var emphasis: String?
 
     var body: some View {
-        HStack(alignment: .firstTextBaseline, spacing: 10) {
-            Image(systemName: systemImage)
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
-                .frame(width: 22)
-            VStack(alignment: .leading, spacing: 2) {
-                Text(title).font(.caption.weight(.semibold)).foregroundStyle(.secondary)
-                if let emphasis { Text(emphasis).font(.callout.weight(.semibold)) }
-                if !text.isEmpty {
-                    Text(text).font(.callout).fixedSize(horizontal: false, vertical: true)
-                }
+        VStack(alignment: .leading, spacing: 4) {
+            Label {
+                Text(title).font(.callout.weight(.bold))
+            } icon: {
+                Image(systemName: systemImage).font(.callout.weight(.semibold))
+            }
+            .foregroundStyle(tint)
+            .accessibilityAddTraits(.isHeader)
+            if let emphasis { Text(emphasis).font(.callout.weight(.bold)) }
+            if !text.isEmpty {
+                Text(text).font(.callout).fixedSize(horizontal: false, vertical: true)
             }
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
         .accessibilityElement(children: .combine)
     }
 }

@@ -511,4 +511,111 @@ final class SmokeUITests: XCTestCase {
         app.buttons["closeShooting"].tap()
         XCTAssertTrue(app.buttons["startPhotographer"].waitForExistence(timeout: 5), "返回按钮应回到交接页")
     }
+
+    // MARK: - 多语言截图巡检：每种语言把主要界面都截一遍，人工逐张检查有没有截断、超出、挤压
+
+    func testL10nTourZhHans() throws { try l10nTour("zh-Hans") }
+    func testL10nTourZhHant() throws { try l10nTour("zh-Hant") }
+    func testL10nTourJa() throws { try l10nTour("ja") }
+    func testL10nTourEn() throws { try l10nTour("en") }
+    func testL10nTourKo() throws { try l10nTour("ko") }
+
+    private func dismissPopover() {
+        let region = app.otherElements["PopoverDismissRegion"]
+        if region.exists { region.tap() } else { app.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.05)).tap() }
+        sleep(1)
+    }
+
+    private func l10nTour(_ lang: String) throws {
+        // 1. 长名字的名场面（《迷失东京》纽约酒吧）：标签换行、方位、两个按钮、两个弹窗、攻略
+        launch(heading: 30, language: lang, extraEnv: ["SEICHI_OPEN_SPOT": "lostintranslation-new-york-bar"])
+        let enter = app.buttons["enterScene"]
+        XCTAssertTrue(enter.waitForExistence(timeout: 20), "应打开详情页")
+        sleep(2)
+        snapshot("L-\(lang)-01-detail-top")
+        let help = app.buttons["actionsHelp"]
+        var tries = 0
+        while !help.isHittable && tries < 3 { app.swipeUp(); tries += 1 }
+        sleep(1)
+        snapshot("L-\(lang)-01b-header")
+        help.tap()
+        sleep(1)
+        snapshot("L-\(lang)-02-actions-help")
+        dismissPopover()
+        let search = app.buttons["searchScene"]
+        tries = 0
+        while !search.isHittable && tries < 3 { app.swipeDown(); tries += 1 }
+        if search.isHittable {
+            search.tap()
+            XCTAssertTrue(app.buttons["searchOption"].firstMatch.waitForExistence(timeout: 5), "应列出几条搜索")
+            snapshot("L-\(lang)-03-search")
+            dismissPopover()
+        }
+        app.swipeUp()
+        sleep(1)
+        snapshot("L-\(lang)-04-sections")
+        app.swipeUp()
+        sleep(1)
+        snapshot("L-\(lang)-05-guide")
+        app.swipeUp()
+        sleep(1)
+        snapshot("L-\(lang)-06-guide-2")
+        app.swipeUp()
+        sleep(1)
+        snapshot("L-\(lang)-07-bottom")
+        // 远处出发页
+        tries = 0
+        while !enter.isHittable && tries < 6 { app.swipeDown(); tries += 1 }
+        enter.tap()
+        if app.buttons["journeyNavigate"].waitForExistence(timeout: 8) {
+            sleep(1)
+            snapshot("L-\(lang)-08-journey")
+            app.buttons["closeJourney"].firstMatch.tap()
+        }
+        app.terminate()
+
+        // 2. 有插画的名场面（封面署名 + 看原作画面 + 巡礼者照片卡片）
+        launch(heading: 30, language: lang, extraEnv: ["SEICHI_OPEN_SPOT": "kiminonawa-shinanomachi-footbridge"])
+        XCTAssertTrue(app.buttons["enterScene"].waitForExistence(timeout: 20))
+        sleep(2)
+        snapshot("L-\(lang)-09-illustrated-top")
+        app.terminate()
+
+        // 3. 首页、列表、设置、相册
+        launch(language: lang)
+        XCTAssertTrue(app.buttons["arrivalBanner"].waitForExistence(timeout: 20))
+        sleep(1)
+        snapshot("L-\(lang)-10-map")
+        // 请人帮我拍：交接页 + 拍摄页
+        let pg = app.buttons["arrivalPhotographer"]
+        if pg.exists && pg.isHittable {
+            pg.tap()
+            if app.buttons["startPhotographer"].waitForExistence(timeout: 8) {
+                sleep(1)
+                snapshot("L-\(lang)-10b-photographer-handoff")
+                app.buttons["startPhotographer"].tap()
+                dismissSystemAlerts(timeout: 4)
+                if app.buttons["closeShooting"].waitForExistence(timeout: 8) {
+                    sleep(2)
+                    snapshot("L-\(lang)-10c-photographer-shooting")
+                    app.buttons["closeShooting"].tap()
+                }
+                if app.buttons["closePhotographer"].waitForExistence(timeout: 5) { app.buttons["closePhotographer"].tap() }
+                sleep(1)
+            }
+        }
+        app.buttons["openList"].tap()
+        sleep(2)
+        snapshot("L-\(lang)-11-list")
+        app.buttons["closeList"].tap()
+        sleep(1)
+        if app.buttons["openSettings"].waitForExistence(timeout: 5) {
+            app.buttons["openSettings"].tap()
+            sleep(2)
+            snapshot("L-\(lang)-12-settings")
+            app.swipeUp()
+            sleep(1)
+            snapshot("L-\(lang)-13-settings-2")
+        }
+    }
 }

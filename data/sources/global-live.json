@@ -506,7 +506,7 @@
      "tips": "The crossing is packed with people and traffic: shoot from the pavement and don't stop on the crosswalk. On weekends and holidays Chuo-dori becomes a pedestrian zone (hours vary by season), the best chance for a head-on shot.",
      "searchTerms": [
       "Wako clock tower",
-      "Ginza",
+      "Ginza 4-chome",
       "clock tower destroyed"
      ]
     },
@@ -522,7 +522,7 @@
      "tips": "4초메 교차로는 사람과 차가 매우 많다. 촬영은 인도에서 하고 횡단보도 위에서 멈추지 마세요. 주말과 공휴일에는 주오도리가 보행자 천국이 되어(시간은 계절에 따라 다름) 정면 사진을 찍기 좋다.",
      "searchTerms": [
       "와코 시계탑",
-      "긴자",
+      "긴자 4초메",
       "시계탑 파괴"
      ]
     }
@@ -594,8 +594,7 @@
      "bestTime": "Before 7 am or at dusk the crowds thin enough to capture the film's endless tunnel of gates. In the afternoon, sunlight slipping between the gates is at its most beautiful.",
      "tips": "The shrine is open 24 hours and free (prayers and the amulet office keep set hours). The gate tunnel is narrow: step aside to shoot, don't block the path for long, and never climb or lean on the torii. Only local trains stop at JR Inari.",
      "searchTerms": [
-      "Fushimi Inari",
-      "Senbon Torii",
+      "Fushimi Inari Senbon Torii",
       "Chiyo running",
       "torii tunnel"
      ]
@@ -611,9 +610,9 @@
      "bestTime": "오전 7시 이전이나 해 질 녘이 한산해 영화 같은 도리이 터널의 깊이를 담을 수 있다. 오후에 도리이 틈새로 햇살이 스며드는 시간도 아름답다.",
      "tips": "경내는 24시간 무료 참배 가능(기도와 부적 판매소는 접수 시간 있음). 센본도리이 통로는 좁으니 가장자리에서 촬영하고 오래 길을 막지 마세요. 도리이에 오르거나 기대지 말 것. JR 이나리역은 보통 열차만 정차한다.",
      "searchTerms": [
-      "후시미 이나리",
-      "센본 도리이",
-      "치요 달리기"
+      "후시미 이나리 센본 도리이",
+      "치요 달리기",
+      "도리이 터널"
      ]
     }
    }
@@ -654,7 +653,7 @@
       "姬路城",
       "忍者训练",
       "手里剑",
-      "邦德"
+      "肖恩·康纳利"
      ]
     },
     "ja": {
@@ -705,7 +704,7 @@
       "히메지성",
       "닌자 훈련",
       "수리검",
-      "제임스 본드"
+      "숀 코너리"
      ]
     }
    }
@@ -761,7 +760,6 @@
      "searchTerms": [
       "誰もいない渋谷",
       "スクランブル交差点",
-      "無人の渋谷",
       "第1話"
      ]
     },
@@ -834,7 +832,8 @@
      "searchTerms": [
       "银山温泉",
       "雪中银山温泉",
-      "母女重逢"
+      "母女重逢",
+      "少女篇"
      ]
     },
     "ja": {
@@ -866,8 +865,9 @@
      "tips": "In winter (roughly late December–March) day visitors face traffic controls and evening entry limits, with rules announced each season: check the Obanazawa City or Ginzan Onsen official sites first. Book rooms early, and don't block the narrow bridges while taking photos.",
      "searchTerms": [
       "Ginzan Onsen",
-      "snowy hot spring town",
-      "mother reunion"
+      "snowy Ginzan Onsen",
+      "mother reunion",
+      "girlhood chapter"
      ]
     },
     "ko": {
@@ -883,7 +883,8 @@
      "searchTerms": [
       "긴잔 온천",
       "눈 내린 긴잔온천",
-      "엄마와 재회"
+      "엄마와 재회",
+      "소녀편"
      ]
     }
    }
@@ -924,6 +925,7 @@
      "searchTerms": [
       "增上寺",
       "葬礼",
+      "大殿",
       "休·杰克曼"
      ]
     },
@@ -956,7 +958,8 @@
      "tips": "The grounds are free; the Main Hall is open roughly 6:00–17:30 (check the official site). This is a working temple: keep quiet during services and don't photograph monks or worshippers. The Sangedatsumon gate is under restoration until around 2032.",
      "searchTerms": [
       "Zojoji Temple",
-      "funeral fight",
+      "funeral scene",
+      "Main Hall",
       "Hugh Jackman"
      ]
     },
@@ -973,6 +976,7 @@
      "searchTerms": [
       "조조지",
       "장례식",
+      "본당",
       "휴 잭맨"
      ]
     }
@@ -1013,6 +1017,7 @@
      "searchTerms": [
       "姬路城",
       "一之城",
+      "三之丸广场",
       "黑泽明"
      ]
     },
@@ -1046,6 +1051,7 @@
      "searchTerms": [
       "Himeji Castle",
       "First Castle",
+      "Sannomaru Square",
       "Akira Kurosawa"
      ]
     },
@@ -1062,6 +1068,7 @@
      "searchTerms": [
       "히메지성",
       "첫째 성",
+      "산노마루 광장",
       "구로사와 아키라"
      ]
     }

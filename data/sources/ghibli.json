@@ -537,7 +537,8 @@
      "searchTerms": [
       "하치코쿠야마",
       "시치코쿠야마 병원",
-      "옥수수"
+      "옥수수",
+      "사야마 구릉"
      ]
     }
    }
@@ -577,7 +578,8 @@
      "searchTerms": [
       "小月和小梅的家",
       "吉卜力公园",
-      "草壁家"
+      "草壁家",
+      "搬家"
      ]
     },
     "ja": {
@@ -610,7 +612,8 @@
      "searchTerms": [
       "Satsuki and Mei's House",
       "Ghibli Park",
-      "Kusakabe house"
+      "Kusakabe house",
+      "moving house"
      ]
     },
     "ko": {
@@ -626,6 +629,7 @@
      "searchTerms": [
       "사츠키와 메이의 집",
       "지브리 파크",
+      "쿠사카베 가",
       "이사"
      ]
     }
@@ -668,6 +672,7 @@
      "searchTerms": [
       "道后温泉本馆",
       "油屋",
+      "唐破风",
       "夜景"
      ]
     },
@@ -701,6 +706,7 @@
      "searchTerms": [
       "Dogo Onsen Honkan",
       "Aburaya",
+      "karahafu gable",
       "bathhouse at night"
      ]
     },
@@ -717,6 +723,7 @@
      "searchTerms": [
       "도고온천 본관",
       "유야",
+      "가라하후",
       "야경"
      ]
     }
@@ -757,7 +764,8 @@
      "searchTerms": [
       "子宝汤",
       "江户东京建筑园",
-      "腐烂神"
+      "腐烂神",
+      "唐破风"
      ]
     },
     "ja": {
@@ -790,7 +798,8 @@
      "searchTerms": [
       "Kodakara-yu",
       "Edo-Tokyo Open Air Museum",
-      "Stink Spirit"
+      "Stink Spirit",
+      "karahafu gable"
      ]
     },
     "ko": {
@@ -806,7 +815,8 @@
      "searchTerms": [
       "고다카라유",
       "에도도쿄 건축공원",
-      "오물신"
+      "오물신",
+      "가라하후"
      ]
     }
    }
@@ -847,7 +857,8 @@
      "searchTerms": [
       "白谷云水峡",
       "幽灵公主之森",
-      "苔藓森林"
+      "苔藓森林",
+      "山兽神之森"
      ]
     },
     "ja": {
@@ -880,7 +891,8 @@
      "searchTerms": [
       "Shiratani Unsuikyo",
       "Mononoke Forest",
-      "moss forest"
+      "moss forest",
+      "Forest Spirit's woods"
      ]
     },
     "ko": {
@@ -896,7 +908,8 @@
      "searchTerms": [
       "시라타니운스이쿄",
       "모노노케 숲",
-      "이끼 숲"
+      "이끼 숲",
+      "시시가미 숲"
      ]
     }
    }
@@ -936,7 +949,8 @@
      "searchTerms": [
       "鞆之浦",
       "常夜灯",
-      "港町"
+      "港町",
+      "雁木 石阶"
      ]
     },
     "ja": {
@@ -969,7 +983,8 @@
      "searchTerms": [
       "Tomonoura",
       "Joyato lantern",
-      "harbor town"
+      "harbor town",
+      "gangi stone steps"
      ]
     },
     "ko": {
@@ -985,7 +1000,8 @@
      "searchTerms": [
       "토모노우라",
       "상야등",
-      "항구 마을"
+      "항구 마을",
+      "간기 돌계단"
      ]
     }
    }
@@ -1073,7 +1089,7 @@
      "searchTerms": [
       "이로하자카 계단",
       "세이세키사쿠라가오카",
-      "계단"
+      "계단 뛰어 내려가기"
      ]
     }
    }
@@ -1113,7 +1129,8 @@
      "searchTerms": [
       "金比罗宫",
       "告白",
-      "杉村"
+      "杉村",
+      "圣迹樱丘"
      ]
     },
     "ja": {
@@ -1146,7 +1163,8 @@
      "searchTerms": [
       "Konpira Shrine",
       "confession",
-      "Sugimura"
+      "Sugimura",
+      "Seiseki-Sakuragaoka"
      ]
     },
     "ko": {
@@ -1162,7 +1180,8 @@
      "searchTerms": [
       "곤피라궁",
       "고백",
-      "스기무라"
+      "스기무라",
+      "세이세키사쿠라가오카"
      ]
     }
    }
@@ -1231,8 +1250,8 @@
      "tips": "The roundabout carries traffic: don’t stand in the road for photos. It’s a residential area, so be quiet and don’t photograph residents or their homes. The Earth Shop is fictional and doesn’t exist here.",
      "searchTerms": [
       "Sakuragaoka roundabout",
-      "Chikyuya",
-      "antique shop"
+      "World Emporium",
+      "chasing the cat"
      ]
     },
     "ko": {
@@ -1246,9 +1265,9 @@
      "bestTime": "여름방학 같은 맑은 오후가 영화 속 빛에 가장 가깝다. 주택가라 평일 낮이 가장 조용하며, 저녁 이후에는 오래 머물며 떠들지 말자",
      "tips": "로터리는 차가 다니는 도로이니 차도에 서서 촬영하지 말자. 주변은 주택가라 조용히 하고 주민이나 개인 주택은 찍지 말 것. 작중 지구옥은 가상의 가게로 실제로는 없다.",
      "searchTerms": [
-      "로터리",
+      "사쿠라가오카 로터리",
       "지구옥",
-      "세이세키사쿠라가오카"
+      "고양이 쫓기"
      ]
     }
    }
@@ -1373,6 +1392,7 @@
      "bestTime": "初夏傍晚光线柔和、最安静，适合静静停留；8月终战纪念日前后来凭吊也有意义。周边是住宅区，避免清晨和夜间造访",
      "tips": "纪念碑与阪神淡路大地震遇难者慰灵碑同在一座公园，请保持肃静。池塘现已没有萤火虫，防空洞也已不存在；周边是住宅区，请勿喧哗或拍摄民宅。",
      "searchTerms": [
+      "ニテコ池",
       "西宫 满池谷",
       "防空洞",
       "萤火虫"
@@ -1424,6 +1444,7 @@
      "tips": "기념비는 한신·아와지 대지진 희생자 추모비와 같은 공원에 있으니 조용히 하자. 지금 연못에는 반딧불이 없고 방공호도 남아 있지 않다. 주변이 주택가이니 떠들거나 민가를 촬영하지 말자.",
      "searchTerms": [
       "니테코 연못",
+      "만치다니",
       "방공호",
       "반딧불이"
      ]
@@ -1462,6 +1483,7 @@
      "searchTerms": [
       "三宫站",
       "开场",
+      "车站柱子",
       "水果糖罐"
      ]
     },
@@ -1495,6 +1517,7 @@
      "searchTerms": [
       "Sannomiya Station",
       "opening scene",
+      "station pillar",
       "candy tin"
      ]
     },
@@ -1511,6 +1534,7 @@
      "searchTerms": [
       "산노미야역",
       "오프닝 장면",
+      "역 기둥",
       "사탕 깡통"
      ]
     }
@@ -1651,8 +1675,7 @@
      "searchTerms": [
       "盛美園",
       "盛美館",
-      "洋館",
-      "庭園"
+      "洋館"
      ]
     },
     "en": {

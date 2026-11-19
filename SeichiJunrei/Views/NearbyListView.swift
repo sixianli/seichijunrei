@@ -42,7 +42,7 @@ struct NearbyListView: View {
             .navigationTitle(L("map.allScenes"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .confirmationAction) { Button(L("common.done")) { dismiss() } }
+                ToolbarItem(placement: .confirmationAction) { Button(L("common.done")) { dismiss() }.accessibilityIdentifier("closeList") }
             }
         }
     }
@@ -86,7 +86,7 @@ private struct WorkHeader: View {
                     Text(original).font(.caption).foregroundStyle(.secondary)
                 }
             }
-            .lineLimit(1)
+            .lineLimit(2)
             .textCase(nil)
             Spacer()
             Text(sceneCountText(match.spots.count))

@@ -960,9 +960,10 @@
      "tips": "这里是仍在祭祀的神社，请先参拜，拍照勿挡参道、勿拍摄正在祈祷的人。麻布十番商店街入口有港区 2024 年设置的水手月亮彩绘井盖第 1 号，可顺路寻访。",
      "accessPointName": "麻布十番站 4 号出口",
      "searchTerms": [
-      "麻布氷川神社",
+      "麻布冰川神社",
       "火川神社 原型",
-      "火野丽 巫女"
+      "火野丽 巫女",
+      "仙台坂"
      ]
     },
     "ja": {
@@ -994,8 +995,9 @@
      "accessPointName": "Azabu-juban Sta. Exit 4",
      "searchTerms": [
       "Azabu Hikawa Shrine",
-      "Hikawa Shrine Rei",
-      "Rei Hino shrine maiden"
+      "real Hikawa Shrine",
+      "Rei Hino shrine maiden",
+      "Sendaizaka slope"
      ]
     },
     "ko": {
@@ -1011,7 +1013,8 @@
      "searchTerms": [
       "아자부 히카와 신사",
       "히카와 신사 모델",
-      "히노 레이 무녀"
+      "히노 레이 무녀",
+      "센다이자카"
      ]
     }
    }
@@ -1228,9 +1231,10 @@
      "tips": "这里是繁华的商业街，拍照请靠边，勿阻挡行人与车辆。附近的东池袋中央公园、乙女路也是作品中的场景，可以一并散步巡礼。",
      "accessPointName": "JR 池袋站 东口",
      "searchTerms": [
-      "池袋 阳光60大道",
+      "阳光60大道",
       "Dollars 集会",
-      "赛尔提"
+      "赛尔提",
+      "池袋"
      ]
     },
     "ja": {
@@ -1502,9 +1506,9 @@
      "tips": "这里是普通公共道路，严禁飙车、漂移，也不要在弯道上停车或站在路中拍照，请在停车场内拍摄。冬季路面结冰积雪，12–3 月自驾需雪地轮胎。",
      "accessPointName": "ヤセオネ峠 巴士站",
      "searchTerms": [
-      "榛名山",
+      "ヤセオネ峠",
       "秋名山 起点",
-      "秋名山 下坡",
+      "榛名山 下坡",
       "旧收费站"
      ]
     },
@@ -1538,7 +1542,7 @@
      "searchTerms": [
       "Yaseone Pass",
       "Akina downhill start",
-      "Mt Haruna",
+      "Mt Haruna downhill",
       "old toll gate"
      ]
     },
