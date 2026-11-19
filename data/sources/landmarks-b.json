@@ -623,7 +623,8 @@
           "searchTerms": [
             "柯南大桥",
             "柯南铜像",
-            "北荣町"
+            "北荣町",
+            "柯南之乡"
           ]
         },
         "ja": {
@@ -656,7 +657,8 @@
           "searchTerms": [
             "Conan Bridge",
             "Conan statue",
-            "Hokuei"
+            "Hokuei",
+            "Conan Town"
           ]
         },
         "ko": {
@@ -672,7 +674,8 @@
           "searchTerms": [
             "코난 대교",
             "코난 동상",
-            "호쿠에이"
+            "호쿠에이",
+            "코난의 마을"
           ]
         }
       }
@@ -982,7 +985,8 @@
           "searchTerms": [
             "水木茂之路",
             "妖怪铜像",
-            "境港"
+            "境港",
+            "眼珠老爹"
           ]
         },
         "ja": {
@@ -1015,7 +1019,8 @@
           "searchTerms": [
             "Mizuki Shigeru Road",
             "yokai statues",
-            "Sakaiminato"
+            "Sakaiminato",
+            "Medama-Oyaji"
           ]
         },
         "ko": {
@@ -1031,7 +1036,8 @@
           "searchTerms": [
             "미즈키 시게루 로드",
             "요괴 동상",
-            "사카이미나토"
+            "사카이미나토",
+            "눈알 아빠"
           ]
         }
       }
@@ -1105,7 +1111,7 @@
           "searchTerms": [
             "Anpanman Museum",
             "Yanase Takashi Memorial Hall",
-            "Kochi"
+            "Kami City"
           ]
         },
         "ko": {
@@ -1121,7 +1127,7 @@
           "searchTerms": [
             "호빵맨 뮤지엄",
             "야나세 다카시 기념관",
-            "고치"
+            "가미시"
           ]
         }
       }

@@ -66,9 +66,9 @@
 "scene.aheadLeft" = "左前方へ進んで";
 "scene.weakCompass" = "コンパスの精度が低いです。金属から離れるか ∞ を描いて調整してください";
 "detail.atSpot" = "この名シーンの撮影位置に立っています";
-"detail.distance" = "距離 %@ · %@の方向";
-"detail.enterScene" = "このシーンを再現する";
-"detail.startGuide" = "このシーンを再現しに行く";
+"detail.distance" = "%@ · %@の方向";
+"detail.enterScene" = "このシーンを再現";
+"detail.startGuide" = "再現しに行く";
 "detail.story" = "ストーリー";
 "detail.tips" = "巡礼マナー・注意";
 "detail.debugSimulate" = "（デバッグ）この撮影位置にいることにする";
@@ -173,7 +173,7 @@
 "settings.credits" = "著作権・クレジット";
 "settings.creditsBody" = "作品名および関連する権利は各権利者に帰属します。本アプリは各作品の公式とは関係がなく、作品の画像も収録していません。カバーのイラストは現地の写真をもとに AI が描き直したもので、作品の画像は一切使っていません。現地の写真は Wikimedia Commons のもので、撮影者とライセンスは各名シーンのページに記載しています。一部の座標は © OpenStreetMap contributors を参考にしています。";
 "settings.version" = "バージョン";
-"detail.photographer" = "誰かに撮ってもらう";
+"detail.photographer" = "撮ってもらう";
 "pg.title" = "誰かに撮ってもらう";
 "pg.subtitle" = "あなたが主人公。撮る人はアプリが構図までガイドします";
 "pg.step1" = "あなた：主人公の位置へ。撮影位置の約 %@ m 先で、カメラの方を向いて";
@@ -248,7 +248,8 @@
 "detail.shotMapA11y" = "撮影ポジションの地図：%@向きに撮影";
 "detail.searchOriginal" = "原作のシーンを見る";
 "detail.originalNotIncluded" = "原作の画像は著作権のため収録していません。「原作のシーンを見る」からウェブで探せます。";
-"community.beFirst" = "現地の写真を最初に投稿しよう";
+"community.beFirst" = "まだ投稿がありません。最初の1枚をどうぞ";
+"community.stripTitleEmpty" = "巡礼者の写真";
 "community.stripTitle" = "巡礼者の写真 · %ld 枚";
 "community.uploadShort" = "投稿";
 "community.shareToPilgrims" = "ほかの巡礼者にシェア";

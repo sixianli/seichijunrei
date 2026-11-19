@@ -248,7 +248,8 @@
 "detail.shotMapA11y" = "机位小地图：朝%@方拍摄";
 "detail.searchOriginal" = "看原作画面";
 "detail.originalNotIncluded" = "原作画面受版权保护，App 没有收录。点“看原作画面”可以去网上搜这一幕。";
-"community.beFirst" = "成为第一个上传现场照片的人";
+"community.beFirst" = "还没有人上传，来当第一个";
+"community.stripTitleEmpty" = "巡礼者拍的";
 "community.stripTitle" = "巡礼者拍的 · %ld 张";
 "community.uploadShort" = "上传";
 "community.shareToPilgrims" = "分享给其他巡礼者";

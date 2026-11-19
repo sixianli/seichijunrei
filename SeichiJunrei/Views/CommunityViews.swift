@@ -16,26 +16,34 @@ struct CommunityPhotoStrip: View {
     private var photos: [CommunityPhoto] { community.photosBySpot[spot.id] ?? [] }
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            if photos.isEmpty {
-                PhotosPicker(selection: $picked, matching: .images, preferredItemEncoding: .current, photoLibrary: .shared()) {
-                    Label(L("community.beFirst"), systemImage: "camera.badge.ellipsis")
-                        .font(.footnote.weight(.semibold))
-                }
-                .foregroundStyle(spot.tintColor)
-                .accessibilityIdentifier("uploadCommunityPhoto")
-            } else {
-                HStack {
-                    Label(L("community.stripTitle", photos.count), systemImage: "person.2.fill")
+        // 一张小卡片：还没人上传时是“来当第一个”+ 上传按钮；有照片后同一位置变成照片条，按钮还在右上角
+        VStack(alignment: .leading, spacing: 10) {
+            HStack(alignment: .center, spacing: 10) {
+                VStack(alignment: .leading, spacing: 2) {
+                    Label(photos.isEmpty ? L("community.stripTitleEmpty") : L("community.stripTitle", photos.count),
+                          systemImage: "person.2.fill")
                         .font(.subheadline.bold())
-                    Spacer()
-                    PhotosPicker(selection: $picked, matching: .images, preferredItemEncoding: .current, photoLibrary: .shared()) {
-                        Label(L("community.uploadShort"), systemImage: "plus")
-                            .font(.footnote.weight(.semibold))
+                        .fixedSize(horizontal: false, vertical: true)
+                    if photos.isEmpty {
+                        Text(L("community.beFirst"))
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                            .fixedSize(horizontal: false, vertical: true)
                     }
-                    .foregroundStyle(spot.tintColor)
-                    .accessibilityIdentifier("uploadCommunityPhoto")
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                PhotosPicker(selection: $picked, matching: .images, preferredItemEncoding: .current, photoLibrary: .shared()) {
+                    Label(L("community.uploadShort"), systemImage: "camera.fill")
+                        .font(.subheadline.weight(.bold))
+                        .padding(.horizontal, 14).padding(.vertical, 8)
+                        .foregroundStyle(photos.isEmpty ? Color.white : spot.tintColor)
+                        .background(photos.isEmpty ? spot.tintColor : spot.tintColor.opacity(0.14), in: Capsule())
+                        .fixedSize()
+                }
+                .buttonStyle(.plain)
+                .accessibilityIdentifier("uploadCommunityPhoto")
+            }
+            if !photos.isEmpty {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 8) {
                         ForEach(photos) { photo in
@@ -52,6 +60,9 @@ struct CommunityPhotoStrip: View {
                 }
             }
         }
+        .padding(14)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(Color(.secondarySystemBackground), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
         .task(id: spot.id) { await community.loadPhotos(spotID: spot.id) }
         .onChange(of: picked) { _, item in
             guard let item else { return }

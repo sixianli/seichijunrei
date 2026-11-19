@@ -248,7 +248,8 @@
 "detail.shotMapA11y" = "機位小地圖：朝%@方拍攝";
 "detail.searchOriginal" = "看原作畫面";
 "detail.originalNotIncluded" = "原作畫面受版權保護，App 沒有收錄。點「看原作畫面」可以上網搜尋這一幕。";
-"community.beFirst" = "成為第一個上傳現場照片的人";
+"community.beFirst" = "還沒有人上傳，來當第一個";
+"community.stripTitleEmpty" = "巡禮者拍的";
 "community.stripTitle" = "巡禮者拍的 · %ld 張";
 "community.uploadShort" = "上傳";
 "community.shareToPilgrims" = "分享給其他巡禮者";

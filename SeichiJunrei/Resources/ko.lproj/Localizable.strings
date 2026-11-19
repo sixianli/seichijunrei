@@ -66,8 +66,8 @@
 "scene.aheadLeft" = "왼쪽 앞으로 가세요";
 "scene.weakCompass" = "나침반 신호가 약해요. 금속에서 떨어지거나 ∞를 그려 보정하세요";
 "detail.atSpot" = "지금 이 명장면의 촬영 위치에 있어요";
-"detail.distance" = "%@ 거리 · %@쪽";
-"detail.enterScene" = "지금 이 장면 재현하기";
+"detail.distance" = "%@ · %@쪽";
+"detail.enterScene" = "지금 재현하기";
 "detail.startGuide" = "재현하러 가기";
 "detail.story" = "줄거리";
 "detail.tips" = "알아 두세요";
@@ -173,7 +173,7 @@
 "settings.credits" = "저작권 및 출처";
 "settings.creditsBody" = "작품명과 관련 권리는 각 권리자에게 있으며, 이 앱은 각 작품의 공식 앱이 아니고 작품 이미지를 수록하지 않아요. 커버 일러스트는 실제 장소 사진을 바탕으로 AI가 다시 그린 것으로, 작품 이미지는 전혀 사용하지 않았어요. 실제 장소 사진은 Wikimedia Commons에서 가져왔으며 작가와 라이선스는 각 명장면 페이지에 표시돼요. 일부 좌표는 © OpenStreetMap contributors를 참고했어요.";
 "settings.version" = "버전";
-"detail.photographer" = "다른 사람에게 찍어 달라기";
+"detail.photographer" = "찍어 달라고 하기";
 "pg.title" = "다른 사람에게 부탁하기";
 "pg.subtitle" = "당신이 주인공. 찍는 사람은 앱이 구도까지 안내해요";
 "pg.step1" = "당신: 주인공 자리로. 촬영 위치 앞 약 %@ m, 카메라를 바라보고";
@@ -248,7 +248,8 @@
 "detail.shotMapA11y" = "촬영 위치 지도: %@ 방향으로 촬영";
 "detail.searchOriginal" = "원작 장면 보기";
 "detail.originalNotIncluded" = "원작 이미지는 저작권 때문에 앱에 없어요. '원작 장면 보기'로 웹에서 찾아보세요.";
-"community.beFirst" = "첫 번째로 현장 사진을 올려 보세요";
+"community.beFirst" = "아직 사진이 없어요. 첫 사진을 올려 보세요";
+"community.stripTitleEmpty" = "순례자 사진";
 "community.stripTitle" = "순례자 사진 · %ld장";
 "community.uploadShort" = "올리기";
 "community.shareToPilgrims" = "다른 순례자와 공유";

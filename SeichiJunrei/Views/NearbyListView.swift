@@ -86,7 +86,7 @@ private struct WorkHeader: View {
                     Text(original).font(.caption).foregroundStyle(.secondary)
                 }
             }
-            .lineLimit(1)
+            .lineLimit(2)
             .textCase(nil)
             Spacer()
             Text(sceneCountText(match.spots.count))

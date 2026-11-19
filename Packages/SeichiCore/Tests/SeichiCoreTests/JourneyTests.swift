@@ -59,6 +59,25 @@ final class JourneyTests: XCTestCase {
         XCTAssertTrue(SceneImageSearch.url(query: "a b", engine: .google)!.absoluteString.contains("tbm=isch"))
     }
 
+    /// 英文界面在日本：用日文去搜（结果多），每条配上英文说明
+    func testSceneImageSearchBilingualLabels() {
+        let ja = SceneImageSearch.Words(language: "ja", work: "ドラえもん",
+                                        terms: ["藤子・F・不二雄ミュージアム", "はらっぱ 土管", "川崎"], place: nil)
+        let en = SceneImageSearch.Words(language: "en", work: "Doraemon",
+                                        terms: ["Fujiko F. Fujio Museum", "vacant lot pipes", "Kawasaki"], place: nil)
+        let opts = SceneImageSearch.options(search: ja, display: en, engine: .google)
+        XCTAssertEqual(opts.map(\.query), ["ドラえもん 藤子・F・不二雄ミュージアム 聖地巡礼 比較", "ドラえもん はらっぱ 土管",
+                                            "ドラえもん 川崎", "ドラえもん 藤子・F・不二雄ミュージアム はらっぱ 土管"])
+        XCTAssertEqual(opts.map(\.label), ["Doraemon · Fujiko F. Fujio Museum · pilgrimage comparison",
+                                            "Doraemon · vacant lot pipes", "Doraemon · Kawasaki",
+                                            "Doraemon · Fujiko F. Fujio Museum · vacant lot pipes"])
+        // 同语言不配说明
+        XCTAssertEqual(SceneImageSearch.options(search: ja, display: ja, engine: .google).compactMap(\.label), [])
+        // 关键词对不上（条数不同）时不乱配说明
+        var short = en; short.terms = ["Fujiko F. Fujio Museum"]
+        XCTAssertEqual(SceneImageSearch.options(search: ja, display: short, engine: .google).compactMap(\.label), [])
+    }
+
     func testDestination() {
         let a = GeoPoint(latitude: 35.68518, longitude: 139.72345)
         let b = GeoMath.destination(from: a, bearing: 120, distance: 70)

@@ -92,11 +92,33 @@ public enum SceneImageSearch {
             .trimmingCharacters(in: .whitespaces) ?? place
     }
 
-    /// 一条现成的搜索：给用户看的标题 + 搜索词 + 用哪个搜索引擎
+    /// 一条现成的搜索：实际去搜的词 + 给用户看的说明（用户自己的语言）+ 用哪个搜索引擎
     public struct Option: Equatable, Sendable {
+        /// 实际去搜的词（搜索引擎的语言，比如 Google 用日文）
         public var query: String
         public var engine: Engine
-        public init(query: String, engine: Engine) { self.query = query; self.engine = engine }
+        /// 用户界面语言的版本，让看不懂日文的人也知道这条搜的是什么；和 query 同语言时为 nil
+        public var label: String?
+        public init(query: String, engine: Engine, label: String? = nil) {
+            self.query = query; self.engine = engine; self.label = label
+        }
+    }
+
+    /// 某一种语言的搜索素材：作品名 + 粉丝常用的地点 / 场景关键词（各语言按下标一一对应）+ 地名（关键词缺失时兜底）
+    public struct Words: Equatable, Sendable {
+        public var language: String
+        public var work: String
+        public var terms: [String]
+        public var place: String?
+        public init(language: String, work: String, terms: [String], place: String?) {
+            self.language = language; self.work = work; self.terms = terms; self.place = place
+        }
+
+        var keywords: [String] {
+            let k = terms.map { $0.trimmingCharacters(in: .whitespaces) }.filter { !$0.isEmpty }
+            if k.isEmpty, let p = place { return [SceneImageSearch.trimmedPlace(p)] }
+            return k
+        }
     }
 
     /// 和搜索引擎最搭的语言：百度用简体中文，Naver 用韩语，Google 用日语（原作和巡礼对比图日文最多）
@@ -108,26 +130,63 @@ public enum SceneImageSearch {
         }
     }
 
-    /// 几条现成的搜索，每条只用一种语言：作品名 + 地点/场景关键词 + 巡礼词。
-    /// - work: 该语言下的作品名；terms: 该语言的场景关键词（粉丝常用说法）；place: 该语言的地名（关键词缺失时兜底）
+    static func pilgrimageWord(_ language: String) -> String {
+        switch language {
+        case "ja": return "聖地巡礼 比較"
+        case "zh-Hans": return "圣地巡礼 对比"
+        case "zh-Hant": return "聖地巡禮 對比"
+        case "ko": return "성지순례 비교"
+        default: return "anime pilgrimage comparison"
+        }
+    }
+
+    static func pilgrimageLabel(_ language: String) -> String {
+        switch language {
+        case "ja": return "聖地巡礼の比較"
+        case "zh-Hans": return "圣地巡礼对比"
+        case "zh-Hant": return "聖地巡禮對比"
+        case "ko": return "성지순례 비교"
+        default: return "pilgrimage comparison"
+        }
+    }
+
+    /// 几条现成的搜索：用 search 的语言去搜；display（用户界面语言）不同时，每条都配上用户看得懂的说明。
+    /// 关键词组合：[第 1 个 + 巡礼词]、[第 2 个]、[第 3 个]…、[第 1 + 第 2 个]，去重，最多 4 条
+    public static func options(search: Words, display: Words?, engine: Engine) -> [Option] {
+        let keys = search.keywords
+        var combos: [(indices: [Int], pilgrimage: Bool)] = []
+        if !keys.isEmpty { combos.append(([0], true)) }
+        for i in keys.indices.dropFirst() { combos.append(([i], false)) }
+        if keys.count >= 2 { combos.append(([0, 1], false)) }
+
+        // 用户语言的关键词要和搜索语言一一对应，才能逐条翻译；对不上就不显示说明，免得说错
+        let showLabel = display.map { $0.language != search.language } ?? false
+        let shown = display?.keywords ?? []
+        let canTranslate = showLabel && shown.count == keys.count
+
+        var seen = Set<String>()
+        var out: [Option] = []
+        for c in combos {
+            var q = ([search.work] + c.indices.map { keys[$0] }).joined(separator: " ")
+            if c.pilgrimage { q += " " + pilgrimageWord(search.language) }
+            guard seen.insert(q).inserted else { continue }
+            var label: String?
+            if let d = display, showLabel {
+                var parts = [d.work]
+                if canTranslate { parts += c.indices.map { shown[$0] } }
+                if c.pilgrimage { parts.append(pilgrimageLabel(d.language)) }
+                label = canTranslate ? parts.joined(separator: " · ") : nil
+            }
+            out.append(Option(query: q, engine: engine, label: label))
+            if out.count == 4 { break }
+        }
+        return out
+    }
+
+    /// 只用一种语言（不配说明）
     public static func options(work: String, terms: [String], place: String?, language: String,
                                engine: Engine) -> [Option] {
-        let pilgrimage: String
-        switch language {
-        case "ja": pilgrimage = "聖地巡礼 比較"
-        case "zh-Hans": pilgrimage = "圣地巡礼 对比"
-        case "zh-Hant": pilgrimage = "聖地巡禮 對比"
-        case "ko": pilgrimage = "성지순례 비교"
-        default: pilgrimage = "anime pilgrimage comparison"
-        }
-        var keywords = terms.map { $0.trimmingCharacters(in: .whitespaces) }.filter { !$0.isEmpty }
-        if keywords.isEmpty, let p = place { keywords = [trimmedPlace(p)] }
-        var queries: [String] = []
-        if let first = keywords.first { queries.append("\(work) \(first) \(pilgrimage)") }
-        for k in keywords.dropFirst() { queries.append("\(work) \(k)") }
-        if keywords.count >= 2 { queries.append("\(work) \(keywords[0]) \(keywords[1])") }
-        var seen = Set<String>()
-        return queries.filter { seen.insert($0).inserted }.prefix(4).map { Option(query: $0, engine: engine) }
+        options(search: Words(language: language, work: work, terms: terms, place: place), display: nil, engine: engine)
     }
 
     public static func url(query: String, engine: Engine) -> URL? {

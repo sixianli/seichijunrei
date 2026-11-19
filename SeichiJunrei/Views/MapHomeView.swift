@@ -507,7 +507,7 @@ private struct ArrivalBanner: View {
                     VStack(alignment: .leading, spacing: 2) {
                         Text(L("map.arrivedTitle")).font(.headline)
                         Text(nearby.spot.workTitle + " " + nearby.spot.quotedSceneTitle)
-                            .font(.subheadline).lineLimit(1)
+                            .font(.subheadline).lineLimit(2)
                     }
                     Spacer(minLength: 0)
                     Image(systemName: "camera.viewfinder").font(.title2)
@@ -633,7 +633,7 @@ struct SpotCard: View {
                         Image(systemName: SpotKind.landmark.symbol).font(.caption2).foregroundStyle(Color.accentColor)
                             .accessibilityLabel(SpotKind.landmark.label)
                     }
-                    Text(item.spot.sceneTitle).font(.subheadline.bold()).lineLimit(1)
+                    Text(item.spot.sceneTitle).font(.subheadline.bold()).lineLimit(2)
                 }
                 if item.distance.isFinite {
                     Label(NearbySearch.formatDistance(item.distance), systemImage: "location.north.line")

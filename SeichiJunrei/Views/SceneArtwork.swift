@@ -284,13 +284,9 @@ struct SpotHeroImage: View {
                 }
                 .buttonStyle(.plain)
                 .accessibilityIdentifier("searchScene")
-                .confirmationDialog(L("detail.searchOriginalTitle"), isPresented: $showSearch, titleVisibility: .visible) {
-                    ForEach(SceneSearchLink.options(for: spot, country: location.countryCode), id: \.query) { opt in
-                        Button(opt.query) { if let url = SceneSearchLink.url(opt) { openURL(url) } }
-                    }
-                    Button(L("common.cancel"), role: .cancel) {}
-                } message: {
-                    Text(L("detail.searchOriginalHint"))
+                .popover(isPresented: $showSearch) {
+                    SceneSearchList(spot: spot, country: location.countryCode) { showSearch = false }
+                        .presentationCompactAdaptation(.popover)
                 }
             }
         }
@@ -368,15 +364,67 @@ enum SceneSearchLink {
     @MainActor
     static func options(for spot: Spot, country: String?) -> [SceneImageSearch.Option] {
         let engine = SceneImageSearch.engine(country: country ?? Locale.current.region?.identifier)
-        let lang = SceneImageSearch.language(for: engine, userLanguage: AppLanguage.current)
+        let searchLang = SceneImageSearch.language(for: engine, userLanguage: AppLanguage.current)
+        // 用搜索引擎的语言去搜（结果多）；界面语言不同时，每条配上用户看得懂的说明
+        return SceneImageSearch.options(search: words(spot, searchLang), display: words(spot, AppLanguage.current),
+                                        engine: engine)
+    }
+
+    private static func words(_ spot: Spot, _ lang: String) -> SceneImageSearch.Words {
         let s = spot.localized(to: lang)
         let work = lang == "ja" ? spot.work : (s.workLocalized ?? spot.work)
-        return SceneImageSearch.options(work: work, terms: s.searchTerms, place: s.placeName,
-                                        language: lang, engine: engine)
+        return SceneImageSearch.Words(language: lang, work: work, terms: s.searchTerms, place: s.placeName)
     }
 
     static func url(_ option: SceneImageSearch.Option) -> URL? {
         SceneImageSearch.url(query: option.query, engine: option.engine)
+    }
+}
+
+/// “看原作画面”弹出的几条搜索：大字是用户的语言，小字是实际去搜的词（比如日文）
+struct SceneSearchList: View {
+    let spot: Spot
+    let country: String?
+    var onPick: () -> Void
+    @Environment(\.openURL) private var openURL
+
+    var body: some View {
+        let options = SceneSearchLink.options(for: spot, country: country)
+        ScrollView {
+            VStack(alignment: .leading, spacing: 10) {
+                Text(L("detail.searchOriginalTitle")).font(.headline)
+                Text(L("detail.searchOriginalHint")).font(.footnote).foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
+                ForEach(options, id: \.query) { opt in
+                    Button {
+                        onPick()
+                        if let url = SceneSearchLink.url(opt) { openURL(url) }
+                    } label: {
+                        HStack(spacing: 10) {
+                            VStack(alignment: .leading, spacing: 3) {
+                                Text(opt.label ?? opt.query)
+                                    .font(.subheadline.weight(.semibold))
+                                    .foregroundStyle(.primary)
+                                if opt.label != nil {
+                                    Text(opt.query).font(.caption).foregroundStyle(.secondary)
+                                }
+                            }
+                            .multilineTextAlignment(.leading)
+                            .fixedSize(horizontal: false, vertical: true)
+                            Spacer(minLength: 0)
+                            Image(systemName: "arrow.up.right").font(.caption.bold()).foregroundStyle(Color.accentColor)
+                        }
+                        .padding(.horizontal, 14).padding(.vertical, 10)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .background(Color(.tertiarySystemFill), in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityIdentifier("searchOption")
+                }
+            }
+            .padding()
+        }
+        .frame(idealWidth: 340, idealHeight: 440)
     }
 }
 
