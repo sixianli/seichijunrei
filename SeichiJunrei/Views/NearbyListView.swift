@@ -42,7 +42,7 @@ struct NearbyListView: View {
             .navigationTitle(L("map.allScenes"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .confirmationAction) { Button(L("common.done")) { dismiss() } }
+                ToolbarItem(placement: .confirmationAction) { Button(L("common.done")) { dismiss() }.accessibilityIdentifier("closeList") }
             }
         }
     }

@@ -87,7 +87,7 @@ S = {
   "map.all": ("全部", "全部", "すべて", "All", "전체"),
   "map.showAll": ("显示全部名场面", "顯示全部名場面", "すべての名シーンを表示", "Show all scenes", "모든 명장면 보기"),
   "map.arrivedTitle": ("你就站在名场面里！", "你就站在名場面裡！", "今、名シーンの中にいる！",
-                       "You're standing in the scene!", "지금 명장면 속에 서 있어요!"),
+                       "You're in the scene!", "지금 명장면 속에 서 있어요!"),
   "map.needLocation": ("需要定位权限才能发现附近的圣地，点此前往设置", "需要定位權限才能發現附近的聖地，點此前往設定",
                        "近くの聖地を探すには位置情報の許可が必要です。タップして設定を開く",
                        "Location access is needed to find nearby spots. Tap to open Settings.",

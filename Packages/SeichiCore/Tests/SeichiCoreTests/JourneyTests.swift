@@ -71,6 +71,10 @@ final class JourneyTests: XCTestCase {
         XCTAssertEqual(opts.map(\.label), ["Doraemon · Fujiko F. Fujio Museum · pilgrimage comparison",
                                             "Doraemon · vacant lot pipes", "Doraemon · Kawasaki",
                                             "Doraemon · Fujiko F. Fujio Museum · vacant lot pipes"])
+        // 真人日剧 / 电影搜“ロケ地”
+        let live = SceneImageSearch.options(search: ja, display: en, engine: .google, liveAction: true)
+        XCTAssertEqual(live.first?.query, "ドラえもん 藤子・F・不二雄ミュージアム ロケ地 比較")
+        XCTAssertEqual(live.first?.label, "Doraemon · Fujiko F. Fujio Museum · filming location")
         // 同语言不配说明
         XCTAssertEqual(SceneImageSearch.options(search: ja, display: ja, engine: .google).compactMap(\.label), [])
         // 关键词对不上（条数不同）时不乱配说明

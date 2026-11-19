@@ -536,6 +536,8 @@ final class SmokeUITests: XCTestCase {
         let help = app.buttons["actionsHelp"]
         var tries = 0
         while !help.isHittable && tries < 3 { app.swipeUp(); tries += 1 }
+        sleep(1)
+        snapshot("L-\(lang)-01b-header")
         help.tap()
         sleep(1)
         snapshot("L-\(lang)-02-actions-help")
@@ -605,7 +607,7 @@ final class SmokeUITests: XCTestCase {
         app.buttons["openList"].tap()
         sleep(2)
         snapshot("L-\(lang)-11-list")
-        app.navigationBars.buttons.firstMatch.tap()
+        app.buttons["closeList"].tap()
         sleep(1)
         if app.buttons["openSettings"].waitForExistence(timeout: 5) {
             app.buttons["openSettings"].tap()

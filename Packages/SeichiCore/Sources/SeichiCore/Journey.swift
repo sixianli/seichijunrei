@@ -130,29 +130,40 @@ public enum SceneImageSearch {
         }
     }
 
-    static func pilgrimageWord(_ language: String) -> String {
-        switch language {
-        case "ja": return "聖地巡礼 比較"
-        case "zh-Hans": return "圣地巡礼 对比"
-        case "zh-Hant": return "聖地巡禮 對比"
-        case "ko": return "성지순례 비교"
-        default: return "anime pilgrimage comparison"
+    /// 动画用“圣地巡礼”，真人日剧 / 电影用“取景地”（日文叫“ロケ地”）
+    static func pilgrimageWord(_ language: String, liveAction: Bool = false) -> String {
+        switch (language, liveAction) {
+        case ("ja", false): return "聖地巡礼 比較"
+        case ("ja", true): return "ロケ地 比較"
+        case ("zh-Hans", false): return "圣地巡礼 对比"
+        case ("zh-Hans", true): return "取景地 对比"
+        case ("zh-Hant", false): return "聖地巡禮 對比"
+        case ("zh-Hant", true): return "取景地 對比"
+        case ("ko", false): return "성지순례 비교"
+        case ("ko", true): return "촬영지 비교"
+        case (_, false): return "anime pilgrimage comparison"
+        case (_, true): return "filming location"
         }
     }
 
-    static func pilgrimageLabel(_ language: String) -> String {
-        switch language {
-        case "ja": return "聖地巡礼の比較"
-        case "zh-Hans": return "圣地巡礼对比"
-        case "zh-Hant": return "聖地巡禮對比"
-        case "ko": return "성지순례 비교"
-        default: return "pilgrimage comparison"
+    static func pilgrimageLabel(_ language: String, liveAction: Bool = false) -> String {
+        switch (language, liveAction) {
+        case ("ja", false): return "聖地巡礼の比較"
+        case ("ja", true): return "ロケ地の比較"
+        case ("zh-Hans", false): return "圣地巡礼对比"
+        case ("zh-Hans", true): return "取景地对比"
+        case ("zh-Hant", false): return "聖地巡禮對比"
+        case ("zh-Hant", true): return "取景地對比"
+        case ("ko", false): return "성지순례 비교"
+        case ("ko", true): return "촬영지 비교"
+        case (_, false): return "pilgrimage comparison"
+        case (_, true): return "filming location"
         }
     }
 
     /// 几条现成的搜索：用 search 的语言去搜；display（用户界面语言）不同时，每条都配上用户看得懂的说明。
     /// 关键词组合：[第 1 个 + 巡礼词]、[第 2 个]、[第 3 个]…、[第 1 + 第 2 个]，去重，最多 4 条
-    public static func options(search: Words, display: Words?, engine: Engine) -> [Option] {
+    public static func options(search: Words, display: Words?, engine: Engine, liveAction: Bool = false) -> [Option] {
         let keys = search.keywords
         var combos: [(indices: [Int], pilgrimage: Bool)] = []
         if !keys.isEmpty { combos.append(([0], true)) }
@@ -168,13 +179,13 @@ public enum SceneImageSearch {
         var out: [Option] = []
         for c in combos {
             var q = ([search.work] + c.indices.map { keys[$0] }).joined(separator: " ")
-            if c.pilgrimage { q += " " + pilgrimageWord(search.language) }
+            if c.pilgrimage { q += " " + pilgrimageWord(search.language, liveAction: liveAction) }
             guard seen.insert(q).inserted else { continue }
             var label: String?
             if let d = display, showLabel {
                 var parts = [d.work]
                 if canTranslate { parts += c.indices.map { shown[$0] } }
-                if c.pilgrimage { parts.append(pilgrimageLabel(d.language)) }
+                if c.pilgrimage { parts.append(pilgrimageLabel(d.language, liveAction: liveAction)) }
                 label = canTranslate ? parts.joined(separator: " · ") : nil
             }
             out.append(Option(query: q, engine: engine, label: label))

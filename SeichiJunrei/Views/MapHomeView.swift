@@ -381,30 +381,39 @@ private struct MediaFilterBar: View {
     @Binding var selection: MediaCategory?
 
     var body: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
-            GlassGroup(spacing: 8) {
-                HStack(spacing: 8) {
-                    chip(title: L("map.all"), symbol: "square.grid.2x2", value: nil)
-                    ForEach(MediaCategory.allCases, id: \.self) { type in
-                        chip(title: type.label, symbol: type.symbolName, value: type)
-                    }
-                }
-                .padding(.vertical, 2)
-            }
+        // 一行放得下就全部显示；放不下先去掉图标、收窄边距；还放不下才横向滑动。任何语言都不会有按钮被屏幕边缘切掉
+        ViewThatFits(in: .horizontal) {
+            chips(compact: false)
+            chips(compact: true)
+            ScrollView(.horizontal, showsIndicators: false) { chips(compact: true) }
+                .scrollClipDisabled()
         }
-        .scrollClipDisabled()
     }
 
-    private func chip(title: String, symbol: String, value: MediaCategory?) -> some View {
+    private func chips(compact: Bool) -> some View {
+        GlassGroup(spacing: 8) {
+            HStack(spacing: compact ? 6 : 8) {
+                chip(title: L("map.all"), symbol: "square.grid.2x2", value: nil, compact: compact)
+                ForEach(MediaCategory.allCases, id: \.self) { type in
+                    chip(title: type.label, symbol: type.symbolName, value: type, compact: compact)
+                }
+            }
+            .padding(.vertical, 2)
+        }
+    }
+
+    private func chip(title: String, symbol: String, value: MediaCategory?, compact: Bool) -> some View {
         let isOn = selection == value
         return Button {
             withAnimation(.snappy) { selection = value }
         } label: {
-            Label(title, systemImage: symbol)
+            Group {
+                if compact { Text(title) } else { Label(title, systemImage: symbol) }
+            }
                 .font(.footnote.weight(.semibold))
                 .lineLimit(1)
                 .fixedSize()                                // “日漫”这样的短词也不能被挤成两行
-                .padding(.horizontal, 14)
+                .padding(.horizontal, compact ? 11 : 14)
                 .frame(minHeight: 44)                       // HIG：触控区域 ≥ 44pt
                 .foregroundStyle(isOn ? Color.white : Color.primary)
                 .glassSurface(Capsule(), tint: isOn ? .accentColor : nil, interactive: true)

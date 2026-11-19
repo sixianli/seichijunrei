@@ -447,7 +447,7 @@ private struct RouteMapContent: View {
     let interactive: Bool
 
     var body: some View {
-        Map(initialPosition: .automatic, interactionModes: interactive ? .all : []) {
+        Map(initialPosition: framing, interactionModes: interactive ? .all : []) {
             if let route {
                 MapPolyline(route.polyline).stroke(spot.tintColor, style: StrokeStyle(lineWidth: 5, lineCap: .round, dash: [1, 8]))
             }
@@ -461,6 +461,21 @@ private struct RouteMapContent: View {
             UserAnnotation()
         }
         .mapStyle(.standard(pointsOfInterest: .excludingAll))
+    }
+
+    /// 把车站出口和机位都框进来，四周留足边距（标注文字在点的下方，底部多留一些），不和地图角落的“法律信息”叠在一起
+    private var framing: MapCameraPosition {
+        var points = [MKMapPoint(spot.clCoordinate)]
+        if let ap = spot.accessPoint {
+            points.append(MKMapPoint(CLLocationCoordinate2D(latitude: ap.latitude, longitude: ap.longitude)))
+        }
+        let minX = points.map(\.x).min()!, maxX = points.map(\.x).max()!
+        let minY = points.map(\.y).min()!, maxY = points.map(\.y).max()!
+        let side = max(maxX - minX, maxY - minY, MKMapPointsPerMeterAtLatitude(spot.coordinate.latitude) * 250)
+        let pad = side * 0.45
+        let rect = MKMapRect(x: minX - pad, y: minY - pad,
+                             width: (maxX - minX) + pad * 2, height: (maxY - minY) + pad * 2.6)
+        return .rect(rect)
     }
 }
 

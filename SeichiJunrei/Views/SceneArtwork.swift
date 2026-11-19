@@ -65,11 +65,12 @@ struct SceneArtwork: View {
             VStack(spacing: compact ? 4 : 10) {
                 Image(systemName: "film.stack")
                     .font(compact ? .title3 : .system(size: 44, weight: .light))
-                Text(spot.sceneTitle)
-                    .font(compact ? .caption.bold() : .title2.bold())
-                    .multilineTextAlignment(.center)
-                    .lineLimit(2)
+                // 小缩略图里放不下文字（会被截成半截），只留图标
                 if !compact {
+                    Text(spot.sceneTitle)
+                        .font(.title2.bold())
+                        .multilineTextAlignment(.center)
+                        .lineLimit(2)
                     Text(spot.work).font(.subheadline).opacity(0.85)
                 }
             }
@@ -367,7 +368,7 @@ enum SceneSearchLink {
         let searchLang = SceneImageSearch.language(for: engine, userLanguage: AppLanguage.current)
         // 用搜索引擎的语言去搜（结果多）；界面语言不同时，每条配上用户看得懂的说明
         return SceneImageSearch.options(search: words(spot, searchLang), display: words(spot, AppLanguage.current),
-                                        engine: engine)
+                                        engine: engine, liveAction: spot.mediaType.category != .anime)
     }
 
     private static func words(_ spot: Spot, _ lang: String) -> SceneImageSearch.Words {

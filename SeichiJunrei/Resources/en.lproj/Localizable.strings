@@ -49,7 +49,7 @@
 "map.focusSubtitle" = "%@ · %ld scenes";
 "map.all" = "All";
 "map.showAll" = "Show all scenes";
-"map.arrivedTitle" = "You're standing in the scene!";
+"map.arrivedTitle" = "You're in the scene!";
 "map.needLocation" = "Location access is needed to find nearby spots. Tap to open Settings.";
 "map.alwaysPrompt" = "Allow location “Always” to get alerts near spots";
 "map.dontShowAgain" = "Don't show again";
